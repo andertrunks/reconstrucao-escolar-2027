@@ -25,3 +25,11 @@ TypeScript, lint, três testes unitários, validação de conteúdo e build apro
 ## Próximo passo
 
 Concluir primeira publicação e depois sincronizar novos materiais sem reconstruir aplicação. Não confundir conclusões editoriais da conversa com aprendizagem do estudante.
+
+## Continuidade operacional
+
+Repositório: https://github.com/andertrunks/reconstrucao-escolar-2027. Commit inicial a0eb30a. Primeira execução GitHub Actions bloqueou publicação por falha de recuperação de resposta após reload. Salvamento restringido a alterações do usuário; teste aguarda a nova questão antes de preenchê-la. Nova validação local: typecheck/lint/build e três testes Edge aprovados.
+
+Automação manter-reconstru-o-escolar-2027 ativa nesta tarefa, diariamente às 09h (America/Sao_Paulo), silenciosa sem novidades acionáveis. Ela depende da disponibilidade do ambiente local e dos conectores; não é um serviço de sincronização instalado no site.
+
+Cópia estruturada do diagnóstico no Drive: https://drive.google.com/file/d/18h7BWL51vwSb-WS5LidIGp28I0Zr3BM8/view. Índice mestre: https://drive.google.com/file/d/1NXekZGsVLYYwc-pTVJNeTKa6KtXRnlWn/view.

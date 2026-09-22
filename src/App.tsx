@@ -12,12 +12,12 @@ const kinds:ErrorKind[]=['conteúdo','interpretação','cálculo','distração',
 const route=()=>location.hash.slice(1)||'inicio';
 function download(state:StudyState){const url=URL.createObjectURL(new Blob([JSON.stringify(state,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='reconstrucao-escolar-progresso.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 export default function App(){
- const [path,setPath]=useState(route),[state,setState]=useState<StudyState>(emptyState),[ready,setReady]=useState(false),[notice,setNotice]=useState(''),[storageError,setStorageError]=useState(false),[theme,setTheme]=useState(()=>{try{return localStorage.getItem('school-theme')||'claro'}catch{return 'claro'}}),[query,setQuery]=useState('');
+ const [path,setPath]=useState(route),[state,setState]=useState<StudyState>(emptyState),[ready,setReady]=useState(false),[edited,setEdited]=useState(false),[notice,setNotice]=useState(''),[storageError,setStorageError]=useState(false),[theme,setTheme]=useState(()=>{try{return localStorage.getItem('school-theme')||'claro'}catch{return 'claro'}}),[query,setQuery]=useState('');
  const main=useRef<HTMLElement>(null),saveQueue=useRef(Promise.resolve());
  useEffect(()=>{const f=()=>{setPath(route());setTimeout(()=>{main.current?.focus();window.scrollTo(0,0)},0)};window.addEventListener('hashchange',f);loadStudy().then(setState).catch(()=>{setStorageError(true);setNotice('Não foi possível ler o armazenamento local. Exporte suas respostas antes de fechar esta página.');}).finally(()=>setReady(true));return()=>window.removeEventListener('hashchange',f)},[]);
  useEffect(()=>{document.documentElement.dataset.theme=theme;try{localStorage.setItem('school-theme',theme)}catch{/* Theme remains available in memory. */}},[theme]);
- useEffect(()=>{if(!ready||storageError)return;saveQueue.current=saveQueue.current.then(()=>saveStudy(state)).catch(()=>{setStorageError(true);setNotice('Falha ao salvar. Exporte seu progresso para não perder as respostas.');});},[state,ready,storageError]);
- const update=(f:(s:StudyState)=>StudyState)=>setState(s=>({...f(s),updatedAt:new Date().toISOString()}));
+ useEffect(()=>{if(!ready||storageError||!edited)return;saveQueue.current=saveQueue.current.then(()=>saveStudy(state)).catch(()=>{setStorageError(true);setNotice('Falha ao salvar. Exporte seu progresso para não perder as respostas.');});},[state,ready,storageError,edited]);
+ const update=(f:(s:StudyState)=>StudyState)=>{setEdited(true);setState(s=>({...f(s),updatedAt:new Date().toISOString()}));};
  const answered=diagnostic.questions.filter(q=>state.answers[q.id]?.trim()).length;
  const resume=continuation(state,diagnostic.questions.map(q=>q.id));
  const title=nav.find(n=>n[0]===path)?.[1]||(path.startsWith('diagnostico')?'Diagnóstico inicial':path.startsWith('aula/')?'Aula':path.startsWith('materia/')?subjects.find(s=>s[0]===path.split('/')[1])?.[1]:'Página não encontrada');
@@ -36,3 +36,4 @@ export default function App(){
  <><h1>Página não encontrada</h1><p>Este endereço não corresponde a um conteúdo publicado.</p><a href="#inicio">Voltar ao início</a></>}
  </Suspense>}</main><footer>Reconstrução Escolar · Compreensão antes de velocidade.<span>{storageError?'Armazenamento indisponível':'Progresso local neste navegador'} · v0.1.0</span></footer></div></div></>;
 }
+
