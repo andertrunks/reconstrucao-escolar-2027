@@ -1,6 +1,10 @@
 # Estado do projeto
 
-Versão: 0.1.0 validada localmente — 2026-09-22. Publicação em andamento.
+Versão: 0.1.0 publicada e verificada — 2026-09-22.
+
+URL: https://andertrunks.github.io/reconstrucao-escolar-2027/
+Commit da aplicação publicada: a6ded13fb92558d668f18a136a98732415858258.
+Deploy aprovado: https://github.com/andertrunks/reconstrucao-escolar-2027/actions/runs/35797147515.
 
 ## Última alteração
 
@@ -8,7 +12,7 @@ Criada primeira estrutura funcional React/TypeScript/Vite, dez áreas, claro/esc
 
 ## Conteúdos
 
-- Preparado para publicação: Diagnóstico Inicial 001, integral, 37 questões autorais; gabarito ausente na fonte.
+- Publicado: Diagnóstico Inicial 001, integral, 37 questões autorais; gabarito ausente na fonte.
 - Aulas integrais publicadas: zero.
 - A recuperar: 31 aulas MAT-NUM-001 a 017, MAT-FRA-001 a 008, MAT-DEC-001 a 006.
 - Planejado: MAT-DEC-007.
@@ -16,7 +20,7 @@ Criada primeira estrutura funcional React/TypeScript/Vite, dez áreas, claro/esc
 
 ## Pendências
 
-Verificar versão pública após GitHub Actions. Recuperar arquivos integrais de aulas e visuais; importar matriz real. Evoluir evidências de consolidação e prática corrigida com as primeiras aulas. PWA offline integral ainda não implementada. Leitura em voz alta nativa do Edge não foi ouvida nesta execução; não declarar validação auditiva completa.
+Recuperar arquivos integrais de aulas e visuais; importar matriz real. Evoluir evidências de consolidação e prática corrigida com as primeiras aulas. PWA offline integral ainda não implementada. Leitura em voz alta nativa do Edge não foi ouvida nesta execução; não declarar validação auditiva completa.
 
 ## Validação local
 
@@ -24,7 +28,7 @@ TypeScript, lint, três testes unitários, validação de conteúdo e build apro
 
 ## Próximo passo
 
-Concluir primeira publicação e depois sincronizar novos materiais sem reconstruir aplicação. Não confundir conclusões editoriais da conversa com aprendizagem do estudante.
+Recuperar primeiro MAT-NUM-001 integral, seus recursos e metadados; incorporar à matriz e publicar incrementalmente. Não confundir conclusões editoriais da conversa com aprendizagem do estudante.
 
 ## Continuidade operacional
 
@@ -33,3 +37,7 @@ Repositório: https://github.com/andertrunks/reconstrucao-escolar-2027. Commit i
 Automação manter-reconstru-o-escolar-2027 ativa nesta tarefa, diariamente às 09h (America/Sao_Paulo), silenciosa sem novidades acionáveis. Ela depende da disponibilidade do ambiente local e dos conectores; não é um serviço de sincronização instalado no site.
 
 Cópia estruturada do diagnóstico no Drive: https://drive.google.com/file/d/18h7BWL51vwSb-WS5LidIGp28I0Zr3BM8/view. Índice mestre: https://drive.google.com/file/d/1NXekZGsVLYYwc-pTVJNeTKa6KtXRnlWn/view.
+
+## Verificação pública
+
+GitHub Actions: todos os passos aprovados, incluindo três testes no Chromium/Linux e deploy Pages. Os três testes foram repetidos com sucesso no Edge contra a URL pública: navegação/axe/temas, persistência/retomada/caderno e celular/teclado. Inspeção adicional da página pública: zero violações axe e captura visual. A aba do site foi solicitada no painel do Codex.
