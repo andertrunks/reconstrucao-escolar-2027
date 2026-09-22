@@ -1,0 +1,418 @@
+[
+  {
+    "id": "MAT-DEC-001",
+    "title": "Frações decimais e sistema de numeração decimal além da vírgula",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-DEC-002",
+    "title": "Comparação e ordenação de números decimais: valor posicional, zeros equivalentes e reta numérica",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-DEC-003",
+    "title": "Adição e subtração de números decimais: valor posicional, reagrupamento e problemas",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-DEC-004",
+    "title": "Multiplicação de números decimais: significado, frações decimais, algoritmo e estimativa",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-DEC-005",
+    "title": "Divisão de números decimais: repartição, medida, equivalência e algoritmo",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-DEC-006",
+    "title": "Potenciação e expressões numéricas com números decimais",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-DEC-007",
+    "title": "Revisão integradora de números decimais",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-FRA-001",
+    "title": "Conceito de fração: parte-todo, quociente, medida e representação na reta numérica",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-FRA-002",
+    "title": "Frações equivalentes: diferentes representações do mesmo número",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-FRA-003",
+    "title": "Comparação e ordenação de frações: estratégias, reta numérica, equivalência e MMC",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-FRA-004",
+    "title": "Fração de uma quantidade: significado, estratégias e problemas",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-FRA-005",
+    "title": "Adição e subtração de frações: significado, denominadores comuns e estratégias",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-FRA-006",
+    "title": "Multiplicação de frações: fração de fração, modelo de área e significado do produto",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-FRA-007",
+    "title": "Divisão de frações: significado, medida, repartição e inverso multiplicativo",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-FRA-008",
+    "title": "Potenciação de frações e expressões numéricas com frações",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-NUM-001",
+    "title": "Números naturais, algarismos e valor posicional",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-NUM-002",
+    "title": "Composição, decomposição, leitura e escrita de números naturais",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-NUM-003",
+    "title": "Comparação, ordenação e representação de números naturais na reta numérica",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-NUM-004",
+    "title": "Adição de números naturais: significados, propriedades, cálculo mental e algoritmo",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-NUM-005",
+    "title": "Subtração de números naturais: significados, relação com a adição, cálculo e algoritmo",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-NUM-006",
+    "title": "Multiplicação de números naturais: significados, propriedades, estratégias e algoritmo",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-NUM-007",
+    "title": "Divisão de números naturais: significados, divisão euclidiana, estratégias e algoritmo",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-NUM-008",
+    "title": "Potenciação com números naturais: significado, propriedades e potências de dez",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-NUM-009",
+    "title": "Expressões numéricas com números naturais: ordem das operações, agrupadores e estratégia de resolução",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-NUM-010",
+    "title": "Múltiplos de números naturais: conceito, sequências, propriedades e reconhecimento",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-NUM-011",
+    "title": "Divisores de números naturais: conceito, pares de fatores e determinação sistemática",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-NUM-012",
+    "title": "Critérios de divisibilidade",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-NUM-013",
+    "title": "Números primos e compostos: definição, identificação, Crivo de Eratóstenes e importância aritmética",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-NUM-014",
+    "title": "Decomposição em fatores primos: fatoração, árvore de fatores e divisões sucessivas",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-NUM-015",
+    "title": "Máximo divisor comum, MDC: significado, métodos de cálculo e resolução de problemas",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-NUM-016",
+    "title": "Mínimo múltiplo comum, MMC: significado, métodos de cálculo e problemas de ciclos",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  },
+  {
+    "id": "MAT-NUM-017",
+    "title": "Revisão integradora de números naturais e divisibilidade",
+    "subject": "MAT",
+    "editorialStatus": "conteúdo a recuperar",
+    "source": {
+      "title": "Gerenciar criação de conteúdo",
+      "url": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859"
+    },
+    "drivePath": null,
+    "siteStatus": "não publicado",
+    "note": "Somente resumo recuperado. Arquivo integral e recursos visuais não disponíveis na leitura da conversa."
+  }
+]

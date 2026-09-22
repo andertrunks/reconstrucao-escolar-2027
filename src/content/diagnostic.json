@@ -1,0 +1,532 @@
+{
+  "id": "DIA-001",
+  "title": "Diagnóstico Inicial 001 — Matemática e Língua Portuguesa",
+  "source": {
+    "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+    "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk",
+    "checkedAt": "2026-09-22"
+  },
+  "introduction": "DIAGNÓSTICO INICIAL 001\nMatemática e Língua Portuguesa\nProjeto ENEM e Vestibulares 2027 – Reconstrução Escolar\n\n\nOBJETIVO\n\n\nEste diagnóstico não é uma prova para medir inteligência e não tem caráter de aprovação ou reprovação. A finalidade é localizar, com precisão, quais fundamentos já estão firmes e quais precisam ser reconstruídos antes de avançar para conteúdos mais complexos do Ensino Médio, ENEM, FUVEST, UNICAMP, UNESP e outros vestibulares.\n\n\nO diagnóstico foi pensado para começar pelo essencial. Ele não tenta testar todo o currículo escolar de uma vez. Depois da correção, os resultados servirão para definir o ponto inicial real da trilha.\n\n\nCOMO FAZER\n\n\n1. Faça sem pesquisar respostas.\n2. Na parte de Matemática, não use calculadora, salvo se uma questão disser o contrário.\n3. Pode usar papel para contas.\n4. Não há problema em escrever “não sei”.\n5. Se travar por mais de alguns minutos, marque a questão e siga.\n6. Pode fazer em blocos de 25 a 40 minutos.\n7. O tempo não será usado como nota neste primeiro diagnóstico.\n8. Registre as contas de Matemática sempre que possível. O raciocínio ajuda a identificar onde está a dificuldade.\n9. Na correção, cada erro será classificado como: conteúdo, interpretação, cálculo, distração ou estratégia.\n\n\nFORMATO DE RESPOSTA\n\n\nExemplo:\nP1: B\nP2: D\n...\nM1: 42\nM2: 3/4\n\n\nNa produção escrita, escreva normalmente o texto completo.",
+  "reading": "“Durante muitos anos, Carlos dizia que não gostava de ler. Quando precisava estudar, abria o livro, lia algumas linhas e logo se distraía. Um dia, encontrou uma reportagem sobre um assunto de que gostava muito. Leu até o fim sem perceber o tempo passar. A experiência não resolveu todas as suas dificuldades, mas mostrou que talvez o problema não fosse simplesmente ‘não gostar de leitura’. A partir dali, começou a experimentar textos diferentes e descobriu que compreender melhor também tornava a leitura menos cansativa.”",
+  "questions": [
+    {
+      "id": "DIA-001-P1",
+      "originalId": "P1",
+      "statement": "Qual é a ideia principal do texto?\n\n\nA) Carlos sempre foi um leitor excelente.\nB) Carlos descobriu que sua dificuldade com leitura era mais complexa do que simplesmente não gostar de ler.\nC) Carlos decidiu abandonar os estudos.\nD) Ler assuntos difíceis é sempre mais importante do que ler assuntos interessantes.",
+      "origin": "autoral",
+      "subject": "POR",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-P2",
+      "originalId": "P2",
+      "statement": "A expressão “A partir dali” refere-se a qual momento?\n\n\nA) Ao período em que Carlos dizia não gostar de ler.\nB) Ao momento em que ele abriu um livro para estudar.\nC) À experiência de ler até o fim uma reportagem de seu interesse.\nD) Ao momento em que deixou de estudar.",
+      "origin": "autoral",
+      "subject": "POR",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-P3",
+      "originalId": "P3",
+      "statement": "No trecho “Leu até o fim sem perceber o tempo passar”, podemos concluir que Carlos:\n\n\nA) ficou profundamente envolvido com a leitura.\nB) não compreendeu o texto.\nC) estava com pressa.\nD) leu apenas algumas linhas.",
+      "origin": "autoral",
+      "subject": "POR",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-P4",
+      "originalId": "P4",
+      "statement": "No contexto do texto, a palavra “simplesmente” ajuda a transmitir a ideia de que:\n\n\nA) havia apenas uma causa possível.\nB) a situação poderia ter mais de uma explicação.\nC) Carlos não precisava aprender a ler.\nD) todo texto é fácil.",
+      "origin": "autoral",
+      "subject": "POR",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-P5",
+      "originalId": "P5",
+      "statement": "Qual frase está pontuada de maneira mais adequada?\n\n\nA) Anderson estudou matemática português e história.\nB) Anderson estudou, matemática português, e história.\nC) Anderson estudou matemática, português e história.\nD) Anderson, estudou matemática português e história.",
+      "origin": "autoral",
+      "subject": "POR",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-P6",
+      "originalId": "P6",
+      "statement": "Assinale a alternativa escrita de acordo com a ortografia padrão.\n\n\nA) excessão\nB) exceção\nC) excesssão\nD) esceção",
+      "origin": "autoral",
+      "subject": "POR",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-P7",
+      "originalId": "P7",
+      "statement": "Na frase “Os alunos resolveram cuidadosamente o exercício”, a palavra “cuidadosamente” indica:\n\n\nA) uma ação.\nB) uma característica de “alunos”.\nC) o modo como a ação foi realizada.\nD) o nome de um objeto.",
+      "origin": "autoral",
+      "subject": "POR",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-P8",
+      "originalId": "P8",
+      "statement": "Qual frase apresenta concordância adequada?\n\n\nA) As questão estava difícil.\nB) As questões estavam difíceis.\nC) As questões estava difícil.\nD) A questões estavam difíceis.",
+      "origin": "autoral",
+      "subject": "POR",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-P9",
+      "originalId": "P9",
+      "statement": "Leia: “Marina estudou bastante, mas ainda estava insegura.”\n\n\nA palavra “mas” estabelece principalmente uma relação de:\n\n\nA) causa.\nB) oposição/contraste.\nC) conclusão.\nD) explicação.",
+      "origin": "autoral",
+      "subject": "POR",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-P10",
+      "originalId": "P10",
+      "statement": "Em “João comprou um livro novo. Ele começou a lê-lo naquela noite”, o pronome “Ele” refere-se a:\n\n\nA) livro.\nB) noite.\nC) João.\nD) novo.",
+      "origin": "autoral",
+      "subject": "POR",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-P11",
+      "originalId": "P11",
+      "statement": "Qual das sequências abaixo forma um pequeno parágrafo com progressão lógica?\n\n\nI. Depois, conferiu os erros e anotou o que precisava revisar.\nII. Primeiro, Pedro resolveu dez exercícios de matemática.\nIII. No dia seguinte, refez apenas as questões em que havia errado.\n\n\nA) I – II – III\nB) II – I – III\nC) III – II – I\nD) II – III – I",
+      "origin": "autoral",
+      "subject": "POR",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-P12",
+      "originalId": "P12",
+      "statement": "Leia a afirmação:\n\n\n“Ter acesso à informação não significa automaticamente compreender um assunto.”\n\n\nQual alternativa desenvolve melhor essa ideia?\n\n\nA) Basta encontrar uma informação na internet para dominá-la.\nB) Compreender exige interpretar, relacionar ideias e verificar se conseguimos aplicar o que aprendemos.\nC) Toda informação encontrada na internet está errada.\nD) Estudar significa memorizar palavras sem precisar entender.",
+      "origin": "autoral",
+      "subject": "POR",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-P13",
+      "originalId": "P13",
+      "statement": "Escreva um texto curto, de 8 a 12 linhas, sobre o tema:\n\n\n“Por que quero voltar a estudar seriamente aos 43 anos?”\n\n\nNão tente escrever “bonito”. Escreva do seu jeito, mas organize as ideias em começo, desenvolvimento e encerramento. Não use corretor de texto durante a produção.\n\n\nO que será observado:\n- clareza;\n- organização das ideias;\n- construção de frases;\n- pontuação;\n- ortografia;\n- conexão entre as partes;\n- capacidade de explicar uma ideia.",
+      "origin": "autoral",
+      "subject": "POR",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-M1",
+      "originalId": "M1",
+      "statement": "Calcule:\n47 + 38 =",
+      "origin": "autoral",
+      "subject": "MAT",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-M2",
+      "originalId": "M2",
+      "statement": "Calcule:\n125 - 79 =",
+      "origin": "autoral",
+      "subject": "MAT",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-M3",
+      "originalId": "M3",
+      "statement": "Calcule:\n8 × 7 =",
+      "origin": "autoral",
+      "subject": "MAT",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-M4",
+      "originalId": "M4",
+      "statement": "Calcule:\n144 ÷ 12 =",
+      "origin": "autoral",
+      "subject": "MAT",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-M5",
+      "originalId": "M5",
+      "statement": "Resolva respeitando a ordem das operações:\n6 + 4 × 3 =",
+      "origin": "autoral",
+      "subject": "MAT",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-M6",
+      "originalId": "M6",
+      "statement": "Calcule:\n3,5 + 2,75 =",
+      "origin": "autoral",
+      "subject": "MAT",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-M7",
+      "originalId": "M7",
+      "statement": "Qual fração representa a parte pintada se uma figura foi dividida em 8 partes iguais e 3 delas foram pintadas?\n\n\nA) 3/5\nB) 3/8\nC) 5/8\nD) 8/3",
+      "origin": "autoral",
+      "subject": "MAT",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-M8",
+      "originalId": "M8",
+      "statement": "Calcule:\n1/2 + 1/4 =",
+      "origin": "autoral",
+      "subject": "MAT",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-M9",
+      "originalId": "M9",
+      "statement": "Qual é o maior número?\n\n\nA) 0,45\nB) 0,5\nC) 0,405\nD) 0,49",
+      "origin": "autoral",
+      "subject": "MAT",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-M10",
+      "originalId": "M10",
+      "statement": "Um produto custa R$ 200,00 e recebe desconto de 10%. Qual é o valor do desconto?",
+      "origin": "autoral",
+      "subject": "MAT",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-M11",
+      "originalId": "M11",
+      "statement": "Depois do desconto da questão anterior, qual é o preço final do produto?",
+      "origin": "autoral",
+      "subject": "MAT",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-M12",
+      "originalId": "M12",
+      "statement": "Se 3 cadernos custam R$ 24,00 e todos têm o mesmo preço, quanto custam 5 cadernos?",
+      "origin": "autoral",
+      "subject": "MAT",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-M13",
+      "originalId": "M13",
+      "statement": "Em uma sala há 12 mulheres e 8 homens. Quantas pessoas há no total e que fração do total corresponde ao número de homens?",
+      "origin": "autoral",
+      "subject": "MAT",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-M14",
+      "originalId": "M14",
+      "statement": "Calcule:\n-5 + 12 =",
+      "origin": "autoral",
+      "subject": "MAT",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-M15",
+      "originalId": "M15",
+      "statement": "Resolva a equação:\nx + 7 = 19",
+      "origin": "autoral",
+      "subject": "MAT",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-M16",
+      "originalId": "M16",
+      "statement": "Resolva:\n2x = 18",
+      "origin": "autoral",
+      "subject": "MAT",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-M17",
+      "originalId": "M17",
+      "statement": "Calcule:\n2³ =",
+      "origin": "autoral",
+      "subject": "MAT",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-M18",
+      "originalId": "M18",
+      "statement": "Qual é a raiz quadrada de 81?",
+      "origin": "autoral",
+      "subject": "MAT",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-M19",
+      "originalId": "M19",
+      "statement": "Um retângulo mede 8 cm de comprimento e 5 cm de largura.\na) Qual é o perímetro?\nb) Qual é a área?",
+      "origin": "autoral",
+      "subject": "MAT",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-M20",
+      "originalId": "M20",
+      "statement": "Uma garrafa tem 1,5 litro de água. Isso corresponde a quantos mililitros?",
+      "origin": "autoral",
+      "subject": "MAT",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-M21",
+      "originalId": "M21",
+      "statement": "Observe os dados de horas de estudo:\n\n\nSegunda: 1 hora\nTerça: 2 horas\nQuarta: 0 hora\nQuinta: 3 horas\nSexta: 2 horas\n\n\na) Quantas horas foram estudadas no total?\nb) Qual foi a média diária de horas estudadas nesses cinco dias?",
+      "origin": "autoral",
+      "subject": "MAT",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-M22",
+      "originalId": "M22",
+      "statement": "Uma pessoa recebe R$ 2.500,00 por mês e decide guardar 8% desse valor. Quanto ela guardará?",
+      "origin": "autoral",
+      "subject": "MAT",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-M23",
+      "originalId": "M23",
+      "statement": "Um carro percorre 180 km utilizando 15 litros de combustível. Mantendo o mesmo consumo, quantos quilômetros ele percorre com 25 litros?",
+      "origin": "autoral",
+      "subject": "MAT",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    },
+    {
+      "id": "DIA-001-M24",
+      "originalId": "M24",
+      "statement": "Ana tinha R$ 120,00. Gastou 1/4 desse valor. Quanto dinheiro restou?",
+      "origin": "autoral",
+      "subject": "MAT",
+      "topics": [],
+      "difficulty": "diagnóstico",
+      "reviewStatus": "pendente",
+      "source": {
+        "title": "Diagnóstico Inicial 001 - Matemática e Língua Portuguesa",
+        "url": "https://docs.google.com/document/d/145MjE_sJEJDdOoJDLt2EXJfcQ9NuG-c7YWEFWlZoIRs/edit?usp=drivesdk"
+      }
+    }
+  ],
+  "closing": "Sem se preocupar em acertar, responda também:\n\n\nA1. Em Português, quais questões pareceram mais fáceis?\nA2. Em Português, quais pareceram mais difíceis?\nA3. Em Matemática, em quais você soube imediatamente o que fazer?\nA4. Em Matemática, em quais você não sabia nem como começar?\nA5. Durante o diagnóstico, aconteceu alguma destas situações?\n- li e precisei reler várias vezes;\n- sabia fazer, mas me distraí;\n- esqueci uma regra que já conhecia;\n- fiquei ansioso por não saber;\n- errei conta simples;\n- consegui raciocinar melhor quando escrevi os passos;\n- outra situação.\n\n\n\nCOMO O RESULTADO SERÁ ANALISADO\n\n\n\nNão será usada apenas uma nota total.\n\n\nPORTUGUÊS\nP1–P4: compreensão e interpretação.\nP5–P10: fundamentos gramaticais e funcionamento da língua.\nP11–P12: organização, coesão e raciocínio verbal.\nP13: produção escrita.\n\n\nMATEMÁTICA\nM1–M6: operações fundamentais, decimais e ordem das operações.\nM7–M9: frações, comparação e representação numérica.\nM10–M13: porcentagem, proporcionalidade, razão e problemas.\nM14–M18: números inteiros, álgebra, potências e raízes.\nM19–M20: geometria e medidas.\nM21–M24: leitura de dados, média e resolução de problemas.\n\n\nApós a correção, cada habilidade receberá um destes estados:\n- Base ausente: precisa ser ensinada desde o início.\n- Base frágil: há conhecimento parcial, mas precisamos reconstruir.\n- Em desenvolvimento: já existe compreensão, faltando prática e segurança.\n- Base firme: pode avançar para conteúdos seguintes.\n\n\nREGRA IMPORTANTE\n\n\nNão estudar antecipadamente para este diagnóstico. O objetivo é descobrir o ponto real de partida. O que não souber hoje será justamente matéria do projeto.\n\n\nFIM DO DIAGNÓSTICO INICIAL 001"
+}
