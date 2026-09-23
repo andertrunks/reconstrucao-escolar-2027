@@ -14,8 +14,8 @@ Criada primeira estrutura funcional React/TypeScript/Vite, dez áreas, claro/esc
 
 - Publicado: Diagnóstico Inicial 001, integral, 37 questões autorais; gabarito ausente na fonte.
 - Aulas integrais publicadas: zero.
-- A recuperar: 31 aulas MAT-NUM-001 a 017, MAT-FRA-001 a 008, MAT-DEC-001 a 006.
-- Planejado: MAT-DEC-007.
+- A recuperar: 48 aulas: MAT-NUM-001 a 017, MAT-FRA-001 a 008, MAT-DEC-001 a 007, MAT-RAZ-001 a 007, MAT-PCT-001 a 007 e MAT-JUR-001 a 002.
+- Planejado: MAT-JUR-003.
 - POR-INT-001: apenas referência, sem aula integral recuperada.
 
 ## Pendências
@@ -41,3 +41,9 @@ Cópia estruturada do diagnóstico no Drive: https://drive.google.com/file/d/18h
 ## Verificação pública
 
 GitHub Actions: todos os passos aprovados, incluindo três testes no Chromium/Linux e deploy Pages. Os três testes foram repetidos com sucesso no Edge contra a URL pública: navegação/axe/temas, persistência/retomada/caderno e celular/teclado. Inspeção adicional da página pública: zero violações axe e captura visual. A aba do site foi solicitada no painel do Codex.
+
+## Manutenção 2026-09-23
+
+Índice atualizado com 17 produções anunciadas após a inspeção anterior, sem novas aulas ou questões integrais importadas. Referências em docs/sources/editorial-2026-09-23.json. Download do pacote no Chrome bloqueado por ERR_BLOCKED_BY_CLIENT; próxima recuperação depende de acesso aos arquivos, não de recriação. TypeScript, lint, três testes unitários, validação de conteúdo, build e três testes Edge aprovados. Testes de navegador estabilizados: espera pela interface pronta antes de Tab e prazo de 60 segundos para auditoria das dez rotas. Índice Drive atualizado e verificado no mesmo ID. Publicação desta atualização: aguardando pipeline.
+
+Recuperação alternativa: a prévia de MAT-JUR-002 no ChatGPT exibe o texto até a seção 124, mas não contém os seis SVGs referenciados. Exportação da prévia não suportada pelo navegador conectado. Material ainda não importado integralmente; recuperar e conferir texto e recursos antes de publicar a aula.

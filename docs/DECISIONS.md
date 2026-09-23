@@ -17,3 +17,9 @@ React/TypeScript/Vite. Conteúdo JSON e modelos tipados. Carregamento sob demand
 ## Limite desta versão
 
 Estrutura de aulas/questões/progresso pronta para evolução; prática corrigida e critérios interativos completos de domínio dependem das primeiras aulas integrais. Simulados e leituras têm estados vazios honestos. Sem listas de obras, regras ou calendários de vestibulares não verificados. Funcionamento offline integral via PWA fica para uma atualização; progresso local já funciona sem serviço remoto.
+
+## 2026-09-23 — Sincronização editorial
+
+Identificadas 17 novas produções anunciadas: MAT-DEC-007, MAT-RAZ-001 a 007, MAT-PCT-001 a 007 e MAT-JUR-001 a 002. MAT-JUR-003 é planejado. Registradas referências de arquivos e mensagens sem importar resumos como aulas. Tentativa de download do pacote MAT-JUR-002 bloqueada pelo Chrome (ERR_BLOCKED_BY_CLIENT). Nenhuma proteção foi alterada. O estado mostrado pela interface passa a vir do índice, sem exceção fixa para MAT-DEC-007.
+
+Recuperação alternativa: a prévia de MAT-JUR-002 no ChatGPT exibe o texto até a seção 124, mas não contém os seis SVGs referenciados. Exportação da prévia não suportada pelo navegador conectado. Material ainda não importado integralmente; recuperar e conferir texto e recursos antes de publicar a aula.

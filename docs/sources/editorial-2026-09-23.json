@@ -1,0 +1,187 @@
+{
+  "checkedAt": "2026-09-23",
+  "conversation": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859",
+  "note": "Referências editoriais, não aulas integrais. Download do pacote MAT-JUR-002 bloqueado no Chrome: ERR_BLOCKED_BY_CLIENT. Nenhum conteúdo integral importado.",
+  "entries": [
+    {
+      "id": "MAT-JUR-002",
+      "title": "Juros compostos: capitalização, fator por período e crescimento exponencial",
+      "messageId": "856d59d2-63a5-461b-8e5f-4ff216669d73",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-JUR-002/MAT-JUR-002-juros-compostos.md",
+        "sandbox:/mnt/data/MAT-JUR-002-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-JUR-001",
+      "title": "Juros simples: capital, taxa, tempo, juros e montante",
+      "messageId": "67ec3848-e22d-4de9-a5e7-895ada0cf596",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-JUR-001/MAT-JUR-001-juros-simples.md",
+        "sandbox:/mnt/data/MAT-JUR-001-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-PCT-007",
+      "title": "Revisão integradora de porcentagem: significado, cálculo, variações e modelagem",
+      "messageId": "a151a407-5155-40aa-b0d0-dc0f07feaaaa",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-PCT-007/MAT-PCT-007-revisao-integradora-porcentagem.md",
+        "sandbox:/mnt/data/MAT-PCT-007-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-PCT-006",
+      "title": "Aumentos e descontos sucessivos: fatores multiplicativos e bases diferentes",
+      "messageId": "c7250c63-dbc3-4395-9d6d-a9a751ac607d",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-PCT-006/MAT-PCT-006-aumentos-descontos-sucessivos.md",
+        "sandbox:/mnt/data/MAT-PCT-006-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-PCT-005",
+      "title": "Descontos percentuais: redução, preço final e fator multiplicativo",
+      "messageId": "608b5a81-9e77-47c6-94c9-a94a2dc060e2",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-PCT-005/MAT-PCT-005-descontos-percentuais.md",
+        "sandbox:/mnt/data/MAT-PCT-005-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-PCT-004",
+      "title": "Acréscimos percentuais: aumento, valor inicial e valor final",
+      "messageId": "8d6d9a9c-49c3-46b0-a7c7-3c272dc83b88",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-PCT-004/MAT-PCT-004-acrescimos-percentuais.md",
+        "sandbox:/mnt/data/MAT-PCT-004-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-PCT-003",
+      "title": "Parte, percentual e total: os três tipos fundamentais de problema",
+      "messageId": "86cd98ac-c4c2-4750-b970-bcdac45c8513",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-PCT-003/MAT-PCT-003-parte-percentual-total.md",
+        "sandbox:/mnt/data/MAT-PCT-003-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-PCT-002",
+      "title": "Cálculo de porcentagens de uma quantidade: estratégias mentais, frações e decimais",
+      "messageId": "0105847d-ced9-4365-aaa2-cf61b777537b",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-PCT-002/MAT-PCT-002-calculo-porcentagens-quantidade.md",
+        "sandbox:/mnt/data/MAT-PCT-002-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-PCT-001",
+      "title": "Porcentagem: razão centesimal e significado de “por cento”",
+      "messageId": "193ad820-44ba-4309-97d0-ff6f73cccda1",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-PCT-001/MAT-PCT-001-porcentagem-razao-centesimal.md",
+        "sandbox:/mnt/data/MAT-PCT-001-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-RAZ-007",
+      "title": "Revisão integradora de razão, proporção e regra de três",
+      "messageId": "d8ad791a-505d-4931-9d69-46b07579bad9",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-RAZ-007/MAT-RAZ-007-revisao-integradora-razao-proporcao-regra-de-tres.md",
+        "sandbox:/mnt/data/MAT-RAZ-007-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-RAZ-006",
+      "title": "Regra de três simples: direta e inversa com fundamento",
+      "messageId": "39aeec8e-5663-4df5-b5e1-0dc49e4c9255",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-RAZ-006/MAT-RAZ-006-regra-de-tres-simples-direta-inversa.md",
+        "sandbox:/mnt/data/MAT-RAZ-006-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-RAZ-005",
+      "title": "Grandezas inversamente proporcionais: produto constante, y = k/x, tabelas e gráficos",
+      "messageId": "7ea91bc6-3c74-4af0-bb1c-48089574c74d",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-RAZ-005/MAT-RAZ-005-grandezas-inversamente-proporcionais.md",
+        "sandbox:/mnt/data/MAT-RAZ-005-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-RAZ-004",
+      "title": "Grandezas diretamente proporcionais: razão constante, y = kx, tabelas e gráficos",
+      "messageId": "4a449938-35bd-4041-99b5-4574986cb6ac",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-RAZ-004/MAT-RAZ-004-grandezas-diretamente-proporcionais.md",
+        "sandbox:/mnt/data/MAT-RAZ-004-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-RAZ-003",
+      "title": "Proporção: igualdade entre razões e propriedade fundamental",
+      "messageId": "748a1fc2-66c2-42c5-af77-d16ad154000e",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-RAZ-003/MAT-RAZ-003-proporcao-igualdade-razoes-propriedade-fundamental.md",
+        "sandbox:/mnt/data/MAT-RAZ-003-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-RAZ-002",
+      "title": "Razões equivalentes, razão unitária e aplicações",
+      "messageId": "c6d39423-fd08-4166-a158-39539e8c342a",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-RAZ-002/MAT-RAZ-002-razoes-equivalentes-razao-unitaria-aplicacoes.md",
+        "sandbox:/mnt/data/MAT-RAZ-002-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-RAZ-001",
+      "title": "Razão: comparação multiplicativa entre grandezas",
+      "messageId": "d4c8b719-cde9-4752-adf1-de4616a16305",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-RAZ-001/MAT-RAZ-001-razao-comparacao-multiplicativa.md",
+        "sandbox:/mnt/data/MAT-RAZ-001-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-DEC-007",
+      "title": "Revisão integradora de números decimais: diagnóstico, operações, estimativa e problemas",
+      "messageId": "0a660276-c302-4a2e-8a70-1c463bdeeb8a",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-DEC-007/MAT-DEC-007-revisao-integradora-decimais.md",
+        "sandbox:/mnt/data/MAT-DEC-007-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-DEC-006",
+      "title": "Potenciação e expressões numéricas com números decimais",
+      "messageId": "86083a3f-2c36-40dc-8fa7-b826c5c70644",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-DEC-006/MAT-DEC-006-potenciacao-expressoes-decimais.md",
+        "sandbox:/mnt/data/MAT-DEC-006-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-DEC-005",
+      "title": "Divisão de números decimais: repartição, medida, equivalência e algoritmo",
+      "messageId": "df46ae05-e373-4cc3-a9ff-14720b217d81",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-DEC-005/MAT-DEC-005-divisao-decimais.md",
+        "sandbox:/mnt/data/MAT-DEC-005-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-DEC-004",
+      "title": "Multiplicação de números decimais: significado, frações decimais, algoritmo e estimativa",
+      "messageId": "2a5e37f6-779c-41a5-b192-7af4edc7a266",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-DEC-004/MAT-DEC-004-multiplicacao-decimais.md",
+        "sandbox:/mnt/data/MAT-DEC-004-pacote-site.zip"
+      ]
+    }
+  ]
+}
