@@ -1,10 +1,10 @@
 # Estado do projeto
 
-Versão: 0.1.0 publicada e verificada — 2026-09-22.
+Versão: 0.1.0 com atualização editorial publicada e verificada — 2026-09-23.
 
 URL: https://andertrunks.github.io/reconstrucao-escolar-2027/
-Commit da aplicação publicada: a6ded13fb92558d668f18a136a98732415858258.
-Deploy aprovado: https://github.com/andertrunks/reconstrucao-escolar-2027/actions/runs/35797147515.
+Commit da aplicação publicada: cf228b9f87cdd71093b6be00eed46f821f8884bf.
+Deploy aprovado: https://github.com/andertrunks/reconstrucao-escolar-2027/actions/runs/35859277117.
 
 ## Última alteração
 
@@ -44,6 +44,6 @@ GitHub Actions: todos os passos aprovados, incluindo três testes no Chromium/Li
 
 ## Manutenção 2026-09-23
 
-Índice atualizado com 17 produções anunciadas após a inspeção anterior, sem novas aulas ou questões integrais importadas. Referências em docs/sources/editorial-2026-09-23.json. Download do pacote no Chrome bloqueado por ERR_BLOCKED_BY_CLIENT; próxima recuperação depende de acesso aos arquivos, não de recriação. TypeScript, lint, três testes unitários, validação de conteúdo, build e três testes Edge aprovados. Testes de navegador estabilizados: espera pela interface pronta antes de Tab e prazo de 60 segundos para auditoria das dez rotas. Índice Drive atualizado e verificado no mesmo ID. Publicação desta atualização: aguardando pipeline.
+Índice atualizado com 17 produções anunciadas após a inspeção anterior, sem novas aulas ou questões integrais importadas. Referências em docs/sources/editorial-2026-09-23.json. Download do pacote no Chrome bloqueado por ERR_BLOCKED_BY_CLIENT; próxima recuperação depende de acesso aos arquivos, não de recriação. TypeScript, lint, três testes unitários, validação de conteúdo, build e três testes Edge aprovados. Testes de navegador estabilizados: espera pela interface pronta antes de Tab e prazo de 60 segundos para auditoria das dez rotas. Índice Drive atualizado e verificado no mesmo ID. Publicação aprovada pelo GitHub Actions. Três testes Edge repetidos com sucesso contra a URL pública; índice aberto no navegador e conferidos MAT-DEC-007 como conteúdo a recuperar e MAT-JUR-003 como planejado.
 
 Recuperação alternativa: a prévia de MAT-JUR-002 no ChatGPT exibe o texto até a seção 124, mas não contém os seis SVGs referenciados. Exportação da prévia não suportada pelo navegador conectado. Material ainda não importado integralmente; recuperar e conferir texto e recursos antes de publicar a aula.
