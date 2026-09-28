@@ -14,8 +14,8 @@ Criada primeira estrutura funcional React/TypeScript/Vite, dez áreas, claro/esc
 
 - Publicado: Diagnóstico Inicial 001, integral, 37 questões autorais; gabarito ausente na fonte.
 - Aulas integrais publicadas: zero.
-- A recuperar: 48 aulas: MAT-NUM-001 a 017, MAT-FRA-001 a 008, MAT-DEC-001 a 007, MAT-RAZ-001 a 007, MAT-PCT-001 a 007 e MAT-JUR-001 a 002.
-- Planejado: MAT-JUR-003.
+- A recuperar: 79 materiais (48 anteriores, MAT-FIN-003 a 026 e MAT-EST-001 a 007).
+- Planejado: MAT-EST-008. MAT-JUR-003 preservado com código a conferir frente a MAT-FIN-003.
 - POR-INT-001: apenas referência, sem aula integral recuperada.
 
 ## Pendências
@@ -47,3 +47,13 @@ GitHub Actions: todos os passos aprovados, incluindo três testes no Chromium/Li
 Índice atualizado com 17 produções anunciadas após a inspeção anterior, sem novas aulas ou questões integrais importadas. Referências em docs/sources/editorial-2026-09-23.json. Download do pacote no Chrome bloqueado por ERR_BLOCKED_BY_CLIENT; próxima recuperação depende de acesso aos arquivos, não de recriação. TypeScript, lint, três testes unitários, validação de conteúdo, build e três testes Edge aprovados. Testes de navegador estabilizados: espera pela interface pronta antes de Tab e prazo de 60 segundos para auditoria das dez rotas. Índice Drive atualizado e verificado no mesmo ID. Publicação aprovada pelo GitHub Actions. Três testes Edge repetidos com sucesso contra a URL pública; índice aberto no navegador e conferidos MAT-DEC-007 como conteúdo a recuperar e MAT-JUR-003 como planejado.
 
 Recuperação alternativa: a prévia de MAT-JUR-002 no ChatGPT exibe o texto até a seção 124, mas não contém os seis SVGs referenciados. Exportação da prévia não suportada pelo navegador conectado. Material ainda não importado integralmente; recuperar e conferir texto e recursos antes de publicar a aula.
+
+## Atualização 2026-09-25
+
+Consultadas fontes do Drive, sem novos arquivos na pasta Matemática, e as conversas Gerenciar criação de conteúdo e Continuar Matemática Financeira. Acrescentadas 31 referências: MAT-FIN-003 a 026 e MAT-EST-001 a 007. Total: 79 materiais a recuperar, MAT-EST-008 planejado e MAT-JUR-003 com código a conferir. Nenhuma aula ou questão integral adicionada. Preservados MAT-JUR-001/002; não duplicados como MAT-FIN-001/002 a partir do resumo de continuidade. Download de MAT-EST-007 acionado pela interface, sem arquivo localizado em Downloads; acesso ao gerenciador interno do Chrome recusado pela política de navegação, sem contornar o bloqueio. Recuperação dos pacotes segue pendente.
+
+Validação local aprovada em 28/09: TypeScript, lint, três testes unitários, conteúdo, build e três testes Edge. Publicação pendente. Próximo passo: recuperar pacotes integrais, conferir correspondência MAT-JUR/MAT-FIN e importar sem reconstrução.
+
+## Retomada 2026-09-28
+
+Repositório sincronizado com origin/main antes de publicar a atualização pendente. Busca de alterações no Drive desde 25/09 não encontrou novos documentos nas pastas de fontes, materiais e Matemática. Conversas Continuar material produzido e Padronizar materiais no projeto localizadas, mas o conector retornou somente referências internas chatgpt-content-reference, sem texto integral nem anexos. Conteúdos dessas conversas ainda não inventariados; recuperar originais antes de importar. A validação interrompida da sessão anterior foi reiniciada.

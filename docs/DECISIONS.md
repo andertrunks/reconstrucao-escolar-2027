@@ -23,3 +23,7 @@ Estrutura de aulas/questões/progresso pronta para evolução; prática corrigid
 Identificadas 17 novas produções anunciadas: MAT-DEC-007, MAT-RAZ-001 a 007, MAT-PCT-001 a 007 e MAT-JUR-001 a 002. MAT-JUR-003 é planejado. Registradas referências de arquivos e mensagens sem importar resumos como aulas. Tentativa de download do pacote MAT-JUR-002 bloqueada pelo Chrome (ERR_BLOCKED_BY_CLIENT). Nenhuma proteção foi alterada. O estado mostrado pela interface passa a vir do índice, sem exceção fixa para MAT-DEC-007.
 
 Recuperação alternativa: a prévia de MAT-JUR-002 no ChatGPT exibe o texto até a seção 124, mas não contém os seis SVGs referenciados. Exportação da prévia não suportada pelo navegador conectado. Material ainda não importado integralmente; recuperar e conferir texto e recursos antes de publicar a aula.
+
+## Atualização 2026-09-25
+
+Consultadas fontes do Drive, sem novos arquivos na pasta Matemática, e as conversas Gerenciar criação de conteúdo e Continuar Matemática Financeira. Acrescentadas 31 referências: MAT-FIN-003 a 026 e MAT-EST-001 a 007. Total: 79 materiais a recuperar, MAT-EST-008 planejado e MAT-JUR-003 com código a conferir. Nenhuma aula ou questão integral adicionada. Preservados MAT-JUR-001/002; não duplicados como MAT-FIN-001/002 a partir do resumo de continuidade. Download de MAT-EST-007 acionado pela interface, sem arquivo localizado em Downloads; acesso ao gerenciador interno do Chrome recusado pela política de navegação, sem contornar o bloqueio. Recuperação dos pacotes segue pendente.

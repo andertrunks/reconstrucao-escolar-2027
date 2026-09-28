@@ -1,0 +1,349 @@
+{
+  "checkedAt": "2026-09-25",
+  "note": "Referências de produção, não textos integrais. MAT-FIN-001/002 mencionados em resumo de continuidade podem corresponder a MAT-JUR-001/002; não criar duplicatas nem renomear sem comparar originais. MAT-JUR-003 foi planejado antes da produção MAT-FIN-003; reconciliação pendente.",
+  "entries": [
+    {
+      "id": "MAT-FIN-020",
+      "title": "Horizonte comum, repetição de projetos e mínimo múltiplo comum das vidas úteis",
+      "messageId": "542481a6-60f4-4985-a38f-c5cc205798a8",
+      "sourceTitle": "Gerenciar criação de conteúdo",
+      "sourceUrl": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-FIN-020/MAT-FIN-020-horizonte-comum-repeticao-projetos-mmc.md",
+        "sandbox:/mnt/data/MAT-FIN-020-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-FIN-019",
+      "title": "Valor Anual Equivalente e Custo Anual Equivalente: comparando projetos com vidas úteis diferentes",
+      "messageId": "e3652a7b-7897-4438-8335-51d0b931571a",
+      "sourceTitle": "Gerenciar criação de conteúdo",
+      "sourceUrl": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-FIN-019/MAT-FIN-019-valor-anual-equivalente-custo-anual-equivalente.md",
+        "sandbox:/mnt/data/MAT-FIN-019-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-FIN-018",
+      "title": "ROI, índice de lucratividade e comparação integrada entre VPL, TIR e payback",
+      "messageId": "c736be58-0c2a-4ae3-a1dd-95ea5a5971e0",
+      "sourceTitle": "Gerenciar criação de conteúdo",
+      "sourceUrl": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-FIN-018/MAT-FIN-018-roi-indice-lucratividade-comparacao-integrada.md",
+        "sandbox:/mnt/data/MAT-FIN-018-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-FIN-017",
+      "title": "Payback simples e descontado: em quanto tempo o capital é recuperado",
+      "messageId": "cf323547-e8a2-4620-8408-55f50c30c55f",
+      "sourceTitle": "Gerenciar criação de conteúdo",
+      "sourceUrl": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-FIN-017/MAT-FIN-017-payback-simples-descontado.md",
+        "sandbox:/mnt/data/MAT-FIN-017-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-FIN-016",
+      "title": "Taxa Interna de Retorno: a taxa que zera o VPL, interpretação e limites",
+      "messageId": "ab362af9-e87f-4927-8454-fbb0c1066254",
+      "sourceTitle": "Gerenciar criação de conteúdo",
+      "sourceUrl": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-FIN-016/MAT-FIN-016-taxa-interna-retorno-tir.md",
+        "sandbox:/mnt/data/MAT-FIN-016-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-FIN-015",
+      "title": "Valor Presente Líquido: fluxos com entradas e saídas, taxa mínima e avaliação financeira",
+      "messageId": "01c55921-590b-4f18-8849-87a140babfcb",
+      "sourceTitle": "Gerenciar criação de conteúdo",
+      "sourceUrl": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-FIN-015/MAT-FIN-015-valor-presente-liquido-vpl.md",
+        "sandbox:/mnt/data/MAT-FIN-015-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-FIN-014",
+      "title": "Liquidação antecipada e desconto financeiro: valor atual de dívidas e abatimento de juros futuros",
+      "messageId": "18988d7f-7f9b-4fcd-844e-5836af999831",
+      "sourceTitle": "Gerenciar criação de conteúdo",
+      "sourceUrl": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-FIN-014/MAT-FIN-014-liquidacao-antecipada-desconto-financeiro.md",
+        "sandbox:/mnt/data/MAT-FIN-014-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-FIN-013",
+      "title": "Fluxos não uniformes e equivalência de pagamentos: balões, parcelas diferentes e renegociação",
+      "messageId": "d1c9f01f-2d3f-414e-954f-55ab5a9070d8",
+      "sourceTitle": "Gerenciar criação de conteúdo",
+      "sourceUrl": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-FIN-013/MAT-FIN-013-fluxos-nao-uniformes-equivalencia-renegociacao.md",
+        "sandbox:/mnt/data/MAT-FIN-013-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-FIN-012",
+      "title": "Séries antecipadas, diferidas e carência: entrada, primeira parcela e deslocamento de fluxos",
+      "messageId": "2cddfe16-c1b8-416a-9cb3-d42518625449",
+      "sourceTitle": "Gerenciar criação de conteúdo",
+      "sourceUrl": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-FIN-012/MAT-FIN-012-series-antecipadas-diferidas-carencia.md",
+        "sandbox:/mnt/data/MAT-FIN-012-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-FIN-011",
+      "title": "Séries uniformes de pagamentos: valor presente e valor futuro de anuidades",
+      "messageId": "5f1932df-aaf3-4a63-9be8-52bc00cf7248",
+      "sourceTitle": "Gerenciar criação de conteúdo",
+      "sourceUrl": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-FIN-011/MAT-FIN-011-series-uniformes-anuidades-valor-presente-futuro.md",
+        "sandbox:/mnt/data/MAT-FIN-011-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-FIN-010",
+      "title": "Valor presente, valor futuro e equivalência de capitais: comparando dinheiro em datas diferentes",
+      "messageId": "6448fbde-51a5-4b7a-8ff2-6e276813e9bb",
+      "sourceTitle": "Gerenciar criação de conteúdo",
+      "sourceUrl": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-FIN-010/MAT-FIN-010-valor-presente-valor-futuro-equivalencia-capitais.md",
+        "sandbox:/mnt/data/MAT-FIN-010-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-FIN-009",
+      "title": "Custo Efetivo Total: juros, tarifas, seguros e comparação de propostas de crédito",
+      "messageId": "cafc125d-1c2b-493f-8c19-6c29690a3263",
+      "sourceTitle": "Gerenciar criação de conteúdo",
+      "sourceUrl": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-FIN-009/MAT-FIN-009-custo-efetivo-total-cet.md",
+        "sandbox:/mnt/data/MAT-FIN-009-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-FIN-008",
+      "title": "SAC versus Price: comparação completa de prestações, saldo devedor, juros totais e custo do financiamento",
+      "messageId": "8efcbc67-19b6-4022-be59-097f13e0ad1f",
+      "sourceTitle": "Gerenciar criação de conteúdo",
+      "sourceUrl": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-FIN-008/MAT-FIN-008-sac-versus-price-comparacao-completa.md",
+        "sandbox:/mnt/data/MAT-FIN-008-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-FIN-007",
+      "title": "Sistema Price: prestação constante, amortização crescente e saldo devedor",
+      "messageId": "b770c488-1f9e-49f7-a44a-6eb68d1d11a0",
+      "sourceTitle": "Gerenciar criação de conteúdo",
+      "sourceUrl": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-FIN-007/MAT-FIN-007-price-prestacao-constante-amortizacao-crescente.md",
+        "sandbox:/mnt/data/MAT-FIN-007-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-FIN-006",
+      "title": "SAC: Sistema de Amortização Constante, prestações decrescentes e saldo devedor",
+      "messageId": "890a0965-d6ce-415c-bee3-f9751483e210",
+      "sourceTitle": "Gerenciar criação de conteúdo",
+      "sourceUrl": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-FIN-006/MAT-FIN-006-sac-amortizacao-constante-prestacoes-decrescentes.md",
+        "sandbox:/mnt/data/MAT-FIN-006-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-FIN-005",
+      "title": "Financiamentos: dívida, prestação, amortização, juros e saldo devedor",
+      "messageId": "cadeb9b8-7c95-441d-a52f-004194a567bf",
+      "sourceTitle": "Gerenciar criação de conteúdo",
+      "sourceUrl": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-FIN-005/MAT-FIN-005-financiamentos-divida-prestacao-amortizacao.md",
+        "sandbox:/mnt/data/MAT-FIN-005-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-FIN-004",
+      "title": "Inflação, poder de compra, taxa aparente e taxa real",
+      "messageId": "66cf9682-944f-447a-b535-290ac0ded69b",
+      "sourceTitle": "Gerenciar criação de conteúdo",
+      "sourceUrl": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-FIN-004/MAT-FIN-004-inflacao-poder-compra-taxa-real.md",
+        "sandbox:/mnt/data/MAT-FIN-004-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-FIN-003",
+      "title": "Taxas equivalentes em juros compostos: taxa mensal, anual, semestral e fator equivalente",
+      "messageId": "346fc3e9-4038-45b3-ad9e-800d79069a88",
+      "sourceTitle": "Gerenciar criação de conteúdo",
+      "sourceUrl": "https://chatgpt.com/c/6ab081e1-87cc-83e9-8cf4-8048d63c6859",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-FIN-003/MAT-FIN-003-taxas-equivalentes-juros-compostos.md",
+        "sandbox:/mnt/data/MAT-FIN-003-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-EST-007",
+      "title": "Medidas de dispersão I: amplitude, desvios e desvio médio",
+      "messageId": "d6f49a62-d1eb-49a0-944e-1b9d831555da",
+      "sourceTitle": "Continuar Matemática Financeira",
+      "sourceUrl": "https://chatgpt.com/c/6ab4f48a-c0c4-83e9-a999-06f5283ad0ff",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-EST-007/MAT-EST-007-medidas-dispersao-amplitude-desvio-medio.md",
+        "sandbox:/mnt/data/MAT-EST-007-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-EST-006",
+      "title": "Mediana e moda: posição, frequência e comparação com a média",
+      "messageId": "99b0c7f0-b91b-49d6-9be2-a276b1dc94dc",
+      "sourceTitle": "Continuar Matemática Financeira",
+      "sourceUrl": "https://chatgpt.com/c/6ab4f48a-c0c4-83e9-a999-06f5283ad0ff",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-EST-006/MAT-EST-006-mediana-moda.md",
+        "sandbox:/mnt/data/MAT-EST-006-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-EST-005",
+      "title": "Média aritmética: significado, cálculo, média ponderada e efeito de valores extremos",
+      "messageId": "540d55dc-7496-41b0-8850-2859743b294c",
+      "sourceTitle": "Continuar Matemática Financeira",
+      "sourceUrl": "https://chatgpt.com/c/6ab4f48a-c0c4-83e9-a999-06f5283ad0ff",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-EST-005/MAT-EST-005-media-aritmetica.md",
+        "sandbox:/mnt/data/MAT-EST-005-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-EST-004",
+      "title": "Gráficos estatísticos: barras, setores, linhas, histogramas e escolha da representação",
+      "messageId": "f49ee487-75ba-44a8-9bf8-779b171fb5d4",
+      "sourceTitle": "Continuar Matemática Financeira",
+      "sourceUrl": "https://chatgpt.com/c/6ab4f48a-c0c4-83e9-a999-06f5283ad0ff",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-EST-004/MAT-EST-004-graficos-estatisticos.md",
+        "sandbox:/mnt/data/MAT-EST-004-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-EST-003",
+      "title": "Organização de dados e tabelas de frequência: absoluta, relativa e acumulada",
+      "messageId": "6da1a203-8d02-4fa9-b1d0-14020a3f866e",
+      "sourceTitle": "Continuar Matemática Financeira",
+      "sourceUrl": "https://chatgpt.com/c/6ab4f48a-c0c4-83e9-a999-06f5283ad0ff",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-EST-003/MAT-EST-003-organizacao-dados-tabelas-frequencia.md",
+        "sandbox:/mnt/data/MAT-EST-003-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-EST-002",
+      "title": "Censo, amostragem e representatividade: como escolher uma amostra",
+      "messageId": "3994902a-bc43-4cb5-ab16-919b3cfae0c2",
+      "sourceTitle": "Continuar Matemática Financeira",
+      "sourceUrl": "https://chatgpt.com/c/6ab4f48a-c0c4-83e9-a999-06f5283ad0ff",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-EST-002/MAT-EST-002-censo-amostragem-representatividade.md",
+        "sandbox:/mnt/data/MAT-EST-002-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-EST-001",
+      "title": "Introdução à Estatística: população, amostra, variável e dado",
+      "messageId": "4fd67de3-e161-41af-b481-50f23d78777d",
+      "sourceTitle": "Continuar Matemática Financeira",
+      "sourceUrl": "https://chatgpt.com/c/6ab4f48a-c0c4-83e9-a999-06f5283ad0ff",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-EST-001/MAT-EST-001-introducao-estatistica-populacao-amostra-variavel-dado.md",
+        "sandbox:/mnt/data/MAT-EST-001-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-FIN-026",
+      "title": "Simulado cumulativo e auditoria de domínio de Matemática Financeira",
+      "messageId": "92d323d1-59f1-4931-bedc-5e230e5e42f6",
+      "sourceTitle": "Continuar Matemática Financeira",
+      "sourceUrl": "https://chatgpt.com/c/6ab4f48a-c0c4-83e9-a999-06f5283ad0ff",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-FIN-026/MAT-FIN-026-simulado-cumulativo-auditoria-dominio.md",
+        "sandbox:/mnt/data/MAT-FIN-026/MAT-FIN-026-folha-respostas.md",
+        "sandbox:/mnt/data/MAT-FIN-026/MAT-FIN-026-gabarito-comentado.md",
+        "sandbox:/mnt/data/MAT-FIN-026-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-FIN-025",
+      "title": "Síntese integrada de Matemática Financeira: escolha de modelos e problemas mistos",
+      "messageId": "c23f734d-8dbe-484f-a1f6-d4ccbf3a9507",
+      "sourceTitle": "Continuar Matemática Financeira",
+      "sourceUrl": "https://chatgpt.com/c/6ab4f48a-c0c4-83e9-a999-06f5283ad0ff",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-FIN-025/MAT-FIN-025-sintese-integrada-matematica-financeira.md",
+        "sandbox:/mnt/data/MAT-FIN-025-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-FIN-024",
+      "title": "Equações financeiras exponenciais e logarítmicas: cálculo de taxa, prazo e tempo de duplicação",
+      "messageId": "1a8596ce-4f3c-4a11-8736-d6d749e3ce63",
+      "sourceTitle": "Continuar Matemática Financeira",
+      "sourceUrl": "https://chatgpt.com/c/6ab4f48a-c0c4-83e9-a999-06f5283ad0ff",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-FIN-024/MAT-FIN-024-equacoes-financeiras-exponenciais-logaritmicas.md",
+        "sandbox:/mnt/data/MAT-FIN-024-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-FIN-023",
+      "title": "Capitalização contínua, taxa instantânea e o número e",
+      "messageId": "0db95748-c37b-4a89-b2a6-ed489ab73ae8",
+      "sourceTitle": "Continuar Matemática Financeira",
+      "sourceUrl": "https://chatgpt.com/c/6ab4f48a-c0c4-83e9-a999-06f5283ad0ff",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-FIN-023/MAT-FIN-023-capitalizacao-continua-taxa-instantanea-numero-e.md",
+        "sandbox:/mnt/data/MAT-FIN-023-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-FIN-022",
+      "title": "Gradientes aritméticos e geométricos em séries de pagamentos",
+      "messageId": "0c6c6505-ba0c-4452-baa7-ad4ba4f49578",
+      "sourceTitle": "Continuar Matemática Financeira",
+      "sourceUrl": "https://chatgpt.com/c/6ab4f48a-c0c4-83e9-a999-06f5283ad0ff",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-FIN-022/MAT-FIN-022-gradientes-aritmeticos-geometricos-series-pagamentos.md",
+        "sandbox:/mnt/data/MAT-FIN-022-pacote-site.zip"
+      ]
+    },
+    {
+      "id": "MAT-FIN-021",
+      "title": "Perpetuidades, valor capitalizado e séries infinitas: quando o fluxo não tem data final",
+      "messageId": "f67dccbd-27c3-4856-b2e4-8529ac59ad43",
+      "sourceTitle": "Continuar Matemática Financeira",
+      "sourceUrl": "https://chatgpt.com/c/6ab4f48a-c0c4-83e9-a999-06f5283ad0ff",
+      "artifactReferences": [
+        "sandbox:/mnt/data/MAT-FIN-021/MAT-FIN-021-perpetuidades-valor-capitalizado-series-infinitas.md",
+        "sandbox:/mnt/data/MAT-FIN-021-pacote-site.zip"
+      ]
+    }
+  ]
+}
