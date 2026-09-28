@@ -1,10 +1,10 @@
 # Estado do projeto
 
-Versão: 0.1.0 com atualização editorial publicada e verificada — 2026-09-23.
+Versão: 0.1.0 com atualização editorial publicada e verificada — 2026-09-28.
 
 URL: https://andertrunks.github.io/reconstrucao-escolar-2027/
-Commit da aplicação publicada: cf228b9f87cdd71093b6be00eed46f821f8884bf.
-Deploy aprovado: https://github.com/andertrunks/reconstrucao-escolar-2027/actions/runs/35859277117.
+Commit da aplicação publicada: 27108d24b3d121faf42e4f3cbe1a7cd8ae0955b5.
+Deploy aprovado: https://github.com/andertrunks/reconstrucao-escolar-2027/actions/runs/36411488201.
 
 ## Última alteração
 
@@ -52,8 +52,10 @@ Recuperação alternativa: a prévia de MAT-JUR-002 no ChatGPT exibe o texto at�
 
 Consultadas fontes do Drive, sem novos arquivos na pasta Matemática, e as conversas Gerenciar criação de conteúdo e Continuar Matemática Financeira. Acrescentadas 31 referências: MAT-FIN-003 a 026 e MAT-EST-001 a 007. Total: 79 materiais a recuperar, MAT-EST-008 planejado e MAT-JUR-003 com código a conferir. Nenhuma aula ou questão integral adicionada. Preservados MAT-JUR-001/002; não duplicados como MAT-FIN-001/002 a partir do resumo de continuidade. Download de MAT-EST-007 acionado pela interface, sem arquivo localizado em Downloads; acesso ao gerenciador interno do Chrome recusado pela política de navegação, sem contornar o bloqueio. Recuperação dos pacotes segue pendente.
 
-Validação local aprovada em 28/09: TypeScript, lint, três testes unitários, conteúdo, build e três testes Edge. Publicação pendente. Próximo passo: recuperar pacotes integrais, conferir correspondência MAT-JUR/MAT-FIN e importar sem reconstrução.
+Validação local aprovada em 28/09: TypeScript, lint, três testes unitários, conteúdo, build e três testes Edge. Publicação concluída em 28/09; GitHub Actions aprovado e três testes Edge repetidos com sucesso contra a URL pública. Próximo passo: recuperar pacotes integrais, conferir correspondência MAT-JUR/MAT-FIN e importar sem reconstrução.
 
 ## Retomada 2026-09-28
 
 Repositório sincronizado com origin/main antes de publicar a atualização pendente. Busca de alterações no Drive desde 25/09 não encontrou novos documentos nas pastas de fontes, materiais e Matemática. Conversas Continuar material produzido e Padronizar materiais no projeto localizadas, mas o conector retornou somente referências internas chatgpt-content-reference, sem texto integral nem anexos. Conteúdos dessas conversas ainda não inventariados; recuperar originais antes de importar. A validação interrompida da sessão anterior foi reiniciada.
+
+Verificação final em 28/09: MAT-EST-007 visível como conteúdo a recuperar e MAT-JUR-003 com explicação de código a conferir. Build principal 86,74 KB gzip. Nenhuma aula ou questão nova publicada. CI registra aviso não bloqueante de depreciação do Node 20 nas actions; atualizar essas actions em manutenção posterior. Novas conversas de 27/09 permanecem pendentes de recuperação integral.
