@@ -113,3 +113,14 @@ POR-INT-001: referência sem aula integral recuperada.
 Site: https://andertrunks.github.io/reconstrucao-escolar-2027/
 Repositório: https://github.com/andertrunks/reconstrucao-escolar-2027
 Cópia estruturada DIA-001: https://drive.google.com/file/d/18h7BWL51vwSb-WS5LidIGp28I0Zr3BM8/view
+# Recuperação editorial
+
+## Recuperação de Estatística — 2026-09-30
+
+Localizada subpasta Matemática/Estatística no Drive: https://drive.google.com/drive/folders/1EwXRcgGcEcUWad6y9YSEKh79U4TLOpZn. Inventariados 64 arquivos (incluindo versões históricas, pacotes e checkpoints), não 64 aulas. Lista em docs/sources/drive-estatistica-2026-09-30.json. Pasta de auditoria: 1j3R7XFaidmV52ypUx6uRha8ZK2sXTVPQ. Futuras buscas devem incluir subpastas; filtros por pai direto não são recursivos.
+
+MAT-EST-048 — Monitoramento prospectivo de séries temporais: registro de previsões, deriva de dados e protocolos de revisão de modelos. Matemática, nível 6. Pacote de integração: https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view. Recuperado localmente e verificado nesta execução: 97.966 bytes; SHA-256 9743d2ce6e2208a2139b68025aef64daab6fcff67ec63db6a300ad26d7b488b3; CRC íntegro; 22/22 hashes internos; cinco SVG XML válidos; 36 IDs únicos de questões pareados com 36 correções. Estado: fonte recuperada, integração pendente, não publicada.
+
+A auditoria AUD-MAT-EST-067 (https://docs.google.com/document/d/15YbgDhcdUTrYW_iPZWZOBmcSQl346BWX6Wgawxra_rE/edit) e o checkpoint INC06 (https://drive.google.com/file/d/1oqbFbyvATOZBwRQqwergPYlEochjfIuH/view) registram lacunas transitivas MAT-EST-018 a 030 e MAT-PRO-039, além de adaptações pendentes do leitor e das questões. Busca independente nesta execução por 018, 019, 030 e MAT-PRO-039 não retornou originais. As verificações dos demais pacotes são relatos da auditoria, ainda não repetidas localmente. Não criar tópicos vazios para satisfazer relações.
+
+Nenhuma aula ou questão adicionada ao site; nenhuma mudança em progresso, interface ou build. Próximo passo: recuperar fundamentos ausentes e preparar conversão integral dos pacotes, preservando camadas de reteste e gabaritos separados. Publicação de aulas depende da validação dessa integração.

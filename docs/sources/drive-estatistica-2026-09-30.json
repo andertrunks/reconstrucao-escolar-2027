@@ -1,0 +1,455 @@
+{
+  "checkedAt": "2026-09-30",
+  "folderId": "1EwXRcgGcEcUWad6y9YSEKh79U4TLOpZn",
+  "status": "inventário de arquivos; não representa aulas publicadas",
+  "files": [
+    {
+      "id": "1wvUPatUDwCdAjZRPTBsl9bvvF2iYd5E2",
+      "title": "MAT-EST-037-simulado-integrador-estatistica-aplicacao-multidimensional-correcao-auditoria-retencao.md",
+      "mime_type": "text/markdown",
+      "size": "43808",
+      "url": "https://drive.google.com/file/d/1wvUPatUDwCdAjZRPTBsl9bvvF2iYd5E2/view"
+    },
+    {
+      "id": "1Hc8gFyYP14E_xIMJeNcUqI0bWvb4mjdt",
+      "title": "MAT-EST-037-pacote-site.zip",
+      "mime_type": "application/zip",
+      "size": "86797",
+      "url": "https://drive.google.com/file/d/1Hc8gFyYP14E_xIMJeNcUqI0bWvb4mjdt/view"
+    },
+    {
+      "id": "1rAxJoJXTdRJijafCtk2NZvCpRRLAhSot",
+      "title": "MAT-EST-036-consolidacao-integradora-estatistica-mapa-pre-requisitos-revisao-longitudinal-avaliacao-individual.md",
+      "mime_type": "text/markdown",
+      "size": "46224",
+      "url": "https://drive.google.com/file/d/1rAxJoJXTdRJijafCtk2NZvCpRRLAhSot/view"
+    },
+    {
+      "id": "1HxYI7-5eYbAL2PfoBpysJd3KX0J3uVL-",
+      "title": "MAT-EST-036-pacote-site.zip",
+      "mime_type": "application/zip",
+      "size": "202153",
+      "url": "https://drive.google.com/file/d/1HxYI7-5eYbAL2PfoBpysJd3KX0J3uVL-/view"
+    },
+    {
+      "id": "1qdON_ipoGrP0uBvBjScW_Ltvb8-5M1EN",
+      "title": "MAT-EST-033-oficina-comunicacao-decisao-modelos-preditivos-cenarios-erros-incerteza-documentacao-reprodutivel.md",
+      "mime_type": "text/markdown",
+      "size": "40962",
+      "url": "https://drive.google.com/file/d/1qdON_ipoGrP0uBvBjScW_Ltvb8-5M1EN/view"
+    },
+    {
+      "id": "1Wrw_QLKwhN1w1hQLhnSqdF_m7U6XYc2E",
+      "title": "MAT-EST-033-pacote-site.zip",
+      "mime_type": "application/zip",
+      "size": "251397",
+      "url": "https://drive.google.com/file/d/1Wrw_QLKwhN1w1hQLhnSqdF_m7U6XYc2E/view"
+    },
+    {
+      "id": "1BbsSyfeU7_EtjK_-YDqd5yKjsUXhRPMr",
+      "title": "MAT-EST-040-metodos-reamostragem-pratica-intervalos-desenho-auditoria-robustez.md",
+      "mime_type": "text/markdown",
+      "size": "25425",
+      "url": "https://drive.google.com/file/d/1BbsSyfeU7_EtjK_-YDqd5yKjsUXhRPMr/view"
+    },
+    {
+      "id": "1UvTJWOyL8yfoBbwvh4h4CVaK347eWy7o",
+      "title": "MAT-EST-040-pacote-site.zip",
+      "mime_type": "application/zip",
+      "size": "199156",
+      "url": "https://drive.google.com/file/d/1UvTJWOyL8yfoBbwvh4h4CVaK347eWy7o/view"
+    },
+    {
+      "id": "12oZ5SOPxJ8PDPhneD9cRnNI4P-8Nbcew",
+      "title": "MAT-EST-038-devolutiva-integradora-fechamento-editorial-estatistica-recuperacao-evidencias-ponte-universitaria.md",
+      "mime_type": "text/markdown",
+      "size": "22605",
+      "url": "https://drive.google.com/file/d/12oZ5SOPxJ8PDPhneD9cRnNI4P-8Nbcew/view"
+    },
+    {
+      "id": "1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n",
+      "title": "MAT-EST-038-pacote-site.zip",
+      "mime_type": "application/zip",
+      "size": "249189",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view"
+    },
+    {
+      "id": "1tB93IwtKDIjFcj-1_x2t72aT-ktcEVip",
+      "title": "MAT-EST-035-auditoria-final-projeto-estatistico-reprodutibilidade-revisao-independente-transferencia-vestibular.md",
+      "mime_type": "text/markdown",
+      "size": "39531",
+      "url": "https://drive.google.com/file/d/1tB93IwtKDIjFcj-1_x2t72aT-ktcEVip/view"
+    },
+    {
+      "id": "1s__OKEA3MmuQl9YA8QKlpekZhz5muSBk",
+      "title": "MAT-EST-035-pacote-site.zip",
+      "mime_type": "application/zip",
+      "size": "170242",
+      "url": "https://drive.google.com/file/d/1s__OKEA3MmuQl9YA8QKlpekZhz5muSBk/view"
+    },
+    {
+      "id": "1sC-hUXHywksCGemFtJPbmzi9Zeh8PVmZ",
+      "title": "MAT-EST-034-projeto-aplicado-sintese-estatistica-protocolo-analise-relatorio-interpretativo-avaliacao-limites.md",
+      "mime_type": "text/markdown",
+      "size": "39433",
+      "url": "https://drive.google.com/file/d/1sC-hUXHywksCGemFtJPbmzi9Zeh8PVmZ/view"
+    },
+    {
+      "id": "1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo",
+      "title": "MAT-EST-034-pacote-site.zip",
+      "mime_type": "application/zip",
+      "size": "181703",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view"
+    },
+    {
+      "id": "1YQWZOs-rgs7ef5Q_dZwdvCOYLi6mLfxT",
+      "title": "MAT-EST-046-avaliacao-previsoes-sazonais-multiplas-origens-janelas-expansivas-estabilidade-incerteza.md",
+      "mime_type": "text/markdown",
+      "size": "36370",
+      "url": "https://drive.google.com/file/d/1YQWZOs-rgs7ef5Q_dZwdvCOYLi6mLfxT/view"
+    },
+    {
+      "id": "1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU",
+      "title": "MAT-EST-046-pacote-site.zip",
+      "mime_type": "application/zip",
+      "size": "242797",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view"
+    },
+    {
+      "id": "1Bob2LaZspn5nhYtkP36lZGvPGZQKt5tK",
+      "title": "MAT-EST-045-modelos-suavizacao-sazonal-pratica-inicializacao-ajuste-comparacao-referencias-temporais.md",
+      "mime_type": "text/markdown",
+      "size": "30436",
+      "url": "https://drive.google.com/file/d/1Bob2LaZspn5nhYtkP36lZGvPGZQKt5tK/view"
+    },
+    {
+      "id": "1_43vG2n-bAu6lpgYnd9beMlZxM3QigmW",
+      "title": "MAT-EST-045-pacote-site.zip",
+      "mime_type": "application/zip",
+      "size": "194547",
+      "url": "https://drive.google.com/file/d/1_43vG2n-bAu6lpgYnd9beMlZxM3QigmW/view"
+    },
+    {
+      "id": "1BfhXaBF6Vaysdmhb91u14WPomu8ByxqQ",
+      "title": "MAT-EST-044-suavizacao-exponencial-previsoes-sazonais-iniciais-parametros-atualizacao-avaliacao-temporal.md",
+      "mime_type": "text/markdown",
+      "size": "29024",
+      "url": "https://drive.google.com/file/d/1BfhXaBF6Vaysdmhb91u14WPomu8ByxqQ/view"
+    },
+    {
+      "id": "1ATY0sDnu1u4F5BQwYprqYM2GKciQNGgv",
+      "title": "MAT-EST-044-pacote-site.zip",
+      "mime_type": "application/zip",
+      "size": "168027",
+      "url": "https://drive.google.com/file/d/1ATY0sDnu1u4F5BQwYprqYM2GKciQNGgv/view"
+    },
+    {
+      "id": "1W8qOiGaZGbx2rVSpSu3f0Z7HV-D0xVQs",
+      "title": "MAT-EST-043-tendencia-sazonalidade-decomposicao-series-padroes-diferencas-sazonais-previsoes-referencia.md",
+      "mime_type": "text/markdown",
+      "size": "28020",
+      "url": "https://drive.google.com/file/d/1W8qOiGaZGbx2rVSpSu3f0Z7HV-D0xVQs/view"
+    },
+    {
+      "id": "1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4",
+      "title": "MAT-EST-043-pacote-site.zip",
+      "mime_type": "application/zip",
+      "size": "207339",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view"
+    },
+    {
+      "id": "1g7NJf5beJpWCm-LYZv-77BHpqjvPkA6k",
+      "title": "MAT-EST-042-dependencia-temporal-modelos-iniciais-series-defasagens-autocorrelacao-medias-moveis-diagnostico-residuos.md",
+      "mime_type": "text/markdown",
+      "size": "26711",
+      "url": "https://drive.google.com/file/d/1g7NJf5beJpWCm-LYZv-77BHpqjvPkA6k/view"
+    },
+    {
+      "id": "1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8",
+      "title": "MAT-EST-042-pacote-site.zip",
+      "mime_type": "application/zip",
+      "size": "175374",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view"
+    },
+    {
+      "id": "1dt_WdwjtRZn4LK5ava6PEIoymlXhHQR_",
+      "title": "MAT-EST-041-inferencia-dados-dependentes-reamostragem-blocos-conglomerados-validacao-temporal-limites-generalizacao.md",
+      "mime_type": "text/markdown",
+      "size": "29874",
+      "url": "https://drive.google.com/file/d/1dt_WdwjtRZn4LK5ava6PEIoymlXhHQR_/view"
+    },
+    {
+      "id": "1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd",
+      "title": "MAT-EST-041-pacote-site.zip",
+      "mime_type": "application/zip",
+      "size": "191842",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view"
+    },
+    {
+      "id": "1ZElbgfRWqNGyrGJ-357gegotEmOoruar",
+      "title": "MAT-EST-039-ponte-universitaria-reamostragem-bootstrap-testes-permutacao.md",
+      "mime_type": "text/markdown",
+      "size": "27171",
+      "url": "https://drive.google.com/file/d/1ZElbgfRWqNGyrGJ-357gegotEmOoruar/view"
+    },
+    {
+      "id": "1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR",
+      "title": "MAT-EST-039-pacote-site.zip",
+      "mime_type": "application/zip",
+      "size": "430597",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view"
+    },
+    {
+      "id": "1fKmgQqggMedcN5Sgf94jd1ZBkEQ4ccVD",
+      "title": "MAT-EST-032-avaliacao-integrada-previsoes-comparacao-metricas-incerteza-monitoramento-desempenho.md",
+      "mime_type": "text/markdown",
+      "size": "40052",
+      "url": "https://drive.google.com/file/d/1fKmgQqggMedcN5Sgf94jd1ZBkEQ4ccVD/view"
+    },
+    {
+      "id": "1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK",
+      "title": "MAT-EST-032-pacote-site.zip",
+      "mime_type": "application/zip",
+      "size": "222538",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view"
+    },
+    {
+      "id": "10uo8YZqPdQ0CHImVALthcgKn81Zu-k6p",
+      "title": "MAT-EST-031-validacao-modelos-desempenho-preditivo-treino-teste-validacao-cruzada-sobreajuste.md",
+      "mime_type": "text/markdown",
+      "size": "43132",
+      "url": "https://drive.google.com/file/d/10uo8YZqPdQ0CHImVALthcgKn81Zu-k6p/view"
+    },
+    {
+      "id": "1Memgu78-cqTjT2kR69Mf-_i8616SfQtX",
+      "title": "MAT-EST-031-pacote-site.zip",
+      "mime_type": "application/zip",
+      "size": "151227",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view"
+    },
+    {
+      "id": "1XQzBimSZCBlUeEEq7_Cf2sWrtTatnA7z",
+      "title": "MAT-EST-048-pacote-site.zip",
+      "mime_type": "application/zip",
+      "size": "222641",
+      "url": "https://drive.google.com/file/d/1XQzBimSZCBlUeEEq7_Cf2sWrtTatnA7z/view"
+    },
+    {
+      "id": "1CMgoPCSkPyuXhiu7YkiB6UzniyO4ICmz",
+      "title": "MAT-EST-047-pacote-site.zip",
+      "mime_type": "application/zip",
+      "size": "227645",
+      "url": "https://drive.google.com/file/d/1CMgoPCSkPyuXhiu7YkiB6UzniyO4ICmz/view"
+    },
+    {
+      "id": "1DTGBB64ZbTal1PtT1r2xN4Shen3TCEwF",
+      "title": "MAT-EST-048-monitoramento-prospectivo-series-temporais-registro-previsoes-deriva-dados-protocolos-revisao-modelos.md",
+      "mime_type": "text/markdown",
+      "size": "27852",
+      "url": "https://drive.google.com/file/d/1DTGBB64ZbTal1PtT1r2xN4Shen3TCEwF/view"
+    },
+    {
+      "id": "19tjcDqfKZh7N8dvXIEC2aGVJU9E13JcL",
+      "title": "MAT-EST-048-monitoramento-prospectivo-series-temporais-registro-previsoes-deriva-dados-protocolos-revisao-modelos(1).md",
+      "mime_type": "text/markdown",
+      "size": "23009",
+      "url": "https://drive.google.com/file/d/19tjcDqfKZh7N8dvXIEC2aGVJU9E13JcL/view"
+    },
+    {
+      "id": "158wDKvwIUPYIDryC6sggHMYxTF0mVVOS",
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "mime_type": "application/zip",
+      "size": "97966",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view"
+    },
+    {
+      "id": "1kV1RzhnhVl6FMNuUvTdlT7zZ3QqMkahn",
+      "title": "MAT-EST-054-auditoria-avaliacoes-temporais-reconciliacao-versoes-rastreamento-metricas-relatorios-reproduziveis.md",
+      "mime_type": "text/markdown",
+      "size": "23122",
+      "url": "https://drive.google.com/file/d/1kV1RzhnhVl6FMNuUvTdlT7zZ3QqMkahn/view"
+    },
+    {
+      "id": "1nin8eH-q5UhAkjdkbbr-V_PUtaodw927",
+      "title": "MAT-EST-054-pacote-integracao.zip",
+      "mime_type": "application/zip",
+      "size": "125037",
+      "url": "https://drive.google.com/file/d/1nin8eH-q5UhAkjdkbbr-V_PUtaodw927/view"
+    },
+    {
+      "id": "1OWOw8dH_XLYRnn1P-L2znjgeWlAuHufh",
+      "title": "MAT-EST-052-ensaio-operacional-monitoramento-integridade-registro-atrasos-observacao-encerramento-auditavel.md",
+      "mime_type": "text/markdown",
+      "size": "25807",
+      "url": "https://drive.google.com/file/d/1OWOw8dH_XLYRnn1P-L2znjgeWlAuHufh/view"
+    },
+    {
+      "id": "11Habs2a1IU3Qv_OtZbUHLxijIj5vJVFU",
+      "title": "MAT-EST-052-pacote-integracao.zip",
+      "mime_type": "application/zip",
+      "size": "105529",
+      "url": "https://drive.google.com/file/d/11Habs2a1IU3Qv_OtZbUHLxijIj5vJVFU/view"
+    },
+    {
+      "id": "1yTLquEQiu8iZMgkVgK6Hp723bhy8Iq1M",
+      "title": "MAT-EST-051-desenho-avaliacao-temporal-futura-hipoteses-coleta-criterios-analise-pos-registro.md",
+      "mime_type": "text/markdown",
+      "size": "29822",
+      "url": "https://drive.google.com/file/d/1yTLquEQiu8iZMgkVgK6Hp723bhy8Iq1M/view"
+    },
+    {
+      "id": "1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn",
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "mime_type": "application/zip",
+      "size": "109866",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view"
+    },
+    {
+      "id": "1uJmuJnkm03khehB_Yc1RBfk0woNfAdkv",
+      "title": "MAT-EST-050-robustez-temporal-cenarios-sensibilidade-custos-limites-generalizacao.md",
+      "mime_type": "text/markdown",
+      "size": "36946",
+      "url": "https://drive.google.com/file/d/1uJmuJnkm03khehB_Yc1RBfk0woNfAdkv/view"
+    },
+    {
+      "id": "1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t",
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "mime_type": "application/zip",
+      "size": "119645",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view"
+    },
+    {
+      "id": "1z-w0fw6P8tnTPOy1GrOY_sn7XzWWEjmx",
+      "title": "MAT-EST-053-qualidade-versionamento-dados-temporais-proveniencia-reprocessamento-politicas-avaliacao-por-versao.md",
+      "mime_type": "text/markdown",
+      "size": "23615",
+      "url": "https://drive.google.com/file/d/1z-w0fw6P8tnTPOy1GrOY_sn7XzWWEjmx/view"
+    },
+    {
+      "id": "1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo",
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "mime_type": "application/zip",
+      "size": "95656",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view"
+    },
+    {
+      "id": "1VMAK9GeikT05Ks-EGUzoSCJFN1BQRSOp",
+      "title": "MAT-EST-049-comparacao-prospectiva-modelos-temporais-desafiante-referencia-custos-decisao-atualizacao.md",
+      "mime_type": "text/markdown",
+      "size": "29455",
+      "url": "https://drive.google.com/file/d/1VMAK9GeikT05Ks-EGUzoSCJFN1BQRSOp/view"
+    },
+    {
+      "id": "1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ",
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "mime_type": "application/zip",
+      "size": "110002",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view"
+    },
+    {
+      "id": "1494_lW9z_wYNquzPzE463eHzBgIIsU1i",
+      "title": "MAT-EST-067-B1-INC02-fontes-e-inventario.zip",
+      "mime_type": "application/zip",
+      "size": "1758409",
+      "url": "https://drive.google.com/file/d/1494_lW9z_wYNquzPzE463eHzBgIIsU1i/view"
+    },
+    {
+      "id": "1No0N80QwckHkfW-COrr2H-_H3pJ7hUgN",
+      "title": "MAT-EST-047-diagnostico-calibracao-previsoes-temporais-residuos-horizonte-intervalos-avaliaveis-comunicacao-risco.md",
+      "mime_type": "text/markdown",
+      "size": "32193",
+      "url": "https://drive.google.com/file/d/1No0N80QwckHkfW-COrr2H-_H3pJ7hUgN/view"
+    },
+    {
+      "id": "1H_GmwJp_nHjegM0FFOw0Cc_qZM4uHyrG",
+      "title": "MAT-EST-067-preparacao-B1-B5.zip",
+      "mime_type": "application/zip",
+      "size": "49878",
+      "url": "https://drive.google.com/file/d/1H_GmwJp_nHjegM0FFOw0Cc_qZM4uHyrG/view"
+    },
+    {
+      "id": "11Gv47NGXShvRZ3T8bnG3hZmm28WGzexk",
+      "title": "checkpoint-work-MAT-EST-067-recuperacao.json",
+      "mime_type": "application/json",
+      "size": "594",
+      "url": "https://drive.google.com/file/d/11Gv47NGXShvRZ3T8bnG3hZmm28WGzexk/view"
+    },
+    {
+      "id": "11UFYMGkTJt3R68P01gpm2PTHfc8W_bO5",
+      "title": "MAT-EST-067-evidencias-auditoria-work.zip",
+      "mime_type": "application/zip",
+      "size": "7447",
+      "url": "https://drive.google.com/file/d/11UFYMGkTJt3R68P01gpm2PTHfc8W_bO5/view"
+    },
+    {
+      "id": "1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc",
+      "title": "MAT-EST-067-pacote-integracao-cumulativo.zip",
+      "mime_type": "application/zip",
+      "size": "6575526",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view"
+    },
+    {
+      "id": "1N0AmwNjPsvSVgyFoXv35QelKLO5-NcCR",
+      "title": "MAT-EST-066-pacote-integracao.zip",
+      "mime_type": "application/zip",
+      "size": "3264236",
+      "url": "https://drive.google.com/file/d/1N0AmwNjPsvSVgyFoXv35QelKLO5-NcCR/view"
+    },
+    {
+      "id": "1tgTxhpe5KSORMZRCUcr0kfZy8Rvmkyx126zX4o8b0As",
+      "title": "ESTADO ATUAL — Armazenamento editorial MAT-EST-067",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "2017",
+      "url": "https://drive.google.com/file/d/1tgTxhpe5KSORMZRCUcr0kfZy8Rvmkyx126zX4o8b0As/view"
+    },
+    {
+      "id": "1N1Vf7r84jyZB0BdojXdTsCFme0dKOgNh",
+      "title": "MAT-EST-067-checkpoint-tentativa-integracao-revisado.json",
+      "mime_type": "application/json",
+      "size": "1427",
+      "url": "https://drive.google.com/file/d/1N1Vf7r84jyZB0BdojXdTsCFme0dKOgNh/view"
+    },
+    {
+      "id": "1MpDgDft0_XQyRFViwPhBYsFGZgqGGtjZ",
+      "title": "MAT-EST-067-RELATORIO-ESTADO-REVISADO.md",
+      "mime_type": "text/markdown",
+      "size": "3836",
+      "url": "https://drive.google.com/file/d/1MpDgDft0_XQyRFViwPhBYsFGZgqGGtjZ/view"
+    },
+    {
+      "id": "1P_8gJj2sOrbh2UBu9arh7FBriZLs4W-z",
+      "title": "MAT-EST-067-manifesto-sha256.txt",
+      "mime_type": "text/plain",
+      "size": "1837",
+      "url": "https://drive.google.com/file/d/1P_8gJj2sOrbh2UBu9arh7FBriZLs4W-z/view"
+    },
+    {
+      "id": "1oDBFUU9MA3lYQGPJusYsu-em_gE2bhWr",
+      "title": "MAT-EST-067-aula.md",
+      "mime_type": "text/markdown",
+      "size": "18122",
+      "url": "https://drive.google.com/file/d/1oDBFUU9MA3lYQGPJusYsu-em_gE2bhWr/view"
+    },
+    {
+      "id": "1cyd9-LbcT7cm_5ytubsYXOfJZuaPEX2P",
+      "title": "checkpoint-editorial-MAT-EST-067.json",
+      "mime_type": "application/json",
+      "size": "2018",
+      "url": "https://drive.google.com/file/d/1cyd9-LbcT7cm_5ytubsYXOfJZuaPEX2P/view"
+    },
+    {
+      "id": "1QLKo42dHoujL_5M3ET_N4X5agr8nBMi6",
+      "title": "MAT-EST-067-pacote-incremental-pendente-integracao.zip",
+      "mime_type": "application/zip",
+      "size": "44738",
+      "url": "https://drive.google.com/file/d/1QLKo42dHoujL_5M3ET_N4X5agr8nBMi6/view"
+    },
+    {
+      "id": "14firqM-gYtlwL2l6znLHuYl6E9qmFF2z",
+      "title": "MAT-EST-067-kit-integracao-revisado.zip",
+      "mime_type": "application/zip",
+      "size": "53074",
+      "url": "https://drive.google.com/file/d/14firqM-gYtlwL2l6znLHuYl6E9qmFF2z/view"
+    }
+  ]
+}

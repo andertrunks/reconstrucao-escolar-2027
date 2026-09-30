@@ -59,3 +59,7 @@ Validação local aprovada em 28/09: TypeScript, lint, três testes unitários, 
 Repositório sincronizado com origin/main antes de publicar a atualização pendente. Busca de alterações no Drive desde 25/09 não encontrou novos documentos nas pastas de fontes, materiais e Matemática. Conversas Continuar material produzido e Padronizar materiais no projeto localizadas, mas o conector retornou somente referências internas chatgpt-content-reference, sem texto integral nem anexos. Conteúdos dessas conversas ainda não inventariados; recuperar originais antes de importar. A validação interrompida da sessão anterior foi reiniciada.
 
 Verificação final em 28/09: MAT-EST-007 visível como conteúdo a recuperar e MAT-JUR-003 com explicação de código a conferir. Build principal 86,74 KB gzip. Nenhuma aula ou questão nova publicada. CI registra aviso não bloqueante de depreciação do Node 20 nas actions; atualizar essas actions em manutenção posterior. Novas conversas de 27/09 permanecem pendentes de recuperação integral.
+
+## Manutenção 2026-09-30
+
+Recuperação real de MAT-EST-048 confirmada; 64 arquivos inventariados na subpasta Estatística. Ver docs/RECOVERY_2026-09-30.md e docs/sources/drive-estatistica-2026-09-30.json. Fontes avançadas disponíveis, mas árvore de fundamentos e conversão integral ainda pendentes. Nenhuma aula publicada nesta execução; build e testes da aplicação não repetidos porque a mudança é documental. Último deploy permanece o de 28/09. Incluir subpastas Estatística e auditoria nas próximas consultas do Drive.
