@@ -63,3 +63,7 @@ Verificação final em 28/09: MAT-EST-007 visível como conteúdo a recuperar e 
 ## Manutenção 2026-09-30
 
 Recuperação real de MAT-EST-048 confirmada; 64 arquivos inventariados na subpasta Estatística. Ver docs/RECOVERY_2026-09-30.md e docs/sources/drive-estatistica-2026-09-30.json. Fontes avançadas disponíveis, mas árvore de fundamentos e conversão integral ainda pendentes. Nenhuma aula publicada nesta execução; build e testes da aplicação não repetidos porque a mudança é documental. Último deploy permanece o de 28/09. Incluir subpastas Estatística e auditoria nas próximas consultas do Drive.
+
+## Manutenção 2026-10-01
+
+Conferida reconstrução editorial v1 de MAT-EST-005. Textos completos extraídos para work/recovery-2026-10-01 (fora da aplicação); 36 IDs e correções pareados. Gabaritos APR-01/02 sem explicação do cálculo bloqueiam publicação conforme regra pedagógica. Ativos e pré-requisitos ainda pendentes. Ver docs/RECOVERY_2026-10-01.md. Nenhuma aula, questão ou progresso alterado; sem novo build/deploy.
