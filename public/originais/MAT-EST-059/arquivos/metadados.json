@@ -1,0 +1,133 @@
+{
+  "id": "MAT-EST-059",
+  "slug": "comunicacao-comparativa-desempenho-temporal-graficos-honestos-incerteza-condicional-relatorio-executivo-verificavel",
+  "titulo": "Comunicação comparativa de desempenho temporal: gráficos honestos, incerteza condicional e relatório executivo verificável",
+  "materia": "Matemática",
+  "unidade": "Estatística / séries temporais / ponte universitária",
+  "nivel": 6,
+  "ordem": 59,
+  "anterior": "MAT-EST-058",
+  "proximoTopico": "MAT-EST-060",
+  "preRequisitos": [
+    "MAT-EST-047",
+    "MAT-EST-049",
+    "MAT-EST-050",
+    "MAT-EST-053",
+    "MAT-EST-054",
+    "MAT-EST-056",
+    "MAT-EST-057",
+    "MAT-EST-058"
+  ],
+  "objetivos": [
+    "separar coortes, cortes e denominadores",
+    "construir gráficos com eixos e unidades honestos",
+    "calcular e explicar diferença emparelhada e custo",
+    "comunicar limites condicionais sem alegar confiança estatística",
+    "produzir relatório executivo rastreável a dados e decisões históricas"
+  ],
+  "conceitosRelacionados": [
+    "média e módulo",
+    "erro absoluto médio MAE",
+    "custo assimétrico",
+    "gráficos de barras e diferenças",
+    "viés de seleção",
+    "escopo de coorte",
+    "faixas condicionais",
+    "proveniência e vintage"
+  ],
+  "aplicacoes": [
+    "leitura crítica de relatórios",
+    "visualização de dados",
+    "comunicação técnica",
+    "revisão científica e computação reproduzível"
+  ],
+  "examesRelacionados": [
+    "transferência de gráficos, percentuais, médias e leitura crítica ao ENEM, FUVEST, UNICAMP e UNESP; governança e intervalos condicionais não afirmados como exigência de banca",
+    "ponte universitária"
+  ],
+  "origem": "autoral",
+  "questoesOficiais": 0,
+  "questoesAutorais": 36,
+  "aulaMarkdown": "MAT-EST-059-comunicacao-comparativa-desempenho-temporal-graficos-honestos-incerteza-condicional-relatorio-executivo-verificavel.md",
+  "exercicios": "exercicios.json",
+  "gabarito": "gabarito-comentado.json",
+  "visuais": [
+    {
+      "src": "assets/01-escopos-e-denominadores.svg",
+      "alt": "Quatro barras com escala de zero ao total de cada conjunto: histórico cinco de oito, quarentena zero de três, sucessor zero de oito e sandbox dois de oito. Não combinar estatísticas dos grupos.",
+      "autoria": "produção original do projeto"
+    },
+    {
+      "src": "assets/02-diferenca-emparelhada.svg",
+      "alt": "Eixo horizontal: diferença C menos B de menos dois a mais quatro unidades; S01 menos um, S02 mais três, média mais um. Valores de sinais opostos; apenas dois pares avaliáveis.",
+      "autoria": "produção original do projeto"
+    },
+    {
+      "src": "assets/03-paineis-com-escalas.svg",
+      "alt": "Painel MAE: B três, C quatro unidades; painel custo: B sete, C sete pontos. Ambos os painéis começam em zero e usam suas próprias unidades.",
+      "autoria": "produção original do projeto"
+    },
+    {
+      "src": "assets/04-exclusao-pos-resultado.svg",
+      "alt": "À esquerda, corte A com S01 e S02, MAE B três e C quatro; à direita, seleção apenas S01 com MAE B quatro e C três. A mudança vem da exclusão pós-resultado.",
+      "autoria": "produção original do projeto"
+    },
+    {
+      "src": "assets/05-limites-condicionais.svg",
+      "alt": "Sob hipótese artificial de erro absoluto de zero a dez nos seis casos pendentes, MAE B entre 0,75 e 8,25 e C entre 1 e 8,5, faixas sobrepostas. Não são intervalos de confiança.",
+      "autoria": "produção original do projeto"
+    },
+    {
+      "src": "assets/06-fluxo-relatorio-verificavel.svg",
+      "alt": "Fluxo da pergunta para fonte, contagem, cálculo, limite e ação. A conclusão didática distingue dois cartões do sandbox de zero resultados no sucessor.",
+      "autoria": "produção original do projeto"
+    }
+  ],
+  "video": {
+    "titulo": "How to spot a misleading graph — Lea Gaslowitz",
+    "canal": "TED-Ed",
+    "url": "https://www.youtube.com/watch?v=E91bGT9BjYk",
+    "idioma": "inglês",
+    "duracaoAproximada": "cerca de 4 minutos e 10 segundos (fontes secundárias)",
+    "momento": "após seção 3",
+    "porQueEscolhido": "mostra efeitos de eixos, seleção, corte e contexto na interpretação de gráficos",
+    "verificacao": "página oficial TED-Ed e referência no YouTube localizadas; reprodução integral e tempo exibido no player não verificados"
+  },
+  "fontes": [
+    {
+      "nome": "Forecasting: Principles and Practice — Time series cross-validation",
+      "url": "https://otexts.com/fpp3/tscv.html"
+    },
+    {
+      "nome": "Forecasting: Principles and Practice — Forecast accuracy",
+      "url": "https://otexts.com/fpp3/accuracy.html"
+    },
+    {
+      "nome": "Datawrapper Academy — zero baseline",
+      "url": "https://www.datawrapper.de/academy/why-our-column-and-bar-charts-start-at-zero"
+    },
+    {
+      "nome": "Datawrapper Academy — line charts",
+      "url": "https://www.datawrapper.de/academy/what-to-consider-when-creating-line-charts"
+    },
+    {
+      "nome": "TED-Ed — How to spot a misleading graph",
+      "url": "https://ed.ted.com/lessons/how-to-spot-a-misleading-graph-lea-gaslowitz"
+    }
+  ],
+  "progressoIndividualAlterado": false,
+  "estudoRegistrado": false,
+  "publicacaoSite": false,
+  "sincronizacaoDrive": false,
+  "sincronizacaoGithub": false,
+  "referenciaFonteDados": [
+    "sandbox/SANDBOX-057-cartoes.csv",
+    "dados/comparacao-emparelhada-t18-t22.csv",
+    "relatorios/MAT-EST-058-leitura-critica-SANDBOX-057.json"
+  ],
+  "proximaAula": {
+    "id": "MAT-EST-060",
+    "titulo": "Auditoria de gráficos e relatórios automatizados: testes de consistência, versões e acessibilidade de publicação",
+    "estado": "não iniciado"
+  }
+}

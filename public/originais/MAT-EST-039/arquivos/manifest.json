@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.0",
+  "id": "MAT-EST-039",
+  "slug": "ponte-universitaria-reamostragem-bootstrap-testes-permutacao",
+  "titulo": "Ponte universitária em Estatística: reamostragem, bootstrap e testes de permutação",
+  "materia": "Matemática",
+  "unidade": "Estatística",
+  "nivel": [
+    6
+  ],
+  "ordem": 39,
+  "tipoConteudo": "ponte_universitaria_reamostragem",
+  "anterior": "MAT-EST-038",
+  "preRequisitos": [
+    "MAT-EST-019",
+    "MAT-EST-020",
+    "MAT-EST-021",
+    "MAT-EST-023",
+    "MAT-EST-031",
+    "MAT-EST-038",
+    "MAT-PRO-039"
+  ],
+  "objetivos": [
+    "distinguir reamostragem de nova coleta",
+    "reconstruir bootstrap e percentis",
+    "enumerar permutações pequenas sob hipótese nula",
+    "respeitar unidades independentes e pareamento",
+    "interpretar limitações e incerteza"
+  ],
+  "examesRelacionados": [
+    "ENEM (fundamentos correlatos)",
+    "FUVEST (fundamentos correlatos)",
+    "UNICAMP (fundamentos correlatos)",
+    "UNESP (fundamentos correlatos)"
+  ],
+  "notaExames": "Bootstrap e testes de permutação formais são aprofundamento e ponte universitária, não atribuição de exigência específica às matrizes de exames.",
+  "arquivoMarkdown": "MAT-EST-039-ponte-universitaria-reamostragem-bootstrap-testes-permutacao.md",
+  "arquivoExercicios": "exercicios.json",
+  "arquivoGabarito": "gabarito-comentado.json",
+  "arquivoDados": "dados-ficticios-referencia.csv",
+  "arquivoCalculos": "calculos-reproduziveis.json",
+  "arquivoCodigo": "calculos-reproduziveis.py",
+  "origemDados": "MAT-EST-038/dados-ficticios.csv (cópia binária idêntica)",
+  "visuais": [
+    {
+      "id": "MAT-EST-039-VIS-01",
+      "arquivo": "assets/01-ciclo-bootstrap.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Ciclo do bootstrap não paramétrico",
+      "legenda": "Ciclo do bootstrap não paramétrico",
+      "alt": "Amostra original [2, 4, 6, 8], sorteio de quatro valores com reposição e cálculo repetido da média.",
+      "oQueObservar": "A mesma observação pode aparecer mais de uma vez em cada réplica.",
+      "conclusaoTextual": "Distribuição das estatísticas, não coleção de novos participantes."
+    },
+    {
+      "id": "MAT-EST-039-VIS-02",
+      "arquivo": "assets/02-reposicao-unidade.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Reamostragem com e sem reposição",
+      "legenda": "Reamostragem com e sem reposição",
+      "alt": "Quadro compara amostragem dos quatro dados originais sem reposição, média fixa, e com reposição, média variável.",
+      "oQueObservar": "Compare a composição das réplicas, não apenas a ordem.",
+      "conclusaoTextual": "Com reposição há variabilidade na estatística calculada."
+    },
+    {
+      "id": "MAT-EST-039-VIS-03",
+      "arquivo": "assets/03-distribuicao-exata-medias.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Distribuição bootstrap das 256 médias",
+      "legenda": "Distribuição bootstrap das 256 médias",
+      "alt": "Histograma de médias 2 a 8, com maior frequência no centro 5; eixo horizontal média e eixo vertical número de sequências.",
+      "oQueObservar": "As 256 sequências não geram 256 médias diferentes; várias coincidem.",
+      "conclusaoTextual": "O desvio-padrão da distribuição bootstrap mede variabilidade da estimativa sob o modelo empírico."
+    },
+    {
+      "id": "MAT-EST-039-VIS-04",
+      "arquivo": "assets/04-intervalo-percentil.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Intervalo bootstrap percentílico de 95%",
+      "legenda": "Intervalo bootstrap percentílico de 95%",
+      "alt": "Faixa horizontal de 256 médias bootstrap com 2,5 por cento em cada cauda e intervalo central ilustrativo de 3 a 7.",
+      "oQueObservar": "Os limites vêm da distribuição ordenada das estatísticas.",
+      "conclusaoTextual": "Intervalo percentílico depende das hipóteses de coleta e pode ser inadequado em amostras pequenas ou estatísticas instáveis."
+    },
+    {
+      "id": "MAT-EST-039-VIS-05",
+      "arquivo": "assets/05-permutacao-exata.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Teste exato de permutação de dois grupos",
+      "legenda": "Teste exato de permutação de dois grupos",
+      "alt": "Grupos A com valores 2, 4, 6 e B com 8, 10, 12; 20 realocações possíveis e 2 tão extremas quanto a diferença observada de menos seis.",
+      "oQueObservar": "Permutamos rótulos sob a hipótese nula; não sorteamos novos valores com reposição.",
+      "conclusaoTextual": "Nesse exemplo, o valor-p bicaudal exato é 0,10."
+    },
+    {
+      "id": "MAT-EST-039-VIS-06",
+      "arquivo": "assets/06-unidades-e-pareamento.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Grupos independentes versus medições pareadas",
+      "legenda": "Grupos independentes versus medições pareadas",
+      "alt": "Dois quadros com regras diferentes: reamostrar cada grupo independente separadamente; para antes e depois, preservar o vínculo entre medições.",
+      "oQueObservar": "A unidade amostral pode ser participante, par, conglomerado ou bloco temporal.",
+      "conclusaoTextual": "A reamostragem errada destrói dependências e pode produzir incerteza enganosa."
+    },
+    {
+      "id": "MAT-EST-039-VIS-07",
+      "arquivo": "assets/07-mapa-de-decisao.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Mapa de decisão para métodos de reamostragem",
+      "legenda": "Mapa de decisão para métodos de reamostragem",
+      "alt": "Pergunta inicial se deseja estimar incerteza ou testar hipótese nula; ambos os caminhos terminam em auditoria do desenho de coleta e pressupostos.",
+      "oQueObservar": "A decisão metodológica precede o cálculo e a interpretação.",
+      "conclusaoTextual": "Nenhum método salva dados enviesados ou invalida a necessidade de verificar independência/intercambiabilidade."
+    }
+  ],
+  "video": {
+    "titulo": "Video 11.1: Bootstrapping",
+    "canal": "Penn State Online / STAT 500",
+    "url": "https://online.stat.psu.edu/stat500/Lesson11",
+    "idioma": "inglês",
+    "duracaoAproximada": "não confirmada na página consultada",
+    "momentoRecomendado": "após o primeiro exemplo de reamostragem e antes do cálculo do intervalo percentílico",
+    "motivo": "demonstra as seleções com reposição e a distribuição de uma estatística calculada repetidamente",
+    "verificacao": "página oficial e indicação do vídeo localizadas em 28/09/2026; reprodução integral não testada"
+  },
+  "quantidadeItens": 36,
+  "contagemPorCamada": {
+    "aprendizagem": 10,
+    "consolidacao": 10,
+    "transferencia": 10,
+    "reteste": 6
+  },
+  "questoesOficiaisReproduzidas": 0,
+  "questoesAutorais": 36,
+  "correcaoAposTentativa": true,
+  "statusProducao": "produzido_localmente_nao_publicado",
+  "statusAprendizagemInicial": "nao_iniciado",
+  "observacaoStatus": "Não sobrescrever progresso individual, não criar respostas, notas, ou revisões fictícias.",
+  "revisao": "D+1, D+7, D+30 a contar do estudo real",
+  "proximoTopico": {
+    "id": "MAT-EST-040",
+    "titulo": "Métodos de reamostragem em prática: comparação de intervalos, testes sob desenho amostral e auditoria de robustez"
+  }
+}

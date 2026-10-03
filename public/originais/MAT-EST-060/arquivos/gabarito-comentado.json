@@ -1,0 +1,326 @@
+[
+  {
+    "id": "MAT-EST-060-EX-APR-01",
+    "resolucao": "S01 e S02: dois cartões avaliáveis. Os seis outros têm pendências documentadas; nenhuma pendência vale erro zero.",
+    "motivosDeErro": [
+      "interpretação"
+    ],
+    "devolutiva": "interpretação: Contar todos os planejados como avaliáveis.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-02",
+    "resolucao": "Dois dividido por oito vale 0,25; multiplicar por cem dá 25%. O denominador oito mede o plano, não o MAE.",
+    "motivosDeErro": [
+      "cálculo"
+    ],
+    "devolutiva": "cálculo: Usar dois no denominador da completude.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-03",
+    "resolucao": "O valor absoluto de mais quatro é quatro e o valor absoluto de menos dois é dois. Direção e magnitude são informações distintas.",
+    "motivosDeErro": [
+      "conteúdo"
+    ],
+    "devolutiva": "conteúdo: Conservar o sinal negativo ao somar módulos.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-04",
+    "resolucao": "Somar quatro e dois obtém seis; dividir pelos dois pares avaliáveis produz MAE três unidades.",
+    "motivosDeErro": [
+      "cálculo"
+    ],
+    "devolutiva": "cálculo: Dividir por oito, incluindo os pendentes.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-05",
+    "resolucao": "Os módulos são três e cinco; soma oito dividida por dois é quatro unidades.",
+    "motivosDeErro": [
+      "cálculo"
+    ],
+    "devolutiva": "cálculo: Calcular média assinada, que seria menos um.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-06",
+    "resolucao": "Erro positivo indica observado maior que previsto, portanto subprevisão: três vezes quatro, doze pontos.",
+    "motivosDeErro": [
+      "conteúdo"
+    ],
+    "devolutiva": "conteúdo: Ignorar a regra de sinais do custo.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-07",
+    "resolucao": "É superprevisão: um ponto por unidade, logo cinco pontos. Não multiplicar por três.",
+    "motivosDeErro": [
+      "conteúdo"
+    ],
+    "devolutiva": "conteúdo: Aplicar penalidade positiva ao erro negativo.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-08",
+    "resolucao": "MAE não estimável, representado como null no dado estruturado e explicado em palavras na interface. Zero indicaria um resultado medido inexistente.",
+    "motivosDeErro": [
+      "interpretação"
+    ],
+    "devolutiva": "interpretação: Converter campo ausente em sucesso perfeito.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-09",
+    "resolucao": "Sete é numericamente correto, porém custo é medido em pontos na regra fictícia. O rótulo deve ser pontos, não unidades de erro.",
+    "motivosDeErro": [
+      "interpretação"
+    ],
+    "devolutiva": "interpretação: Ignorar que métrica e unidade formam uma afirmação.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-10",
+    "resolucao": "Para comparar bytes de duas versões de arquivo: digest divergente denuncia conteúdo distinto com probabilidade prática muito elevada. Não prova que o evento descrito aconteceu ou quando uma previsão foi emitida.",
+    "motivosDeErro": [
+      "conteúdo"
+    ],
+    "devolutiva": "conteúdo: Atribuir autenticação histórica a um hash isolado.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-01",
+    "resolucao": "O resultado 0,75 resulta da divisão incorreta por oito; somente S01 e S02 são avaliáveis. Corrigir para seis dividido por dois: MAE B três unidades, preservando as seis pendências.",
+    "motivosDeErro": [
+      "estratégia"
+    ],
+    "devolutiva": "estratégia: Deixar o número planejado substituir o elegível.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-02",
+    "resolucao": "Os custos são três vezes três, nove, e módulo de menos cinco, cinco; catorze dividido por dois resulta em sete pontos.",
+    "motivosDeErro": [
+      "cálculo"
+    ],
+    "devolutiva": "cálculo: Misturar custo com MAE.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-03",
+    "resolucao": "S01: três menos quatro igual a menos um; S02: cinco menos dois igual a mais três. São os mesmos alvos emparelhados, não amostras separadas.",
+    "motivosDeErro": [
+      "cálculo"
+    ],
+    "devolutiva": "cálculo: Trocar a ordem da subtração ou perder os pares.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-04",
+    "resolucao": "Somar menos um com mais três dá dois; dividir por dois dá mais uma unidade, limitada aos dois cartões elegíveis.",
+    "motivosDeErro": [
+      "cálculo"
+    ],
+    "devolutiva": "cálculo: Esconder valores opostos pela média.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-05",
+    "resolucao": "Para barras de magnitudes, alterar origem vertical para zero, identificar eixo MAE em unidades e manter os valores rotulados. O recorte 2,9 faz exagerar visualmente a diferença.",
+    "motivosDeErro": [
+      "estratégia"
+    ],
+    "devolutiva": "estratégia: Confundir grandeza real com comprimento de barra truncada.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-06",
+    "resolucao": "Exemplo adequado: “No SANDBOX-057 corte A, MAE B três e C quatro unidades; dois de oito cartões são avaliáveis e seis seguem pendentes”. Nomeia valores, unidade, coorte e limite sem depender de cor.",
+    "motivosDeErro": [
+      "interpretação"
+    ],
+    "devolutiva": "interpretação: Descrever apenas tonalidades ou aparência.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-07",
+    "resolucao": "Não: a divergência de bytes exige investigar fonte e versão. Coincidência de quatro números não substitui a rastreabilidade e não autoriza corrigir a fonte silenciosamente.",
+    "motivosDeErro": [
+      "estratégia"
+    ],
+    "devolutiva": "estratégia: Achar que mesmo número implica mesmo documento.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-08",
+    "resolucao": "Validar SVG verifica estrutura, title e desc. Teste real verifica navegação, pronúncia, foco, ordem, zoom e interpretação na combinação concreta de software; um não substitui outro.",
+    "motivosDeErro": [
+      "conteúdo"
+    ],
+    "devolutiva": "conteúdo: Declarar acessibilidade concluída só porque o XML abre.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-09",
+    "resolucao": "F02 converte MAE nulo do sucessor em zero e deve falhar NOT_ESTIMABLE_MUST_BE_NULL. O correto é manter null no JSON e “não estimável” no relatório textual.",
+    "motivosDeErro": [
+      "interpretação"
+    ],
+    "devolutiva": "interpretação: Tratar ausência como medição zero.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-10",
+    "resolucao": "Há piora local t19 de 19,2 unidades, maior que a guarda dez. As médias favoráveis não apagam a violação; a conclusão de promoção não é sustentada pelo protocolo histórico.",
+    "motivosDeErro": [
+      "interpretação"
+    ],
+    "devolutiva": "interpretação: Usar só a métrica agregada para revogar uma guarda.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-01",
+    "resolucao": "Não existe avaliação: o sucessor tem zero emissões, zero observados e nenhum par. Converter valores nulos em zero cria denominador fictício; precisão ou MAE não pode ser inferido. Questão autoral em estilo vestibular.",
+    "motivosDeErro": [
+      "interpretação"
+    ],
+    "devolutiva": "interpretação: Tomar ausência de dados como ausência de erro.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-02",
+    "resolucao": "O comprimento visível é 0,1 para B e 1,1 para C; onze é razão das alturas truncadas. A razão dos valores reais é quatro dividido por três, aproximadamente 1,33. Começar barras em zero evita esse efeito.",
+    "motivosDeErro": [
+      "cálculo"
+    ],
+    "devolutiva": "cálculo: Ler tamanho visual como razão dos valores originais.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-03",
+    "resolucao": "As populações e contratos são distintos, os dois cartões são exercícios isolados e não são novas observações da coorte. Um agrupamento requer objetivo, denominador e regras comparáveis previamente definidos; esta união não existe no protocolo.",
+    "motivosDeErro": [
+      "estratégia"
+    ],
+    "devolutiva": "estratégia: Somar conjuntos porque usam o mesmo nome de coluna.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-04",
+    "resolucao": "Não. O resultado automatizado confirma somente estrutura testada. A omissão observada em teste assistivo real deve gerar registro de defeito, correção, novo teste e manutenção da situação editorial pendente.",
+    "motivosDeErro": [
+      "interpretação"
+    ],
+    "devolutiva": "interpretação: Confundir cobertura técnica dos testes com experiência real.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-05",
+    "resolucao": "Preservar a fotografia corte A e publicar um novo corte ou nova versão com seus IDs, momento de disponibilidade, regra de inclusão, fonte e diferenças. Não reescrever silenciosamente o corte A, nem imputar que a observação de S04 existia antes.",
+    "motivosDeErro": [
+      "estratégia"
+    ],
+    "devolutiva": "estratégia: Alterar retrospectivamente a disponibilidade dos dados.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-06",
+    "resolucao": "Informar que o empate vale exclusivamente no custo e sob a regra assimétrica escolhida, enquanto os MAEs são diferentes nos dois cartões. Deve expor unidade e tamanho da amostra, evitando um veredicto global.",
+    "motivosDeErro": [
+      "interpretação"
+    ],
+    "devolutiva": "interpretação: Confundir métrica particular com avaliação completa.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-07",
+    "resolucao": "O defeito é da cópia experimental da receita; manter CSV e inventário canônicos intactos, revisar referência do relatório ou reconstruí-lo a partir do arquivo verificado. Não alterar origem para fazer um teste passar.",
+    "motivosDeErro": [
+      "estratégia"
+    ],
+    "devolutiva": "estratégia: Inverter a relação fonte–derivado.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-08",
+    "resolucao": "Apta apenas em testes automáticos locais, com revisão humana e integração pendentes. Não declarar aprovação, publicação ou teste público. Códigos de status devem dizer exatamente o que foi executado.",
+    "motivosDeErro": [
+      "interpretação"
+    ],
+    "devolutiva": "interpretação: Transformar um teste em todos os portões de publicação.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-09",
+    "resolucao": "Adicionar nomes B e C, eixos com MAE em unidades, corte A e n igual a dois; texto alternativo com a comparação e tabela ou parágrafo visível. Não depender da identificação de cor.",
+    "motivosDeErro": [
+      "conteúdo"
+    ],
+    "devolutiva": "conteúdo: Achar que apenas os números visuais bastam.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-10",
+    "resolucao": "Modelo: no histórico há cinco pares e a guarda t19 foi violada, sem promoção. No sandbox corte A dois de oito são elegíveis, MAEs três e quatro unidades e custos sete pontos para cada modelo. O sucessor t26–t33 não tem pares nem MAE estimável. Fixtures locais foram auditados, mas Edge, revisão humana e publicação permanecem pendentes.",
+    "motivosDeErro": [
+      "estratégia"
+    ],
+    "devolutiva": "estratégia: Unir conjuntos ou omitir limitações para soar conclusivo.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-RET-01",
+    "resolucao": "A completude é dois de quatro, cinquenta por cento. MAE usa apenas dois elegíveis: dois mais seis dividido por dois resulta em quatro unidades. Não dividir oito por quatro.",
+    "motivosDeErro": [
+      "cálculo"
+    ],
+    "devolutiva": "cálculo: Usar denominador do plano no erro médio.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-RET-02",
+    "resolucao": "Custos: seis e quatro pontos; dez dividido por dois dá cinco pontos. O sinal altera a penalidade.",
+    "motivosDeErro": [
+      "cálculo"
+    ],
+    "devolutiva": "cálculo: Usar módulo simples onde há assimetria.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-RET-03",
+    "resolucao": "Teste deve exigir correspondência entre estado e representação, reprovando conversão de nulo em zero. Correção: sem barra numérica, rótulo “não estimável”, preservando null no dado.",
+    "motivosDeErro": [
+      "interpretação"
+    ],
+    "devolutiva": "interpretação: Converter não medido em zero.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-RET-04",
+    "resolucao": "Manter reprovado na integridade até resolver versão/fonte e reconstruir o relatório derivado. Outros testes verdes não anulam um controle de procedência falho.",
+    "motivosDeErro": [
+      "estratégia"
+    ],
+    "devolutiva": "estratégia: Confundir aprovação parcial e global.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-RET-05",
+    "resolucao": "“No corte A fictício, MAE B três e C quatro unidades, com dois de oito cartões avaliáveis e seis pendências.” A frase transmite valores, escala, população e limitação sem cor.",
+    "motivosDeErro": [
+      "conteúdo"
+    ],
+    "devolutiva": "conteúdo: Descrever aparência sem significado.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  },
+  {
+    "id": "MAT-EST-060-EX-RET-06",
+    "resolucao": "Exemplo: comparar hashes das fontes; recalcular contagens, métricas e unidades; inspecionar alt, tabela e testar de fato Edge/leitor de tela; obter revisão editorial humana; integrar, registrar commit/deploy e conferir URL pública. Se qualquer etapa não ocorreu, manter seu estado pendente.",
+    "motivosDeErro": [
+      "estratégia"
+    ],
+    "devolutiva": "estratégia: Declarar conclusão de ações ainda não executadas.",
+    "orientacao": "Indique fonte, corte, denominador, unidade e se a conclusão está ou não autorizada."
+  }
+]

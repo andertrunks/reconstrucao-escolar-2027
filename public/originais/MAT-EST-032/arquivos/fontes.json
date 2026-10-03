@@ -1,0 +1,32 @@
+[
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 501 — Lesson 3: Estimation and Prediction",
+    "url": "https://online.stat.psu.edu/stat501/Lesson03",
+    "uso": "Distinção entre intervalo da resposta média e previsão de nova observação."
+  },
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 501 — Lesson 10: Model Building",
+    "url": "https://online.stat.psu.edu/stat501/Lesson10",
+    "uso": "Validação em amostra independente, erro quadrático de previsão e avaliação preditiva."
+  },
+  {
+    "instituicao": "scikit-learn",
+    "titulo": "Model Evaluation",
+    "url": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+    "uso": "Definições e limitações de MAE, MSE, RMSE e R²."
+  },
+  {
+    "instituicao": "scikit-learn",
+    "titulo": "Common pitfalls and recommended practices",
+    "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+    "uso": "Vazamento de dados, separação teste/treino e coerência de transformações."
+  },
+  {
+    "instituicao": "MIT OpenCourseWare",
+    "titulo": "Video 8: Comparing the Model to the Experts",
+    "url": "https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/video-8-comparing-the-model-to-the-experts/",
+    "uso": "Complemento audiovisual sobre comparação de modelos e referências externas."
+  }
+]

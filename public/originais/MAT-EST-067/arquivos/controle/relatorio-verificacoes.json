@@ -1,0 +1,57 @@
+{
+  "nome": "MAT-EST-067 — verificacoes locais do incremento",
+  "escopo": "somente novos arquivos; nao inclui os 23 invariantes herdados nem repete as 370 verificacoes reportadas da MAT-EST-066",
+  "status": "checked_local",
+  "checks_programaticos_antes_do_zip": 1280,
+  "secoes": {
+    "estrutura": 13,
+    "escopo": 21,
+    "aritmetica": 20,
+    "matematica_exaustiva": 1002,
+    "exercicios": 149,
+    "acessibilidade": 75
+  },
+  "caso": {
+    "cartoes": 6,
+    "elegiveis": 4,
+    "ausentes": 2,
+    "completude": "4/6 (66,67%)",
+    "erros_B": [
+      3,
+      -2,
+      4,
+      1
+    ],
+    "erros_C": [
+      1,
+      1,
+      -3,
+      -2
+    ],
+    "MAE_B": 2.5,
+    "MAE_C": 1.75,
+    "custo_medio_B": 6.5,
+    "custo_medio_C": 2.75,
+    "diferencas_pareadas": [
+      -2,
+      -1,
+      -1,
+      1
+    ],
+    "limite_condicional_media_C_menos_B": [
+      -1,
+      0
+    ],
+    "guarda_ficticia_D04": "violada; 1>0,5"
+  },
+  "exercicios": 36,
+  "SVG": 6,
+  "historico_integral": "not_verified_missing_source_bytes",
+  "publicado": false,
+  "progresso_individual_alterado": false,
+  "notas": [
+    "Teste matemático verifica desigualdade em valores artificiais de -250 a +250; não cria observações.",
+    "Verificação de XML e existência de HTML/links não substitui inspeção humana por Edge.",
+    "URL do vídeo verificada em fonte pública; playback integral não testado."
+  ]
+}

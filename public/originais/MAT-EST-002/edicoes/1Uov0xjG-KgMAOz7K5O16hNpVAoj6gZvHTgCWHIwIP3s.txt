@@ -1,0 +1,196 @@
+﻿MAT-EST-002 — Censo, amostragem e representatividade: como escolher uma amostra — Gabarito comentado
+
+
+Uso: revelar somente depois da tentativa. Cada correção explica o raciocínio e sugere motivo provável do erro.
+
+
+APRENDIZAGEM BÁSICA
+
+
+MAT-EST-002-EX-APR-01 — Censo ou amostra
+Correção comentada: censitária, porque a proposta é registrar o idioma de todos os 2.400 livros da população definida. O fato de usar um catálogo não transforma o levantamento em amostra.
+Motivo provável de erro: interpretação — confundir instrumento de coleta com tipo de levantamento.
+
+
+MAT-EST-002-EX-APR-02 — População-alvo
+Correção comentada: os 900 estudantes, se a pergunta realmente pretende descrever todos os matriculados naquele período.
+Motivo provável de erro: conteúdo — responder com apenas quem foi entrevistado.
+
+
+MAT-EST-002-EX-APR-03 — Marco amostral
+Correção comentada: é o marco ou cadastro amostral, isto é, a lista operacional a partir da qual as unidades podem ser selecionadas.
+Motivo provável de erro: memória/conteúdo — confundir população com lista.
+
+
+MAT-EST-002-EX-APR-04 — Conveniência
+Correção comentada: é uma amostra de conveniência com cobertura seletiva. Frequentadores de livraria podem diferir do conjunto de moradores da cidade.
+Motivo provável de erro: interpretação — assumir que número de entrevistados garante representatividade.
+
+
+MAT-EST-002-EX-APR-05 — Resposta voluntária
+Correção comentada: a inclusão depende da decisão do visitante de responder; não há mecanismo probabilístico conhecido cobrindo a população da cidade.
+Motivo provável de erro: conteúdo — confundir grande número de votos com probabilidade de inclusão conhecida.
+
+
+MAT-EST-002-EX-APR-06 — Amostragem aleatória simples
+Correção comentada: amostragem aleatória simples, assumindo que o sorteio é feito sobre a lista completa e sem outra estrutura.
+Motivo provável de erro: memória — trocar com sistemática.
+
+
+MAT-EST-002-EX-APR-07 — Sistemática
+Correção comentada: amostragem sistemática.
+Motivo provável de erro: memória — confundir intervalo regular com estratificação.
+
+
+MAT-EST-002-EX-APR-08 — Estratificada
+Correção comentada: amostragem estratificada por série.
+Motivo provável de erro: conteúdo — não reconhecer que todos os estratos recebem seleção interna.
+
+
+MAT-EST-002-EX-APR-09 — Conglomerados
+Correção comentada: amostragem por conglomerados, pois as turmas são grupos naturais selecionados e todos os estudantes delas são entrevistados.
+Motivo provável de erro: conteúdo — confundir conglomerado com estrato.
+
+
+MAT-EST-002-EX-APR-10 — Tipos de erro
+Correção comentada: erro de medição, pois a redação da pergunta induz uma avaliação positiva.
+Motivo provável de erro: interpretação — atribuir tudo a erro amostral.
+
+
+CONSOLIDAÇÃO
+
+
+MAT-EST-002-EX-CON-01 — Censo sem perfeição
+Correção comentada: cobertura, não resposta, medição, registro e processamento podem falhar mesmo quando a intenção é observar todas as unidades. Um censo elimina a escolha de apenas parte da população, não todos os erros.
+Motivo provável de erro: conteúdo — tratar censo como sinônimo de verdade perfeita.
+
+
+MAT-EST-002-EX-CON-02 — Tamanho versus viés
+Correção comentada: não. Tamanho não corrige automaticamente seleção voluntária ou cobertura inadequada. B tem uma base de seleção mais defensável; ainda assim, também deve ser avaliada quanto a não resposta, medição e execução.
+Motivo provável de erro: estratégia — usar apenas n como critério.
+
+
+MAT-EST-002-EX-CON-03 — Fração amostral
+Correção comentada: f = 200/2000 = 0,10 = 10%. Significa que o tamanho planejado corresponde a 10% da população. Não prova que a amostra seja representativa.
+Motivo provável de erro: cálculo/interpretação — transformar fração em selo de qualidade.
+
+
+MAT-EST-002-EX-CON-04 — Alocação proporcional
+Correção comentada: 70 pela manhã e 30 à noite, preservando as proporções 70% e 30%.
+Motivo provável de erro: cálculo — usar 50/50 apesar dos estratos terem tamanhos diferentes.
+
+
+MAT-EST-002-EX-CON-05 — Não resposta
+Correção comentada: seleção e resposta são etapas distintas. A perda de 90 pessoas pode ser aleatória ou seletiva; ocultá-la impede avaliar não resposta e cobertura efetiva.
+Motivo provável de erro: interpretação — tratar respondentes como se fossem todos os selecionados.
+
+
+MAT-EST-002-EX-CON-06 — Cobertura
+Correção comentada: erro de cobertura. Unidades da população-alvo que não estão no cadastro têm probabilidade zero de seleção dentro daquele procedimento.
+Motivo provável de erro: conteúdo — acreditar que aleatoriedade corrige cadastro incompleto.
+
+
+MAT-EST-002-EX-CON-07 — Sistemática e periodicidade
+Correção comentada: a periodicidade da lista pode se alinhar ao passo 4 e selecionar repetidamente o mesmo tipo de peça, produzindo amostra distorcida.
+Motivo provável de erro: estratégia — aplicar sistemática sem examinar ordenação.
+
+
+MAT-EST-002-EX-CON-08 — Estrato versus conglomerado
+Correção comentada: estratificada divide em estratos e seleciona unidades dentro de todos ou dos estratos definidos. Conglomerados seleciona alguns grupos naturais e observa todas ou parte das unidades dentro deles.
+Motivo provável de erro: conteúdo — pensar que qualquer uso de grupos é a mesma técnica.
+
+
+MAT-EST-002-EX-CON-09 — Desenho escolar
+Correção comentada: estratificar por ano e selecionar probabilisticamente dentro de cada ano, de preferência com alocação proporcional se o objetivo for estimar o conjunto da escola sem superamostrar deliberadamente séries pequenas.
+Motivo provável de erro: estratégia — propor conveniência sem justificar.
+
+
+MAT-EST-002-EX-CON-10 — Cinco erros
+Correção comentada: a) cobertura; b) não resposta; c) medição; d) processamento; e) erro amostral ou variabilidade amostral.
+Motivo provável de erro: memória — não separar fontes de erro.
+
+
+TRANSFERÊNCIA E ESTILO VESTIBULAR — QUESTÕES AUTORAIS
+
+
+MAT-EST-002-EX-VES-01 — Enquete esportiva
+Correção comentada: os 80 mil votos descrevem os participantes daquela enquete e mostram como esse grupo respondeu. Sem mecanismo probabilístico que cubra a população brasileira e sem controle de múltiplos votos e seleção, não sustentam uma estimativa automática da torcida nacional.
+Motivo provável de erro: interpretação — equiparar volume de respostas a amostra probabilística.
+
+
+MAT-EST-002-EX-VES-02 — Pesquisa em terminal
+Correção comentada: o terminal de ônibus causa cobertura seletiva e favorece trabalhadores que usam ônibus. Uma melhoria é usar um cadastro que cubra os trabalhadores ou pontos de coleta distribuídos segundo desenho probabilístico entre diferentes modos, regiões e horários.
+Motivo provável de erro: estratégia — tentar corrigir apenas aumentando n no terminal.
+
+
+MAT-EST-002-EX-VES-03 — Amostra maior
+Correção comentada: sob o mesmo desenho adequado, maior n tende a reduzir a variabilidade amostral de estimativas. Não garante ausência de viés de cobertura, não resposta, medição ou processamento.
+Motivo provável de erro: conteúdo — afirmar que amostra grande elimina todos os erros.
+
+
+MAT-EST-002-EX-VES-04 — Planejamento por bairros
+Correção comentada: estratificar por bairro garante seleção dentro de cada bairro e pode permitir precisão local planejada. Se as frações de amostragem diferirem, a agregação para a cidade precisa respeitar pesos e tamanhos populacionais; não se deve dar automaticamente o mesmo peso a todos os bairros.
+Motivo provável de erro: estratégia — somar percentuais locais sem considerar tamanhos.
+
+
+MAT-EST-002-EX-VES-05 — Conglomerados econômicos
+Correção comentada: concentrar a coleta em escolas selecionadas reduz deslocamento e custo. Porém estudantes da mesma escola podem ser semelhantes; a dependência intragrupo pode aumentar a incerteza em comparação com uma amostra simples do mesmo tamanho.
+Motivo provável de erro: conteúdo — pensar que 500 estudantes em poucas escolas equivalem a 500 espalhados independentemente.
+
+
+MAT-EST-002-EX-VES-06 — Censo com questionário amostral
+Correção comentada: uma operação pode enumerar todas as unidades com um conjunto básico de perguntas e aplicar questões detalhadas apenas a uma amostra probabilística. O caráter censitário refere-se ao objetivo de cobertura da operação básica; a amostragem pode ser um componente de coleta detalhada.
+Motivo provável de erro: interpretação — achar que uma operação só pode ter uma técnica.
+
+
+MAT-EST-002-EX-VES-07 — Sorteio na rua
+Correção comentada: as pessoas presentes na praça formam primeiro um conjunto acessível já filtrado por local e horário. Sortear dentro desse grupo não dá chance de seleção a moradores ausentes; portanto não é amostragem aleatória simples da cidade inteira.
+Motivo provável de erro: conteúdo — localizar a aleatoriedade no último passo e ignorar cobertura.
+
+
+MAT-EST-002-EX-VES-08 — Não resposta diferencial
+Correção comentada: os satisfeitos ficam muito mais propensos a aparecer entre respondentes. A proporção observada entre quem respondeu pode superestimar satisfação em relação à população selecionada.
+Motivo provável de erro: interpretação — ignorar não resposta diferencial.
+
+
+MAT-EST-002-EX-VES-09 — Cadastro duplicado
+Correção comentada: pessoas duplicadas têm mais entradas no mecanismo e, portanto, maior chance de seleção. Isso viola a intenção de probabilidades iguais da amostragem simples sobre unidades únicas.
+Motivo provável de erro: conteúdo — não perceber que a lista define probabilidades.
+
+
+MAT-EST-002-EX-VES-10 — Parecer de quatro frases
+Correção comentada: o uso de seleção aleatória a partir de cadastro que cobre todos os setores é uma força do desenho. Entretanto, 70 dos 500 selecionados não responderam e é preciso verificar se a não resposta foi seletiva. A neutralidade declarada da pergunta reduz um risco de medição, mas sua aplicação também precisa ser conferida. A conclusão deve permanecer condicionada à qualidade do cadastro, da execução e do padrão de resposta.
+Motivo provável de erro: estratégia — escrever parecer sem separar forças e limites.
+
+
+RETESTE POSTERIOR
+
+
+MAT-EST-002-EX-RET-01 — Novo censo
+Correção comentada: censitário, porque registra todos os 65 membros. Ainda pode haver, por exemplo, idade digitada incorretamente, classificação errada ou cadastro desatualizado.
+Motivo provável de erro: conteúdo — afirmar que não há erros possíveis.
+
+
+MAT-EST-002-EX-RET-02 — Nova estratificação
+Correção comentada: 20 no grupo A e 80 no grupo B, porque A representa 20% e B 80% da população.
+Motivo provável de erro: cálculo — dividir a amostra igualmente.
+
+
+MAT-EST-002-EX-RET-03 — Novo sistemático
+Correção comentada: k = 240/24 = 10. O início aleatório define, entre as primeiras dez posições, onde a sequência regular começa, evitando uma escolha arbitrária fixa.
+Motivo provável de erro: cálculo/memória — esquecer o sorteio inicial.
+
+
+MAT-EST-002-EX-RET-04 — Nova conveniência
+Correção comentada: deve-se evitar generalizar automaticamente os hábitos dos frequentadores do restaurante vegetariano para todos os universitários.
+Motivo provável de erro: interpretação — ignorar conveniência.
+
+
+MAT-EST-002-EX-RET-05 — Novo mapa de erros
+Correção comentada: erro amostral é a variação decorrente de observar uma amostra em vez de toda a população; erro de cobertura ocorre quando o marco amostral não inclui adequadamente a população-alvo ou inclui unidades indevidas.
+Motivo provável de erro: conteúdo — fundir duas fontes de erro.
+
+
+MAT-EST-002-EX-RET-06 — Projeto independente
+Correção comentada: exemplo defensável — população: todos os moradores residentes no condomínio na data de referência; marco: cadastro atualizado de moradores; seleção: sorteio probabilístico de moradores ou domicílios conforme a unidade definida; registrar quantos foram selecionados e quantos responderam; limitação: cadastro desatualizado, não resposta ou declaração imprecisa podem afetar o resultado.
+Motivo provável de erro: estratégia — omitir unidade ou não resposta.

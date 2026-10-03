@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+<title>Mesmo dado com escala completa e escala truncada</title>
+<desc>Dois gráficos mostram valores noventa e dois e noventa e seis. À esquerda o eixo vai de zero a cem e as barras são parecidas. À direita o eixo vai de noventa a cem e a barra de noventa e seis parece três vezes a de noventa e dois acima da linha de base.</desc>
+<rect width="1100" height="650" fill="white"/><text x="240" y="45" font-size="28" font-family="Arial">Os dados são iguais; a escala muda a impressão</text>
+<text x="170" y="95" font-size="22" font-family="Arial">Eixo de 0 a 100</text><text x="735" y="95" font-size="22" font-family="Arial">Eixo de 90 a 100</text>
+<line x1="100" y1="540" x2="480" y2="540" stroke="black" stroke-width="3"/><line x1="100" y1="540" x2="100" y2="140" stroke="black" stroke-width="3"/>
+<rect x="180" y="172" width="100" height="368" fill="none" stroke="black" stroke-width="3"/><rect x="340" y="156" width="100" height="384" fill="none" stroke="black" stroke-width="3"/>
+<g font-family="Arial" font-size="18"><text x="205" y="570">92</text><text x="365" y="570">96</text><text x="65" y="545">0</text><text x="55" y="150">100</text></g>
+<line x1="620" y1="540" x2="1000" y2="540" stroke="black" stroke-width="3"/><line x1="620" y1="540" x2="620" y2="140" stroke="black" stroke-width="3"/>
+<rect x="700" y="460" width="100" height="80" fill="none" stroke="black" stroke-width="3"/><rect x="860" y="300" width="100" height="240" fill="none" stroke="black" stroke-width="3"/>
+<g font-family="Arial" font-size="18"><text x="725" y="570">92</text><text x="885" y="570">96</text><text x="580" y="545">90</text><text x="570" y="150">100</text></g>
+<text x="260" y="625" font-size="18" font-family="Arial">Diferença real: 4 unidades; 96 é cerca de 4,3% maior que 92.</text>
+</svg>

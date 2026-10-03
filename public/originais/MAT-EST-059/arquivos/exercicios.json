@@ -1,0 +1,578 @@
+[
+  {
+    "id": "MAT-EST-059-EX-APR-01",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Qual é a população e o corte do gráfico que mostra dois pares avaliáveis entre oito cartões?"
+  },
+  {
+    "id": "MAT-EST-059-EX-APR-02",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Calcule a completude do SANDBOX-057 e escreva a fração em palavras."
+  },
+  {
+    "id": "MAT-EST-059-EX-APR-03",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Que unidade se escreve no eixo do gráfico de MAE e no eixo do gráfico de custo?"
+  },
+  {
+    "id": "MAT-EST-059-EX-APR-04",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Por que o gráfico de barras de MAE 3 e 4 deve começar em zero?"
+  },
+  {
+    "id": "MAT-EST-059-EX-APR-05",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "No exemplo S01, os módulos de B e C são 4 e 3. Calcule C menos B."
+  },
+  {
+    "id": "MAT-EST-059-EX-APR-06",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "No exemplo S02, os módulos são B=2 e C=5. Calcule a diferença C menos B."
+  },
+  {
+    "id": "MAT-EST-059-EX-APR-07",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Qual é a média das diferenças emparelhadas −1 e +3?"
+  },
+  {
+    "id": "MAT-EST-059-EX-APR-08",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "O sucessor t26–t33 tem zero pares avaliáveis. Qual MAE se deve mostrar?"
+  },
+  {
+    "id": "MAT-EST-059-EX-APR-09",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Diga uma diferença entre texto alternativo e legenda de um gráfico."
+  },
+  {
+    "id": "MAT-EST-059-EX-APR-10",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Qual palavra deve acompanhar os limites produzidos com M=10 para seis pendências?"
+  },
+  {
+    "id": "MAT-EST-059-EX-CON-01",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Recalcule os MAEs para B, erros +4 e −2, e C, erros +3 e −5."
+  },
+  {
+    "id": "MAT-EST-059-EX-CON-02",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Calcule o custo médio B com +4 e −2 usando três por subprevisão e um por superprevisão."
+  },
+  {
+    "id": "MAT-EST-059-EX-CON-03",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Calcule o custo médio C com +3 e −5 e compare com B."
+  },
+  {
+    "id": "MAT-EST-059-EX-CON-04",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Demonstre que a diferença MAE C menos MAE B é igual à média das diferenças por cartão."
+  },
+  {
+    "id": "MAT-EST-059-EX-CON-05",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Explique a distorção de barras de valores 3 e 4 se o eixo começa em 2,9."
+  },
+  {
+    "id": "MAT-EST-059-EX-CON-06",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Como apresentar a melhora média histórica de C sem esconder a falha em t19?"
+  },
+  {
+    "id": "MAT-EST-059-EX-CON-07",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Calcule o MAE condicional mínimo e máximo de B supondo seis módulos faltantes entre zero e dez."
+  },
+  {
+    "id": "MAT-EST-059-EX-CON-08",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Calcule os limites condicionais de C sob a mesma hipótese."
+  },
+  {
+    "id": "MAT-EST-059-EX-CON-09",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Derive a faixa condicional da diferença média C menos B para M=10."
+  },
+  {
+    "id": "MAT-EST-059-EX-CON-10",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Reproduza o impacto da exclusão posterior de S02 sobre MAE e n."
+  },
+  {
+    "id": "MAT-EST-059-EX-VES-01",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "item autoral em estilo vestibular; sem vínculo com banca",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Estilo vestibular autoral. Um jornal mostra barra de B=3 e C=4 entre 2,9 e 4,1 e escreve “diferença enorme”. Faça uma correção editorial completa."
+  },
+  {
+    "id": "MAT-EST-059-EX-VES-02",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "item autoral em estilo vestibular; sem vínculo com banca",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Estilo vestibular autoral. Compare a afirmação “C tem maior MAE no sandbox” com “C tem melhor custo no sandbox”. Quais são sustentadas?"
+  },
+  {
+    "id": "MAT-EST-059-EX-VES-03",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "item autoral em estilo vestibular; sem vínculo com banca",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Estilo vestibular autoral. Um painel junta histórico de cinco pares com S01 e S02 e anuncia sete pares do sucessor. Identifique o problema."
+  },
+  {
+    "id": "MAT-EST-059-EX-VES-04",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "item autoral em estilo vestibular; sem vínculo com banca",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Estilo vestibular autoral. Um relatório diz “não houve falha no sucessor, logo 100% de êxito”. Reescreva."
+  },
+  {
+    "id": "MAT-EST-059-EX-VES-05",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "item autoral em estilo vestibular; sem vínculo com banca",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Estilo vestibular autoral. Um analista remove S02 depois de saber que C errou cinco e chama o novo resultado de teste confirmatório. Analise."
+  },
+  {
+    "id": "MAT-EST-059-EX-VES-06",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "item autoral em estilo vestibular; sem vínculo com banca",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Estilo vestibular autoral. Um slide mostra [0,75;8,25] e [1;8,5] e escreve “intervalos de confiança de 95%”. O que faltou?"
+  },
+  {
+    "id": "MAT-EST-059-EX-VES-07",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "item autoral em estilo vestibular; sem vínculo com banca",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Estilo vestibular autoral. Uma legenda descreve apenas “barras azuis e laranjas”. Refaça-a para o painel de MAE e custo."
+  },
+  {
+    "id": "MAT-EST-059-EX-VES-08",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "item autoral em estilo vestibular; sem vínculo com banca",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Estilo vestibular autoral. Com teto hipotético de dez, o limite da diferença C menos B inclui zero. Escreva inferência legítima."
+  },
+  {
+    "id": "MAT-EST-059-EX-VES-09",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "item autoral em estilo vestibular; sem vínculo com banca",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Estilo vestibular autoral. Um gestor exibe apenas a economia média histórica e pede promoção de C. Redija parecer técnico de quatro frases."
+  },
+  {
+    "id": "MAT-EST-059-EX-VES-10",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "item autoral em estilo vestibular; sem vínculo com banca",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Estilo vestibular autoral. Desenhe o roteiro de seis elos de uma afirmação verificável sobre os dois de oito cartões."
+  },
+  {
+    "id": "MAT-EST-059-EX-RET-01",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "reteste",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Reteste futuro. Em novo exercício isolado, quatro casos planejados e um avaliável, qual completude e qual denominador entra no MAE existente?"
+  },
+  {
+    "id": "MAT-EST-059-EX-RET-02",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "reteste",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Reteste futuro. Dois módulos emparelhados são B=[1;7] e C=[3;4]. Encontre MAEs e média da diferença C menos B."
+  },
+  {
+    "id": "MAT-EST-059-EX-RET-03",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "reteste",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Reteste futuro. Um gráfico em barras compara 40 e 42, mas o eixo começa em 39. Qual impressão exagerada e que alternativa usar?"
+  },
+  {
+    "id": "MAT-EST-059-EX-RET-04",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "reteste",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Reteste futuro. Uma faixa [2;8] foi obtida supondo um teto arbitrário dos erros faltantes. Pode chamá-la IC de 95%?"
+  },
+  {
+    "id": "MAT-EST-059-EX-RET-05",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "reteste",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Reteste futuro. Um relatório muda de seis casos para três após saber os resultados. Qual registro mínimo impediria uma substituição silenciosa?"
+  },
+  {
+    "id": "MAT-EST-059-EX-RET-06",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "reteste",
+    "materia": "Matemática",
+    "topicos": [
+      "séries temporais",
+      "gráficos honestos",
+      "pares",
+      "incerteza condicional",
+      "comunicação verificável"
+    ],
+    "enunciado": "Reteste futuro. Escreva quatro frases executivas sobre SANDBOX-057 sem usar resultados futuros ou promover C."
+  }
+]

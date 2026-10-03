@@ -1,0 +1,9 @@
+state,next_if,next_state,audit_requirement
+planned,forecast not authenticated,awaiting_issuance,plan and origin recorded
+awaiting_issuance,authenticated prior to availability of target,issued,immutable snapshot and accepted ordering
+issued,target not received after deadline,overdue,no observed value invented
+issued_or_overdue,receipt provisional or suspect,quarantined,source and quality reason
+quarantined,validated or corrected observation,validated,versioned observation event
+validated,both forecast versions available prior to target,paired,pair ID and common target
+paired,metrics audited,evaluated,denominators and model versions
+evaluated,closure report with status,closed,full chain and unchanged gates

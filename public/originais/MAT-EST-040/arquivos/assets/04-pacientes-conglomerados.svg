@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc"><title id="title">Reamostragem por conglomerados</title><desc id="desc">Três pacientes com duas medições cada; médias dos pacientes 3, 7 e 11; reamostragem por paciente.</desc>
+<rect width="1000" height="560" fill="#f8fbfc"/>
+<text x="45" y="58" font-family="Arial,DejaVu Sans,sans-serif" font-size="28" font-weight="700" fill="#142637">Unidade independente: paciente, não linha de dados</text>
+<rect x="55" y="130" width="285" height="170" rx="15" fill="#e8f4f7" stroke="#d4dce3" stroke-width="2"/>
+<text x="77" y="175" font-family="Arial,DejaVu Sans,sans-serif" font-size="24" font-weight="700" fill="#146f8c">Paciente 1</text>
+<text x="77" y="218" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" font-weight="400" fill="#142637">Medidas: 2 e 4</text>
+<text x="77" y="260" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="700" fill="#142637">Média: 3</text>
+<rect x="373" y="130" width="285" height="170" rx="15" fill="#ffffff" stroke="#d4dce3" stroke-width="2"/>
+<text x="395" y="175" font-family="Arial,DejaVu Sans,sans-serif" font-size="24" font-weight="700" fill="#146f8c">Paciente 2</text>
+<text x="395" y="218" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" font-weight="400" fill="#142637">Medidas: 6 e 8</text>
+<text x="395" y="260" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="700" fill="#142637">Média: 7</text>
+<rect x="691" y="130" width="285" height="170" rx="15" fill="#e8f4f7" stroke="#d4dce3" stroke-width="2"/>
+<text x="713" y="175" font-family="Arial,DejaVu Sans,sans-serif" font-size="24" font-weight="700" fill="#146f8c">Paciente 3</text>
+<text x="713" y="218" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" font-weight="400" fill="#142637">Medidas: 10 e 12</text>
+<text x="713" y="260" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="700" fill="#142637">Média: 11</text>
+<rect x="53" y="345" width="885" height="102" rx="15" fill="#fff2e7"/>
+<text x="76" y="388" font-family="Arial,DejaVu Sans,sans-serif" font-size="24" font-weight="700" fill="#9a471b">Reamostrar três pacientes completos, com reposição.</text>
+<text x="76" y="422" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" font-weight="400" fill="#142637">Não tratar seis medições como seis pessoas independentes.</text>
+</svg>

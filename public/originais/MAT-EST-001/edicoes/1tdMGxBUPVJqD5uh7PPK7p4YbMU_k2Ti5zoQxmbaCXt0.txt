@@ -1,0 +1,92 @@
+﻿MAT-EST-001 — Manifesto da reconstrução editorial v1
+
+
+IDENTIDADE
+
+
+Código preservado: MAT-EST-001.
+Título preservado: Introdução à Estatística: população, amostra, variável e dado.
+Natureza: reconstrução editorial nova.
+Não é cópia byte a byte do material histórico perdido.
+Estado de aprendizagem: não iniciado. Produção editorial não altera progresso.
+
+
+ARQUIVOS PERSISTIDOS
+
+
+AULA — MAT-EST-001 — reconstrução editorial v1.
+EXERCÍCIOS — MAT-EST-001 — reconstrução editorial v1.
+GABARITO — MAT-EST-001 — reconstrução editorial v1.
+Este manifesto.
+
+
+ESCOPO
+
+
+Nível principal: 2 — Ensino Fundamental II, com progressão para Ensino Médio e vestibular.
+Pré-requisitos: leitura literal, contagem com naturais e comparação simples.
+Próximo tópico: MAT-EST-002 — Censo, amostragem e representatividade: como escolher uma amostra.
+
+
+EXERCÍCIOS
+
+
+36 IDs autorais únicos:
+APR = 10.
+CON = 10.
+VES = 10.
+RET = 6.
+Questões oficiais reproduzidas: zero.
+Gabarito separado: sim.
+Cada solução contém resposta esperada, raciocínio e hipótese de motivo de erro, a confirmar somente após tentativa real.
+
+
+VISUAIS
+
+
+Cinco visuais autorais foram especificados integralmente na aula:
+1. População e amostra.
+2. Unidade, variável e dado.
+3. Árvore de classificação das variáveis.
+4. Censo e amostra.
+5. Da pergunta à conclusão.
+
+
+Cada um possui legenda, texto alternativo, indicação do que observar e conclusão para áudio.
+Arquivos SVG reais: PENDENTES. Não declarar os visuais finalizados até a geração e validação dos arquivos.
+
+
+FONTES
+
+
+BNCC oficial.
+Inep — Matrizes de Referência do Enem, publicação institucional de 2026.
+FUVEST — Programa do Vestibular 2027.
+Documentos canônicos do projeto Reconstrução Escolar 2027.
+
+
+VÍDEO
+
+
+CONCEITOS BÁSICOS DE ESTATÍSTICA: POPULAÇÃO, AMOSTRA, AMOSTRAGEM, VARIÁVEIS E ORGANIZAÇÃO DE DADOS.
+Canal: Professora Gisele Ramos - Matemática.
+URL: https://www.youtube.com/watch?v=5ctWgFOizkQ
+Página localizada. Reprodução integral, legendas e QA no Microsoft Edge permanecem pendentes.
+
+
+REGRAS
+
+
+Não sobrescrever históricos.
+Não publicar antes de QA e conversão para o modelo do site.
+Não revelar gabarito antes da tentativa.
+Não alterar progresso individual.
+Não iniciar MAT-EST-068.
+
+
+ESTADO
+
+
+MAT-EST-001: reconstrução textual substantiva persistida no Drive; 36 exercícios e 36 correções persistidos; cinco especificações visuais persistidas.
+Pendências da MAT-EST-001: SVGs reais, verificação integral do vídeo, QA Edge/acessibilidade e conversão estruturada para o site.
+B1 permanece parcialmente resolvido porque MAT-EST-002 a MAT-EST-030 ainda precisam de reconstrução ou recuperação integral.

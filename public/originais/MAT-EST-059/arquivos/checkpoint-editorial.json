@@ -1,0 +1,34 @@
+{
+  "projeto": "Reconstrução Escolar + ENEM e Vestibulares 2027",
+  "ultimo_pacote_editorial_concluido": "MAT-EST-059",
+  "ultimo_confirmado_antes": "MAT-EST-058",
+  "titulo_ultimo": "Comunicação comparativa de desempenho temporal: gráficos honestos, incerteza condicional e relatório executivo verificável",
+  "etapa_atual": "pacote editorial concluído localmente; sem publicação/sincronização",
+  "proximo_topico_editorial": "MAT-EST-060",
+  "titulo_proximo_proposto": "Auditoria de gráficos e relatórios automatizados: testes de consistência, versões e acessibilidade de publicação",
+  "proximo_estado": "não iniciado",
+  "progresso_individual": "não iniciado; nenhuma tentativa do usuário registrada; inalterado",
+  "serie": "t01–t22 preservados; t23–t25 sem observação/emissão autenticada; t26–t33 propostos, zero pares",
+  "historico": "MAT-EST-049-PROT-v1 preservado; cinco pares, falha t19=19,2 > guarda 10; C não promovido no protocolo antigo",
+  "sucessor": "MAT-EST-056-PROT-SUC-v1 permanece rascunho editorial não submetido, zero emissões e zero observados",
+  "sandbox": "SANDBOX-057 intacto: oito cartões, dois avaliáveis e seis pendentes. MAT-EST-059 apenas comunica dados de corte A e limites condicionais, sem alterar registros.",
+  "novidades": [
+    "seis gráficos acessíveis com legendas e conclusões pronunciáveis",
+    "relatório executivo reproduzível e matriz com dez alegações rastreáveis",
+    "36 exercícios novos com gabarito separado"
+  ],
+  "anexo_anterior": "historico/MAT-EST-058-pacote-integracao.zip preservado integralmente",
+  "arquivos_invariantes_herdados_sha256": 23,
+  "nao_alegar": [
+    "resultado novo t23–t33",
+    "aprovação real ou pré-registro externo",
+    "intervalos de confiança de faixas hipotéticas",
+    "promover modelo sob protocolo original",
+    "publicação web",
+    "sincronização Drive ou GitHub",
+    "teste manual no Edge",
+    "reprodução integral do vídeo",
+    "progresso individual estudado"
+  ],
+  "material_integracao": "MAT-EST-059-pacote-integracao.zip"
+}

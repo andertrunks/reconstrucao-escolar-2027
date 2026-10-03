@@ -1,0 +1,18 @@
+{
+  "id": "MAT-EST-064-INTEGRIDADE-v1",
+  "all_passed": true,
+  "previous_zip_sha256": "93ce6b4ddbb3d37952fbe6144fbfb76b9ec61218fa75e34063b52e9063af9352",
+  "inherited_sha256_entries": 23,
+  "inherited_gates_unchanged": true,
+  "pending_human_reviews": 4,
+  "real_deploy_count": 0,
+  "real_incident_count": 0,
+  "hypothetical_cause_count": 6,
+  "action_count": 7,
+  "local_fixture_tested_action_count": 6,
+  "authored_exercises": 36,
+  "semantic_figures": 6,
+  "manifest_entries": 67,
+  "no_new_series_observations": true,
+  "status": "local_only"
+}

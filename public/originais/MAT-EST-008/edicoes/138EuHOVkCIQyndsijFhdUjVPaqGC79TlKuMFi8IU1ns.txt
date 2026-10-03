@@ -1,0 +1,54 @@
+﻿MAT-EST-008 — MANIFESTO DA RECONSTRUÇÃO EDITORIAL v1
+
+
+Natureza
+Reconstrução editorial explícita. O projeto preserva evidência histórica do código MAT-EST-008, mas o material integral anterior não foi recuperado. Esta versão não afirma identidade textual, visual ou binária com o original perdido.
+
+
+Escopo
+Código: MAT-EST-008.
+Título: Variância e desvio-padrão: quadrados dos desvios, unidades e interpretação.
+Pré-requisitos: MAT-EST-001 a MAT-EST-007.
+Próximo tópico histórico: MAT-EST-009 — Coeficiente de variação.
+
+
+Conteúdo
+Quadrados dos desvios; variância populacional; desvio-padrão; unidade quadrática e retorno à unidade original; propriedades de não negatividade; comparação de distribuições; efeito de extremos; transformações lineares; frequências; fórmula computacional; população versus amostra; divisor n−1 e graus de liberdade; dados agrupados; relação com amplitude e DMA; preparação para coeficiente de variação.
+
+
+Avaliação
+36 questões autorais:
+10 APR;
+10 CON;
+10 VES;
+6 RET.
+Gabarito separado com raciocínio e motivo provável do erro.
+
+
+Visuais
+Seis SVGs produzidos especificamente para esta reconstrução, todos com title e desc e acompanhados por explicação textual:
+01-quadrados-desvios.svg
+02-variancia-para-dp.svg
+03-mesma-media-diferente-dp.svg
+04-populacao-amostra.svg
+05-transformacao-linear.svg
+06-efeito-extremo.svg
+
+
+Fontes oficiais verificadas
+BNCC/MEC — EF08MA25 como base de dispersão via amplitude.
+Inep — Matrizes de Referência do Enem, publicação institucional de 2026.
+FUVEST — Programa do Vestibular 2027, incluindo amplitude, desvio-médio, variância, desvio-padrão e coeficiente de variação.
+
+
+Vídeo
+“NOÇÕES DE ESTATÍSTICA : VARIÂNCIA E DESVIO PADRÃO (18/21)”, Equaciona Com Paulo Pereira.
+Página pública localizada; QA audiovisual integral, áudio e legendas pendentes.
+
+
+Estado
+Publicação no site: não realizada.
+QA Microsoft Edge/Ler em voz alta: pendente.
+Integração ao modelo estruturado do repositório: pendente.
+Progresso do aluno: não alterado.
+MAT-EST-068: não iniciada.

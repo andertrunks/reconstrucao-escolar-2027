@@ -1,0 +1,34 @@
+{
+  "id": "MAT-EST-008",
+  "titulo": "Variância e desvio-padrão: quadrados dos desvios, unidades e interpretação",
+  "status_editorial": "reconstrucao_editorial_v1",
+  "pre_requisitos": [
+    "MAT-EST-001",
+    "MAT-EST-002",
+    "MAT-EST-003",
+    "MAT-EST-004",
+    "MAT-EST-005",
+    "MAT-EST-006",
+    "MAT-EST-007"
+  ],
+  "proximo_topico": "MAT-EST-009",
+  "questoes": {
+    "total": 36,
+    "apr": 10,
+    "con": 10,
+    "ves": 10,
+    "ret": 6,
+    "origem": "autoral"
+  },
+  "visuais": [
+    "01-mesma-media-dispersoes.svg",
+    "02-desvios-quadrados.svg",
+    "03-caminho-variancia-dp.svg",
+    "04-populacao-amostra.svg",
+    "05-transformacao-linear.svg",
+    "06-efeito-extremo.svg"
+  ],
+  "publicado": false,
+  "progresso_aluno_alterado": false,
+  "mat_est_068_iniciada": false
+}

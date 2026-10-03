@@ -1,0 +1,79 @@
+[
+  {
+    "id": "MAT-EST-041-VIS-01",
+    "arquivo": "assets/01-unidade-dependencia.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Da coleta à inferência com dependência",
+    "legenda": "Da coleta à inferência com dependência",
+    "alt": "Três colunas associam coleta, dependência e alvo de inferência.",
+    "oQueObservar": "Antes de sortear registros, localize o que pode variar sem quebrar vínculos.",
+    "conclusaoTextual": "O método depende do desenho de coleta e da pergunta, não do número de linhas."
+  },
+  {
+    "id": "MAT-EST-041-VIS-02",
+    "arquivo": "assets/02-conglomerados.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Bootstrap por conglomerados: três pacientes",
+    "legenda": "Bootstrap por conglomerados: três pacientes",
+    "alt": "Três pacientes com dois números cada, média 3,7,11, sorteados como unidades inteiras.",
+    "oQueObservar": "Compare seis medições registradas com três pacientes independentes.",
+    "conclusaoTextual": "São 27 sequências de três pacientes, não bootstrap de seis linhas separadas."
+  },
+  {
+    "id": "MAT-EST-041-VIS-03",
+    "arquivo": "assets/03-pesos-conglomerados.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Dois alvos: escola média versus aluno médio",
+    "legenda": "Dois alvos: escola média versus aluno médio",
+    "alt": "Escolas A, B, C de tamanhos diferentes; média por escola 7,667 e por aluno 7.",
+    "oQueObservar": "Pergunte qual elemento recebe peso igual no parâmetro.",
+    "conclusaoTextual": "Peso igual por escola não equivale a peso igual por aluno."
+  },
+  {
+    "id": "MAT-EST-041-VIS-04",
+    "arquivo": "assets/04-blocos-moveis.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Bootstrap por blocos móveis de comprimento dois",
+    "legenda": "Bootstrap por blocos móveis de comprimento dois",
+    "alt": "Cinco pares consecutivos e sorteio com reposição de três blocos.",
+    "oQueObservar": "O bloco preserva vizinhança interna, embora colagens produzam novas fronteiras.",
+    "conclusaoTextual": "Há cinco ao cubo, 125 réplicas; tendência da série impede alegação automática de cobertura."
+  },
+  {
+    "id": "MAT-EST-041-VIS-05",
+    "arquivo": "assets/05-origem-movel.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Validação temporal com janela expansiva",
+    "legenda": "Validação temporal com janela expansiva",
+    "alt": "Quatro pares de treino no passado e teste no dia seguinte.",
+    "oQueObservar": "Verifique se todo índice de treino precede o índice de teste.",
+    "conclusaoTextual": "Ordenação temporal protege contra usar o futuro, mas não impede todos os vazamentos de variáveis."
+  },
+  {
+    "id": "MAT-EST-041-VIS-06",
+    "arquivo": "assets/06-erros-origem-movel.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Erro da previsão ingênua na avaliação temporal",
+    "legenda": "Erro da previsão ingênua na avaliação temporal",
+    "alt": "Barras 10, 20, 20 e 30 para dias 5 a 8; ambos eixos estão rotulados.",
+    "oQueObservar": "Note a elevação do erro no último dia e não confunda quatro testes com quatro séries independentes.",
+    "conclusaoTextual": "A soma dos erros absolutos é 80, dividida por quatro resulta MAE 20 atendimentos."
+  },
+  {
+    "id": "MAT-EST-041-VIS-07",
+    "arquivo": "assets/07-arvore-desenho.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Árvore de decisão: desenho, método e limites",
+    "legenda": "Árvore de decisão: desenho, método e limites",
+    "alt": "Cinco etapas de decisão e alerta de generalização para tempo e locais novos.",
+    "oQueObservar": "Não usar método estatístico como um substituto da pergunta-alvo.",
+    "conclusaoTextual": "O plano de validação e os limites precisam ser definidos antes de ver o resultado."
+  }
+]

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="507" viewBox="0 0 1020 507" role="img" aria-labelledby="ti de">
+<title id="ti">Comunicação de correção auditável</title>
+<desc id="de">Quatro partes: escopo, problema, correção e limite, cada uma com fatos e estado de evidência.</desc>
+<rect width="100%" height="100%" fill="#f7fafc"/>
+<text x="36" y="48" font-size="25" font-weight="bold" fill="#173753">Comunicação de correção auditável</text>
+<rect x="36" y="80" width="948" height="58" rx="7" fill="#e6f3f7" stroke="#718c9b"/>
+<text x="55" y="116" font-size="19" fill="#173753">1. Escopo: identificador, versão, população, corte</text>
+<rect x="36" y="156" width="948" height="58" rx="7" fill="#f2eee3" stroke="#718c9b"/>
+<text x="55" y="192" font-size="19" fill="#173753">2. Problema: qual afirmação e como foi refutada</text>
+<rect x="36" y="232" width="948" height="58" rx="7" fill="#e6f3f7" stroke="#718c9b"/>
+<text x="55" y="268" font-size="19" fill="#173753">3. Correção: novo valor, fonte e teste de regressão</text>
+<rect x="36" y="308" width="948" height="58" rx="7" fill="#f2eee3" stroke="#718c9b"/>
+<text x="55" y="344" font-size="19" fill="#173753">4. Limites: revisão humana e deploy ainda pendentes</text>
+<text x="36" y="452" font-size="16" fill="#414e5a">Sem datas, assinaturas ou versões públicas inventadas.</text>
+</svg>

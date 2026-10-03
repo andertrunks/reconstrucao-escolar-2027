@@ -1,0 +1,17 @@
+{
+  "id": "MAT-EST-063-INTEGRIDADE-v1",
+  "all_passed": true,
+  "previous_zip_sha256": "13b359cc934d4eac10b4af61f4e0561f47416265098e8fa603ac9212dac688d9",
+  "inherited_invariants_sha256": 23,
+  "inherited_gate_states_unchanged": true,
+  "post_deploy_checks_performed": 0,
+  "new_real_incidents_reported": 0,
+  "synthetic_fixture_count": 7,
+  "synthetic_incident_tickets": 6,
+  "local_I01_retest_passed": true,
+  "exercises_unique": 36,
+  "svg_with_title_and_desc": 6,
+  "no_new_series_observations": true,
+  "manifest_entry_count": 63,
+  "remarks": "Validation local only. HTML/PNG preview not site screenshots. No Edge, human review, deploy, rollback or video full playback."
+}

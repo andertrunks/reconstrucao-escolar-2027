@@ -1,0 +1,290 @@
+[
+  {
+    "questaoId": "MAT-EST-047-EX-APR-01",
+    "titulo": "Erro de uma emissão concreta",
+    "respostaEsperada": "−1,99253184 unidade: houve superprevisão.",
+    "correcaoComentada": "Subtraia 130,99253184 de 129. Como erro é observado menos previsto, o resultado negativo significa previsão maior que realidade. Declare a unidade e não troque a convenção de sinal.",
+    "motivoProvavelErro": "cálculo",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-APR-02",
+    "titulo": "Horizontes sem confusão",
+    "respostaEsperada": "Primeira tarefa h2 com treino t1..t8; segunda tarefa h1 com treino t1..t9.",
+    "correcaoComentada": "A origem define o último período de informação disponível. O horizonte é alvo menos origem: dez menos oito resulta dois; dez menos nove resulta um. O observado compartilhado não cria dois alvos independentes.",
+    "motivoProvavelErro": "interpretação",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-APR-03",
+    "titulo": "Dois tipos de erro",
+    "respostaEsperada": "Média assinada 0 e MAE 2 unidades.",
+    "correcaoComentada": "A média com sinal é (menos dois mais dois) dividido por dois, igual a zero. Para MAE, primeiro converta ambos em módulos e faça (2+2)/2=2. O cancelamento de sinais não indica previsão exata.",
+    "motivoProvavelErro": "conteúdo",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-APR-04",
+    "titulo": "Desempenho do horizonte um",
+    "respostaEsperada": "Duas superprevisões e uma subprevisão.",
+    "correcaoComentada": "Sob erro igual a observado menos previsto, negativo indica que o modelo anunciou mais do que se realizou. Os dois primeiros erros são negativos; o último é positivo, logo ficou abaixo do observado.",
+    "motivoProvavelErro": "interpretação",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-APR-05",
+    "titulo": "Desempenho do horizonte dois",
+    "respostaEsperada": "Soma ≈ −1,055 unidade.",
+    "correcaoComentada": "Faça menos 2,262 mais 2,204 menos 0,997. O valor aproximado é menos 1,055. Essa soma não é MAE; dividir por três fornece o viés médio descritivo, não precisão absoluta.",
+    "motivoProvavelErro": "cálculo",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-APR-06",
+    "titulo": "Limites de uma banda A",
+    "respostaEsperada": "[128,99253184; 132,99253184] unidades.",
+    "correcaoComentada": "O limite inferior é centro menos dois e o superior é centro mais dois. A largura total é quatro unidades, e a escolha desse número foi pedagógica; ela não prova uma probabilidade de cobertura.",
+    "motivoProvavelErro": "cálculo",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-APR-07",
+    "titulo": "Dentro, inclusive fronteira",
+    "respostaEsperada": "Sim; os limites são inclusivos.",
+    "correcaoComentada": "A regra da oficina considera dentro quando limite inferior é menor ou igual ao real e o real é menor ou igual ao superior. O valor 132 está exatamente no limite superior.",
+    "motivoProvavelErro": "interpretação",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-APR-08",
+    "titulo": "Largura não é semilargura",
+    "respostaEsperada": "Largura 8 unidades; meia largura 4.",
+    "correcaoComentada": "A largura total é limite superior menos inferior, ou 172 menos 164. Para um intervalo simétrico, o centro fica em 168 e cada extremidade está quatro unidades distante dele.",
+    "motivoProvavelErro": "cálculo",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-APR-09",
+    "titulo": "Calibração versus contagem",
+    "respostaEsperada": "Cobertura observada foi 2/3 nas três tarefas; não se comprovou uma cobertura futura nominal.",
+    "correcaoComentada": "O numerador conta sucessos observados e o denominador o número de tarefas avaliadas. Faltam um procedimento de construção válido e muito mais evidência para afirmar uma probabilidade populacional.",
+    "motivoProvavelErro": "interpretação",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-APR-10",
+    "titulo": "Unidade do risco",
+    "respostaEsperada": "6 pontos de custo fictício.",
+    "correcaoComentada": "Erro positivo de dois significa que faltaram duas unidades na previsão. Com preço de três pontos por unidade, o custo fica três multiplicado por dois, igual a seis; a regra não representa custo real.",
+    "motivoProvavelErro": "cálculo",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-CON-01",
+    "titulo": "Média assinada h1",
+    "respostaEsperada": "Média ≈ −0,259153 unidade.",
+    "correcaoComentada": "Some os três erros mantendo os sinais: o total é aproximadamente menos 0,777458. Divida por três e obtenha cerca de menos 0,259153. Interprete como direção média descritiva, não como MAE.",
+    "motivoProvavelErro": "cálculo",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-CON-02",
+    "titulo": "MAE contra média com sinal",
+    "respostaEsperada": "MAE ≈ 2,098944 unidades.",
+    "correcaoComentada": "Os módulos são aproximadamente 1,992532, 1,544613 e 2,759687. A soma 6,296832 dividida por três dá 2,098944. A média assinada permite cancelamento, enquanto o MAE registra tamanho médio.",
+    "motivoProvavelErro": "cálculo",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-CON-03",
+    "titulo": "Comparação h1 h2 sem regra universal",
+    "respostaEsperada": "Há apenas três tarefas por horizonte, datas específicas e alvos parcialmente repetidos; é um contraste descritivo.",
+    "correcaoComentada": "A diferença depende da série, das épocas e do método. Com seis tarefas retrospectivas e observações compartilhadas, não existe base suficiente para generalizar a tendência para qualquer horizonte futuro.",
+    "motivoProvavelErro": "interpretação",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-CON-04",
+    "titulo": "Autocorrelação: descrição, não diagnóstico definitivo",
+    "respostaEsperada": "Três pontos são insuficientes para comprovar autocorrelação; há apenas um indício visual a investigar.",
+    "correcaoComentada": "A ordem temporal deve ser observada, mas faltam uma série longa de inovações, um procedimento adequado e interpretação da dependência entre tarefas. Não se obtém significância com a simples observação de dois sinais.",
+    "motivoProvavelErro": "estratégia",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-CON-05",
+    "titulo": "Cobertura A por horizonte",
+    "respostaEsperada": "h1: 2/3≈66,7%; h2: 3/3=100% das tarefas deste exemplo.",
+    "correcaoComentada": "Divida cobertos por avaliados dentro de cada horizonte. A faixa h2 é maior que a h1; os percentuais são puramente retrospectivos, não estimativas confiáveis de cobertura futura.",
+    "motivoProvavelErro": "cálculo",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-CON-06",
+    "titulo": "Custo de intervalo ultrapassado",
+    "respostaEsperada": "0,759686939136 unidade.",
+    "correcaoComentada": "A distância externa é módulo do erro menos meia largura, desde que positiva. Portanto, 2,759686939136 menos 2 produz 0,759686939136. O centro e o observado mantêm a mesma unidade fictícia.",
+    "motivoProvavelErro": "cálculo",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-CON-07",
+    "titulo": "Escore para a falha de A",
+    "respostaEsperada": "11,59686939136 pontos.",
+    "correcaoComentada": "O multiplicador dois dividido por 0,2 é dez. Assim, quatro mais dez vezes 0,759686939136 dá 11,59686939136. A conta não certifica cobertura nominal de 80%.",
+    "motivoProvavelErro": "cálculo",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-CON-08",
+    "titulo": "Faixa B com cobertura completa",
+    "respostaEsperada": "Larguras 6 e 8 unidades; 6 de 6 tarefas ficam dentro retrospectivamente.",
+    "correcaoComentada": "Duplique cada meia largura e verifique os seis módulos dos erros. Todos são menores que três em h1 e quatro em h2. Cobertura total nesta pequena amostra não significa garantia futura.",
+    "motivoProvavelErro": "cálculo",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-CON-09",
+    "titulo": "Erro assinado e custo de subprevisão",
+    "respostaEsperada": "8,279060817408 pontos fictícios.",
+    "correcaoComentada": "Como o erro é positivo, aplica-se o coeficiente três: 3 × 2,759686939136. Se o erro fosse negativo, seria usado o preço um da superprevisão. Critérios de custo devem ser previamente definidos.",
+    "motivoProvavelErro": "cálculo",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-CON-10",
+    "titulo": "Treino não vira teste novo",
+    "respostaEsperada": "As observações-alvo já foram vistas no projeto; a reconstrução é retrospectiva e didática.",
+    "correcaoComentada": "Respeitar as datas na fórmula melhora a honestidade do exemplo, mas a escolha pedagógica de protocolo ocorreu após divulgação do banco completo. Não se pode anunciar desempenho prospectivo independente.",
+    "motivoProvavelErro": "estratégia",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-VES-01",
+    "titulo": "Auditoria de viés e magnitude",
+    "respostaEsperada": "Informe média com sinal e tamanho absoluto por horizonte; não equipare viés próximo de zero a precisão.",
+    "correcaoComentada": "Erros de sinais opostos podem se cancelar. O correto é reportar, para cada horizonte, média assinada, MAE e RMSE, com três casos por grupo e nota sobre a dependência dos alvos.",
+    "motivoProvavelErro": "interpretação",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-VES-02",
+    "titulo": "Candidatas A e B com mesmo centro",
+    "respostaEsperada": "Não há demonstração de calibração nominal: intervalos arbitrários, poucos alvos e dependência entre tarefas.",
+    "correcaoComentada": "B foi definida mais larga e, portanto, é mais fácil cobrir todas as observações. A calibração exige metodologia prévia e avaliação em muitos casos novos, distinguindo dependência e horizonte.",
+    "motivoProvavelErro": "interpretação",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-VES-03",
+    "titulo": "Score médio de A/h1",
+    "respostaEsperada": "A/h1 ≈ 6,532290 pontos.",
+    "correcaoComentada": "A soma é 19,59686939136; divida por três. A observação fora da faixa recebe penalidade acima de sua largura base, elevando o score médio. Trata-se de uma comparação algébrica, não de cobertura nominal validada.",
+    "motivoProvavelErro": "cálculo",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-VES-04",
+    "titulo": "Comparação de escores agregados",
+    "respostaEsperada": "Não. A apresenta menor score neste protocolo didático, mas amostra é curta, parcialmente dependente e não calibra intervalos.",
+    "correcaoComentada": "Declare nível-alvo do escore, larguras, denominador e modo de agregação. Uma diferença retrospectiva em dados conhecidos não estabelece preferência universal nem inferência de cobertura futura.",
+    "motivoProvavelErro": "estratégia",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-VES-05",
+    "titulo": "Penalidade de faixa estreita",
+    "respostaEsperada": "Distância externa 3; largura 2; score 2+10×3=32 pontos.",
+    "correcaoComentada": "O observado ultrapassa o limite superior em 104−101=3. A largura é 101−99=2. O multiplicador 2/0,2=10 aplica-se somente à distância fora da faixa.",
+    "motivoProvavelErro": "cálculo",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-VES-06",
+    "titulo": "Sobreposição de alvos",
+    "respostaEsperada": "Quatro alvos distintos, com t10 e t11 repetidos; seis tarefas não equivalem a seis observações independentes.",
+    "correcaoComentada": "Conte os índices únicos 9, 10, 11 e 12. As emissões diferem por origem e horizonte e são tarefas válidas, mas compartilham observados, exigindo ressalva para cobertura e avaliação estatística.",
+    "motivoProvavelErro": "interpretação",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-VES-07",
+    "titulo": "Custo assimétrico versus MAE",
+    "respostaEsperada": "MAE 3 unidades; custo médio fictício (4+6)/2=5 pontos.",
+    "correcaoComentada": "O MAE usa módulos: (4+2)/2=3. O custo assimétrico usa 4 para o erro negativo e 3×2=6 para o positivo; a média é cinco. Métricas correspondem a objetivos diferentes.",
+    "motivoProvavelErro": "cálculo",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-VES-08",
+    "titulo": "Escolher a banda depois do observado",
+    "respostaEsperada": "Houve ajuste da faixa usando o próprio alvo; a avaliação deixou de ser externa e deve ser declarada exploratória.",
+    "correcaoComentada": "Uma banda definida em função do resultado não é uma previsão emitida anteriormente. Para auditar cobertura, congele o método e os parâmetros antes do alvo e acompanhe datas subsequentes genuínas.",
+    "motivoProvavelErro": "estratégia",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-VES-09",
+    "titulo": "Interpretação condicional de intervalo normal",
+    "respostaEsperada": "[140,2; 159,8] unidades, condicionado às hipóteses e à estimativa de desvio-padrão preditivo.",
+    "correcaoComentada": "Multiplique 1,96 por cinco: 9,8. Subtraia e some 9,8 à previsão 150. O cálculo pressupõe distribuição preditiva aproximadamente normal e desvio-padrão do horizonte estimado adequadamente, não apenas RMSE de três erros.",
+    "motivoProvavelErro": "cálculo",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-VES-10",
+    "titulo": "Comunicado técnico para decisão",
+    "respostaEsperada": "Os MAEs resumem três tarefas de cada horizonte. A cobertura de A foi 2/3 em h1 e 3/3 em h2. As faixas são ilustrativas e não calibradas. Os alvos já conhecidos e sobrepostos impedem inferência prospectiva robusta.",
+    "correcaoComentada": "Comunique o que foi observado, o tamanho da amostra, a regra de construção dos intervalos e o limite de interpretação. Não troque cobertura retrospectiva por probabilidade futura nem omita que a largura em h2 é maior.",
+    "motivoProvavelErro": "interpretação",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-RET-01",
+    "titulo": "Reteste de custo independente",
+    "respostaEsperada": "Custo 2,4 pontos; erro negativo corresponde a superprevisão.",
+    "correcaoComentada": "O módulo é 2,4; como erro observado menos previsto é negativo, aplica-se o coeficiente um, não três. A atividade verifica compreensão da regra sem consultar o painel anterior.",
+    "motivoProvavelErro": "cálculo",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-RET-02",
+    "titulo": "Reteste de faixa e score",
+    "respostaEsperada": "Largura 8; distância externa 2; score 8+10×2=28 pontos.",
+    "correcaoComentada": "O limite superior é 28, então o alvo excede a faixa por dois. O multiplicador 2/alfa é dez. Some a penalidade à largura total para obter 28.",
+    "motivoProvavelErro": "cálculo",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-RET-03",
+    "titulo": "Reteste com cinco observações",
+    "respostaEsperada": "4/5=80% descritivo; não demonstra sozinho cobertura populacional exatamente 80%.",
+    "correcaoComentada": "Divida o número de observações cobertas pelo total avaliado. Mesmo em dados novos, cinco tentativas são poucas para afirmar calibração forte; verificar amostragem, horizonte e construção da faixa.",
+    "motivoProvavelErro": "interpretação",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-RET-04",
+    "titulo": "Reteste com viés cancelado",
+    "respostaEsperada": "Média assinada zero; MAE=(3+1+2)/3=2 unidades.",
+    "correcaoComentada": "A soma com sinal é menos três mais um mais dois, zero. Os módulos somam seis e sua média é dois. Assim, ausência de viés médio não significa ausência de erros de magnitude relevante.",
+    "motivoProvavelErro": "cálculo",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-RET-05",
+    "titulo": "Reteste sobre futuro informacional",
+    "respostaEsperada": "Sim, porque y13 ainda não estava disponível na origem t12.",
+    "correcaoComentada": "Treinamento, escolha de parâmetros e construção dos intervalos devem usar dados acessíveis até a origem. O fato de y13 ter ocorrido antes de t15 não autoriza usá-lo numa previsão declarada como emitida em t12.",
+    "motivoProvavelErro": "estratégia",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  },
+  {
+    "questaoId": "MAT-EST-047-EX-RET-06",
+    "titulo": "Reteste de relatório com alvos repetidos",
+    "respostaEsperada": "Há dez tarefas distintas por origem/horizonte, mas apenas sete valores observados distintos; erros podem compartilhar alvos e não devem ser tratados como dez observações independentes.",
+    "correcaoComentada": "É correto registrar todas as emissões para avaliar o processo, desde que a unidade de análise e a sobreposição sejam declaradas. A inferência sobre cobertura requer respeitar a dependência entre tarefas.",
+    "motivoProvavelErro": "interpretação",
+    "devolutiva": "Reconstituir origem, horizonte, convenção de sinal e conta; conferir a regra de cobertura antes de realizar novo exercício equivalente."
+  }
+]

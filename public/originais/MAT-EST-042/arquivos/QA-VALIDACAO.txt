@@ -1,0 +1,35 @@
+# QA MAT-EST-042
+Data: 2026-09-28.
+- APROVADO: 36 questões e resoluções
+- APROVADO: 36 IDs exclusivos
+- APROVADO: gabarito vinculado por ID
+- APROVADO: distribuição 10/10/10/6
+- APROVADO: todas autorais
+- APROVADO: sem tentativa individual fictícia
+- APROVADO: gabarito separado dos enunciados
+- APROVADO: correções comentadas
+- APROVADO: enunciados substantivos
+- APROVADO: 36 IDs descritos na aula
+- APROVADO: sete diagramas SVG originais
+- APROVADO: acessibilidade SVG MAT-EST-042-VIS-01
+- APROVADO: acessibilidade SVG MAT-EST-042-VIS-02
+- APROVADO: acessibilidade SVG MAT-EST-042-VIS-03
+- APROVADO: acessibilidade SVG MAT-EST-042-VIS-04
+- APROVADO: acessibilidade SVG MAT-EST-042-VIS-05
+- APROVADO: acessibilidade SVG MAT-EST-042-VIS-06
+- APROVADO: acessibilidade SVG MAT-EST-042-VIS-07
+- APROVADO: CSV original preservado SHA256
+- APROVADO: média e denominador ACF
+- APROVADO: ACF1 e ACF2 com convenção correta
+- APROVADO: MAE rolling3 exato
+- APROVADO: RMSE rolling3 exato
+- APROVADO: comparação mesmo período
+- APROVADO: ACF residual ilustrativa
+- APROVADO: AR1 1/2 passos
+- APROVADO: MA1 lag1
+- APROVADO: próximo tópico e marcador
+- APROVADO: prévia SVG rasterizada
+- APROVADO: código independente executa
+TOTAL: 30 verificações aprovadas; ZERO falhas.
+Pendências externas: assistir integralmente o vídeo, testar leitura real Edge, publicar no site, sincronizar com Drive.
+Nenhuma tentativa ou domínio individual registrado.

@@ -1,0 +1,84 @@
+{
+  "id": "MAT-EST-061-EVIDENCIAS-RC1-v1",
+  "scope": "sandbox editorial local, sem alvo externo",
+  "candidate": "R061-RC1",
+  "baseline_archive_sha256": "92c82159b0ea1306026c5bf25dbafaafb757c4d4a832fc5377c1ae212ecf4645",
+  "records": [
+    {
+      "code": "G1",
+      "stage": "integridade e cálculo de fonte",
+      "kind": "automated",
+      "status": "checked_local",
+      "evidence_file": "regressao/MAT-EST-061-resultado-regressao.json",
+      "reviewer": null,
+      "performed_at": null
+    },
+    {
+      "code": "G2",
+      "stage": "estrutura de Markdown, HTML e SVG",
+      "kind": "automated",
+      "status": "checked_local",
+      "evidence_file": "relatorio-integridade.json",
+      "reviewer": null,
+      "performed_at": null
+    },
+    {
+      "code": "G3",
+      "stage": "ouvir trecho no Microsoft Edge e navegar com teclado",
+      "kind": "human_required",
+      "status": "pending",
+      "evidence_file": null,
+      "reviewer": null,
+      "performed_at": null
+    },
+    {
+      "code": "G4",
+      "stage": "leitor de tela e zoom/reflow em navegadores reais",
+      "kind": "human_required",
+      "status": "pending",
+      "evidence_file": null,
+      "reviewer": null,
+      "performed_at": null
+    },
+    {
+      "code": "G5",
+      "stage": "revisão editorial humana de significado e fontes",
+      "kind": "human_required",
+      "status": "pending",
+      "evidence_file": null,
+      "reviewer": null,
+      "performed_at": null
+    },
+    {
+      "code": "G6",
+      "stage": "reprodução integral do vídeo complementar",
+      "kind": "human_required",
+      "status": "pending",
+      "evidence_file": null,
+      "reviewer": null,
+      "performed_at": null
+    },
+    {
+      "code": "G7",
+      "stage": "integração no repositório e deploy autorizado",
+      "kind": "external_action",
+      "status": "not_performed",
+      "evidence_file": null,
+      "reviewer": null,
+      "performed_at": null
+    },
+    {
+      "code": "G8",
+      "stage": "pós-publicação: conferir URL, navegação, recursos e commit",
+      "kind": "external_action",
+      "status": "not_performed",
+      "evidence_file": null,
+      "reviewer": null,
+      "performed_at": null
+    }
+  ],
+  "authorization": "none",
+  "public_url": null,
+  "github_commit": null,
+  "conclusion": "somente candidato local; não liberado para publicação"
+}

@@ -1,0 +1,7 @@
+id,alvo,observado,previsto,erro_assinado,erro_absoluto,cobertura_faixa_didatica
+MAT-EST-048-FC-H1-T13,t13,134,129,5,5,1
+MAT-EST-048-FC-H1-T14,t14,151,145,6,6,1
+MAT-EST-048-FC-H1-T15,t15,187,171,16,16,0
+MAT-EST-048-FC-H1-T16,t16,160,144,16,16,0
+MAT-EST-048-FC-H1-T17,t17,167,134,33,33,0
+MAT-EST-048-FC-H1-T18,t18,176,151,25,25,0

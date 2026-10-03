@@ -1,0 +1,712 @@
+{
+  "id": "MAT-EST-008",
+  "version": "publicacao-2026-10-03-v1",
+  "objective": "1. Objetivo\n\n\nAo concluir o estudo real desta aula, o estudante deverá ser capaz de explicar por que os desvios simples em torno da média não servem diretamente como medida de dispersão; compreender por que elevar os desvios ao quadrado elimina o cancelamento; calcular variância populacional e amostral; compreender o denominador n−1; calcular desvio-padrão; interpretar unidades; comparar conjuntos; prever transformações lineares; reconhecer o efeito de valores extremos; distinguir desvio-padrão de erro-padrão; e preparar a passagem para coeficiente de variação.\n\n\n",
+  "prerequisites": [
+    "MAT-EST-001",
+    "MAT-EST-002",
+    "MAT-EST-003",
+    "MAT-EST-004",
+    "MAT-EST-005",
+    "MAT-EST-006",
+    "MAT-EST-007"
+  ],
+  "why": "MAT-EST-008 — Variância e desvio-padrão: quadrados dos desvios, unidades e interpretação\n\n\nStatus editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.\nMatéria: Matemática.\nUnidade: Estatística.\nNível principal: 3 — transição do Ensino Fundamental para o Ensino Médio, com progressão para ENEM, FUVEST, UNICAMP, UNESP e ponte universitária.\nPré-requisitos: MAT-EST-001 a MAT-EST-007; média aritmética; valor absoluto; potências e raiz quadrada em nível básico.\nPróximo tópico: MAT-EST-009 — Coeficiente de variação: dispersão relativa e comparação entre escalas.\nQuestões desta reconstrução: 100% autorais.\n\n\n",
+  "intuitive": [],
+  "deep": [],
+  "vocabulary": [],
+  "examples": [],
+  "visuals": [
+    {
+      "url": "media/MAT-EST-008/01-mesma-media-dispersoes.svg",
+      "caption": "mesma média, dispersões diferentes.",
+      "alt": "Dois conjuntos com média cinco. A tem valores quatro, cinco e seis próximos do centro; B tem zero, cinco e dez mais espalhados.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Dois conjuntos com média cinco. A tem valores quatro, cinco e seis próximos do centro; B tem zero, cinco e dez mais espalhados."
+    },
+    {
+      "url": "media/MAT-EST-008/02-desvios-quadrados.svg",
+      "caption": "desvios e seus quadrados.",
+      "alt": "Dados dois, quatro e seis com média quatro. Desvios menos dois, zero e mais dois viram quadrados quatro, zero e quatro.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Dados dois, quatro e seis com média quatro. Desvios menos dois, zero e mais dois viram quadrados quatro, zero e quatro."
+    },
+    {
+      "url": "media/MAT-EST-008/03-caminho-variancia-dp.svg",
+      "caption": "fluxo dados → média → desvios → quadrados → variância → DP.",
+      "alt": "Fluxo: dados, média, desvios, quadrados, variância e raiz quadrada para desvio-padrão.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Fluxo: dados, média, desvios, quadrados, variância e raiz quadrada para desvio-padrão."
+    },
+    {
+      "url": "media/MAT-EST-008/04-populacao-amostra.svg",
+      "caption": "população versus amostra, destacando N e n−1.",
+      "alt": "População usa média mu e denominador N; amostra usa média x barra e denominador n menos um.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "População usa média mu e denominador N; amostra usa média x barra e denominador n menos um."
+    },
+    {
+      "url": "media/MAT-EST-008/05-transformacao-linear.svg",
+      "caption": "efeito de y=ax+b sobre centro e dispersão.",
+      "alt": "Para y igual a a vezes x mais b, somar b não muda a dispersão; multiplicar por a multiplica variância por a ao quadrado e DP por módulo de a.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Para y igual a a vezes x mais b, somar b não muda a dispersão; multiplicar por a multiplica variância por a ao quadrado e DP por módulo de a."
+    },
+    {
+      "url": "media/MAT-EST-008/06-efeito-extremo.svg",
+      "caption": "efeito de um extremo sobre os quadrados dos desvios.",
+      "alt": "Compara cinco valores iguais a cinco, com variância zero, ao conjunto quatro valores cinco e um valor vinte e cinco, que produz grandes desvios quadráticos.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Compara cinco valores iguais a cinco, com variância zero, ao conjunto quatro valores cinco e um valor vinte e cinco, que produz grandes desvios quadráticos."
+    }
+  ],
+  "applications": [],
+  "connections": [],
+  "commonErrors": [],
+  "learning": [
+    "MAT-EST-008-EX-APR-01",
+    "MAT-EST-008-EX-APR-02",
+    "MAT-EST-008-EX-APR-03",
+    "MAT-EST-008-EX-APR-04",
+    "MAT-EST-008-EX-APR-05",
+    "MAT-EST-008-EX-APR-06",
+    "MAT-EST-008-EX-APR-07",
+    "MAT-EST-008-EX-APR-08",
+    "MAT-EST-008-EX-APR-09",
+    "MAT-EST-008-EX-APR-10"
+  ],
+  "consolidation": [
+    "MAT-EST-008-EX-CON-01",
+    "MAT-EST-008-EX-CON-02",
+    "MAT-EST-008-EX-CON-03",
+    "MAT-EST-008-EX-CON-04",
+    "MAT-EST-008-EX-CON-05",
+    "MAT-EST-008-EX-CON-06",
+    "MAT-EST-008-EX-CON-07",
+    "MAT-EST-008-EX-CON-08",
+    "MAT-EST-008-EX-CON-09",
+    "MAT-EST-008-EX-CON-10"
+  ],
+  "entrance": [
+    "MAT-EST-008-EX-VES-01",
+    "MAT-EST-008-EX-VES-02",
+    "MAT-EST-008-EX-VES-03",
+    "MAT-EST-008-EX-VES-04",
+    "MAT-EST-008-EX-VES-05",
+    "MAT-EST-008-EX-VES-06",
+    "MAT-EST-008-EX-VES-07",
+    "MAT-EST-008-EX-VES-08",
+    "MAT-EST-008-EX-VES-09",
+    "MAT-EST-008-EX-VES-10"
+  ],
+  "retest": [
+    "MAT-EST-008-EX-RET-01",
+    "MAT-EST-008-EX-RET-02",
+    "MAT-EST-008-EX-RET-03",
+    "MAT-EST-008-EX-RET-04",
+    "MAT-EST-008-EX-RET-05",
+    "MAT-EST-008-EX-RET-06"
+  ],
+  "solutions": [],
+  "summary": "55. Resumo\n\n\nVariância populacional:\n\n\nσ² = Σ(xᵢ−μ)²/N.\n\n\nVariância amostral:\n\n\ns² = Σ(xᵢ−x̄)²/(n−1).\n\n\nDesvio-padrão:\n\n\nσ = √σ² ou s = √s².\n\n\nVariância tem unidade ao quadrado.\nDP tem a unidade original.\nSomar uma constante não altera dispersão.\nMultiplicar por a multiplica variância por a² e DP por |a|.\n\n\n",
+  "audioVersion": "56. Versão curta para ouvir\n\n\nA variância evita o cancelamento dos desvios elevando cada afastamento ao quadrado.\n\n\nSomamos os quadrados e dividimos pelo tamanho da população, ou por n menos um na fórmula amostral usual.\n\n\nO desvio-padrão é a raiz quadrada da variância e volta à unidade original.\n\n\nValores extremos influenciam bastante porque grandes desvios são elevados ao quadrado.\n\n\nDesvio-padrão zero significa que todos os valores são iguais.\n\n\nComparar DP exige unidade, escala e contexto.\n\n\n",
+  "sections": [
+    {
+      "id": "MAT-EST-008-s000",
+      "title": "Apresentação e contexto da fonte",
+      "paragraphs": [],
+      "markdown": "MAT-EST-008 — Variância e desvio-padrão: quadrados dos desvios, unidades e interpretação\n\n\nStatus editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.\nMatéria: Matemática.\nUnidade: Estatística.\nNível principal: 3 — transição do Ensino Fundamental para o Ensino Médio, com progressão para ENEM, FUVEST, UNICAMP, UNESP e ponte universitária.\nPré-requisitos: MAT-EST-001 a MAT-EST-007; média aritmética; valor absoluto; potências e raiz quadrada em nível básico.\nPróximo tópico: MAT-EST-009 — Coeficiente de variação: dispersão relativa e comparação entre escalas.\nQuestões desta reconstrução: 100% autorais.\n\n\n",
+      "sourceStart": 0,
+      "sourceEnd": 649
+    },
+    {
+      "id": "MAT-EST-008-s001",
+      "title": "1. Objetivo",
+      "paragraphs": [],
+      "markdown": "1. Objetivo\n\n\nAo concluir o estudo real desta aula, o estudante deverá ser capaz de explicar por que os desvios simples em torno da média não servem diretamente como medida de dispersão; compreender por que elevar os desvios ao quadrado elimina o cancelamento; calcular variância populacional e amostral; compreender o denominador n−1; calcular desvio-padrão; interpretar unidades; comparar conjuntos; prever transformações lineares; reconhecer o efeito de valores extremos; distinguir desvio-padrão de erro-padrão; e preparar a passagem para coeficiente de variação.\n\n\n",
+      "sourceStart": 649,
+      "sourceEnd": 1219
+    },
+    {
+      "id": "MAT-EST-008-s002",
+      "title": "2. Retomada: por que o desvio simples falha?",
+      "paragraphs": [],
+      "markdown": "2. Retomada: por que o desvio simples falha?\n\n\nNa MAT-EST-007 vimos que, para qualquer conjunto, a soma dos desvios em relação à média é zero:\n\n\nΣ(xᵢ − x̄) = 0.\n\n\nExemplo: dados 2, 3 e 7; média 4; desvios −2, −1 e +3; soma zero.\n\n\nLogo, a média dos desvios com sinal não mede espalhamento.\n\n\n",
+      "sourceStart": 1219,
+      "sourceEnd": 1511
+    },
+    {
+      "id": "MAT-EST-008-s003",
+      "title": "3. Duas estratégias para evitar o cancelamento",
+      "paragraphs": [],
+      "markdown": "3. Duas estratégias para evitar o cancelamento\n\n\nUma estratégia é usar valor absoluto, |xᵢ − x̄|, que levou ao desvio médio absoluto.\nOutra estratégia é elevar o desvio ao quadrado, (xᵢ − x̄)².\n\n\nComo o quadrado de número negativo é positivo, os sinais deixam de se cancelar. Essa segunda estratégia conduz à variância.\n\n\n",
+      "sourceStart": 1511,
+      "sourceEnd": 1833
+    },
+    {
+      "id": "MAT-EST-008-s004",
+      "title": "4. Por que usar quadrados?",
+      "paragraphs": [],
+      "markdown": "4. Por que usar quadrados?\n\n\nConsidere desvios −3, −1, 0, +1 e +3.\nQuadrados: 9, 1, 0, 1 e 9.\n\n\nOs afastamentos maiores recebem peso maior. Um desvio 3 contribui com 9; um desvio 1 contribui com 1. Isso torna a variância especialmente sensível a valores extremos.\n\n\n",
+      "sourceStart": 1833,
+      "sourceEnd": 2099
+    },
+    {
+      "id": "MAT-EST-008-s005",
+      "title": "5. Variância populacional",
+      "paragraphs": [],
+      "markdown": "5. Variância populacional\n\n\nQuando temos todos os elementos da população de interesse:\n\n\nσ² = Σ(xᵢ − μ)² / N.\n\n\nLeitura pronunciável: “sigma ao quadrado é igual à soma dos quadrados dos desvios em relação à média populacional, dividida pelo tamanho da população”.\n\n\nσ² é a variância populacional; μ é a média populacional; N é o tamanho da população.\n\n\n",
+      "sourceStart": 2099,
+      "sourceEnd": 2452
+    },
+    {
+      "id": "MAT-EST-008-s006",
+      "title": "6. Exemplo populacional completo",
+      "paragraphs": [],
+      "markdown": "6. Exemplo populacional completo\n\n\nPopulação: 2, 4, 6.\nMédia μ = 4.\nDesvios: −2, 0, +2.\nQuadrados: 4, 0, 4.\nSoma = 8.\nN = 3.\n\n\nVariância populacional:\nσ² = 8/3 ≈ 2,67.\n\n\n",
+      "sourceStart": 2452,
+      "sourceEnd": 2622
+    },
+    {
+      "id": "MAT-EST-008-s007",
+      "title": "7. Desvio-padrão populacional",
+      "paragraphs": [],
+      "markdown": "7. Desvio-padrão populacional\n\n\nσ = √σ².\n\n\nNo exemplo:\nσ = √(8/3) ≈ 1,63.\n\n\nO desvio-padrão é a raiz quadrada da variância.\n\n\n",
+      "sourceStart": 2622,
+      "sourceEnd": 2748
+    },
+    {
+      "id": "MAT-EST-008-s008",
+      "title": "8. Por que tirar a raiz?",
+      "paragraphs": [],
+      "markdown": "8. Por que tirar a raiz?\n\n\nA variância usa quadrados, então sua unidade também fica ao quadrado. Se os dados estão em centímetros, a variância fica em centímetros quadrados. Ao tirar a raiz, o desvio-padrão volta para centímetros.\n\n\n",
+      "sourceStart": 2748,
+      "sourceEnd": 2981
+    },
+    {
+      "id": "MAT-EST-008-s009",
+      "title": "9. Unidade da variância e do desvio-padrão",
+      "paragraphs": [],
+      "markdown": "9. Unidade da variância e do desvio-padrão\n\n\nDados em metros → variância em metros quadrados e DP em metros.\nDados em segundos → variância em segundos quadrados e DP em segundos.\nDados em reais → variância em reais quadrados e DP em reais.\n\n\nA unidade da variância é matematicamente correta, embora menos intuitiva.\n\n\n",
+      "sourceStart": 2981,
+      "sourceEnd": 3299
+    },
+    {
+      "id": "MAT-EST-008-s010",
+      "title": "10. Interpretação intuitiva",
+      "paragraphs": [],
+      "markdown": "10. Interpretação intuitiva\n\n\nDesvio-padrão menor indica dados mais concentrados em torno da média, em uma comparação adequada.\nDesvio-padrão maior indica maior espalhamento.\n\n\nNão existe regra universal de que “DP 5 é grande” sem considerar escala e contexto.\n\n\n",
+      "sourceStart": 3299,
+      "sourceEnd": 3562
+    },
+    {
+      "id": "MAT-EST-008-s011",
+      "title": "11. Desvio-padrão zero",
+      "paragraphs": [],
+      "markdown": "11. Desvio-padrão zero\n\n\nSe σ = 0, todos os desvios quadráticos são zero. Isso só ocorre quando todos os valores são iguais à média.\n\n\nExemplo: 5, 5, 5, 5. Variância zero e desvio-padrão zero.\n\n\n",
+      "sourceStart": 3562,
+      "sourceEnd": 3757
+    },
+    {
+      "id": "MAT-EST-008-s012",
+      "title": "12. Mesma média, dispersões diferentes",
+      "paragraphs": [],
+      "markdown": "12. Mesma média, dispersões diferentes\n\n\nA = 4, 5, 6.\nB = 0, 5, 10.\n\n\nAmbos têm média 5, mas B tem valores muito mais afastados.\n\n\n",
+      "sourceStart": 3757,
+      "sourceEnd": 3888
+    },
+    {
+      "id": "MAT-EST-008-s013",
+      "title": "13. Cálculo de A",
+      "paragraphs": [],
+      "markdown": "13. Cálculo de A\n\n\nDesvios: −1, 0, +1.\nQuadrados: 1, 0, 1.\nVariância populacional: 2/3 ≈ 0,67.\nDP ≈ 0,82.\n\n\n",
+      "sourceStart": 3888,
+      "sourceEnd": 3996
+    },
+    {
+      "id": "MAT-EST-008-s014",
+      "title": "14. Cálculo de B",
+      "paragraphs": [],
+      "markdown": "14. Cálculo de B\n\n\nDesvios: −5, 0, +5.\nQuadrados: 25, 0, 25.\nVariância populacional: 50/3 ≈ 16,67.\nDP ≈ 4,08.\n\n\n",
+      "sourceStart": 3996,
+      "sourceEnd": 4108
+    },
+    {
+      "id": "MAT-EST-008-s015",
+      "title": "15. Variância amostral",
+      "paragraphs": [],
+      "markdown": "15. Variância amostral\n\n\nQuando temos uma amostra e queremos estimar a variabilidade de uma população:\n\n\ns² = Σ(xᵢ − x̄)² / (n − 1).\n\n\nLeitura: “ésse ao quadrado é igual à soma dos quadrados dos desvios em relação à média amostral, dividida por ene menos um”.\n\n\n",
+      "sourceStart": 4108,
+      "sourceEnd": 4370
+    },
+    {
+      "id": "MAT-EST-008-s016",
+      "title": "16. Desvio-padrão amostral",
+      "paragraphs": [],
+      "markdown": "16. Desvio-padrão amostral\n\n\ns = √s².\n\n\n",
+      "sourceStart": 4370,
+      "sourceEnd": 4410
+    },
+    {
+      "id": "MAT-EST-008-s017",
+      "title": "17. Por que aparece n−1?",
+      "paragraphs": [],
+      "markdown": "17. Por que aparece n−1?\n\n\nAo calcular a média com a própria amostra, os desvios deixam de ser todos independentes. Depois de conhecer n−1 desvios, o último fica determinado pela condição de que a soma seja zero.\n\n\nDizemos que restam n−1 graus de liberdade. O divisor n−1 também corrige uma tendência de subestimar a variância populacional quando estimamos a média pela própria amostra.\n\n\n",
+      "sourceStart": 4410,
+      "sourceEnd": 4799
+    },
+    {
+      "id": "MAT-EST-008-s018",
+      "title": "18. Intuição para graus de liberdade",
+      "paragraphs": [],
+      "markdown": "18. Intuição para graus de liberdade\n\n\nSe três desvios devem somar zero e sabemos d₁ = +2 e d₂ = −1, então d₃ obrigatoriamente é −1. Ele não pode variar livremente.\n\n\n",
+      "sourceStart": 4799,
+      "sourceEnd": 4966
+    },
+    {
+      "id": "MAT-EST-008-s019",
+      "title": "19. População ou amostra?",
+      "paragraphs": [],
+      "markdown": "19. População ou amostra?\n\n\nNão escolha a fórmula pelo tamanho do conjunto. Pergunte se os dados representam toda a população de interesse ou uma amostra usada para inferir sobre algo maior.\n\n\nOs mesmos números podem ser população em uma pergunta e amostra em outra.\n\n\n",
+      "sourceStart": 4966,
+      "sourceEnd": 5235
+    },
+    {
+      "id": "MAT-EST-008-s020",
+      "title": "20. Exemplo amostral",
+      "paragraphs": [],
+      "markdown": "20. Exemplo amostral\n\n\nAmostra 2, 4, 6.\nMédia x̄ = 4.\nSoma dos quadrados = 8.\ns² = 8/(3−1) = 4.\ns = 2.\n\n\nOs mesmos números, tratados como população, tinham variância 8/3 e DP aproximadamente 1,63.\n\n\n",
+      "sourceStart": 5235,
+      "sourceEnd": 5434
+    },
+    {
+      "id": "MAT-EST-008-s021",
+      "title": "21. Nunca misturar fórmulas",
+      "paragraphs": [],
+      "markdown": "21. Nunca misturar fórmulas\n\n\nSe a pergunta pede variância populacional, use N.\nSe pede variância amostral usual para estimar a variância de uma população, use n−1.\n\n\nA fórmula depende do papel dos dados, não do hábito do estudante.\n\n\n",
+      "sourceStart": 5434,
+      "sourceEnd": 5669
+    },
+    {
+      "id": "MAT-EST-008-s022",
+      "title": "22. Algoritmo de cálculo",
+      "paragraphs": [],
+      "markdown": "22. Algoritmo de cálculo\n\n\n1. Calcule a média.\n2. Subtraia a média de cada valor.\n3. Eleve cada desvio ao quadrado.\n4. Some os quadrados.\n5. Divida por N ou n−1.\n6. O resultado é a variância.\n7. Tire a raiz para obter o desvio-padrão.\n\n\n",
+      "sourceStart": 5669,
+      "sourceEnd": 5906
+    },
+    {
+      "id": "MAT-EST-008-s023",
+      "title": "23. Exemplo em tabela",
+      "paragraphs": [],
+      "markdown": "23. Exemplo em tabela\n\n\nDados 3, 5 e 7; média 5.\n\n\nx = 3; desvio −2; quadrado 4.\nx = 5; desvio 0; quadrado 0.\nx = 7; desvio +2; quadrado 4.\n\n\nSoma dos quadrados = 8.\n\n\n",
+      "sourceStart": 5906,
+      "sourceEnd": 6074
+    },
+    {
+      "id": "MAT-EST-008-s024",
+      "title": "24. Relação com o desvio médio absoluto",
+      "paragraphs": [],
+      "markdown": "24. Relação com o desvio médio absoluto\n\n\nDMA usa |x−centro|.\nVariância usa (x−média)².\n\n\nO DMA aumenta linearmente com a distância. A variância aumenta quadraticamente. Um desvio que dobra tem contribuição quadrática quatro vezes maior.\n\n\n",
+      "sourceStart": 6074,
+      "sourceEnd": 6314
+    },
+    {
+      "id": "MAT-EST-008-s025",
+      "title": "25. Sensibilidade a extremos",
+      "paragraphs": [],
+      "markdown": "25. Sensibilidade a extremos\n\n\nDados 5, 5, 5, 5, 5 têm variância zero.\nSe um dos valores vira 25, a média muda e aparecem desvios grandes. Ao quadrado, esses desvios têm contribuição ainda maior.\n\n\n",
+      "sourceStart": 6314,
+      "sourceEnd": 6512
+    },
+    {
+      "id": "MAT-EST-008-s026",
+      "title": "26. Valor extremo válido",
+      "paragraphs": [],
+      "markdown": "26. Valor extremo válido\n\n\nSensibilidade não significa que extremos devam ser apagados. Um extremo verdadeiro pode ser justamente a observação mais importante em saúde, finanças, confiabilidade ou segurança.\n\n\n",
+      "sourceStart": 6512,
+      "sourceEnd": 6722
+    },
+    {
+      "id": "MAT-EST-008-s027",
+      "title": "27. Somar uma constante",
+      "paragraphs": [],
+      "markdown": "27. Somar uma constante\n\n\nSe yᵢ = xᵢ + c, a média aumenta c, mas os desvios em relação à nova média continuam iguais.\n\n\nLogo, a variância e o desvio-padrão não mudam.\n\n\n",
+      "sourceStart": 6722,
+      "sourceEnd": 6891
+    },
+    {
+      "id": "MAT-EST-008-s028",
+      "title": "28. Multiplicar por constante",
+      "paragraphs": [],
+      "markdown": "28. Multiplicar por constante\n\n\nSe yᵢ = a xᵢ:\n\n\nVar(y) = a² Var(x).\nDP(y) = |a| DP(x).\n\n\n",
+      "sourceStart": 6891,
+      "sourceEnd": 6980
+    },
+    {
+      "id": "MAT-EST-008-s029",
+      "title": "29. Transformação linear geral",
+      "paragraphs": [],
+      "markdown": "29. Transformação linear geral\n\n\nSe y = ax+b:\n\n\nVar(y) = a² Var(x).\nDP(y) = |a| DP(x).\n\n\nO termo b desloca o centro, mas não altera a dispersão.\n\n\n",
+      "sourceStart": 6980,
+      "sourceEnd": 7127
+    },
+    {
+      "id": "MAT-EST-008-s030",
+      "title": "30. Exemplo de transformação",
+      "paragraphs": [],
+      "markdown": "30. Exemplo de transformação\n\n\nDados têm média 10 e DP 2.\nTransformação y = 3x + 100.\n\n\nNova média = 130.\nNovo DP = 6.\nNova variância = 9 vezes a antiga.\n\n\n",
+      "sourceStart": 7127,
+      "sourceEnd": 7283
+    },
+    {
+      "id": "MAT-EST-008-s031",
+      "title": "31. Controles de plausibilidade",
+      "paragraphs": [],
+      "markdown": "31. Controles de plausibilidade\n\n\nVariância nunca pode ser negativa.\nDesvio-padrão nunca pode ser negativo.\n\n\nSe o cálculo produz variância −4, existe erro.\n\n\n",
+      "sourceStart": 7283,
+      "sourceEnd": 7442
+    },
+    {
+      "id": "MAT-EST-008-s032",
+      "title": "32. Pequeno e grande são relativos",
+      "paragraphs": [],
+      "markdown": "32. Pequeno e grande são relativos\n\n\nDP 5 pode ser enorme se a variável costuma variar entre 0 e 10, ou pequeno se a variável está em torno de 10.000.\n\n\nIsso prepara a MAT-EST-009, sobre coeficiente de variação e dispersão relativa.\n\n\n",
+      "sourceStart": 7442,
+      "sourceEnd": 7677
+    },
+    {
+      "id": "MAT-EST-008-s033",
+      "title": "33. Antecipação do coeficiente de variação",
+      "paragraphs": [],
+      "markdown": "33. Antecipação do coeficiente de variação\n\n\nCV = DP / média.\n\n\nEm porcentagem:\n\n\nCV% = 100 × DP / média.\n\n\nAinda não usaremos CV de modo mecânico, porque médias próximas de zero, negativas ou escalas com zero arbitrário exigem cuidado.\n\n\n",
+      "sourceStart": 7677,
+      "sourceEnd": 7916
+    },
+    {
+      "id": "MAT-EST-008-s034",
+      "title": "34. Variância com frequências",
+      "paragraphs": [],
+      "markdown": "34. Variância com frequências\n\n\nSe valores xᵢ aparecem com frequências fᵢ, podemos calcular:\n\n\nσ² = Σ[fᵢ(xᵢ−μ)²] / Σfᵢ.\n\n\n",
+      "sourceStart": 7916,
+      "sourceEnd": 8038
+    },
+    {
+      "id": "MAT-EST-008-s035",
+      "title": "35. Exemplo com frequências",
+      "paragraphs": [],
+      "markdown": "35. Exemplo com frequências\n\n\nValor 1 aparece 1 vez.\nValor 2 aparece 2 vezes.\nValor 3 aparece 1 vez.\n\n\nDados expandidos: 1, 2, 2, 3.\nMédia = 2.\n\n\nQuadrados dos desvios:\n1, 0, 0, 1.\n\n\nSoma = 2.\nVariância populacional = 2/4 = 0,5.\nDP ≈ 0,71.\n\n\n",
+      "sourceStart": 8038,
+      "sourceEnd": 8280
+    },
+    {
+      "id": "MAT-EST-008-s036",
+      "title": "36. Dados agrupados em classes",
+      "paragraphs": [],
+      "markdown": "36. Dados agrupados em classes\n\n\nSe conhecemos apenas classes, por exemplo [0,10), [10,20), [20,30), não sabemos cada observação individual.\n\n\nPodemos aproximar usando o ponto médio de cada classe como representante.\n\n\nA variância resultante é aproximada, não necessariamente exata.\n\n\n",
+      "sourceStart": 8280,
+      "sourceEnd": 8565
+    },
+    {
+      "id": "MAT-EST-008-s037",
+      "title": "37. Fórmula computacional alternativa",
+      "paragraphs": [],
+      "markdown": "37. Fórmula computacional alternativa\n\n\nPara uma população:\n\n\nσ² = Σxᵢ²/N − μ².\n\n\nLeitura: “variância é a média dos quadrados menos o quadrado da média”.\n\n\nEla pode facilitar certos cálculos, mas deve ser entendida como identidade algébrica, não como fórmula mágica.\n\n\n",
+      "sourceStart": 8565,
+      "sourceEnd": 8834
+    },
+    {
+      "id": "MAT-EST-008-s038",
+      "title": "38. Demonstração da identidade",
+      "paragraphs": [],
+      "markdown": "38. Demonstração da identidade\n\n\nPartimos de:\n\n\nΣ(xᵢ−μ)².\n\n\nExpandindo:\n\n\nΣ(xᵢ² − 2μxᵢ + μ²).\n\n\nIsso resulta em:\n\n\nΣxᵢ² − 2μΣxᵢ + Nμ².\n\n\nComo Σxᵢ = Nμ:\n\n\nΣxᵢ² − 2Nμ² + Nμ²\n= Σxᵢ² − Nμ².\n\n\nDividindo por N:\n\n\nσ² = Σxᵢ²/N − μ².\n\n\n",
+      "sourceStart": 8834,
+      "sourceEnd": 9061
+    },
+    {
+      "id": "MAT-EST-008-s039",
+      "title": "39. Cuidado numérico em computação",
+      "paragraphs": [],
+      "markdown": "39. Cuidado numérico em computação\n\n\nA identidade anterior é correta, mas algumas implementações computacionais podem sofrer perda de precisão quando os números são muito grandes e a variância é pequena.\n\n\nAlgoritmos mais estáveis, como o algoritmo de Welford, são usados em ciência de dados e sistemas de monitoramento.\n\n\n",
+      "sourceStart": 9061,
+      "sourceEnd": 9384
+    },
+    {
+      "id": "MAT-EST-008-s040",
+      "title": "40. Ideia do algoritmo de Welford",
+      "paragraphs": [],
+      "markdown": "40. Ideia do algoritmo de Welford\n\n\nNão é necessário memorizar fórmulas agora.\n\n\nA ideia importante é que média e soma ajustada de quadrados podem ser atualizadas conforme novos dados chegam, sem guardar tudo na memória e com maior estabilidade numérica.\n\n\n",
+      "sourceStart": 9384,
+      "sourceEnd": 9641
+    },
+    {
+      "id": "MAT-EST-008-s041",
+      "title": "41. Desvio-padrão e distribuição normal",
+      "paragraphs": [],
+      "markdown": "41. Desvio-padrão e distribuição normal\n\n\nEm uma distribuição aproximadamente normal, o DP ganha interpretações adicionais sobre concentração em torno da média.\n\n\nA conhecida regra aproximada 68–95–99,7 será estudada quando a distribuição normal for formalizada.\n\n\nNão aplique essa regra automaticamente a qualquer conjunto.\n\n\n",
+      "sourceStart": 9641,
+      "sourceEnd": 9968
+    },
+    {
+      "id": "MAT-EST-008-s042",
+      "title": "42. Desvio-padrão não é erro-padrão",
+      "paragraphs": [],
+      "markdown": "42. Desvio-padrão não é erro-padrão\n\n\nDesvio-padrão descreve a variabilidade das observações.\n\n\nErro-padrão descreve a variabilidade de uma estatística, como a média, entre possíveis amostras.\n\n\nSão conceitos diferentes.\n\n\n",
+      "sourceStart": 9968,
+      "sourceEnd": 10191
+    },
+    {
+      "id": "MAT-EST-008-s043",
+      "title": "43. Desvio-padrão não é margem de erro",
+      "paragraphs": [],
+      "markdown": "43. Desvio-padrão não é margem de erro\n\n\nMargem de erro envolve estimativa, erro-padrão, nível de confiança e modelo de amostragem.\n\n\nNão use os termos como sinônimos.\n\n\n",
+      "sourceStart": 10191,
+      "sourceEnd": 10361
+    },
+    {
+      "id": "MAT-EST-008-s044",
+      "title": "44. Desvio-padrão não mede qualidade sozinho",
+      "paragraphs": [],
+      "markdown": "44. Desvio-padrão não mede qualidade sozinho\n\n\nUm instrumento pode ter DP muito pequeno e ainda medir sistematicamente 5 unidades acima do valor verdadeiro.\n\n\nBaixa dispersão significa precisão/repetibilidade, não necessariamente exatidão.\n\n\n",
+      "sourceStart": 10361,
+      "sourceEnd": 10603
+    },
+    {
+      "id": "MAT-EST-008-s045",
+      "title": "45. Centro e dispersão devem ser lidos juntos",
+      "paragraphs": [],
+      "markdown": "45. Centro e dispersão devem ser lidos juntos\n\n\nUma descrição estatística mínima deve considerar:\n\n\n• medida de centro;\n• medida de dispersão;\n• forma da distribuição;\n• valores extremos;\n• unidade e contexto;\n• qualidade da coleta.\n\n\n",
+      "sourceStart": 10603,
+      "sourceEnd": 10838
+    },
+    {
+      "id": "MAT-EST-008-s046",
+      "title": "46. Exemplo integrado 1",
+      "paragraphs": [],
+      "markdown": "46. Exemplo integrado 1\n\n\nDados 8, 8, 8, 8.\n\n\nMédia 8.\nVariância 0.\nDP 0.\n\n\n",
+      "sourceStart": 10838,
+      "sourceEnd": 10914
+    },
+    {
+      "id": "MAT-EST-008-s047",
+      "title": "47. Exemplo integrado 2",
+      "paragraphs": [],
+      "markdown": "47. Exemplo integrado 2\n\n\nDados 6, 8, 10.\n\n\nMédia 8.\nDesvios −2, 0, +2.\nQuadrados 4, 0, 4.\n\n\nVariância populacional = 8/3.\nDP ≈ 1,63.\n\n\n",
+      "sourceStart": 10914,
+      "sourceEnd": 11050
+    },
+    {
+      "id": "MAT-EST-008-s048",
+      "title": "48. Exemplo integrado 3 — amostra",
+      "paragraphs": [],
+      "markdown": "48. Exemplo integrado 3 — amostra\n\n\nOs mesmos 6, 8, 10 como amostra:\n\n\ns² = 8/2 = 4.\ns = 2.\n\n\n",
+      "sourceStart": 11050,
+      "sourceEnd": 11144
+    },
+    {
+      "id": "MAT-EST-008-s049",
+      "title": "49. Exemplo integrado 4 — transformação",
+      "paragraphs": [],
+      "markdown": "49. Exemplo integrado 4 — transformação\n\n\nDP = 4.\nTransformação y = −2x + 50.\n\n\nNovo DP = |−2|×4 = 8.\n\n\nO 50 não altera a dispersão.\n\n\n",
+      "sourceStart": 11144,
+      "sourceEnd": 11279
+    },
+    {
+      "id": "MAT-EST-008-s050",
+      "title": "50. Exemplo integrado 5 — comparação absoluta",
+      "paragraphs": [],
+      "markdown": "50. Exemplo integrado 5 — comparação absoluta\n\n\nA:\nmédia 50;\nDP 2.\n\n\nB:\nmédia 50;\nDP 8.\n\n\nComo as médias e unidades são comparáveis, B tem maior dispersão absoluta.\n\n\n",
+      "sourceStart": 11279,
+      "sourceEnd": 11446
+    },
+    {
+      "id": "MAT-EST-008-s051",
+      "title": "51. Exemplo integrado 6 — escalas diferentes",
+      "paragraphs": [],
+      "markdown": "51. Exemplo integrado 6 — escalas diferentes\n\n\nA:\nmédia 10;\nDP 2.\n\n\nB:\nmédia 1000;\nDP 20.\n\n\nB tem DP absoluto maior, mas afirmar que é “dez vezes mais variável” pode ser enganoso porque a escala média é muito diferente.\n\n\nIsso motiva o coeficiente de variação.\n\n\n",
+      "sourceStart": 11446,
+      "sourceEnd": 11709
+    },
+    {
+      "id": "MAT-EST-008-s052",
+      "title": "52. Erros frequentes",
+      "paragraphs": [],
+      "markdown": "52. Erros frequentes\n\n\nErro 1. Esquecer de calcular o centro.\nErro 2. Não elevar os desvios ao quadrado.\nErro 3. Tirar raiz quadrada antes da hora.\nErro 4. Confundir população e amostra.\nErro 5. Usar n−1 sem entender o papel dos dados.\nErro 6. Interpretar variância na unidade original.\nErro 7. Admitir DP negativo.\nErro 8. Excluir extremos apenas porque aumentam a dispersão.\nErro 9. Aplicar 68–95–99,7 sem normalidade aproximada.\nErro 10. Confundir DP, erro-padrão e margem de erro.\n\n\n",
+      "sourceStart": 11709,
+      "sourceEnd": 12196
+    },
+    {
+      "id": "MAT-EST-008-s053",
+      "title": "53. Relação com BNCC, ENEM e FUVEST",
+      "paragraphs": [],
+      "markdown": "53. Relação com BNCC, ENEM e FUVEST\n\n\nA BNCC constrói a base da dispersão a partir da amplitude e da comparação com medidas de tendência central.\n\n\nA FUVEST 2027 inclui explicitamente amplitude, desvio-médio, variância, desvio-padrão e coeficiente de variação entre as medidas de dispersão.\n\n\nA Matriz de Referência do Enem publicada pelo Inep em 2026 é a referência institucional vigente para competências, habilidades e objetos de conhecimento da prova. As questões desta reconstrução são autorais.\n\n\n",
+      "sourceStart": 12196,
+      "sourceEnd": 12699
+    },
+    {
+      "id": "MAT-EST-008-s054",
+      "title": "54. O que observar nos seis visuais",
+      "paragraphs": [],
+      "markdown": "54. O que observar nos seis visuais\n\n\nVisual 1 — mesma média, dispersões diferentes.\nVisual 2 — desvios e seus quadrados.\nVisual 3 — fluxo dados → média → desvios → quadrados → variância → DP.\nVisual 4 — população versus amostra, destacando N e n−1.\nVisual 5 — efeito de y=ax+b sobre centro e dispersão.\nVisual 6 — efeito de um extremo sobre os quadrados dos desvios.\n\n\n",
+      "sourceStart": 12699,
+      "sourceEnd": 13069
+    },
+    {
+      "id": "MAT-EST-008-s055",
+      "title": "55. Resumo",
+      "paragraphs": [],
+      "markdown": "55. Resumo\n\n\nVariância populacional:\n\n\nσ² = Σ(xᵢ−μ)²/N.\n\n\nVariância amostral:\n\n\ns² = Σ(xᵢ−x̄)²/(n−1).\n\n\nDesvio-padrão:\n\n\nσ = √σ² ou s = √s².\n\n\nVariância tem unidade ao quadrado.\nDP tem a unidade original.\nSomar uma constante não altera dispersão.\nMultiplicar por a multiplica variância por a² e DP por |a|.\n\n\n",
+      "sourceStart": 13069,
+      "sourceEnd": 13378
+    },
+    {
+      "id": "MAT-EST-008-s056",
+      "title": "56. Versão curta para ouvir",
+      "paragraphs": [],
+      "markdown": "56. Versão curta para ouvir\n\n\nA variância evita o cancelamento dos desvios elevando cada afastamento ao quadrado.\n\n\nSomamos os quadrados e dividimos pelo tamanho da população, ou por n menos um na fórmula amostral usual.\n\n\nO desvio-padrão é a raiz quadrada da variância e volta à unidade original.\n\n\nValores extremos influenciam bastante porque grandes desvios são elevados ao quadrado.\n\n\nDesvio-padrão zero significa que todos os valores são iguais.\n\n\nComparar DP exige unidade, escala e contexto.\n\n\n",
+      "sourceStart": 13378,
+      "sourceEnd": 13879
+    },
+    {
+      "id": "MAT-EST-008-s057",
+      "title": "57. Vídeo complementar",
+      "paragraphs": [],
+      "markdown": "57. Vídeo complementar\n\n\nVídeo recomendado:\n“Variância e Desvio Padrão - Estatística”.\nCanal: Professor Ferretto.\n\n\nMomento recomendado:\nApós compreender as fórmulas populacional e amostral e antes dos exercícios de consolidação.\n\n\nMotivo:\nReforçar o procedimento de cálculo e a interpretação de variância e desvio-padrão.\n\n\nEstado de QA:\nO vídeo é recomendado como complemento. A reprodução integral, duração efetiva, áudio e sincronização das legendas ainda precisam de auditoria no Microsoft Edge antes de publicação.\n\n\n",
+      "sourceStart": 13879,
+      "sourceEnd": 14402
+    },
+    {
+      "id": "MAT-EST-008-s058",
+      "title": "58. Critério de domínio",
+      "paragraphs": [],
+      "markdown": "58. Critério de domínio\n\n\nO tópico só deve ser considerado consolidado quando o estudante conseguir:\n\n\n• explicar por que os quadrados aparecem;\n• calcular variância populacional;\n• calcular variância amostral;\n• explicar n−1 em nível conceitual;\n• calcular DP;\n• interpretar unidades;\n• prever transformações;\n• explicar efeito de extremos;\n• distinguir DP de erro-padrão;\n• resolver situação nova sem copiar mecanicamente um algoritmo.\n\n\nA produção editorial não altera progresso individual.\n\n\n",
+      "sourceStart": 14402,
+      "sourceEnd": 14898
+    },
+    {
+      "id": "MAT-EST-008-s059",
+      "title": "59. Próximo passo",
+      "paragraphs": [],
+      "markdown": "59. Próximo passo\n\n\nMAT-EST-009 — Coeficiente de variação: dispersão relativa e comparação entre escalas.\n",
+      "sourceStart": 14898,
+      "sourceEnd": 15004
+    }
+  ],
+  "sources": [
+    {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "previous": "MAT-EST-007",
+  "next": "MAT-EST-009",
+  "videos": [
+    {
+      "title": "NOÇÕES DE ESTATÍSTICA : VARIÂNCIA E DESVIO PADRÃO (18/21)",
+      "channel": "Equaciona Com Paulo Pereira",
+      "url": "https://www.youtube.com/watch?v=okczT8W1fag",
+      "duration": "Duração não confirmada",
+      "language": "Português",
+      "reason": "Complemento verificado sobre variância e desvio-padrão populacionais.",
+      "when": "Após estudar a explicação escrita.",
+      "reinforces": [],
+      "checkedAt": "2026-10-03",
+      "type": "video",
+      "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados."
+    }
+  ],
+  "video": {
+    "title": "NOÇÕES DE ESTATÍSTICA : VARIÂNCIA E DESVIO PADRÃO (18/21)",
+    "channel": "Equaciona Com Paulo Pereira",
+    "url": "https://www.youtube.com/watch?v=okczT8W1fag",
+    "duration": "Duração não confirmada",
+    "language": "Português",
+    "reason": "Complemento verificado sobre variância e desvio-padrão populacionais.",
+    "when": "Após estudar a explicação escrita.",
+    "reinforces": [],
+    "checkedAt": "2026-10-03",
+    "type": "video",
+    "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados."
+  },
+  "publication": {
+    "kind": "Reconstrução editorial v1; sem identidade binária com a edição histórica.",
+    "notes": [
+      "A produção e a publicação não registram domínio nem alteram seu progresso.",
+      "As referências a publicação pendente no texto original registram o estado da fonte na data de criação.",
+      "O link exato da indicação de Professor Ferretto não foi confirmado. Foi acrescentado o recurso de Equaciona com Paulo Pereira, já presente na edição anterior; a indicação original permanece no texto integral."
+    ],
+    "original": "originais/MAT-EST-008/aula.md",
+    "editions": [
+      {
+        "label": "MAT-EST-008-metadados.json · 2026-10-02",
+        "url": "originais/MAT-EST-008/edicoes/1UGimMYBsqOZBgMJcIpjVEQ2T0R7f4Zos.json"
+      },
+      {
+        "label": "MAT-EST-008 — manifesto da reconstrução v1 · 2026-10-02",
+        "url": "originais/MAT-EST-008/edicoes/1NJUzuDvNovxt4OetKQG50AwtU-dnVBFRLhUxsS4-EOA.txt"
+      },
+      {
+        "label": "MAT-EST-008 — gabarito comentado — reconstrução editorial v1 · 2026-10-02",
+        "url": "originais/MAT-EST-008/edicoes/1iZh8lp7O5y3A5wgdiQhHb_A0dlzIOfnzHvQR2gAgGV8.txt"
+      },
+      {
+        "label": "MAT-EST-008 — exercícios — reconstrução editorial v1 · 2026-10-02",
+        "url": "originais/MAT-EST-008/edicoes/13WnwqvIoyS9WmprID3cSepKHLwec6UFBjh60xzWHJ40.txt"
+      },
+      {
+        "label": "MAT-EST-008 — aula completa — reconstrução editorial v1 · 2026-10-02",
+        "url": "originais/MAT-EST-008/edicoes/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM.txt"
+      },
+      {
+        "label": "MAT-EST-008-metadados.json · 2026-10-02",
+        "url": "originais/MAT-EST-008/edicoes/1Dbh6G__E5tGdf8p3ygpTjyWfpK0b8Fqy.json"
+      },
+      {
+        "label": "MAT-EST-008 — manifesto da reconstrução v1 · 2026-10-02",
+        "url": "originais/MAT-EST-008/edicoes/138EuHOVkCIQyndsijFhdUjVPaqGC79TlKuMFi8IU1ns.txt"
+      },
+      {
+        "label": "MAT-EST-008 — gabarito comentado — reconstrução editorial v1 · 2026-10-02",
+        "url": "originais/MAT-EST-008/edicoes/1YoGPm-mRpuTiaBN5I85gCH6DCkWuCCThcLTWK0CdbNY.txt"
+      },
+      {
+        "label": "MAT-EST-008 — exercícios — reconstrução editorial v1 · 2026-10-02",
+        "url": "originais/MAT-EST-008/edicoes/11O5fv9P2SXDgEGg--_5Xv8y36ZfITsmBHmfs4_sx0ns.txt"
+      },
+      {
+        "label": "MAT-EST-008 — aula completa — reconstrução editorial v1 · 2026-10-02",
+        "url": "originais/MAT-EST-008/edicoes/1wzOqbBFJjq4WdWSnGCbBLWgOKk1JtO7jGGGgN6ZeSb4.txt"
+      },
+      {
+        "label": "Visual de outra fonte recuperada · 06-efeito-extremo.svg",
+        "url": "originais/MAT-EST-008/edicoes/ativos/1lMArj4kZ3xMgzbWANVpUhvNwz2Skp8KF/06-efeito-extremo.svg"
+      },
+      {
+        "label": "Visual de outra fonte recuperada · 05-transformacao-linear.svg",
+        "url": "originais/MAT-EST-008/edicoes/ativos/1M5hsEY1ZPFjqFVk0s99PLSn8XaS0_2aN/05-transformacao-linear.svg"
+      },
+      {
+        "label": "Visual de outra fonte recuperada · 04-populacao-amostra.svg",
+        "url": "originais/MAT-EST-008/edicoes/ativos/10TcUJSlOWGriE_5lzzeOLPRy8QCl3z3x/04-populacao-amostra.svg"
+      },
+      {
+        "label": "Visual de outra fonte recuperada · 03-mesma-media-diferente-dp.svg",
+        "url": "originais/MAT-EST-008/edicoes/ativos/1WHgjRAVHr3zZ6hGx2Nfh8zsUx2COYqTN/03-mesma-media-diferente-dp.svg"
+      },
+      {
+        "label": "Visual de outra fonte recuperada · 02-variancia-para-dp.svg",
+        "url": "originais/MAT-EST-008/edicoes/ativos/1uDrGP_uHDEjDz6dT2aFKgTTY77wQj42F/02-variancia-para-dp.svg"
+      },
+      {
+        "label": "Visual de outra fonte recuperada · 01-quadrados-desvios.svg",
+        "url": "originais/MAT-EST-008/edicoes/ativos/1URB6rBzKiEDtKD3gW8uIECNxjDtLmPqJ/01-quadrados-desvios.svg"
+      }
+    ],
+    "attachments": [],
+    "questionCount": 36,
+    "visualCount": 6,
+    "sourceSha256": "fccb2eae6142f8175e10ba15256009aa25fe321602562f2d3c973262ffbfec93"
+  }
+}

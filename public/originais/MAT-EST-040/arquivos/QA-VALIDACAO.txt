@@ -1,0 +1,26 @@
+# QA MAT-EST-040
+Data: 2026-09-28.
+- APROVADO: 36 exercícios e 36 resoluções
+- APROVADO: IDs exclusivos
+- APROVADO: gabarito separado vinculado na mesma ordem
+- APROVADO: camadas 10/10/10/6
+- APROVADO: origem declarada
+- APROVADO: 7 recursos visuais
+- APROVADO: SVG acessível MAT-EST-040-VIS-01
+- APROVADO: SVG acessível MAT-EST-040-VIS-02
+- APROVADO: SVG acessível MAT-EST-040-VIS-03
+- APROVADO: SVG acessível MAT-EST-040-VIS-04
+- APROVADO: SVG acessível MAT-EST-040-VIS-05
+- APROVADO: SVG acessível MAT-EST-040-VIS-06
+- APROVADO: SVG acessível MAT-EST-040-VIS-07
+- APROVADO: enumeração e erro-padrão
+- APROVADO: intervalo de postos original
+- APROVADO: permutação exata
+- APROVADO: sinais pareados
+- APROVADO: unidades por conglomerado
+- APROVADO: exemplo de comparação pareada
+- APROVADO: CSV herdado sem alteração
+- APROVADO: montagem visual
+- APROVADO: cálculos reexecutados de modo independente
+Pendências fora do ambiente: reprodução integral da videoaula, teste real no Microsoft Edge, integração/publicação e sincronização com Google Drive.
+Nenhuma tentativa individual ou consolidação automática foi criada.

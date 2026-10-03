@@ -1,0 +1,13 @@
+periodo,ano_ficticio,trimestre,particao,tendencia_conhecida_por_construcao,sazonalidade_conhecida_por_construcao,restante_conhecido_por_construcao,observado_unidades
+1,1,1,treino,100,-10,0,90
+2,1,2,treino,105,0,2,107
+3,1,3,treino,110,20,-2,128
+4,1,4,treino,115,-10,0,105
+5,2,1,treino,120,-10,1,111
+6,2,2,treino,125,0,-1,124
+7,2,3,treino,130,20,0,150
+8,2,4,treino,135,-10,2,127
+9,3,1,teste,140,-10,-1,129
+10,3,2,teste,145,0,0,145
+11,3,3,teste,150,20,1,171
+12,3,4,teste,155,-10,-1,144

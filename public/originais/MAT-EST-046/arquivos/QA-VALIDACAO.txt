@@ -1,0 +1,38 @@
+MAT-EST-046 — QA LOCAL
+OK | IDs e continuidade
+OK | dois arquivos CSV preservados byte a byte
+OK | dados e valores previamente declarados
+OK | seis tarefas três origens e dois horizontes
+OK | alvos exclusivos do futuro relativo a origem
+OK | parâmetros fixos e inicialização consistente
+OK | previsões de origem 8 herdadas
+OK | previsões de origem 9
+OK | previsões de origem 10
+OK | deslocamentos recalculados só com prefixos
+OK | métricas HW recalculadas h1 h2
+OK | métricas referência sazonal
+OK | métricas deslocamento h1 h2
+OK | faixas sem alegação nominal e contagem verdadeira
+OK | aviso holdout exposto e erros sobrepostos
+OK | 36 questões e quatro camadas
+OK | identificadores de questões exclusivos
+OK | enunciados independentes
+OK | gabarito separado e coberturas iguais
+OK | gabarito com raciocínio detalhado
+OK | questões originais, nenhuma tentativa fabricada
+OK | sem respostas dentro dos enunciados JSON
+OK | nenhuma questão oficial alegada
+OK | 7 visuais completos e citados no Markdown
+OK | SVG acessível MAT-EST-046-VIS-01
+OK | SVG acessível MAT-EST-046-VIS-02
+OK | SVG acessível MAT-EST-046-VIS-03
+OK | SVG acessível MAT-EST-046-VIS-04
+OK | SVG acessível MAT-EST-046-VIS-05
+OK | SVG acessível MAT-EST-046-VIS-06
+OK | SVG acessível MAT-EST-046-VIS-07
+OK | prévia gráfica no tamanho esperado
+OK | vídeo página institucional localizada, limites claros
+OK | manifest sem progresso inventado
+OK | sem caracteres de controle no Markdown
+OK | todas as 36 atividades presentes no Markdown
+OK | script independente reproduz todos os cálculos

@@ -1,0 +1,8 @@
+# QA MAT-EST-034 — 2026-09-28
+36 questões autorais, IDs exclusivos; 10 APR, 10 CON, 10 VES, 6 RET. Todas têm solução em pelo menos dois passos; nenhuma atribuída como oficial.
+7 SVGs originais: title, desc, role e aria-labelledby; PNG de montagem produzido com CairoSVG.
+Dados inventados: oito dias; candidatas A/B dadas e congeladas, não ajustadas usando quatro pontos de referência. Período de teste = dias 5–8.
+Teste: A MAE 5, RMSE 5 e perda 40; B MAE 6,25, RMSE 12,5 e perda 25; baseline MAE 12,5 e RMSE raiz de 275.
+Todos os JSONs validaram e todas as referências locais estão presentes. Nenhuma tentativa individual ou nota foi criada.
+Vídeo: página institucional localizada; reprodução integral não testada. Edge: teste real de Ler em voz alta pendente.
+Google Drive, GitHub e site: não sincronizados, não publicados nesta execução.

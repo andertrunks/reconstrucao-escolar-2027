@@ -1,0 +1,879 @@
+[
+  {
+    "id": "MAT-EST-003-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Em uma lista de respostas, a categoria 'ônibus' aparece 7 vezes. Qual é a frequência absoluta de 'ônibus'?",
+    "answer": "7.",
+    "resolution": "Resposta e raciocínio: 7.\nMotivo provável do erro: Conteúdo: confundiu valor/categoria com a contagem.",
+    "errorReasons": [
+      "Conteúdo: confundiu valor/categoria com a contagem."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-003-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Uma pesquisa possui 20 respostas válidas e 5 são 'bicicleta'. Calcule a frequência relativa em fração, decimal e porcentagem.",
+    "answer": "5/20 = 1/4 = 0,25 = 25%.",
+    "resolution": "Resposta e raciocínio: 5/20 = 1/4 = 0,25 = 25%.\nMotivo provável do erro: Cálculo: erro ao dividir ou converter decimal em porcentagem.",
+    "errorReasons": [
+      "Cálculo: erro ao dividir ou converter decimal em porcentagem."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-003-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "As frequências absolutas são 4, 6 e 10. Qual é o total n?",
+    "answer": "n = 4 + 6 + 10 = 20.",
+    "resolution": "Resposta e raciocínio: n = 4 + 6 + 10 = 20.\nMotivo provável do erro: Cálculo: não somou todas as frequências.",
+    "errorReasons": [
+      "Cálculo: não somou todas as frequências."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-003-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "As frequências relativas são 0,25; 0,35; 0,40. Verifique se formam uma distribuição completa.",
+    "answer": "Sim. 0,25 + 0,35 + 0,40 = 1,00.",
+    "resolution": "Resposta e raciocínio: Sim. 0,25 + 0,35 + 0,40 = 1,00.\nMotivo provável do erro: Cálculo: soma de decimais.",
+    "errorReasons": [
+      "Cálculo: soma de decimais."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-003-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Em uma tabela ordenada, as frequências são 3, 5, 4. Calcule as frequências absolutas acumuladas.",
+    "answer": "3, 8, 12.",
+    "resolution": "Resposta e raciocínio: 3, 8, 12.\nMotivo provável do erro: Conteúdo: confundiu frequência da linha com acumulada.",
+    "errorReasons": [
+      "Conteúdo: confundiu frequência da linha com acumulada."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-003-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Em 50 observações, 15 pertencem à categoria A. Qual é a porcentagem?",
+    "answer": "15/50 = 0,30 = 30%.",
+    "resolution": "Resposta e raciocínio: 15/50 = 0,30 = 30%.\nMotivo provável do erro: Cálculo: denominador incorreto.",
+    "errorReasons": [
+      "Cálculo: denominador incorreto."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-003-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Explique com uma frase a diferença entre frequência absoluta e frequência relativa.",
+    "answer": "A absoluta diz quantas observações estão na categoria; a relativa diz que parte do total elas representam.",
+    "resolution": "Resposta e raciocínio: A absoluta diz quantas observações estão na categoria; a relativa diz que parte do total elas representam.\nMotivo provável do erro: Conteúdo: definições não diferenciadas.",
+    "errorReasons": [
+      "Conteúdo: definições não diferenciadas."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-003-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Uma tabela termina com frequência absoluta acumulada 80. O que esse número deve representar se não há dados excluídos?",
+    "answer": "O total de observações válidas, n = 80.",
+    "resolution": "Resposta e raciocínio: O total de observações válidas, n = 80.\nMotivo provável do erro: Conteúdo: não reconheceu a propriedade da última acumulada.",
+    "errorReasons": [
+      "Conteúdo: não reconheceu a propriedade da última acumulada."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-003-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "A variável é 'tipo sanguíneo'. Faz sentido calcular frequência acumulada? Justifique.",
+    "answer": "Em geral, não. Tipo sanguíneo é nominal; não existe ordem natural 'até' uma categoria.",
+    "resolution": "Resposta e raciocínio: Em geral, não. Tipo sanguíneo é nominal; não existe ordem natural 'até' uma categoria.\nMotivo provável do erro: Conteúdo: criou ordem estatística a partir da disposição da tabela.",
+    "errorReasons": [
+      "Conteúdo: criou ordem estatística a partir da disposição da tabela."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-003-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "A variável é 'nível de satisfação: ruim, regular, bom, ótimo'. Faz sentido calcular acumulada? Justifique.\n\n\nCAMADA CON — Consolidação",
+    "answer": "Sim, se a ordem ruim < regular < bom < ótimo estiver definida e for relevante à pergunta.",
+    "resolution": "Resposta e raciocínio: Sim, se a ordem ruim < regular < bom < ótimo estiver definida e for relevante à pergunta.\nMotivo provável do erro: Interpretação: não reconheceu variável ordinal.\n\n\nCAMADA CON",
+    "errorReasons": [
+      "Interpretação: não reconheceu variável ordinal."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-003-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Dados: 1, 2, 1, 3, 2, 2, 0, 1, 3, 2. Construa as frequências absolutas de 0, 1, 2 e 3.",
+    "answer": "f(0)=1, f(1)=3, f(2)=4, f(3)=2; total 10.",
+    "resolution": "Resposta e raciocínio: f(0)=1, f(1)=3, f(2)=4, f(3)=2; total 10.\nMotivo provável do erro: Contagem: omissão ou duplicação de valores.",
+    "errorReasons": [
+      "Contagem: omissão ou duplicação de valores."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-003-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Usando os dados do exercício anterior, calcule as frequências relativas e percentuais.",
+    "answer": "0:10%; 1:30%; 2:40%; 3:20%.",
+    "resolution": "Resposta e raciocínio: 0:10%; 1:30%; 2:40%; 3:20%.\nMotivo provável do erro: Cálculo: usou denominador diferente de 10.",
+    "errorReasons": [
+      "Cálculo: usou denominador diferente de 10."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-003-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Usando os mesmos dados, calcule as frequências absolutas acumuladas.",
+    "answer": "F: 1, 4, 8, 10.",
+    "resolution": "Resposta e raciocínio: F: 1, 4, 8, 10.\nMotivo provável do erro: Conteúdo: somou apenas pares de linhas em vez de acumular.",
+    "errorReasons": [
+      "Conteúdo: somou apenas pares de linhas em vez de acumular."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-003-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Em uma turma de 24 estudantes, 6 escolheram A, 9 escolheram B e 9 escolheram C. Calcule os percentuais e faça o controle da soma.",
+    "answer": "A=25%; B=37,5%; C=37,5%; soma=100%.",
+    "resolution": "Resposta e raciocínio: A=25%; B=37,5%; C=37,5%; soma=100%.\nMotivo provável do erro: Cálculo: conversão para porcentagem.",
+    "errorReasons": [
+      "Cálculo: conversão para porcentagem."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-003-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Uma pesquisa tem 100 formulários, mas 12 respostas ausentes para uma variável. Se a tabela usa apenas respostas válidas, qual deve ser o denominador e o que precisa ser informado?",
+    "answer": "Denominador 88. A tabela deve informar que os percentuais são calculados entre 88 respostas válidas e registrar as 12 ausências.",
+    "resolution": "Resposta e raciocínio: Denominador 88. A tabela deve informar que os percentuais são calculados entre 88 respostas válidas e registrar as 12 ausências.\nMotivo provável do erro: Interpretação: ocultou dados ausentes.",
+    "errorReasons": [
+      "Interpretação: ocultou dados ausentes."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-003-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Turma A: 18 de 30 preferem manhã. Turma B: 24 de 50 preferem manhã. Qual turma tem maior frequência absoluta e qual tem maior frequência relativa?",
+    "answer": "Maior absoluta: B, 24 > 18. Maior relativa: A, 18/30=60% contra 24/50=48%.",
+    "resolution": "Resposta e raciocínio: Maior absoluta: B, 24 > 18. Maior relativa: A, 18/30=60% contra 24/50=48%.\nMotivo provável do erro: Estratégia: comparou contagens sem padronizar pelos totais.",
+    "errorReasons": [
+      "Estratégia: comparou contagens sem padronizar pelos totais."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-003-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Tabela ordenada: f = 4, 7, 5, 4. Qual é o total e qual a frequência acumulada até a terceira linha?",
+    "answer": "n=20. Acumulada até a terceira linha = 4+7+5 = 16.",
+    "resolution": "Resposta e raciocínio: n=20. Acumulada até a terceira linha = 4+7+5 = 16.\nMotivo provável do erro: Cálculo: confundiu terceira frequência com acumulada.",
+    "errorReasons": [
+      "Cálculo: confundiu terceira frequência com acumulada."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-003-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Uma tabela percentual mostra 33,3%, 33,3% e 33,3%. A soma dá 99,9%. Isso prova erro de dados? Explique.",
+    "answer": "Não. Pode ser apenas arredondamento: 99,9% está compatível com três valores arredondados a uma casa decimal.",
+    "resolution": "Resposta e raciocínio: Não. Pode ser apenas arredondamento: 99,9% está compatível com três valores arredondados a uma casa decimal.\nMotivo provável do erro: Interpretação: tratou arredondamento como prova de erro.",
+    "errorReasons": [
+      "Interpretação: tratou arredondamento como prova de erro."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-003-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Categorias nominais foram colocadas em ordem alfabética e alguém calculou percentuais acumulados. Qual é o problema conceitual?",
+    "answer": "A ordem alfabética é arbitrária; mudar a ordem muda os acumulados, portanto 'até' uma categoria não tem significado estável.",
+    "resolution": "Resposta e raciocínio: A ordem alfabética é arbitrária; mudar a ordem muda os acumulados, portanto 'até' uma categoria não tem significado estável.\nMotivo provável do erro: Conteúdo: não distinguiu nominal de ordinal.",
+    "errorReasons": [
+      "Conteúdo: não distinguiu nominal de ordinal."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-003-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Intervalos [0,10), [10,20), [20,30). Em qual classe entram 10, 19,9 e 20?\n\n\nCAMADA VES — Transferência / estilo vestibular autoral",
+    "answer": "10 entra em [10,20); 19,9 também em [10,20); 20 entra em [20,30).",
+    "resolution": "Resposta e raciocínio: 10 entra em [10,20); 19,9 também em [10,20); 20 entra em [20,30).\nMotivo provável do erro: Conteúdo: não entendeu inclusão do limite esquerdo e exclusão do direito.\n\n\nCAMADA VES",
+    "errorReasons": [
+      "Conteúdo: não entendeu inclusão do limite esquerdo e exclusão do direito."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-003-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma pesquisa com 200 respondentes registra 70 na categoria X. Qual porcentagem pertence a X? O que não pode ser concluído sobre toda a população sem informações de amostragem?",
+    "answer": "70/200=35%. Sem plano amostral não é legítimo concluir automaticamente que 35% de toda a população pertence a X.",
+    "resolution": "Resposta e raciocínio: 70/200=35%. Sem plano amostral não é legítimo concluir automaticamente que 35% de toda a população pertence a X.\nMotivo provável do erro: Interpretação: generalizou amostra para população.",
+    "errorReasons": [
+      "Interpretação: generalizou amostra para população."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-003-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma tabela apresenta f: 12, 18, 10 em três categorias mutuamente exclusivas. Calcule fr e percentuais.",
+    "answer": "Total 40. fr: 0,30; 0,45; 0,25. Percentuais: 30%, 45%, 25%.",
+    "resolution": "Resposta e raciocínio: Total 40. fr: 0,30; 0,45; 0,25. Percentuais: 30%, 45%, 25%.\nMotivo provável do erro: Cálculo: denominador total incorreto.",
+    "errorReasons": [
+      "Cálculo: denominador total incorreto."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-003-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma distribuição ordenada tem frequências 8, 12, 15, 5. Quantos casos estão no máximo na terceira categoria e qual a proporção?",
+    "answer": "Até a terceira: 8+12+15=35. Total 40. Proporção 35/40=0,875=87,5%.",
+    "resolution": "Resposta e raciocínio: Até a terceira: 8+12+15=35. Total 40. Proporção 35/40=0,875=87,5%.\nMotivo provável do erro: Estratégia: não usou a acumulada.",
+    "errorReasons": [
+      "Estratégia: não usou a acumulada."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-003-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Em 80 respostas válidas, 28 são A. Havia 100 pessoas selecionadas. Calcule a porcentagem entre válidas e explique por que 28% é uma afirmação diferente.",
+    "answer": "Entre válidas: 28/80=35%. Dizer 28% usa 100 selecionados como denominador; responde a outra razão e mistura não resposta com a variável.",
+    "resolution": "Resposta e raciocínio: Entre válidas: 28/80=35%. Dizer 28% usa 100 selecionados como denominador; responde a outra razão e mistura não resposta com a variável.\nMotivo provável do erro: Interpretação: denominador não explicitado.",
+    "errorReasons": [
+      "Interpretação: denominador não explicitado."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-003-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Dois municípios registram 300 e 500 ocorrências de um evento. As populações são 10.000 e 25.000. Explique por que comparar apenas frequências absolutas pode ser inadequado.",
+    "answer": "Porque as populações têm tamanhos diferentes. As taxas são 300/10.000=3% e 500/25.000=2%; a maior contagem não implica maior proporção.",
+    "resolution": "Resposta e raciocínio: Porque as populações têm tamanhos diferentes. As taxas são 300/10.000=3% e 500/25.000=2%; a maior contagem não implica maior proporção.\nMotivo provável do erro: Estratégia: comparação sem escala comum.",
+    "errorReasons": [
+      "Estratégia: comparação sem escala comum."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-003-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma tabela de preferências permite múltiplas respostas e apresenta 55%, 40% e 30%. A soma 125% significa necessariamente erro? Justifique.",
+    "answer": "Não. Se uma pessoa pode marcar várias opções, as categorias não são mutuamente exclusivas e a soma pode ultrapassar 100%.",
+    "resolution": "Resposta e raciocínio: Não. Se uma pessoa pode marcar várias opções, as categorias não são mutuamente exclusivas e a soma pode ultrapassar 100%.\nMotivo provável do erro: Interpretação: aplicou regra de distribuição simples a respostas múltiplas.",
+    "errorReasons": [
+      "Interpretação: aplicou regra de distribuição simples a respostas múltiplas."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-003-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Em uma tabela de tempos, até menos de 10 min há 17 de 30 observações. Calcule a frequência relativa acumulada e interprete.",
+    "answer": "17/30≈0,5667=56,7%. Interpretação: aproximadamente 56,7% das observações duraram menos de 10 minutos.",
+    "resolution": "Resposta e raciocínio: 17/30≈0,5667=56,7%. Interpretação: aproximadamente 56,7% das observações duraram menos de 10 minutos.\nMotivo provável do erro: Cálculo/interpretação: esqueceu que é acumulada até o limite indicado.",
+    "errorReasons": [
+      "Cálculo/interpretação: esqueceu que é acumulada até o limite indicado."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-003-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma distribuição de 60 pessoas tem acumulada até 3 dias igual a 45. Quantas estão em 4 dias ou mais? Qual porcentagem?",
+    "answer": "60−45=15 pessoas; 15/60=25%.",
+    "resolution": "Resposta e raciocínio: 60−45=15 pessoas; 15/60=25%.\nMotivo provável do erro: Estratégia: não usou complemento.",
+    "errorReasons": [
+      "Estratégia: não usou complemento."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-003-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma tabela apresenta 5 categorias nominais e coluna acumulada. Proponha uma pergunta que revele por que a coluna pode ser arbitrária.",
+    "answer": "Exemplo: 'O que significa estar até a categoria C?' Se não há resposta substantiva e a ordem pode ser trocada, a acumulada é arbitrária.",
+    "resolution": "Resposta e raciocínio: Exemplo: 'O que significa estar até a categoria C?' Se não há resposta substantiva e a ordem pode ser trocada, a acumulada é arbitrária.\nMotivo provável do erro: Interpretação: não testou o sentido de 'até'.",
+    "errorReasons": [
+      "Interpretação: não testou o sentido de 'até'."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-003-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Explique por que uma tabela pode somar exatamente 100% e ainda assim não representar bem a população de interesse.\n\n\nCAMADA RET — Reteste",
+    "answer": "Porque coerência aritmética não garante qualidade de coleta. A amostra pode ser enviesada, o instrumento pode medir mal ou a população-alvo pode estar mal definida.",
+    "resolution": "Resposta e raciocínio: Porque coerência aritmética não garante qualidade de coleta. A amostra pode ser enviesada, o instrumento pode medir mal ou a população-alvo pode estar mal definida.\nMotivo provável do erro: Conteúdo: confundiu soma correta com validade do estudo.\n\n\nCAMADA RET",
+    "errorReasons": [
+      "Conteúdo: confundiu soma correta com validade do estudo."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-003-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Sem consultar: escreva as quatro relações de controle envolvendo soma de f, soma de fr, soma de percentuais e valor final da acumulada.",
+    "answer": "Σf=n; Σfr=1; Σ%=100% aproximadamente após arredondamentos; última frequência absoluta acumulada=n (e a relativa acumulada final=1).",
+    "resolution": "Resposta e raciocínio: Σf=n; Σfr=1; Σ%=100% aproximadamente após arredondamentos; última frequência absoluta acumulada=n (e a relativa acumulada final=1).\nMotivo provável do erro: Memória/conteúdo: não recuperou controles básicos.",
+    "errorReasons": [
+      "Memória/conteúdo: não recuperou controles básicos."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-003-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Dados: 0,0,1,1,1,2,3,3. Calcule f, fr e F para cada valor.",
+    "answer": "f: 0→2, 1→3, 2→1, 3→2. fr: 25%, 37,5%, 12,5%, 25%. F: 2,5,6,8.",
+    "resolution": "Resposta e raciocínio: f: 0→2, 1→3, 2→1, 3→2. fr: 25%, 37,5%, 12,5%, 25%. F: 2,5,6,8.\nMotivo provável do erro: Cálculo: contagem ou acumulada.",
+    "errorReasons": [
+      "Cálculo: contagem ou acumulada."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-003-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Defina, em uma frase, quando frequência acumulada é apropriada.",
+    "answer": "Quando as categorias/valores possuem uma ordem significativa que torna interpretável a ideia de 'até' a linha.",
+    "resolution": "Resposta e raciocínio: Quando as categorias/valores possuem uma ordem significativa que torna interpretável a ideia de 'até' a linha.\nMotivo provável do erro: Conteúdo: não verificou ordenação substantiva.",
+    "errorReasons": [
+      "Conteúdo: não verificou ordenação substantiva."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-003-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Uma tabela usa n=90 porque 10 de 100 registros estavam ausentes. Que informação deve acompanhar os percentuais?",
+    "answer": "Deve informar que os percentuais usam 90 respostas válidas e que 10 registros estão ausentes para a variável.",
+    "resolution": "Resposta e raciocínio: Deve informar que os percentuais usam 90 respostas válidas e que 10 registros estão ausentes para a variável.\nMotivo provável do erro: Interpretação: denominador oculto.",
+    "errorReasons": [
+      "Interpretação: denominador oculto."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-003-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Se F até a categoria 2 é 36 em n=48, qual percentual está no máximo na categoria 2?",
+    "answer": "36/48=0,75=75%.",
+    "resolution": "Resposta e raciocínio: 36/48=0,75=75%.\nMotivo provável do erro: Cálculo: divisão ou conversão percentual.",
+    "errorReasons": [
+      "Cálculo: divisão ou conversão percentual."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-003-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-003"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Explique por que 'frequência relativa observada' e 'probabilidade populacional' não são sinônimos automáticos.",
+    "answer": "A frequência relativa descreve o que ocorreu nos dados observados; tratá-la como probabilidade populacional exige um modelo/planejamento de amostragem e justificativas adicionais.",
+    "resolution": "Resposta e raciocínio: A frequência relativa descreve o que ocorreu nos dados observados; tratá-la como probabilidade populacional exige um modelo/planejamento de amostragem e justificativas adicionais.\nMotivo provável do erro: Conteúdo: confundiu descrição amostral com inferência.",
+    "errorReasons": [
+      "Conteúdo: confundiu descrição amostral com inferência."
+    ],
+    "source": {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  }
+]

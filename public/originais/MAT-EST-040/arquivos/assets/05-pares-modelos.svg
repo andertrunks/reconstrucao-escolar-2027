@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc"><title id="title">Comparação pareada de erros entre modelos</title><desc id="desc">Tabela de quatro dias: erros A 5,5,5,5; B 0,0,0,25; diferenças A menos B 5,5,5,-20.</desc>
+<rect width="1000" height="560" fill="#f8fbfc"/>
+<text x="45" y="58" font-family="Arial,DejaVu Sans,sans-serif" font-size="29" font-weight="700" fill="#142637">Mesmo dia, dois modelos: diferenças pareadas</text>
+<rect x="75" y="90" width="850" height="52" rx="5" fill="#e8f4f7" stroke="#d4dce3" stroke-width="2"/>
+<text x="118" y="124" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="700" fill="#146f8c">Dia</text>
+<text x="332" y="124" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="700" fill="#146f8c">A: |erro|</text>
+<text x="546" y="124" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="700" fill="#146f8c">B: |erro|</text>
+<text x="760" y="124" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="700" fill="#146f8c">A − B</text>
+<rect x="75" y="155" width="850" height="52" rx="5" fill="#ffffff" stroke="#d4dce3" stroke-width="2"/>
+<text x="118" y="189" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="400" fill="#142637">5</text>
+<text x="332" y="189" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="400" fill="#142637">5</text>
+<text x="546" y="189" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="400" fill="#142637">0</text>
+<text x="760" y="189" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="400" fill="#142637">+5</text>
+<rect x="75" y="220" width="850" height="52" rx="5" fill="#e8f4f7" stroke="#d4dce3" stroke-width="2"/>
+<text x="118" y="254" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="400" fill="#142637">6</text>
+<text x="332" y="254" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="400" fill="#142637">5</text>
+<text x="546" y="254" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="400" fill="#142637">0</text>
+<text x="760" y="254" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="400" fill="#142637">+5</text>
+<rect x="75" y="285" width="850" height="52" rx="5" fill="#ffffff" stroke="#d4dce3" stroke-width="2"/>
+<text x="118" y="319" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="400" fill="#142637">7</text>
+<text x="332" y="319" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="400" fill="#142637">5</text>
+<text x="546" y="319" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="400" fill="#142637">0</text>
+<text x="760" y="319" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="400" fill="#142637">+5</text>
+<rect x="75" y="350" width="850" height="52" rx="5" fill="#e8f4f7" stroke="#d4dce3" stroke-width="2"/>
+<text x="118" y="384" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="400" fill="#142637">8</text>
+<text x="332" y="384" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="400" fill="#142637">5</text>
+<text x="546" y="384" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="400" fill="#142637">25</text>
+<text x="760" y="384" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="400" fill="#142637">−20</text>
+<text x="75" y="478" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" font-weight="700" fill="#9a471b">Média das diferenças = −1,25; sem dia 8 = +5 (sensibilidade).</text>
+</svg>

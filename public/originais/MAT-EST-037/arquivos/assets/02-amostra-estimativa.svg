@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="330" viewBox="0 0 1120 330" role="img" aria-labelledby="ttl desc">
+<title id="ttl">Amostra e limite da generalização</title>
+<desc id="desc">Seta liga população-alvo, seleção da amostra, estatística, inferência; seleção enviesada aparece como advertência.</desc>
+<rect width="1120" height="330" rx="20" fill="#f8fafc"/>
+<text x="42" y="56" fill="#13233c" font-size="27" font-family="Arial, sans-serif" font-weight="bold">Amostra e limite da generalização</text>
+<rect x="40" y="102" width="245" height="142" rx="13" fill="#e7f1fa" stroke="#314e73" stroke-width="2"/>
+<text x="53" y="142" fill="#102d4d" font-family="Arial, sans-serif" font-size="20" font-weight="bold">População-alvo</text>
+<text x="53" y="179" fill="#233b57" font-family="Arial, sans-serif" font-size="16">quem se deseja estudar</text>
+<path d="M288 173 h17 l-6 -6 m6 6 l-6 6" fill="none" stroke="#23466c" stroke-width="3"/>
+<rect x="310" y="102" width="245" height="142" rx="13" fill="#e7f1fa" stroke="#314e73" stroke-width="2"/>
+<text x="323" y="142" fill="#102d4d" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Seleção</text>
+<text x="323" y="179" fill="#233b57" font-family="Arial, sans-serif" font-size="16">como cada um entra</text>
+<path d="M558 173 h17 l-6 -6 m6 6 l-6 6" fill="none" stroke="#23466c" stroke-width="3"/>
+<rect x="580" y="102" width="245" height="142" rx="13" fill="#e7f1fa" stroke="#314e73" stroke-width="2"/>
+<text x="593" y="142" fill="#102d4d" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Estatística</text>
+<text x="593" y="179" fill="#233b57" font-family="Arial, sans-serif" font-size="16">estimativa observada</text>
+<path d="M828 173 h17 l-6 -6 m6 6 l-6 6" fill="none" stroke="#23466c" stroke-width="3"/>
+<rect x="850" y="102" width="245" height="142" rx="13" fill="#e7f1fa" stroke="#314e73" stroke-width="2"/>
+<text x="863" y="142" fill="#102d4d" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Inferência</text>
+<text x="863" y="179" fill="#233b57" font-family="Arial, sans-serif" font-size="16">hipóteses + incerteza</text>
+<text x="43" y="289" font-family="Arial, sans-serif" font-size="16" fill="#263d57">Leia da esquerda para a direita. As etapas têm significados diferentes.</text>
+</svg>

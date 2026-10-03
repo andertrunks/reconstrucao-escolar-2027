@@ -1,0 +1,26 @@
+{
+  "id": "MAT-EST-057",
+  "escopo": "checagem editorial local; não prova autenticação externa nem execução",
+  "resultado_testes": {
+    "passaram": 35,
+    "total": 35
+  },
+  "questoes_autorais": 36,
+  "questoes_oficiais": 0,
+  "diagramas_svg": 6,
+  "arquivo_herdado_completo_arquivos": 71,
+  "arquivo_herdado_zip_sha256": "a0f947715b6af79918f03af494c9267e673133713fb994abdc8286af16d7cd4e",
+  "arquivos_base_com_hash_inalterado": 23,
+  "coorte_t26_t33_emissoes": 0,
+  "coorte_t26_t33_observados": 0,
+  "coorte_t26_t33_metricas": "indefinidas",
+  "sandbox_q01_q08": "isolado, dois pares e seis pendências",
+  "manifesto_sha256_entries": 55,
+  "png": "composição ilustrativa, não captura do site",
+  "html": "prévia local não testada manualmente no Edge",
+  "video": "página oficial encontrada; reprodução integral e duração não confirmadas",
+  "publicacao_site": false,
+  "sincronizacao_drive": false,
+  "sincronizacao_github": false,
+  "progresso_individual_alterado": false
+}

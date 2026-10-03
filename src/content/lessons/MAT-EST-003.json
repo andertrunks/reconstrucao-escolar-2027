@@ -1,0 +1,454 @@
+{
+  "id": "MAT-EST-003",
+  "version": "publicacao-2026-10-03-v1",
+  "objective": "1. Objetivo\n\n\nAo concluir o estudo real desta aula e resolver as atividades sem consultar o gabarito antes da tentativa, o estudante deverá ser capaz de:\n\n\n• distinguir dados brutos, dados ordenados e distribuição de frequências;\n• construir uma tabela de frequências a partir de uma lista de dados;\n• compreender e calcular frequência absoluta;\n• compreender e calcular frequência relativa em forma fracionária, decimal e percentual;\n• compreender frequência absoluta acumulada e frequência relativa acumulada;\n• decidir quando a acumulação faz sentido e quando ela produz uma informação enganosa;\n• verificar uma tabela por somas de controle;\n• interpretar corretamente denominadores, totais, dados ausentes e categorias;\n• agrupar valores quantitativos em classes simples sem confundir classe com valor individual;\n• extrair conclusões de tabelas sem extrapolar o que os dados permitem;\n• reconhecer esses conceitos em situações de ENEM, FUVEST, UNICAMP, UNESP e em dados reais divulgados por órgãos públicos.\n\n\n",
+  "prerequisites": [
+    "MAT-EST-001",
+    "MAT-EST-002"
+  ],
+  "why": "MAT-EST-003 — Organização de dados e tabelas de frequência: absoluta, relativa e acumulada\n\n\nStatus editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.\nMatéria: Matemática.\nUnidade: Estatística.\nNível principal: 2 — Ensino Fundamental II, com progressão para Ensino Médio e vestibulares.\nPré-requisitos conceituais: MAT-EST-001 — população, amostra, variável e dado; MAT-EST-002 — censo, amostragem e representatividade; contagem com números naturais; leitura de frações simples, números decimais e porcentagens básicas.\nPróximo tópico: MAT-EST-004 — Gráficos estatísticos: barras, setores, linhas, histogramas e escolha da representação.\nOrigem das questões desta reconstrução: 100% autoral.\n\n\n",
+  "intuitive": [],
+  "deep": [],
+  "vocabulary": [],
+  "examples": [],
+  "visuals": [
+    {
+      "url": "media/MAT-EST-003/01-lista-para-tabela.svg",
+      "caption": "Da lista bruta à tabela.",
+      "alt": "À esquerda, vinte valores de número de livros; uma seta aponta para uma tabela resumida à direita com valores zero a cinco e suas frequências.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "À esquerda, vinte valores de número de livros; uma seta aponta para uma tabela resumida à direita com valores zero a cinco e suas frequências."
+    },
+    {
+      "url": "media/MAT-EST-003/02-absoluta-relativa.svg",
+      "caption": "Frequência absoluta e relativa.",
+      "alt": "Diagrama mostra a contagem seis de vinte transformada na proporção seis sobre vinte, decimal zero vírgula trinta e porcentagem trinta por cento.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Diagrama mostra a contagem seis de vinte transformada na proporção seis sobre vinte, decimal zero vírgula trinta e porcentagem trinta por cento."
+    },
+    {
+      "url": "media/MAT-EST-003/03-acumulada.svg",
+      "caption": "Frequência acumulada.",
+      "alt": "Gráfico de degraus com eixo horizontal número de livros de zero a cinco e eixo vertical frequência acumulada de zero a vinte. Os valores sobem de três até vinte e nunca diminuem.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Gráfico de degraus com eixo horizontal número de livros de zero a cinco e eixo vertical frequência acumulada de zero a vinte. Os valores sobem de três até vinte e nunca diminuem."
+    },
+    {
+      "url": "media/MAT-EST-003/04-quando-acumular.svg",
+      "caption": "Quando acumular.",
+      "alt": "Dois painéis. O primeiro mostra categorias nominais de transporte sem ordem natural e indica não acumular. O segundo mostra satisfação de ruim a ótimo com ordem e indica que acumular pode fazer sentido.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Dois painéis. O primeiro mostra categorias nominais de transporte sem ordem natural e indica não acumular. O segundo mostra satisfação de ruim a ótimo com ordem e indica que acumular pode fazer sentido."
+    },
+    {
+      "url": "media/MAT-EST-003/05-controles-consistencia.svg",
+      "caption": "Controles de consistência.",
+      "alt": "Quatro caixas mostram as verificações soma das frequências absolutas igual a n, soma das relativas igual a um, soma percentual aproximadamente cem por cento e última acumulada igual a n.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Quatro caixas mostram as verificações soma das frequências absolutas igual a n, soma das relativas igual a um, soma percentual aproximadamente cem por cento e última acumulada igual a n."
+    },
+    {
+      "url": "media/MAT-EST-003/06-classes-intervalo.svg",
+      "caption": "Classes de intervalo.",
+      "alt": "Reta horizontal de zero a trinta dividida nos intervalos zero a menos de dez, dez a menos de vinte e vinte a menos de trinta. Pontos fechados no limite esquerdo e abertos no direito ilustram a convenção.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Reta horizontal de zero a trinta dividida nos intervalos zero a menos de dez, dez a menos de vinte e vinte a menos de trinta. Pontos fechados no limite esquerdo e abertos no direito ilustram a convenção."
+    }
+  ],
+  "applications": [],
+  "connections": [],
+  "commonErrors": [],
+  "learning": [
+    "MAT-EST-003-EX-APR-01",
+    "MAT-EST-003-EX-APR-02",
+    "MAT-EST-003-EX-APR-03",
+    "MAT-EST-003-EX-APR-04",
+    "MAT-EST-003-EX-APR-05",
+    "MAT-EST-003-EX-APR-06",
+    "MAT-EST-003-EX-APR-07",
+    "MAT-EST-003-EX-APR-08",
+    "MAT-EST-003-EX-APR-09",
+    "MAT-EST-003-EX-APR-10"
+  ],
+  "consolidation": [
+    "MAT-EST-003-EX-CON-01",
+    "MAT-EST-003-EX-CON-02",
+    "MAT-EST-003-EX-CON-03",
+    "MAT-EST-003-EX-CON-04",
+    "MAT-EST-003-EX-CON-05",
+    "MAT-EST-003-EX-CON-06",
+    "MAT-EST-003-EX-CON-07",
+    "MAT-EST-003-EX-CON-08",
+    "MAT-EST-003-EX-CON-09",
+    "MAT-EST-003-EX-CON-10"
+  ],
+  "entrance": [
+    "MAT-EST-003-EX-VES-01",
+    "MAT-EST-003-EX-VES-02",
+    "MAT-EST-003-EX-VES-03",
+    "MAT-EST-003-EX-VES-04",
+    "MAT-EST-003-EX-VES-05",
+    "MAT-EST-003-EX-VES-06",
+    "MAT-EST-003-EX-VES-07",
+    "MAT-EST-003-EX-VES-08",
+    "MAT-EST-003-EX-VES-09",
+    "MAT-EST-003-EX-VES-10"
+  ],
+  "retest": [
+    "MAT-EST-003-EX-RET-01",
+    "MAT-EST-003-EX-RET-02",
+    "MAT-EST-003-EX-RET-03",
+    "MAT-EST-003-EX-RET-04",
+    "MAT-EST-003-EX-RET-05",
+    "MAT-EST-003-EX-RET-06"
+  ],
+  "solutions": [],
+  "summary": "29. Resumo para revisão\n\n\nFrequência absoluta: número de ocorrências.\n\n\nFrequência relativa: frequência absoluta dividida pelo total válido.\n\n\nPorcentagem: frequência relativa multiplicada por 100.\n\n\nFrequência absoluta acumulada: soma progressiva das frequências absolutas.\n\n\nFrequência relativa acumulada: soma progressiva das relativas ou frequência absoluta acumulada dividida pelo total.\n\n\nControles:\nΣf = n.\nΣfr = 1.\nΣ% ≈ 100%.\nÚltima frequência acumulada = n.\n\n\nAcumular exige ordem significativa.\n\n\nPercentuais sempre dependem de um denominador.\n\n\nUma tabela descreve os dados observados; não transforma automaticamente uma amostra em retrato fiel da população.\n\n\n",
+  "audioVersion": "30. Versão curta para ouvir\n\n\nUma tabela de frequência organiza dados mostrando quantas vezes cada valor ou categoria aparece. Esse número é a frequência absoluta.\n\n\nAo dividir a frequência absoluta pelo total de observações válidas, obtemos a frequência relativa. Em porcentagem, multiplicamos essa proporção por cem.\n\n\nQuando os valores têm uma ordem real, podemos somar as frequências progressivamente. Isso produz a frequência acumulada, útil para perguntas como “até”, “no máximo” ou, usando complemento, “pelo menos”.\n\n\nA soma das frequências absolutas deve ser o total. As frequências relativas devem somar um, ou aproximadamente cem por cento quando expressas em porcentagem.\n\n\nNão devemos acumular categorias nominais só porque estão em determinada ordem na tabela.\n\n\nSempre verifique o denominador, os dados ausentes, o título, a unidade e a fonte.\n\n\n",
+  "sections": [
+    {
+      "id": "MAT-EST-003-s000",
+      "title": "Apresentação e contexto da fonte",
+      "paragraphs": [],
+      "markdown": "MAT-EST-003 — Organização de dados e tabelas de frequência: absoluta, relativa e acumulada\n\n\nStatus editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.\nMatéria: Matemática.\nUnidade: Estatística.\nNível principal: 2 — Ensino Fundamental II, com progressão para Ensino Médio e vestibulares.\nPré-requisitos conceituais: MAT-EST-001 — população, amostra, variável e dado; MAT-EST-002 — censo, amostragem e representatividade; contagem com números naturais; leitura de frações simples, números decimais e porcentagens básicas.\nPróximo tópico: MAT-EST-004 — Gráficos estatísticos: barras, setores, linhas, histogramas e escolha da representação.\nOrigem das questões desta reconstrução: 100% autoral.\n\n\n",
+      "sourceStart": 0,
+      "sourceEnd": 737
+    },
+    {
+      "id": "MAT-EST-003-s001",
+      "title": "1. Objetivo",
+      "paragraphs": [],
+      "markdown": "1. Objetivo\n\n\nAo concluir o estudo real desta aula e resolver as atividades sem consultar o gabarito antes da tentativa, o estudante deverá ser capaz de:\n\n\n• distinguir dados brutos, dados ordenados e distribuição de frequências;\n• construir uma tabela de frequências a partir de uma lista de dados;\n• compreender e calcular frequência absoluta;\n• compreender e calcular frequência relativa em forma fracionária, decimal e percentual;\n• compreender frequência absoluta acumulada e frequência relativa acumulada;\n• decidir quando a acumulação faz sentido e quando ela produz uma informação enganosa;\n• verificar uma tabela por somas de controle;\n• interpretar corretamente denominadores, totais, dados ausentes e categorias;\n• agrupar valores quantitativos em classes simples sem confundir classe com valor individual;\n• extrair conclusões de tabelas sem extrapolar o que os dados permitem;\n• reconhecer esses conceitos em situações de ENEM, FUVEST, UNICAMP, UNESP e em dados reais divulgados por órgãos públicos.\n\n\n",
+      "sourceStart": 737,
+      "sourceEnd": 1752
+    },
+    {
+      "id": "MAT-EST-003-s002",
+      "title": "2. Por que organizar dados?",
+      "paragraphs": [],
+      "markdown": "2. Por que organizar dados?\n\n\nImagine que uma turma com 20 estudantes respondeu quantos livros completos leu no último mês:\n\n\n2, 0, 1, 3, 2, 1, 1, 4, 0, 2, 3, 1, 2, 5, 0, 1, 2, 3, 1, 2.\n\n\nEssa sequência contém informação, mas ainda exige esforço para responder perguntas simples:\n\n\nQuantos estudantes não leram nenhum livro?\nQual valor aparece mais vezes?\nQue fração da turma leu pelo menos três livros?\nQuantos estudantes leram no máximo dois livros?\n\n\nA tabela de frequência é uma forma de comprimir os dados sem apagar a contagem essencial. Ela transforma uma lista de observações em uma estrutura na qual cada valor ou categoria aparece acompanhado do número de ocorrências e, quando adequado, de sua participação no total.\n\n\nOrganizar não significa alterar os dados. Significa mudar a representação para enxergar padrões.\n\n\n",
+      "sourceStart": 1752,
+      "sourceEnd": 2581
+    },
+    {
+      "id": "MAT-EST-003-s003",
+      "title": "3. Três estágios: dado bruto, dado ordenado e tabela",
+      "paragraphs": [],
+      "markdown": "3. Três estágios: dado bruto, dado ordenado e tabela\n\n\nDados brutos são os registros na forma em que foram coletados ou recebidos.\n\n\nNo exemplo dos livros:\n\n\n2, 0, 1, 3, 2, 1, 1, 4, 0, 2, 3, 1, 2, 5, 0, 1, 2, 3, 1, 2.\n\n\nSe ordenarmos:\n\n\n0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 3, 3, 4, 5.\n\n\nA ordenação ajuda a contar, mas não é obrigatória para todas as variáveis. Em uma variável qualitativa nominal, como “meio de transporte”, a ordem alfabética não cria uma ordem estatística.\n\n\nUma distribuição de frequências resume as ocorrências:\n\n\nValor 0 → 3 estudantes.\nValor 1 → 6 estudantes.\nValor 2 → 6 estudantes.\nValor 3 → 3 estudantes.\nValor 4 → 1 estudante.\nValor 5 → 1 estudante.\n\n\nO total continua sendo 20. Nada foi criado ou apagado.\n\n\n",
+      "sourceStart": 2581,
+      "sourceEnd": 3330
+    },
+    {
+      "id": "MAT-EST-003-s004",
+      "title": "4. Frequência absoluta",
+      "paragraphs": [],
+      "markdown": "4. Frequência absoluta\n\n\nFrequência absoluta é o número de vezes que um valor ou categoria aparece no conjunto observado.\n\n\nÉ comum usar a notação fᵢ, lida “efe índice i”. O índice i apenas identifica a linha ou categoria.\n\n\nSe seis estudantes leram exatamente dois livros, a frequência absoluta de “2 livros” é 6.\n\n\nA frequência absoluta tem a mesma natureza de contagem do número de observações. Se estamos contando estudantes, ela é uma contagem de estudantes; se contamos atendimentos, é uma contagem de atendimentos.\n\n\nRegra de controle:\n\n\nA soma das frequências absolutas deve ser igual ao número total de observações válidas utilizadas na tabela.\n\n\nEm símbolos:\n\n\nΣ fᵢ = n.\n\n\nLeitura pronunciável: “a soma das frequências absolutas é igual a ene, o número de observações consideradas”.\n\n\nNo exemplo:\n\n\n3 + 6 + 6 + 3 + 1 + 1 = 20.\n\n\n",
+      "sourceStart": 3330,
+      "sourceEnd": 4169
+    },
+    {
+      "id": "MAT-EST-003-s005",
+      "title": "5. Frequência relativa",
+      "paragraphs": [],
+      "markdown": "5. Frequência relativa\n\n\nA frequência relativa mostra qual parte do total pertence a uma categoria ou valor.\n\n\nSe fᵢ é a frequência absoluta da linha e n é o total de observações válidas:\n\n\nfrᵢ = fᵢ / n.\n\n\nLeitura pronunciável: “frequência relativa da linha i é igual à frequência absoluta da linha i dividida pelo total de observações”.\n\n\nPara dois livros:\n\n\nf = 6 e n = 20.\n\n\nfr = 6/20 = 0,30.\n\n\nO decimal 0,30 corresponde a 30%.\n\n\nA frequência relativa pode ser expressa como:\n\n\n• fração: 6/20;\n• decimal: 0,30;\n• porcentagem: 30%.\n\n\nEssas três formas representam a mesma participação no total.\n\n\nImportante: o denominador precisa ser o total correto. Se existem 20 registros, mas dois estão sem resposta para a variável analisada, talvez o denominador adequado para a distribuição daquela variável seja 18, desde que a tabela deixe isso claramente documentado. Não esconda dados ausentes.\n\n\nRegra de controle:\n\n\nΣ frᵢ = 1.\n\n\nLeitura: “a soma das frequências relativas é igual a um”.\n\n\nEm porcentagens:\n\n\nΣ pᵢ = 100%.\n\n\nNa prática, arredondamentos podem produzir 99,9% ou 100,1%. Isso deve ser reconhecido como efeito do arredondamento, não como nova observação.\n\n\n",
+      "sourceStart": 4169,
+      "sourceEnd": 5337
+    },
+    {
+      "id": "MAT-EST-003-s006",
+      "title": "6. Tabela completa do primeiro exemplo",
+      "paragraphs": [],
+      "markdown": "6. Tabela completa do primeiro exemplo\n\n\nNúmero de livros | Frequência absoluta | Frequência relativa | Porcentagem\n0 | 3 | 3/20 = 0,15 | 15%\n1 | 6 | 6/20 = 0,30 | 30%\n2 | 6 | 6/20 = 0,30 | 30%\n3 | 3 | 3/20 = 0,15 | 15%\n4 | 1 | 1/20 = 0,05 | 5%\n5 | 1 | 1/20 = 0,05 | 5%\nTotal | 20 | 1,00 | 100%\n\n\nO que podemos concluir?\n\n\n• 30% leram exatamente um livro.\n• 30% leram exatamente dois livros.\n• 60% estão nas categorias “1” ou “2” livros, porque essas categorias não se sobrepõem e suas frequências relativas podem ser somadas.\n• 15% não leram livro algum.\n• Não sabemos, a partir dessa tabela, por que cada pessoa leu determinada quantidade.\n\n\nA tabela descreve os dados; não explica automaticamente causas.\n\n\n",
+      "sourceStart": 5337,
+      "sourceEnd": 6047
+    },
+    {
+      "id": "MAT-EST-003-s007",
+      "title": "7. Frequência absoluta acumulada",
+      "paragraphs": [],
+      "markdown": "7. Frequência absoluta acumulada\n\n\nA frequência absoluta acumulada responde a perguntas do tipo “até este valor” ou “no máximo este valor”, quando existe uma ordem real entre as categorias.\n\n\nUsaremos Fᵢ para a frequência absoluta acumulada.\n\n\nEla é obtida somando as frequências absolutas da primeira linha até a linha considerada.\n\n\nPara o número de livros:\n\n\n0 livros: F = 3.\nAté 1 livro: F = 3 + 6 = 9.\nAté 2 livros: F = 3 + 6 + 6 = 15.\nAté 3 livros: F = 18.\nAté 4 livros: F = 19.\nAté 5 livros: F = 20.\n\n\nFormalmente:\n\n\nFᵢ = f₁ + f₂ + ... + fᵢ.\n\n\nLeitura pronunciável: “a frequência absoluta acumulada até a linha i é a soma das frequências absolutas da primeira linha até a linha i”.\n\n\nTabela:\n\n\nNúmero de livros | f | F\n0 | 3 | 3\n1 | 6 | 9\n2 | 6 | 15\n3 | 3 | 18\n4 | 1 | 19\n5 | 1 | 20\n\n\nInterpretação:\n\n\nF = 15 na linha “2 livros” significa que 15 estudantes leram no máximo dois livros.\n\n\nEla não significa que 15 estudantes leram exatamente dois livros.\n\n\nEsse é um erro clássico.\n\n\n",
+      "sourceStart": 6047,
+      "sourceEnd": 7037
+    },
+    {
+      "id": "MAT-EST-003-s008",
+      "title": "8. Frequência relativa acumulada",
+      "paragraphs": [],
+      "markdown": "8. Frequência relativa acumulada\n\n\nA frequência relativa acumulada faz a mesma ideia em proporção.\n\n\nPodemos acumulá-la de duas maneiras equivalentes:\n\n\n1. somando as frequências relativas até a linha;\n2. dividindo a frequência absoluta acumulada pelo total n.\n\n\nFrᵢ = Fᵢ / n.\n\n\nLeitura pronunciável: “frequência relativa acumulada é a frequência absoluta acumulada dividida pelo total”.\n\n\nNo exemplo:\n\n\nAté 2 livros: F = 15 e n = 20.\n\n\nFr = 15/20 = 0,75 = 75%.\n\n\nPortanto, 75% dos estudantes leram no máximo dois livros.\n\n\nNo final da tabela:\n\n\nF final = n.\nFr final = 1.\nPercentual acumulado final = 100%.\n\n\n",
+      "sourceStart": 7037,
+      "sourceEnd": 7647
+    },
+    {
+      "id": "MAT-EST-003-s009",
+      "title": "9. Quando a frequência acumulada faz sentido?",
+      "paragraphs": [],
+      "markdown": "9. Quando a frequência acumulada faz sentido?\n\n\nAcumular exige ordem.\n\n\nPara uma variável quantitativa, como idade, renda ou número de livros, existe uma ordem numérica.\n\n\nPara uma variável qualitativa ordinal, como “ruim, regular, bom, ótimo”, existe uma ordem conceitual previamente definida.\n\n\nPara uma variável qualitativa nominal, como “ônibus, bicicleta, carro, a pé”, não existe uma ordem estatística natural.\n\n\nSe alguém ordenar alfabeticamente:\n\n\na pé, bicicleta, carro, ônibus\n\n\ne calcular porcentagens acumuladas, o resultado dependerá de uma ordem arbitrária. Trocar a ordem mudaria os acumulados. Portanto, essa acumulação não possui interpretação substantiva do tipo “até ônibus”.\n\n\nRegra prática:\n\n\nSe a pergunta “até esta categoria” não fizer sentido de maneira estável, a frequência acumulada provavelmente não deve ser usada.\n\n\n",
+      "sourceStart": 7647,
+      "sourceEnd": 8493
+    },
+    {
+      "id": "MAT-EST-003-s010",
+      "title": "10. Exemplo qualitativo nominal",
+      "paragraphs": [],
+      "markdown": "10. Exemplo qualitativo nominal\n\n\nUma amostra de 40 pessoas informou o principal meio de transporte:\n\n\nA pé: 8.\nBicicleta: 4.\nÔnibus: 18.\nCarro: 10.\n\n\nFrequências relativas:\n\n\nA pé: 8/40 = 20%.\nBicicleta: 4/40 = 10%.\nÔnibus: 18/40 = 45%.\nCarro: 10/40 = 25%.\n\n\nTotal: 100%.\n\n\nPodemos comparar as categorias e dizer que “ônibus” é a categoria mais frequente.\n\n\nMas não devemos afirmar que “30% estão até bicicleta” só porque colocamos “a pé” e “bicicleta” nas primeiras linhas. Essa frase não corresponde a uma escala natural.\n\n\n",
+      "sourceStart": 8493,
+      "sourceEnd": 9020
+    },
+    {
+      "id": "MAT-EST-003-s011",
+      "title": "11. Exemplo qualitativo ordinal",
+      "paragraphs": [],
+      "markdown": "11. Exemplo qualitativo ordinal\n\n\nAvaliação de um serviço por 50 pessoas:\n\n\nRuim: 5.\nRegular: 10.\nBom: 25.\nÓtimo: 10.\n\n\nPorcentagens:\n\n\nRuim: 10%.\nRegular: 20%.\nBom: 50%.\nÓtimo: 20%.\n\n\nPercentual acumulado, respeitando a ordem:\n\n\nAté ruim: 10%.\nAté regular: 30%.\nAté bom: 80%.\nAté ótimo: 100%.\n\n\nAqui a acumulação tem significado.\n\n\nPodemos dizer que 30% avaliaram o serviço como, no máximo, “regular”, se a escala foi definida nessa ordem.\n\n\n",
+      "sourceStart": 9020,
+      "sourceEnd": 9463
+    },
+    {
+      "id": "MAT-EST-003-s012",
+      "title": "12. Cuidado com o total: dados ausentes",
+      "paragraphs": [],
+      "markdown": "12. Cuidado com o total: dados ausentes\n\n\nConsidere 100 formulários.\n\n\nPara a pergunta “meio de transporte”, 8 pessoas deixaram a resposta em branco.\n\n\nExistem pelo menos duas formas legítimas de apresentar a tabela, desde que a escolha seja declarada:\n\n\nForma A. Incluir “sem resposta” como categoria de informação sobre a coleta.\n\n\nNesse caso, o total é 100.\n\n\nForma B. Calcular a distribuição apenas entre respostas válidas.\n\n\nNesse caso, o total válido é 92 e a tabela precisa dizer “percentuais entre respostas válidas”.\n\n\nO que não pode acontecer é usar 92 no cálculo e escrever como se fossem 100 pessoas sem avisar.\n\n\nO denominador é parte do significado.\n\n\n",
+      "sourceStart": 9463,
+      "sourceEnd": 10129
+    },
+    {
+      "id": "MAT-EST-003-s013",
+      "title": "13. Frequência, porcentagem e comparação entre grupos de tamanhos diferentes",
+      "paragraphs": [],
+      "markdown": "13. Frequência, porcentagem e comparação entre grupos de tamanhos diferentes\n\n\nImagine:\n\n\nTurma A: 12 estudantes preferem estudar pela manhã, em um total de 20.\nTurma B: 18 estudantes preferem estudar pela manhã, em um total de 40.\n\n\nA frequência absoluta é maior na turma B: 18 contra 12.\n\n\nMas a frequência relativa é:\n\n\nTurma A: 12/20 = 60%.\nTurma B: 18/40 = 45%.\n\n\nPortanto, proporcionalmente a preferência pela manhã é maior na Turma A.\n\n\nEsse exemplo mostra por que frequências relativas são essenciais ao comparar grupos de tamanhos diferentes.\n\n\n",
+      "sourceStart": 10129,
+      "sourceEnd": 10683
+    },
+    {
+      "id": "MAT-EST-003-s014",
+      "title": "14. Agrupamento de dados quantitativos em classes",
+      "paragraphs": [],
+      "markdown": "14. Agrupamento de dados quantitativos em classes\n\n\nQuando existem muitos valores diferentes, listar uma linha para cada valor pode gerar uma tabela longa.\n\n\nConsidere tempos de deslocamento de centenas de pessoas, medidos em minutos. Podemos agrupar os valores em intervalos, por exemplo:\n\n\n0 a menos de 10 minutos.\n10 a menos de 20 minutos.\n20 a menos de 30 minutos.\n30 a menos de 40 minutos.\n40 minutos ou mais.\n\n\nA expressão “10 a menos de 20” significa que 10 entra na classe e 20 não entra nela.\n\n\nUma notação comum é:\n\n\n[10, 20).\n\n\nLeitura pronunciável: “de 10 inclusive até 20 exclusivo”.\n\n\nNesta reconstrução, a notação de intervalos é uma antecipação. O estudo de histogramas e escolha de representação será aprofundado na MAT-EST-004.\n\n\nCuidados ao agrupar:\n\n\n• as classes devem cobrir os valores relevantes;\n• não devem se sobrepor;\n• cada observação deve pertencer a uma única classe;\n• a regra dos limites deve estar clara;\n• agrupar demais pode esconder detalhes.\n\n\n",
+      "sourceStart": 10683,
+      "sourceEnd": 11664
+    },
+    {
+      "id": "MAT-EST-003-s015",
+      "title": "15. Tabela de frequência de dados agrupados",
+      "paragraphs": [],
+      "markdown": "15. Tabela de frequência de dados agrupados\n\n\nSuponha 30 tempos de espera, agrupados:\n\n\n0 a menos de 5 min: 6.\n5 a menos de 10 min: 11.\n10 a menos de 15 min: 8.\n15 a menos de 20 min: 4.\n20 min ou mais: 1.\n\n\nFrequências relativas:\n\n\n6/30 = 20%.\n11/30 ≈ 36,7%.\n8/30 ≈ 26,7%.\n4/30 ≈ 13,3%.\n1/30 ≈ 3,3%.\n\n\nDevido ao arredondamento para uma casa decimal, a soma exibida pode ficar em 100,0% ou muito próxima disso.\n\n\nFrequência acumulada:\n\n\nAté menos de 5: 6.\nAté menos de 10: 17.\nAté menos de 15: 25.\nAté menos de 20: 29.\nNo total: 30.\n\n\nInterpretação:\n\n\n17 de 30 atendimentos, aproximadamente 56,7%, duraram menos de 10 minutos.\n\n\nA palavra “menos” é importante. Um atendimento de exatamente 10 minutos está na classe seguinte, conforme a convenção adotada.\n\n\n",
+      "sourceStart": 11664,
+      "sourceEnd": 12421
+    },
+    {
+      "id": "MAT-EST-003-s016",
+      "title": "16. Frequência acumulada crescente e perguntas “pelo menos”",
+      "paragraphs": [],
+      "markdown": "16. Frequência acumulada crescente e perguntas “pelo menos”\n\n\nUma tabela acumulada crescente responde naturalmente a “até” e “no máximo”.\n\n\nMas uma questão pode perguntar “pelo menos três livros”.\n\n\nNo exemplo de 20 estudantes, podemos calcular diretamente:\n\n\n3 livros: 3.\n4 livros: 1.\n5 livros: 1.\n\n\nTotal = 5.\n\n\nOu usar o complemento:\n\n\nAté 2 livros = 15.\nTotal = 20.\nPelo menos 3 = 20 − 15 = 5.\n\n\nProporção = 5/20 = 25%.\n\n\nA ideia de complemento aparecerá muitas vezes em probabilidade.\n\n\n",
+      "sourceStart": 12421,
+      "sourceEnd": 12913
+    },
+    {
+      "id": "MAT-EST-003-s017",
+      "title": "17. A tabela precisa ser autoexplicativa",
+      "paragraphs": [],
+      "markdown": "17. A tabela precisa ser autoexplicativa\n\n\nUma boa tabela deve informar, quando aplicável:\n\n\n• título;\n• variável representada;\n• categorias ou classes;\n• unidade de medida;\n• frequência ou percentual;\n• total;\n• período de referência;\n• população ou amostra;\n• fonte dos dados;\n• observações metodológicas relevantes, como exclusão de respostas ausentes.\n\n\nUma tabela sem contexto pode estar aritmeticamente correta e ainda assim comunicar mal.\n\n\nExemplo de título fraco:\n\n\n“Tabela 1 — Dados.”\n\n\nExemplo melhor:\n\n\n“Distribuição dos 120 atendimentos observados segundo o tempo de espera, em minutos, Unidade X, abril de 2026.”\n\n\nO título diz o que foi contado, a variável, a unidade, o local e o período.\n\n\n",
+      "sourceStart": 12913,
+      "sourceEnd": 13620
+    },
+    {
+      "id": "MAT-EST-003-s018",
+      "title": "18. Frequência não é probabilidade automática",
+      "paragraphs": [],
+      "markdown": "18. Frequência não é probabilidade automática\n\n\nSe 30% de uma amostra observada pertence a uma categoria, isso é uma frequência relativa amostral.\n\n\nTransformá-la em uma afirmação sobre a população exige considerar como a amostra foi obtida, possíveis vieses, incerteza e o objetivo da pesquisa.\n\n\nA MAT-EST-002 já mostrou que seleção inadequada pode produzir amostra não representativa.\n\n\nPortanto:\n\n\n“30% dos respondentes desta amostra” é uma descrição.\n\n\n“30% de toda a população” pode ser uma inferência e exige justificativa adicional.\n\n\n",
+      "sourceStart": 13620,
+      "sourceEnd": 14163
+    },
+    {
+      "id": "MAT-EST-003-s019",
+      "title": "19. Frequência relativa e porcentagem: por que funcionam?",
+      "paragraphs": [],
+      "markdown": "19. Frequência relativa e porcentagem: por que funcionam?\n\n\nPorcentagem significa “por cento”.\n\n\nSe 6 de 20 estudantes estão em uma categoria:\n\n\n6/20 = 0,30.\n\n\nMultiplicando por 100:\n\n\n0,30 × 100 = 30.\n\n\nLogo, 30%.\n\n\nNão existe uma fórmula misteriosa. Estamos apenas mudando a escala de uma proporção que vai de 0 a 1 para uma escala que vai de 0 a 100.\n\n\n",
+      "sourceStart": 14163,
+      "sourceEnd": 14519
+    },
+    {
+      "id": "MAT-EST-003-s020",
+      "title": "20. Exemplo resolvido completo 1 — preferência de horário",
+      "paragraphs": [],
+      "markdown": "20. Exemplo resolvido completo 1 — preferência de horário\n\n\nDados de 25 respondentes:\n\n\nManhã: 10.\nTarde: 8.\nNoite: 7.\n\n\nPasso 1. Verificar total:\n\n\n10 + 8 + 7 = 25.\n\n\nPasso 2. Calcular frequências relativas:\n\n\nManhã: 10/25 = 0,40 = 40%.\nTarde: 8/25 = 0,32 = 32%.\nNoite: 7/25 = 0,28 = 28%.\n\n\nPasso 3. Verificar:\n\n\n40 + 32 + 28 = 100%.\n\n\nPasso 4. Decidir sobre acumulada:\n\n\n“Manhã, tarde, noite” pode sugerir ordem temporal, mas a variável “horário preferido” está sendo tratada como categorias de preferência, e a interpretação “até tarde” pode ou não ser substantivamente útil dependendo da pergunta. Não se deve produzir acumulados automaticamente. É preciso justificar a ordem e a pergunta.\n\n\n",
+      "sourceStart": 14519,
+      "sourceEnd": 15215
+    },
+    {
+      "id": "MAT-EST-003-s021",
+      "title": "21. Exemplo resolvido completo 2 — número de faltas",
+      "paragraphs": [],
+      "markdown": "21. Exemplo resolvido completo 2 — número de faltas\n\n\nEm 16 registros:\n\n\n0, 1, 2, 0, 3, 1, 0, 2, 4, 1, 2, 0, 1, 3, 2, 1.\n\n\nContagens:\n\n\n0 faltas: 4.\n1 falta: 5.\n2 faltas: 4.\n3 faltas: 2.\n4 faltas: 1.\n\n\nTotal: 16.\n\n\nFrequências relativas:\n\n\n0: 4/16 = 25%.\n1: 5/16 = 31,25%.\n2: 4/16 = 25%.\n3: 2/16 = 12,5%.\n4: 1/16 = 6,25%.\n\n\nAcumuladas:\n\n\nAté 0: 4 = 25%.\nAté 1: 9 = 56,25%.\nAté 2: 13 = 81,25%.\nAté 3: 15 = 93,75%.\nAté 4: 16 = 100%.\n\n\nPergunta: quantos registros têm no máximo duas faltas?\n\n\nResposta: 13.\n\n\nPergunta: qual percentual tem pelo menos três faltas?\n\n\nResposta: 3/16 = 18,75%.\n\n\n",
+      "sourceStart": 15215,
+      "sourceEnd": 15804
+    },
+    {
+      "id": "MAT-EST-003-s022",
+      "title": "22. Exemplo resolvido completo 3 — leitura de tabela incompleta",
+      "paragraphs": [],
+      "markdown": "22. Exemplo resolvido completo 3 — leitura de tabela incompleta\n\n\nTabela:\n\n\nCategoria A: f = 12, fr = ?\nCategoria B: f = 8, fr = ?\nCategoria C: f = 5, fr = ?\nTotal: 25.\n\n\nA:\n\n\n12/25 = 0,48 = 48%.\n\n\nB:\n\n\n8/25 = 0,32 = 32%.\n\n\nC:\n\n\n5/25 = 0,20 = 20%.\n\n\nControle:\n\n\n48 + 32 + 20 = 100%.\n\n\nSe uma tabela fornecesse 48%, 32% e 25%, haveria inconsistência porque a soma seria 105%.\n\n\nUma boa leitura estatística não aceita a tabela apenas porque ela parece organizada: é preciso conferir coerência.\n\n\n",
+      "sourceStart": 15804,
+      "sourceEnd": 16298
+    },
+    {
+      "id": "MAT-EST-003-s023",
+      "title": "23. Erros frequentes",
+      "paragraphs": [],
+      "markdown": "23. Erros frequentes\n\n\nErro 1. Confundir frequência absoluta com valor da variável.\n\n\nSe “2 livros” tem frequência 6, o valor é 2 e a frequência é 6.\n\n\nErro 2. Dividir pelo total errado.\n\n\nA frequência relativa sempre depende do denominador definido.\n\n\nErro 3. Somar percentuais de categorias que se sobrepõem.\n\n\nSe uma pessoa pode aparecer em mais de uma categoria, somar percentuais pode ultrapassar 100% legitimamente. Nesse caso, não é uma distribuição simples de categorias mutuamente exclusivas.\n\n\nErro 4. Acumular categorias nominais.\n\n\nA ordem alfabética não cria uma ordem estatística.\n\n\nErro 5. Confundir “exatamente” com “até”.\n\n\nFrequência da linha é diferente da frequência acumulada.\n\n\nErro 6. Esconder dados ausentes.\n\n\nSem informar quantos registros válidos existem, o leitor pode interpretar percentuais incorretamente.\n\n\nErro 7. Achar que 100% significa ausência de erro.\n\n\nUma tabela pode somar 100% e ainda vir de amostra enviesada ou de variável mal medida.\n\n\nErro 8. Arredondar cedo demais.\n\n\nEm cálculos com várias etapas, mantenha mais casas decimais e arredonde apenas na apresentação final.\n\n\n",
+      "sourceStart": 16298,
+      "sourceEnd": 17417
+    },
+    {
+      "id": "MAT-EST-003-s024",
+      "title": "24. Aplicações em outras matérias",
+      "paragraphs": [],
+      "markdown": "24. Aplicações em outras matérias\n\n\nGeografia:\ntabelas de população, migração, urbanização, clima e uso do solo.\n\n\nBiologia:\nfrequência de fenótipos, espécies observadas e resultados experimentais.\n\n\nQuímica:\nfrequência de resultados de medidas, classes de concentração ou qualidade de amostras.\n\n\nFísica:\ndistribuição de tempos de reação, medições e erros experimentais.\n\n\nHistória e Sociologia:\norganização de respostas de pesquisas, dados demográficos e indicadores.\n\n\nLíngua Portuguesa:\nleitura crítica de tabelas em reportagens e identificação do que está ou não sustentado pelos números.\n\n\nTecnologia e dados:\ntabelas de frequência são operações básicas em planilhas, SQL, Python, R, Power BI e sistemas de análise.\n\n\n",
+      "sourceStart": 17417,
+      "sourceEnd": 18141
+    },
+    {
+      "id": "MAT-EST-003-s025",
+      "title": "25. Relação com BNCC, ENEM e FUVEST",
+      "paragraphs": [],
+      "markdown": "25. Relação com BNCC, ENEM e FUVEST\n\n\nA BNCC do Ensino Fundamental estabelece, entre outras habilidades, identificar variáveis e suas frequências em gráficos, interpretar dados apresentados em tabelas e gráficos e planejar/coletar/representar dados de pesquisas.\n\n\nA habilidade EF06MA31 menciona explicitamente identificação de variáveis e suas frequências. EF06MA32 trabalha interpretação de situações apresentadas em tabelas e gráficos. EF06MA33 envolve coleta, registro e representação das informações.\n\n\nA FUVEST 2027 exige comunicar e interpretar resultados de pesquisa por meio de gráficos e tabelas e inclui Estatística descritiva com organização e interpretação de dados em diferentes tipos de tabelas, diagramas, gráficos e infográficos.\n\n\nA Matriz de Referência do Enem orienta habilidades de leitura, resolução de situações-problema e interpretação de representações matemáticas; nesta reconstrução, a camada “vestibular” usa essas competências sem reproduzir itens oficiais.\n\n\n",
+      "sourceStart": 18141,
+      "sourceEnd": 19130
+    },
+    {
+      "id": "MAT-EST-003-s026",
+      "title": "26. O que observar nos seis visuais",
+      "paragraphs": [],
+      "markdown": "26. O que observar nos seis visuais\n\n\nVisual 1 — Da lista bruta à tabela.\nObserve como vinte registros repetidos são comprimidos em seis linhas sem perder a contagem de ocorrências.\n\n\nVisual 2 — Frequência absoluta e relativa.\nObserve que a frequência absoluta responde “quantos” e a frequência relativa responde “qual parte do total”.\n\n\nVisual 3 — Frequência acumulada.\nObserve que a coluna acumulada nunca diminui quando as categorias estão ordenadas e termina no total.\n\n\nVisual 4 — Quando acumular.\nCompare uma variável nominal com uma ordinal. A acumulação só possui significado estável quando existe uma ordem substantiva.\n\n\nVisual 5 — Controles de consistência.\nObserve as quatro verificações: soma das absolutas igual a n; soma das relativas igual a 1; porcentagens aproximadamente 100%; última acumulada igual ao total.\n\n\nVisual 6 — Classes de intervalo.\nObserve que os intervalos são contíguos e não se sobrepõem quando usamos a convenção “[a, b)”, isto é, inclui o limite esquerdo e exclui o direito.\n\n\n",
+      "sourceStart": 19130,
+      "sourceEnd": 20144
+    },
+    {
+      "id": "MAT-EST-003-s027",
+      "title": "27. Roteiro de construção de uma tabela de frequência",
+      "paragraphs": [],
+      "markdown": "27. Roteiro de construção de uma tabela de frequência\n\n\nPasso 1. Defina a variável.\n\n\nPasso 2. Identifique os registros válidos.\n\n\nPasso 3. Determine categorias, valores ou classes.\n\n\nPasso 4. Conte cada ocorrência.\n\n\nPasso 5. Confira se a soma das frequências absolutas corresponde ao total válido.\n\n\nPasso 6. Calcule frequências relativas usando o mesmo denominador.\n\n\nPasso 7. Converta para porcentagens, se útil.\n\n\nPasso 8. Calcule acumuladas somente se houver ordem significativa.\n\n\nPasso 9. Faça controles de soma.\n\n\nPasso 10. Acrescente título, unidade, período, fonte e observações necessárias.\n\n\n",
+      "sourceStart": 20144,
+      "sourceEnd": 20749
+    },
+    {
+      "id": "MAT-EST-003-s028",
+      "title": "28. Miniestudo — respostas de uma pesquisa",
+      "paragraphs": [],
+      "markdown": "28. Miniestudo — respostas de uma pesquisa\n\n\nUma pesquisa perguntou a 60 pessoas quantos dias por semana praticaram alguma atividade física.\n\n\nResultados resumidos:\n\n\n0 dias: 12.\n1 dia: 9.\n2 dias: 14.\n3 dias: 10.\n4 dias: 7.\n5 dias: 5.\n6 dias: 2.\n7 dias: 1.\n\n\nTotal = 60.\n\n\nPergunta 1. Qual a frequência relativa de 2 dias?\n\n\n14/60 ≈ 0,2333 = 23,33%.\n\n\nPergunta 2. Quantas praticaram no máximo 3 dias?\n\n\n12 + 9 + 14 + 10 = 45.\n\n\nPergunta 3. Qual percentual praticou pelo menos 4 dias?\n\n\n7 + 5 + 2 + 1 = 15.\n\n\n15/60 = 25%.\n\n\nPergunta 4. Podemos dizer que 25% de toda a cidade pratica atividade física pelo menos quatro dias por semana?\n\n\nNão apenas com esta tabela. Precisaríamos saber qual é a população-alvo e como a amostra foi selecionada.\n\n\nA MAT-EST-002 continua necessária para interpretar corretamente a MAT-EST-003.\n\n\n",
+      "sourceStart": 20749,
+      "sourceEnd": 21574
+    },
+    {
+      "id": "MAT-EST-003-s029",
+      "title": "29. Resumo para revisão",
+      "paragraphs": [],
+      "markdown": "29. Resumo para revisão\n\n\nFrequência absoluta: número de ocorrências.\n\n\nFrequência relativa: frequência absoluta dividida pelo total válido.\n\n\nPorcentagem: frequência relativa multiplicada por 100.\n\n\nFrequência absoluta acumulada: soma progressiva das frequências absolutas.\n\n\nFrequência relativa acumulada: soma progressiva das relativas ou frequência absoluta acumulada dividida pelo total.\n\n\nControles:\nΣf = n.\nΣfr = 1.\nΣ% ≈ 100%.\nÚltima frequência acumulada = n.\n\n\nAcumular exige ordem significativa.\n\n\nPercentuais sempre dependem de um denominador.\n\n\nUma tabela descreve os dados observados; não transforma automaticamente uma amostra em retrato fiel da população.\n\n\n",
+      "sourceStart": 21574,
+      "sourceEnd": 22246
+    },
+    {
+      "id": "MAT-EST-003-s030",
+      "title": "30. Versão curta para ouvir",
+      "paragraphs": [],
+      "markdown": "30. Versão curta para ouvir\n\n\nUma tabela de frequência organiza dados mostrando quantas vezes cada valor ou categoria aparece. Esse número é a frequência absoluta.\n\n\nAo dividir a frequência absoluta pelo total de observações válidas, obtemos a frequência relativa. Em porcentagem, multiplicamos essa proporção por cem.\n\n\nQuando os valores têm uma ordem real, podemos somar as frequências progressivamente. Isso produz a frequência acumulada, útil para perguntas como “até”, “no máximo” ou, usando complemento, “pelo menos”.\n\n\nA soma das frequências absolutas deve ser o total. As frequências relativas devem somar um, ou aproximadamente cem por cento quando expressas em porcentagem.\n\n\nNão devemos acumular categorias nominais só porque estão em determinada ordem na tabela.\n\n\nSempre verifique o denominador, os dados ausentes, o título, a unidade e a fonte.\n\n\n",
+      "sourceStart": 22246,
+      "sourceEnd": 23107
+    },
+    {
+      "id": "MAT-EST-003-s031",
+      "title": "31. Vídeo complementar",
+      "paragraphs": [],
+      "markdown": "31. Vídeo complementar\n\n\nVídeo recomendado:\n“Estatística Básica - Introdução e Tabelas de Frequência”.\nCanal: Téo Me Why.\nURL: https://www.youtube.com/watch?v=onOgEotiuMw\n\n\nMotivo:\nA descrição pública do vídeo informa cobertura de população versus amostra, tabela de frequência, frequência absoluta, frequência relativa, frequência absoluta acumulada e frequência relativa acumulada, além de exercício em planilha.\n\n\nQuando assistir:\nApós estudar as seções 4 a 9 e antes de resolver os exercícios de consolidação.\n\n\nEstado de QA:\nPágina e descrição localizadas em 30/09/2026. Reprodução integral, duração efetiva, áudio e sincronização das legendas ainda não foram auditados no Microsoft Edge. Não tratar como QA audiovisual concluído.\n\n\n",
+      "sourceStart": 23107,
+      "sourceEnd": 23845
+    },
+    {
+      "id": "MAT-EST-003-s032",
+      "title": "32. Fontes da reconstrução",
+      "paragraphs": [],
+      "markdown": "32. Fontes da reconstrução\n\n\nFontes internas canônicas:\n01 — Visão e princípios do projeto.\n02 — Metodologia de aprendizagem e aprofundamento.\n03 — Matriz mestre e estrutura curricular.\n04 — Acessibilidade e leitura em voz alta no Edge.\n05 — Padrão visual, gráficos, imagens e vídeos.\n06 — Arquitetura do site e modelo de conteúdo.\n07 — Fontes oficiais, vestibulares e regra de atualização.\n08 — Instrução do projeto ChatGPT — Reconstrução Escolar 2027.\n\n\nFontes institucionais externas verificadas:\nBNCC/MEC — habilidade EF06MA31: identificação das variáveis e frequências; EF06MA32: interpretação de dados de pesquisas em tabelas e gráficos; EF06MA33: coleta, registro, representação e interpretação.\nInep — Matrizes de Referência do Enem, publicação institucional de 2026.\nFUVEST — Programa do Vestibular 2027, Matemática e suas Tecnologias: comunicar e interpretar resultados por meio de gráficos e tabelas; estatística descritiva com organização e interpretação de dados em tabelas, diagramas, gráficos e infográficos.\n\n\n",
+      "sourceStart": 23845,
+      "sourceEnd": 24871
+    },
+    {
+      "id": "MAT-EST-003-s033",
+      "title": "33. Próximo passo",
+      "paragraphs": [],
+      "markdown": "33. Próximo passo\n\n\nMAT-EST-004 — Gráficos estatísticos: barras, setores, linhas, histogramas e escolha da representação.\n\n\nA próxima aula usará as tabelas construídas aqui como ponto de partida para selecionar representações visuais adequadas sem distorcer os dados.\n",
+      "sourceStart": 24871,
+      "sourceEnd": 25139
+    }
+  ],
+  "sources": [
+    {
+      "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "previous": "MAT-EST-002",
+  "next": "MAT-EST-004",
+  "videos": [
+    {
+      "title": "Estatística Básica - Introdução e Tabelas de Frequência",
+      "channel": "Téo Me Why",
+      "url": "https://www.youtube.com/watch?v=onOgEotiuMw",
+      "duration": "Duração não confirmada",
+      "language": "Português",
+      "reason": "Reforça o conceito apresentado nesta aula.",
+      "when": "Depois dos exemplos resolvidos, antes dos exercícios.",
+      "reinforces": [],
+      "checkedAt": "2026-10-03",
+      "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+      "type": "video"
+    }
+  ],
+  "video": {
+    "title": "Estatística Básica - Introdução e Tabelas de Frequência",
+    "channel": "Téo Me Why",
+    "url": "https://www.youtube.com/watch?v=onOgEotiuMw",
+    "duration": "Duração não confirmada",
+    "language": "Português",
+    "reason": "Reforça o conceito apresentado nesta aula.",
+    "when": "Depois dos exemplos resolvidos, antes dos exercícios.",
+    "reinforces": [],
+    "checkedAt": "2026-10-03",
+    "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+    "type": "video"
+  },
+  "publication": {
+    "kind": "Reconstrução editorial v1; sem identidade binária com a edição histórica.",
+    "notes": [
+      "A produção e a publicação não registram domínio nem alteram seu progresso.",
+      "As referências a publicação pendente no texto original registram o estado da fonte na data de criação."
+    ],
+    "original": "originais/MAT-EST-003/aula.md",
+    "editions": [
+      {
+        "label": "MAT-EST-003-metadados.json · 2026-10-01",
+        "url": "originais/MAT-EST-003/edicoes/1so5z5ra9MtUiLcJ44HnoPHZ-KnK9BaST.json"
+      },
+      {
+        "label": "MAT-EST-003 — manifesto da reconstrução v1 · 2026-10-01",
+        "url": "originais/MAT-EST-003/edicoes/1syM1SFfUtAw-tD5I0VS8Cw5rfwH8A1RRiV7CmuzsCXI.txt"
+      },
+      {
+        "label": "MAT-EST-003 — gabarito comentado — reconstrução editorial v1 · 2026-10-01",
+        "url": "originais/MAT-EST-003/edicoes/1jagJbYAk-Ep_05KuxOtYbJgYQ_G9SOgcb3X4f3eNU04.txt"
+      },
+      {
+        "label": "MAT-EST-003 — exercícios — reconstrução editorial v1 · 2026-10-01",
+        "url": "originais/MAT-EST-003/edicoes/1w_BfIuEYQQIHJoLuwkFWVOfbgpTKbOPTSLuNVuDfZXs.txt"
+      },
+      {
+        "label": "MAT-EST-003 — aula completa — reconstrução editorial v1 · 2026-10-01",
+        "url": "originais/MAT-EST-003/edicoes/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY.txt"
+      }
+    ],
+    "attachments": [],
+    "questionCount": 36,
+    "visualCount": 6,
+    "sourceSha256": "27e90e6a20a6d2196f3c6d2cd1c515eed885e72d2f0f432c81e18d7c654c7396"
+  }
+}

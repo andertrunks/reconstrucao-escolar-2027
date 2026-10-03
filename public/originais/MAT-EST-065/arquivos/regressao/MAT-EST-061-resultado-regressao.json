@@ -1,0 +1,74 @@
+{
+  "scope": "fixtures locais isoladas; source frozen; não demonstra publicação",
+  "results": [
+    {
+      "id": "R061-RC1",
+      "kind": "proposed_text_clarification",
+      "expected": "PASSOU_TESTES_AUTOMATICOS",
+      "actual": "PASSOU_TESTES_AUTOMATICOS",
+      "codes": [],
+      "as_expected": true
+    },
+    {
+      "id": "R061-T01",
+      "kind": "denominator_changed",
+      "expected": "REPROVADO",
+      "actual": "REPROVADO",
+      "codes": [
+        "DENOMINATOR_MISMATCH"
+      ],
+      "as_expected": true
+    },
+    {
+      "id": "R061-T02",
+      "kind": "alternative_text_missing",
+      "expected": "REPROVADO",
+      "actual": "REPROVADO",
+      "codes": [
+        "ALT_INSUFFICIENT"
+      ],
+      "as_expected": true
+    },
+    {
+      "id": "R061-T03",
+      "kind": "historic_decision_rewritten",
+      "expected": "REPROVADO",
+      "actual": "REPROVADO",
+      "codes": [
+        "DECISION_UNSUPPORTED"
+      ],
+      "as_expected": true
+    },
+    {
+      "id": "R061-T04",
+      "kind": "source_hash_changed",
+      "expected": "REPROVADO",
+      "actual": "REPROVADO",
+      "codes": [
+        "REPORT_SOURCE_HASH_DIVERGENT"
+      ],
+      "as_expected": true
+    },
+    {
+      "id": "R061-T05",
+      "kind": "missing_cut_in_caption",
+      "expected": "REPROVADO",
+      "actual": "REPROVADO",
+      "codes": [
+        "CAPTION_MISSING_CONTEXT"
+      ],
+      "as_expected": true
+    }
+  ],
+  "baseline_hash": "92c82159b0ea1306026c5bf25dbafaafb757c4d4a832fc5377c1ae212ecf4645",
+  "metrics": {
+    "planned": 8,
+    "eligible": 2,
+    "pending": 6,
+    "MAE_B_units": 3.0,
+    "MAE_C_units": 4.0,
+    "mean_cost_B_points": 7.0,
+    "mean_cost_C_points": 7.0
+  },
+  "manual_and_external_gates_pending": true
+}

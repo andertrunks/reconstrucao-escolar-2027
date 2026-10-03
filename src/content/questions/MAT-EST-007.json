@@ -1,0 +1,882 @@
+[
+  {
+    "id": "MAT-EST-007-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Calcule a amplitude de 3, 5, 7, 8 e 11.",
+    "answer": "11−3 = 8.",
+    "resolution": "Resposta: 11−3 = 8.  \nRaciocínio: amplitude é máximo menos mínimo.  \nMotivo provável do erro: cálculo ou confusão entre amplitude e média.",
+    "errorReasons": [
+      "cálculo ou confusão entre amplitude e média."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-007-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Qual é a amplitude de 20, 20, 20 e 20?",
+    "answer": "0.",
+    "resolution": "Resposta: 0.  \nRaciocínio: máximo e mínimo são ambos 20.  \nMotivo provável do erro: acreditar que amplitude precisa ser positiva.",
+    "errorReasons": [
+      "acreditar que amplitude precisa ser positiva."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-007-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Explique por que amplitude usa apenas dois valores do conjunto.",
+    "answer": "porque sua fórmula usa somente máximo e mínimo.",
+    "resolution": "Resposta: porque sua fórmula usa somente máximo e mínimo.  \nMotivo provável do erro: interpretação conceitual.",
+    "errorReasons": [
+      "interpretação conceitual."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-007-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Dados 2, 3 e 7, cuja média é 4, calcule os três desvios com sinal.",
+    "answer": "−2, −1 e +3.",
+    "resolution": "Resposta: −2, −1 e +3.  \nMotivo provável do erro: subtração ou sinal.",
+    "errorReasons": [
+      "subtração ou sinal."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-007-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Por que a soma dos desvios em relação à média é zero?",
+    "answer": "porque a média é ponto de equilíbrio e Σxᵢ = n x̄.",
+    "resolution": "Resposta: porque a média é ponto de equilíbrio e Σxᵢ = n x̄.  \nMotivo provável do erro: não relacionar propriedade da média aos desvios.",
+    "errorReasons": [
+      "não relacionar propriedade da média aos desvios."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-007-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Transforme os desvios −4, +2 e −1 em desvios absolutos.",
+    "answer": "4, 2 e 1.",
+    "resolution": "Resposta: 4, 2 e 1.  \nMotivo provável do erro: valor absoluto.",
+    "errorReasons": [
+      "valor absoluto."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-007-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Calcule o DMA de 2, 3 e 7 em relação à média 4.",
+    "answer": "(2+1+3)/3 = 2.",
+    "resolution": "Resposta: (2+1+3)/3 = 2.  \nMotivo provável do erro: usar desvios com sinal.",
+    "errorReasons": [
+      "usar desvios com sinal."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-007-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Qual é a unidade do DMA se os dados estão em minutos?",
+    "answer": "minutos.",
+    "resolution": "Resposta: minutos.  \nMotivo provável do erro: esquecer que o DMA conserva unidade.",
+    "errorReasons": [
+      "esquecer que o DMA conserva unidade."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-007-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "O DMA pode ser negativo? Justifique.",
+    "answer": "não. Valores absolutos são não negativos.",
+    "resolution": "Resposta: não. Valores absolutos são não negativos.  \nMotivo provável do erro: confundir desvio com desvio absoluto.",
+    "errorReasons": [
+      "confundir desvio com desvio absoluto."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-007-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Se todos os valores são iguais, quais são amplitude e DMA?\n\n## CAMADA CON — Consolidação",
+    "answer": "amplitude 0 e DMA 0.",
+    "resolution": "Resposta: amplitude 0 e DMA 0.  \nMotivo provável do erro: não reconhecer ausência de variação.",
+    "errorReasons": [
+      "não reconhecer ausência de variação."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-007-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Calcule média, amplitude e DMA de 3, 4, 5, 6 e 7.",
+    "answer": "média 5; amplitude 4; DMA = (2+1+0+1+2)/5 = 1,2.",
+    "resolution": "Resposta: média 5; amplitude 4; DMA = (2+1+0+1+2)/5 = 1,2.  \nMotivo provável do erro: cálculo sequencial.",
+    "errorReasons": [
+      "cálculo sequencial."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-007-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Calcule média, amplitude e DMA de 1, 1, 5, 9 e 9.",
+    "answer": "média 5; amplitude 8; DMA = (4+4+0+4+4)/5 = 3,2.",
+    "resolution": "Resposta: média 5; amplitude 8; DMA = (4+4+0+4+4)/5 = 3,2.  \nMotivo provável do erro: valor absoluto ou soma.",
+    "errorReasons": [
+      "valor absoluto ou soma."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-007-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Compare os resultados dos dois exercícios anteriores e explique qual conjunto é mais disperso.",
+    "answer": "o segundo é mais disperso; tem amplitude 8 e DMA 3,2 contra 4 e 1,2.",
+    "resolution": "Resposta: o segundo é mais disperso; tem amplitude 8 e DMA 3,2 contra 4 e 1,2.  \nMotivo provável do erro: comparar apenas médias.",
+    "errorReasons": [
+      "comparar apenas médias."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-007-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Os dados 2, 4 e 6 têm DMA 4/3. Somamos 10 a todos. Qual será o novo DMA?",
+    "answer": "permanece 4/3.",
+    "resolution": "Resposta: permanece 4/3.  \nRaciocínio: somar constante desloca todos os valores e a média igualmente.  \nMotivo provável do erro: pensar que mudança de nível é mudança de dispersão.",
+    "errorReasons": [
+      "pensar que mudança de nível é mudança de dispersão."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-007-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Os dados 2, 4 e 6 têm DMA 4/3. Multiplicamos todos por 3. Qual será o novo DMA?",
+    "answer": "4.",
+    "resolution": "Resposta: 4.  \nRaciocínio: o DMA é multiplicado por |3|.  \nMotivo provável do erro: não aplicar fator de escala.",
+    "errorReasons": [
+      "não aplicar fator de escala."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-007-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Dados 1, 2 e 5 têm frequências 2, 4 e 2. Calcule a média e o DMA.",
+    "answer": "média 2,5; DMA 1,25.",
+    "resolution": "Resposta: média 2,5; DMA 1,25.  \nRaciocínio: soma ponderada 20, n 8; soma ponderada das distâncias 10.  \nMotivo provável do erro: esquecer frequências como pesos.",
+    "errorReasons": [
+      "esquecer frequências como pesos."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-007-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Explique por que a amplitude pode aumentar muito quando apenas um valor extremo muda.",
+    "answer": "porque amplitude depende diretamente do máximo e do mínimo; mudar um extremo altera uma das duas entradas da fórmula.",
+    "resolution": "Resposta: porque amplitude depende diretamente do máximo e do mínimo; mudar um extremo altera uma das duas entradas da fórmula.  \nMotivo provável do erro: interpretação.",
+    "errorReasons": [
+      "interpretação."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-007-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Dois conjuntos têm amplitude 10. Isso prova que possuem a mesma distribuição? Explique.",
+    "answer": "não. A amplitude ignora os valores intermediários.",
+    "resolution": "Resposta: não. A amplitude ignora os valores intermediários.  \nMotivo provável do erro: tratar uma medida-resumo como descrição completa.",
+    "errorReasons": [
+      "tratar uma medida-resumo como descrição completa."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-007-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Se um conjunto tem DMA zero, o que podemos concluir sobre seus valores observados?",
+    "answer": "todos os valores válidos coincidem com o centro usado; em torno da média, todos são iguais à média.",
+    "resolution": "Resposta: todos os valores válidos coincidem com o centro usado; em torno da média, todos são iguais à média.  \nMotivo provável do erro: não relacionar DMA zero com todas as distâncias zero.",
+    "errorReasons": [
+      "não relacionar DMA zero com todas as distâncias zero."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-007-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Um conjunto está em metros. Outro está em centímetros. Por que não devemos comparar seus DMAs numericamente sem converter unidades?\n\n## CAMADA VES — Transferência / estilo vestibular autoral",
+    "answer": "porque 5 metros e 5 centímetros não representam a mesma dispersão física; é preciso converter para unidade comum.",
+    "resolution": "Resposta: porque 5 metros e 5 centímetros não representam a mesma dispersão física; é preciso converter para unidade comum.  \nMotivo provável do erro: ignorar unidades.",
+    "errorReasons": [
+      "ignorar unidades."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-007-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Conjuntos A = 4,5,6 e B = 0,5,10 possuem a mesma média. Calcule a amplitude e o DMA de cada um e compare.",
+    "answer": "A: amplitude 2, DMA 2/3≈0,67. B: amplitude 10, DMA 10/3≈3,33. B é mais disperso.",
+    "resolution": "Resposta: A: amplitude 2, DMA 2/3≈0,67. B: amplitude 10, DMA 10/3≈3,33. B é mais disperso.  \nMotivo provável do erro: usar apenas a média.",
+    "errorReasons": [
+      "usar apenas a média."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-007-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma série 5,5,5,5,5 é alterada para 5,5,5,5,25. Calcule média, amplitude e DMA do novo conjunto.",
+    "answer": "média 9; amplitude 20; DMA = (4+4+4+4+16)/5 = 6,4.",
+    "resolution": "Resposta: média 9; amplitude 20; DMA = (4+4+4+4+16)/5 = 6,4.  \nMotivo provável do erro: recalcular a média incorretamente.",
+    "errorReasons": [
+      "recalcular a média incorretamente."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-007-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Explique por que a média dos desvios com sinal não pode servir como medida de dispersão em torno da média.",
+    "answer": "porque os desvios positivos e negativos em relação à média sempre se cancelam e somam zero.",
+    "resolution": "Resposta: porque os desvios positivos e negativos em relação à média sempre se cancelam e somam zero.  \nMotivo provável do erro: confundir direção com magnitude.",
+    "errorReasons": [
+      "confundir direção com magnitude."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-007-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um conjunto tem média 100 e DMA 8. Todos os valores são transformados por y = 2x + 50. Qual é o novo DMA?",
+    "answer": "16.",
+    "resolution": "Resposta: 16.  \nRaciocínio: a transformação multiplica dispersão por |2|; +50 não altera.  \nMotivo provável do erro: aplicar também a constante à dispersão.",
+    "errorReasons": [
+      "aplicar também a constante à dispersão."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-007-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um conjunto A tem média 10 e DMA 2. Um conjunto B tem média 1000 e DMA 20. Explique por que afirmar apenas “B é dez vezes mais variável” pode ser enganoso.",
+    "answer": "porque B também opera em escala média cem vezes maior; comparação relativa exige normalização adequada.",
+    "resolution": "Resposta: porque B também opera em escala média cem vezes maior; comparação relativa exige normalização adequada.  \nMotivo provável do erro: comparar somente medidas absolutas.",
+    "errorReasons": [
+      "comparar somente medidas absolutas."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-007-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Valores 10,12,14 têm frequências 1,3,1. Calcule média, amplitude e DMA.",
+    "answer": "média 12; amplitude 4; DMA = (2×1 + 0×3 + 2×1)/5 = 0,8.",
+    "resolution": "Resposta: média 12; amplitude 4; DMA = (2×1 + 0×3 + 2×1)/5 = 0,8.  \nMotivo provável do erro: frequências.",
+    "errorReasons": [
+      "frequências."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-007-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma tabela agrupada informa classes [0,10), [10,20) e [20,30), mas não mostra valores individuais. Explique por que a amplitude exata pode ser desconhecida.",
+    "answer": "porque os extremos reais podem estar em qualquer ponto dentro das classes extremas.",
+    "resolution": "Resposta: porque os extremos reais podem estar em qualquer ponto dentro das classes extremas.  \nMotivo provável do erro: confundir limites de classe com valores observados.",
+    "errorReasons": [
+      "confundir limites de classe com valores observados."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-007-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma pesquisa perdeu registros extremos por falha de coleta. Explique o efeito potencial sobre a amplitude observada.",
+    "answer": "a amplitude observada pode ser artificialmente menor, porque os extremos reais podem ter desaparecido.",
+    "resolution": "Resposta: a amplitude observada pode ser artificialmente menor, porque os extremos reais podem ter desaparecido.  \nMotivo provável do erro: ignorar mecanismo de ausência.",
+    "errorReasons": [
+      "ignorar mecanismo de ausência."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-007-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Mostre que adicionar a mesma constante a todos os valores não altera os desvios em relação à média.",
+    "answer": "se yᵢ=xᵢ+c e ȳ=x̄+c, então yᵢ−ȳ = xᵢ−x̄.",
+    "resolution": "Resposta: se yᵢ=xᵢ+c e ȳ=x̄+c, então yᵢ−ȳ = xᵢ−x̄.  \nMotivo provável do erro: álgebra da transformação.",
+    "errorReasons": [
+      "álgebra da transformação."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-007-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um analista remove um valor extremo apenas porque ele eleva o DMA. Explique por que esse procedimento é metodologicamente inadequado.\n\n## CAMADA RET — Reteste",
+    "answer": "extremo pode ser observação válida; exclusão precisa de regra e justificativa independentes do efeito sobre a estatística.",
+    "resolution": "Resposta: extremo pode ser observação válida; exclusão precisa de regra e justificativa independentes do efeito sobre a estatística.  \nMotivo provável do erro: viés de resultado.",
+    "errorReasons": [
+      "viés de resultado."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-007-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Sem consultar, escreva as fórmulas da amplitude e do DMA em torno da média.",
+    "answer": "R=máximo−mínimo; DMA=Σ|xᵢ−x̄|/n.",
+    "resolution": "Resposta: R=máximo−mínimo; DMA=Σ|xᵢ−x̄|/n.  \nMotivo provável do erro: memória de fórmulas sem significado.",
+    "errorReasons": [
+      "memória de fórmulas sem significado."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-007-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Calcule amplitude e DMA de 2,4,4,6.",
+    "answer": "média 4; amplitude 4; desvios absolutos 2,0,0,2; DMA=1.",
+    "resolution": "Resposta: média 4; amplitude 4; desvios absolutos 2,0,0,2; DMA=1.  \nMotivo provável do erro: calcular média ou soma das distâncias.",
+    "errorReasons": [
+      "calcular média ou soma das distâncias."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-007-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Explique em uma frase a diferença entre amplitude e DMA.",
+    "answer": "amplitude usa somente extremos; DMA usa a distância de todas as observações a um centro.",
+    "resolution": "Resposta: amplitude usa somente extremos; DMA usa a distância de todas as observações a um centro.  \nMotivo provável do erro: conceitos misturados.",
+    "errorReasons": [
+      "conceitos misturados."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-007-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Por que valor absoluto é usado no DMA?",
+    "answer": "para impedir que desvios positivos e negativos se cancelem.",
+    "resolution": "Resposta: para impedir que desvios positivos e negativos se cancelem.  \nMotivo provável do erro: finalidade do valor absoluto.",
+    "errorReasons": [
+      "finalidade do valor absoluto."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-007-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Se todos os valores forem multiplicados por −2, o que acontece com o DMA?",
+    "answer": "é multiplicado por 2.",
+    "resolution": "Resposta: é multiplicado por 2.  \nRaciocínio: fator é |−2|.  \nMotivo provável do erro: acreditar que dispersão se torna negativa.",
+    "errorReasons": [
+      "acreditar que dispersão se torna negativa."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-007-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-007"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Explique por que mesma média não implica mesma dispersão.",
+    "answer": "conjuntos com o mesmo centro podem apresentar afastamentos muito diferentes em torno desse centro.",
+    "resolution": "Resposta: conjuntos com o mesmo centro podem apresentar afastamentos muito diferentes em torno desse centro.  \nMotivo provável do erro: confundir centro com espalhamento.",
+    "errorReasons": [
+      "confundir centro com espalhamento."
+    ],
+    "source": {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  }
+]

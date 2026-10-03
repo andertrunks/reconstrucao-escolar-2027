@@ -1,0 +1,38 @@
+[
+  {
+    "instituicao": "Projeto Reconstrução Escolar",
+    "titulo": "MAT-EST-037: Simulado integrador de Estatística",
+    "arquivoOrigem": "MAT-EST-037",
+    "papel": "estrutura das questões, pré-requisitos e estado individual pendente"
+  },
+  {
+    "instituicao": "Projeto Reconstrução Escolar",
+    "titulo": "MAT-EST-034 e MAT-EST-035: dados fictícios e auditoria",
+    "arquivoOrigem": "MAT-EST-034/035 via MAT-EST-037",
+    "papel": "dados copiados byte a byte, não alterados"
+  },
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 200, Lesson 6: Hypothesis Testing, Part 2",
+    "url": "https://online.stat.psu.edu/stat200/Lesson06",
+    "papel": "erro I, erro II, poder e significância prática"
+  },
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 501: Regression Methods",
+    "url": "https://online.stat.psu.edu/stat501/",
+    "papel": "diagnóstico e interpretação de regressão"
+  },
+  {
+    "instituicao": "INEP",
+    "titulo": "Provas e Gabaritos do ENEM",
+    "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+    "papel": "acervo oficial externo; nenhuma questão original reproduzida"
+  },
+  {
+    "instituicao": "MIT OpenCourseWare",
+    "titulo": "Video 4: Validating the Model",
+    "url": "https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/resources/video-4-validating-the-model-0/",
+    "papel": "vídeo complementar de validação de modelos"
+  }
+]

@@ -1,0 +1,221 @@
+{
+  "politica": "Emissões h1 congeladas antes de cada chegada; registros de auditoria simulada, não timestamp criptográfico/prova de publicação prévia.",
+  "previsoes": [
+    {
+      "id": "MAT-EST-048-FC-H1-T13",
+      "modelo": "BASE-SNAIVE-v1",
+      "origem": "t12",
+      "alvo": "t13",
+      "horizonte": 1,
+      "informacao_maxima": "t12",
+      "previsao": 129,
+      "limite_inferior_ilustrativo": 117,
+      "limite_superior_ilustrativo": 141,
+      "tipo_intervalo": "faixa_didatica_nao_calibrada",
+      "emissao_ordem": 1,
+      "observacao_ordem": 2,
+      "erro_observado_menos_previsto": 5,
+      "observado": 134,
+      "dado_fonte_do_modelo": "t09"
+    },
+    {
+      "id": "MAT-EST-048-FC-H1-T14",
+      "modelo": "BASE-SNAIVE-v1",
+      "origem": "t13",
+      "alvo": "t14",
+      "horizonte": 1,
+      "informacao_maxima": "t13",
+      "previsao": 145,
+      "limite_inferior_ilustrativo": 133,
+      "limite_superior_ilustrativo": 157,
+      "tipo_intervalo": "faixa_didatica_nao_calibrada",
+      "emissao_ordem": 3,
+      "observacao_ordem": 4,
+      "erro_observado_menos_previsto": 6,
+      "observado": 151,
+      "dado_fonte_do_modelo": "t10"
+    },
+    {
+      "id": "MAT-EST-048-FC-H1-T15",
+      "modelo": "BASE-SNAIVE-v1",
+      "origem": "t14",
+      "alvo": "t15",
+      "horizonte": 1,
+      "informacao_maxima": "t14",
+      "previsao": 171,
+      "limite_inferior_ilustrativo": 159,
+      "limite_superior_ilustrativo": 183,
+      "tipo_intervalo": "faixa_didatica_nao_calibrada",
+      "emissao_ordem": 5,
+      "observacao_ordem": 6,
+      "erro_observado_menos_previsto": 16,
+      "observado": 187,
+      "dado_fonte_do_modelo": "t11"
+    },
+    {
+      "id": "MAT-EST-048-FC-H1-T16",
+      "modelo": "BASE-SNAIVE-v1",
+      "origem": "t15",
+      "alvo": "t16",
+      "horizonte": 1,
+      "informacao_maxima": "t15",
+      "previsao": 144,
+      "limite_inferior_ilustrativo": 132,
+      "limite_superior_ilustrativo": 156,
+      "tipo_intervalo": "faixa_didatica_nao_calibrada",
+      "emissao_ordem": 7,
+      "observacao_ordem": 8,
+      "erro_observado_menos_previsto": 16,
+      "observado": 160,
+      "dado_fonte_do_modelo": "t12"
+    },
+    {
+      "id": "MAT-EST-048-FC-H1-T17",
+      "modelo": "BASE-SNAIVE-v1",
+      "origem": "t16",
+      "alvo": "t17",
+      "horizonte": 1,
+      "informacao_maxima": "t16",
+      "previsao": 134,
+      "limite_inferior_ilustrativo": 122,
+      "limite_superior_ilustrativo": 146,
+      "tipo_intervalo": "faixa_didatica_nao_calibrada",
+      "emissao_ordem": 9,
+      "observacao_ordem": 10,
+      "erro_observado_menos_previsto": 33,
+      "observado": 167,
+      "dado_fonte_do_modelo": "t13"
+    },
+    {
+      "id": "MAT-EST-048-FC-H1-T18",
+      "modelo": "BASE-SNAIVE-v1",
+      "origem": "t17",
+      "alvo": "t18",
+      "horizonte": 1,
+      "informacao_maxima": "t17",
+      "previsao": 151,
+      "limite_inferior_ilustrativo": 139,
+      "limite_superior_ilustrativo": 163,
+      "tipo_intervalo": "faixa_didatica_nao_calibrada",
+      "emissao_ordem": 11,
+      "observacao_ordem": 12,
+      "erro_observado_menos_previsto": 25,
+      "observado": 176,
+      "dado_fonte_do_modelo": "t14"
+    }
+  ],
+  "desafiante": {
+    "id": "MAT-EST-048-FC-CHAL-T18",
+    "modelo": "CHALLENGER-AJUSTE-SAZONAL-v1",
+    "origem": "t17",
+    "alvo": "t18",
+    "horizonte": 1,
+    "informacao_maxima": "t17",
+    "componentes_diferencas_sazonais_t13_a_t17": [
+      5,
+      6,
+      16,
+      16,
+      33
+    ],
+    "correcao_media": 15.2,
+    "referencia_t14": 151,
+    "previsao": 166.2,
+    "emissao_logica": "depois_de_t17_antes_de_t18",
+    "observado_depois": 176,
+    "erro": 9.8,
+    "status": "sombra_sem_substituicao_automatica"
+  },
+  "eventos": [
+    {
+      "ordem": 1,
+      "tipo": "previsao_congelada",
+      "previsao_id": "MAT-EST-048-FC-H1-T13",
+      "origem": "t12",
+      "alvo": "t13",
+      "valor": 129
+    },
+    {
+      "ordem": 2,
+      "tipo": "observacao_revelada",
+      "alvo": "t13",
+      "valor": 134,
+      "previa_previsao_id": "MAT-EST-048-FC-H1-T13"
+    },
+    {
+      "ordem": 3,
+      "tipo": "previsao_congelada",
+      "previsao_id": "MAT-EST-048-FC-H1-T14",
+      "origem": "t13",
+      "alvo": "t14",
+      "valor": 145
+    },
+    {
+      "ordem": 4,
+      "tipo": "observacao_revelada",
+      "alvo": "t14",
+      "valor": 151,
+      "previa_previsao_id": "MAT-EST-048-FC-H1-T14"
+    },
+    {
+      "ordem": 5,
+      "tipo": "previsao_congelada",
+      "previsao_id": "MAT-EST-048-FC-H1-T15",
+      "origem": "t14",
+      "alvo": "t15",
+      "valor": 171
+    },
+    {
+      "ordem": 6,
+      "tipo": "observacao_revelada",
+      "alvo": "t15",
+      "valor": 187,
+      "previa_previsao_id": "MAT-EST-048-FC-H1-T15"
+    },
+    {
+      "ordem": 7,
+      "tipo": "previsao_congelada",
+      "previsao_id": "MAT-EST-048-FC-H1-T16",
+      "origem": "t15",
+      "alvo": "t16",
+      "valor": 144
+    },
+    {
+      "ordem": 8,
+      "tipo": "observacao_revelada",
+      "alvo": "t16",
+      "valor": 160,
+      "previa_previsao_id": "MAT-EST-048-FC-H1-T16"
+    },
+    {
+      "ordem": 9,
+      "tipo": "previsao_congelada",
+      "previsao_id": "MAT-EST-048-FC-H1-T17",
+      "origem": "t16",
+      "alvo": "t17",
+      "valor": 134
+    },
+    {
+      "ordem": 10,
+      "tipo": "observacao_revelada",
+      "alvo": "t17",
+      "valor": 167,
+      "previa_previsao_id": "MAT-EST-048-FC-H1-T17"
+    },
+    {
+      "ordem": 11,
+      "tipo": "previsao_congelada",
+      "previsao_id": "MAT-EST-048-FC-H1-T18",
+      "origem": "t17",
+      "alvo": "t18",
+      "valor": 151
+    },
+    {
+      "ordem": 12,
+      "tipo": "observacao_revelada",
+      "alvo": "t18",
+      "valor": 176,
+      "previa_previsao_id": "MAT-EST-048-FC-H1-T18"
+    }
+  ]
+}

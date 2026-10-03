@@ -1,0 +1,69 @@
+﻿MAT-EST-011 — manifesto da reconstrução editorial v1
+
+
+Natureza
+Reconstrução editorial explícita de material cuja produção histórica foi comprovada, mas cujos bytes originais não foram recuperados. Este pacote não deve ser descrito como cópia ou recuperação byte a byte.
+
+
+Título histórico
+Amplitude interquartil e box-plot: caixa, bigodes e valores discrepantes.
+
+
+Pasta canônica
+1neAvnVmwRw2cZDUPnRGZUjRlaWEUitdB
+
+
+Artefatos canônicos
+Aula: 1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg
+Exercícios: 1fKeAqzRrzptKj8lwg82w5dw06UA-2QxwrNmdVclisBg
+Gabarito comentado: 1X-xn27kNYTey2Ryb_3p0Po_S5JLko0Lhd0rG48ygRy8
+Galeria visual: 19IM826n3H8fwUsb6ABdfM8cXIsPiBalW-q_WtVYLqs0
+Metadados: 1pt4JfYHKSr9PrdyPegR1s7IcTREB-nJvhg_AlnZJQk4
+Manifesto: 12xkpNgkCEx1LRKvsdFJEaLS6rbuFgXbRyg99HxRq658
+
+
+Ativos visuais
+MAT-EST-011-VIS-01-dados-ordenados.png — 15yI3ZQeO36CAh-YP1E7GGA0hZ4bPvu4x
+MAT-EST-011-VIS-02-amplitude-interquartil.png — 1QMNT-E7uoqt6O-fwe6sJGPUMvBJz7-I3
+MAT-EST-011-VIS-03-anatomia-boxplot.png — 1XIO-OiPP02pimi7Afmz7Lp54J25mR959
+MAT-EST-011-VIS-04-limites-discrepantes.png — 1XBc0AgkDUKJfbGbQ-sLTKj_Xwv7I66GL
+MAT-EST-011-VIS-05-comparacao-boxplots.png — 1MYv4Crj-COu45nXEpO59xkDF-xzvlEXx
+MAT-EST-011-VIS-06-roteiro-interpretacao.png — 1rxvsKZIzRBWRkGE2hfileqed3uPyLUKW
+
+
+Estrutura pedagógica
+Aula em 52 seções numeradas.
+36 exercícios autorais com IDs completos.
+Camadas: APR 10; CON 10; VES 10; RET 6.
+Gabarito comentado separado, com resolução e motivo provável de erro por item.
+Seis visuais com legenda textual, texto alternativo, orientação do que observar e conclusão para áudio.
+
+
+Decisões editoriais
+A convenção de quartis deve ser explicitada quando necessária.
+O pacote distingue box-plot com bigodes em mínimo/máximo de box-plot modificado de Tukey.
+A regra de 1,5 vezes a AIQ é tratada como convenção descritiva, não como prova de erro, impossibilidade, normalidade ou critério universal de exclusão.
+O limite calculado não é confundido com a posição do bigode, que termina em observação compatível com a convenção.
+
+
+Fontes curriculares verificadas
+FUVEST — Programa do Vestibular 2027.
+BNCC do Ensino Médio — Ministério da Educação, com box-plot entre representações para interpretação e comparação de dados.
+INEP — Matrizes de Referência do Enem, publicação institucional de 2026.
+
+
+Vídeo complementar
+Amplitude interquartil - Khan Academy em português (8º ano), canal Khan Academy em Português de Portugal.
+Página pública localizada. Reprodução integral, áudio, legendas, duração efetiva e QA no Microsoft Edge permanecem pendentes.
+
+
+Estado de publicação
+Não publicado. Conversão para o modelo estruturado, ativos estáticos, integração tipada, QA audiovisual e de acessibilidade, testes, build e deploy pertencem a B2–B5 e permanecem pendentes.
+
+
+Progresso individual
+Nenhum status de aprendizagem do aluno foi alterado por esta produção editorial.
+
+
+Próximo tópico
+MAT-EST-012 — Assimetria e forma das distribuições: comparação integrada de histogramas e box-plots.

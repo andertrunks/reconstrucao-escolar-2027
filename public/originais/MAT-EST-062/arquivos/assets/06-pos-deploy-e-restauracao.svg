@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="320" viewBox="0 0 950 320" role="img" aria-labelledby="t d">
+<title id="t">Pós-publicação não é ensaio de restauração</title>
+<desc id="d">Comparar um ZIP numa pasta temporária não confirma como se comporta um site público.</desc>
+<rect width="950" height="320" rx="22" fill="#f8fafc"/>
+<text x="28" y="39" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#172334">Pós-publicação não é ensaio de restauração</text>
+<rect x="32.0" y="78" width="211.0" height="151" rx="12" fill="#fff" stroke="#35694a" stroke-width="2"/>
+<rect x="33.0" y="79" width="209.0" height="6" rx="3" fill="#35694a"/>
+<text x="44.0" y="109" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#35694a">Teste local</text>
+<text x="44.0" y="140" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">ZIP conferido</text>
+<text x="44.0" y="171" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">Sem URL pública</text>
+<rect x="257.0" y="78" width="211.0" height="151" rx="12" fill="#fff" stroke="#146f9a" stroke-width="2"/>
+<rect x="258.0" y="79" width="209.0" height="6" rx="3" fill="#146f9a"/>
+<text x="269.0" y="109" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#146f9a">Publicação real</text>
+<text x="269.0" y="140" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">Exige commit</text>
+<text x="269.0" y="171" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">e URL de evidência</text>
+<rect x="482.0" y="78" width="211.0" height="151" rx="12" fill="#fff" stroke="#146f9a" stroke-width="2"/>
+<rect x="483.0" y="79" width="209.0" height="6" rx="3" fill="#146f9a"/>
+<text x="494.0" y="109" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#146f9a">Pós-deploy</text>
+<text x="494.0" y="140" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">Abrir, navegar</text>
+<text x="494.0" y="171" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">ouvir, auditar</text>
+<rect x="707.0" y="78" width="211.0" height="151" rx="12" fill="#fff" stroke="#9b3237" stroke-width="2"/>
+<rect x="708.0" y="79" width="209.0" height="6" rx="3" fill="#9b3237"/>
+<text x="719.0" y="109" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#9b3237">Se falhar</text>
+<text x="719.0" y="140" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">Incident + reversão</text>
+<text x="719.0" y="171" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">Com prova nova</text>
+<text x="30" y="267" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#172334">Não alegar rollback, acesso público ou teste manual sem sua evidência.</text>
+<text x="30" y="291" font-family="Arial,sans-serif" font-size="13" fill="#44566c">Diagrama autoral; todos os estados são didáticos ou locais, sem certificação pública.</text></svg>

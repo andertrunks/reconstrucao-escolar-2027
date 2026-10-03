@@ -1,0 +1,218 @@
+﻿MAT-EST-010 — Gabarito comentado — reconstrução editorial v1
+Correspondência esperada: 36 IDs de exercício para 36 IDs de gabarito.
+
+
+MAT-EST-010-EX-APR-01
+Resposta: 2, 4, 5, 7, 9.
+Resolução: Quartis e percentis exigem ordem. Basta ordenar os cinco valores do menor para o maior.
+Motivo provável de erro: estratégia: tentar localizar posição sem ordenar
+
+
+MAT-EST-010-EX-APR-02
+Resposta: P25.
+Resolução: Quartis dividem a distribuição em quatro partes; o primeiro corte é 25%.
+Motivo provável de erro: memória conceitual
+
+
+MAT-EST-010-EX-APR-03
+Resposta: P50 e mediana.
+Resolução: O segundo quartil ocupa a posição central da distribuição: 50%.
+Motivo provável de erro: memória conceitual
+
+
+MAT-EST-010-EX-APR-04
+Resposta: P75.
+Resolução: O terceiro quartil marca 75% acumulado.
+Motivo provável de erro: memória conceitual
+
+
+MAT-EST-010-EX-APR-05
+Resposta: P70.
+Resolução: Cada decil representa dez pontos percentuais. D7 = 7 × 10% = 70%.
+Motivo provável de erro: cálculo simples ou memória
+
+
+MAT-EST-010-EX-APR-06
+Resposta: Não.
+Resolução: P80 descreve posição relativa na distribuição de referência. Percentual de acertos é outra grandeza.
+Motivo provável de erro: interpretação
+
+
+MAT-EST-010-EX-APR-07
+Resposta: 30.
+Resolução: P50 coincide com a mediana. Com cinco valores, o terceiro é o centro.
+Motivo provável de erro: conteúdo
+
+
+MAT-EST-010-EX-APR-08
+Resposta: A convenção de cálculo do quantil.
+Resolução: Não existe uma única convenção universal para toda amostra finita. O método precisa ser informado quando a escolha altera o resultado.
+Motivo provável de erro: interpretação
+
+
+MAT-EST-010-EX-APR-09
+Resposta: Mostrar quantas observações já foram alcançadas até cada valor ou classe.
+Resolução: O percentil busca uma posição acumulada; a frequência acumulada permite localizar onde a posição-alvo é atingida.
+Motivo provável de erro: conteúdo
+
+
+MAT-EST-010-EX-APR-10
+Resposta: P50 = Q2.
+Resolução: D5 representa 50%, que também é P50 e Q2, a mediana.
+Motivo provável de erro: memória conceitual
+
+
+MAT-EST-010-EX-CON-01
+Resposta: 20.
+Resolução: n = 10 e p = 0,70. r = teto(7) = 7. O 7º valor é 20.
+Motivo provável de erro: montagem da estratégia
+
+
+MAT-EST-010-EX-CON-02
+Resposta: 6ª posição.
+Resolução: r = teto(0,25 × 24) = teto(6) = 6.
+Motivo provável de erro: cálculo
+
+
+MAT-EST-010-EX-CON-03
+Resposta: 12ª posição.
+Resolução: r = teto(0,90 × 13) = teto(11,7) = 12.
+Motivo provável de erro: cálculo com arredondamento
+
+
+MAT-EST-010-EX-CON-04
+Resposta: Q1 = 3 e Q3 = 11.
+Resolução: A mediana é 7. Metade inferior: 1,3,5, cuja mediana é 3. Metade superior: 9,11,13, cuja mediana é 11.
+Motivo provável de erro: estratégia
+
+
+MAT-EST-010-EX-CON-05
+Resposta: 22.
+Resolução: 20 + 0,25 × (28 - 20) = 20 + 2 = 22.
+Motivo provável de erro: cálculo
+
+
+MAT-EST-010-EX-CON-06
+Resposta: 2, 5 e 10.
+Resolução: Acumulamos progressivamente: 2; 2+3=5; 5+5=10.
+Motivo provável de erro: cálculo
+
+
+MAT-EST-010-EX-CON-07
+Resposta: 30ª posição.
+Resolução: r = teto(0,75 × 40) = 30.
+Motivo provável de erro: cálculo
+
+
+MAT-EST-010-EX-CON-08
+Resposta: 44.
+Resolução: 40 + [(60-52)/20]×10 = 40 + 4 = 44.
+Motivo provável de erro: montagem da fórmula
+
+
+MAT-EST-010-EX-CON-09
+Resposta: 23.
+Resolução: Somar a mesma constante preserva a ordem e desloca o valor do quartil pela mesma constante.
+Motivo provável de erro: conteúdo
+
+
+MAT-EST-010-EX-CON-10
+Resposta: 36.
+Resolução: Transformação crescente por fator positivo preserva a ordem e multiplica o valor do quantil por 3.
+Motivo provável de erro: cálculo
+
+
+MAT-EST-010-EX-VES-01
+Resposta: C.
+Resolução: Percentil é posição relativa na distribuição, não percentual de acertos, proporção do máximo nem nota absoluta.
+Motivo provável de erro: interpretação
+
+
+MAT-EST-010-EX-VES-02
+Resposta: Os dois resultados podem ser coerentes com convenções diferentes; é necessário declarar o método.
+Resolução: Quantis amostrais admitem convenções distintas. Divergência não implica automaticamente erro.
+Motivo provável de erro: interpretação avançada
+
+
+MAT-EST-010-EX-VES-03
+Resposta: Sim.
+Resolução: Percentis são cortes de posição. Se várias posições correspondem ao mesmo valor por causa de empates, vários percentis podem coincidir numericamente.
+Motivo provável de erro: conteúdo
+
+
+MAT-EST-010-EX-VES-04
+Resposta: Porque P90 compara Bruno com a distribuição de notas; 60/100 é sua pontuação percentual, enquanto P90 indica posição relativa.
+Resolução: São medidas diferentes e podem coexistir sem contradição.
+Motivo provável de erro: interpretação
+
+
+MAT-EST-010-EX-VES-05
+Resposta: Não.
+Resolução: P90 significa tempo alto em relação à distribuição. Como menor tempo é melhor, percentil alto da variável tempo pode representar desempenho pior.
+Motivo provável de erro: interpretação contextual
+
+
+MAT-EST-010-EX-VES-06
+Resposta: Não.
+Resolução: A interpolação em classes é aproximação baseada na distribuição dentro do intervalo; os dados brutos foram resumidos e podem gerar outro valor.
+Motivo provável de erro: limites do método
+
+
+MAT-EST-010-EX-VES-07
+Resposta: y_A < y_B; a ordem é preservada.
+Resolução: A função é estritamente crescente, portanto observações mantêm sua ordem relativa, embora valores numéricos dos quantis sejam transformados.
+Motivo provável de erro: raciocínio algébrico
+
+
+MAT-EST-010-EX-VES-08
+Resposta: Não; a ordem é invertida.
+Resolução: Uma transformação decrescente troca caudas. É necessário reordenar e não assumir que o antigo P10 continua sendo o novo P10.
+Motivo provável de erro: conceito de ordem
+
+
+MAT-EST-010-EX-VES-09
+Resposta: Porque são definidos principalmente por posições ordenadas, não pela soma das magnitudes.
+Resolução: Um extremo pode alterar muito a soma e a média, mas frequentemente não muda as posições centrais.
+Motivo provável de erro: compreensão conceitual
+
+
+MAT-EST-010-EX-VES-10
+Resposta: Quartis, decis e percentis.
+Resolução: O programa oficial explicita distribuição estatística e medidas de posição: quartis, decis e percentis.
+Motivo provável de erro: memória de fonte curricular
+
+
+MAT-EST-010-EX-RET-01
+Resposta: Q1=P25; Q2=P50; Q3=P75.
+Resolução: Essas três equivalências são o núcleo da relação entre quartis e percentis.
+Motivo provável de erro: memória
+
+
+MAT-EST-010-EX-RET-02
+Resposta: 7ª posição.
+Resolução: r = teto(0,40 × 17) = teto(6,8) = 7.
+Motivo provável de erro: cálculo
+
+
+MAT-EST-010-EX-RET-03
+Resposta: Valor percentílico pergunta qual valor corresponde a uma posição p; posto percentílico pergunta qual posição percentual corresponde a um valor.
+Resolução: São perguntas inversas sobre a mesma distribuição acumulada.
+Motivo provável de erro: interpretação
+
+
+MAT-EST-010-EX-RET-04
+Resposta: O item é ambíguo ou subespecificado.
+Resolução: Se métodos legítimos produzem alternativas diferentes, a questão precisa definir o método ou usar dados que eliminem a divergência.
+Motivo provável de erro: avaliação crítica
+
+
+MAT-EST-010-EX-RET-05
+Resposta: Amplitude interquartil; descreve a largura dos 50% centrais da distribuição.
+Resolução: AIQ = Q3 - Q1 é a ponte direta para box-plot e dispersão robusta.
+Motivo provável de erro: memória e conexão
+
+
+MAT-EST-010-EX-RET-06
+Resposta: Porque o sentido depende do que a variável mede e de como valores maiores devem ser interpretados.
+Resolução: Percentil descreve posição, não valor normativo. Para tempo, custo ou erro, posição alta pode ser indesejável; para outras variáveis pode ter outro significado.
+Motivo provável de erro: interpretação contextual

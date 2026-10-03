@@ -1,0 +1,44 @@
+[
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 200, Lesson 4: Confidence Intervals",
+    "url": "https://online.stat.psu.edu/stat200/Lesson04",
+    "papel": "estimativa intervalar"
+  },
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 200, Lesson 6: Hypothesis Testing, Part 2",
+    "url": "https://online.stat.psu.edu/stat200/Lesson06",
+    "papel": "erros, poder, significância prática e multiplicidade"
+  },
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 200, Lesson 9: Inference for Two Samples",
+    "url": "https://online.stat.psu.edu/stat200/Lesson09",
+    "papel": "comparação de médias e proporções"
+  },
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 501, Lesson 4: SLR Model Assumptions",
+    "url": "https://online.stat.psu.edu/stat501/Lesson04",
+    "papel": "diagnóstico de resíduos"
+  },
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 501: Regression Methods",
+    "url": "https://online.stat.psu.edu/stat501/",
+    "papel": "modelos e inferência de regressão"
+  },
+  {
+    "instituicao": "INEP",
+    "titulo": "Provas e Gabaritos do ENEM",
+    "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+    "papel": "acervo oficial externo, sem reprodução de questões"
+  },
+  {
+    "instituicao": "MIT OpenCourseWare",
+    "titulo": "Video 4: Validating the Model",
+    "url": "https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/resources/video-4-validating-the-model-0/",
+    "papel": "audiovisual complementar"
+  }
+]

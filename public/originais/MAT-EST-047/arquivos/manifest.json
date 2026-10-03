@@ -1,0 +1,103 @@
+{
+  "id": "MAT-EST-047",
+  "titulo": "Diagnóstico e calibração de previsões temporais: resíduos por horizonte, intervalos avaliáveis e comunicação de risco",
+  "slug": "diagnostico-calibracao-previsoes-temporais-residuos-horizonte-intervalos-avaliaveis-comunicacao-risco",
+  "materia": "Matemática",
+  "unidade": "Estatística",
+  "nivel": 6,
+  "anterior": "MAT-EST-046",
+  "proximo": "MAT-EST-048",
+  "statusAprendizagem": "nao_iniciado",
+  "preRequisitos": [
+    "MAT-EST-031",
+    "MAT-EST-032",
+    "MAT-EST-039",
+    "MAT-EST-041",
+    "MAT-EST-042",
+    "MAT-EST-043",
+    "MAT-EST-044",
+    "MAT-EST-045",
+    "MAT-EST-046"
+  ],
+  "objetivos": [
+    "distinguir erro de previsão e resíduo de ajuste",
+    "avaliar direção e magnitude dos erros por horizonte",
+    "calcular limites largura cobertura e escore intervalar",
+    "não atribuir calibração nominal a faixas arbitrárias",
+    "comunicar risco custos assimétricos e limites amostrais"
+  ],
+  "relacoes": [
+    "módulo e média aritmética",
+    "funções por partes",
+    "razão e porcentagem",
+    "gráficos e tabelas",
+    "metodologia científica",
+    "redação de relatório"
+  ],
+  "examesRelevantes": "Interpretação de gráficos, tabelas e incerteza é transferível a vestibulares; Winkler e Holt-Winters são ponte universitária, não exigência atribuída sem edital.",
+  "aula": "MAT-EST-047-diagnostico-calibracao-previsoes-temporais-residuos-horizonte-intervalos-avaliaveis-comunicacao-risco.md",
+  "origem": "autoral",
+  "questoes": {
+    "arquivo": "exercicios.json",
+    "gabaritoSeparado": "gabarito-comentado.json",
+    "total": 36,
+    "aprendizagem": 10,
+    "consolidacao": 10,
+    "transferenciaVestibular": 10,
+    "reteste": 6,
+    "questoesOficiais": 0
+  },
+  "visuais": {
+    "arquivo": "visuais.json",
+    "total": 7,
+    "formato": "SVG com title desc, alt, legenda e conclusão em texto"
+  },
+  "video": "video.json",
+  "fontes": "fontes.json",
+  "licencaConteudo": "autoral",
+  "arquivosReproduziveis": [
+    "calculos-reproduziveis.py",
+    "calculos-reproduziveis.json"
+  ],
+  "dadosHerdados": [
+    {
+      "arquivo": "dados-ficticios-referencia.csv",
+      "origem": "MAT-EST-046/dados-ficticios-referencia.csv",
+      "sha256": "f1cc3989cd8c701a14e544c424b797f27594806ae302a93253e2a1b82fab5ca9"
+    },
+    {
+      "arquivo": "dados-ficticios-trimestrais.csv",
+      "origem": "MAT-EST-046/dados-ficticios-trimestrais.csv",
+      "sha256": "c1d765b97f058ad9f94fba88e46b9cd6e3c1056bf1653ca3b048b97ca7c1c6f1"
+    }
+  ],
+  "protocolo": {
+    "origens": [
+      8,
+      9,
+      10
+    ],
+    "horizontes": [
+      1,
+      2
+    ],
+    "dadosFicticiosDivulgadosAntes": true,
+    "faixasIlustrativasNaoCalibradas": true,
+    "scoreAlphaDidatico": 0.2,
+    "custoDeDecisaoHipotetico": true
+  },
+  "revisao": {
+    "diasAposEstudoReal": [
+      1,
+      7,
+      30
+    ],
+    "inicio": "somente após estudo e tentativa reais"
+  },
+  "publicacao": {
+    "googleDrive": false,
+    "site": false,
+    "edgeRealTestado": false,
+    "videoReproduzidoIntegralmente": false
+  }
+}

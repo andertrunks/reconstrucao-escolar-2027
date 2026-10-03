@@ -1,0 +1,68 @@
+﻿MAT-EST-003 — MANIFESTO DA RECONSTRUÇÃO EDITORIAL v1
+
+
+Natureza
+Esta é uma reconstrução editorial explícita. O projeto possui evidência histórica de que MAT-EST-003 foi produzida anteriormente, mas os bytes do material antigo não foram recuperados. Esta versão não afirma identidade textual, visual ou binária com o original perdido.
+
+
+Escopo
+Código preservado: MAT-EST-003.
+Título preservado: Organização de dados e tabelas de frequência: absoluta, relativa e acumulada.
+Pré-requisitos: MAT-EST-001 e MAT-EST-002.
+Próximo tópico: MAT-EST-004.
+
+
+Conteúdo
+Aula aprofundada desde o zero, incluindo:
+dados brutos e ordenados;
+frequência absoluta;
+frequência relativa;
+porcentagem;
+frequência absoluta acumulada;
+frequência relativa acumulada;
+condições para acumulação;
+variáveis nominais e ordinais;
+dados ausentes e denominadores;
+comparação entre grupos;
+introdução a classes;
+controles de consistência;
+interpretação crítica e limites de generalização.
+
+
+Avaliação
+36 questões autorais com IDs únicos:
+10 APR;
+10 CON;
+10 VES;
+6 RET.
+Gabarito mantido em documento separado, com raciocínio e motivo provável do erro.
+
+
+Visuais
+Seis SVGs reais, com title/desc e explicação textual correspondente na aula:
+01-lista-para-tabela.svg
+02-absoluta-relativa.svg
+03-acumulada.svg
+04-quando-acumular.svg
+05-controles-consistencia.svg
+06-classes-intervalo.svg
+
+
+Fontes institucionais verificadas
+BNCC/MEC: EF06MA31, EF06MA32 e EF06MA33.
+Inep: Matrizes de Referência do Enem, publicação institucional de 2026.
+FUVEST: Programa do Vestibular 2027, Matemática e suas Tecnologias, habilidades e objetos de conhecimento ligados a tabelas, gráficos e estatística descritiva.
+
+
+Vídeo
+“Estatística Básica - Introdução e Tabelas de Frequência”, canal Téo Me Why.
+A página e a descrição foram localizadas. QA de reprodução integral, áudio e legendas ainda está pendente.
+
+
+Estado
+Fonte editorial reconstruída: criada.
+Publicação no site: não realizada.
+QA Microsoft Edge/Ler em voz alta: pendente.
+Integração ao modelo estruturado do repositório: pendente.
+Progresso do aluno: não alterado.
+MAT-EST-068: não iniciada.

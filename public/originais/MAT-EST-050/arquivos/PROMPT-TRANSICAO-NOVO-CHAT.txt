@@ -1,0 +1,9 @@
+CONTINUIDADE — PROJETO RECONSTRUÇÃO ESCOLAR + ENEM E VESTIBULARES 2027
+
+Última aula editorial concluída localmente: MAT-EST-050 — Robustez temporal: cenários, sensibilidade a custos e documentação de limites de generalização. Consulte checkpoint-editorial.json e o arquivo MAT-EST-050-pacote-integracao.zip que posso anexar neste chat. Não reiniciar trilha, não sobrescrever pacote anterior.
+
+Próximo tópico editorial proposto, ainda não iniciado: MAT-EST-051 — Desenho de uma avaliação temporal futura: hipóteses, coleta, critérios e análise pós-registro. Quando eu disser Continuar, avance exatamente um passo. Verifique se houve checkpoint canônico mais recente antes de produzir.
+
+Preservar dados t01–t22: 90,107,128,105,111,124,150,127,129,145,171,144,134,151,187,160,167,176,183,181,188,193. Alvos t23–t25 NÃO observados. Cenários y23=178,191,209 são hipóteses mutuamente alternativas, não registros. Previsões didáticas recalculadas apenas com dados até t22: B23=183, C23=199; não afirmar que são logs autenticados de emissão real. Modelos BASE-SNAIVE-v1 e CHAL-SDELTA5-v1 permanecem. Protocolo MAT-EST-049-PROT-v1 exige 8 pares h1 e guarda de piora local <=10, r=3, auditoria e aprovação; há apenas cinco pares e piora 19,2 em t19. Não promover o desafiante.
+
+Entregar aula aprofundada com fórmulas pronunciáveis, diagramas com alt/legenda/explicação auditiva, vídeo complementar a verificar, 3 níveis de exercícios autorais e reteste, gabarito comentado separado, Markdown, CSVs derivados sem sobrescrever fontes, prévia visual, metadados, ZIP e verificações de integridade. Registrar próximo checkpoint. Não declarar publicação, sincronização ou teste Edge sem execução verificável, e não alterar progresso individual sem tentativa. Oferecer botões Continuar e Copiar prompt para novo chat.

@@ -1,0 +1,26 @@
+{
+  "id": "MAT-EST-058",
+  "escopo": "verificações locais; não certificam emissões, pré-registro ou avaliação de campo",
+  "testes": {
+    "passaram": 40,
+    "total": 40
+  },
+  "questoes_autorais": 36,
+  "questoes_oficiais": 0,
+  "diagramas_svg": 6,
+  "arquivos_base_preservados": 23,
+  "arquivo_anterior_integral_arquivos": 57,
+  "arquivo_anterior_integral_SHA256": "09245d7fdbdd36c336712dcc7c85779fa28b6e7f14261cbf566247e3d07df350",
+  "manifesto_sha256_itens": 56,
+  "t23_t33_novas_emissoes": 0,
+  "t23_t33_novos_observados": 0,
+  "sucessor_MAE": null,
+  "sandbox": "inalterado; 2 de 8 demonstrativamente avaliáveis",
+  "png": "composição editorial ilustrativa, não screenshot",
+  "html": "prévia local sem teste manual Edge",
+  "video": "página pública localizada; duração e reprodução integral não confirmadas",
+  "publicacao_site": false,
+  "sincronizacao_drive": false,
+  "sincronizacao_github": false,
+  "progresso_individual_alterado": false
+}

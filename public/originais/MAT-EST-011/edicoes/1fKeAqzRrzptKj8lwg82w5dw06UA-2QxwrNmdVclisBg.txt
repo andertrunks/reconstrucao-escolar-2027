@@ -1,0 +1,163 @@
+﻿MAT-EST-011 — Amplitude interquartil e box-plot: caixa, bigodes e valores discrepantes — Exercícios
+
+
+Status editorial: RECONSTRUÇÃO EDITORIAL v1.
+Origem: 100% autoral.
+Respostas e correções permanecem em documento separado.
+Camadas: APR 10; CON 10; VES 10; RET 6.
+
+
+A. Aprendizagem
+
+
+MAT-EST-011-EX-APR-01
+Q1 = 12 e Q3 = 20. Calcule a amplitude interquartil.
+
+
+MAT-EST-011-EX-APR-02
+Em uma frase, explique o que a amplitude interquartil resume.
+
+
+MAT-EST-011-EX-APR-03
+Q1 = 10 e Q3 = 18. Calcule a AIQ e os limites inferior e superior pela regra de 1,5 vezes a AIQ.
+
+
+MAT-EST-011-EX-APR-04
+Usando os limites da questão anterior, um valor igual a 31 é sinalizado pela regra? Justifique.
+
+
+MAT-EST-011-EX-APR-05
+Em um box-plot, o que representa a linha desenhada dentro da caixa?
+
+
+MAT-EST-011-EX-APR-06
+No box-plot modificado de Tukey, os bigodes precisam terminar exatamente nos limites Q1 menos 1,5 AIQ e Q3 mais 1,5 AIQ? Explique.
+
+
+MAT-EST-011-EX-APR-07
+Por que a AIQ é menos sensível a um valor extremo do que a amplitude total?
+
+
+MAT-EST-011-EX-APR-08
+Um ponto aparece além do bigode. É correto afirmar, só por isso, que houve erro de digitação? Explique.
+
+
+MAT-EST-011-EX-APR-09
+Se Q1 = Q3 = 7, qual é a AIQ? O que isso indica sobre a metade central segundo a convenção usada?
+
+
+MAT-EST-011-EX-APR-10
+Complete: a caixa do box-plot se estende de ______ a ______, e seu comprimento numérico corresponde à ______.
+
+
+B. Consolidação
+
+
+MAT-EST-011-EX-CON-01
+Considere 2, 3, 4, 5, 6, 7, 8, 20. Use mediana das metades. Calcule Q1, Q3, AIQ, limites de 1,5 AIQ e identifique pontos sinalizados.
+
+
+MAT-EST-011-EX-CON-02
+Um conjunto tem AIQ igual a 6. Todos os valores recebem mais 10 unidades. Qual será a nova AIQ? Justifique algebricamente.
+
+
+MAT-EST-011-EX-CON-03
+Um conjunto tem AIQ igual a 4 centímetros. Todos os valores são multiplicados por 3. Qual será a nova AIQ, em centímetros?
+
+
+MAT-EST-011-EX-CON-04
+O grupo A tem Q1=10, mediana=15 e Q3=20. O grupo B tem Q1=12, mediana=15 e Q3=18. Compare centro e dispersão central.
+
+
+MAT-EST-011-EX-CON-05
+Dois grupos têm AIQ igual a 8. O primeiro tem mediana 30 e o segundo mediana 45. O que pode e o que não pode ser concluído?
+
+
+MAT-EST-011-EX-CON-06
+Dois box-plots convencionais têm exatamente a mesma aparência. Podemos concluir que os grupos têm o mesmo tamanho amostral? Explique.
+
+
+MAT-EST-011-EX-CON-07
+Use mediana das metades em 1, 1, 1, 1, 2, 2, 2, 10. Calcule Q1, Q3, AIQ, limites e identifique ponto sinalizado.
+
+
+MAT-EST-011-EX-CON-08
+Q1=20, Q3=30 e, portanto, AIQ=10. O limite superior é 45. Os dados observados acima de Q3 são 32, 36, 41 e 60. Onde termina o bigode superior no box-plot modificado? Qual ponto é mostrado separadamente?
+
+
+MAT-EST-011-EX-CON-09
+Uma transformação y = -x é aplicada a todos os dados. O que acontece com a AIQ? Explique por que é necessário reordenar os valores.
+
+
+MAT-EST-011-EX-CON-10
+Explique uma situação em que um histograma revela informação importante que um box-plot pode esconder.
+
+
+C. Vestibular e ponte universitária
+
+
+MAT-EST-011-EX-VES-01
+Uma empresa compara tempos de atendimento de dois turnos. Ambos têm mediana 12 minutos. O turno A tem AIQ 4 e o B tem AIQ 9. Qual afirmação é sustentada? A) A média de A é menor. B) Os 50% centrais de A estão mais concentrados. C) B tem necessariamente mais atendimentos. D) A não possui valores extremos.
+
+
+MAT-EST-011-EX-VES-02
+Em uma amostra, Q1=50 e Q3=70. Um valor 105 foi observado. Pela regra de 1,5 AIQ, como ele deve ser representado num box-plot modificado? Mostre a conta.
+
+
+MAT-EST-011-EX-VES-03
+Um pesquisador remove todos os pontos além de 1,5 AIQ antes de analisar os dados. Avalie criticamente esse procedimento.
+
+
+MAT-EST-011-EX-VES-04
+Dois box-plots têm caixas de mesmo comprimento, mas medianas diferentes. O que essa informação diz sobre AIQ e posição central?
+
+
+MAT-EST-011-EX-VES-05
+Um gráfico apresenta bigodes no mínimo e no máximo, sem pontos separados. Outro usa bigodes até a última observação dentro dos limites de 1,5 AIQ. Por que comparar visualmente os comprimentos dos bigodes sem conhecer a convenção pode ser enganoso?
+
+
+MAT-EST-011-EX-VES-06
+Após converter temperaturas de graus Celsius para uma escala y = 1,8x + 32, o que acontece com a AIQ? Justifique sem recalcular cada quartil individualmente.
+
+
+MAT-EST-011-EX-VES-07
+Uma distribuição discreta tem muitos empates e AIQ=0. O que ocorre com a regra de 1,5 AIQ e por que isso exige cautela?
+
+
+MAT-EST-011-EX-VES-08
+Um box-plot parece aproximadamente simétrico. Um estudante conclui que a distribuição tem apenas um pico e é normal. Critique a conclusão.
+
+
+MAT-EST-011-EX-VES-09
+Uma prova apresenta box-plots de três turmas sem informar tamanho amostral. Que aspectos podem ser comparados diretamente e qual informação importante não é fornecida pelo box-plot convencional?
+
+
+MAT-EST-011-EX-VES-10
+Uma reportagem diz: 'Todo ponto fora dos bigodes é estatisticamente impossível e deve ser descartado'. Reescreva a frase de forma tecnicamente adequada.
+
+
+D. Reteste independente
+
+
+MAT-EST-011-EX-RET-01
+Em um novo conjunto, Q1=14, Q3=22 e existe um valor 35. Calcule AIQ, limite superior e diga se 35 é sinalizado.
+
+
+MAT-EST-011-EX-RET-02
+Os dados são transformados por y = 5x - 7. A AIQ original é 3. Determine a nova AIQ e explique o papel do termo menos 7.
+
+
+MAT-EST-011-EX-RET-03
+Um grupo X tem mediana 50 e AIQ 5; Y tem mediana 47 e AIQ 3. Produza uma comparação correta em duas frases, sem declarar um 'melhor' grupo.
+
+
+MAT-EST-011-EX-RET-04
+Num box-plot modificado, o limite superior é 100 e os dados acima de Q3 são 82, 95, 108 e 130. Onde termina o bigode superior e quais valores são sinalizados?
+
+
+MAT-EST-011-EX-RET-05
+Explique por que dois conjuntos com o mesmo resumo de cinco números ainda podem ter formas internas diferentes.
+
+
+MAT-EST-011-EX-RET-06
+Sem consultar a aula, descreva um roteiro de quatro a seis passos para interpretar um box-plot com segurança.

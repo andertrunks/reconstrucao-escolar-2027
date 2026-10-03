@@ -1,0 +1,326 @@
+[
+  {
+    "id": "MAT-EST-057-EX-APR-01",
+    "resposta": "8 = 2 + 6.",
+    "resolucao": "A contagem preserva todas as tarefas e identifica o subconjunto que pode entrar na métrica.",
+    "motivosDeErro": [
+      "cálculo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-02",
+    "resposta": "Zero é valor numérico medido; ausente é informação indisponível.",
+    "resolucao": "Uma lacuna não gera e=0 nem uma observação com valor 0.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-03",
+    "resposta": "Zero observações, zero emissões autenticadas.",
+    "resolucao": "São oito alvos previstos apenas no desenho local; não há dados prospectivos executados.",
+    "motivosDeErro": [
+      "memória",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-04",
+    "resposta": "Média dos módulos dos erros; número de pares elegíveis.",
+    "resolucao": "Somam-se |y−previsão| para cada par válido, dividindo pela quantidade dessas tarefas, não pelo total planejado.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-05",
+    "resposta": "Piora local de C de 19,2, acima da guarda dez.",
+    "resolucao": "Os dados já examinados e a regra MAT-EST-049-PROT-v1 permanecem imutáveis; remover falha após vê-la contaminaria a análise.",
+    "motivosDeErro": [
+      "interpretação",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-06",
+    "resposta": "Não. Continua pendente no corte.",
+    "resolucao": "Precisa cumprir a política de vintage e validação antes do escore; guardar provisória é distinto de usá-la.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-07",
+    "resposta": "Diferença documentada entre o procedimento planejado e o efetivamente seguido.",
+    "resolucao": "A ocorrência tem motivo, alcance, relação com o plano, estado e tratamento no relatório.",
+    "motivosDeErro": [
+      "memória",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-08",
+    "resposta": "São casos isolados para ensinar versionamento.",
+    "resolucao": "Não partilham a coorte, o mesmo alvo, a emissão nem a elegibilidade da avaliação principal.",
+    "motivosDeErro": [
+      "interpretação",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-09",
+    "resposta": "25%.",
+    "resolucao": "2/8=1/4=0,25; multiplicar por cem dá vinte e cinco por cento.",
+    "motivosDeErro": [
+      "cálculo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-10",
+    "resposta": "Não.",
+    "resolucao": "Hash comprova correspondência de bytes com um resumo fornecido, não data, autoria ou depósito externo independente.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-01",
+    "resposta": "75% pendentes; não significa taxa de erro de modelo.",
+    "resolucao": "6/8×100=75%; falta de elegibilidade é fluxo de dados, não erro preditivo.",
+    "motivosDeErro": [
+      "cálculo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-02",
+    "resposta": "4 e 3 unidades.",
+    "resolucao": "O módulo elimina o sinal, preservando a distância entre observado e previsto.",
+    "motivosDeErro": [
+      "cálculo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-03",
+    "resposta": "3 unidades.",
+    "resolucao": "|−5|−|−2|=5−2=3. S02 é sandbox e não altera t19.",
+    "motivosDeErro": [
+      "cálculo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-04",
+    "resposta": "3 unidades.",
+    "resolucao": "(|4|+|−2|)/2=(4+2)/2=3; os seis casos pendentes não entram no denominador.",
+    "motivosDeErro": [
+      "cálculo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-05",
+    "resposta": "4 unidades.",
+    "resolucao": "(|3|+|−5|)/2=(3+5)/2=4, limitado aos dois cartões avaliáveis.",
+    "motivosDeErro": [
+      "cálculo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-06",
+    "resposta": "S01 custa 12, S02 custa 2; média 7 pontos.",
+    "resolucao": "Erro +4 gera 3×4=12; −2 gera 2; (12+2)/2=7.",
+    "motivosDeErro": [
+      "cálculo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-07",
+    "resposta": "9 e 5; média 7 pontos.",
+    "resolucao": "Subprevisão +3 custa 9 e superprevisão −5 custa 5; 14/2=7.",
+    "motivosDeErro": [
+      "cálculo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-08",
+    "resposta": "A permanece 2/6; B registra 3/5, se a política permitir.",
+    "resolucao": "A nova fotografia não sobrescreve A; cada corte informa sua elegibilidade. Não se atribui erro sem valores.",
+    "motivosDeErro": [
+      "estratégia",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-09",
+    "resposta": "Não; trata-se de alteração pós-resultado ou exploração.",
+    "resolucao": "Uma regra de exclusão criada depois de conhecer o resultado não pode ser rotulada retrospectivamente como pré-fixada.",
+    "motivosDeErro": [
+      "interpretação",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-10",
+    "resposta": "Não.",
+    "resolucao": "Erros ainda ausentes podem ter módulos arbitrariamente grandes; qualquer teto depende de premissa extra explícita.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-01",
+    "resposta": "Os 25% medem disponibilidade, não acerto.",
+    "resolucao": "Numerador dois indica pares prontos, não previsões dentro de tolerância nem erro menor que limiar.",
+    "motivosDeErro": [
+      "interpretação",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-02",
+    "resposta": "Tratar os seis casos não avaliáveis como seis erros iguais a zero.",
+    "resolucao": "Somar |4|+|−2| e dividir por oito presume erros zero desconhecidos; o MAE dos dois elegíveis é três.",
+    "motivosDeErro": [
+      "estratégia",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-03",
+    "resposta": "Os cinco são resultados conhecidos de outro protocolo e os cartões são ficção separada.",
+    "resolucao": "Escopo, origem, dados e regra diferem; uma média agregada misturaria populações incompatíveis.",
+    "motivosDeErro": [
+      "interpretação",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-04",
+    "resposta": "Não. Quarentenar e reconstruir a versão válida pela política anterior.",
+    "resolucao": "Escolher após ver y introduz uso de informação do alvo na seleção.",
+    "motivosDeErro": [
+      "estratégia",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-05",
+    "resposta": "Preservar A, registrar a nova versão B, corte, evento de chegada, elegibilidade e diferença de contagens.",
+    "resolucao": "Sem apagar vintage anterior e sem mudar silenciosamente os critérios confirmatórios.",
+    "motivosDeErro": [
+      "interpretação",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-06",
+    "resposta": "A primeira calcula consequências condicionais de premissa arbitrária; a segunda exige modelo/inferência estatística adequados.",
+    "resolucao": "Uma hipótese M=10 não gera probabilidade de cobertura nem mede distribuição populacional.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-07",
+    "resposta": "Entre 0,75 e 8,25 unidades, condicionalmente.",
+    "resolucao": "Mínimo 6/8; máximo (6+6×10)/8=66/8=8,25; teto não foi demonstrado.",
+    "motivosDeErro": [
+      "cálculo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-08",
+    "resposta": "Entre 1 e 8,5 unidades, condicionalmente.",
+    "resolucao": "Mínimo 8/8=1; máximo (8+6×10)/8=68/8=8,5.",
+    "motivosDeErro": [
+      "cálculo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-09",
+    "resposta": "Não. As métricas possuem funções de perda diferentes.",
+    "resolucao": "Custo penaliza mais o erro positivo; módulos ignoram direção, então médias podem empatar ou inverter.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-10",
+    "resposta": "Oito alvos só propostos, sem emissão ou observado autenticados; nenhuma métrica futura calculável e nenhum parecer de desempenho.",
+    "resolucao": "Planejamento não gera amostra medida. O histórico t19 continua barrando promoção sob o protocolo antigo.",
+    "motivosDeErro": [
+      "interpretação",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-RET-01",
+    "resposta": "Histórico tem cinco pares conhecidos t18–t22. Quarentena t23–t25 não tem observado e contém cenários expostos. Sucessor t26–t33 tem apenas oito alvos propostos, sem resultados.",
+    "resolucao": "A distinção preserva independência temporal e impede transferir métricas de um escopo a outro.",
+    "motivosDeErro": [
+      "memória",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-RET-02",
+    "resposta": "12=4+5+3; 33,33% avaliáveis; 41,67% pendentes; 25% excluídas, aproximadamente.",
+    "resolucao": "4/12, 5/12 e 3/12 somam 100%; exclusões não se confundem com dados faltantes.",
+    "motivosDeErro": [
+      "cálculo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-RET-03",
+    "resposta": "MAE=7/3≈2,333 unidades; custo médio=(6+4+3)/3=13/3≈4,333 pontos.",
+    "resolucao": "Módulos 2+4+1=7; custo positivo vezes três e negativo pelo módulo.",
+    "motivosDeErro": [
+      "cálculo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-RET-04",
+    "resposta": "Um alvo, duas versões ou vintages.",
+    "resolucao": "Preservar valor original, evento de correção, motivo, versão e fotografia recalculada; não duplicar o denominador.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-RET-05",
+    "resposta": "Métrica indevida por imputação não prevista de ausência como zero; deixar a avaliação pendente e corrigir denominador.",
+    "resolucao": "O custo não existe sem erro definido; documentar ocorrência e retificar versão do relatório sem apagá-la.",
+    "motivosDeErro": [
+      "estratégia",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-057-EX-RET-06",
+    "resposta": "Hash protege comparação de conteúdo; a data textual pode ter sido escrita depois. Falta testemunho temporal independente e evidência de depósito/identidade.",
+    "resolucao": "Separar controle de integridade local de certificação de existência prévia e de execução efetiva.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  }
+]

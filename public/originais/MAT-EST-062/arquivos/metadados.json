@@ -1,0 +1,119 @@
+{
+  "id": "MAT-EST-062",
+  "slug": "manutencao-evidencias-prontidao-publicacao-checklist-auditavel-pendencias-validacao-pos-deploy",
+  "titulo": "Manutenção de evidências e prontidão de publicação: checklist auditável, rastreio de pendências e validação pós-deploy",
+  "materia": "Matemática",
+  "unidade": "Estatística / séries temporais / ponte universitária",
+  "nivel": 6,
+  "ordem": 62,
+  "anterior": "MAT-EST-061",
+  "proximoTopico": "MAT-EST-063",
+  "preRequisitos": [
+    "MAT-EST-049",
+    "MAT-EST-053",
+    "MAT-EST-054",
+    "MAT-EST-056",
+    "MAT-EST-057",
+    "MAT-EST-058",
+    "MAT-EST-059",
+    "MAT-EST-060",
+    "MAT-EST-061"
+  ],
+  "objetivos": [
+    "organizar evidências com escopo, versão e limite",
+    "distinguir completude, prontidão, aprovação e deploy",
+    "identificar invalidação de evidência por mudança",
+    "elaborar roteiro de pós-deploy sem afirmar execução",
+    "classificar pendências e comunicar bloqueios"
+  ],
+  "conceitosRelacionados": [
+    "média e denominador",
+    "proveniência",
+    "hash SHA-256",
+    "evidência humana",
+    "gestão de pendências",
+    "dependências entre controles",
+    "testes de regressão",
+    "validação de publicação"
+  ],
+  "examesRelacionados": [
+    "interpretação matemática e leitura crítica transferível a ENEM e vestibulares; deploy é ponte universitária e não exigência de prova atribuída"
+  ],
+  "origem": "autoral",
+  "questoesOficiais": 0,
+  "questoesAutorais": 36,
+  "aulaMarkdown": "MAT-EST-062-manutencao-evidencias-prontidao-publicacao-checklist-auditavel-pendencias-validacao-pos-deploy.md",
+  "exercicios": "exercicios.json",
+  "gabarito": "gabarito-comentado.json",
+  "visuais": [
+    {
+      "src": "assets/01-estados-g1-g8.svg",
+      "alt": "G1 e G2 conferidos localmente; G3 a G6 pendentes; G7 e G8 não executados.",
+      "autoria": "produção original do projeto"
+    },
+    {
+      "src": "assets/02-cadeia-de-evidencia.svg",
+      "alt": "Afirmação, versão congelada, teste, resultado e responsável formam cadeia de rastreabilidade.",
+      "autoria": "produção original do projeto"
+    },
+    {
+      "src": "assets/03-validade-das-evidencias.svg",
+      "alt": "Se o arquivo de fonte muda, medições vinculadas ao hash antigo não validam a nova versão.",
+      "autoria": "produção original do projeto"
+    },
+    {
+      "src": "assets/04-maquina-estados.svg",
+      "alt": "O material só passa de preparado a publicado após aprovação e deploy verificável; pós-deploy é outro estágio.",
+      "autoria": "produção original do projeto"
+    },
+    {
+      "src": "assets/05-amostra-nao-prontidao.svg",
+      "alt": "No sandbox dois de oito pares são avaliáveis, mas dois de oito controles locais não medem prontidão global.",
+      "autoria": "produção original do projeto"
+    },
+    {
+      "src": "assets/06-pos-deploy-e-restauracao.svg",
+      "alt": "Comparar um ZIP numa pasta temporária não confirma como se comporta um site público.",
+      "autoria": "produção original do projeto"
+    }
+  ],
+  "video": {
+    "titulo": "Evaluation Tools Overview",
+    "canal": "W3C Web Accessibility Initiative",
+    "url": "https://www.w3.org/WAI/test-evaluate/tools/",
+    "idioma": "inglês; transcrição descritiva",
+    "duracaoAproximada": null,
+    "momento": "após seção 8",
+    "porQueEscolhido": "limites da automação e papel de revisão humana",
+    "verificacao": "página pública com vídeo e transcrição consultada; reprodução integral e duração não conferidas"
+  },
+  "fontes": [
+    {
+      "nome": "W3C WAI, ferramentas de avaliação e transcrição",
+      "url": "https://www.w3.org/WAI/test-evaluate/tools/"
+    },
+    {
+      "nome": "W3C WAI, modelo de relatório",
+      "url": "https://www.w3.org/WAI/test-evaluate/report-template/"
+    },
+    {
+      "nome": "Microsoft Edge, modo de leitura",
+      "url": "https://support.microsoft.com/pt-br/edge/use-immersive-reader-in-microsoft-edge"
+    }
+  ],
+  "origemDosDados": "cadeia fictícia herdada e cenários artificiais de validação, sem dados externos",
+  "progressoIndividualAlterado": false,
+  "estudoRegistrado": false,
+  "publicacaoSite": false,
+  "sincronizacaoDrive": false,
+  "sincronizacaoGithub": false,
+  "testeManualEdge": false,
+  "revisaoHumanaReal": false,
+  "reproducaoVideoIntegral": false,
+  "previa": "HTML local e PNG ilustrativa, sem deploy",
+  "proximaAula": {
+    "id": "MAT-EST-063",
+    "titulo": "Gestão de incidentes editoriais: classificação de falhas, comunicação de impacto e reteste de correções",
+    "estado": "proposta não iniciada"
+  }
+}

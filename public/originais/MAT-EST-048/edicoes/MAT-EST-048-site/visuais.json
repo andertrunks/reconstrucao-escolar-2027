@@ -1,0 +1,79 @@
+[
+  {
+    "id": "MAT-EST-048-VIS-01",
+    "arquivo": "assets/01-cronologia-registro.svg",
+    "titulo": "Registro: emitir antes de observar",
+    "legenda": "Registro: emitir antes de observar",
+    "alt": "Em cada t13 a t18 uma emissão de ordem ímpar antecede a chegada de ordem par.",
+    "oQueObservar": "Leia as ordens de emissão e chegada, não datas de calendário inventadas.",
+    "conclusaoTextual": "O encadeamento preserva a causalidade informacional na simulação; não fabrica teste prospectivo real.",
+    "autoria": "autoral",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-048-VIS-02",
+    "arquivo": "assets/02-erros-por-chegada.svg",
+    "titulo": "Erros assinados por chegada simulada",
+    "legenda": "Erros assinados por chegada simulada",
+    "alt": "Erros pequenos até t15; valores positivos bem maiores em t16 a t18.",
+    "oQueObservar": "Compare direção, escala, unidades e sequências, não somente cores.",
+    "conclusaoTextual": "O padrão foi construído no cenário; ele justifica investigação, não diagnóstico causal ou teste formal de deriva.",
+    "autoria": "autoral",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-048-VIS-03",
+    "arquivo": "assets/03-janela-gatilho.svg",
+    "titulo": "Janela móvel e gatilho de revisão",
+    "legenda": "Janela móvel e gatilho de revisão",
+    "alt": "Até t15 nenhum erro supera quatro; t16, t17 e t18 superam quatro.",
+    "oQueObservar": "A condição só é testada com três chegadas maduras e exige dois valores altos.",
+    "conclusaoTextual": "O gatilho de investigação aciona revisão humana; não prova mudança estatística ou validade operacional.",
+    "autoria": "autoral",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-048-VIS-04",
+    "arquivo": "assets/04-comparacao-janelas.svg",
+    "titulo": "Comparação de erros em duas janelas",
+    "legenda": "Comparação de erros em duas janelas",
+    "alt": "Leia média assinada, MAE e RMSE em cada bloco de três.",
+    "oQueObservar": "O bloco mais recente apresenta erros positivos maiores por construção do cenário.",
+    "conclusaoTextual": "Uma comparação curta serve à triagem e não controla sazonalidade nem estabelece deriva verdadeira.",
+    "autoria": "autoral",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-048-VIS-05",
+    "arquivo": "assets/05-classes-de-alerta.svg",
+    "titulo": "Quatro classes de sinais de mudança",
+    "legenda": "Quatro classes de sinais de mudança",
+    "alt": "Os registros trimestrais possuem Y, mas não covariáveis externas de X.",
+    "oQueObservar": "Não confunda erro grande, falha no dado, deslocamento da entrada e mudança da relação.",
+    "conclusaoTextual": "Sem X externo nem amostra suficiente, a simulação não demonstra qual mudança, se alguma, ocorreu.",
+    "autoria": "autoral",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-048-VIS-06",
+    "arquivo": "assets/06-protocolo-revisao.svg",
+    "titulo": "Protocolo de revisão sem retreino automático",
+    "legenda": "Protocolo de revisão sem retreino automático",
+    "alt": "Veja que a aprovação é posterior à verificação de dados e teste separado.",
+    "oQueObservar": "Não se substitui um modelo só porque três erros ilustrativos ultrapassaram o limite.",
+    "conclusaoTextual": "Toda mudança precisa de versão, critério anterior, validação separada e responsabilidade humana.",
+    "autoria": "autoral",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-048-VIS-07",
+    "arquivo": "assets/07-emissoes-pendentes.svg",
+    "titulo": "Previsões ainda sem observado",
+    "legenda": "Previsões ainda sem observado",
+    "alt": "Veja que as métricas ficam em branco enquanto o alvo não chega.",
+    "oQueObservar": "Separar emissão e chegada impede preencher uma previsão com o futuro ou contar pendências como acertos.",
+    "conclusaoTextual": "A política mantém a métrica calculada somente nas tarefas maduras e com rastro verificável.",
+    "autoria": "autoral",
+    "licenca": "uso_no_projeto"
+  }
+]

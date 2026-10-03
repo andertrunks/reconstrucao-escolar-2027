@@ -1,0 +1,551 @@
+{
+  "id": "MAT-EST-004",
+  "version": "publicacao-2026-10-03-v1",
+  "objective": "1. Objetivo\n\n\nAo concluir o estudo real desta aula e resolver as atividades sem consultar previamente o gabarito, o estudante deverá ser capaz de:\n\n\n• reconhecer os elementos fundamentais de um gráfico estatístico;\n• diferenciar gráfico de barras ou colunas, gráfico de setores, gráfico de linhas e histograma;\n• escolher uma representação adequada ao tipo de variável e à pergunta que está sendo respondida;\n• construir representações simples a partir de tabelas de frequência;\n• interpretar corretamente escalas, unidades, eixos, legendas, fontes, datas e denominadores;\n• distinguir gráfico de barras de histograma;\n• compreender por que setores circulares representam partes de um todo;\n• relacionar frequência relativa e ângulo de um setor;\n• interpretar evolução temporal em gráficos de linhas;\n• reconhecer gráficos potencialmente enganosos por escala truncada, área desproporcional, perspectiva tridimensional ou omissão de contexto;\n• descrever um gráfico em palavras de forma suficiente para estudo por áudio;\n• resolver situações autorais no estilo ENEM, FUVEST, UNICAMP e UNESP sem depender de “macetes”.\n\n\n",
+  "prerequisites": [
+    "MAT-EST-001",
+    "MAT-EST-002",
+    "MAT-EST-003"
+  ],
+  "why": "MAT-EST-004 — Gráficos estatísticos: barras, setores, linhas, histogramas e escolha da representação\n\n\nStatus editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.\nMatéria: Matemática.\nUnidade: Estatística.\nNível principal: 2 — Ensino Fundamental II, com progressão para Ensino Médio e vestibulares.\nPré-requisitos conceituais: MAT-EST-001 — população, amostra, variável e dado; MAT-EST-002 — censo, amostragem e representatividade; MAT-EST-003 — frequências absoluta, relativa e acumulada. Frações, porcentagens e ângulos serão retomados quando necessários.\nPróximo tópico: MAT-EST-005 — Média aritmética: significado, cálculo, média ponderada e efeito de valores extremos.\nOrigem das questões desta reconstrução: 100% autoral.\n\n\n",
+  "intuitive": [],
+  "deep": [],
+  "vocabulary": [],
+  "examples": [],
+  "visuals": [
+    {
+      "url": "media/MAT-EST-004/01-barras-categorias.svg",
+      "caption": "Barras: comparação de categorias.",
+      "alt": "Gráfico com eixo horizontal contendo Ônibus, Carro, A pé e Bicicleta; eixo vertical de zero a cinquenta pessoas. Barras têm alturas quarenta e cinco, vinte e cinco, vinte e dez.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Gráfico com eixo horizontal contendo Ônibus, Carro, A pé e Bicicleta; eixo vertical de zero a cinquenta pessoas. Barras têm alturas quarenta e cinco, vinte e cinco, vinte e dez."
+    },
+    {
+      "url": "media/MAT-EST-004/02-setores-parte-todo.svg",
+      "caption": "Setores: parte do todo.",
+      "alt": "Círculo dividido em quatro setores rotulados 45 por cento, 25 por cento, 20 por cento e 10 por cento; ao lado aparecem os ângulos 162, 90, 72 e 36 graus.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Círculo dividido em quatro setores rotulados 45 por cento, 25 por cento, 20 por cento e 10 por cento; ao lado aparecem os ângulos 162, 90, 72 e 36 graus."
+    },
+    {
+      "url": "media/MAT-EST-004/03-linha-temporal.svg",
+      "caption": "Linha temporal.",
+      "alt": "Eixo horizontal com janeiro a maio; eixo vertical em minutos de oito a dezesseis. Valores janeiro doze, fevereiro onze, março quinze, abril quatorze e maio dez. O pico é março e o menor valor é maio.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Eixo horizontal com janeiro a maio; eixo vertical em minutos de oito a dezesseis. Valores janeiro doze, fevereiro onze, março quinze, abril quatorze e maio dez. O pico é março e o menor valor é maio."
+    },
+    {
+      "url": "media/MAT-EST-004/04-barras-versus-histograma.svg",
+      "caption": "Barras versus histograma.",
+      "alt": "Painel esquerdo mostra barras separadas para categorias A, B e C. Painel direito mostra barras encostadas para intervalos numéricos zero a cinco, cinco a dez e dez a quinze.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Painel esquerdo mostra barras separadas para categorias A, B e C. Painel direito mostra barras encostadas para intervalos numéricos zero a cinco, cinco a dez e dez a quinze."
+    },
+    {
+      "url": "media/MAT-EST-004/05-escala-truncada.svg",
+      "caption": "Escala enganosa.",
+      "alt": "Dois gráficos mostram valores noventa e dois e noventa e seis. À esquerda o eixo vai de zero a cem e as barras são parecidas. À direita o eixo vai de noventa a cem e a barra de noventa e seis parece três vezes a de noventa e dois acima da linha de base.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Dois gráficos mostram valores noventa e dois e noventa e seis. À esquerda o eixo vai de zero a cem e as barras são parecidas. À direita o eixo vai de noventa a cem e a barra de noventa e seis parece três vezes a de noventa e dois acima da linha de base."
+    },
+    {
+      "url": "media/MAT-EST-004/06-arvore-escolha-grafico.svg",
+      "caption": "Árvore de escolha.",
+      "alt": "Fluxograma pergunta se o objetivo é destacar evolução em sequência, comparar categorias, mostrar partes de um único total ou mostrar distribuição quantitativa em intervalos; as saídas sugerem linha, barras, setores ou histograma.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Fluxograma pergunta se o objetivo é destacar evolução em sequência, comparar categorias, mostrar partes de um único total ou mostrar distribuição quantitativa em intervalos; as saídas sugerem linha, barras, setores ou histograma."
+    }
+  ],
+  "applications": [],
+  "connections": [],
+  "commonErrors": [],
+  "learning": [
+    "MAT-EST-004-EX-APR-01",
+    "MAT-EST-004-EX-APR-02",
+    "MAT-EST-004-EX-APR-03",
+    "MAT-EST-004-EX-APR-04",
+    "MAT-EST-004-EX-APR-05",
+    "MAT-EST-004-EX-APR-06",
+    "MAT-EST-004-EX-APR-07",
+    "MAT-EST-004-EX-APR-08",
+    "MAT-EST-004-EX-APR-09",
+    "MAT-EST-004-EX-APR-10"
+  ],
+  "consolidation": [
+    "MAT-EST-004-EX-CON-01",
+    "MAT-EST-004-EX-CON-02",
+    "MAT-EST-004-EX-CON-03",
+    "MAT-EST-004-EX-CON-04",
+    "MAT-EST-004-EX-CON-05",
+    "MAT-EST-004-EX-CON-06",
+    "MAT-EST-004-EX-CON-07",
+    "MAT-EST-004-EX-CON-08",
+    "MAT-EST-004-EX-CON-09",
+    "MAT-EST-004-EX-CON-10"
+  ],
+  "entrance": [
+    "MAT-EST-004-EX-VES-01",
+    "MAT-EST-004-EX-VES-02",
+    "MAT-EST-004-EX-VES-03",
+    "MAT-EST-004-EX-VES-04",
+    "MAT-EST-004-EX-VES-05",
+    "MAT-EST-004-EX-VES-06",
+    "MAT-EST-004-EX-VES-07",
+    "MAT-EST-004-EX-VES-08",
+    "MAT-EST-004-EX-VES-09",
+    "MAT-EST-004-EX-VES-10"
+  ],
+  "retest": [
+    "MAT-EST-004-EX-RET-01",
+    "MAT-EST-004-EX-RET-02",
+    "MAT-EST-004-EX-RET-03",
+    "MAT-EST-004-EX-RET-04",
+    "MAT-EST-004-EX-RET-05",
+    "MAT-EST-004-EX-RET-06"
+  ],
+  "solutions": [],
+  "summary": "41. Resumo para revisão\n\n\nBarras:\ncompare categorias por comprimento.\n\n\nSetores:\nrepresente partes de um único total.\n\n\nLinhas:\ndestaque evolução em sequência ordenada, especialmente tempo.\n\n\nHistograma:\nmostre distribuição quantitativa por intervalos.\n\n\nGráfico de barras e histograma não são a mesma coisa.\n\n\nEm barras, zero é geralmente importante porque comprimento codifica magnitude.\n\n\nEm linhas, o eixo pode não começar em zero, desde que a escala seja clara e adequada ao objetivo.\n\n\nNo setor:\n\n\nângulo = 360° × frequência relativa.\n\n\nLeia sempre título, eixos, unidades, escala, legenda, fonte e período.\n\n\nNão aceite 3D, áreas ampliadas, truncamentos ou decoração sem perguntar se alteram a percepção.\n\n\nNão transforme tendência em causa.\n\n\n",
+  "audioVersion": "35. Acessibilidade: como descrever um gráfico em áudio\n\n\nUm gráfico importante precisa continuar inteligível sem visão.\n\n\nModelo de descrição:\n\n\nTítulo:\n“Tempo médio de espera por mês, de janeiro a maio.”\n\n\nEixo horizontal:\n“Meses de janeiro a maio.”\n\n\nEixo vertical:\n“Tempo médio, em minutos, de zero a dezesseis, em intervalos de dois.”\n\n\nValores:\n“Janeiro 12; fevereiro 11; março 15; abril 14; maio 10.”\n\n\nTendência principal:\n“O valor cresce de fevereiro para março e cai até maio.”\n\n\nConclusão:\n“O maior valor observado é 15 minutos em março; o menor é 10 minutos em maio.”\n\n\nA descrição não precisa narrar cada pixel. Precisa transportar a informação estatística essencial.\n\n\n",
+  "sections": [
+    {
+      "id": "MAT-EST-004-s000",
+      "title": "Apresentação e contexto da fonte",
+      "paragraphs": [],
+      "markdown": "MAT-EST-004 — Gráficos estatísticos: barras, setores, linhas, histogramas e escolha da representação\n\n\nStatus editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.\nMatéria: Matemática.\nUnidade: Estatística.\nNível principal: 2 — Ensino Fundamental II, com progressão para Ensino Médio e vestibulares.\nPré-requisitos conceituais: MAT-EST-001 — população, amostra, variável e dado; MAT-EST-002 — censo, amostragem e representatividade; MAT-EST-003 — frequências absoluta, relativa e acumulada. Frações, porcentagens e ângulos serão retomados quando necessários.\nPróximo tópico: MAT-EST-005 — Média aritmética: significado, cálculo, média ponderada e efeito de valores extremos.\nOrigem das questões desta reconstrução: 100% autoral.\n\n\n",
+      "sourceStart": 0,
+      "sourceEnd": 771
+    },
+    {
+      "id": "MAT-EST-004-s001",
+      "title": "1. Objetivo",
+      "paragraphs": [],
+      "markdown": "1. Objetivo\n\n\nAo concluir o estudo real desta aula e resolver as atividades sem consultar previamente o gabarito, o estudante deverá ser capaz de:\n\n\n• reconhecer os elementos fundamentais de um gráfico estatístico;\n• diferenciar gráfico de barras ou colunas, gráfico de setores, gráfico de linhas e histograma;\n• escolher uma representação adequada ao tipo de variável e à pergunta que está sendo respondida;\n• construir representações simples a partir de tabelas de frequência;\n• interpretar corretamente escalas, unidades, eixos, legendas, fontes, datas e denominadores;\n• distinguir gráfico de barras de histograma;\n• compreender por que setores circulares representam partes de um todo;\n• relacionar frequência relativa e ângulo de um setor;\n• interpretar evolução temporal em gráficos de linhas;\n• reconhecer gráficos potencialmente enganosos por escala truncada, área desproporcional, perspectiva tridimensional ou omissão de contexto;\n• descrever um gráfico em palavras de forma suficiente para estudo por áudio;\n• resolver situações autorais no estilo ENEM, FUVEST, UNICAMP e UNESP sem depender de “macetes”.\n\n\n",
+      "sourceStart": 771,
+      "sourceEnd": 1890
+    },
+    {
+      "id": "MAT-EST-004-s002",
+      "title": "2. Por que os gráficos existem?",
+      "paragraphs": [],
+      "markdown": "2. Por que os gráficos existem?\n\n\nUma tabela organiza valores com precisão. Um gráfico procura tornar relações visíveis mais rapidamente.\n\n\nConsidere uma pesquisa com 100 respostas:\n\n\nÔnibus: 45.\nCarro: 25.\nA pé: 20.\nBicicleta: 10.\n\n\nA tabela é excelente para consultar valores exatos. Um gráfico de barras permite perceber quase imediatamente que “ônibus” é a categoria mais frequente e que “bicicleta” é a menos frequente.\n\n\nPortanto, gráfico e tabela não são rivais. Eles respondem a necessidades diferentes.\n\n\nA tabela favorece leitura numérica exata.\nO gráfico favorece reconhecimento de forma, comparação, tendência, concentração e contraste.\n\n\nUm bom gráfico deve tornar uma relação mais compreensível sem alterar o significado dos dados.\n\n\n",
+      "sourceStart": 1890,
+      "sourceEnd": 2638
+    },
+    {
+      "id": "MAT-EST-004-s003",
+      "title": "3. Um gráfico não é apenas um desenho",
+      "paragraphs": [],
+      "markdown": "3. Um gráfico não é apenas um desenho\n\n\nAntes de interpretar qualquer gráfico, procure:\n\n\n• título;\n• eixo horizontal;\n• eixo vertical;\n• variável representada;\n• unidades;\n• escala;\n• categorias ou intervalos;\n• legenda, se houver mais de uma série ou codificação;\n• fonte dos dados;\n• período de referência;\n• tamanho da amostra ou universo, quando relevante;\n• observações metodológicas.\n\n\nA ausência de um desses elementos não torna automaticamente o gráfico inválido, mas pode limitar o que é possível concluir.\n\n\nExemplo.\n\n\nTítulo: “Tempo médio de espera por mês — Unidade X, janeiro a junho”.\nEixo horizontal: meses.\nEixo vertical: tempo médio de espera, em minutos.\nFonte: sistema interno de atendimentos.\nPeríodo: janeiro a junho.\n\n\nEsse gráfico comunica muito mais do que uma figura com seis pontos sem rótulos.\n\n\n",
+      "sourceStart": 2638,
+      "sourceEnd": 3462
+    },
+    {
+      "id": "MAT-EST-004-s004",
+      "title": "4. Gráfico de barras e gráfico de colunas",
+      "paragraphs": [],
+      "markdown": "4. Gráfico de barras e gráfico de colunas\n\n\nGráficos de barras e de colunas são essencialmente a mesma família.\n\n\nNo gráfico de colunas, as barras são verticais.\nNo gráfico de barras, são horizontais.\n\n\nEles são especialmente úteis para comparar categorias distintas.\n\n\nExemplos de categorias:\n\n\n• meio de transporte;\n• curso escolhido;\n• região;\n• tipo de produto;\n• categoria de resposta;\n• quantidade de ocorrências por grupo.\n\n\nCada barra representa uma categoria e seu comprimento ou altura é proporcional ao valor mostrado.\n\n\nRegra central: em um gráfico de barras, o comprimento da barra é o portador visual da magnitude.\n\n\nSe uma barra representa 40 e outra representa 20, a primeira deve ter aproximadamente o dobro do comprimento da segunda quando a escala é linear.\n\n\n",
+      "sourceStart": 3462,
+      "sourceEnd": 4241
+    },
+    {
+      "id": "MAT-EST-004-s005",
+      "title": "5. Por que geralmente usamos zero no eixo de barras?",
+      "paragraphs": [],
+      "markdown": "5. Por que geralmente usamos zero no eixo de barras?\n\n\nComo a percepção da barra depende do comprimento, cortar o eixo vertical pode exagerar diferenças.\n\n\nImagine duas categorias:\n\n\nA = 92.\nB = 96.\n\n\nSe o eixo começa em zero, a diferença visual é pequena, como os números sugerem.\n\n\nSe o eixo começa em 90, a barra de A terá comprimento visual 2 e a de B terá comprimento 6 acima da linha de base. Visualmente, B parecerá três vezes maior, embora 96 seja apenas cerca de 4,3% maior que 92.\n\n\nPor isso, em gráficos de barras, uma linha de base zero é uma regra de boa prática na maioria das comparações de magnitude.\n\n\nExistem exceções técnicas, mas uma quebra ou truncamento deve ser claramente indicado e justificado.\n\n\n",
+      "sourceStart": 4241,
+      "sourceEnd": 4963
+    },
+    {
+      "id": "MAT-EST-004-s006",
+      "title": "6. Ordem das barras",
+      "paragraphs": [],
+      "markdown": "6. Ordem das barras\n\n\nEm variáveis nominais, as categorias não possuem ordem natural obrigatória.\n\n\nPodemos ordenar:\n\n\n• alfabeticamente;\n• por frequência crescente;\n• por frequência decrescente;\n• por uma ordem institucional previamente definida.\n\n\nA escolha pode facilitar a leitura.\n\n\nEm variáveis ordinais, devemos normalmente respeitar a ordem conceitual.\n\n\nExemplo:\n\n\nruim → regular → bom → ótimo.\n\n\nOrdenar essas categorias apenas pela frequência pode apagar o sentido de progressão.\n\n\n",
+      "sourceStart": 4963,
+      "sourceEnd": 5456
+    },
+    {
+      "id": "MAT-EST-004-s007",
+      "title": "7. Gráfico de setores",
+      "paragraphs": [],
+      "markdown": "7. Gráfico de setores\n\n\nO gráfico de setores, também chamado gráfico circular ou popularmente gráfico de pizza, representa partes de um todo.\n\n\nO círculo completo corresponde a 100% e a 360 graus.\n\n\nSe uma categoria representa uma fração do total, seu setor representa a mesma fração do círculo.\n\n\nFórmula:\n\n\nθᵢ = 360° × frᵢ.\n\n\nLeitura pronunciável:\n“teta índice i é igual a trezentos e sessenta graus multiplicado pela frequência relativa da categoria i”.\n\n\nOnde:\nθᵢ é o ângulo do setor;\nfrᵢ é a frequência relativa, escrita entre zero e um.\n\n\nExemplo.\n\n\nÔnibus representa 45%:\n\n\nfr = 0,45.\n\n\nθ = 360° × 0,45 = 162°.\n\n\nCarro representa 25%:\n\n\nθ = 360° × 0,25 = 90°.\n\n\nA pé representa 20%:\n\n\nθ = 72°.\n\n\nBicicleta representa 10%:\n\n\nθ = 36°.\n\n\nControle:\n\n\n162° + 90° + 72° + 36° = 360°.\n\n\n",
+      "sourceStart": 5456,
+      "sourceEnd": 6243
+    },
+    {
+      "id": "MAT-EST-004-s008",
+      "title": "8. De onde vem a fórmula do setor?",
+      "paragraphs": [],
+      "markdown": "8. De onde vem a fórmula do setor?\n\n\nO círculo inteiro tem 360 graus.\n\n\nSe uma categoria representa metade do total, deve ocupar metade do círculo:\n\n\n1/2 × 360° = 180°.\n\n\nSe representa um quarto:\n\n\n1/4 × 360° = 90°.\n\n\nSe representa 10%:\n\n\n0,10 × 360° = 36°.\n\n\nA fórmula é apenas a ideia de proporcionalidade aplicada ao círculo completo.\n\n\n",
+      "sourceStart": 6243,
+      "sourceEnd": 6583
+    },
+    {
+      "id": "MAT-EST-004-s009",
+      "title": "9. Quando usar gráfico de setores?",
+      "paragraphs": [],
+      "markdown": "9. Quando usar gráfico de setores?\n\n\nEle funciona melhor quando:\n\n\n• as categorias são partes mutuamente exclusivas de um mesmo total;\n• a soma corresponde a 100%;\n• há poucas categorias;\n• o objetivo é mostrar composição.\n\n\nEle funciona pior quando:\n\n\n• existem muitas categorias pequenas;\n• as diferenças entre categorias são muito próximas;\n• as categorias não formam um único todo;\n• uma pessoa pode aparecer em várias categorias simultaneamente;\n• precisamos comparar vários grupos diferentes;\n• valores exatos são importantes.\n\n\nSe as categorias tiverem 23%, 22%, 21%, 19% e 15%, um gráfico de barras tende a permitir comparação mais precisa do que setores de tamanhos próximos.\n\n\n",
+      "sourceStart": 6583,
+      "sourceEnd": 7270
+    },
+    {
+      "id": "MAT-EST-004-s010",
+      "title": "10. Por que um gráfico de setores pode enganar?",
+      "paragraphs": [],
+      "markdown": "10. Por que um gráfico de setores pode enganar?\n\n\nO olho humano compara comprimentos com mais precisão do que áreas e ângulos.\n\n\nAlém disso, efeitos tridimensionais podem fazer setores frontais parecerem maiores por perspectiva.\n\n\nPor isso:\n\n\n• evite gráficos circulares tridimensionais;\n• evite explosões decorativas que deslocam um setor;\n• escreva percentuais ou valores quando a precisão importa;\n• não use área do desenho para representar algo diferente do percentual real.\n\n\n",
+      "sourceStart": 7270,
+      "sourceEnd": 7751
+    },
+    {
+      "id": "MAT-EST-004-s011",
+      "title": "11. Gráfico de linhas",
+      "paragraphs": [],
+      "markdown": "11. Gráfico de linhas\n\n\nO gráfico de linhas conecta pontos associados a uma sequência ordenada, frequentemente o tempo.\n\n\nExemplo:\n\n\nMês: janeiro, fevereiro, março, abril, maio.\nAtendimentos: 80, 95, 90, 120, 130.\n\n\nO eixo horizontal representa o tempo.\nO eixo vertical representa a quantidade de atendimentos.\n\n\nA linha ajuda a perceber:\n\n\n• crescimento;\n• queda;\n• estabilidade;\n• mudança de direção;\n• picos;\n• vales;\n• padrões temporais.\n\n\n",
+      "sourceStart": 7751,
+      "sourceEnd": 8195
+    },
+    {
+      "id": "MAT-EST-004-s012",
+      "title": "12. Quando uma linha sugere continuidade?",
+      "paragraphs": [],
+      "markdown": "12. Quando uma linha sugere continuidade?\n\n\nAo ligar janeiro a fevereiro com um segmento, criamos uma impressão visual de transição.\n\n\nIsso é razoável quando o eixo possui ordem e a continuidade faz sentido.\n\n\nNão devemos ligar com linhas categorias nominais como:\n\n\nazul → verde → vermelho → amarelo\n\n\napenas porque aparecem nessa ordem.\n\n\nA linha sugeriria um caminho ou sequência que não existe no fenômeno.\n\n\n",
+      "sourceStart": 8195,
+      "sourceEnd": 8608
+    },
+    {
+      "id": "MAT-EST-004-s013",
+      "title": "13. Barras ou linhas para dados no tempo?",
+      "paragraphs": [],
+      "markdown": "13. Barras ou linhas para dados no tempo?\n\n\nAs duas representações podem ser adequadas, mas enfatizam coisas diferentes.\n\n\nBarras:\núteis para comparar totais de períodos discretos.\n\n\nLinhas:\núteis para destacar evolução e tendência.\n\n\nExemplo:\n\n\n“Vendas em cada ano” pode aparecer em barras.\n“Como as vendas mudaram ao longo de dez anos” frequentemente fica mais legível em linha.\n\n\nA pergunta orienta a escolha.\n\n\n",
+      "sourceStart": 8608,
+      "sourceEnd": 9023
+    },
+    {
+      "id": "MAT-EST-004-s014",
+      "title": "14. O eixo de uma linha precisa começar em zero?",
+      "paragraphs": [],
+      "markdown": "14. O eixo de uma linha precisa começar em zero?\n\n\nNão necessariamente.\n\n\nEm um gráfico de linhas, o foco muitas vezes é a variação, e exigir zero pode comprimir oscilações relevantes.\n\n\nPor exemplo, temperaturas entre 18 e 24 graus Celsius podem ser mostradas em um eixo de 15 a 25 graus, desde que a escala esteja clara.\n\n\nMas há uma condição:\n\n\no leitor precisa conseguir reconhecer a escala e não ser induzido a uma interpretação falsa.\n\n\nPortanto, para linhas, o zero não é uma regra absoluta. Transparência da escala é essencial.\n\n\n",
+      "sourceStart": 9023,
+      "sourceEnd": 9561
+    },
+    {
+      "id": "MAT-EST-004-s015",
+      "title": "15. Histograma",
+      "paragraphs": [],
+      "markdown": "15. Histograma\n\n\nO histograma representa a distribuição de uma variável quantitativa, geralmente contínua ou agrupada em intervalos.\n\n\nExemplo de classes de tempo de espera:\n\n\n0 a menos de 5 minutos.\n5 a menos de 10.\n10 a menos de 15.\n15 a menos de 20.\n20 a menos de 25.\n\n\nCada intervalo recebe uma barra.\n\n\nA diferença fundamental é que as barras de um histograma representam intervalos numéricos consecutivos.\n\n\nPor isso, normalmente aparecem encostadas.\n\n\n",
+      "sourceStart": 9561,
+      "sourceEnd": 10020
+    },
+    {
+      "id": "MAT-EST-004-s016",
+      "title": "16. Histograma não é gráfico de barras comum",
+      "paragraphs": [],
+      "markdown": "16. Histograma não é gráfico de barras comum\n\n\nCompare.\n\n\nGráfico de barras:\ncategorias podem ser “ônibus”, “carro”, “a pé”, “bicicleta”.\nA ordem pode ser modificada.\nExistem espaços visuais entre barras.\nA largura da barra normalmente não possui significado quantitativo.\n\n\nHistograma:\nclasses podem ser [0,5), [5,10), [10,15), [15,20).\nA ordem numérica é fixa.\nAs barras normalmente se encostam.\nA largura da classe possui significado.\n\n\nNo histograma, trocar a ordem das barras destruiria a escala numérica.\n\n\n",
+      "sourceStart": 10020,
+      "sourceEnd": 10533
+    },
+    {
+      "id": "MAT-EST-004-s017",
+      "title": "17. Como ler os limites das classes?",
+      "paragraphs": [],
+      "markdown": "17. Como ler os limites das classes?\n\n\nA notação:\n\n\n[10, 20)\n\n\nsignifica:\n\n\n10 está incluído.\n20 está excluído.\n\n\nLeitura:\n“de dez inclusive até vinte exclusivo”.\n\n\nAssim:\n\n\n10 pertence à classe [10,20).\n19,9 também.\n20 pertence à classe seguinte, se ela começar em 20.\n\n\nA regra deve ser clara para que uma observação não pertença simultaneamente a duas classes.\n\n\n",
+      "sourceStart": 10533,
+      "sourceEnd": 10899
+    },
+    {
+      "id": "MAT-EST-004-s018",
+      "title": "18. A escolha da largura das classes muda a aparência",
+      "paragraphs": [],
+      "markdown": "18. A escolha da largura das classes muda a aparência\n\n\nConsidere um mesmo conjunto de idades.\n\n\nSe criarmos classes de 1 ano, o histograma pode ficar muito irregular.\n\n\nSe criarmos classes de 20 anos, detalhes importantes podem desaparecer.\n\n\nPortanto, o formato do histograma depende tanto dos dados quanto da escolha das classes.\n\n\nIsso não significa que qualquer escolha seja igualmente boa.\n\n\nUma boa classe deve equilibrar:\n\n\n• detalhe;\n• legibilidade;\n• tamanho da amostra;\n• objetivo da análise.\n\n\n",
+      "sourceStart": 10899,
+      "sourceEnd": 11405
+    },
+    {
+      "id": "MAT-EST-004-s019",
+      "title": "19. Cuidado avançado: classes de larguras diferentes",
+      "paragraphs": [],
+      "markdown": "19. Cuidado avançado: classes de larguras diferentes\n\n\nEm histogramas básicos com classes de mesma largura, a altura pode representar diretamente a frequência.\n\n\nCom classes de larguras diferentes, usar a frequência como altura pode distorcer a área.\n\n\nA ideia correta, em um histograma rigoroso, é fazer a área de cada retângulo proporcional à frequência.\n\n\nUma ferramenta para isso é a densidade de frequência:\n\n\ndensidade = frequência / largura da classe.\n\n\nLeitura pronunciável:\n“densidade é igual à frequência dividida pela largura da classe”.\n\n\nEsta é uma ponte universitária. Não é necessário dominar agora todos os detalhes, mas é importante saber que “barra mais larga” em histograma não é um detalhe puramente decorativo.\n\n\n",
+      "sourceStart": 11405,
+      "sourceEnd": 12139
+    },
+    {
+      "id": "MAT-EST-004-s020",
+      "title": "20. Polígono de frequência: uma extensão importante",
+      "paragraphs": [],
+      "markdown": "20. Polígono de frequência: uma extensão importante\n\n\nO título desta aula prioriza barras, setores, linhas e histogramas. Entretanto, a FUVEST 2027 cita explicitamente polígono de frequência.\n\n\nEle pode ser construído marcando o ponto médio de cada classe e a frequência correspondente, depois ligando os pontos.\n\n\nEle ajuda a visualizar a forma de uma distribuição, especialmente ao comparar distribuições.\n\n\nO estudo detalhado ficará para a progressão de estatística descritiva, mas você já deve reconhecer o conceito.\n\n\n",
+      "sourceStart": 12139,
+      "sourceEnd": 12662
+    },
+    {
+      "id": "MAT-EST-004-s021",
+      "title": "21. Gráficos e infográficos",
+      "paragraphs": [],
+      "markdown": "21. Gráficos e infográficos\n\n\nUm infográfico combina texto, números, ícones, mapas, diagramas e gráficos.\n\n\nEle pode comunicar bem, mas também pode esconder escalas ou exagerar magnitudes.\n\n\nNunca conclua que uma figura é estatisticamente confiável apenas porque parece profissional.\n\n\nPergunte:\n\n\n• de onde vieram os dados?\n• qual é o denominador?\n• qual é a unidade?\n• qual é o período?\n• a área dos desenhos é proporcional aos números?\n• existe eixo ou escala?\n• as categorias são comparáveis?\n\n\n",
+      "sourceStart": 12662,
+      "sourceEnd": 13161
+    },
+    {
+      "id": "MAT-EST-004-s022",
+      "title": "22. Escalas lineares",
+      "paragraphs": [],
+      "markdown": "22. Escalas lineares\n\n\nEm uma escala linear, intervalos iguais no eixo representam diferenças numéricas iguais.\n\n\nSe as marcas são:\n\n\n0, 10, 20, 30, 40,\n\n\na distância de 10 a 20 representa a mesma diferença que a distância de 30 a 40.\n\n\nSe um eixo desenha 0, 10, 20 e depois 100 com espaços iguais, há uma distorção, a menos que uma quebra esteja explicitamente indicada.\n\n\n",
+      "sourceStart": 13161,
+      "sourceEnd": 13535
+    },
+    {
+      "id": "MAT-EST-004-s023",
+      "title": "23. Escalas logarítmicas: apenas reconhecer",
+      "paragraphs": [],
+      "markdown": "23. Escalas logarítmicas: apenas reconhecer\n\n\nAlguns gráficos científicos e econômicos usam escala logarítmica.\n\n\nNela, distâncias iguais podem representar multiplicações iguais, por exemplo:\n\n\n1, 10, 100, 1000.\n\n\nIsso não é uma escala linear.\n\n\nEsta aula não exige cálculo com logaritmos. O objetivo é apenas reconhecer que o tipo de escala precisa ser lido antes de interpretar distâncias visuais.\n\n\n",
+      "sourceStart": 13535,
+      "sourceEnd": 13937
+    },
+    {
+      "id": "MAT-EST-004-s024",
+      "title": "24. Gráfico enganoso por eixo truncado",
+      "paragraphs": [],
+      "markdown": "24. Gráfico enganoso por eixo truncado\n\n\nExemplo:\n\n\nAno 1: 98 unidades.\nAno 2: 102 unidades.\n\n\nDiferença absoluta: 4.\nVariação percentual em relação ao Ano 1:\n\n\n4/98 ≈ 0,0408 = 4,08%.\n\n\nSe um gráfico de barras começar em 97, as alturas acima da linha de base seriam 1 e 5.\n\n\nVisualmente, a segunda barra pareceria cinco vezes maior, embora os valores reais sejam 98 e 102.\n\n\nA escala pode induzir uma impressão muito maior do que a diferença real.\n\n\n",
+      "sourceStart": 13937,
+      "sourceEnd": 14387
+    },
+    {
+      "id": "MAT-EST-004-s025",
+      "title": "25. Engano por área",
+      "paragraphs": [],
+      "markdown": "25. Engano por área\n\n\nSuponha que um ícone quadrado represente 10 pessoas.\n\n\nPara representar 40 pessoas, alguém dobra a largura e a altura do quadrado.\n\n\nA área aumenta quatro vezes:\n\n\n2 × 2 = 4.\n\n\nNesse caso, a área corresponde a quatro vezes, o que coincide com 40 versus 10.\n\n\nMas, se a intenção fosse representar apenas o dobro, duplicar largura e altura produziria área quatro vezes maior.\n\n\nAo usar desenhos bidimensionais, aumentar simultaneamente as duas dimensões pode exagerar a magnitude.\n\n\n",
+      "sourceStart": 14387,
+      "sourceEnd": 14890
+    },
+    {
+      "id": "MAT-EST-004-s026",
+      "title": "26. Perspectiva tridimensional",
+      "paragraphs": [],
+      "markdown": "26. Perspectiva tridimensional\n\n\nGráficos 3D podem alterar a percepção:\n\n\n• objetos na frente parecem maiores;\n• partes podem ocultar outras;\n• profundidade não representa necessariamente uma variável;\n• a leitura de valores fica menos precisa.\n\n\nSe a terceira dimensão não codifica informação real, ela geralmente é decoração e pode reduzir a clareza.\n\n\n",
+      "sourceStart": 14890,
+      "sourceEnd": 15245
+    },
+    {
+      "id": "MAT-EST-004-s027",
+      "title": "27. Escolha do gráfico pela pergunta",
+      "paragraphs": [],
+      "markdown": "27. Escolha do gráfico pela pergunta\n\n\nPergunta: “Qual categoria tem maior frequência?”\nBoa escolha: barras.\n\n\nPergunta: “Como um total se divide em poucas partes?”\nPossível escolha: setores.\n\n\nPergunta: “Como uma medida mudou ao longo do tempo?”\nBoa escolha: linhas.\n\n\nPergunta: “Como valores quantitativos se distribuem por intervalos?”\nBoa escolha: histograma.\n\n\nPergunta: “Quero comparar distribuição de duas amostras.”\nHistograma pode ajudar; polígono de frequência, box-plot e outras representações podem ser melhores dependendo da questão.\n\n\n",
+      "sourceStart": 15245,
+      "sourceEnd": 15794
+    },
+    {
+      "id": "MAT-EST-004-s028",
+      "title": "28. Árvore de decisão inicial",
+      "paragraphs": [],
+      "markdown": "28. Árvore de decisão inicial\n\n\nPrimeiro: existe uma sequência temporal ou outra ordem contínua que queremos destacar?\n\n\nSe sim, considere linhas.\n\n\nSe não, a variável é categórica?\n\n\nSe sim, barras é uma opção robusta.\n\n\nAs categorias são partes de um mesmo total, mutuamente exclusivas e poucas?\n\n\nSe sim, setores pode ser apropriado.\n\n\nA variável é quantitativa e queremos observar a forma da distribuição em intervalos?\n\n\nSe sim, histograma.\n\n\nEssa árvore não é uma lei. É um roteiro de raciocínio.\n\n\n",
+      "sourceStart": 15794,
+      "sourceEnd": 16299
+    },
+    {
+      "id": "MAT-EST-004-s029",
+      "title": "29. Exemplo resolvido 1 — escolha entre barras e setores",
+      "paragraphs": [],
+      "markdown": "29. Exemplo resolvido 1 — escolha entre barras e setores\n\n\nTabela:\n\n\nTransporte | frequência\nÔnibus | 45\nCarro | 25\nA pé | 20\nBicicleta | 10\n\n\nTotal = 100.\n\n\nSe queremos comparar precisamente as categorias, barras é excelente.\n\n\nSe queremos enfatizar “como o total se divide”, setores também pode funcionar.\n\n\nÂngulos:\n\n\nÔnibus: 45% × 360° = 162°.\nCarro: 25% × 360° = 90°.\nA pé: 20% × 360° = 72°.\nBicicleta: 10% × 360° = 36°.\n\n\nA escolha depende do objetivo, não de uma regra de que “porcentagem sempre vira pizza”.\n\n\n",
+      "sourceStart": 16299,
+      "sourceEnd": 16817
+    },
+    {
+      "id": "MAT-EST-004-s030",
+      "title": "30. Exemplo resolvido 2 — linha temporal",
+      "paragraphs": [],
+      "markdown": "30. Exemplo resolvido 2 — linha temporal\n\n\nTempo médio de espera:\n\n\nJan: 12 min.\nFev: 11 min.\nMar: 15 min.\nAbr: 14 min.\nMai: 10 min.\n\n\nA linha sobe de fevereiro para março, cai de março para abril e cai novamente até maio.\n\n\nConclusão válida:\no maior valor observado no período foi em março, 15 minutos.\n\n\nConclusão inválida sem mais dados:\n“a equipe trabalhou pior em março”.\n\n\nO gráfico mostra a medida, não a causa.\n\n\n",
+      "sourceStart": 16817,
+      "sourceEnd": 17238
+    },
+    {
+      "id": "MAT-EST-004-s031",
+      "title": "31. Exemplo resolvido 3 — barras com escala enganosa",
+      "paragraphs": [],
+      "markdown": "31. Exemplo resolvido 3 — barras com escala enganosa\n\n\nProduto A: 500 unidades.\nProduto B: 520 unidades.\n\n\nDiferença: 20.\n\n\nSe o eixo começa em zero, B é 4% maior que A.\n\n\n20/500 = 0,04 = 4%.\n\n\nSe o eixo começa em 490, as barras visíveis acima da linha de base têm alturas 10 e 30.\n\n\nA segunda parece três vezes a primeira.\n\n\nPortanto, a impressão visual não corresponde à razão 520/500 = 1,04.\n\n\n",
+      "sourceStart": 17238,
+      "sourceEnd": 17635
+    },
+    {
+      "id": "MAT-EST-004-s032",
+      "title": "32. Exemplo resolvido 4 — histograma",
+      "paragraphs": [],
+      "markdown": "32. Exemplo resolvido 4 — histograma\n\n\nTempos de atendimento:\n\n\n[0,5): 4\n[5,10): 9\n[10,15): 11\n[15,20): 5\n[20,25): 1\n\n\nTotal: 30.\n\n\nA classe modal, isto é, com maior frequência, é [10,15), com 11 atendimentos.\n\n\nPodemos dizer que 24 atendimentos ficaram abaixo de 15 minutos?\n\n\nSim:\n\n\n4 + 9 + 11 = 24.\n\n\nProporção:\n\n\n24/30 = 0,80 = 80%.\n\n\n",
+      "sourceStart": 17635,
+      "sourceEnd": 17974
+    },
+    {
+      "id": "MAT-EST-004-s033",
+      "title": "33. Exemplo resolvido 5 — gráfico de setores inválido",
+      "paragraphs": [],
+      "markdown": "33. Exemplo resolvido 5 — gráfico de setores inválido\n\n\nUma pergunta permitiu marcar mais de uma opção:\n\n\nUsa aplicativo A: 60%.\nUsa aplicativo B: 45%.\nUsa aplicativo C: 30%.\n\n\nA soma é 135%.\n\n\nIsso pode ser legítimo porque a mesma pessoa pode usar mais de um aplicativo.\n\n\nMas não podemos transformar diretamente 60%, 45% e 30% em setores de um único círculo de 100%, pois as categorias se sobrepõem.\n\n\n",
+      "sourceStart": 17974,
+      "sourceEnd": 18378
+    },
+    {
+      "id": "MAT-EST-004-s034",
+      "title": "34. Como interpretar um gráfico passo a passo",
+      "paragraphs": [],
+      "markdown": "34. Como interpretar um gráfico passo a passo\n\n\nPasso 1. Leia o título.\n\n\nPasso 2. Identifique o que cada eixo representa.\n\n\nPasso 3. Leia unidades e escala.\n\n\nPasso 4. Verifique categorias, intervalos e legenda.\n\n\nPasso 5. Localize o período e a fonte.\n\n\nPasso 6. Pergunte se os dados são absolutos, relativos, médias, taxas ou outra medida.\n\n\nPasso 7. Compare valores numericamente antes de confiar apenas na impressão visual.\n\n\nPasso 8. Procure truncamentos, quebras, perspectiva, áreas desproporcionais e omissões.\n\n\nPasso 9. Separe descrição de explicação causal.\n\n\nPasso 10. Escreva a conclusão com unidade, período e população ou amostra quando forem conhecidos.\n\n\n",
+      "sourceStart": 18378,
+      "sourceEnd": 19050
+    },
+    {
+      "id": "MAT-EST-004-s035",
+      "title": "35. Acessibilidade: como descrever um gráfico em áudio",
+      "paragraphs": [],
+      "markdown": "35. Acessibilidade: como descrever um gráfico em áudio\n\n\nUm gráfico importante precisa continuar inteligível sem visão.\n\n\nModelo de descrição:\n\n\nTítulo:\n“Tempo médio de espera por mês, de janeiro a maio.”\n\n\nEixo horizontal:\n“Meses de janeiro a maio.”\n\n\nEixo vertical:\n“Tempo médio, em minutos, de zero a dezesseis, em intervalos de dois.”\n\n\nValores:\n“Janeiro 12; fevereiro 11; março 15; abril 14; maio 10.”\n\n\nTendência principal:\n“O valor cresce de fevereiro para março e cai até maio.”\n\n\nConclusão:\n“O maior valor observado é 15 minutos em março; o menor é 10 minutos em maio.”\n\n\nA descrição não precisa narrar cada pixel. Precisa transportar a informação estatística essencial.\n\n\n",
+      "sourceStart": 19050,
+      "sourceEnd": 19732
+    },
+    {
+      "id": "MAT-EST-004-s036",
+      "title": "36. Gráfico não comunica informação essencial somente por cor",
+      "paragraphs": [],
+      "markdown": "36. Gráfico não comunica informação essencial somente por cor\n\n\nImagine duas linhas:\n\n\nlinha do grupo A em verde;\nlinha do grupo B em vermelho.\n\n\nUma pessoa com deficiência de visão de cores pode ter dificuldade para diferenciá-las.\n\n\nSoluções:\n\n\n• usar rótulos diretos;\n• combinar cor com padrões de traço, como linha contínua e tracejada;\n• usar marcadores diferentes;\n• incluir legenda textual;\n• garantir contraste.\n\n\nNo site do projeto, a informação essencial nunca deverá depender exclusivamente de cor.\n\n\n",
+      "sourceStart": 19732,
+      "sourceEnd": 20244
+    },
+    {
+      "id": "MAT-EST-004-s037",
+      "title": "37. Erros frequentes",
+      "paragraphs": [],
+      "markdown": "37. Erros frequentes\n\n\nErro 1. Escolher gráfico porque “fica bonito”.\n\n\nCorreção:\ncomece pela pergunta e pelo tipo de variável.\n\n\nErro 2. Usar linhas para categorias sem ordem.\n\n\nCorreção:\nnão conecte pontos se a conexão não representa uma sequência.\n\n\nErro 3. Confundir histograma com barras.\n\n\nCorreção:\npergunte se o eixo horizontal contém categorias ou intervalos quantitativos.\n\n\nErro 4. Usar gráfico de setores quando percentuais não formam um único total.\n\n\nCorreção:\nverifique exclusividade das categorias.\n\n\nErro 5. Ignorar a escala.\n\n\nCorreção:\nleia marcas e limites dos eixos antes de comparar comprimentos.\n\n\nErro 6. Concluir causa a partir de tendência.\n\n\nCorreção:\num gráfico descreve associação ou evolução; causalidade exige evidência adicional.\n\n\nErro 7. Esquecer unidade.\n\n\nCorreção:\n“20” pode significar pessoas, reais, quilômetros, porcentagem ou milhares de unidades.\n\n\nErro 8. Comparar áreas de ícones como se fossem comprimentos.\n\n\nCorreção:\nidentifique qual dimensão foi usada para codificar a quantidade.\n\n\n",
+      "sourceStart": 20244,
+      "sourceEnd": 21276
+    },
+    {
+      "id": "MAT-EST-004-s038",
+      "title": "38. Aplicações interdisciplinares",
+      "paragraphs": [],
+      "markdown": "38. Aplicações interdisciplinares\n\n\nGeografia:\nclimogramas, população, migração, renda, uso do solo.\n\n\nHistória:\nséries temporais de população, produção, comércio e indicadores sociais.\n\n\nBiologia:\ndistribuições de medidas, abundância de espécies e séries de experimentos.\n\n\nFísica:\ngráficos de medidas no tempo, distribuições experimentais e relações entre grandezas.\n\n\nQuímica:\nconcentração, temperatura, medidas laboratoriais e distribuições de resultados.\n\n\nSociologia:\npesquisas de opinião e composição de amostras.\n\n\nTecnologia:\ndashboards, observabilidade, métricas de produto, análise de dados e Business Intelligence.\n\n\nLíngua Portuguesa:\nleitura de infográficos e análise crítica de argumentos baseados em dados.\n\n\n",
+      "sourceStart": 21276,
+      "sourceEnd": 22001
+    },
+    {
+      "id": "MAT-EST-004-s039",
+      "title": "39. Relação com BNCC, ENEM e FUVEST",
+      "paragraphs": [],
+      "markdown": "39. Relação com BNCC, ENEM e FUVEST\n\n\nA BNCC inclui explicitamente a habilidade EF06MA31: identificar variáveis, frequências e os elementos constitutivos — título, eixos, legendas, fontes e datas — em diferentes tipos de gráfico.\n\n\nA habilidade EF06MA32 envolve interpretar situações apresentadas em tabelas e diferentes tipos de gráfico, inclusive em contextos divulgados pela mídia.\n\n\nA FUVEST 2027 exige comunicar e interpretar resultados de pesquisa por gráficos e tabelas, analisar gráficos divulgados em meios de comunicação e interpretar e comparar conjuntos de dados por histogramas, box-plots, ramos e folhas, polígonos de frequência e infográficos.\n\n\nA Matriz de Referência do Enem 2026 é a referência institucional para competências, habilidades e objetos de conhecimento do exame. Nesta reconstrução, a camada VES trabalha interpretação, comparação e crítica de representações sem reproduzir questões oficiais.\n\n\n",
+      "sourceStart": 22001,
+      "sourceEnd": 22926
+    },
+    {
+      "id": "MAT-EST-004-s040",
+      "title": "40. O que observar nos seis visuais",
+      "paragraphs": [],
+      "markdown": "40. O que observar nos seis visuais\n\n\nVisual 1 — Barras: comparação de categorias.\nObserve título, eixo de categorias, eixo numérico, unidade e linha de base em zero. Compare comprimentos.\n\n\nVisual 2 — Setores: parte do todo.\nObserve que os quatro setores somam o círculo inteiro e que cada ângulo corresponde à frequência relativa.\n\n\nVisual 3 — Linha temporal.\nObserve a ordem dos meses e como a inclinação entre pontos permite visualizar aumento ou queda, sem explicar a causa.\n\n\nVisual 4 — Barras versus histograma.\nObserve que as barras categóricas têm separação e que as classes quantitativas do histograma são contíguas.\n\n\nVisual 5 — Escala enganosa.\nCompare os mesmos valores 92 e 96 em um eixo que começa em zero e em outro que começa em 90. Os dados são iguais, mas a impressão muda.\n\n\nVisual 6 — Árvore de escolha.\nSiga as perguntas sobre tempo, categorias, partes de um todo e intervalos quantitativos até uma representação inicial adequada.\n\n\n",
+      "sourceStart": 22926,
+      "sourceEnd": 23881
+    },
+    {
+      "id": "MAT-EST-004-s041",
+      "title": "41. Resumo para revisão",
+      "paragraphs": [],
+      "markdown": "41. Resumo para revisão\n\n\nBarras:\ncompare categorias por comprimento.\n\n\nSetores:\nrepresente partes de um único total.\n\n\nLinhas:\ndestaque evolução em sequência ordenada, especialmente tempo.\n\n\nHistograma:\nmostre distribuição quantitativa por intervalos.\n\n\nGráfico de barras e histograma não são a mesma coisa.\n\n\nEm barras, zero é geralmente importante porque comprimento codifica magnitude.\n\n\nEm linhas, o eixo pode não começar em zero, desde que a escala seja clara e adequada ao objetivo.\n\n\nNo setor:\n\n\nângulo = 360° × frequência relativa.\n\n\nLeia sempre título, eixos, unidades, escala, legenda, fonte e período.\n\n\nNão aceite 3D, áreas ampliadas, truncamentos ou decoração sem perguntar se alteram a percepção.\n\n\nNão transforme tendência em causa.\n\n\n",
+      "sourceStart": 23881,
+      "sourceEnd": 24632
+    },
+    {
+      "id": "MAT-EST-004-s042",
+      "title": "42. Versão curta para ouvir",
+      "paragraphs": [],
+      "markdown": "42. Versão curta para ouvir\n\n\nUm gráfico estatístico é uma representação dos dados, não uma fotografia neutra da realidade.\n\n\nGráficos de barras comparam categorias. O comprimento das barras representa os valores, por isso a linha de base zero costuma ser importante.\n\n\nGráficos de setores mostram partes de um todo. O círculo tem 360 graus e cada setor ocupa a mesma proporção que a categoria representa no total.\n\n\nGráficos de linhas mostram evolução ao longo de uma sequência, principalmente o tempo.\n\n\nHistogramas mostram distribuições de uma variável quantitativa por intervalos. Diferentemente das barras categóricas, as classes possuem ordem numérica e normalmente ficam encostadas.\n\n\nAntes de concluir, leia título, eixos, unidades, escala, legenda, fonte e período. Compare números, não apenas a aparência.\n\n\nUm gráfico pode estar matematicamente correto e ainda ser visualmente enganoso.\n\n\n",
+      "sourceStart": 24632,
+      "sourceEnd": 25532
+    },
+    {
+      "id": "MAT-EST-004-s043",
+      "title": "43. Vídeo complementar",
+      "paragraphs": [],
+      "markdown": "43. Vídeo complementar\n\n\nVídeo recomendado:\n“ESTATÍSTICA #03 | GRÁFI : Aprenda de Vez para o ENEM e Concursos”.\nCanal: Tutoriar EAD.\n\n\nPor que foi escolhido:\nA descrição pública informa cobertura de gráfico de barras, gráfico de linhas, gráfico de setores, histograma, polígono de frequências, interpretação e questões comentadas, coincidindo diretamente com o núcleo desta aula.\n\n\nQuando assistir:\nApós estudar as seções 4 a 20 e antes dos exercícios de consolidação.\n\n\nEstado de QA:\nA página pública foi localizada nesta execução. Reprodução integral, duração efetiva, áudio e sincronização das legendas ainda não foram auditados no Microsoft Edge. Não tratar como QA audiovisual concluído.\n\n\n",
+      "sourceStart": 25532,
+      "sourceEnd": 26227
+    },
+    {
+      "id": "MAT-EST-004-s044",
+      "title": "44. Fontes da reconstrução",
+      "paragraphs": [],
+      "markdown": "44. Fontes da reconstrução\n\n\nFontes internas canônicas:\n01 — Visão e princípios do projeto.\n02 — Metodologia de aprendizagem e aprofundamento.\n03 — Matriz mestre e estrutura curricular.\n04 — Acessibilidade e leitura em voz alta no Edge.\n05 — Padrão visual, gráficos, imagens e vídeos.\n06 — Arquitetura do site e modelo de conteúdo.\n07 — Fontes oficiais, vestibulares e regra de atualização.\n08 — Instrução do projeto ChatGPT — Reconstrução Escolar 2027.\n\n\nFontes institucionais externas verificadas:\nBNCC/MEC — EF06MA31 e EF06MA32, além da progressão de leitura e construção de gráficos.\nInep — Matrizes de Referência do Enem, publicação institucional de 2026.\nFUVEST — Programa do Vestibular 2027, Matemática e suas Tecnologias, habilidades e objetos ligados a interpretação de gráficos, histogramas, polígonos de frequência e infográficos.\n\n\n",
+      "sourceStart": 26227,
+      "sourceEnd": 27071
+    },
+    {
+      "id": "MAT-EST-004-s045",
+      "title": "45. Próximo passo",
+      "paragraphs": [],
+      "markdown": "45. Próximo passo\n\n\nMAT-EST-005 — Média aritmética: significado, cálculo, média ponderada e efeito de valores extremos.\n\n\nA próxima aula retornará às tabelas e aos dados individuais para construir a ideia de “centro” de um conjunto, começando pelo significado da média antes do algoritmo.\n",
+      "sourceStart": 27071,
+      "sourceEnd": 27360
+    }
+  ],
+  "sources": [
+    {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "previous": "MAT-EST-003",
+  "next": "MAT-EST-005",
+  "videos": [
+    {
+      "title": "ESTATÍSTICA #03 | GRÁFI : Aprenda de Vez para o ENEM e Concursos",
+      "channel": "Tutoriar EAD",
+      "url": "https://www.youtube.com/watch?v=xB1OZXHLmBE",
+      "duration": "Duração não confirmada",
+      "language": "Português",
+      "reason": "Reforça o conceito apresentado nesta aula.",
+      "when": "Depois dos exemplos resolvidos, antes dos exercícios.",
+      "reinforces": [],
+      "checkedAt": "2026-10-03",
+      "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+      "type": "video"
+    }
+  ],
+  "video": {
+    "title": "ESTATÍSTICA #03 | GRÁFI : Aprenda de Vez para o ENEM e Concursos",
+    "channel": "Tutoriar EAD",
+    "url": "https://www.youtube.com/watch?v=xB1OZXHLmBE",
+    "duration": "Duração não confirmada",
+    "language": "Português",
+    "reason": "Reforça o conceito apresentado nesta aula.",
+    "when": "Depois dos exemplos resolvidos, antes dos exercícios.",
+    "reinforces": [],
+    "checkedAt": "2026-10-03",
+    "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+    "type": "video"
+  },
+  "publication": {
+    "kind": "Reconstrução editorial v1; sem identidade binária com a edição histórica.",
+    "notes": [
+      "A produção e a publicação não registram domínio nem alteram seu progresso.",
+      "As referências a publicação pendente no texto original registram o estado da fonte na data de criação."
+    ],
+    "original": "originais/MAT-EST-004/aula.md",
+    "editions": [
+      {
+        "label": "MAT-EST-004-metadados.json · 2026-10-01",
+        "url": "originais/MAT-EST-004/edicoes/1w7-il32mkVk29mDo24xlzxX2j4LNBi8v.json"
+      },
+      {
+        "label": "MAT-EST-004 — manifesto da reconstrução v1 · 2026-10-01",
+        "url": "originais/MAT-EST-004/edicoes/1S35VKhKuyGSFi9fIfhC0rxBucnxLZzcPQ-F1r_wXXFs.txt"
+      },
+      {
+        "label": "MAT-EST-004 — gabarito comentado — reconstrução editorial v1 · 2026-10-01",
+        "url": "originais/MAT-EST-004/edicoes/1jHJpQo1sQnJax9nRto0aP1fiZpfybb-SDnxfldg4fvc.txt"
+      },
+      {
+        "label": "MAT-EST-004 — exercícios — reconstrução editorial v1 · 2026-10-01",
+        "url": "originais/MAT-EST-004/edicoes/1fNzyj-hMuwrRMkZZkJIS92QICMpjmri5yhu27WSO53Y.txt"
+      },
+      {
+        "label": "MAT-EST-004 — aula completa — reconstrução editorial v1 · 2026-10-01",
+        "url": "originais/MAT-EST-004/edicoes/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w.txt"
+      }
+    ],
+    "attachments": [],
+    "questionCount": 36,
+    "visualCount": 6,
+    "sourceSha256": "0e476c48ee7a6ee2060bb38f1d516b967e9a44cc3ee178985d4350c0aa9ec2c8"
+  }
+}

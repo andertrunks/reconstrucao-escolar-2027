@@ -1,0 +1,36 @@
+[
+  {
+    "instituicao": "OTexts — Hyndman e Athanasopoulos",
+    "nome": "Forecasting: Principles and Practice, 3ª edição, 8.3: Methods with seasonality",
+    "url": "https://otexts.com/fpp3/holt-winters.html",
+    "uso": "equações aditivas, período m e restrição gama ≤ 1−alfa; alternativa multiplicativa",
+    "verificadaEm": "2026-09-28"
+  },
+  {
+    "instituicao": "OTexts — Hyndman e Athanasopoulos",
+    "nome": "Forecasting: Principles and Practice, 3ª edição, 5.8: Evaluating point forecast accuracy",
+    "url": "https://otexts.com/fpp3/accuracy.html",
+    "uso": "distinção entre ajuste e erro real de teste, comparação na mesma origem",
+    "verificadaEm": "2026-09-28"
+  },
+  {
+    "instituicao": "Pennsylvania State University",
+    "nome": "STAT 510 — Lesson 05, Smoothing and Decomposition Methods",
+    "url": "https://online.stat.psu.edu/stat510/Lesson05",
+    "uso": "reforço de conceitos de séries e suavização",
+    "verificadaEm": "2026-09-28"
+  },
+  {
+    "instituicao": "NPTEL / IIT Kanpur",
+    "nome": "Lecture 21: Holt Winter Method (additive seasonality)",
+    "url": "https://www.youtube.com/watch?v=Kbf9NNt-4XQ",
+    "uso": "vídeo complementar verificado por página indexada do canal; duração e reprodução integral pendentes",
+    "verificadaEm": "2026-09-28"
+  },
+  {
+    "instituicao": "Projeto Reconstrução Escolar",
+    "nome": "MAT-EST-044; dados trimestrais originalmente criados em MAT-EST-043",
+    "url": null,
+    "uso": "duas bases CSV herdadas sem modificação, conferidas por SHA-256"
+  }
+]

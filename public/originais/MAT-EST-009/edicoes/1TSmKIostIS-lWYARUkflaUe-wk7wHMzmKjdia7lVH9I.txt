@@ -1,0 +1,16 @@
+﻿{
+  "id": "MAT-EST-009",
+  "titulo": "Coeficiente de variação: dispersão relativa e comparação entre escalas",
+  "materia": "Matemática",
+  "unidade": "Estatística",
+  "nivel": 3,
+  "status_editorial": "reconstrucao_editorial_v1",
+  "identidade_com_original_perdido": false,
+  "pre_requisitos": ["MAT-EST-001","MAT-EST-002","MAT-EST-003","MAT-EST-004","MAT-EST-005","MAT-EST-006","MAT-EST-007","MAT-EST-008"],
+  "proximo_topico": "MAT-EST-010",
+  "questoes": {"total":36,"apr":10,"con":10,"ves":10,"ret":6,"origem":"autoral"},
+  "video": {"titulo":"COEFICIENTE DE VARIAÇÃO : MEDIDA DE DISPERSÃO","canal":"Prof. MURAKAMI - MATEMÁTICA RAPIDOLA","url":"https://www.youtube.com/watch?v=ZFj5WbYzr4Q","qa_audiovisual":"pendente"},
+  "publicado": false,
+  "progresso_aluno_alterado": false,
+  "mat_est_068_iniciada": false
+}

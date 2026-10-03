@@ -1,0 +1,4 @@
+scenario_id,target,if_observation_were,kind,status
+MAT-EST-051-SCEN-T23-178,t23,178,alternativa_hipotetica,nao_observado
+MAT-EST-051-SCEN-T23-191,t23,191,alternativa_hipotetica,nao_observado
+MAT-EST-051-SCEN-T23-209,t23,209,alternativa_hipotetica,nao_observado

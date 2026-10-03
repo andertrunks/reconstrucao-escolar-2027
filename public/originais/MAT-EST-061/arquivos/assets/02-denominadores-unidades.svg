@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="507" viewBox="0 0 1020 507" role="img" aria-labelledby="ti de">
+<title id="ti">Amostra e unidades do SANDBOX-057</title>
+<desc id="de">Oito cartões planejados, dois elegíveis, seis pendentes, MAE B 3 e C 4 unidades, custo médio 7 pontos para cada modelo.</desc>
+<rect width="100%" height="100%" fill="#f7fafc"/>
+<text x="36" y="48" font-size="25" font-weight="bold" fill="#173753">Amostra e unidades do SANDBOX-057</text>
+<rect x="36" y="80" width="948" height="58" rx="7" fill="#e6f3f7" stroke="#718c9b"/>
+<text x="55" y="116" font-size="19" fill="#173753">Cartões planejados: 8 | avaliáveis: 2 | pendentes: 6</text>
+<rect x="36" y="156" width="948" height="58" rx="7" fill="#f2eee3" stroke="#718c9b"/>
+<text x="55" y="192" font-size="19" fill="#173753">Completude: 2/8 = 25% (vinte e cinco por cento)</text>
+<rect x="36" y="232" width="948" height="58" rx="7" fill="#e6f3f7" stroke="#718c9b"/>
+<text x="55" y="268" font-size="19" fill="#173753">MAE B: (4 + 2)/2 = 3 unidades | MAE C: (3 + 5)/2 = 4</text>
+<rect x="36" y="308" width="948" height="58" rx="7" fill="#f2eee3" stroke="#718c9b"/>
+<text x="55" y="344" font-size="19" fill="#173753">Custo médio: B = 7 pontos | C = 7 pontos</text>
+<text x="36" y="452" font-size="16" fill="#414e5a">Dados inventados e isolados da série principal.</text>
+</svg>

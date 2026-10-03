@@ -1,0 +1,868 @@
+[
+  {
+    "id": "MAT-EST-002-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Censo ou amostra\n\nUma biblioteca possui 2.400 livros e deseja registrar o idioma de todos eles consultando seu catálogo completo. A investigação é censitária ou amostral? Explique.",
+    "answer": "Censo ou amostra\n\nCorreção comentada: censitária, porque a proposta é registrar o idioma de todos os 2.400 livros da população definida. O fato de usar um catálogo não transforma o levantamento em amostra.",
+    "resolution": "Censo ou amostra\n\nCorreção comentada: censitária, porque a proposta é registrar o idioma de todos os 2.400 livros da população definida. O fato de usar um catálogo não transforma o levantamento em amostra.\nMotivo provável de erro: interpretação — confundir instrumento de coleta com tipo de levantamento.",
+    "errorReasons": [
+      "interpretação — confundir instrumento de coleta com tipo de levantamento."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "População-alvo\n\nUma escola quer saber como todos os seus 900 estudantes chegam às aulas. Qual é a população-alvo?",
+    "answer": "População-alvo\n\nCorreção comentada: os 900 estudantes, se a pergunta realmente pretende descrever todos os matriculados naquele período.",
+    "resolution": "População-alvo\n\nCorreção comentada: os 900 estudantes, se a pergunta realmente pretende descrever todos os matriculados naquele período.\nMotivo provável de erro: conteúdo — responder com apenas quem foi entrevistado.",
+    "errorReasons": [
+      "conteúdo — responder com apenas quem foi entrevistado."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Marco amostral\n\nA escola usa uma lista de matrícula atualizada para sortear estudantes. Que papel essa lista desempenha no desenho da pesquisa?",
+    "answer": "Marco amostral\n\nCorreção comentada: é o marco ou cadastro amostral, isto é, a lista operacional a partir da qual as unidades podem ser selecionadas.",
+    "resolution": "Marco amostral\n\nCorreção comentada: é o marco ou cadastro amostral, isto é, a lista operacional a partir da qual as unidades podem ser selecionadas.\nMotivo provável de erro: memória/conteúdo — confundir população com lista.",
+    "errorReasons": [
+      "memória/conteúdo — confundir população com lista."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Conveniência\n\nUma pesquisa sobre hábitos de leitura de toda a cidade entrevista somente clientes que estão dentro de uma livraria. Qual é o principal problema de seleção?",
+    "answer": "Conveniência\n\nCorreção comentada: é uma amostra de conveniência com cobertura seletiva. Frequentadores de livraria podem diferir do conjunto de moradores da cidade.",
+    "resolution": "Conveniência\n\nCorreção comentada: é uma amostra de conveniência com cobertura seletiva. Frequentadores de livraria podem diferir do conjunto de moradores da cidade.\nMotivo provável de erro: interpretação — assumir que número de entrevistados garante representatividade.",
+    "errorReasons": [
+      "interpretação — assumir que número de entrevistados garante representatividade."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Resposta voluntária\n\nUm portal abre uma enquete sobre satisfação com transporte público e qualquer visitante pode responder. Por que o resultado não deve ser tratado automaticamente como pesquisa probabilística da cidade?",
+    "answer": "Resposta voluntária\n\nCorreção comentada: a inclusão depende da decisão do visitante de responder; não há mecanismo probabilístico conhecido cobrindo a população da cidade.",
+    "resolution": "Resposta voluntária\n\nCorreção comentada: a inclusão depende da decisão do visitante de responder; não há mecanismo probabilístico conhecido cobrindo a população da cidade.\nMotivo provável de erro: conteúdo — confundir grande número de votos com probabilidade de inclusão conhecida.",
+    "errorReasons": [
+      "conteúdo — confundir grande número de votos com probabilidade de inclusão conhecida."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Amostragem aleatória simples\n\nEm uma turma com 30 estudantes numerados, um programa sorteia 6 números distintos. Que método introdutório está sendo usado?",
+    "answer": "Amostragem aleatória simples\n\nCorreção comentada: amostragem aleatória simples, assumindo que o sorteio é feito sobre a lista completa e sem outra estrutura.",
+    "resolution": "Amostragem aleatória simples\n\nCorreção comentada: amostragem aleatória simples, assumindo que o sorteio é feito sobre a lista completa e sem outra estrutura.\nMotivo provável de erro: memória — trocar com sistemática.",
+    "errorReasons": [
+      "memória — trocar com sistemática."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Sistemática\n\nUma lista tem 500 registros e deseja-se selecionar 50, com início aleatório e depois um registro a cada 10 posições. Que método é esse?",
+    "answer": "Sistemática\n\nCorreção comentada: amostragem sistemática.",
+    "resolution": "Sistemática\n\nCorreção comentada: amostragem sistemática.\nMotivo provável de erro: memória — confundir intervalo regular com estratificação.",
+    "errorReasons": [
+      "memória — confundir intervalo regular com estratificação."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-002-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Estratificada\n\nUma escola sorteia estudantes separadamente dentro de cada série para garantir presença de 1º, 2º e 3º anos. Que método está sendo usado?",
+    "answer": "Estratificada\n\nCorreção comentada: amostragem estratificada por série.",
+    "resolution": "Estratificada\n\nCorreção comentada: amostragem estratificada por série.\nMotivo provável de erro: conteúdo — não reconhecer que todos os estratos recebem seleção interna.",
+    "errorReasons": [
+      "conteúdo — não reconhecer que todos os estratos recebem seleção interna."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-002-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Conglomerados\n\nUma rede sorteia 5 turmas entre 50 e entrevista todos os estudantes das turmas sorteadas. Que método introdutório descreve melhor o procedimento?",
+    "answer": "Conglomerados\n\nCorreção comentada: amostragem por conglomerados, pois as turmas são grupos naturais selecionados e todos os estudantes delas são entrevistados.",
+    "resolution": "Conglomerados\n\nCorreção comentada: amostragem por conglomerados, pois as turmas são grupos naturais selecionados e todos os estudantes delas são entrevistados.\nMotivo provável de erro: conteúdo — confundir conglomerado com estrato.",
+    "errorReasons": [
+      "conteúdo — confundir conglomerado com estrato."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Tipos de erro\n\nUm questionário pergunta de maneira tendenciosa: “Você apoia a excelente nova biblioteca?”. Qual fonte de erro aparece principalmente?\n\n\nCONSOLIDAÇÃO",
+    "answer": "Tipos de erro\n\nCorreção comentada: erro de medição, pois a redação da pergunta induz uma avaliação positiva.",
+    "resolution": "Tipos de erro\n\nCorreção comentada: erro de medição, pois a redação da pergunta induz uma avaliação positiva.\nMotivo provável de erro: interpretação — atribuir tudo a erro amostral.\n\n\nCONSOLIDAÇÃO",
+    "errorReasons": [
+      "interpretação — atribuir tudo a erro amostral."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Censo sem perfeição\n\nExplique por que uma pesquisa censitária pode continuar sujeita a erro mesmo quando pretende observar toda a população.",
+    "answer": "Censo sem perfeição\n\nCorreção comentada: cobertura, não resposta, medição, registro e processamento podem falhar mesmo quando a intenção é observar todas as unidades. Um censo elimina a escolha de apenas parte da população, não todos os erros.",
+    "resolution": "Censo sem perfeição\n\nCorreção comentada: cobertura, não resposta, medição, registro e processamento podem falhar mesmo quando a intenção é observar todas as unidades. Um censo elimina a escolha de apenas parte da população, não todos os erros.\nMotivo provável de erro: conteúdo — tratar censo como sinônimo de verdade perfeita.",
+    "errorReasons": [
+      "conteúdo — tratar censo como sinônimo de verdade perfeita."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Tamanho versus viés\n\nPesquisa A tem 5.000 respostas voluntárias pela internet. Pesquisa B tem 600 pessoas selecionadas probabilisticamente de um cadastro adequado. É correto escolher A como mais representativa apenas porque é maior? Justifique.",
+    "answer": "Tamanho versus viés\n\nCorreção comentada: não. Tamanho não corrige automaticamente seleção voluntária ou cobertura inadequada. B tem uma base de seleção mais defensável; ainda assim, também deve ser avaliada quanto a não resposta, medição e execução.",
+    "resolution": "Tamanho versus viés\n\nCorreção comentada: não. Tamanho não corrige automaticamente seleção voluntária ou cobertura inadequada. B tem uma base de seleção mais defensável; ainda assim, também deve ser avaliada quanto a não resposta, medição e execução.\nMotivo provável de erro: estratégia — usar apenas n como critério.",
+    "errorReasons": [
+      "estratégia — usar apenas n como critério."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Fração amostral\n\nUma população tem N = 2.000 unidades e a amostra planejada tem n = 200. Calcule f = n/N e interprete o resultado sem confundi-lo com representatividade.",
+    "answer": "Fração amostral\n\nCorreção comentada: f = 200/2000 = 0,10 = 10%. Significa que o tamanho planejado corresponde a 10% da população. Não prova que a amostra seja representativa.",
+    "resolution": "Fração amostral\n\nCorreção comentada: f = 200/2000 = 0,10 = 10%. Significa que o tamanho planejado corresponde a 10% da população. Não prova que a amostra seja representativa.\nMotivo provável de erro: cálculo/interpretação — transformar fração em selo de qualidade.",
+    "errorReasons": [
+      "cálculo/interpretação — transformar fração em selo de qualidade."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Alocação proporcional\n\nUma escola tem 700 estudantes no turno da manhã e 300 à noite. Deseja amostra estratificada proporcional de 100 estudantes. Quantos selecionar em cada turno?",
+    "answer": "Alocação proporcional\n\nCorreção comentada: 70 pela manhã e 30 à noite, preservando as proporções 70% e 30%.",
+    "resolution": "Alocação proporcional\n\nCorreção comentada: 70 pela manhã e 30 à noite, preservando as proporções 70% e 30%.\nMotivo provável de erro: cálculo — usar 50/50 apesar dos estratos terem tamanhos diferentes.",
+    "errorReasons": [
+      "cálculo — usar 50/50 apesar dos estratos terem tamanhos diferentes."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Não resposta\n\nForam selecionadas 300 pessoas, mas apenas 210 responderam. Por que “300 selecionadas” e “210 respondentes” precisam aparecer separadamente no relatório?",
+    "answer": "Não resposta\n\nCorreção comentada: seleção e resposta são etapas distintas. A perda de 90 pessoas pode ser aleatória ou seletiva; ocultá-la impede avaliar não resposta e cobertura efetiva.",
+    "resolution": "Não resposta\n\nCorreção comentada: seleção e resposta são etapas distintas. A perda de 90 pessoas pode ser aleatória ou seletiva; ocultá-la impede avaliar não resposta e cobertura efetiva.\nMotivo provável de erro: interpretação — tratar respondentes como se fossem todos os selecionados.",
+    "errorReasons": [
+      "interpretação — tratar respondentes como se fossem todos os selecionados."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Cobertura\n\nUma pesquisa eleitoral por telefone usa cadastro que não contém um grupo relevante da população-alvo. Mesmo que o sorteio dentro do cadastro seja perfeito, que erro permanece?",
+    "answer": "Cobertura\n\nCorreção comentada: erro de cobertura. Unidades da população-alvo que não estão no cadastro têm probabilidade zero de seleção dentro daquele procedimento.",
+    "resolution": "Cobertura\n\nCorreção comentada: erro de cobertura. Unidades da população-alvo que não estão no cadastro têm probabilidade zero de seleção dentro daquele procedimento.\nMotivo provável de erro: conteúdo — acreditar que aleatoriedade corrige cadastro incompleto.",
+    "errorReasons": [
+      "conteúdo — acreditar que aleatoriedade corrige cadastro incompleto."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Sistemática e periodicidade\n\nUma fábrica registra quatro tipos de peça repetidos sempre na mesma sequência. Por que selecionar a cada 4ª posição pode ser perigoso?",
+    "answer": "Sistemática e periodicidade\n\nCorreção comentada: a periodicidade da lista pode se alinhar ao passo 4 e selecionar repetidamente o mesmo tipo de peça, produzindo amostra distorcida.",
+    "resolution": "Sistemática e periodicidade\n\nCorreção comentada: a periodicidade da lista pode se alinhar ao passo 4 e selecionar repetidamente o mesmo tipo de peça, produzindo amostra distorcida.\nMotivo provável de erro: estratégia — aplicar sistemática sem examinar ordenação.",
+    "errorReasons": [
+      "estratégia — aplicar sistemática sem examinar ordenação."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Estrato versus conglomerado\n\nExplique, em uma frase para cada método, a diferença entre amostragem estratificada e por conglomerados.",
+    "answer": "Estrato versus conglomerado\n\nCorreção comentada: estratificada divide em estratos e seleciona unidades dentro de todos ou dos estratos definidos. Conglomerados seleciona alguns grupos naturais e observa todas ou parte das unidades dentro deles.",
+    "resolution": "Estrato versus conglomerado\n\nCorreção comentada: estratificada divide em estratos e seleciona unidades dentro de todos ou dos estratos definidos. Conglomerados seleciona alguns grupos naturais e observa todas ou parte das unidades dentro deles.\nMotivo provável de erro: conteúdo — pensar que qualquer uso de grupos é a mesma técnica.",
+    "errorReasons": [
+      "conteúdo — pensar que qualquer uso de grupos é a mesma técnica."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Desenho escolar\n\nUma escola quer estimar uso de transporte público e sabe que os três anos têm tamanhos muito diferentes. Proponha um desenho simples que preserve a presença de todos os anos.",
+    "answer": "Desenho escolar\n\nCorreção comentada: estratificar por ano e selecionar probabilisticamente dentro de cada ano, de preferência com alocação proporcional se o objetivo for estimar o conjunto da escola sem superamostrar deliberadamente séries pequenas.",
+    "resolution": "Desenho escolar\n\nCorreção comentada: estratificar por ano e selecionar probabilisticamente dentro de cada ano, de preferência com alocação proporcional se o objetivo for estimar o conjunto da escola sem superamostrar deliberadamente séries pequenas.\nMotivo provável de erro: estratégia — propor conveniência sem justificar.",
+    "errorReasons": [
+      "estratégia — propor conveniência sem justificar."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Cinco erros\n\nAssocie cada situação ao tipo predominante de erro: a) cadastro omite moradores recentes; b) entrevistado não atende; c) pergunta ambígua; d) digitação troca 18 por 81; e) duas amostras aleatórias legítimas dão proporções ligeiramente diferentes.\n\n\nTRANSFERÊNCIA E ESTILO VESTIBULAR — QUESTÕES AUTORAIS",
+    "answer": "Cinco erros\n\nCorreção comentada: a) cobertura; b) não resposta; c) medição; d) processamento; e) erro amostral ou variabilidade amostral.",
+    "resolution": "Cinco erros\n\nCorreção comentada: a) cobertura; b) não resposta; c) medição; d) processamento; e) erro amostral ou variabilidade amostral.\nMotivo provável de erro: memória — não separar fontes de erro.\n\n\nTRANSFERÊNCIA E ESTILO VESTIBULAR — QUESTÕES AUTORAIS",
+    "errorReasons": [
+      "memória — não separar fontes de erro."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Enquete esportiva\n\nUm site pergunta aos leitores qual é o clube mais popular do Brasil. Votam 80 mil visitantes. Escreva uma conclusão metodologicamente adequada sobre o que esses 80 mil votos permitem e não permitem afirmar.",
+    "answer": "Enquete esportiva\n\nCorreção comentada: os 80 mil votos descrevem os participantes daquela enquete e mostram como esse grupo respondeu. Sem mecanismo probabilístico que cubra a população brasileira e sem controle de múltiplos votos e seleção, não sustentam uma estimativa automática da torcida nacional.",
+    "resolution": "Enquete esportiva\n\nCorreção comentada: os 80 mil votos descrevem os participantes daquela enquete e mostram como esse grupo respondeu. Sem mecanismo probabilístico que cubra a população brasileira e sem controle de múltiplos votos e seleção, não sustentam uma estimativa automática da torcida nacional.\nMotivo provável de erro: interpretação — equiparar volume de respostas a amostra probabilística.",
+    "errorReasons": [
+      "interpretação — equiparar volume de respostas a amostra probabilística."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Pesquisa em terminal\n\nUma prefeitura quer conhecer o meio de transporte de todos os trabalhadores e entrevista 1.500 pessoas somente em um terminal de ônibus. Identifique a fonte principal de viés e proponha uma melhoria de desenho.",
+    "answer": "Pesquisa em terminal\n\nCorreção comentada: o terminal de ônibus causa cobertura seletiva e favorece trabalhadores que usam ônibus. Uma melhoria é usar um cadastro que cubra os trabalhadores ou pontos de coleta distribuídos segundo desenho probabilístico entre diferentes modos, regiões e horários.",
+    "resolution": "Pesquisa em terminal\n\nCorreção comentada: o terminal de ônibus causa cobertura seletiva e favorece trabalhadores que usam ônibus. Uma melhoria é usar um cadastro que cubra os trabalhadores ou pontos de coleta distribuídos segundo desenho probabilístico entre diferentes modos, regiões e horários.\nMotivo provável de erro: estratégia — tentar corrigir apenas aumentando n no terminal.",
+    "errorReasons": [
+      "estratégia — tentar corrigir apenas aumentando n no terminal."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Amostra maior\n\nDuas amostras usam o mesmo método probabilístico adequado: uma tem 400 unidades e outra 1.600, na mesma população e para o mesmo objetivo. O que tende a melhorar com maior n e o que não fica garantido apenas por isso?",
+    "answer": "Amostra maior\n\nCorreção comentada: sob o mesmo desenho adequado, maior n tende a reduzir a variabilidade amostral de estimativas. Não garante ausência de viés de cobertura, não resposta, medição ou processamento.",
+    "resolution": "Amostra maior\n\nCorreção comentada: sob o mesmo desenho adequado, maior n tende a reduzir a variabilidade amostral de estimativas. Não garante ausência de viés de cobertura, não resposta, medição ou processamento.\nMotivo provável de erro: conteúdo — afirmar que amostra grande elimina todos os erros.",
+    "errorReasons": [
+      "conteúdo — afirmar que amostra grande elimina todos os erros."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Planejamento por bairros\n\nUma cidade deseja garantir informação de cinco bairros com tamanhos populacionais muito diferentes. Explique por que estratificar por bairro pode ser útil e que cuidado deve ser tomado ao agregar os resultados.",
+    "answer": "Planejamento por bairros\n\nCorreção comentada: estratificar por bairro garante seleção dentro de cada bairro e pode permitir precisão local planejada. Se as frações de amostragem diferirem, a agregação para a cidade precisa respeitar pesos e tamanhos populacionais; não se deve dar automaticamente o mesmo peso a todos os bairros.",
+    "resolution": "Planejamento por bairros\n\nCorreção comentada: estratificar por bairro garante seleção dentro de cada bairro e pode permitir precisão local planejada. Se as frações de amostragem diferirem, a agregação para a cidade precisa respeitar pesos e tamanhos populacionais; não se deve dar automaticamente o mesmo peso a todos os bairros.\nMotivo provável de erro: estratégia — somar percentuais locais sem considerar tamanhos.",
+    "errorReasons": [
+      "estratégia — somar percentuais locais sem considerar tamanhos."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Conglomerados econômicos\n\nUma pesquisa nacional sorteia escolas e, dentro de cada escola sorteada, seleciona estudantes. Por que esse desenho pode ser logisticamente mais barato do que sortear estudantes espalhados por todo o país? Qual limite estatístico precisa ser lembrado?",
+    "answer": "Conglomerados econômicos\n\nCorreção comentada: concentrar a coleta em escolas selecionadas reduz deslocamento e custo. Porém estudantes da mesma escola podem ser semelhantes; a dependência intragrupo pode aumentar a incerteza em comparação com uma amostra simples do mesmo tamanho.",
+    "resolution": "Conglomerados econômicos\n\nCorreção comentada: concentrar a coleta em escolas selecionadas reduz deslocamento e custo. Porém estudantes da mesma escola podem ser semelhantes; a dependência intragrupo pode aumentar a incerteza em comparação com uma amostra simples do mesmo tamanho.\nMotivo provável de erro: conteúdo — pensar que 500 estudantes em poucas escolas equivalem a 500 espalhados independentemente.",
+    "errorReasons": [
+      "conteúdo — pensar que 500 estudantes em poucas escolas equivalem a 500 espalhados independentemente."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Censo com questionário amostral\n\nExplique como uma operação censitária pode, ao mesmo tempo, usar um questionário detalhado aplicado apenas a uma amostra, sem contradição conceitual.",
+    "answer": "Censo com questionário amostral\n\nCorreção comentada: uma operação pode enumerar todas as unidades com um conjunto básico de perguntas e aplicar questões detalhadas apenas a uma amostra probabilística. O caráter censitário refere-se ao objetivo de cobertura da operação básica; a amostragem pode ser um componente de coleta detalhada.",
+    "resolution": "Censo com questionário amostral\n\nCorreção comentada: uma operação pode enumerar todas as unidades com um conjunto básico de perguntas e aplicar questões detalhadas apenas a uma amostra probabilística. O caráter censitário refere-se ao objetivo de cobertura da operação básica; a amostragem pode ser um componente de coleta detalhada.\nMotivo provável de erro: interpretação — achar que uma operação só pode ter uma técnica.",
+    "errorReasons": [
+      "interpretação — achar que uma operação só pode ter uma técnica."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Sorteio na rua\n\nUm repórter afirma: “Escolhi ao acaso 100 pessoas que passavam nesta praça; logo tenho amostragem aleatória simples da cidade”. Critique a afirmação.",
+    "answer": "Sorteio na rua\n\nCorreção comentada: as pessoas presentes na praça formam primeiro um conjunto acessível já filtrado por local e horário. Sortear dentro desse grupo não dá chance de seleção a moradores ausentes; portanto não é amostragem aleatória simples da cidade inteira.",
+    "resolution": "Sorteio na rua\n\nCorreção comentada: as pessoas presentes na praça formam primeiro um conjunto acessível já filtrado por local e horário. Sortear dentro desse grupo não dá chance de seleção a moradores ausentes; portanto não é amostragem aleatória simples da cidade inteira.\nMotivo provável de erro: conteúdo — localizar a aleatoriedade no último passo e ignorar cobertura.",
+    "errorReasons": [
+      "conteúdo — localizar a aleatoriedade no último passo e ignorar cobertura."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Não resposta diferencial\n\nEm uma pesquisa de satisfação, 90% dos clientes satisfeitos respondem, mas apenas 20% dos insatisfeitos. Explique por que a taxa final de satisfação entre respondentes pode estar distorcida.",
+    "answer": "Não resposta diferencial\n\nCorreção comentada: os satisfeitos ficam muito mais propensos a aparecer entre respondentes. A proporção observada entre quem respondeu pode superestimar satisfação em relação à população selecionada.",
+    "resolution": "Não resposta diferencial\n\nCorreção comentada: os satisfeitos ficam muito mais propensos a aparecer entre respondentes. A proporção observada entre quem respondeu pode superestimar satisfação em relação à população selecionada.\nMotivo provável de erro: interpretação — ignorar não resposta diferencial.",
+    "errorReasons": [
+      "interpretação — ignorar não resposta diferencial."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Cadastro duplicado\n\nUma lista usada para sorteio contém algumas pessoas duas vezes. Que problema isso cria para as probabilidades de inclusão e para a ideia de amostragem simples?",
+    "answer": "Cadastro duplicado\n\nCorreção comentada: pessoas duplicadas têm mais entradas no mecanismo e, portanto, maior chance de seleção. Isso viola a intenção de probabilidades iguais da amostragem simples sobre unidades únicas.",
+    "resolution": "Cadastro duplicado\n\nCorreção comentada: pessoas duplicadas têm mais entradas no mecanismo e, portanto, maior chance de seleção. Isso viola a intenção de probabilidades iguais da amostragem simples sobre unidades únicas.\nMotivo provável de erro: conteúdo — não perceber que a lista define probabilidades.",
+    "errorReasons": [
+      "conteúdo — não perceber que a lista define probabilidades."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Parecer de quatro frases\n\nRedija até quatro frases avaliando a pesquisa: população de 10.000 trabalhadores; 500 selecionados aleatoriamente de um cadastro que cobre todos os setores; 430 respondentes; pergunta neutra. Inclua uma força do desenho e pelo menos dois limites.\n\n\nRETESTE POSTERIOR",
+    "answer": "Parecer de quatro frases\n\nCorreção comentada: o uso de seleção aleatória a partir de cadastro que cobre todos os setores é uma força do desenho. Entretanto, 70 dos 500 selecionados não responderam e é preciso verificar se a não resposta foi seletiva. A neutralidade declarada da pergunta reduz um risco de medição, mas sua aplicação também precisa ser conferida. A conclusão deve permanecer condicionada à qualidade do cadastro, da execução e do padrão de resposta.",
+    "resolution": "Parecer de quatro frases\n\nCorreção comentada: o uso de seleção aleatória a partir de cadastro que cobre todos os setores é uma força do desenho. Entretanto, 70 dos 500 selecionados não responderam e é preciso verificar se a não resposta foi seletiva. A neutralidade declarada da pergunta reduz um risco de medição, mas sua aplicação também precisa ser conferida. A conclusão deve permanecer condicionada à qualidade do cadastro, da execução e do padrão de resposta.\nMotivo provável de erro: estratégia — escrever parecer sem separar forças e limites.\n\n\nRETESTE POSTERIOR",
+    "errorReasons": [
+      "estratégia — escrever parecer sem separar forças e limites."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Novo censo\n\nUma associação tem 65 membros e registra a idade de todos em cadastro atualizado. Classifique o levantamento e cite um tipo de erro que ainda pode existir.",
+    "answer": "Novo censo\n\nCorreção comentada: censitário, porque registra todos os 65 membros. Ainda pode haver, por exemplo, idade digitada incorretamente, classificação errada ou cadastro desatualizado.",
+    "resolution": "Novo censo\n\nCorreção comentada: censitário, porque registra todos os 65 membros. Ainda pode haver, por exemplo, idade digitada incorretamente, classificação errada ou cadastro desatualizado.\nMotivo provável de erro: conteúdo — afirmar que não há erros possíveis.",
+    "errorReasons": [
+      "conteúdo — afirmar que não há erros possíveis."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Nova estratificação\n\nUma população possui 200 unidades no grupo A e 800 no B. Para uma amostra proporcional de 100, quantas unidades selecionar em cada grupo?",
+    "answer": "Nova estratificação\n\nCorreção comentada: 20 no grupo A e 80 no grupo B, porque A representa 20% e B 80% da população.",
+    "resolution": "Nova estratificação\n\nCorreção comentada: 20 no grupo A e 80 no grupo B, porque A representa 20% e B 80% da população.\nMotivo provável de erro: cálculo — dividir a amostra igualmente.",
+    "errorReasons": [
+      "cálculo — dividir a amostra igualmente."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Novo sistemático\n\nUma lista tem 240 itens e a amostra desejada é 24. Calcule o intervalo k e explique a função do início aleatório.",
+    "answer": "Novo sistemático\n\nCorreção comentada: k = 240/24 = 10. O início aleatório define, entre as primeiras dez posições, onde a sequência regular começa, evitando uma escolha arbitrária fixa.",
+    "resolution": "Novo sistemático\n\nCorreção comentada: k = 240/24 = 10. O início aleatório define, entre as primeiras dez posições, onde a sequência regular começa, evitando uma escolha arbitrária fixa.\nMotivo provável de erro: cálculo/memória — esquecer o sorteio inicial.",
+    "errorReasons": [
+      "cálculo/memória — esquecer o sorteio inicial."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Nova conveniência\n\nUma pesquisa sobre alimentação de universitários entrevista apenas frequentadores do restaurante vegetariano. Qual generalização deve ser evitada?",
+    "answer": "Nova conveniência\n\nCorreção comentada: deve-se evitar generalizar automaticamente os hábitos dos frequentadores do restaurante vegetariano para todos os universitários.",
+    "resolution": "Nova conveniência\n\nCorreção comentada: deve-se evitar generalizar automaticamente os hábitos dos frequentadores do restaurante vegetariano para todos os universitários.\nMotivo provável de erro: interpretação — ignorar conveniência.",
+    "errorReasons": [
+      "interpretação — ignorar conveniência."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Novo mapa de erros\n\nDiferencie em uma frase erro amostral e erro de cobertura.",
+    "answer": "Novo mapa de erros\n\nCorreção comentada: erro amostral é a variação decorrente de observar uma amostra em vez de toda a população; erro de cobertura ocorre quando o marco amostral não inclui adequadamente a população-alvo ou inclui unidades indevidas.",
+    "resolution": "Novo mapa de erros\n\nCorreção comentada: erro amostral é a variação decorrente de observar uma amostra em vez de toda a população; erro de cobertura ocorre quando o marco amostral não inclui adequadamente a população-alvo ou inclui unidades indevidas.\nMotivo provável de erro: conteúdo — fundir duas fontes de erro.",
+    "errorReasons": [
+      "conteúdo — fundir duas fontes de erro."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-002-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-002"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Projeto independente\n\nVocê quer estimar a proporção de moradores de um condomínio que usam bicicleta ao menos uma vez por semana. Esboce população, marco amostral, método de seleção, registro de não resposta e uma limitação.",
+    "answer": "Projeto independente\n\nCorreção comentada: exemplo defensável — população: todos os moradores residentes no condomínio na data de referência; marco: cadastro atualizado de moradores; seleção: sorteio probabilístico de moradores ou domicílios conforme a unidade definida; registrar quantos foram selecionados e quantos responderam; limitação: cadastro desatualizado, não resposta ou declaração imprecisa podem afetar o resultado.",
+    "resolution": "Projeto independente\n\nCorreção comentada: exemplo defensável — população: todos os moradores residentes no condomínio na data de referência; marco: cadastro atualizado de moradores; seleção: sorteio probabilístico de moradores ou domicílios conforme a unidade definida; registrar quantos foram selecionados e quantos responderam; limitação: cadastro desatualizado, não resposta ou declaração imprecisa podem afetar o resultado.\nMotivo provável de erro: estratégia — omitir unidade ou não resposta.",
+    "errorReasons": [
+      "estratégia — omitir unidade ou não resposta."
+    ],
+    "source": {
+      "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  }
+]

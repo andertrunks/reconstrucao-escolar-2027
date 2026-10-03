@@ -1,0 +1,631 @@
+{
+  "id": "MAT-EST-007",
+  "version": "publicacao-2026-10-03-v1",
+  "objective": "## 1. Objetivo\n\n\nAo concluir o estudo real desta aula, o estudante deverá ser capaz de:\n\n\n- explicar por que uma medida de centro não descreve sozinha um conjunto de dados;\n- compreender dispersão como ideia de espalhamento, variabilidade ou afastamento entre valores;\n- calcular e interpretar amplitude total;\n- reconhecer vantagens e limitações da amplitude;\n- calcular desvios em relação à média;\n- compreender por que desvios com sinal positivo e negativo se cancelam;\n- usar valor absoluto para transformar afastamento em magnitude;\n- calcular desvio médio absoluto em torno da média;\n- calcular desvio médio absoluto em torno da mediana em situações introdutórias e distinguir as duas escolhas;\n- calcular desvio médio a partir de tabela de frequências;\n- comparar conjuntos com mesma média e diferentes dispersões;\n- interpretar unidade de medida das medidas estudadas;\n- reconhecer o efeito de valores extremos;\n- evitar comparar dispersões de maneira enganosa;\n- relacionar estas ideias com variância, desvio-padrão e coeficiente de variação, que serão aprofundados depois.\n\n\n",
+  "prerequisites": [
+    "MAT-EST-001",
+    "MAT-EST-002",
+    "MAT-EST-003",
+    "MAT-EST-004",
+    "MAT-EST-005",
+    "MAT-EST-006"
+  ],
+  "why": "# MAT-EST-007 — Medidas de dispersão I: amplitude, desvios e desvio médio\n\n\n**Status editorial:** RECONSTRUÇÃO EDITORIAL v1. Esta versão não afirma identidade textual ou binária com o material histórico perdido.\n\n\n**Matéria:** Matemática  \n**Unidade:** Estatística  \n**Nível principal:** 2 — Ensino Fundamental II, com progressão para Ensino Médio, vestibulares e ponte universitária.  \n**Pré-requisitos:** MAT-EST-001 a MAT-EST-006; operações com números inteiros e decimais; valor absoluto; média aritmética.  \n**Próximo tópico:** MAT-EST-008 — Variância e desvio-padrão: quadrados dos desvios, unidades e interpretação.  \n**Questões desta reconstrução:** 100% autorais.\n\n\n",
+  "intuitive": [],
+  "deep": [],
+  "vocabulary": [],
+  "examples": [],
+  "visuals": [
+    {
+      "url": "media/MAT-EST-007/galeria-01.png",
+      "caption": "Mesma média, dispersões diferentes",
+      "alt": "Três conjuntos têm média 5, mas amplitudes 0, 4 e 8.",
+      "observe": "Observe que o centro é igual, mas o espalhamento muda.",
+      "conclusion": "O que observar: Observe que o centro é igual, mas o espalhamento muda.\nConclusão: Mesma média não implica mesma dispersão."
+    },
+    {
+      "url": "media/MAT-EST-007/galeria-02.png",
+      "caption": "Amplitude",
+      "alt": "Reta numérica marca mínimo 4, máximo 15 e amplitude 11.",
+      "observe": "Observe que somente os extremos entram no cálculo.",
+      "conclusion": "O que observar: Observe que somente os extremos entram no cálculo.\nConclusão: Amplitude é máximo menos mínimo."
+    },
+    {
+      "url": "media/MAT-EST-007/galeria-03.png",
+      "caption": "Desvios com sinal",
+      "alt": "Valores 2, 3 e 7 em torno da média 4, com desvios menos 2, menos 1 e mais 3.",
+      "observe": "Observe o cancelamento algébrico dos sinais.",
+      "conclusion": "O que observar: Observe o cancelamento algébrico dos sinais.\nConclusão: A soma dos desvios em torno da média é zero."
+    },
+    {
+      "url": "media/MAT-EST-007/galeria-04.png",
+      "caption": "Valor absoluto",
+      "alt": "Os desvios menos 2, menos 1 e mais 3 tornam-se distâncias 2, 1 e 3.",
+      "observe": "Observe que o valor absoluto remove a direção, não a magnitude.",
+      "conclusion": "O que observar: Observe que o valor absoluto remove a direção, não a magnitude.\nConclusão: Valor absoluto impede o cancelamento ao medir distância."
+    },
+    {
+      "url": "media/MAT-EST-007/galeria-05.png",
+      "caption": "Desvio médio absoluto",
+      "alt": "Fluxo: dados 2, 3 e 7; média 4; distâncias 2, 1 e 3; soma 6; DMA 2.",
+      "observe": "Observe a sequência completa do cálculo.",
+      "conclusion": "O que observar: Observe a sequência completa do cálculo.\nConclusão: DMA é a média das distâncias absolutas até o centro escolhido."
+    },
+    {
+      "url": "media/MAT-EST-007/galeria-06.png",
+      "caption": "Efeito de valor extremo",
+      "alt": "Compara 5,5,5,5,5 com 5,5,5,5,25; média, amplitude e DMA aumentam.",
+      "observe": "Observe como um extremo altera centro e espalhamento.",
+      "conclusion": "O que observar: Observe como um extremo altera centro e espalhamento.\nConclusão: Valor extremo pode mudar fortemente medidas de centro e dispersão."
+    }
+  ],
+  "applications": [],
+  "connections": [],
+  "commonErrors": [],
+  "learning": [
+    "MAT-EST-007-EX-APR-01",
+    "MAT-EST-007-EX-APR-02",
+    "MAT-EST-007-EX-APR-03",
+    "MAT-EST-007-EX-APR-04",
+    "MAT-EST-007-EX-APR-05",
+    "MAT-EST-007-EX-APR-06",
+    "MAT-EST-007-EX-APR-07",
+    "MAT-EST-007-EX-APR-08",
+    "MAT-EST-007-EX-APR-09",
+    "MAT-EST-007-EX-APR-10"
+  ],
+  "consolidation": [
+    "MAT-EST-007-EX-CON-01",
+    "MAT-EST-007-EX-CON-02",
+    "MAT-EST-007-EX-CON-03",
+    "MAT-EST-007-EX-CON-04",
+    "MAT-EST-007-EX-CON-05",
+    "MAT-EST-007-EX-CON-06",
+    "MAT-EST-007-EX-CON-07",
+    "MAT-EST-007-EX-CON-08",
+    "MAT-EST-007-EX-CON-09",
+    "MAT-EST-007-EX-CON-10"
+  ],
+  "entrance": [
+    "MAT-EST-007-EX-VES-01",
+    "MAT-EST-007-EX-VES-02",
+    "MAT-EST-007-EX-VES-03",
+    "MAT-EST-007-EX-VES-04",
+    "MAT-EST-007-EX-VES-05",
+    "MAT-EST-007-EX-VES-06",
+    "MAT-EST-007-EX-VES-07",
+    "MAT-EST-007-EX-VES-08",
+    "MAT-EST-007-EX-VES-09",
+    "MAT-EST-007-EX-VES-10"
+  ],
+  "retest": [
+    "MAT-EST-007-EX-RET-01",
+    "MAT-EST-007-EX-RET-02",
+    "MAT-EST-007-EX-RET-03",
+    "MAT-EST-007-EX-RET-04",
+    "MAT-EST-007-EX-RET-05",
+    "MAT-EST-007-EX-RET-06"
+  ],
+  "solutions": [],
+  "summary": "## 49. Resumo\n\n\nAmplitude:\n\n\nR = máximo − mínimo.\n\n\nDesvio em relação à média:\n\n\ndᵢ = xᵢ − x̄.\n\n\nDesvio médio absoluto:\n\n\nDMA = Σ|xᵢ − x̄|/n.\n\n\nCom frequências:\n\n\nDMA = Σ(fᵢ|xᵢ − x̄|)/Σfᵢ.\n\n\nA amplitude usa apenas extremos.\n\n\nO DMA usa todas as observações.\n\n\nAmbos têm a mesma unidade dos dados.\n\n\nA amplitude e o DMA são não negativos.\n\n\nSomar uma constante a todos os valores não altera a dispersão.\n\n\nMultiplicar todos por k multiplica medidas de dispersão lineares por |k|.\n\n\n",
+  "audioVersion": "## 50. Versão curta para ouvir\n\n\nDispersão descreve quanto os dados se espalham.\n\n\nA amplitude é o maior valor menos o menor. É simples, mas usa apenas dois dados e é muito sensível a extremos.\n\n\nO desvio de uma observação é a diferença entre ela e um centro. Em relação à média, desvios positivos e negativos somam zero, então precisamos evitar cancelamento.\n\n\nO desvio médio absoluto usa as distâncias absolutas até a média e calcula a média dessas distâncias.\n\n\nEle tem a mesma unidade dos dados e usa todas as observações.\n\n\nA mesma média pode aparecer em conjuntos com dispersões muito diferentes.\n\n\n",
+  "sections": [
+    {
+      "id": "MAT-EST-007-s000",
+      "title": "Apresentação e contexto da fonte",
+      "paragraphs": [],
+      "markdown": "# MAT-EST-007 — Medidas de dispersão I: amplitude, desvios e desvio médio\n\n\n**Status editorial:** RECONSTRUÇÃO EDITORIAL v1. Esta versão não afirma identidade textual ou binária com o material histórico perdido.\n\n\n**Matéria:** Matemática  \n**Unidade:** Estatística  \n**Nível principal:** 2 — Ensino Fundamental II, com progressão para Ensino Médio, vestibulares e ponte universitária.  \n**Pré-requisitos:** MAT-EST-001 a MAT-EST-006; operações com números inteiros e decimais; valor absoluto; média aritmética.  \n**Próximo tópico:** MAT-EST-008 — Variância e desvio-padrão: quadrados dos desvios, unidades e interpretação.  \n**Questões desta reconstrução:** 100% autorais.\n\n\n",
+      "sourceStart": 0,
+      "sourceEnd": 675
+    },
+    {
+      "id": "MAT-EST-007-s001",
+      "title": "1. Objetivo",
+      "paragraphs": [],
+      "markdown": "## 1. Objetivo\n\n\nAo concluir o estudo real desta aula, o estudante deverá ser capaz de:\n\n\n- explicar por que uma medida de centro não descreve sozinha um conjunto de dados;\n- compreender dispersão como ideia de espalhamento, variabilidade ou afastamento entre valores;\n- calcular e interpretar amplitude total;\n- reconhecer vantagens e limitações da amplitude;\n- calcular desvios em relação à média;\n- compreender por que desvios com sinal positivo e negativo se cancelam;\n- usar valor absoluto para transformar afastamento em magnitude;\n- calcular desvio médio absoluto em torno da média;\n- calcular desvio médio absoluto em torno da mediana em situações introdutórias e distinguir as duas escolhas;\n- calcular desvio médio a partir de tabela de frequências;\n- comparar conjuntos com mesma média e diferentes dispersões;\n- interpretar unidade de medida das medidas estudadas;\n- reconhecer o efeito de valores extremos;\n- evitar comparar dispersões de maneira enganosa;\n- relacionar estas ideias com variância, desvio-padrão e coeficiente de variação, que serão aprofundados depois.\n\n\n",
+      "sourceStart": 675,
+      "sourceEnd": 1760
+    },
+    {
+      "id": "MAT-EST-007-s002",
+      "title": "2. Por que precisamos de medidas de dispersão?",
+      "paragraphs": [],
+      "markdown": "## 2. Por que precisamos de medidas de dispersão?\n\n\nConsidere três conjuntos:\n\n\nA = 5, 5, 5, 5, 5.\n\n\nB = 3, 4, 5, 6, 7.\n\n\nC = 1, 1, 5, 9, 9.\n\n\nTodos têm média 5.\n\n\nMas eles não se comportam da mesma forma.\n\n\nNo conjunto A, todos os valores coincidem com a média.\n\n\nNo conjunto B, os valores estão relativamente próximos de 5.\n\n\nNo conjunto C, há valores muito afastados de 5.\n\n\nA média sozinha não mostra essa diferença.\n\n\nPrecisamos de medidas que descrevam quanto os dados se espalham. Essa é a ideia de **dispersão**.\n\n\n",
+      "sourceStart": 1760,
+      "sourceEnd": 2283
+    },
+    {
+      "id": "MAT-EST-007-s003",
+      "title": "3. O que significa dispersão?",
+      "paragraphs": [],
+      "markdown": "## 3. O que significa dispersão?\n\n\nDispersão é uma forma de descrever o grau de variabilidade dos dados.\n\n\nEm linguagem intuitiva:\n\n\n- baixa dispersão: valores ficam relativamente próximos;\n- alta dispersão: valores ficam mais espalhados.\n\n\nA dispersão não é “boa” ou “ruim” por si só. O significado depende do contexto.\n\n\nExemplos:\n\n\n- produção industrial: baixa dispersão pode indicar padronização;\n- diversidade biológica: alta dispersão pode ser característica real do sistema;\n- tempo de atendimento: alta dispersão pode indicar experiência muito desigual entre usuários;\n- notas: baixa dispersão pode ocorrer porque todos aprenderam bem ou porque uma prova foi pouco discriminativa.\n\n\n",
+      "sourceStart": 2283,
+      "sourceEnd": 2974
+    },
+    {
+      "id": "MAT-EST-007-s004",
+      "title": "4. A primeira medida: amplitude total",
+      "paragraphs": [],
+      "markdown": "## 4. A primeira medida: amplitude total\n\n\nA amplitude total é a diferença entre o maior e o menor valor.\n\n\nFórmula:\n\n\n**R = máximo − mínimo.**\n\n\nLeitura pronunciável:\n\n\n“erre é igual ao maior valor menos o menor valor”.\n\n\nAlguns materiais usam A para amplitude. Nesta aula usaremos R para evitar confusão com nomes de conjuntos, mas o importante é compreender a operação.\n\n\n",
+      "sourceStart": 2974,
+      "sourceEnd": 3349
+    },
+    {
+      "id": "MAT-EST-007-s005",
+      "title": "5. Exemplo de amplitude",
+      "paragraphs": [],
+      "markdown": "## 5. Exemplo de amplitude\n\n\nDados:\n\n\n4, 7, 9, 10, 15.\n\n\nMínimo = 4.\n\n\nMáximo = 15.\n\n\nAmplitude:\n\n\nR = 15 − 4 = 11.\n\n\nSe os dados estão em minutos, a amplitude está em minutos.\n\n\nSe estão em reais, a amplitude está em reais.\n\n\n",
+      "sourceStart": 3349,
+      "sourceEnd": 3576
+    },
+    {
+      "id": "MAT-EST-007-s006",
+      "title": "6. Por que a amplitude é útil?",
+      "paragraphs": [],
+      "markdown": "## 6. Por que a amplitude é útil?\n\n\nEla é simples e rápida.\n\n\nPermite responder:\n\n\n“Qual é a distância total entre o menor e o maior valor observado?”\n\n\nTambém funciona como uma primeira medida de espalhamento e como controle de plausibilidade.\n\n\nSe temperaturas variam de 18 a 27 graus Celsius, a amplitude é 9 graus Celsius.\n\n\n",
+      "sourceStart": 3576,
+      "sourceEnd": 3905
+    },
+    {
+      "id": "MAT-EST-007-s007",
+      "title": "7. Limitação central da amplitude",
+      "paragraphs": [],
+      "markdown": "## 7. Limitação central da amplitude\n\n\nA amplitude usa apenas dois valores:\n\n\n- o mínimo;\n- o máximo.\n\n\nEla ignora completamente o que ocorre entre eles.\n\n\nCompare:\n\n\nA = 0, 5, 5, 5, 10.\n\n\nB = 0, 0, 5, 10, 10.\n\n\nAmbos têm:\n\n\nmínimo 0;\nmáximo 10;\namplitude 10.\n\n\nMas B tem muito mais concentração nos extremos.\n\n\nA amplitude não consegue distinguir isso.\n\n\n",
+      "sourceStart": 3905,
+      "sourceEnd": 4261
+    },
+    {
+      "id": "MAT-EST-007-s008",
+      "title": "8. Sensibilidade da amplitude a valores extremos",
+      "paragraphs": [],
+      "markdown": "## 8. Sensibilidade da amplitude a valores extremos\n\n\nConsidere:\n\n\n2, 3, 4, 5, 6.\n\n\nAmplitude = 6 − 2 = 4.\n\n\nAgora substitua 6 por 60:\n\n\n2, 3, 4, 5, 60.\n\n\nAmplitude = 60 − 2 = 58.\n\n\nUm único valor extremo altera profundamente a amplitude.\n\n\nIsso não significa que o extremo seja erro. Significa que a amplitude é muito sensível aos extremos.\n\n\n",
+      "sourceStart": 4261,
+      "sourceEnd": 4605
+    },
+    {
+      "id": "MAT-EST-007-s009",
+      "title": "9. Amplitude e tamanho da amostra",
+      "paragraphs": [],
+      "markdown": "## 9. Amplitude e tamanho da amostra\n\n\nEm geral, amostras maiores têm mais oportunidade de conter valores extremos.\n\n\nPor isso, comparar amplitudes de grupos com tamanhos muito diferentes exige cuidadoDois grupos podem ter a mesma distribuição teórica, mas o grupo maior pode apresentar amplitude observada maior simplesmente porque contém mais observações.\n\n\nEssa é uma ponte para raciocínio estatístico mais avançado.\n\n\n",
+      "sourceStart": 4605,
+      "sourceEnd": 5027
+    },
+    {
+      "id": "MAT-EST-007-s010",
+      "title": "10. Da amplitude aos desvios",
+      "paragraphs": [],
+      "markdown": "## 10. Da amplitude aos desvios\n\n\nA amplitude considera somente os extremos.\n\n\nPara usar todos os valores, precisamos medir o afastamento de cada observação em relação a um centro.\n\n\nComo já estudamos a média, começaremos pelos desvios em relação à média.\n\n\nPara cada observação xᵢ:\n\n\n**dᵢ = xᵢ − x̄.**\n\n\nLeitura:\n\n\n“desvio índice i é igual ao valor índice i menos a média”.\n\n\n",
+      "sourceStart": 5027,
+      "sourceEnd": 5404
+    },
+    {
+      "id": "MAT-EST-007-s011",
+      "title": "11. Exemplo de desvios",
+      "paragraphs": [],
+      "markdown": "## 11. Exemplo de desvios\n\n\nDados:\n\n\n2, 3, 7.\n\n\nMédia = 4.\n\n\nDesvios:\n\n\n2 − 4 = −2.\n\n\n3 − 4 = −1.\n\n\n7 − 4 = +3.\n\n\nOs sinais mostram direção:\n\n\nnegativo = abaixo da média;\n\n\npositivo = acima da média.\n\n\n",
+      "sourceStart": 5404,
+      "sourceEnd": 5606
+    },
+    {
+      "id": "MAT-EST-007-s012",
+      "title": "12. O problema do cancelamento",
+      "paragraphs": [],
+      "markdown": "## 12. O problema do cancelamento\n\n\nSomando os desvios do exemplo:\n\n\n−2 + (−1) + 3 = 0.\n\n\nIsso não é coincidência.\n\n\nPara qualquer conjunto, a soma dos desvios em relação à média é zero:\n\n\n**Σ(xᵢ − x̄) = 0.**\n\n\nPortanto, não podemos medir dispersão simplesmente tirando a média dos desvios com sinal.\n\n\nO resultado seria sempre zero.\n\n\n",
+      "sourceStart": 5606,
+      "sourceEnd": 5942
+    },
+    {
+      "id": "MAT-EST-007-s013",
+      "title": "13. Por que a soma dos desvios é zero?",
+      "paragraphs": [],
+      "markdown": "## 13. Por que a soma dos desvios é zero?\n\n\nJá vimos a propriedade da média:\n\n\nΣxᵢ = n x̄.\n\n\nLogo:\n\n\nΣ(xᵢ − x̄)\n= Σxᵢ − n x̄\n= 0.\n\n\nA média funciona como ponto de equilíbrio.\n\n\nPara medir espalhamento, precisamos impedir que afastamentos positivos e negativos se cancelem.\n\n\n",
+      "sourceStart": 5942,
+      "sourceEnd": 6217
+    },
+    {
+      "id": "MAT-EST-007-s014",
+      "title": "14. Uma solução: valor absoluto",
+      "paragraphs": [],
+      "markdown": "## 14. Uma solução: valor absoluto\n\n\nO valor absoluto transforma a distância com sinal em magnitude não negativa.\n\n\nExemplos:\n\n\n|−2| = 2.\n\n\n|−1| = 1.\n\n\n|3| = 3.\n\n\nA barra vertical significa valor absoluto.\n\n\nLeitura:\n\n\n“valor absoluto de menos dois é dois”.\n\n\n",
+      "sourceStart": 6217,
+      "sourceEnd": 6477
+    },
+    {
+      "id": "MAT-EST-007-s015",
+      "title": "15. Desvio absoluto",
+      "paragraphs": [],
+      "markdown": "## 15. Desvio absoluto\n\n\nPara cada observação:\n\n\n**|xᵢ − x̄|**\n\n\nrepresenta a distância da observação até a média, ignorando direção.\n\n\nNo conjunto 2, 3, 7 com média 4:\n\n\n|2−4| = 2.\n\n\n|3−4| = 1.\n\n\n|7−4| = 3.\n\n\nAgora podemos somar sem cancelamento:\n\n\n2 + 1 + 3 = 6.\n\n\n",
+      "sourceStart": 6477,
+      "sourceEnd": 6744
+    },
+    {
+      "id": "MAT-EST-007-s016",
+      "title": "16. Desvio médio absoluto em torno da média",
+      "paragraphs": [],
+      "markdown": "## 16. Desvio médio absoluto em torno da média\n\n\nO desvio médio absoluto, abreviado aqui como DMA, é a média dos desvios absolutos em relação ao centro escolhido.\n\n\nQuando o centro é a média:\n\n\n**DMA = Σ|xᵢ − x̄| / n.**\n\n\nLeitura pronunciável:\n\n\n“desvio médio absoluto é a soma das distâncias absolutas de cada valor até a média, dividida pela quantidade de observações”.\n\n\n",
+      "sourceStart": 6744,
+      "sourceEnd": 7118
+    },
+    {
+      "id": "MAT-EST-007-s017",
+      "title": "17. Exemplo completo de desvio médio",
+      "paragraphs": [],
+      "markdown": "## 17. Exemplo completo de desvio médio\n\n\nDados:\n\n\n2, 3, 7.\n\n\nMédia = 4.\n\n\nDesvios absolutos:\n\n\n2, 1 e 3.\n\n\nSoma = 6.\n\n\nn = 3.\n\n\nDMA = 6/3 = 2.\n\n\nInterpretação:\n\n\nas observações estão, em média, a 2 unidades de distância da média aritmética.\n\n\n",
+      "sourceStart": 7118,
+      "sourceEnd": 7362
+    },
+    {
+      "id": "MAT-EST-007-s018",
+      "title": "18. Unidade do desvio médio",
+      "paragraphs": [],
+      "markdown": "## 18. Unidade do desvio médio\n\n\nO desvio médio absoluto tem a mesma unidade dos dados.\n\n\nSe os dados são em minutos, o DMA está em minutos.\n\n\nSe são em reais, o DMA está em reais.\n\n\nIsso facilita a interpretação.\n\n\n",
+      "sourceStart": 7362,
+      "sourceEnd": 7578
+    },
+    {
+      "id": "MAT-EST-007-s019",
+      "title": "19. Comparação de dois conjuntos com mesma média",
+      "paragraphs": [],
+      "markdown": "## 19. Comparação de dois conjuntos com mesma média\n\n\nA = 4, 5, 6.\n\n\nB = 0, 5, 10.\n\n\nAmbos têm média 5.\n\n\nPara A:\n\n\ndesvios absolutos = 1, 0, 1.\n\n\nDMA = 2/3 ≈ 0,67.\n\n\nPara B:\n\n\ndesvios absolutos = 5, 0, 5.\n\n\nDMA = 10/3 ≈ 3,33.\n\n\nA média é igual, mas B é muito mais disperso.\n\n\n",
+      "sourceStart": 7578,
+      "sourceEnd": 7855
+    },
+    {
+      "id": "MAT-EST-007-s020",
+      "title": "20. Comparação com a amplitude",
+      "paragraphs": [],
+      "markdown": "## 20. Comparação com a amplitude\n\n\nPara A = 4,5,6:\n\n\namplitude = 2.\n\n\nDMA ≈ 0,67.\n\n\nPara B = 0,5,10:\n\n\namplitude = 10.\n\n\nDMA ≈ 3,33.\n\n\nAs duas medidas detectam maior dispersão em B.\n\n\nMas fazem isso de maneiras diferentes:\n\n\n- amplitude usa apenas extremos;\n- DMA usa todas as observações.\n\n\n",
+      "sourceStart": 7855,
+      "sourceEnd": 8148
+    },
+    {
+      "id": "MAT-EST-007-s021",
+      "title": "21. Desvio médio zero",
+      "paragraphs": [],
+      "markdown": "## 21. Desvio médio zero\n\n\nSe todos os valores são iguais:\n\n\n5, 5, 5, 5,\n\n\nmédia = 5.\n\n\nTodos os desvios absolutos são zero.\n\n\nDMA = 0.\n\n\nPortanto, dispersão zero significa ausência de variação observada.\n\n\n",
+      "sourceStart": 8148,
+      "sourceEnd": 8355
+    },
+    {
+      "id": "MAT-EST-007-s022",
+      "title": "22. O desvio médio nunca é negativo",
+      "paragraphs": [],
+      "markdown": "## 22. O desvio médio nunca é negativo\n\n\nComo cada valor absoluto é não negativo:\n\n\n|xᵢ − x̄| ≥ 0.\n\n\nA soma é não negativa.\n\n\nDividir por n positivo mantém o resultado não negativo.\n\n\nLogo:\n\n\n**DMA ≥ 0.**\n\n\n",
+      "sourceStart": 8355,
+      "sourceEnd": 8562
+    },
+    {
+      "id": "MAT-EST-007-s023",
+      "title": "23. Efeito de adicionar constante",
+      "paragraphs": [],
+      "markdown": "## 23. Efeito de adicionar constante\n\n\nDados:\n\n\n2, 4, 6.\n\n\nMédia = 4.\n\n\nDesvios absolutos:\n\n\n2, 0, 2.\n\n\nDMA = 4/3.\n\n\nSomando 10 a todos:\n\n\n12, 14, 16.\n\n\nMédia = 14.\n\n\nDesvios absolutos continuam:\n\n\n2, 0, 2.\n\n\nO DMA não muda.\n\n\nAdicionar a mesma constante desloca o conjunto, mas não altera sua dispersão.\n\n\n",
+      "sourceStart": 8562,
+      "sourceEnd": 8869
+    },
+    {
+      "id": "MAT-EST-007-s024",
+      "title": "24. Efeito de multiplicar todos os valores",
+      "paragraphs": [],
+      "markdown": "## 24. Efeito de multiplicar todos os valores\n\n\nSe todos os valores forem multiplicados por k, os desvios absolutos são multiplicados por |k|.\n\n\nExemplo:\n\n\n2,4,6 têm DMA 4/3.\n\n\nMultiplicando por 3:\n\n\n6,12,18.\n\n\nDMA = 4.\n\n\nComo 3 × 4/3 = 4.\n\n\n",
+      "sourceStart": 8869,
+      "sourceEnd": 9111
+    },
+    {
+      "id": "MAT-EST-007-s025",
+      "title": "25. Propriedade geral de escala",
+      "paragraphs": [],
+      "markdown": "## 25. Propriedade geral de escala\n\n\nSe:\n\n\nyᵢ = a xᵢ + b,\n\n\nentão o desvio médio absoluto é multiplicado por |a| e não depende de b.\n\n\nLeitura:\n\n\n“somar uma constante não altera a dispersão; multiplicar a escala multiplica a dispersão pelo valor absoluto do fator”.\n\n\n",
+      "sourceStart": 9111,
+      "sourceEnd": 9379
+    },
+    {
+      "id": "MAT-EST-007-s026",
+      "title": "26. Desvio médio a partir de frequências",
+      "paragraphs": [],
+      "markdown": "## 26. Desvio médio a partir de frequências\n\n\nConsidere:\n\n\nvalor 1, frequência 2;\n\n\nvalor 2, frequência 4;\n\n\nvalor 5, frequência 2.\n\n\nPrimeiro calculamos a média:\n\n\nsoma ponderada = 1×2 + 2×4 + 5×2 = 20.\n\n\nn = 8.\n\n\nmédia = 2,5.\n\n\nDesvios absolutos:\n\n\npara 1: |1−2,5| = 1,5;\n\n\npara 2: |2−2,5| = 0,5;\n\n\npara 5: |5−2,5| = 2,5.\n\n\nAgora ponderamos pelas frequências:\n\n\n1,5×2 + 0,5×4 + 2,5×2\n= 3 + 2 + 5\n= 10.\n\n\nDMA = 10/8 = 1,25.\n\n\n",
+      "sourceStart": 9379,
+      "sourceEnd": 9806
+    },
+    {
+      "id": "MAT-EST-007-s027",
+      "title": "27. Fórmula com frequências",
+      "paragraphs": [],
+      "markdown": "## 27. Fórmula com frequências\n\n\n**DMA = Σ(fᵢ |xᵢ − x̄|) / Σfᵢ.**\n\n\nLeitura:\n\n\n“desvio médio absoluto é a soma das frequências vezes a distância absoluta de cada valor até a média, dividida pela soma das frequências”.\n\n\n",
+      "sourceStart": 9806,
+      "sourceEnd": 10026
+    },
+    {
+      "id": "MAT-EST-007-s028",
+      "title": "28. Desvio em torno da mediana",
+      "paragraphs": [],
+      "markdown": "## 28. Desvio em torno da mediana\n\n\nTambém podemos calcular distâncias em relação à mediana.\n\n\nExemplo:\n\n\n1, 2, 3, 100.\n\n\nMediana = 2,5.\n\n\nDistâncias absolutas até a mediana:\n\n\n1,5; 0,5; 0,5; 97,5.\n\n\nMédia dessas distâncias:\n\n\n100/4 = 25.\n\n\nSe usarmos a média aritmética como centro, o valor será diferente.\n\n\nPor isso, sempre precisamos declarar qual centro foi usado.\n\n\n",
+      "sourceStart": 10026,
+      "sourceEnd": 10398
+    },
+    {
+      "id": "MAT-EST-007-s029",
+      "title": "29. Média e mediana minimizam coisas diferentes",
+      "paragraphs": [],
+      "markdown": "## 29. Média e mediana minimizam coisas diferentes\n\n\nEsta é uma ponte universitária importante.\n\n\nA média aritmética minimiza a soma dos **quadrados** dos desvios.\n\n\nA mediana minimiza a soma dos **valores absolutos** dos desvios.\n\n\nAinda estudaremos os quadrados dos desvios na MAT-EST-008.\n\n\nEssa diferença explica por que média e mediana aparecem naturalmente em medidas de dispersão diferentes.\n\n\n",
+      "sourceStart": 10398,
+      "sourceEnd": 10799
+    },
+    {
+      "id": "MAT-EST-007-s030",
+      "title": "30. Por que não existe uma única “melhor” medida de dispersão?",
+      "paragraphs": [],
+      "markdown": "## 30. Por que não existe uma única “melhor” medida de dispersão?\n\n\nCada medida destaca uma propriedade.\n\n\nAmplitude:\n\n\n- simples;\n- intuitiva;\n- usa apenas extremos;\n- muito sensível a valores extremos.\n\n\nDesvio médio absoluto:\n\n\n- usa todos os dados;\n- conserva a unidade;\n- tem interpretação direta de distância média;\n- depende do centro escolhido.\n\n\nVariância e desvio-padrão, estudados a seguir, possuem propriedades algébricas muito importantes e aparecem amplamente em inferência, probabilidade e modelagem.\n\n\n",
+      "sourceStart": 10799,
+      "sourceEnd": 11317
+    },
+    {
+      "id": "MAT-EST-007-s031",
+      "title": "31. Comparar dispersão de conjuntos em escalas diferentes",
+      "paragraphs": [],
+      "markdown": "## 31. Comparar dispersão de conjuntos em escalas diferentes\n\n\nSuponha:\n\n\nConjunto A: média 10, DMA 2.\n\n\nConjunto B: média 1000, DMA 20.\n\n\nO DMA de B é dez vezes maior.\n\n\nMas as escalas também são cem vezes maiores.\n\n\nComparar apenas dispersão absoluta pode ser enganoso quando médias e unidades diferem muito.\n\n\nMais adiante estudaremos o coeficiente de variação como uma medida relativa.\n\n\n",
+      "sourceStart": 11317,
+      "sourceEnd": 11709
+    },
+    {
+      "id": "MAT-EST-007-s032",
+      "title": "32. Dispersão e unidade",
+      "paragraphs": [],
+      "markdown": "## 32. Dispersão e unidade\n\n\nAmplitude e DMA mantêm a unidade original.\n\n\nIsso é uma vantagem interpretativa.\n\n\nNa MAT-EST-008 veremos que a variância usa unidade ao quadrado, o que exige interpretação adicional.\n\n\n",
+      "sourceStart": 11709,
+      "sourceEnd": 11924
+    },
+    {
+      "id": "MAT-EST-007-s033",
+      "title": "33. Amplitude e dados ausentes",
+      "paragraphs": [],
+      "markdown": "## 33. Amplitude e dados ausentes\n\n\nDados ausentes não devem ser tratados automaticamente como zero.\n\n\nSe o maior ou menor valor está ausente por falha de coleta, a amplitude observada pode subestimar a variabilidade real.\n\n\nDa mesma forma, o DMA deve usar apenas observações efetivamente válidas, salvo método de tratamento de ausência claramente documentado.\n\n\n",
+      "sourceStart": 11924,
+      "sourceEnd": 12287
+    },
+    {
+      "id": "MAT-EST-007-s034",
+      "title": "34. Amplitude em dados agrupados",
+      "paragraphs": [],
+      "markdown": "## 34. Amplitude em dados agrupados\n\n\nSe temos apenas classes, a amplitude exata dos dados pode ser desconhecida.\n\n\nExemplo:\n\n\nclasse mínima: [0,10);\n\n\nclasse máxima: [40,50).\n\n\nSabemos apenas que o menor dado está entre 0 e menos de 10 e o maior entre 40 e menos de 50.\n\n\nUsar 50−0=50 seria amplitude do intervalo coberto pelas classes, não necessariamente amplitude exata dos valores observados.\n\n\n",
+      "sourceStart": 12287,
+      "sourceEnd": 12687
+    },
+    {
+      "id": "MAT-EST-007-s035",
+      "title": "35. Desvio médio aproximado em dados agrupados",
+      "paragraphs": [],
+      "markdown": "## 35. Desvio médio aproximado em dados agrupados\n\n\nSe só temos classes, podemos usar pontos médios para construir uma aproximação.\n\n\nIsso introduz erro de agrupamento, porque substituímos os valores reais pelo ponto médio da classe.\n\n\nA resposta deve ser identificada como aproximada.\n\n\n",
+      "sourceStart": 12687,
+      "sourceEnd": 12975
+    },
+    {
+      "id": "MAT-EST-007-s036",
+      "title": "36. Erro comum: usar desvios com sinal diretamente",
+      "paragraphs": [],
+      "markdown": "## 36. Erro comum: usar desvios com sinal diretamente\n\n\nDados 2,3,7 têm média 4.\n\n\nDesvios: −2, −1, +3.\n\n\nA média desses desvios é zero.\n\n\nIsso não significa dispersão zero.\n\n\nSignifica apenas que a média é ponto de equilíbrio.\n\n\nPara dispersão, precisamos impedir cancelamento, usando valor absoluto ou quadrado.\n\n\n",
+      "sourceStart": 12975,
+      "sourceEnd": 13291
+    },
+    {
+      "id": "MAT-EST-007-s037",
+      "title": "37. Erro comum: chamar amplitude de “média das diferenças”",
+      "paragraphs": [],
+      "markdown": "## 37. Erro comum: chamar amplitude de “média das diferenças”\n\n\nAmplitude não é média.\n\n\nAmplitude é:\n\n\nmáximo − mínimo.\n\n\nEla não usa os valores intermediários.\n\n\n",
+      "sourceStart": 13291,
+      "sourceEnd": 13455
+    },
+    {
+      "id": "MAT-EST-007-s038",
+      "title": "38. Erro comum: comparar DMA sem verificar unidade",
+      "paragraphs": [],
+      "markdown": "## 38. Erro comum: comparar DMA sem verificar unidade\n\n\nUm DMA de 5 centímetros e um DMA de 5 metros têm o mesmo número, mas não a mesma magnitude física.\n\n\nUnidade faz parte do resultado.\n\n\n",
+      "sourceStart": 13455,
+      "sourceEnd": 13646
+    },
+    {
+      "id": "MAT-EST-007-s039",
+      "title": "39. Erro comum: concluir homogeneidade apenas pela amplitude",
+      "paragraphs": [],
+      "markdown": "## 39. Erro comum: concluir homogeneidade apenas pela amplitude\n\n\nDois conjuntos podem ter mesma amplitude e distribuições internas muito diferentes.\n\n\nSempre que possível, observe também medidas que usem todos os dados e representações gráficas.\n\n\n",
+      "sourceStart": 13646,
+      "sourceEnd": 13895
+    },
+    {
+      "id": "MAT-EST-007-s040",
+      "title": "40. Erro comum: remover extremos para “melhorar” a dispersão",
+      "paragraphs": [],
+      "markdown": "## 40. Erro comum: remover extremos para “melhorar” a dispersão\n\n\nRemover um extremo quase sempre reduz amplitude e pode reduzir outras medidas.\n\n\nIsso não é justificativa para exclusão.\n\n\nA exclusão deve ser motivada por erro comprovado, regra metodológica prévia ou definição clara da população.\n\n\n",
+      "sourceStart": 13895,
+      "sourceEnd": 14195
+    },
+    {
+      "id": "MAT-EST-007-s041",
+      "title": "41. Exemplo resolvido integrado 1",
+      "paragraphs": [],
+      "markdown": "## 41. Exemplo resolvido integrado 1\n\n\nDados:\n\n\n3, 4, 5, 6, 7.\n\n\nMédia = 5.\n\n\nAmplitude:\n\n\n7−3 = 4.\n\n\nDesvios absolutos:\n\n\n2,1,0,1,2.\n\n\nSoma = 6.\n\n\nDMA = 6/5 = 1,2.\n\n\nInterpretação:\n\n\nos dados ocupam intervalo total de 4 unidades e ficam, em média, a 1,2 unidade da média.\n\n\n",
+      "sourceStart": 14195,
+      "sourceEnd": 14470
+    },
+    {
+      "id": "MAT-EST-007-s042",
+      "title": "42. Exemplo resolvido integrado 2",
+      "paragraphs": [],
+      "markdown": "## 42. Exemplo resolvido integrado 2\n\n\nDados:\n\n\n1, 1, 5, 9, 9.\n\n\nMédia = 5.\n\n\nAmplitude:\n\n\n9−1 = 8.\n\n\nDesvios absolutos:\n\n\n4,4,0,4,4.\n\n\nSoma = 16.\n\n\nDMA = 16/5 = 3,2.\n\n\nCompare com 3,4,5,6,7:\n\n\nmesma média 5;\namplitude 8 versus 4;\nDMA 3,2 versus 1,2.\n\n\nO segundo conjunto é mais disperso.\n\n\n",
+      "sourceStart": 14470,
+      "sourceEnd": 14761
+    },
+    {
+      "id": "MAT-EST-007-s043",
+      "title": "43. Exemplo resolvido integrado 3 — frequências",
+      "paragraphs": [],
+      "markdown": "## 43. Exemplo resolvido integrado 3 — frequências\n\n\nValores:\n\n\n10 com f=1;\n\n\n12 com f=3;\n\n\n14 com f=1.\n\n\nMédia:\n\n\n(10×1 + 12×3 + 14×1)/5\n= 60/5\n= 12.\n\n\nDesvios absolutos:\n\n\n2, 0, 2.\n\n\nPonderados:\n\n\n2×1 + 0×3 + 2×1 = 4.\n\n\nDMA = 4/5 = 0,8.\n\n\n",
+      "sourceStart": 14761,
+      "sourceEnd": 15002
+    },
+    {
+      "id": "MAT-EST-007-s044",
+      "title": "44. Exemplo resolvido integrado 4 — transformação",
+      "paragraphs": [],
+      "markdown": "## 44. Exemplo resolvido integrado 4 — transformação\n\n\nDados:\n\n\n2,4,6.\n\n\nMédia = 4.\n\n\nDMA = 4/3.\n\n\nTransformação:\n\n\ny = 5x + 100.\n\n\nSomar 100 não altera dispersão.\n\n\nMultiplicar por 5 multiplica o DMA por 5.\n\n\nNovo DMA:\n\n\n5 × 4/3 = 20/3 ≈ 6,67.\n\n\n",
+      "sourceStart": 15002,
+      "sourceEnd": 15249
+    },
+    {
+      "id": "MAT-EST-007-s045",
+      "title": "45. Exemplo resolvido integrado 5 — extremo",
+      "paragraphs": [],
+      "markdown": "## 45. Exemplo resolvido integrado 5 — extremo\n\n\nDados originais:\n\n\n5,5,5,5,5.\n\n\nAmplitude = 0.\n\n\nDMA = 0.\n\n\nSubstitua um valor por 25:\n\n\n5,5,5,5,25.\n\n\nMédia = 9.\n\n\nAmplitude = 20.\n\n\nDesvios absolutos em relação à média:\n\n\n4,4,4,4,16.\n\n\nSoma = 32.\n\n\nDMA = 32/5 = 6,4.\n\n\nUm único valor alterou centro e dispersão.\n\n\n",
+      "sourceStart": 15249,
+      "sourceEnd": 15564
+    },
+    {
+      "id": "MAT-EST-007-s046",
+      "title": "46. Relação com gráficos",
+      "paragraphs": [],
+      "markdown": "## 46. Relação com gráficos\n\n\nHistogramas, box-plots e gráficos de pontos ajudam a enxergar dispersão visualmente.\n\n\nDuas distribuições podem ter mesma média, mas uma ocupar intervalo muito maior.\n\n\nA análise ideal combina:\n\n\n- medida de centro;\n- medida de dispersão;\n- representação gráfica;\n- contexto da coleta.\n\n\n",
+      "sourceStart": 15564,
+      "sourceEnd": 15882
+    },
+    {
+      "id": "MAT-EST-007-s047",
+      "title": "47. Relação com BNCC, ENEM e FUVEST",
+      "paragraphs": [],
+      "markdown": "## 47. Relação com BNCC, ENEM e FUVEST\n\n\nA BNCC, em EF08MA25, trabalha medidas de tendência central e a relação com a dispersão indicada pela amplitude.\n\n\nO Programa FUVEST 2027 inclui explicitamente medidas de dispersão: amplitude, desvio-médio, variância, desvio-padrão e coeficiente de variação, além de suas interpretações.\n\n\nA Matriz de Referência do Enem publicada pelo Inep em 2026 permanece a referência institucional para competências, habilidades e objetos de conhecimento. As questões desta reconstrução são autorais.\n\n\n",
+      "sourceStart": 15882,
+      "sourceEnd": 16413
+    },
+    {
+      "id": "MAT-EST-007-s048",
+      "title": "48. O que observar nos seis visuais",
+      "paragraphs": [],
+      "markdown": "## 48. O que observar nos seis visuais\n\n\n**Visual 1 — mesma média, dispersões diferentes.**  \nObserve três conjuntos com média 5 e espalhamentos diferentes.\n\n\n**Visual 2 — amplitude.**  \nObserve mínimo, máximo e a distância total entre eles.\n\n\n**Visual 3 — desvios com sinal.**  \nObserve valores abaixo e acima da média e o cancelamento dos sinais.\n\n\n**Visual 4 — valor absoluto.**  \nObserve como os desvios −2, −1 e +3 se tornam distâncias 2, 1 e 3.\n\n\n**Visual 5 — desvio médio.**  \nObserve a sequência cálculo da média → distâncias → soma → divisão por n.\n\n\n**Visual 6 — efeito do extremo.**  \nCompare a dispersão de 5,5,5,5,5 com 5,5,5,5,25.\n\n\n",
+      "sourceStart": 16413,
+      "sourceEnd": 17060
+    },
+    {
+      "id": "MAT-EST-007-s049",
+      "title": "49. Resumo",
+      "paragraphs": [],
+      "markdown": "## 49. Resumo\n\n\nAmplitude:\n\n\nR = máximo − mínimo.\n\n\nDesvio em relação à média:\n\n\ndᵢ = xᵢ − x̄.\n\n\nDesvio médio absoluto:\n\n\nDMA = Σ|xᵢ − x̄|/n.\n\n\nCom frequências:\n\n\nDMA = Σ(fᵢ|xᵢ − x̄|)/Σfᵢ.\n\n\nA amplitude usa apenas extremos.\n\n\nO DMA usa todas as observações.\n\n\nAmbos têm a mesma unidade dos dados.\n\n\nA amplitude e o DMA são não negativos.\n\n\nSomar uma constante a todos os valores não altera a dispersão.\n\n\nMultiplicar todos por k multiplica medidas de dispersão lineares por |k|.\n\n\n",
+      "sourceStart": 17060,
+      "sourceEnd": 17541
+    },
+    {
+      "id": "MAT-EST-007-s050",
+      "title": "50. Versão curta para ouvir",
+      "paragraphs": [],
+      "markdown": "## 50. Versão curta para ouvir\n\n\nDispersão descreve quanto os dados se espalham.\n\n\nA amplitude é o maior valor menos o menor. É simples, mas usa apenas dois dados e é muito sensível a extremos.\n\n\nO desvio de uma observação é a diferença entre ela e um centro. Em relação à média, desvios positivos e negativos somam zero, então precisamos evitar cancelamento.\n\n\nO desvio médio absoluto usa as distâncias absolutas até a média e calcula a média dessas distâncias.\n\n\nEle tem a mesma unidade dos dados e usa todas as observações.\n\n\nA mesma média pode aparecer em conjuntos com dispersões muito diferentes.\n\n\n",
+      "sourceStart": 17541,
+      "sourceEnd": 18146
+    },
+    {
+      "id": "MAT-EST-007-s051",
+      "title": "51. Vídeos complementares",
+      "paragraphs": [],
+      "markdown": "## 51. Vídeos complementares\n\n\n### Vídeo 1 — amplitude\n\n\n**Título:** AMPLITUDE ESTATÍSTICA | MEDIDA DE DISPERSÃO  \n**Canal:** Gis com Giz Mathematics  \n**URL:** https://www.youtube.com/watch?v=mV_d_KejL8s\n\n\n**Motivo:** a descrição pública informa explicação direta de amplitude como diferença entre maior e menor valor e inclui exercícios.\n\n\n**Quando assistir:** depois das seções 4 a 9.\n\n\n### Vídeo 2 — desvio médio absoluto\n\n\n**Título:** DESVIO MÉDIO ABSOLUTO  \n**Canal:** Prof. MURAKAMI - MATEMÁTICA RAPIDOLA  \n**URL:** https://www.youtube.com/watch?v=cEgG9bq2XQg\n\n\n**Motivo:** a descrição pública identifica o desvio médio absoluto como medida de dispersão e o relaciona com variância e desvio-padrão.\n\n\n**Quando assistir:** depois das seções 14 a 30.\n\n\n**Estado de QA:** as páginas públicas foram localizadas; reprodução integral, áudio, duração efetiva e sincronização de legendas ainda não foram auditados no Microsoft Edge.\n\n\n",
+      "sourceStart": 18146,
+      "sourceEnd": 19080
+    },
+    {
+      "id": "MAT-EST-007-s052",
+      "title": "52. Critério de domínio",
+      "paragraphs": [],
+      "markdown": "## 52. Critério de domínio\n\n\nO tópico só deve ser considerado consolidado quando o estudante conseguir:\n\n\n- explicar por que média não basta;\n- calcular amplitude;\n- calcular desvios em relação à média;\n- explicar o cancelamento dos desvios com sinal;\n- calcular DMA simples;\n- calcular DMA com frequências;\n- interpretar unidade;\n- comparar dois conjuntos com mesmo centro;\n- reconhecer influência de extremos;\n- decidir quando amplitude é insuficiente;\n- resolver situação nova sem copiar exemplo.\n\n\nA produção editorial não altera o progresso do aluno.\n\n\n",
+      "sourceStart": 19080,
+      "sourceEnd": 19638
+    },
+    {
+      "id": "MAT-EST-007-s053",
+      "title": "53. Próximo passo",
+      "paragraphs": [],
+      "markdown": "## 53. Próximo passo\n\n\n**MAT-EST-008 — Variância e desvio-padrão: quadrados dos desvios, unidades e interpretação.**\n\n\nA próxima aula estudará por que elevar desvios ao quadrado também evita cancelamento, como nasce a variância e por que o desvio-padrão retorna à unidade original.\n.\n",
+      "sourceStart": 19638,
+      "sourceEnd": 19922
+    }
+  ],
+  "sources": [
+    {
+      "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "previous": "MAT-EST-006",
+  "next": "MAT-EST-008",
+  "videos": [
+    {
+      "title": "AMPLITUDE ESTATÍSTICA | MEDIDA DE DISPERSÃO |",
+      "channel": "Gis com Giz",
+      "url": "https://www.youtube.com/watch?v=mV_d_KejL8s",
+      "duration": "Duração não confirmada",
+      "language": "Português",
+      "reason": "Complementa a explicação escrita.",
+      "when": "Depois dos exemplos resolvidos.",
+      "reinforces": [],
+      "checkedAt": "2026-10-03",
+      "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+      "type": "video"
+    },
+    {
+      "title": "DESVIO MÉDIO ABSOLUTO",
+      "channel": "Prof. MURAKAMI - MATEMÁTICA RAPIDOLA",
+      "url": "https://www.youtube.com/watch?v=cEgG9bq2XQg",
+      "duration": "Duração não confirmada",
+      "language": "Português",
+      "reason": "Complementa a explicação escrita.",
+      "when": "Depois dos exemplos resolvidos.",
+      "reinforces": [],
+      "checkedAt": "2026-10-03",
+      "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+      "type": "video"
+    }
+  ],
+  "video": {
+    "title": "AMPLITUDE ESTATÍSTICA | MEDIDA DE DISPERSÃO |",
+    "channel": "Gis com Giz",
+    "url": "https://www.youtube.com/watch?v=mV_d_KejL8s",
+    "duration": "Duração não confirmada",
+    "language": "Português",
+    "reason": "Complementa a explicação escrita.",
+    "when": "Depois dos exemplos resolvidos.",
+    "reinforces": [],
+    "checkedAt": "2026-10-03",
+    "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+    "type": "video"
+  },
+  "publication": {
+    "kind": "Reconstrução editorial v1; sem identidade binária com a edição histórica.",
+    "notes": [
+      "A produção e a publicação não registram domínio nem alteram seu progresso.",
+      "As referências a publicação pendente no texto original registram o estado da fonte na data de criação."
+    ],
+    "original": "originais/MAT-EST-007/aula.md",
+    "editions": [
+      {
+        "label": "MAT-EST-007 — metadados — reconstrução editorial v1 · 2026-10-02",
+        "url": "originais/MAT-EST-007/edicoes/1EkU1jG5Zf0dsfCOin2cLvzW6CUmX5-mycOPItg-wRTs.txt"
+      },
+      {
+        "label": "MAT-EST-007 — aula completa — reconstrução editorial v1 · 2026-10-01",
+        "url": "originais/MAT-EST-007/edicoes/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8.txt"
+      },
+      {
+        "label": "MAT-EST-007-manifesto.md · 2026-10-01",
+        "url": "originais/MAT-EST-007/edicoes/1RYC8Fbet3jya11BUQqkfIqgEUp0Wld2Q.txt"
+      },
+      {
+        "label": "MAT-EST-007-gabarito.md · 2026-10-01",
+        "url": "originais/MAT-EST-007/edicoes/1_rnR66ZGQ6f0KABwBC5CM3LQX8SOc4yi.txt"
+      },
+      {
+        "label": "MAT-EST-007-exercicios.md · 2026-10-01",
+        "url": "originais/MAT-EST-007/edicoes/1IqOVyexKrRD7t3ryu9GFU3iPOtZr1Z7R.txt"
+      }
+    ],
+    "attachments": [],
+    "questionCount": 36,
+    "visualCount": 6,
+    "sourceSha256": "f774adb9f93b0bdca283340c9274711080ee20ffa355d7b405a5e49c085a35e8"
+  }
+}

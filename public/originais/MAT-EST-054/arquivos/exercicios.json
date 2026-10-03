@@ -1,0 +1,398 @@
+[
+  {
+    "id": "MAT-EST-054-EX-APR-01",
+    "grupo": "APR",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "básica",
+    "enunciado": "Em uma auditoria, o que deve identificar uma observação além de seu número?",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-APR-02",
+    "grupo": "APR",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "básica",
+    "enunciado": "Em L11 do EXEMPLO-V, há alguma observação disponível para avaliar B42 e C43?",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-APR-03",
+    "grupo": "APR",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "básica",
+    "enunciado": "Em L12, qual é a observação de V para a política AS_KNOWN e qual sua qualidade?",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-APR-04",
+    "grupo": "APR",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "básica",
+    "enunciado": "Em L12, qual valor a política VALIDATED_AS_OF deve colocar no cálculo de V?",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-APR-05",
+    "grupo": "APR",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "básica",
+    "enunciado": "Qual o erro assinado de B42 quando a observação preliminar é 40?",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-APR-06",
+    "grupo": "APR",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "básica",
+    "enunciado": "Qual o erro assinado de C43 quando a observação validada é 44?",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-APR-07",
+    "grupo": "APR",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "básica",
+    "enunciado": "O hash SHA-256 isolado comprova data real de emissão ou identidade da pessoa que gerou o registro?",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-APR-08",
+    "grupo": "APR",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "básica",
+    "enunciado": "O arquivo de V contém duas versões da mesma observação. Quantos alvos distintos elas representam?",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-APR-09",
+    "grupo": "APR",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "básica",
+    "enunciado": "Qual é a regra de custo assimétrico adotada nesta unidade para erro positivo de duas unidades?",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-APR-10",
+    "grupo": "APR",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "básica",
+    "enunciado": "Os cenários 178, 191 e 209 do período t23 podem ser contados como observações?",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-CON-01",
+    "grupo": "CON",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "intermediária",
+    "enunciado": "Calcule os módulos de B42 e C43 na versão preliminar y=40; indique o menor módulo local sem extrapolar.",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-CON-02",
+    "grupo": "CON",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "intermediária",
+    "enunciado": "Recalcule os módulos dos dois modelos quando V é corrigido para 44 e explique o que permaneceu fixo.",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-CON-03",
+    "grupo": "CON",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "intermediária",
+    "enunciado": "Para V preliminar igual a 40, obtenha os custos de B e C pela regra três para subprevisão e um para superprevisão.",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-CON-04",
+    "grupo": "CON",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "intermediária",
+    "enunciado": "Para V validado igual a 44, obtenha os custos dos modelos B42 e C43.",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-CON-05",
+    "grupo": "CON",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "intermediária",
+    "enunciado": "A diferença de módulo C menos B era +1 na preliminar e −1 na validada. Qual sua variação e causa?",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-CON-06",
+    "grupo": "CON",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "intermediária",
+    "enunciado": "Calcule a diferença de custo C menos B nas duas versões de V.",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-CON-07",
+    "grupo": "CON",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "intermediária",
+    "enunciado": "Em Z, previsão congelada 29, preliminar 30 e validada 32: informe erros e custos nas duas versões.",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-CON-08",
+    "grupo": "CON",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "intermediária",
+    "enunciado": "Há cinco pares elegíveis de oito planejados na série principal. Qual é a completude parcial?",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-CON-09",
+    "grupo": "CON",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "intermediária",
+    "enunciado": "As somas dos módulos na série principal são 88 para B e 41,8 para C. Calcule os dois MAEs parciais.",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-CON-10",
+    "grupo": "CON",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "intermediária",
+    "enunciado": "Em t19, o módulo de B é quatro e o de C é 23,2. Quanto C piora localmente e o que diz a guarda de dez?",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-VES-01",
+    "grupo": "VES",
+    "origem": "autoral",
+    "exame": "contexto autoral no estilo vestibular",
+    "dificuldade": "contextualizada",
+    "enunciado": "Uma reportagem mostra MAE igual a zero para V na política VALIDATED_AS_OF em L11. Avalie a informação.",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-VES-02",
+    "grupo": "VES",
+    "origem": "autoral",
+    "exame": "contexto autoral no estilo vestibular",
+    "dificuldade": "contextualizada",
+    "enunciado": "Uma tabela mistura as métricas AS_KNOWN de L12 com a redação “resultado final validado”. Reescreva a legenda corretamente.",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-VES-03",
+    "grupo": "VES",
+    "origem": "autoral",
+    "exame": "contexto autoral no estilo vestibular",
+    "dificuldade": "contextualizada",
+    "enunciado": "Dois relatórios usam B42 e C43; o primeiro usa v1=40 e o segundo v2=44. Um colega diz que a discrepância prova adulteração da previsão. Examine.",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-VES-04",
+    "grupo": "VES",
+    "origem": "autoral",
+    "exame": "contexto autoral no estilo vestibular",
+    "dificuldade": "contextualizada",
+    "enunciado": "Cinco alvos têm sete arquivos porque dois deles foram revisados. Que denominador deve entrar no MAE de uma fotografia que contém os cinco alvos elegíveis?",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-VES-05",
+    "grupo": "VES",
+    "origem": "autoral",
+    "exame": "contexto autoral no estilo vestibular",
+    "dificuldade": "contextualizada",
+    "enunciado": "Um dashboard afirma: “SHA-256 válido, logo o dado é verdadeiro e existia no horário indicado”. Identifique duas extrapolações.",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-VES-06",
+    "grupo": "VES",
+    "origem": "autoral",
+    "exame": "contexto autoral no estilo vestibular",
+    "dificuldade": "contextualizada",
+    "enunciado": "Um gestor propõe usar y=44 em um relatório AS_KNOWN declarado como corte L12. Qual falha precisa ser corrigida?",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-VES-07",
+    "grupo": "VES",
+    "origem": "autoral",
+    "exame": "contexto autoral no estilo vestibular",
+    "dificuldade": "contextualizada",
+    "enunciado": "Qual informação mínima diferencia um recálculo reproduzível de uma planilha contendo apenas “MAE 8,36”? Cite cinco itens.",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-VES-08",
+    "grupo": "VES",
+    "origem": "autoral",
+    "exame": "contexto autoral no estilo vestibular",
+    "dificuldade": "contextualizada",
+    "enunciado": "Um analista completa os oito pares do protocolo usando os três cenários de t23 como se fossem fatos. O resultado é uma avaliação válida?",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-VES-09",
+    "grupo": "VES",
+    "origem": "autoral",
+    "exame": "contexto autoral no estilo vestibular",
+    "dificuldade": "contextualizada",
+    "enunciado": "Os critérios de redução média de MAE e custo parecem satisfeitos com cinco pares. Isso autoriza promover o desafiante? Justifique com duas salvaguardas.",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-VES-10",
+    "grupo": "VES",
+    "origem": "autoral",
+    "exame": "contexto autoral no estilo vestibular",
+    "dificuldade": "contextualizada",
+    "enunciado": "Escreva quatro frases para um comunicado sobre V, Z e a decisão da série principal sem misturar os três namespaces.",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-RET-01",
+    "grupo": "RET",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "reteste independente",
+    "enunciado": "Caso novo e isolado Q: previsão 50, observação preliminar 49 e validada 52. Calcule erros e custos pela regra três/um.",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-RET-02",
+    "grupo": "RET",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "reteste independente",
+    "enunciado": "Uma previsão isolada é 12. A observação v1=10 ficou disponível em L2 e v2=13 validada em L4. O que VALIDATED_AS_OF em L3 usa?",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-RET-03",
+    "grupo": "RET",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "reteste independente",
+    "enunciado": "O plano possui oito alvos; chegaram cinco, mas um falhou na qualidade e não pode entrar no indicador final. Qual é a contagem elegível?",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-RET-04",
+    "grupo": "RET",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "reteste independente",
+    "enunciado": "Ao reexecutar o script, o CSV de referência apresenta hash diferente do manifesto de entrega. Qual ação fundamentada vem antes de declarar reprodução?",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-RET-05",
+    "grupo": "RET",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "reteste independente",
+    "enunciado": "Um relatório recalcula uma previsão de t18 com dados de t19 e mantém o ID original. Qual a falha?",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  },
+  {
+    "id": "MAT-EST-054-EX-RET-06",
+    "grupo": "RET",
+    "origem": "autoral",
+    "exame": "didático autoral",
+    "dificuldade": "reteste independente",
+    "enunciado": "Um vídeo complementar está associado à aula, mas sua disponibilidade e reprodução não foram verificadas. Pode ser marcado como validado para publicação?",
+    "topicos": [
+      "MAT-EST-054"
+    ]
+  }
+]

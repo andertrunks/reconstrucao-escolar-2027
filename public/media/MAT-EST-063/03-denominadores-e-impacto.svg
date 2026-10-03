@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="336" viewBox="0 0 1000 336" role="img" aria-labelledby="title desc">
+<title id="title">MAE dos pares versus completude planejada</title>
+<desc id="desc">Os módulos quatro e dois devem ser divididos por dois pares elegíveis, não por oito cartões planejados.</desc>
+<rect width="1000" height="336" rx="20" fill="#f8fafc"/>
+<text x="25" y="40" fill="#1f3044" font-size="23" font-weight="bold" font-family="Arial,sans-serif">MAE dos pares versus completude planejada</text>
+<rect x="30.0" y="77" width="224.5" height="167" rx="13" fill="white" stroke="#40566b" stroke-width="2"/>
+<rect x="31.0" y="78" width="222.5" height="5" rx="2" fill="#40566b"/>
+<text x="41.0" y="104" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#40566b">Dados válidos</text>
+<text x="41.0" y="129" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#1f3044">Módulos 4 e 2</text>
+<text x="41.0" y="154" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#1f3044">Soma = 6</text>
+<rect x="268.5" y="77" width="224.5" height="167" rx="13" fill="white" stroke="#28654a" stroke-width="2"/>
+<rect x="269.5" y="78" width="222.5" height="5" rx="2" fill="#28654a"/>
+<text x="279.5" y="104" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#28654a">MAE B correto</text>
+<text x="279.5" y="129" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#1f3044">6 ÷ 2 = 3 unidades</text>
+<rect x="507.0" y="77" width="224.5" height="167" rx="13" fill="white" stroke="#953239" stroke-width="2"/>
+<rect x="508.0" y="78" width="222.5" height="5" rx="2" fill="#953239"/>
+<text x="518.0" y="104" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#953239">I01 mutada</text>
+<text x="518.0" y="129" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#1f3044">6 ÷ 8 = 0,75</text>
+<text x="518.0" y="154" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#1f3044">Não é MAE válido</text>
+<rect x="745.5" y="77" width="224.5" height="167" rx="13" fill="white" stroke="#986016" stroke-width="2"/>
+<rect x="746.5" y="78" width="222.5" height="5" rx="2" fill="#986016"/>
+<text x="756.5" y="104" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#986016">Completude</text>
+<text x="756.5" y="129" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#1f3044">2 ÷ 8 = 25%</text>
+<text x="756.5" y="154" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#1f3044">Outra pergunta</text>
+<text x="25" y="279" font-family="Arial,sans-serif" font-weight="700" fill="#1f3044" font-size="16">Dois é denominador da média dos erros disponíveis; oito é denominador da completude.</text>
+</svg>

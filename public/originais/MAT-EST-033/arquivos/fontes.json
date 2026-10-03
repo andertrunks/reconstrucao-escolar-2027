@@ -1,0 +1,32 @@
+[
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 501 — Lesson 10: Model Building",
+    "url": "https://online.stat.psu.edu/stat501/Lesson10",
+    "uso": "Objetivo preditivo e validação independente, simplicidade e avaliação de modelos."
+  },
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 501 — Lesson 3: SLR Estimation & Prediction",
+    "url": "https://online.stat.psu.edu/stat501/Lesson03",
+    "uso": "Previsão pontual, intervalo de média e intervalo de observação nova."
+  },
+  {
+    "instituicao": "scikit-learn",
+    "titulo": "Metrics and scoring: quantifying the quality of predictions",
+    "url": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+    "uso": "MAE, MSE, RMSE e interpretação de métricas."
+  },
+  {
+    "instituicao": "scikit-learn",
+    "titulo": "Common pitfalls and recommended practices",
+    "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+    "uso": "Vazamento de dados e separação entre treino, seleção e teste."
+  },
+  {
+    "instituicao": "MIT OpenCourseWare",
+    "titulo": "Video 8: Comparing the Model to the Experts — The Analytics Edge",
+    "url": "https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/video-8-comparing-the-model-to-the-experts/",
+    "uso": "Vídeo complementar sobre comparar previsões com referências."
+  }
+]

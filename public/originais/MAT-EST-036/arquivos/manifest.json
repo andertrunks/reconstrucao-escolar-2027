@@ -1,0 +1,590 @@
+{
+  "schemaVersion": "1.0",
+  "id": "MAT-EST-036",
+  "slug": "consolidacao-integradora-estatistica-mapa-pre-requisitos-revisao-longitudinal-avaliacao-individual",
+  "titulo": "Consolidação integradora da Estatística: mapa de pré-requisitos, revisão longitudinal e plano de avaliação individual",
+  "materia": "Matemática",
+  "unidade": "Estatística",
+  "nivel": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "ordem": 36,
+  "tipoConteudo": "consolidacao_integrada_com_plano_individual",
+  "anterior": "MAT-EST-035",
+  "preRequisitos": [
+    "MAT-EST-018",
+    "MAT-EST-019",
+    "MAT-EST-020",
+    "MAT-EST-021",
+    "MAT-EST-022",
+    "MAT-EST-023",
+    "MAT-EST-024",
+    "MAT-EST-025",
+    "MAT-EST-026",
+    "MAT-EST-027",
+    "MAT-EST-028",
+    "MAT-EST-029",
+    "MAT-EST-030",
+    "MAT-EST-031",
+    "MAT-EST-032",
+    "MAT-EST-033",
+    "MAT-EST-034",
+    "MAT-EST-035"
+  ],
+  "conceitosRelacionados": [
+    "estatística descritiva",
+    "amostragem",
+    "distribuição amostral",
+    "intervalos de confiança",
+    "testes de hipóteses",
+    "ANOVA",
+    "qui-quadrado",
+    "correlação",
+    "regressão",
+    "validação preditiva",
+    "reprodutibilidade"
+  ],
+  "objetivos": [
+    "escolher método por pergunta, variável e desenho",
+    "justificar limite de inferência e previsão",
+    "reproduzir métricas de base sintética",
+    "organizar remediação por pré-requisito sem atribuir domínio fictício"
+  ],
+  "habilidadesDesenvolvidas": [
+    "leitura crítica",
+    "cálculo reprodutível",
+    "raciocínio inferencial",
+    "diagnóstico de erros",
+    "transferência de contexto"
+  ],
+  "examesRelacionados": [
+    "ENEM",
+    "FUVEST",
+    "UNICAMP",
+    "UNESP"
+  ],
+  "notaExames": "contextos autorais; formalismo da ponte universitária não atribuído indistintamente aos editais",
+  "statusProducao": "produzido_localmente_nao_publicado",
+  "statusAprendizagemInicial": "nao_iniciado",
+  "observacaoStatus": "metadado editorial inicial; nunca sobrescrever progresso individual pré-existente",
+  "arquivoMarkdown": "MAT-EST-036-consolidacao-integradora-estatistica-mapa-pre-requisitos-revisao-longitudinal-avaliacao-individual.md",
+  "arquivoExercicios": "exercicios.json",
+  "visuais": [
+    {
+      "id": "MAT-EST-036-VIS-01",
+      "arquivo": "assets/01-mapa-pre-requisitos.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Mapa de dependências conceituais",
+      "legenda": "Mapa de dependências conceituais",
+      "alt": "Fluxo de fundamentos até modelos e revisão, com possibilidade de voltar aos pré-requisitos.",
+      "oQueObservar": "A revisão não é um salto diretamente do simulado à nota.",
+      "conclusaoTextual": "Erros são diagnosticados pelo fundamento ausente e retestados depois de remediação."
+    },
+    {
+      "id": "MAT-EST-036-VIS-02",
+      "arquivo": "assets/02-amostra-inferencia.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "População, amostra e inferência",
+      "legenda": "População, amostra e inferência",
+      "alt": "População, amostra e inferência ligadas por setas; observação sobre viés.",
+      "oQueObservar": "Observe que a seleção da amostra é etapa distinta do cálculo.",
+      "conclusaoTextual": "Precisão numérica não garante representatividade."
+    },
+    {
+      "id": "MAT-EST-036-VIS-03",
+      "arquivo": "assets/03-cadeia-inferencial.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Da pergunta à conclusão verificável",
+      "legenda": "Da pergunta à conclusão verificável",
+      "alt": "Quatro etapas de análise, com contraste entre interpretação adequada e generalização não demonstrada.",
+      "oQueObservar": "Observe a checagem de condições antes da conclusão.",
+      "conclusaoTextual": "Uma estatística correta não valida um desenho de pesquisa inadequado."
+    },
+    {
+      "id": "MAT-EST-036-VIS-04",
+      "arquivo": "assets/04-matriz-decisoes.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Matriz de decisão de um teste",
+      "legenda": "Matriz de decisão de um teste",
+      "alt": "Tabela 2 por 2: rejeitar ou não rejeitar cruzado com H0 verdadeira ou falsa.",
+      "oQueObservar": "Observe que não rejeitar H0 falsa também é possível.",
+      "conclusaoTextual": "Poder é um menos beta sob uma alternativa especificada; não rejeitar não prova H0."
+    },
+    {
+      "id": "MAT-EST-036-VIS-05",
+      "arquivo": "assets/05-metricas-teste.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Métricas do teste: MAE e RMSE",
+      "legenda": "Métricas do teste: MAE e RMSE",
+      "alt": "Barras com MAE e RMSE: A 5/5, B 6,25/12,5 e Base 12,5/aproximadamente 16,58 atendimentos.",
+      "oQueObservar": "Observe que o erro extremo do modelo B aumenta muito o RMSE.",
+      "conclusaoTextual": "As métricas respondem a critérios distintos, não servem como prova de superioridade universal."
+    },
+    {
+      "id": "MAT-EST-036-VIS-06",
+      "arquivo": "assets/06-cadeia-reprodutibilidade.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Cadeia de reprodutibilidade",
+      "legenda": "Cadeia de reprodutibilidade",
+      "alt": "CSV, protocolo, recálculo e parecer em sequência.",
+      "oQueObservar": "Observe que cópia de cálculos anteriores não substitui o recálculo.",
+      "conclusaoTextual": "Reprodutibilidade e validade externa são perguntas diferentes."
+    },
+    {
+      "id": "MAT-EST-036-VIS-07",
+      "arquivo": "assets/07-revisao-longitudinal.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Revisão longitudinal iniciada pelo estudo real",
+      "legenda": "Revisão longitudinal iniciada pelo estudo real",
+      "alt": "Quatro caixas D0, D+1, D+7 e D+30 em sequência.",
+      "oQueObservar": "Observe que os prazos são relativos à data em que uma tentativa efetivamente ocorrer.",
+      "conclusaoTextual": "Retenção se verifica com recuperação e aplicação, não apenas leitura repetida."
+    }
+  ],
+  "video": {
+    "titulo": "Video 4: Validating the Model",
+    "canal": "MIT OpenCourseWare",
+    "curso": "15.071 The Analytics Edge, aula The Framingham Heart Study: Evaluating Risk Factors to Save Lives",
+    "url": "https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/resources/video-4-validating-the-model-0/",
+    "idioma": "inglês",
+    "duracaoAproximada": "não confirmada na página consultada",
+    "momentoRecomendado": "após a seção 7, antes dos exercícios de transferência",
+    "motivo": "exemplifica como separar ajuste, validação e uso responsável de modelos; complementa os conceitos da unidade sem substituir a aula escrita",
+    "estadoVerificacao": "página institucional localizada em 2026-09-28; reprodução integral não testada"
+  },
+  "fontes": [
+    {
+      "instituicao": "INEP",
+      "titulo": "Matrizes de Referência ENEM (2026)",
+      "url": "https://www.gov.br/inep/pt-br/centrais-de-conteudo/acervo-linha-editorial/publicacoes-institucionais/avaliacoes-e-exames-da-educacao-basica/matrizes-de-referencia-enem",
+      "escopo": "orientação geral da camada ENEM; não atribuir ponte universitária como conteúdo específico do exame"
+    },
+    {
+      "instituicao": "INEP",
+      "titulo": "Provas e Gabaritos ENEM",
+      "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "escopo": "prática externa; nenhum enunciado oficial reproduzido no pacote"
+    },
+    {
+      "instituicao": "Pennsylvania State University",
+      "titulo": "STAT 501: Regression Methods — Lesson 10, Model Building and Cross-validation",
+      "url": "https://online.stat.psu.edu/stat501/Lesson10",
+      "escopo": "planejamento de modelo, diagnóstico e validação"
+    },
+    {
+      "instituicao": "Pennsylvania State University",
+      "titulo": "STAT 501 — Lesson 4, SLR Model Assumptions",
+      "url": "https://online.stat.psu.edu/stat501/Lesson04",
+      "escopo": "resíduos e limites da regressão"
+    },
+    {
+      "instituicao": "MIT OpenCourseWare",
+      "titulo": "Video 4: Validating the Model",
+      "url": "https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/resources/video-4-validating-the-model-0/",
+      "escopo": "vídeo complementar"
+    }
+  ],
+  "questoesAutorais": 36,
+  "questoesOficiaisReproduzidas": 0,
+  "exercicios": [
+    {
+      "id": "MAT-EST-036-EX-APR-01",
+      "origem": "autoral",
+      "camada": "aprendizagem",
+      "topicos": [
+        "MAT-EST-019",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-APR-02",
+      "origem": "autoral",
+      "camada": "aprendizagem",
+      "topicos": [
+        "MAT-EST-019",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-APR-03",
+      "origem": "autoral",
+      "camada": "aprendizagem",
+      "topicos": [
+        "MAT-EST-019",
+        "MAT-EST-020",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-APR-04",
+      "origem": "autoral",
+      "camada": "aprendizagem",
+      "topicos": [
+        "MAT-EST-019",
+        "MAT-EST-020",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-APR-05",
+      "origem": "autoral",
+      "camada": "aprendizagem",
+      "topicos": [
+        "MAT-EST-021",
+        "MAT-EST-022",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-APR-06",
+      "origem": "autoral",
+      "camada": "aprendizagem",
+      "topicos": [
+        "MAT-EST-021",
+        "MAT-EST-022",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-APR-07",
+      "origem": "autoral",
+      "camada": "aprendizagem",
+      "topicos": [
+        "MAT-EST-023",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-APR-08",
+      "origem": "autoral",
+      "camada": "aprendizagem",
+      "topicos": [
+        "MAT-EST-025",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-APR-09",
+      "origem": "autoral",
+      "camada": "aprendizagem",
+      "topicos": [
+        "MAT-EST-026",
+        "MAT-EST-027",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-APR-10",
+      "origem": "autoral",
+      "camada": "aprendizagem",
+      "topicos": [
+        "MAT-EST-031",
+        "MAT-EST-032",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-CON-01",
+      "origem": "autoral",
+      "camada": "consolidacao",
+      "topicos": [
+        "MAT-EST-019",
+        "MAT-EST-020",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-CON-02",
+      "origem": "autoral",
+      "camada": "consolidacao",
+      "topicos": [
+        "MAT-EST-019",
+        "MAT-EST-020",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-CON-03",
+      "origem": "autoral",
+      "camada": "consolidacao",
+      "topicos": [
+        "MAT-EST-019",
+        "MAT-EST-020",
+        "MAT-EST-021",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-CON-04",
+      "origem": "autoral",
+      "camada": "consolidacao",
+      "topicos": [
+        "MAT-EST-023",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-CON-05",
+      "origem": "autoral",
+      "camada": "consolidacao",
+      "topicos": [
+        "MAT-EST-024",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-CON-06",
+      "origem": "autoral",
+      "camada": "consolidacao",
+      "topicos": [
+        "MAT-EST-025",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-CON-07",
+      "origem": "autoral",
+      "camada": "consolidacao",
+      "topicos": [
+        "MAT-EST-026",
+        "MAT-EST-027",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-CON-08",
+      "origem": "autoral",
+      "camada": "consolidacao",
+      "topicos": [
+        "MAT-EST-028",
+        "MAT-EST-029",
+        "MAT-EST-030",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-CON-09",
+      "origem": "autoral",
+      "camada": "consolidacao",
+      "topicos": [
+        "MAT-EST-031",
+        "MAT-EST-032",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-CON-10",
+      "origem": "autoral",
+      "camada": "consolidacao",
+      "topicos": [
+        "MAT-EST-031",
+        "MAT-EST-032",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-TRA-01",
+      "origem": "autoral",
+      "camada": "transferencia",
+      "topicos": [
+        "MAT-EST-019",
+        "MAT-EST-033",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-TRA-02",
+      "origem": "autoral",
+      "camada": "transferencia",
+      "topicos": [
+        "MAT-EST-019",
+        "MAT-EST-020",
+        "MAT-EST-033",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-TRA-03",
+      "origem": "autoral",
+      "camada": "transferencia",
+      "topicos": [
+        "MAT-EST-021",
+        "MAT-EST-022",
+        "MAT-EST-033",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-TRA-04",
+      "origem": "autoral",
+      "camada": "transferencia",
+      "topicos": [
+        "MAT-EST-024",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-TRA-05",
+      "origem": "autoral",
+      "camada": "transferencia",
+      "topicos": [
+        "MAT-EST-025",
+        "MAT-EST-019",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-TRA-06",
+      "origem": "autoral",
+      "camada": "transferencia",
+      "topicos": [
+        "MAT-EST-026",
+        "MAT-EST-027",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-TRA-07",
+      "origem": "autoral",
+      "camada": "transferencia",
+      "topicos": [
+        "MAT-EST-026",
+        "MAT-EST-027",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-TRA-08",
+      "origem": "autoral",
+      "camada": "transferencia",
+      "topicos": [
+        "MAT-EST-031",
+        "MAT-EST-032",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-TRA-09",
+      "origem": "autoral",
+      "camada": "transferencia",
+      "topicos": [
+        "MAT-EST-033",
+        "MAT-EST-034",
+        "MAT-EST-035",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-TRA-10",
+      "origem": "autoral",
+      "camada": "transferencia",
+      "topicos": [
+        "MAT-EST-033",
+        "MAT-EST-034",
+        "MAT-EST-035",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-RET-01",
+      "origem": "autoral",
+      "camada": "reteste",
+      "topicos": [
+        "MAT-EST-019",
+        "MAT-EST-020",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-RET-02",
+      "origem": "autoral",
+      "camada": "reteste",
+      "topicos": [
+        "MAT-EST-019",
+        "MAT-EST-020",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-RET-03",
+      "origem": "autoral",
+      "camada": "reteste",
+      "topicos": [
+        "MAT-EST-021",
+        "MAT-EST-022",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-RET-04",
+      "origem": "autoral",
+      "camada": "reteste",
+      "topicos": [
+        "MAT-EST-025",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-RET-05",
+      "origem": "autoral",
+      "camada": "reteste",
+      "topicos": [
+        "MAT-EST-031",
+        "MAT-EST-032",
+        "MAT-EST-036"
+      ]
+    },
+    {
+      "id": "MAT-EST-036-EX-RET-06",
+      "origem": "autoral",
+      "camada": "reteste",
+      "topicos": [
+        "MAT-EST-033",
+        "MAT-EST-034",
+        "MAT-EST-035",
+        "MAT-EST-036"
+      ]
+    }
+  ],
+  "arquivosDeDados": [
+    "dados-ficticios.csv",
+    "calculos-reproduziveis-originais.json",
+    "auditoria-recalculada.json"
+  ],
+  "revisao": {
+    "protocolo": [
+      "D+1",
+      "D+7",
+      "D+30"
+    ],
+    "inicio": "somente após sessão individual efetivamente registrada",
+    "gatilhos": [
+      "explicar",
+      "resolver",
+      "transferir",
+      "recuperar após revisão"
+    ]
+  },
+  "avaliacoesPendentes": [
+    "MAT-EST-018",
+    "MAT-PRO-039",
+    "MAT-PRO-054"
+  ],
+  "progressoIndividualAlterado": false,
+  "proximoTopico": {
+    "id": "MAT-EST-037",
+    "titulo": "Simulado integrador de Estatística: aplicação multidimensional, correção comentada e auditoria de retenção"
+  },
+  "publicadoNoSite": false,
+  "sincronizadoDrive": false
+}

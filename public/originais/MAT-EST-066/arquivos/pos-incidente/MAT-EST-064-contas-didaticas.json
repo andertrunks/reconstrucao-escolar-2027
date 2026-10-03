@@ -1,0 +1,21 @@
+{
+  "id": "MAT-EST-064-METRICAS-DEMO-v1",
+  "cartoes_planejados": 8,
+  "cartoes_avaliaveis": 2,
+  "pendentes": 6,
+  "completude": 0.25,
+  "erros_B": [
+    4,
+    -2
+  ],
+  "erros_C": [
+    3,
+    -5
+  ],
+  "MAE_B": 3.0,
+  "MAE_C": 4.0,
+  "valor_mutado_I01": 0.75,
+  "subestimacao_absoluta": 2.25,
+  "subestimacao_relativa_do_correto": 0.75,
+  "amostra_sintetica": true
+}

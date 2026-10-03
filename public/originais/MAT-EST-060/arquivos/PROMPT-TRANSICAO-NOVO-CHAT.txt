@@ -1,0 +1,11 @@
+CONTINUIDADE — RECONSTRUÇÃO ESCOLAR + ENEM E VESTIBULARES 2027
+
+Último pacote editorial concluído localmente: MAT-EST-060 — Auditoria de gráficos e relatórios automatizados: testes de consistência, versões e acessibilidade de publicação. Consultar o ZIP MAT-EST-060-pacote-integracao.zip e checkpoint-editorial.json; se não estiverem disponíveis no novo chat, solicitar sua anexação.
+
+Próximo tópico, ainda não iniciado: MAT-EST-061 — Teste de regressão editorial e preparação de publicação: evidências humanas, rollback e comunicação de correções.
+
+Preservar 23 arquivos históricos verificados por SHA-256, a cópia integral do pacote MAT-EST-059, IDs e protocolos. Série fictícia t01–t22 sem alteração; t23–t25 sem emissão ou observação autenticada; MAT-EST-056-PROT-SUC-v1 ainda é rascunho local para t26–t33, zero pares e MAE não estimável. MAT-EST-049-PROT-v1 preservado: cinco de oito pares, MAE B=17,60 e C=8,36, custos B=51,20 e C=14,92, falha da guarda local t19=19,2 > dez. Não promover C no protocolo antigo.
+
+SANDBOX-057 isolado: oito cartões, apenas S01 e S02 elegíveis no corte A; erros B [+4,-2] e C [+3,-5], MAE B=3 e C=4 unidades; custos médios sete pontos ambos. Os demais seis continuam pendentes. MAT-EST-060 criou teste isolado F00–F08; F00 passa verificações automáticas locais e F01–F08 devem falhar por violações sintéticas de denominador, nulo, hash, escala, alt, conclusão histórica, unidade e legenda. Nenhuma fonte histórica foi alterada, nenhum incidente real foi constatado nem publicação ocorreu. Teste manual no Edge e leitor de tela, revisão humana, integração e vídeo integral ainda pendentes.
+
+Ao receber Continuar, conferir checkpoint canônico e avançar exatamente um passo editorial: MAT-EST-061. Preparar Markdown aprofundado, visuais acessíveis, exercícios graduais autorais e gabarito separado, vídeo com verificação honesta, ZIP, prévia, metadados, manifesto SHA-256 e testes. Não inventar observações, assinaturas, publicação ou sincronização. Manter progresso individual até existir evidência de tentativa. Registrar próximo checkpoint e apresentar botões Continuar e Copiar prompt para novo chat.

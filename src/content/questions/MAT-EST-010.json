@@ -1,0 +1,871 @@
+[
+  {
+    "id": "MAT-EST-010-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Camada: APR\nOrdene os dados 9, 2, 7, 4, 5 e escreva a sequência que deve ser usada antes de calcular medidas de posição.",
+    "answer": "2, 4, 5, 7, 9.",
+    "resolution": "Resposta: 2, 4, 5, 7, 9.\nResolução: Quartis e percentis exigem ordem. Basta ordenar os cinco valores do menor para o maior.\nMotivo provável de erro: estratégia: tentar localizar posição sem ordenar",
+    "errorReasons": [
+      "estratégia: tentar localizar posição sem ordenar"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Camada: APR\nComplete: Q1 corresponde a qual percentil?",
+    "answer": "P25.",
+    "resolution": "Resposta: P25.\nResolução: Quartis dividem a distribuição em quatro partes; o primeiro corte é 25%.\nMotivo provável de erro: memória conceitual",
+    "errorReasons": [
+      "memória conceitual"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Camada: APR\nComplete: Q2 corresponde a qual percentil e a qual medida de tendência central?",
+    "answer": "P50 e mediana.",
+    "resolution": "Resposta: P50 e mediana.\nResolução: O segundo quartil ocupa a posição central da distribuição: 50%.\nMotivo provável de erro: memória conceitual",
+    "errorReasons": [
+      "memória conceitual"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Camada: APR\nComplete: Q3 corresponde a qual percentil?",
+    "answer": "P75.",
+    "resolution": "Resposta: P75.\nResolução: O terceiro quartil marca 75% acumulado.\nMotivo provável de erro: memória conceitual",
+    "errorReasons": [
+      "memória conceitual"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-010-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Camada: APR\nQual percentil é equivalente a D7?",
+    "answer": "P70.",
+    "resolution": "Resposta: P70.\nResolução: Cada decil representa dez pontos percentuais. D7 = 7 × 10% = 70%.\nMotivo provável de erro: cálculo simples ou memória",
+    "errorReasons": [
+      "cálculo simples ou memória"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Camada: APR\nUma pessoa está no P80 de uma prova. Isso significa necessariamente que acertou 80% das questões? Responda sim ou não e justifique.",
+    "answer": "Não.",
+    "resolution": "Resposta: Não.\nResolução: P80 descreve posição relativa na distribuição de referência. Percentual de acertos é outra grandeza.\nMotivo provável de erro: interpretação",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Camada: APR\nNa lista ordenada 10, 20, 30, 40, 50, qual é P50?",
+    "answer": "30.",
+    "resolution": "Resposta: 30.\nResolução: P50 coincide com a mediana. Com cinco valores, o terceiro é o centro.\nMotivo provável de erro: conteúdo",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Camada: APR\nNa linguagem desta aula, o que precisa ser conhecido antes de calcular um quantil quando diferentes métodos podem produzir respostas diferentes?",
+    "answer": "A convenção de cálculo do quantil.",
+    "resolution": "Resposta: A convenção de cálculo do quantil.\nResolução: Não existe uma única convenção universal para toda amostra finita. O método precisa ser informado quando a escolha altera o resultado.\nMotivo provável de erro: interpretação",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Camada: APR\nQual é a função da frequência acumulada ao localizar percentis em uma tabela?",
+    "answer": "Mostrar quantas observações já foram alcançadas até cada valor ou classe.",
+    "resolution": "Resposta: Mostrar quantas observações já foram alcançadas até cada valor ou classe.\nResolução: O percentil busca uma posição acumulada; a frequência acumulada permite localizar onde a posição-alvo é atingida.\nMotivo provável de erro: conteúdo",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Camada: APR\nComplete a equivalência: D5 = ___ = mediana.",
+    "answer": "P50 = Q2.",
+    "resolution": "Resposta: P50 = Q2.\nResolução: D5 representa 50%, que também é P50 e Q2, a mediana.\nMotivo provável de erro: memória conceitual",
+    "errorReasons": [
+      "memória conceitual"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Camada: CON\nUse nearest-rank, r = teto(pn). Nos dados ordenados 3, 5, 8, 10, 12, 15, 20, 21, 25, 30, calcule P70.",
+    "answer": "20.",
+    "resolution": "Resposta: 20.\nResolução: n = 10 e p = 0,70. r = teto(7) = 7. O 7º valor é 20.\nMotivo provável de erro: montagem da estratégia",
+    "errorReasons": [
+      "montagem da estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Camada: CON\nUse nearest-rank. Em n = 24 observações, qual é a posição de P25?",
+    "answer": "6ª posição.",
+    "resolution": "Resposta: 6ª posição.\nResolução: r = teto(0,25 × 24) = teto(6) = 6.\nMotivo provável de erro: cálculo",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-010-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Camada: CON\nUse nearest-rank. Em n = 13 observações, qual é a posição de P90?",
+    "answer": "12ª posição.",
+    "resolution": "Resposta: 12ª posição.\nResolução: r = teto(0,90 × 13) = teto(11,7) = 12.\nMotivo provável de erro: cálculo com arredondamento",
+    "errorReasons": [
+      "cálculo com arredondamento"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Camada: CON\nPelo método da mediana das metades, sem incluir a mediana central nas metades, calcule Q1 e Q3 para 1, 3, 5, 7, 9, 11, 13.",
+    "answer": "Q1 = 3 e Q3 = 11.",
+    "resolution": "Resposta: Q1 = 3 e Q3 = 11.\nResolução: A mediana é 7. Metade inferior: 1,3,5, cuja mediana é 3. Metade superior: 9,11,13, cuja mediana é 11.\nMotivo provável de erro: estratégia",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Camada: CON\nUse interpolação didática: uma posição 4,25 cai entre o 4º valor 20 e o 5º valor 28. Qual é o quantil interpolado?",
+    "answer": "22.",
+    "resolution": "Resposta: 22.\nResolução: 20 + 0,25 × (28 - 20) = 20 + 2 = 22.\nMotivo provável de erro: cálculo",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-010-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Camada: CON\nTabela: valor 10 frequência 2; valor 20 frequência 3; valor 30 frequência 5. Escreva as frequências acumuladas.",
+    "answer": "2, 5 e 10.",
+    "resolution": "Resposta: 2, 5 e 10.\nResolução: Acumulamos progressivamente: 2; 2+3=5; 5+5=10.\nMotivo provável de erro: cálculo",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Camada: CON\nEm uma tabela com N = 40, use nearest-rank para P75. Qual posição deve ser localizada na frequência acumulada?",
+    "answer": "30ª posição.",
+    "resolution": "Resposta: 30ª posição.\nResolução: r = teto(0,75 × 40) = 30.\nMotivo provável de erro: cálculo",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-010-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Camada: CON\nUse a fórmula de classe Pk = L + [(kN/100 - F_anterior)/f] × h. Para P60, N=100, L=40, F_anterior=52, f=20 e h=10, calcule.",
+    "answer": "44.",
+    "resolution": "Resposta: 44.\nResolução: 40 + [(60-52)/20]×10 = 40 + 4 = 44.\nMotivo provável de erro: montagem da fórmula",
+    "errorReasons": [
+      "montagem da fórmula"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-010-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Camada: CON\nSe todos os dados recebem +5 e Q1 original é 18, qual é o novo Q1, em uma convenção compatível com transformação linear?",
+    "answer": "23.",
+    "resolution": "Resposta: 23.\nResolução: Somar a mesma constante preserva a ordem e desloca o valor do quartil pela mesma constante.\nMotivo provável de erro: conteúdo",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Camada: CON\nSe todos os dados são multiplicados por 3 e Q3 original é 12, qual é o novo Q3?",
+    "answer": "36.",
+    "resolution": "Resposta: 36.\nResolução: Transformação crescente por fator positivo preserva a ordem e multiplica o valor do quantil por 3.\nMotivo provável de erro: cálculo",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Camada: VES\nUma escola informa que Ana está no percentil 85 de uma avaliação. Qual interpretação é correta: (A) acertou exatamente 85% da prova; (B) sua nota é 85% da maior; (C) sua posição está associada a aproximadamente 85% da distribuição de referência abaixo ou até seu resultado; (D) obteve nota 85.",
+    "answer": "C.",
+    "resolution": "Resposta: C.\nResolução: Percentil é posição relativa na distribuição, não percentual de acertos, proporção do máximo nem nota absoluta.\nMotivo provável de erro: interpretação",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Camada: VES\nEm uma amostra pequena, um livro calcula Q1 pela mediana da metade inferior e um software usa nearest-rank, obtendo 2,5 e 2. Qual conclusão é correta?",
+    "answer": "Os dois resultados podem ser coerentes com convenções diferentes; é necessário declarar o método.",
+    "resolution": "Resposta: Os dois resultados podem ser coerentes com convenções diferentes; é necessário declarar o método.\nResolução: Quantis amostrais admitem convenções distintas. Divergência não implica automaticamente erro.\nMotivo provável de erro: interpretação avançada",
+    "errorReasons": [
+      "interpretação avançada"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Camada: VES\nUm conjunto tem muitos valores iguais a 1 nas primeiras posições. É possível que P10, P20 e P25 sejam todos iguais a 1? Justifique.",
+    "answer": "Sim.",
+    "resolution": "Resposta: Sim.\nResolução: Percentis são cortes de posição. Se várias posições correspondem ao mesmo valor por causa de empates, vários percentis podem coincidir numericamente.\nMotivo provável de erro: conteúdo",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Camada: VES\nUma prova tem 100 pontos. Bruno fez 60 pontos e está no P90. Explique por que isso não é contraditório.",
+    "answer": "Porque P90 compara Bruno com a distribuição de notas; 60/100 é sua pontuação percentual, enquanto P90 indica posição relativa.",
+    "resolution": "Resposta: Porque P90 compara Bruno com a distribuição de notas; 60/100 é sua pontuação percentual, enquanto P90 indica posição relativa.\nResolução: São medidas diferentes e podem coexistir sem contradição.\nMotivo provável de erro: interpretação",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Camada: VES\nEm tempos de corrida, maior tempo é pior. Um atleta está no P90 da variável 'tempo de conclusão'. Isso significa necessariamente alto desempenho? Explique.",
+    "answer": "Não.",
+    "resolution": "Resposta: Não.\nResolução: P90 significa tempo alto em relação à distribuição. Como menor tempo é melhor, percentil alto da variável tempo pode representar desempenho pior.\nMotivo provável de erro: interpretação contextual",
+    "errorReasons": [
+      "interpretação contextual"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Camada: VES\nUma tabela agrupada estima P75 por interpolação dentro de uma classe. O resultado deve ser tratado como valor exato dos dados brutos? Por quê?",
+    "answer": "Não.",
+    "resolution": "Resposta: Não.\nResolução: A interpolação em classes é aproximação baseada na distribuição dentro do intervalo; os dados brutos foram resumidos e podem gerar outro valor.\nMotivo provável de erro: limites do método",
+    "errorReasons": [
+      "limites do método"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Camada: VES\nConsidere y = 2x + 10. Se x_A < x_B, compare y_A e y_B e explique o efeito sobre posições percentílicas.",
+    "answer": "y_A < y_B; a ordem é preservada.",
+    "resolution": "Resposta: y_A < y_B; a ordem é preservada.\nResolução: A função é estritamente crescente, portanto observações mantêm sua ordem relativa, embora valores numéricos dos quantis sejam transformados.\nMotivo provável de erro: raciocínio algébrico",
+    "errorReasons": [
+      "raciocínio algébrico"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Camada: VES\nSe todos os dados são multiplicados por -1, a ordem é preservada? Qual cuidado isso impõe aos percentis?",
+    "answer": "Não; a ordem é invertida.",
+    "resolution": "Resposta: Não; a ordem é invertida.\nResolução: Uma transformação decrescente troca caudas. É necessário reordenar e não assumir que o antigo P10 continua sendo o novo P10.\nMotivo provável de erro: conceito de ordem",
+    "errorReasons": [
+      "conceito de ordem"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Camada: VES\nPor que Q1, mediana e Q3 costumam ser menos sensíveis a um único valor extremamente alto do que a média?",
+    "answer": "Porque são definidos principalmente por posições ordenadas, não pela soma das magnitudes.",
+    "resolution": "Resposta: Porque são definidos principalmente por posições ordenadas, não pela soma das magnitudes.\nResolução: Um extremo pode alterar muito a soma e a média, mas frequentemente não muda as posições centrais.\nMotivo provável de erro: compreensão conceitual",
+    "errorReasons": [
+      "compreensão conceitual"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Camada: VES\nA FUVEST 2027 explicita quais três famílias de medidas de posição no programa de Matemática desta trilha?",
+    "answer": "Quartis, decis e percentis.",
+    "resolution": "Resposta: Quartis, decis e percentis.\nResolução: O programa oficial explicita distribuição estatística e medidas de posição: quartis, decis e percentis.\nMotivo provável de erro: memória de fonte curricular",
+    "errorReasons": [
+      "memória de fonte curricular"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Camada: RET\nSem consultar a teoria, escreva as equivalências completas entre Q1, Q2, Q3 e percentis.",
+    "answer": "Q1=P25; Q2=P50; Q3=P75.",
+    "resolution": "Resposta: Q1=P25; Q2=P50; Q3=P75.\nResolução: Essas três equivalências são o núcleo da relação entre quartis e percentis.\nMotivo provável de erro: memória",
+    "errorReasons": [
+      "memória"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Camada: RET\nUse nearest-rank. Para n=17, localize a posição de P40.",
+    "answer": "7ª posição.",
+    "resolution": "Resposta: 7ª posição.\nResolução: r = teto(0,40 × 17) = teto(6,8) = 7.\nMotivo provável de erro: cálculo",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Camada: RET\nExplique em uma frase a diferença entre valor percentílico e posto percentílico.",
+    "answer": "Valor percentílico pergunta qual valor corresponde a uma posição p; posto percentílico pergunta qual posição percentual corresponde a um valor.",
+    "resolution": "Resposta: Valor percentílico pergunta qual valor corresponde a uma posição p; posto percentílico pergunta qual posição percentual corresponde a um valor.\nResolução: São perguntas inversas sobre a mesma distribuição acumulada.\nMotivo provável de erro: interpretação",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Camada: RET\nUma questão pede Q1 de uma amostra pequena, mas não informa a convenção e alternativas dependem da convenção. Qual é o problema técnico do item?",
+    "answer": "O item é ambíguo ou subespecificado.",
+    "resolution": "Resposta: O item é ambíguo ou subespecificado.\nResolução: Se métodos legítimos produzem alternativas diferentes, a questão precisa definir o método ou usar dados que eliminem a divergência.\nMotivo provável de erro: avaliação crítica",
+    "errorReasons": [
+      "avaliação crítica"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Camada: RET\nQual medida será construída na próxima aula a partir de Q3 - Q1 e o que ela descreve?",
+    "answer": "Amplitude interquartil; descreve a largura dos 50% centrais da distribuição.",
+    "resolution": "Resposta: Amplitude interquartil; descreve a largura dos 50% centrais da distribuição.\nResolução: AIQ = Q3 - Q1 é a ponte direta para box-plot e dispersão robusta.\nMotivo provável de erro: memória e conexão",
+    "errorReasons": [
+      "memória e conexão"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-010-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-010"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Camada: RET\nExplique por que estar no P95 de uma variável não é, sozinho, 'bom' ou 'ruim'.",
+    "answer": "Porque o sentido depende do que a variável mede e de como valores maiores devem ser interpretados.",
+    "resolution": "Resposta: Porque o sentido depende do que a variável mede e de como valores maiores devem ser interpretados.\nResolução: Percentil descreve posição, não valor normativo. Para tempo, custo ou erro, posição alta pode ser indesejável; para outras variáveis pode ter outro significado.\nMotivo provável de erro: interpretação contextual",
+    "errorReasons": [
+      "interpretação contextual"
+    ],
+    "source": {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  }
+]

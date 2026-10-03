@@ -1,0 +1,152 @@
+{
+  "id": "MAT-EST-067",
+  "slug": "transferencia-integradora-estatistica-temporal-decisoes-dados-incompletos",
+  "titulo": "Transferência integradora da estatística temporal para decisões sob dados incompletos: leitura de evidências e exercícios inéditos",
+  "materia": "Matemática",
+  "unidade": "Estatística — ponte universitária",
+  "nivel": 6,
+  "ordem": 67,
+  "preRequisitos": [
+    "MAT-EST-047",
+    "MAT-EST-049",
+    "MAT-EST-053",
+    "MAT-EST-057",
+    "MAT-EST-058",
+    "MAT-EST-060",
+    "MAT-EST-065",
+    "MAT-EST-066"
+  ],
+  "objetivos": [
+    "separar observabilidade e erro",
+    "calcular e interpretar métricas e custos em recorte elegível",
+    "usar desigualdade triangular reversa para limites com dados faltantes",
+    "reconhecer guarda e comunicar limites",
+    "preservar coortes isoladas"
+  ],
+  "conceitosRelacionados": [
+    "erro absoluto médio",
+    "completude",
+    "diferença emparelhada",
+    "guarda pré-declarada",
+    "limites parciais",
+    "ausência potencialmente seletiva",
+    "proveniência",
+    "versão do dado"
+  ],
+  "aplicacoes": [
+    "planejamento logístico fictício",
+    "transferência para química, geografia e redação"
+  ],
+  "examesRelacionados": [
+    "ENEM — aplicações de estatística e interpretação",
+    "FUVEST/UNICAMP/UNESP — transferência matemática discursiva; não correspondem a questão oficial"
+  ],
+  "aulaMarkdown": "MAT-EST-067-transferencia-integradora-estatistica-temporal-decisoes-dados-incompletos.md",
+  "visuais": [
+    {
+      "src": "assets/01-cadeia-evidencias.svg",
+      "alt": "Seis etapas sucessivas de plano, previsão, observado, pareamento, métrica/guarda e decisão documentada.",
+      "legenda": "Figura 1",
+      "observe": "Observe a necessidade de rastrear cada ligação.",
+      "conclusaoAudio": "Número isolado não autoriza decisão.",
+      "autoria": "autoral"
+    },
+    {
+      "src": "assets/02-elegibilidade.svg",
+      "alt": "Seis cartões: D01 a D04 avaliáveis, D05 e D06 sem observado.",
+      "legenda": "Figura 2",
+      "observe": "Quatro de seis é completude, não acerto.",
+      "conclusaoAudio": "As duas ausências não entram como zero.",
+      "autoria": "autoral"
+    },
+    {
+      "src": "assets/03-erros-pareados.svg",
+      "alt": "Gráfico D01–D04 dos módulos B 3,2,4,1 e C 1,1,3,2, em kits; eixos e barras rotulados.",
+      "legenda": "Figura 3",
+      "observe": "Em D04, C erra mais, apesar de menor soma.",
+      "conclusaoAudio": "B soma 10, C soma 7 kits nos avaliáveis.",
+      "autoria": "autoral"
+    },
+    {
+      "src": "assets/04-media-e-guarda.svg",
+      "alt": "MAE B 2,5 e C 1,75 kits; D04 tem piora C menos B +1 acima de 0,5.",
+      "legenda": "Figura 4",
+      "observe": "Média e critério impeditivo respondem a perguntas diferentes.",
+      "conclusaoAudio": "A guarda hipotética falha, sem mudar o protocolo histórico.",
+      "autoria": "autoral"
+    },
+    {
+      "src": "assets/05-limite-diferenca.svg",
+      "alt": "Reta do intervalo fechado de menos um a zero kit para a diferença média C menos B, sob seis cartões fixos.",
+      "legenda": "Figura 5",
+      "observe": "Os extremos são hipóteses algébricas, não novos observados.",
+      "conclusaoAudio": "Limite de diferença não é intervalo de confiança.",
+      "autoria": "autoral"
+    },
+    {
+      "src": "assets/06-matriz-decisao.svg",
+      "alt": "Quatro quadros distingem fato didático, ausência, limite condicional e estado da regra.",
+      "legenda": "Figura 6",
+      "observe": "As afirmações exigem fundamentos distintos.",
+      "conclusaoAudio": "Não houve implantação, publicação ou inferência populacional.",
+      "autoria": "autoral"
+    }
+  ],
+  "video": {
+    "titulo": "How to spot a misleading graph — Lea Gaslowitz",
+    "canal": "TED-Ed",
+    "url": "https://www.youtube.com/watch?v=E91bGT9BjYk",
+    "idioma": "inglês",
+    "duracao": "aproximadamente 4 minutos (não aferida por reprodução integral)",
+    "momento_recomendado": "após seção 8",
+    "motivo": "interpretação crítica de escala e recorte em gráficos",
+    "pagina_publica_localizada_em": "2026-09-29",
+    "reproducao_integral": false,
+    "legendas_testadas": false
+  },
+  "exercicios": "exercicios.json",
+  "gabarito": "gabarito-comentado.json",
+  "numero_exercicios": 36,
+  "camadas": {
+    "aprendizagem": 10,
+    "consolidacao": 10,
+    "estilo_vestibular_autoral": 10,
+    "reteste": 6
+  },
+  "casoNovo": "transferencia/LAB-067-cartoes.json",
+  "separacaoCasos": [
+    "MAT-EST-049-PROT-v1",
+    "SANDBOX-057",
+    "EXEMPLO-V",
+    "EXEMPLO-Z",
+    "TRANSFER-066",
+    "LAB-067"
+  ],
+  "anterior": "MAT-EST-066",
+  "proximoTopico": null,
+  "proximoEstado": "bloqueado ate integracao e checagem do ZIP anterior",
+  "revisao": "1, 7 e 30 dias após estudo verdadeiro",
+  "fontes": [
+    "checkpoint textual MAT-EST-066",
+    "https://otexts.com/fpp3/accuracy.html",
+    "https://otexts.com/fpp3/tscv.html",
+    "https://otexts.com/fpp3/missing-outliers.html",
+    "https://www.youtube.com/watch?v=E91bGT9BjYk"
+  ],
+  "progressoIndividual": "não iniciado; sem tentativas registradas; inalterado",
+  "origemQuestao": "somente autoral",
+  "dadosReais": false,
+  "exemploFicticio": true,
+  "pacote": "incremental, nao cumulativo",
+  "integracaoHistoricaConferida": false,
+  "anexoMAT_EST_066_incorporado": false,
+  "invariantesAnterioresValidados": false,
+  "publicacaoSite": false,
+  "sincronizacaoDrive": false,
+  "sincronizacaoGithub": false,
+  "testeManualEdge": false,
+  "revisaoHumanaReal": false,
+  "reproducaoVideoIntegral": false,
+  "progressoIndividualAlterado": false,
+  "estudoRegistrado": false
+}

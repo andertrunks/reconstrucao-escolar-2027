@@ -1,0 +1,434 @@
+[
+  {
+    "id": "MAT-EST-064-EX-APR-01",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "básica",
+    "enunciado": "Defina o que pode ser afirmado diretamente sobre a mutação I01.",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-APR-02",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "básica",
+    "enunciado": "Diferencie fato de hipótese ao investigar um campo genérico de contagem.",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-APR-03",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "básica",
+    "enunciado": "Quais são os dois valores de erro B do corte A?",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-APR-04",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "básica",
+    "enunciado": "Quanto vale o MAE B e qual denominador é usado?",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-APR-05",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "básica",
+    "enunciado": "Quanto vale a completude de dois cartões válidos entre oito planejados?",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-APR-06",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "básica",
+    "enunciado": "Por que 6/8 não é o MAE B dessa amostra?",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-APR-07",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "básica",
+    "enunciado": "Qual falha sintética corresponde a alt vazio?",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-APR-08",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "básica",
+    "enunciado": "O que um teste negativo que reprova I03 demonstra?",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-APR-09",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "básica",
+    "enunciado": "Qual é a unidade do custo médio sete no SANDBOX-057?",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-APR-10",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "básica",
+    "enunciado": "Cite dois campos que impedem inventar responsável humano num plano de ação.",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-CON-01",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "intermediária",
+    "enunciado": "Encontre a diferença absoluta entre o MAE B verdadeiro 3 e o número errado 0,75.",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-CON-02",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "intermediária",
+    "enunciado": "Qual é a subestimação relativa do MAE se 0,75 substituir 3?",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-CON-03",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "intermediária",
+    "enunciado": "Explique como um contrato de dados pode impedir a confusão dos denominadores.",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-CON-04",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "intermediária",
+    "enunciado": "Qual prova adicional seria necessária para afirmar que um gerador real causou I01?",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-CON-05",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "intermediária",
+    "enunciado": "Uma proposta diz apenas “melhorar acessibilidade”. Transforme em critério testável.",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-CON-06",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "intermediária",
+    "enunciado": "Após reteste local de I01, qual deve ser o estado G3 herdado?",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-CON-07",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "intermediária",
+    "enunciado": "Como classificar I04 nesta etapa sem extrapolar?",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-CON-08",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "intermediária",
+    "enunciado": "Por que é correto I02–I06 continuarem falhando após corrigir I01?",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-CON-09",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "intermediária",
+    "enunciado": "Informe o estado de G7 e G8 e o efeito sobre prontidão de publicação.",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-CON-10",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "intermediária",
+    "enunciado": "O que preencher para duração real de um incidente sintético sem carimbos temporais?",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-VES-01",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "estilo vestibular, autoral",
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "aplicação",
+    "enunciado": "Uma reportagem diz “um erro de um funcionário causou queda na confiança do sistema”. A fonte só contém I01 mutada localmente. Redija a correção factual.",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-VES-02",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "estilo vestibular, autoral",
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "aplicação",
+    "enunciado": "Uma equipe propõe treinar revisores para que “sejam mais cuidadosos”, mas mantém o campo denominator sem significado. Que ação sistêmica faria sentido?",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-VES-03",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "estilo vestibular, autoral",
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "aplicação",
+    "enunciado": "O gráfico informa MAE B=0,75 e completude=25%, ambos com divisor 8. Qual dos dois números corresponde à pergunta certa?",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-VES-04",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "estilo vestibular, autoral",
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "aplicação",
+    "enunciado": "Um avaliador confere hash e afirma que toda interpretação do relatório está correta. Identifique a lacuna.",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-VES-05",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "estilo vestibular, autoral",
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "aplicação",
+    "enunciado": "Um plano tem ação “resolver I03” sem critério. Proponha evidência mensurável.",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-VES-06",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "estilo vestibular, autoral",
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "aplicação",
+    "enunciado": "Sete fixtures geram uma aprovada e seis reprovadas. É válido inferir taxa real de falhas editoriais de 6/7?",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-VES-07",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "estilo vestibular, autoral",
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "aplicação",
+    "enunciado": "Uma revisão anuncia causa raiz comprovada como “falta de treinamento” sem logs ou entrevistas. Como reescrever?",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-VES-08",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "estilo vestibular, autoral",
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "aplicação",
+    "enunciado": "O histórico mostra MAE C inferior ao de B, mas guarda t19 falha. Pode o relatório novo promover C no protocolo antigo?",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-VES-09",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "estilo vestibular, autoral",
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "aplicação",
+    "enunciado": "Em t26–t33 não houve pares; um painel exibe MAE zero. Qual deve ser o valor textual?",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-VES-10",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "estilo vestibular, autoral",
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "aplicação",
+    "enunciado": "Produza um comunicado sintético com achado, hipótese, ensaio e limite.",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-RET-01",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "revisão independente",
+    "enunciado": "Em outro sandbox isolado, quatro pares avaliáveis de dez planejados têm módulos 1,3,5,7. Calcule MAE e completude.",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-RET-02",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "revisão independente",
+    "enunciado": "Um teste passa, mas não existe versão pública. Pode a ação ser marcada como eficácia operacional demonstrada?",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-RET-03",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "revisão independente",
+    "enunciado": "Uma hipótese causal é plausível, mas dois mecanismos alternativos não foram examinados. Como registrar?",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-RET-04",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "revisão independente",
+    "enunciado": "Após alterar dados-fonte, o hash antigo G1 deve ser reaproveitado como prova da versão nova?",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-RET-05",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "revisão independente",
+    "enunciado": "Dois relatórios mostram sete, um em unidades e outro em pontos. O que a inspeção deve testar?",
+    "resposta_visivel_na_aula": false
+  },
+  {
+    "id": "MAT-EST-064-EX-RET-06",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": null,
+    "topicos": [
+      "MAT-EST-064"
+    ],
+    "dificuldade": "revisão independente",
+    "enunciado": "Explique por que um estudo pode ser encerrado editorialmente com G3–G8 abertos.",
+    "resposta_visivel_na_aula": false
+  }
+]

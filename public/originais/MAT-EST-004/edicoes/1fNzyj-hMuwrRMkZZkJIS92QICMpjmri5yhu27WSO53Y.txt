@@ -1,0 +1,160 @@
+﻿MAT-EST-004 — Gráficos estatísticos: barras, setores, linhas, histogramas e escolha da representação
+
+
+Status: reconstrução editorial v1. Todas as questões são autorais. Tente responder antes de consultar o gabarito.
+
+
+CAMADA APR — Aprendizagem
+
+
+MAT-EST-004-EX-APR-01
+Um gráfico compara quatro meios de transporte. Qual tipo de gráfico é uma escolha inicial robusta para comparar as categorias?
+
+
+MAT-EST-004-EX-APR-02
+Em um gráfico de barras, por que o eixo numérico geralmente deve começar em zero?
+
+
+MAT-EST-004-EX-APR-03
+Uma categoria representa 25% do total. Qual é o ângulo de seu setor em um gráfico circular?
+
+
+MAT-EST-004-EX-APR-04
+Uma categoria representa 10% do total. Qual é o ângulo correspondente no círculo?
+
+
+MAT-EST-004-EX-APR-05
+Qual representação é mais indicada para mostrar uma medida ao longo de 12 meses, quando o foco é a evolução?
+
+
+MAT-EST-004-EX-APR-06
+Qual representação mostra uma distribuição quantitativa agrupada em intervalos consecutivos?
+
+
+MAT-EST-004-EX-APR-07
+Explique uma diferença visual e uma diferença conceitual entre gráfico de barras e histograma.
+
+
+MAT-EST-004-EX-APR-08
+Em um histograma com classes [0,10), [10,20), [20,30), em qual classe entra o valor 20?
+
+
+MAT-EST-004-EX-APR-09
+Uma pesquisa de múltiplas respostas soma 140%. Por que um gráfico de setores único é inadequado?
+
+
+MAT-EST-004-EX-APR-10
+Liste quatro elementos que devem ser lidos antes de interpretar um gráfico.
+
+
+CAMADA CON — Consolidação
+
+
+MAT-EST-004-EX-CON-01
+As categorias A, B, C e D representam 40%, 30%, 20% e 10%. Calcule os quatro ângulos do gráfico de setores e verifique a soma.
+
+
+MAT-EST-004-EX-CON-02
+Valores mensais: 80, 95, 90, 120, 130. Descreva duas mudanças visíveis que um gráfico de linhas destacaria.
+
+
+MAT-EST-004-EX-CON-03
+Dois valores são 92 e 96. Calcule a diferença absoluta e a variação percentual tomando 92 como base.
+
+
+MAT-EST-004-EX-CON-04
+Explique por que representar 92 e 96 em barras com eixo iniciando em 90 pode exagerar a diferença.
+
+
+MAT-EST-004-EX-CON-05
+Frequências por intervalos: [0,5):4; [5,10):9; [10,15):11; [15,20):5; [20,25):1. Qual é a classe modal? Quantas observações estão abaixo de 15?
+
+
+MAT-EST-004-EX-CON-06
+Uma variável qualitativa nominal foi desenhada como pontos ligados por linha. Qual mensagem visual indevida pode surgir?
+
+
+MAT-EST-004-EX-CON-07
+Um gráfico de setores tem 7 categorias, cinco delas entre 3% e 7%. Dê uma razão para preferir barras.
+
+
+MAT-EST-004-EX-CON-08
+Em uma escala linear, as marcas 0, 10, 20 e 100 foram desenhadas com espaçamento igual. Qual é o problema?
+
+
+MAT-EST-004-EX-CON-09
+Uma linha de temperatura varia de 18°C a 24°C. É obrigatório começar o eixo em zero? Explique a condição para não induzir o leitor.
+
+
+MAT-EST-004-EX-CON-10
+Um quadrado que representa 20 unidades tem largura e altura duplicadas para representar 40. Que fator de aumento ocorre na área e por que isso é enganoso?
+
+
+CAMADA VES — Transferência / estilo vestibular autoral
+
+
+MAT-EST-004-EX-VES-01
+Uma reportagem usa barras para comparar 500 e 520 unidades, mas o eixo começa em 490. Explique numericamente por que a impressão de 'triplo' é falsa.
+
+
+MAT-EST-004-EX-VES-02
+Uma pesquisa mostra 60% usando A, 45% usando B e 30% usando C, com múltiplas respostas. Que gráfico evitar e por quê?
+
+
+MAT-EST-004-EX-VES-03
+Uma tabela de classes de renda usa um histograma. Por que não é legítimo reordenar as barras do maior para o menor?
+
+
+MAT-EST-004-EX-VES-04
+Um gráfico de linha mostra queda após uma política pública. Por que o gráfico sozinho não prova que a política causou a queda?
+
+
+MAT-EST-004-EX-VES-05
+Um infográfico amplia a largura e a altura de um ícone em 50% para representar crescimento de 50%. Calcule o fator de área e explique a distorção.
+
+
+MAT-EST-004-EX-VES-06
+Uma série anual possui totais discretos. Explique quando barras e quando linhas seriam escolhas defensáveis.
+
+
+MAT-EST-004-EX-VES-07
+Um gráfico de barras mostra 98 e 102. Calcule a variação percentual de 98 para 102 e descreva como um eixo truncado poderia alterar a percepção.
+
+
+MAT-EST-004-EX-VES-08
+Em um histograma, classes têm larguras diferentes. Por que comparar apenas alturas pode ser incorreto?
+
+
+MAT-EST-004-EX-VES-09
+Uma categoria de 35% deve ocupar quantos graus em um gráfico de setores? Mostre o cálculo.
+
+
+MAT-EST-004-EX-VES-10
+Escreva uma conclusão estatisticamente cuidadosa para um gráfico em que março tem o maior tempo médio de espera, evitando inferência causal.
+
+
+CAMADA RET — Reteste
+
+
+MAT-EST-004-EX-RET-01
+Sem consultar: associe barras, setores, linhas e histograma às quatro perguntas centrais que cada um responde melhor.
+
+
+MAT-EST-004-EX-RET-02
+Explique em duas frases a diferença entre histograma e gráfico de barras.
+
+
+MAT-EST-004-EX-RET-03
+Calcule o ângulo de um setor correspondente a 12,5% do total.
+
+
+MAT-EST-004-EX-RET-04
+Liste título, eixos, unidades, escala, legenda, fonte e período e explique por que ao menos quatro deles são importantes.
+
+
+MAT-EST-004-EX-RET-05
+Valores 100 e 105 são mostrados em barras com eixo começando em 99. Qual impressão enganosa pode surgir?
+
+
+MAT-EST-004-EX-RET-06
+Explique por que um gráfico visualmente atraente pode ser estatisticamente ruim.

@@ -1,0 +1,10 @@
+namespace,corte,politica,observacao_id,estado,n_alvos,erro_B,MAE_B,custo_B,erro_C,MAE_C,custo_C,observacao_documentada
+EXEMPLO-V-ISOLADO,L11,AS_KNOWN,,pendente,0,,,,,,,
+EXEMPLO-V-ISOLADO,L11,VALIDATED_AS_OF,,pendente,0,,,,,,,
+EXEMPLO-V-ISOLADO,L12,AS_KNOWN,MAT-EST-053-V-OBS-v1,preliminar,1,-2.00,2.00,2.00,-3.00,3.00,3.00,40.00
+EXEMPLO-V-ISOLADO,L12,VALIDATED_AS_OF,,pendente,0,,,,,,,
+EXEMPLO-V-ISOLADO,L13,AS_KNOWN,MAT-EST-053-V-OBS-v2,validado,1,2.00,2.00,6.00,1.00,1.00,3.00,44.00
+EXEMPLO-V-ISOLADO,L13,VALIDATED_AS_OF,MAT-EST-053-V-OBS-v2,validado,1,2.00,2.00,6.00,1.00,1.00,3.00,44.00
+SERIE-PRINCIPAL-FICTICIA,t22,MAT-EST-049-PROT-v1,conjunto t18–t22,simulação editorial,5,,17.60,51.20,,8.36,14.92,não extrapolar para t23–t25
+EXEMPLO-Z-ISOLADO,L4,AS_KNOWN,MAT-EST-052-DRILL-003,preliminar_não_final,1,1.00,1.00,3.00,,,,"única previsão 29, não modelo B/C"
+EXEMPLO-Z-ISOLADO,L6,VALIDATED_AS_OF,MAT-EST-052-DRILL-005,retificado_validado,1,3.00,3.00,9.00,,,,"única previsão 29, não modelo B/C"

@@ -1,0 +1,34 @@
+{
+  "projeto": "Reconstrução Escolar + ENEM e Vestibulares 2027",
+  "ultimo_pacote_editorial_concluido": "MAT-EST-060",
+  "ultimo_confirmado_antes": "MAT-EST-059",
+  "titulo_ultimo": "Auditoria de gráficos e relatórios automatizados: testes de consistência, versões e acessibilidade de publicação",
+  "etapa_atual": "pacote editorial concluído localmente; sem publicação/sincronização",
+  "proximo_topico_editorial": "MAT-EST-061",
+  "titulo_proximo_proposto": "Teste de regressão editorial e preparação de publicação: evidências humanas, rollback e comunicação de correções",
+  "proximo_estado": "não iniciado",
+  "progresso_individual": "não iniciado; sem tentativa efetiva; inalterado",
+  "serie": "t01–t22 mantidos; t23–t25 sem observação/emissão autenticada; t26–t33 propostos, sem pares",
+  "historico": "MAT-EST-049-PROT-v1: cinco pares, MAE B=17.60 C=8.36, t19 piora=19.2 > guarda 10; C não promovido",
+  "sandbox": "SANDBOX-057 preservado, oito cartões, dois avaliáveis, seis pendentes; F00–F08 somente receitas sintéticas de auditoria",
+  "sucessor": "MAT-EST-056-PROT-SUC-v1 rascunho editorial local, zero emissões e observados",
+  "novidades": [
+    "seis SVG acessíveis com conclusão verbal",
+    "36 questões autorais e gabarito separado",
+    "9 receitas positivas/negativas de relatório em arquivo isolado",
+    "verificador de fonte, cálculo e semântica",
+    "relatório reproduzível de testes com portões humanos pendentes"
+  ],
+  "anexo_anterior": "historico/MAT-EST-059-pacote-integracao.zip sem modificação",
+  "arquivos_invariantes_herdados_sha256": 23,
+  "nao_alegar": [
+    "novos dados futuros",
+    "publicação site",
+    "sincronização Drive e GitHub",
+    "teste manual Edge/leitor de tela",
+    "reprodução integral de vídeo",
+    "progresso individual estudado",
+    "autenticidade externa de previsão ou arquivo"
+  ],
+  "material_integracao": "MAT-EST-060-pacote-integracao.zip"
+}

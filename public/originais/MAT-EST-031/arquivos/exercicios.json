@@ -1,0 +1,974 @@
+[
+  {
+    "id": "MAT-EST-031-EX-APR-01",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Erro que interessa",
+    "enunciado": "Por que uma SSE muito baixa calculada nos mesmos registros que ajustaram o modelo não demonstra boa previsão de observações futuras?",
+    "resposta": "Porque mede ajuste na amostra de treino, não capacidade de generalização.",
+    "resolucao": [
+      "Os coeficientes foram escolhidos para reduzir erros nesses próprios registros.",
+      "Para avaliar previsão, use dados não utilizados no ajuste; distribuições futuras também precisam ser compatíveis."
+    ],
+    "habilidade": "ajuste versus previsão",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "conteúdo",
+    "erroProvavel": "Retome a definição do conceito e as hipóteses de aplicação.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-APR-02",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Divisão simples",
+    "enunciado": "Um conjunto fictício de 120 registros independentes é dividido em 75% para treino e 25% para teste. Quantos registros em cada parte?",
+    "resposta": "90 para treino e 30 para teste.",
+    "resolucao": [
+      "120 × 0,75 = 90.",
+      "120 × 0,25 = 30; confirme que 90 + 30 = 120."
+    ],
+    "habilidade": "proporções na separação",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Organize valores e unidades antes de calcular; confira a divisão.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-APR-03",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Qual é o papel da validação?",
+    "enunciado": "Explique a diferença entre dados usados para treinar um modelo e dados usados para escolher entre dois modelos candidatos.",
+    "resposta": "Treino ajusta parâmetros; validação compara candidatos ou hiperparâmetros em dados não usados no respectivo ajuste.",
+    "resolucao": [
+      "Ajustar coeficientes e avaliar opções são decisões diferentes.",
+      "Depois da escolha, um teste preservado oferece uma avaliação final sem uso nas decisões anteriores."
+    ],
+    "habilidade": "função de validação",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "conteúdo",
+    "erroProvavel": "Retome a definição do conceito e as hipóteses de aplicação.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-APR-04",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Erro absoluto médio",
+    "enunciado": "Quatro erros de previsão são −1, +1, −1 e +1 ponto. Calcule MAE.",
+    "resposta": "1 ponto.",
+    "resolucao": [
+      "Tome os valores absolutos: 1 + 1 + 1 + 1 = 4.",
+      "Divida pelo número de previsões: MAE = 4/4 = 1 ponto."
+    ],
+    "habilidade": "MAE",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Organize valores e unidades antes de calcular; confira a divisão.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-APR-05",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Erro quadrático médio",
+    "enunciado": "Para os mesmos quatro erros −1, +1, −1 e +1 ponto, determine MSE e RMSE.",
+    "resposta": "MSE = 1 ponto² e RMSE = 1 ponto.",
+    "resolucao": [
+      "Quadrados: 1, 1, 1 e 1; média dos quadrados igual a 1 ponto².",
+      "Raiz quadrada de 1 ponto² = 1 ponto."
+    ],
+    "habilidade": "MSE e RMSE",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Organize valores e unidades antes de calcular; confira a divisão.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-APR-06",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Treino versus teste",
+    "enunciado": "O modelo A tem MAE de treino 0,4 e de teste 3,0 pontos. O modelo B tem MAE de treino 1,1 e de teste 1,3. Qual apresentou menor erro nesse teste?",
+    "resposta": "B; seu MAE de teste foi 1,3 contra 3,0 do A.",
+    "resolucao": [
+      "Compare na mesma partição de teste usando a mesma unidade e métrica.",
+      "A lacuna de A sugere possível sobreajuste, mas deve-se verificar amostra, vazamento e deslocamento de distribuição."
+    ],
+    "habilidade": "comparação fora da amostra",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Verifique o sentido da pergunta e se o resultado é treino, validação ou teste.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-APR-07",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Cinco partes",
+    "enunciado": "Em validação cruzada de cinco partes de mesmo tamanho, quantas vezes cada parte participa da validação e quantas do treino?",
+    "resposta": "Uma vez da validação e quatro vezes do treino.",
+    "resolucao": [
+      "Em cada rodada uma das cinco partes fica fora do ajuste.",
+      "As outras quatro treinam; o procedimento se repete até todas terem sido validadas uma vez."
+    ],
+    "habilidade": "K-fold",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "conteúdo",
+    "erroProvavel": "Retome a definição do conceito e as hipóteses de aplicação.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-APR-08",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Vazamento no pré-processamento",
+    "enunciado": "Um pesquisador calcula média e desvio padrão usando todos os registros antes de dividir treino e teste. Qual é o risco?",
+    "resposta": "Vazamento: estatísticas do teste influenciaram a preparação do treino.",
+    "resolucao": [
+      "Primeiro preserve o teste; calcule os parâmetros da transformação apenas no treino.",
+      "Aplique a transformação aprendida ao teste sem refazê-la com esses registros."
+    ],
+    "habilidade": "vazamento de dados",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Defina primeiro a finalidade, depois a divisão dos dados e por último a métrica.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-APR-09",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "R² de teste",
+    "enunciado": "Com valores de teste 10, 12, 14 e 16, previsão 11, 11, 15 e 15, calcule SSE e R² de teste usando a média dos próprios valores observados no teste.",
+    "resposta": "SSE = 4; SST = 20; R² = 0,80.",
+    "resolucao": [
+      "Resíduos observados menos previstos são −1, +1, −1 e +1, e SSE = 4.",
+      "A média observada do teste é 13; SST = 9 + 1 + 1 + 9 = 20; R² = 1 − 4/20."
+    ],
+    "habilidade": "R² fora da amostra",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Organize valores e unidades antes de calcular; confira a divisão.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-APR-10",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "R² negativo",
+    "enunciado": "É possível que R² em teste seja negativo? Explique sem declarar que correlação é negativa.",
+    "resposta": "Sim. Ocorre quando o SSE das previsões ultrapassa o SST calculado em torno da média observada do teste.",
+    "resolucao": [
+      "R² = 1 − SSE/SST; se a razão ultrapassa 1, o resultado é negativo.",
+      "Não confunda R² fora da amostra com o quadrado do coeficiente de correlação nem com causalidade."
+    ],
+    "habilidade": "interpretação de R²",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Verifique o sentido da pergunta e se o resultado é treino, validação ou teste.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-CON-01",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Duas previsões na mesma amostra",
+    "enunciado": "Valores observados no teste: 10, 12, 14, 16. A prevê 11, 11, 15, 15; B prevê 10, 13, 14, 17. Calcule MAE e RMSE de cada um e compare.",
+    "resposta": "A: MAE 1, RMSE 1. B: MAE 0,5, RMSE ≈0,707; B erra menos nestes registros.",
+    "resolucao": [
+      "A tem quatro erros absolutos unitários: MAE = RMSE = 1.",
+      "B tem erros 0, −1, 0 e −1: MAE = 2/4 = 0,5; MSE = 2/4 = 0,5; RMSE = √0,5."
+    ],
+    "habilidade": "comparação de métricas",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Organize valores e unidades antes de calcular; confira a divisão.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-CON-02",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Média de cinco folds",
+    "enunciado": "Os MAEs de cinco folds de mesmo tamanho são 2, 3, 1, 2 e 2 pontos. Determine a média e diga o que ela representa.",
+    "resposta": "2 pontos de MAE médio entre os cinco folds.",
+    "resolucao": [
+      "Soma 2+3+1+2+2 = 10; divida por 5.",
+      "É uma estimativa de desempenho sob o plano de validação, não garantia para qualquer população futura."
+    ],
+    "habilidade": "agregação de validação cruzada",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Organize valores e unidades antes de calcular; confira a divisão.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-CON-03",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Tamanhos de folds distintos",
+    "enunciado": "Um fold com 10 observações teve MAE 1; outro com 30 observações teve MAE 3. Qual o MAE agregado por observação?",
+    "resposta": "2,5 pontos.",
+    "resolucao": [
+      "Total de erros absolutos: 10×1 + 30×3 = 100.",
+      "Divida por 40 registros: 2,5. A média simples de 1 e 3 (=2) daria peso igual a folds desiguais."
+    ],
+    "habilidade": "média ponderada",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Organize valores e unidades antes de calcular; confira a divisão.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-CON-04",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Treino, validação e teste",
+    "enunciado": "Há 125 registros independentes. Reservam-se 25 para teste; os outros 100 são usados em K-fold com cinco partes iguais. Quantos registros treinam e validam em cada rodada?",
+    "resposta": "80 treinam e 20 validam em cada rodada; 25 permanecem intocados como teste final.",
+    "resolucao": [
+      "100/5 = 20 por parte.",
+      "Em cada rodada, quatro partes fornecem 80 para ajuste e a restante fornece 20 para validação."
+    ],
+    "habilidade": "desenho de avaliação",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Organize valores e unidades antes de calcular; confira a divisão.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-CON-05",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Escolha sem olhar o teste",
+    "enunciado": "A obteve MAE de validação 1,7 e B 1,3. Antes de abrir o teste final, qual seria a escolha provisória se menor MAE é o critério previamente definido?",
+    "resposta": "B é a escolha provisória; a avaliação final no teste ainda não ocorreu.",
+    "resolucao": [
+      "Compare mesma métrica e mesmo esquema de validação.",
+      "Não examine os resultados do teste para inverter repetidamente decisões."
+    ],
+    "habilidade": "seleção de modelo",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Defina primeiro a finalidade, depois a divisão dos dados e por último a métrica.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-CON-06",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Escala calculada no treino",
+    "enunciado": "Os valores de uma variável no treino são 2, 4, 6 e 8; no teste são 10 e 12. Qual é a média usada para centralizar a variável no teste sem vazamento? Que valor transformado terá 10?",
+    "resposta": "Média de treino = 5; valor centralizado de 10 = 5.",
+    "resolucao": [
+      "Média de treino: (2+4+6+8)/4 = 5.",
+      "Transforme 10 por 10−5 = 5; não use a média de todos os seis valores."
+    ],
+    "habilidade": "pré-processamento sem vazamento",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Organize valores e unidades antes de calcular; confira a divisão.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-CON-07",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Mesmo aluno várias vezes",
+    "enunciado": "Há cinco avaliações por estudante. Por que uma divisão aleatória por linha pode superestimar desempenho se o objetivo é prever estudantes nunca vistos?",
+    "resposta": "Porque registros da mesma pessoa podem ficar em treino e validação, permitindo que informações específicas dela sejam reaproveitadas.",
+    "resolucao": [
+      "A unidade independente pretendida é o estudante, não a linha.",
+      "Separe por identificador de estudante, mantendo todos os registros de cada um em apenas uma partição por rodada."
+    ],
+    "habilidade": "separação por grupos",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Verifique o sentido da pergunta e se o resultado é treino, validação ou teste.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-CON-08",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Previsão de amanhã",
+    "enunciado": "Para prever consumo de energia em outubro com dados até setembro, é apropriado embaralhar observações de todo o ano e treinar também com novembro?",
+    "resposta": "Não; os dados do futuro não existem no momento real da previsão.",
+    "resolucao": [
+      "Preserve a cronologia; treine no passado e valide em período posterior.",
+      "Considere se os preditores estavam de fato disponíveis no instante em que a previsão seria emitida."
+    ],
+    "habilidade": "validação temporal",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Defina primeiro a finalidade, depois a divisão dos dados e por último a métrica.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-CON-09",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Quando usar RMSE",
+    "enunciado": "Erros de um modelo: 1, 1, 1 e 5. Calcule MAE e RMSE; explique por que o segundo reage mais ao erro 5.",
+    "resposta": "MAE = 2; RMSE = √7 = 2,646 aproximadamente.",
+    "resolucao": [
+      "MAE = (1+1+1+5)/4 = 2.",
+      "MSE = (1+1+1+25)/4 = 7; RMSE = √7. O quadrado atribui peso maior ao erro extremo."
+    ],
+    "habilidade": "sensibilidade das métricas",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Organize valores e unidades antes de calcular; confira a divisão.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-CON-10",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Dados de categorias raras",
+    "enunciado": "Uma classificação possui 95 casos negativos e 5 positivos. Um modelo prevê sempre negativo. Calcule acurácia e sensibilidade para os positivos.",
+    "resposta": "Acurácia = 95%; sensibilidade para positivos = 0%.",
+    "resolucao": [
+      "95/100 previsões corretas, portanto acurácia de 95%.",
+      "Nenhum dos cinco positivos é identificado; sensibilidade = 0/5. Avalie métricas adequadas ao objetivo."
+    ],
+    "habilidade": "métricas sob desbalanceamento",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Verifique o sentido da pergunta e se o resultado é treino, validação ou teste.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-VES-01",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "R² não se transfere automaticamente",
+    "enunciado": "Um modelo obteve R² de treino 0,96 e R² de teste −0,20. Redija uma conclusão limitada à evidência.",
+    "resposta": "O ajuste interno foi alto, mas o desempenho no conjunto de teste foi fraco segundo R²; a capacidade de generalização precisa ser investigada.",
+    "resolucao": [
+      "R² no teste abaixo de zero indica SSE maior que a dispersão em torno da média dos valores observados no teste.",
+      "Examine tamanho, representatividade, vazamento, mudanças de distribuição e compare com uma referência definida antes."
+    ],
+    "habilidade": "comunicação sem exagero",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Verifique o sentido da pergunta e se o resultado é treino, validação ou teste.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-VES-02",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Comparação com referência simples",
+    "enunciado": "Na amostra de teste com y = 10, 12, 14, 16, o modelo prevê sempre 12. Calcule SSE, SST e R² fora da amostra.",
+    "resposta": "SSE = 24; SST = 20; R² = −0,20.",
+    "resolucao": [
+      "Erros −2, 0, 2 e 4; quadrados 4+0+4+16 = 24.",
+      "Média observada em teste 13, SST 20; R² = 1−24/20 = −0,20."
+    ],
+    "habilidade": "referência e generalização",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Organize valores e unidades antes de calcular; confira a divisão.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-VES-03",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Seleção excessiva e teste",
+    "enunciado": "Uma equipe comparou cinquenta configurações, consultando o mesmo teste após cada ajuste, e divulgou somente a melhor. Por que a nota final é otimista?",
+    "resposta": "Porque o teste foi usado para seleção e deixou de representar uma avaliação independente.",
+    "resolucao": [
+      "Muitas decisões foram condicionadas a resultados do teste.",
+      "Empregue validação dentro do desenvolvimento e preserve novo teste independente; em seleção extensa, considere validação aninhada."
+    ],
+    "habilidade": "uso indevido do teste",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Defina primeiro a finalidade, depois a divisão dos dados e por último a métrica.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-VES-04",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Seleção de variáveis fora do fold",
+    "enunciado": "Antes da validação cruzada, selecionaram-se as dez variáveis mais relacionadas à resposta usando todos os registros de desenvolvimento. Qual problema ocorreu?",
+    "resposta": "Vazamento entre folds: os rótulos das futuras validações influenciaram a seleção de variáveis.",
+    "resolucao": [
+      "A seleção tem de ocorrer dentro de cada rodada, usando somente a parte de treino daquele fold.",
+      "O pipeline completo é avaliado nas partes de validação não vistas nessa etapa."
+    ],
+    "habilidade": "seleção dentro do fold",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "conteúdo",
+    "erroProvavel": "Retome a definição do conceito e as hipóteses de aplicação.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-VES-05",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Serviços atendidos mês a mês",
+    "enunciado": "Um conjunto contém medições mensais do mesmo serviço, com evolução temporal. Proponha separação e explique por que folds aleatórios podem ser inadequados.",
+    "resposta": "Treinar em meses anteriores e validar em meses seguintes, respeitando a disponibilidade temporal e possível lacuna entre janelas.",
+    "resolucao": [
+      "A autocorrelação e tendências podem produzir similaridade artificial entre treino e validação se houver embaralhamento.",
+      "Use janelas progressivas ou móveis e registre o horizonte de previsão."
+    ],
+    "habilidade": "desenho temporal",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Defina primeiro a finalidade, depois a divisão dos dados e por último a métrica.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-VES-06",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Novo município",
+    "enunciado": "Um modelo foi validado dentro de um município, mas será aplicado em outro com perfil distinto. Qual limite deve acompanhar a conclusão?",
+    "resposta": "O resultado interno não demonstra automaticamente capacidade de transporte; requer avaliação com dados representativos da população de destino.",
+    "resolucao": [
+      "Mudanças nas características e na relação entre variáveis e resposta afetam a validade externa.",
+      "Planeje validação de grupos ou ambiente externo e relate o novo domínio."
+    ],
+    "habilidade": "validade externa",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Verifique o sentido da pergunta e se o resultado é treino, validação ou teste.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-VES-07",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Intervalo não é exatidão",
+    "enunciado": "Cinco MAEs de validação cruzada são 1, 3, 1, 3 e 2. Uma equipe informa média 2 e chama os cinco resultados de cinco experimentos independentes. O que corrigir?",
+    "resposta": "A média é 2, mas os folds reutilizam dados de treinamento e não são cinco estudos independentes.",
+    "resolucao": [
+      "Os modelos treinam em conjuntos sobrepostos e compartilham o banco de dados.",
+      "Variabilidade entre folds é descritiva do protocolo; não a interprete automaticamente como intervalo de confiança para outra população."
+    ],
+    "habilidade": "incerteza de avaliação",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Verifique o sentido da pergunta e se o resultado é treino, validação ou teste.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-VES-08",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Variável do futuro",
+    "enunciado": "Para prever aprovação no início de um curso, o modelo inclui nota final do próprio curso. Avalie o desenho.",
+    "resposta": "Inadequado: a nota final não está disponível no instante de previsão e provoca vazamento temporal ou de alvo.",
+    "resolucao": [
+      "Defina explicitamente a data da decisão.",
+      "Retenha apenas variáveis conhecidas até esse momento e refaça a validação segundo a implantação real."
+    ],
+    "habilidade": "vazamento de alvo",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Defina primeiro a finalidade, depois a divisão dos dados e por último a métrica.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-VES-09",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Desempenho por subgrupo",
+    "enunciado": "Um modelo tem MAE geral de 1,2, MAE do grupo A de 0,5 e do grupo B de 3,0. Por que não basta reportar só 1,2?",
+    "resposta": "A média geral encobre erros substancialmente maiores para o grupo B.",
+    "resolucao": [
+      "Verifique quantidade de registros por grupo, cobertura e variabilidade; métricas agregadas podem mascarar falhas.",
+      "Relate erro por subgrupo e interprete incertezas sem presumir causa."
+    ],
+    "habilidade": "auditoria por subgrupo",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Verifique o sentido da pergunta e se o resultado é treino, validação ou teste.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-VES-10",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Protocolo comparativo íntegro",
+    "enunciado": "Compare modelos M0, M1 e M2 da aula anterior. Proponha sequência para escolher por MAE sem explorar repetidamente o teste.",
+    "resposta": "Definir métrica e separação antes; dividir teste externo; validar cada pipeline M0–M2 nos dados de desenvolvimento; escolher; reajustar com dados de desenvolvimento; testar uma vez e relatar limitações.",
+    "resolucao": [
+      "A seleção se baseia no protocolo de validação, não apenas em SSE de treino.",
+      "Pré-processamento e eventual ajuste de hiperparâmetros devem ocorrer dentro das rodadas relevantes; teste final fica preservado."
+    ],
+    "habilidade": "protocolo completo",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Defina primeiro a finalidade, depois a divisão dos dados e por último a métrica.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-RET-01",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "independente",
+    "titulo": "Particionamento independente",
+    "enunciado": "Em 150 linhas pertencentes a 30 pessoas com cinco medições cada, o objetivo é prever pessoas inéditas. Qual deve ser a unidade de divisão?",
+    "resposta": "Pessoa inteira: nenhuma pessoa deve aparecer ao mesmo tempo nas partes de desenvolvimento e de teste.",
+    "resolucao": [
+      "A independência relevante é por pessoa, pois as cinco linhas podem ser correlacionadas.",
+      "Estratifique por pessoa quando justificável; nunca misture linhas do mesmo identificador nos lados da divisão."
+    ],
+    "habilidade": "transferência de separação por grupo",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Defina primeiro a finalidade, depois a divisão dos dados e por último a métrica.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-RET-02",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "independente",
+    "titulo": "Erro de previsão em outra unidade",
+    "enunciado": "Quatro previsões em quilogramas têm erros 2, −2, 0 e 4 kg. Determine MAE e RMSE, incluindo unidades.",
+    "resposta": "MAE = 2 kg; MSE = 6 kg²; RMSE = √6 ≈ 2,449 kg.",
+    "resolucao": [
+      "MAE = (2+2+0+4)/4 = 2 kg.",
+      "MSE=(4+4+0+16)/4=6 kg²; tire a raiz para retornar a quilogramas."
+    ],
+    "habilidade": "métricas e unidades",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Organize valores e unidades antes de calcular; confira a divisão.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-RET-03",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "independente",
+    "titulo": "Tratamento ausente",
+    "enunciado": "Uma variável tem valores ausentes. Uma pessoa preenche todos com a mediana de treino e avaliação juntas. Explique como corrigir.",
+    "resposta": "Calcular mediana exclusivamente com o treino de cada rodada e aplicá-la aos registros retidos para avaliação.",
+    "resolucao": [
+      "A imputação aprende informação dos dados, mesmo que não use diretamente a resposta.",
+      "Inclua essa etapa no pipeline para que seja refeita corretamente a cada fold."
+    ],
+    "habilidade": "imputação segura",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "conteúdo",
+    "erroProvavel": "Retome a definição do conceito e as hipóteses de aplicação.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-RET-04",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "independente",
+    "titulo": "Seleção com resultado inesperado",
+    "enunciado": "No treino, A tem RMSE 0,6 e B 1,0. Na validação, A tem 2,5 e B 1,2. Com objetivo preditivo e condições comparáveis, qual candidato segue para avaliação externa e por quê?",
+    "resposta": "B, por ter erro menor na validação (1,2); o treino perfeito de A pode refletir sobreajuste.",
+    "resolucao": [
+      "A seleção preditiva deve priorizar amostra não usada para ajustar cada candidato.",
+      "A decisão ainda será examinada no teste final preservado, com limites de representatividade."
+    ],
+    "habilidade": "reteste de escolha",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Verifique o sentido da pergunta e se o resultado é treino, validação ou teste.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-RET-05",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "independente",
+    "titulo": "Média ponderada fora de contexto",
+    "enunciado": "Em validação cruzada, folds com 10 e 30 itens possuem MAEs de 2 e 4. Calcule o MAE agregado por observação.",
+    "resposta": "3,5 unidades.",
+    "resolucao": [
+      "Erro absoluto total = 10×2 + 30×4 = 140.",
+      "Divida pelo total de 40 itens: 3,5; a média não ponderada (=3) não representa o erro agregado por item."
+    ],
+    "habilidade": "reteste de ponderação",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Organize valores e unidades antes de calcular; confira a divisão.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-031-EX-RET-06",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "independente",
+    "titulo": "Conclusão para divulgação",
+    "enunciado": "Um estudo usa registros históricos de uma escola e encontra MAE de teste 1,4 ponto. Escreva uma conclusão de duas frases sem afirmar que o método funciona igualmente em todo o país.",
+    "resposta": "Exemplo: “Nos registros históricos reservados para teste desta escola, o modelo apresentou erro absoluto médio de 1,4 ponto. A aplicação em outras escolas ou períodos requer nova validação, com atenção a possíveis mudanças da população e do processo de coleta.”",
+    "resolucao": [
+      "Informe métrica, unidade, base de avaliação e contexto.",
+      "Limite a generalização e não transforme erro médio em garantia individual ou evidência causal."
+    ],
+    "habilidade": "comunicação responsável",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Verifique o sentido da pergunta e se o resultado é treino, validação ou teste.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  }
+]

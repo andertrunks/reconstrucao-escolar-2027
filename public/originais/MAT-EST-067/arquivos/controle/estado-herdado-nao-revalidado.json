@@ -1,0 +1,73 @@
+{
+  "status": "informação de checkpoint textual; bytes históricos não disponíveis nesta sessão",
+  "ultimo_integral_reportado": "MAT-EST-066",
+  "quantidade_arquivos_reportada": 77,
+  "verificacoes_anteriores_reportadas": 370,
+  "hashes_herdados_reportados": 23,
+  "MAT_EST_065_sha256_reportado": "b8a2d2504fa63eac5a50519ab5793baac3bac4db4d06cf261ca2c89f2b165d4c",
+  "serie": "t01–t22 preservação exigida; não alterada neste incremento",
+  "protocolo_historico": {
+    "id": "MAT-EST-049-PROT-v1",
+    "pares": "5/8",
+    "MAE_B": 17.6,
+    "MAE_C": 8.36,
+    "custo_B": 51.2,
+    "custo_C": 14.92,
+    "piora_C_t19": 19.2,
+    "guarda_max": 10,
+    "promocao_C": false
+  },
+  "sem_observacoes": "t23–t25 sem emissões e observações autenticadas; t26–t33 zero pares, MAE não estimável; MAT-EST-056-PROT-SUC-v1 é proposta local",
+  "SANDBOX_057": {
+    "cartoes": 8,
+    "avaliaveis": [
+      "S01",
+      "S02"
+    ],
+    "pendentes": 6,
+    "erros_B": [
+      4,
+      -2
+    ],
+    "erros_C": [
+      3,
+      -5
+    ],
+    "MAE_B": 3,
+    "MAE_C": 4,
+    "custo_medio_B": 7,
+    "custo_medio_C": 7
+  },
+  "TRANSFER_066": {
+    "avaliaveis": [
+      "R01",
+      "R02"
+    ],
+    "pendentes": [
+      "R03",
+      "R04"
+    ],
+    "MAE_B": 2.5,
+    "MAE_C": 1,
+    "custo_B": 4.5,
+    "custo_C": 2,
+    "completude": 0.5
+  },
+  "indicadores": "K65-01–K65-11 e fotografia F0 única, sem tendência",
+  "status_controles": {
+    "G1-G2": "checked_local",
+    "G3-G6": "pending",
+    "G7-G8": "not_performed",
+    "P01-P10": "not_performed"
+  },
+  "acoes": "A64-01–06 ensaios locais; A64-07 não executada",
+  "progresso_individual": "não iniciado; inalterado",
+  "externo": {
+    "site_publicado": false,
+    "drive_sincronizado": false,
+    "github_sincronizado": false,
+    "edge_testado_manualmente": false,
+    "revisao_humana": false
+  },
+  "revalidacao_integral": "blocked_missing_source_bytes"
+}

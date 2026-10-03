@@ -1,0 +1,182 @@
+[
+  {
+    "id": "MAT-EST-067-EX-APR-01",
+    "resolucao": "Previsão é valor fixado antes do alvo; observado é dado do alvo; erro é observado menos previsão. Sem observado não se calcula erro. Zero seria igualdade verificada, não campo vazio.",
+    "motivoProvavelDeErro": "Conteúdo: trocar ausência por valor numérico."
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-02",
+    "resolucao": "D01 a D04 são avaliáveis; D05 e D06 têm observado pendente. Todos têm previsões didáticas B e C.",
+    "motivoProvavelDeErro": "Interpretação: imaginar que D05/D06 não receberam previsão."
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-03",
+    "resolucao": "4/6=2/3≈66,67%. É proporção de cartões avaliáveis, sem unidade de kits nem de pontos.",
+    "motivoProvavelDeErro": "Cálculo: usar quatro sobre quatro."
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-04",
+    "resolucao": "D01: +3 para B e +1 para C. D02: −2 para B e +1 para C. Em todos os casos e=y−previsão.",
+    "motivoProvavelDeErro": "Cálculo: inverter a subtração."
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-05",
+    "resolucao": "(3+2+4+1)/4=10/4=2,5 kits. O denominador é quatro pares válidos.",
+    "motivoProvavelDeErro": "Cálculo: dividir por seis ou cancelar sinais."
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-06",
+    "resolucao": "(1+1+3+2)/4=7/4=1,75 kit, contra 2,5 kits de B nesses quatro pares. Nada se afirma sobre população futura.",
+    "motivoProvavelDeErro": "Interpretação: transformar exemplo didático em implantação validada."
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-07",
+    "resolucao": "B tem +3 e custa 3×3=9 pontos; C tem +1 e custa 3×1=3 pontos.",
+    "motivoProvavelDeErro": "Conteúdo: confundir pontos de custo com quantidade de kits."
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-08",
+    "resolucao": "MAE não estimável, pois não há soma dividida por quantidade positiva de pares. Completude 0/6=0% é definida.",
+    "motivoProvavelDeErro": "Conteúdo: escrever MAE igual a zero."
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-09",
+    "resolucao": "2−1=+1 kit: C tem piora local de um kit em D04.",
+    "motivoProvavelDeErro": "Cálculo: inverter o sentido da diferença."
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-10",
+    "resolucao": "Exemplos: origem da previsão, horizonte, data-alvo, versão congelada, identificação e versão do observado, corte de avaliação. Duas corretas bastam.",
+    "motivoProvavelDeErro": "Memória: limitar registro ao número previsto."
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-01",
+    "resolucao": "B=[+3,−2,+4,+1]; C=[+1,+1,−3,−2]. Calcular sempre observado menos previsão.",
+    "motivoProvavelDeErro": "Cálculo: confundir sinal de demanda superprevista."
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-02",
+    "resolucao": "Diferenças [−2,−1,−1,+1]; soma −3 kits e média −3/4=−0,75 kit no recorte.",
+    "motivoProvavelDeErro": "Cálculo: usar erros assinados em vez dos módulos."
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-03",
+    "resolucao": "B: [9,2,12,3], soma 26 e média 6,5 pontos. C: [3,3,3,2], soma 11 e média 2,75 pontos.",
+    "motivoProvavelDeErro": "Cálculo: perder a unidade ou tratar sinal como custo negativo."
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-04",
+    "resolucao": "D04 piora +1 kit, excede 0,5. A regra conjunta de promoção do exercício falha, apesar da menor média parcial de C. Não houve decisão real.",
+    "motivoProvavelDeErro": "Estratégia: mudar a guarda depois do resultado."
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-05",
+    "resolucao": "Pela desigualdade triangular reversa, D05 está em [−1,+1] kit e D06 em [−2,+2] kits. São possibilidades condicionais, não resultados observados.",
+    "motivoProvavelDeErro": "Conteúdo: inventar y ou confundir limite com intervalo de confiança."
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-06",
+    "resolucao": "Soma total entre −3−1−2=−6 e −3+1+2=0. Dividir por 6: média entre −1 e 0 kit.",
+    "motivoProvavelDeErro": "Cálculo: usar denominador quatro para a média hipotética de seis."
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-07",
+    "resolucao": "Os cartões dariam diferenças +1 e +2; soma completa −3+1+2=0, média 0 kit. É cenário, não dado nem autorização de promoção.",
+    "motivoProvavelDeErro": "Interpretação: converter hipótese em observado."
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-08",
+    "resolucao": "As diferenças seriam −1 e −2; soma −3−1−2=−6, média −1 kit. Nenhum observado foi criado pelo cálculo.",
+    "motivoProvavelDeErro": "Interpretação: declarar essas desigualdades fatos."
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-09",
+    "resolucao": "Não há evidência do mecanismo de ausência. Pode haver seleção ligada à intensidade do fenômeno ou a falhas de recepção. Métricas descrevem apenas os quatro elegíveis.",
+    "motivoProvavelDeErro": "Interpretação: presumir ausência totalmente aleatória."
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-10",
+    "resolucao": "Manter versão e corte preliminares e validados, origem da correção, mesmo alvo único e previsões do enunciado congeladas. Recalcular fotografia identificada sem apagar a anterior.",
+    "motivoProvavelDeErro": "Estratégia: duplicar alvo ou editar previsão para acompanhar a revisão."
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-01",
+    "resolucao": "Informar quatro de seis cartões fictícios avaliáveis, horizonte h1, médias somente desse recorte, ausência dos dois observados e violação da guarda local de 0,5 em D04. Nenhuma aprovação ou generalização ocorreu.",
+    "motivoProvavelDeErro": "Interpretação: extrapolar recorte e ocultar critério impeditivo."
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-02",
+    "resolucao": "Exemplo: “Erros absolutos dos quatro cartões avaliáveis de LAB-067”; eixo horizontal cartões D01–D04; eixo vertical erro absoluto em kits; descrever B 3,2,4,1 e C 1,1,3,2; D05/D06 pendentes.",
+    "motivoProvavelDeErro": "Interpretação: confundir erro, acerto e completude."
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-03",
+    "resolucao": "Completude 3/4=75%. Média (8+12+10)/3=10 mg/L. Ausência não é concentração zero. Não misturar este exemplo com LAB-067.",
+    "motivoProvavelDeErro": "Cálculo: usar quatro no denominador da média."
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-04",
+    "resolucao": "Horizontes e origens diferentes representam previsões diferentes, possivelmente com alvos coincidentes; identificar origem, horizonte, alvo, previsão congelada e vintage do observado; analisar estratos e dependência.",
+    "motivoProvavelDeErro": "Estratégia: agregar sem rastrear tarefa e dependência temporal."
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-05",
+    "resolucao": "Somente a diferença de módulos entre C e B fica em [−1,+1] kit; cada erro absoluto pode crescer sem limite superior conhecido se y crescer. Cinco não foi pressuposto nem observado.",
+    "motivoProvavelDeErro": "Conteúdo: confundir distância entre previsões com distância ao alvo."
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-06",
+    "resolucao": "São exercícios de populações, regras, propósitos e definições distintas. A soma não reconstitui t01–t22 nem uma avaliação externa; identificar cada origem e relatar métricas separadamente.",
+    "motivoProvavelDeErro": "Interpretação: formar pseudopopulação com exercícios isolados."
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-07",
+    "resolucao": "Aplicar |y−C|≤|y−B|+|B−C| e a desigualdade simétrica ao trocar B/C. Essas duas desigualdades limitam a diferença entre menos e mais |B−C|.",
+    "motivoProvavelDeErro": "Conteúdo: memorizar fórmula sem justificativa."
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-08",
+    "resolucao": "Dado: D05/D06 não têm observado informado. Hipótese: pode haver associação entre ausência e demanda, ainda não verificada. Decisão editorial: não imputar nem extrapolar; buscar origem e documentar sensibilidade.",
+    "motivoProvavelDeErro": "Interpretação: declarar hipótese como causa descoberta."
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-09",
+    "resolucao": "LAB-067-D04: y16, B15, C18, módulos B1/C2, piora C−B +1 kit; guarda fictícia local 0,5 violada; não promover sob regra do laboratório. MAT-EST-049 permanece independente.",
+    "motivoProvavelDeErro": "Estratégia: transportar guarda de um caso para outro."
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-10",
+    "resolucao": "Relatar somente novos arquivos e testes realmente efetuados; ZIP original indisponível impede revalidar os 23 bytes e a cadeia cumulativa. Página do vídeo localizada, não playback integral; sem deploy, revisão humana ou teste Edge.",
+    "motivoProvavelDeErro": "Interpretação: confundir verificação local e atos externos."
+  },
+  {
+    "id": "MAT-EST-067-EX-RET-01",
+    "resolucao": "Média assinada (−3+4−1)/3=0 kit; MAE (3+4+1)/3=8/3≈2,67 kits. Cancelamento dos sinais não elimina magnitude.",
+    "motivoProvavelDeErro": "Cálculo: concluir que MAE é zero."
+  },
+  {
+    "id": "MAT-EST-067-EX-RET-02",
+    "resolucao": "Completude 0/5=0%; MAE não estimável. Nenhuma nova tarefa t foi observada.",
+    "motivoProvavelDeErro": "Conteúdo: usar zero no lugar de não estimável."
+  },
+  {
+    "id": "MAT-EST-067-EX-RET-03",
+    "resolucao": "Entre −3 e +3 unidades, pois |10−13|=3. Não se descobriu y nem o erro individual.",
+    "motivoProvavelDeErro": "Conteúdo: interpretar diferença como erro real."
+  },
+  {
+    "id": "MAT-EST-067-EX-RET-04",
+    "resolucao": "MAE B=(2+4)/2=3; C=(1+5)/2=3 unidades. Custo B=(6+4)/2=5; C=(1+5)/2=3 pontos. Mesmo MAE, custos distintos.",
+    "motivoProvavelDeErro": "Cálculo: misturar pontos de custo e unidades de erro."
+  },
+  {
+    "id": "MAT-EST-067-EX-RET-05",
+    "resolucao": "Erro preliminar +3; validado −1 kits. Registrar duas versões do mesmo alvo e datas de corte, não dois eventos e não previsões refeitas.",
+    "motivoProvavelDeErro": "Estratégia: apagar versão anterior ou duplicar alvo."
+  },
+  {
+    "id": "MAT-EST-067-EX-RET-06",
+    "resolucao": "Modelo: “Quatro de seis cartões fictícios estão avaliáveis (66,67%). Nos quatro pares, MAE B é 2,5 e C é 1,75 kit. Custos simulados B/C são 6,5 e 2,75 pontos. D04 apresenta piora local de um kit de C, acima da guarda hipotética de 0,5 kit. D05/D06 não têm observado e não foram imputados. Sob previsões fixas e seis pares com igual peso, a diferença média completa C menos B fica entre −1 e 0 kit, sem validação externa nem promoção.”",
+    "motivoProvavelDeErro": "Interpretação/redação: ocultar denominadores ou transformar limite em observação."
+  }
+]

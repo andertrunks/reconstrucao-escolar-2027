@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc"><title id="title">Distribuição exata das diferenças médias reamostradas</title><desc id="desc">Cinco barras em valores -20,-13,75,-7,5,-1,25 e 5, com frequências 1,12,54,108,81, respectivamente.</desc>
+<rect width="1000" height="560" fill="#f8fbfc"/>
+<text x="45" y="58" font-family="Arial,DejaVu Sans,sans-serif" font-size="29" font-weight="700" fill="#142637">Bootstrap exato da diferença média dos erros</text>
+<text x="45" y="94" font-family="Arial,DejaVu Sans,sans-serif" font-size="17" font-weight="400" fill="#536478">Eixo x: diferença média A menos B (atendimentos); eixo y: contagem em 256 réplicas</text>
+<rect x="90" y="382.8240740740741" width="125" height="2.1759259259259256" rx="3" fill="#146f8c"/>
+<text x="152.5" y="371.8240740740741" font-family="Arial,DejaVu Sans,sans-serif" font-size="19" font-weight="700" fill="#142637" text-anchor="middle">1</text>
+<text x="152.5" y="420" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="400" fill="#142637" text-anchor="middle">-20</text>
+<rect x="266" y="358.8888888888889" width="125" height="26.11111111111111" rx="3" fill="#146f8c"/>
+<text x="328.5" y="347.8888888888889" font-family="Arial,DejaVu Sans,sans-serif" font-size="19" font-weight="700" fill="#142637" text-anchor="middle">12</text>
+<text x="328.5" y="420" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="400" fill="#142637" text-anchor="middle">-13.75</text>
+<rect x="442" y="267.5" width="125" height="117.5" rx="3" fill="#146f8c"/>
+<text x="504.5" y="256.5" font-family="Arial,DejaVu Sans,sans-serif" font-size="19" font-weight="700" fill="#142637" text-anchor="middle">54</text>
+<text x="504.5" y="420" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="400" fill="#142637" text-anchor="middle">-7.5</text>
+<rect x="618" y="150.0" width="125" height="235.0" rx="3" fill="#146f8c"/>
+<text x="680.5" y="139.0" font-family="Arial,DejaVu Sans,sans-serif" font-size="19" font-weight="700" fill="#142637" text-anchor="middle">108</text>
+<text x="680.5" y="420" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="400" fill="#142637" text-anchor="middle">-1.25</text>
+<rect x="794" y="208.75" width="125" height="176.25" rx="3" fill="#9a471b"/>
+<text x="856.5" y="197.75" font-family="Arial,DejaVu Sans,sans-serif" font-size="19" font-weight="700" fill="#142637" text-anchor="middle">81</text>
+<text x="856.5" y="420" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="400" fill="#142637" text-anchor="middle">5</text>
+<text x="45" y="465" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" font-weight="700" fill="#146f8c">Intervalo percentílico ilustrativo de 95%: [−13,75; 5]</text>
+<text x="45" y="505" font-family="Arial,DejaVu Sans,sans-serif" font-size="19" font-weight="400" fill="#9a471b">Intervalo inclui zero; não confirma vantagem futura (n = 4).</text>
+</svg>

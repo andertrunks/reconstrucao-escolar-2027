@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="320" viewBox="0 0 950 320" role="img" aria-labelledby="t d">
+<title id="t">Porcentagens com denominadores diferentes</title>
+<desc id="d">No sandbox dois de oito pares são avaliáveis, mas dois de oito controles locais não medem prontidão global.</desc>
+<rect width="950" height="320" rx="22" fill="#f8fafc"/>
+<text x="28" y="39" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#172334">Porcentagens com denominadores diferentes</text>
+<rect x="32.0" y="78" width="286.0" height="151" rx="12" fill="#fff" stroke="#44566c" stroke-width="2"/>
+<rect x="33.0" y="79" width="284.0" height="6" rx="3" fill="#44566c"/>
+<text x="44.0" y="109" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#44566c">Dados de ensino</text>
+<text x="44.0" y="140" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">2 de 8 cartões</text>
+<text x="44.0" y="171" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">25% completude</text>
+<rect x="332.0" y="78" width="286.0" height="151" rx="12" fill="#fff" stroke="#35694a" stroke-width="2"/>
+<rect x="333.0" y="79" width="284.0" height="6" rx="3" fill="#35694a"/>
+<text x="344.0" y="109" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#35694a">Controles locais</text>
+<text x="344.0" y="140" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">G1 e G2 = 2</text>
+<text x="344.0" y="171" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">De oito categorias</text>
+<rect x="632.0" y="78" width="286.0" height="151" rx="12" fill="#fff" stroke="#9b3237" stroke-width="2"/>
+<rect x="633.0" y="79" width="284.0" height="6" rx="3" fill="#9b3237"/>
+<text x="644.0" y="109" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#9b3237">Bloqueios</text>
+<text x="644.0" y="140" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">G3 a G6 pendentes</text>
+<text x="644.0" y="171" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">G7 e G8 não feitos</text>
+<text x="30" y="267" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#172334">Nunca concluir que 25% dos controles equivalem a 25% de aprovação.</text>
+<text x="30" y="291" font-family="Arial,sans-serif" font-size="13" fill="#44566c">Diagrama autoral; todos os estados são didáticos ou locais, sem certificação pública.</text></svg>

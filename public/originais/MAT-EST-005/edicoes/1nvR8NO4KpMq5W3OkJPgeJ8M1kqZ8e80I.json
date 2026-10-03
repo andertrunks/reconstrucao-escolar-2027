@@ -1,0 +1,54 @@
+{
+  "id": "MAT-EST-005",
+  "titulo": "Média aritmética: significado, cálculo, média ponderada e efeito de valores extremos",
+  "materia": "Matemática",
+  "unidade": "Estatística",
+  "nivel": 2,
+  "status_editorial": "reconstrucao_editorial_v1",
+  "identidade_com_original_perdido": false,
+  "pre_requisitos": [
+    "MAT-EST-001",
+    "MAT-EST-002",
+    "MAT-EST-003",
+    "MAT-EST-004"
+  ],
+  "proximo_topico": "MAT-EST-006",
+  "questoes": {
+    "total": 36,
+    "apr": 10,
+    "con": 10,
+    "ves": 10,
+    "ret": 6,
+    "origem": "autoral"
+  },
+  "visuais": [
+    "01-media-redistribuicao.svg",
+    "02-media-equilibrio.svg",
+    "03-frequencia-como-peso.svg",
+    "04-media-ponderada.svg",
+    "05-efeito-extremo.svg",
+    "06-media-conjunta.svg"
+  ],
+  "videos": [
+    {
+      "titulo": "Média Aritmética - Noções Básicas de Estatística - Aula 02",
+      "canal": "Prof. Enildo Barbosa",
+      "url": "https://www.youtube.com/watch?v=6gxWsTG5zxE",
+      "qa_audiovisual": "pendente"
+    },
+    {
+      "titulo": "MÉDIA ARITMÉTICA PONDERADA ✅ INTRODUÇÃO À ESTATÍSTICA",
+      "canal": "Prof. MURAKAMI - MATEMÁTICA RAPIDOLA",
+      "url": "https://www.youtube.com/watch?v=6jX548ym6zI",
+      "qa_audiovisual": "pendente"
+    }
+  ],
+  "fontes_oficiais": [
+    "BNCC/MEC — EF07MA35",
+    "Inep — Matrizes de Referência do Enem, 2026",
+    "FUVEST — Programa do Vestibular 2027"
+  ],
+  "publicado": false,
+  "progresso_aluno_alterado": false,
+  "mat_est_068_iniciada": false
+}

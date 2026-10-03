@@ -1,0 +1,65 @@
+{
+  "amostraDidatica": [
+    2,
+    4,
+    6,
+    8
+  ],
+  "mediaOriginal": 5,
+  "bootstrapExato": {
+    "sequenciasOrdenadas": 256,
+    "mediaDaDistribuicao": 5.0,
+    "desvioPadraoDaDistribuicao": 1.118033988749895,
+    "percentil2_5ConvencaoDidatica": 3.0,
+    "percentil97_5ConvencaoDidatica": 7.0,
+    "frequencias": {
+      "2.0": 1,
+      "2.5": 4,
+      "3.0": 10,
+      "3.5": 20,
+      "4.0": 31,
+      "4.5": 40,
+      "5.0": 44,
+      "5.5": 40,
+      "6.0": 31,
+      "6.5": 20,
+      "7.0": 10,
+      "7.5": 4,
+      "8.0": 1
+    }
+  },
+  "permutacaoExata": {
+    "A": [
+      2,
+      4,
+      6
+    ],
+    "B": [
+      8,
+      10,
+      12
+    ],
+    "diferencaObservada": -6,
+    "alocacoes": 20,
+    "extremosBicaudais": 2,
+    "pExato": 0.1,
+    "frequenciasDiferencas": {
+      "-6.0": 1,
+      "-4.666666666666667": 1,
+      "-3.3333333333333335": 2,
+      "-2.0": 3,
+      "-0.6666666666666666": 3,
+      "0.6666666666666666": 3,
+      "2.0": 3,
+      "3.3333333333333335": 2,
+      "4.666666666666667": 1,
+      "6.0": 1
+    }
+  },
+  "origemCSVAnteriorSHA256": "f1cc3989cd8c701a14e544c424b797f27594806ae302a93253e2a1b82fab5ca9",
+  "advertencias": [
+    "Exemplos n=4 e n=6 são pedagógicos, não atestam qualidade de cobertura inferencial real.",
+    "Permutação exige intercambiabilidade sob a hipótese nula e respeito ao desenho.",
+    "CSV anterior contém ordem temporal; não declarar independência sem justificativa."
+  ]
+}

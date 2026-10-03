@@ -1,0 +1,866 @@
+[
+  {
+    "id": "MAT-EST-038-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Dados publicados não são tentativa",
+    "statement": "O arquivo MAT-EST-037 contém 48 questões e respostas comentadas. Sem registro de tentativa sua, qual status é justificável?",
+    "answer": "Avaliação produzida e disponível; tentativa individual não iniciada ou não registrada, sem nota nem consolidação.",
+    "resolution": "Separe produção editorial de atividade individual.\n\nSem resposta efetiva, não é possível calcular acertos ou diagnosticar dificuldade pessoal.",
+    "errorReasons": [
+      "Confundir material publicado com evidência pessoal de aprendizagem."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Classificar a causa do erro",
+    "statement": "Uma pessoa aplicou a fórmula correta, mas leu 80 no gráfico onde estava escrito 60. Qual causa primária deve registrar?",
+    "answer": "Interpretação/leitura dos dados; não necessariamente desconhecimento da fórmula.",
+    "resolution": "Localize a primeira ruptura: transcrição do gráfico.\n\nRegistre leitura/interpretação e proponha releitura com unidade e legenda.",
+    "errorReasons": [
+      "Rotular todo resultado errado como falha de conteúdo."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Taxa amostral e população",
+    "statement": "Em amostra fictícia com 54 respostas positivas em 100, calcule a frequência observada e diga o que ela não prova.",
+    "answer": "54%; não determina exatamente a proporção populacional.",
+    "resolution": "54 dividido por 100 = 0,54, ou 54 por cento.\n\nSem desenho representativo, não se pode generalizar legitimamente ao universo.",
+    "errorReasons": [
+      "Confundir estimativa com parâmetro conhecido."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Erro-padrão da média",
+    "statement": "Sob independência e desvio-padrão populacional conhecido de 12 unidades, calcule o erro-padrão de média de 36 observações.",
+    "answer": "2 unidades.",
+    "resolution": "EP=12/√36.\n\nA raiz de 36 é 6; 12/6=2.",
+    "errorReasons": [
+      "Dividir por n em vez da raiz de n."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Leitura audível do intervalo",
+    "statement": "Uma estimativa é 50 e a margem é 4. Informe o intervalo e explique por que margem não é desvio-padrão individual.",
+    "answer": "[46;54]; margem diz respeito à incerteza da estimativa no procedimento especificado.",
+    "resolution": "Subtraia e some 4 a 50.\n\nA dispersão dos indivíduos e a precisão de uma estimativa são conceitos diferentes.",
+    "errorReasons": [
+      "Misturar a variabilidade individual com a incerteza do estimador."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Decisão com valor-p",
+    "statement": "Em teste previamente especificado, p=0,08 e alfa=0,05. Que decisão é justificada?",
+    "answer": "Não rejeitar a hipótese nula; isso não a demonstra verdadeira.",
+    "resolution": "Compare 0,08 com 0,05.\n\nNão rejeição significa insuficiência de evidência contra H0 sob o modelo, não prova de igualdade.",
+    "errorReasons": [
+      "Dizer que H0 foi provada."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Reconhecer dados pareados",
+    "statement": "Mede-se o mesmo participante antes e depois de uma ação. Que objeto numérico deve iniciar a análise?",
+    "answer": "A diferença individual entre depois e antes, com sentido declarado.",
+    "resolution": "A unidade observacional continua sendo a mesma pessoa.\n\nDuas medidas da mesma pessoa não constituem amostras independentes.",
+    "errorReasons": [
+      "Escolher teste para amostras independentes ignorando o pareamento."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Contagens esperadas",
+    "statement": "Em tabela categórica, uma linha soma 30, uma coluna soma 20 e o total geral é 60. Qual a contagem esperada sob independência?",
+    "answer": "10.",
+    "resolution": "Esperada = total da linha vezes total da coluna dividido pelo total geral.\n\n30 vezes 20 dividido por 60 = 10.",
+    "errorReasons": [
+      "Empregar porcentagens sem definir o denominador."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Sinal do resíduo",
+    "statement": "Adotando observado menos previsto, observado 105 e previsto 100, calcule resíduo e sentido.",
+    "answer": "+5 atendimentos; houve subprevisão de 5.",
+    "resolution": "105 menos 100 é 5.\n\nO sinal é positivo pois o observado superou a previsão.",
+    "errorReasons": [
+      "Trocar a convenção de sinal no meio do exercício."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Função do teste final",
+    "statement": "Por que não se deve escolher o modelo comparando repetidamente seu erro no conjunto de teste final?",
+    "answer": "Porque o teste deixa de ser avaliação independente e ocorre vazamento de seleção.",
+    "resolution": "Treino ajusta parâmetros; validação apoia seleção.\n\nTeste final serve para estimar desempenho em dados não usados nas escolhas.",
+    "errorReasons": [
+      "Usar o resultado do teste para otimizar a escolha que ele deveria avaliar."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Priorizar dois erros",
+    "statement": "Uma tentativa real apresentou erro de leitura do denominador em três itens e um erro isolado de aritmética. Que prioridade de revisão é justificável?",
+    "answer": "Rever primeiro leitura de população/base/denominador, registrando também revisão pontual da aritmética.",
+    "resolution": "Agrupe erros por causa, e não por sequência das questões.\n\nTrês erros na mesma habilidade sugerem falha recorrente; não atribua diagnóstico psicológico.",
+    "errorReasons": [
+      "Repetir a prova inteira antes de corrigir o pré-requisito recorrente."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Intervalo e precisão",
+    "statement": "Sob os mesmos pressupostos, se n passa de 25 para 100 e sigma não muda, como fica o erro-padrão?",
+    "answer": "Metade do valor original.",
+    "resolution": "EP=sigma/raiz de n.\n\nRaiz de 25 é 5; raiz de 100 é 10: o denominador dobra e EP reduz à metade.",
+    "errorReasons": [
+      "Supor que quadruplicar n reduz o erro-padrão a um quarto."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Diferença de proporções",
+    "statement": "Em dados fictícios independentes, grupo A tem 60 positivos em 100 e grupo B, 45 em 100. Qual a diferença observada A menos B?",
+    "answer": "0,15, ou 15 pontos percentuais.",
+    "resolution": "A é 0,60; B é 0,45.\n\n0,60 - 0,45 = 0,15; distinguir pontos percentuais de variação relativa.",
+    "errorReasons": [
+      "Confundir 15 pontos percentuais com 15 por cento relativo."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Média das diferenças",
+    "statement": "Quatro pares apresentam diferenças depois menos antes de +4,+2,+6 e 0. Calcule a média das diferenças.",
+    "answer": "+3 unidades.",
+    "resolution": "Some 4+2+6+0=12.\n\nDivida por quatro: 3; não trate oito medidas como independentes.",
+    "errorReasons": [
+      "Calcular média separada e omitir estrutura pareada de incerteza."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Percentual condicional",
+    "statement": "Há 12 respostas positivas entre 40 integrantes de um grupo. Qual a taxa condicional do grupo?",
+    "answer": "30%.",
+    "resolution": "O denominador apropriado é 40, não a amostra inteira.\n\n12/40=0,30; informe qual população condicional se refere.",
+    "errorReasons": [
+      "Usar um total sem relação com o evento condicionado."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Contingência e método",
+    "statement": "Se as contagens esperadas numa tabela forem muito pequenas, qual é o primeiro cuidado antes de aplicar o qui-quadrado aproximado?",
+    "answer": "Rever condições de aproximação e considerar método exato adequado ao desenho.",
+    "resolution": "O qui-quadrado usa aproximação assintótica.\n\nContagens pequenas podem invalidar aproximação; registre as margens e o desenho.",
+    "errorReasons": [
+      "Aplicar fórmula conhecida sem verificar pressupostos."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "F da ANOVA",
+    "statement": "Uma análise apresenta quadrado médio entre grupos igual a 8 e quadrado médio dentro dos grupos igual a 2. Calcule F.",
+    "answer": "F=4.",
+    "resolution": "F é a razão dos quadrados médios.\n\nDivida 8 por 2; a conclusão exigiria graus de liberdade e distribuição de referência.",
+    "errorReasons": [
+      "Tomar F=4 como prova automática de quais grupos diferem."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Indicador e interação",
+    "statement": "No modelo y=10+2x+3D+1xD, com D=1 e x=4, qual é a previsão?",
+    "answer": "25 unidades.",
+    "resolution": "Substitua: 10+2(4)+3(1)+1(4)(1).\n\nSome 10+8+3+4=25; para D=0 seria 18.",
+    "errorReasons": [
+      "Omitir o termo de interação ao interpretar D=1."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Métricas de teste B",
+    "statement": "No CSV fictício, B tem erros observados menos previstos iguais a 0,0,0,-25 nos quatro dias de teste. Calcule MAE e RMSE.",
+    "answer": "MAE=6,25 atendimentos; RMSE=12,5 atendimentos.",
+    "resolution": "MAE=(0+0+0+25)/4=6,25.\n\nRMSE=raiz de ((0+0+0+625)/4)=raiz de 156,25=12,5.",
+    "errorReasons": [
+      "Confundir média dos quadrados com raiz da média dos quadrados."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Custo assimétrico",
+    "statement": "Nos dias de teste, A somou 10 unidades de falta e 10 de excesso; B somou zero de falta e 25 de excesso. Se cada falta custa 3 e cada excesso custa 1, calcule o custo de cada um.",
+    "answer": "A=40 unidades monetárias; B=25, sob este cenário hipotético.",
+    "resolution": "A: 3 vezes 10 + 1 vezes 10 = 40.\n\nB: 3 vezes 0 + 1 vezes 25 = 25; custos assumidos não são universais.",
+    "errorReasons": [
+      "Escolher um modelo só por MAE ou RMSE sem relacioná-lo ao custo da decisão."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Generalização não autorizada",
+    "statement": "Um formulário voluntário on-line recebeu 100 respostas, das quais 54 são favoráveis. Um relatório escreve: “54% de todos os moradores aprovam a proposta”. Audite a frase e reescreva-a.",
+    "answer": "A afirmação populacional não é sustentada; “54 entre 100 respondentes voluntários, isto é, 54%, foram favoráveis; não é possível inferir a proporção populacional sem avaliar seleção e cobertura.”",
+    "resolution": "Identifique população-alvo e amostra efetiva.\n\nCalcule 54/100, explicite voluntariado e limitação de generalização.",
+    "errorReasons": [
+      "Converter descrição da amostra em certeza sobre toda a população."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Intervalo de proporção sob hipótese",
+    "statement": "Uma amostra aleatória simples idealizada apresenta 54 sucessos em 100 observações independentes. Pelo intervalo normal ilustrativo de Wald, use 1,96 e calcule valores aproximados de 95%, verificando np e n(1-p).",
+    "answer": "[0,442; 0,638], aproximadamente; np=54 e n(1-p)=46.",
+    "resolution": "p estimado=0,54; EP=raiz(0,54 vezes 0,46/100), aproximadamente 0,04984.\n\nMargem=1,96 vezes EP, aproximadamente 0,09768; extremos 0,44232 e 0,63768.\n\nA cobertura é aproximada, depende das hipóteses e o intervalo de Wald não é a melhor escolha universal, sobretudo para proporções extremas.",
+    "errorReasons": [
+      "Aplicar aproximação ignorando a seleção da amostra ou atribuir probabilidade posterior de 95% ao parâmetro fixo."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Significância versus efeito",
+    "statement": "Um relatório de estudo afirma “p=0,03, portanto a mudança teve grande efeito e foi causada pela intervenção”. O que os dados informados permitem concluir?",
+    "answer": "O valor-p pode indicar evidência estatística contra H0 no modelo, mas não informa sozinho magnitude nem prova causalidade.",
+    "resolution": "Peça estimativa e intervalo, verifique desenho, comparadores e pressupostos.\n\nCausalidade exige premissas e estratégia de identificação além de p pequeno.",
+    "errorReasons": [
+      "Tratar p como magnitude ou garantia causal."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "ANOVA e conclusão por pares",
+    "statement": "Uma ANOVA global rejeitou igualdade de três médias a 5%. É legítimo afirmar que cada par de médias difere? Escreva o procedimento seguinte.",
+    "answer": "Não. Deve-se examinar contrastes ou comparações múltiplas apropriadas, como Tukey sob condições pertinentes, controlando multiplicidade.",
+    "resolution": "A hipótese global avalia igualdade conjunta.\n\nRejeição significa evidência de pelo menos uma diferença, não de todas as comparações.",
+    "errorReasons": [
+      "Repetir testes par a par sem ajustar erro familiar."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Paradoxo de agregação",
+    "statement": "Dados fictícios: estrato difícil, A=1/10 e B=16/80; estrato fácil, A=81/90 e B=19/20. Calcule as taxas estratificadas e totais e explique a inversão.",
+    "answer": "No difícil: A 10%, B 20%; no fácil: A 90%, B 95%; no total: A 82/100=82%, B 35/100=35%. Apesar de B ter taxa maior em ambos os estratos, A parece maior no agregado por composição desigual.",
+    "resolution": "Some numeradores e denominadores por grupo, não médias simples de taxas.\n\nCompare cada estrato antes do agregado; composição pode inverter interpretação (paradoxo de Simpson).\n\nNão infira efeito causal apenas das proporções.",
+    "errorReasons": [
+      "Comparar taxas agregadas ignorando a distribuição de casos difíceis e fáceis."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Vazamento na validação",
+    "statement": "Uma equipe padroniza todas as colunas com média e desvio-padrão do banco completo e só depois separa treino/teste. Avalie.",
+    "answer": "Há vazamento dos dados de teste para o treinamento, pois a transformação já usou informação de teste.",
+    "resolution": "Faça a divisão antes de estimar parâmetros da transformação.\n\nAjuste a padronização somente no treino; aplique parâmetros treinados aos conjuntos seguintes e dentro de cada dobra da validação cruzada.",
+    "errorReasons": [
+      "Ignorar que pré-processamento também aprende parâmetros."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "A versus B no teste",
+    "statement": "No CSV, A tem erros -5,+5,+5,-5 e B tem 0,0,0,-25. Calcule MAE e RMSE de ambos e descreva o erro extremo.",
+    "answer": "A: MAE 5 e RMSE 5; B: MAE 6,25 e RMSE 12,5. B concentra um erro de 25 em um dia.",
+    "resolution": "A soma absoluta é 20 e a soma de quadrados é 100; divida por 4.\n\nB soma absoluta 25 e quadrados 625; divida por 4 e tire raiz no RMSE.\n\nConclusão restrita aos quatro dias fictícios observados; não extrapolar sem avaliação adicional.",
+    "errorReasons": [
+      "Olhar apenas a média global e não identificar o dia extremo."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Escolha depende do objetivo",
+    "statement": "Sob custo hipotético falta=3 e excesso=1, B custa 25 e A 40 nos quatro dias de teste, mas B tem RMSE maior. Há contradição?",
+    "answer": "Não: custo assimétrico e RMSE medem objetivos diferentes; o relatório deve apresentar ambos e justificar a regra de decisão.",
+    "resolution": "Custo privilegia penalidade direcional; RMSE eleva ao quadrado erros grandes sem considerar direção.\n\nDescreva pressupostos e sensibilidade à mudança dos custos.",
+    "errorReasons": [
+      "Chamar uma métrica de melhor em todos os objetivos."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Dependência não linear",
+    "statement": "Considere x=-2,-1,0,1,2 e y=4,1,0,1,4. A correlação linear pode ser zero apesar de haver relação? Explique.",
+    "answer": "Sim, a relação y=x² é perfeita, mas a covariância e correlação lineares amostrais são zero por simetria.",
+    "resolution": "Média de x é zero; média de y é 2.\n\nA soma de x vezes (y-2) se cancela entre valores simétricos.\n\nInspecione diagrama de dispersão e ajuste não linear se justificável; r=0 não prova independência.",
+    "errorReasons": [
+      "Confundir ausência de correlação linear com ausência de associação."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Devolutiva sem inventar diagnóstico",
+    "statement": "Escreva uma devolutiva editorial para MAT-EST-037 quando há 48 itens no arquivo, mas nenhuma resposta individual enviada. O que deve constar?",
+    "answer": "“Simulado disponível; tentativa não registrada; correção e diagnóstico individual pendentes. Após resposta, classificar erros por habilidade e programar reteste independente.”",
+    "resolution": "Distinga estado do conteúdo de estado do estudante.\n\nNão gere nota, porcentagem de acerto, revisão cumprida nem etiqueta consolidado.",
+    "errorReasons": [
+      "Produzir métricas pessoais a partir do gabarito, e não das respostas do aluno."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Amostra repetida",
+    "statement": "Novo caso: uma pesquisa voluntária de 80 pessoas tem 48 respostas positivas. Informe frequência observada e limite de inferência.",
+    "answer": "60% da amostra; não é justificável afirmar 60% da população-alvo.",
+    "resolution": "48/80 = 0,60.\n\nA autoseleção impede generalização automática independentemente de n.",
+    "errorReasons": [
+      "Repetir erro de confundir amostra e população."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Multiplicidade de testes",
+    "statement": "Em 10 testes independentes sob hipóteses nulas verdadeiras, cada um com risco de falso positivo de 5%, qual a chance de pelo menos um falso positivo?",
+    "answer": "1-(0,95)^10, aproximadamente 40,13%.",
+    "resolution": "Probabilidade de nenhum é 0,95 elevado a 10.\n\nPelo menos um é seu complemento; se a independência não vale, a fórmula não se aplica automaticamente.",
+    "errorReasons": [
+      "Somar 10 vezes 5% e ignorar sobreposição e independência."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Novo caso pareado",
+    "statement": "Três participantes: antes 10,12,14; depois 12,13,18. Calcule a média da diferença depois menos antes.",
+    "answer": "7/3, aproximadamente 2,33 unidades.",
+    "resolution": "Diferenças individuais: +2,+1,+4.\n\nSoma =7, dividida por 3; não usar seis observações independentes.",
+    "errorReasons": [
+      "Ignorar a unidade de pareamento."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Nova célula esperada",
+    "statement": "Em uma tabela de contingência, linha totaliza 24, coluna totaliza 15 e total geral é 60. Qual contagem esperada sob independência?",
+    "answer": "6.",
+    "resolution": "24 vezes 15, dividido por 60, resulta 6.\n\nUma única célula esperada não determina isoladamente todo diagnóstico do teste; examine a tabela.",
+    "errorReasons": [
+      "Dividir pelo total da linha, em vez do total geral."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Nova métrica de previsão",
+    "statement": "Um modelo apresenta erros observados menos previstos +1,-1,+3. Calcule MAE, MSE e RMSE.",
+    "answer": "MAE=5/3≈1,667; MSE=11/3≈3,667; RMSE=√(11/3)≈1,915.",
+    "resolution": "Absolutos: 1+1+3=5; divida por 3.\n\nQuadrados: 1+1+9=11; divida por 3, depois tire raiz.",
+    "errorReasons": [
+      "Elevar a média dos erros ao quadrado em vez de fazer média dos quadrados."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-038-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-038"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Conclusão por subgrupo",
+    "statement": "Dois subgrupos igualmente numerosos têm MAE de 2 e 9, respectivamente. Calcule o MAE global e escreva uma conclusão prudente.",
+    "answer": "MAE global=5,5; o resultado médio esconde pior desempenho no segundo subgrupo, exigindo investigação e validação adicional.",
+    "resolution": "Com grupos de mesmo tamanho, faça a média ponderada: (2+9)/2=5,5.\n\nIdentifique a diferença entre grupos sem atribuí-la automaticamente a uma causa.",
+    "errorReasons": [
+      "Publicar apenas a média geral e ocultar heterogeneidade relevante."
+    ],
+    "source": {
+      "title": "MAT-EST-038-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  }
+]

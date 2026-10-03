@@ -1,0 +1,132 @@
+{
+  "id": "MAT-EST-063",
+  "slug": "gestao-incidentes-editoriais-classificacao-falhas-comunicacao-impacto-reteste-correcoes",
+  "titulo": "Gestão de incidentes editoriais: classificação de falhas, comunicação de impacto e reteste de correções",
+  "materia": "Matemática",
+  "unidade": "Estatística / séries temporais / ponte universitária",
+  "nivel": 6,
+  "ordem": 63,
+  "anterior": "MAT-EST-062",
+  "proximoTopico": "MAT-EST-064",
+  "preRequisitos": [
+    "MAT-EST-049",
+    "MAT-EST-053",
+    "MAT-EST-054",
+    "MAT-EST-057",
+    "MAT-EST-058",
+    "MAT-EST-059",
+    "MAT-EST-060",
+    "MAT-EST-061",
+    "MAT-EST-062"
+  ],
+  "objetivos": [
+    "separar fixture, defeito em candidato e incidente público",
+    "classificar impacto sem inventar alcance",
+    "recalcular denominador, completude e MAE",
+    "documentar contenção, correção, reteste e regressão",
+    "redigir comunicado condicionado a evidência",
+    "distinguir fechamento local de publicação e avaliação humana"
+  ],
+  "conceitosRelacionados": [
+    "fração",
+    "módulo",
+    "MAE",
+    "proveniência",
+    "incerteza",
+    "escopo",
+    "versionamento",
+    "acessibilidade",
+    "testes de regressão"
+  ],
+  "examesRelacionados": [
+    "interpretação crítica de tabelas e dados transferível ao ENEM e vestibulares; operação editorial pertence à ponte universitária, sem atribuir obrigação de edital"
+  ],
+  "origem": "autoral",
+  "questoesOficiais": 0,
+  "questoesAutorais": 36,
+  "aulaMarkdown": "MAT-EST-063-gestao-incidentes-editoriais-classificacao-falhas-comunicacao-impacto-reteste-correcoes.md",
+  "exercicios": "exercicios.json",
+  "gabarito": "gabarito-comentado.json",
+  "visuais": [
+    {
+      "src": "assets/01-distincao-fixture-incidente.svg",
+      "alt": "De mutação deliberada a rejeição em cópia isolada, sem prova de exposição pública.",
+      "autoria": "diagrama original do projeto",
+      "descricao_a_observar": "A rejeição de uma fixture não é incidente público."
+    },
+    {
+      "src": "assets/02-matriz-severidade-e-certeza.svg",
+      "alt": "Classificação separa domínio, alcance e certeza do achado.",
+      "autoria": "diagrama original do projeto",
+      "descricao_a_observar": "Potencial de impacto não quantifica o alcance real."
+    },
+    {
+      "src": "assets/03-denominadores-e-impacto.svg",
+      "alt": "Somatório seis com denominador dois gera MAE três; com oito gera valor incorreto 0,75; completude dois sobre oito é 25%.",
+      "autoria": "diagrama original do projeto",
+      "descricao_a_observar": "Não confundir MAE e completude."
+    },
+    {
+      "src": "assets/04-registro-versionado.svg",
+      "alt": "Fluxo de registro, triagem, correção e reteste com versões preservadas.",
+      "autoria": "diagrama original do projeto",
+      "descricao_a_observar": "Cada evento precisa de evidência adequada."
+    },
+    {
+      "src": "assets/05-correcao-e-reteste.svg",
+      "alt": "I01 falha com n oito, passa com n dois; outras mutações são rejeitadas.",
+      "autoria": "diagrama original do projeto",
+      "descricao_a_observar": "Correção pontual e regressão são diferentes."
+    },
+    {
+      "src": "assets/06-fechamento-sem-publicacao.svg",
+      "alt": "Só o teste local terminou; revisão humana e deploy continuam pendentes.",
+      "autoria": "diagrama original do projeto",
+      "descricao_a_observar": "Teste não comprova publicação."
+    }
+  ],
+  "video": {
+    "titulo": "Easy Checks – A First Review of Web Accessibility",
+    "canal": "W3C Web Accessibility Initiative",
+    "url": "https://www.w3.org/WAI/test-evaluate/preliminary/",
+    "idioma": "inglês, transcrição descritiva",
+    "duracaoAproximada": null,
+    "momento": "após seção 6",
+    "porQueEscolhido": "demonstra detecção inicial de barreiras e os limites do teste preliminar",
+    "verificacao": "página oficial com vídeo e transcrição verificada; reprodução integral e duração não conferidas"
+  },
+  "fontes": [
+    {
+      "nome": "Google SRE, Incident Response",
+      "url": "https://sre.google/workbook/incident-response/"
+    },
+    {
+      "nome": "Google SRE, Postmortem Culture",
+      "url": "https://sre.google/workbook/postmortem-culture/"
+    },
+    {
+      "nome": "W3C, Accessibility Evaluation Report Template",
+      "url": "https://www.w3.org/WAI/test-evaluate/report-template/"
+    },
+    {
+      "nome": "W3C, Easy Checks com vídeo e transcrição",
+      "url": "https://www.w3.org/WAI/test-evaluate/preliminary/"
+    }
+  ],
+  "origemDosDados": "23 arquivos-base fictícios invariantes, SANDBOX-057 isolado e mutações editoriais descartáveis I00–I06",
+  "progressoIndividualAlterado": false,
+  "estudoRegistrado": false,
+  "publicacaoSite": false,
+  "sincronizacaoDrive": false,
+  "sincronizacaoGithub": false,
+  "testeManualEdge": false,
+  "revisaoHumanaReal": false,
+  "reproducaoVideoIntegral": false,
+  "incidentesReaisVerificados": 0,
+  "retetesLocaisSinteticos": 1,
+  "proximaAula": {
+    "id": "MAT-EST-064",
+    "titulo": "Análise pós-incidente e prevenção editorial: causas sistêmicas, ações verificáveis e revisão de controles",
+    "estado": "proposta não iniciada"
+  }
+}

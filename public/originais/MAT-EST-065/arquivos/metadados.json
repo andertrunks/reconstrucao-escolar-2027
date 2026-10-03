@@ -1,0 +1,92 @@
+{
+  "id": "MAT-EST-065",
+  "slug": "indicadores-qualidade-editorial-definicao-operacional-linhas-base-acompanhamento-sem-metricas-ilusorias",
+  "titulo": "Indicadores de qualidade editorial: definição operacional, linhas de base e acompanhamento sem métricas ilusórias",
+  "materia": "Matemática",
+  "unidade": "Estatística — ponte universitária",
+  "nivel": 6,
+  "ordem": 65,
+  "preRequisitos": [
+    "MAT-EST-047",
+    "MAT-EST-049",
+    "MAT-EST-057",
+    "MAT-EST-058",
+    "MAT-EST-060",
+    "MAT-EST-064"
+  ],
+  "objetivos": [
+    "especificar numerador, denominador, janela e unidade",
+    "distinguir completude, erro médio e custo",
+    "interpretar nulos e ausências",
+    "separar verificação de fixture e qualidade operacional",
+    "criar linha de base sem inventar tendência"
+  ],
+  "aulaMarkdown": "MAT-EST-065-indicadores-qualidade-editorial-definicao-operacional-linhas-base-acompanhamento-sem-metricas-ilusorias.md",
+  "visuais": [
+    {
+      "src": "assets/01-denominadores.svg",
+      "alt": "Oito cartões planejados e dois avaliáveis; MAE B divide seis por dois, enquanto completude divide dois por oito.",
+      "legenda": "Figura 1"
+    },
+    {
+      "src": "assets/02-unidades.svg",
+      "alt": "Distingue 7 pontos de custo de três e quatro unidades de erro absoluto médio.",
+      "legenda": "Figura 2"
+    },
+    {
+      "src": "assets/03-estados.svg",
+      "alt": "Mostra G1 e G2 checados localmente, G3 a G6 pendentes, G7 e G8 não executados.",
+      "legenda": "Figura 3"
+    },
+    {
+      "src": "assets/04-fotografia.svg",
+      "alt": "A linha de base consiste em uma única fotografia didática, não em vários instantes comparáveis.",
+      "legenda": "Figura 4"
+    },
+    {
+      "src": "assets/05-limites.svg",
+      "alt": "Seis mutações artificiais foram detectadas; nenhuma taxa de incidente real foi estimada.",
+      "legenda": "Figura 5"
+    },
+    {
+      "src": "assets/06-protocolo.svg",
+      "alt": "Cada indicador exige escopo, fonte, regra de inclusão, versões, frequência e resposta a pendências.",
+      "legenda": "Figura 6"
+    }
+  ],
+  "video": {
+    "titulo": "Conformance Evaluation Overview",
+    "canal": "W3C Web Accessibility Initiative",
+    "url": "https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/",
+    "idioma": "inglês, com transcrição textual descritiva",
+    "duracao": "não confirmada; não inventar",
+    "momento_recomendado": "após seção 8",
+    "motivo": "distingue escopo, amostra, avaliação e relato da afirmação automática de qualidade",
+    "pagina_institucional_localizada": true,
+    "reproducao_integral": false
+  },
+  "exercicios": "exercicios.json",
+  "gabarito": "gabarito-comentado.json",
+  "indicadores": "indicadores/MAT-EST-065-dicionario-indicadores.json",
+  "fontes": [
+    "https://www.w3.org/TR/wcag-em-2/",
+    "https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/",
+    "https://www.w3.org/WAI/test-evaluate/report-template/",
+    "https://sre.google/sre-book/monitoring-distributed-systems/"
+  ],
+  "anterior": "MAT-EST-064",
+  "proximoTopico": "MAT-EST-066",
+  "revisao": "1, 7 e 30 dias a partir de estudo/tentativa reais",
+  "progressoIndividual": "não iniciado, nenhuma tentativa demonstrada",
+  "publicacaoSite": false,
+  "sincronizacaoDrive": false,
+  "sincronizacaoGithub": false,
+  "testeManualEdge": false,
+  "revisaoHumanaReal": false,
+  "reproducaoVideoIntegral": false,
+  "progressoIndividualAlterado": false,
+  "estudoRegistrado": false,
+  "dadosReais": false,
+  "exemploFicticio": true,
+  "historicoPreservado": true
+}

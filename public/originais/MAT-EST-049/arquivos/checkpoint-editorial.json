@@ -1,0 +1,21 @@
+{
+  "projeto": "Reconstrução Escolar + ENEM e Vestibulares 2027",
+  "ultimo_pacote_editorial_concluido": "MAT-EST-049",
+  "titulo_ultimo": "Comparação prospectiva de modelos temporais: desafiante, referência, custos e decisão de atualização",
+  "etapa_atual": "MAT-EST-049 concluída como artefato editorial local; não sincronizada no Google Drive, GitHub ou site",
+  "ultimo_pacote_confirmado_antes": "MAT-EST-048",
+  "proximo_topico_editorial": "MAT-EST-050",
+  "titulo_proximo_proposto": "Robustez temporal: cenários, sensibilidade a custos e documentação de limites de generalização",
+  "proxima_acao": "Consultar fontes e eventual checkpoint externo antes de gerar MAT-EST-050; produzir exatamente um passo, sem tratar y23-y25 como observados nem sobrescrever histórico.",
+  "progresso_individual": "não iniciado; não atualizado",
+  "registro_da_base": "t01–t18 herdados do ZIP MAT-EST-048; t19–t22 criados aqui e rotulados fictícios",
+  "estado_modelo": "BASE-SNAIVE-v1 mantém referência da simulação; CHAL-SDELTA5-v1 continua apenas desafiante; nenhuma promoção real",
+  "regra_protocolo": "5/8 pares; redução média ilustra potencial, piora 19,2 em t19 viola guarda 10; não promover",
+  "nao_alegar": [
+    "deploy",
+    "sincronização Drive",
+    "teste real Edge",
+    "inferência de sucesso futuro",
+    "prova de emissão prospectiva em campo"
+  ]
+}

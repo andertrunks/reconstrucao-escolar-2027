@@ -1,0 +1,578 @@
+[
+  {
+    "id": "MAT-EST-060-EX-APR-01",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "No corte A, quantos dos oito cartões de SANDBOX-057 são avaliáveis?"
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-02",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Calcule a porcentagem de completude de dois entre oito."
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-03",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "No sandbox, com erros de B +4 e −2, encontre os módulos."
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-04",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Calcule o MAE de B a partir dos dois elegíveis."
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-05",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Calcule o MAE de C com erros +3 e −5."
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-06",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Qual é o custo de um erro +4 com fator três para subprevisão?"
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-07",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Qual é o custo de erro −5 pela mesma regra?"
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-08",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Sem pares t26–t33, escreva o valor correto do MAE do sucessor."
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-09",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Uma receita mostra custo médio sete com rótulo unidades. Onde está a falha?"
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-10",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Para que serve o digest SHA-256 da fonte local?"
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-01",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Uma exportação divide seis, a soma dos módulos de B, pelos oito planejados. Localize e corrija o erro."
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-02",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Faça a média de custo de C com os erros +3 e −5."
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-03",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Reconstrua as diferenças pareadas dos módulos C menos B para S01 e S02."
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-04",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Qual a média das diferenças menos um e mais três?"
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-05",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Um gráfico de barras de MAE B três e C quatro começa em 2,9. Como corrigir?"
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-06",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Escreva texto alternativo para gráfico B=3, C=4 do corte A."
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-07",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "O relatório aponta um hash diferente daquele lido do CSV, mas as métricas coincidem. Pode passar?"
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-08",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Qual é a diferença entre validar SVG e testar leitor de tela no Edge?"
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-09",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Liste o erro do fixture F02 e seu estado correto."
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-10",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Um texto diz que C foi promovido sob MAT-EST-049-PROT-v1. Qual evidência o contradiz?"
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-01",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "autoral em estilo vestibular",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Uma plataforma expõe “100% de precisão no sucessor”, porque todos os oito erros nulos foram convertidos em zero. Avalie a conclusão."
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-02",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "autoral em estilo vestibular",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Um gráfico de barras mostra B=3 e C=4, com origem em 2,9, e anuncia que C é onze vezes maior. Identifique a distorção numérica."
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-03",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "autoral em estilo vestibular",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Um revisor soma cinco pares históricos com dois do sandbox, totalizando sete, e divulga um MAE global. Por que é inadequado?"
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-04",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "autoral em estilo vestibular",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Uma política exige gráfico em SVG com title, desc e texto explicativo. A auditoria automatizada encontra XML válido, mas a voz do Edge omite a tabela. É correto declarar acessibilidade aprovada?"
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-05",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "autoral em estilo vestibular",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Um relatório de corte A foi revisado depois de S04 tornar-se disponível, mas mantém o mesmo nome de versão. Indique a medida auditável."
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-06",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "autoral em estilo vestibular",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "O painel diz B e C empatados, porque custo médio sete para ambos, omitindo MAE B três e C quatro. O que falta?"
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-07",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "autoral em estilo vestibular",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "A receita F03 recebe digest zero e sua verificação falha. Um aluno propõe corrigir o hash histórico para zero. Explique o procedimento correto."
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-08",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "autoral em estilo vestibular",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Uma publicação candidata tem verificador matemático verde, mas não tem revisão editorial e não foi integrada ao repositório. Que estado declarar?"
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-09",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "autoral em estilo vestibular",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Um gráfico por cores apresenta dois modelos, legenda vazia, mas os números 3 e 4 estão corretos. Qual reparação preserva o conteúdo para áudio?"
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-10",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "autoral em estilo vestibular",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Redija um parecer técnico de quatro frases que diferencie histórico, sandbox, sucessor e estado da verificação."
+  },
+  {
+    "id": "MAT-EST-060-EX-RET-01",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "reteste",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Reteste independente: em um sandbox separado, quatro cartões estão previstos, mas só A e B são elegíveis, com módulos 2 e 6 para um modelo. Calcule completude e MAE."
+  },
+  {
+    "id": "MAT-EST-060-EX-RET-02",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "reteste",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Reteste: novo candidato tem erro +2 e −4 e custo assimétrico fator três na parte positiva. Calcule custo médio."
+  },
+  {
+    "id": "MAT-EST-060-EX-RET-03",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "reteste",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Reteste: um JSON tem metric=null, mas o gráfico pinta barra zero. Qual teste e correção?"
+  },
+  {
+    "id": "MAT-EST-060-EX-RET-04",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "reteste",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Reteste: uma cópia de relatório contém digest diferente da fonte, gráfico correto e legenda completa. O que fazer?"
+  },
+  {
+    "id": "MAT-EST-060-EX-RET-05",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "reteste",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Reteste: texto alternativo diz “coluna azul maior” para B=3 e C=4, n=2 de 8. Escreva alternativa suficiente."
+  },
+  {
+    "id": "MAT-EST-060-EX-RET-06",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": null,
+    "dificuldade": "reteste",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria de dados",
+      "gráficos",
+      "unidades",
+      "coortes",
+      "acessibilidade"
+    ],
+    "enunciado": "Reteste: escreva checklist de cinco portões antes de publicar um painel gerado por máquina."
+  }
+]

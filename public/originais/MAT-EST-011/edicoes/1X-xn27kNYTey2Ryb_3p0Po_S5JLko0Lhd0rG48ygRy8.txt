@@ -1,0 +1,234 @@
+﻿MAT-EST-011 — Amplitude interquartil e box-plot: caixa, bigodes e valores discrepantes — Gabarito comentado
+
+
+Status editorial: RECONSTRUÇÃO EDITORIAL v1.
+Origem: 100% autoral.
+Regra: a correção deve ser consultada depois da tentativa quando o site implementar a separação de resposta.
+
+
+A. Aprendizagem
+
+
+MAT-EST-011-EX-APR-01
+Resposta: 8.
+Resolução comentada: AIQ = Q3 − Q1 = 20 − 12 = 8.
+Motivo provável de erro: cálculo: inverter a subtração ou confundir AIQ com amplitude total.
+
+
+MAT-EST-011-EX-APR-02
+Resposta: Ela resume a largura dos aproximadamente 50% centrais da distribuição entre Q1 e Q3.
+Resolução comentada: Q1 marca o primeiro quartil e Q3 o terceiro; a diferença entre eles mede a faixa central.
+Motivo provável de erro: conteúdo: interpretar AIQ como quantidade de dados, e não como largura.
+
+
+MAT-EST-011-EX-APR-03
+Resposta: AIQ = 8; limite inferior = −2; limite superior = 30.
+Resolução comentada: AIQ=18−10=8. Uma vez e meia a AIQ é 12. Logo, 10−12=−2 e 18+12=30.
+Motivo provável de erro: cálculo: esquecer o fator 1,5 ou usar a mediana no lugar de Q1/Q3.
+
+
+MAT-EST-011-EX-APR-04
+Resposta: Sim.
+Resolução comentada: O limite superior é 30. Como 31 > 30, o valor é sinalizado pela regra.
+Motivo provável de erro: interpretação: achar que o limite precisa ser um dado observado.
+
+
+MAT-EST-011-EX-APR-05
+Resposta: A mediana.
+Resolução comentada: A linha interna da caixa representa o segundo quartil, Q2, que coincide com a mediana.
+Motivo provável de erro: conteúdo: confundir a linha da mediana com a média.
+
+
+MAT-EST-011-EX-APR-06
+Resposta: Não.
+Resolução comentada: Os limites são valores calculados. O bigode termina na observação mais extrema que ainda permanece dentro do limite, conforme a convenção do box-plot modificado.
+Motivo provável de erro: conteúdo: confundir cerca calculada com extremo observado.
+
+
+MAT-EST-011-EX-APR-07
+Resposta: Porque usa Q1 e Q3, não diretamente mínimo e máximo.
+Resolução comentada: Um extremo pode alterar fortemente a amplitude total, mas pode deixar Q1 e Q3 inalterados em muitos conjuntos.
+Motivo provável de erro: conteúdo: pensar que robustez significa imunidade completa.
+
+
+MAT-EST-011-EX-APR-08
+Resposta: Não.
+Resolução comentada: O ponto é apenas sinalizado para investigação pela convenção do gráfico. Pode ser legítimo ou resultar de erro; o gráfico sozinho não decide.
+Motivo provável de erro: interpretação: transformar um indicador descritivo em diagnóstico.
+
+
+MAT-EST-011-EX-APR-09
+Resposta: 0.
+Resolução comentada: AIQ=Q3−Q1=7−7=0. Segundo a convenção usada, os 50% centrais estão concentrados em uma faixa de largura zero.
+Motivo provável de erro: conteúdo: concluir que todos os dados são iguais.
+
+
+MAT-EST-011-EX-APR-10
+Resposta: Q1; Q3; amplitude interquartil.
+Resolução comentada: A caixa vai do primeiro ao terceiro quartil e seu comprimento numérico é Q3−Q1.
+Motivo provável de erro: memória: trocar quartis por mínimo e máximo.
+
+
+B. Consolidação
+
+
+MAT-EST-011-EX-CON-01
+Resposta: Q1=3,5; Q3=7,5; AIQ=4; limites −2,5 e 13,5; 20 é sinalizado.
+Resolução comentada: Metade inferior 2,3,4,5 dá Q1=(3+4)/2=3,5. Metade superior 6,7,8,20 dá Q3=(7+8)/2=7,5. AIQ=4. 1,5×4=6; limites 3,5−6=−2,5 e 7,5+6=13,5. Só 20 excede o limite superior.
+Motivo provável de erro: estratégia: calcular quartis sem respeitar a convenção declarada.
+
+
+MAT-EST-011-EX-CON-02
+Resposta: 6.
+Resolução comentada: Somar 10 a todos os dados soma 10 a Q1 e Q3. A diferença (Q3+10)−(Q1+10)=Q3−Q1 permanece 6.
+Motivo provável de erro: conteúdo: acreditar que toda transformação altera dispersão.
+
+
+MAT-EST-011-EX-CON-03
+Resposta: 12 cm.
+Resolução comentada: Multiplicar todos os dados por 3 multiplica Q1 e Q3 por 3; portanto a diferença também é multiplicada por 3: 3×4=12.
+Motivo provável de erro: cálculo: somar 3 em vez de multiplicar.
+
+
+MAT-EST-011-EX-CON-04
+Resposta: As medianas são iguais, 15. A tem AIQ 10 e B tem AIQ 6; portanto os 50% centrais de B estão mais concentrados.
+Resolução comentada: AIQ_A=20−10=10; AIQ_B=18−12=6. Centro por mediana igual, dispersão central diferente.
+Motivo provável de erro: interpretação: declarar um grupo 'melhor' sem critério.
+
+
+MAT-EST-011-EX-CON-05
+Resposta: As dispersões centrais resumidas pela AIQ são iguais; as posições centrais são diferentes.
+Resolução comentada: AIQ informa largura dos 50% centrais, enquanto a mediana informa posição central. Não é possível concluir igualdade de médias, amplitudes totais ou formas completas.
+Motivo provável de erro: interpretação: extrapolar do resumo para propriedades não mostradas.
+
+
+MAT-EST-011-EX-CON-06
+Resposta: Não.
+Resolução comentada: O box-plot convencional não codifica necessariamente tamanho amostral. Resumos idênticos podem vir de amostras de tamanhos distintos.
+Motivo provável de erro: interpretação: inferir n a partir da aparência.
+
+
+MAT-EST-011-EX-CON-07
+Resposta: Q1=1; Q3=2; AIQ=1; limites −0,5 e 3,5; 10 é sinalizado.
+Resolução comentada: Metade inferior 1,1,1,1 dá Q1=1. Metade superior 2,2,2,10 dá Q3=2. AIQ=1. Limites 1−1,5=−0,5 e 2+1,5=3,5; 10 excede 3,5.
+Motivo provável de erro: cálculo: usar mínimo e máximo para formar a caixa.
+
+
+MAT-EST-011-EX-CON-08
+Resposta: O bigode termina em 41; 60 é mostrado separadamente.
+Resolução comentada: O limite superior é 45. Entre os dados observados, 41 é o maior que não ultrapassa 45. O valor 60 excede o limite.
+Motivo provável de erro: conteúdo: desenhar bigode em 45 mesmo sem dado nessa posição.
+
+
+MAT-EST-011-EX-CON-09
+Resposta: A AIQ mantém a mesma magnitude.
+Resolução comentada: A transformação y=−x inverte a ordem. Após reordenar, a diferença entre novo Q3 e novo Q1 é |−1| vezes a AIQ original, portanto igual à original.
+Motivo provável de erro: estratégia: aplicar fórmulas de quartis sem reordenar após transformação decrescente.
+
+
+MAT-EST-011-EX-CON-10
+Resposta: Por exemplo, para revelar dois picos ou lacunas internas.
+Resolução comentada: Um box-plot comprime os dados em quartis e extremos; distribuições bimodais e unimodais podem ter box-plots parecidos. O histograma mostra frequências por intervalo e pode revelar picos.
+Motivo provável de erro: conteúdo: tratar um único gráfico como representação completa.
+
+
+C. Vestibular e ponte universitária
+
+
+MAT-EST-011-EX-VES-01
+Resposta: B.
+Resolução comentada: As medianas são iguais. A AIQ de A é 4 e a de B é 9; portanto os 50% centrais de A ocupam uma faixa menor. As demais alternativas não são sustentadas pelos dados.
+Motivo provável de erro: interpretação: confundir AIQ com média, tamanho da amostra ou ausência de extremos.
+
+
+MAT-EST-011-EX-VES-02
+Resposta: O valor 105 é sinalizado e deve aparecer separado no box-plot modificado, se essa for a convenção.
+Resolução comentada: AIQ=70−50=20. Limite superior=70+1,5×20=100. Como 105>100, ele excede o limite.
+Motivo provável de erro: cálculo: usar 1,5×Q3 em vez de 1,5×AIQ.
+
+
+MAT-EST-011-EX-VES-03
+Resposta: O procedimento é inadequado sem investigação e justificativa.
+Resolução comentada: A regra de 1,5 AIQ apenas sinaliza observações. Removê-las automaticamente pode eliminar valores legítimos e enviesar a análise. É preciso verificar coleta, objetivo e impacto.
+Motivo provável de erro: estratégia: confundir detecção descritiva com critério universal de exclusão.
+
+
+MAT-EST-011-EX-VES-04
+Resposta: As AIQs são iguais, mas as posições centrais diferem.
+Resolução comentada: Comprimentos iguais de caixa representam Q3−Q1 iguais na mesma escala; medianas diferentes indicam centros por posição diferentes.
+Motivo provável de erro: interpretação: dizer que as distribuições são iguais.
+
+
+MAT-EST-011-EX-VES-05
+Resposta: Porque as duas convenções atribuem significados diferentes aos bigodes.
+Resolução comentada: No primeiro, o bigode alcança extremos; no modificado, ele pode parar antes de pontos sinalizados. O mesmo comprimento visual não representa necessariamente a mesma propriedade.
+Motivo provável de erro: interpretação: comparar gráficos sem checar definição.
+
+
+MAT-EST-011-EX-VES-06
+Resposta: A AIQ é multiplicada por 1,8.
+Resolução comentada: A transformação y=1,8x+32 tem fator multiplicativo positivo 1,8. O termo +32 desloca Q1 e Q3 igualmente e cancela na diferença. Logo AIQ_y=1,8 AIQ_x.
+Motivo provável de erro: cálculo: somar 32 à AIQ.
+
+
+MAT-EST-011-EX-VES-07
+Resposta: Os limites coincidem com Q1=Q3; muitos valores diferentes do núcleo podem ser sinalizados.
+Resolução comentada: Com AIQ=0, 1,5×AIQ=0. A regra fica especialmente sensível em dados discretos ou com muitos empates, por isso o contexto é essencial.
+Motivo provável de erro: conteúdo: achar que AIQ zero implica todos os valores iguais.
+
+
+MAT-EST-011-EX-VES-08
+Resposta: A conclusão não é sustentada.
+Resolução comentada: O box-plot não mostra número de picos nem toda a forma. Aparência aproximadamente simétrica pode ser compatível com distribuições multimodais e não prova normalidade.
+Motivo provável de erro: interpretação: inferir forma completa a partir de resumo comprimido.
+
+
+MAT-EST-011-EX-VES-09
+Resposta: Podem ser comparados mediana, AIQ, bigodes e pontos sinalizados, se escala e convenção forem comuns; o tamanho amostral não é fornecido por padrão.
+Resolução comentada: O box-plot resume posição e dispersão, mas normalmente não codifica n.
+Motivo provável de erro: interpretação: assumir que caixas iguais significam amostras igualmente grandes.
+
+
+MAT-EST-011-EX-VES-10
+Resposta: Uma forma adequada: 'Pontos além dos bigodes, em um box-plot modificado, podem ser sinalizados pela convenção adotada e merecem investigação; não são automaticamente impossíveis nem devem ser descartados sem justificativa.'
+Resolução comentada: A regra é descritiva e depende da convenção. A decisão de excluir dados exige evidência externa ao gráfico.
+Motivo provável de erro: interpretação: linguagem absoluta e causal sem suporte.
+
+
+D. Reteste independente
+
+
+MAT-EST-011-EX-RET-01
+Resposta: AIQ=8; limite superior=34; 35 é sinalizado.
+Resolução comentada: AIQ=22−14=8. 1,5×8=12. Limite superior=22+12=34. Como 35>34, ele é sinalizado.
+Motivo provável de erro: cálculo: esquecer que o limite parte de Q3.
+
+
+MAT-EST-011-EX-RET-02
+Resposta: 15.
+Resolução comentada: O fator positivo 5 multiplica a AIQ: 5×3=15. O termo −7 desloca Q1 e Q3 igualmente e se cancela na diferença.
+Motivo provável de erro: conteúdo: tratar translação como aumento de dispersão.
+
+
+MAT-EST-011-EX-RET-03
+Resposta: X tem mediana maior, 50 contra 47. Y tem menor dispersão central pela AIQ, 3 contra 5.
+Resolução comentada: São duas dimensões diferentes; sem um objetivo adicional, não há base para declarar um grupo superior.
+Motivo provável de erro: interpretação: transformar comparação descritiva em ranking.
+
+
+MAT-EST-011-EX-RET-04
+Resposta: O bigode termina em 95; 108 e 130 são sinalizados.
+Resolução comentada: 100 é o limite, não necessariamente um dado. O maior observado dentro do limite é 95. Os valores 108 e 130 excedem 100.
+Motivo provável de erro: conteúdo: estender o bigode até 100.
+
+
+MAT-EST-011-EX-RET-05
+Resposta: Porque o resumo de cinco números retém apenas mínimo, Q1, mediana, Q3 e máximo.
+Resolução comentada: A distribuição interna entre esses pontos pode variar: frequências, lacunas, agrupamentos e número de picos podem ser diferentes mesmo com o mesmo resumo.
+Motivo provável de erro: conteúdo: confundir resumo com reconstrução completa dos dados.
+
+
+MAT-EST-011-EX-RET-06
+Resposta: Exemplo de roteiro: verificar escala e convenção; identificar Q1, mediana e Q3; calcular ou interpretar AIQ; verificar significado dos bigodes e pontos sinalizados; comparar centro e dispersão; declarar limites da conclusão.
+Resolução comentada: O essencial é não interpretar antes de saber o que cada elemento representa e não extrapolar além do que o gráfico contém.
+Motivo provável de erro: estratégia: pular convenção, unidade ou limitações.

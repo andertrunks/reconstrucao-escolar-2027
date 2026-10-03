@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="330" viewBox="0 0 1120 330" role="img" aria-labelledby="ttl desc">
+<title id="ttl">Cadeia de evidências de análise reprodutível</title>
+<desc id="desc">Sequência: dados, partição, cálculo independente, hipótese, interpretação, revisão e hash do arquivo.</desc>
+<rect width="1120" height="330" rx="20" fill="#f8fafc"/>
+<text x="42" y="56" fill="#13233c" font-size="27" font-family="Arial, sans-serif" font-weight="bold">Cadeia de evidências de análise reprodutível</text>
+<rect x="40" y="102" width="245" height="142" rx="13" fill="#e7f1fa" stroke="#314e73" stroke-width="2"/>
+<text x="53" y="142" fill="#102d4d" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Dados originais</text>
+<text x="53" y="179" fill="#233b57" font-family="Arial, sans-serif" font-size="16">CSV imutável</text>
+<path d="M288 173 h17 l-6 -6 m6 6 l-6 6" fill="none" stroke="#23466c" stroke-width="3"/>
+<rect x="310" y="102" width="245" height="142" rx="13" fill="#e7f1fa" stroke="#314e73" stroke-width="2"/>
+<text x="323" y="142" fill="#102d4d" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Partição</text>
+<text x="323" y="179" fill="#233b57" font-family="Arial, sans-serif" font-size="16">referência / teste</text>
+<path d="M558 173 h17 l-6 -6 m6 6 l-6 6" fill="none" stroke="#23466c" stroke-width="3"/>
+<rect x="580" y="102" width="245" height="142" rx="13" fill="#e7f1fa" stroke="#314e73" stroke-width="2"/>
+<text x="593" y="142" fill="#102d4d" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Recalcular</text>
+<text x="593" y="179" fill="#233b57" font-family="Arial, sans-serif" font-size="16">não copiar respostas</text>
+<path d="M828 173 h17 l-6 -6 m6 6 l-6 6" fill="none" stroke="#23466c" stroke-width="3"/>
+<rect x="850" y="102" width="245" height="142" rx="13" fill="#e7f1fa" stroke="#314e73" stroke-width="2"/>
+<text x="863" y="142" fill="#102d4d" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Concluir</text>
+<text x="863" y="179" fill="#233b57" font-family="Arial, sans-serif" font-size="16">escopo + limites</text>
+<text x="43" y="289" font-family="Arial, sans-serif" font-size="16" fill="#263d57">Leia da esquerda para a direita. As etapas têm significados diferentes.</text>
+</svg>

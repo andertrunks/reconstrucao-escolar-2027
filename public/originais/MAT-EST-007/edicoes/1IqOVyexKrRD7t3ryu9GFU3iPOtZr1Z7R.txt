@@ -1,0 +1,120 @@
+# MAT-EST-007 — Exercícios — reconstrução editorial v1
+
+Todas as questões são autorais. Resolva antes de consultar o gabarito.
+
+## CAMADA APR — Aprendizagem
+
+**MAT-EST-007-EX-APR-01**  
+Calcule a amplitude de 3, 5, 7, 8 e 11.
+
+**MAT-EST-007-EX-APR-02**  
+Qual é a amplitude de 20, 20, 20 e 20?
+
+**MAT-EST-007-EX-APR-03**  
+Explique por que amplitude usa apenas dois valores do conjunto.
+
+**MAT-EST-007-EX-APR-04**  
+Dados 2, 3 e 7, cuja média é 4, calcule os três desvios com sinal.
+
+**MAT-EST-007-EX-APR-05**  
+Por que a soma dos desvios em relação à média é zero?
+
+**MAT-EST-007-EX-APR-06**  
+Transforme os desvios −4, +2 e −1 em desvios absolutos.
+
+**MAT-EST-007-EX-APR-07**  
+Calcule o DMA de 2, 3 e 7 em relação à média 4.
+
+**MAT-EST-007-EX-APR-08**  
+Qual é a unidade do DMA se os dados estão em minutos?
+
+**MAT-EST-007-EX-APR-09**  
+O DMA pode ser negativo? Justifique.
+
+**MAT-EST-007-EX-APR-10**  
+Se todos os valores são iguais, quais são amplitude e DMA?
+
+## CAMADA CON — Consolidação
+
+**MAT-EST-007-EX-CON-01**  
+Calcule média, amplitude e DMA de 3, 4, 5, 6 e 7.
+
+**MAT-EST-007-EX-CON-02**  
+Calcule média, amplitude e DMA de 1, 1, 5, 9 e 9.
+
+**MAT-EST-007-EX-CON-03**  
+Compare os resultados dos dois exercícios anteriores e explique qual conjunto é mais disperso.
+
+**MAT-EST-007-EX-CON-04**  
+Os dados 2, 4 e 6 têm DMA 4/3. Somamos 10 a todos. Qual será o novo DMA?
+
+**MAT-EST-007-EX-CON-05**  
+Os dados 2, 4 e 6 têm DMA 4/3. Multiplicamos todos por 3. Qual será o novo DMA?
+
+**MAT-EST-007-EX-CON-06**  
+Dados 1, 2 e 5 têm frequências 2, 4 e 2. Calcule a média e o DMA.
+
+**MAT-EST-007-EX-CON-07**  
+Explique por que a amplitude pode aumentar muito quando apenas um valor extremo muda.
+
+**MAT-EST-007-EX-CON-08**  
+Dois conjuntos têm amplitude 10. Isso prova que possuem a mesma distribuição? Explique.
+
+**MAT-EST-007-EX-CON-09**  
+Se um conjunto tem DMA zero, o que podemos concluir sobre seus valores observados?
+
+**MAT-EST-007-EX-CON-10**  
+Um conjunto está em metros. Outro está em centímetros. Por que não devemos comparar seus DMAs numericamente sem converter unidades?
+
+## CAMADA VES — Transferência / estilo vestibular autoral
+
+**MAT-EST-007-EX-VES-01**  
+Conjuntos A = 4,5,6 e B = 0,5,10 possuem a mesma média. Calcule a amplitude e o DMA de cada um e compare.
+
+**MAT-EST-007-EX-VES-02**  
+Uma série 5,5,5,5,5 é alterada para 5,5,5,5,25. Calcule média, amplitude e DMA do novo conjunto.
+
+**MAT-EST-007-EX-VES-03**  
+Explique por que a média dos desvios com sinal não pode servir como medida de dispersão em torno da média.
+
+**MAT-EST-007-EX-VES-04**  
+Um conjunto tem média 100 e DMA 8. Todos os valores são transformados por y = 2x + 50. Qual é o novo DMA?
+
+**MAT-EST-007-EX-VES-05**  
+Um conjunto A tem média 10 e DMA 2. Um conjunto B tem média 1000 e DMA 20. Explique por que afirmar apenas “B é dez vezes mais variável” pode ser enganoso.
+
+**MAT-EST-007-EX-VES-06**  
+Valores 10,12,14 têm frequências 1,3,1. Calcule média, amplitude e DMA.
+
+**MAT-EST-007-EX-VES-07**  
+Uma tabela agrupada informa classes [0,10), [10,20) e [20,30), mas não mostra valores individuais. Explique por que a amplitude exata pode ser desconhecida.
+
+**MAT-EST-007-EX-VES-08**  
+Uma pesquisa perdeu registros extremos por falha de coleta. Explique o efeito potencial sobre a amplitude observada.
+
+**MAT-EST-007-EX-VES-09**  
+Mostre que adicionar a mesma constante a todos os valores não altera os desvios em relação à média.
+
+**MAT-EST-007-EX-VES-10**  
+Um analista remove um valor extremo apenas porque ele eleva o DMA. Explique por que esse procedimento é metodologicamente inadequado.
+
+## CAMADA RET — Reteste
+
+**MAT-EST-007-EX-RET-01**  
+Sem consultar, escreva as fórmulas da amplitude e do DMA em torno da média.
+
+**MAT-EST-007-EX-RET-02**  
+Calcule amplitude e DMA de 2,4,4,6.
+
+**MAT-EST-007-EX-RET-03**  
+Explique em uma frase a diferença entre amplitude e DMA.
+
+**MAT-EST-007-EX-RET-04**  
+Por que valor absoluto é usado no DMA?
+
+**MAT-EST-007-EX-RET-05**  
+Se todos os valores forem multiplicados por −2, o que acontece com o DMA?
+
+**MAT-EST-007-EX-RET-06**  
+Explique por que mesma média não implica mesma dispersão.
+

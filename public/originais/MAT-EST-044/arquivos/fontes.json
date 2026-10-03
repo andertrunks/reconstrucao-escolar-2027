@@ -1,0 +1,43 @@
+[
+  {
+    "instituicao": "OTexts, Rob J Hyndman e George Athanasopoulos",
+    "nome": "Forecasting: Principles and Practice 3rd edition, 8.1 Simple exponential smoothing",
+    "url": "https://otexts.com/fpp3/ses.html",
+    "uso": "recursão e pesos de SES, inicialização e previsão plana",
+    "consulta": "2026-09-28"
+  },
+  {
+    "instituicao": "OTexts, Rob J Hyndman e George Athanasopoulos",
+    "nome": "Forecasting: Principles and Practice 3rd edition, 8.2 Methods with trend",
+    "url": "https://otexts.com/fpp3/holt.html",
+    "uso": "nível e tendência de Holt, beta asterisco",
+    "consulta": "2026-09-28"
+  },
+  {
+    "instituicao": "OTexts, Rob J Hyndman e George Athanasopoulos",
+    "nome": "Forecasting: Principles and Practice 3rd edition, 8.3 Methods with seasonality",
+    "url": "https://otexts.com/fpp3/holt-winters.html",
+    "uso": "equações aditivas e distinção aditivo/multiplicativo",
+    "consulta": "2026-09-28"
+  },
+  {
+    "instituicao": "Penn State STAT 510",
+    "nome": "Lesson 05 Smoothing and Decomposition Methods",
+    "url": "https://online.stat.psu.edu/stat510/Lesson05",
+    "uso": "explicação institucional de SES",
+    "consulta": "2026-09-28"
+  },
+  {
+    "instituicao": "NPTEL, IIT Madras",
+    "nome": "Mod-02 Lec-02 Forecasting — Time series models — Simple Exponential smoothing",
+    "url": "https://www.youtube.com/watch?v=k9dhcfIyOFc",
+    "uso": "vídeo complementar; existência e canal verificados por resultado indexado, reprodução integral pendente",
+    "consulta": "2026-09-28"
+  },
+  {
+    "instituicao": "Projeto Reconstrução Escolar",
+    "nome": "MAT-EST-043, conjunto de dados fictícios trimestrais",
+    "url": null,
+    "uso": "duas cópias byte a byte de CSVs para continuidade, verificadas por SHA-256"
+  }
+]

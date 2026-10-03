@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 346" role="img" aria-labelledby="title desc"><title id="title">Alterações não equivalentes</title><desc id="desc">Revisar uma observação altera avaliação; mudar algoritmo cria versão do modelo; mudar limiar exige protocolo futuro; nenhuma delas edita o histórico do protocolo original.</desc>
+<rect width="1240" height="346" rx="20" fill="#10243b"/><text x="36" y="44" font-size="26" font-family="Arial, sans-serif" font-weight="700" fill="#f5fbff">Alterações não equivalentes</text>
+<rect x="35.0" y="100" width="282.0" height="137" rx="12" fill="#dbeafe" stroke="#173352" stroke-width="2"/>
+<text x="176.0" y="133" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#142436">DADO</text>
+<text x="176.0" y="158" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="400" fill="#142436">V: 40 → 44</text>
+<path d="M 319.0 167 L 329.0 167 m -7 -7 l 7 7 -7 7" stroke="#fff" stroke-width="2" fill="none"/>
+<rect x="331.0" y="100" width="282.0" height="137" rx="12" fill="#dcfce7" stroke="#173352" stroke-width="2"/>
+<text x="472.0" y="133" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#142436">MODELO</text>
+<text x="472.0" y="158" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="400" fill="#142436">C1 ≠ C2</text>
+<path d="M 615.0 167 L 625.0 167 m -7 -7 l 7 7 -7 7" stroke="#fff" stroke-width="2" fill="none"/>
+<rect x="627.0" y="100" width="282.0" height="137" rx="12" fill="#fef3c7" stroke="#173352" stroke-width="2"/>
+<text x="768.0" y="133" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#142436">REGRA</text>
+<text x="768.0" y="158" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="400" fill="#142436">v1 ≠ v2</text>
+<path d="M 911.0 167 L 921.0 167 m -7 -7 l 7 7 -7 7" stroke="#fff" stroke-width="2" fill="none"/>
+<rect x="923.0" y="100" width="282.0" height="137" rx="12" fill="#fee2e2" stroke="#173352" stroke-width="2"/>
+<text x="1064.0" y="133" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#142436">HISTÓRICO</text>
+<text x="1064.0" y="158" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="400" fill="#142436">t19 permanece</text>
+<text x="36" y="280" font-family="Arial,sans-serif" fill="#f5fbff" font-size="18">Uma mudança de dado, modelo ou regra deve manter seu próprio identificador.</text>
+<text x="36" y="314" font-family="Arial,sans-serif" fill="#b9d6ec" font-size="14">Ilustração autoral • números fictícios • ler também a legenda completa na aula</text></svg>

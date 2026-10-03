@@ -1,0 +1,36 @@
+{
+  "projeto": "Reconstrução Escolar + ENEM e Vestibulares 2027",
+  "ultimo_pacote_editorial_concluido": "MAT-EST-054",
+  "titulo_ultimo": "Auditoria de avaliações temporais: reconciliação de versões, rastreamento de métricas e relatórios reproduzíveis",
+  "ultimo_confirmado_antes": "MAT-EST-053",
+  "etapa_atual": "gerada localmente, ZIP pronto; não publicada, não sincronizada nem estudada",
+  "proximo_topico_editorial": "MAT-EST-055",
+  "titulo_proximo_proposto": "Governança de modelos temporais: documentação de decisões, responsáveis, revisões e critérios de encerramento",
+  "proxima_acao": "Conferir checkpoint canônico, produzir somente MAT-EST-055, preservar arquivos herdados e nenhum dado futuro inventado.",
+  "progresso_individual": "não iniciado; não atualizado",
+  "serie_principal": "t01 a t22 preservada; t23–t25 sem observações e sem emissões autenticadas",
+  "pares": "cinco de oito (t18 a t22), simulação editorial",
+  "protocolo": "MAT-EST-049-PROT-v1 preservado; t19 19,2 > guarda 10; não promover",
+  "plano": "MAT-EST-051-PLAN-v1 preservado; não executado",
+  "casos_isolados": [
+    "Z previsão29, observações30 preliminar e32 validada, custos3 e9",
+    "V B42/C43 congelados, v1=40 em L12 e v2=44 em L13, relatório validado do evento em L14; não somar à série principal"
+  ],
+  "reconciliacao_aula_054": "recalcular_relatorios.py produz relatórios locais e verificação de digests; não constitui autenticação histórica",
+  "recalculos_t23": {
+    "B": 183,
+    "C": 199,
+    "status": "didáticos não autenticados"
+  },
+  "nao_alegar": [
+    "deploy",
+    "Drive ou GitHub sincronizados",
+    "teste real do Edge",
+    "reprodução integral do vídeo",
+    "observações t23–t25",
+    "emissões autenticadas",
+    "mudança do protocolo",
+    "progresso individual"
+  ],
+  "material_integracao": "MAT-EST-054-pacote-integracao.zip"
+}

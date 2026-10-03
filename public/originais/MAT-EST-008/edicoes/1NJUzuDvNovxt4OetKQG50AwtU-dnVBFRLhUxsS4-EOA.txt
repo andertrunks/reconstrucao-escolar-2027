@@ -1,0 +1,40 @@
+﻿MAT-EST-008 — MANIFESTO DA RECONSTRUÇÃO EDITORIAL v1
+
+
+Natureza
+Reconstrução explícita, sem alegação de identidade byte a byte com o material histórico perdido.
+
+
+Pré-requisitos
+MAT-EST-001 a MAT-EST-007.
+
+
+Próximo
+MAT-EST-009 — Coeficiente de variação: dispersão relativa e comparação entre escalas.
+
+
+Conteúdo
+Quadrados dos desvios; variância populacional e amostral; n−1 e graus de liberdade; desvio-padrão; unidades; frequências; dados agrupados; transformações lineares; extremos; relação com DMA; erro-padrão; normalidade; estabilidade numérica e ponte computacional.
+
+
+Avaliação
+36 questões autorais: 10 APR, 10 CON, 10 VES, 6 RET.
+Gabarito separado.
+
+
+Visuais
+Seis SVGs com title e desc, acompanhados de explicação textual.
+
+
+Fontes
+BNCC/MEC — progressão de medidas de dispersão a partir de amplitude e tendência central.
+Inep — Matrizes de Referência do Enem, 2026.
+FUVEST — Programa do Vestibular 2027, medidas de dispersão incluindo amplitude, desvio-médio, variância, desvio-padrão e coeficiente de variação.
+
+
+Estado
+Publicação no site: não realizada.
+QA Edge/Ler em voz alta: pendente.
+Integração ao modelo do site: pendente.
+Progresso do aluno: não alterado.
+MAT-EST-068: não iniciada.

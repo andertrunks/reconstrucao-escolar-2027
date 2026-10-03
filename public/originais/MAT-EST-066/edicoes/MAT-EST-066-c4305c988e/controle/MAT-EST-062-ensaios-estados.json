@@ -1,0 +1,48 @@
+{
+  "id": "MAT-EST-062-FIXTURES-v1",
+  "natureza": "cenários sintéticos isolados, não atualizam G1–G8",
+  "cenarios": [
+    {
+      "id": "E00",
+      "hipotese": "estados herdados, sem assinatura",
+      "resultado_esperado": "blocked_pending_human",
+      "resultado_calculado": "blocked_pending_human",
+      "evidencia_real": false
+    },
+    {
+      "id": "E01",
+      "hipotese": "G3 marcado concluído mas sem evidência/avaliador",
+      "resultado_esperado": "reject_missing_human_evidence",
+      "resultado_calculado": "reject_missing_human_evidence",
+      "evidencia_real": false
+    },
+    {
+      "id": "E02",
+      "hipotese": "G7 marcado publicado sem commit e URL",
+      "resultado_esperado": "reject_missing_deploy_proof",
+      "resultado_calculado": "reject_missing_deploy_proof",
+      "evidencia_real": false
+    },
+    {
+      "id": "E03",
+      "hipotese": "G8 marcado pós-validado antes de G7",
+      "resultado_esperado": "reject_invalid_order",
+      "resultado_calculado": "reject_invalid_order",
+      "evidencia_real": false
+    },
+    {
+      "id": "E04",
+      "hipotese": "hash do candidato mudou depois de G1",
+      "resultado_esperado": "reject_stale_evidence",
+      "resultado_calculado": "reject_stale_evidence",
+      "evidencia_real": false
+    },
+    {
+      "id": "E05",
+      "hipotese": "todas as evidências ilustrativas presentes em fixture inventada",
+      "resultado_esperado": "simulated_only_not_authorization",
+      "resultado_calculado": "simulated_only_not_authorization",
+      "evidencia_real": false
+    }
+  ]
+}

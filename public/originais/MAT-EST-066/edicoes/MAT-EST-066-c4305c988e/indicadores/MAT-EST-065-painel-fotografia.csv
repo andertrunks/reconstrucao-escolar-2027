@@ -1,0 +1,12 @@
+id,medida,numerador,denominador,valor,unidade,status,limite
+K65-01,Completude de pares no SANDBOX-057,2,8,25%,porcentagem,derivacao_local,Demonstração isolada; não mede precisão nem completude da coorte sucessora.
+K65-02,Erro absoluto médio da referência B,6,2,3 unidades,unidades,derivacao_local,Somente S01/S02; n pequeno e sem inferência geral.
+K65-03,Erro absoluto médio do desafiante C,8,2,4 unidades,unidades,derivacao_local,"Somente S01/S02; comparações emparelhadas, mesmo corte."
+K65-04,Custo médio da referência B,14,2,7 pontos,pontos,derivacao_local,"Regra pré-definida: erro positivo custa 3 por unidade; negativo, 1."
+K65-05,Custo médio do desafiante C,14,2,7 pontos,pontos,derivacao_local,Não misturar pontos de custo com unidades do MAE.
+K65-06,Rejeição esperada das mutações artificiais,6,6,100% das 6 fixtures,porcentagem,derivacao_local,"Não mede taxa de detecção de incidentes reais, nem cobertura dos defeitos possíveis."
+K65-07,Ações com ensaio em fixture,6,7,"85,71% das ações propostas",porcentagem,derivacao_local,"Não mede implantação, eficácia ou aprovação humana; A64-07 apenas proposta."
+K65-08,Controles com evidência local,2,8,25% com evidência local,porcentagem,derivacao_local,Não criar índice de prontidão: controles diferentes e exigências não intercambiáveis.
+K65-09,Execução dos checks pós-deploy,0,10,0% executado,porcentagem,derivacao_local,"É medida de execução documental, não taxa de sucesso pós-deploy: não houve deploy."
+K65-10,MAE do protocolo sucessor t26–t33,,0,,unidades,nao_estimavel,Indefinido/não estimável: zero pares; nunca substituir por zero.
+K65-11,Taxa de incidentes reais,,,,por exposição,nao_estimavel,"Sem logs reais e sem denominador de exposição: não estimável, não zero."

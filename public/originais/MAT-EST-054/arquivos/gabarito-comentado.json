@@ -1,0 +1,362 @@
+[
+  {
+    "id": "MAT-EST-054-EX-APR-01",
+    "resposta": "Alvo, identificador da versão, qualidade, origem e corte de disponibilidade.",
+    "resolucao": "Sem esses campos, 40 preliminar e 44 validado poderiam ser confundidos com dois alvos ou com uma única medição imutável.",
+    "motivosDeErro": [
+      "conteúdo",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-APR-02",
+    "resposta": "Não; estado pendente.",
+    "resolucao": "A primeira observação chega apenas em L12. Faltante não equivale a zero nem autoriza usar retrospectivamente o 44 de L13.",
+    "motivosDeErro": [
+      "interpretação",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-APR-03",
+    "resposta": "40, versão v1, preliminar.",
+    "resolucao": "AS_KNOWN usa o que estava disponível até o corte e sinaliza o estado; isso não a transforma em avaliação final.",
+    "motivosDeErro": [
+      "memória",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-APR-04",
+    "resposta": "Nenhum; sem observação elegível.",
+    "resolucao": "Em L12 ainda não existia a versão validada v2. O indicador é pendente, não zero.",
+    "motivosDeErro": [
+      "conteúdo",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-APR-05",
+    "resposta": "−2 unidades.",
+    "resolucao": "A convenção é observado menos previsto: quarenta menos quarenta e dois é menos dois, indicando superprevisão.",
+    "motivosDeErro": [
+      "cálculo",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-APR-06",
+    "resposta": "+1 unidade.",
+    "resolucao": "Quarenta e quatro menos quarenta e três é mais um: ocorreu subprevisão.",
+    "motivosDeErro": [
+      "cálculo",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-APR-07",
+    "resposta": "Não.",
+    "resolucao": "O digest só permite comparar bytes com uma referência confiável sob o método definido; certificação temporal e autoria exigem mecanismos externos.",
+    "motivosDeErro": [
+      "conteúdo",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-APR-08",
+    "resposta": "Um alvo.",
+    "resolucao": "A versão v2 corrige a v1. Contar dois alvos duplicaria a amostra.",
+    "motivosDeErro": [
+      "interpretação",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-APR-09",
+    "resposta": "6 pontos fictícios.",
+    "resolucao": "A parte positiva é multiplicada por três: três vezes dois igual a seis.",
+    "motivosDeErro": [
+      "cálculo",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-APR-10",
+    "resposta": "Não.",
+    "resolucao": "São hipóteses de sensibilidade, não medições recebidas. t23–t25 permanecem sem observações e sem emissões autenticadas.",
+    "motivosDeErro": [
+      "interpretação",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-CON-01",
+    "resposta": "B=2, C=3; B apresenta menor módulo nesse recálculo preliminar.",
+    "resolucao": "|40−42|=2 e |40−43|=3. O resultado depende da versão preliminar e de um único alvo fictício.",
+    "motivosDeErro": [
+      "cálculo",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-CON-02",
+    "resposta": "B=2, C=1; as previsões B42 e C43 não mudaram.",
+    "resolucao": "|44−42|=2, |44−43|=1. Só a referência observada foi revista; não se demonstrou um novo ajuste de modelo.",
+    "motivosDeErro": [
+      "cálculo",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-CON-03",
+    "resposta": "B=2, C=3 pontos.",
+    "resolucao": "Os erros são −2 e −3. Só a parte de superprevisão, com peso um, contribui para cada custo.",
+    "motivosDeErro": [
+      "cálculo",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-CON-04",
+    "resposta": "B=6, C=3 pontos.",
+    "resolucao": "Os erros +2 e +1 são subprevisões; multiplicam-se por três. O módulo de B é 2, mas seu custo é 6.",
+    "motivosDeErro": [
+      "cálculo",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-CON-05",
+    "resposta": "Variação de −2 unidades; mudou a versão da observação, não as previsões.",
+    "resolucao": "Subtraia o valor inicial do final: menos um menos mais um é menos dois. O conjunto possui o mesmo único alvo em cada fotografia.",
+    "motivosDeErro": [
+      "cálculo",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-CON-06",
+    "resposta": "Preliminar +1; validada −3 pontos.",
+    "resolucao": "Primeiro: três menos dois igual mais um. Depois: três menos seis igual menos três. O sinal relativo muda por revisão da observação.",
+    "motivosDeErro": [
+      "cálculo",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-CON-07",
+    "resposta": "Erros +1 e +3; custos 3 e 9 pontos.",
+    "resolucao": "Trinta menos vinte e nove é um, e trinta e dois menos vinte e nove é três. Ambos positivos recebem peso três; as duas avaliações referem-se ao mesmo alvo.",
+    "motivosDeErro": [
+      "cálculo",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-CON-08",
+    "resposta": "62,5%.",
+    "resolucao": "Cinco dividido por oito é 0,625, ou 62,5 por cento. Não completar com zeros nas três posições faltantes.",
+    "motivosDeErro": [
+      "cálculo",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-CON-09",
+    "resposta": "B=17,60 e C=8,36 unidades.",
+    "resolucao": "Divida cada soma por cinco alvos: 88/5=17,6 e 41,8/5=8,36. Não misture exemplos Z ou V ao denominador.",
+    "motivosDeErro": [
+      "cálculo",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-CON-10",
+    "resposta": "19,2 unidades; guarda violada.",
+    "resolucao": "Vinte e três vírgula dois menos quatro igual dezenove vírgula dois, maior que dez. O protocolo permanece desfavorável à promoção, independentemente da média parcial.",
+    "motivosDeErro": [
+      "estratégia",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-VES-01",
+    "resposta": "É incorreta: não existe observação elegível; MAE está pendente/indefinido.",
+    "resolucao": "Zero significaria observação avaliada sem erro, situação distinta de conjunto elegível vazio. Requer-se n e corte explicitados. Questão autoral contextualizada.",
+    "motivosDeErro": [
+      "interpretação",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-VES-02",
+    "resposta": "“Recálculo preliminar de V com v1=40 disponível em L12; não compõe escore final validado.”",
+    "resolucao": "A legenda identifica corte, versão, qualidade e limitação. A validade vem apenas após existir versão elegível e política correspondente. Questão autoral.",
+    "motivosDeErro": [
+      "interpretação",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-VES-03",
+    "resposta": "Não é possível concluir adulteração; a observação de referência mudou.",
+    "resolucao": "Compare IDs das previsões congeladas, origem, versões do alvo e cortes antes de atribuir causalidade. Diferença esperada de vintage é hipótese documentalmente sustentada. Questão autoral.",
+    "motivosDeErro": [
+      "estratégia",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-VES-04",
+    "resposta": "Cinco, não sete.",
+    "resolucao": "Há uma única versão escolhida por alvo em cada avaliação. Arquivos extras documentam revisões sem criar observações independentes. Questão autoral.",
+    "motivosDeErro": [
+      "interpretação",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-VES-05",
+    "resposta": "Veracidade da fonte e certificação de tempo não se seguem de hash isolado.",
+    "resolucao": "Integridade relativa aos bytes de referência é diferente de autenticidade externa e carimbo temporal confiável. Questão autoral.",
+    "motivosDeErro": [
+      "conteúdo",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-VES-06",
+    "resposta": "Vazamento temporal; usar v1=40 em L12 ou escolher novo corte e rotular o recálculo.",
+    "resolucao": "A versão 44 só surge em L13. Alterar dados sem alterar o corte falseia o histórico informacional. Questão autoral.",
+    "motivosDeErro": [
+      "estratégia",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-VES-07",
+    "resposta": "IDs dos pares/previsões, observações e versões, corte/política, código ou fórmula versionada, arquivos/hashes e unidade/denominador.",
+    "resolucao": "O número isolado não permite repetir a seleção, identificar suas fontes ou investigar divergências. Qualquer cinco itens adequados, com contexto, são aceitos. Questão autoral.",
+    "motivosDeErro": [
+      "memória",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-VES-08",
+    "resposta": "Não; cenários não são observações nem emissões comprovadas.",
+    "resolucao": "A completude da série principal continua cinco de oito pares; acrescentar hipóteses alteraria a natureza dos dados e o julgamento. Questão autoral.",
+    "motivosDeErro": [
+      "interpretação",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-VES-09",
+    "resposta": "Não. Faltam três pares e a deterioração local t19=19,2 ultrapassou a guarda dez.",
+    "resolucao": "O protocolo congelado exige todas as condições, além de qualidade, decisão humana e rollback. Não alterar retrospectivamente o limiar. Questão autoral.",
+    "motivosDeErro": [
+      "estratégia",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-VES-10",
+    "resposta": "V mudou a versão observada de 40 para 44 sem mudar B42/C43; Z manteve previsão 29 e elevou custo de 3 para 9 após revisão; ambos são isolados; na série principal há cinco de oito pares e guarda t19 violada, sem promoção.",
+    "resolucao": "Uma resposta equivalente deve separar escopo, corte, números, limites e consequência do protocolo. Questão autoral de redação técnico-quantitativa.",
+    "motivosDeErro": [
+      "interpretação",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-RET-01",
+    "resposta": "Preliminar −1 e custo 1; validada +2 e custo 6.",
+    "resolucao": "Quarenta e nove menos cinquenta é menos um; cinquenta e dois menos cinquenta é mais dois. Esse novo ensaio não integra t18–t22.",
+    "motivosDeErro": [
+      "cálculo",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-RET-02",
+    "resposta": "Nenhum valor; avaliação pendente.",
+    "resolucao": "A v1 não é validada; a v2 ainda não existe em L3. A escolha não pode ser guiada pelo valor final.",
+    "motivosDeErro": [
+      "interpretação",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-RET-03",
+    "resposta": "Quatro de oito, equivalentes a 50%.",
+    "resolucao": "Recebimento de cinco não significa cinco avaliações finais. Documentar a exclusão e manter o denominador correto de quatro nos indicadores.",
+    "motivosDeErro": [
+      "cálculo",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-RET-04",
+    "resposta": "Investigar origem e versão do arquivo, isolar divergência e não declarar reprodução validada até conciliar os bytes.",
+    "resolucao": "O manifesto é uma referência de comparação; sobrescrevê-lo para fazer o teste passar apagaria evidência.",
+    "motivosDeErro": [
+      "estratégia",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-RET-05",
+    "resposta": "A previsão original foi adulterada por informação futura; exigir versão distinta e não chamá-la emissão prospectiva original.",
+    "resolucao": "A avaliação externa só aceita previsão formada com informação anterior ao alvo. Um recálculo posterior deve ser identificado e separado.",
+    "motivosDeErro": [
+      "conteúdo",
+      "distração"
+    ],
+    "origem": "autoral"
+  },
+  {
+    "id": "MAT-EST-054-EX-RET-06",
+    "resposta": "Não; a validação do vídeo permanece pendente, sem impedir uso local da aula completa.",
+    "resolucao": "A ficha precisa distinguir referência bibliográfica de verificação efetiva, e a aula deve ser autossuficiente.",
+    "motivosDeErro": [
+      "estratégia",
+      "distração"
+    ],
+    "origem": "autoral"
+  }
+]

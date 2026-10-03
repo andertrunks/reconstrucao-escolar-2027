@@ -1,0 +1,26 @@
+﻿MAT-EST-011 — metadados — reconstrução editorial v1
+
+
+id: MAT-EST-011
+titulo: Amplitude interquartil e box-plot: caixa, bigodes e valores discrepantes
+materia: Matemática
+unidade: Estatística
+nivel: 3, 4, 5 e ponte 6
+ordem: 11
+statusProducao: reconstruido_editorial_v1_nao_publicado
+natureza: reconstrução editorial explícita; não é recuperação byte a byte
+preRequisitos: MAT-EST-001 a MAT-EST-010
+anterior: MAT-EST-010
+proximoTopico: MAT-EST-012
+proximoTitulo: Assimetria e forma das distribuições: comparação integrada de histogramas e box-plots
+origemQuestoes: autoral
+quantidadeQuestoes: 36
+camadas: APR 10; CON 10; VES 10; RET 6
+quantidadeVisuais: 6
+video: Amplitude interquartil - Khan Academy em português (8º ano)
+videoUrl: https://www.youtube.com/watch?v=rB86hCqaT-Q
+videoQa: pagina_publica_localizada_reproducao_integral_edge_pendente
+fontesCurriculares: FUVEST Programa Vestibular 2027; BNCC Ensino Médio MEC; Matrizes de Referência Enem 2026 Inep
+statusAprendizagemInicial: nao_iniciado
+publicacaoSite: pendente_B2_B3_B4_B5
+observacao: produção editorial não altera progresso individual

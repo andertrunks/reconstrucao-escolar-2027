@@ -1,0 +1,457 @@
+{
+  "id": "MAT-EST-056",
+  "version": "publicacao-2026-10-03-v1",
+  "objective": "diferenciar exploração e confirmação\n\nseparar coortes e manter guarda histórica\n\nformular protocolo sucessor antes de novos dados\n\nidentificar vazamento e desvio pós-resultado\n\njustificar métricas com denominadores e unidades\n\nseparar hash local de prova externa de pré-registro",
+  "prerequisites": [
+    "MAT-EST-047",
+    "MAT-EST-049",
+    "MAT-EST-050",
+    "MAT-EST-051",
+    "MAT-EST-052",
+    "MAT-EST-053",
+    "MAT-EST-054",
+    "MAT-EST-055"
+  ],
+  "why": "# MAT-EST-056 — Revisão controlada de experimentos temporais: protocolo sucessor, pré-registro e prevenção de contaminação da avaliação\n\n**Área:** Matemática. **Unidade:** Estatística e séries temporais — nível 6, ponte universitária. **Anterior:** MAT-EST-055. **Próximo proposto:** MAT-EST-057. **Material:** integralmente autoral; zero questões oficiais. **Estado do estudante:** não iniciado; produzir material não demonstra tentativa nem domínio. **Estado da entrega:** apenas produção editorial local.\n\n**Blocos recomendados:** A. De onde vem a contaminação (35 minutos); B. Como especificar um protocolo sucessor (45 minutos); C. Contas, revisão e exercícios (45 minutos). São orientações flexíveis. Se um pré-requisito bloquear a leitura, recuperar operações, média e porcentagem antes de avançar.\n\n",
+  "intuitive": [],
+  "deep": [],
+  "vocabulary": [],
+  "examples": [],
+  "visuals": [
+    {
+      "url": "media/MAT-EST-056/01-tres-escopos-temporais.svg",
+      "caption": "Três escopos, três permissões",
+      "alt": "t18 a t22 são dados fictícios já conhecidos; t23 a t25 são alvos não observados com cenários expostos; t26 a t33 são alvos futuros exclusivos propostos, ainda sem registro.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "t18 a t22 são dados fictícios já conhecidos; t23 a t25 são alvos não observados com cenários expostos; t26 a t33 são alvos futuros exclusivos propostos, ainda sem registro."
+    },
+    {
+      "url": "media/MAT-EST-056/02-linha-temporal-sem-vazamento.svg",
+      "caption": "Corte antes do alvo, não depois",
+      "alt": "A origem t25 só pode ser usada depois da validação das observações necessárias; modelos e regra devem ser congelados antes da emissão t26 e antes de y26 se tornar disponível.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "A origem t25 só pode ser usada depois da validação das observações necessárias; modelos e regra devem ser congelados antes da emissão t26 e antes de y26 se tornar disponível."
+    },
+    {
+      "url": "media/MAT-EST-056/03-guarda-historica.svg",
+      "caption": "A média não apaga a piora local",
+      "alt": "Na série fictícia antiga em t19, B tem erro absoluto quatro e C tem erro absoluto vinte e três vírgula dois. Diferença de dezenove vírgula dois supera o limite dez.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Na série fictícia antiga em t19, B tem erro absoluto quatro e C tem erro absoluto vinte e três vírgula dois. Diferença de dezenove vírgula dois supera o limite dez."
+    },
+    {
+      "url": "media/MAT-EST-056/04-dois-caminhos-de-analise.svg",
+      "caption": "Confirmatório versus exploratório",
+      "alt": "O plano confirmatório fixa hipóteses, alvos, métricas e critérios antes do resultado. Ideias posteriores são relatadas separadamente como análise exploratória.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "O plano confirmatório fixa hipóteses, alvos, métricas e critérios antes do resultado. Ideias posteriores são relatadas separadamente como análise exploratória."
+    },
+    {
+      "url": "media/MAT-EST-056/05-pre-registro-seis-campos.svg",
+      "caption": "Seis campos para um plano testável",
+      "alt": "O desenho contém questão, amostra e janela, modelos congelados, métricas, guardas e regras de desvios/decisão.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "O desenho contém questão, amostra e janela, modelos congelados, métricas, guardas e regras de desvios/decisão."
+    },
+    {
+      "url": "media/MAT-EST-056/06-maquina-de-estados.svg",
+      "caption": "Estados do protocolo sucessor",
+      "alt": "O protocolo começa como desenho local; pode ser externamente registrado, receber alvos elegíveis, ser auditado e encaminhado a decisão humana. Atualmente está apenas em desenho local.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "O protocolo começa como desenho local; pode ser externamente registrado, receber alvos elegíveis, ser auditado e encaminhado a decisão humana. Atualmente está apenas em desenho local."
+    }
+  ],
+  "applications": [],
+  "connections": [],
+  "commonErrors": [],
+  "learning": [
+    "MAT-EST-056-EX-APR-01",
+    "MAT-EST-056-EX-APR-02",
+    "MAT-EST-056-EX-APR-03",
+    "MAT-EST-056-EX-APR-04",
+    "MAT-EST-056-EX-APR-05",
+    "MAT-EST-056-EX-APR-06",
+    "MAT-EST-056-EX-APR-07",
+    "MAT-EST-056-EX-APR-08",
+    "MAT-EST-056-EX-APR-09",
+    "MAT-EST-056-EX-APR-10"
+  ],
+  "consolidation": [
+    "MAT-EST-056-EX-CON-01",
+    "MAT-EST-056-EX-CON-02",
+    "MAT-EST-056-EX-CON-03",
+    "MAT-EST-056-EX-CON-04",
+    "MAT-EST-056-EX-CON-05",
+    "MAT-EST-056-EX-CON-06",
+    "MAT-EST-056-EX-CON-07",
+    "MAT-EST-056-EX-CON-08",
+    "MAT-EST-056-EX-CON-09",
+    "MAT-EST-056-EX-CON-10"
+  ],
+  "entrance": [
+    "MAT-EST-056-EX-VES-01",
+    "MAT-EST-056-EX-VES-02",
+    "MAT-EST-056-EX-VES-03",
+    "MAT-EST-056-EX-VES-04",
+    "MAT-EST-056-EX-VES-05",
+    "MAT-EST-056-EX-VES-06",
+    "MAT-EST-056-EX-VES-07",
+    "MAT-EST-056-EX-VES-08",
+    "MAT-EST-056-EX-VES-09",
+    "MAT-EST-056-EX-VES-10"
+  ],
+  "retest": [
+    "MAT-EST-056-EX-RET-01",
+    "MAT-EST-056-EX-RET-02",
+    "MAT-EST-056-EX-RET-03",
+    "MAT-EST-056-EX-RET-04",
+    "MAT-EST-056-EX-RET-05",
+    "MAT-EST-056-EX-RET-06"
+  ],
+  "solutions": [],
+  "summary": "## 14. Resumo pronunciável e revisão espaçada\n\n**Versão curta para ouvir:** o protocolo antigo documenta cinco pares e uma violação de guarda em t19; não será reescrito. Um novo estudo precisa de ID, regra, corte e amostra próprios, definidos antes do novo alvo. Nesta aula, t18 a t22 são história examinada; t23 a t25 são alvos ainda sem observado, com cenários já expostos; t26 a t33 são somente planejamento. O erro é observado menos previsto, e a média dos módulos não substitui a checagem da maior piora individual. Pré-registro de verdade precisa de prova temporal externa; nenhum documento local aqui certifica sua execução.\n\n**Revisão:** após a primeira tentativa efetiva, programar retomadas aproximadas um, sete e trinta dias depois — não contar a partir da data de geração deste arquivo. Na primeira revisão, reconstruir em voz alta os três escopos e a guarda t19. Na segunda, resolver itens de redução percentual, vazamento e vintage sem ver a resposta. Na terceira, preencher de memória os seis campos de um plano e responder o reteste independente. Consolidar só depois de resolver, justificar, transferir para situação nova e recuperar o conteúdo após intervalo, nunca por leitura passiva.\n\n",
+  "audioVersion": "## 14. Resumo pronunciável e revisão espaçada\n\n**Versão curta para ouvir:** o protocolo antigo documenta cinco pares e uma violação de guarda em t19; não será reescrito. Um novo estudo precisa de ID, regra, corte e amostra próprios, definidos antes do novo alvo. Nesta aula, t18 a t22 são história examinada; t23 a t25 são alvos ainda sem observado, com cenários já expostos; t26 a t33 são somente planejamento. O erro é observado menos previsto, e a média dos módulos não substitui a checagem da maior piora individual. Pré-registro de verdade precisa de prova temporal externa; nenhum documento local aqui certifica sua execução.\n\n**Revisão:** após a primeira tentativa efetiva, programar retomadas aproximadas um, sete e trinta dias depois — não contar a partir da data de geração deste arquivo. Na primeira revisão, reconstruir em voz alta os três escopos e a guarda t19. Na segunda, resolver itens de redução percentual, vazamento e vintage sem ver a resposta. Na terceira, preencher de memória os seis campos de um plano e responder o reteste independente. Consolidar só depois de resolver, justificar, transferir para situação nova e recuperar o conteúdo após intervalo, nunca por leitura passiva.\n\n",
+  "sections": [
+    {
+      "id": "MAT-EST-056-s000",
+      "title": "Apresentação e contexto da fonte",
+      "paragraphs": [],
+      "markdown": "# MAT-EST-056 — Revisão controlada de experimentos temporais: protocolo sucessor, pré-registro e prevenção de contaminação da avaliação\n\n**Área:** Matemática. **Unidade:** Estatística e séries temporais — nível 6, ponte universitária. **Anterior:** MAT-EST-055. **Próximo proposto:** MAT-EST-057. **Material:** integralmente autoral; zero questões oficiais. **Estado do estudante:** não iniciado; produzir material não demonstra tentativa nem domínio. **Estado da entrega:** apenas produção editorial local.\n\n**Blocos recomendados:** A. De onde vem a contaminação (35 minutos); B. Como especificar um protocolo sucessor (45 minutos); C. Contas, revisão e exercícios (45 minutos). São orientações flexíveis. Se um pré-requisito bloquear a leitura, recuperar operações, média e porcentagem antes de avançar.\n\n",
+      "sourceStart": 0,
+      "sourceEnd": 807
+    },
+    {
+      "id": "MAT-EST-056-s001",
+      "title": "1. Objetivos e pré-requisitos",
+      "paragraphs": [],
+      "markdown": "## 1. Objetivos e pré-requisitos\n\nAo estudar e praticar esta aula, o estudante deverá ser capaz de diferenciar estudo exploratório e confirmatório; separar coortes de teste; justificar a necessidade de um novo identificador para um protocolo sucessor; especificar horizonte, modelos, versões, janelas, métricas, regras de ausência e critérios decisórios antes de conhecer os novos resultados; detectar vazamento informacional; calcular reduções percentuais sem desconsiderar guardas locais; e explicar o que um hash local prova e o que não prova.\n\n**Pré-requisitos:** módulos, números negativos, médias, frações e porcentagens; MAT-EST-047 (erros por horizonte), MAT-EST-049 e 050 (comparação emparelhada e robustez), MAT-EST-051 (desenho futuro), MAT-EST-052 a 054 (registros e versões), MAT-EST-055 (responsabilidades e parecer). A aula avança a metodologia, não presume que a leitura anterior tenha consolidado essas competências.\n\n**Relevância para exames:** ENEM e vestibulares podem exigir interpretação quantitativa, relação entre afirmação e evidência e avaliação de argumentos; o pré-registro detalhado de modelos é aqui uma extensão de ponte universitária, não requisito específico atribuído a ENEM, FUVEST, UNICAMP ou UNESP. Todas as questões são **autorais**, inclusive as de transferência no estilo vestibular.\n\n",
+      "sourceStart": 807,
+      "sourceEnd": 2132
+    },
+    {
+      "id": "MAT-EST-056-s002",
+      "title": "2. Problema intuitivo: um resultado visto não pode voltar a ser surpresa",
+      "paragraphs": [],
+      "markdown": "## 2. Problema intuitivo: um resultado visto não pode voltar a ser surpresa\n\nImagine que alguém compare dois métodos de previsão e, após encontrar uma falha desfavorável ao método preferido, altere a janela, retire a observação problemática e passe a dizer que a nova regra era a inicial. As contas da nova média podem estar corretas aritmeticamente, mas o estudo deixa de responder à pergunta que alegava ter definido antes da observação. O problema não é explorar uma hipótese nova: explorar é útil. O problema é ocultar que ela surgiu depois de examinar o resultado.\n\nHá, portanto, duas perguntas diferentes. **Exploração:** que hipótese os dados já vistos inspiram? **Confirmação:** o que acontece com uma hipótese e uma regra fixadas antes de acessar os novos alvos elegíveis? A confirmação exige um registro de plano e observações futuras realmente novas para essa comparação. As datas declaradas em um arquivo local são apenas texto, não autenticação independente.\n\n![Três escopos temporais](assets/01-tres-escopos-temporais.svg)\n\n**Figura 1.** Texto alternativo: três caixas separam t18–t22, t23–t25 e t26–t33. **Observe:** o primeiro bloco já foi examinado, o segundo contém cenários editoriais mas não observações, e o terceiro é proposto para outro estudo. **Conclusão por áudio:** os cinco pares conhecidos servem de contexto e exploração; os três alvos em quarentena não são resultados; os oito alvos futuros propostos ainda não possuem emissão ou observado autenticados. Figura original do projeto.\n\n",
+      "sourceStart": 2132,
+      "sourceEnd": 3646
+    },
+    {
+      "id": "MAT-EST-056-s003",
+      "title": "3. Estado que não pode ser reescrito",
+      "paragraphs": [],
+      "markdown": "## 3. Estado que não pode ser reescrito\n\nA referência **BASE-SNAIVE-v1**, identificada por B, e o desafiante **CHAL-SDELTA5-v1**, identificado por C, foram comparados em cinco tarefas fictícias com alvos t18 até t22. O protocolo **MAT-EST-049-PROT-v1** exige oito pares e seis condições: pelo menos dois ciclos de quatro períodos, redução mínima de vinte por cento em MAE, redução mínima de vinte por cento em custo médio, nenhuma deterioração local de erro absoluto maior que dez unidades, auditoria de qualidade e autorização humana com reversão planejada. Essas são regras didáticas arbitrárias do acervo, não critérios universais de teste estatístico.\n\nNos cinco pares, MAE B igual a 17,60 unidades e MAE C igual a 8,36 unidades. A redução parcial é:\n\n\\[R_{MAE}=\\frac{17,60-8,36}{17,60}\\cdot100\\%=52,5\\%.\\]\n\nLeitura: dezessete vírgula sessenta menos oito vírgula trinta e seis, dividido por dezessete vírgula sessenta, vezes cem; cinquenta e dois vírgula cinco por cento. No custo fictício médio B igual a 51,20 e C igual a 14,92 pontos, a redução é aproximadamente 70,86 por cento. São bons indicadores médios **dentro dos cinco pares inventados**, mas isso não preenche as outras condições.\n\nNo alvo t19, B estimou 187 e C estimou 206,2, enquanto a observação fictícia foi 183. Pela convenção erro igual a observado menos previsto, o erro B é menos quatro e o erro C é menos vinte e três vírgula dois. Logo, os módulos são quatro e vinte e três vírgula dois. A deterioração de C relativamente a B é:\n\n\\[d_{19}=|e_{C,19}|-|e_{B,19}|=23,2-4=19,2.\\]\n\nLeitura: módulo do erro de C menos módulo do erro de B resulta em dezenove vírgula dois. Como dezenove vírgula dois é maior que o limite dez, a guarda antiga foi violada. **Não promover C sob MAT-EST-049-PROT-v1.** Mesmo três novos pares favoráveis sob o plano antigo não apagariam o fato histórico. O parecer MAT-EST-055-PARECER-DIDATICO-v1 mantém esta síntese e não representa assinatura ou decisão operacional real.\n\n![Guarda histórica](assets/03-guarda-historica.svg)\n\n**Figura 3.** Texto alternativo: o erro absoluto em t19 foi quatro para B e vinte e três vírgula dois para C; diferença dezenove vírgula dois, acima do limite de dez. **Observe:** uma média agregada e uma restrição local respondem a perguntas diferentes. **Conclusão por áudio:** melhora média não cancela quebra de guarda; o resultado histórico permanece guardado em arquivo. Figura original.\n\n",
+      "sourceStart": 3646,
+      "sourceEnd": 6068
+    },
+    {
+      "id": "MAT-EST-056-s004",
+      "title": "4. O que significa pré-registro, exatamente?",
+      "paragraphs": [],
+      "markdown": "## 4. O que significa pré-registro, exatamente?\n\nPré-registro é tornar verificável a versão do plano antes de examinar os resultados que servirão para julgá-lo. O [Open Science Framework, ou OSF, descreve o pré-registro](https://help.osf.io/article/330-welcome-to-registrations) como um plano com versão somente de leitura, marca temporal e submissão a repositório antes da coleta ou análise. Um **rascunho editorial local** como o produzido nesta aula é preparação desse processo, não comprovação de pré-registro real em OSF ou em qualquer outro repositório.\n\nDevem ser especificados: pergunta e hipótese; população, amostra e horizonte; versões dos modelos, fórmulas, dados e corte temporal; métricas, unidades e sinal; critérios de elegibilidade e exclusão; tratamento de atraso e retificações; guardas e regras decisórias; análises auxiliares e distinção entre análise confirmatória e exploratória; rastros de alterações, auditoria e autorização. Se o procedimento mudar porque a análise já revelou algo inconveniente, essa mudança merece uma **emenda explícita**, com efeito prospectivo e histórico preservado. Uma emenda não transmuta em teste novo os resultados que a motivaram.\n\n![Seis campos para um pré-registro](assets/05-pre-registro-seis-campos.svg)\n\n**Figura 5.** Texto alternativo: seis caixas apresentam hipótese, janela, algoritmos, métricas, guarda e tratamento de desvios. **Observe:** o desenho contém regras de inclusão e decisão, não apenas o nome de um modelo. **Conclusão por áudio:** sem definir antecipadamente como contar e julgar os casos, resultados posteriores podem ser reinterpretados de modo arbitrário. Figura original.\n\n### Por que um hash não basta?\n\nO resumo criptográfico SHA-256 permite conferir se bytes de um arquivo continuam iguais aos bytes esperados. Mas alguém pode criar um arquivo depois do resultado, inserir uma data anterior e calcular seu hash nesse momento. O valor criptográfico não comprova autoria pessoal nem existência anterior ao alvo. Para alegar pré-registro autêntico seriam necessários controles externos verificáveis de registro, acesso, hora, identidade e versão. Este pacote não possui tais provas. O campo `public_registry.status` do desenho sucessor está explicitamente marcado como não submetido.\n\n",
+      "sourceStart": 6068,
+      "sourceEnd": 8335
+    },
+    {
+      "id": "MAT-EST-056-s005",
+      "title": "5. Separar tempo de desenvolvimento e tempo de confirmação",
+      "paragraphs": [],
+      "markdown": "## 5. Separar tempo de desenvolvimento e tempo de confirmação\n\nO documento **MAT-EST-056-PROT-SUC-v1** foi criado aqui como **proposta didática local**, sem execução. Mantém o protocolo MAT-EST-049-PROT-v1 intocado e evita reaproveitar como confirmação os alvos cujo resultado ou cenário já foi examinado. A separação conservadora sugerida é:\n\n| Intervalo | Situação na continuidade | Uso no protocolo sucessor |\n|---|---|---|\n| t18–t22 | Cinco pares fictícios conhecidos; a guarda t19 falhou | Contexto exploratório; fora do denominador novo |\n| t23–t25 | Nenhum observado nem emissão autenticada; cenários divulgados | Quarentena editorial; não reclassificar como confirmação |\n| t26–t33 | Oito alvos propostos; zero observados e zero emissões | Futura coorte elegível, somente após condições prévias e comprovação temporal |\n| Exemplos V e Z | Casos isolados de versões de dados | Material pedagógico, não pares do modelo principal |\n\nA síntese por áudio é que os alvos históricos já foram vistos, os três próximos estão sem observado embora cenários tenham sido discutidos, e os oito mais distantes são somente um plano. A quarentena é uma opção conservadora deste exercício; não é regra estatística para toda série temporal.\n\nA recomendação bibliográfica de [Hyndman e Athanasopoulos sobre validação cruzada temporal](https://otexts.com/fpp3/tscv.html) fundamenta a separação das origens: cada previsão deve ser construída apenas com dados anteriores ao seu alvo. A avaliação por origem deslizante não autoriza reutilizar futuro na preparação do passado.\n\n",
+      "sourceStart": 8335,
+      "sourceEnd": 9896
+    },
+    {
+      "id": "MAT-EST-056-s006",
+      "title": "6. Protocolo sucessor didático: uma proposta verificável, não um estudo executado",
+      "paragraphs": [],
+      "markdown": "## 6. Protocolo sucessor didático: uma proposta verificável, não um estudo executado\n\n**Identificador proposto:** MAT-EST-056-PROT-SUC-v1. **Objeto:** comparar B e C, horizonte um período, em oito alvos exclusivos propostos t26 a t33. **Situação:** apenas desenho local; pré-registro externo não submetido; nenhuma assinatura; zero emissões e observações. O modelo não mudou de identidade nesta aula, e o custo histórico também não foi reescrito.\n\nAs fórmulas para a previsão do alvo t na origem t menos um permanecem:\n\n\\[B_t=y_{t-4}.\\]\n\nLeitura: B para t é o observado de quatro períodos antes, mantendo a estação comparável.\n\n\\[C_t=y_{t-4}+\\frac15\\sum_{j=t-5}^{t-1}(y_j-y_{j-4}).\\]\n\nLeitura: C é o observado de quatro períodos antes, mais a média de cinco diferenças sazonais, cada uma calculada como o observado j menos o observado quatro períodos antes de j. Para emitir C para t26, a janela j21 até j25 exigiria dados até y25; hoje, y23 a y25 não foram registrados, logo **não existe aqui previsão numérica C26**. B26 corresponderia a y22, conhecido como 193, mas mencionar essa expressão matemática não prova emissão t25. Não criar registro com hora inventada para cobrir esse vazio.\n\n**Critérios propostos** (os mesmos números usados como exemplo de desenho, agora em **outro ID e outra coorte**): oito pares elegíveis, redução de MAE pelo menos vinte por cento, redução do custo médio pelo menos vinte por cento, piora local máxima de dez unidades, auditoria da qualidade de entradas e autorização humana verdadeira com plano de reversão. Nenhum critério está atualmente satisfeito ou refutado na nova coorte porque **não há resultados**. Os oito não equivalem a amostra inferencial suficiente em geral; trata-se de limiar fictício de exercício, não de garantia de generalização.\n\n**Proveniência mínima por emissão futura:** identificador de evento, protocolo, versões de modelos e algoritmo, origem, alvo, horizonte, valor e unidade, snapshot de dados, maior período usado e evidência externa de ordem temporal. **Por observação:** alvo, fonte, versão, momento de disponibilidade, validação e ligação com eventual retificação. **Por par:** referenciar duas emissões anteriores ao alvo e uma única versão validada por alvo. Exigir que a prova de ordem temporal preceda a recepção de y-alvo; uma reconstituição a posteriori só pode ser chamada de reconstrução.\n\n**Contingências:** se o observado atrasar, marcar pendente, sem substituir por zero. Se for retificado, manter a previsão fixa e reavaliar separadamente cada vintage. Se não houver oito pares elegíveis, descrever a incompletude e suspender conclusão sob este desenho; não selecionar somente alvos favoráveis. Se uma exclusão inesperada for proposta depois da leitura do resultado, apresentá-la como desvio e análise exploratória, ou registrar outro protocolo prospectivo; jamais alterar silenciosamente a versão congelada.\n\n![Linha do tempo sem vazamento](assets/02-linha-temporal-sem-vazamento.svg)\n\n**Figura 2.** Texto alternativo: validação até t25 precede congelamento e emissão para t26; y26 chega depois. **Observe:** os dados usados na previsão precisam anteceder o alvo. **Conclusão por áudio:** se o próprio observado do alvo entrar no cálculo antes da previsão, a avaliação externa fica comprometida. Figura original.\n\n",
+      "sourceStart": 9896,
+      "sourceEnd": 13194
+    },
+    {
+      "id": "MAT-EST-056-s007",
+      "title": "7. Derivando métricas de um teste realmente emparelhado",
+      "paragraphs": [],
+      "markdown": "## 7. Derivando métricas de um teste realmente emparelhado\n\nPara cada futuro alvo elegível, os modelos devem compartilhar a mesma informação disponível e a mesma versão validada do observado. Define-se erro assinado como:\n\n\\[e_{B,t}=y_t-B_t,\\qquad e_{C,t}=y_t-C_t.\\]\n\nLeitura: para cada modelo, subtraia do observado sua previsão, sempre na mesma unidade. O erro absoluto de cada um é o módulo desse resultado.\n\nSe e somente se os oito pares planejados forem validados, as duas médias de erro absoluto serão:\n\n\\[MAE_B=\\frac{\\sum_{t=26}^{33}|e_{B,t}|}{8},\\quad MAE_C=\\frac{\\sum_{t=26}^{33}|e_{C,t}|}{8}.\\]\n\nLeitura: somar os oito erros absolutos elegíveis de cada modelo e dividir por oito. Se existirem só sete pares, escrever “sete de oito pendentes de conclusão” na apresentação confirmatória em vez de modificar sem explicação a regra.\n\nO custo assimétrico **da proposta didática** conserva a regra de peso três para subprevisão e peso um para superprevisão:\n\n\\[K(e)=3\\max(e,0)+\\max(-e,0).\\]\n\nLeitura: o custo é três vezes a parte positiva do erro, somado à parte negativa tomada em módulo. A piora local é:\n\n\\[D_t=|e_{C,t}|-|e_{B,t}|.\\]\n\nLeitura: módulo de C menos módulo de B; valores positivos mostram deterioração de C, valores negativos mostram melhora. A regra de guarda é conferir se **algum** D em alvo elegível ultrapassa dez, não apenas a média de D.\n\n### Exemplo independente e integralmente resolvido, fora da série t\n\nImagine um alvo fictício de demonstração sem código temporal da série: observado cento e dez, previsão B cento e cinco e C cento e doze. O erro de B é cento e dez menos cento e cinco, igual a mais cinco; o erro de C é cento e dez menos cento e doze, igual a menos dois. Os módulos são cinco e dois. A piora de C é dois menos cinco, igual a menos três: C melhora o erro absoluto em três unidades. Pela regra de custo, B custa três vezes cinco, igual a quinze pontos; C custa dois pontos. **Esse exemplo não representa observação ou emissão t26–t33.** Serve apenas para aprender a operação antes de aplicá-la a dados realmente elegíveis.\n\n",
+      "sourceStart": 13194,
+      "sourceEnd": 15265
+    },
+    {
+      "id": "MAT-EST-056-s008",
+      "title": "8. Três formas de contaminação e seus antídotos",
+      "paragraphs": [],
+      "markdown": "## 8. Três formas de contaminação e seus antídotos\n\n**Contaminação por alvo futuro:** usar y do próprio alvo ou outra informação indisponível na origem para gerar previsão. Antídoto: versionar o snapshot por origem, registrar maior período de entrada e verificar temporalmente a sequência emissão → observado → avaliação.\n\n**Contaminação por escolha após ver o erro:** trocar a janela, o peso do custo, o modelo preferido ou a regra de exclusão depois de inspecionar os resultados, fingindo compromisso anterior. Antídoto: plano específico anterior e relatório com duas colunas conceituais: análises previstas e explorações novas. O leitor deve conseguir reconstruir qual decisão veio antes de qual evidência.\n\n**Contaminação por compartilhamento de tarefas:** contar uma mesma data-alvo repetida, várias vintages do mesmo observado, ou casos pedagógicos V e Z como se cada entrada adicionasse uma nova observação independente da série principal. Antídoto: identificador único de par por alvo e horizonte, registro separado de versões e origem; não dobrar o denominador.\n\n![Duas categorias de análise](assets/04-dois-caminhos-de-analise.svg)\n\n**Figura 4.** Texto alternativo: análise confirmatória usa compromisso antes do resultado; análise exploratória apresenta hipótese surgida depois, com rótulo explícito. **Observe:** explorar não é proibido; ocultar a ordem dos acontecimentos prejudica a validade do argumento. **Conclusão por áudio:** hipóteses novas exigem novos dados quando se deseja avaliá-las como confirmação independente. Figura original.\n\n",
+      "sourceStart": 15265,
+      "sourceEnd": 16822
+    },
+    {
+      "id": "MAT-EST-056-s009",
+      "title": "9. Versões de dados, de modelos e de regras não são a mesma coisa",
+      "paragraphs": [],
+      "markdown": "## 9. Versões de dados, de modelos e de regras não são a mesma coisa\n\nA retificação de uma observação muda os valores que entram no relatório; não dá licença para editar uma previsão congelada. Os casos isolados ajudam a enxergar isso. No **EXEMPLO-Z**, previsão 29, preliminar 30 e validada 32: o erro muda de um para três. No **EXEMPLO-V**, previsões B42 e C43, preliminar 40 e validada 44: módulos de B e C mudam de dois/três para dois/um. Esses casos continuam didáticos e não pertencem ao denominador principal.\n\nUma atualização do algoritmo de C exigiria uma versão de **modelo** nova. Uma alteração do limiar ou da janela confirmatória exigiria uma versão de **protocolo** nova, com escopo temporal separado. Um novo registro deve apontar o antecedente, explicar motivo, data, informação disponível naquele momento e a partir de quais alvos a emenda poderia valer. Versões posteriores não apagam relatórios históricos. Consulte também o relatório de auditoria herdado em `relatorios/relatorio-auditoria.json` para estudar a reavaliação por vintage.\n\n",
+      "sourceStart": 16822,
+      "sourceEnd": 17879
+    },
+    {
+      "id": "MAT-EST-056-s010",
+      "title": "10. O que um desenho local pode afirmar?",
+      "paragraphs": [],
+      "markdown": "## 10. O que um desenho local pode afirmar?\n\nA proposta foi redigida e teve seus bytes verificados neste pacote. O documento não foi depositado como pré-registro em repositório externo, não recebeu selo de tempo independente, não produziu previsões reais, não captou y23–y33 e não obteve assinatura humana. Portanto, seu status é **rascunho editorial**, não experimento realizado. O ID MAT-EST-056-PROT-SUC-v1 identifica a peça didática e não autoriza sua promoção automática a uma aplicação externa.\n\n![Máquina de estados](assets/06-maquina-de-estados.svg)\n\n**Figura 6.** Texto alternativo: estado atual “rascunho local”, seguido por registro externo, emissões elegíveis e avaliação/decisão, todos pendentes. **Observe:** não existe seta que vá diretamente do rascunho para um resultado. **Conclusão por áudio:** planejar, comprovar o compromisso temporal, executar e avaliar são atividades distintas. Figura original.\n\n",
+      "sourceStart": 17879,
+      "sourceEnd": 18800
+    },
+    {
+      "id": "MAT-EST-056-s011",
+      "title": "11. Erros frequentes e relações entre áreas",
+      "paragraphs": [],
+      "markdown": "## 11. Erros frequentes e relações entre áreas\n\nErros frequentes: afirmar que uma queda média “compensa” a piora local t19; mudar o peso do custo de três para cinco sem criar estudo próprio; rebatizar cenário t23 como medição; chamar um arquivo com data escrita de pré-registro autenticado; usar a mesma observação em várias versões como pares independentes; transformar ausência em zero; confundir B26=y22 como emissão comprovada; reduzir de oito para sete pares após conhecer o resultado sem mencionar mudança; e confundir documento elaborado com aprovação humana.\n\nAs aplicações conectam Matemática (funções definidas por partes, percentuais, módulo, média, amostragem), Computação (snapshots, versões, hashes e testes automatizados), Língua Portuguesa e Redação (argumento com ressalvas e escopo) e metodologia científica (hipóteses, critérios de inclusão, transparência de desvios). Os números não são dados de saúde, finanças ou serviço público; nenhuma decisão administrativa real deriva desta simulação.\n\n",
+      "sourceStart": 18800,
+      "sourceEnd": 19813
+    },
+    {
+      "id": "MAT-EST-056-s012",
+      "title": "12. Vídeo complementar e fontes",
+      "paragraphs": [],
+      "markdown": "## 12. Vídeo complementar e fontes\n\n**Vídeo:** [Simplifying the Preregistration Process (Video)](https://help.osf.io/article/626-simplifying-the-preregistration-process), suporte oficial OSF, inglês. **Duração:** não exibida na página consultada. **Por que assistir:** apresenta por que registrar um plano antes de coletar dados e como documentar desvios posteriormente. **Quando:** depois da seção quatro, para relacionar nossa ficha editorial à prática de registro externo. **Verificação:** a página de suporte e sua indicação de vídeo estavam acessíveis em 29 de setembro de 2026; a reprodução integral do vídeo incorporado não foi testada. A explicação desta aula é autossuficiente sem o vídeo.\n\nLeitura adicional: [OSF — Registrations & Preregistrations](https://help.osf.io/article/330-welcome-to-registrations); [Hyndman e Athanasopoulos — avaliação por origem deslizante](https://otexts.com/fpp3/tscv.html) e [avaliação de precisão de previsões](https://otexts.com/fpp3/accuracy.html). Esses textos embasam os **conceitos gerais**; os IDs, valores, guardas, modelos e escolhas de quarentena pertencem ao acervo autoral do projeto.\n\n",
+      "sourceStart": 19813,
+      "sourceEnd": 20953
+    },
+    {
+      "id": "MAT-EST-056-s013",
+      "title": "13. Exercícios em três camadas e correção separada",
+      "paragraphs": [],
+      "markdown": "## 13. Exercícios em três camadas e correção separada\n\nO arquivo `exercicios.md` oferece dez atividades básicas, dez de consolidação, dez de transferência autoral no estilo de vestibulares e seis de reteste para momento posterior, num total de 36 IDs únicos. Há a versão estruturada `exercicios.json`. O raciocínio completo e sugestões de possíveis motivos de erro ficam apenas no `gabarito-comentado.md` e no respectivo JSON, a consultar **depois da tentativa**. Nenhum item é prova oficial ou avalia automaticamente o estudante. Se houver dificuldade na regra de sinal, volte ao exemplo de 110 antes de tentar os itens de custo.\n\n",
+      "sourceStart": 20953,
+      "sourceEnd": 21585
+    },
+    {
+      "id": "MAT-EST-056-s014",
+      "title": "14. Resumo pronunciável e revisão espaçada",
+      "paragraphs": [],
+      "markdown": "## 14. Resumo pronunciável e revisão espaçada\n\n**Versão curta para ouvir:** o protocolo antigo documenta cinco pares e uma violação de guarda em t19; não será reescrito. Um novo estudo precisa de ID, regra, corte e amostra próprios, definidos antes do novo alvo. Nesta aula, t18 a t22 são história examinada; t23 a t25 são alvos ainda sem observado, com cenários já expostos; t26 a t33 são somente planejamento. O erro é observado menos previsto, e a média dos módulos não substitui a checagem da maior piora individual. Pré-registro de verdade precisa de prova temporal externa; nenhum documento local aqui certifica sua execução.\n\n**Revisão:** após a primeira tentativa efetiva, programar retomadas aproximadas um, sete e trinta dias depois — não contar a partir da data de geração deste arquivo. Na primeira revisão, reconstruir em voz alta os três escopos e a guarda t19. Na segunda, resolver itens de redução percentual, vazamento e vintage sem ver a resposta. Na terceira, preencher de memória os seis campos de um plano e responder o reteste independente. Consolidar só depois de resolver, justificar, transferir para situação nova e recuperar o conteúdo após intervalo, nunca por leitura passiva.\n\n",
+      "sourceStart": 21585,
+      "sourceEnd": 22791
+    },
+    {
+      "id": "MAT-EST-056-s015",
+      "title": "15. Próximo passo editorial e limites de execução",
+      "paragraphs": [],
+      "markdown": "## 15. Próximo passo editorial e limites de execução\n\n**MAT-EST-057 (proposto):** Registro de desvios e auditoria prospectiva simulada: pendências, exclusões e relatório por coorte sem inventar alvos futuros. Ainda não iniciado.\n\n**Limites expressos:** pacote produzido apenas localmente; não publicado no site, Drive ou GitHub; sem teste manual no Edge; sem certificação temporal externa, assinatura, execução de estudo ou reprodução integral do vídeo. Progresso individual permanece **não iniciado** por ausência de evidência de estudo ou tentativa. O projeto continua a partir deste checkpoint, não cria nova trilha.\n",
+      "sourceStart": 22791,
+      "sourceEnd": 23411
+    }
+  ],
+  "sources": [
+    {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    }
+  ],
+  "previous": "MAT-EST-055",
+  "next": "MAT-EST-057",
+  "videos": [
+    {
+      "title": "Simplifying the Preregistration Process (Video)",
+      "channel": "Open Science Framework (OSF) — suporte oficial",
+      "url": "https://help.osf.io/article/626-simplifying-the-preregistration-process",
+      "duration": "não confirmada",
+      "language": "inglês",
+      "reason": "compreender plano anterior aos resultados e transparência de mudanças",
+      "when": "depois da seção 4",
+      "reinforces": [],
+      "checkedAt": "2026-10-03",
+      "verification": "Disponibilidade da página institucional conferida em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+      "type": "video"
+    }
+  ],
+  "video": {
+    "title": "Simplifying the Preregistration Process (Video)",
+    "channel": "Open Science Framework (OSF) — suporte oficial",
+    "url": "https://help.osf.io/article/626-simplifying-the-preregistration-process",
+    "duration": "não confirmada",
+    "language": "inglês",
+    "reason": "compreender plano anterior aos resultados e transparência de mudanças",
+    "when": "depois da seção 4",
+    "reinforces": [],
+    "checkedAt": "2026-10-03",
+    "verification": "Disponibilidade da página institucional conferida em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+    "type": "video"
+  },
+  "publication": {
+    "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+    "notes": [
+      "A produção e a publicação não registram domínio nem alteram seu progresso.",
+      "Aula avançada para consulta. A sequência de fundamentos ainda tem textos integrais a recuperar; confira os pré-requisitos antes de iniciar.",
+      "As referências a publicação pendente no texto original registram o estado da fonte na data de criação."
+    ],
+    "original": "originais/MAT-EST-056/aula.md",
+    "editions": [],
+    "attachments": [
+      {
+        "label": "plano-avaliacao-MAT-EST-051.json",
+        "url": "originais/MAT-EST-056/arquivos/plano-avaliacao-MAT-EST-051.json"
+      },
+      {
+        "label": "manifesto-sha256.txt",
+        "url": "originais/MAT-EST-056/arquivos/manifesto-sha256.txt"
+      },
+      {
+        "label": "protocolo-herdado-MAT-EST-049.json",
+        "url": "originais/MAT-EST-056/arquivos/protocolo-herdado-MAT-EST-049.json"
+      },
+      {
+        "label": "relatorio-integridade.json",
+        "url": "originais/MAT-EST-056/arquivos/relatorio-integridade.json"
+      },
+      {
+        "label": "gabarito-comentado.json",
+        "url": "originais/MAT-EST-056/arquivos/gabarito-comentado.json"
+      },
+      {
+        "label": "metadados.json",
+        "url": "originais/MAT-EST-056/arquivos/metadados.json"
+      },
+      {
+        "label": "exercicios.json",
+        "url": "originais/MAT-EST-056/arquivos/exercicios.json"
+      },
+      {
+        "label": "checkpoint-editorial.json",
+        "url": "originais/MAT-EST-056/arquivos/checkpoint-editorial.json"
+      },
+      {
+        "label": "PROMPT-TRANSICAO-NOVO-CHAT.txt",
+        "url": "originais/MAT-EST-056/arquivos/PROMPT-TRANSICAO-NOVO-CHAT.txt"
+      },
+      {
+        "label": "dados/politicas-de-vintage.json",
+        "url": "originais/MAT-EST-056/arquivos/dados/politicas-de-vintage.json"
+      },
+      {
+        "label": "dados/serie-herdada-t01-t12.csv",
+        "url": "originais/MAT-EST-056/arquivos/dados/serie-herdada-t01-t12.csv"
+      },
+      {
+        "label": "dados/matriz-estados.csv",
+        "url": "originais/MAT-EST-056/arquivos/dados/matriz-estados.csv"
+      },
+      {
+        "label": "dados/cenarios-herdados-t23-nao-observados.csv",
+        "url": "originais/MAT-EST-056/arquivos/dados/cenarios-herdados-t23-nao-observados.csv"
+      },
+      {
+        "label": "dados/diferencas-sazonais-t13-t22.csv",
+        "url": "originais/MAT-EST-056/arquivos/dados/diferencas-sazonais-t13-t22.csv"
+      },
+      {
+        "label": "dados/EXEMPLO-V-reavaliacao.csv",
+        "url": "originais/MAT-EST-056/arquivos/dados/EXEMPLO-V-reavaliacao.csv"
+      },
+      {
+        "label": "dados/chegadas-novas-simuladas-t19-t22.csv",
+        "url": "originais/MAT-EST-056/arquivos/dados/chegadas-novas-simuladas-t19-t22.csv"
+      },
+      {
+        "label": "dados/EXEMPLO-V-versoes.csv",
+        "url": "originais/MAT-EST-056/arquivos/dados/EXEMPLO-V-versoes.csv"
+      },
+      {
+        "label": "dados/chegadas-simuladas-t13-t18.csv",
+        "url": "originais/MAT-EST-056/arquivos/dados/chegadas-simuladas-t13-t18.csv"
+      },
+      {
+        "label": "dados/plano-emissoes-pendentes-t23-t25.csv",
+        "url": "originais/MAT-EST-056/arquivos/dados/plano-emissoes-pendentes-t23-t25.csv"
+      },
+      {
+        "label": "dados/projecoes-ilustrativas-t23.csv",
+        "url": "originais/MAT-EST-056/arquivos/dados/projecoes-ilustrativas-t23.csv"
+      },
+      {
+        "label": "dados/EXEMPLO-V-eventos.jsonl",
+        "url": "originais/MAT-EST-056/arquivos/dados/EXEMPLO-V-eventos.jsonl"
+      },
+      {
+        "label": "dados/ensaio-eventos-EXEMPLO-Z.jsonl",
+        "url": "originais/MAT-EST-056/arquivos/dados/ensaio-eventos-EXEMPLO-Z.jsonl"
+      },
+      {
+        "label": "dados/registro-emissoes-h1.csv",
+        "url": "originais/MAT-EST-056/arquivos/dados/registro-emissoes-h1.csv"
+      },
+      {
+        "label": "dados/comparacao-emparelhada-t18-t22.csv",
+        "url": "originais/MAT-EST-056/arquivos/dados/comparacao-emparelhada-t18-t22.csv"
+      },
+      {
+        "label": "dados/dependencias-simbolicas-t24-t25.csv",
+        "url": "originais/MAT-EST-056/arquivos/dados/dependencias-simbolicas-t24-t25.csv"
+      },
+      {
+        "label": "dados/cartoes-casos-didaticos.csv",
+        "url": "originais/MAT-EST-056/arquivos/dados/cartoes-casos-didaticos.csv"
+      },
+      {
+        "label": "governanca/testar-pacote.py",
+        "url": "originais/MAT-EST-056/arquivos/governanca/testar-pacote.py"
+      },
+      {
+        "label": "governanca/hashes-herdados.json",
+        "url": "originais/MAT-EST-056/arquivos/governanca/hashes-herdados.json"
+      },
+      {
+        "label": "governanca/responsabilidades.csv",
+        "url": "originais/MAT-EST-056/arquivos/governanca/responsabilidades.csv"
+      },
+      {
+        "label": "governanca/trilha-exemplo.jsonl",
+        "url": "originais/MAT-EST-056/arquivos/governanca/trilha-exemplo.jsonl"
+      },
+      {
+        "label": "governanca/criterios-e-responsabilidades.json",
+        "url": "originais/MAT-EST-056/arquivos/governanca/criterios-e-responsabilidades.json"
+      },
+      {
+        "label": "governanca/parecer-didatico.json",
+        "url": "originais/MAT-EST-056/arquivos/governanca/parecer-didatico.json"
+      },
+      {
+        "label": "relatorios/relatorio-auditoria.json",
+        "url": "originais/MAT-EST-056/arquivos/relatorios/relatorio-auditoria.json"
+      },
+      {
+        "label": "relatorios/conciliacao-de-versoes.csv",
+        "url": "originais/MAT-EST-056/arquivos/relatorios/conciliacao-de-versoes.csv"
+      },
+      {
+        "label": "auditoria/testar_auditoria.py",
+        "url": "originais/MAT-EST-056/arquivos/auditoria/testar_auditoria.py"
+      },
+      {
+        "label": "auditoria/recalcular_relatorios.py",
+        "url": "originais/MAT-EST-056/arquivos/auditoria/recalcular_relatorios.py"
+      },
+      {
+        "label": "protocolo-sucessor/testar-pacote.py",
+        "url": "originais/MAT-EST-056/arquivos/protocolo-sucessor/testar-pacote.py"
+      },
+      {
+        "label": "protocolo-sucessor/matriz-escopo.csv",
+        "url": "originais/MAT-EST-056/arquivos/protocolo-sucessor/matriz-escopo.csv"
+      },
+      {
+        "label": "protocolo-sucessor/diario-editorial.jsonl",
+        "url": "originais/MAT-EST-056/arquivos/protocolo-sucessor/diario-editorial.jsonl"
+      },
+      {
+        "label": "protocolo-sucessor/MAT-EST-056-PROT-SUC-v1.json",
+        "url": "originais/MAT-EST-056/arquivos/protocolo-sucessor/MAT-EST-056-PROT-SUC-v1.json"
+      }
+    ],
+    "questionCount": 36,
+    "visualCount": 6,
+    "sourceSha256": "965606a6ec0120194ff3e2921a4afdc9ff3acad31a6a1839a5cba9055ffddd2e"
+  }
+}

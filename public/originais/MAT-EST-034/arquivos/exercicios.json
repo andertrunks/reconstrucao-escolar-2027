@@ -1,0 +1,1046 @@
+[
+  {
+    "id": "MAT-EST-034-EX-APR-01",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Pergunta verificável",
+    "enunciado": "No projeto sintético de oito dias, formule uma pergunta quantitativa verificável sobre a demanda e diga qual é a variável-alvo.",
+    "resposta": "Pergunta: como A e B se comparam ao prever atendimentos dos dias 5 a 8? Alvo: atendimentos observados por dia.",
+    "resolucao": [
+      "A pergunta precisa definir unidade, período e medida de comparação.",
+      "A variável-alvo é a contagem diária realizada; previsões são valores produzidos antes de observar cada resultado."
+    ],
+    "habilidade": "formular pergunta",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Identificar o que o enunciado permite concluir; diferenciar descrição, previsão e causalidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-APR-02",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Origem da base",
+    "enunciado": "Os oito registros da tabela são uma pesquisa real sobre um município? É possível fazer inferência populacional direta?",
+    "resposta": "Não: dados integralmente inventados para aprendizagem, sem população aleatória definida.",
+    "resolucao": [
+      "Um exemplo fictício ilustra cálculos, mas não informa uma taxa ou média real de município algum.",
+      "Não há amostragem probabilística nem tamanho suficiente para garantia de generalização."
+    ],
+    "habilidade": "distinguir simulação de observação",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Identificar o que o enunciado permite concluir; diferenciar descrição, previsão e causalidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-APR-03",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Unidade e horizonte",
+    "enunciado": "Qual é a unidade do alvo e qual é o horizonte de cada previsão neste projeto?",
+    "resposta": "Contagem de atendimentos por dia; previsão para cada dia correspondente.",
+    "resolucao": [
+      "A unidade é atendimentos, não porcentagem; a observação corresponde ao dia indicado.",
+      "Comparações entre previsões devem preservar mesmo alvo e horizonte."
+    ],
+    "habilidade": "dicionário de dados",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Identificar o que o enunciado permite concluir; diferenciar descrição, previsão e causalidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-APR-04",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Média observada no teste",
+    "enunciado": "Calcule a média de atendimentos observados nos dias 5 a 8: 90, 110, 130 e 100.",
+    "resposta": "107,5 atendimentos por dia.",
+    "resolucao": [
+      "Soma: 90+110+130+100=430.",
+      "Divisão: 430/4=107,5. É descrição desses quatro dias, não média de uma população ampla."
+    ],
+    "habilidade": "média aritmética",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-APR-05",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Mediana do teste",
+    "enunciado": "Determine a mediana de 90, 110, 130, 100.",
+    "resposta": "105 atendimentos.",
+    "resolucao": [
+      "Ordene: 90, 100, 110, 130.",
+      "Como há quatro observações, faça (100+110)/2=105."
+    ],
+    "habilidade": "mediana",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-APR-06",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Períodos separados",
+    "enunciado": "Quais dias são referência e quais foram preservados como teste no banco? Por que não embaralhá-los sem justificativa?",
+    "resposta": "Referência: dias 1–4; teste: dias 5–8. A ordem cronológica importa para representar previsão temporal.",
+    "resolucao": [
+      "O arquivo contém o campo particao com esses valores.",
+      "Misturar futuro com passado pode introduzir informação indisponível na data de previsão."
+    ],
+    "habilidade": "separação temporal",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Definir pergunta, critério, partição e método antes de calcular.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-APR-07",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Convenção de sinal",
+    "enunciado": "No dia 5, a demanda foi 90 e A previu 95. Usando e = observado − previsto, calcule e.",
+    "resposta": "−5 atendimentos; A superestimou a demanda em cinco.",
+    "resolucao": [
+      "Subtraia 90−95=−5.",
+      "Sinal negativo indica excesso de previsão; positivo indica demanda acima da prevista."
+    ],
+    "habilidade": "resíduo com sinal",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-APR-08",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "MAE do modelo A",
+    "enunciado": "No teste, os erros assinados de A são −5, +5, +5 e −5. Calcule MAE.",
+    "resposta": "5 atendimentos.",
+    "resolucao": [
+      "Use valores absolutos: 5+5+5+5=20.",
+      "MAE=20/4=5 atendimentos."
+    ],
+    "habilidade": "erro absoluto médio",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-APR-09",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Erro extremo de B",
+    "enunciado": "Nos dias 5–8, B prevê 90, 110, 130 e 125. Qual é seu maior erro absoluto?",
+    "resposta": "25 atendimentos, no dia 8.",
+    "resolucao": [
+      "Os valores observados são 90,110,130,100.",
+      "Diferenças: 0,0,0,−25; maior módulo 25."
+    ],
+    "habilidade": "erro extremo",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-APR-10",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Natureza da conclusão",
+    "enunciado": "A frase “A teve MAE 5 nos quatro dias de teste; logo será exato para sempre” é aceitável?",
+    "resposta": "Não. A primeira parte é descritiva; a extrapolação é indevida.",
+    "resolucao": [
+      "O teste tem só quatro dias fictícios e não representa todos os contextos futuros.",
+      "Descreva recorte, métrica e limitações, sem garantia de perpetuação do resultado."
+    ],
+    "habilidade": "linguagem inferencial",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Identificar o que o enunciado permite concluir; diferenciar descrição, previsão e causalidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-CON-01",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Baseline: erro médio",
+    "enunciado": "A referência simples prevê 100 atendimentos em todos os dias. Calcule seu MAE no teste.",
+    "resposta": "12,5 atendimentos.",
+    "resolucao": [
+      "Erros assinados: −10,+10,+30,0; módulos:10,10,30,0.",
+      "Soma 50; MAE=50/4=12,5."
+    ],
+    "habilidade": "baseline",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-CON-02",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Baseline: penalização de extremos",
+    "enunciado": "Calcule RMSE da previsão fixa 100 nos dias 5 a 8.",
+    "resposta": "Raiz quadrada de 275, aproximadamente 16,58 atendimentos.",
+    "resolucao": [
+      "Quadrados dos erros:100,100,900,0; soma 1100.",
+      "MSE=1100/4=275; RMSE=√275≈16,58."
+    ],
+    "habilidade": "RMSE",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-CON-03",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "MAE e RMSE de B",
+    "enunciado": "Os erros de B no teste são 0, 0, 0 e −25. Determine MAE e RMSE.",
+    "resposta": "MAE 6,25; RMSE 12,5 atendimentos.",
+    "resolucao": [
+      "MAE=(0+0+0+25)/4=6,25.",
+      "RMSE=√(625/4)=√156,25=12,5. Um erro extremo eleva mais o RMSE."
+    ],
+    "habilidade": "comparar métricas",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-CON-04",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Viés médio observado",
+    "enunciado": "Qual é o erro médio assinado (observado − previsto) de B nos quatro dias de teste?",
+    "resposta": "−6,25 atendimentos por dia.",
+    "resolucao": [
+      "Soma dos erros 0+0+0−25=−25.",
+      "Divida por quatro: −6,25; neste pequeno conjunto B superestimou a demanda em média."
+    ],
+    "habilidade": "erro médio",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-CON-05",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Custo da previsão A",
+    "enunciado": "Com falta de capacidade custando 3 por unidade e excedente custando 1, calcule a perda de A no teste. Use e = observado − previsto.",
+    "resposta": "40 unidades monetárias fictícias.",
+    "resolucao": [
+      "A tem dez unidades de falta (dois erros +5) e dez de excedente (dois erros −5).",
+      "Perda=3×10+1×10=40."
+    ],
+    "habilidade": "perda assimétrica",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-CON-06",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Custo da previsão B",
+    "enunciado": "Com a mesma perda: falta 3, excedente 1. Qual é o custo de B no teste?",
+    "resposta": "25 unidades monetárias fictícias.",
+    "resolucao": [
+      "Os três primeiros erros são zero e o último é −25, um excedente de 25.",
+      "Perda=3×0+1×25=25."
+    ],
+    "habilidade": "perda assimétrica",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-CON-07",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Sensibilidade às preferências",
+    "enunciado": "Se a falta custasse 1 e o excedente 3, quais seriam os custos de A e B?",
+    "resposta": "A=40; B=75.",
+    "resolucao": [
+      "A possui dez faltas e dez excedentes:1×10+3×10=40.",
+      "B possui 25 excedentes:3×25=75. Os resultados dependem da função de perda declarada."
+    ],
+    "habilidade": "análise de sensibilidade",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-CON-08",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Comparação temporal de B",
+    "enunciado": "Calcule MAE de B separadamente nos dias 5–6 e nos dias 7–8.",
+    "resposta": "0 e 12,5 atendimentos, respectivamente.",
+    "resolucao": [
+      "Nos dias 5–6 os erros são 0,0: MAE 0.",
+      "Nos dias 7–8 os módulos são 0,25: MAE=25/2=12,5. Isso não prova tendência com apenas duas observações por recorte."
+    ],
+    "habilidade": "monitoramento temporal",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-CON-09",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Métrica condicionada ao objetivo",
+    "enunciado": "A tem menor RMSE que B no teste; B tem custo 25 contra 40 de A sob perdas 3/1. Qual afirmação é defensável?",
+    "resposta": "Cada comparação responde a um objetivo distinto; relatar ambas com o custo e recorte especificados.",
+    "resolucao": [
+      "RMSE avalia magnitude quadrática dos erros, sem distinguir o preço de falta e excesso.",
+      "A função de perda do cenário penaliza falta três vezes mais e, por isso, os custos se diferenciam."
+    ],
+    "habilidade": "decisão baseada em métricas",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Identificar o que o enunciado permite concluir; diferenciar descrição, previsão e causalidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-CON-10",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Teste final preservado",
+    "enunciado": "Uma pessoa vê os erros no teste dos dias 5–8, altera B para acertar o dia 8 e anuncia o novo erro no mesmo conjunto como desempenho futuro. Identifique o problema.",
+    "resposta": "Uso do teste final para ajuste; a avaliação independente foi contaminada.",
+    "resolucao": [
+      "A modificação incorporou informação do próprio teste.",
+      "Ajuste precisa ocorrer com treino/validação; após mexer no modelo, é necessário um teste novo e independente."
+    ],
+    "habilidade": "vazamento de teste",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Definir pergunta, critério, partição e método antes de calcular.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-VES-01",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "vestibular",
+    "dificuldade": "avancada",
+    "titulo": "Parágrafo de resultados",
+    "enunciado": "Escreva uma conclusão quantitativa, sem escolher universalmente um modelo, usando MAE de A=5 e B=6,25 no teste e custo 40 contra 25 (falta=3, excedente=1).",
+    "resposta": "Conclusão contextualizada com período, alvo, unidades, custos e ausência de garantia de generalização.",
+    "resolucao": [
+      "Exemplo: “Nos quatro dias fictícios de teste, A teve MAE de 5 e B de 6,25 atendimentos; sob falta=3 e excedente=1, as perdas simuladas foram 40 e 25, respectivamente.”",
+      "Acrescente que a comparação depende do critério e de quatro observações artificiais, e não identifica efeitos causais."
+    ],
+    "habilidade": "redação quantitativa",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Identificar o que o enunciado permite concluir; diferenciar descrição, previsão e causalidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-VES-02",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "vestibular",
+    "dificuldade": "avancada",
+    "titulo": "Estimativa não representa inferência",
+    "enunciado": "Uma pessoa usa a média de 107,5 atendimentos dos quatro dias de teste e cria intervalo “95%” sem justificar amostra ou método. Quais informações faltam?",
+    "resposta": "Faltam população-alvo, plano de coleta, dependência temporal, variabilidade, método, hipóteses e tamanho adequado.",
+    "resolucao": [
+      "Quatro dias sintéticos não são amostra probabilística de uma população real.",
+      "Um nível de confiança não nasce de um rótulo: necessita procedimento amostral e pressupostos auditáveis."
+    ],
+    "habilidade": "limites inferenciais",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "conteúdo",
+    "erroProvavel": "Recuperar a definição de população, amostra, variável, partição, viés ou incerteza antes de repetir.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-VES-03",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "vestibular",
+    "dificuldade": "avancada",
+    "titulo": "Intervalo da média e da previsão",
+    "enunciado": "Um relatório oferece “intervalo para atendimento médio” e o apresenta como se cobrisse automaticamente o próximo dia individual. Explique o equívoco.",
+    "resposta": "O intervalo de confiança para a média não é intervalo preditivo de uma observação individual.",
+    "resolucao": [
+      "Prever um dia inclui a variabilidade entre dias além da incerteza de estimar a média.",
+      "Um intervalo preditivo adequado tende a ser mais amplo sob o mesmo modelo e nível nominal."
+    ],
+    "habilidade": "intervalos e alvo",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Identificar o que o enunciado permite concluir; diferenciar descrição, previsão e causalidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-VES-04",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "vestibular",
+    "dificuldade": "avancada",
+    "titulo": "Associação não causa",
+    "enunciado": "Em outro levantamento, dias com mais divulgação apresentam mais atendimentos. Isso prova que aumentar divulgação causa aumento da demanda?",
+    "resposta": "Não; associação observacional não estabelece efeito causal.",
+    "resolucao": [
+      "Pode haver sazonalidade, calendário, exposição ou outros confundidores.",
+      "Seria preciso um desenho causal adequado ou evidência adicional, sem transformar regressão isolada em prova de causa."
+    ],
+    "habilidade": "causalidade",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Identificar o que o enunciado permite concluir; diferenciar descrição, previsão e causalidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-VES-05",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "vestibular",
+    "dificuldade": "avancada",
+    "titulo": "Auditoria de denominadores",
+    "enunciado": "Um gráfico anuncia “redução de 50% do erro” comparando MAE 10 de um modelo antigo com MAE 5 de outro, mas um usa dias úteis e o outro feriados. O que impede a comparação simples?",
+    "resposta": "As bases não correspondem ao mesmo recorte; comparar modelos na mesma amostra e no mesmo horizonte.",
+    "resolucao": [
+      "A redução (10−5)/10=50% é aritmeticamente verdadeira para números apresentados, mas a atribuição de melhora entre modelos é injustificada.",
+      "Mantenha conjunto, unidade, momento e definição de alvo comparáveis."
+    ],
+    "habilidade": "comparabilidade",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Definir pergunta, critério, partição e método antes de calcular.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-VES-06",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "vestibular",
+    "dificuldade": "avancada",
+    "titulo": "Planejamento de relatório",
+    "enunciado": "Organize as seções mínimas de um relatório reproduzível de quatro páginas sobre os oito dias sintéticos.",
+    "resposta": "Pergunta/contexto; dados e dicionário; método e partição; resultados/gráficos; incerteza/limites; conclusão e reprodutibilidade.",
+    "resolucao": [
+      "O relatório deve permitir que outra pessoa recalcule métricas a partir do CSV e da fórmula de erro.",
+      "Anexe dados fictícios e cálculos, registre como candidatos A/B foram fixados e não invente amostragem real."
+    ],
+    "habilidade": "estrutura de relatório",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Definir pergunta, critério, partição e método antes de calcular.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-VES-07",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "vestibular",
+    "dificuldade": "avancada",
+    "titulo": "Falta de dados",
+    "enunciado": "Suponha que o observado do dia 8 desapareça do arquivo e alguém preencha com a previsão de A (105) para medir MAE de A. Qual é o risco?",
+    "resposta": "Imputação feita com previsão do próprio modelo contamina a avaliação e pode reduzir artificialmente o erro.",
+    "resolucao": [
+      "Sem valor verdadeiro, a métrica do dia não pode ser calculada como se houvesse observação real.",
+      "Identifique ausência, procure a fonte, documente eventual exclusão e analise sensibilidade; não substitua o alvo pela previsão avaliada."
+    ],
+    "habilidade": "qualidade de dados",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Definir pergunta, critério, partição e método antes de calcular.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-VES-08",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "vestibular",
+    "dificuldade": "avancada",
+    "titulo": "Medida por subperíodo",
+    "enunciado": "Uma pessoa observa MAE global de B de 6,25 e afirma que B errou igualmente em todos os dias. Use o vetor 0,0,0,−25 para avaliar.",
+    "resposta": "Afirmação falsa: todo o erro absoluto de B concentrou-se no quarto dia do teste.",
+    "resolucao": [
+      "A média (0+0+0+25)/4=6,25 oculta a distribuição.",
+      "Informe maior erro, sinais e desempenho por subperíodo, principalmente quando perdas são assimétricas."
+    ],
+    "habilidade": "distribuição de erros",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Identificar o que o enunciado permite concluir; diferenciar descrição, previsão e causalidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-VES-09",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "vestibular",
+    "dificuldade": "avancada",
+    "titulo": "Condição de validade",
+    "enunciado": "Liste pelo menos quatro limitações que impedem recomendar a implantação operacional de A ou B usando somente esta aula.",
+    "resposta": "Dados artificiais, apenas quatro dias de teste, ausência de plano amostral real, possíveis mudanças temporais, hipóteses e intervalos não estimados, custos fictícios e falta de avaliação externa.",
+    "resolucao": [
+      "O projeto demonstra método, não comprova adequação operacional.",
+      "Antes de uso real, definir população, medir em períodos representativos, validar separação temporal, obter critérios de decisão e monitorar efeitos."
+    ],
+    "habilidade": "avaliação crítica",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Identificar o que o enunciado permite concluir; diferenciar descrição, previsão e causalidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-VES-10",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "vestibular",
+    "dificuldade": "avancada",
+    "titulo": "Parecer final reprodutível",
+    "enunciado": "Redija um parecer curto que compare A, B e baseline para os dias 5–8 com os MAE 5, 6,25 e 12,5 e explicite qual decisão continua em aberto.",
+    "resposta": "A e B têm menor MAE descritivo que baseline na base sintética; decisão real está em aberto.",
+    "resolucao": [
+      "Escreva: “Nos quatro dias sintéticos preservados como teste, A, B e a baseline tiveram MAE 5, 6,25 e 12,5 atendimentos.”",
+      "Acrescente finalidade, custos, amostra real e estabilidade futura como condições a avaliar; não declare superioridade universal nem causalidade."
+    ],
+    "habilidade": "síntese e limitação",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Identificar o que o enunciado permite concluir; diferenciar descrição, previsão e causalidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-RET-01",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "remediacao_independente",
+    "titulo": "Novo conjunto: média e mediana",
+    "enunciado": "Uma nova prática, independente da base anterior, tem observados 40,50,60,70. Calcule média e mediana.",
+    "resposta": "Ambas são 55 atendimentos.",
+    "resolucao": [
+      "Média=(40+50+60+70)/4=220/4=55.",
+      "Mediana=(50+60)/2=55, pois são quatro observações ordenadas."
+    ],
+    "habilidade": "recuperar síntese",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-RET-02",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "remediacao_independente",
+    "titulo": "Novo conjunto: modelo X",
+    "enunciado": "Na prática independente, X prevê 42,48,63,67 para observados 40,50,60,70. Calcule MAE e RMSE.",
+    "resposta": "MAE 2,5; RMSE √6,5≈2,55 atendimentos.",
+    "resolucao": [
+      "Erros: −2,+2,−3,+3; módulos somam 10: MAE=10/4=2,5.",
+      "Quadrados somam 4+4+9+9=26; RMSE=√(26/4)=√6,5≈2,55."
+    ],
+    "habilidade": "recuperar métricas",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-RET-03",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "remediacao_independente",
+    "titulo": "Novo conjunto: modelo Y",
+    "enunciado": "No mesmo conjunto, Y prevê 40,50,60,80. Calcule MAE, RMSE e maior erro absoluto.",
+    "resposta": "MAE 2,5; RMSE 5; máximo 10 atendimentos.",
+    "resolucao": [
+      "Erros 0,0,0,−10; MAE=10/4=2,5.",
+      "RMSE=√(100/4)=5; o maior módulo é dez."
+    ],
+    "habilidade": "comparar distribuições",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-RET-04",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "remediacao_independente",
+    "titulo": "Novo conjunto: custo com perdas diferentes",
+    "enunciado": "No novo conjunto, falta custa 4 e excesso custa 1 por unidade. Quanto custam os erros de X (−2,+2,−3,+3) e Y (0,0,0,−10)?",
+    "resposta": "X custa 25; Y custa 10 unidades monetárias fictícias.",
+    "resolucao": [
+      "Para X: falta 2+3=5, excedente 2+3=5: 4×5+1×5=25.",
+      "Para Y: zero falta, excedente dez: 1×10=10. O critério de custo difere do RMSE."
+    ],
+    "habilidade": "recuperar perda assimétrica",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-RET-05",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "remediacao_independente",
+    "titulo": "Novo conjunto: baseline",
+    "enunciado": "A referência constante de 55 é confrontada com 40,50,60,70. Calcule seu MAE e diga se a base permite generalizar para outra população.",
+    "resposta": "MAE 10; sem generalização automática.",
+    "resolucao": [
+      "Erros absolutos 15,5,5,15 somam 40; divida por 4: MAE=10.",
+      "O conjunto é didático e não representa amostra probabilística externa."
+    ],
+    "habilidade": "baseline e limite",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-034-EX-RET-06",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "remediacao_independente",
+    "titulo": "Novo parecer independente",
+    "enunciado": "Escreva duas frases comparando X e Y no novo conjunto e uma limitação metodológica obrigatória.",
+    "resposta": "Exemplo: ambos têm MAE 2,5; X tem RMSE aproximadamente 2,55 e Y, 5. A decisão depende da perda e de dados externos.",
+    "resolucao": [
+      "A métrica quadrática torna mais visível o erro isolado de dez de Y.",
+      "A perda 4/1 favorece Y neste cenário (10 contra 25), sem validar futuro, causalidade ou segurança operacional."
+    ],
+    "habilidade": "síntese pós-remediação",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Identificar o que o enunciado permite concluir; diferenciar descrição, previsão e causalidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  }
+]

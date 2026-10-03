@@ -1,0 +1,33 @@
+{
+  "id": "MAT-EST-060-SOURCE-SNAPSHOT-v1",
+  "natureza": "inventário local de hashes, não carimbo temporal externo",
+  "upstream_sha256": {
+    "sandbox/SANDBOX-057-cartoes.csv": "1924e348c3bfa4958aa314d5ea7e3f6977ffcd83bf5ad6fcb84a8c5f92006806",
+    "dados/comparacao-emparelhada-t18-t22.csv": "ea98b2481dcf088e08871205f0fd8b43dbf9cd162457a1f17bf2c0c0cc3ba5d0",
+    "protocolo-herdado-MAT-EST-049.json": "adfec11fba8b71630a593c3310988b9bb6759ce5f4d81e5f2e42dd2afdf30673",
+    "protocolo-sucessor/MAT-EST-056-PROT-SUC-v1.json": "18ad35bc0061f7293792b7fc85364ef7cb3fbacea163deb8293a46af83b27405",
+    "relatorios/MAT-EST-059-painel-dados.json": "3d36004d11d9d56ecde869287e49ac56b5dbcd7ebfac300fdfc98bc6f1afccdd",
+    "relatorios/MAT-EST-059-matriz-afirmacoes-fontes-limites.json": "4b7f01964fd932c0e97b07251e3864e1a8766f29b7a8acf63d24ca17f01fe307"
+  },
+  "snapshot": "SANDBOX-057 corte A",
+  "calculated": {
+    "planned": 8,
+    "eligible": 2,
+    "pending": 6,
+    "completion_percent": 25,
+    "MAE_B_units": 3.0,
+    "MAE_C_units": 4.0,
+    "mean_cost_B_points": 7.0,
+    "mean_cost_C_points": 7.0,
+    "paired_abs_delta_C_minus_B": [
+      -1,
+      3
+    ],
+    "paired_abs_delta_mean": 1
+  },
+  "historical_guard_t19": 19.2,
+  "historical_guard_limit": 10,
+  "successor_estimated_metric": null,
+  "future_t23_t33_observed": 0,
+  "future_t23_t33_issued_authenticated": 0
+}

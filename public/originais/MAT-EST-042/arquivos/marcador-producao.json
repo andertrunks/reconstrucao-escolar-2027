@@ -1,0 +1,18 @@
+{
+  "dataRegistro": "2026-09-28",
+  "unidade": "Estatística",
+  "ultimaAulaProduzida": "MAT-EST-042",
+  "proximaAulaObrigatoria": {
+    "id": "MAT-EST-043",
+    "titulo": "Tendência, sazonalidade e decomposição de séries temporais: padrões, diferenças sazonais e previsões de referência"
+  },
+  "statusProducao": "produzido localmente, ainda não publicado nem sincronizado com Google Drive",
+  "progressoIndividualAlterado": false,
+  "avaliacoesPendentes": [
+    "MAT-EST-018",
+    "MAT-EST-037",
+    "MAT-PRO-039",
+    "MAT-PRO-054"
+  ],
+  "instrucaoContinuar": "Produzir MAT-EST-043 mantendo a trilha existente; não registrar aprendizagem fictícia."
+}

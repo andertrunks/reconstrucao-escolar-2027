@@ -1,0 +1,855 @@
+﻿MAT-EST-010 — Quartis, decis e percentis: posição relativa e divisão ordenada dos dados
+
+
+Status editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.
+Título histórico preservado conforme inventário. O checkpoint INC16 usou a variante “posição relativa e leitura de distribuição”.
+Matéria: Matemática.
+Unidade: Estatística.
+Nível principal: 3 — Ensino Médio, com aprofundamento para ENEM, FUVEST, UNICAMP, UNESP e ponte universitária.
+Pré-requisitos: MAT-EST-001 a MAT-EST-009; organização de dados; frequências; média, mediana e moda; noção de porcentagem e proporção.
+Próximo tópico: MAT-EST-011 — Amplitude interquartil e box-plot: caixa, bigodes e valores discrepantes.
+Questões desta reconstrução: 100% autorais.
+
+
+1. Objetivo
+
+
+Ao concluir esta aula, o estudante deverá ser capaz de:
+- explicar por que quartis, decis e percentis são medidas de posição;
+- ordenar dados antes de localizar posições;
+- distinguir posição relativa de valor observado;
+- definir Q1, Q2 e Q3;
+- definir D1 a D9;
+- definir P1 a P99;
+- reconhecer Q1 = P25, Q2 = P50, Q3 = P75 e D5 = P50;
+- interpretar frases como “está no percentil 80”;
+- calcular medidas de posição em conjuntos simples quando a convenção é fornecida;
+- perceber que diferentes convenções de quantil podem produzir respostas diferentes em amostras pequenas;
+- trabalhar com frequências acumuladas;
+- localizar percentis em tabelas de frequência;
+- compreender a ideia de interpolação em dados agrupados por classes;
+- evitar confundir percentil com porcentagem de acertos ou porcentagem do valor máximo;
+- relacionar quartis à futura amplitude interquartil e ao box-plot.
+
+
+2. Por que essas medidas existem?
+
+
+Média, mediana e desvio-padrão resumem aspectos importantes, mas não dizem diretamente onde se encontra um ponto que separa, por exemplo, os 25% menores valores dos 75% restantes.
+
+
+Medidas de posição respondem perguntas desse tipo.
+
+
+Elas transformam a ideia de “onde este valor está dentro da distribuição?” em uma medida sistemática.
+
+
+3. Primeiro passo: ordenar
+
+
+Quartis, decis e percentis dependem da ordem.
+
+
+Considere:
+8, 2, 11, 5, 7.
+
+
+Antes de localizar posições:
+2, 5, 7, 8, 11.
+
+
+O valor 7 é a mediana porque ocupa a posição central.
+
+
+A lógica dos quartis, decis e percentis amplia essa mesma ideia.
+
+
+4. O que é uma medida de posição?
+
+
+Uma medida de posição indica um ponto da distribuição associado a uma proporção acumulada dos dados.
+
+
+Um percentil de ordem p procura um valor abaixo do qual se encontra aproximadamente p por cento dos dados, conforme a convenção adotada.
+
+
+Exemplo:
+P25 é o percentil 25.
+Leitura: “P vinte e cinco”.
+
+
+Interpretação aproximada: cerca de 25% dos dados ficam abaixo ou até esse ponto, dependendo da definição operacional usada.
+
+
+5. Quartis
+
+
+Os quartis dividem a distribuição ordenada em quatro partes.
+
+
+Q1: primeiro quartil, associado a 25%.
+Q2: segundo quartil, associado a 50%.
+Q3: terceiro quartil, associado a 75%.
+
+
+Q2 coincide com a mediana.
+
+
+Relações fundamentais:
+Q1 = P25.
+Q2 = P50.
+Q3 = P75.
+
+
+6. Decis
+
+
+Os decis dividem a distribuição ordenada em dez partes.
+
+
+D1 corresponde a 10%.
+D2 corresponde a 20%.
+...
+D9 corresponde a 90%.
+
+
+Relação:
+Dk = P(10k).
+
+
+Exemplo:
+D7 = P70.
+
+
+Leitura pronunciável:
+“o sétimo decil é igual ao percentil setenta”.
+
+
+7. Percentis
+
+
+Os percentis usam uma escala de cem partes.
+
+
+P1 corresponde a 1%.
+P10 corresponde a 10%.
+P50 corresponde a 50%.
+P90 corresponde a 90%.
+P99 corresponde a 99%.
+
+
+Eles permitem descrever posição com granularidade maior do que quartis e decis.
+
+
+8. Percentil não é porcentagem do valor máximo
+
+
+Se uma pessoa está no percentil 80 de uma distribuição, isso não significa que obteve 80% da pontuação máxima.
+
+
+Significa que sua posição está relacionada a aproximadamente 80% da distribuição de referência abaixo ou até seu resultado, conforme a convenção usada.
+
+
+Essa distinção é essencial.
+
+
+9. Percentil não é necessariamente porcentagem de acertos
+
+
+Uma prova pode ter nota 60 em 100 pontos e, ainda assim, essa nota estar no percentil 90 se a maioria tiver notas menores.
+
+
+Do mesmo modo, uma nota 90 pode estar em um percentil relativamente baixo em um grupo de desempenho muito alto.
+
+
+Percentual de acertos descreve a própria prova.
+Percentil descreve posição relativa em relação a uma distribuição.
+
+
+10. Percentile rank e percentile value
+
+
+Há duas ideias que costumam ser confundidas.
+
+
+Valor percentílico: qual valor corresponde a determinado percentil?
+Exemplo: “qual é o P75?”
+
+
+Posto percentílico, ou percentile rank: qual porcentagem acumulada está associada a determinado valor?
+Exemplo: “qual é a posição relativa de 72 pontos?”
+
+
+São perguntas inversas.
+
+
+11. Q2 e mediana
+
+
+A mediana divide a distribuição ordenada em duas partes centrais.
+
+
+Por isso:
+Q2 = P50 = D5 = mediana.
+
+
+Essa equivalência conecta a aula atual à MAT-EST-006.
+
+
+12. Um exemplo sem ambiguidade
+
+
+Dados:
+10, 20, 30, 40, 50.
+
+
+O valor central é 30.
+
+
+Logo:
+mediana = 30;
+Q2 = 30;
+P50 = 30;
+D5 = 30.
+
+
+Aqui não precisamos discutir convenções porque todas as definições usuais de mediana levam ao mesmo centro.
+
+
+13. Por que aparecem convenções diferentes?
+
+
+Quando queremos P25, P70 ou outros pontos que não coincidem exatamente com uma observação, precisamos definir como transformar uma proporção em uma posição num conjunto finito.
+
+
+Existem diferentes convenções estatísticas legítimas.
+
+
+Programas como planilhas, linguagens estatísticas e livros podem usar fórmulas diferentes.
+
+
+Em amostras pequenas, isso pode mudar o resultado.
+
+
+14. Regra editorial desta trilha
+
+
+Não haverá uma convenção escondida.
+
+
+Quando um exercício depender da escolha de método, o enunciado informará a regra.
+
+
+Quando o método não for informado, serão escolhidos dados para os quais as convenções relevantes não alterem a conclusão exigida.
+
+
+Essa regra evita decorar uma fórmula como se fosse a única definição possível.
+
+
+15. Convenção A: mediana das metades para quartis
+
+
+Em muitos contextos escolares, uma forma de obter quartis é:
+1. ordenar os dados;
+2. calcular a mediana;
+3. dividir o conjunto em metade inferior e superior;
+4. calcular a mediana de cada metade.
+
+
+Dependendo de o número de observações ser ímpar, é necessário informar se a mediana central entra ou não nas metades.
+
+
+Mais uma vez, a convenção deve ser explícita.
+
+
+16. Convenção B: nearest-rank
+
+
+Uma convenção comum para percentis empíricos usa a posição:
+r = teto(p × n).
+
+
+Leitura:
+“r é o menor inteiro maior ou igual a p vezes n”.
+
+
+Aqui:
+p é a proporção em forma decimal;
+n é o número de observações.
+
+
+Exemplo para P75 com n = 20:
+p = 0,75.
+r = teto(0,75 × 20) = teto(15) = 15.
+
+
+O P75 é tomado como o 15º valor ordenado nessa convenção.
+
+
+17. Interpolação linear
+
+
+Outras convenções permitem que o percentil fique entre duas observações.
+
+
+Uma regra possível usa uma posição fracionária e interpola.
+
+
+Exemplo didático:
+se a posição calculada for 4,25, o quantil está a um quarto do caminho entre o 4º e o 5º valores ordenados.
+
+
+Se esses valores forem 20 e 28:
+20 + 0,25 × (28 - 20)
+= 20 + 2
+= 22.
+
+
+A leitura por extenso é:
+“vinte mais um quarto da diferença entre vinte e oito e vinte”.
+
+
+18. Nenhuma fórmula deve ser usada sem saber a convenção
+
+
+Duas fórmulas diferentes podem estar corretas dentro de suas próprias definições.
+
+
+O erro é misturá-las na mesma solução sem perceber.
+
+
+Em prova, siga a definição fornecida ou o padrão explicitado pela banca quando houver.
+
+
+19. Exemplo de convenções diferentes
+
+
+Dados:
+1, 2, 3, 4, 5, 6, 7, 8.
+
+
+Pelo método da mediana da metade inferior:
+Q1 é a mediana de 1, 2, 3, 4.
+Q1 = (2 + 3)/2 = 2,5.
+
+
+Pela nearest-rank para P25:
+r = teto(0,25 × 8) = teto(2) = 2.
+P25 = 2.
+
+
+Os resultados diferem porque as convenções diferem.
+
+
+20. O que fazer quando a banca não diz o método?
+
+
+Primeiro, verificar se o enunciado ou o material oficial define a convenção.
+
+
+Segundo, observar se os dados foram escolhidos de modo que a resposta relevante seja inequívoca.
+
+
+Terceiro, em produção autoral ou análise técnica, registrar explicitamente o método.
+
+
+21. Frequência acumulada
+
+
+Quando há muitos valores repetidos, uma tabela de frequências evita escrever cada observação.
+
+
+Exemplo:
+valor 10: frequência 2;
+valor 20: frequência 3;
+valor 30: frequência 5.
+
+
+Frequência acumulada:
+até 10: 2;
+até 20: 5;
+até 30: 10.
+
+
+A frequência acumulada mostra quantas observações já foram alcançadas ao percorrer a distribuição em ordem.
+
+
+22. Localizando um percentil por frequência acumulada
+
+
+Suponha N = 40 observações e queremos o percentil 75 pela regra de posição r = teto(0,75N).
+
+
+r = teto(30) = 30.
+
+
+Procuramos na tabela a primeira categoria cuja frequência acumulada alcança pelo menos 30.
+
+
+Esse valor é o P75 nessa convenção.
+
+
+23. Dados agrupados em classes
+
+
+Em tabelas de intervalos, como:
+0 a 10;
+10 a 20;
+20 a 30;
+
+
+podemos primeiro identificar em qual classe cai o percentil.
+
+
+Se quisermos uma estimativa numérica dentro da classe, alguns cursos usam interpolação linear.
+
+
+24. Fórmula de interpolação em classe
+
+
+Uma forma comum é:
+
+
+P_k = L + [(kN/100 - F_anterior) / f] × h.
+
+
+Leitura pronunciável:
+“o percentil k é igual ao limite inferior da classe, mais a razão entre a posição desejada menos a frequência acumulada anterior e a frequência da classe, multiplicada pela amplitude da classe”.
+
+
+Onde:
+L é o limite inferior da classe percentílica;
+k é a ordem do percentil;
+N é o total de observações;
+F_anterior é a frequência acumulada antes da classe;
+f é a frequência da classe;
+h é a amplitude da classe.
+
+
+25. Hipótese por trás da interpolação em classe
+
+
+Quando interpolamos dentro de uma classe, estamos aproximando a posição interna como se os dados estivessem distribuídos de maneira suficientemente regular dentro do intervalo.
+
+
+Os dados brutos poderiam gerar valor diferente.
+
+
+A fórmula é uma aproximação dependente da informação agrupada disponível.
+
+
+26. Exemplo com classe
+
+
+Considere N = 100.
+Queremos P60.
+
+
+A posição é 60.
+
+
+Suponha que:
+a frequência acumulada antes da classe 40 a 50 seja 52;
+a frequência da classe seja 20;
+h = 10;
+L = 40.
+
+
+Então:
+P60 = 40 + [(60 - 52)/20] × 10.
+P60 = 40 + (8/20) × 10.
+P60 = 40 + 4.
+P60 = 44.
+
+
+27. Valores repetidos
+
+
+Empates não invalidam percentis.
+
+
+Se muitas observações têm o mesmo valor, diferentes percentis podem coincidir numericamente.
+
+
+Exemplo:
+1, 1, 1, 1, 1, 10, 20, 30.
+
+
+É possível que vários cortes iniciais retornem 1.
+
+
+Isso mostra que “dividir em quatro partes” não significa necessariamente obter quatro faixas com valores distintos.
+
+
+28. Distribuições discretas
+
+
+Em variáveis discretas, como número de filhos, alguns quantis podem saltar de um inteiro para outro.
+
+
+O valor de P70 pode ser 2 mesmo que exatamente 70% não terminem em 2.
+
+
+O percentil é definido pela regra de posição e pela distribuição acumulada, não pela exigência de uma igualdade perfeita em toda amostra finita.
+
+
+29. Distribuições contínuas
+
+
+Em um modelo contínuo idealizado, um quantil q_p pode ser definido por uma função de distribuição acumulada F.
+
+
+De modo simplificado:
+q_p é um valor associado ao ponto em que F atinge a probabilidade p.
+
+
+Essa é uma ponte universitária.
+
+
+No Ensino Médio, o foco principal é ordenar, localizar e interpretar.
+
+
+30. Quantis e função de distribuição acumulada
+
+
+A frequência acumulada empírica é uma versão amostral da ideia de distribuição acumulada.
+
+
+Quando procuramos P90, estamos procurando um ponto associado a 90% acumulado.
+
+
+Esse vínculo será útil em estatística universitária e probabilidade.
+
+
+31. Transformações crescentes preservam a ordem
+
+
+Se transformamos todos os dados por uma função estritamente crescente, a ordem não muda.
+
+
+Exemplo:
+y = 2x + 10.
+
+
+Se x1 < x2, então y1 < y2.
+
+
+Logo, o elemento que ocupa determinada posição relativa continua correspondendo ao mesmo indivíduo ou observação, embora o valor numérico do quantil mude.
+
+
+32. Soma de constante
+
+
+Se todos os valores aumentam 5, os quartis também aumentam 5, para convenções compatíveis com transformação linear.
+
+
+Exemplo:
+Q1 = 20.
+Após somar 5 a todos os dados:
+novo Q1 = 25.
+
+
+A posição relativa é preservada.
+
+
+33. Multiplicação por constante positiva
+
+
+Se todos os valores são multiplicados por 3:
+novo Q1 = 3 × Q1;
+novo Q2 = 3 × Q2;
+novo Q3 = 3 × Q3.
+
+
+A ordem permanece a mesma.
+
+
+34. Multiplicação por número negativo
+
+
+Multiplicar por número negativo inverte a ordem.
+
+
+Isso exige cuidado.
+
+
+O antigo percentil 10 se relaciona com a cauda superior depois da inversão, e não simplesmente com o novo percentil 10.
+
+
+Não aplique a regra de preservação de posição para transformação decrescente sem reordenar.
+
+
+35. Percentis e valores extremos
+
+
+Quartis centrais são menos sensíveis a valores extremos do que média e desvio-padrão.
+
+
+Um único valor muito grande pode alterar bastante a média, mas pode não alterar Q1, mediana ou Q3 em muitos conjuntos.
+
+
+Isso prepara a amplitude interquartil.
+
+
+36. Percentis de cauda
+
+
+P1, P5, P95 e P99 ficam próximos das extremidades.
+
+
+Eles podem ser mais sensíveis a amostra pequena e a poucos valores extremos do que os quartis centrais.
+
+
+A posição escolhida importa.
+
+
+37. Aplicação: resultados de provas
+
+
+Percentis podem comparar desempenho dentro de uma população de referência.
+
+
+Mas a interpretação depende de:
+- qual grupo foi usado;
+- quando os dados foram coletados;
+- tamanho e representatividade;
+- regra de cálculo;
+- existência de empates.
+
+
+Percentil sem população de referência é informação incompleta.
+
+
+38. Aplicação: distribuição de renda
+
+
+Medidas como P10, mediana e P90 ajudam a descrever desigualdade.
+
+
+Podemos comparar a parte inferior, o centro e a parte superior da distribuição sem depender apenas da média.
+
+
+A análise completa exige contexto econômico e definição precisa da variável.
+
+
+39. Aplicação: crescimento e medidas corporais
+
+
+Curvas de referência podem usar percentis.
+
+
+Estar em determinado percentil significa posição relativa em uma população de referência, não diagnóstico e não julgamento de normalidade por si só.
+
+
+A interpretação de saúde depende de profissionais, idade, sexo quando aplicável, trajetória temporal e referência utilizada.
+
+
+40. Aplicação: tempos e desempenho esportivo
+
+
+Em provas de tempo, menor pode ser melhor.
+
+
+O percentil precisa ser interpretado com o sentido da variável.
+
+
+Um percentil alto de “tempo gasto” pode significar maior tempo, não melhor desempenho.
+
+
+Sempre interprete o que valores maiores significam.
+
+
+41. Aplicação: controle de processos
+
+
+Percentis podem indicar limites empíricos.
+
+
+Por exemplo, P95 de tempo de resposta descreve um ponto abaixo do qual está aproximadamente 95% dos tempos, conforme a convenção.
+
+
+Isso é comum em tecnologia e operações.
+
+
+42. Relação com amplitude interquartil
+
+
+A próxima aula estudará:
+AIQ = Q3 - Q1.
+
+
+Leitura:
+“amplitude interquartil é igual ao terceiro quartil menos o primeiro quartil”.
+
+
+A AIQ resume a largura dos 50% centrais da distribuição.
+
+
+43. Relação com box-plot
+
+
+O box-plot usa principalmente:
+Q1;
+mediana;
+Q3;
+AIQ.
+
+
+Ele transforma medidas de posição em representação visual de centro, dispersão e possíveis valores discrepantes.
+
+
+44. Relação com FUVEST 2027
+
+
+O Programa do Vestibular FUVEST 2027 inclui explicitamente “distribuição estatística e medidas de posição (quartis, decis e percentis)”.
+
+
+Isso torna o tópico diretamente exigível no exame.
+
+
+45. Relação com BNCC
+
+
+A BNCC do Ensino Médio trabalha análise de dados, medidas de tendência central e dispersão e interpretação de gráficos, incluindo box-plot.
+
+
+A habilidade EM13MAT407 prevê interpretar e comparar conjuntos de dados por diagramas e gráficos, incluindo box-plot.
+
+
+Esta reconstrução não afirma que “quartis, decis e percentis” apareçam como lista explícita na mesma formulação da BNCC consultada; a FUVEST 2027 os explicita.
+
+
+46. Relação com ENEM
+
+
+A Matriz de Referência do Enem publicada pelo Inep em 2026 orienta competências de resolução de situações-problema e análise de dados.
+
+
+Esta aula usa percentis como ferramenta de estatística descritiva e interpretação.
+
+
+As 36 questões deste pacote são autorais, não questões oficiais do Enem.
+
+
+47. O que observar nos seis visuais
+
+
+Visual 1 — Quartis em dados ordenados.
+Observe os três cortes Q1, Q2 e Q3 sobre uma sequência ordenada.
+
+
+Visual 2 — Equivalências.
+Observe Q1 = P25, Q2 = D5 = P50 e Q3 = P75.
+
+
+Visual 3 — Convenções.
+Observe que uma amostra pequena pode produzir Q1 diferente sob métodos legítimos distintos.
+
+
+Visual 4 — Frequência acumulada.
+Observe como o percentil é localizado pela primeira frequência acumulada que alcança a posição-alvo.
+
+
+Visual 5 — Transformação crescente.
+Observe que y = 2x + 10 altera os valores, mas preserva a ordem relativa.
+
+
+Visual 6 — Roteiro seguro.
+Siga ordenar, identificar proporção, verificar convenção, localizar posição, interpolar quando permitido e interpretar.
+
+
+48. Erros frequentes
+
+
+Erro 1. Calcular percentil sem ordenar os dados.
+Erro 2. Confundir P80 com 80% da pontuação máxima.
+Erro 3. Confundir percentil com porcentagem de acertos.
+Erro 4. Achar que existe uma única fórmula universal de quartil.
+Erro 5. Misturar nearest-rank e interpolação na mesma resolução.
+Erro 6. Esquecer de usar frequência acumulada.
+Erro 7. Interpolar categorias ordinais como se fossem medidas numéricas contínuas.
+Erro 8. Ignorar empates.
+Erro 9. Dizer que Q1 contém “exatamente” 25% dos valores em qualquer amostra finita.
+Erro 10. Interpretar percentil sem dizer qual é a população de referência.
+Erro 11. Achar que percentil alto sempre significa resultado desejável.
+Erro 12. Usar interpolação em classes como se recuperasse exatamente os dados brutos.
+
+
+49. Resumo
+
+
+Quartis, decis e percentis são medidas de posição.
+Eles dependem da ordenação dos dados.
+Q1 = P25.
+Q2 = D5 = P50 = mediana.
+Q3 = P75.
+Dk = P(10k).
+Percentil descreve posição relativa, não porcentagem do valor máximo.
+Existem várias convenções de quantis.
+Quando a convenção muda, amostras pequenas podem produzir resultados diferentes.
+Frequência acumulada ajuda a localizar percentis em tabelas.
+Dados agrupados por classes podem exigir interpolação aproximada.
+Quartis preparam o estudo de amplitude interquartil e box-plot.
+
+
+50. Versão curta para ouvir
+
+
+Quartis, decis e percentis dizem onde um valor se encontra dentro de uma distribuição ordenada.
+
+
+O primeiro quartil corresponde ao percentil vinte e cinco. O segundo quartil é a mediana e corresponde ao percentil cinquenta. O terceiro quartil corresponde ao percentil setenta e cinco.
+
+
+Os decis usam divisões de dez em dez por cento. O sétimo decil, por exemplo, corresponde ao percentil setenta.
+
+
+Não confunda percentil com porcentagem de acertos. Estar no percentil oitenta significa ocupar uma posição relativa em uma distribuição de referência, não necessariamente acertar oitenta por cento de uma prova.
+
+
+Existem diferentes convenções para calcular quantis em amostras finitas. Por isso, quando o resultado depender da convenção, a regra precisa ser informada.
+
+
+51. Vídeo complementar
+
+
+Vídeo recomendado: “Estatística - Separatrizes: Quartil, Decil e Percentil”.
+Canal: Making the Numbers Add Up.
+URL: https://www.youtube.com/watch?v=3Iphf0UB9MQ
+Publicação localizada: 7 de abril de 2026.
+Duração aproximada: não confirmada pelo metadado público recuperado nesta auditoria.
+Motivo: a descrição pública informa teoria, definições de Q1 a Q3, D1 a D9 e P1 a P99, além de exemplos resolvidos.
+Quando assistir: após as seções 5 a 20 e antes dos exercícios de consolidação.
+Estado de QA: página e descrição públicas localizadas; reprodução integral, áudio, legendas e compatibilidade no Microsoft Edge permanecem pendentes.
+
+
+52. Fontes curriculares verificadas
+
+
+FUVEST — Programa do Vestibular 2027: explicita distribuição estatística e medidas de posição, incluindo quartis, decis e percentis.
+INEP — Matrizes de Referência do Enem, publicação institucional de 2026.
+BNCC/MEC — Probabilidade e Estatística no Ensino Médio, incluindo análise de dados, medidas de centro e dispersão e interpretação de box-plot.
+
+
+53. Critério de domínio
+
+
+O tópico só deve ser marcado como consolidado quando o estudante conseguir:
+- explicar quartil, decil e percentil com palavras próprias;
+- ordenar dados e localizar posições;
+- reconhecer equivalências entre Q, D e P;
+- interpretar percentis sem confundir com porcentagem;
+- usar frequência acumulada;
+- aplicar uma convenção explicitamente fornecida;
+- explicar por que convenções podem divergir;
+- resolver situação nova;
+- conectar quartis à amplitude interquartil.
+
+
+A produção editorial não altera progresso individual.
+
+
+54. Próximo passo
+
+
+MAT-EST-011 — Amplitude interquartil e box-plot: caixa, bigodes e valores discrepantes.

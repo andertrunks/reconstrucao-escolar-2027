@@ -1,0 +1,27 @@
+{
+  "aula": "MAT-EST-049",
+  "status": "testes automatizados locais aprovados",
+  "questoes": 36,
+  "porCamada": {
+    "aprendizagem": 10,
+    "consolidacao": 10,
+    "vestibular_autoral": 10,
+    "reteste": 6
+  },
+  "figuras_svg": 6,
+  "dados_048_copiados_byte_a_byte": 3,
+  "comparacoes_emparelhadas": 5,
+  "mae_B": "17.6",
+  "mae_C": "8.36",
+  "custo_medio_B": "51.2",
+  "custo_medio_C": "14.92",
+  "reducao_MAE_pct": "52.5",
+  "piora_local_t19": "19.2",
+  "regra_promocao": "não satisfeita",
+  "limites_verificacao": [
+    "Chromium bloqueado por políticas do ambiente; PNG ilustrativo gerado com Pillow e HTML não testado em navegador",
+    "Edge leitura em voz alta não testado",
+    "vídeo encontrado como resultado público, reprodução integral não testada",
+    "não houve publicação, sincronização Drive/GitHub ou tentativa de estudante"
+  ]
+}

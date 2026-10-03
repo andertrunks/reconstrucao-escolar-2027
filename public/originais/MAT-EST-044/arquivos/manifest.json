@@ -1,0 +1,59 @@
+{
+  "id": "MAT-EST-044",
+  "titulo": "Suavização exponencial e previsões sazonais iniciais: parâmetros, atualização e avaliação temporal",
+  "slug": "suavizacao-exponencial-previsoes-sazonais-iniciais-parametros-atualizacao-avaliacao-temporal",
+  "anterior": "MAT-EST-043",
+  "proximo": "MAT-EST-045",
+  "materia": "Matemática",
+  "unidade": "Estatística",
+  "nivel": 6,
+  "statusAprendizagem": "nao_iniciado",
+  "questoes": {
+    "arquivo": "exercicios.json",
+    "total": 36,
+    "aprendizagem": 10,
+    "consolidacao": 10,
+    "transferenciaVestibular": 10,
+    "reteste": 6,
+    "gabaritoSeparado": "gabarito-comentado.json",
+    "origem": "autoral",
+    "questoesOficiais": 0
+  },
+  "visuais": {
+    "arquivo": "visuais.json",
+    "total": 7,
+    "formato": "SVG com title/desc/aria e texto alternativo no Markdown"
+  },
+  "licencaConteudo": "autoral",
+  "aula": "MAT-EST-044-suavizacao-exponencial-previsoes-sazonais-iniciais-parametros-atualizacao-avaliacao-temporal.md",
+  "arquivosReproduziveis": [
+    "calculos-reproduziveis.py",
+    "calculos-reproduziveis.json"
+  ],
+  "dadosHerdados": [
+    {
+      "arquivo": "dados-ficticios-referencia.csv",
+      "origem": "MAT-EST-043/dados-ficticios-referencia.csv",
+      "sha256": "f1cc3989cd8c701a14e544c424b797f27594806ae302a93253e2a1b82fab5ca9"
+    },
+    {
+      "arquivo": "dados-ficticios-trimestrais.csv",
+      "origem": "MAT-EST-043/dados-ficticios-trimestrais.csv",
+      "sha256": "c1d765b97f058ad9f94fba88e46b9cd6e3c1056bf1653ca3b048b97ca7c1c6f1"
+    }
+  ],
+  "revisao": {
+    "diasAposEstudoReal": [
+      1,
+      7,
+      30
+    ],
+    "inicio": "somente apos tentativa registrada"
+  },
+  "publicacao": {
+    "googleDrive": false,
+    "site": false,
+    "edgeRealTestado": false,
+    "videoReproduzidoIntegralmente": false
+  }
+}

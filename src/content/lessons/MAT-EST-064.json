@@ -1,0 +1,481 @@
+{
+  "id": "MAT-EST-064",
+  "version": "publicacao-2026-10-03-v1",
+  "objective": "distinguir causa real e hipótese causal\n\ncalcular denominador e magnitude de erro\n\nplanejar ações testáveis sem inventar implementação\n\npreservar decisões e controles históricos",
+  "prerequisites": [
+    "MAT-EST-047",
+    "MAT-EST-049",
+    "MAT-EST-053",
+    "MAT-EST-063"
+  ],
+  "why": "# MAT-EST-064 — Análise pós-incidente e prevenção editorial: causas sistêmicas, ações verificáveis e revisão de controles\n\n**Área:** Matemática. **Unidade:** Estatística — ponte universitária, auditoria e comunicação quantitativa. **Nível:** 6. **Anterior:** MAT-EST-063. **Próximo proposto:** MAT-EST-065. **Origem:** material e exercícios autorais; **questões oficiais: zero**. **Progresso individual:** não iniciado, sem evidência de estudo ou tentativa.\n\n**Organização:** bloco A, fato, mecanismo e hipóteses causais (25 a 50 minutos); bloco B, ações verificáveis e matemática do risco de relatório (25 a 50 minutos); bloco C, revisão de controles, atividades, comunicação e síntese (25 a 50 minutos). Não presuma domínio por leitura.\n\n",
+  "intuitive": [],
+  "deep": [],
+  "vocabulary": [],
+  "examples": [],
+  "visuals": [
+    {
+      "url": "media/MAT-EST-064/01-fato-hipotese-evidencia.svg",
+      "caption": "Figura 1.",
+      "alt": "Separa fato demonstrado, hipótese e exposição não verificada.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Mutação I01 observada em arquivo de teste; hipótese sobre mecanismo operacional exige código e logs que não existem neste ensaio."
+    },
+    {
+      "url": "media/MAT-EST-064/02-cadeia-causal-condicional.svg",
+      "caption": "Figura 2.",
+      "alt": "Separa gatilho artificial, mecanismo matemático, hipótese e barreira.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "A alteração artificial de um divisor é gatilho; gerar MAE incorreto é o mecanismo matemático; processo real exige investigação."
+    },
+    {
+      "url": "media/MAT-EST-064/03-mae-completude.svg",
+      "caption": "Figura 3.",
+      "alt": "Diferencia denominador do MAE e da completude.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "A soma dos módulos dos dois pares válidos é seis; oito cartões só entra na completude, dois sobre oito."
+    },
+    {
+      "url": "media/MAT-EST-064/04-acoes-criterios.svg",
+      "caption": "Figura 4.",
+      "alt": "Diferencia ensaios locais de ações que dependem de revisão e publicação.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "As seis ações de testes têm critérios locais explícitos; a barreira editorial de publicação requer G3 a G8 de verdade."
+    },
+    {
+      "url": "media/MAT-EST-064/05-prevenir-detectar-retestar.svg",
+      "caption": "Figura 5.",
+      "alt": "Mostra baseline aprovado, mutações bloqueadas e reteste isolado.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "A referência e a cópia I01 reparada passam no ensaio; mutações negativas ainda devem ser bloqueadas."
+    },
+    {
+      "url": "media/MAT-EST-064/06-controles-e-fechamento.svg",
+      "caption": "Figura 6.",
+      "alt": "Demonstra os estados de G1 a G8 e P01 a P10 sem avançá-los.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Dois controles locais estão documentados; quatro exigem revisão humana; deploy e pós-deploy não ocorreram."
+    }
+  ],
+  "applications": [],
+  "connections": [],
+  "commonErrors": [],
+  "learning": [
+    "MAT-EST-064-EX-APR-01",
+    "MAT-EST-064-EX-APR-02",
+    "MAT-EST-064-EX-APR-03",
+    "MAT-EST-064-EX-APR-04",
+    "MAT-EST-064-EX-APR-05",
+    "MAT-EST-064-EX-APR-06",
+    "MAT-EST-064-EX-APR-07",
+    "MAT-EST-064-EX-APR-08",
+    "MAT-EST-064-EX-APR-09",
+    "MAT-EST-064-EX-APR-10"
+  ],
+  "consolidation": [
+    "MAT-EST-064-EX-CON-01",
+    "MAT-EST-064-EX-CON-02",
+    "MAT-EST-064-EX-CON-03",
+    "MAT-EST-064-EX-CON-04",
+    "MAT-EST-064-EX-CON-05",
+    "MAT-EST-064-EX-CON-06",
+    "MAT-EST-064-EX-CON-07",
+    "MAT-EST-064-EX-CON-08",
+    "MAT-EST-064-EX-CON-09",
+    "MAT-EST-064-EX-CON-10"
+  ],
+  "entrance": [
+    "MAT-EST-064-EX-VES-01",
+    "MAT-EST-064-EX-VES-02",
+    "MAT-EST-064-EX-VES-03",
+    "MAT-EST-064-EX-VES-04",
+    "MAT-EST-064-EX-VES-05",
+    "MAT-EST-064-EX-VES-06",
+    "MAT-EST-064-EX-VES-07",
+    "MAT-EST-064-EX-VES-08",
+    "MAT-EST-064-EX-VES-09",
+    "MAT-EST-064-EX-VES-10"
+  ],
+  "retest": [
+    "MAT-EST-064-EX-RET-01",
+    "MAT-EST-064-EX-RET-02",
+    "MAT-EST-064-EX-RET-03",
+    "MAT-EST-064-EX-RET-04",
+    "MAT-EST-064-EX-RET-05",
+    "MAT-EST-064-EX-RET-06"
+  ],
+  "solutions": [],
+  "summary": "## 12. Resumo pronunciável e revisão espaçada\n\nO relatório de pós-incidente começa pelo que foi comprovado, não por uma causa presumida. I01 é uma falha produzida artificialmente: trocar dois por oito como divisor transformaria MAE três em valor incorreto zero vírgula setenta e cinco. Um controle útil separa contagem planejada da contagem elegível, guarda evidência de teste e depende de nova validação quando muda o artefato. Os demais erros sintéticos exercitam texto alternativo, história, hash, unidade e legenda. Uma aprovação local não prova revisão humana ou publicação. O histórico até t22 continua intacto e nenhum alvo de t23 a t33 ganhou observação nesta aula.\n\n**Revisão espaçada:** contar um, sete e trinta dias a partir de uma tentativa REAL. No primeiro retorno, reconstruir a cadeia de I01 sem chamar hipótese de causa confirmada. No sétimo, calcular MAE e completude, explicar uma ação e seu teste. No trigésimo, realizar reteste e redigir o mini-relatório sem consultar respostas. Critério de domínio: explicar, calcular, transferir e reconhecer limites da evidência.\n\n**Próxima etapa proposta, ainda não iniciada:** MAT-EST-065 — Indicadores de qualidade editorial: definição operacional, linhas de base e acompanhamento sem métricas ilusórias.\n\n**Limites de execução:** material local, sem publicação, sincronização no Drive ou GitHub, incidente real, validação humana, deploy, teste manual no Edge ou reprodução integral do vídeo. Progresso individual inalterado.\n",
+  "audioVersion": "## 12. Resumo pronunciável e revisão espaçada\n\nO relatório de pós-incidente começa pelo que foi comprovado, não por uma causa presumida. I01 é uma falha produzida artificialmente: trocar dois por oito como divisor transformaria MAE três em valor incorreto zero vírgula setenta e cinco. Um controle útil separa contagem planejada da contagem elegível, guarda evidência de teste e depende de nova validação quando muda o artefato. Os demais erros sintéticos exercitam texto alternativo, história, hash, unidade e legenda. Uma aprovação local não prova revisão humana ou publicação. O histórico até t22 continua intacto e nenhum alvo de t23 a t33 ganhou observação nesta aula.\n\n**Revisão espaçada:** contar um, sete e trinta dias a partir de uma tentativa REAL. No primeiro retorno, reconstruir a cadeia de I01 sem chamar hipótese de causa confirmada. No sétimo, calcular MAE e completude, explicar uma ação e seu teste. No trigésimo, realizar reteste e redigir o mini-relatório sem consultar respostas. Critério de domínio: explicar, calcular, transferir e reconhecer limites da evidência.\n\n**Próxima etapa proposta, ainda não iniciada:** MAT-EST-065 — Indicadores de qualidade editorial: definição operacional, linhas de base e acompanhamento sem métricas ilusórias.\n\n**Limites de execução:** material local, sem publicação, sincronização no Drive ou GitHub, incidente real, validação humana, deploy, teste manual no Edge ou reprodução integral do vídeo. Progresso individual inalterado.\n",
+  "sections": [
+    {
+      "id": "MAT-EST-064-s000",
+      "title": "Apresentação e contexto da fonte",
+      "paragraphs": [],
+      "markdown": "# MAT-EST-064 — Análise pós-incidente e prevenção editorial: causas sistêmicas, ações verificáveis e revisão de controles\n\n**Área:** Matemática. **Unidade:** Estatística — ponte universitária, auditoria e comunicação quantitativa. **Nível:** 6. **Anterior:** MAT-EST-063. **Próximo proposto:** MAT-EST-065. **Origem:** material e exercícios autorais; **questões oficiais: zero**. **Progresso individual:** não iniciado, sem evidência de estudo ou tentativa.\n\n**Organização:** bloco A, fato, mecanismo e hipóteses causais (25 a 50 minutos); bloco B, ações verificáveis e matemática do risco de relatório (25 a 50 minutos); bloco C, revisão de controles, atividades, comunicação e síntese (25 a 50 minutos). Não presuma domínio por leitura.\n\n",
+      "sourceStart": 0,
+      "sourceEnd": 740
+    },
+    {
+      "id": "MAT-EST-064-s001",
+      "title": "1. Objetivos, pré-requisitos e limites do caso",
+      "paragraphs": [],
+      "markdown": "## 1. Objetivos, pré-requisitos e limites do caso\n\nVocê deverá conseguir: distinguir o defeito artificial de um incidente realmente exposto; construir uma sequência causal em que evento, condição que permitiu a falha e barreira ausente são coisas distintas; formular hipótese causal sem afirmá-la como fato; converter recomendação vaga em ação verificável; recalcular médias com denominador correto; reconhecer detecção, prevenção e mitigação; distinguir teste do controle em fixture de implantação no site; preservar evidências antigas e atualizar uma política somente mediante novo registro; comunicar uma conclusão proporcional ao que foi observado.\n\n**Pré-requisitos:** fração, média, porcentagem, módulos, MAT-EST-047, MAT-EST-049 e MAT-EST-053–063. Se a diferença entre `6 ÷ 2` e `6 ÷ 8` ainda causar dificuldade, refaça primeiro o exercício da seção 4.\n\n**Relação com vestibulares:** proporcionalidade, leitura crítica de tabelas, medidas estatísticas, interpretação de texto e argumentação. A investigação de processos e controles editoriais é ponte universitária, não requisito específico atribuído ao ENEM ou a uma banca sem confirmação institucional.\n\n**Escopo do ensaio:** a MAT-EST-063 produziu as cópias artificiais I01–I06 e a referência I00. **Nenhum desses casos demonstra um incidente público**, nem há evidência de pessoas afetadas, URL publicada, horário real, responsável designado ou aprovação. MAT-EST-064 não transforma hipóteses de falha sistêmica em diagnóstico operacional. Vamos praticar o método com os arquivos locais herdados.\n\n",
+      "sourceStart": 740,
+      "sourceEnd": 2299
+    },
+    {
+      "id": "MAT-EST-064-s002",
+      "title": "2. Por que estudar o que acontece depois da correção?",
+      "paragraphs": [],
+      "markdown": "## 2. Por que estudar o que acontece depois da correção?\n\nImagine um relatório que trocou o número de pares válidos pelo número de cartões previstos. Corrigir um número numa cópia pode devolver o resultado correto hoje. Mas, se a lógica de produção permite repetir a troca, o próximo relatório pode voltar a ficar incorreto. A investigação pós-incidente pergunta não somente **qual erro apareceu**, mas **que condições o teriam permitido** e **como detectar ou bloquear reincidência**. Em nosso ensaio não temos código de implantação real: as condições propostas serão explicitamente hipóteses e as medidas são um plano autoral de prevenção.\n\nUma boa análise documenta fatos, lacunas, mecanismos plausíveis, testes que discriminariam hipóteses, ações com evidência verificável e limitações. A literatura de Engenharia de Confiabilidade de Sites, ou SRE, apresenta análises pós-incidente sem atribuição de culpa e ações rastreáveis com prioridade, responsável e critério de término. Não se trata de usar a palavra “causa raiz” como certeza quando só existe uma mutação fabricada.\n\n![Distinção entre fato e hipótese](assets/01-fato-hipotese-evidencia.svg)\n\n**Figura 1.** Texto alternativo: I01 foi mutada deliberadamente com n igual a oito; hipótese de falha sistêmica requer evidência adicional; usuários atingidos não foram verificados. **Observe:** são três categorias de afirmação. **Conclusão para áudio:** um experimento local descreve o mecanismo que queremos evitar, não demonstra defeito nem dano em produção.\n\n",
+      "sourceStart": 2299,
+      "sourceEnd": 3817
+    },
+    {
+      "id": "MAT-EST-064-s003",
+      "title": "3. Gatilho, mecanismo, condições contribuintes e barreiras",
+      "paragraphs": [],
+      "markdown": "## 3. Gatilho, mecanismo, condições contribuintes e barreiras\n\nNo exemplo I01, o **gatilho artificial** é trocar o campo `denominator` de dois para oito em uma cópia isolada. O **mecanismo matemático** é misturar duas populações: dois pares com erros conhecidos e oito cartões planejados. Uma **hipótese de condição contribuinte** seria um gerador que usa um único campo de contagem em todos os indicadores. **Não verificamos esse gerador em operação**. Uma **barreira proposta** é obrigar campos diferentes, `count_evaluable` e `count_planned`, com um teste negativo que bloqueia a troca. Uma segunda barreira é tornar explícita a legenda do corte A.\n\nPerguntar “por que?” sucessivamente pode auxiliar, mas não cria prova. O primeiro porquê aponta para a divisão pelo denominador inadequado; o segundo levanta a possibilidade de reutilização de campo; o terceiro questiona se havia contrato de dados e testes. Os dois últimos são hipóteses de desenho e devem ser averiguados por inspeção do código e dos registros pertinentes antes de serem tratados como causa confirmada.\n\nO mesmo método se aplica a I02, alternativa textual vazia; I03, decisão histórica reescrita; I04, hash divergente; I05, troca da unidade de custo; I06, legenda sem corte e pendências. Não concluir que o mesmo mecanismo causou todos: o padrão aparente vem de alterações intencionais feitas no laboratório editorial.\n\n![Cadeia causal condicionada](assets/02-cadeia-causal-condicional.svg)\n\n**Figura 2.** Texto alternativo: mutação observada, interpretação matemática, hipótese de mecanismo, prova ausente e barreira proposta aparecem numa cadeia sem afirmar causalidade real. **Observe:** o passo da hipótese para a causa operacional depende de evidência que não foi coletada. **Conclusão por áudio:** não preencher lacunas de investigação com suposições.\n\n",
+      "sourceStart": 3817,
+      "sourceEnd": 5647
+    },
+    {
+      "id": "MAT-EST-064-s004",
+      "title": "4. O exemplo numérico de ponta a ponta: duas perguntas, dois denominadores",
+      "paragraphs": [],
+      "markdown": "## 4. O exemplo numérico de ponta a ponta: duas perguntas, dois denominadores\n\nO SANDBOX-057 contém oito cartões fictícios do corte A, dos quais somente S01 e S02 são avaliáveis. Os seis restantes são pendentes. Os erros assinados do modelo de referência B são mais quatro e menos dois; seus módulos são quatro e dois. O erro absoluto médio, chamado MAE, é:\n\n\\[\\operatorname{MAE}_B=\\frac{|4|+|-2|}{2}=\\frac{6}{2}=3\\ \\text{unidades}.\\]\n\n**Leitura:** o erro absoluto médio de B é quatro mais dois, dividido pelos **dois pares avaliáveis**, igual a três unidades. Se dividíssemos a mesma soma pelos oito cartões planejados, sairia zero vírgula setenta e cinco unidade, um valor inválido para essa média. A diferença absoluta é três menos zero vírgula setenta e cinco, ou **2,25 unidades**; a cifra falsa seria **75% inferior ao valor correto**, calculando dois vírgula vinte e cinco dividido por três. Isso quantifica a distorção da fixture, não pessoas afetadas ou impacto público.\n\nPara a **completude**, o denominador é outro: dois avaliáveis divididos por oito planejados, igual a um quarto, ou **25%**. Esses 25% não são medida de precisão de previsão. No modelo C, módulos três e cinco dão MAE igual a quatro unidades; custo médio sete pontos em B e em C sob a regra didática anterior.\n\n| Medida | Numerador | Denominador | Resultado e unidade |\n|---|---:|---:|---|\n| MAE B, válido | 4 + 2 = 6 | 2 avaliáveis | 3 unidades |\n| MAE B mutado I01, inválido | 6 | 8 planejados | 0,75 unidade (não divulgar) |\n| Completude | 2 avaliáveis | 8 planejados | 25 por cento |\n| MAE C, válido | 3 + 5 = 8 | 2 avaliáveis | 4 unidades |\n\n**Síntese para ouvir:** MAE só divide erros conhecidos por pares elegíveis; completude divide os pares elegíveis pelo total planejado. Usar oito na média de seis unidades fabrica aparente precisão. Um zero no campo de observação pendente não é valor observado.\n\n![Denominadores distintos](assets/03-mae-completude.svg)\n\n**Figura 3.** Texto alternativo: seis dividido por dois resulta três unidades e dois dividido por oito resulta vinte e cinco por cento; seis dividido por oito resulta zero vírgula setenta e cinco incorreto como MAE. **Observe:** cada denominador se vincula à pergunta. **Conclusão para áudio:** uma contagem pode estar correta e ainda ser usada na medida errada.\n\n",
+      "sourceStart": 5647,
+      "sourceEnd": 7957
+    },
+    {
+      "id": "MAT-EST-064-s005",
+      "title": "5. De recomendação vaga a ação verificável",
+      "paragraphs": [],
+      "markdown": "## 5. De recomendação vaga a ação verificável\n\n“Ter mais cuidado com os gráficos” não identifica artefato, comportamento esperado ou teste. O plano autoral `MAT-EST-064-PLANO-v1` propõe sete ações distintas. A64-01 exige contagens separadas para pares elegíveis e planejados; A64-02 exige alternativa textual com os dados essenciais; A64-03 protege a conclusão histórica contra alterações; A64-04 vincula fonte e hash; A64-05 valida unidades; A64-06 obriga legenda com corte e pendências; A64-07 mantém revisão e deploy bloqueados sem evidências correspondentes.\n\nUm critério de aceitação para A64-01 é específico: baseline com MAE B três e C quatro, completude vinte e cinco por cento e mutação que divide por oito rejeitada. O teste deve ser guardado com código da ação, versão e resultado. Para ações humanas, é preciso identificar quem efetivamente verificou e quando, em vez de completar artificialmente o campo de responsável.\n\nOs testes desta aula **reutilizam fixtures**, e por isso os resultados A64-01 a A64-06 significam somente “teste local executado sobre exemplo”. Eles não equivalem a implantação de controles numa plataforma real nem a prevenção estatisticamente demonstrada. A64-07 é apenas proposta, porque os controles G3–G8 permanecem sem evidência de conclusão.\n\n![Plano de ações mensuráveis](assets/04-acoes-criterios.svg)\n\n**Figura 4.** Texto alternativo: ações A64-01 a A64-06 contam com ensaio local de fixtures; A64-07 depende de registros humanos e externos inexistentes. **Observe:** resultado de teste e estado de implementação ocupam campos diferentes. **Conclusão por áudio:** não encerrar uma ação apenas porque ela possui uma descrição ou um teste didático.\n\n",
+      "sourceStart": 7957,
+      "sourceEnd": 9649
+    },
+    {
+      "id": "MAT-EST-064-s006",
+      "title": "6. Reteste, prevenção, detecção e efeitos colaterais",
+      "paragraphs": [],
+      "markdown": "## 6. Reteste, prevenção, detecção e efeitos colaterais\n\n**Prevenir** significa dificultar que a versão incorreta seja criada: esquema com campos tipados e validação da grandeza. **Detectar** significa rejeitar um relatório que já traz denominador, alt, decisão, hash, unidade ou legenda incompatíveis. **Mitigar** significa impedir que uma versão suspeita se propague enquanto se verifica seu escopo. **Corrigir** altera uma cópia identificada; **retestar** comprova que a alteração específica não rompeu outro requisito. Nada disso prova, por si só, que houve implantação pública.\n\nO exercício automatizado herdou I00 e I01–I06 sem reescrevê-las. I00 passou como referência; as seis mutações continuaram reprovadas pelos motivos esperados. O reteste em cópia de I01 restaurou denominador dois e passou, com o baseline intacto. Um teste negativo continua útil quando reprova: sua tarefa é identificar uma condição propositalmente errada.\n\nÉ inadequado anunciar “cem por cento dos incidentes prevenidos” porque sete receitas artificiais foram verificadas. O denominador sete se refere **apenas às sete receitas do laboratório**, sem amostragem de incidentes reais. Uma métrica de eficácia futura exigiria população definida, período, exposição real e processo de coleta.\n\n![Reteste e regressão](assets/05-prevenir-detectar-retestar.svg)\n\n**Figura 5.** Texto alternativo: o teste local aceita I00 e a cópia corrigida de I01, e rejeita I01 a I06 ainda mutadas. **Observe:** reprovação de mutação negativa é resultado esperado. **Conclusão por áudio:** um conjunto de testes de laboratório pode provar comportamento do validador nas entradas usadas, mas não a eficácia de um controle publicado.\n\n",
+      "sourceStart": 9649,
+      "sourceEnd": 11342
+    },
+    {
+      "id": "MAT-EST-064-s007",
+      "title": "7. Revisão dos controles e condições para encerrar",
+      "paragraphs": [],
+      "markdown": "## 7. Revisão dos controles e condições para encerrar\n\nOs estados herdados continuam: G1 e G2 `checked_local` — conferidos localmente; G3 a G6 `pending` — pendentes de revisão humana; G7 e G8 `not_performed` — não executados. P01–P10, itens do plano de pós-deploy, também seguem não executados. Alterar esses campos sem evidências seria introduzir uma falha nova no processo de auditoria.\n\nO encerramento **deste estudo editorial** exige aula, questões, assets, hashes e validação do ZIP. O encerramento de uma **ação local** requer teste adequado e registro de resultado. O encerramento de um **incidente real**, se algum dia houver, exigiria escopo público verificado, registros temporais, comunicação pertinente, responsável e reteste da versão servida. Não existe incidente real a encerrar agora.\n\nPara o histórico dos modelos, MAT-EST-049-PROT-v1 continua com cinco de oito pares, MAE B igual a 17,60 e MAE C igual a 8,36, custos médios 51,20 e 14,92 pontos, e piora local do desafiante de 19,2 unidades em t19, maior que a guarda de dez. Logo, C **não foi promovido sob o protocolo original**. t23–t25 não possuem observações nem emissões autenticadas; t26–t33 continuam alvos apenas propostos, sem pares avaliáveis. A aula não cria métricas novas para esses períodos.\n\n![Fechamento restrito à evidência](assets/06-controles-e-fechamento.svg)\n\n**Figura 6.** Texto alternativo: G1 e G2 verificados localmente, G3 a G6 pendentes, G7 e G8 não executados; não há deploy nem revisão humana comprovados. **Observe:** cada controle precisa de sua evidência própria. **Conclusão por áudio:** teste local aprovado não implica autorização para publicação.\n\n",
+      "sourceStart": 11342,
+      "sourceEnd": 12995
+    },
+    {
+      "id": "MAT-EST-064-s008",
+      "title": "8. Modelo de mini-relatório pós-incidente, sem alegações indevidas",
+      "paragraphs": [],
+      "markdown": "## 8. Modelo de mini-relatório pós-incidente, sem alegações indevidas\n\n**Contexto:** “Reanalisamos apenas sete receitas deliberadamente artificiais da MAT-EST-063. Não foi detectado nem estimado incidente público nesta atividade.”\n\n**Achado verificável:** “A mutação I01 trocou o denominador dois por oito. O MAE B passaria de três para zero vírgula setenta e cinco unidade, diferença de dois vírgula vinte e cinco unidades.”\n\n**Hipótese e plano:** “Uma possível fragilidade seria a ausência de campos distintos para pares elegíveis e cartões planejados. A64-01 propõe validá-los separadamente. Não houve inspeção de implantação real que confirme essa hipótese.”\n\n**Verificação e limites:** “O baseline e a cópia reparada de I01 passaram no teste local; seis mutações negativas foram rejeitadas como esperado. Revisão humana, implementação operacional e pós-deploy não foram realizados.”\n\n",
+      "sourceStart": 12995,
+      "sourceEnd": 13884
+    },
+    {
+      "id": "MAT-EST-064-s009",
+      "title": "9. Aplicações, relações conceituais e erros frequentes",
+      "paragraphs": [],
+      "markdown": "## 9. Aplicações, relações conceituais e erros frequentes\n\n**Ligações:** em Estatística, o denominador define a população de uma medida; em Computação, testes negativos e hashes dão rastreabilidade; em Língua Portuguesa e Redação, termos como “se”, “hipótese”, “observado” e “não verificado” evitam conclusões sem prova; em gestão de informação, ações especificam quem fará o quê, qual prova será preservada e quando rever a decisão. A análise pós-incidente é um exercício de causalidade, não de culpabilização.\n\n**Erros comuns:** chamar mutação criada deliberadamente de defeito público; confundir gatilho com causa sistêmica; concluir causa pelo método dos porquês sem evidência; dividir por oito no MAE; usar “maioria dos controles” como substituto de G3–G8; tratar reprovação esperada de fixture como falha do teste; afirmar “incidentes evitados” sem observações externas; prometer prioridade, pessoa, prazo ou aprovação não registrados; substituir a versão anterior em vez de preservar ambas; declarar taxa zero em série sem pares; misturar unidade de custo com unidade de erro; omitir limitação ao comunicar um resultado.\n\n",
+      "sourceStart": 13884,
+      "sourceEnd": 15013
+    },
+    {
+      "id": "MAT-EST-064-s010",
+      "title": "10. Vídeo complementar e referências",
+      "paragraphs": [],
+      "markdown": "## 10. Vídeo complementar e referências\n\n**Vídeo recomendado:** [Postmortem Action Items: Plan the Work and Work the Plan — John Lunney (Google SRE), USENIX SREcon17 Europe](https://www.usenix.org/conference/srecon17europe/conference-program/presentation/lunney). A página institucional oferece vídeo da apresentação e arquivo de áudio. **Idioma:** inglês. **Duração aproximada:** sessão anunciada de uma hora, duração efetiva do vídeo não aferida. **Assistir:** depois da seção 5, para observar por que ações vagas não bastam e como transformar conclusões em compromissos rastreáveis. A página de mídia foi localizada; reprodução integral não realizada. A explicação da aula não depende do vídeo.\n\nLeituras complementares: [Google SRE, Postmortem Culture, Workbook](https://sre.google/workbook/postmortem-culture/); [Google SRE, Postmortem Culture, SRE Book](https://sre.google/sre-book/postmortem-culture/); [Google Research, Postmortem Action Items](https://research.google/pubs/postmortem-action-items-plan-the-work-and-work-the-plan/); [W3C WAI, Easy Checks](https://www.w3.org/WAI/test-evaluate/easy-checks/). Referências institucionais informam boas práticas gerais, não validam as métricas ou classificações autorais do SANDBOX-057.\n\n",
+      "sourceStart": 15013,
+      "sourceEnd": 16255
+    },
+    {
+      "id": "MAT-EST-064-s011",
+      "title": "11. Exercícios, correção e autoavaliação",
+      "paragraphs": [],
+      "markdown": "## 11. Exercícios, correção e autoavaliação\n\nAs **36 questões autorais** estão em `exercicios.md`, em quatro blocos: dez de aprendizagem, dez de consolidação, dez de aplicação em estilo vestibular e seis de reteste posterior. **Nenhuma é questão oficial.** O `gabarito-comentado.md` é separado, para permitir tentativa independente. A correção identifica cálculo, conceito, interpretação, distração, memória, estratégia ou tempo. Registrar uma tentativa real antes de mudar o status individual.\n\n",
+      "sourceStart": 16255,
+      "sourceEnd": 16751
+    },
+    {
+      "id": "MAT-EST-064-s012",
+      "title": "12. Resumo pronunciável e revisão espaçada",
+      "paragraphs": [],
+      "markdown": "## 12. Resumo pronunciável e revisão espaçada\n\nO relatório de pós-incidente começa pelo que foi comprovado, não por uma causa presumida. I01 é uma falha produzida artificialmente: trocar dois por oito como divisor transformaria MAE três em valor incorreto zero vírgula setenta e cinco. Um controle útil separa contagem planejada da contagem elegível, guarda evidência de teste e depende de nova validação quando muda o artefato. Os demais erros sintéticos exercitam texto alternativo, história, hash, unidade e legenda. Uma aprovação local não prova revisão humana ou publicação. O histórico até t22 continua intacto e nenhum alvo de t23 a t33 ganhou observação nesta aula.\n\n**Revisão espaçada:** contar um, sete e trinta dias a partir de uma tentativa REAL. No primeiro retorno, reconstruir a cadeia de I01 sem chamar hipótese de causa confirmada. No sétimo, calcular MAE e completude, explicar uma ação e seu teste. No trigésimo, realizar reteste e redigir o mini-relatório sem consultar respostas. Critério de domínio: explicar, calcular, transferir e reconhecer limites da evidência.\n\n**Próxima etapa proposta, ainda não iniciada:** MAT-EST-065 — Indicadores de qualidade editorial: definição operacional, linhas de base e acompanhamento sem métricas ilusórias.\n\n**Limites de execução:** material local, sem publicação, sincronização no Drive ou GitHub, incidente real, validação humana, deploy, teste manual no Edge ou reprodução integral do vídeo. Progresso individual inalterado.\n",
+      "sourceStart": 16751,
+      "sourceEnd": 18238
+    }
+  ],
+  "sources": [
+    {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    }
+  ],
+  "previous": "MAT-EST-063",
+  "next": "MAT-EST-065",
+  "videos": [
+    {
+      "title": "Postmortem Action Items: Plan the Work and Work the Plan",
+      "channel": "USENIX, John Lunney / Google SRE",
+      "url": "https://www.usenix.org/conference/srecon17europe/conference-program/presentation/lunney",
+      "duration": "sessão prevista de 60 min; duração do vídeo não conferida",
+      "language": "inglês",
+      "reason": "Reforça o conceito apresentado nesta aula.",
+      "when": "Depois dos exemplos resolvidos, antes dos exercícios.",
+      "reinforces": [],
+      "checkedAt": "2026-10-03",
+      "verification": "Disponibilidade da página institucional conferida em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+      "type": "video"
+    }
+  ],
+  "video": {
+    "title": "Postmortem Action Items: Plan the Work and Work the Plan",
+    "channel": "USENIX, John Lunney / Google SRE",
+    "url": "https://www.usenix.org/conference/srecon17europe/conference-program/presentation/lunney",
+    "duration": "sessão prevista de 60 min; duração do vídeo não conferida",
+    "language": "inglês",
+    "reason": "Reforça o conceito apresentado nesta aula.",
+    "when": "Depois dos exemplos resolvidos, antes dos exercícios.",
+    "reinforces": [],
+    "checkedAt": "2026-10-03",
+    "verification": "Disponibilidade da página institucional conferida em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+    "type": "video"
+  },
+  "publication": {
+    "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+    "notes": [
+      "A produção e a publicação não registram domínio nem alteram seu progresso.",
+      "Aula avançada para consulta. A sequência de fundamentos ainda tem textos integrais a recuperar; confira os pré-requisitos antes de iniciar.",
+      "As referências a publicação pendente no texto original registram o estado da fonte na data de criação."
+    ],
+    "original": "originais/MAT-EST-064/aula.md",
+    "editions": [],
+    "attachments": [
+      {
+        "label": "plano-avaliacao-MAT-EST-051.json",
+        "url": "originais/MAT-EST-064/arquivos/plano-avaliacao-MAT-EST-051.json"
+      },
+      {
+        "label": "manifesto-sha256.txt",
+        "url": "originais/MAT-EST-064/arquivos/manifesto-sha256.txt"
+      },
+      {
+        "label": "protocolo-herdado-MAT-EST-049.json",
+        "url": "originais/MAT-EST-064/arquivos/protocolo-herdado-MAT-EST-049.json"
+      },
+      {
+        "label": "relatorio-integridade.json",
+        "url": "originais/MAT-EST-064/arquivos/relatorio-integridade.json"
+      },
+      {
+        "label": "gabarito-comentado.json",
+        "url": "originais/MAT-EST-064/arquivos/gabarito-comentado.json"
+      },
+      {
+        "label": "verificar-pacote.py",
+        "url": "originais/MAT-EST-064/arquivos/verificar-pacote.py"
+      },
+      {
+        "label": "metadados.json",
+        "url": "originais/MAT-EST-064/arquivos/metadados.json"
+      },
+      {
+        "label": "exercicios.json",
+        "url": "originais/MAT-EST-064/arquivos/exercicios.json"
+      },
+      {
+        "label": "checkpoint-editorial.json",
+        "url": "originais/MAT-EST-064/arquivos/checkpoint-editorial.json"
+      },
+      {
+        "label": "PROMPT-TRANSICAO-NOVO-CHAT.txt",
+        "url": "originais/MAT-EST-064/arquivos/PROMPT-TRANSICAO-NOVO-CHAT.txt"
+      },
+      {
+        "label": "dados/politicas-de-vintage.json",
+        "url": "originais/MAT-EST-064/arquivos/dados/politicas-de-vintage.json"
+      },
+      {
+        "label": "dados/serie-herdada-t01-t12.csv",
+        "url": "originais/MAT-EST-064/arquivos/dados/serie-herdada-t01-t12.csv"
+      },
+      {
+        "label": "dados/matriz-estados.csv",
+        "url": "originais/MAT-EST-064/arquivos/dados/matriz-estados.csv"
+      },
+      {
+        "label": "dados/cenarios-herdados-t23-nao-observados.csv",
+        "url": "originais/MAT-EST-064/arquivos/dados/cenarios-herdados-t23-nao-observados.csv"
+      },
+      {
+        "label": "dados/diferencas-sazonais-t13-t22.csv",
+        "url": "originais/MAT-EST-064/arquivos/dados/diferencas-sazonais-t13-t22.csv"
+      },
+      {
+        "label": "dados/EXEMPLO-V-reavaliacao.csv",
+        "url": "originais/MAT-EST-064/arquivos/dados/EXEMPLO-V-reavaliacao.csv"
+      },
+      {
+        "label": "dados/chegadas-novas-simuladas-t19-t22.csv",
+        "url": "originais/MAT-EST-064/arquivos/dados/chegadas-novas-simuladas-t19-t22.csv"
+      },
+      {
+        "label": "dados/EXEMPLO-V-versoes.csv",
+        "url": "originais/MAT-EST-064/arquivos/dados/EXEMPLO-V-versoes.csv"
+      },
+      {
+        "label": "dados/chegadas-simuladas-t13-t18.csv",
+        "url": "originais/MAT-EST-064/arquivos/dados/chegadas-simuladas-t13-t18.csv"
+      },
+      {
+        "label": "dados/plano-emissoes-pendentes-t23-t25.csv",
+        "url": "originais/MAT-EST-064/arquivos/dados/plano-emissoes-pendentes-t23-t25.csv"
+      },
+      {
+        "label": "dados/projecoes-ilustrativas-t23.csv",
+        "url": "originais/MAT-EST-064/arquivos/dados/projecoes-ilustrativas-t23.csv"
+      },
+      {
+        "label": "dados/EXEMPLO-V-eventos.jsonl",
+        "url": "originais/MAT-EST-064/arquivos/dados/EXEMPLO-V-eventos.jsonl"
+      },
+      {
+        "label": "dados/ensaio-eventos-EXEMPLO-Z.jsonl",
+        "url": "originais/MAT-EST-064/arquivos/dados/ensaio-eventos-EXEMPLO-Z.jsonl"
+      },
+      {
+        "label": "dados/registro-emissoes-h1.csv",
+        "url": "originais/MAT-EST-064/arquivos/dados/registro-emissoes-h1.csv"
+      },
+      {
+        "label": "dados/comparacao-emparelhada-t18-t22.csv",
+        "url": "originais/MAT-EST-064/arquivos/dados/comparacao-emparelhada-t18-t22.csv"
+      },
+      {
+        "label": "dados/dependencias-simbolicas-t24-t25.csv",
+        "url": "originais/MAT-EST-064/arquivos/dados/dependencias-simbolicas-t24-t25.csv"
+      },
+      {
+        "label": "dados/cartoes-casos-didaticos.csv",
+        "url": "originais/MAT-EST-064/arquivos/dados/cartoes-casos-didaticos.csv"
+      },
+      {
+        "label": "governanca/hashes-herdados.json",
+        "url": "originais/MAT-EST-064/arquivos/governanca/hashes-herdados.json"
+      },
+      {
+        "label": "relatorios/relatorio-auditoria.json",
+        "url": "originais/MAT-EST-064/arquivos/relatorios/relatorio-auditoria.json"
+      },
+      {
+        "label": "relatorios/conciliacao-de-versoes.csv",
+        "url": "originais/MAT-EST-064/arquivos/relatorios/conciliacao-de-versoes.csv"
+      },
+      {
+        "label": "relatorios/MAT-EST-059-painel-dados.json",
+        "url": "originais/MAT-EST-064/arquivos/relatorios/MAT-EST-059-painel-dados.json"
+      },
+      {
+        "label": "auditoria/testar_auditoria.py",
+        "url": "originais/MAT-EST-064/arquivos/auditoria/testar_auditoria.py"
+      },
+      {
+        "label": "auditoria/recalcular_relatorios.py",
+        "url": "originais/MAT-EST-064/arquivos/auditoria/recalcular_relatorios.py"
+      },
+      {
+        "label": "controle/MAT-EST-062-matriz-evidencias.json",
+        "url": "originais/MAT-EST-064/arquivos/controle/MAT-EST-062-matriz-evidencias.json"
+      },
+      {
+        "label": "controle/testar_estados.py",
+        "url": "originais/MAT-EST-064/arquivos/controle/testar_estados.py"
+      },
+      {
+        "label": "controle/MAT-EST-062-pendencias.csv",
+        "url": "originais/MAT-EST-064/arquivos/controle/MAT-EST-062-pendencias.csv"
+      },
+      {
+        "label": "controle/MAT-EST-062-plano-pos-deploy.json",
+        "url": "originais/MAT-EST-064/arquivos/controle/MAT-EST-062-plano-pos-deploy.json"
+      },
+      {
+        "label": "controle/MAT-EST-062-ensaios-estados.json",
+        "url": "originais/MAT-EST-064/arquivos/controle/MAT-EST-062-ensaios-estados.json"
+      },
+      {
+        "label": "incidentes/MAT-EST-063-fixtures-incidentes.json",
+        "url": "originais/MAT-EST-064/arquivos/incidentes/MAT-EST-063-fixtures-incidentes.json"
+      },
+      {
+        "label": "incidentes/MAT-EST-063-matriz-impacto.csv",
+        "url": "originais/MAT-EST-064/arquivos/incidentes/MAT-EST-063-matriz-impacto.csv"
+      },
+      {
+        "label": "incidentes/MAT-EST-063-caderno-sintetico.json",
+        "url": "originais/MAT-EST-064/arquivos/incidentes/MAT-EST-063-caderno-sintetico.json"
+      },
+      {
+        "label": "incidentes/MAT-EST-063-reteste-demonstrativo.json",
+        "url": "originais/MAT-EST-064/arquivos/incidentes/MAT-EST-063-reteste-demonstrativo.json"
+      },
+      {
+        "label": "protocolo-sucessor/MAT-EST-056-PROT-SUC-v1.json",
+        "url": "originais/MAT-EST-064/arquivos/protocolo-sucessor/MAT-EST-056-PROT-SUC-v1.json"
+      },
+      {
+        "label": "pos-incidente/MAT-EST-064-plano-acoes.json",
+        "url": "originais/MAT-EST-064/arquivos/pos-incidente/MAT-EST-064-plano-acoes.json"
+      },
+      {
+        "label": "pos-incidente/MAT-EST-064-ensaio-controles.json",
+        "url": "originais/MAT-EST-064/arquivos/pos-incidente/MAT-EST-064-ensaio-controles.json"
+      },
+      {
+        "label": "pos-incidente/MAT-EST-064-hipoteses-causais.json",
+        "url": "originais/MAT-EST-064/arquivos/pos-incidente/MAT-EST-064-hipoteses-causais.json"
+      },
+      {
+        "label": "pos-incidente/MAT-EST-064-contas-didaticas.json",
+        "url": "originais/MAT-EST-064/arquivos/pos-incidente/MAT-EST-064-contas-didaticas.json"
+      },
+      {
+        "label": "regressao/MAT-EST-061-candidato-e-falhas-isoladas.json",
+        "url": "originais/MAT-EST-064/arquivos/regressao/MAT-EST-061-candidato-e-falhas-isoladas.json"
+      },
+      {
+        "label": "regressao/MAT-EST-061-registro-evidencias.json",
+        "url": "originais/MAT-EST-064/arquivos/regressao/MAT-EST-061-registro-evidencias.json"
+      },
+      {
+        "label": "regressao/MAT-EST-061-resultado-regressao.json",
+        "url": "originais/MAT-EST-064/arquivos/regressao/MAT-EST-061-resultado-regressao.json"
+      },
+      {
+        "label": "sandbox/SANDBOX-057-cartoes.csv",
+        "url": "originais/MAT-EST-064/arquivos/sandbox/SANDBOX-057-cartoes.csv"
+      },
+      {
+        "label": "sandbox/SANDBOX-057-resumo-metricas.json",
+        "url": "originais/MAT-EST-064/arquivos/sandbox/SANDBOX-057-resumo-metricas.json"
+      },
+      {
+        "label": "sandbox/SANDBOX-057-desvios.jsonl",
+        "url": "originais/MAT-EST-064/arquivos/sandbox/SANDBOX-057-desvios.jsonl"
+      }
+    ],
+    "questionCount": 36,
+    "visualCount": 6,
+    "sourceSha256": "c4d7950703b1bd353b31db869c2e90aedce41a6753de26df64cf6fceadbe9ebe"
+  }
+}

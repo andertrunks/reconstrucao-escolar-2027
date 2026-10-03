@@ -1,0 +1,218 @@
+[
+  {
+    "id": "MAT-EST-061-EX-APR-01",
+    "resposta_e_resolucao": "É a versão de referência identificada por artefato e digest; permite comparação estável. Não é uma vaga memória de como a página parecia.",
+    "motivoProvavelDeErro": "conceito",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-APR-02",
+    "resposta_e_resolucao": "R061-RC1 é cópia local avaliada automaticamente. Publicar exige evidências adicionais, autorizações e verificação pós-deploy, ainda inexistentes.",
+    "motivoProvavelDeErro": "interpretação",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-APR-03",
+    "resposta_e_resolucao": "Dois dividido por oito é 0,25, isto é, 25%. As seis pendências continuam no denominador da completude.",
+    "motivoProvavelDeErro": "cálculo",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-APR-04",
+    "resposta_e_resolucao": "Módulos 4 e 2, soma 6; seis dividido pelos dois pares avaliáveis é 3 unidades.",
+    "motivoProvavelDeErro": "cálculo",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-APR-05",
+    "resposta_e_resolucao": "Módulos 3 e 5, soma 8; oito dividido por dois é 4 unidades.",
+    "motivoProvavelDeErro": "cálculo",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-APR-06",
+    "resposta_e_resolucao": "Somente dois cartões apresentam erros avaliáveis. Os seis restantes são pendentes, e suas magnitudes não são zero conhecido.",
+    "motivoProvavelDeErro": "interpretação",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-APR-07",
+    "resposta_e_resolucao": "Não estimável, representado por null ou mensagem equivalente; zero fabricaria uma medição que não ocorreu.",
+    "motivoProvavelDeErro": "conceito",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-APR-08",
+    "resposta_e_resolucao": "Permite verificar igualdade entre os bytes de um arquivo e um digest de referência confiado; isoladamente não prova origem, assinatura humana ou anterioridade temporal.",
+    "motivoProvavelDeErro": "conceito",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-APR-09",
+    "resposta_e_resolucao": "Não. É mutação didática de uma receita isolada, construída justamente para testar se o verificador rejeita a ausência.",
+    "motivoProvavelDeErro": "interpretação",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-APR-10",
+    "resposta_e_resolucao": "Não. A verificação estrutural não reproduz a experiência real de leitura; G3 permanece pendente.",
+    "motivoProvavelDeErro": "interpretação",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-CON-01",
+    "resposta_e_resolucao": "B: custo(+4)=12; custo(−2)=2; média (12+2)/2=7. C: custo(+3)=9, custo(−5)=5; média (9+5)/2=7 pontos.",
+    "motivoProvavelDeErro": "cálculo",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-CON-02",
+    "resposta_e_resolucao": "Usou soma dos módulos de B, seis, dividida por oito, em vez de dois avaliáveis. O resultado é 0,75 e viola a regra de denominador.",
+    "motivoProvavelDeErro": "estratégia",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-CON-03",
+    "resposta_e_resolucao": "Para comparar a candidata com uma referência estável e garantir que as falhas conhecidas continuam sendo detectadas, sem reescrever o histórico.",
+    "motivoProvavelDeErro": "estratégia",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-CON-04",
+    "resposta_e_resolucao": "Não. T03 declara promoção histórica indevida e deveria falhar. Um teste negativo aceito mostra lacuna ou regressão no verificador.",
+    "motivoProvavelDeErro": "interpretação",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-CON-05",
+    "resposta_e_resolucao": "G3 é verificação humana prevista mas ainda aberta. G7 é integração externa ainda não realizada. Ambos não são “passou”, mas têm ações e evidências diferentes.",
+    "motivoProvavelDeErro": "conceito",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-CON-06",
+    "resposta_e_resolucao": "Por exemplo: versão/digest, procedimento e ambiente, observação concreta, pessoa que de fato testou, data real e resultado. Três desses campos fundamentam reprodutibilidade.",
+    "motivoProvavelDeErro": "memória",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-CON-07",
+    "resposta_e_resolucao": "Somente capacidade de restaurar o artefato em staging local, não reversão de produção nem restauração de dados de usuários.",
+    "motivoProvavelDeErro": "interpretação",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-CON-08",
+    "resposta_e_resolucao": "Conteúdo publicado e progresso individual são estados diferentes. A reversão editorial deve preservar os dados do estudante e requer plano específico para eventuais mudanças de esquema.",
+    "motivoProvavelDeErro": "estratégia",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-CON-09",
+    "resposta_e_resolucao": "Dezenove vírgula dois menos dez é 9,2 unidades; a violação não desaparece com média menor.",
+    "motivoProvavelDeErro": "cálculo",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-CON-10",
+    "resposta_e_resolucao": "Exemplo: R061-RC1 passou os testes automáticos locais, mas ainda depende de leitura real no Edge e revisão editorial humana; não foi publicada.",
+    "motivoProvavelDeErro": "interpretação",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-VES-01",
+    "resposta_e_resolucao": "Zero pressupõe observações de erros nulos. Como não há pares, a métrica do sucessor é não estimável; nenhuma comparação factual foi feita.",
+    "motivoProvavelDeErro": "interpretação",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-VES-02",
+    "resposta_e_resolucao": "No SANDBOX-057, corte A, dois de oito cartões estão avaliáveis, seis pendentes; MAE B três e C quatro unidades. Informar corte, denominador e unidade evita inferência excessiva.",
+    "motivoProvavelDeErro": "interpretação",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-VES-03",
+    "resposta_e_resolucao": "O protocolo histórico registrou deterioração local de C de 19,2 em t19, maior que guarda dez; além disso havia só cinco dos oito pares. Não há promoção pelo protocolo antigo.",
+    "motivoProvavelDeErro": "interpretação",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-VES-04",
+    "resposta_e_resolucao": "Revisar legenda pode ajudar, mas não comprova leitura em voz alta, teclado, leitor de tela, zoom ou contexto editorial. É necessária evidência humana real.",
+    "motivoProvavelDeErro": "estratégia",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-VES-05",
+    "resposta_e_resolucao": "Não. Falta identificar o que estava efetivamente ativo e comprovar o estado depois de uma ação externa autorizada. ZIP extraído é ensaio, não deploy.",
+    "motivoProvavelDeErro": "interpretação",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-VES-06",
+    "resposta_e_resolucao": "Detectar divergência do hash preservado prova apenas diferença de bytes no contexto local; não autentica a origem externa nem a data de emissão.",
+    "motivoProvavelDeErro": "interpretação",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-VES-07",
+    "resposta_e_resolucao": "No sandbox, para dois pares avaliáveis, MAE B=3 unidades e C=4 unidades; custos médios B=C=7 pontos pela regra fictícia.",
+    "motivoProvavelDeErro": "interpretação",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-VES-08",
+    "resposta_e_resolucao": "Exemplo: “R061-T01 usou oito como denominador embora só S01/S02 fossem avaliáveis; os valores corretos são MAE B=3 e C=4 unidades. A versão defeituosa fica no conjunto de regressão, sem reescrever F00.”",
+    "motivoProvavelDeErro": "estratégia",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-VES-09",
+    "resposta_e_resolucao": "Permitido: a bateria local rejeitou essas cinco alterações previstas. Não permitido: conclusão de ausência de outras falhas, aprovação humana ou publicação efetiva.",
+    "motivoProvavelDeErro": "interpretação",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-VES-10",
+    "resposta_e_resolucao": "Dois de oito equivalem a 25% avaliáveis; seis de oito equivalem a 75% pendentes. A redação inverte estados e comunica população errada.",
+    "motivoProvavelDeErro": "cálculo",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-RET-01",
+    "resposta_e_resolucao": "Módulos 2,1,3,2; soma oito; oito dividido por quatro é 2 unidades. Exemplo de reteste, não novo dado histórico.",
+    "motivoProvavelDeErro": "cálculo",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-RET-02",
+    "resposta_e_resolucao": "Módulos 1,2,2,5; soma dez; dez dividido por quatro é 2,5 unidades.",
+    "motivoProvavelDeErro": "cálculo",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-RET-03",
+    "resposta_e_resolucao": "Custos B: 6,1,3,6; soma 16, média 4 pontos.",
+    "motivoProvavelDeErro": "cálculo",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-RET-04",
+    "resposta_e_resolucao": "Custos C: 3,2,2,15; soma 22, média 5,5 pontos.",
+    "motivoProvavelDeErro": "cálculo",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-RET-05",
+    "resposta_e_resolucao": "Diferenças: 1−2=−1; 2−1=+1; 2−3=−1; 5−2=+3. Soma 2, média 0,5 unidade. Não confundir com diferença de custos.",
+    "motivoProvavelDeErro": "cálculo",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  },
+  {
+    "id": "MAT-EST-061-EX-RET-06",
+    "resposta_e_resolucao": "A restauração local apenas verificou recuperação de arquivo no ensaio. Publicação, revisão humana, URL e verificação pós-deploy não ocorreram; não usar o exemplo independente como nova coorte histórica.",
+    "motivoProvavelDeErro": "interpretação",
+    "observacao": "Exemplo fictício; não representa dado prospectivo real. Resolução disponível após tentativa."
+  }
+]

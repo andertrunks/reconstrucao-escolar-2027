@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+<title>Gráfico de barras para quatro meios de transporte</title>
+<desc>Gráfico com eixo horizontal contendo Ônibus, Carro, A pé e Bicicleta; eixo vertical de zero a cinquenta pessoas. Barras têm alturas quarenta e cinco, vinte e cinco, vinte e dez.</desc>
+<rect width="1000" height="620" fill="white"/><text x="190" y="45" font-size="28" font-family="Arial">Meio de transporte principal — 100 respondentes</text>
+<line x1="120" y1="520" x2="910" y2="520" stroke="black" stroke-width="3"/><line x1="120" y1="520" x2="120" y2="100" stroke="black" stroke-width="3"/>
+<text x="25" y="330" font-size="18" font-family="Arial" transform="rotate(-90 25,330)">Frequência (pessoas)</text>
+<g font-family="Arial" font-size="17"><text x="85" y="525">0</text><text x="75" y="445">10</text><text x="75" y="365">20</text><text x="75" y="285">30</text><text x="75" y="205">40</text><text x="75" y="125">50</text></g>
+<g fill="none" stroke="black" stroke-width="3"><rect x="180" y="160" width="120" height="360"/><rect x="365" y="320" width="120" height="200"/><rect x="550" y="360" width="120" height="160"/><rect x="735" y="440" width="120" height="80"/></g>
+<g font-family="Arial" font-size="18"><text x="210" y="555">Ônibus</text><text x="400" y="555">Carro</text><text x="590" y="555">A pé</text><text x="755" y="555">Bicicleta</text><text x="225" y="145">45</text><text x="410" y="305">25</text><text x="595" y="345">20</text><text x="780" y="425">10</text></g>
+<text x="215" y="600" font-size="16" font-family="Arial">Fonte: exemplo autoral. A linha de base é zero.</text></svg>

@@ -1,0 +1,398 @@
+[
+  {
+    "id": "MAT-EST-065-EX-APR-01",
+    "camada": "APR",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "básica",
+    "enunciado": "No corte A do SANDBOX-057 há oito cartões e somente S01 e S02 avaliáveis. Calcule a fração e o percentual de completude e explique o denominador."
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-02",
+    "camada": "APR",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "básica",
+    "enunciado": "O modelo B tem erros assinados mais quatro e menos dois nos dois pares elegíveis. Calcule o erro absoluto médio e informe a unidade."
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-03",
+    "camada": "APR",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "básica",
+    "enunciado": "O modelo C tem erros mais três e menos cinco. Calcule o MAE e diga se os seis cartões pendentes devem entrar com erro zero."
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-04",
+    "camada": "APR",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "básica",
+    "enunciado": "Para B, um relatório substitui o denominador dois por oito: 6/8. Qual valor aparece e por que não é o MAE válido?"
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-05",
+    "camada": "APR",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "básica",
+    "enunciado": "Uma média calculada com unidade observacional é três e uma função de custo retorna sete pontos. Explique por que não é correto escrever “dez unidades de qualidade”."
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-06",
+    "camada": "APR",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "básica",
+    "enunciado": "Um indicador de desempenho para t26–t33 tem zero pares elegíveis. É melhor exibir MAE zero ou não estimável? Justifique."
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-07",
+    "camada": "APR",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "básica",
+    "enunciado": "G1 e G2 estão checked_local, G3 a G6 estão pending, e G7 e G8 not_performed. Conte cada categoria."
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-08",
+    "camada": "APR",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "básica",
+    "enunciado": "Seis mutações artificiais I01–I06 foram rejeitadas de seis ensaiadas. Calcule a fração observada e limite sua interpretação."
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-09",
+    "camada": "APR",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "básica",
+    "enunciado": "Seis ações A64 possuem ensaio local, entre sete propostas. Calcule o percentual arredondado a duas casas e diga o que ele mede."
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-10",
+    "camada": "APR",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "básica",
+    "enunciado": "P01–P10 são dez checks planejados de pós-deploy e nenhum foi executado. A taxa de execução documental pode ser zero? E a taxa de sucesso pós-deploy?"
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-01",
+    "camada": "CON",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "intermediária",
+    "enunciado": "Derive a regra do custo fictício para erros assinados e calcule o custo médio de B nos erros +4 e −2."
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-02",
+    "camada": "CON",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "intermediária",
+    "enunciado": "Calcule o custo médio de C para erros +3 e −5 na mesma regra, e compare verbalmente com os respectivos MAEs B e C."
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-03",
+    "camada": "CON",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "intermediária",
+    "enunciado": "Calcule diferenças emparelhadas dos erros absolutos C menos B em S01 e S02 e sua média."
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-04",
+    "camada": "CON",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "intermediária",
+    "enunciado": "A taxa de completude é 25%. Um gestor hipotético diz que 75% das previsões erraram. Identifique a falha e reescreva a frase corretamente."
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-05",
+    "camada": "CON",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "intermediária",
+    "enunciado": "A ação A64-07 não foi executada e A64-01 a A64-06 têm testes locais. Qual seria um título fiel para uma métrica 6/7?"
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-06",
+    "camada": "CON",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "intermediária",
+    "enunciado": "Um analista tenta somar G1 e G2 para anunciar “site 25% pronto”. Por que esse índice não é defendido pela fonte?"
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-07",
+    "camada": "CON",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "intermediária",
+    "enunciado": "Compare a fotografia local F0 com uma suposta F1 cujo conjunto excluiu S02 depois de ver seu erro. É possível chamar a diferença de melhora?"
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-08",
+    "camada": "CON",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "intermediária",
+    "enunciado": "Suponha apenas para praticar que uma proporção passe de 25% para 50%. Quantos pontos percentuais e qual variação relativa?"
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-09",
+    "camada": "CON",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "intermediária",
+    "enunciado": "Escreva o mínimo necessário para auditar o indicador K65-02: pergunta, regra, fonte, unidade, população e limitação."
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-10",
+    "camada": "CON",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "intermediária",
+    "enunciado": "Uma planilha exibe “taxa de incidentes reais = 0%” sem logs nem período de exposição. Como corrigir o indicador?"
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-01",
+    "camada": "VES",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "contextualizada",
+    "enunciado": "Questão autoral em estilo vestibular. Uma reportagem afirma: “Após oito cadastros, o modelo tem 0,75 unidade de erro médio”. O apêndice revela apenas dois observados, com erros +4 e −2. Qual informação invalida a manchete e qual cifra substitui 0,75?"
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-02",
+    "camada": "VES",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "contextualizada",
+    "enunciado": "Questão autoral em estilo vestibular. Um painel mostra “100% de detecção” porque seis mutações criadas propositalmente foram rejeitadas. Redija uma versão defensável em uma frase."
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-03",
+    "camada": "VES",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "contextualizada",
+    "enunciado": "Questão autoral em estilo vestibular. Há seis ações testadas localmente entre sete propostas, mas nenhuma implantada no site. Determine duas porcentagens coerentes: teste local das propostas e implantação comprovada das propostas."
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-04",
+    "camada": "VES",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "contextualizada",
+    "enunciado": "Questão autoral em estilo vestibular. Dois gráficos usam “7” sem unidade: o primeiro retrata custo B e o segundo custo C. Um terceiro rotula MAE B como “7 pontos”. Que correções o relatório precisa fazer?"
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-05",
+    "camada": "VES",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "contextualizada",
+    "enunciado": "Questão autoral em estilo vestibular. Um candidato de modelo reduziu seu MAE médio em cinco pares históricos, mas violou uma guarda de piora local de dez unidades em t19, com 19,2 unidades. Um gestor propõe aprová-lo pelo indicador médio. Discuta a lógica da decisão sob o protocolo MAT-EST-049-PROT-v1."
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-06",
+    "camada": "VES",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "contextualizada",
+    "enunciado": "Questão autoral em estilo vestibular. O painel apresenta t26–t33 com MAE igual a zero; o plano só lista alvos futuros, sem emissão ou observado. Aponte o erro lógico e o estado correto."
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-07",
+    "camada": "VES",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "contextualizada",
+    "enunciado": "Questão autoral em estilo vestibular. Uma equipe coleta 2/8 hoje; amanhã passa a 4/8, mas mudou a definição de “avaliável” sem preservar a versão antiga. Pode afirmar melhora de 25 pontos percentuais?"
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-08",
+    "camada": "VES",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "contextualizada",
+    "enunciado": "Questão autoral em estilo vestibular. Em um relatório, um cartão pendente é registrado como erro zero para permitir o cálculo. Explique como isso afeta numerador, denominador e conclusão, sem calcular um valor novo."
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-09",
+    "camada": "VES",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "contextualizada",
+    "enunciado": "Questão autoral em estilo vestibular. Uma publicação declara “a acessibilidade do site está conforme” porque os seis arquivos SVG possuem title e desc válidos em teste automático. Construa uma ressalva tecnicamente responsável."
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-10",
+    "camada": "VES",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "contextualizada",
+    "enunciado": "Questão autoral em estilo vestibular. Escreva um mini-relatório de três frases que inclua completude SANDBOX, MAEs B/C, ensaios I01–I06 e um indicador ainda não estimável, sem extrapolar."
+  },
+  {
+    "id": "MAT-EST-065-EX-RET-01",
+    "camada": "RET",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "reteste",
+    "enunciado": "Reteste independente posterior. Em outro exemplo puramente autoral há dez itens planejados, quatro pares elegíveis e soma de módulos igual a dezoito. Calcule completude e MAE sem confundir denominadores."
+  },
+  {
+    "id": "MAT-EST-065-EX-RET-02",
+    "camada": "RET",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "reteste",
+    "enunciado": "Reteste independente posterior. Um laboratório ensaiou quatro mutações intencionais e rejeitou três. Qual fração foi rejeitada, e pode ser publicada como taxa de detecção em produção?"
+  },
+  {
+    "id": "MAT-EST-065-EX-RET-03",
+    "camada": "RET",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "reteste",
+    "enunciado": "Reteste independente posterior. Foram planejados cinco checks de um novo exemplo fictício, nenhum foi executado e ninguém mediu sucesso. Escreva a taxa de execução e o sucesso entre executados."
+  },
+  {
+    "id": "MAT-EST-065-EX-RET-04",
+    "camada": "RET",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "reteste",
+    "enunciado": "Reteste independente posterior. Um indicador tinha 30% numa medição hipotética e 36% em outra, com o mesmo contrato. Calcule variação em pontos percentuais e a relativa."
+  },
+  {
+    "id": "MAT-EST-065-EX-RET-05",
+    "camada": "RET",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "reteste",
+    "enunciado": "Reteste independente posterior. Quatro verificações humanas estão pendentes, mas o sistema mostra “aprovação integral” porque passou em testes automatizados. Que evidências ainda seriam necessárias?"
+  },
+  {
+    "id": "MAT-EST-065-EX-RET-06",
+    "camada": "RET",
+    "origem": "autoral",
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-065"
+    ],
+    "dificuldade": "reteste",
+    "enunciado": "Reteste independente posterior. Crie a ficha mínima de um indicador de qualidade de aulas sem inventar medições: pergunta, universo, fórmula, fonte, janela, nulos, unidade e aprovação."
+  }
+]

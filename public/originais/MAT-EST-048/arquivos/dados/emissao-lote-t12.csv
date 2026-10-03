@@ -1,0 +1,5 @@
+id,origem,alvo,horizonte,previsao,nota
+MAT-EST-048-FC-T12-H1,t12,t13,1,129,projecao_sazonal_congelada_no_t12
+MAT-EST-048-FC-T12-H2,t12,t14,2,145,projecao_sazonal_congelada_no_t12
+MAT-EST-048-FC-T12-H3,t12,t15,3,171,projecao_sazonal_congelada_no_t12
+MAT-EST-048-FC-T12-H4,t12,t16,4,144,projecao_sazonal_congelada_no_t12

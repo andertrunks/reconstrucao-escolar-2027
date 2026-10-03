@@ -1,0 +1,294 @@
+{
+  "id": "MAT-EST-048",
+  "natureza": "cenario ficcional preconstruído e reexecutado em ordem simulada; NÃO há observação prospectiva real",
+  "dadosHerdados": {
+    "dados-ficticios-referencia.csv": {
+      "origem": "MAT-EST-047/dados-ficticios-referencia.csv",
+      "sha256Original": "f1cc3989cd8c701a14e544c424b797f27594806ae302a93253e2a1b82fab5ca9",
+      "sha256Copia": "f1cc3989cd8c701a14e544c424b797f27594806ae302a93253e2a1b82fab5ca9"
+    },
+    "dados-ficticios-trimestrais.csv": {
+      "origem": "MAT-EST-047/dados-ficticios-trimestrais.csv",
+      "sha256Original": "c1d765b97f058ad9f94fba88e46b9cd6e3c1056bf1653ca3b048b97ca7c1c6f1",
+      "sha256Copia": "c1d765b97f058ad9f94fba88e46b9cd6e3c1056bf1653ca3b048b97ca7c1c6f1"
+    }
+  },
+  "observacoesOriginais": [
+    90,
+    107,
+    128,
+    105,
+    111,
+    124,
+    150,
+    127,
+    129,
+    145,
+    171,
+    144
+  ],
+  "observacoesSimuladasAdicionais": [
+    151,
+    168,
+    190,
+    176,
+    181,
+    201
+  ],
+  "parametrosCongelados": {
+    "alfa": 0.3,
+    "betaEstrela": 0.2,
+    "gama": 0.2,
+    "m": 4
+  },
+  "registroEmissoesAntesDasChegadas": [
+    {
+      "registro": "SIM-E13",
+      "cenario": "ficcional_preconstruido",
+      "origem": 12,
+      "alvo": 13,
+      "horizonte": 1,
+      "versaoModelo": "HW-A-1.0",
+      "treinoAte": 12,
+      "parametrosCongelados": {
+        "alfa": 0.3,
+        "betaEstrela": 0.2,
+        "gama": 0.2,
+        "m": 4
+      },
+      "emissaoOrdem": 1,
+      "previsao": 149.78472718569014,
+      "observadoSimulado": 151,
+      "chegadaOrdem": 2,
+      "erroObservadoMenosPrevisto": 1.2152728143098557,
+      "erroAbsoluto": 1.2152728143098557,
+      "acimaLimiteQuatro": false,
+      "alegacaoProspectivaReal": false,
+      "rollingWindowMaturedCount": 1,
+      "rollingCountAbsAbove4": 0,
+      "triggerReview": false
+    },
+    {
+      "registro": "SIM-E14",
+      "cenario": "ficcional_preconstruido",
+      "origem": 13,
+      "alvo": 14,
+      "horizonte": 1,
+      "versaoModelo": "HW-A-1.0",
+      "treinoAte": 13,
+      "parametrosCongelados": {
+        "alfa": 0.3,
+        "betaEstrela": 0.2,
+        "gama": 0.2,
+        "m": 4
+      },
+      "emissaoOrdem": 3,
+      "previsao": 166.41512834176402,
+      "observadoSimulado": 168,
+      "chegadaOrdem": 4,
+      "erroObservadoMenosPrevisto": 1.5848716582359827,
+      "erroAbsoluto": 1.5848716582359827,
+      "acimaLimiteQuatro": false,
+      "alegacaoProspectivaReal": false,
+      "rollingWindowMaturedCount": 2,
+      "rollingCountAbsAbove4": 0,
+      "triggerReview": false
+    },
+    {
+      "registro": "SIM-E15",
+      "cenario": "ficcional_preconstruido",
+      "origem": 14,
+      "alvo": 15,
+      "horizonte": 1,
+      "versaoModelo": "HW-A-1.0",
+      "treinoAte": 14,
+      "parametrosCongelados": {
+        "alfa": 0.3,
+        "betaEstrela": 0.2,
+        "gama": 0.2,
+        "m": 4
+      },
+      "emissaoOrdem": 5,
+      "previsao": 190.1246976773771,
+      "observadoSimulado": 190,
+      "chegadaOrdem": 6,
+      "erroObservadoMenosPrevisto": -0.12469767737709958,
+      "erroAbsoluto": 0.12469767737709958,
+      "acimaLimiteQuatro": false,
+      "alegacaoProspectivaReal": false,
+      "rollingWindowMaturedCount": 3,
+      "rollingCountAbsAbove4": 0,
+      "triggerReview": false
+    },
+    {
+      "registro": "SIM-E16",
+      "cenario": "ficcional_preconstruido",
+      "origem": 15,
+      "alvo": 16,
+      "horizonte": 1,
+      "versaoModelo": "HW-A-1.0",
+      "treinoAte": 15,
+      "parametrosCongelados": {
+        "alfa": 0.3,
+        "betaEstrela": 0.2,
+        "gama": 0.2,
+        "m": 4
+      },
+      "emissaoOrdem": 7,
+      "previsao": 166.1005791509898,
+      "observadoSimulado": 176,
+      "chegadaOrdem": 8,
+      "erroObservadoMenosPrevisto": 9.899420849010198,
+      "erroAbsoluto": 9.899420849010198,
+      "acimaLimiteQuatro": true,
+      "alegacaoProspectivaReal": false,
+      "rollingWindowMaturedCount": 3,
+      "rollingCountAbsAbove4": 1,
+      "triggerReview": false
+    },
+    {
+      "registro": "SIM-E17",
+      "cenario": "ficcional_preconstruido",
+      "origem": 16,
+      "alvo": 17,
+      "horizonte": 1,
+      "versaoModelo": "HW-A-1.0",
+      "treinoAte": 16,
+      "parametrosCongelados": {
+        "alfa": 0.3,
+        "betaEstrela": 0.2,
+        "gama": 0.2,
+        "m": 4
+      },
+      "emissaoOrdem": 9,
+      "previsao": 174.85746265914727,
+      "observadoSimulado": 181,
+      "chegadaOrdem": 10,
+      "erroObservadoMenosPrevisto": 6.142537340852726,
+      "erroAbsoluto": 6.142537340852726,
+      "acimaLimiteQuatro": true,
+      "alegacaoProspectivaReal": false,
+      "rollingWindowMaturedCount": 3,
+      "rollingCountAbsAbove4": 2,
+      "triggerReview": true
+    },
+    {
+      "registro": "SIM-E18",
+      "cenario": "ficcional_preconstruido",
+      "origem": 17,
+      "alvo": 18,
+      "horizonte": 1,
+      "versaoModelo": "HW-A-1.0",
+      "treinoAte": 17,
+      "parametrosCongelados": {
+        "alfa": 0.3,
+        "betaEstrela": 0.2,
+        "gama": 0.2,
+        "m": 4
+      },
+      "emissaoOrdem": 11,
+      "previsao": 194.09009087221258,
+      "observadoSimulado": 201,
+      "chegadaOrdem": 12,
+      "erroObservadoMenosPrevisto": 6.909909127787415,
+      "erroAbsoluto": 6.909909127787415,
+      "acimaLimiteQuatro": true,
+      "alegacaoProspectivaReal": false,
+      "rollingWindowMaturedCount": 3,
+      "rollingCountAbsAbove4": 3,
+      "triggerReview": true
+    }
+  ],
+  "estatisticas": {
+    "arrival13to15": {
+      "n": 3,
+      "meanSignedError": 0.8918155983895796,
+      "MAE": 0.974947383307646,
+      "RMSE": 1.1553146320409164,
+      "countAbsErrorAbove4": 0,
+      "positiveErrors": 2,
+      "negativeErrors": 1
+    },
+    "arrival16to18": {
+      "n": 3,
+      "meanSignedError": 7.65062243921678,
+      "MAE": 7.65062243921678,
+      "RMSE": 7.820403704069411,
+      "countAbsErrorAbove4": 3,
+      "positiveErrors": 3,
+      "negativeErrors": 0
+    },
+    "allSix": {
+      "n": 6,
+      "meanSignedError": 4.27121901880318,
+      "MAE": 4.312784911262213,
+      "RMSE": 5.58987772646372,
+      "countAbsErrorAbove4": 3,
+      "positiveErrors": 5,
+      "negativeErrors": 1
+    }
+  },
+  "regrasDeGovernanca": {
+    "id": "PROTOCOLO_SIMULADO_048",
+    "horizonte": 1,
+    "metodo": "Holt-Winters aditivo, mesmos parâmetros e regra de inicialização dos anteriores",
+    "versao": "HW-A-1.0",
+    "regraPreDeclaradaNoExercicio": true,
+    "identificacao": "A versão e os limiares são regras autorais para demonstração, não um registro de operação real datado",
+    "antesDaEmissao": [
+      "conferir unidade e regularidade trimestral",
+      "guardar origem, alvo, horizonte e versão",
+      "usar somente prefixo disponível",
+      "registrar previsão e ordem de emissão"
+    ],
+    "naChegada": [
+      "registrar observado com origem/proveniência",
+      "checar atraso, duplicação e retificação",
+      "ligar ao identificador imutável da previsão",
+      "calcular erro somente para alvos amadurecidos"
+    ],
+    "limiarAlerta": "Em cada chegada, sobre as últimas 3 tarefas amadurecidas no mesmo horizonte, revisar se pelo menos 2 tiverem erro absoluto > 4 unidades. Regra didática previamente definida, não um teste de deriva nem autorização de atualização automática.",
+    "depoisDoAlerta": [
+      "congelar versão e preservar logs",
+      "auditar dados, calendário e mudanças externas",
+      "comparar sazonalidade, métricas por horizonte e referência",
+      "documentar hipótese e investigação humana",
+      "somente se justificado: experimentar candidato em janela separada e validá-lo prospectivamente antes de eventual substituição"
+    ],
+    "limite": "Simulação retrospectivamente construída; zero evidência empírica independente de implantação verdadeira."
+  },
+  "emissoesPendentesSemObservado": [
+    {
+      "id": "SIM-P19",
+      "cenario": "ficcional_preconstruido",
+      "origem": 18,
+      "alvo": 19,
+      "horizonte": 1,
+      "previsao": 220.42488775998484,
+      "modeloVersao": "HW-A-1.0",
+      "observado": null,
+      "status": "aguardando_chegada_no_exercicio",
+      "entraEmDenominador": false
+    },
+    {
+      "id": "SIM-P20",
+      "cenario": "ficcional_preconstruido",
+      "origem": 18,
+      "alvo": 20,
+      "horizonte": 2,
+      "previsao": 199.82011428114717,
+      "modeloVersao": "HW-A-1.0",
+      "observado": null,
+      "status": "aguardando_chegada_no_exercicio",
+      "entraEmDenominador": false
+    }
+  ],
+  "limites": [
+    "As observações 13..18 são inventadas e conhecidas pelo autor do cenário: a ordem de execução evita vazamento algorítmico, não cria evidência verdadeiramente prospectiva.",
+    "As seis tarefas são trimestrais consecutivas com dependência temporal; nenhuma análise formal de mudança de distribuição ou significância é justificada por seis pontos.",
+    "Comparar blocos de três trimestres distintos pode confundir diferença sazonal e mudança persistente; erros por horizonte e referências são necessários.",
+    "O limiar operacional >4 e 2 de 3 é decisão hipotética didática, não nível de significância, certificação de drift ou autorização de retraining automático.",
+    "Previsões t19/t20 emitidas no cenário fictício não têm observado; não contam no denominador das métricas.",
+    "Sem covariáveis exógenas não é possível declarar distribuição de entradas externas, deriva condicional, causa ou mudança real de conceito."
+  ]
+}

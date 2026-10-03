@@ -1,0 +1,869 @@
+[
+  {
+    "id": "MAT-EST-049-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Origem e alvo",
+    "statement": "Uma estimativa para t24 é registrada ao fechar t23. Indique origem, alvo e horizonte.",
+    "answer": "Origem t23; alvo t24; horizonte um período. O registro deve anteceder a chegada de y24.",
+    "resolution": "Origem t23; alvo t24; horizonte um período. O registro deve anteceder a chegada de y24.",
+    "errorReasons": [
+      "Interpretação: confundir data de emissão com data-alvo."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Valores disponíveis",
+    "statement": "Em uma previsão emitida ao fechar t18, pode-se usar y19 para estimar t19? Explique.",
+    "answer": "Não. O y19 é o próprio valor ainda não revelado. Inserir y19 vazaria informação do alvo.",
+    "resolution": "Não. O y19 é o próprio valor ainda não revelado. Inserir y19 vazaria informação do alvo.",
+    "errorReasons": [
+      "Estratégia: não marcar a fronteira entre passado e futuro."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Referência sazonal",
+    "statement": "Uma série trimestral tem y16 igual a 80. Qual é a previsão sazonal ingênua para t20?",
+    "answer": "80 unidades, pois t20 e t16 são da mesma posição do ciclo de quatro trimestres.",
+    "resolution": "80 unidades, pois t20 e t16 são da mesma posição do ciclo de quatro trimestres.",
+    "errorReasons": [
+      "Conteúdo: usar t19, o último valor, em lugar de t16."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Diferença sazonal",
+    "statement": "Se y15 é 187 e y19 é 183, calcule d19 e informe seu sinal.",
+    "answer": "d19 é 183 menos 187, igual a −4 unidades. O valor está quatro abaixo da estação anterior.",
+    "resolution": "d19 é 183 menos 187, igual a −4 unidades. O valor está quatro abaixo da estação anterior.",
+    "errorReasons": [
+      "Cálculo: inverter a ordem da subtração ou omitir o sinal."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Média da janela",
+    "statement": "As cinco diferenças disponíveis para um candidato são 2, 4, 6, 8 e 10. Encontre a média.",
+    "answer": "A soma é 30 e há cinco valores; a média é 6 unidades.",
+    "resolution": "A soma é 30 e há cinco valores; a média é 6 unidades.",
+    "errorReasons": [
+      "Cálculo: dividir pela sazonalidade 4 em vez do tamanho da janela 5."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Erro assinado",
+    "statement": "Uma previsão é 98 e o observado posterior é 93. Encontre o erro observado menos previsto.",
+    "answer": "93 menos 98 é −5; foi uma superprevisão de cinco unidades.",
+    "resolution": "93 menos 98 é −5; foi uma superprevisão de cinco unidades.",
+    "errorReasons": [
+      "Conteúdo: usar previsão menos observado."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-049-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Módulo",
+    "statement": "Qual o módulo do erro −7,2, e qual a unidade se a série mede unidades fictícias?",
+    "answer": "O módulo é 7,2 unidades fictícias, não −7,2.",
+    "resolution": "O módulo é 7,2 unidades fictícias, não −7,2.",
+    "errorReasons": [
+      "Cálculo: manter o sinal no módulo."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-049-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Identificar o par",
+    "statement": "Um modelo prevê t21 e outro prevê t22. Os valores podem formar um par emparelhado h1? Justifique.",
+    "answer": "Não. Os alvos são diferentes. Comparação emparelhada requer o mesmo alvo, horizonte e fronteira de informação.",
+    "resolution": "Não. Os alvos são diferentes. Comparação emparelhada requer o mesmo alvo, horizonte e fronteira de informação.",
+    "errorReasons": [
+      "Interpretação: agrupar previsões somente por estarem próximas no calendário."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Piora em magnitude",
+    "statement": "Em um alvo a referência tem erro absoluto 5 e o candidato 9. Qual foi a piora do candidato?",
+    "answer": "9 menos 5 = 4 unidades. A piora é magnitude, não porcentagem.",
+    "resolution": "9 menos 5 = 4 unidades. A piora é magnitude, não porcentagem.",
+    "errorReasons": [
+      "Cálculo: inverter a diferença ou trocar unidade por por cento."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-049-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Tipo de evidência",
+    "statement": "Uma tabela inventada na aula segue uma sequência lógica de emissão e revelação. Ela comprova que um programa real previu esses valores antes de acontecerem?",
+    "answer": "Não. É uma simulação didática reproduzível, não log autenticado de emissões de campo.",
+    "resolution": "Não. É uma simulação didática reproduzível, não log autenticado de emissões de campo.",
+    "errorReasons": [
+      "Interpretação: confundir roteiro editorial com observação real."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Previsão candidata simples",
+    "statement": "Uma previsão de referência usa y_(t−4)=100. As últimas cinco diferenças sazonais observáveis são 2, 3, 4, 5 e 6. Calcule a previsão da regra candidata.",
+    "answer": "A soma das diferenças é 20; média 4. Previsão candidata é 100 + 4 = 104 unidades.",
+    "resolution": "A soma das diferenças é 20; média 4. Previsão candidata é 100 + 4 = 104 unidades.",
+    "errorReasons": [
+      "Cálculo: esquecer a média ou adicionar 20 inteiro."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Par completo",
+    "statement": "No mesmo alvo, o observado é 110; referência prevê 100 e candidato prevê 104. Encontre ambos os erros e módulos.",
+    "answer": "Erros: B 110−100=+10 e C 110−104=+6. Módulos: 10 e 6. Diferença pareada |B|−|C|=+4.",
+    "resolution": "Erros: B 110−100=+10 e C 110−104=+6. Módulos: 10 e 6. Diferença pareada |B|−|C|=+4.",
+    "errorReasons": [
+      "Cálculo: confundir erro assinado com módulo ou errar a ordem."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "MAE de três pares",
+    "statement": "A referência errou +2, −5 e +8; o candidato errou −3, +1 e +4. Calcule MAE de ambos.",
+    "answer": "MAE B=(2+5+8)/3=5. MAE C=(3+1+4)/3=8/3≈2,67 unidades.",
+    "resolution": "MAE B=(2+5+8)/3=5. MAE C=(3+1+4)/3=8/3≈2,67 unidades.",
+    "errorReasons": [
+      "Cálculo: somar sinais antes de aplicar módulo."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Redução relativa",
+    "statement": "Duas médias absolutas em alvos idênticos são 20 para a base e 15 para o candidato. Qual a redução percentual frente à base?",
+    "answer": "(20−15)/20=5/20=0,25=25%. O denominador é a base.",
+    "resolution": "(20−15)/20=5/20=0,25=25%. O denominador é a base.",
+    "errorReasons": [
+      "Cálculo: dividir pelo resultado do candidato ou converter mal fração em porcentagem."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Perda assimétrica",
+    "statement": "Use C(e)=3 máximo(e,0)+máximo(−e,0). Ache o custo de erro +4 e erro −4.",
+    "answer": "Para +4: 3×4=12 pontos. Para −4: máximo(−e,0)=4, portanto 4 pontos. Sinal altera custo.",
+    "resolution": "Para +4: 3×4=12 pontos. Para −4: máximo(−e,0)=4, portanto 4 pontos. Sinal altera custo.",
+    "errorReasons": [
+      "Conteúdo: multiplicar ambos os sinais por três."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Regra de proteção",
+    "statement": "A guarda permite piora máxima de 10 unidades. Em três datas, o candidato piorou 3, 11 e −2 unidades (sinal negativo indica que melhorou). A guarda foi satisfeita?",
+    "answer": "Não. O valor 11 excede dez em uma data; a média ou a melhora em outra data não o elimina.",
+    "resolution": "Não. O valor 11 excede dez em uma data; a média ou a melhora em outra data não o elimina.",
+    "errorReasons": [
+      "Estratégia: verificar só a média, ignorando exigência por alvo."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Janela móvel e dependência",
+    "statement": "Uma média móvel usa d13 a d17. Na origem seguinte, quais diferenças deve usar? Quantas repete?",
+    "answer": "Usa d14 a d18, substituindo d13 por d18. Repete quatro das cinco diferenças.",
+    "resolution": "Usa d14 a d18, substituindo d13 por d18. Repete quatro das cinco diferenças.",
+    "errorReasons": [
+      "Conteúdo: recomeçar a janela em d18 ou incluir d19 futuro."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Auditoria de vazamento",
+    "statement": "Um candidato para t20 é calculado na origem t19 usando d20. Identifique o problema.",
+    "answer": "d20 = y20−y16 contém y20, o próprio alvo; não é conhecido em t19. A previsão tem vazamento.",
+    "resolution": "d20 = y20−y16 contém y20, o próprio alvo; não é conhecido em t19. A previsão tem vazamento.",
+    "errorReasons": [
+      "Estratégia: analisar apenas o índice de uma variável sem expandir sua definição."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Média pareada",
+    "statement": "Em dois alvos, erros absolutos são B=(8; 4) e C=(3; 9). Calcule MAEs, diferença pareada média e interprete.",
+    "answer": "MAE B=(8+4)/2=6; C=(3+9)/2=6; diferenças B−C são +5 e −5, média zero. Mesmo MAE esconde desempenhos diferentes por alvo.",
+    "resolution": "MAE B=(8+4)/2=6; C=(3+9)/2=6; diferenças B−C são +5 e −5, média zero. Mesmo MAE esconde desempenhos diferentes por alvo.",
+    "errorReasons": [
+      "Interpretação: declarar empate em todas as datas porque médias coincidem."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Relatório curto",
+    "statement": "Escreva duas frases distinguindo melhora observada em uma simulação e comprovação de superioridade futura.",
+    "answer": "Exemplo: “Neste conjunto simulado, o candidato teve MAE menor”. “Isso não comprova ganho futuro, pois os alvos são poucos, dependentes e fictícios; seria necessária avaliação adicional previamente definida”. Respostas equivalentes com ressalvas são válidas.",
+    "resolution": "Exemplo: “Neste conjunto simulado, o candidato teve MAE menor”. “Isso não comprova ganho futuro, pois os alvos são poucos, dependentes e fictícios; seria necessária avaliação adicional previamente definida”. Respostas equivalentes com ressalvas são válidas.",
+    "errorReasons": [
+      "Interpretação: extrapolar uma descrição para certeza geral."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Calendário de previsão",
+    "statement": "Uma instituição fictícia divulga projeções trimestrais. A versão A previa t30 na origem t29; a versão B foi recalculada após conhecer y30. Explique por que usar ambos no mesmo quadro como competição prospectiva é inadequado.",
+    "answer": "A previsão B utilizou informação do próprio alvo; sua condição informacional difere da A. Deve ser rotulada retrospectiva e não comparada como se fosse par emitido previamente.",
+    "resolution": "A previsão B utilizou informação do próprio alvo; sua condição informacional difere da A. Deve ser rotulada retrospectiva e não comparada como se fosse par emitido previamente.",
+    "errorReasons": [
+      "Interpretação: privilegiar precisão aparente sem conferir a ordem temporal."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Escolha do denominador",
+    "statement": "Em cinco pares simulados, MAE da base foi 17,60 e do desafiante 8,36. Escreva a expressão correta para redução relativa e explique qual método é a referência do denominador.",
+    "answer": "(17,60−8,36)/17,60=9,24/17,60=0,525=52,5%. O denominador é o procedimento BASE-SNAIVE-v1, explicitamente escolhido como comparador.",
+    "resolution": "(17,60−8,36)/17,60=9,24/17,60=0,525=52,5%. O denominador é o procedimento BASE-SNAIVE-v1, explicitamente escolhido como comparador.",
+    "errorReasons": [
+      "Cálculo: trocar base por candidato no denominador."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Falha local e média",
+    "statement": "Um relatório só exibe redução global de MAE. No t19, porém, módulo da base é 4 e do candidato 23,2. Faça a ressalva numérica que deveria acompanhar o relatório.",
+    "answer": "No alvo t19, o candidato piorou 23,2−4=19,2 unidades; a média agregada não significa melhora em todos os casos, nem elimina uma guarda por observação.",
+    "resolution": "No alvo t19, o candidato piorou 23,2−4=19,2 unidades; a média agregada não significa melhora em todos os casos, nem elimina uma guarda por observação.",
+    "errorReasons": [
+      "Interpretação: confundir resumo estatístico com garantia de cada caso."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Regra de perda socialmente escolhida",
+    "statement": "Considere uma regra fictícia que penaliza subprevisão em três pontos por unidade e superprevisão em um. Para erros +6 e −6, demonstre que mesmo MAE não significa mesmo custo.",
+    "answer": "Os módulos são ambos 6, mas custos são 18 e 6 pontos. MAE ignora sinal por definição; a perda incorpora uma escolha de consequência e precisa ser declarada.",
+    "resolution": "Os módulos são ambos 6, mas custos são 18 e 6 pontos. MAE ignora sinal por definição; a perda incorpora uma escolha de consequência e precisa ser declarada.",
+    "errorReasons": [
+      "Conteúdo: tratar MAE como métrica universal de decisão."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Atualização de política após observação",
+    "statement": "O protocolo original bloqueia qualquer piora acima de dez unidades. Depois de ver uma piora de 19,2, a equipe propõe vinte e escreve que o protocolo “sempre foi” esse. Identifique e corrija o problema metodológico.",
+    "answer": "Houve alteração retrospectiva do critério. Registrar uma nova versão de protocolo com motivo, data e testes futuros; não reclassificar o resultado do protocolo v1 como se nunca tivesse ocorrido a falha.",
+    "resolution": "Houve alteração retrospectiva do critério. Registrar uma nova versão de protocolo com motivo, data e testes futuros; não reclassificar o resultado do protocolo v1 como se nunca tivesse ocorrido a falha.",
+    "errorReasons": [
+      "Estratégia: confundir análise exploratória com confirmação pré-registrada."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Condição necessária e suficiente",
+    "statement": "O protocolo pedagógico tem seis portas obrigatórias. Duas médias atendem às metas, uma guarda falha e a amostra é insuficiente. É logicamente válido escrever que todas as condições foram satisfeitas?",
+    "answer": "Não. Em uma conjunção, uma condição falsa já impede “todas verdadeiras”; há também condições pendentes. A decisão prevista é não autorizar a promoção nesta etapa, sem inferir superioridade geral da referência.",
+    "resolution": "Não. Em uma conjunção, uma condição falsa já impede “todas verdadeiras”; há também condições pendentes. A decisão prevista é não autorizar a promoção nesta etapa, sem inferir superioridade geral da referência.",
+    "errorReasons": [
+      "Interpretação: substituir uma conjunção de requisitos por voto majoritário."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Sazonalidade de quatro estações",
+    "statement": "Dada a regra B para t24 e valores y20=200 e y23=230, qual dado governa B? Explique por que usar y23 seria outro método.",
+    "answer": "B prevê t24 com y20=200 porque t−4=20. Usar y23=230 corresponde à regra ingênua não sazonal, não à versão sazonal fixada.",
+    "resolution": "B prevê t24 com y20=200 porque t−4=20. Usar y23=230 corresponde à regra ingênua não sazonal, não à versão sazonal fixada.",
+    "errorReasons": [
+      "Conteúdo: misturar modelos com nomes semelhantes."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Expansão de variável escondida",
+    "statement": "No fim de t21, alguém quer prever t22 pela média d18 a d22 para ter cinco diferenças. Aponte o índice indevido e indique a janela admissível de cinco diferenças.",
+    "answer": "d22 inclui y22 ainda desconhecido. A janela admissível é d17 a d21. Com dados desta aula, sua média é (33+25−4+21+21)/5=19,2.",
+    "resolution": "d22 inclui y22 ainda desconhecido. A janela admissível é d17 a d21. Com dados desta aula, sua média é (33+25−4+21+21)/5=19,2.",
+    "errorReasons": [
+      "Estratégia: usar uma fórmula circular que depende do alvo."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Agregado versus dependência",
+    "statement": "O candidato foi comparado em cinco trimestres sucessivos. Um texto o chama de “cinco experimentos independentes”. Julgue e explique com a janela usada pelo método.",
+    "answer": "Incorreto. As janelas consecutivas de cinco diferenças compartilham quatro valores e os alvos pertencem à mesma série. Sem modelagem adequada, não há justificativa de independência.",
+    "resolution": "Incorreto. As janelas consecutivas de cinco diferenças compartilham quatro valores e os alvos pertencem à mesma série. Sem modelagem adequada, não há justificativa de independência.",
+    "errorReasons": [
+      "Interpretação: confundir quantidade de linhas com independência estatística."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Parecer com limites",
+    "statement": "Redija quatro frases sobre uma comparação sintética citando: identidade dos alvos, MAE de 17,60 e 8,36, piora local de 19,2 e decisão do protocolo.",
+    "answer": "Resposta-modelo: “Os modelos foram calculados para os mesmos cinco alvos de horizonte um em uma simulação”. “Seus MAEs foram 17,60 e 8,36 unidades”. “A melhora média não apaga a piora de 19,2 unidades do candidato em t19, e os dados não são avaliação real externa”. “Como faltam pares e a guarda local falhou, a promoção não é autorizada nesta etapa”.",
+    "resolution": "Resposta-modelo: “Os modelos foram calculados para os mesmos cinco alvos de horizonte um em uma simulação”. “Seus MAEs foram 17,60 e 8,36 unidades”. “A melhora média não apaga a piora de 19,2 unidades do candidato em t19, e os dados não são avaliação real externa”. “Como faltam pares e a guarda local falhou, a promoção não é autorizada nesta etapa”.",
+    "errorReasons": [
+      "Interpretação: omitir limites ou converter números fictícios em recomendação real."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Novo par sazonal",
+    "statement": "Uma série hipotética tem y24=210; na origem t27, as diferenças d23 a d27 são 1, −2, 4, 7 e 0. Calcule previsão da referência e do candidato para t28.",
+    "answer": "B usa y24=210. A soma das diferenças é 10, média 2; C prevê 212 unidades. Nenhum y28 foi usado.",
+    "resolution": "B usa y24=210. A soma das diferenças é 10, média 2; C prevê 212 unidades. Nenhum y28 foi usado.",
+    "errorReasons": [
+      "Cálculo: perder o sinal negativo na média."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Nova verificação de custo",
+    "statement": "Após congelar B=210 e C=212, revela-se observado t28=208. Calcule erros e custos pela regra três para subprevisão e um para superprevisão.",
+    "answer": "Erros observados menos previstos: B=−2 e C=−4. Ambos são superprevisão: custos 2 e 4 pontos. C piorou 2 unidades em módulo.",
+    "resolution": "Erros observados menos previstos: B=−2 e C=−4. Ambos são superprevisão: custos 2 e 4 pontos. C piorou 2 unidades em módulo.",
+    "errorReasons": [
+      "Conteúdo: aplicar peso triplo a erro negativo."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Sensibilidade ao custo",
+    "statement": "Se numa decisão hipotética posterior o custo de subprevisão for 1 e de superprevisão for 3, mantendo erros B=−2 e C=−4, quais os novos custos e que ressalva escrever?",
+    "answer": "B custa 6 pontos, C 12 pontos. Mudou a regra decisória; não reescrever custos originais como se fossem iguais, nem usar o mesmo cenário para confirmar política escolhida posteriormente.",
+    "resolution": "B custa 6 pontos, C 12 pontos. Mudou a regra decisória; não reescrever custos originais como se fossem iguais, nem usar o mesmo cenário para confirmar política escolhida posteriormente.",
+    "errorReasons": [
+      "Estratégia: alterar função de custo sem indicar mudança de versão."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Guarda e média em amostra nova",
+    "statement": "Em quatro pares, as diferenças |erro B|−|erro C| são +5, +5, +5 e −12. A média favorece o candidato? Uma guarda que proíbe piora acima de dez permite promoção?",
+    "answer": "Média delta=(5+5+5−12)/4=0,75, que favorece o candidato em média. A piora individual de 12 ultrapassa a guarda de dez; não permite promoção.",
+    "resolution": "Média delta=(5+5+5−12)/4=0,75, que favorece o candidato em média. A piora individual de 12 ultrapassa a guarda de dez; não permite promoção.",
+    "errorReasons": [
+      "Interpretação: eliminar eventos adversos quando a média ainda é positiva."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Avaliação além do horizonte",
+    "statement": "Duas previsões para t30 foram emitidas em t28 (h2) e t29 (h1). É correto somar seus erros como pares h1 independentes?",
+    "answer": "Não. Têm horizontes e conjuntos de informação distintos e compartilham o mesmo observado t30. Separar por horizonte e reconhecer dependência.",
+    "resolution": "Não. Têm horizontes e conjuntos de informação distintos e compartilham o mesmo observado t30. Separar por horizonte e reconhecer dependência.",
+    "errorReasons": [
+      "Interpretação: contar duas previsões como duas observações independentes."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-049-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-049"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Nota de decisão",
+    "statement": "Escreva um mini parecer para um caso com cinco pares simulados, metas médias atendidas e um alvo que viola a guarda local. Inclua o que falta verificar antes de atualização.",
+    "answer": "A resposta deve diferenciar simulação de campo; identificar falha da guarda; dizer que não há autorização automática; pedir mais pares emparelhados, qualidade dos dados, decisão humana, versionamento e plano de reversão. A formulação pode variar sem alterar esses fundamentos.",
+    "resolution": "A resposta deve diferenciar simulação de campo; identificar falha da guarda; dizer que não há autorização automática; pedir mais pares emparelhados, qualidade dos dados, decisão humana, versionamento e plano de reversão. A formulação pode variar sem alterar esses fundamentos.",
+    "errorReasons": [
+      "Estratégia: declarar promoção a partir de uma única métrica ou pular governança."
+    ],
+    "source": {
+      "title": "MAT-EST-049-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  }
+]

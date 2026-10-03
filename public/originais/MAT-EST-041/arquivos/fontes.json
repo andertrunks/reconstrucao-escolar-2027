@@ -1,0 +1,38 @@
+[
+  {
+    "instituicao": "Penn State",
+    "titulo": "STAT 510 Lesson 1",
+    "url": "https://online.stat.psu.edu/stat510/Lesson01",
+    "uso": "dependência, estacionariedade"
+  },
+  {
+    "instituicao": "The R Journal",
+    "titulo": "Bootstrapping Clustered Data in R using lmeresampler",
+    "url": "https://journal.r-project.org/articles/RJ-2023-015/",
+    "uso": "bootstrap por conglomerados"
+  },
+  {
+    "instituicao": "Hyndman e Athanasopoulos",
+    "titulo": "Forecasting: Principles and Practice §5.10",
+    "url": "https://otexts.com/fpp3/tscv.html",
+    "uso": "origem móvel"
+  },
+  {
+    "instituicao": "scikit-learn",
+    "titulo": "TimeSeriesSplit",
+    "url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html",
+    "uso": "separação temporal"
+  },
+  {
+    "instituicao": "CRAN",
+    "titulo": "moving block bootstrap",
+    "url": "https://packages.oit.ncsu.edu/cran/web/packages/modernBoot/refman/modernBoot.html",
+    "uso": "blocos móveis"
+  },
+  {
+    "instituicao": "MIT OCW",
+    "titulo": "Lecture 12: Time Series Analysis",
+    "url": "https://ocw.mit.edu/courses/18-642-topics-in-mathematics-with-applications-in-finance-fall-2024/resources/18642-lecture-12-version-2_mp4/",
+    "uso": "vídeo complementar"
+  }
+]

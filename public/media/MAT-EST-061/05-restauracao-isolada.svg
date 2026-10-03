@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="583" viewBox="0 0 1020 583" role="img" aria-labelledby="ti de">
+<title id="ti">Ensaio de restauração sem publicar</title>
+<desc id="de">O arquivo ZIP anterior é extraído em pasta temporária e comparado byte a byte; o site não é alterado.</desc>
+<rect width="100%" height="100%" fill="#f7fafc"/>
+<text x="36" y="48" font-size="25" font-weight="bold" fill="#173753">Ensaio de restauração sem publicar</text>
+<rect x="36" y="80" width="948" height="58" rx="7" fill="#e6f3f7" stroke="#718c9b"/>
+<text x="55" y="116" font-size="19" fill="#173753">ZIP original MAT-EST-060 preservado e hash registrado</text>
+<rect x="36" y="156" width="948" height="58" rx="7" fill="#f2eee3" stroke="#718c9b"/>
+<text x="55" y="192" font-size="19" fill="#173753">Extrair somente em pasta temporária, fora do site</text>
+<rect x="36" y="232" width="948" height="58" rx="7" fill="#e6f3f7" stroke="#718c9b"/>
+<text x="55" y="268" font-size="19" fill="#173753">Conferir CRC e igualdade de cada arquivo restaurado</text>
+<rect x="36" y="308" width="948" height="58" rx="7" fill="#f2eee3" stroke="#718c9b"/>
+<text x="55" y="344" font-size="19" fill="#173753">Descartar pasta temporária após auditoria</text>
+<rect x="36" y="384" width="948" height="58" rx="7" fill="#e6f3f7" stroke="#718c9b"/>
+<text x="55" y="420" font-size="19" fill="#173753">Site e dados de progresso: NÃO ALTERADOS</text>
+<text x="36" y="528" font-size="16" fill="#414e5a">Restauração local verificável não demonstra rollback de produção.</text>
+</svg>

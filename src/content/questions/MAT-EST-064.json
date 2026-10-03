@@ -1,0 +1,866 @@
+[
+  {
+    "id": "MAT-EST-064-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Defina o que pode ser afirmado diretamente sobre a mutação I01.",
+    "answer": "Foi criada em cópia de teste com denominator=8 e rejeitada.",
+    "resolution": "Foi criada em cópia de teste com denominator=8 e rejeitada. Justificativa passo a passo: A origem conhecida é uma modificação artificial; não há evidência de exibição pública.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Diferencie fato de hipótese ao investigar um campo genérico de contagem.",
+    "answer": "Fato: a cópia usa 8; hipótese: algum gerador real poderia reutilizar o campo errado.",
+    "resolution": "Fato: a cópia usa 8; hipótese: algum gerador real poderia reutilizar o campo errado. Justificativa passo a passo: Só inspeção do gerador real e de seu rastreio confirmaria ou rejeitaria a hipótese.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Quais são os dois valores de erro B do corte A?",
+    "answer": "+4 e −2 unidades.",
+    "resolution": "+4 e −2 unidades. Justificativa passo a passo: São os dois erros assinados herdados de S01 e S02; os demais cartões permanecem pendentes.",
+    "errorReasons": [
+      "memória"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Quanto vale o MAE B e qual denominador é usado?",
+    "answer": "3 unidades, dividindo 6 por 2 pares avaliáveis.",
+    "resolution": "3 unidades, dividindo 6 por 2 pares avaliáveis. Justificativa passo a passo: Somar os módulos quatro e dois e dividir pela quantidade de erros conhecidos.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Quanto vale a completude de dois cartões válidos entre oito planejados?",
+    "answer": "25%.",
+    "resolution": "25%. Justificativa passo a passo: A razão dois sobre oito equivale a um quarto, isto é, vinte e cinco por cento.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Por que 6/8 não é o MAE B dessa amostra?",
+    "answer": "Porque oito inclui seis cartões sem erro elegível.",
+    "resolution": "Porque oito inclui seis cartões sem erro elegível. Justificativa passo a passo: O numerador soma apenas dois módulos, mas o denominador de MAE teria oito, misturando populações.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Qual falha sintética corresponde a alt vazio?",
+    "answer": "I02.",
+    "resolution": "I02. Justificativa passo a passo: I02 remove intencionalmente a descrição alternativa numa cópia; nenhum leitor real foi avaliado.",
+    "errorReasons": [
+      "memória"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "O que um teste negativo que reprova I03 demonstra?",
+    "answer": "O teste identificou o texto histórico artificialmente adulterado na entrada usada.",
+    "resolution": "O teste identificou o texto histórico artificialmente adulterado na entrada usada. Justificativa passo a passo: Não prova que uma versão em produção esteja correta ou tenha sido auditada por pessoa.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Qual é a unidade do custo médio sete no SANDBOX-057?",
+    "answer": "Sete pontos de custo.",
+    "resolution": "Sete pontos de custo. Justificativa passo a passo: O custo é uma função decisória fictícia, distinta das unidades observacionais da série.",
+    "errorReasons": [
+      "memória"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Cite dois campos que impedem inventar responsável humano num plano de ação.",
+    "answer": "Papel proposto e responsável real, sendo este último nulo até designação.",
+    "resolution": "Papel proposto e responsável real, sendo este último nulo até designação. Justificativa passo a passo: Um papel genérico descreve a função futura, mas não uma assinatura ou compromisso existente.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Encontre a diferença absoluta entre o MAE B verdadeiro 3 e o número errado 0,75.",
+    "answer": "2,25 unidades.",
+    "resolution": "2,25 unidades. Justificativa passo a passo: Subtraia zero vírgula setenta e cinco de três.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Qual é a subestimação relativa do MAE se 0,75 substituir 3?",
+    "answer": "75%.",
+    "resolution": "75%. Justificativa passo a passo: Diferença 2,25 dividida por 3 é 0,75, isto é, setenta e cinco por cento.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Explique como um contrato de dados pode impedir a confusão dos denominadores.",
+    "answer": "Separar count_evaluable=2 de count_planned=8 e verificar qual métrica usa cada campo.",
+    "resolution": "Separar count_evaluable=2 de count_planned=8 e verificar qual métrica usa cada campo. Justificativa passo a passo: O contrato liga significado e validação ao nome do campo, impedindo substituição silenciosa.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Qual prova adicional seria necessária para afirmar que um gerador real causou I01?",
+    "answer": "Código e rastreio de execução do gerador real, com versão e fontes identificadas.",
+    "resolution": "Código e rastreio de execução do gerador real, com versão e fontes identificadas. Justificativa passo a passo: Não se infere falha operacional de um campo alterado de propósito em fixture.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Uma proposta diz apenas “melhorar acessibilidade”. Transforme em critério testável.",
+    "answer": "Exigir alt não vazio e descrição textual do corte A, dois de oito e seis pendências; validar por teste e revisão humana.",
+    "resolution": "Exigir alt não vazio e descrição textual do corte A, dois de oito e seis pendências; validar por teste e revisão humana. Justificativa passo a passo: O enunciado passa a especificar elemento, comportamento esperado e evidência.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Após reteste local de I01, qual deve ser o estado G3 herdado?",
+    "answer": "Pending.",
+    "resolution": "Pending. Justificativa passo a passo: A correção da fixture não substitui escuta manual pelo Edge e navegação por teclado.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Como classificar I04 nesta etapa sem extrapolar?",
+    "answer": "Divergência de hash artificial, rejeitada na cópia; hipótese de proveniência a investigar em sistema real.",
+    "resolution": "Divergência de hash artificial, rejeitada na cópia; hipótese de proveniência a investigar em sistema real. Justificativa passo a passo: Não existem logs de distribuição pública com essa divergência.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Por que é correto I02–I06 continuarem falhando após corrigir I01?",
+    "answer": "Porque são mutações negativas independentes, feitas para acionar seus controles.",
+    "resolution": "Porque são mutações negativas independentes, feitas para acionar seus controles. Justificativa passo a passo: Consertar a cópia I01 não deve alterar as demais nem fazer o validador aceitá-las.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Informe o estado de G7 e G8 e o efeito sobre prontidão de publicação.",
+    "answer": "Ambos not_performed; publicação não comprovada nem autorizada por este pacote.",
+    "resolution": "Ambos not_performed; publicação não comprovada nem autorizada por este pacote. Justificativa passo a passo: São portas externas, não dispensáveis por sucesso local.",
+    "errorReasons": [
+      "memória"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "O que preencher para duração real de um incidente sintético sem carimbos temporais?",
+    "answer": "Não estimável.",
+    "resolution": "Não estimável. Justificativa passo a passo: Sem início/detecção/restituição comprovados não há intervalo temporal a calcular.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma reportagem diz “um erro de um funcionário causou queda na confiança do sistema”. A fonte só contém I01 mutada localmente. Redija a correção factual.",
+    "answer": "Uma mutação local trocou n=2 por n=8 e foi rejeitada; não há evidência de erro humano identificado, uso público ou impacto.",
+    "resolution": "Uma mutação local trocou n=2 por n=8 e foi rejeitada; não há evidência de erro humano identificado, uso público ou impacto. Justificativa passo a passo: Separar fato de atribuição causal e consequência não observada evita extrapolação.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma equipe propõe treinar revisores para que “sejam mais cuidadosos”, mas mantém o campo denominator sem significado. Que ação sistêmica faria sentido?",
+    "answer": "Definir contagens tipadas e teste automatizado de compatibilidade métrica-denominador.",
+    "resolution": "Definir contagens tipadas e teste automatizado de compatibilidade métrica-denominador. Justificativa passo a passo: Processo verificável reduz a dependência exclusiva de atenção humana; revisão continua complementar.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "O gráfico informa MAE B=0,75 e completude=25%, ambos com divisor 8. Qual dos dois números corresponde à pergunta certa?",
+    "answer": "A completude de 25%; o MAE B correto é 3 unidades.",
+    "resolution": "A completude de 25%; o MAE B correto é 3 unidades. Justificativa passo a passo: Dois sobre oito mede cartões preenchidos; seis sobre dois mede erro absoluto médio.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um avaliador confere hash e afirma que toda interpretação do relatório está correta. Identifique a lacuna.",
+    "answer": "Hash atesta integridade de bytes comparados, não veracidade semântica de conclusão e de unidades.",
+    "resolution": "Hash atesta integridade de bytes comparados, não veracidade semântica de conclusão e de unidades. Justificativa passo a passo: É necessário confrontar conteúdo com protocolo e cálculo, além do hash.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um plano tem ação “resolver I03” sem critério. Proponha evidência mensurável.",
+    "answer": "Exigir conclusão “C não promovido” comparada ao protocolo hashado e teste negativo que rejeite promoção falsa.",
+    "resolution": "Exigir conclusão “C não promovido” comparada ao protocolo hashado e teste negativo que rejeite promoção falsa. Justificativa passo a passo: O teste define resultado verificável sobre a versão da fonte, sem atribuir decisão humana fictícia.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Sete fixtures geram uma aprovada e seis reprovadas. É válido inferir taxa real de falhas editoriais de 6/7?",
+    "answer": "Não. São entradas escolhidas artificialmente, seis delas deliberadamente erradas.",
+    "resolution": "Não. São entradas escolhidas artificialmente, seis delas deliberadamente erradas. Justificativa passo a passo: A seleção do laboratório não é amostra representativa do processo real de publicação.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma revisão anuncia causa raiz comprovada como “falta de treinamento” sem logs ou entrevistas. Como reescrever?",
+    "answer": "Tratar treinamento como hipótese, registrar provas necessárias e investigar contratos e barreiras do processo.",
+    "resolution": "Tratar treinamento como hipótese, registrar provas necessárias e investigar contratos e barreiras do processo. Justificativa passo a passo: Causalidade exige evidência e não deve ser atribuída a pessoa por conveniência narrativa.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "O histórico mostra MAE C inferior ao de B, mas guarda t19 falha. Pode o relatório novo promover C no protocolo antigo?",
+    "answer": "Não; t19=19,2 ultrapassou a guarda dez e a decisão histórica permanece.",
+    "resolution": "Não; t19=19,2 ultrapassou a guarda dez e a decisão histórica permanece. Justificativa passo a passo: Um critério de restrição não pode ser apagado por reinterpretação de médias posteriores.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Em t26–t33 não houve pares; um painel exibe MAE zero. Qual deve ser o valor textual?",
+    "answer": "MAE não estimável, com zero pares avaliáveis.",
+    "resolution": "MAE não estimável, com zero pares avaliáveis. Justificativa passo a passo: Ausência de observações não significa erro nulo: a média nem possui denominador positivo.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Produza um comunicado sintético com achado, hipótese, ensaio e limite.",
+    "answer": "I01: denominador oito gerou 0,75 em vez de 3; possível confusão de contagens requer investigação; a cópia reparada passou teste local; não há deploy ou alcance comprovado.",
+    "resolution": "I01: denominador oito gerou 0,75 em vez de 3; possível confusão de contagens requer investigação; a cópia reparada passou teste local; não há deploy ou alcance comprovado. Justificativa passo a passo: Os quatro elementos distinguem dados, explicação ainda incerta, ação executada e restrição da evidência.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Em outro sandbox isolado, quatro pares avaliáveis de dez planejados têm módulos 1,3,5,7. Calcule MAE e completude.",
+    "answer": "MAE=4 unidades; completude=40%.",
+    "resolution": "MAE=4 unidades; completude=40%. Justificativa passo a passo: Soma dezesseis dividida por quatro dá quatro; quatro sobre dez dá quarenta por cento.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Um teste passa, mas não existe versão pública. Pode a ação ser marcada como eficácia operacional demonstrada?",
+    "answer": "Não. Somente comportamento em teste local foi comprovado.",
+    "resolution": "Não. Somente comportamento em teste local foi comprovado. Justificativa passo a passo: Eficácia operacional pede ambiente, versão e observações compatíveis com a alegação.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Uma hipótese causal é plausível, mas dois mecanismos alternativos não foram examinados. Como registrar?",
+    "answer": "Hipótese em aberto, alternativas concorrentes e teste discriminador ainda pendente.",
+    "resolution": "Hipótese em aberto, alternativas concorrentes e teste discriminador ainda pendente. Justificativa passo a passo: Plausibilidade não é confirmação e análise pós-incidente precisa explicitar incerteza.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Após alterar dados-fonte, o hash antigo G1 deve ser reaproveitado como prova da versão nova?",
+    "answer": "Não; registrar hash da nova versão e repetir verificações pertinentes.",
+    "resolution": "Não; registrar hash da nova versão e repetir verificações pertinentes. Justificativa passo a passo: Evidência de bytes anteriores não certifica conteúdo modificado.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Dois relatórios mostram sete, um em unidades e outro em pontos. O que a inspeção deve testar?",
+    "answer": "Se a grandeza da medida corresponde à unidade declarada, preservando sete pontos quando é custo.",
+    "resolution": "Se a grandeza da medida corresponde à unidade declarada, preservando sete pontos quando é custo. Justificativa passo a passo: Identidade numérica não substitui análise dimensional.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-064-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-064"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Explique por que um estudo pode ser encerrado editorialmente com G3–G8 abertos.",
+    "answer": "O pacote local possui artefatos e validação próprios; revisão humana, deploy e pós-deploy são fases independentes não executadas.",
+    "resolution": "O pacote local possui artefatos e validação próprios; revisão humana, deploy e pós-deploy são fases independentes não executadas. Justificativa passo a passo: Encerramento editorial é diferente de publicação verificada ou incidente público resolvido.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  }
+]

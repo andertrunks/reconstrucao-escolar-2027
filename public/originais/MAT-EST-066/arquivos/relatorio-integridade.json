@@ -1,0 +1,26 @@
+{
+  "id": "MAT-EST-066-QA-v1",
+  "all_passed": true,
+  "natureza": "verificações locais; não equivalem à validação no navegador público",
+  "previous_zip_sha256": "b8a2d2504fa63eac5a50519ab5793baac3bac4db4d06cf261ca2c89f2b165d4c",
+  "invariant_count": 23,
+  "questions": 36,
+  "question_layers": {
+    "APR": 10,
+    "CON": 10,
+    "VES": 10,
+    "RET": 6
+  },
+  "figures_svg": 6,
+  "transfer_isolated": true,
+  "historical_protocol_unchanged": true,
+  "personal_progress_changed": false,
+  "site_published": false,
+  "drive_synced": false,
+  "github_synced": false,
+  "human_review_performed": false,
+  "edge_manual_test_performed": false,
+  "video_fully_played": false,
+  "test_runner": "verificar-pacote.py",
+  "file_count_before_report": 76
+}

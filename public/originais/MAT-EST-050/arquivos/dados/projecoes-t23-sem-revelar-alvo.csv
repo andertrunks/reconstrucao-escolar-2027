@@ -1,0 +1,3 @@
+id,origem,alvo,horizonte,versao,previsao,diferencas_disponiveis,status
+MAT-EST-050-ILLUSTRATIVE-T23-B,t22,t23,1,BASE-SNAIVE-v1,183,nao_se_aplica,recalculo_didatico_nao_log_autenticado
+MAT-EST-050-ILLUSTRATIVE-T23-C,t22,t23,1,CHAL-SDELTA5-v1,199,25;-4;21;21;17,recalculo_didatico_nao_log_autenticado

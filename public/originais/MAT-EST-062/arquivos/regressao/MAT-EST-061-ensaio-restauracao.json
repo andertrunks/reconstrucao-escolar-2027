@@ -1,0 +1,11 @@
+{
+  "id": "MAT-EST-061-DRYRUN-RESTORE-v1",
+  "archive": "historico/MAT-EST-060-pacote-integracao.zip",
+  "baseline_sha256": "92c82159b0ea1306026c5bf25dbafaafb757c4d4a832fc5377c1ae212ecf4645",
+  "type": "extrair artefato anterior em diretório temporário e comparar bytes; NÃO é rollback de produção",
+  "deployed_url": null,
+  "performed_live_rollback": false,
+  "files_restored_and_compared": 65,
+  "archive_digest_rechecked": true,
+  "result": "PASSOU_APENAS_EM_STAGING_LOCAL"
+}

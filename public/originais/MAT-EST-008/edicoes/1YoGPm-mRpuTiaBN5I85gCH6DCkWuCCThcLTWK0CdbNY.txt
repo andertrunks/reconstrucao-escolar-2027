@@ -1,0 +1,196 @@
+﻿MAT-EST-008 — Gabarito comentado — reconstrução editorial v1
+
+
+Use somente após tentativa real. Todas as questões são autorais.
+
+
+CAMADA APR
+
+
+MAT-EST-008-EX-APR-01
+Resposta e raciocínio: Média 4; desvios −2,0,+2; quadrados 4,0,4.
+Motivo provável do erro: cálculo/estrutura dos desvios.
+
+
+MAT-EST-008-EX-APR-02
+Resposta e raciocínio: 8/3 ≈ 2,67.
+Motivo provável do erro: cálculo.
+
+
+MAT-EST-008-EX-APR-03
+Resposta e raciocínio: √(8/3) ≈ 1,63.
+Motivo provável do erro: raiz quadrada.
+
+
+MAT-EST-008-EX-APR-04
+Resposta e raciocínio: Porque cada desvio em cm é elevado ao quadrado antes da média, produzindo cm².
+Motivo provável do erro: unidade.
+
+
+MAT-EST-008-EX-APR-05
+Resposta e raciocínio: Variância 0; DP 0.
+Motivo provável do erro: conceito.
+
+
+MAT-EST-008-EX-APR-06
+Resposta e raciocínio: Não; é média de quadrados, todos não negativos.
+Motivo provável do erro: conceito.
+
+
+MAT-EST-008-EX-APR-07
+Resposta e raciocínio: Não; é a raiz quadrada principal da variância.
+Motivo provável do erro: conceito.
+
+
+MAT-EST-008-EX-APR-08
+Resposta e raciocínio: Amplitude usa somente máximo e mínimo; DP usa todos os desvios quadráticos em relação à média.
+Motivo provável do erro: comparação de medidas.
+
+
+MAT-EST-008-EX-APR-09
+Resposta e raciocínio: 3.
+Motivo provável do erro: transformação.
+
+
+MAT-EST-008-EX-APR-10
+Resposta e raciocínio: 12.
+Motivo provável do erro: escala.
+
+
+CAMADA CON
+
+
+MAT-EST-008-EX-CON-01
+Resposta e raciocínio: Média 5; variância 8/3≈2,67; DP≈1,63.
+Motivo provável do erro: cálculo completo.
+
+
+MAT-EST-008-EX-CON-02
+Resposta e raciocínio: Média 3,5; soma quadrática 27; variância 6,75; DP≈2,60.
+Motivo provável do erro: cálculo completo.
+
+
+MAT-EST-008-EX-CON-03
+Resposta e raciocínio: Média 12; variância 8/5=1,6; DP≈1,26.
+Motivo provável do erro: frequências.
+
+
+MAT-EST-008-EX-CON-04
+Resposta e raciocínio: 5 cm.
+Motivo provável do erro: unidade.
+
+
+MAT-EST-008-EX-CON-05
+Resposta e raciocínio: 16.
+Motivo provável do erro: relação variância-DP.
+
+
+MAT-EST-008-EX-CON-06
+Resposta e raciocínio: Populacional: 8/3≈2,67; amostral: 8/2=4.
+Motivo provável do erro: população versus amostra.
+
+
+MAT-EST-008-EX-CON-07
+Resposta e raciocínio: Porque numerador e N dobram na mesma proporção; a média e os desvios não mudam.
+Motivo provável do erro: invariância à repetição.
+
+
+MAT-EST-008-EX-CON-08
+Resposta e raciocínio: DP novo 10; variância nova 100.
+Motivo provável do erro: transformação linear.
+
+
+MAT-EST-008-EX-CON-09
+Resposta e raciocínio: 0,5,10 é mais disperso; seu DP populacional ≈4,08, contra ≈0,82.
+Motivo provável do erro: interpretação.
+
+
+MAT-EST-008-EX-CON-10
+Resposta e raciocínio: O divisor depende do objetivo: descrição de população completa usa N; estimação amostral usual usa n−1.
+Motivo provável do erro: objetivo estatístico.
+
+
+CAMADA VES
+
+
+MAT-EST-008-EX-VES-01
+Resposta e raciocínio: Média 104; desvios −4,−4,−4,−4,+16; quadrados somam 320; variância 64; DP 8. O extremo domina grande parte da soma quadrática.
+Motivo provável do erro: extremo e soma quadrática.
+
+
+MAT-EST-008-EX-VES-02
+Resposta e raciocínio: B apresenta maior dispersão das notas em torno da média; A é mais homogênea neste sentido.
+Motivo provável do erro: interpretação.
+
+
+MAT-EST-008-EX-VES-03
+Resposta e raciocínio: 40 cm.
+Motivo provável do erro: conversão de unidade.
+
+
+MAT-EST-008-EX-VES-04
+Resposta e raciocínio: 1,8×2=3,6 °F.
+Motivo provável do erro: transformação linear.
+
+
+MAT-EST-008-EX-VES-05
+Resposta e raciocínio: DP é medida quadrática típica de dispersão, não limite máximo individual.
+Motivo provável do erro: interpretação.
+
+
+MAT-EST-008-EX-VES-06
+Resposta e raciocínio: Um valor descreve o conjunto como população; o outro é estimador amostral da variância populacional.
+Motivo provável do erro: software/fórmula.
+
+
+MAT-EST-008-EX-VES-07
+Resposta e raciocínio: Usar pontos médios 5,15,25 como representantes, ponderar pelas frequências e calcular a dispersão; é aproximação porque valores individuais foram perdidos.
+Motivo provável do erro: dados agrupados.
+
+
+MAT-EST-008-EX-VES-08
+Resposta e raciocínio: As unidades são incompatíveis; números iguais não significam mesma variabilidade física.
+Motivo provável do erro: unidades.
+
+
+MAT-EST-008-EX-VES-09
+Resposta e raciocínio: Exemplo: 0,5,5,5,10 e 0,0,5,10,10 têm mesma amplitude 10 e dispersões internas diferentes.
+Motivo provável do erro: amplitude versus DP.
+
+
+MAT-EST-008-EX-VES-10
+Resposta e raciocínio: Quadrar faz um desvio grande crescer quadraticamente; no DMA ele cresce apenas linearmente em módulo.
+Motivo provável do erro: quadrado versus módulo.
+
+
+CAMADA RET
+
+
+MAT-EST-008-EX-RET-01
+Resposta e raciocínio: σ²=Σ(x−μ)²/N; σ=√σ²; s²=Σ(x−x̄)²/(n−1).
+Motivo provável do erro: memória conceitual.
+
+
+MAT-EST-008-EX-RET-02
+Resposta e raciocínio: Média 3; quadrados 4,0,4; variância 8/3≈2,67.
+Motivo provável do erro: cálculo.
+
+
+MAT-EST-008-EX-RET-03
+Resposta e raciocínio: 3.
+Motivo provável do erro: raiz.
+
+
+MAT-EST-008-EX-RET-04
+Resposta e raciocínio: Variância multiplica por 4; DP multiplica por 2.
+Motivo provável do erro: transformação.
+
+
+MAT-EST-008-EX-RET-05
+Resposta e raciocínio: A média é estimada da própria amostra e impõe uma restrição aos desvios; restam n−1 graus de liberdade, além da correção do viés sob condições usuais.
+Motivo provável do erro: graus de liberdade.
+
+
+MAT-EST-008-EX-RET-06
+Resposta e raciocínio: DP descreve dispersão dos dados. Erro-padrão descreve incerteza de um estimador, como a média, e depende do tamanho amostral.
+Motivo provável do erro: distinção conceitual.

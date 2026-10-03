@@ -1,0 +1,69 @@
+# QA de MAT-EST-038
+OK: origem preservada: dados-ficticios.csv
+OK: origem preservada: calculos-reproduziveis-originais.json
+OK: origem preservada: auditoria-recalculada.json
+OK: 36 IDs únicos
+OK: camadas 10/10/10/6
+OK: gabarito separado e pareado
+OK: comentário em toda questão
+OK: nenhum item declarado oficial
+OK: progressos não inventados
+OK: referência a pré-requisito em cada questão
+OK: SVG acessível assets/01-mapa-prerequisitos.svg
+OK: PNG visual assets/01-mapa-prerequisitos.svg
+OK: SVG acessível assets/02-matriz-erros.svg
+OK: PNG visual assets/02-matriz-erros.svg
+OK: SVG acessível assets/03-fluxo-devolutiva.svg
+OK: PNG visual assets/03-fluxo-devolutiva.svg
+OK: SVG acessível assets/04-inferencia-limites.svg
+OK: PNG visual assets/04-inferencia-limites.svg
+OK: SVG acessível assets/05-escolha-desenho.svg
+OK: PNG visual assets/05-escolha-desenho.svg
+OK: SVG acessível assets/06-metricas-validacao.svg
+OK: PNG visual assets/06-metricas-validacao.svg
+OK: SVG acessível assets/07-revisao-longitudinal.svg
+OK: PNG visual assets/07-revisao-longitudinal.svg
+OK: preview visual
+OK: 8 dias e 4 de teste
+OK: métricas A
+OK: métricas B
+OK: métricas base
+OK: custos para falta/excesso
+OK: intervalo Wald
+OK: Simpson estratificado
+OK: multiplicidade
+OK: reteste RMSE
+OK: página de conteúdo e enunciados
+OK: JSON válido manifest.json
+OK: JSON válido exercicios.json
+OK: JSON válido gabarito-comentado.json
+OK: JSON válido visuais.json
+OK: JSON válido video.json
+OK: JSON válido fontes.json
+OK: JSON válido marcador-producao.json
+OK: JSON válido calculos-reproduziveis-originais.json
+OK: JSON válido auditoria-recalculada.json
+OK: link vídeo institucional
+OK: SHA256 dos artefatos
+OK: CRC ZIP sem erro
+OK: SHA reaberto MAT-EST-038-devolutiva-integradora-fechamento-editorial-estatistica-recuperacao-evidencias-ponte-universitaria.md
+OK: SHA reaberto 01-mapa-prerequisitos.svg
+OK: SHA reaberto 02-matriz-erros.svg
+OK: SHA reaberto 03-fluxo-devolutiva.svg
+OK: SHA reaberto 04-inferencia-limites.svg
+OK: SHA reaberto 05-escolha-desenho.svg
+OK: SHA reaberto 06-metricas-validacao.svg
+OK: SHA reaberto 07-revisao-longitudinal.svg
+OK: SHA reaberto auditoria-recalculada.json
+OK: SHA reaberto calculos-reproduziveis-originais.json
+OK: SHA reaberto dados-ficticios.csv
+OK: SHA reaberto exercicios.json
+OK: SHA reaberto fontes.json
+OK: SHA reaberto gabarito-comentado.json
+OK: SHA reaberto manifest.json
+OK: SHA reaberto marcador-producao.json
+OK: SHA reaberto preview-visuais.png
+OK: SHA reaberto video.json
+OK: SHA reaberto visuais.json
+Resultado: 66/66 verificações aprovadas; 0 falhas.
+Pendências externas: integração no site, teste do Edge, reprodução integral do vídeo e sincronização com Google Drive/GitHub/deploy.

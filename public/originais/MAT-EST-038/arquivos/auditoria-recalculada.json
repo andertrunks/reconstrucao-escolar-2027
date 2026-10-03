@@ -1,0 +1,114 @@
+{
+  "dadosOrigem": "MAT-EST-034/dados-ficticios.csv",
+  "entradaSintetica": true,
+  "formulaErro": "observado - previsto",
+  "particoes": {
+    "referencia": {
+      "A": {
+        "erros": [
+          -5,
+          5,
+          5,
+          -5
+        ],
+        "MAE": 5.0,
+        "MSE": 25.0,
+        "RMSE": 5.0,
+        "ME": 0.0,
+        "soma_faltas": 10,
+        "soma_excedentes": 10
+      },
+      "B": {
+        "erros": [
+          0,
+          0,
+          0,
+          -20
+        ],
+        "MAE": 5.0,
+        "MSE": 100.0,
+        "RMSE": 10.0,
+        "ME": -5.0,
+        "soma_faltas": 0,
+        "soma_excedentes": 20
+      },
+      "baseline": {
+        "erros": [
+          -20,
+          0,
+          20,
+          0
+        ],
+        "MAE": 10.0,
+        "MSE": 200.0,
+        "RMSE": 14.142135623730951,
+        "ME": 0.0,
+        "soma_faltas": 20,
+        "soma_excedentes": 20
+      }
+    },
+    "teste": {
+      "A": {
+        "erros": [
+          -5,
+          5,
+          5,
+          -5
+        ],
+        "MAE": 5.0,
+        "MSE": 25.0,
+        "RMSE": 5.0,
+        "ME": 0.0,
+        "soma_faltas": 10,
+        "soma_excedentes": 10
+      },
+      "B": {
+        "erros": [
+          0,
+          0,
+          0,
+          -25
+        ],
+        "MAE": 6.25,
+        "MSE": 156.25,
+        "RMSE": 12.5,
+        "ME": -6.25,
+        "soma_faltas": 0,
+        "soma_excedentes": 25
+      },
+      "baseline": {
+        "erros": [
+          -10,
+          10,
+          30,
+          0
+        ],
+        "MAE": 12.5,
+        "MSE": 275.0,
+        "RMSE": 16.583123951777,
+        "ME": 7.5,
+        "soma_faltas": 40,
+        "soma_excedentes": 10
+      }
+    }
+  },
+  "hipotesesCusto": [
+    {
+      "falta": 3,
+      "excedente": 1,
+      "custos": {
+        "A": 40,
+        "B": 25
+      }
+    },
+    {
+      "falta": 1,
+      "excedente": 3,
+      "custos": {
+        "A": 40,
+        "B": 75
+      }
+    }
+  ],
+  "reproducao": "calculado novamente a partir de CSV de MAT-EST-034, sem ler a tabela de métricas originais antes da conferência"
+}

@@ -1,0 +1,867 @@
+[
+  {
+    "id": "MAT-EST-011-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Q1 = 12 e Q3 = 20. Calcule a amplitude interquartil.",
+    "answer": "8.",
+    "resolution": "Resposta: 8.\nResolução comentada: AIQ = Q3 − Q1 = 20 − 12 = 8.\nMotivo provável de erro: cálculo: inverter a subtração ou confundir AIQ com amplitude total.",
+    "errorReasons": [
+      "cálculo: inverter a subtração ou confundir AIQ com amplitude total."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-011-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Em uma frase, explique o que a amplitude interquartil resume.",
+    "answer": "Ela resume a largura dos aproximadamente 50% centrais da distribuição entre Q1 e Q3.",
+    "resolution": "Resposta: Ela resume a largura dos aproximadamente 50% centrais da distribuição entre Q1 e Q3.\nResolução comentada: Q1 marca o primeiro quartil e Q3 o terceiro; a diferença entre eles mede a faixa central.\nMotivo provável de erro: conteúdo: interpretar AIQ como quantidade de dados, e não como largura.",
+    "errorReasons": [
+      "conteúdo: interpretar AIQ como quantidade de dados, e não como largura."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Q1 = 10 e Q3 = 18. Calcule a AIQ e os limites inferior e superior pela regra de 1,5 vezes a AIQ.",
+    "answer": "AIQ = 8; limite inferior = −2; limite superior = 30.",
+    "resolution": "Resposta: AIQ = 8; limite inferior = −2; limite superior = 30.\nResolução comentada: AIQ=18−10=8. Uma vez e meia a AIQ é 12. Logo, 10−12=−2 e 18+12=30.\nMotivo provável de erro: cálculo: esquecer o fator 1,5 ou usar a mediana no lugar de Q1/Q3.",
+    "errorReasons": [
+      "cálculo: esquecer o fator 1,5 ou usar a mediana no lugar de Q1/Q3."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Usando os limites da questão anterior, um valor igual a 31 é sinalizado pela regra? Justifique.",
+    "answer": "Sim.",
+    "resolution": "Resposta: Sim.\nResolução comentada: O limite superior é 30. Como 31 > 30, o valor é sinalizado pela regra.\nMotivo provável de erro: interpretação: achar que o limite precisa ser um dado observado.",
+    "errorReasons": [
+      "interpretação: achar que o limite precisa ser um dado observado."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Em um box-plot, o que representa a linha desenhada dentro da caixa?",
+    "answer": "A mediana.",
+    "resolution": "Resposta: A mediana.\nResolução comentada: A linha interna da caixa representa o segundo quartil, Q2, que coincide com a mediana.\nMotivo provável de erro: conteúdo: confundir a linha da mediana com a média.",
+    "errorReasons": [
+      "conteúdo: confundir a linha da mediana com a média."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "No box-plot modificado de Tukey, os bigodes precisam terminar exatamente nos limites Q1 menos 1,5 AIQ e Q3 mais 1,5 AIQ? Explique.",
+    "answer": "Não.",
+    "resolution": "Resposta: Não.\nResolução comentada: Os limites são valores calculados. O bigode termina na observação mais extrema que ainda permanece dentro do limite, conforme a convenção do box-plot modificado.\nMotivo provável de erro: conteúdo: confundir cerca calculada com extremo observado.",
+    "errorReasons": [
+      "conteúdo: confundir cerca calculada com extremo observado."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Por que a AIQ é menos sensível a um valor extremo do que a amplitude total?",
+    "answer": "Porque usa Q1 e Q3, não diretamente mínimo e máximo.",
+    "resolution": "Resposta: Porque usa Q1 e Q3, não diretamente mínimo e máximo.\nResolução comentada: Um extremo pode alterar fortemente a amplitude total, mas pode deixar Q1 e Q3 inalterados em muitos conjuntos.\nMotivo provável de erro: conteúdo: pensar que robustez significa imunidade completa.",
+    "errorReasons": [
+      "conteúdo: pensar que robustez significa imunidade completa."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Um ponto aparece além do bigode. É correto afirmar, só por isso, que houve erro de digitação? Explique.",
+    "answer": "Não.",
+    "resolution": "Resposta: Não.\nResolução comentada: O ponto é apenas sinalizado para investigação pela convenção do gráfico. Pode ser legítimo ou resultar de erro; o gráfico sozinho não decide.\nMotivo provável de erro: interpretação: transformar um indicador descritivo em diagnóstico.",
+    "errorReasons": [
+      "interpretação: transformar um indicador descritivo em diagnóstico."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Se Q1 = Q3 = 7, qual é a AIQ? O que isso indica sobre a metade central segundo a convenção usada?",
+    "answer": "0.",
+    "resolution": "Resposta: 0.\nResolução comentada: AIQ=Q3−Q1=7−7=0. Segundo a convenção usada, os 50% centrais estão concentrados em uma faixa de largura zero.\nMotivo provável de erro: conteúdo: concluir que todos os dados são iguais.",
+    "errorReasons": [
+      "conteúdo: concluir que todos os dados são iguais."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Complete: a caixa do box-plot se estende de ______ a ______, e seu comprimento numérico corresponde à ______.\n\n\nB. Consolidação",
+    "answer": "Q1; Q3; amplitude interquartil.",
+    "resolution": "Resposta: Q1; Q3; amplitude interquartil.\nResolução comentada: A caixa vai do primeiro ao terceiro quartil e seu comprimento numérico é Q3−Q1.\nMotivo provável de erro: memória: trocar quartis por mínimo e máximo.\n\n\nB. Consolidação",
+    "errorReasons": [
+      "memória: trocar quartis por mínimo e máximo."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Considere 2, 3, 4, 5, 6, 7, 8, 20. Use mediana das metades. Calcule Q1, Q3, AIQ, limites de 1,5 AIQ e identifique pontos sinalizados.",
+    "answer": "Q1=3,5; Q3=7,5; AIQ=4; limites −2,5 e 13,5; 20 é sinalizado.",
+    "resolution": "Resposta: Q1=3,5; Q3=7,5; AIQ=4; limites −2,5 e 13,5; 20 é sinalizado.\nResolução comentada: Metade inferior 2,3,4,5 dá Q1=(3+4)/2=3,5. Metade superior 6,7,8,20 dá Q3=(7+8)/2=7,5. AIQ=4. 1,5×4=6; limites 3,5−6=−2,5 e 7,5+6=13,5. Só 20 excede o limite superior.\nMotivo provável de erro: estratégia: calcular quartis sem respeitar a convenção declarada.",
+    "errorReasons": [
+      "estratégia: calcular quartis sem respeitar a convenção declarada."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Um conjunto tem AIQ igual a 6. Todos os valores recebem mais 10 unidades. Qual será a nova AIQ? Justifique algebricamente.",
+    "answer": "6.",
+    "resolution": "Resposta: 6.\nResolução comentada: Somar 10 a todos os dados soma 10 a Q1 e Q3. A diferença (Q3+10)−(Q1+10)=Q3−Q1 permanece 6.\nMotivo provável de erro: conteúdo: acreditar que toda transformação altera dispersão.",
+    "errorReasons": [
+      "conteúdo: acreditar que toda transformação altera dispersão."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Um conjunto tem AIQ igual a 4 centímetros. Todos os valores são multiplicados por 3. Qual será a nova AIQ, em centímetros?",
+    "answer": "12 cm.",
+    "resolution": "Resposta: 12 cm.\nResolução comentada: Multiplicar todos os dados por 3 multiplica Q1 e Q3 por 3; portanto a diferença também é multiplicada por 3: 3×4=12.\nMotivo provável de erro: cálculo: somar 3 em vez de multiplicar.",
+    "errorReasons": [
+      "cálculo: somar 3 em vez de multiplicar."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "O grupo A tem Q1=10, mediana=15 e Q3=20. O grupo B tem Q1=12, mediana=15 e Q3=18. Compare centro e dispersão central.",
+    "answer": "As medianas são iguais, 15. A tem AIQ 10 e B tem AIQ 6; portanto os 50% centrais de B estão mais concentrados.",
+    "resolution": "Resposta: As medianas são iguais, 15. A tem AIQ 10 e B tem AIQ 6; portanto os 50% centrais de B estão mais concentrados.\nResolução comentada: AIQ_A=20−10=10; AIQ_B=18−12=6. Centro por mediana igual, dispersão central diferente.\nMotivo provável de erro: interpretação: declarar um grupo 'melhor' sem critério.",
+    "errorReasons": [
+      "interpretação: declarar um grupo 'melhor' sem critério."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Dois grupos têm AIQ igual a 8. O primeiro tem mediana 30 e o segundo mediana 45. O que pode e o que não pode ser concluído?",
+    "answer": "As dispersões centrais resumidas pela AIQ são iguais; as posições centrais são diferentes.",
+    "resolution": "Resposta: As dispersões centrais resumidas pela AIQ são iguais; as posições centrais são diferentes.\nResolução comentada: AIQ informa largura dos 50% centrais, enquanto a mediana informa posição central. Não é possível concluir igualdade de médias, amplitudes totais ou formas completas.\nMotivo provável de erro: interpretação: extrapolar do resumo para propriedades não mostradas.",
+    "errorReasons": [
+      "interpretação: extrapolar do resumo para propriedades não mostradas."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Dois box-plots convencionais têm exatamente a mesma aparência. Podemos concluir que os grupos têm o mesmo tamanho amostral? Explique.",
+    "answer": "Não.",
+    "resolution": "Resposta: Não.\nResolução comentada: O box-plot convencional não codifica necessariamente tamanho amostral. Resumos idênticos podem vir de amostras de tamanhos distintos.\nMotivo provável de erro: interpretação: inferir n a partir da aparência.",
+    "errorReasons": [
+      "interpretação: inferir n a partir da aparência."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Use mediana das metades em 1, 1, 1, 1, 2, 2, 2, 10. Calcule Q1, Q3, AIQ, limites e identifique ponto sinalizado.",
+    "answer": "Q1=1; Q3=2; AIQ=1; limites −0,5 e 3,5; 10 é sinalizado.",
+    "resolution": "Resposta: Q1=1; Q3=2; AIQ=1; limites −0,5 e 3,5; 10 é sinalizado.\nResolução comentada: Metade inferior 1,1,1,1 dá Q1=1. Metade superior 2,2,2,10 dá Q3=2. AIQ=1. Limites 1−1,5=−0,5 e 2+1,5=3,5; 10 excede 3,5.\nMotivo provável de erro: cálculo: usar mínimo e máximo para formar a caixa.",
+    "errorReasons": [
+      "cálculo: usar mínimo e máximo para formar a caixa."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Q1=20, Q3=30 e, portanto, AIQ=10. O limite superior é 45. Os dados observados acima de Q3 são 32, 36, 41 e 60. Onde termina o bigode superior no box-plot modificado? Qual ponto é mostrado separadamente?",
+    "answer": "O bigode termina em 41; 60 é mostrado separadamente.",
+    "resolution": "Resposta: O bigode termina em 41; 60 é mostrado separadamente.\nResolução comentada: O limite superior é 45. Entre os dados observados, 41 é o maior que não ultrapassa 45. O valor 60 excede o limite.\nMotivo provável de erro: conteúdo: desenhar bigode em 45 mesmo sem dado nessa posição.",
+    "errorReasons": [
+      "conteúdo: desenhar bigode em 45 mesmo sem dado nessa posição."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Uma transformação y = -x é aplicada a todos os dados. O que acontece com a AIQ? Explique por que é necessário reordenar os valores.",
+    "answer": "A AIQ mantém a mesma magnitude.",
+    "resolution": "Resposta: A AIQ mantém a mesma magnitude.\nResolução comentada: A transformação y=−x inverte a ordem. Após reordenar, a diferença entre novo Q3 e novo Q1 é |−1| vezes a AIQ original, portanto igual à original.\nMotivo provável de erro: estratégia: aplicar fórmulas de quartis sem reordenar após transformação decrescente.",
+    "errorReasons": [
+      "estratégia: aplicar fórmulas de quartis sem reordenar após transformação decrescente."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Explique uma situação em que um histograma revela informação importante que um box-plot pode esconder.\n\n\nC. Vestibular e ponte universitária",
+    "answer": "Por exemplo, para revelar dois picos ou lacunas internas.",
+    "resolution": "Resposta: Por exemplo, para revelar dois picos ou lacunas internas.\nResolução comentada: Um box-plot comprime os dados em quartis e extremos; distribuições bimodais e unimodais podem ter box-plots parecidos. O histograma mostra frequências por intervalo e pode revelar picos.\nMotivo provável de erro: conteúdo: tratar um único gráfico como representação completa.\n\n\nC. Vestibular e ponte universitária",
+    "errorReasons": [
+      "conteúdo: tratar um único gráfico como representação completa."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma empresa compara tempos de atendimento de dois turnos. Ambos têm mediana 12 minutos. O turno A tem AIQ 4 e o B tem AIQ 9. Qual afirmação é sustentada? A) A média de A é menor. B) Os 50% centrais de A estão mais concentrados. C) B tem necessariamente mais atendimentos. D) A não possui valores extremos.",
+    "answer": "B.",
+    "resolution": "Resposta: B.\nResolução comentada: As medianas são iguais. A AIQ de A é 4 e a de B é 9; portanto os 50% centrais de A ocupam uma faixa menor. As demais alternativas não são sustentadas pelos dados.\nMotivo provável de erro: interpretação: confundir AIQ com média, tamanho da amostra ou ausência de extremos.",
+    "errorReasons": [
+      "interpretação: confundir AIQ com média, tamanho da amostra ou ausência de extremos."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Em uma amostra, Q1=50 e Q3=70. Um valor 105 foi observado. Pela regra de 1,5 AIQ, como ele deve ser representado num box-plot modificado? Mostre a conta.",
+    "answer": "O valor 105 é sinalizado e deve aparecer separado no box-plot modificado, se essa for a convenção.",
+    "resolution": "Resposta: O valor 105 é sinalizado e deve aparecer separado no box-plot modificado, se essa for a convenção.\nResolução comentada: AIQ=70−50=20. Limite superior=70+1,5×20=100. Como 105>100, ele excede o limite.\nMotivo provável de erro: cálculo: usar 1,5×Q3 em vez de 1,5×AIQ.",
+    "errorReasons": [
+      "cálculo: usar 1,5×Q3 em vez de 1,5×AIQ."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um pesquisador remove todos os pontos além de 1,5 AIQ antes de analisar os dados. Avalie criticamente esse procedimento.",
+    "answer": "O procedimento é inadequado sem investigação e justificativa.",
+    "resolution": "Resposta: O procedimento é inadequado sem investigação e justificativa.\nResolução comentada: A regra de 1,5 AIQ apenas sinaliza observações. Removê-las automaticamente pode eliminar valores legítimos e enviesar a análise. É preciso verificar coleta, objetivo e impacto.\nMotivo provável de erro: estratégia: confundir detecção descritiva com critério universal de exclusão.",
+    "errorReasons": [
+      "estratégia: confundir detecção descritiva com critério universal de exclusão."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Dois box-plots têm caixas de mesmo comprimento, mas medianas diferentes. O que essa informação diz sobre AIQ e posição central?",
+    "answer": "As AIQs são iguais, mas as posições centrais diferem.",
+    "resolution": "Resposta: As AIQs são iguais, mas as posições centrais diferem.\nResolução comentada: Comprimentos iguais de caixa representam Q3−Q1 iguais na mesma escala; medianas diferentes indicam centros por posição diferentes.\nMotivo provável de erro: interpretação: dizer que as distribuições são iguais.",
+    "errorReasons": [
+      "interpretação: dizer que as distribuições são iguais."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um gráfico apresenta bigodes no mínimo e no máximo, sem pontos separados. Outro usa bigodes até a última observação dentro dos limites de 1,5 AIQ. Por que comparar visualmente os comprimentos dos bigodes sem conhecer a convenção pode ser enganoso?",
+    "answer": "Porque as duas convenções atribuem significados diferentes aos bigodes.",
+    "resolution": "Resposta: Porque as duas convenções atribuem significados diferentes aos bigodes.\nResolução comentada: No primeiro, o bigode alcança extremos; no modificado, ele pode parar antes de pontos sinalizados. O mesmo comprimento visual não representa necessariamente a mesma propriedade.\nMotivo provável de erro: interpretação: comparar gráficos sem checar definição.",
+    "errorReasons": [
+      "interpretação: comparar gráficos sem checar definição."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Após converter temperaturas de graus Celsius para uma escala y = 1,8x + 32, o que acontece com a AIQ? Justifique sem recalcular cada quartil individualmente.",
+    "answer": "A AIQ é multiplicada por 1,8.",
+    "resolution": "Resposta: A AIQ é multiplicada por 1,8.\nResolução comentada: A transformação y=1,8x+32 tem fator multiplicativo positivo 1,8. O termo +32 desloca Q1 e Q3 igualmente e cancela na diferença. Logo AIQ_y=1,8 AIQ_x.\nMotivo provável de erro: cálculo: somar 32 à AIQ.",
+    "errorReasons": [
+      "cálculo: somar 32 à AIQ."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma distribuição discreta tem muitos empates e AIQ=0. O que ocorre com a regra de 1,5 AIQ e por que isso exige cautela?",
+    "answer": "Os limites coincidem com Q1=Q3; muitos valores diferentes do núcleo podem ser sinalizados.",
+    "resolution": "Resposta: Os limites coincidem com Q1=Q3; muitos valores diferentes do núcleo podem ser sinalizados.\nResolução comentada: Com AIQ=0, 1,5×AIQ=0. A regra fica especialmente sensível em dados discretos ou com muitos empates, por isso o contexto é essencial.\nMotivo provável de erro: conteúdo: achar que AIQ zero implica todos os valores iguais.",
+    "errorReasons": [
+      "conteúdo: achar que AIQ zero implica todos os valores iguais."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um box-plot parece aproximadamente simétrico. Um estudante conclui que a distribuição tem apenas um pico e é normal. Critique a conclusão.",
+    "answer": "A conclusão não é sustentada.",
+    "resolution": "Resposta: A conclusão não é sustentada.\nResolução comentada: O box-plot não mostra número de picos nem toda a forma. Aparência aproximadamente simétrica pode ser compatível com distribuições multimodais e não prova normalidade.\nMotivo provável de erro: interpretação: inferir forma completa a partir de resumo comprimido.",
+    "errorReasons": [
+      "interpretação: inferir forma completa a partir de resumo comprimido."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma prova apresenta box-plots de três turmas sem informar tamanho amostral. Que aspectos podem ser comparados diretamente e qual informação importante não é fornecida pelo box-plot convencional?",
+    "answer": "Podem ser comparados mediana, AIQ, bigodes e pontos sinalizados, se escala e convenção forem comuns; o tamanho amostral não é fornecido por padrão.",
+    "resolution": "Resposta: Podem ser comparados mediana, AIQ, bigodes e pontos sinalizados, se escala e convenção forem comuns; o tamanho amostral não é fornecido por padrão.\nResolução comentada: O box-plot resume posição e dispersão, mas normalmente não codifica n.\nMotivo provável de erro: interpretação: assumir que caixas iguais significam amostras igualmente grandes.",
+    "errorReasons": [
+      "interpretação: assumir que caixas iguais significam amostras igualmente grandes."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma reportagem diz: 'Todo ponto fora dos bigodes é estatisticamente impossível e deve ser descartado'. Reescreva a frase de forma tecnicamente adequada.\n\n\nD. Reteste independente",
+    "answer": "Uma forma adequada: 'Pontos além dos bigodes, em um box-plot modificado, podem ser sinalizados pela convenção adotada e merecem investigação; não são automaticamente impossíveis nem devem ser descartados sem justificativa.'",
+    "resolution": "Resposta: Uma forma adequada: 'Pontos além dos bigodes, em um box-plot modificado, podem ser sinalizados pela convenção adotada e merecem investigação; não são automaticamente impossíveis nem devem ser descartados sem justificativa.'\nResolução comentada: A regra é descritiva e depende da convenção. A decisão de excluir dados exige evidência externa ao gráfico.\nMotivo provável de erro: interpretação: linguagem absoluta e causal sem suporte.\n\n\nD. Reteste independente",
+    "errorReasons": [
+      "interpretação: linguagem absoluta e causal sem suporte."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Em um novo conjunto, Q1=14, Q3=22 e existe um valor 35. Calcule AIQ, limite superior e diga se 35 é sinalizado.",
+    "answer": "AIQ=8; limite superior=34; 35 é sinalizado.",
+    "resolution": "Resposta: AIQ=8; limite superior=34; 35 é sinalizado.\nResolução comentada: AIQ=22−14=8. 1,5×8=12. Limite superior=22+12=34. Como 35>34, ele é sinalizado.\nMotivo provável de erro: cálculo: esquecer que o limite parte de Q3.",
+    "errorReasons": [
+      "cálculo: esquecer que o limite parte de Q3."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Os dados são transformados por y = 5x - 7. A AIQ original é 3. Determine a nova AIQ e explique o papel do termo menos 7.",
+    "answer": "15.",
+    "resolution": "Resposta: 15.\nResolução comentada: O fator positivo 5 multiplica a AIQ: 5×3=15. O termo −7 desloca Q1 e Q3 igualmente e se cancela na diferença.\nMotivo provável de erro: conteúdo: tratar translação como aumento de dispersão.",
+    "errorReasons": [
+      "conteúdo: tratar translação como aumento de dispersão."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Um grupo X tem mediana 50 e AIQ 5; Y tem mediana 47 e AIQ 3. Produza uma comparação correta em duas frases, sem declarar um 'melhor' grupo.",
+    "answer": "X tem mediana maior, 50 contra 47. Y tem menor dispersão central pela AIQ, 3 contra 5.",
+    "resolution": "Resposta: X tem mediana maior, 50 contra 47. Y tem menor dispersão central pela AIQ, 3 contra 5.\nResolução comentada: São duas dimensões diferentes; sem um objetivo adicional, não há base para declarar um grupo superior.\nMotivo provável de erro: interpretação: transformar comparação descritiva em ranking.",
+    "errorReasons": [
+      "interpretação: transformar comparação descritiva em ranking."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Num box-plot modificado, o limite superior é 100 e os dados acima de Q3 são 82, 95, 108 e 130. Onde termina o bigode superior e quais valores são sinalizados?",
+    "answer": "O bigode termina em 95; 108 e 130 são sinalizados.",
+    "resolution": "Resposta: O bigode termina em 95; 108 e 130 são sinalizados.\nResolução comentada: 100 é o limite, não necessariamente um dado. O maior observado dentro do limite é 95. Os valores 108 e 130 excedem 100.\nMotivo provável de erro: conteúdo: estender o bigode até 100.",
+    "errorReasons": [
+      "conteúdo: estender o bigode até 100."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Explique por que dois conjuntos com o mesmo resumo de cinco números ainda podem ter formas internas diferentes.",
+    "answer": "Porque o resumo de cinco números retém apenas mínimo, Q1, mediana, Q3 e máximo.",
+    "resolution": "Resposta: Porque o resumo de cinco números retém apenas mínimo, Q1, mediana, Q3 e máximo.\nResolução comentada: A distribuição interna entre esses pontos pode variar: frequências, lacunas, agrupamentos e número de picos podem ser diferentes mesmo com o mesmo resumo.\nMotivo provável de erro: conteúdo: confundir resumo com reconstrução completa dos dados.",
+    "errorReasons": [
+      "conteúdo: confundir resumo com reconstrução completa dos dados."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-011-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-011"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Sem consultar a aula, descreva um roteiro de quatro a seis passos para interpretar um box-plot com segurança.",
+    "answer": "Exemplo de roteiro: verificar escala e convenção; identificar Q1, mediana e Q3; calcular ou interpretar AIQ; verificar significado dos bigodes e pontos sinalizados; comparar centro e dispersão; declarar limites da conclusão.",
+    "resolution": "Resposta: Exemplo de roteiro: verificar escala e convenção; identificar Q1, mediana e Q3; calcular ou interpretar AIQ; verificar significado dos bigodes e pontos sinalizados; comparar centro e dispersão; declarar limites da conclusão.\nResolução comentada: O essencial é não interpretar antes de saber o que cada elemento representa e não extrapolar além do que o gráfico contém.\nMotivo provável de erro: estratégia: pular convenção, unidade ou limitações.",
+    "errorReasons": [
+      "estratégia: pular convenção, unidade ou limitações."
+    ],
+    "source": {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  }
+]

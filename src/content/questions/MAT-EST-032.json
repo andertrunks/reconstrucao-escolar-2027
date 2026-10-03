@@ -1,0 +1,866 @@
+[
+  {
+    "id": "MAT-EST-032-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Previsão e erro",
+    "statement": "O valor observado é 12 e a previsão foi 15 pontos. Calcule o erro assinado usando observado menos previsto e o erro absoluto.",
+    "answer": "Erro assinado = −3 pontos; absoluto = 3 pontos.",
+    "resolution": "Erro = 12 − 15 = −3: a previsão superestimou o observado.\n\nO módulo de −3 é 3; MAE nunca utiliza sinais negativos.",
+    "errorReasons": [
+      "Reorganizar as parcelas, verificar divisão, raiz e unidade."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "MAE básico",
+    "statement": "Para quatro erros assinados +1, −2, +1 e 0 unidades, encontre MAE.",
+    "answer": "MAE = 1 unidade.",
+    "resolution": "Os módulos são 1, 2, 1 e 0.\n\nMAE = (1 + 2 + 1 + 0)/4 = 1.",
+    "errorReasons": [
+      "Reorganizar as parcelas, verificar divisão, raiz e unidade."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "RMSE básico",
+    "statement": "Os erros são −1, +1, −1 e +1 ponto. Calcule o MSE e o RMSE.",
+    "answer": "MSE = 1 ponto²; RMSE = 1 ponto.",
+    "resolution": "O quadrado de cada erro é 1; MSE = 4/4 = 1 ponto².\n\nRMSE é a raiz de 1 e retorna à unidade original: 1 ponto.",
+    "errorReasons": [
+      "Reorganizar as parcelas, verificar divisão, raiz e unidade."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Papel do R²",
+    "statement": "Em avaliação externa, um R² de −0,20 é impossível? Justifique.",
+    "answer": "Não. Em dados retidos, um modelo pode ser pior que a previsão constante pela média observada do conjunto avaliado.",
+    "resolution": "R² = 1 − SSE/SST, quando SST é positivo.\n\nSe SSE superar SST, a fração é maior que 1 e R² fica negativo.",
+    "errorReasons": [
+      "Localizar exatamente o que o resultado permite concluir."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Métrica e unidade",
+    "statement": "Se a resposta é medida em quilômetros, quais são as unidades do MAE, MSE e RMSE?",
+    "answer": "MAE e RMSE: quilômetros; MSE: quilômetros ao quadrado.",
+    "resolution": "O valor absoluto conserva a unidade original.\n\nElevar os erros ao quadrado muda a dimensão; a raiz a recupera.",
+    "errorReasons": [
+      "Reconstituir a ideia e a fórmula em palavras antes de aplicá-la."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Viés assinado",
+    "statement": "Os erros observado menos previsto são +2, +2, −2 e −2. Qual é o erro médio assinado? Isso significa previsões perfeitas?",
+    "answer": "Erro médio assinado = 0; não, os erros se cancelaram.",
+    "resolution": "A soma assinada é zero; dividida por quatro continua zero.\n\nO MAE, porém, é 2: nenhuma das quatro previsões foi exata.",
+    "errorReasons": [
+      "Localizar exatamente o que o resultado permite concluir."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Referência simples",
+    "statement": "Por que avaliar também uma previsão ingênua, como repetir o último valor observado, em uma série temporal?",
+    "answer": "Porque ela fornece uma base de comparação para saber se a complexidade do modelo melhora as previsões.",
+    "resolution": "O erro absoluto do modelo precisa ser interpretado contra uma regra simples apropriada ao problema.\n\nUm sistema sofisticado não demonstra valor preditivo só por produzir números.",
+    "errorReasons": [
+      "Definir o objetivo de previsão, o conjunto de avaliação e a métrica antes de calcular."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Intervalos diferentes",
+    "statement": "A média prevista para certo perfil é 10. Para a mesma confiança nominal e sob um mesmo modelo, qual intervalo normalmente será mais largo: o da resposta média ou o de uma nova observação individual?",
+    "answer": "O intervalo de predição de uma nova observação individual.",
+    "resolution": "Além da incerteza na média estimada, a nova observação tem sua própria variabilidade aleatória.\n\nEssa parcela extra torna o intervalo preditivo individual mais largo, sob o modelo considerado.",
+    "errorReasons": [
+      "Revisar definição, hipótese e propósito da medida."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Cobertura observada",
+    "statement": "Um procedimento produziu 10 intervalos preditivos e 8 contiveram os valores reais. Qual é a cobertura observada?",
+    "answer": "8/10 = 80%.",
+    "resolution": "Conte os intervalos que realmente cobriram o resultado.\n\nDivida 8 por 10 e converta: 80%; amostra pequena não comprova cobertura populacional.",
+    "errorReasons": [
+      "Reorganizar as parcelas, verificar divisão, raiz e unidade."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Monitoramento e rótulos",
+    "statement": "É possível calcular MAE real sobre previsões de hoje quando os resultados observados só ficarão disponíveis no mês seguinte?",
+    "answer": "Não. É possível acompanhar qualidade dos dados e distribuição das entradas, mas MAE exige resultados observados correspondentes.",
+    "resolution": "Toda medida de erro supervisionada compara observado e previsto.\n\nSem os rótulos ou resultados finais, ainda não existe erro observado para aquela safra.",
+    "errorReasons": [
+      "Localizar exatamente o que o resultado permite concluir."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Mesma média, risco diferente",
+    "statement": "Nos mesmos quatro casos, A tem erros +1, −1, +1 e −1; B tem 0, 0, 0 e −4. Calcule MAE e RMSE de ambos.",
+    "answer": "Ambos têm MAE = 1. A: RMSE = 1; B: RMSE = 2.",
+    "resolution": "A: soma dos módulos 4; soma dos quadrados 4.\n\nB: soma dos módulos 4; soma dos quadrados 16. Divida cada soma por 4; retire a raiz no RMSE.",
+    "errorReasons": [
+      "Reorganizar as parcelas, verificar divisão, raiz e unidade."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "R² externo negativo",
+    "statement": "Dados observados são 10, 12, 14 e 16; previsões são sempre 12. Calcule SSE, SST em torno da média observada e R².",
+    "answer": "SSE = 24; SST = 20; R² = −0,20.",
+    "resolution": "Média observada: 13; SST = 9 + 1 + 1 + 9 = 20.\n\nSSE = 4 + 0 + 4 + 16 = 24; 1 − 24/20 = −0,20.",
+    "errorReasons": [
+      "Reorganizar as parcelas, verificar divisão, raiz e unidade."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "MAE por volume",
+    "statement": "Um período tem 10 casos e MAE de 1; outro tem 30 casos e MAE de 3. Calcule o MAE agregado.",
+    "answer": "MAE total = 2,5 unidades.",
+    "resolution": "Erro absoluto somado: 10×1 + 30×3 = 100.\n\nDivida por 40 casos; a média simples entre 1 e 3 daria um resultado indevidamente não ponderado.",
+    "errorReasons": [
+      "Reorganizar as parcelas, verificar divisão, raiz e unidade."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "MAE entre populações",
+    "statement": "Modelo A: MAE 1 ponto numa prova de 20 pontos; modelo B: MAE 2 pontos numa prova de 100 pontos. É possível concluir somente pelos erros brutos que A é melhor?",
+    "answer": "Não. As escalas e o objetivo diferem, e é preciso avaliar comparabilidade, impacto e referência apropriada.",
+    "resolution": "Um ponto e dois pontos têm significados diferentes conforme a escala e o custo do erro.\n\nNão atribua superioridade universal por MAE absoluto em contextos distintos.",
+    "errorReasons": [
+      "Localizar exatamente o que o resultado permite concluir."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Desvio sistemático",
+    "statement": "Na amostra recente, os erros são 2, 2, 2 e 2 unidades. Calcule viés médio, MAE e RMSE; descreva o problema.",
+    "answer": "Viés = +2; MAE = 2; RMSE = 2 unidades. O modelo subestima sistematicamente o valor observado.",
+    "resolution": "Somar os sinais dá 8/4 = 2; os módulos também resultam 2.\n\nQuadrados: 4 em todos os casos; raiz do MSE = 2.",
+    "errorReasons": [
+      "Reorganizar as parcelas, verificar divisão, raiz e unidade."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Dois intervalos",
+    "statement": "Para um caso, o procedimento P fornece [8, 12] e Q fornece [5, 15], ambos na mesma unidade, e o observado foi 11. Compare cobertura e largura.",
+    "answer": "Ambos cobriram 11; P tem largura 4 e Q tem largura 10.",
+    "resolution": "11 pertence aos dois intervalos.\n\nLarguras: 12−8=4 e 15−5=10; um caso isolado não prova melhor calibração geral.",
+    "errorReasons": [
+      "Reorganizar as parcelas, verificar divisão, raiz e unidade."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Proporção e denominador",
+    "statement": "Três erros graves foram encontrados em 20 previsões do período A; seis erros graves em 100 previsões no período B. Compare as taxas.",
+    "answer": "A: 15%; B: 6%. A teve maior taxa apesar de menos erros em contagem bruta.",
+    "resolution": "Divida 3/20 = 0,15 e 6/100 = 0,06.\n\nUse o mesmo critério de erro grave e mantenha os denominadores visíveis.",
+    "errorReasons": [
+      "Reorganizar as parcelas, verificar divisão, raiz e unidade."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Atraso dos resultados",
+    "statement": "Em setembro foram feitas 80 previsões e apenas 20 já possuem resultado observado. Sobre quais registros se pode calcular MAE?",
+    "answer": "Apenas sobre os 20 registros pareados com resultado já disponível, indicando cobertura de observação e potencial viés de atraso.",
+    "resolution": "As outras 60 previsões não têm resultado comparável ainda.\n\nReportar MAE parcial como se representasse todos os 80 seria interpretação injustificada.",
+    "errorReasons": [
+      "Localizar exatamente o que o resultado permite concluir."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Alerta por janela",
+    "statement": "O MAE era 1,0 em uma janela histórica e passou a 1,8 na janela recente sob a mesma unidade e protocolo. Qual foi a variação relativa?",
+    "answer": "Aumento de 80%.",
+    "resolution": "Diferença: 1,8−1,0=0,8.\n\nDivisão pela referência 1,0: 0,8/1,0 = 0,80. Verificar também tamanho da amostra e mudança de perfil.",
+    "errorReasons": [
+      "Reorganizar as parcelas, verificar divisão, raiz e unidade."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Dados temporais",
+    "statement": "Uma previsão para outubro depende de informações disponíveis até setembro. Por que misturar aleatoriamente meses futuros no treino é problemático?",
+    "answer": "Porque produz informação futura indevida e uma avaliação menos semelhante ao uso real.",
+    "resolution": "Separe os dados preservando a ordem cronológica e evite processamentos ajustados com informações futuras.\n\nReproduza o momento em que a previsão realmente estaria sendo emitida.",
+    "errorReasons": [
+      "Definir o objetivo de previsão, o conjunto de avaliação e a métrica antes de calcular."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Escolha e custo do erro",
+    "statement": "A e B apresentam MAE idêntico de 1, mas RMSE de 1 e 2 no mesmo teste. Se grandes erros têm custo muito elevado, qual métrica ajuda a ver essa diferença e por quê?",
+    "answer": "RMSE explicita a penalização quadrática mais forte aos grandes erros; a escolha deve partir da função de perda do uso.",
+    "resolution": "O erro 4 de B vira 16 no quadrado e o RMSE sobe.\n\nNão declare A melhor em qualquer aplicação: explicite o custo de grandes falhas e a incerteza da amostra.",
+    "errorReasons": [
+      "Definir o objetivo de previsão, o conjunto de avaliação e a métrica antes de calcular."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Base comparável de teste",
+    "statement": "Um relatório apresenta MAE de 1,2 para modelo A em 2024 e MAE de 1,1 para modelo B em 2026. Isso comprova que B prediz melhor?",
+    "answer": "Não. Os conjuntos, populações, períodos e condições não são diretamente comparáveis.",
+    "resolution": "Avalie candidatos sob protocolo comparável, na mesma população-alvo e com mesma definição de resposta.\n\nDiferenças de distribuição e coleta podem explicar a aparente vantagem.",
+    "errorReasons": [
+      "Localizar exatamente o que o resultado permite concluir."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Desempenho global mascara grupo",
+    "statement": "Há 90 casos do grupo X com MAE 1 e 10 do grupo Y com MAE 5. Calcule MAE global e explique uma conclusão cautelosa.",
+    "answer": "MAE global = 1,4; a média global esconde erro cinco vezes maior no grupo Y.",
+    "resolution": "Somatório absoluto = 90×1 + 10×5 = 140; /100 = 1,4.\n\nApresente também tamanho e MAE de cada grupo; verificar se há intervalos ou incertezas relevantes.",
+    "errorReasons": [
+      "Reorganizar as parcelas, verificar divisão, raiz e unidade."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Distribuição deslocada",
+    "statement": "Um modelo de consumo foi validado em temperaturas de 15 a 30 graus Celsius e será aplicado a 42 graus. O MAE antigo garante desempenho?",
+    "answer": "Não. É extrapolação fora do domínio observado, exigindo nova validação e ressalva explícita.",
+    "resolution": "O domínio de preditores mudou; a relação ajustada pode não continuar válida.\n\nRestringir uso, obter dados representativos ou revisar o modelo é mais justificável que prometer a mesma precisão.",
+    "errorReasons": [
+      "Localizar exatamente o que o resultado permite concluir."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "MAPE e zero",
+    "statement": "Uma métrica percentual calcula |observado−previsto|/|observado|. O que ocorre quando observado = 0?",
+    "answer": "A fração não está definida para observado igual a zero, portanto exige outra métrica ou tratamento justificado.",
+    "resolution": "A divisão por zero não é uma taxa percentual calculável.\n\nMAE ou RMSE, com unidade e contexto, podem ser alternativas quando adequadas.",
+    "errorReasons": [
+      "Revisar definição, hipótese e propósito da medida."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Intervalo de média x indivíduo",
+    "statement": "Um relatório informa IC de 95% [49, 51] para resposta média e intervalo preditivo [40, 60] para um indivíduo com o mesmo perfil. O que cada afirmação procura cobrir?",
+    "answer": "O primeiro procura cobrir o parâmetro da média condicional; o segundo procura cobrir uma futura observação individual, sob o modelo e suas hipóteses.",
+    "resolution": "Uma previsão individual incorpora dispersão residual adicional.\n\nNão reporte o intervalo estreito da média como promessa para cada pessoa.",
+    "errorReasons": [
+      "Localizar exatamente o que o resultado permite concluir."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Cobertura e precisão juntas",
+    "statement": "Procedimento A cobriu 90 de 100 observações com largura média 12. B cobriu 90 de 100 com largura média 6, usando mesmos casos e nível nominal. O que se pode dizer descritivamente?",
+    "answer": "Ambos tiveram cobertura observada de 90%; B teve intervalos mais estreitos nesse conjunto, mas são necessárias análises adicionais para generalizar.",
+    "resolution": "Cobertura empírica = 90/100 para ambos.\n\nLargura menor em B é observação descritiva, não prova universal; examine estabilidade, subgrupos e dependência da amostra.",
+    "errorReasons": [
+      "Localizar exatamente o que o resultado permite concluir."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Desempenho muda sem resultado",
+    "statement": "As características das entradas mudaram muito neste mês, mas os resultados só serão conhecidos posteriormente. Pode-se afirmar que o erro de previsão aumentou?",
+    "answer": "Não. A mudança nas entradas é sinal de investigação; é preciso obter resultados observados para confirmar alteração do erro.",
+    "resolution": "Deslocamento de dados não implica obrigatoriamente perda já demonstrada de precisão.\n\nMonitore entrada, integridade, atraso de rótulos e, depois, MAE e cobertura nos resultados pareados.",
+    "errorReasons": [
+      "Revisar definição, hipótese e propósito da medida."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Retraining sem vazamento",
+    "statement": "Um analista recalcula o escalonamento com todos os registros, incluindo os de teste final, antes de comparar os modelos. Qual correção é necessária?",
+    "answer": "Aprender o escalonamento exclusivamente nos dados de treino de cada rodada, aplicá-lo aos dados retidos e preservar o teste para avaliação final.",
+    "resolution": "Mesmo uma transformação sem rótulos pode vazar estatísticas da avaliação.\n\nRefazer a avaliação corretamente ou registrar sua contaminação; não declarar o teste independente.",
+    "errorReasons": [
+      "Definir o objetivo de previsão, o conjunto de avaliação e a métrica antes de calcular."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Conclusão para relatório",
+    "statement": "Um teste preservado em 60 registros de uma escola teve MAE 1,5 ponto e RMSE 2,1 pontos. Escreva duas frases sem extrapolar para outras escolas.",
+    "answer": "Exemplo: “Nos 60 registros reservados da escola, o erro absoluto médio foi 1,5 ponto e a raiz do erro quadrático médio foi 2,1 pontos. A validade para outros anos ou escolas depende de nova avaliação com dados representativos.”",
+    "resolution": "A primeira frase registra população, amostra, métrica e unidade.\n\nA segunda evita generalização causal ou garantia de erro máximo a partir da média.",
+    "errorReasons": [
+      "Localizar exatamente o que o resultado permite concluir."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Reteste: duas métricas",
+    "statement": "Os erros são 0, +2, −2 e +4 quilômetros. Calcule MAE, MSE e RMSE.",
+    "answer": "MAE = 2 km; MSE = 6 km²; RMSE = √6 ≈ 2,449 km.",
+    "resolution": "Módulos somam 8, divididos por 4 dão 2 km.\n\nQuadrados somam 0+4+4+16 = 24; MSE = 6 km² e RMSE = √6 km.",
+    "errorReasons": [
+      "Reorganizar as parcelas, verificar divisão, raiz e unidade."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Reteste: baseline",
+    "statement": "Os observados são 2, 4 e 6; um modelo prevê 4, 4 e 4. Calcule seu R² usando a média desses observados como referência.",
+    "answer": "R² = 0; SSE = SST = 8.",
+    "resolution": "Média observada = 4; SST = (2−4)²+0+(6−4)² = 8.\n\nPrevisões iguais à média geram SSE = 8, portanto 1−8/8 = 0.",
+    "errorReasons": [
+      "Reorganizar as parcelas, verificar divisão, raiz e unidade."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Reteste: grupos e volume",
+    "statement": "Grupo A tem 8 registros e MAE 1; grupo B tem 2 registros e MAE 6. Calcule MAE total e descreva o que o total oculta.",
+    "answer": "MAE total = 2; grupo B tem MAE maior e apenas 2 observações.",
+    "resolution": "Erro absoluto acumulado = 8×1 + 2×6 = 20, dividido por 10 = 2.\n\nO indicador agregado omite heterogeneidade; reporte ambos os grupos e seus tamanhos.",
+    "errorReasons": [
+      "Reorganizar as parcelas, verificar divisão, raiz e unidade."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Reteste: intervalos",
+    "statement": "Um intervalo preditivo vai de 18 a 26 unidades e o observado é 27. Indique a largura e se houve cobertura.",
+    "answer": "Largura = 8 unidades; não houve cobertura.",
+    "resolution": "26−18 = 8.\n\nComo 27 > 26, o resultado ficou fora do intervalo; um caso não determina sozinho sua taxa de cobertura.",
+    "errorReasons": [
+      "Reorganizar as parcelas, verificar divisão, raiz e unidade."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Reteste: defasagem temporal",
+    "statement": "O painel mostra 200 previsões recentes, mas só 50 possuem resultados conhecidos. Redija a cautela mínima para divulgar seu MAE.",
+    "answer": "O MAE atual se refere aos 50 casos com resultado disponível, ou 25% das previsões recentes; pode haver viés de disponibilidade e é preciso atualizar quando os demais resultados chegarem.",
+    "resolution": "50/200 = 0,25; nomeie a base de cálculo.\n\nDescreva a defasagem e evite atribuir a estimativa ao conjunto completo de 200 casos.",
+    "errorReasons": [
+      "Localizar exatamente o que o resultado permite concluir."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-032-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-032"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Reteste: monitoramento responsável",
+    "statement": "Depois de implantar um modelo, o MAE subiu de 1 para 2 unidades e também mudou a população atendida. Liste duas ações justificáveis, sem afirmar causa não testada.",
+    "answer": "Verificar mudanças na coleta e nas características da população; auditar resultados pareados, segmentos e possíveis erros de integração, validando alternativas em dados recentes antes de alterar o modelo.",
+    "resolution": "A mudança do MAE é fato descritivo, não diagnóstico automático da causa.\n\nInvestigue dados, rótulos, amostragem e estabilidade antes de recalibrar ou substituir.",
+    "errorReasons": [
+      "Definir o objetivo de previsão, o conjunto de avaliação e a métrica antes de calcular."
+    ],
+    "source": {
+      "title": "MAT-EST-032-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  }
+]

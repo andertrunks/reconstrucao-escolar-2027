@@ -1,0 +1,44 @@
+{
+  "id": "MAT-EST-003",
+  "titulo": "Organização de dados e tabelas de frequência: absoluta, relativa e acumulada",
+  "materia": "Matemática",
+  "unidade": "Estatística",
+  "nivel": 2,
+  "status_editorial": "reconstrucao_editorial_v1",
+  "identidade_com_original_perdido": false,
+  "pre_requisitos": [
+    "MAT-EST-001",
+    "MAT-EST-002"
+  ],
+  "proximo_topico": "MAT-EST-004",
+  "questoes": {
+    "total": 36,
+    "apr": 10,
+    "con": 10,
+    "ves": 10,
+    "ret": 6,
+    "origem": "autoral"
+  },
+  "visuais": [
+    "01-lista-para-tabela.svg",
+    "02-absoluta-relativa.svg",
+    "03-acumulada.svg",
+    "04-quando-acumular.svg",
+    "05-controles-consistencia.svg",
+    "06-classes-intervalo.svg"
+  ],
+  "video": {
+    "titulo": "Estatística Básica - Introdução e Tabelas de Frequência",
+    "canal": "Téo Me Why",
+    "url": "https://www.youtube.com/watch?v=onOgEotiuMw",
+    "qa_audiovisual": "pendente"
+  },
+  "fontes_oficiais": [
+    "BNCC/MEC — EF06MA31, EF06MA32, EF06MA33",
+    "Inep — Matrizes de Referência do Enem, 2026",
+    "FUVEST — Programa do Vestibular 2027"
+  ],
+  "publicado": false,
+  "progresso_aluno_alterado": false,
+  "mat_est_068_iniciada": false
+}

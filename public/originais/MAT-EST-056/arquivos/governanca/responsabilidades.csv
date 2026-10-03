@@ -1,0 +1,6 @@
+papel_ficticio,responsabilidade_proposta,restricao
+PAPEL-AUTOR-TECNICO,"Preparar previsões, tabelas, métricas e reexecução; propor remediações",Não aprovar sozinho a própria promoção
+PAPEL-REVISOR-DADOS,"Verificar versões, origem, corte e qualidade observacional",Não preencher ausências como zero
+PAPEL-AUDITOR,Conferir protocolo e trilha independente,Não editar registros históricos para ajustá-los
+PAPEL-DECISOR-HUMANO,Deliberar sobre mudança operacional quando todas as portas forem elegíveis,Nenhuma aprovação real foi recolhida neste ensaio
+PAPEL-RESPONSAVEL-OPERACIONAL,"Manter inventário, rollback e plano de contingência",Não executar troca com pendências bloqueantes

@@ -1,0 +1,18 @@
+{
+  "dataRegistro": "2026-09-28",
+  "ultimaAulaProduzida": "MAT-EST-043",
+  "unidade": "Estatística",
+  "proximaAulaObrigatoria": {
+    "id": "MAT-EST-044",
+    "titulo": "Suavização exponencial e previsões sazonais iniciais: parâmetros, atualização e avaliação temporal"
+  },
+  "statusProducao": "produzido localmente, não sincronizado nem publicado",
+  "progressoIndividualAlterado": false,
+  "avaliacoesPendentes": [
+    "MAT-EST-018",
+    "MAT-EST-037",
+    "MAT-PRO-039",
+    "MAT-PRO-054"
+  ],
+  "instrucaoContinuar": "Produzir MAT-EST-044 preservando a árvore de pré-requisitos, sem registrar tentativas fictícias."
+}

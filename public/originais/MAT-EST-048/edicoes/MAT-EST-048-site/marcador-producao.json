@@ -1,0 +1,17 @@
+{
+  "id": "MAT-EST-048",
+  "status": "material_editorial_local",
+  "anterior": "MAT-EST-047",
+  "proximo": "MAT-EST-049",
+  "tituloProximo": "Projeto integrado de monitoramento estatístico: comparação de versões, critérios de aceitação e relatório reproduzível",
+  "naoMarcarAulasComoEstudadas": true,
+  "avaliacoesPendentes": [
+    "MAT-EST-018",
+    "MAT-PRO-039",
+    "MAT-PRO-054",
+    "MAT-EST-037"
+  ],
+  "integracaoDrive": false,
+  "integracaoSite": false,
+  "regraContinuidade": "Continuar a sequência editorial sem reiniciar; avaliação individual exige tentativa verdadeira."
+}

@@ -1,0 +1,866 @@
+[
+  {
+    "id": "MAT-EST-048-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Qual é a diferença entre data de emissão, origem, alvo e horizonte da previsão t12 para t14?",
+    "answer": "A emissão ocorre ao fechar t12; a origem é t12; o alvo é t14; o horizonte é dois períodos. O observado de t14 ainda não pode participar do cálculo.",
+    "resolution": "A emissão ocorre ao fechar t12; a origem é t12; o alvo é t14; o horizonte é dois períodos. O observado de t14 ainda não pode participar do cálculo.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Copie os 12 valores históricos e informe se os novos t13–t18 podem alterar o arquivo histórico.",
+    "answer": "Os históricos são 90, 107, 128, 105, 111, 124, 150, 127, 129, 145, 171, 144. Não: os seis novos valores devem existir em bloco separado, preservando os anteriores.",
+    "resolution": "Os históricos são 90, 107, 128, 105, 111, 124, 150, 127, 129, 145, 171, 144. Não: os seis novos valores devem existir em bloco separado, preservando os anteriores.",
+    "errorReasons": [
+      "memória"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "No modelo sazonal ingênuo com ciclo de quatro trimestres, qual é a previsão emitida em t12 para t13?",
+    "answer": "129, pois se reproduz o valor de t9 (13 menos 4). O observado em t13 é revelado depois.",
+    "resolution": "129, pois se reproduz o valor de t9 (13 menos 4). O observado em t13 é revelado depois.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Se t13 foi observado como 134, calcule o erro assinado da previsão 129 e interprete o sinal.",
+    "answer": "134 menos 129 é +5. Positivo indica que o modelo previu cinco unidades abaixo do observado (subprevisão).",
+    "resolution": "134 menos 129 é +5. Positivo indica que o modelo previu cinco unidades abaixo do observado (subprevisão).",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Qual evento precisa vir primeiro no registro: congelar a previsão de t15 ou revelar o valor observado de t15?",
+    "answer": "Congelar a previsão antes de revelar o observado, pois uma previsão não é uma avaliação honesta do futuro se usa o próprio alvo.",
+    "resolution": "Congelar a previsão antes de revelar o observado, pois uma previsão não é uma avaliação honesta do futuro se usa o próprio alvo.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Explique a diferença entre mudança da distribuição de entrada e degradação do erro observado.",
+    "answer": "Mudança de dados indica alteração nas propriedades dos valores recebidos; piora do erro mede diferença entre previsão e observado, exigindo alvos já conhecidos. Um fenômeno pode ocorrer sem comprovar o outro.",
+    "resolution": "Mudança de dados indica alteração nas propriedades dos valores recebidos; piora do erro mede diferença entre previsão e observado, exigindo alvos já conhecidos. Um fenômeno pode ocorrer sem comprovar o outro.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Na faixa didática de 129 mais ou menos 12, quais são os limites e ela contém t13=134?",
+    "answer": "Limites 117 e 141. O valor 134 está dentro, inclusive sob a convenção de limites incluídos.",
+    "resolution": "Limites 117 e 141. O valor 134 está dentro, inclusive sob a convenção de limites incluídos.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Uma faixa foi escolhida com semilargura 12 sem calibração. É correto chamá-la de intervalo com 95% de probabilidade?",
+    "answer": "Não. Ela é apenas uma faixa ilustrativa. Probabilidade nominal requer modelo, premissas e procedimento de calibração justificados.",
+    "resolution": "Não. Ela é apenas uma faixa ilustrativa. Probabilidade nominal requer modelo, premissas e procedimento de calibração justificados.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Em que momento se conhece o erro de previsão para t18?",
+    "answer": "Somente quando o valor real/simulado de t18 é revelado, depois das emissões da previsão base e desafiante em t17.",
+    "resolution": "Somente quando o valor real/simulado de t18 é revelado, depois das emissões da previsão base e desafiante em t17.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "O que um alerta pedagógico de três erros positivos consecutivos de pelo menos 10 autoriza fazer?",
+    "answer": "Abrir investigação conforme protocolo prévio; não comprova mudança estatística, causalidade nem obriga substituição do modelo.",
+    "resolution": "Abrir investigação conforme protocolo prévio; não comprova mudança estatística, causalidade nem obriga substituição do modelo.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Reconstrua previsões sazonais h1 para t13, t14, t15 e t16 sem consultar t13–t16.",
+    "answer": "As referências t9, t10, t11, t12 valem 129, 145, 171, 144, respectivamente. Assim as quatro previsões são 129, 145, 171 e 144.",
+    "resolution": "As referências t9, t10, t11, t12 valem 129, 145, 171, 144, respectivamente. Assim as quatro previsões são 129, 145, 171 e 144.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Calcule os erros de t13 a t18 usando a linha do registro e mostre as seis subtrações.",
+    "answer": "134−129=5; 151−145=6; 187−171=16; 160−144=16; 167−134=33; 176−151=25. Todos são positivos, sinalizando subprevisão no exemplo inventado.",
+    "resolution": "134−129=5; 151−145=6; 187−171=16; 160−144=16; 167−134=33; 176−151=25. Todos são positivos, sinalizando subprevisão no exemplo inventado.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Calcule MAE de t13–t14, MAE de t15–t18 e MAE de todo o trecho novo.",
+    "answer": "Primeiros dois: (5+6)/2=5,5. Últimos quatro: (16+16+33+25)/4=22,5. Todos seis: (5+6+16+16+33+25)/6=101/6≈16,83 unidades. Não chamar isso de teste estatístico.",
+    "resolution": "Primeiros dois: (5+6)/2=5,5. Últimos quatro: (16+16+33+25)/4=22,5. Todos seis: (5+6+16+16+33+25)/6=101/6≈16,83 unidades. Não chamar isso de teste estatístico.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Identifique a primeira chegada que dispara uma observação de atenção por dois erros consecutivos com módulo acima de 12.",
+    "answer": "Após t16: t15 teve +16 e t16 teve +16, ambos maiores que 12. t15 isoladamente não cumpre o requisito de dois consecutivos.",
+    "resolution": "Após t16: t15 teve +16 e t16 teve +16, ambos maiores que 12. t15 isoladamente não cumpre o requisito de dois consecutivos.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Determine quando a regra de investigação de três erros positivos consecutivos de pelo menos 10 é acionada.",
+    "answer": "Ao revelar t17, porque os erros de t15, t16 e t17 são +16, +16 e +33. A regra definida antecipadamente não é teste de significância.",
+    "resolution": "Ao revelar t17, porque os erros de t15, t16 e t17 são +16, +16 e +33. A regra definida antecipadamente não é teste de significância.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Calcule o deslocamento sazonal de t13 a t16 em relação aos mesmos trimestres de t9 a t12.",
+    "answer": "t13−t9=5; t14−t10=6; t15−t11=16; t16−t12=16. Média das diferenças=(5+6+16+16)/4=10,75. São diferenças emparelhadas, não médias globais comparáveis sem considerar sazonalidade.",
+    "resolution": "t13−t9=5; t14−t10=6; t15−t11=16; t16−t12=16. Média das diferenças=(5+6+16+16)/4=10,75. São diferenças emparelhadas, não médias globais comparáveis sem considerar sazonalidade.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Quantos dos seis alvos ficam nas faixas ilustrativas de mais ou menos 12 em torno das previsões-base?",
+    "answer": "t13 e t14 estão dentro; t15, t16, t17 e t18 ficam fora acima do limite superior. São 2/6=33,33% de cobertura empírica descritiva, sem nível probabilístico nominal.",
+    "resolution": "t13 e t14 estão dentro; t15, t16, t17 e t18 ficam fora acima do limite superior. São 2/6=33,33% de cobertura empírica descritiva, sem nível probabilístico nominal.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Em t17, calcule a correção sazonal média dos cinco pares já visíveis e a previsão do desafiante para t18.",
+    "answer": "Diferenças 5, 6, 16, 16, 33 somam 76. Média 76/5=15,2. Referência t14=151; previsão do desafiante =151+15,2=166,2, emitida antes de observar t18.",
+    "resolution": "Diferenças 5, 6, 16, 16, 33 somam 76. Média 76/5=15,2. Referência t14=151; previsão do desafiante =151+15,2=166,2, emitida antes de observar t18.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Após revelar t18=176, compare os erros da base 151 e do desafiante 166,2. O que pode concluir?",
+    "answer": "Base: 176−151=25. Desafiante: 176−166,2=9,8. O desafiante teve menor erro absoluto nesta única tarefa compartilhada, mas uma observação não justifica substituí-lo automaticamente.",
+    "resolution": "Base: 176−151=25. Desafiante: 176−166,2=9,8. O desafiante teve menor erro absoluto nesta única tarefa compartilhada, mas uma observação não justifica substituí-lo automaticamente.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Por que seria indevido misturar as quatro previsões do lote emitido em t12 e as quatro previsões móveis de t13–t16 para anunciar oito alvos independentes?",
+    "answer": "Algumas previsões têm o mesmo alvo em origens/horizontes diferentes. Elas são tarefas distintas e dependentes; requerem identificação por origem e horizonte, e a contagem de datas-alvo não duplica.",
+    "resolution": "Algumas previsões têm o mesmo alvo em origens/horizontes diferentes. Elas são tarefas distintas e dependentes; requerem identificação por origem e horizonte, e a contagem de datas-alvo não duplica.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma reportagem apresenta como “antecipação” um valor de t15 calculado depois de incluir y15 no ajuste. Identifique o problema e reescreva o procedimento de modo avaliável.",
+    "answer": "Há vazamento temporal: o próprio alvo entrou antes da emissão. Refazer o cálculo somente até t14, congelar previsão e versão de dados, revelar y15 depois e registrar o erro.",
+    "resolution": "Há vazamento temporal: o próprio alvo entrou antes da emissão. Refazer o cálculo somente até t14, congelar previsão e versão de dados, revelar y15 depois e registrar o erro.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um painel exibe aumento de média em quatro trimestres recentes e afirma “mudança estatística comprovada”. Explique duas limitações dessa frase.",
+    "answer": "Quatro pontos formam amostra curta e a série é sazonal; comparar médias brutas pode confundir composição trimestral. Uma diferença descritiva exige investigação/intervalo adequado antes de declarar inferência estatística.",
+    "resolution": "Quatro pontos formam amostra curta e a série é sazonal; comparar médias brutas pode confundir composição trimestral. Uma diferença descritiva exige investigação/intervalo adequado antes de declarar inferência estatística.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um protocolo original diz investigar só após três erros positivos >=10. Em t16, analista redefine o limiar para 8 e afirma que a condição pré-registrada disparou. Avalie.",
+    "answer": "Não: mudar limiar vendo resultados é análise pós-hoc, que pode ser descrita como exploração, mas não como execução do protocolo prévio. O original dispara após t17.",
+    "resolution": "Não: mudar limiar vendo resultados é análise pós-hoc, que pode ser descrita como exploração, mas não como execução do protocolo prévio. O original dispara após t17.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Descreva o registro mínimo capaz de verificar que a previsão h1 de t17 foi realizada sem usar y17.",
+    "answer": "Identificador, origem t16, alvo t17, horizonte 1, versão do método BASE-SNAIVE-v1, maior informação permitida t16, referência y13=134, previsão 134, ordem de congelamento anterior à revelação de y17. Um timestamp real ou log externo fortaleceria auditoria operacional; o exemplo é simulado.",
+    "resolution": "Identificador, origem t16, alvo t17, horizonte 1, versão do método BASE-SNAIVE-v1, maior informação permitida t16, referência y13=134, previsão 134, ordem de congelamento anterior à revelação de y17. Um timestamp real ou log externo fortaleceria auditoria operacional; o exemplo é simulado.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma equipe usa 2/6 de cobertura empírica da faixa ±12 para declarar que ela “tem 33% de confiança” em previsão futura. Qual é a diferença conceitual?",
+    "answer": "2/6 descreve ocorrências na amostra inventada. A faixa não foi calibrada como intervalo probabilístico; não é válido transformá-la em nível nominal futuro por simples rebatismo.",
+    "resolution": "2/6 descreve ocorrências na amostra inventada. A faixa não foi calibrada como intervalo probabilístico; não é válido transformá-la em nível nominal futuro por simples rebatismo.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma mudança de sensor converte a medição de unidade A para B sem conversão prévia. O painel acusa “drift”. Qual checagem deve preceder o re-treinamento?",
+    "answer": "Auditar esquema, unidades, fonte e qualidade da coleta. O sinal pode vir de mudança de pipeline e não de alteração substantiva no processo medido. Só depois decidir sobre reprocessamento e modelo.",
+    "resolution": "Auditar esquema, unidades, fonte e qualidade da coleta. O sinal pode vir de mudança de pipeline e não de alteração substantiva no processo medido. Só depois decidir sobre reprocessamento e modelo.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Duas versões dão previsões 151 e 166,2 para o mesmo t18. Observado 176. Compare-as de modo justo e aponte uma restrição.",
+    "answer": "Ambas devem ter sido emitidas na origem t17, com mesmo alvo e informação disponível. Erros absolutos 25 e 9,8. É uma comparação emparelhada válida neste alvo, mas insuficiente para estimar desempenho geral.",
+    "resolution": "Ambas devem ter sido emitidas na origem t17, com mesmo alvo e informação disponível. Erros absolutos 25 e 9,8. É uma comparação emparelhada válida neste alvo, mas insuficiente para estimar desempenho geral.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Em t17 é emitido um alerta. Escreva comunicado com quatro partes: achado, alcance, hipótese alternativa e decisão de revisão.",
+    "answer": "Exemplo: “Em dados fictícios, houve três erros positivos >=10 consecutivos até t17. É um gatilho pedagógico em seis observações, não comprovação estatística de deriva. Serão auditadas qualidade e sazonalidade. A base continua registrada, e a versão desafiante será avaliada prospectivamente antes de eventual promoção.”",
+    "resolution": "Exemplo: “Em dados fictícios, houve três erros positivos >=10 consecutivos até t17. É um gatilho pedagógico em seis observações, não comprovação estatística de deriva. Serão auditadas qualidade e sazonalidade. A base continua registrada, e a versão desafiante será avaliada prospectivamente antes de eventual promoção.”",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Por que não é adequado chamar de “deriva de conceito comprovada” a elevação dos y de uma única série sem covariáveis?",
+    "answer": "Deriva de conceito se refere a mudança na relação entre entradas e alvo; nesta série univariada só há sinais de mudança nos valores e/ou erros. Sem estrutura, covariáveis e análise adicional, a classificação causal extrapola evidência.",
+    "resolution": "Deriva de conceito se refere a mudança na relação entre entradas e alvo; nesta série univariada só há sinais de mudança nos valores e/ou erros. Sem estrutura, covariáveis e análise adicional, a classificação causal extrapola evidência.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Planeje um reteste prospectivo de um desafiante sem usar o resultado t18 para recalcular a previsão do próprio t18.",
+    "answer": "Congelar algoritmo, parâmetros, janela, comparador, alvos/horizontes e regra de decisão antes do novo bloco. Em t17 calcular ambas previsões para t18 com dados até t17, revelar t18, avaliar; para t19 atualizar apenas após fechar t18, sem reescrever registros anteriores.",
+    "resolution": "Congelar algoritmo, parâmetros, janela, comparador, alvos/horizontes e regra de decisão antes do novo bloco. Em t17 calcular ambas previsões para t18 com dados até t17, revelar t18, avaliar; para t19 atualizar apenas após fechar t18, sem reescrever registros anteriores.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Numa série sazonal de quatro períodos, a última observação t20 é 61, t17=48. Que previsão sazonal ingênua de h1 se emite ao fechar t20 para t21?",
+    "answer": "t21−4=t17; portanto a previsão é 48. t20=61 não substitui o valor da mesma estação, pois a regra é sazonal ingênua com m=4.",
+    "resolution": "t21−4=t17; portanto a previsão é 48. t20=61 não substitui o valor da mesma estação, pois a regra é sazonal ingênua com m=4.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Uma previsão 80 foi congelada antes de receber o observado 72. Dê o erro assinado e a interpretação.",
+    "answer": "72−80=−8 unidades. O sinal negativo significa superprevisão em oito unidades.",
+    "resolution": "72−80=−8 unidades. O sinal negativo significa superprevisão em oito unidades.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Se o gatilho exige dois erros positivos consecutivos acima de 7, ele dispara na sequência +9, −1, +10, +11? Em qual chegada?",
+    "answer": "Sim, no quarto erro, quando +10 e +11 formam o primeiro par consecutivo estritamente maior que 7. O valor −1 interrompe a sequência anterior.",
+    "resolution": "Sim, no quarto erro, quando +10 e +11 formam o primeiro par consecutivo estritamente maior que 7. O valor −1 interrompe a sequência anterior.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Um intervalo meramente ilustrativo de 40±5 recebe observado 46. Qual a largura e a falha de cobertura?",
+    "answer": "Limites 35 e 45, largura total 10; observado 46 está 1 unidade acima da borda superior e portanto não está coberto.",
+    "resolution": "Limites 35 e 45, largura total 10; observado 46 está 1 unidade acima da borda superior e portanto não está coberto.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "No instante t30, uma versão desafiante utiliza y31 para emitir previsão de t31. Identifique o erro informacional.",
+    "answer": "Há vazamento: y31 é o próprio alvo ainda indisponível em t30. Retirar y31 e registrar a emissão antes da chegada desse valor.",
+    "resolution": "Há vazamento: y31 é o próprio alvo ainda indisponível em t30. Retirar y31 e registrar a emissão antes da chegada desse valor.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-048-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-048"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Redija duas frases distinguindo um alerta de qualidade dos dados e um alerta de desempenho.",
+    "answer": "Exemplo: “O alerta de qualidade ocorre quando o sensor muda a unidade ou falta observação, mesmo antes de conhecer o alvo. O de desempenho exige comparar previsões congeladas com valores observados e examinar os erros correspondentes.”",
+    "resolution": "Exemplo: “O alerta de qualidade ocorre quando o sensor muda a unidade ou falta observação, mesmo antes de conhecer o alvo. O de desempenho exige comparar previsões congeladas com valores observados e examinar os erros correspondentes.”",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-048-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  }
+]

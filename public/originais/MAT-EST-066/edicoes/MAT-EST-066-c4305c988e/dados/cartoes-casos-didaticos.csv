@@ -1,0 +1,7 @@
+id,kind,target,deadline_logical,available_at_logical,status,value,notice
+CASE-A,illustrative_only,EXEMPLO-Z,L2,L4,provisional,30,not t23 to t25
+CASE-A-REV,illustrative_only,EXEMPLO-Z,L2,L5,validated_revision,32,corrects prior event
+CASE-B,illustrative_only,EXEMPLO-W,L2,,missing,,null is not zero
+CASE-C,inheritance_only,t23,,,unobserved,,illustrative predictions B 183 C 199 are not issued logs
+CASE-D,inheritance_only,t24,,,unobserved,,conditional on x=y23 validated
+CASE-E,inheritance_only,t25,,,unobserved,,conditional on x y23 and z y24 validated

@@ -1,0 +1,38 @@
+{
+  "id": "MAT-EST-052-VERIFY-v1",
+  "status": "passou_validacoes_locais",
+  "tests": {
+    "ids_unicos_36": true,
+    "todos_autorais": true,
+    "distribuicao": {
+      "APR": 10,
+      "CON": 10,
+      "VES": 10,
+      "RET": 6
+    },
+    "svg_xml_validos": 6,
+    "imagens_semanticas_mencionadas": 6,
+    "dez_csv_herdados_identicos": true,
+    "protocolo_049_e_plano_051_inalterados": true,
+    "log_7_eventos_encadeado_validado": true,
+    "calculos_referencias": {
+      "MAE_B": 17.6,
+      "MAE_C": 8.36,
+      "completude_percent": 62.5,
+      "piora_t19": 19.2,
+      "erro_final_exemplo": 3,
+      "custo_final_exemplo": 9
+    },
+    "html_um_h1": true,
+    "gabarito_separado": true,
+    "nenhum_observado_novo_t23_t25": true
+  },
+  "nao_testado": [
+    "Edge Ler em voz alta",
+    "reprodução integral do YouTube",
+    "publicação site",
+    "Drive/GitHub",
+    "fidelidade visual em navegador real"
+  ],
+  "observacao": "Prévia PNG é composição ilustrativa; não é screenshot."
+}

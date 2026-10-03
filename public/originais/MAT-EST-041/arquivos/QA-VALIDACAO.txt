@@ -1,0 +1,32 @@
+# QA MAT-EST-041
+Data: 2026-09-28.
+- APROVADO: 36 exercícios e 36 resoluções
+- APROVADO: IDs únicos
+- APROVADO: resoluções com IDs correspondentes
+- APROVADO: camadas 10/10/10/6
+- APROVADO: origem autoral
+- APROVADO: sem tentativas individuais
+- APROVADO: soluções comentadas
+- APROVADO: 7 visuais
+- APROVADO: SVG acessível MAT-EST-041-VIS-01
+- APROVADO: SVG acessível MAT-EST-041-VIS-02
+- APROVADO: SVG acessível MAT-EST-041-VIS-03
+- APROVADO: SVG acessível MAT-EST-041-VIS-04
+- APROVADO: SVG acessível MAT-EST-041-VIS-05
+- APROVADO: SVG acessível MAT-EST-041-VIS-06
+- APROVADO: SVG acessível MAT-EST-041-VIS-07
+- APROVADO: CSV herdado sem alterações
+- APROVADO: bootstrap clusters 27 médias
+- APROVADO: erro padrão ingênuo correto
+- APROVADO: blocos: cinco janelas e 125 réplicas
+- APROVADO: médias de blocos exatas
+- APROVADO: médias alvo por escola e aluno
+- APROVADO: exemplo temporal de MAE
+- APROVADO: previsões herdadas descritas sem refit
+- APROVADO: identificadores no Markdown
+- APROVADO: arquivos de referências e próximo tópico
+- APROVADO: preview 7 SVG rasterizados
+- APROVADO: código reproduz cálculos
+TOTAL: 27 verificações aprovadas; ZERO falhas.
+Pendências fora do ambiente: reprodução integral do vídeo, teste real no Edge, integração/publicação, sincronização com Drive.
+Nenhuma tentativa ou domínio individual registrado.

@@ -1,0 +1,169 @@
+{
+  "id": "MAT-EST-051",
+  "slug": "desenho-avaliacao-temporal-futura-hipoteses-coleta-criterios-analise-pos-registro",
+  "titulo": "Desenho de uma avaliação temporal futura: hipóteses, coleta, critérios e análise pós-registro",
+  "materia": "Matemática",
+  "unidade": "Estatística — séries temporais / ponte universitária",
+  "nivel": 6,
+  "ordem": 51,
+  "anterior": "MAT-EST-050",
+  "preRequisitos": [
+    "MAT-EST-031",
+    "MAT-EST-032",
+    "MAT-EST-039",
+    "MAT-EST-041",
+    "MAT-EST-042",
+    "MAT-EST-043",
+    "MAT-EST-044",
+    "MAT-EST-045",
+    "MAT-EST-046",
+    "MAT-EST-047",
+    "MAT-EST-048",
+    "MAT-EST-049",
+    "MAT-EST-050"
+  ],
+  "objetivos": [
+    "Separar hipótese, cenário, emissão e observado",
+    "Pré-especificar origem, horizonte, versões e avaliações",
+    "Derivar projeções condicionais t24/t25 sem inventar observado",
+    "Conferir denominadores, custos e guardas cumulativas",
+    "Documentar dados ausentes e retificações por eventos",
+    "Comunicar resultados e limitações após registro real"
+  ],
+  "habilidades": [
+    "álgebra simbólica",
+    "pensamento temporal",
+    "leitura de métricas",
+    "proveniência",
+    "escrita técnica"
+  ],
+  "conceitosRelacionados": [
+    "origem móvel",
+    "horizonte um",
+    "protocolo congelado",
+    "custos assimétricos",
+    "revisão apend-only",
+    "vazamento informacional",
+    "dados ausentes"
+  ],
+  "aplicacoes": [
+    "método científico",
+    "auditoria de dados",
+    "registro de modelos",
+    "leitura crítica de estatística"
+  ],
+  "examesRelacionados": [
+    "ENEM — interpretação quantitativa geral",
+    "FUVEST — raciocínio matemático geral",
+    "UNICAMP — argumentação e interpretação de dados em geral",
+    "UNESP — leitura quantitativa geral",
+    "ponte universitária — avaliação temporal"
+  ],
+  "profundidadeEsperada": "três blocos, formalização, seis diagramas, 36 itens autorais com resolução separada",
+  "aulaMarkdown": "MAT-EST-051-desenho-avaliacao-temporal-futura-hipoteses-coleta-criterios-analise-pos-registro.md",
+  "visuais": [
+    {
+      "src": "assets/01-fronteira-e-perguntas.svg",
+      "alt": "Cinco alvos fictícios t18 a t22 estão registrados; t23 t24 t25 não foram observados; cenas não substituem esses valores.",
+      "autoria": "produção própria"
+    },
+    {
+      "src": "assets/02-ciclo-do-registro.svg",
+      "alt": "Fluxo: plano, previsão antes do alvo, observação, validação, comparação e parecer; correção é novo evento e não altera previsão anterior.",
+      "autoria": "produção própria"
+    },
+    {
+      "src": "assets/03-origens-e-alvos.svg",
+      "alt": "Os pares alvos futuros são: t22 para t23, t23 para t24 e t24 para t25; é preciso registrar a observação anterior antes de avançar.",
+      "autoria": "produção própria"
+    },
+    {
+      "src": "assets/04-portas-do-protocolo.svg",
+      "alt": "Há cinco de oito pares; médias parciais são favoráveis a C; a piora local de 19,2 em t19 viola limite de dez; auditoria e decisão humana pendentes.",
+      "autoria": "produção própria"
+    },
+    {
+      "src": "assets/05-formulas-condicionais.svg",
+      "alt": "Para t23 B vale 183 e C 199 em recálculo ilustrativo. Para t24 B vale 181 e C depende de x. Para t25 B vale 188 e C depende de x e z.",
+      "autoria": "produção própria"
+    },
+    {
+      "src": "assets/06-fluxo-qualidade.svg",
+      "alt": "Dado recebido passa por validação. Se válido, pode compor par; se atrasado permanece pendente; se corrigido, nova versão e auditoria; jamais preencher vazio com zero.",
+      "autoria": "produção própria"
+    }
+  ],
+  "video": {
+    "titulo": "Forecasting: Principles & Practice: 5.10 Time series cross-validation",
+    "canal": "OTexts",
+    "url": "https://www.youtube.com/watch?v=OGpENuxjRWM",
+    "idioma": "inglês",
+    "duracaoAproximada": null,
+    "momentoRecomendado": "depois da seção 4",
+    "statusVerificacao": "resultado YouTube indexado e seção do livro acessível; reprodução direta e duração não confirmadas"
+  },
+  "exercicios": {
+    "arquivo": "exercicios.json",
+    "quantidade": 36,
+    "aprendizagem": 10,
+    "consolidacao": 10,
+    "vestibular_autoral": 10,
+    "reteste": 6,
+    "origem": "autoral",
+    "questoesOficiais": 0
+  },
+  "gabarito": "gabarito-comentado.json",
+  "proximoTopico": "MAT-EST-052",
+  "proximoTituloProposto": "Ensaio operacional de monitoramento: integridade do registro, atrasos de observação e encerramento auditável",
+  "progressoIndividual": "não iniciado; não alterado",
+  "statusEditorial": "pacote local; não publicado ou sincronizado",
+  "dados": {
+    "historico_t01_t12": [
+      90,
+      107,
+      128,
+      105,
+      111,
+      124,
+      150,
+      127,
+      129,
+      145,
+      171,
+      144
+    ],
+    "historico_t13_t18": [
+      134,
+      151,
+      187,
+      160,
+      167,
+      176
+    ],
+    "historico_t19_t22": [
+      183,
+      181,
+      188,
+      193
+    ],
+    "t23_t25_observado": null,
+    "cenarios_nao_observados_t23": [
+      178,
+      191,
+      209
+    ],
+    "projecoes_t23_illustrativas": [
+      183,
+      199
+    ],
+    "protocolo_herdado": "MAT-EST-049-PROT-v1",
+    "plano_didatico_nao_executado": "MAT-EST-051-PLAN-v1"
+  },
+  "limites": [
+    "sem emissão autenticada em t22",
+    "sem observado t23 t24 t25",
+    "sem teste de Edge real",
+    "sem sincronização ou deploy",
+    "vídeo não reproduzido integralmente"
+  ]
+}

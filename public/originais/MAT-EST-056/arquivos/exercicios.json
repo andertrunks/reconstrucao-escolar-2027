@@ -1,0 +1,542 @@
+[
+  {
+    "id": "MAT-EST-056-EX-APR-01",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "O que deve receber novo identificador: uma nova regra de avaliação ou uma correção da escrita de uma explicação?"
+  },
+  {
+    "id": "MAT-EST-056-EX-APR-02",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Qual é o identificador preservado do protocolo histórico?"
+  },
+  {
+    "id": "MAT-EST-056-EX-APR-03",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Quantos pares já foram examinados no protocolo antigo e em quais alvos?"
+  },
+  {
+    "id": "MAT-EST-056-EX-APR-04",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Explique por que t23–t25 são colocados em quarentena no desenho sucessor."
+  },
+  {
+    "id": "MAT-EST-056-EX-APR-05",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Quais são os oito alvos exclusivamente propostos para o sucessor?"
+  },
+  {
+    "id": "MAT-EST-056-EX-APR-06",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Uma previsão calculada hoje a partir de dados já divulgados equivale a uma emissão autenticada em data histórica?"
+  },
+  {
+    "id": "MAT-EST-056-EX-APR-07",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Escreva a convenção de sinal do erro."
+  },
+  {
+    "id": "MAT-EST-056-EX-APR-08",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "O que representa uma observação futura ainda não recebida na base de avaliação?"
+  },
+  {
+    "id": "MAT-EST-056-EX-APR-09",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "É permitido adicionar EXEMPLO-V e EXEMPLO-Z à amostra principal?"
+  },
+  {
+    "id": "MAT-EST-056-EX-APR-10",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Um hash de um arquivo local prova hora de publicação externa e autoria pessoal?"
+  },
+  {
+    "id": "MAT-EST-056-EX-CON-01",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Calcule a proporção dos cinco pares disponíveis em relação aos oito requeridos pelo protocolo antigo."
+  },
+  {
+    "id": "MAT-EST-056-EX-CON-02",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Na origem t18, B tem erro absoluto 4 e C tem 23,2. Calcule a piora local."
+  },
+  {
+    "id": "MAT-EST-056-EX-CON-03",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Calcule a redução percentual do MAE se B=17,60 e C=8,36 nos cinco pares fictícios."
+  },
+  {
+    "id": "MAT-EST-056-EX-CON-04",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Calcule a redução percentual do custo médio se B=51,20 e C=14,92."
+  },
+  {
+    "id": "MAT-EST-056-EX-CON-05",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Em exemplo independente, y=110, B=105 e C=112. Calcule erros assinados."
+  },
+  {
+    "id": "MAT-EST-056-EX-CON-06",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "No mesmo exemplo independente, calcule o custo com peso 3 na subprevisão e 1 na superprevisão."
+  },
+  {
+    "id": "MAT-EST-056-EX-CON-07",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Se a avaliação do sucessor especifica oito pares e somente sete têm observação validada, pode divulgar resultado confirmatório completo?"
+  },
+  {
+    "id": "MAT-EST-056-EX-CON-08",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Um registro é preenchido depois de observar y26, mas alega que a previsão havia sido emitida antes. Qual problema?"
+  },
+  {
+    "id": "MAT-EST-056-EX-CON-09",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Se uma atualização de observação muda o custo de um mesmo par, o modelo deve ser reescrito?"
+  },
+  {
+    "id": "MAT-EST-056-EX-CON-10",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Uma nova análise pós-resultado pode constar do relatório de um protocolo já congelado?"
+  },
+  {
+    "id": "MAT-EST-056-EX-VES-01",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "avançada",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Uma equipe elimina t19 após ler o resultado, e chama o MAE reduzido de teste independente. Identifique a contaminação."
+  },
+  {
+    "id": "MAT-EST-056-EX-VES-02",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "avançada",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Um novo estudo com oito alvos ainda não vistos conserva os algoritmos antigos. Por que necessita de novo ID de protocolo?"
+  },
+  {
+    "id": "MAT-EST-056-EX-VES-03",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "avançada",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "A referência usa y(t−4) na origem t−1. Quais dados são necessários para previsão do alvo t26?"
+  },
+  {
+    "id": "MAT-EST-056-EX-VES-04",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "avançada",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Uma pessoa ajusta o peso assimétrico de 3 para 5 após ver um resultado e usa o novo custo como métrica confirmatória original. Classifique."
+  },
+  {
+    "id": "MAT-EST-056-EX-VES-05",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "avançada",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Um caso de t27 traz dado preliminar e depois versão validada. Como deve entrar no MAE confirmatório proposto?"
+  },
+  {
+    "id": "MAT-EST-056-EX-VES-06",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "avançada",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Uma previsão emitida para t26 leu y26 em um arquivo corrigido. Por que um CSV final sem timestamp não resolve?"
+  },
+  {
+    "id": "MAT-EST-056-EX-VES-07",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "avançada",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Um gráfico mostra MAE menor para C e guarda local maior que dez. Escreva uma conclusão de duas frases sem falsear a decisão."
+  },
+  {
+    "id": "MAT-EST-056-EX-VES-08",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "avançada",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Uma equipe conta t23 como par confirmado no estudo sucessor porque previu três cenários sobre ele. Qual é a falha?"
+  },
+  {
+    "id": "MAT-EST-056-EX-VES-09",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "avançada",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "No exercício independente y=110, B=105 e C=112: qual a piora local de C segundo |eC|−|eB|?"
+  },
+  {
+    "id": "MAT-EST-056-EX-VES-10",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "avançada",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Um pesquisador altera critérios na metade do acompanhamento, mas mantém o mesmo documento como se fosse original. Reescreva o procedimento correto."
+  },
+  {
+    "id": "MAT-EST-056-EX-RET-01",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "revisão",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Explique em voz alta em até quatro frases diferença entre hash local, pré-registro e previsão autenticada."
+  },
+  {
+    "id": "MAT-EST-056-EX-RET-02",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "revisão",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Ao retomar após sete dias, como verificar que t19 continua no histórico?"
+  },
+  {
+    "id": "MAT-EST-056-EX-RET-03",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "revisão",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Um relatório mostra t26–t33 marcados “sucesso” antes de observações. Como corrigir?"
+  },
+  {
+    "id": "MAT-EST-056-EX-RET-04",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "revisão",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Depois de um mês, escreva a fórmula de MAE por oito pares elegíveis e a leitura pronunciável."
+  },
+  {
+    "id": "MAT-EST-056-EX-RET-05",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "revisão",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Compare “não promover sob o protocolo antigo” com “proibir para sempre qualquer estudo do modelo C”."
+  },
+  {
+    "id": "MAT-EST-056-EX-RET-06",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "revisão",
+    "materia": "Matemática",
+    "topicos": [
+      "pré-registro",
+      "séries temporais",
+      "validação temporal",
+      "protocolo sucessor"
+    ],
+    "enunciado": "Proponha regra para um alvo futuro que chegue após o encerramento da janela de análise."
+  }
+]

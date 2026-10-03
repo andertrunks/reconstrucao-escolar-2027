@@ -1,0 +1,17 @@
+{
+  "id": "MAT-EST-045",
+  "status": "material_editorial_local",
+  "anterior": "MAT-EST-044",
+  "proximo": "MAT-EST-046",
+  "tituloProximo": "Avaliação de previsões sazonais em múltiplas origens: janelas expansivas, estabilidade e incerteza",
+  "naoMarcarAulasComoEstudadas": true,
+  "avaliacoesPendentes": [
+    "MAT-EST-018",
+    "MAT-PRO-039",
+    "MAT-PRO-054",
+    "MAT-EST-037"
+  ],
+  "integracaoDrive": false,
+  "integracaoSite": false,
+  "regraContinuidade": "Continuar a sequência editorial sem reiniciar; avaliação individual exige tentativa verdadeira."
+}

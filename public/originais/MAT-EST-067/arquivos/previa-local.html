@@ -1,0 +1,174 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light dark"><title>MAT-EST-067 — Transferência integradora</title><style>*{box-sizing:border-box}body{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;line-height:1.72;max-width:1000px;margin:auto;padding:1rem 1.5rem 4rem;background:#fafdfd;color:#173347}h1,h2,h3{line-height:1.3}h1{font-size:2rem}h2{margin-top:2rem}p,li{max-width:83ch}a{color:#174f85}a:focus-visible{outline:3px solid #a43c00;outline-offset:3px}nav{padding:1rem;background:#e7f0f6;border-radius:8px}table{border-collapse:collapse;width:100%;display:block;overflow-x:auto}td,th{padding:.55rem;border:1px solid #6f8792;vertical-align:top}th{background:#e7f0f6}img{max-width:100%;height:auto;border:1px solid #b9cbd6}blockquote{margin-left:0;padding-left:1rem;border-left:4px solid #365e7a}code{white-space:normal;overflow-wrap:anywhere;background:#e9f0f2;padding:.1em .2em}@media(prefers-color-scheme:dark){body{background:#14202b;color:#eff4f7}a{color:#a8d5fa}nav,th,code{background:#253c4d}img{background:#fff}}@media(max-width:620px){body{padding:1rem}h1{font-size:1.55rem}}</style></head><body><header><nav aria-label="Navegação da aula"><a href="#inicio">Início</a> · <a href="exercicios.md">Exercícios autorais</a> · <a href="gabarito-comentado.md">Gabarito separado</a> · <a href="LEIA-ME-INTEGRACAO.md">Limites de integração</a><p><strong>Anterior:</strong> MAT-EST-066. <strong>Próximo:</strong> bloqueado até verificar a integração. <strong>Progresso individual:</strong> não iniciado.</p></nav></header><main id="inicio"><h1>MAT-EST-067 — Transferência integradora da estatística temporal para decisões sob dados incompletos: leitura de evidências e exercícios inéditos</h1>
+<p><strong>Natureza:</strong> aula, figuras e problemas autorais. <strong>Situação:</strong> produção editorial incremental exclusivamente local, integração histórica pendente. <strong>Estudo individual:</strong> não iniciado; nenhuma tentativa registrada. <strong>Anterior:</strong> MAT-EST-066. <strong>Próximo tópico:</strong> bloqueado até integração comprovada; MAT-EST-068 não iniciado.</p>
+<h2>1. Objetivos e pré-requisitos</h2>
+<p>Em três blocos de 25 a 45 minutos, transportar um método de avaliação temporal para um problema novo sem transportar os números históricos. Aprender a separar observabilidade de desempenho; calcular métricas e custos em pares elegíveis; distinguir média de critério impeditivo; e deduzir limites parciais mesmo quando faltam observações. O objetivo final é escrever uma conclusão proporcional à evidência.</p>
+<p>Pré-requisitos: MAT-EST-047, MAT-EST-049, MAT-EST-053, MAT-EST-057, MAT-EST-058, MAT-EST-060, MAT-EST-065 e MAT-EST-066; média, módulo, porcentagem, previsão temporal e versão do dado. A desigualdade triangular será reconstruída na seção 7.</p>
+<h2>2. Por que dados incompletos exigem duas perguntas?</h2>
+<p>Imagine uma equipe que planeja uma quantidade de kits para seis ciclos. Só quatro demandas observadas estão disponíveis. Qual o erro médio de previsão nos quatro ciclos com observação? Quanto do plano foi realmente avaliável? A primeira pergunta divide a soma dos módulos dos erros por quatro; a segunda divide quatro por seis. Nenhuma autoriza transformar dois campos não preenchidos em demanda zero ou erro zero.</p>
+<p>O mecanismo de ausência também importa. Talvez falte informação por atraso de registro, falha de recepção ou alguma associação com a própria demanda; <strong>não sabemos a causa neste exercício</strong>. Uma média entre casos disponíveis descreve primeiro aquele subconjunto. Para falar de seis casos ou de demanda futura, são necessárias hipóteses e evidências adicionais, enunciadas em vez de ocultas.</p>
+<p><img src="assets/01-cadeia-evidencias.svg" alt="Cadeia de evidência com seis passos identificados, do plano à decisão documentada." /></p>
+<p><strong>Figura 1 — Cadeia de evidências.</strong> Observe a sequência plano, previsão, observado, pareamento, métrica com guarda e decisão. Leitura sonora: cada número deve trazer origem e definição; uma média isolada não prova a validade de uma decisão.</p>
+<h2>3. Caso inteiramente novo e isolado: LAB-067</h2>
+<p>O laboratório autoral utiliza <strong>kits por ciclo</strong>, sempre com horizonte fictício h1, ou seja, um ciclo adiante. Os dados foram criados para ensinar; não são observações do município, de laboratório real ou do histórico t01–t22. Dentro do enunciado, B e C são previsões fixas antes dos observados informados. D05 e D06 têm previsão, mas seu observado <strong>não foi informado</strong>; a causa da ausência é desconhecida. Não adicionar essas linhas ao SANDBOX-057 nem ao TRANSFER-066.</p>
+<table>
+<thead>
+<tr>
+  <th>Cartão</th>
+  <th style="text-align:right">B: previsão, kits</th>
+  <th style="text-align:right">C: previsão, kits</th>
+  <th style="text-align:right">Observado, kits</th>
+  <th>Situação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>LAB-067-D01</td>
+  <td style="text-align:right">21</td>
+  <td style="text-align:right">23</td>
+  <td style="text-align:right">24</td>
+  <td>avaliável</td>
+</tr>
+<tr>
+  <td>LAB-067-D02</td>
+  <td style="text-align:right">20</td>
+  <td style="text-align:right">17</td>
+  <td style="text-align:right">18</td>
+  <td>avaliável</td>
+</tr>
+<tr>
+  <td>LAB-067-D03</td>
+  <td style="text-align:right">26</td>
+  <td style="text-align:right">33</td>
+  <td style="text-align:right">30</td>
+  <td>avaliável</td>
+</tr>
+<tr>
+  <td>LAB-067-D04</td>
+  <td style="text-align:right">15</td>
+  <td style="text-align:right">18</td>
+  <td style="text-align:right">16</td>
+  <td>avaliável</td>
+</tr>
+<tr>
+  <td>LAB-067-D05</td>
+  <td style="text-align:right">22</td>
+  <td style="text-align:right">21</td>
+  <td style="text-align:right">não informado</td>
+  <td>pendente</td>
+</tr>
+<tr>
+  <td>LAB-067-D06</td>
+  <td style="text-align:right">25</td>
+  <td style="text-align:right">23</td>
+  <td style="text-align:right">não informado</td>
+  <td>pendente</td>
+</tr>
+</tbody>
+</table>
+<p>Síntese por áudio: seis cartões estão planejados; somente D01 a D04 têm observado e podem produzir erros. D05 e D06 não têm erro calculável, ainda que possuam previsão. Escrever zero para esses erros seria afirmar falsamente que a previsão coincidiu com um valor observado.</p>
+<p><img src="assets/02-elegibilidade.svg" alt="Painel de seis cartões: quatro avaliáveis e dois pendentes, todos identificados individualmente." /></p>
+<p><strong>Figura 2 — Elegibilidade.</strong> Observe quatro avaliáveis de seis planejados. Isso é <strong>completude</strong>, não taxa de acerto. A imagem nomeia os dois pendentes em vez de representá-los como zero.</p>
+<h2>4. Erro assinado, erro absoluto e denominadores</h2>
+<p>A convenção é <code>erro = observado − previsão</code>, pronunciado “erro é observado menos previsão”. Erro positivo significa subprevisão; negativo significa superprevisão. O erro absoluto é o módulo dessa diferença, sempre não negativo. A fórmula do erro absoluto médio é <code>MAE = soma dos módulos / quantidade de pares avaliáveis</code>; pronuncie “MAE é a média dos erros em módulo”. Sua unidade aqui é <strong>kit</strong>, não porcentagem.</p>
+<p>Em D01, B produz <code>24−21=+3</code> kits e C produz <code>24−23=+1</code> kit. Em D02, B produz <code>18−20=−2</code> kits e C produz <code>18−17=+1</code> kit. Com a mesma regra:</p>
+<table>
+<thead>
+<tr>
+  <th>Cartão</th>
+  <th style="text-align:right">Erro B, kits</th>
+  <th style="text-align:right">Erro C, kits</th>
+  <th style="text-align:right">Módulo B, kits</th>
+  <th style="text-align:right">Módulo C, kits</th>
+  <th style="text-align:right">Módulo C menos B, kits</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>D01</td>
+  <td style="text-align:right">+3</td>
+  <td style="text-align:right">+1</td>
+  <td style="text-align:right">3</td>
+  <td style="text-align:right">1</td>
+  <td style="text-align:right">−2</td>
+</tr>
+<tr>
+  <td>D02</td>
+  <td style="text-align:right">−2</td>
+  <td style="text-align:right">+1</td>
+  <td style="text-align:right">2</td>
+  <td style="text-align:right">1</td>
+  <td style="text-align:right">−1</td>
+</tr>
+<tr>
+  <td>D03</td>
+  <td style="text-align:right">+4</td>
+  <td style="text-align:right">−3</td>
+  <td style="text-align:right">4</td>
+  <td style="text-align:right">3</td>
+  <td style="text-align:right">−1</td>
+</tr>
+<tr>
+  <td>D04</td>
+  <td style="text-align:right">+1</td>
+  <td style="text-align:right">−2</td>
+  <td style="text-align:right">1</td>
+  <td style="text-align:right">2</td>
+  <td style="text-align:right">+1</td>
+</tr>
+<tr>
+  <td><strong>Total</strong></td>
+  <td style="text-align:right"><strong>+6</strong></td>
+  <td style="text-align:right"><strong>−3</strong></td>
+  <td style="text-align:right"><strong>10</strong></td>
+  <td style="text-align:right"><strong>7</strong></td>
+  <td style="text-align:right"><strong>−3</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Após a tabela: os módulos de B somam dez kits e os de C somam sete. As quatro diferenças emparelhadas C menos B são menos dois, menos um, menos um e mais um kit. A soma é menos três e a média é <code>−3/4 = −0,75 kit</code>. O sinal negativo favorece C <strong>nesses quatro pares</strong>, mas D04 é uma piora local para C.</p>
+<p><strong>Completude:</strong> <code>4/6 = 2/3 ≈ 66,67%</code>. <strong>MAE B:</strong> <code>10/4 = 2,5 kits</code>. <strong>MAE C:</strong> <code>7/4 = 1,75 kit</code>. O denominador do MAE é quatro, não seis; utilizar seis equivaleria a atribuir erro zero aos pendentes. Com zero pares, completude poderia ser <code>0/6=0%</code>, mas MAE seria <strong>não estimável</strong>, nunca zero.</p>
+<p><img src="assets/03-erros-pareados.svg" alt="Gráfico com eixo horizontal D01 a D04 e eixo vertical erro absoluto em kits, duas barras rotuladas para B e C." /></p>
+<p><strong>Figura 3 — Erros absolutos nos pares.</strong> Observe a exceção D04: B erra um e C erra dois kits. A leitura por voz dos conjuntos é: módulos de B três, dois, quatro e um; módulos de C um, um, três e dois.</p>
+<h2>5. Custo não é erro, e média não revoga guarda</h2>
+<p>No <strong>novo exercício</strong> fixamos hipoteticamente a regra antes da análise: cada kit subprevisto custa três pontos; cada kit superprevisto custa um ponto. Logo, quando o erro é positivo, custo igual a três vezes o erro; quando negativo, custo igual ao módulo do erro. Os valores são <strong>pontos de custo fictício</strong>, não kits. Em D01 B custa nove e C custa três pontos; em D02 B custa dois e C custa três; em D03 B custa doze e C custa três; em D04 B custa três e C custa dois. Total de B: 26 pontos; média <code>26/4 = 6,5 pontos</code>. Total de C: 11 pontos; média <code>11/4 = 2,75 pontos</code>.</p>
+<p>Outra regra <strong>exclusivamente hipotética de LAB-067</strong>, também estipulada antes de inspecionar os resultados do próprio exercício, diz que C só seria promovido se a piora individual de seu módulo sobre B não ultrapassasse <strong>0,5 kit</strong> em nenhum cartão, além do desempenho agregado favorável. Em D04 a diferença é <code>2−1=+1 kit</code>, superior a 0,5. Portanto a guarda fictícia falha, ainda que C apresente menores médias no recorte. É um raciocínio condicional; nenhuma decisão externa aconteceu.</p>
+<p>Não confundir essa regra com o histórico MAT-EST-049-PROT-v1: nele há <strong>cinco de oito pares</strong>, MAE B 17,60 e C 8,36, custo B 51,20 e C 14,92; a piora de C em t19 é 19,2, acima da guarda dez, e <strong>C não foi promovido</strong>. Esses valores continuam apenas no histórico; a guarda 0,5 do LAB-067 não os modifica.</p>
+<p><img src="assets/04-media-e-guarda.svg" alt="Painel textual mostra MAE menor de C, mas piora local de um kit em D04 acima da guarda hipotética de meio kit." /></p>
+<p><strong>Figura 4 — Média e guarda.</strong> Observe que melhora agregada e violação de uma condição local podem coexistir. O gráfico não representa aprovação, implantação ou experiência operacional real.</p>
+<h2>6. Ausência, comparabilidade e versão</h2>
+<p>Antes de calcular o erro, confirme: a tarefa foi planejada? A previsão existe e foi fixada sem usar o alvo? O alvo corresponde à mesma origem e horizonte? Há observado informado e versão identificada? Uma previsão não emitida, um observado ainda ausente e um pareamento impossível são estados diferentes. Ausente não é zero, e observação retificada não deve apagar silenciosamente a versão preliminar ou duplicar o mesmo evento.</p>
+<p>Uma razão de completude descreve disponibilidade, não precisão. Um recorte com faltas eventualmente associadas à magnitude do fenômeno pode diferir dos casos que faltam, mas não sabemos se isso acontece neste laboratório. Assim, os quatro erros são uma descrição legítima dos quatro cartões avaliáveis, não uma comprovação sobre uma população de demandas futuras. A seção sobre ausências de <em>Forecasting: Principles and Practice</em> explica por que investigar os mecanismos de dados faltantes é relevante na modelagem; suas explicações não são fonte dos números do caso autoral.</p>
+<h2>7. Limites parciais sem inventar observado</h2>
+<p>A ideia matemática mais profunda é que <strong>não precisamos conhecer um alvo y para limitar quanto duas distâncias até esse mesmo alvo diferem</strong>. Para previsões fixas B e C, a desigualdade triangular reversa fornece:</p>
+<p><code>−|B−C| ≤ |y−C|−|y−B| ≤ |B−C|</code>.</p>
+<p>Leitura: a diferença entre o erro absoluto de C e o erro absoluto de B está entre menos e mais a distância entre as previsões B e C. Derivação: pela desigualdade triangular, <code>|y−C| ≤ |y−B|+|B−C|</code>. Trocando B com C, obtemos <code>|y−B| ≤ |y−C|+|B−C|</code>. Reorganizando as duas relações, aparecem o limite superior e o inferior. Intuitivamente, mover a previsão de B até C por d kits muda sua distância a qualquer alvo, no máximo, em d kits.</p>
+<p>Em D05, as previsões B22 e C21 distam um kit: a diferença de erros absolutos C menos B estará em <strong>[−1,+1] kit</strong>. Em D06, B25 e C23 distam dois: a diferença estará em <strong>[−2,+2] kits</strong>. A soma conhecida das diferenças em D01–D04 é −3. Logo, se os seis observados um dia fossem fornecidos como números válidos do mesmo alvo e as previsões não fossem modificadas, a soma completa ficaria entre <code>−3−1−2=−6</code> e <code>−3+1+2=0</code>. Dividindo por seis, a diferença média completa C menos B ficaria entre <strong>−1 e zero kit</strong>.</p>
+<p>Esse é um <strong>limite algébrico condicional</strong>, não intervalo de confiança, não probabilidade e não valor observado de D05 ou D06. Sob essas condições fechadas, C não teria MAE superior ao de B nos seis pares e poderia empatar. Mas a guarda de D04 já falhou e os seis exemplos artificiais não validam desempenho externo. Isso não autoriza promoção.</p>
+<p>Os extremos são alcançáveis em hipóteses, <strong>sem preencher o registro</strong>: se yD05 fosse no mínimo 22 e yD06 no mínimo 25, as diferenças ausentes seriam +1 e +2, produzindo empate. Se yD05 fosse no máximo 21 e yD06 no máximo 23, seriam −1 e −2, produzindo média −1 kit. A conclusão interessante é que <strong>a diferença emparelhada</strong> é limitada, mas o erro absoluto individual em um alvo desconhecido não recebe limite superior só com essas previsões: y pode ser arbitrariamente alto. Não chamar a faixa de calibração ou previsão probabilística.</p>
+<p><img src="assets/05-limite-diferenca.svg" alt="Reta do limite algébrico para a diferença média C menos B: extremo menos um kit a zero kit, com condições declaradas." /></p>
+<p><strong>Figura 5 — Limite de diferença.</strong> Eixo horizontal: diferença média MAE C menos MAE B, em kits. Observe os extremos menos um e zero; a faixa é uma dedução das previsões fixas, e não uma coleção de novas medições.</p>
+<h2>8. Transferência de método, nunca mistura de coortes</h2>
+<p>O projeto contém objetos com finalidades diferentes. O histórico fictício t01–t22 e MAT-EST-049-PROT-v1 são uma série. t23–t25 continuam sem emissão ou observação autenticada; MAT-EST-056-PROT-SUC-v1 é somente proposta editorial local; t26–t33 têm zero pares e MAE não estimável. SANDBOX-057 é uma sala isolada com oito cartões, apenas S01/S02 avaliáveis, erros B [+4,−2] e C [+3,−5], MAE B três e C quatro unidades e custo médio sete pontos para ambos. EXEMPLO-V, EXEMPLO-Z e TRANSFER-066 não fornecem observações adicionais a essas séries. TRANSFER-066 permanece com R01/R02 avaliáveis, R03/R04 pendentes, MAE B 2,5 e C 1 unidade, custo B 4,5 e C 2 pontos, completude 50%. LAB-067 é <strong>mais um exercício distinto</strong>, não um apêndice estatístico desses grupos.</p>
+<p>K65-01–K65-11 possuem uma única fotografia didática F0; não há série de fotografias que autorize tendência. G1/G2 estão <code>checked_local</code>; G3–G6, <code>pending</code>; G7/G8 e P01–P10, <code>not_performed</code>; A64-01–06 são ensaios locais e A64-07 não ocorreu. Reunir esses estados em uma pontuação única apagaria definições e denominadores diferentes. Nenhum deles é alterado por esta aula.</p>
+<p><strong>Vídeo complementar após esta seção:</strong> <a href="https://www.youtube.com/watch?v=E91bGT9BjYk">How to spot a misleading graph — Lea Gaslowitz, TED-Ed</a>. Inglês, aproximadamente quatro minutos. A página pública foi encontrada em 29/09/2026; não foi realizada reprodução integral, teste de legendas ou teste do Edge. Ele reforça a leitura crítica de escala e recorte. Ao assistir, pergunte se um gráfico de quatro casos pode receber título que promete resultados sobre seis planejados. O vídeo é apoio; toda a explicação necessária está nesta aula.</p>
+<h2>9. Comunicado proporcional à evidência</h2>
+<p>Modelo de conclusão responsável sobre o caso didático: “Em LAB-067, quatro de seis cartões estão avaliáveis: 66,67% de completude. Neles, o MAE é 2,5 kits em B e 1,75 kit em C. Os custos médios fictícios são 6,5 e 2,75 pontos, respectivamente. Em D04 C piorou um kit em relação a B, acima da guarda hipotética de 0,5 kit, logo a condição de promoção do exercício falhou. D05 e D06 seguem sem observado; sob as hipóteses de previsões fixas, peso igual e futura avaliação dos seis pares, a diferença média C menos B estaria entre −1 e zero kit. Não houve decisão operacional, inferência populacional, sincronização ou publicação.”</p>
+<p>O texto nomeia população, horizonte, unidade, denominador, regra, ausência, limite e estado editorial. Um bom relatório separa <strong>fato fornecido</strong>, <strong>falta</strong>, <strong>dedução condicional</strong> e <strong>decisão permitida pela regra</strong>.</p>
+<p><img src="assets/06-matriz-decisao.svg" alt="Matriz textual separa fatos didáticos, pendências, limite condicional e ausência de autorização operacional." /></p>
+<p><strong>Figura 6 — Matriz de decisão.</strong> Observe quatro tipos distintos de afirmação. Leitura em voz alta: valores calculados não substituem observações faltantes; uma dedução condicional não comprova resultado futuro, e um pacote editorial não é implantação.</p>
+<h2>10. Aplicações e erros frequentes</h2>
+<p>Em Saúde Pública, separar atendimento planejado de atendimento realmente registrado evita fabricar taxas com registros vazios; não estamos apresentando qualquer dado epidemiológico. Em Química, ausência de uma leitura não é concentração zero. Em Geografia, município sem indicador não pode ser rotulado como indicador igual a zero. Em Redação, toda afirmação quantitativa precisa explicitar universo, corte e limitações. São analogias, não bases reais importadas para LAB-067.</p>
+<p>Erros recorrentes incluem dividir MAE por seis quando só quatro pares são válidos; cancelar sinais para calcular erro absoluto; misturar pontos e kits; alterar guarda após observar resultado; declarar mecanismo de ausência sem evidência; chamar limite algébrico de intervalo probabilístico; misturar t18–t22, SANDBOX-057, TRANSFER-066 e LAB-067; e afirmar que teste automatizado equivale a aprovação humana, publicação ou estudo concluído.</p>
+<h2>11. Prática e revisão espaçada</h2>
+<p>No primeiro bloco, explique a cadeia de evidências e refaça a classificação dos seis cartões. No segundo, reconstrua a tabela, os custos e o teste de guarda. No terceiro, derive os limites algébricos com exemplos e redija o comunicado sem extrapolação. Resolva as 36 questões autorais de <code>exercicios.md</code>, divididas em aprendizagem, consolidação, estilo vestibular e reteste. Não há reprodução de questão oficial. Só consulte <code>gabarito-comentado.md</code> após tentar.</p>
+<p>Uma revisão pode ocorrer um, sete e trinta dias <strong>após estudo efetivo</strong>, não após a criação do arquivo. Classificar dificuldades como conteúdo, interpretação, cálculo, distração, memória, estratégia ou tempo exige tentativa real. Este material não altera progresso individual.</p>
+<h2>12. Resumo curto para ouvir</h2>
+<p>Seis cartões estão planejados e quatro possuem observação. A completude é quatro sextos; o MAE usa os quatro pares e não os seis planejados. Nos quatro, B tem MAE 2,5 kits e C 1,75 kit. Os custos fictícios são 6,5 pontos para B e 2,75 para C. C apresenta melhora média mas viola a guarda fictícia de meio kit em D04, porque sua piora ali é um kit. Para D05 e D06, não inventamos observado; usamos a desigualdade triangular reversa para limitar a diferença entre erros absolutos. Se os seis cartões do enunciado vierem a ser avaliados com previsões fixas e mesmo peso, a diferença média C menos B ficará entre menos um e zero kit. Esse limite não corrige a guarda nem demonstra eficácia futura. Todas as outras coortes permanecem isoladas, e produzir material editorial não significa que alguém estudou.</p>
+<h2>Fontes e proveniência</h2>
+<ul>
+<li>Base interna: checkpoint textual MAT-EST-066 e seus materiais textuais acessíveis; o ZIP original não pôde ser extraído nesta sessão.</li>
+<li>Rob J. Hyndman e George Athanasopoulos, <em>Forecasting: Principles and Practice</em>, <a href="https://otexts.com/fpp3/accuracy.html">5.8 Avaliação de previsões</a>, <a href="https://otexts.com/fpp3/tscv.html">5.10 Validação cruzada temporal</a> e <a href="https://otexts.com/fpp3/missing-outliers.html">13.9 Valores ausentes e atípicos</a>. Apoio conceitual externo, não origem dos números artificiais.</li>
+<li><a href="https://www.youtube.com/watch?v=E91bGT9BjYk">TED-Ed — How to spot a misleading graph</a>, página localizada; reprodução integral não realizada.</li>
+<li>Todos os seis SVG e as 36 questões são produção autoral deste incremento.</li>
+</ul>
+</main><footer><p>Arquivo local independente. Nenhuma publicação externa, aprovação humana ou estudo individual foi realizado.</p></footer></body></html>

@@ -1,0 +1,6 @@
+id,origem,alvo,horizonte,observado,base,desafiante,media_diferencas,janela_diferencas,diferencas,erro_base,erro_desafiante,modulo_base,modulo_desafiante,custo_base,custo_desafiante,piora_modulo_desafiante,ordem_emissao,ordem_revelacao,origem_regra,cenario
+MAT-EST-049-PAIR-T18,t17,t18,1,176,151,166.2,15.2,t13;t14;t15;t16;t17,5;6;16;16;33,25,9.8,25,9.8,75,29.4,-15.2,1,2,congelada_em_t17,simulacao_editorial_nao_validacao_externa
+MAT-EST-049-PAIR-T19,t18,t19,1,183,187,206.2,19.2,t14;t15;t16;t17;t18,6;16;16;33;25,-4,-23.2,4,23.2,4,23.2,19.2,3,4,congelada_em_t17,simulacao_editorial_nao_validacao_externa
+MAT-EST-049-PAIR-T20,t19,t20,1,181,160,177.2,17.2,t15;t16;t17;t18;t19,16;16;33;25;-4,21,3.8,21,3.8,63,11.4,-17.2,5,6,congelada_em_t17,simulacao_editorial_nao_validacao_externa
+MAT-EST-049-PAIR-T21,t20,t21,1,188,167,185.2,18.2,t16;t17;t18;t19;t20,16;33;25;-4;21,21,2.8,21,2.8,63,8.4,-18.2,7,8,congelada_em_t17,simulacao_editorial_nao_validacao_externa
+MAT-EST-049-PAIR-T22,t21,t22,1,193,176,195.2,19.2,t17;t18;t19;t20;t21,33;25;-4;21;21,17,-2.2,17,2.2,51,2.2,-14.8,9,10,congelada_em_t17,simulacao_editorial_nao_validacao_externa

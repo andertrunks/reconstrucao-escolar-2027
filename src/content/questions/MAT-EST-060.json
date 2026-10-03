@@ -1,0 +1,866 @@
+[
+  {
+    "id": "MAT-EST-060-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "No corte A, quantos dos oito cartões de SANDBOX-057 são avaliáveis?",
+    "answer": "S01 e S02: dois cartões avaliáveis. Os seis outros têm pendências documentadas; nenhuma pendência vale erro zero.",
+    "resolution": "S01 e S02: dois cartões avaliáveis. Os seis outros têm pendências documentadas; nenhuma pendência vale erro zero.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Calcule a porcentagem de completude de dois entre oito.",
+    "answer": "Dois dividido por oito vale 0,25; multiplicar por cem dá 25%. O denominador oito mede o plano, não o MAE.",
+    "resolution": "Dois dividido por oito vale 0,25; multiplicar por cem dá 25%. O denominador oito mede o plano, não o MAE.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "No sandbox, com erros de B +4 e −2, encontre os módulos.",
+    "answer": "O valor absoluto de mais quatro é quatro e o valor absoluto de menos dois é dois. Direção e magnitude são informações distintas.",
+    "resolution": "O valor absoluto de mais quatro é quatro e o valor absoluto de menos dois é dois. Direção e magnitude são informações distintas.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Calcule o MAE de B a partir dos dois elegíveis.",
+    "answer": "Somar quatro e dois obtém seis; dividir pelos dois pares avaliáveis produz MAE três unidades.",
+    "resolution": "Somar quatro e dois obtém seis; dividir pelos dois pares avaliáveis produz MAE três unidades.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Calcule o MAE de C com erros +3 e −5.",
+    "answer": "Os módulos são três e cinco; soma oito dividida por dois é quatro unidades.",
+    "resolution": "Os módulos são três e cinco; soma oito dividida por dois é quatro unidades.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Qual é o custo de um erro +4 com fator três para subprevisão?",
+    "answer": "Erro positivo indica observado maior que previsto, portanto subprevisão: três vezes quatro, doze pontos.",
+    "resolution": "Erro positivo indica observado maior que previsto, portanto subprevisão: três vezes quatro, doze pontos.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Qual é o custo de erro −5 pela mesma regra?",
+    "answer": "É superprevisão: um ponto por unidade, logo cinco pontos. Não multiplicar por três.",
+    "resolution": "É superprevisão: um ponto por unidade, logo cinco pontos. Não multiplicar por três.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Sem pares t26–t33, escreva o valor correto do MAE do sucessor.",
+    "answer": "MAE não estimável, representado como null no dado estruturado e explicado em palavras na interface. Zero indicaria um resultado medido inexistente.",
+    "resolution": "MAE não estimável, representado como null no dado estruturado e explicado em palavras na interface. Zero indicaria um resultado medido inexistente.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Uma receita mostra custo médio sete com rótulo unidades. Onde está a falha?",
+    "answer": "Sete é numericamente correto, porém custo é medido em pontos na regra fictícia. O rótulo deve ser pontos, não unidades de erro.",
+    "resolution": "Sete é numericamente correto, porém custo é medido em pontos na regra fictícia. O rótulo deve ser pontos, não unidades de erro.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Para que serve o digest SHA-256 da fonte local?",
+    "answer": "Para comparar bytes de duas versões de arquivo: digest divergente denuncia conteúdo distinto com probabilidade prática muito elevada. Não prova que o evento descrito aconteceu ou quando uma previsão foi emitida.",
+    "resolution": "Para comparar bytes de duas versões de arquivo: digest divergente denuncia conteúdo distinto com probabilidade prática muito elevada. Não prova que o evento descrito aconteceu ou quando uma previsão foi emitida.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Uma exportação divide seis, a soma dos módulos de B, pelos oito planejados. Localize e corrija o erro.",
+    "answer": "O resultado 0,75 resulta da divisão incorreta por oito; somente S01 e S02 são avaliáveis. Corrigir para seis dividido por dois: MAE B três unidades, preservando as seis pendências.",
+    "resolution": "O resultado 0,75 resulta da divisão incorreta por oito; somente S01 e S02 são avaliáveis. Corrigir para seis dividido por dois: MAE B três unidades, preservando as seis pendências.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Faça a média de custo de C com os erros +3 e −5.",
+    "answer": "Os custos são três vezes três, nove, e módulo de menos cinco, cinco; catorze dividido por dois resulta em sete pontos.",
+    "resolution": "Os custos são três vezes três, nove, e módulo de menos cinco, cinco; catorze dividido por dois resulta em sete pontos.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Reconstrua as diferenças pareadas dos módulos C menos B para S01 e S02.",
+    "answer": "S01: três menos quatro igual a menos um; S02: cinco menos dois igual a mais três. São os mesmos alvos emparelhados, não amostras separadas.",
+    "resolution": "S01: três menos quatro igual a menos um; S02: cinco menos dois igual a mais três. São os mesmos alvos emparelhados, não amostras separadas.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Qual a média das diferenças menos um e mais três?",
+    "answer": "Somar menos um com mais três dá dois; dividir por dois dá mais uma unidade, limitada aos dois cartões elegíveis.",
+    "resolution": "Somar menos um com mais três dá dois; dividir por dois dá mais uma unidade, limitada aos dois cartões elegíveis.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Um gráfico de barras de MAE B três e C quatro começa em 2,9. Como corrigir?",
+    "answer": "Para barras de magnitudes, alterar origem vertical para zero, identificar eixo MAE em unidades e manter os valores rotulados. O recorte 2,9 faz exagerar visualmente a diferença.",
+    "resolution": "Para barras de magnitudes, alterar origem vertical para zero, identificar eixo MAE em unidades e manter os valores rotulados. O recorte 2,9 faz exagerar visualmente a diferença.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Escreva texto alternativo para gráfico B=3, C=4 do corte A.",
+    "answer": "Exemplo adequado: “No SANDBOX-057 corte A, MAE B três e C quatro unidades; dois de oito cartões são avaliáveis e seis seguem pendentes”. Nomeia valores, unidade, coorte e limite sem depender de cor.",
+    "resolution": "Exemplo adequado: “No SANDBOX-057 corte A, MAE B três e C quatro unidades; dois de oito cartões são avaliáveis e seis seguem pendentes”. Nomeia valores, unidade, coorte e limite sem depender de cor.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "O relatório aponta um hash diferente daquele lido do CSV, mas as métricas coincidem. Pode passar?",
+    "answer": "Não: a divergência de bytes exige investigar fonte e versão. Coincidência de quatro números não substitui a rastreabilidade e não autoriza corrigir a fonte silenciosamente.",
+    "resolution": "Não: a divergência de bytes exige investigar fonte e versão. Coincidência de quatro números não substitui a rastreabilidade e não autoriza corrigir a fonte silenciosamente.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Qual é a diferença entre validar SVG e testar leitor de tela no Edge?",
+    "answer": "Validar SVG verifica estrutura, title e desc. Teste real verifica navegação, pronúncia, foco, ordem, zoom e interpretação na combinação concreta de software; um não substitui outro.",
+    "resolution": "Validar SVG verifica estrutura, title e desc. Teste real verifica navegação, pronúncia, foco, ordem, zoom e interpretação na combinação concreta de software; um não substitui outro.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Liste o erro do fixture F02 e seu estado correto.",
+    "answer": "F02 converte MAE nulo do sucessor em zero e deve falhar NOT_ESTIMABLE_MUST_BE_NULL. O correto é manter null no JSON e “não estimável” no relatório textual.",
+    "resolution": "F02 converte MAE nulo do sucessor em zero e deve falhar NOT_ESTIMABLE_MUST_BE_NULL. O correto é manter null no JSON e “não estimável” no relatório textual.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Um texto diz que C foi promovido sob MAT-EST-049-PROT-v1. Qual evidência o contradiz?",
+    "answer": "Há piora local t19 de 19,2 unidades, maior que a guarda dez. As médias favoráveis não apagam a violação; a conclusão de promoção não é sustentada pelo protocolo histórico.",
+    "resolution": "Há piora local t19 de 19,2 unidades, maior que a guarda dez. As médias favoráveis não apagam a violação; a conclusão de promoção não é sustentada pelo protocolo histórico.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma plataforma expõe “100% de precisão no sucessor”, porque todos os oito erros nulos foram convertidos em zero. Avalie a conclusão.",
+    "answer": "Não existe avaliação: o sucessor tem zero emissões, zero observados e nenhum par. Converter valores nulos em zero cria denominador fictício; precisão ou MAE não pode ser inferido. Questão autoral em estilo vestibular.",
+    "resolution": "Não existe avaliação: o sucessor tem zero emissões, zero observados e nenhum par. Converter valores nulos em zero cria denominador fictício; precisão ou MAE não pode ser inferido. Questão autoral em estilo vestibular.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um gráfico de barras mostra B=3 e C=4, com origem em 2,9, e anuncia que C é onze vezes maior. Identifique a distorção numérica.",
+    "answer": "O comprimento visível é 0,1 para B e 1,1 para C; onze é razão das alturas truncadas. A razão dos valores reais é quatro dividido por três, aproximadamente 1,33. Começar barras em zero evita esse efeito.",
+    "resolution": "O comprimento visível é 0,1 para B e 1,1 para C; onze é razão das alturas truncadas. A razão dos valores reais é quatro dividido por três, aproximadamente 1,33. Começar barras em zero evita esse efeito.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um revisor soma cinco pares históricos com dois do sandbox, totalizando sete, e divulga um MAE global. Por que é inadequado?",
+    "answer": "As populações e contratos são distintos, os dois cartões são exercícios isolados e não são novas observações da coorte. Um agrupamento requer objetivo, denominador e regras comparáveis previamente definidos; esta união não existe no protocolo.",
+    "resolution": "As populações e contratos são distintos, os dois cartões são exercícios isolados e não são novas observações da coorte. Um agrupamento requer objetivo, denominador e regras comparáveis previamente definidos; esta união não existe no protocolo.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma política exige gráfico em SVG com title, desc e texto explicativo. A auditoria automatizada encontra XML válido, mas a voz do Edge omite a tabela. É correto declarar acessibilidade aprovada?",
+    "answer": "Não. O resultado automatizado confirma somente estrutura testada. A omissão observada em teste assistivo real deve gerar registro de defeito, correção, novo teste e manutenção da situação editorial pendente.",
+    "resolution": "Não. O resultado automatizado confirma somente estrutura testada. A omissão observada em teste assistivo real deve gerar registro de defeito, correção, novo teste e manutenção da situação editorial pendente.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um relatório de corte A foi revisado depois de S04 tornar-se disponível, mas mantém o mesmo nome de versão. Indique a medida auditável.",
+    "answer": "Preservar a fotografia corte A e publicar um novo corte ou nova versão com seus IDs, momento de disponibilidade, regra de inclusão, fonte e diferenças. Não reescrever silenciosamente o corte A, nem imputar que a observação de S04 existia antes.",
+    "resolution": "Preservar a fotografia corte A e publicar um novo corte ou nova versão com seus IDs, momento de disponibilidade, regra de inclusão, fonte e diferenças. Não reescrever silenciosamente o corte A, nem imputar que a observação de S04 existia antes.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "O painel diz B e C empatados, porque custo médio sete para ambos, omitindo MAE B três e C quatro. O que falta?",
+    "answer": "Informar que o empate vale exclusivamente no custo e sob a regra assimétrica escolhida, enquanto os MAEs são diferentes nos dois cartões. Deve expor unidade e tamanho da amostra, evitando um veredicto global.",
+    "resolution": "Informar que o empate vale exclusivamente no custo e sob a regra assimétrica escolhida, enquanto os MAEs são diferentes nos dois cartões. Deve expor unidade e tamanho da amostra, evitando um veredicto global.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "A receita F03 recebe digest zero e sua verificação falha. Um aluno propõe corrigir o hash histórico para zero. Explique o procedimento correto.",
+    "answer": "O defeito é da cópia experimental da receita; manter CSV e inventário canônicos intactos, revisar referência do relatório ou reconstruí-lo a partir do arquivo verificado. Não alterar origem para fazer um teste passar.",
+    "resolution": "O defeito é da cópia experimental da receita; manter CSV e inventário canônicos intactos, revisar referência do relatório ou reconstruí-lo a partir do arquivo verificado. Não alterar origem para fazer um teste passar.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma publicação candidata tem verificador matemático verde, mas não tem revisão editorial e não foi integrada ao repositório. Que estado declarar?",
+    "answer": "Apta apenas em testes automáticos locais, com revisão humana e integração pendentes. Não declarar aprovação, publicação ou teste público. Códigos de status devem dizer exatamente o que foi executado.",
+    "resolution": "Apta apenas em testes automáticos locais, com revisão humana e integração pendentes. Não declarar aprovação, publicação ou teste público. Códigos de status devem dizer exatamente o que foi executado.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um gráfico por cores apresenta dois modelos, legenda vazia, mas os números 3 e 4 estão corretos. Qual reparação preserva o conteúdo para áudio?",
+    "answer": "Adicionar nomes B e C, eixos com MAE em unidades, corte A e n igual a dois; texto alternativo com a comparação e tabela ou parágrafo visível. Não depender da identificação de cor.",
+    "resolution": "Adicionar nomes B e C, eixos com MAE em unidades, corte A e n igual a dois; texto alternativo com a comparação e tabela ou parágrafo visível. Não depender da identificação de cor.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Redija um parecer técnico de quatro frases que diferencie histórico, sandbox, sucessor e estado da verificação.",
+    "answer": "Modelo: no histórico há cinco pares e a guarda t19 foi violada, sem promoção. No sandbox corte A dois de oito são elegíveis, MAEs três e quatro unidades e custos sete pontos para cada modelo. O sucessor t26–t33 não tem pares nem MAE estimável. Fixtures locais foram auditados, mas Edge, revisão humana e publicação permanecem pendentes.",
+    "resolution": "Modelo: no histórico há cinco pares e a guarda t19 foi violada, sem promoção. No sandbox corte A dois de oito são elegíveis, MAEs três e quatro unidades e custos sete pontos para cada modelo. O sucessor t26–t33 não tem pares nem MAE estimável. Fixtures locais foram auditados, mas Edge, revisão humana e publicação permanecem pendentes.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Reteste independente: em um sandbox separado, quatro cartões estão previstos, mas só A e B são elegíveis, com módulos 2 e 6 para um modelo. Calcule completude e MAE.",
+    "answer": "A completude é dois de quatro, cinquenta por cento. MAE usa apenas dois elegíveis: dois mais seis dividido por dois resulta em quatro unidades. Não dividir oito por quatro.",
+    "resolution": "A completude é dois de quatro, cinquenta por cento. MAE usa apenas dois elegíveis: dois mais seis dividido por dois resulta em quatro unidades. Não dividir oito por quatro.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Reteste: novo candidato tem erro +2 e −4 e custo assimétrico fator três na parte positiva. Calcule custo médio.",
+    "answer": "Custos: seis e quatro pontos; dez dividido por dois dá cinco pontos. O sinal altera a penalidade.",
+    "resolution": "Custos: seis e quatro pontos; dez dividido por dois dá cinco pontos. O sinal altera a penalidade.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Reteste: um JSON tem metric=null, mas o gráfico pinta barra zero. Qual teste e correção?",
+    "answer": "Teste deve exigir correspondência entre estado e representação, reprovando conversão de nulo em zero. Correção: sem barra numérica, rótulo “não estimável”, preservando null no dado.",
+    "resolution": "Teste deve exigir correspondência entre estado e representação, reprovando conversão de nulo em zero. Correção: sem barra numérica, rótulo “não estimável”, preservando null no dado.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Reteste: uma cópia de relatório contém digest diferente da fonte, gráfico correto e legenda completa. O que fazer?",
+    "answer": "Manter reprovado na integridade até resolver versão/fonte e reconstruir o relatório derivado. Outros testes verdes não anulam um controle de procedência falho.",
+    "resolution": "Manter reprovado na integridade até resolver versão/fonte e reconstruir o relatório derivado. Outros testes verdes não anulam um controle de procedência falho.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Reteste: texto alternativo diz “coluna azul maior” para B=3 e C=4, n=2 de 8. Escreva alternativa suficiente.",
+    "answer": "“No corte A fictício, MAE B três e C quatro unidades, com dois de oito cartões avaliáveis e seis pendências.” A frase transmite valores, escala, população e limitação sem cor.",
+    "resolution": "“No corte A fictício, MAE B três e C quatro unidades, com dois de oito cartões avaliáveis e seis pendências.” A frase transmite valores, escala, população e limitação sem cor.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-060-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-060"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Reteste: escreva checklist de cinco portões antes de publicar um painel gerado por máquina.",
+    "answer": "Exemplo: comparar hashes das fontes; recalcular contagens, métricas e unidades; inspecionar alt, tabela e testar de fato Edge/leitor de tela; obter revisão editorial humana; integrar, registrar commit/deploy e conferir URL pública. Se qualquer etapa não ocorreu, manter seu estado pendente.",
+    "resolution": "Exemplo: comparar hashes das fontes; recalcular contagens, métricas e unidades; inspecionar alt, tabela e testar de fato Edge/leitor de tela; obter revisão editorial humana; integrar, registrar commit/deploy e conferir URL pública. Se qualquer etapa não ocorreu, manter seu estado pendente.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  }
+]

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc"><title id="title">Comparação de intervalos bootstrap para a média</title><desc id="desc">Eixo de 2 a 8 unidades, com intervalo percentílico de 3 a 7 e intervalo normal aproximado de 2,809 a 7,191; centro 5.</desc>
+<rect width="1000" height="560" fill="#f8fbfc"/>
+<text x="45" y="58" font-family="Arial,DejaVu Sans,sans-serif" font-size="29" font-weight="700" fill="#142637">Intervalos para a média de [2, 4, 6, 8]</text>
+<text x="45" y="104" font-family="Arial,DejaVu Sans,sans-serif" font-size="19" font-weight="400" fill="#536478">Eixo horizontal: média, em unidades</text>
+<line x1="125" y1="140" x2="125" y2="407" stroke="#d4dce3" stroke-width="2"/>
+<text x="125" y="438" font-family="Arial,DejaVu Sans,sans-serif" font-size="19" font-weight="400" fill="#142637" text-anchor="middle">2</text>
+<line x1="245" y1="140" x2="245" y2="407" stroke="#d4dce3" stroke-width="2"/>
+<text x="245" y="438" font-family="Arial,DejaVu Sans,sans-serif" font-size="19" font-weight="400" fill="#142637" text-anchor="middle">3</text>
+<line x1="365" y1="140" x2="365" y2="407" stroke="#d4dce3" stroke-width="2"/>
+<text x="365" y="438" font-family="Arial,DejaVu Sans,sans-serif" font-size="19" font-weight="400" fill="#142637" text-anchor="middle">4</text>
+<line x1="485" y1="140" x2="485" y2="407" stroke="#d4dce3" stroke-width="2"/>
+<text x="485" y="438" font-family="Arial,DejaVu Sans,sans-serif" font-size="19" font-weight="400" fill="#142637" text-anchor="middle">5</text>
+<line x1="605" y1="140" x2="605" y2="407" stroke="#d4dce3" stroke-width="2"/>
+<text x="605" y="438" font-family="Arial,DejaVu Sans,sans-serif" font-size="19" font-weight="400" fill="#142637" text-anchor="middle">6</text>
+<line x1="725" y1="140" x2="725" y2="407" stroke="#d4dce3" stroke-width="2"/>
+<text x="725" y="438" font-family="Arial,DejaVu Sans,sans-serif" font-size="19" font-weight="400" fill="#142637" text-anchor="middle">7</text>
+<line x1="845" y1="140" x2="845" y2="407" stroke="#d4dce3" stroke-width="2"/>
+<text x="845" y="438" font-family="Arial,DejaVu Sans,sans-serif" font-size="19" font-weight="400" fill="#142637" text-anchor="middle">8</text>
+<line x1="245" y1="205" x2="725" y2="205" stroke="#146f8c" stroke-width="11"/>
+<line x1="245" y1="186" x2="245" y2="224" stroke="#146f8c" stroke-width="3"/>
+<line x1="725" y1="186" x2="725" y2="224" stroke="#146f8c" stroke-width="3"/>
+<text x="45" y="179" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="700" fill="#146f8c">Percentílico [3; 7]</text>
+<line x1="222.03840584602474" y1="305" x2="747.9615941539753" y2="305" stroke="#9a471b" stroke-width="11"/>
+<line x1="222.03840584602474" y1="286" x2="222.03840584602474" y2="324" stroke="#9a471b" stroke-width="3"/>
+<line x1="747.9615941539753" y1="286" x2="747.9615941539753" y2="324" stroke="#9a471b" stroke-width="3"/>
+<text x="45" y="279" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="700" fill="#9a471b">Normal aprox. [2,809; 7,191]</text>
+<line x1="485" y1="137" x2="485" y2="399" stroke="#142637" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="45" y="500" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" font-weight="700" fill="#9a471b">Ambos são didáticos (n=4): cobertura real NÃO garantida.</text>
+</svg>

@@ -1,0 +1,7 @@
+# MAT-EST-067 — Incremento local, integração pendente
+
+Este ZIP contém **somente novos arquivos de MAT-EST-067**, não substitui MAT-EST-066 e não é pacote cumulativo. Os bytes do ZIP MAT-EST-066 e do ZIP MAT-EST-065 não puderam ser materializados nesta sessão, embora o checkpoint textual e componentes textuais de MAT-EST-066 estejam acessíveis. Não afirmar que os 23 invariantes foram revalidados, que o ZIP MAT-EST-065 foi incorporado ou que as 370 verificações anteriores foram repetidas.
+
+Para formar o pacote cumulativo, anexar o ZIP original MAT-EST-066, conferir os 23 hashes históricos e o ZIP MAT-EST-065 byte a byte, e então acrescentar os novos arquivos, sem sobrescrever os anteriores. `controle/estado-herdado-nao-revalidado.json` é uma transcrição dos fatos reportados; **não** é nova observação. `LAB-067` é autoral e fictício, isolado de todas as demais coortes. Testes e manifesto aqui cobrem apenas os novos arquivos.
+
+Abra `previa-local.html` após extrair; os exercícios e gabaritos estão separados. Nenhum deploy, sincronização no Drive, publicação, aprovação humana, execução prática no Microsoft Edge ou estudo individual foi realizado. O vídeo teve página pública localizada, mas não foi reproduzido integralmente. O manifesto SHA-256 contém os arquivos novos, exceto ele próprio; a verificação independente também é realizada após extração. O hash do ZIP fica em arquivo externo `MAT-EST-067-pacote-incremental.zip.sha256`.

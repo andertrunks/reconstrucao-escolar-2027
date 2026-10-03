@@ -1,0 +1,120 @@
+{
+  "id": "MAT-EST-060-DEMO-AUDIT-v1",
+  "type": "verificação local de cenários didáticos, sem publicação e sem teste assistivo manual",
+  "sources": {
+    "sandbox/SANDBOX-057-cartoes.csv": "1924e348c3bfa4958aa314d5ea7e3f6977ffcd83bf5ad6fcb84a8c5f92006806",
+    "dados/comparacao-emparelhada-t18-t22.csv": "ea98b2481dcf088e08871205f0fd8b43dbf9cd162457a1f17bf2c0c0cc3ba5d0",
+    "protocolo-herdado-MAT-EST-049.json": "adfec11fba8b71630a593c3310988b9bb6759ce5f4d81e5f2e42dd2afdf30673",
+    "protocolo-sucessor/MAT-EST-056-PROT-SUC-v1.json": "18ad35bc0061f7293792b7fc85364ef7cb3fbacea163deb8293a46af83b27405",
+    "relatorios/MAT-EST-059-painel-dados.json": "3d36004d11d9d56ecde869287e49ac56b5dbcd7ebfac300fdfc98bc6f1afccdd",
+    "relatorios/MAT-EST-059-matriz-afirmacoes-fontes-limites.json": "4b7f01964fd932c0e97b07251e3864e1a8766f29b7a8acf63d24ca17f01fe307"
+  },
+  "metrics": {
+    "planned": 8,
+    "eligible": 2,
+    "pending": 6,
+    "MAE_B_units": 3.0,
+    "MAE_C_units": 4.0,
+    "mean_cost_B_points": 7.0,
+    "mean_cost_C_points": 7.0
+  },
+  "automated_checks": [
+    {
+      "id": "F00",
+      "case": "ok",
+      "expected": "APTO_EM_TESTES_AUTOMATICOS",
+      "result": "APTO_EM_TESTES_AUTOMATICOS",
+      "check_codes": [],
+      "matches_expected": true
+    },
+    {
+      "id": "F01",
+      "case": "wrong_denominator",
+      "expected": "REPROVADO",
+      "result": "REPROVADO",
+      "check_codes": [
+        "DENOMINATOR_MISMATCH"
+      ],
+      "matches_expected": true
+    },
+    {
+      "id": "F02",
+      "case": "null_as_zero",
+      "expected": "REPROVADO",
+      "result": "REPROVADO",
+      "check_codes": [
+        "NOT_ESTIMABLE_MUST_BE_NULL"
+      ],
+      "matches_expected": true
+    },
+    {
+      "id": "F03",
+      "case": "stale_source_hash",
+      "expected": "REPROVADO",
+      "result": "REPROVADO",
+      "check_codes": [
+        "REPORT_SOURCE_HASH_DIVERGENT"
+      ],
+      "matches_expected": true
+    },
+    {
+      "id": "F04",
+      "case": "truncated_bar",
+      "expected": "REPROVADO",
+      "result": "REPROVADO",
+      "check_codes": [
+        "BAR_AXIS_ZERO_REQUIRED"
+      ],
+      "matches_expected": true
+    },
+    {
+      "id": "F05",
+      "case": "missing_alt",
+      "expected": "REPROVADO",
+      "result": "REPROVADO",
+      "check_codes": [
+        "ALT_INSUFFICIENT"
+      ],
+      "matches_expected": true
+    },
+    {
+      "id": "F06",
+      "case": "unsupported_decision",
+      "expected": "REPROVADO",
+      "result": "REPROVADO",
+      "check_codes": [
+        "DECISION_UNSUPPORTED"
+      ],
+      "matches_expected": true
+    },
+    {
+      "id": "F07",
+      "case": "wrong_unit",
+      "expected": "REPROVADO",
+      "result": "REPROVADO",
+      "check_codes": [
+        "UNIT_MISMATCH"
+      ],
+      "matches_expected": true
+    },
+    {
+      "id": "F08",
+      "case": "missing_caption",
+      "expected": "REPROVADO",
+      "result": "REPROVADO",
+      "check_codes": [
+        "CAPTION_MISSING_CONTEXT"
+      ],
+      "matches_expected": true
+    }
+  ],
+  "all_expected": true,
+  "manual_gates_pending": [
+    "leitura em voz alta real no Edge",
+    "leitor de tela real",
+    "zoom e reflow em navegador real",
+    "reprodução completa do vídeo",
+    "aprovação editorial humana",
+    "integração e publicação"
+  ]
+}

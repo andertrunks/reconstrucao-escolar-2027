@@ -1,0 +1,48 @@
+﻿MAT-EST-009 — MANIFESTO DA RECONSTRUÇÃO EDITORIAL v1
+
+
+Natureza
+Reconstrução editorial explícita. Não é cópia byte a byte do material histórico perdido.
+
+
+Título histórico preservado
+MAT-EST-009 — Coeficiente de variação.
+
+
+Pré-requisitos
+MAT-EST-005, MAT-EST-007 e MAT-EST-008, com dependência conceitual da trilha MAT-EST-001 a 008.
+
+
+Próximo tópico
+MAT-EST-010 — Quartis, decis e percentis.
+
+
+Conteúdo
+Definição e interpretação do CV; unidade; comparação de escalas; transformação multiplicativa; soma de constante; médias zero, pequenas ou negativas; escalas de razão versus intervalo; Celsius versus Kelvin; CV amostral e populacional; erros de interpretação e limites de uso.
+
+
+Avaliação
+36 questões autorais: 10 APR, 10 CON, 10 VES e 6 RET.
+Gabarito separado.
+
+
+Visuais
+Seis SVGs reais com title e desc.
+
+
+Fontes
+BNCC/MEC — continuidade das medidas de dispersão a partir de EF08MA25.
+Inep — Matrizes de Referência do Enem, 2026.
+FUVEST — Programa do Vestibular 2027, que inclui coeficiente de variação entre as medidas de dispersão.
+
+
+Vídeo
+Prof. MURAKAMI — COEFICIENTE DE VARIAÇÃO : MEDIDA DE DISPERSÃO.
+QA audiovisual integral no Edge permanece pendente.
+
+
+Estado
+Publicação: não realizada.
+Integração ao site: pendente.
+Progresso do aluno: não alterado.
+MAT-EST-068: não iniciada.

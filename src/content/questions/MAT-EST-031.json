@@ -1,0 +1,866 @@
+[
+  {
+    "id": "MAT-EST-031-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Erro que interessa",
+    "statement": "Por que uma SSE muito baixa calculada nos mesmos registros que ajustaram o modelo não demonstra boa previsão de observações futuras?",
+    "answer": "Porque mede ajuste na amostra de treino, não capacidade de generalização.",
+    "resolution": "Os coeficientes foram escolhidos para reduzir erros nesses próprios registros.\n\nPara avaliar previsão, use dados não utilizados no ajuste; distribuições futuras também precisam ser compatíveis.",
+    "errorReasons": [
+      "Retome a definição do conceito e as hipóteses de aplicação."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Divisão simples",
+    "statement": "Um conjunto fictício de 120 registros independentes é dividido em 75% para treino e 25% para teste. Quantos registros em cada parte?",
+    "answer": "90 para treino e 30 para teste.",
+    "resolution": "120 × 0,75 = 90.\n\n120 × 0,25 = 30; confirme que 90 + 30 = 120.",
+    "errorReasons": [
+      "Organize valores e unidades antes de calcular; confira a divisão."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Qual é o papel da validação?",
+    "statement": "Explique a diferença entre dados usados para treinar um modelo e dados usados para escolher entre dois modelos candidatos.",
+    "answer": "Treino ajusta parâmetros; validação compara candidatos ou hiperparâmetros em dados não usados no respectivo ajuste.",
+    "resolution": "Ajustar coeficientes e avaliar opções são decisões diferentes.\n\nDepois da escolha, um teste preservado oferece uma avaliação final sem uso nas decisões anteriores.",
+    "errorReasons": [
+      "Retome a definição do conceito e as hipóteses de aplicação."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Erro absoluto médio",
+    "statement": "Quatro erros de previsão são −1, +1, −1 e +1 ponto. Calcule MAE.",
+    "answer": "1 ponto.",
+    "resolution": "Tome os valores absolutos: 1 + 1 + 1 + 1 = 4.\n\nDivida pelo número de previsões: MAE = 4/4 = 1 ponto.",
+    "errorReasons": [
+      "Organize valores e unidades antes de calcular; confira a divisão."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Erro quadrático médio",
+    "statement": "Para os mesmos quatro erros −1, +1, −1 e +1 ponto, determine MSE e RMSE.",
+    "answer": "MSE = 1 ponto² e RMSE = 1 ponto.",
+    "resolution": "Quadrados: 1, 1, 1 e 1; média dos quadrados igual a 1 ponto².\n\nRaiz quadrada de 1 ponto² = 1 ponto.",
+    "errorReasons": [
+      "Organize valores e unidades antes de calcular; confira a divisão."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Treino versus teste",
+    "statement": "O modelo A tem MAE de treino 0,4 e de teste 3,0 pontos. O modelo B tem MAE de treino 1,1 e de teste 1,3. Qual apresentou menor erro nesse teste?",
+    "answer": "B; seu MAE de teste foi 1,3 contra 3,0 do A.",
+    "resolution": "Compare na mesma partição de teste usando a mesma unidade e métrica.\n\nA lacuna de A sugere possível sobreajuste, mas deve-se verificar amostra, vazamento e deslocamento de distribuição.",
+    "errorReasons": [
+      "Verifique o sentido da pergunta e se o resultado é treino, validação ou teste."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Cinco partes",
+    "statement": "Em validação cruzada de cinco partes de mesmo tamanho, quantas vezes cada parte participa da validação e quantas do treino?",
+    "answer": "Uma vez da validação e quatro vezes do treino.",
+    "resolution": "Em cada rodada uma das cinco partes fica fora do ajuste.\n\nAs outras quatro treinam; o procedimento se repete até todas terem sido validadas uma vez.",
+    "errorReasons": [
+      "Retome a definição do conceito e as hipóteses de aplicação."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Vazamento no pré-processamento",
+    "statement": "Um pesquisador calcula média e desvio padrão usando todos os registros antes de dividir treino e teste. Qual é o risco?",
+    "answer": "Vazamento: estatísticas do teste influenciaram a preparação do treino.",
+    "resolution": "Primeiro preserve o teste; calcule os parâmetros da transformação apenas no treino.\n\nAplique a transformação aprendida ao teste sem refazê-la com esses registros.",
+    "errorReasons": [
+      "Defina primeiro a finalidade, depois a divisão dos dados e por último a métrica."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "R² de teste",
+    "statement": "Com valores de teste 10, 12, 14 e 16, previsão 11, 11, 15 e 15, calcule SSE e R² de teste usando a média dos próprios valores observados no teste.",
+    "answer": "SSE = 4; SST = 20; R² = 0,80.",
+    "resolution": "Resíduos observados menos previstos são −1, +1, −1 e +1, e SSE = 4.\n\nA média observada do teste é 13; SST = 9 + 1 + 1 + 9 = 20; R² = 1 − 4/20.",
+    "errorReasons": [
+      "Organize valores e unidades antes de calcular; confira a divisão."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "R² negativo",
+    "statement": "É possível que R² em teste seja negativo? Explique sem declarar que correlação é negativa.",
+    "answer": "Sim. Ocorre quando o SSE das previsões ultrapassa o SST calculado em torno da média observada do teste.",
+    "resolution": "R² = 1 − SSE/SST; se a razão ultrapassa 1, o resultado é negativo.\n\nNão confunda R² fora da amostra com o quadrado do coeficiente de correlação nem com causalidade.",
+    "errorReasons": [
+      "Verifique o sentido da pergunta e se o resultado é treino, validação ou teste."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Duas previsões na mesma amostra",
+    "statement": "Valores observados no teste: 10, 12, 14, 16. A prevê 11, 11, 15, 15; B prevê 10, 13, 14, 17. Calcule MAE e RMSE de cada um e compare.",
+    "answer": "A: MAE 1, RMSE 1. B: MAE 0,5, RMSE ≈0,707; B erra menos nestes registros.",
+    "resolution": "A tem quatro erros absolutos unitários: MAE = RMSE = 1.\n\nB tem erros 0, −1, 0 e −1: MAE = 2/4 = 0,5; MSE = 2/4 = 0,5; RMSE = √0,5.",
+    "errorReasons": [
+      "Organize valores e unidades antes de calcular; confira a divisão."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Média de cinco folds",
+    "statement": "Os MAEs de cinco folds de mesmo tamanho são 2, 3, 1, 2 e 2 pontos. Determine a média e diga o que ela representa.",
+    "answer": "2 pontos de MAE médio entre os cinco folds.",
+    "resolution": "Soma 2+3+1+2+2 = 10; divida por 5.\n\nÉ uma estimativa de desempenho sob o plano de validação, não garantia para qualquer população futura.",
+    "errorReasons": [
+      "Organize valores e unidades antes de calcular; confira a divisão."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Tamanhos de folds distintos",
+    "statement": "Um fold com 10 observações teve MAE 1; outro com 30 observações teve MAE 3. Qual o MAE agregado por observação?",
+    "answer": "2,5 pontos.",
+    "resolution": "Total de erros absolutos: 10×1 + 30×3 = 100.\n\nDivida por 40 registros: 2,5. A média simples de 1 e 3 (=2) daria peso igual a folds desiguais.",
+    "errorReasons": [
+      "Organize valores e unidades antes de calcular; confira a divisão."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Treino, validação e teste",
+    "statement": "Há 125 registros independentes. Reservam-se 25 para teste; os outros 100 são usados em K-fold com cinco partes iguais. Quantos registros treinam e validam em cada rodada?",
+    "answer": "80 treinam e 20 validam em cada rodada; 25 permanecem intocados como teste final.",
+    "resolution": "100/5 = 20 por parte.\n\nEm cada rodada, quatro partes fornecem 80 para ajuste e a restante fornece 20 para validação.",
+    "errorReasons": [
+      "Organize valores e unidades antes de calcular; confira a divisão."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Escolha sem olhar o teste",
+    "statement": "A obteve MAE de validação 1,7 e B 1,3. Antes de abrir o teste final, qual seria a escolha provisória se menor MAE é o critério previamente definido?",
+    "answer": "B é a escolha provisória; a avaliação final no teste ainda não ocorreu.",
+    "resolution": "Compare mesma métrica e mesmo esquema de validação.\n\nNão examine os resultados do teste para inverter repetidamente decisões.",
+    "errorReasons": [
+      "Defina primeiro a finalidade, depois a divisão dos dados e por último a métrica."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Escala calculada no treino",
+    "statement": "Os valores de uma variável no treino são 2, 4, 6 e 8; no teste são 10 e 12. Qual é a média usada para centralizar a variável no teste sem vazamento? Que valor transformado terá 10?",
+    "answer": "Média de treino = 5; valor centralizado de 10 = 5.",
+    "resolution": "Média de treino: (2+4+6+8)/4 = 5.\n\nTransforme 10 por 10−5 = 5; não use a média de todos os seis valores.",
+    "errorReasons": [
+      "Organize valores e unidades antes de calcular; confira a divisão."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Mesmo aluno várias vezes",
+    "statement": "Há cinco avaliações por estudante. Por que uma divisão aleatória por linha pode superestimar desempenho se o objetivo é prever estudantes nunca vistos?",
+    "answer": "Porque registros da mesma pessoa podem ficar em treino e validação, permitindo que informações específicas dela sejam reaproveitadas.",
+    "resolution": "A unidade independente pretendida é o estudante, não a linha.\n\nSepare por identificador de estudante, mantendo todos os registros de cada um em apenas uma partição por rodada.",
+    "errorReasons": [
+      "Verifique o sentido da pergunta e se o resultado é treino, validação ou teste."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Previsão de amanhã",
+    "statement": "Para prever consumo de energia em outubro com dados até setembro, é apropriado embaralhar observações de todo o ano e treinar também com novembro?",
+    "answer": "Não; os dados do futuro não existem no momento real da previsão.",
+    "resolution": "Preserve a cronologia; treine no passado e valide em período posterior.\n\nConsidere se os preditores estavam de fato disponíveis no instante em que a previsão seria emitida.",
+    "errorReasons": [
+      "Defina primeiro a finalidade, depois a divisão dos dados e por último a métrica."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Quando usar RMSE",
+    "statement": "Erros de um modelo: 1, 1, 1 e 5. Calcule MAE e RMSE; explique por que o segundo reage mais ao erro 5.",
+    "answer": "MAE = 2; RMSE = √7 = 2,646 aproximadamente.",
+    "resolution": "MAE = (1+1+1+5)/4 = 2.\n\nMSE = (1+1+1+25)/4 = 7; RMSE = √7. O quadrado atribui peso maior ao erro extremo.",
+    "errorReasons": [
+      "Organize valores e unidades antes de calcular; confira a divisão."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Dados de categorias raras",
+    "statement": "Uma classificação possui 95 casos negativos e 5 positivos. Um modelo prevê sempre negativo. Calcule acurácia e sensibilidade para os positivos.",
+    "answer": "Acurácia = 95%; sensibilidade para positivos = 0%.",
+    "resolution": "95/100 previsões corretas, portanto acurácia de 95%.\n\nNenhum dos cinco positivos é identificado; sensibilidade = 0/5. Avalie métricas adequadas ao objetivo.",
+    "errorReasons": [
+      "Verifique o sentido da pergunta e se o resultado é treino, validação ou teste."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "R² não se transfere automaticamente",
+    "statement": "Um modelo obteve R² de treino 0,96 e R² de teste −0,20. Redija uma conclusão limitada à evidência.",
+    "answer": "O ajuste interno foi alto, mas o desempenho no conjunto de teste foi fraco segundo R²; a capacidade de generalização precisa ser investigada.",
+    "resolution": "R² no teste abaixo de zero indica SSE maior que a dispersão em torno da média dos valores observados no teste.\n\nExamine tamanho, representatividade, vazamento, mudanças de distribuição e compare com uma referência definida antes.",
+    "errorReasons": [
+      "Verifique o sentido da pergunta e se o resultado é treino, validação ou teste."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Comparação com referência simples",
+    "statement": "Na amostra de teste com y = 10, 12, 14, 16, o modelo prevê sempre 12. Calcule SSE, SST e R² fora da amostra.",
+    "answer": "SSE = 24; SST = 20; R² = −0,20.",
+    "resolution": "Erros −2, 0, 2 e 4; quadrados 4+0+4+16 = 24.\n\nMédia observada em teste 13, SST 20; R² = 1−24/20 = −0,20.",
+    "errorReasons": [
+      "Organize valores e unidades antes de calcular; confira a divisão."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Seleção excessiva e teste",
+    "statement": "Uma equipe comparou cinquenta configurações, consultando o mesmo teste após cada ajuste, e divulgou somente a melhor. Por que a nota final é otimista?",
+    "answer": "Porque o teste foi usado para seleção e deixou de representar uma avaliação independente.",
+    "resolution": "Muitas decisões foram condicionadas a resultados do teste.\n\nEmpregue validação dentro do desenvolvimento e preserve novo teste independente; em seleção extensa, considere validação aninhada.",
+    "errorReasons": [
+      "Defina primeiro a finalidade, depois a divisão dos dados e por último a métrica."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Seleção de variáveis fora do fold",
+    "statement": "Antes da validação cruzada, selecionaram-se as dez variáveis mais relacionadas à resposta usando todos os registros de desenvolvimento. Qual problema ocorreu?",
+    "answer": "Vazamento entre folds: os rótulos das futuras validações influenciaram a seleção de variáveis.",
+    "resolution": "A seleção tem de ocorrer dentro de cada rodada, usando somente a parte de treino daquele fold.\n\nO pipeline completo é avaliado nas partes de validação não vistas nessa etapa.",
+    "errorReasons": [
+      "Retome a definição do conceito e as hipóteses de aplicação."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Serviços atendidos mês a mês",
+    "statement": "Um conjunto contém medições mensais do mesmo serviço, com evolução temporal. Proponha separação e explique por que folds aleatórios podem ser inadequados.",
+    "answer": "Treinar em meses anteriores e validar em meses seguintes, respeitando a disponibilidade temporal e possível lacuna entre janelas.",
+    "resolution": "A autocorrelação e tendências podem produzir similaridade artificial entre treino e validação se houver embaralhamento.\n\nUse janelas progressivas ou móveis e registre o horizonte de previsão.",
+    "errorReasons": [
+      "Defina primeiro a finalidade, depois a divisão dos dados e por último a métrica."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Novo município",
+    "statement": "Um modelo foi validado dentro de um município, mas será aplicado em outro com perfil distinto. Qual limite deve acompanhar a conclusão?",
+    "answer": "O resultado interno não demonstra automaticamente capacidade de transporte; requer avaliação com dados representativos da população de destino.",
+    "resolution": "Mudanças nas características e na relação entre variáveis e resposta afetam a validade externa.\n\nPlaneje validação de grupos ou ambiente externo e relate o novo domínio.",
+    "errorReasons": [
+      "Verifique o sentido da pergunta e se o resultado é treino, validação ou teste."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Intervalo não é exatidão",
+    "statement": "Cinco MAEs de validação cruzada são 1, 3, 1, 3 e 2. Uma equipe informa média 2 e chama os cinco resultados de cinco experimentos independentes. O que corrigir?",
+    "answer": "A média é 2, mas os folds reutilizam dados de treinamento e não são cinco estudos independentes.",
+    "resolution": "Os modelos treinam em conjuntos sobrepostos e compartilham o banco de dados.\n\nVariabilidade entre folds é descritiva do protocolo; não a interprete automaticamente como intervalo de confiança para outra população.",
+    "errorReasons": [
+      "Verifique o sentido da pergunta e se o resultado é treino, validação ou teste."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Variável do futuro",
+    "statement": "Para prever aprovação no início de um curso, o modelo inclui nota final do próprio curso. Avalie o desenho.",
+    "answer": "Inadequado: a nota final não está disponível no instante de previsão e provoca vazamento temporal ou de alvo.",
+    "resolution": "Defina explicitamente a data da decisão.\n\nRetenha apenas variáveis conhecidas até esse momento e refaça a validação segundo a implantação real.",
+    "errorReasons": [
+      "Defina primeiro a finalidade, depois a divisão dos dados e por último a métrica."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Desempenho por subgrupo",
+    "statement": "Um modelo tem MAE geral de 1,2, MAE do grupo A de 0,5 e do grupo B de 3,0. Por que não basta reportar só 1,2?",
+    "answer": "A média geral encobre erros substancialmente maiores para o grupo B.",
+    "resolution": "Verifique quantidade de registros por grupo, cobertura e variabilidade; métricas agregadas podem mascarar falhas.\n\nRelate erro por subgrupo e interprete incertezas sem presumir causa.",
+    "errorReasons": [
+      "Verifique o sentido da pergunta e se o resultado é treino, validação ou teste."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Protocolo comparativo íntegro",
+    "statement": "Compare modelos M0, M1 e M2 da aula anterior. Proponha sequência para escolher por MAE sem explorar repetidamente o teste.",
+    "answer": "Definir métrica e separação antes; dividir teste externo; validar cada pipeline M0–M2 nos dados de desenvolvimento; escolher; reajustar com dados de desenvolvimento; testar uma vez e relatar limitações.",
+    "resolution": "A seleção se baseia no protocolo de validação, não apenas em SSE de treino.\n\nPré-processamento e eventual ajuste de hiperparâmetros devem ocorrer dentro das rodadas relevantes; teste final fica preservado.",
+    "errorReasons": [
+      "Defina primeiro a finalidade, depois a divisão dos dados e por último a métrica."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Particionamento independente",
+    "statement": "Em 150 linhas pertencentes a 30 pessoas com cinco medições cada, o objetivo é prever pessoas inéditas. Qual deve ser a unidade de divisão?",
+    "answer": "Pessoa inteira: nenhuma pessoa deve aparecer ao mesmo tempo nas partes de desenvolvimento e de teste.",
+    "resolution": "A independência relevante é por pessoa, pois as cinco linhas podem ser correlacionadas.\n\nEstratifique por pessoa quando justificável; nunca misture linhas do mesmo identificador nos lados da divisão.",
+    "errorReasons": [
+      "Defina primeiro a finalidade, depois a divisão dos dados e por último a métrica."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Erro de previsão em outra unidade",
+    "statement": "Quatro previsões em quilogramas têm erros 2, −2, 0 e 4 kg. Determine MAE e RMSE, incluindo unidades.",
+    "answer": "MAE = 2 kg; MSE = 6 kg²; RMSE = √6 ≈ 2,449 kg.",
+    "resolution": "MAE = (2+2+0+4)/4 = 2 kg.\n\nMSE=(4+4+0+16)/4=6 kg²; tire a raiz para retornar a quilogramas.",
+    "errorReasons": [
+      "Organize valores e unidades antes de calcular; confira a divisão."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Tratamento ausente",
+    "statement": "Uma variável tem valores ausentes. Uma pessoa preenche todos com a mediana de treino e avaliação juntas. Explique como corrigir.",
+    "answer": "Calcular mediana exclusivamente com o treino de cada rodada e aplicá-la aos registros retidos para avaliação.",
+    "resolution": "A imputação aprende informação dos dados, mesmo que não use diretamente a resposta.\n\nInclua essa etapa no pipeline para que seja refeita corretamente a cada fold.",
+    "errorReasons": [
+      "Retome a definição do conceito e as hipóteses de aplicação."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Seleção com resultado inesperado",
+    "statement": "No treino, A tem RMSE 0,6 e B 1,0. Na validação, A tem 2,5 e B 1,2. Com objetivo preditivo e condições comparáveis, qual candidato segue para avaliação externa e por quê?",
+    "answer": "B, por ter erro menor na validação (1,2); o treino perfeito de A pode refletir sobreajuste.",
+    "resolution": "A seleção preditiva deve priorizar amostra não usada para ajustar cada candidato.\n\nA decisão ainda será examinada no teste final preservado, com limites de representatividade.",
+    "errorReasons": [
+      "Verifique o sentido da pergunta e se o resultado é treino, validação ou teste."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Média ponderada fora de contexto",
+    "statement": "Em validação cruzada, folds com 10 e 30 itens possuem MAEs de 2 e 4. Calcule o MAE agregado por observação.",
+    "answer": "3,5 unidades.",
+    "resolution": "Erro absoluto total = 10×2 + 30×4 = 140.\n\nDivida pelo total de 40 itens: 3,5; a média não ponderada (=3) não representa o erro agregado por item.",
+    "errorReasons": [
+      "Organize valores e unidades antes de calcular; confira a divisão."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-031-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-031"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Conclusão para divulgação",
+    "statement": "Um estudo usa registros históricos de uma escola e encontra MAE de teste 1,4 ponto. Escreva uma conclusão de duas frases sem afirmar que o método funciona igualmente em todo o país.",
+    "answer": "Exemplo: “Nos registros históricos reservados para teste desta escola, o modelo apresentou erro absoluto médio de 1,4 ponto. A aplicação em outras escolas ou períodos requer nova validação, com atenção a possíveis mudanças da população e do processo de coleta.”",
+    "resolution": "Informe métrica, unidade, base de avaliação e contexto.\n\nLimite a generalização e não transforme erro médio em garantia individual ou evidência causal.",
+    "errorReasons": [
+      "Verifique o sentido da pergunta e se o resultado é treino, validação ou teste."
+    ],
+    "source": {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  }
+]

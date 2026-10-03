@@ -1,0 +1,192 @@
+---
+id: MAT-EST-040
+slug: metodos-reamostragem-pratica-intervalos-desenho-auditoria-robustez
+titulo: "Métodos de reamostragem em prática: comparação de intervalos, testes sob desenho amostral e auditoria de robustez"
+materia: Matemática
+unidade: Estatística
+nivel: 6
+ordem: 40
+anterior: MAT-EST-039
+preRequisitos: [MAT-EST-019, MAT-EST-020, MAT-EST-021, MAT-EST-023, MAT-EST-031, MAT-EST-034, MAT-EST-035, MAT-EST-039]
+statusEditorial: produzido_localmente_nao_publicado
+statusAprendizagemInicial: nao_iniciado
+origemQuestoes: autoral
+proximoTopico: MAT-EST-041
+---
+
+# MAT-EST-040 — Métodos de reamostragem em prática: comparação de intervalos, testes sob desenho amostral e auditoria de robustez
+
+**Tempo sugerido:** quatro blocos de 25 a 50 minutos, sem dia fixo para a matéria. **Nível:** aprofundamento e ponte universitária. Não se afirma que os métodos formais sejam obrigatórios em edital de ENEM, FUVEST, UNICAMP ou UNESP. **Situação individual:** aula não iniciada editorialmente para fins de progresso; a publicação não gera tentativas ou domínio.
+
+## 1. Objetivos e pré-requisitos
+
+Ao final, conseguir: (1) reconstruir e comparar intervalos bootstrap; (2) diferenciar erro-padrão, incerteza de Monte Carlo e viés de amostragem; (3) justificar quando rótulos podem ser permutados; (4) preservar pares e conglomerados; (5) interpretar uma análise de sensibilidade; (6) comunicar resultados com os limites do desenho e da amostra. Retomar MAT-EST-039 para bootstrap e permutação, MAT-EST-020 para intervalos, MAT-EST-021 para testes, MAT-EST-023 para pareamento, MAT-EST-031 e 034/035 para validação, auditoria e reprodutibilidade.
+
+## 2. Por que esta aula existe?
+
+Uma máquina pode executar mil ou cem mil reamostragens sem questionar a origem dos registros. A matemática da simulação pode estar impecável e a inferência continuar inválida. Por isso, a ordem correta é: definir população e parâmetro; conhecer o desenho de coleta; identificar a unidade independente; decidir qual distribuição computacional responde à pergunta; escolher estatística e método; verificar estabilidade, documentar condições e só então interpretar resultados. O bootstrap aproxima a variabilidade de uma estimativa sob o modelo de reamostragem; uma distribuição de permutação considera rearranjos legítimos sob uma hipótese nula específica. Não são respostas intercambiáveis. [Penn State STAT 500, lição 11](https://online.stat.psu.edu/stat500/Lesson11); [STAT 200, lição 5](https://online.stat.psu.edu/stat200/Lesson05).
+
+![Validade da inferência: coleta, método e conclusão](assets/01-camadas-validade.svg)
+
+**Figura 1.** Texto alternativo: três etapas, coleta, reamostragem e conclusão; aviso de que dez mil réplicas não são dez mil pessoas novas. **Observe:** o método depende do desenho original. **Conclusão em áudio:** uma amostra enviesada continua enviesada depois de multiplicada artificialmente.
+
+## 3. Recapitulação do experimento exato de MAT-EST-039
+
+Considere dados inteiramente fictícios, quatro observações independentes: 2, 4, 6 e 8, em unidades arbitrárias. A média da amostra é cinco. No bootstrap não paramétrico simples, cada réplica seleciona quatro vezes um dos quatro valores, com reposição. São quatro à quarta potência, isto é, **256 sequências ordenadas equiprováveis**. A distribuição exata das médias tem centro cinco, variância 1,25 e desvio-padrão **√1,25 ≈ 1,118**. A raiz quadrada de um vírgula vinte e cinco é aproximadamente um vírgula cento e dezoito. Trata-se da dispersão das médias reamostradas, e não da dispersão das observações originais. Esses valores são confirmados por enumeração no arquivo `calculos-reproduziveis.py`.
+
+### 3.1 Comparar dois intervalos sem confundi-los
+
+**Intervalo percentílico:** ordenamos as 256 médias e, pela convenção de postos explicitada no MAT-EST-039, selecionamos o sétimo e o ducentésimo quinquagésimo valores. Os limites são **[3;7]**, ou “de três a sete”. Alterar a definição computacional do quantil pode alterar ligeiramente os limites em amostras discretas, portanto a convenção deve ser registrada.
+
+**Intervalo normal aproximado com erro-padrão bootstrap:**
+
+\[IC_{normal} \approx \bar x \pm 1,96 \times EP_{boot}.\]
+
+Leitura: “intervalo aproximado igual à média amostral, mais ou menos um vírgula noventa e seis vezes o erro-padrão bootstrap”. Para o experimento, cinco mais ou menos um vírgula noventa e seis vezes raiz quadrada de um vírgula vinte e cinco fornece **[2.809;7.191]**. O fator 1,96 é o quantil normal para o exemplo bilateral nominal de 95%, sob uma aproximação apropriada. É um intervalo aproximadamente simétrico; o percentílico lê as caudas da distribuição empírica.
+
+**Advertência:** com apenas quatro observações, nenhum desses cálculos comprova cobertura real de 95% para uma população desconhecida. A comparação é um exercício matemático controlado. Bootstrap percentílico pode ter problemas com pequenos n, assimetria, observações extremas ou estatísticas instáveis; métodos mais elaborados também não consertam problemas do desenho. [Penn State STAT 200, lição 4](https://online.stat.psu.edu/stat200/Lesson04).
+
+![Comparação de intervalos bootstrap](assets/02-comparacao-intervalos.svg)
+
+**Figura 2.** Texto alternativo: eixo horizontal de dois a oito unidades; percentílico de três a sete e normal aproximado de 2,809 a 7,191. **Observe:** ambos têm centro próximo a cinco, mas extremos distintos. **Conclusão em áudio:** escolher um método define hipóteses e procedimento; intervalo mais estreito não é automaticamente melhor.
+
+## 4. Teste de permutação sob desenho legítimo
+
+Retomemos dois grupos independentes fictícios, A igual a [2,4,6] e B igual a [8,10,12]. A diferença de médias A menos B é menos seis. Se a hipótese nula e o mecanismo de alocação permitem permutar os rótulos entre as seis unidades, mantendo três em cada grupo, existem **20** redistribuições distintas, porque seis escolhe três é vinte. Só duas distribuições têm diferença absoluta pelo menos seis; assim, o valor-p bicaudal exato é dois dividido por vinte: **0,10, ou dez por cento**. Para alfa igual a cinco por cento, não rejeitamos a hipótese nula. Isso não comprova igualdade.
+
+Não usar esse teste livremente quando a atribuição foi realizada por conglomerado, quando existem pares identificados ou quando a troca de rótulos modifica uma restrição do desenho. Permutar é simular **sob uma hipótese nula admissível**, não misturar números ao acaso. [Penn State STAT 200, lição 5](https://online.stat.psu.edu/stat200/Lesson05).
+
+![Permutação exata condicionada ao desenho](assets/03-permutacao-e-desenho.svg)
+
+**Figura 3.** Texto alternativo: duas séries de três valores, vinte alocações equiprováveis sob hipótese nula e duas tão extremas. **Observe:** a condição de intercambiabilidade precede a contagem combinatória. **Conclusão em áudio:** o valor-p ilustrativo é dez por cento somente sob o mecanismo especificado.
+
+### 4.1 Simulação de Monte Carlo, não enumeração exata
+
+Quando todas as configurações são numerosas, podemos simular B delas. Para um esquema Monte Carlo que inclui o arranjo observado como uma das possibilidades, a convenção \((k+1)/(B+1)\), lida como “k mais um dividido por B mais um”, evita relatar valor-p igual a zero; por exemplo, dezenove casos extremos entre novecentas e noventa e nove permutações simuladas dão vinte dividido por mil, isto é, **0,020**. Não somar essa correção ao teste exato que já enumera todas as alocações. O resultado simulado varia com a semente e o número de simulações; registrar ambos.
+
+## 5. Independência, conglomerados, pareamento e série temporal
+
+Uma unidade independente pode ser pessoa, escola, hospital, família ou um bloco temporal, conforme o desenho e a pergunta. Considere três pacientes fictícios com duas medições cada: [2,4], [6,8] e [10,12]. Suas médias são três, sete e onze. Se a inferência é sobre pacientes, sorteamos **três pacientes completos com reposição**; sortear seis linhas independentemente destrói a dependência intrapaciente. Para a distribuição empírica das três médias, a variância é trinta e dois terços; a variância da média bootstrap de três pacientes é trinta e dois nonos, e o erro-padrão é **√32/3 ≈ 1.886**. A análise ingênua por seis valores daria **≈ 1.394** neste exemplo e aparentaria precisão excessiva. A diferença é ilustrativa, não uma regra numérica universal.
+
+![Unidade independente do conglomerado](assets/04-pacientes-conglomerados.svg)
+
+**Figura 4.** Texto alternativo: três pacientes, cada um com duas observações e uma média própria. **Observe:** há seis medições, mas somente três pacientes. **Conclusão em áudio:** a unidade reamostrada deve preservar o agrupamento.
+
+Em medições antes/depois, usar o par completo ou sua diferença individual. Um teste de troca de sinais sobre as diferenças [1,2,3] contém oito padrões possíveis, dois tão extremos em módulo quanto a soma observada de seis, e valor-p bicaudal de **2/8 = 0,25** sob a hipótese apropriada de simetria ou randomização por sinais. Em séries temporais, reamostrar dias isolados exige justificativa; métodos por blocos ou validação por origem temporal podem ser necessários. Nenhuma técnica reconstrói por si só grupos que a coleta original excluiu.
+
+## 6. Laboratório de comparação pareada com os dados fictícios anteriores
+
+O arquivo `dados-ficticios-referencia.csv` é uma cópia binária dos registros usados no MAT-EST-034/035/039. No intervalo reservado para teste, dias cinco a oito, observamos os seguintes **erros absolutos** de dois modelos de previsão de atendimentos: modelo A = [5,5,5,5]; modelo B = [0,0,0,25]. O erro absoluto médio, ou MAE, é cinco para A e seis vírgula vinte e cinco para B. Esse pequeno recorte favorece A em MAE, mas um único dia com erro 25 no modelo B altera fortemente a comparação.
+
+Como ambos os modelos foram avaliados nos mesmos dias, calculamos primeiro as diferenças por data, erro de A menos erro de B: **d = [5,5,5,−20]**. A média observada é menos um vírgula vinte e cinco. Fazer bootstrap independentemente da lista de erros de A e da lista de B destruiria o pareamento. A reamostragem ilustrativa sorteia quatro datas completas com reposição, mantendo ambos os erros da data. Isso preserva o pareamento, mas não resolve automaticamente a dependência temporal — por isso a inferência continua limitada.
+
+![Comparação pareada dos modelos](assets/05-pares-modelos.svg)
+
+**Figura 5.** Texto alternativo: tabela de quatro dias com erros de A e B e diferenças de cinco, cinco, cinco e menos vinte. **Observe:** o último dia determina a mudança de sinal. **Conclusão em áudio:** a estatística comparativa deve ser formada nas unidades emparelhadas.
+
+### 6.1 Bootstrap exato das diferenças e análise de sensibilidade
+
+Com quatro escolhas dentre quatro datas, com reposição, há 256 sequências ordenadas. Como três datas têm diferença cinco e uma tem menos vinte, os valores possíveis da média das diferenças e suas frequências são:
+
+| Média da diferença (A − B) | Frequência nas 256 réplicas |
+|---:|---:|
+| −20 | 1 |
+| −13,75 | 12 |
+| −7,5 | 54 |
+| −1,25 | 108 |
+| +5 | 81 |
+
+A frequência total é 256. Pela convenção didática de postos, o intervalo percentílico ilustrativo de 95% é **[−13,75;5]**, contendo zero. Não é demonstração de cobertura de longo prazo, pois o teste tem apenas quatro dias e eles são ordenados no tempo. Como análise de sensibilidade, retiramos temporariamente o quarto dia: a média das outras três diferenças torna-se **+5**. Isso evidencia que o resultado é sensível à observação; **não** é permissão para excluir o dia do relatório final com a finalidade de trocar a conclusão. O relatório deve apresentar a amostra completa e a análise adicional, declarando a exclusão como exercício diagnóstico.
+
+![Distribuição exata das diferenças médias](assets/06-distribuicao-pareada.svg)
+
+**Figura 6.** Texto alternativo: cinco valores possíveis da diferença média, de menos vinte a mais cinco, com frequências 1, 12, 54, 108 e 81. **Observe:** a distribuição abrange os dois sinais. **Conclusão em áudio:** uma diferença observada pequena não autoriza alegar superioridade estável do modelo em dados futuros.
+
+## 7. Protocolo de auditoria e robustez
+
+Antes de concluir, registre em relatório: (a) população-alvo e recorte; (b) desenho de seleção ou atribuição; (c) unidade independente; (d) parâmetro e estatística; (e) procedimento de bootstrap ou hipótese exata de permutação; (f) quantil e convenção numérica; (g) número de réplicas, algoritmo, versão de software e semente; (h) resultados com o conjunto completo e análises de sensibilidade justificadas; (i) incerteza de simulação versus incerteza de amostragem; (j) limitações de representatividade, dependência e generalização. A inspeção visual de um gráfico ou um p pequeno não dispensa esse protocolo.
+
+![Árvore de auditoria](assets/07-arvore-auditoria.svg)
+
+**Figura 7.** Texto alternativo: sequência da pergunta e dependência até escolha do método e análise de robustez. **Observe:** método vem depois de desenho e hipótese. **Conclusão em áudio:** um procedimento auditável registra também o que suas conclusões não permitem afirmar.
+
+## 8. Vocabulário essencial e erros frequentes
+
+**Erro-padrão de reamostragem:** dispersão das estatísticas calculadas nas réplicas sob o mecanismo empírico. **Incerteza Monte Carlo:** variação adicional por usar um número finito de réplicas simuladas em vez de enumerar todas. **Viés de seleção:** distorção sistemática de quem entra no conjunto original; mais réplicas não o corrigem. **Permutabilidade:** justificativa de que as configurações de rótulos consideradas são válidas sob a hipótese nula e o desenho. **Pareamento:** vínculo entre duas observações da mesma unidade. **Conglomerado:** unidade agrupada que deve ser preservada se assim definida no desenho. **Robustez:** investigar se conclusões são estáveis diante de escolhas justificadas, observações influentes e hipóteses alternativas. Evite decorar p sem verificar denominador, chamar dez mil réplicas de dez mil pessoas ou anunciar que não rejeitar H0 significa comprovar igualdade.
+
+## 9. Exercícios graduais — todos autorais
+
+O banco de 36 itens está em `exercicios.json`; as respectivas resoluções estão em `gabarito-comentado.json`, separadas para não antecipar respostas no site. As questões abaixo são enunciados autorais de aprendizagem, consolidação, transferência em estilo vestibular e reteste; **nenhuma é apresentada como oficial**. Cada exercício possui vínculo com os pré-requisitos e uma hipótese editorial de motivo de erro, que só deverá ser confirmada após resposta real.
+
+### Camada A — Aprendizagem
+**MAT-EST-040-EX-APR-01 — O que está sendo estimado (autoral).** Para a amostra [2,4,6,8], explique o alvo de um intervalo bootstrap da média.
+**MAT-EST-040-EX-APR-02 — Replicar corretamente (autoral).** Qual o tamanho de uma réplica bootstrap simples de [2,4,6,8] e a reposição é permitida?
+**MAT-EST-040-EX-APR-03 — Média original (autoral).** Calcule a média da amostra [2,4,6,8].
+**MAT-EST-040-EX-APR-04 — Duas famílias de intervalos (autoral).** O intervalo percentílico usa os quantis de quê? O intervalo normal aproximado usa qual medida de dispersão?
+**MAT-EST-040-EX-APR-05 — Diferença de grupos (autoral).** Para A=[2,4,6] e B=[8,10,12], obtenha a diferença das médias A menos B.
+**MAT-EST-040-EX-APR-06 — Alocações nulas (autoral).** Quantas escolhas de três rótulos A dentre seis unidades são possíveis?
+**MAT-EST-040-EX-APR-07 — Intercambiabilidade (autoral).** Quando é legítimo permutar livremente os rótulos de grupos num teste?
+**MAT-EST-040-EX-APR-08 — Pares preservados (autoral).** Uma pessoa é medida antes e depois. Qual unidade deve ser mantida na reamostragem?
+**MAT-EST-040-EX-APR-09 — Paciente como unidade (autoral).** Três pacientes fornecem duas medições cada. Há seis pacientes independentes?
+**MAT-EST-040-EX-APR-10 — Reprodutibilidade (autoral).** Quais dois registros mínimos tornam uma simulação pseudoaleatória reproduzível?
+
+### Camada B — Consolidação
+**MAT-EST-040-EX-CON-01 — Desvio-padrão do bootstrap exato (autoral).** Para [2,4,6,8], a variância das 256 médias bootstrap é 1,25. Calcule o desvio-padrão.
+**MAT-EST-040-EX-CON-02 — Limites percentílicos (autoral).** As 256 médias ordenadas têm 7º valor igual a 3 e 250º igual a 7. Informe o intervalo ilustrativo de 95% pela convenção de postos indicada.
+**MAT-EST-040-EX-CON-03 — Intervalo normal didático (autoral).** Use média original 5, erro-padrão bootstrap √1,25 e multiplicador 1,96 para calcular os limites normais aproximados.
+**MAT-EST-040-EX-CON-04 — Por que diferem os intervalos (autoral).** Compare o intervalo percentílico [3;7] com o normal aproximado [2,809;7,191]. Ambos precisam coincidir?
+**MAT-EST-040-EX-CON-05 — Permutação exata (autoral).** No caso A=[2,4,6], B=[8,10,12], duas das 20 alocações apresentam |diferença| ≥ 6. Calcule p bicaudal exato.
+**MAT-EST-040-EX-CON-06 — Monte Carlo e +1 (autoral).** Em 999 permutações simuladas independentes do observado, 19 atingiram estatística tão extrema. Calcule (k+1)/(B+1).
+**MAT-EST-040-EX-CON-07 — Teste pareado de sinais (autoral).** Três diferenças não nulas são [1,2,3]. Quantas configurações de sinais são possíveis?
+**MAT-EST-040-EX-CON-08 — p pareado exato (autoral).** Para as diferenças [1,2,3], duas das oito trocas de sinais têm |soma| ≥ 6. Determine o p bicaudal.
+**MAT-EST-040-EX-CON-09 — Média dos pacientes (autoral).** As médias de três pacientes são [3,7,11]. Determine a média geral com mesmo peso por paciente.
+**MAT-EST-040-EX-CON-10 — Erro-padrão de conglomerados (autoral).** A distribuição empírica das médias dos três pacientes [3,7,11] tem variância 32/3. No bootstrap de três pacientes, qual a variância da média reamostrada?
+
+### Camada C — Transferência e estilo vestibular (autoral)
+**MAT-EST-040-EX-VES-01 — Dois erros-padrão incompatíveis (autoral).** Para [3,7,11], o bootstrap por paciente gera erro-padrão √32/3 ≈1,886. Ao tratar seis medições [2,4,6,8,10,12] como independentes, encontra-se √(35/18)≈1,394. Interprete a diferença.
+**MAT-EST-040-EX-VES-02 — Alocação por paciente (autoral).** Num estudo com tratamento randomizado por escola e alunos medidos dentro das escolas, por qual unidade deve ocorrer a permutação do tratamento?
+**MAT-EST-040-EX-VES-03 — Dados temporais (autoral).** O arquivo fictício de atendimentos possui dias ordenados. Por que reamostrar datas soltas pode ser inadequado para generalizar previsão futura?
+**MAT-EST-040-EX-VES-04 — Mesma data, dois modelos (autoral).** Nos dias de teste, os erros absolutos dos modelos A e B são, respectivamente, [5,5,5,5] e [0,0,0,25]. Como formar dados para comparar os modelos por bootstrap?
+**MAT-EST-040-EX-VES-05 — Métricas no teste (autoral).** Calcule os erros absolutos médios de A e B nas quatro datas acima.
+**MAT-EST-040-EX-VES-06 — Diferença média (autoral).** Para d=erro absoluto A menos B=[5,5,5,−20], calcule a média e interprete o sinal.
+**MAT-EST-040-EX-VES-07 — Bootstrap exato pareado (autoral).** As quatro diferenças observadas [5,5,5,−20] produzem 256 réplicas bootstrap ordenadas. Pela convenção de postos, o 7º valor é −13,75 e o 250º é 5. Qual o intervalo ilustrativo de 95%?
+**MAT-EST-040-EX-VES-08 — Sensibilidade a um dia (autoral).** Se o quarto dia [d=−20] for retirado APENAS como diagnóstico, qual a média dos três restantes? O que muda?
+**MAT-EST-040-EX-VES-09 — Mais réplicas corrigem viés? (autoral).** Uma amostra por conveniência sub-representa escolas rurais. Rodar 100.000 réplicas bootstrap torna o estimador automaticamente representativo?
+**MAT-EST-040-EX-VES-10 — Relatório responsável (autoral).** Uma comparação autoral obteve p exato de 0,10 com 20 permutações, amostra pequena e grupos intercambiáveis sob H0. Formule uma conclusão sem declarar igualdade.
+
+### Reteste independente — somente após correção e remediação reais
+**MAT-EST-040-EX-RET-01 — Nova contagem bootstrap (autoral).** Para amostra [1,3,5], com três sorteios com reposição, quantas sequências ordenadas há?
+**MAT-EST-040-EX-RET-02 — Nova média bootstrap (autoral).** Na amostra [1,3,5], uma réplica é [1,1,5]. Qual sua média?
+**MAT-EST-040-EX-RET-03 — Novo teste exato (autoral).** Dois grupos de tamanho dois geram seis alocações equiprováveis. Se duas são tão extremas quanto a observada, qual o p exato?
+**MAT-EST-040-EX-RET-04 — Reteste em pares (autoral).** Há quatro pacientes, com medições antes e depois. Para bootstrap da mudança média entre pacientes, sorteia-se o quê?
+**MAT-EST-040-EX-RET-05 — Reteste sobre viés (autoral).** A coleta excluiu determinado bairro. Aumentar de mil para cem mil reamostragens corrige essa omissão?
+**MAT-EST-040-EX-RET-06 — Reteste de robustez (autoral).** Um resultado muda de sinal ao retirar um dia extremo. Quais duas ações corretas devem ser relatadas?
+
+## 10. Correção comentada e orientação para o Caderno de Erros
+
+As respostas completas de cada item estão em `gabarito-comentado.json`. Durante a tentativa no site, esconder o gabarito; liberar somente após envio. A correção deve exigir o raciocínio e o desenho utilizado, mesmo que a resposta numérica esteja correta. Após uma tentativa efetiva, classificar a primeira ruptura como **conteúdo, interpretação, cálculo, distração, memória, estratégia ou tempo** e registrar o pré-requisito que precisa ser retomado. Os campos de erro dos exercícios são sugestões editoriais, não registros reais do estudante.
+
+## 11. Revisão longitudinal e domínio
+
+Somente a partir da data real do estudo, sugerir recuperações em D+1, D+7 e D+30. Propor, sem olhar respostas: (1) por que o percentílico e o normal aproximado diferem? (2) quando permutar rótulos é inválido? (3) por que o erro pareado é por data? (4) o que muda ao analisar um dia influente? Um tópico permanece em “aprendendo” ou “revisar” enquanto essas evidências não existirem. Não marcar como consolidado por publicar o arquivo ou por receber a explicação.
+
+## 12. Versão curta para ouvir no Edge
+
+O bootstrap sorteia repetidamente valores da amostra, com reposição, respeitando as unidades de coleta. Uma distribuição de permutação é diferente: ela simula as configurações autorizadas pela hipótese nula. Um intervalo percentílico lê quantis das estimativas reamostradas; um intervalo normal usa a estimativa central e seu erro-padrão. Pequenas amostras e desenhos inadequados impedem confiança automática na cobertura. Quando duas previsões usam o mesmo dia, seus erros são pareados. No exemplo, um único dia extremo muda muito o resumo, e isso precisa ser relatado, não escondido. Sempre documentar hipótese, dados, método, semente, resultados completos e limites da generalização.
+
+## 13. Vídeo complementar
+
+**Título:** Video 11.1: Bootstrapping. **Canal/instituição:** Penn State Online, curso STAT 500. **Idioma:** inglês. **Duração:** não confirmada na página institucional. **Link:** [Lição 11 — Introduction to Nonparametric Tests and Bootstrap](https://online.stat.psu.edu/stat500/Lesson11). **Momento:** depois da seção 3, antes de comparar intervalos. **Motivo:** reforça o procedimento com reposição e distribuição empírica; não substitui a seção sobre pareamento e desenho da presente aula. Página e indicação da videoaula conferidas em 28/09/2026; reprodução integral não testada.
+
+## 14. Fontes e delimitação
+
+- [Pennsylvania State University — STAT 500, Lesson 11, Introduction to Nonparametric Tests and Bootstrap](https://online.stat.psu.edu/stat500/Lesson11). Base de bootstrap e intervalos percentílicos.
+- [Pennsylvania State University — STAT 200, Lesson 4, Confidence Intervals](https://online.stat.psu.edu/stat200/Lesson04). Diferença entre inferência e erro-padrão.
+- [Pennsylvania State University — STAT 200, Lesson 5, Hypothesis Testing, Part 1](https://online.stat.psu.edu/stat200/Lesson05). Randomização sob hipótese nula, valor-p e métodos alternativos.
+- Dados fictícios e fórmulas da trilha: MAT-EST-034, MAT-EST-035 e MAT-EST-039. Cópia de CSV preservada, SHA-256 registrada no manifesto.
+
+**Limites editoriais:** exemplos com n=4 e n=6 são didáticos, não inferência validada para uma população real. Formalismos de bootstrap/permutação são ponte universitária e não reprodução de exigências dos editais. Nenhum progresso individual foi registrado. Publicação e integração no Google Drive dependem de etapa técnica posterior.
+
+## 15. Próximo passo
+
+**MAT-EST-041 — Inferência com dados dependentes: reamostragem por blocos e conglomerados, validação temporal e limites de generalização.**

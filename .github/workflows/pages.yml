@@ -25,6 +25,12 @@ jobs:
       - run: npm run build
       - run: npx playwright install --with-deps chromium
       - run: npm run test:e2e
+      - name: Instalar Microsoft Edge
+        run: npx playwright install msedge
+      - name: Verificar Microsoft Edge
+        run: npm run test:e2e
+        env:
+          TEST_EDGE: '1'
       - name: Build para GitHub Pages
         run: npm run build
         env:

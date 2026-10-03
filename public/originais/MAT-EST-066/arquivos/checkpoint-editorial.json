@@ -1,0 +1,39 @@
+{
+  "projeto": "Reconstrução Escolar + ENEM e Vestibulares 2027",
+  "ultimo_pacote_editorial_concluido": "MAT-EST-066",
+  "ultimo_confirmado_antes": "MAT-EST-065",
+  "titulo_ultimo": "Revisão crítica e consolidação da unidade de avaliação temporal: integração de métricas, auditoria e transferência para problemas novos",
+  "etapa_atual": "concluído editorialmente apenas em arquivos locais",
+  "proximo_topico_editorial": "MAT-EST-067",
+  "titulo_proximo_proposto": "Transferência integradora da estatística temporal para decisões sob dados incompletos: leitura de evidências e exercícios inéditos",
+  "proximo_estado": "não iniciado",
+  "progresso_individual": "não iniciado; nenhuma tentativa registrada; inalterado",
+  "historico": "t01–t22 preservados; MAT-EST-049-PROT-v1 5/8, guarda t19 19,2>10, C não promovido",
+  "sem_observacoes": "t23–t25 sem emissões e observações autenticadas; t26–t33 proposta local, zero pares",
+  "sandbox": "SANDBOX-057 preservado, 2/8, MAE B=3 e C=4, custo médio 7 pontos",
+  "transferencia": "TRANSFER-066 novo exercício ISOLADO: R01/R02 avaliáveis; R03/R04 pendentes; MAE B=2,5, C=1, custos B=4,5 e C=2; sem inferência populacional",
+  "controles": "G1/G2 checked_local; G3–G6 pending; G7/G8 not_performed; P01–P10 not_performed",
+  "acoes": "A64-01–06 somente ensaios locais; A64-07 proposta não executada",
+  "indicadores": "K65-01 a K65-11 preservados com uma única fotografia F0, sem tendência",
+  "anexo_anterior": "historico/MAT-EST-065-pacote-integracao.zip byte a byte idêntico à fonte",
+  "sha256_pacote_anterior": "b8a2d2504fa63eac5a50519ab5793baac3bac4db4d06cf261ca2c89f2b165d4c",
+  "arquivos_invariantes_herdados_sha256": 23,
+  "novidades": [
+    "aula integradora e seis visuais originais com leitura por voz",
+    "36 questões autorais, gabaritos em arquivos separados",
+    "casos de transferência isolados R01–R04, sem alterar séries ou sandboxes anteriores",
+    "revisão de um, sete e trinta dias a partir do estudo real"
+  ],
+  "sem_exposicao_publica_ou_revisao_humana": true,
+  "nao_alegar": [
+    "progresso individual consolidado",
+    "novas observações t23–t33",
+    "promoção de C no protocolo antigo",
+    "dados de transferência como resultados reais",
+    "tendência longitudinal com F0",
+    "taxa real de incidentes",
+    "testes Edge ou vídeo integral",
+    "publicação, Drive, GitHub ou deploy externos"
+  ],
+  "material_integracao": "MAT-EST-066-pacote-integracao.zip"
+}

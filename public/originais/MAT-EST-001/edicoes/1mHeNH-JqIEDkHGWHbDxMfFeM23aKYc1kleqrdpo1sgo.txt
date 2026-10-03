@@ -1,0 +1,232 @@
+﻿MAT-EST-001 — Gabarito comentado da reconstrução editorial v1
+
+
+Uso: liberar somente após a tentativa da camada correspondente. Todos os itens são autorais.
+
+
+MAT-EST-001-EX-APR-01
+Resposta esperada: População: os 820 estudantes matriculados, se essa é a população-alvo definida. Amostra: os 120 selecionados.
+Raciocínio: A amostra está contida na população. Não confundir os selecionados com toda a escola.
+Motivo provável de erro a investigar: interpretação. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-APR-02
+Resposta esperada: A unidade de análise é cada atendimento.
+Raciocínio: A mesma pessoa pode gerar mais de uma unidade porque a planilha foi definida por atendimento.
+Motivo provável de erro a investigar: interpretação. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-APR-03
+Resposta esperada: Variável: tempo de espera em minutos. Dado: 18 minutos naquela linha.
+Raciocínio: O nome da característica é variável; o valor observado é dado.
+Motivo provável de erro a investigar: conteúdo. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-APR-04
+Resposta esperada: Qualitativa nominal.
+Raciocínio: As categorias não possuem uma ordem natural obrigatória.
+Motivo provável de erro a investigar: conteúdo. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-APR-05
+Resposta esperada: Quantitativa discreta.
+Raciocínio: É uma contagem de livros e assume valores inteiros compatíveis com a contagem.
+Motivo provável de erro a investigar: conteúdo. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-APR-06
+Resposta esperada: Quantitativa contínua.
+Raciocínio: Tempo é uma grandeza mensurável em um intervalo; a precisão do registro não altera sua natureza conceitual.
+Motivo provável de erro a investigar: conteúdo. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-APR-07
+Resposta esperada: Qualitativa ordinal.
+Raciocínio: As categorias são qualitativas, mas existe ordem baixa < média < alta.
+Motivo provável de erro a investigar: conteúdo. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-APR-08
+Resposta esperada: Censitária em relação ao lote definido.
+Raciocínio: Todas as 2.400 unidades da população-lote foram examinadas.
+Motivo provável de erro a investigar: interpretação. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-APR-09
+Resposta esperada: Não. Pode ser qualitativa nominal.
+Raciocínio: Os números podem funcionar apenas como códigos de categorias; a classificação depende do significado.
+Motivo provável de erro a investigar: interpretação. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-APR-10
+Resposta esperada: População é o conjunto completo de unidades definido pela investigação; amostra é o subconjunto selecionado ou observado.
+Raciocínio: A resposta deve preservar a relação parte-todo sem reduzir população a pessoas.
+Motivo provável de erro a investigar: memória. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-CON-01
+Resposta esperada: População: todos os livros de ficção do acervo definido. Amostra: 300 selecionados. Unidade: cada livro. Variável: número de páginas. Dado possível: 284 páginas.
+Raciocínio: Cada conceito responde a uma pergunta diferente: sobre quem, qual parte, qual unidade, qual característica e qual valor.
+Motivo provável de erro a investigar: estratégia. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-CON-02
+Resposta esperada: Porque tamanho não corrige sozinho viés de seleção ou de resposta.
+Raciocínio: É preciso saber como os 1.100 respondentes se relacionam com os 2.000 funcionários e quem ficou de fora.
+Motivo provável de erro a investigar: interpretação. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-CON-03
+Resposta esperada: Na primeira base, unidade = viagem. Se cada linha fosse um ônibus, a unidade seria veículo e as variáveis precisariam resumir ou caracterizar cada veículo.
+Raciocínio: Mudar a unidade altera o significado das linhas e das análises possíveis.
+Motivo provável de erro a investigar: conteúdo. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-CON-04
+Resposta esperada: Cor favorita: qualitativa nominal. Escolaridade ordenada: qualitativa ordinal. Número de faltas: quantitativa discreta. Massa: quantitativa contínua.
+Raciocínio: A classificação depende de categoria, ordem, contagem ou medição.
+Motivo provável de erro a investigar: conteúdo. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-CON-05
+Resposta esperada: Idade numérica é quantitativa; faixa etária é categórica e geralmente ordinal.
+Raciocínio: Transformar números em faixas muda a representação e perde detalhe individual.
+Motivo provável de erro a investigar: interpretação. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-CON-06
+Resposta esperada: A população-alvo e a fonte da amostra não estão alinhadas; frequentadores de academia podem não representar todos os moradores.
+Raciocínio: O problema aparece antes de qualquer cálculo: seleção restrita.
+Motivo provável de erro a investigar: estratégia. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-CON-07
+Resposta esperada: Cidade e bairro são lugares, não definições completas de unidades. Exemplo: população = todos os moradores adultos da cidade em data definida; amostra = moradores adultos selecionados em determinados bairros segundo um plano.
+Raciocínio: É preciso indicar unidades e critérios de inclusão.
+Motivo provável de erro a investigar: interpretação. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-CON-08
+Resposta esperada: Não necessariamente. Se cada linha é uma medição por minuto, a unidade observacional pode ser cada instante/medição na sala.
+Raciocínio: A mesma sala gera várias observações; unidade física e unidade da planilha podem diferir.
+Motivo provável de erro a investigar: estratégia. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-CON-09
+Resposta esperada: Quantidade de aplicativos abertos: quantitativa discreta. Aplicativo mais usado: qualitativa nominal.
+Raciocínio: Uma é contagem; a outra é categoria/nome.
+Motivo provável de erro a investigar: conteúdo. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-CON-10
+Resposta esperada: N representa o tamanho da população finita: 5.000 unidades. n representa o tamanho da amostra: 250 unidades.
+Raciocínio: Não é preciso calcular n/N para explicar a notação.
+Motivo provável de erro a investigar: memória. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-VES-01
+Resposta esperada: A seleção é uma enquete aberta aos seguidores do próprio perfil, portanto o mecanismo de participação pode produzir forte viés de seleção/autoseleção.
+Raciocínio: Cinquenta mil respostas não tornam automaticamente os respondentes representativos da população brasileira.
+Motivo provável de erro a investigar: interpretação. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-VES-02
+Resposta esperada: No primeiro caso a unidade é voo, permitindo estudar atrasos por voo. No segundo é aeroporto, exigindo medidas resumidas por aeroporto e respondendo perguntas entre aeroportos.
+Raciocínio: A unidade determina o denominador e o significado de cada linha.
+Motivo provável de erro a investigar: estratégia. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-VES-03
+Resposta esperada: A afirmação é incorreta. A variável é qualitativa nominal binária; 0 e 1 são códigos para categorias não/sim.
+Raciocínio: A aritmética dos códigos não deve ser interpretada como grandeza sem justificativa.
+Motivo provável de erro a investigar: conteúdo. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-VES-04
+Resposta esperada: A pergunta é sobre trabalhadores e seus tempos de deslocamento; carros não incluem trabalhadores que usam ônibus, bicicleta, caminhada etc. e não são a mesma unidade de interesse.
+Raciocínio: A população deve conter as unidades às quais a pergunta se refere.
+Motivo provável de erro a investigar: interpretação. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-VES-05
+Resposta esperada: Qualitativa ordinal. O uso de letras não altera a existência de uma ordem definida entre categorias.
+Raciocínio: Classificação depende do significado, não do tipo de caractere usado.
+Motivo provável de erro a investigar: conteúdo. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-VES-06
+Resposta esperada: Uma unidade pode produzir vários valores, um por variável, ou vários registros ao longo do tempo. Portanto quantidade de dados/valores não determina sozinha quantidade de unidades.
+Raciocínio: É preciso conhecer estrutura de linhas, colunas e repetições.
+Motivo provável de erro a investigar: interpretação. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-VES-07
+Resposta esperada: Idade, altura e número de irmãos são quantitativas; altura é contínua e número de irmãos discreta. 'Turma' costuma ser qualitativa nominal, mas é preciso saber se o código de turma tem significado apenas identificador ou alguma ordem relevante.
+Raciocínio: Não classificar apenas pelo formato do código.
+Motivo provável de erro a investigar: conteúdo. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-VES-08
+Resposta esperada: Censo elimina a necessidade de selecionar uma amostra para aquela população, mas não elimina erros de medição, digitação, duplicidade, ausência ou definição.
+Raciocínio: Cobertura completa não equivale a qualidade perfeita.
+Motivo provável de erro a investigar: interpretação. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-VES-09
+Resposta esperada: A frase A descreve diretamente uma frequência da amostra. A frase B afirma um valor populacional exato e precisa de censo válido ou inferência justificada.
+Raciocínio: Amostra e população não são intercambiáveis.
+Motivo provável de erro a investigar: interpretação. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-VES-10
+Resposta esperada: Resposta aberta. Deve conter seis elementos coerentes entre si e explicar por que a unidade pertence à população, como a amostra é parte dela e por que as duas variáveis têm classificações adequadas.
+Raciocínio: Avaliar coerência conceitual, não um tema específico.
+Motivo provável de erro a investigar: estratégia. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-RET-01
+Resposta esperada: Uma escolha coerente é unidade = sessão. População = todas as sessões elegíveis no período e plataforma definidos. Outra escolha poderia ser usuário, mas exigiria reformular a pergunta e resumir múltiplas sessões.
+Raciocínio: A unidade deve corresponder à pergunta.
+Motivo provável de erro a investigar: estratégia. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-RET-02
+Resposta esperada: Qualitativa ordinal.
+Raciocínio: Os números 1, 2, 3 seriam códigos de níveis ordenados; não garantem distância quantitativa igual.
+Motivo provável de erro a investigar: conteúdo. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-RET-03
+Resposta esperada: Perguntar se os produtos do turno noturno são representativos dos demais turnos e qual foi o mecanismo de seleção.
+Raciocínio: A amostra cobre apenas uma parte temporal da produção.
+Motivo provável de erro a investigar: interpretação. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-RET-04
+Resposta esperada: Resposta aberta. Exemplo válido: variável = temperatura do líquido; dado = 22,4 graus Celsius medidos em uma amostra concreta.
+Raciocínio: A variável nomeia a característica; o dado é o valor observado.
+Motivo provável de erro a investigar: memória. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-RET-05
+Resposta esperada: Foram observadas 100 pessoas e existem 600 registros.
+Raciocínio: Cada pessoa contribuiu seis linhas; registros repetidos da mesma unidade não criam novas pessoas.
+Motivo provável de erro a investigar: cálculo. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+MAT-EST-001-EX-RET-06
+Resposta esperada: Resposta esperada: a pergunta define o que queremos saber; a população define sobre quem; a unidade define o que cada observação representa; a variável define o que registramos; os dados são os valores; a conclusão deve respeitar tudo isso. Exemplo de erro: coletar apenas clientes de uma academia e concluir sobre todos os moradores da cidade.
+Raciocínio: Avaliar encadeamento e limite da generalização.
+Motivo provável de erro a investigar: estratégia. Essa classificação é uma hipótese pedagógica e só deve ser atribuída ao estudante após examinar a tentativa real.
+
+
+Critério de correção geral
+
+
+Não considerar domínio apenas por marcar uma alternativa ou repetir uma definição. Nas questões abertas, exigir correspondência entre pergunta, população, unidade, variável e limite da conclusão. Se o estudante confundir variável e dado, retomar as seções 9 e 11. Se confundir população e amostra, retomar as seções 5 e 6. Se a dificuldade estiver em interpretar o enunciado, reduzir o problema para uma frase e identificar primeiro “sobre quem queremos falar?” e “o que foi realmente observado?”.
+
+
+Reteste
+
+
+Os seis itens RET devem ser usados apenas em sessão posterior à correção e à remediação necessária. Não somar o reteste à nota da primeira tentativa para mascarar a dificuldade inicial.

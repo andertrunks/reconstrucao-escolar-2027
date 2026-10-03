@@ -1,0 +1,960 @@
+MAT-EST-009 — Coeficiente de variação: dispersão relativa e comparação entre escalas
+
+
+Status editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.
+Matéria: Matemática.
+Unidade: Estatística.
+Nível principal: 3 — transição entre Ensino Fundamental II e Ensino Médio, com aprofundamento para ENEM, FUVEST, UNICAMP, UNESP e ponte universitária.
+Pré-requisitos: MAT-EST-001 a MAT-EST-008; média aritmética; desvio-padrão; razão, proporção e porcentagem.
+Próximo tópico: MAT-EST-010 — Quartis, decis e percentis: posição relativa e leitura de distribuição.
+Questões desta reconstrução: 100% autorais.
+
+
+1. Objetivo
+
+
+Ao concluir esta aula, o estudante deverá ser capaz de:
+
+
+• compreender por que o desvio-padrão absoluto nem sempre basta para comparar dispersões;
+• definir coeficiente de variação, ou CV;
+• calcular CV populacional e amostral quando apropriado;
+• interpretar o CV como dispersão relativa à média;
+• converter o CV para porcentagem;
+• reconhecer que o CV não possui unidade física quando usado adequadamente;
+• comparar conjuntos em escalas diferentes com cuidado;
+• reconhecer situações em que o CV é inadequado ou instável;
+• explicar por que médias iguais a zero ou muito próximas de zero criam problemas;
+• explicar por que escalas com zero arbitrário, como Celsius, exigem cautela;
+• distinguir comparação absoluta de comparação relativa;
+• relacionar o CV às transformações lineares estudadas na MAT-EST-008;
+• resolver problemas autorais no estilo de vestibulares.
+
+
+2. Retomada: por que o desvio-padrão pode não bastar?
+
+
+Considere dois conjuntos de medidas na mesma unidade:
+
+
+Grupo A: média 10 e desvio-padrão 2.
+Grupo B: média 1000 e desvio-padrão 20.
+
+
+O grupo B tem desvio-padrão absoluto maior: 20 é maior que 2.
+
+
+Mas a escala média de B também é cem vezes maior.
+
+
+No grupo A, o desvio 2 corresponde a uma parcela relativamente grande da média 10.
+No grupo B, o desvio 20 corresponde a uma parcela pequena da média 1000.
+
+
+Isso motiva uma medida relativa.
+
+
+3. Definição do coeficiente de variação
+
+
+Uma forma comum de coeficiente de variação é:
+
+
+CV = desvio-padrão / média.
+
+
+Para população:
+
+
+CV = σ / μ.
+
+
+Leitura pronunciável:
+“coeficiente de variação é igual ao desvio-padrão populacional dividido pela média populacional”.
+
+
+Para amostra:
+
+
+CV = s / x̄.
+
+
+Leitura:
+“coeficiente de variação amostral é igual ao desvio-padrão amostral dividido pela média amostral”.
+
+
+4. Forma percentual
+
+
+Muitas vezes expressamos o CV em porcentagem:
+
+
+CV% = 100 × DP / média.
+
+
+Exemplo:
+
+
+média = 50;
+desvio-padrão = 5.
+
+
+CV = 5/50 = 0,10.
+
+
+CV% = 10%.
+
+
+Interpretação inicial: o desvio-padrão corresponde a 10% da média.
+
+
+5. O CV é uma razão
+
+
+O CV é construído a partir de duas grandezas com a mesma unidade:
+
+
+DP em centímetros / média em centímetros.
+
+
+As unidades se cancelam.
+
+
+Por isso, em situações adequadas, o CV é adimensional, isto é, não tem unidade física.
+
+
+Quando multiplicamos por 100, expressamos essa razão em porcentagem.
+
+
+6. Exemplo comparativo simples
+
+
+Conjunto A:
+média 10;
+DP 2.
+
+
+CV = 2/10 = 0,20 = 20%.
+
+
+Conjunto B:
+média 1000;
+DP 20.
+
+
+CV = 20/1000 = 0,02 = 2%.
+
+
+Embora B tenha DP absoluto maior, A tem maior dispersão relativa à sua média.
+
+
+7. Comparação absoluta versus relativa
+
+
+Desvio-padrão responde:
+“qual é a escala absoluta do espalhamento?”
+
+
+Coeficiente de variação responde:
+“qual é o espalhamento em relação ao tamanho da média?”
+
+
+Nenhuma das duas perguntas substitui a outra.
+
+
+8. Quando o CV é útil?
+
+
+Ele pode ser útil quando:
+
+
+• queremos comparar variabilidade de grandezas em escalas diferentes;
+• as médias são positivas e não estão próximas de zero;
+• a escala possui zero com significado de ausência da quantidade;
+• as variáveis estão em escala de razão;
+• a interpretação relativa faz sentido no contexto.
+
+
+9. O que é uma escala de razão?
+
+
+Uma escala de razão possui um zero com significado de ausência da quantidade e permite interpretar razões.
+
+
+Exemplos típicos:
+
+
+massa;
+comprimento;
+tempo decorrido;
+quantidade;
+renda monetária não negativa em contexto apropriado;
+concentração absoluta.
+
+
+Se uma massa é 20 kg e outra 10 kg, faz sentido dizer que a primeira é duas vezes a segunda.
+
+
+10. Escalas intervalares e o problema do zero arbitrário
+
+
+Temperatura em graus Celsius é exemplo clássico de escala intervalar.
+
+
+Zero grau Celsius não significa ausência de energia térmica.
+
+
+Além disso, uma mudança de Celsius para Fahrenheit envolve:
+
+
+F = 1,8C + 32.
+
+
+Na MAT-EST-008 vimos que o termo +32 altera a média, mas não o DP.
+
+
+Logo, o CV muda.
+
+
+Isso mostra que o CV não é invariante a mudanças de origem.
+
+
+11. Exemplo Celsius versus Fahrenheit
+
+
+Suponha:
+
+
+média em Celsius = 20 °C;
+DP = 2 °C.
+
+
+CV em Celsius:
+
+
+2/20 = 10%.
+
+
+Convertendo para Fahrenheit:
+
+
+média = 1,8×20 + 32 = 68 °F.
+
+
+DP = 1,8×2 = 3,6 °F.
+
+
+CV em Fahrenheit:
+
+
+3,6/68 ≈ 5,29%.
+
+
+A mesma realidade física produz CV diferente apenas pela mudança de escala.
+
+
+Portanto, comparar CV de temperaturas em Celsius é conceitualmente problemático.
+
+
+12. Transformações multiplicativas
+
+
+Se todos os dados são multiplicados por uma constante positiva a:
+
+
+nova média = a × média;
+novo DP = a × DP.
+
+
+Então:
+
+
+novo CV = (a×DP)/(a×média) = DP/média.
+
+
+O CV não muda.
+
+
+Isso mostra que o CV é invariante a mudança puramente multiplicativa de unidade.
+
+
+13. Exemplo metros para centímetros
+
+
+Média = 1,80 m.
+DP = 0,09 m.
+
+
+CV = 0,09/1,80 = 0,05 = 5%.
+
+
+Convertendo:
+
+
+média = 180 cm;
+DP = 9 cm.
+
+
+CV = 9/180 = 5%.
+
+
+O valor permanece igual.
+
+
+14. Transformação com adição
+
+
+Se:
+
+
+y = ax + b,
+
+
+então:
+
+
+DP(y) = |a| DP(x),
+
+
+mas:
+
+
+média(y) = a média(x) + b.
+
+
+O termo b não aparece no DP, mas aparece na média.
+
+
+Portanto, em geral, CV não é preservado quando b ≠ 0.
+
+
+15. Média igual a zero
+
+
+Se média = 0, então:
+
+
+CV = DP/0.
+
+
+Divisão por zero não está definida.
+
+
+Portanto, o CV não é definido da maneira usual quando a média é zero.
+
+
+16. Média próxima de zero
+
+
+Mesmo quando a média não é exatamente zero, mas é muito pequena, o CV pode explodir.
+
+
+Exemplo:
+
+
+média = 0,1;
+DP = 1.
+
+
+CV = 1/0,1 = 10 = 1000%.
+
+
+Esse número enorme pode ser consequência do denominador pequeno, e não de uma “variabilidade absurda” no sentido intuitivo.
+
+
+17. Média negativa
+
+
+Se a média for negativa, a fórmula simples produz CV negativo se mantivermos o sinal do denominador.
+
+
+Isso gera problemas de interpretação porque uma medida de dispersão relativa normalmente é pensada como não negativa.
+
+
+Em alguns contextos usa-se |média| no denominador, mas isso muda a convenção e precisa ser explicitado.
+
+
+Regra prática nesta trilha:
+
+
+não use CV mecanicamente quando a média puder ser zero, próxima de zero ou negativa.
+
+
+18. CV maior que 100%
+
+
+CV acima de 100% é matematicamente possível.
+
+
+Exemplo:
+
+
+média = 4;
+DP = 6.
+
+
+CV = 6/4 = 1,5 = 150%.
+
+
+Isso significa que o DP é 1,5 vez a média.
+
+
+Não existe regra universal dizendo que CV acima de 100% é “erro”.
+
+
+19. Não existem faixas universais de “baixo” e “alto” CV
+
+
+É comum encontrar regras como:
+
+
+CV menor que 10% = baixo;
+CV entre 10% e 20% = médio;
+CV acima de 30% = alto.
+
+
+Essas classificações podem existir em áreas específicas, mas não são leis gerais da estatística.
+
+
+O que é aceitável depende do fenômeno, da área, do instrumento, da escala e do objetivo.
+
+
+20. Exemplo de comparação entre processos
+
+
+Processo A:
+média = 100 unidades;
+DP = 4.
+
+
+CV = 4%.
+
+
+Processo B:
+média = 20 unidades;
+DP = 2.
+
+
+CV = 10%.
+
+
+B tem menor DP absoluto, mas maior dispersão relativa.
+
+
+21. Exemplo com medidas corporais
+
+
+Grupo A:
+altura média = 170 cm;
+DP = 8,5 cm.
+
+
+CV = 8,5/170 = 5%.
+
+
+Grupo B:
+massa média = 70 kg;
+DP = 7 kg.
+
+
+CV = 10%.
+
+
+Os DPs não podem ser comparados diretamente porque têm unidades diferentes.
+
+
+Os CVs são adimensionais e permitem uma comparação relativa, desde que a interpretação seja conceitualmente adequada.
+
+
+22. Limitação: variáveis diferentes continuam sendo fenômenos diferentes
+
+
+Mesmo quando o CV permite comparação numérica, não devemos esquecer o significado substantivo das variáveis.
+
+
+Um CV de 10% para massa corporal e 10% para tempo de reação têm a mesma dispersão relativa em relação às respectivas médias, mas isso não transforma os fenômenos em equivalentes.
+
+
+23. CV populacional e amostral
+
+
+Se estamos descrevendo população completa:
+
+
+CVpop = σ/μ.
+
+
+Se estamos trabalhando com amostra e usando o DP amostral:
+
+
+CVam = s/x̄.
+
+
+A escolha deve ser coerente com a definição de média e desvio-padrão usada.
+
+
+24. Exemplo amostral
+
+
+Amostra:
+
+
+média x̄ = 50;
+DP amostral s = 7,5.
+
+
+CV = 7,5/50 = 0,15 = 15%.
+
+
+25. Cuidado ao misturar DP populacional e média amostral
+
+
+Usar σ no numerador e x̄ no denominador pode misturar parâmetros e estatísticas de origens diferentes.
+
+
+Sempre identifique o que cada símbolo representa.
+
+
+26. Relação com variância
+
+
+Como DP = √variância:
+
+
+CV = √variância / média.
+
+
+Mas não usamos variância diretamente no numerador porque ela está em unidade ao quadrado.
+
+
+O DP devolve a unidade original antes de formar a razão.
+
+
+27. CV e mesma média
+
+
+Se dois conjuntos têm a mesma média positiva, comparar CV é equivalente a comparar DP.
+
+
+Exemplo:
+
+
+A: média 50, DP 2.
+B: média 50, DP 5.
+
+
+CV A = 4%.
+CV B = 10%.
+
+
+A ordenação é a mesma do DP.
+
+
+28. CV e médias diferentes
+
+
+Quando médias diferem, a ordenação pode mudar.
+
+
+A: média 10, DP 2 → CV 20%.
+B: média 100, DP 5 → CV 5%.
+
+
+B tem DP maior, mas CV menor.
+
+
+29. CV e mudança de unidade
+
+
+Quilômetros para metros é multiplicação por 1000.
+
+
+Se média e DP são multiplicados por 1000, o CV permanece igual.
+
+
+Essa propriedade torna o CV útil para comparações relativas entre unidades de medida equivalentes.
+
+
+30. CV e deslocamento de origem
+
+
+Celsius para Fahrenheit inclui adição de 32.
+
+
+O DP sofre apenas multiplicação por 1,8, enquanto a média sofre multiplicação e adição.
+
+
+O CV muda.
+
+
+Essa é uma razão fundamental para exigir escala de razão.
+
+
+31. Exemplo completo 1
+
+
+Conjunto A:
+média 40;
+DP 8.
+
+
+CV = 8/40 = 0,20 = 20%.
+
+
+Conjunto B:
+média 100;
+DP 15.
+
+
+CV = 15/100 = 15%.
+
+
+A tem maior dispersão relativa, apesar de DP menor.
+
+
+32. Exemplo completo 2
+
+
+Produto A:
+preço médio R$ 20;
+DP R$ 1.
+
+
+CV = 5%.
+
+
+Produto B:
+preço médio R$ 100;
+DP R$ 8.
+
+
+CV = 8%.
+
+
+B apresenta maior dispersão relativa de preço.
+
+
+33. Exemplo completo 3 — conversão de unidade
+
+
+Comprimento médio = 2 m.
+DP = 0,1 m.
+
+
+CV = 5%.
+
+
+Em centímetros:
+
+
+média = 200 cm;
+DP = 10 cm;
+
+
+CV = 5%.
+
+
+34. Exemplo completo 4 — média pequena
+
+
+média = 0,02;
+DP = 0,05.
+
+
+CV = 250%.
+
+
+Antes de interpretar como “grande variabilidade”, devemos perguntar se a média próxima de zero torna o CV inadequado para a finalidade.
+
+
+35. Exemplo completo 5 — zero arbitrário
+
+
+Temperatura:
+
+
+média 10 °C;
+DP 2 °C.
+
+
+CV Celsius = 20%.
+
+
+Em Fahrenheit:
+
+
+média = 50 °F;
+DP = 3,6 °F.
+
+
+CV = 7,2%.
+
+
+O CV mudou drasticamente sem alteração física do fenômeno.
+
+
+36. Por que “adimensional” não significa “sempre comparável”?
+
+
+Duas medidas sem unidade podem ter significados diferentes.
+
+
+A ausência de unidade facilita a comparação numérica, mas não elimina a necessidade de contexto, escala de mensuração e significado científico.
+
+
+37. Comparação entre laboratórios
+
+
+Laboratório A:
+média = 500 mg;
+DP = 10 mg.
+
+
+CV = 2%.
+
+
+Laboratório B:
+média = 50 mg;
+DP = 2 mg.
+
+
+CV = 4%.
+
+
+A tem maior DP absoluto, mas menor variabilidade relativa.
+
+
+38. CV em controle de qualidade
+
+
+Em alguns contextos de laboratório, indústria e metrologia, o CV é usado para expressar repetibilidade relativa.
+
+
+Mas os limites aceitáveis dependem do método e da área. Não existe um único corte universal.
+
+
+39. CV e precisão
+
+
+CV baixo pode indicar baixa dispersão relativa.
+
+
+Isso pode estar associado a boa repetibilidade.
+
+
+Mas, como discutido na MAT-EST-008, baixa dispersão não garante exatidão.
+
+
+Um instrumento pode ser muito consistente e sistematicamente errado.
+
+
+40. CV e valores extremos
+
+
+Como o CV usa DP, ele herda a sensibilidade do desvio-padrão aos valores extremos.
+
+
+Um extremo pode aumentar o DP e também alterar a média.
+
+
+O efeito final no CV depende das duas mudanças.
+
+
+41. CV não é medida robusta
+
+
+Como média e DP são sensíveis a extremos, o CV também é sensível.
+
+
+Em dados muito assimétricos ou com extremos importantes, outras medidas relativas podem ser mais adequadas, dependendo do objetivo.
+
+
+42. CV e dados lognormais
+
+
+Em áreas como biologia, finanças e confiabilidade, dados positivos e assimétricos podem ser modelados por distribuições lognormais.
+
+
+Há relações específicas entre parâmetros logarítmicos e CV.
+
+
+Esse assunto é uma ponte universitária e não será aprofundado agora.
+
+
+43. Alternativas relativas
+
+
+Dependendo da situação, podem ser usadas outras medidas:
+
+
+• amplitude relativa;
+• desvio absoluto relativo;
+• razão entre amplitude interquartil e mediana;
+• medidas baseadas em logaritmos.
+
+
+A escolha depende do tipo de dado e da pergunta.
+
+
+44. Relação com quartis
+
+
+A próxima aula estudará quartis, decis e percentis.
+
+
+Essas medidas permitem construir formas de dispersão menos sensíveis a extremos, como amplitude interquartil.
+
+
+45. Relação com box-plot
+
+
+O box-plot usa quartis e amplitude interquartil para representar centro, dispersão e possíveis extremos.
+
+
+Ele complementa média, DP e CV com uma visão baseada em posições.
+
+
+46. Relação com BNCC, ENEM e FUVEST
+
+
+A BNCC constrói os fundamentos de centro e dispersão nos anos finais, especialmente com média, mediana, moda e amplitude.
+
+
+A FUVEST 2027 inclui explicitamente amplitude, desvio-médio, variância, desvio-padrão e coeficiente de variação entre as medidas de dispersão.
+
+
+A Matriz de Referência do Enem publicada pelo Inep em 2026 orienta competências de resolução de problemas e análise de dados. As questões desta reconstrução são autorais.
+
+
+47. O que observar nos seis visuais
+
+
+Visual 1 — DP absoluto versus CV.
+Compare dois grupos em escalas muito diferentes.
+
+
+Visual 2 — invariância por multiplicação.
+Observe que converter metros em centímetros multiplica média e DP pelo mesmo fator, preservando CV.
+
+
+Visual 3 — falha por adição de constante.
+Observe Celsius e Fahrenheit: o termo +32 altera a razão.
+
+
+Visual 4 — média próxima de zero.
+Observe como o denominador pequeno faz o CV crescer muito.
+
+
+Visual 5 — comparação de quatro grupos.
+Observe que a ordenação por DP pode ser diferente da ordenação por CV.
+
+
+Visual 6 — árvore de decisão.
+Verifique média positiva, zero significativo, escala de razão e objetivo comparativo antes de usar CV.
+
+
+48. Erros frequentes
+
+
+Erro 1. Dividir variância pela média em vez de DP pela média.
+Erro 2. Esquecer de multiplicar por 100 ao apresentar percentual.
+Erro 3. Comparar CV em escala Celsius sem questionar o zero arbitrário.
+Erro 4. Usar CV com média zero.
+Erro 5. Interpretar CV enorme com média quase zero sem cautela.
+Erro 6. Tratar faixas de “CV baixo/médio/alto” como universais.
+Erro 7. Achar que CV sem unidade torna quaisquer fenômenos comparáveis.
+Erro 8. Misturar DP populacional com média amostral sem justificativa.
+Erro 9. Ignorar valores extremos.
+Erro 10. Confundir baixa variabilidade relativa com exatidão.
+
+
+49. Resumo
+
+
+CV = DP/média.
+
+
+CV% = 100 × DP/média.
+
+
+Em escalas de razão com média positiva, o CV mede dispersão relativa.
+
+
+Multiplicar todos os valores por constante positiva não altera o CV.
+
+
+Adicionar constante altera o CV em geral.
+
+
+CV não é adequado de forma automática para médias zero, próximas de zero ou negativas.
+
+
+Escalas com zero arbitrário, como Celsius, exigem cautela.
+
+
+50. Versão curta para ouvir
+
+
+O coeficiente de variação compara o desvio-padrão com a média.
+
+
+Ele responde quanto o espalhamento representa em relação ao tamanho médio dos valores.
+
+
+A fórmula percentual é cem vezes o desvio-padrão dividido pela média.
+
+
+É útil para comparar dispersão relativa em escalas de razão e médias positivas.
+
+
+Não use mecanicamente quando a média é zero, quase zero ou negativa, nem quando o zero da escala é arbitrário.
+
+
+Converter metros em centímetros preserva o CV. Converter Celsius em Fahrenheit não preserva, porque existe uma mudança de origem.
+
+
+51. Vídeo complementar
+
+
+Vídeo recomendado:
+“COEFICIENTE DE VARIAÇÃO : MEDIDA DE DISPERSÃO”.
+Canal: Prof. MURAKAMI - MATEMÁTICA RAPIDOLA.
+URL: https://www.youtube.com/watch?v=ZFj5WbYzr4Q
+
+
+Motivo:
+A descrição pública define o CV como medida padronizada de dispersão, explica a forma percentual e sua utilidade para comparar variabilidade relativa.
+
+
+Quando assistir:
+Após as seções 3 a 8 e antes dos exercícios de consolidação.
+
+
+Estado de QA:
+A página e a descrição pública foram localizadas. Reprodução integral, áudio, duração efetiva e sincronização das legendas no Microsoft Edge permanecem pendentes.
+
+
+52. Critério de domínio
+
+
+O tópico só deve ser marcado como consolidado quando o estudante conseguir:
+
+
+• calcular CV;
+• interpretar a porcentagem;
+• distinguir DP absoluto e relativo;
+• comparar escalas;
+• explicar invariância multiplicativa;
+• explicar falha sob translação;
+• reconhecer média zero ou próxima de zero;
+• justificar quando não usar CV;
+• resolver situação nova sem copiar modelo pronto.
+
+
+A produção editorial não altera progresso individual.
+
+
+53. Próximo passo
+
+
+MAT-EST-010 — Quartis, decis e percentis: posição relativa e leitura de distribuição.

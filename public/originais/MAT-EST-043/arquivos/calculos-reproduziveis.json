@@ -1,0 +1,151 @@
+{
+  "id": "MAT-EST-043",
+  "natureza": "Dados trimestrais artificiais gerados por soma conhecida T+S+R; valores não são estimativa real de STL nem dados observacionais externos.",
+  "dadosHerdados": {
+    "arquivoOrigem": "MAT-EST-042/dados-ficticios-referencia.csv",
+    "sha256Original": "f1cc3989cd8c701a14e544c424b797f27594806ae302a93253e2a1b82fab5ca9",
+    "sha256Copia": "f1cc3989cd8c701a14e544c424b797f27594806ae302a93253e2a1b82fab5ca9",
+    "copiaSemAlteracao": true,
+    "aviso": "Oito dias preservados somente para continuidade, sem sazonalidade trimestral atribuída."
+  },
+  "dadosTrimestraisNovos": {
+    "observados": [
+      90,
+      107,
+      128,
+      105,
+      111,
+      124,
+      150,
+      127,
+      129,
+      145,
+      171,
+      144
+    ],
+    "tendenciaConhecida": [
+      100,
+      105,
+      110,
+      115,
+      120,
+      125,
+      130,
+      135,
+      140,
+      145,
+      150,
+      155
+    ],
+    "sazonalidadeConhecida": [
+      -10,
+      0,
+      20,
+      -10,
+      -10,
+      0,
+      20,
+      -10,
+      -10,
+      0,
+      20,
+      -10
+    ],
+    "restanteConhecido": [
+      0,
+      2,
+      -2,
+      0,
+      1,
+      -1,
+      0,
+      2,
+      -1,
+      0,
+      1,
+      -1
+    ],
+    "periodicidade": 4,
+    "dadosDeTreinoPeriodos": [
+      1,
+      8
+    ],
+    "dadosDeTestePeriodos": [
+      9,
+      12
+    ]
+  },
+  "diferencasSazonaisPeriodos5a12": [
+    21,
+    17,
+    22,
+    22,
+    18,
+    21,
+    21,
+    17
+  ],
+  "mediaDiferencasTreinoPeriodos5a8": 20.5,
+  "exemploMediaMovelCentrada4": {
+    "mediaJanela1a4": 107.5,
+    "mediaJanela2a5": 112.75,
+    "valorCentradoPeriodo3": 110.125
+  },
+  "avaliacaoMesmoTeste": {
+    "observados9a12": [
+      129,
+      145,
+      171,
+      144
+    ],
+    "sazonalIngenuo": {
+      "previsoes": [
+        111,
+        124,
+        150,
+        127
+      ],
+      "errosObservadoMenosPrevisto": [
+        18,
+        21,
+        21,
+        17
+      ],
+      "mae": 19.25,
+      "rmse": 19.332614929181204
+    },
+    "ultimoValorTreino": {
+      "previsoes": [
+        127,
+        127,
+        127,
+        127
+      ],
+      "mae": 20.25,
+      "rmse": 25.26361019331956
+    },
+    "ajusteSazonalComDeslocamentoHistoricoFixo": {
+      "driftEstimadoNoTreino": 20.5,
+      "previsoes": [
+        131.5,
+        144.5,
+        170.5,
+        147.5
+      ],
+      "erros": [
+        -2.5,
+        0.5,
+        0.5,
+        -3.5
+      ],
+      "mae": 1.75,
+      "rmse": 2.179449471770337
+    }
+  },
+  "limites": [
+    "Pequena série, apenas 2 ciclos no treino e 1 no teste; comparação demonstrativa, sem garantia prospectiva.",
+    "Componentes T/S/R conhecidos por construção, não estimados do observado.",
+    "Método de deslocamento foi especificado antes de inspecionar os quatro valores de teste; não selecionar retrospectivamente depois do teste.",
+    "Média móvel centrada é descritiva; em tempo real usaria períodos futuros."
+  ]
+}

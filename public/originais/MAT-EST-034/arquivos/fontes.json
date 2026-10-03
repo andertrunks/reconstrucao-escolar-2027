@@ -1,0 +1,38 @@
+[
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 200 — Elementary Statistics",
+    "url": "https://online.stat.psu.edu/statprogram/stat200",
+    "uso": "Processo de investigação estatística, representatividade, variabilidade e conclusão responsável."
+  },
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 501 — Lesson 10: Model Building e 10.6 Cross-validation",
+    "url": "https://online.stat.psu.edu/stat501/Lesson10",
+    "uso": "Definição da pergunta, exploração, validação independente e seleção de modelos."
+  },
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 501 — Lesson 4: SLR Model Assumptions",
+    "url": "https://online.stat.psu.edu/stat501/Lesson04",
+    "uso": "Diagnóstico de resíduos e dependências da validade do modelo."
+  },
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 501 — Lesson 3: SLR Estimation & Prediction",
+    "url": "https://online.stat.psu.edu/stat501/Lesson03",
+    "uso": "Distinção entre estimativa de resposta média e previsão individual."
+  },
+  {
+    "instituicao": "MIT OpenCourseWare",
+    "titulo": "The Analytics Edge — Assignments: Final Project",
+    "url": "https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/pages/assignments/",
+    "uso": "Referência pedagógica de projeto com pergunta, dados, técnica e relatório; sem reproduzir requisitos como edital de vestibular."
+  },
+  {
+    "instituicao": "MIT OpenCourseWare",
+    "titulo": "Video 4: Validating the Model",
+    "url": "https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/resources/video-4-validating-the-model-0/",
+    "uso": "Vídeo complementar."
+  }
+]

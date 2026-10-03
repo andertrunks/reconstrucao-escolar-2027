@@ -1,0 +1,360 @@
+{
+  "id": "MAT-EST-001",
+  "version": "publicacao-2026-10-03-v1",
+  "objective": "1. Objetivo\n\n\nAo concluir o estudo real desta aula e resolver as atividades sem consultar o gabarito antes da tentativa, o estudante deverá ser capaz de:\n\n\n• explicar, com palavras próprias, o que a Estatística procura fazer;\n• diferenciar população e amostra;\n• identificar corretamente a unidade de análise de uma investigação;\n• diferenciar variável e dado observado;\n• reconhecer variáveis qualitativas e quantitativas em exemplos simples;\n• distinguir, como primeira aproximação, variáveis quantitativas discretas e contínuas e variáveis qualitativas nominais e ordinais;\n• explicar por que uma amostra não é automaticamente representativa apenas por ser grande;\n• montar a estrutura lógica “pergunta → população → unidade → variável → dados → análise”;\n• reconhecer esses conceitos em situações novas, inclusive em gráficos, pesquisas de opinião e problemas no estilo de vestibulares.\n\n\n",
+  "prerequisites": [],
+  "why": "MAT-EST-001 — Introdução à Estatística: população, amostra, variável e dado\n\n\nStatus editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.\nMatéria: Matemática.\nUnidade: Estatística.\nNível principal: 2 — Ensino Fundamental II, com conexões progressivas aos níveis 3 e 4.\nPré-requisitos conceituais: leitura literal de frases curtas; contagem com números naturais; comparação simples de quantidades. Porcentagem, média e probabilidade NÃO são exigidas para iniciar esta aula.\nPróximo tópico: MAT-EST-002 — Censo, amostragem e representatividade: como escolher uma amostra.\nOrigem das questões desta reconstrução: 100% autoral.\n\n\n",
+  "intuitive": [],
+  "deep": [],
+  "vocabulary": [],
+  "examples": [],
+  "visuals": [
+    {
+      "url": "media/MAT-EST-001/visual-01.svg",
+      "caption": "População e amostra",
+      "alt": "conjunto maior com vinte unidades representadas por círculos identificáveis e, dentro dele, cinco unidades destacadas como amostra.",
+      "observe": "nenhuma unidade da amostra está fora da população; a amostra não é uma população diferente.",
+      "conclusion": "população é o conjunto completo definido pela pergunta; amostra é o subconjunto efetivamente selecionado ou observado segundo o desenho."
+    },
+    {
+      "url": "media/MAT-EST-001/visual-02.svg",
+      "caption": "Unidade, variável e dado",
+      "alt": "pequena matriz com três linhas de atendimentos e três colunas: identificador, meio de transporte e tempo em minutos.",
+      "observe": "“tempo” é o nome da variável; “18 minutos” é um dado; “A17” identifica a unidade.",
+      "conclusion": "variável é a característica registrada; dado é o valor da característica em uma unidade concreta."
+    },
+    {
+      "url": "media/MAT-EST-001/visual-03.svg",
+      "caption": "Árvore de classificação das variáveis",
+      "alt": "árvore textual que divide variável em qualitativa e quantitativa; qualitativa em nominal e ordinal; quantitativa em discreta e contínua.",
+      "observe": "cada ramo contém um exemplo e uma pergunta-guia.",
+      "conclusion": "classificar uma variável depende de seu significado, e não apenas da aparência do código usado para registrá-la."
+    },
+    {
+      "url": "media/MAT-EST-001/visual-04.svg",
+      "caption": "Censo e amostra",
+      "alt": "dois caminhos partindo da mesma população: censo cobre todas as unidades; pesquisa amostral seleciona uma parte e mantém explícita a população-alvo.",
+      "observe": "censo e amostra são estratégias de coleta diferentes; nenhuma delas corrige uma pergunta mal definida.",
+      "conclusion": "observar todos pode reduzir erro de amostragem, mas não elimina outros erros; amostragem exige um plano de seleção."
+    },
+    {
+      "url": "media/MAT-EST-001/visual-05.svg",
+      "caption": "Da pergunta à conclusão",
+      "alt": "sequência pergunta → população → unidade → variáveis → coleta → dados → análise → conclusão limitada.",
+      "observe": "a análise aparece somente depois da definição e da coleta.",
+      "conclusion": "uma conclusão estatística só faz sentido quando sabemos de onde vieram os dados e a que conjunto a afirmação pretende se referir."
+    }
+  ],
+  "applications": [],
+  "connections": [],
+  "commonErrors": [],
+  "learning": [
+    "MAT-EST-001-EX-APR-01",
+    "MAT-EST-001-EX-APR-02",
+    "MAT-EST-001-EX-APR-03",
+    "MAT-EST-001-EX-APR-04",
+    "MAT-EST-001-EX-APR-05",
+    "MAT-EST-001-EX-APR-06",
+    "MAT-EST-001-EX-APR-07",
+    "MAT-EST-001-EX-APR-08",
+    "MAT-EST-001-EX-APR-09",
+    "MAT-EST-001-EX-APR-10"
+  ],
+  "consolidation": [
+    "MAT-EST-001-EX-CON-01",
+    "MAT-EST-001-EX-CON-02",
+    "MAT-EST-001-EX-CON-03",
+    "MAT-EST-001-EX-CON-04",
+    "MAT-EST-001-EX-CON-05",
+    "MAT-EST-001-EX-CON-06",
+    "MAT-EST-001-EX-CON-07",
+    "MAT-EST-001-EX-CON-08",
+    "MAT-EST-001-EX-CON-09",
+    "MAT-EST-001-EX-CON-10"
+  ],
+  "entrance": [
+    "MAT-EST-001-EX-VES-01",
+    "MAT-EST-001-EX-VES-02",
+    "MAT-EST-001-EX-VES-03",
+    "MAT-EST-001-EX-VES-04",
+    "MAT-EST-001-EX-VES-05",
+    "MAT-EST-001-EX-VES-06",
+    "MAT-EST-001-EX-VES-07",
+    "MAT-EST-001-EX-VES-08",
+    "MAT-EST-001-EX-VES-09",
+    "MAT-EST-001-EX-VES-10"
+  ],
+  "retest": [
+    "MAT-EST-001-EX-RET-01",
+    "MAT-EST-001-EX-RET-02",
+    "MAT-EST-001-EX-RET-03",
+    "MAT-EST-001-EX-RET-04",
+    "MAT-EST-001-EX-RET-05",
+    "MAT-EST-001-EX-RET-06"
+  ],
+  "solutions": [],
+  "summary": "19. Resumo\n\n\nEstatística começa com uma pergunta sobre um conjunto de interesse.\n\n\nPopulação é o conjunto completo de unidades definido pela investigação.\n\n\nAmostra é a parte da população que foi selecionada ou observada.\n\n\nUnidade de análise é aquilo que cada observação representa.\n\n\nVariável é a característica registrada.\n\n\nDado é o valor observado dessa variável em uma unidade concreta.\n\n\nVariáveis qualitativas descrevem categorias; podem ser nominais ou ordinais.\n\n\nVariáveis quantitativas descrevem quantidades; podem ser discretas ou contínuas.\n\n\nAntes de calcular, precisamos saber de onde os dados vieram e até onde uma conclusão pode ir.\n\n\n",
+  "audioVersion": "20. Versão curta para ouvir\n\n\nA Estatística transforma observações em descrições e conclusões, mas o primeiro passo não é uma fórmula. Primeiro fazemos uma pergunta. Depois definimos a população, isto é, o conjunto completo sobre o qual queremos falar. Se observamos somente uma parte, essa parte é a amostra. Em seguida definimos a unidade de análise, que é aquilo que cada registro representa. Uma variável é uma característica registrada para cada unidade, e um dado é o valor dessa característica em um caso concreto. Variáveis podem representar categorias ou quantidades. Uma amostra grande não é automaticamente representativa; a forma de seleção será estudada na próxima aula. Uma conclusão responsável nunca deve ir além do conjunto e do processo de coleta que realmente foram definidos.\n\n\n",
+  "sections": [
+    {
+      "id": "MAT-EST-001-s000",
+      "title": "Apresentação e contexto da fonte",
+      "paragraphs": [],
+      "markdown": "MAT-EST-001 — Introdução à Estatística: população, amostra, variável e dado\n\n\nStatus editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.\nMatéria: Matemática.\nUnidade: Estatística.\nNível principal: 2 — Ensino Fundamental II, com conexões progressivas aos níveis 3 e 4.\nPré-requisitos conceituais: leitura literal de frases curtas; contagem com números naturais; comparação simples de quantidades. Porcentagem, média e probabilidade NÃO são exigidas para iniciar esta aula.\nPróximo tópico: MAT-EST-002 — Censo, amostragem e representatividade: como escolher uma amostra.\nOrigem das questões desta reconstrução: 100% autoral.\n\n\n",
+      "sourceStart": 0,
+      "sourceEnd": 667
+    },
+    {
+      "id": "MAT-EST-001-s001",
+      "title": "1. Objetivo",
+      "paragraphs": [],
+      "markdown": "1. Objetivo\n\n\nAo concluir o estudo real desta aula e resolver as atividades sem consultar o gabarito antes da tentativa, o estudante deverá ser capaz de:\n\n\n• explicar, com palavras próprias, o que a Estatística procura fazer;\n• diferenciar população e amostra;\n• identificar corretamente a unidade de análise de uma investigação;\n• diferenciar variável e dado observado;\n• reconhecer variáveis qualitativas e quantitativas em exemplos simples;\n• distinguir, como primeira aproximação, variáveis quantitativas discretas e contínuas e variáveis qualitativas nominais e ordinais;\n• explicar por que uma amostra não é automaticamente representativa apenas por ser grande;\n• montar a estrutura lógica “pergunta → população → unidade → variável → dados → análise”;\n• reconhecer esses conceitos em situações novas, inclusive em gráficos, pesquisas de opinião e problemas no estilo de vestibulares.\n\n\n",
+      "sourceStart": 667,
+      "sourceEnd": 1560
+    },
+    {
+      "id": "MAT-EST-001-s002",
+      "title": "2. Antes de começar: o mínimo necessário",
+      "paragraphs": [],
+      "markdown": "2. Antes de começar: o mínimo necessário\n\n\nEsta aula começa do zero dentro da Estatística. Não é necessário saber calcular média, desvio-padrão ou probabilidade.\n\n\nÉ necessário apenas compreender três ideias comuns:\n\n\nPrimeira ideia: um conjunto é uma coleção de elementos considerados juntos. Por exemplo, “todos os livros de uma estante” é um conjunto.\n\n\nSegunda ideia: uma característica é algo que podemos observar ou registrar sobre um elemento. Por exemplo, em um livro podemos registrar número de páginas, gênero literário e ano de publicação.\n\n\nTerceira ideia: uma pergunta de pesquisa define o que realmente queremos conhecer. Sem uma pergunta razoavelmente clara, não sabemos qual população observar nem quais dados coletar.\n\n\nMicrodiagnóstico. Imagine cinco caixas numeradas. Se eu pergunto “quantas caixas há?”, preciso apenas contar. Se pergunto “qual é o peso médio das caixas?”, preciso conhecer o peso de cada caixa ou de uma amostra delas. A Estatística começa quando organizamos observações para responder perguntas sobre um conjunto de interesse.\n\n\n",
+      "sourceStart": 1560,
+      "sourceEnd": 2628
+    },
+    {
+      "id": "MAT-EST-001-s003",
+      "title": "3. Por que a Estatística existe?",
+      "paragraphs": [],
+      "markdown": "3. Por que a Estatística existe?\n\n\nNo cotidiano, quase nunca conseguimos observar perfeitamente tudo aquilo que gostaríamos de conhecer.\n\n\nUma prefeitura pode querer saber quanto tempo as pessoas levam para chegar ao trabalho. Uma fábrica pode querer estimar a proporção de peças defeituosas. Uma escola pode querer entender como os estudantes se deslocam até as aulas. Um pesquisador pode querer descrever a altura de uma população. Um portal de notícias pode apresentar uma pesquisa de opinião.\n\n\nEm todos esses casos há três desafios:\n\n\n1. decidir exatamente sobre quem ou sobre o que queremos falar;\n2. decidir o que vamos observar;\n3. transformar observações em uma conclusão sem dizer mais do que os dados permitem.\n\n\nA Estatística reúne métodos para coletar, organizar, resumir, analisar e interpretar dados. Nas aulas seguintes acrescentaremos ferramentas matemáticas progressivamente. Nesta primeira aula, o objetivo é aprender a linguagem básica para não fazer contas corretas sobre o conjunto errado.\n\n\n",
+      "sourceStart": 2628,
+      "sourceEnd": 3642
+    },
+    {
+      "id": "MAT-EST-001-s004",
+      "title": "4. A pergunta vem antes da conta",
+      "paragraphs": [],
+      "markdown": "4. A pergunta vem antes da conta\n\n\nConsidere a pergunta:\n\n\n“Qual é o tempo de espera dos clientes de uma biblioteca municipal para retirar um livro reservado?”\n\n\nAntes de calcular qualquer coisa, precisamos esclarecer:\n\n\n• Que biblioteca?\n• Em qual período?\n• O que conta como cliente?\n• O tempo começa quando a pessoa entra na fila ou quando chega ao prédio?\n• A unidade observada é a pessoa, a reserva ou cada atendimento?\n• Mediremos segundos, minutos ou categorias como “rápido”, “moderado” e “demorado”?\n\n\nEssas decisões não são burocracia. Elas mudam o significado do dado.\n\n\nSe uma mesma pessoa retira três reservas em momentos diferentes, “pessoa” e “atendimento” não são a mesma unidade de análise. Uma planilha com três linhas pode representar três pessoas diferentes ou três atendimentos da mesma pessoa. A interpretação depende disso.\n\n\n",
+      "sourceStart": 3642,
+      "sourceEnd": 4491
+    },
+    {
+      "id": "MAT-EST-001-s005",
+      "title": "5. População: o conjunto sobre o qual queremos falar",
+      "paragraphs": [],
+      "markdown": "5. População: o conjunto sobre o qual queremos falar\n\n\nPopulação estatística é o conjunto completo de unidades que atendem à definição da investigação.\n\n\nA palavra “população” não significa apenas pessoas. Uma população pode ser formada por:\n\n\n• todas as lâmpadas produzidas por uma máquina em um turno;\n• todos os pedidos registrados por uma loja em um mês;\n• todas as árvores de determinada área delimitada;\n• todos os lançamentos de um processo experimental definido;\n• todos os estudantes matriculados em uma instituição, se essa for a pergunta.\n\n\nA população precisa ser delimitada.\n\n\nDizer “os brasileiros” é vago para muitas pesquisas. “Pessoas com 16 anos ou mais residentes no Brasil em uma determinada data de referência”, por exemplo, é uma definição mais precisa, porque informa critérios de inclusão.\n\n\nEm notação estatística, é comum representar o tamanho de uma população finita por N maiúsculo. Leitura: “ene maiúsculo”. Nesta aula, a notação é apenas uma convenção. Não é necessário decorar agora.\n\n\nExemplo resolvido 1.\n\n\nPergunta: “Qual é a quantidade de páginas dos romances disponíveis no acervo de uma biblioteca específica no fechamento do mês?”\n\n\nPopulação: todos os romances que pertencem ao acervo definido naquele fechamento.\nUnidade de análise: cada romance do acervo.\nVariável: número de páginas.\nDado: um valor efetivamente observado em uma unidade, por exemplo, 312 páginas.\n\n\nObserve: “312” não é a variável. A variável é “número de páginas”. O número 312 é um valor dessa variável para um livro particular.\n\n\n",
+      "sourceStart": 4491,
+      "sourceEnd": 6033
+    },
+    {
+      "id": "MAT-EST-001-s006",
+      "title": "6. Amostra: a parte observada da população",
+      "paragraphs": [],
+      "markdown": "6. Amostra: a parte observada da população\n\n\nAmostra é um subconjunto da população utilizado na investigação.\n\n\nSe uma fábrica produziu 20.000 peças e a equipe mede 400 delas, as 20.000 peças pertencem à população definida e as 400 peças medidas formam a amostra.\n\n\nEm notação, é comum representar o tamanho da amostra por n minúsculo. Leitura: “ene minúsculo”.\n\n\nAmostra não significa “população pequena”. Ela é uma parte da população.\n\n\nTambém não é verdade que qualquer amostra grande seja boa. Imagine uma pesquisa sobre transporte realizada somente com pessoas que chegaram de automóvel a um estacionamento. Mesmo que sejam milhares de respostas, esse procedimento pode deixar de fora grupos importantes para uma pergunta sobre os meios de transporte de toda a população.\n\n\nO modo de selecionar a amostra é assunto central da MAT-EST-002.\n\n\nExemplo resolvido 2.\n\n\nUma universidade tem 12.000 estudantes matriculados. Um questionário é enviado a 1.000 estudantes escolhidos segundo um plano de seleção. Desses, 730 respondem.\n\n\nQual é a população? Os 12.000 estudantes, se a pergunta se refere a todos os matriculados.\nQual é a amostra planejada? Os 1.000 selecionados.\nQual é o conjunto efetivamente respondente? Os 730 que enviaram resposta.\n\n\nPor que isso importa? Porque “selecionado” e “respondente” são conceitos diferentes. A falta de resposta pode alterar quem efetivamente aparece nos dados.\n\n\n",
+      "sourceStart": 6033,
+      "sourceEnd": 7440
+    },
+    {
+      "id": "MAT-EST-001-s007",
+      "title": "7. Censo e pesquisa por amostra: primeira visão",
+      "paragraphs": [],
+      "markdown": "7. Censo e pesquisa por amostra: primeira visão\n\n\nCenso é uma investigação que procura observar todas as unidades da população definida.\n\n\nPesquisa amostral observa apenas uma parte.\n\n\nUm censo não é automaticamente perfeito. Ainda podem existir erros de registro, unidades não localizadas, respostas incorretas, duplicidades e definições ruins.\n\n\nUma pesquisa amostral também não é automaticamente inferior. Quando bem planejada, pode ser mais rápida, mais econômica e suficientemente informativa para determinados objetivos.\n\n\nNa MAT-EST-002 estudaremos como a forma de seleção interfere na representatividade e por que alguns tipos de amostra são perigosos.\n\n\n",
+      "sourceStart": 7440,
+      "sourceEnd": 8103
+    },
+    {
+      "id": "MAT-EST-001-s008",
+      "title": "8. Unidade de análise: a peça que cada linha representa",
+      "paragraphs": [],
+      "markdown": "8. Unidade de análise: a peça que cada linha representa\n\n\nA unidade de análise é o elemento básico sobre o qual uma observação é feita.\n\n\nExemplos:\n\n\n• numa pesquisa sobre estudantes, a unidade pode ser cada estudante;\n• numa pesquisa sobre escolas, a unidade pode ser cada escola;\n• numa série diária de temperatura, a unidade pode ser cada dia ou cada medição, conforme a definição;\n• numa análise de partidas, a unidade pode ser cada partida;\n• num estudo de produtos, a unidade pode ser cada produto vendido.\n\n\nUm dos erros mais comuns em Estatística é confundir quantidade de linhas com quantidade de unidades independentes.\n\n\nSe cada uma de 100 pessoas responde cinco vezes, temos 500 registros, mas não necessariamente 500 pessoas independentes.\n\n\nEssa diferença ficará ainda mais importante em conteúdos avançados, mas a disciplina correta começa aqui.\n\n\n",
+      "sourceStart": 8103,
+      "sourceEnd": 8966
+    },
+    {
+      "id": "MAT-EST-001-s009",
+      "title": "9. Variável: a característica que pode assumir valores",
+      "paragraphs": [],
+      "markdown": "9. Variável: a característica que pode assumir valores\n\n\nVariável é uma característica observada ou registrada para cada unidade e que pode assumir valores diferentes.\n\n\nEm uma lista de estudantes:\n\n\n• idade é uma variável;\n• meio de transporte é uma variável;\n• número de livros lidos no mês é uma variável;\n• nível de satisfação em categorias ordenadas pode ser uma variável.\n\n\nUm dado é o valor efetivamente registrado.\n\n\nSe a variável é “idade em anos completos”, um dado possível é 34.\nSe a variável é “meio de transporte principal”, um dado possível é “ônibus”.\nSe a variável é “quantidade de livros”, um dado possível é 2.\n\n\nUma única unidade pode fornecer vários dados, um para cada variável.\n\n\n",
+      "sourceStart": 8966,
+      "sourceEnd": 9669
+    },
+    {
+      "id": "MAT-EST-001-s010",
+      "title": "10. Classificação inicial das variáveis",
+      "paragraphs": [],
+      "markdown": "10. Classificação inicial das variáveis\n\n\nA classificação ajuda a escolher representações e análises apropriadas mais tarde.\n\n\n10.1 Variável qualitativa\n\n\nRegistra categorias ou qualidades, e não uma quantidade obtida por contagem ou medição aritmética.\n\n\nQualitativa nominal: as categorias não têm uma ordem natural obrigatória.\n\n\nExemplos: tipo sanguíneo; estado de nascimento; meio de transporte; setor de trabalho.\n\n\nQualitativa ordinal: as categorias possuem ordem.\n\n\nExemplos: satisfação “baixa, média, alta”; classificação “iniciante, intermediário, avançado”; avaliação “ruim, regular, boa, ótima”.\n\n\nA existência de ordem não cria automaticamente uma distância numérica igual entre as categorias.\n\n\n10.2 Variável quantitativa\n\n\nRegistra uma quantidade numérica para a qual operações aritméticas podem ter significado.\n\n\nQuantitativa discreta: normalmente resulta de contagem e assume valores separados.\n\n\nExemplos: número de filhos; quantidade de livros; número de defeitos.\n\n\nQuantitativa contínua: normalmente resulta de medição e, em princípio, pode assumir qualquer valor em um intervalo compatível com a precisão do instrumento.\n\n\nExemplos: massa; tempo; comprimento; temperatura em uma escala contínua.\n\n\nA distinção “discreta versus contínua” não depende apenas de aparecerem casas decimais. Um sistema pode registrar a altura arredondada para centímetros inteiros, embora a grandeza altura seja conceitualmente contínua.\n\n\nExemplo resolvido 3.\n\n\nUma pesquisa registra:\nA. bairro de residência;\nB. satisfação de 1 a 5, onde 1 significa muito insatisfeito e 5 muito satisfeito;\nC. quantidade de viagens de ônibus na semana;\nD. tempo de viagem, em minutos e segundos.\n\n\nA é qualitativa nominal.\nB pode ser tratada como qualitativa ordinal quando os números são códigos ordenados de categorias; não devemos supor, sem justificativa, que a distância psicológica entre 1 e 2 seja idêntica à distância entre 4 e 5.\nC é quantitativa discreta.\nD é quantitativa contínua, ainda que seja registrada com precisão limitada.\n\n\n",
+      "sourceStart": 9669,
+      "sourceEnd": 11699
+    },
+    {
+      "id": "MAT-EST-001-s011",
+      "title": "11. Dado, informação e contexto",
+      "paragraphs": [],
+      "markdown": "11. Dado, informação e contexto\n\n\nUm número isolado não é automaticamente informação suficiente.\n\n\n“18” pode significar idade, temperatura, quantidade de pessoas, quilômetros ou uma categoria codificada.\n\n\nPara interpretar um dado, precisamos de contexto:\n\n\n• qual variável;\n• qual unidade;\n• qual unidade de medida;\n• quando e como foi coletado;\n• qual população ou amostra;\n• quais regras de registro foram usadas.\n\n\nExemplo resolvido 4.\n\n\nPlanilha:\nLinha 1 — unidade A17; transporte: bicicleta; tempo: 18 minutos.\nLinha 2 — unidade A18; transporte: ônibus; tempo: 42 minutos.\n\n\nA variável “transporte” é qualitativa nominal.\nA variável “tempo” é quantitativa contínua.\n“A17” e “A18” são identificadores, não medidas de idade.\n“18 minutos” é um dado da variável tempo para a unidade A17.\n\n\nIsso mostra por que nomes de colunas e unidades de medida fazem parte do significado.\n\n\n",
+      "sourceStart": 11699,
+      "sourceEnd": 12579
+    },
+    {
+      "id": "MAT-EST-001-s012",
+      "title": "12. População, amostra, parâmetro e estatística",
+      "paragraphs": [],
+      "markdown": "12. População, amostra, parâmetro e estatística\n\n\nDuas palavras aparecerão muitas vezes adiante.\n\n\nParâmetro é uma medida que descreve a população.\n\n\nEstatística, em sentido técnico de “estatística amostral”, é uma medida calculada a partir da amostra.\n\n\nExemplo: se conhecêssemos a idade média de todos os indivíduos da população, esse valor seria um parâmetro. Se calculamos a idade média apenas dos indivíduos de uma amostra, obtemos uma estatística amostral usada para descrever a amostra e, sob condições adequadas, aprender algo sobre a população.\n\n\nNesta aula não calcularemos estimativas. A distinção serve apenas para preparar a linguagem das etapas futuras.\n\n\n",
+      "sourceStart": 12579,
+      "sourceEnd": 13249
+    },
+    {
+      "id": "MAT-EST-001-s013",
+      "title": "13. Exemplo integrado resolvido passo a passo",
+      "paragraphs": [],
+      "markdown": "13. Exemplo integrado resolvido passo a passo\n\n\nSituação: uma rede de bibliotecas quer compreender o tempo de espera para retirar reservas em suas unidades durante dias úteis de um determinado mês.\n\n\nPasso 1 — Pergunta.\n“Qual é a distribuição dos tempos de espera nos atendimentos elegíveis definidos pela pesquisa?”\n\n\nPasso 2 — População.\nTodos os atendimentos que satisfazem os critérios: bibliotecas incluídas, período incluído, tipo de serviço e demais regras.\n\n\nPasso 3 — Unidade de análise.\nCada atendimento elegível.\n\n\nPasso 4 — Variáveis.\nBiblioteca; dia; horário; tempo de espera; tipo de retirada; eventualmente outras características definidas antes da coleta.\n\n\nPasso 5 — Dados.\nCada linha registra valores dessas variáveis para um atendimento.\n\n\nPasso 6 — Amostra.\nSe apenas alguns atendimentos forem observados, o conjunto observado é a amostra.\n\n\nPasso 7 — Limite.\nSe a amostra foi coletada somente às segundas-feiras pela manhã, não podemos tratar automaticamente as conclusões como descrição de todos os horários do mês.\n\n\nO ponto central é que a Estatística começa pela definição correta do problema, não pela escolha de uma fórmula.\n\n\n",
+      "sourceStart": 13249,
+      "sourceEnd": 14403
+    },
+    {
+      "id": "MAT-EST-001-s014",
+      "title": "14. Cinco visuais autorais especificados para esta reconstrução",
+      "paragraphs": [],
+      "markdown": "14. Cinco visuais autorais especificados para esta reconstrução\n\n\nOs SVGs reais ainda não foram gerados neste incremento. As especificações abaixo são obrigatórias para a produção gráfica posterior.\n\n\nVisual 1 — População e amostra.\n\n\nLegenda: “A amostra é uma parte da população definida”.\nTexto alternativo: conjunto maior com vinte unidades representadas por círculos identificáveis e, dentro dele, cinco unidades destacadas como amostra.\nO que observar: nenhuma unidade da amostra está fora da população; a amostra não é uma população diferente.\nConclusão para áudio: população é o conjunto completo definido pela pergunta; amostra é o subconjunto efetivamente selecionado ou observado segundo o desenho.\nRequisito de cor: destacar a amostra também por contorno e rótulo, nunca apenas por cor.\n\n\nVisual 2 — Unidade, variável e dado.\n\n\nLegenda: “Uma linha representa uma unidade; cada coluna representa uma variável”.\nTexto alternativo: pequena matriz com três linhas de atendimentos e três colunas: identificador, meio de transporte e tempo em minutos.\nO que observar: “tempo” é o nome da variável; “18 minutos” é um dado; “A17” identifica a unidade.\nConclusão para áudio: variável é a característica registrada; dado é o valor da característica em uma unidade concreta.\n\n\nVisual 3 — Árvore de classificação das variáveis.\n\n\nLegenda: “Primeira classificação: qualitativas e quantitativas”.\nTexto alternativo: árvore textual que divide variável em qualitativa e quantitativa; qualitativa em nominal e ordinal; quantitativa em discreta e contínua.\nO que observar: cada ramo contém um exemplo e uma pergunta-guia.\nConclusão para áudio: classificar uma variável depende de seu significado, e não apenas da aparência do código usado para registrá-la.\n\n\nVisual 4 — Censo e amostra.\n\n\nLegenda: “Observar todos ou observar uma parte”.\nTexto alternativo: dois caminhos partindo da mesma população: censo cobre todas as unidades; pesquisa amostral seleciona uma parte e mantém explícita a população-alvo.\nO que observar: censo e amostra são estratégias de coleta diferentes; nenhuma delas corrige uma pergunta mal definida.\nConclusão para áudio: observar todos pode reduzir erro de amostragem, mas não elimina outros erros; amostragem exige um plano de seleção.\n\n\nVisual 5 — Da pergunta à conclusão.\n\n\nLegenda: “A cadeia lógica de uma investigação estatística”.\nTexto alternativo: sequência pergunta → população → unidade → variáveis → coleta → dados → análise → conclusão limitada.\nO que observar: a análise aparece somente depois da definição e da coleta.\nConclusão para áudio: uma conclusão estatística só faz sentido quando sabemos de onde vieram os dados e a que conjunto a afirmação pretende se referir.\n\n\n",
+      "sourceStart": 14403,
+      "sourceEnd": 17109
+    },
+    {
+      "id": "MAT-EST-001-s015",
+      "title": "15. Aplicações e conexões com outras matérias",
+      "paragraphs": [],
+      "markdown": "15. Aplicações e conexões com outras matérias\n\n\nLíngua Portuguesa: interpretar exatamente a pergunta, os quantificadores “todos”, “alguns”, “entre os selecionados” e as condições de inclusão.\n\n\nGeografia: pesquisas populacionais, censos, mobilidade, distribuição territorial e leitura crítica de indicadores.\n\n\nBiologia: população pode ter sentido biológico próprio; em Estatística, precisamos declarar a unidade e o conjunto sobre os quais serão feitas inferências.\n\n\nHistória e Sociologia: censos, levantamentos, pesquisas de opinião e indicadores sociais precisam ser lidos junto de sua metodologia.\n\n\nTecnologia da Informação: tabelas de dados, nomes de colunas, tipos de campo, registros duplicados, identificadores e proveniência são versões computacionais dos conceitos de unidade, variável e dado.\n\n\nCiências em geral: definir a população e a unidade observacional ajuda a não generalizar resultados de um experimento para condições que não foram estudadas.\n\n\n",
+      "sourceStart": 17109,
+      "sourceEnd": 18077
+    },
+    {
+      "id": "MAT-EST-001-s016",
+      "title": "16. Erros frequentes",
+      "paragraphs": [],
+      "markdown": "16. Erros frequentes\n\n\nErro 1 — Dizer que população significa necessariamente “pessoas”.\nCorreção: população estatística pode ser qualquer conjunto de unidades definido pela pergunta.\n\n\nErro 2 — Confundir amostra com grupo pequeno.\nCorreção: uma amostra é uma parte da população, independentemente de ser pequena ou grande.\n\n\nErro 3 — Chamar “42” de variável.\nCorreção: “idade”, “tempo” ou outra característica é a variável; 42 é um valor registrado.\n\n\nErro 4 — Achar que uma amostra grande é automaticamente representativa.\nCorreção: o modo de seleção importa. Tamanho e representatividade são questões diferentes.\n\n\nErro 5 — Classificar códigos numéricos como quantitativos sem olhar o significado.\nCorreção: 1, 2 e 3 podem ser apenas códigos de categorias.\n\n\nErro 6 — Confundir cada linha da planilha com uma pessoa.\nCorreção: a linha representa a unidade definida. Pode ser pessoa, atendimento, escola, produto, dia ou outra unidade.\n\n\nErro 7 — Generalizar além da população definida.\nCorreção: dados coletados numa empresa não descrevem automaticamente todas as empresas; dados de uma cidade não descrevem automaticamente um país.\n\n\nErro 8 — Começar pela fórmula.\nCorreção: primeiro definir pergunta, população, unidade e variável; depois decidir o método.\n\n\n",
+      "sourceStart": 18077,
+      "sourceEnd": 19341
+    },
+    {
+      "id": "MAT-EST-001-s017",
+      "title": "17. Relação com BNCC e exames",
+      "paragraphs": [],
+      "markdown": "17. Relação com BNCC e exames\n\n\nA Base Nacional Comum Curricular organiza Matemática do Ensino Fundamental também pela unidade temática Probabilidade e Estatística. O documento oficial destaca coleta, organização, análise, tabelas, gráficos e comunicação de conclusões como aprendizagens progressivas. No Ensino Médio, a BNCC propõe consolidar, ampliar e aprofundar as aprendizagens do Ensino Fundamental.\n\n\nA Matriz de Referência do Enem publicada pelo Inep em 2026 é a referência institucional vigente do projeto para a camada específica do exame. Esta aula não tenta reproduzir uma questão oficial: prepara a linguagem necessária para ler situações-problema, dados, amostras e representações.\n\n\nO Programa do Vestibular FUVEST 2027 explicita, na competência estatística, população e amostra, planejamento de pesquisa amostral, comunicação e interpretação de resultados e leitura crítica de gráficos e métodos de amostragem.\n\n\nNesta reconstrução, nenhuma questão oficial foi copiada. A camada de exercícios é autoral. A correspondência detalhada com UNICAMP e UNESP deverá ser revalidada nos documentos específicos antes da publicação do pacote como versão final de vestibular.\n\n\n",
+      "sourceStart": 19341,
+      "sourceEnd": 20523
+    },
+    {
+      "id": "MAT-EST-001-s018",
+      "title": "18. Como estudar esta aula",
+      "paragraphs": [],
+      "markdown": "18. Como estudar esta aula\n\n\nBloco A — 25 a 40 minutos.\nEstude seções 1 a 8. Pare e tente explicar sem olhar: população, amostra e unidade de análise.\n\n\nBloco B — 25 a 45 minutos.\nEstude seções 9 a 13. Classifique variáveis e refaça os exemplos em palavras próprias.\n\n\nBloco C — 25 a 50 minutos.\nResolva os exercícios de aprendizagem. Somente depois consulte a correção correspondente.\n\n\nBloco D — em sessão posterior.\nResolva consolidação e transferência. O reteste deve ficar para depois da correção e de eventual recuperação.\n\n\n",
+      "sourceStart": 20523,
+      "sourceEnd": 21054
+    },
+    {
+      "id": "MAT-EST-001-s019",
+      "title": "19. Resumo",
+      "paragraphs": [],
+      "markdown": "19. Resumo\n\n\nEstatística começa com uma pergunta sobre um conjunto de interesse.\n\n\nPopulação é o conjunto completo de unidades definido pela investigação.\n\n\nAmostra é a parte da população que foi selecionada ou observada.\n\n\nUnidade de análise é aquilo que cada observação representa.\n\n\nVariável é a característica registrada.\n\n\nDado é o valor observado dessa variável em uma unidade concreta.\n\n\nVariáveis qualitativas descrevem categorias; podem ser nominais ou ordinais.\n\n\nVariáveis quantitativas descrevem quantidades; podem ser discretas ou contínuas.\n\n\nAntes de calcular, precisamos saber de onde os dados vieram e até onde uma conclusão pode ir.\n\n\n",
+      "sourceStart": 21054,
+      "sourceEnd": 21707
+    },
+    {
+      "id": "MAT-EST-001-s020",
+      "title": "20. Versão curta para ouvir",
+      "paragraphs": [],
+      "markdown": "20. Versão curta para ouvir\n\n\nA Estatística transforma observações em descrições e conclusões, mas o primeiro passo não é uma fórmula. Primeiro fazemos uma pergunta. Depois definimos a população, isto é, o conjunto completo sobre o qual queremos falar. Se observamos somente uma parte, essa parte é a amostra. Em seguida definimos a unidade de análise, que é aquilo que cada registro representa. Uma variável é uma característica registrada para cada unidade, e um dado é o valor dessa característica em um caso concreto. Variáveis podem representar categorias ou quantidades. Uma amostra grande não é automaticamente representativa; a forma de seleção será estudada na próxima aula. Uma conclusão responsável nunca deve ir além do conjunto e do processo de coleta que realmente foram definidos.\n\n\n",
+      "sourceStart": 21707,
+      "sourceEnd": 22505
+    },
+    {
+      "id": "MAT-EST-001-s021",
+      "title": "21. Vídeo complementar",
+      "paragraphs": [],
+      "markdown": "21. Vídeo complementar\n\n\nTítulo: “CONCEITOS BÁSICOS DE ESTATÍSTICA: POPULAÇÃO, AMOSTRA, AMOSTRAGEM, VARIÁVEIS E ORGANIZAÇÃO DE DADOS”.\nCanal: Professora Gisele Ramos - Matemática.\nLink: https://www.youtube.com/watch?v=5ctWgFOizkQ\nIdioma: português do Brasil.\nDuração: aproximadamente 13 minutos, pela estrutura temporal publicada na descrição do vídeo.\nDisponibilidade: página localizada na verificação desta reconstrução.\nQuando assistir: depois das seções sobre população, amostra e variável.\nTrechos especialmente alinhados: aproximadamente de 0:42 a 2:16 para introdução, população, amostra e censo; aproximadamente de 9:30 a 11:57 para tipos de variáveis. O trecho intermediário sobre métodos de amostragem será retomado na MAT-EST-002.\nMotivo: reforça o vocabulário essencial sem substituir as explicações mais cuidadosas desta aula.\nLimite de QA: a reprodução integral, qualidade das legendas e leitura no Microsoft Edge ainda precisam ser verificadas antes da publicação.\n\n\n",
+      "sourceStart": 22505,
+      "sourceEnd": 23487
+    },
+    {
+      "id": "MAT-EST-001-s022",
+      "title": "22. Fontes desta reconstrução",
+      "paragraphs": [],
+      "markdown": "22. Fontes desta reconstrução\n\n\nBase Nacional Comum Curricular — versão oficial:\nhttps://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf\n\n\nInep — Matrizes de Referência do Enem, publicação institucional de 2026:\nhttps://www.gov.br/inep/pt-br/centrais-de-conteudo/acervo-linha-editorial/publicacoes-institucionais/avaliacoes-e-exames-da-educacao-basica/matrizes-de-referencia-enem/\n\n\nFUVEST — Programa do Vestibular 2027:\nhttps://www.fuvest.br/wp-content/uploads/fuvest2027-programa-vestibular.pdf\n\n\nDocumentos internos do projeto:\nVisão e Princípios; Metodologia de Aprendizagem e Aprofundamento; Matriz Mestre; Acessibilidade e Leitura em Voz Alta; Padrão Visual; Arquitetura do Site; Fontes Oficiais e Regra de Atualização.\n\n\n",
+      "sourceStart": 23487,
+      "sourceEnd": 24242
+    },
+    {
+      "id": "MAT-EST-001-s023",
+      "title": "23. Próximo passo",
+      "paragraphs": [],
+      "markdown": "23. Próximo passo\n\n\nMAT-EST-002 — Censo, amostragem e representatividade: como escolher uma amostra.\n\n\nNão avançar apenas porque esta aula foi produzida. A produção editorial não altera o progresso individual. Antes de publicar, ainda faltam os SVGs reais, teste audiovisual, validação de acessibilidade no Edge, conversão para o modelo do site e QA técnico.\n",
+      "sourceStart": 24242,
+      "sourceEnd": 24601
+    }
+  ],
+  "sources": [
+    {
+      "title": "AULA — MAT-EST-001 — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Ii7-kYu6gwgrld_ai64piR9xreFIo0VCfDAGcwS9Q0Y/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "previous": null,
+  "next": "MAT-EST-002",
+  "videos": [
+    {
+      "title": "CONCEITOS BÁSICOS DE ESTATÍSTICA: POPULAÇÃO,  AMOSTRA, AMOSTRAGEM, VARIÁVEIS E ORGANIZAÇÃO DE DADOS",
+      "channel": "Professora Gisele Ramos - Matemática",
+      "url": "https://www.youtube.com/watch?v=5ctWgFOizkQ",
+      "duration": "Duração não confirmada",
+      "language": "Português",
+      "reason": "Complementa a explicação escrita.",
+      "when": "Depois dos exemplos resolvidos.",
+      "reinforces": [],
+      "checkedAt": "2026-10-03",
+      "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+      "type": "video"
+    }
+  ],
+  "video": {
+    "title": "CONCEITOS BÁSICOS DE ESTATÍSTICA: POPULAÇÃO,  AMOSTRA, AMOSTRAGEM, VARIÁVEIS E ORGANIZAÇÃO DE DADOS",
+    "channel": "Professora Gisele Ramos - Matemática",
+    "url": "https://www.youtube.com/watch?v=5ctWgFOizkQ",
+    "duration": "Duração não confirmada",
+    "language": "Português",
+    "reason": "Complementa a explicação escrita.",
+    "when": "Depois dos exemplos resolvidos.",
+    "reinforces": [],
+    "checkedAt": "2026-10-03",
+    "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+    "type": "video"
+  },
+  "publication": {
+    "kind": "Reconstrução editorial v1; sem identidade binária com a edição histórica.",
+    "notes": [
+      "A produção e a publicação não registram domínio nem alteram seu progresso.",
+      "As referências a publicação pendente no texto original registram o estado da fonte na data de criação."
+    ],
+    "original": "originais/MAT-EST-001/aula.md",
+    "editions": [
+      {
+        "label": "MANIFESTO — MAT-EST-001 — reconstrução editorial v1 · 2026-09-30",
+        "url": "originais/MAT-EST-001/edicoes/1tdMGxBUPVJqD5uh7PPK7p4YbMU_k2Ti5zoQxmbaCXt0.txt"
+      },
+      {
+        "label": "GABARITO — MAT-EST-001 — reconstrução editorial v1 · 2026-09-30",
+        "url": "originais/MAT-EST-001/edicoes/1mHeNH-JqIEDkHGWHbDxMfFeM23aKYc1kleqrdpo1sgo.txt"
+      },
+      {
+        "label": "EXERCÍCIOS — MAT-EST-001 — reconstrução editorial v1 · 2026-09-30",
+        "url": "originais/MAT-EST-001/edicoes/1oh19I88Ei_1J4DntgX_D9jlV4coADw7D_eee6RE95vk.txt"
+      },
+      {
+        "label": "AULA — MAT-EST-001 — reconstrução editorial v1 · 2026-09-30",
+        "url": "originais/MAT-EST-001/edicoes/1Ii7-kYu6gwgrld_ai64piR9xreFIo0VCfDAGcwS9Q0Y.txt"
+      }
+    ],
+    "attachments": [],
+    "questionCount": 36,
+    "visualCount": 5,
+    "sourceSha256": "f9a7c86fde259eae740fd3459310467c71df347d2c06c7122d8bd144c5f39416"
+  }
+}

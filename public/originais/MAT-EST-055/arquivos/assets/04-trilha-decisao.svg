@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 346" role="img" aria-labelledby="title desc"><title id="title">Trilha lógica do parecer didático</title><desc id="desc">Cinco eventos fictícios G1 a G5 registram escopo, evidência, alerta local, separação V e Z e parecer de não promoção, sem assinatura humana.</desc>
+<rect width="1240" height="346" rx="20" fill="#10243b"/><text x="36" y="44" font-size="26" font-family="Arial, sans-serif" font-weight="700" fill="#f5fbff">Trilha lógica do parecer didático</text>
+<rect x="35.0" y="100" width="222.8" height="137" rx="12" fill="#dbeafe" stroke="#173352" stroke-width="2"/>
+<text x="146.4" y="133" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#142436">G1</text>
+<text x="146.4" y="158" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="400" fill="#142436">escopo</text>
+<path d="M 259.8 167 L 269.8 167 m -7 -7 l 7 7 -7 7" stroke="#fff" stroke-width="2" fill="none"/>
+<rect x="271.8" y="100" width="222.8" height="137" rx="12" fill="#dcfce7" stroke="#173352" stroke-width="2"/>
+<text x="383.2" y="133" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#142436">G2</text>
+<text x="383.2" y="158" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="400" fill="#142436">médias</text>
+<path d="M 496.6 167 L 506.6 167 m -7 -7 l 7 7 -7 7" stroke="#fff" stroke-width="2" fill="none"/>
+<rect x="508.6" y="100" width="222.8" height="137" rx="12" fill="#fef3c7" stroke="#173352" stroke-width="2"/>
+<text x="620.0" y="133" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#142436">G3</text>
+<text x="620.0" y="158" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="400" fill="#142436">alerta t19</text>
+<path d="M 733.4 167 L 743.4 167 m -7 -7 l 7 7 -7 7" stroke="#fff" stroke-width="2" fill="none"/>
+<rect x="745.4" y="100" width="222.8" height="137" rx="12" fill="#fee2e2" stroke="#173352" stroke-width="2"/>
+<text x="856.8" y="133" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#142436">G4</text>
+<text x="856.8" y="158" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="400" fill="#142436">V e Z isolados</text>
+<path d="M 970.2 167 L 980.2 167 m -7 -7 l 7 7 -7 7" stroke="#fff" stroke-width="2" fill="none"/>
+<rect x="982.2" y="100" width="222.8" height="137" rx="12" fill="#ede9fe" stroke="#173352" stroke-width="2"/>
+<text x="1093.6" y="133" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#142436">G5</text>
+<text x="1093.6" y="158" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="400" fill="#142436">não promover</text>
+<text x="36" y="280" font-family="Arial,sans-serif" fill="#f5fbff" font-size="18">G1–G5 não são horários autenticados nem decisões operacionais.</text>
+<text x="36" y="314" font-family="Arial,sans-serif" fill="#b9d6ec" font-size="14">Ilustração autoral • números fictícios • ler também a legenda completa na aula</text></svg>

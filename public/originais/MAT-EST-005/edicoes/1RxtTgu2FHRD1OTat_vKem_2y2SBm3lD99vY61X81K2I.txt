@@ -1,0 +1,196 @@
+﻿MAT-EST-005 — Gabarito comentado — reconstrução editorial v1
+
+
+Use somente após tentativa real. Todos os itens são autorais.
+
+
+CAMADA APR
+
+
+MAT-EST-005-EX-APR-01
+Resposta e raciocínio: 6.
+Motivo provável do erro: cálculo.
+
+
+MAT-EST-005-EX-APR-02
+Resposta e raciocínio: 12,5.
+Motivo provável do erro: cálculo.
+
+
+MAT-EST-005-EX-APR-03
+Resposta e raciocínio: Não; a média é medida-resumo.
+Motivo provável do erro: conteúdo.
+
+
+MAT-EST-005-EX-APR-04
+Resposta e raciocínio: 18 minutos.
+Motivo provável do erro: unidade.
+
+
+MAT-EST-005-EX-APR-05
+Resposta e raciocínio: Total 12 repartido entre 3 dá 4.
+Motivo provável do erro: conteúdo.
+
+
+MAT-EST-005-EX-APR-06
+Resposta e raciocínio: 6.
+Motivo provável do erro: cálculo.
+
+
+MAT-EST-005-EX-APR-07
+Resposta e raciocínio: Média 4; desvios −2, −1, +3; soma 0.
+Motivo provável do erro: conteúdo.
+
+
+MAT-EST-005-EX-APR-08
+Resposta e raciocínio: Não; são rótulos nominais.
+Motivo provável do erro: interpretação.
+
+
+MAT-EST-005-EX-APR-09
+Resposta e raciocínio: 60.
+Motivo provável do erro: estratégia.
+
+
+MAT-EST-005-EX-APR-10
+Resposta e raciocínio: 9.
+Motivo provável do erro: estratégia.
+
+
+CAMADA CON
+
+
+MAT-EST-005-EX-CON-01
+Resposta e raciocínio: 1,4.
+Motivo provável do erro: frequência como peso.
+
+
+MAT-EST-005-EX-CON-02
+Resposta e raciocínio: 7,3.
+Motivo provável do erro: denominador dos pesos.
+
+
+MAT-EST-005-EX-CON-03
+Resposta e raciocínio: 76.
+Motivo provável do erro: média das médias.
+
+
+MAT-EST-005-EX-CON-04
+Resposta e raciocínio: 15.
+Motivo provável do erro: soma total.
+
+
+MAT-EST-005-EX-CON-05
+Resposta e raciocínio: 52.
+Motivo provável do erro: correção do total.
+
+
+MAT-EST-005-EX-CON-06
+Resposta e raciocínio: 12.
+Motivo provável do erro: atualização de n.
+
+
+MAT-EST-005-EX-CON-07
+Resposta e raciocínio: 14.
+Motivo provável do erro: remoção e n.
+
+
+MAT-EST-005-EX-CON-08
+Resposta e raciocínio: 14.
+Motivo provável do erro: transformação linear.
+
+
+MAT-EST-005-EX-CON-09
+Resposta e raciocínio: 12.
+Motivo provável do erro: transformação linear.
+
+
+MAT-EST-005-EX-CON-10
+Resposta e raciocínio: 58%.
+Motivo provável do erro: percentuais com denominadores diferentes.
+
+
+CAMADA VES
+
+
+MAT-EST-005-EX-VES-01
+Resposta e raciocínio: 8,1.
+Motivo provável do erro: ponderação.
+
+
+MAT-EST-005-EX-VES-02
+Resposta e raciocínio: 4600.
+Motivo provável do erro: tamanhos dos grupos.
+
+
+MAT-EST-005-EX-VES-03
+Resposta e raciocínio: 142/9 ≈ 15,78.
+Motivo provável do erro: adição de observação.
+
+
+MAT-EST-005-EX-VES-04
+Resposta e raciocínio: 7,32.
+Motivo provável do erro: correção de dado.
+
+
+MAT-EST-005-EX-VES-05
+Resposta e raciocínio: 55/6 ≈ 9,17; o extremo desloca a soma para cima.
+Motivo provável do erro: efeito de extremo.
+
+
+MAT-EST-005-EX-VES-06
+Resposta e raciocínio: Quando os grupos têm o mesmo tamanho.
+Motivo provável do erro: média das médias.
+
+
+MAT-EST-005-EX-VES-07
+Resposta e raciocínio: 5 pontos.
+Motivo provável do erro: soma desejada.
+
+
+MAT-EST-005-EX-VES-08
+Resposta e raciocínio: 69/110 ≈ 62,7%.
+Motivo provável do erro: ponderação de taxas.
+
+
+MAT-EST-005-EX-VES-09
+Resposta e raciocínio: 200/3 ≈ 66,7 km/h.
+Motivo provável do erro: definição da grandeza.
+
+
+MAT-EST-005-EX-VES-10
+Resposta e raciocínio: Ex.: 4,5,6 e 0,5,10; ambos têm média 5, mas dispersões diferentes.
+Motivo provável do erro: média versus distribuição.
+
+
+CAMADA RET
+
+
+MAT-EST-005-EX-RET-01
+Resposta e raciocínio: Simples: Σx/n; ponderada: Σ(wx)/Σw.
+Motivo provável do erro: memória/conceito.
+
+
+MAT-EST-005-EX-RET-02
+Resposta e raciocínio: 6.
+Motivo provável do erro: cálculo.
+
+
+MAT-EST-005-EX-RET-03
+Resposta e raciocínio: 2.
+Motivo provável do erro: efeito de alteração.
+
+
+MAT-EST-005-EX-RET-04
+Resposta e raciocínio: 1,9.
+Motivo provável do erro: frequência como peso.
+
+
+MAT-EST-005-EX-RET-05
+Resposta e raciocínio: Porque extremo pode ser dado válido e exclusão exige justificativa.
+Motivo provável do erro: interpretação.
+
+
+MAT-EST-005-EX-RET-06
+Resposta e raciocínio: A média pode ser puxada por extremos e não informa a dispersão.
+Motivo provável do erro: interpretação.

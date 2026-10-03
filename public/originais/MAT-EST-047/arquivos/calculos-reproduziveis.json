@@ -1,0 +1,327 @@
+{
+  "id": "MAT-EST-047",
+  "dataFictional": true,
+  "inheritedCSVFilesPreserved": {
+    "dados-ficticios-referencia.csv": {
+      "origin": "MAT-EST-046/dados-ficticios-referencia.csv",
+      "sourceSHA256": "f1cc3989cd8c701a14e544c424b797f27594806ae302a93253e2a1b82fab5ca9",
+      "copySHA256": "f1cc3989cd8c701a14e544c424b797f27594806ae302a93253e2a1b82fab5ca9"
+    },
+    "dados-ficticios-trimestrais.csv": {
+      "origin": "MAT-EST-046/dados-ficticios-trimestrais.csv",
+      "sourceSHA256": "c1d765b97f058ad9f94fba88e46b9cd6e3c1056bf1653ca3b048b97ca7c1c6f1",
+      "copySHA256": "c1d765b97f058ad9f94fba88e46b9cd6e3c1056bf1653ca3b048b97ca7c1c6f1"
+    }
+  },
+  "observations": [
+    90,
+    107,
+    128,
+    105,
+    111,
+    124,
+    150,
+    127,
+    129,
+    145,
+    171,
+    144
+  ],
+  "modelRulesFixedFromPredecessors": {
+    "HoltWintersAdditive": true,
+    "seasonalPeriod": 4,
+    "alpha": 0.3,
+    "betaStar": 0.2,
+    "gamma": 0.2,
+    "initialization": "same t1..t4 heuristic MAT-EST-045",
+    "rollingOrigins": [
+      8,
+      9,
+      10
+    ],
+    "horizons": [
+      1,
+      2
+    ]
+  },
+  "rows": [
+    {
+      "origin": 8,
+      "h": 1,
+      "target": 9,
+      "observed": 129,
+      "predicted": 130.99253183999997,
+      "signedError": -1.9925318399999696,
+      "absoluteError": 1.9925318399999696,
+      "squaredError": 3.9701831334136646,
+      "targetPreviouslyDisclosed": true,
+      "A": {
+        "halfWidth": 2,
+        "lower": 128.99253183999997,
+        "upper": 132.99253183999997,
+        "width": 4,
+        "coveredInclusive": true,
+        "outsideDistance": 0.0,
+        "illustrative80PercentIntervalScore": 4.0
+      },
+      "B": {
+        "halfWidth": 3,
+        "lower": 127.99253183999997,
+        "upper": 133.99253183999997,
+        "width": 6,
+        "coveredInclusive": true,
+        "outsideDistance": 0.0,
+        "illustrative80PercentIntervalScore": 6.0
+      },
+      "asymmetricCost_3under_1over": 1.9925318399999696
+    },
+    {
+      "origin": 8,
+      "h": 2,
+      "target": 10,
+      "observed": 145,
+      "predicted": 147.26192447999998,
+      "signedError": -2.2619244799999763,
+      "absoluteError": 2.2619244799999763,
+      "squaredError": 5.116302353223163,
+      "targetPreviouslyDisclosed": true,
+      "A": {
+        "halfWidth": 3,
+        "lower": 144.26192447999998,
+        "upper": 150.26192447999998,
+        "width": 6,
+        "coveredInclusive": true,
+        "outsideDistance": 0.0,
+        "illustrative80PercentIntervalScore": 6.0
+      },
+      "B": {
+        "halfWidth": 4,
+        "lower": 143.26192447999998,
+        "upper": 151.26192447999998,
+        "width": 8,
+        "coveredInclusive": true,
+        "outsideDistance": 0.0,
+        "illustrative80PercentIntervalScore": 8.0
+      },
+      "asymmetricCost_3under_1over": 2.2619244799999763
+    },
+    {
+      "origin": 9,
+      "h": 1,
+      "target": 10,
+      "observed": 145,
+      "predicted": 146.54461301759997,
+      "signedError": -1.5446130175999713,
+      "absoluteError": 1.5446130175999713,
+      "squaredError": 2.385829374139289,
+      "targetPreviouslyDisclosed": true,
+      "A": {
+        "halfWidth": 2,
+        "lower": 144.54461301759997,
+        "upper": 148.54461301759997,
+        "width": 4,
+        "coveredInclusive": true,
+        "outsideDistance": 0.0,
+        "illustrative80PercentIntervalScore": 4.0
+      },
+      "B": {
+        "halfWidth": 3,
+        "lower": 143.54461301759997,
+        "upper": 149.54461301759997,
+        "width": 6,
+        "coveredInclusive": true,
+        "outsideDistance": 0.0,
+        "illustrative80PercentIntervalScore": 6.0
+      },
+      "asymmetricCost_3under_1over": 1.5446130175999713
+    },
+    {
+      "origin": 9,
+      "h": 2,
+      "target": 11,
+      "observed": 171,
+      "predicted": 168.79637374719997,
+      "signedError": 2.203626252800035,
+      "absoluteError": 2.203626252800035,
+      "squaredError": 4.8559686620295235,
+      "targetPreviouslyDisclosed": true,
+      "A": {
+        "halfWidth": 3,
+        "lower": 165.79637374719997,
+        "upper": 171.79637374719997,
+        "width": 6,
+        "coveredInclusive": true,
+        "outsideDistance": 0.0,
+        "illustrative80PercentIntervalScore": 6.0
+      },
+      "B": {
+        "halfWidth": 4,
+        "lower": 164.79637374719997,
+        "upper": 172.79637374719997,
+        "width": 8,
+        "coveredInclusive": true,
+        "outsideDistance": 0.0,
+        "illustrative80PercentIntervalScore": 8.0
+      },
+      "asymmetricCost_3under_1over": 6.610878758400105
+    },
+    {
+      "origin": 10,
+      "h": 1,
+      "target": 11,
+      "observed": 171,
+      "predicted": 168.24031306086394,
+      "signedError": 2.75968693913606,
+      "absoluteError": 2.75968693913606,
+      "squaredError": 7.615872002038155,
+      "targetPreviouslyDisclosed": true,
+      "A": {
+        "halfWidth": 2,
+        "lower": 166.24031306086394,
+        "upper": 170.24031306086394,
+        "width": 4,
+        "coveredInclusive": false,
+        "outsideDistance": 0.7596869391360599,
+        "illustrative80PercentIntervalScore": 11.596869391360599
+      },
+      "B": {
+        "halfWidth": 3,
+        "lower": 165.24031306086394,
+        "upper": 171.24031306086394,
+        "width": 6,
+        "coveredInclusive": true,
+        "outsideDistance": 0.0,
+        "illustrative80PercentIntervalScore": 6.0
+      },
+      "asymmetricCost_3under_1over": 8.27906081740818
+    },
+    {
+      "origin": 10,
+      "h": 2,
+      "target": 12,
+      "observed": 144,
+      "predicted": 144.99694580940792,
+      "signedError": -0.9969458094079187,
+      "absoluteError": 0.9969458094079187,
+      "squaredError": 0.99390094689601,
+      "targetPreviouslyDisclosed": true,
+      "A": {
+        "halfWidth": 3,
+        "lower": 141.99694580940792,
+        "upper": 147.99694580940792,
+        "width": 6,
+        "coveredInclusive": true,
+        "outsideDistance": 0.0,
+        "illustrative80PercentIntervalScore": 6.0
+      },
+      "B": {
+        "halfWidth": 4,
+        "lower": 140.99694580940792,
+        "upper": 148.99694580940792,
+        "width": 8,
+        "coveredInclusive": true,
+        "outsideDistance": 0.0,
+        "illustrative80PercentIntervalScore": 8.0
+      },
+      "asymmetricCost_3under_1over": 0.9969458094079187
+    }
+  ],
+  "errorsByHorizon": {
+    "h1": {
+      "nForecastTasks": 3,
+      "meanSignedError": -0.25915263948796036,
+      "MAE": 2.0989439322453336,
+      "RMSE": 2.1580766521443047,
+      "maximumAbsoluteError": 2.75968693913606,
+      "positiveErrors": 1,
+      "negativeErrors": 2
+    },
+    "h2": {
+      "nForecastTasks": 3,
+      "meanSignedError": -0.35174801220262,
+      "MAE": 1.8208321807359766,
+      "RMSE": 1.9119075955834177,
+      "maximumAbsoluteError": 2.2619244799999763,
+      "positiveErrors": 1,
+      "negativeErrors": 2
+    },
+    "pooledSixTasks": {
+      "nForecastTasks": 6,
+      "meanSignedError": -0.30545032584529014,
+      "MAE": 1.9598880564906551,
+      "RMSE": 2.038711049974951,
+      "maximumAbsoluteError": 2.75968693913606,
+      "positiveErrors": 2,
+      "negativeErrors": 4
+    }
+  },
+  "illustrativeCandidates": {
+    "A": {
+      "halfWidthH1": 2,
+      "halfWidthH2": 3
+    },
+    "B": {
+      "halfWidthH1": 3,
+      "halfWidthH2": 4
+    },
+    "declaredTargetForScoring": 0.8,
+    "alphaScoring": 0.2,
+    "meaning": "Both are hypothetical proposals, NOT calibrated 80% probabilistic intervals; scoring at alpha .2 illustrates width/outside tradeoff only."
+  },
+  "intervalScoreSummary": {
+    "A": {
+      "h1": {
+        "covered": 2,
+        "nForecastTasks": 3,
+        "empiricalCoverage": 0.6666666666666666,
+        "meanWidth": 4,
+        "meanIllustrativeIntervalScore_alpha0p2": 6.5322897971202
+      },
+      "h2": {
+        "covered": 3,
+        "nForecastTasks": 3,
+        "empiricalCoverage": 1,
+        "meanWidth": 6,
+        "meanIllustrativeIntervalScore_alpha0p2": 6.0
+      },
+      "pooledSixTasks": {
+        "covered": 5,
+        "nForecastTasks": 6,
+        "empiricalCoverage": 0.8333333333333334,
+        "meanWidth": 5,
+        "meanIllustrativeIntervalScore_alpha0p2": 6.2661448985601
+      }
+    },
+    "B": {
+      "h1": {
+        "covered": 3,
+        "nForecastTasks": 3,
+        "empiricalCoverage": 1,
+        "meanWidth": 6,
+        "meanIllustrativeIntervalScore_alpha0p2": 6.0
+      },
+      "h2": {
+        "covered": 3,
+        "nForecastTasks": 3,
+        "empiricalCoverage": 1,
+        "meanWidth": 8,
+        "meanIllustrativeIntervalScore_alpha0p2": 8.0
+      },
+      "pooledSixTasks": {
+        "covered": 6,
+        "nForecastTasks": 6,
+        "empiricalCoverage": 1,
+        "meanWidth": 7,
+        "meanIllustrativeIntervalScore_alpha0p2": 7.0
+      }
+    }
+  },
+  "limits": [
+    "t9..t12 were disclosed in MAT-EST-043 onward: this is retrospective educational auditing, not blind test.",
+    "Six forecast tasks only, target t10 and t11 each repeated; tasks are dependent, not six independent observations.",
+    "Three errors per horizon cannot establish empirical population coverage nor robust variance, normality, autocorrelation or calibration.",
+    "Illustrative half-widths are fixed, not statistically derived from training or residuals, and cannot be advertised as nominal 80% intervals.",
+    "Winkler interval score at alpha=.2 compares hypothetical interval proposals; it cannot retroactively validate their target coverage.",
+    "No model parameters or interval widths selected using the evaluated targets may be called out-of-sample test estimates."
+  ]
+}

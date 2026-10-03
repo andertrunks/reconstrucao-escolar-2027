@@ -1,0 +1,37 @@
+{
+  "projeto": "Reconstrução Escolar + ENEM e Vestibulares 2027",
+  "ultimo_pacote_editorial_concluido": "MAT-EST-065",
+  "ultimo_confirmado_antes": "MAT-EST-064",
+  "titulo_ultimo": "Indicadores de qualidade editorial: definição operacional, linhas de base e acompanhamento sem métricas ilusórias",
+  "etapa_atual": "concluído editorialmente apenas em arquivos locais",
+  "proximo_topico_editorial": "MAT-EST-066",
+  "titulo_proximo_proposto": "Revisão crítica e consolidação da unidade de avaliação temporal: integração de métricas, auditoria e transferência para problemas novos",
+  "proximo_estado": "não iniciado",
+  "progresso_individual": "não iniciado; sem tentativas registradas; inalterado",
+  "historico": "t01–t22 preservados; MAT-EST-049-PROT-v1 com 5/8, guarda t19 19,2 >10, C não promovido",
+  "sem_observacoes": "t23–t25 sem emissão/observação autenticadas; t26–t33 somente proposta e zero pares",
+  "sandbox": "SANDBOX-057 oito cartões, dois avaliáveis, seis pendências; MAE B=3, C=4 unidades e custo médio 7 pontos",
+  "controles": "G1/G2 checked_local; G3–G6 pending; G7/G8 not_performed; P01–P10 not_performed",
+  "acoes": "A64-01–06 com ensaios locais de fixture, A64-07 não executada; nenhuma implantação comprovada",
+  "novidades": [
+    "11 fichas K65-01–K65-11 com recorte, numerador, denominador, unidade e limitações",
+    "fotografia inicial didática única, sem inventar série de acompanhamento",
+    "sete casos de teste: um controle correto e seis mutações negativas; não incidentes reais",
+    "seis visuais originais, 36 questões com gabarito separado"
+  ],
+  "anexo_anterior": "historico/MAT-EST-064-pacote-integracao.zip byte a byte idêntico à fonte",
+  "sha256_pacote_anterior": "f096433c3310d41b2537b2cb15cc80734edbee041f12393bc7a8e8f1d9353f17",
+  "arquivos_invariantes_herdados_sha256": 23,
+  "sem_exposicao_publica_ou_revisao_humana": true,
+  "nao_alegar": [
+    "série temporal real de qualidade editorial",
+    "taxa de incidente real igual a zero",
+    "eficácia operacional de 100% por seis fixtures",
+    "G3–G8 ou P01–P10 executados",
+    "observação de t23–t33",
+    "publicação, Drive, GitHub, deploy ou rollback externos",
+    "teste real no Edge, vídeo integral ou revisão humana",
+    "progresso individual estudado"
+  ],
+  "material_integracao": "MAT-EST-065-pacote-integracao.zip"
+}

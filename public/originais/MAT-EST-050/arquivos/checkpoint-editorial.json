@@ -1,0 +1,33 @@
+{
+  "projeto": "Reconstrução Escolar + ENEM e Vestibulares 2027",
+  "ultimo_pacote_editorial_concluido": "MAT-EST-050",
+  "titulo_ultimo": "Robustez temporal: cenários, sensibilidade a custos e documentação de limites de generalização",
+  "ultimo_pacote_confirmado_antes": "MAT-EST-049",
+  "etapa_atual": "MAT-EST-050 gerada como artefato editorial local; não sincronizada nem publicada",
+  "proximo_topico_editorial": "MAT-EST-051",
+  "titulo_proximo_proposto": "Desenho de uma avaliação temporal futura: hipóteses, coleta, critérios e análise pós-registro",
+  "proxima_acao": "Ao receber Continuar, verificar checkpoint canônico externo se disponível e gerar exatamente MAT-EST-051 sem inventar observado t23–t25 e sem modificar protocolo histórico.",
+  "progresso_individual": "não iniciado; não atualizado",
+  "base_preservada": "t01–t22, conforme 049; CSVs de 049 copiados byte a byte",
+  "alvos_futuros_sem_observacao": [
+    "t23",
+    "t24",
+    "t25"
+  ],
+  "hipoteses_apenas_cenarios_t23": [
+    178,
+    191,
+    209
+  ],
+  "modelos": "BASE-SNAIVE-v1 como referência; CHAL-SDELTA5-v1 permanece desafiante em sombra",
+  "parecer_protocolo": "não promover; cinco de oito e guarda t19 falhou com piora de 19,2",
+  "nao_alegar": [
+    "deploy",
+    "sincronização Drive ou GitHub",
+    "teste real Edge ou leitor de tela",
+    "y23 observado",
+    "aprovação de modelo",
+    "previsão real autenticada em t22",
+    "inferência populacional ou garantia futura"
+  ]
+}

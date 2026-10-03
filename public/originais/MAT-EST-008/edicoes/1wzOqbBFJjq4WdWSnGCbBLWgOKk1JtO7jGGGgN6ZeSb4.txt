@@ -1,0 +1,1238 @@
+﻿MAT-EST-008 — Variância e desvio-padrão: quadrados dos desvios, unidades e interpretação
+
+
+Status editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.
+Matéria: Matemática.
+Unidade: Estatística.
+Nível principal: 3 — transição entre Ensino Fundamental II e Ensino Médio, com progressão para vestibulares e ponte universitária.
+Pré-requisitos conceituais: MAT-EST-001 a MAT-EST-007; média aritmética; desvios em relação à média; valor absoluto; potências e raízes quadradas; operações com frações e decimais.
+Próximo tópico histórico: MAT-EST-009 — Coeficiente de variação.
+Origem das questões desta reconstrução: 100% autoral.
+
+
+1. Objetivo
+
+
+Ao concluir o estudo real desta aula, o estudante deverá ser capaz de:
+
+
+• explicar por que os desvios simples se cancelam;
+• compreender por que elevar os desvios ao quadrado é uma forma de medir dispersão;
+• calcular variância populacional;
+• calcular desvio-padrão populacional;
+• interpretar corretamente a unidade da variância e do desvio-padrão;
+• compreender a relação entre variância e desvio-padrão;
+• comparar conjuntos com a mesma média e diferentes dispersões;
+• reconhecer o efeito de translação e mudança de escala sobre essas medidas;
+• calcular variância e desvio-padrão a partir de frequências;
+• diferenciar, conceitualmente, variância populacional e variância amostral;
+• reconhecer quando dividir por N ou por n menos um;
+• usar fórmulas alternativas sem perder o significado;
+• relacionar amplitude, desvio médio, variância e desvio-padrão;
+• interpretar resultados em situações autorais no estilo dos vestibulares.
+
+
+2. Retomada: por que o desvio médio não encerra o assunto?
+
+
+Na MAT-EST-007 vimos que uma medida de dispersão precisa impedir o cancelamento entre desvios positivos e negativos.
+
+
+Uma solução foi usar valor absoluto:
+
+
+DMA = Σ|xᵢ − x̄| / n.
+
+
+Outra solução é elevar os desvios ao quadrado:
+
+
+(xᵢ − x̄)².
+
+
+O quadrado também transforma valores negativos em positivos e ainda dá mais peso a afastamentos grandes.
+
+
+É dessa segunda ideia que surgem variância e desvio-padrão.
+
+
+3. O que acontece ao elevar um desvio ao quadrado?
+
+
+Se o desvio é −2:
+
+
+(−2)² = 4.
+
+
+Se é +2:
+
+
+(+2)² = 4.
+
+
+A direção desaparece e fica apenas a magnitude, intensificada pelo quadrado.
+
+
+Compare:
+
+
+desvio 1 → quadrado 1;
+desvio 2 → quadrado 4;
+desvio 3 → quadrado 9;
+desvio 5 → quadrado 25.
+
+
+Afastamentos maiores pesam proporcionalmente mais.
+
+
+4. Exemplo inicial
+
+
+Dados:
+
+
+2, 3, 7.
+
+
+Média = 4.
+
+
+Desvios:
+
+
+−2, −1, +3.
+
+
+Quadrados:
+
+
+4, 1, 9.
+
+
+Soma dos quadrados:
+
+
+14.
+
+
+A média desses quadrados, se tratarmos os três valores como população completa, é:
+
+
+14/3 ≈ 4,67.
+
+
+Esse valor é a variância populacional.
+
+
+5. Variância populacional
+
+
+A variância populacional é:
+
+
+σ² = Σ(xᵢ − μ)² / N.
+
+
+Leitura pronunciável:
+
+
+“sigma ao quadrado é igual à soma dos quadrados dos desvios em relação à média populacional, dividida pelo tamanho da população”.
+
+
+Onde:
+
+
+σ², sigma ao quadrado, é a variância populacional;
+μ, mi, é a média populacional;
+N é o número de elementos da população.
+
+
+6. Passo a passo da variância populacional
+
+
+Dados:
+
+
+4, 6, 8.
+
+
+Passo 1. Média:
+
+
+μ = 6.
+
+
+Passo 2. Desvios:
+
+
+4−6 = −2.
+6−6 = 0.
+8−6 = +2.
+
+
+Passo 3. Quadrados:
+
+
+4, 0, 4.
+
+
+Passo 4. Soma:
+
+
+8.
+
+
+Passo 5. Dividir por N = 3:
+
+
+σ² = 8/3 ≈ 2,67.
+
+
+7. Problema da unidade da variância
+
+
+Se os dados estão em centímetros, cada desvio está em centímetros.
+
+
+Ao elevar ao quadrado:
+
+
+centímetro².
+
+
+Portanto, a variância fica em unidade ao quadrado.
+
+
+Se a variável é tempo em minutos:
+
+
+variância fica em minutos².
+
+
+Isso dificulta a interpretação direta.
+
+
+8. Por que surge o desvio-padrão?
+
+
+O desvio-padrão é a raiz quadrada da variância.
+
+
+σ = √σ².
+
+
+Leitura:
+
+
+“sigma é igual à raiz quadrada da variância populacional”.
+
+
+A raiz quadrada devolve a unidade original.
+
+
+Se variância está em cm², o desvio-padrão está em cm.
+
+
+9. Exemplo com 4, 6 e 8
+
+
+Variância:
+
+
+σ² = 8/3 ≈ 2,6667.
+
+
+Desvio-padrão:
+
+
+σ = √(8/3) ≈ 1,63.
+
+
+Interpretação inicial:
+
+
+os valores estão dispersos ao redor da média 6 numa escala típica de aproximadamente 1,63 unidade.
+
+
+Cuidado: desvio-padrão não é literalmente “a média das distâncias”; isso seria o desvio médio absoluto. Ele é a raiz da média dos quadrados dos desvios.
+
+
+10. Por que o nome “padrão”?
+
+
+O desvio-padrão cria uma escala comum para o tamanho dos desvios em relação à média.
+
+
+Ele aparece em estatística descritiva, distribuições de probabilidade, inferência, controle de qualidade, ciência de dados, experimentos e modelos probabilísticos.
+
+
+11. Variância zero
+
+
+Se todos os valores são iguais:
+
+
+5, 5, 5, 5.
+
+
+Média 5.
+
+
+Todos os desvios são zero.
+
+
+Variância = 0.
+Desvio-padrão = 0.
+
+
+Dispersão zero significa ausência de variação nos dados observados.
+
+
+12. Variância e desvio-padrão nunca são negativos
+
+
+Quadrados dos desvios são sempre maiores ou iguais a zero.
+
+
+Logo:
+
+
+σ² ≥ 0.
+
+
+A raiz quadrada principal também é não negativa:
+
+
+σ ≥ 0.
+
+
+13. Mesma média, desvios-padrão diferentes
+
+
+A = 4, 5, 6.
+
+
+Média = 5.
+
+
+Desvios: −1, 0, +1.
+Quadrados: 1,0,1.
+Variância = 2/3 ≈ 0,67.
+Desvio-padrão ≈ 0,82.
+
+
+B = 0, 5, 10.
+
+
+Média = 5.
+
+
+Desvios: −5,0,+5.
+Quadrados: 25,0,25.
+Variância = 50/3 ≈ 16,67.
+Desvio-padrão ≈ 4,08.
+
+
+Mesma média, dispersão muito diferente.
+
+
+14. Comparação com o desvio médio absoluto
+
+
+Para 0, 5, 10:
+
+
+Média = 5.
+
+
+DMA:
+
+
+(5+0+5)/3 = 10/3 ≈ 3,33.
+
+
+Desvio-padrão:
+
+
+√(50/3) ≈ 4,08.
+
+
+As duas medidas descrevem dispersão, mas usam funções de perda diferentes.
+
+
+O desvio-padrão penaliza mais fortemente afastamentos grandes por causa do quadrado.
+
+
+15. Efeito de um valor extremo
+
+
+Dados:
+
+
+5,5,5,5,5.
+
+
+σ = 0.
+
+
+Troque um 5 por 25:
+
+
+5,5,5,5,25.
+
+
+Média = 9.
+
+
+Desvios:
+
+
+−4,−4,−4,−4,+16.
+
+
+Quadrados:
+
+
+16,16,16,16,256.
+
+
+Soma = 320.
+
+
+Variância populacional:
+
+
+320/5 = 64.
+
+
+Desvio-padrão:
+
+
+8.
+
+
+Um único extremo cria grande aumento na dispersão.
+
+
+16. Translação: somar uma constante
+
+
+Se adicionamos a mesma constante c a todos os valores:
+
+
+yᵢ = xᵢ + c.
+
+
+A média aumenta c, mas os desvios em relação à nova média permanecem iguais.
+
+
+Portanto:
+
+
+variância não muda;
+desvio-padrão não muda.
+
+
+17. Demonstração da translação
+
+
+ȳ = x̄ + c.
+
+
+Então:
+
+
+yᵢ − ȳ = (xᵢ+c) − (x̄+c) = xᵢ − x̄.
+
+
+Os desvios são os mesmos.
+
+
+18. Mudança de escala
+
+
+Se multiplicamos todos os dados por a:
+
+
+yᵢ = a xᵢ.
+
+
+Os desvios são multiplicados por a.
+
+
+Ao quadrado:
+
+
+variância é multiplicada por a².
+
+
+O desvio-padrão é multiplicado por |a|.
+
+
+19. Transformação linear geral
+
+
+Se:
+
+
+yᵢ = a xᵢ + b,
+
+
+então:
+
+
+Var(y) = a² Var(x).
+
+
+DP(y) = |a| DP(x).
+
+
+O termo b desloca os dados sem alterar a dispersão.
+
+
+20. Exemplo de transformação
+
+
+Dados x têm desvio-padrão 3.
+
+
+Defina:
+
+
+y = 5x + 100.
+
+
+Novo desvio-padrão:
+
+
+5×3 = 15.
+
+
+Nova variância:
+
+
+25 vezes a variância antiga.
+
+
+21. Variância com tabela de frequências
+
+
+Valores:
+
+
+1 com frequência 2;
+2 com frequência 4;
+5 com frequência 2.
+
+
+Total N = 8.
+
+
+Média:
+
+
+μ = (1×2 + 2×4 + 5×2)/8
+= 20/8
+= 2,5.
+
+
+Desvios ao quadrado:
+
+
+(1−2,5)² = 2,25.
+(2−2,5)² = 0,25.
+(5−2,5)² = 6,25.
+
+
+Ponderando pelas frequências:
+
+
+2×2,25 = 4,5.
+4×0,25 = 1.
+2×6,25 = 12,5.
+
+
+Soma = 18.
+
+
+Variância populacional:
+
+
+18/8 = 2,25.
+
+
+Desvio-padrão:
+
+
+√2,25 = 1,5.
+
+
+22. Fórmula populacional com frequências
+
+
+σ² = Σ fᵢ(xᵢ − μ)² / N.
+
+
+Onde:
+
+
+N = Σfᵢ.
+
+
+23. Atalho algébrico para variância
+
+
+Existe uma fórmula equivalente:
+
+
+σ² = [Σxᵢ² / N] − μ².
+
+
+Leitura:
+
+
+“variância é a média dos quadrados menos o quadrado da média”.
+
+
+Ela é útil para cálculo, mas não deve substituir o significado conceitual.
+
+
+24. Demonstração do atalho
+
+
+Comece por:
+
+
+Σ(xᵢ−μ)².
+
+
+Expandindo:
+
+
+Σ(xᵢ² − 2μxᵢ + μ²)
+
+
+= Σxᵢ² − 2μΣxᵢ + Nμ².
+
+
+Como Σxᵢ = Nμ:
+
+
+= Σxᵢ² − 2Nμ² + Nμ²
+
+
+= Σxᵢ² − Nμ².
+
+
+Dividindo por N:
+
+
+σ² = Σxᵢ²/N − μ².
+
+
+25. Exemplo pelo atalho
+
+
+Dados 4, 6, 8.
+
+
+Quadrados:
+
+
+16, 36, 64.
+
+
+Média dos quadrados:
+
+
+116/3 ≈ 38,6667.
+
+
+Média dos dados:
+
+
+6.
+
+
+Quadrado da média:
+
+
+36.
+
+
+Variância:
+
+
+38,6667 − 36
+= 2,6667.
+
+
+Mesmo resultado do método dos desvios.
+
+
+26. População versus amostra: primeira distinção
+
+
+Se temos todos os elementos da população de interesse, usamos a variância populacional com divisão por N.
+
+
+Se temos uma amostra e queremos estimar a variância de uma população maior, aparece a variância amostral:
+
+
+s² = Σ(xᵢ − x̄)² / (n−1).
+
+
+Leitura:
+
+
+“esse ao quadrado é igual à soma dos quadrados dos desvios em relação à média amostral, dividida por ene menos um”.
+
+
+27. Por que n menos um?
+
+
+Quando a média é estimada a partir da própria amostra, os desvios ficam sujeitos à condição:
+
+
+Σ(xᵢ − x̄) = 0.
+
+
+Depois de escolher n−1 desvios, o último fica determinado.
+
+
+Dizemos que resta n−1 graus de liberdade.
+
+
+A divisão por n−1 também corrige um viés sistemático na estimação da variância populacional sob condições usuais de amostragem.
+
+
+28. Não decorar “n−1” sem perguntar o objetivo
+
+
+A pergunta correta é:
+
+
+“Estou descrevendo exatamente este conjunto como população completa da análise, ou estou usando uma amostra para estimar uma população?”
+
+
+Se o conjunto é a população definida, divisor N.
+
+
+Se é amostra para estimação da variância populacional, divisor n−1.
+
+
+29. Exemplo populacional versus amostral
+
+
+Dados:
+
+
+4, 6, 8.
+
+
+Soma dos quadrados dos desvios = 8.
+
+
+Como população:
+
+
+σ² = 8/3 ≈ 2,67.
+σ ≈ 1,63.
+
+
+Como amostra:
+
+
+s² = 8/(3−1) = 4.
+s = 2.
+
+
+Os dados são os mesmos; muda a pergunta estatística.
+
+
+30. O caso n = 1
+
+
+Para uma população com um único valor, variância populacional é zero.
+
+
+Para variância amostral com n−1 no denominador:
+
+
+n−1 = 0.
+
+
+A estimativa amostral usual não é definida para uma amostra de tamanho 1.
+
+
+31. O desvio-padrão amostral
+
+
+s = √s².
+
+
+Ele volta à unidade original dos dados, assim como o desvio-padrão populacional.
+
+
+32. Terminologia em calculadoras e planilhas
+
+
+Muitas ferramentas distinguem:
+
+
+desvio-padrão populacional;
+desvio-padrão amostral.
+
+
+É essencial saber qual função está sendo usada.
+
+
+Não aceite um número de software sem compreender o divisor.
+
+
+33. Dados agrupados em classes
+
+
+Se só temos classes e frequências, podemos usar pontos médios para estimar média, variância e desvio-padrão.
+
+
+O resultado é aproximado porque perdemos os valores individuais.
+
+
+34. Exemplo agrupado aproximado
+
+
+Classes:
+
+
+[0,10): f=2.
+[10,20): f=5.
+[20,30): f=3.
+
+
+Pontos médios:
+
+
+5, 15, 25.
+
+
+Média aproximada = 16.
+
+
+A partir daí calculamos desvios dos pontos médios em relação a 16 e ponderamos pelas frequências.
+
+
+35. Variância e unidade quadrática
+
+
+Uma variância de 25 cm² não deve ser lida como “25 centímetros”.
+
+
+É “vinte e cinco centímetros quadrados” como unidade algébrica da dispersão.
+
+
+O desvio-padrão correspondente é 5 cm.
+
+
+36. Por que interpretar o desvio-padrão é mais natural?
+
+
+Porque ele está na mesma unidade da variável.
+
+
+Se o tempo médio é 30 minutos e o desvio-padrão é 4 minutos, ambos podem ser comparados em minutos.
+
+
+37. Desvio-padrão não é limite máximo
+
+
+DP = 4 não significa que todos os valores estão entre média menos 4 e média mais 4.
+
+
+Essa interpretação exige hipóteses adicionais sobre a distribuição.
+
+
+38. Desvio-padrão não é erro da média
+
+
+Desvio-padrão descreve dispersão dos dados.
+
+
+Erro-padrão da média descreve incerteza da média estimada.
+
+
+São conceitos diferentes, estudados em etapas posteriores.
+
+
+39. Desvio-padrão não é amplitude
+
+
+Amplitude olha máximo e mínimo.
+
+
+Desvio-padrão usa todos os valores e seus desvios quadráticos.
+
+
+40. Efeito de duplicar todos os dados
+
+
+Se repetimos exatamente cada observação duas vezes, a média não muda.
+
+
+A variância populacional também não muda, pois numerador e N dobram.
+
+
+41. Misturar grupos pode aumentar a dispersão
+
+
+Dois grupos internamente homogêneos podem formar um conjunto muito disperso quando suas médias são diferentes.
+
+
+Exemplo:
+
+
+Grupo A: 10,10,10.
+Grupo B: 20,20,20.
+
+
+Cada grupo tem DP zero.
+
+
+Juntos:
+
+
+10,10,10,20,20,20.
+
+
+A dispersão total é positiva.
+
+
+42. Variância total e estrutura de grupos
+
+
+Em níveis avançados, a variabilidade total pode ser decomposta em variação dentro dos grupos e variação entre grupos.
+
+
+Essa ideia aparece em análise de variância, ANOVA, que será estudada muito mais adiante.
+
+
+43. Comparar desvio-padrão entre grandezas
+
+
+Comparar 5 cm com 5 kg não faz sentido diretamente: unidades diferentes.
+
+
+Mesmo com mesma unidade, escalas de média muito diferentes podem exigir comparação relativa.
+
+
+Isso prepara o coeficiente de variação da MAT-EST-009.
+
+
+44. Coeficiente de variação: antecipação
+
+
+Uma medida relativa comum é:
+
+
+CV = desvio-padrão / média.
+
+
+Muitas vezes é expressa em porcentagem.
+
+
+Ainda não aprofundaremos aqui porque este é o próximo tópico histórico.
+
+
+45. Exemplo integrado 1
+
+
+Dados:
+
+
+3, 5, 7.
+
+
+Média = 5.
+
+
+Desvios:
+
+
+−2, 0, +2.
+
+
+Quadrados:
+
+
+4,0,4.
+
+
+Variância populacional:
+
+
+8/3 ≈ 2,67.
+
+
+DP:
+
+
+≈1,63.
+
+
+46. Exemplo integrado 2
+
+
+Dados:
+
+
+2, 2, 2, 8.
+
+
+Média = 3,5.
+
+
+Desvios:
+
+
+−1,5; −1,5; −1,5; +4,5.
+
+
+Quadrados:
+
+
+2,25;2,25;2,25;20,25.
+
+
+Soma = 27.
+
+
+Variância populacional:
+
+
+27/4 = 6,75.
+
+
+DP ≈ 2,60.
+
+
+47. Exemplo integrado 3 — mesma amplitude
+
+
+A = 0, 5, 5, 5, 10.
+
+
+B = 0, 0, 5, 10, 10.
+
+
+Ambos têm amplitude 10.
+
+
+Mas os quadrados dos desvios e os desvios-padrão são diferentes.
+
+
+Amplitude igual não implica dispersão interna igual.
+
+
+48. Exemplo integrado 4 — correção de escala
+
+
+Temperaturas em Celsius têm DP de 3 °C.
+
+
+Se apenas convertermos diferenças para Fahrenheit, multiplicamos por 9/5.
+
+
+Novo DP:
+
+
+3×9/5 = 5,4 °F.
+
+
+A constante +32 não altera dispersão.
+
+
+49. Exemplo integrado 5 — frequência
+
+
+Valores 10,12,14 com frequências 1,3,1.
+
+
+Média = 12.
+
+
+Desvios quadráticos:
+
+
+4,0,4.
+
+
+Soma ponderada:
+
+
+4×1 + 0×3 + 4×1 = 8.
+
+
+N = 5.
+
+
+Variância populacional:
+
+
+8/5 = 1,6.
+
+
+DP ≈ 1,26.
+
+
+50. Relação com BNCC, ENEM e FUVEST
+
+
+A BNCC, em EF08MA25, aproxima medidas de tendência central da ideia de dispersão por meio da amplitude.
+
+
+A FUVEST 2027 exige explicitamente, entre as medidas de dispersão, amplitude, desvio-médio, variância, desvio-padrão e coeficiente de variação.
+
+
+A Matriz de Referência do Enem publicada pelo Inep em 2026 permanece referência institucional para competências e habilidades. As questões VES desta reconstrução são autorais.
+
+
+51. O que observar nos seis visuais
+
+
+Visual 1 — Quadrados dos desvios.
+Observe como −2, −1 e +3 se transformam em 4,1,9.
+
+
+Visual 2 — Variância para desvio-padrão.
+Observe variância em unidade ao quadrado e a raiz devolvendo a unidade original.
+
+
+Visual 3 — Mesma média, dispersões diferentes.
+Compare 4,5,6 com 0,5,10.
+
+
+Visual 4 — População versus amostra.
+Observe o mesmo numerador dividido por N ou n−1, dependendo do objetivo.
+
+
+Visual 5 — Transformação linear.
+Observe que adicionar constante não altera DP e multiplicar por a multiplica DP por |a|.
+
+
+Visual 6 — Efeito de extremo.
+Compare o conjunto constante com a versão que contém 25.
+
+
+52. Erros frequentes
+
+
+Erro 1. Somar desvios sem quadrado e concluir que dispersão é zero.
+Erro 2. Esquecer que variância tem unidade ao quadrado.
+Erro 3. Interpretar DP como amplitude.
+Erro 4. Usar n−1 sempre, sem perguntar o objetivo.
+Erro 5. Usar N sempre, mesmo ao estimar variância populacional por amostra.
+Erro 6. Confundir DP com erro-padrão.
+Erro 7. Achar que DP é distância máxima.
+Erro 8. Ignorar extremos.
+Erro 9. Comparar DP de unidades incompatíveis.
+Erro 10. Aceitar resultado de software sem saber qual fórmula foi usada.
+
+
+53. Resumo
+
+
+Variância populacional:
+
+
+σ² = Σ(xᵢ−μ)² / N.
+
+
+Desvio-padrão populacional:
+
+
+σ = √σ².
+
+
+Variância amostral:
+
+
+s² = Σ(xᵢ−x̄)² / (n−1).
+
+
+Desvio-padrão amostral:
+
+
+s = √s².
+
+
+Adicionar constante não altera dispersão.
+Multiplicar por a multiplica variância por a² e DP por |a|.
+Variância tem unidade ao quadrado.
+DP tem a mesma unidade dos dados.
+
+
+54. Versão curta para ouvir
+
+
+Variância mede a média dos quadrados dos desvios em relação à média.
+
+
+O quadrado impede o cancelamento de sinais e dá mais peso a afastamentos grandes.
+
+
+Como a variância fica em unidade ao quadrado, tiramos sua raiz para obter o desvio-padrão, que volta à unidade original.
+
+
+Se estamos descrevendo uma população completa, dividimos por N.
+
+
+Se usamos uma amostra para estimar a variância da população, a fórmula usual divide por n menos um.
+
+
+O mesmo conjunto pode produzir números diferentes conforme o objetivo estatístico.
+
+
+55. Vídeo complementar
+
+
+“NOÇÕES DE ESTATÍSTICA : VARIÂNCIA E DESVIO PADRÃO (18/21)”.
+Canal: Equaciona Com Paulo Pereira.
+URL: https://www.youtube.com/watch?v=okczT8W1fag
+
+
+Motivo da recomendação:
+A descrição pública informa que o vídeo trabalha variância e desvio-padrão populacionais e sua aplicação em exemplos práticos.
+
+
+Quando assistir:
+Após as seções 5 a 13 e antes dos exercícios de consolidação.
+
+
+Estado de QA:
+A página foi localizada nesta execução. Reprodução integral, áudio, duração efetiva e legendas no Microsoft Edge continuam pendentes.
+
+
+56. Critério de domínio
+
+
+O tópico só deve ser marcado como consolidado após evidência real de que o estudante consegue:
+
+
+• calcular variância e DP;
+• interpretar unidades;
+• distinguir população de amostra;
+• explicar n−1 conceitualmente;
+• calcular por frequências;
+• prever transformações;
+• reconhecer efeito de extremos;
+• resolver problema novo sem modelo pronto.
+
+
+A produção editorial não altera o progresso individual.
+
+
+57. Próximo passo
+
+
+MAT-EST-009 — Coeficiente de variação.

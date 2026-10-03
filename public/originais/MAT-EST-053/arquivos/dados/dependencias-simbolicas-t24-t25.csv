@@ -1,0 +1,5 @@
+target,origin,model,formula,conditional_variables,status
+t24,t23,BASE-SNAIVE-v1,181,x=y23 validado,formula_ilustrativa_sem_emissao
+t24,t23,CHAL-SDELTA5-v1,181+(x-128)/5,x=y23 validado,formula_ilustrativa_sem_emissao
+t25,t24,BASE-SNAIVE-v1,188,x=y23;z=y24,formula_ilustrativa_sem_emissao
+t25,t24,CHAL-SDELTA5-v1,188+(x+z-305)/5,x=y23;z=y24,formula_ilustrativa_sem_emissao

@@ -1,0 +1,24 @@
+﻿MAT-EST-010 — metadados — reconstrução editorial v1
+
+
+id: MAT-EST-010
+slug: quartis-decis-percentis
+tituloCanonico: Quartis, decis e percentis: posição relativa e divisão ordenada dos dados
+tituloCheckpointINC16: Quartis, decis e percentis: posição relativa e leitura de distribuição
+materia: Matemática
+unidade: Estatística
+nivel: 3
+statusEditorial: reconstrução editorial v1
+origemHistorica: produção histórica comprovada; bytes originais não recuperados
+preRequisitos: MAT-EST-001, MAT-EST-002, MAT-EST-003, MAT-EST-004, MAT-EST-005, MAT-EST-006, MAT-EST-007, MAT-EST-008, MAT-EST-009
+proximoTopico: MAT-EST-011
+questoes: 36
+camadas: APR 10; CON 10; VES 10; RET 6
+origemQuestoes: autoral
+visuais: 6
+video: https://www.youtube.com/watch?v=3Iphf0UB9MQ
+videoQA: página/descrição localizadas; reprodução integral, áudio, duração efetiva, legendas e Edge pendentes
+fontesCurriculares: FUVEST 2027; INEP Matriz de Referência Enem 2026; BNCC/MEC
+observacaoConvencoes: quantis amostrais admitem convenções diferentes; exercícios dependentes de método declaram a regra
+publicacao: não publicada
+progressoAluno: não alterado

@@ -1,0 +1,807 @@
+[
+  {
+    "id": "MAT-EST-009-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Média 50 e DP 5. Calcule o CV e o CV percentual.",
+    "answer": "5/50 = 0,10 = 10%. Erro provável: esquecer a conversão percentual.",
+    "resolution": "5/50 = 0,10 = 10%. Erro provável: esquecer a conversão percentual.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-009-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Média 20 e DP 4. Calcule o CV percentual.",
+    "answer": "4/20 = 0,20 = 20%. Erro provável: divisão incorreta.",
+    "resolution": "4/20 = 0,20 = 20%. Erro provável: divisão incorreta.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-009-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Explique com palavras o que significa CV de 10%.",
+    "answer": "O DP corresponde a 10% da média. Erro provável: interpretar como “10% dos dados”.",
+    "resolution": "O DP corresponde a 10% da média. Erro provável: interpretar como “10% dos dados”.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-009-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Por que o CV normalmente não tem unidade física?",
+    "answer": "DP e média têm mesma unidade; a razão cancela a unidade. Erro provável: tratar porcentagem como nova unidade física.",
+    "resolution": "DP e média têm mesma unidade; a razão cancela a unidade. Erro provável: tratar porcentagem como nova unidade física.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-009-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Média 100 e DP 20. Qual é o CV?",
+    "answer": "20/100 = 0,20 = 20%. Erro provável: inverter a razão.",
+    "resolution": "20/100 = 0,20 = 20%. Erro provável: inverter a razão.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-009-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Se média = 0, o CV usual está definido? Justifique.",
+    "answer": "Não, porque há divisão por zero. Erro provável: admitir infinito como valor usual do CV.",
+    "resolution": "Não, porque há divisão por zero. Erro provável: admitir infinito como valor usual do CV.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-009-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Se todos os valores são multiplicados por 10, o CV muda? Explique.",
+    "answer": "Não, se a multiplicação é comum a todos os valores e positiva. Média e DP são multiplicados pelo mesmo fator. Erro provável: esquecer a transformação do DP.",
+    "resolution": "Não, se a multiplicação é comum a todos os valores e positiva. Média e DP são multiplicados pelo mesmo fator. Erro provável: esquecer a transformação do DP.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-009-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Média 80 e DP 8. O CV é 0,1 ou 10? Diferencie forma decimal e percentual.",
+    "answer": "CV decimal 0,1; percentual 10%. Erro provável: confundir proporção com porcentagem.",
+    "resolution": "CV decimal 0,1; percentual 10%. Erro provável: confundir proporção com porcentagem.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-009-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Qual grupo tem maior dispersão relativa: A média 10 DP 2; B média 100 DP 10?",
+    "answer": "A: 20%; B: 10%. A tem maior dispersão relativa. Erro provável: comparar apenas DP.",
+    "resolution": "A: 20%; B: 10%. A tem maior dispersão relativa. Erro provável: comparar apenas DP.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-009-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Por que não existe uma classificação universal de CV “baixo” ou “alto”?\n\n\nCAMADA CON — Consolidação",
+    "answer": "Porque a interpretação depende da área, fenômeno, método e finalidade. Erro provável: aplicar regra de bolso como lei universal.",
+    "resolution": "Porque a interpretação depende da área, fenômeno, método e finalidade. Erro provável: aplicar regra de bolso como lei universal.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-009-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "A média é 200 e o DP 30. Calcule CV decimal e percentual.",
+    "answer": "30/200 = 0,15 = 15%.",
+    "resolution": "30/200 = 0,15 = 15%.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-009-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "A tem média 40 e DP 8; B tem média 100 e DP 15. Compare DP absoluto e CV.",
+    "answer": "DP: B maior, 15 > 8. CV: A=20%; B=15%; A maior relativamente.",
+    "resolution": "DP: B maior, 15 > 8. CV: A=20%; B=15%; A maior relativamente.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-009-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Comprimento médio 1,8 m e DP 0,09 m. Calcule CV; depois converta para cm e confirme o mesmo resultado.",
+    "answer": "0,09/1,8 = 5%. Em cm: 9/180 = 5%.",
+    "resolution": "0,09/1,8 = 5%. Em cm: 9/180 = 5%.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-009-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Temperatura média 20 °C e DP 2 °C. Calcule CV em Celsius e, depois, em Fahrenheit.",
+    "answer": "Celsius: 2/20=10%. Fahrenheit: média 68; DP 3,6; CV≈5,29%.",
+    "resolution": "Celsius: 2/20=10%. Fahrenheit: média 68; DP 3,6; CV≈5,29%.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-009-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Explique por que a diferença entre os CVs do exercício anterior revela uma limitação conceitual.",
+    "answer": "O fenômeno físico é o mesmo, mas o CV mudou porque a escala sofreu translação (+32); logo, CV não é adequado mecanicamente a escalas com zero arbitrário.",
+    "resolution": "O fenômeno físico é o mesmo, mas o CV mudou porque a escala sofreu translação (+32); logo, CV não é adequado mecanicamente a escalas com zero arbitrário.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-009-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Média 0,1 e DP 1. Calcule o CV percentual e explique por que exige cautela.",
+    "answer": "1/0,1 = 10 = 1000%. Denominador pequeno torna a razão instável e exige cautela.",
+    "resolution": "1/0,1 = 10 = 1000%. Denominador pequeno torna a razão instável e exige cautela.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-009-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Média 4 e DP 6. Calcule o CV. Um valor acima de 100% é matematicamente possível?",
+    "answer": "6/4 = 1,5 = 150%. Sim, é matematicamente possível.",
+    "resolution": "6/4 = 1,5 = 150%. Sim, é matematicamente possível.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-009-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "A: média 50 DP 2; B: média 50 DP 5. Compare CV e DP.",
+    "answer": "A: DP2, CV4%; B: DP5, CV10%. B maior em ambas porque médias são iguais.",
+    "resolution": "A: DP2, CV4%; B: DP5, CV10%. B maior em ambas porque médias são iguais.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-009-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Um conjunto sofre transformação y=3x. O que acontece com média, DP e CV?",
+    "answer": "Média e DP multiplicam por 3; CV permanece igual.",
+    "resolution": "Média e DP multiplicam por 3; CV permanece igual.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-009-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Um conjunto sofre transformação y=3x+10. O CV necessariamente permanece igual? Explique.\n\n\nCAMADA VES — Transferência / estilo vestibular autoral",
+    "answer": "Não. O +10 altera a média sem alterar a parte de dispersão correspondente à translação.",
+    "resolution": "Não. O +10 altera a média sem alterar a parte de dispersão correspondente à translação.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-009-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Processo A: média 120, DP 6. Processo B: média 20, DP 2. Qual tem maior dispersão relativa?",
+    "answer": "A: 6/120=5%; B: 2/20=10%. B maior relativamente.",
+    "resolution": "A: 6/120=5%; B: 2/20=10%. B maior relativamente.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-009-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Dois laboratórios medem a mesma substância. A: média 500 mg, DP 10 mg. B: média 50 mg, DP 2 mg. Compare CVs.",
+    "answer": "A: 2%; B: 4%. B tem maior CV, embora menor DP absoluto.",
+    "resolution": "A: 2%; B: 4%. B tem maior CV, embora menor DP absoluto.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-009-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Altura: média 170 cm, DP 8,5 cm. Massa: média 70 kg, DP 7 kg. Compare dispersões relativas e discuta a limitação substantiva.",
+    "answer": "Altura: 5%; massa: 10%. Massa tem maior dispersão relativa; ainda assim são fenômenos e unidades diferentes, então o significado substantivo continua distinto.",
+    "resolution": "Altura: 5%; massa: 10%. Massa tem maior dispersão relativa; ainda assim são fenômenos e unidades diferentes, então o significado substantivo continua distinto.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-009-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma variável em km tem média 2,4 e DP 0,12. Ao converter para metros, qual será o CV?",
+    "answer": "0,12/2,4=5%. Em metros, média 2400 e DP120, ainda 5%.",
+    "resolution": "0,12/2,4=5%. Em metros, média 2400 e DP120, ainda 5%.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-009-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um pesquisador compara CV de temperaturas em Celsius entre cidades. Qual problema conceitual precisa ser discutido?",
+    "answer": "Celsius tem zero arbitrário; mudança para Fahrenheit altera CV sem alterar o fenômeno físico.",
+    "resolution": "Celsius tem zero arbitrário; mudança para Fahrenheit altera CV sem alterar o fenômeno físico.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-009-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Média 0,02 e DP 0,05. Calcule CV e explique por que o resultado não deve ser interpretado mecanicamente.",
+    "answer": "0,05/0,02=2,5=250%. Média próxima de zero torna o CV muito sensível ao denominador.",
+    "resolution": "0,05/0,02=2,5=250%. Média próxima de zero torna o CV muito sensível ao denominador.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-009-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um relatório afirma que CV 8% é “sempre baixo”. Critique a afirmação.",
+    "answer": "Não existe corte universal; critérios dependem da área e método.",
+    "resolution": "Não existe corte universal; critérios dependem da área e método.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-009-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Produto A: preço médio 20, DP 1. Produto B: média 100, DP 8. Compare a variabilidade relativa.",
+    "answer": "A: 5%; B: 8%. B maior relativamente.",
+    "resolution": "A: 5%; B: 8%. B maior relativamente.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-009-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Explique por que um CV menor não prova maior exatidão de um instrumento.",
+    "answer": "CV mede dispersão relativa/repetibilidade; um instrumento pode ser consistente e enviesado.",
+    "resolution": "CV mede dispersão relativa/repetibilidade; um instrumento pode ser consistente e enviesado.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-009-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Construa dois grupos em que o grupo com maior DP tenha menor CV.\n\n\nCAMADA RET — Reteste",
+    "answer": "Exemplo: A média10 DP2 →20%; B média100 DP5 →5%. B tem maior DP e menor CV.",
+    "resolution": "Exemplo: A média10 DP2 →20%; B média100 DP5 →5%. B tem maior DP e menor CV.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-009-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Sem consultar, escreva as fórmulas do CV decimal e percentual.",
+    "answer": "CV=DP/média; CV%=100×DP/média.",
+    "resolution": "CV=DP/média; CV%=100×DP/média.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-009-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Média 75 e DP 15. Calcule o CV percentual.",
+    "answer": "15/75=0,20=20%.",
+    "resolution": "15/75=0,20=20%.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-009-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Explique por que o CV não muda ao converter metros para centímetros.",
+    "answer": "Conversão é multiplicativa; média e DP recebem o mesmo fator e a razão não muda.",
+    "resolution": "Conversão é multiplicativa; média e DP recebem o mesmo fator e a razão não muda.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-009-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Explique por que o CV pode mudar ao converter Celsius para Fahrenheit.",
+    "answer": "Fahrenheit inclui +32, alterando a média sem efeito equivalente no DP.",
+    "resolution": "Fahrenheit inclui +32, alterando a média sem efeito equivalente no DP.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-009-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "O que acontece com o CV quando a média se aproxima de zero?",
+    "answer": "A razão pode crescer muito e tornar-se instável; em média zero, fica indefinida.",
+    "resolution": "A razão pode crescer muito e tornar-se instável; em média zero, fica indefinida.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-009-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-009"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Liste três condições ou cuidados antes de usar CV.",
+    "answer": "Exemplos: média positiva e longe de zero; escala de razão com zero significativo; unidades/variáveis conceitualmente comparáveis; atenção a extremos e assimetria.",
+    "resolution": "Exemplos: média positiva e longe de zero; escala de razão com zero significativo; unidades/variáveis conceitualmente comparáveis; atenção a extremos e assimetria.",
+    "errorReasons": [],
+    "source": {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  }
+]

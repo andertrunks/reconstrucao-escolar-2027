@@ -1,0 +1,78 @@
+﻿Manifesto de reconstrução — MAT-EST-002
+
+
+IDENTIDADE
+Código: MAT-EST-002.
+Título histórico preservado: Censo, amostragem e representatividade: como escolher uma amostra.
+Status: reconstrução editorial v1, não cópia do arquivo histórico perdido.
+Data de reconstrução: 30/09/2026.
+Anterior: MAT-EST-001 reconstruída.
+Próximo histórico: MAT-EST-003.
+
+
+PROVENIÊNCIA
+A existência e o título de MAT-EST-002 foram recuperados do inventário histórico do projeto e do histórico editorial. Os bytes do pacote original não foram localizados no Drive, Biblioteca ou repositório. Por isso, esta versão é explicitamente nova e não reivindica identidade com o material original.
+
+
+REGRAS APLICADAS
+- fundamento antes de fórmula;
+- linguagem adulta e progressiva;
+- blocos de 25 a 50 minutos;
+- compatibilidade textual com Ler em voz alta;
+- fórmulas acompanhadas de leitura pronunciável;
+- recursos visuais com legenda, texto alternativo, observação e conclusão para áudio;
+- questões separadas do gabarito;
+- três camadas de prática mais reteste posterior;
+- nenhum progresso individual alterado pela produção editorial;
+- nenhuma questão oficial reconstruída de memória.
+
+
+FONTES INSTITUCIONAIS VERIFICADAS
+- BNCC/MEC como referência estrutural.
+- IBGE Educa: habilidades EF08MA26 e EF08MA27, relacionadas a pesquisas censitárias e amostrais, técnicas de amostragem e planejamento de pesquisa.
+- IBGE: metodologia do Censo Demográfico 2022, incluindo questionário básico e amostral e seleção probabilística documentada.
+- Inep: Matrizes de Referência do Enem, publicação institucional de 2026.
+- FUVEST: Programa do Vestibular 2027. O programa explicita planejamento de pesquisa amostral, análise de métodos de amostragem e o objeto “população e amostra”.
+
+
+CONTEÚDO RECONSTRUÍDO
+Censo; pesquisa amostral; população-alvo; população acessível; marco amostral; representatividade; amostragem probabilística e não probabilística; aleatória simples; sistemática; estratificada; conglomerados; conveniência; resposta voluntária; erro amostral; cobertura; não resposta; medição; processamento; fração amostral; exemplo do Censo 2022; roteiro de escolha de desenho; aplicação integradora.
+
+
+EXERCÍCIOS
+36 IDs únicos:
+- APR: 10;
+- CON: 10;
+- VES: 10;
+- RET: 6.
+Todos autorais.
+
+
+VISUAIS
+Seis SVGs produzidos nesta reconstrução:
+1. 01-censo-amostra.svg
+2. 02-cobertura-resposta.svg
+3. 03-probabilistica-nao-probabilistica.svg
+4. 04-metodos-amostragem.svg
+5. 05-fontes-de-erro.svg
+6. 06-tamanho-versus-desenho.svg
+
+
+Cada SVG inclui título e descrição internos. A aula também traz texto alternativo e conclusão para áudio.
+
+
+VÍDEO
+“Conceitos Básicos de Estatística: População, Amostra, Amostragem, Variáveis e Organização de Dados”, canal Professora Gisele Ramos — Matemática.
+Disponibilidade da página confirmada em 30/09/2026. QA audiovisual integral e sincronização de legendas ainda pendentes.
+
+
+BLOQUEIOS ANTES DE PUBLICAÇÃO
+- inspeção visual dos seis SVGs no site;
+- reprodução audiovisual completa e checagem de legendas;
+- QA real no Microsoft Edge: Ler em voz alta, Modo de Leitura quando aplicável, teclado, zoom e leitor de tela;
+- conversão do conteúdo para o modelo estruturado do repositório;
+- validação da árvore de pré-requisitos em conjunto com MAT-EST-001 e MAT-EST-003.
+
+
+Não houve commit, push, deploy ou alteração de progresso do aluno.
+MAT-EST-068 não foi iniciada.

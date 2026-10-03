@@ -1,0 +1,13 @@
+CONTINUIDADE — RECONSTRUÇÃO ESCOLAR + ENEM E VESTIBULARES 2027
+
+Última aula editorial concluída LOCALMENTE: MAT-EST-062 — Manutenção de evidências e prontidão de publicação: checklist auditável, rastreio de pendências e validação pós-deploy. Consultar MAT-EST-062-pacote-integracao.zip e checkpoint-editorial.json. Caso não estejam disponíveis no novo chat, pedir anexação exata, sem inferir sandbox paths.
+
+Próxima etapa, ainda NÃO iniciada: MAT-EST-063 — Gestão de incidentes editoriais: classificação de falhas, comunicação de impacto e reteste de correções.
+
+Preservar os 23 arquivos-base invariantes e a cópia integral de MAT-EST-061 em historico/MAT-EST-061-pacote-integracao.zip. Não modificar os protocolos anteriores. Série fictícia t01–t22 preservada. Histórico MAT-EST-049-PROT-v1: 5 de 8 pares, MAE B17,60 C8,36, custos médios B51,20 C14,92, piora t19=19,2 maior que guarda dez. C não promovido. t23–t25 sem observado/emissão autenticada. Sucessor MAT-EST-056-PROT-SUC-v1 apenas rascunho editorial local; t26–t33 oito alvos propostos, zero pares, MAE nulo/não estimável.
+
+SANDBOX-057 isolado: oito cartões, dois avaliáveis, seis pendentes, erros B [+4,−2], C [+3,−5], MAE B3 C4 unidades, custo médio 7 pontos em ambos. V e Z permanecem isolados.
+
+MAT-EST-061: R061-RC1 passou testes locais e cinco mutações R061-T01–T05 foram rejeitadas em fixtures. G1/G2 checked_local, G3–G6 pending, G7/G8 not_performed. MAT-EST-062 preservou esses estados sem promoção: matriz de evidências, fila G3–G8, plano de dez itens pós-deploy não executados e seis cenários sintéticos de validade e dependência. Não confundir simulação de publicação com evento real.
+
+Ao receber Continuar, verificar checkpoint mais recente e avançar somente MAT-EST-063. Produzir aula profunda, figuras acessíveis com descrição pronunciável, vídeo com status honesto, 36 exercícios autorais graduais e gabaritos separados, Markdown, HTML/PNG, metadados, ZIP, SHA-256 e testes. Não inventar novos observados, revisor, assinatura, commit, URL, deploy, rollback ou sincronização. Não alterar progresso individual sem estudo. Registrar novo checkpoint, botão Continuar e botão Copiar prompt para novo chat.

@@ -1,0 +1,13 @@
+CONTINUIDADE — RECONSTRUÇÃO ESCOLAR + ENEM E VESTIBULARES 2027
+
+Último pacote editorial concluído somente LOCALMENTE: MAT-EST-065 — Indicadores de qualidade editorial: definição operacional, linhas de base e acompanhamento sem métricas ilusórias. Consultar MAT-EST-065-pacote-integracao.zip e checkpoint-editorial.json, que anexarei se necessário.
+
+Próximo tópico proposto e NÃO iniciado: MAT-EST-066 — Revisão crítica e consolidação da unidade de avaliação temporal: integração de métricas, auditoria e transferência para problemas novos.
+
+Preservar os 23 arquivos-base controlados por SHA-256, a cópia integral do ZIP MAT-EST-064, dados fictícios t01–t22, IDs e protocolos. MAT-EST-049-PROT-v1: 5/8 pares, MAE B=17,60, C=8,36, custo B=51,20, C=14,92, piora local t19=19,2 > guarda 10; não promover C. t23–t25 não têm emissões nem observações autenticadas; t26–t33 são apenas proposta editorial, zero pares e MAE não estimável.
+
+SANDBOX-057 isolado: oito cartões, dois avaliáveis, seis pendentes; erros B [+4,−2], C [+3,−5]; MAE B=3, C=4 unidades; custos médios B=C=7 pontos. Exemplos V/Z são isolados. G1/G2 checked_local, G3–G6 pending, G7/G8 not_performed; P01–P10 not_performed. A64-01–06 possuem somente ensaios de fixture; A64-07 proposta, sem execução.
+
+MAT-EST-065 acrescentou 11 fichas de indicadores K65-01–K65-11, uma única fotografia didática F0, sem F1 observada e sete casos de verificação N65-00–N65-06 (um controle e seis mutações). K65-01 completude 2/8=25%; MAE B=3 e C=4; custos B/C=7; seis de seis mutações artificiais rejeitadas NÃO significa taxa de detecção em produção; seis de sete ações ensaiadas NÃO significa eficácia operacional; 2/8 G checked_local NÃO é índice de prontidão. Taxa real de incidentes e MAE do sucessor não estimáveis; P01–P10 executados 0/10 é apenas taxa de execução documental.
+
+Quando eu escrever Continuar, verificar o checkpoint canônico e realizar exatamente um passo: MAT-EST-066. Produzir aula aprofundada, visuais acessíveis, vídeo complementar com verificação honesta, 36 exercícios autorais graduais e reteste, gabarito comentado separado, Markdown, ZIP, prévia, metadados e manifesto SHA-256. Não afirmar publicação, sync, revisão humana, deploy, progresso individual ou observações futuras inexistentes. Registrar próximo checkpoint e oferecer botões Continuar e Copiar prompt para novo chat.

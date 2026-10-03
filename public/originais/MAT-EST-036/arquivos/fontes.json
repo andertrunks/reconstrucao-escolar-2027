@@ -1,0 +1,32 @@
+[
+  {
+    "instituicao": "INEP",
+    "titulo": "Matrizes de Referência ENEM (2026)",
+    "url": "https://www.gov.br/inep/pt-br/centrais-de-conteudo/acervo-linha-editorial/publicacoes-institucionais/avaliacoes-e-exames-da-educacao-basica/matrizes-de-referencia-enem",
+    "escopo": "orientação geral da camada ENEM; não atribuir ponte universitária como conteúdo específico do exame"
+  },
+  {
+    "instituicao": "INEP",
+    "titulo": "Provas e Gabaritos ENEM",
+    "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+    "escopo": "prática externa; nenhum enunciado oficial reproduzido no pacote"
+  },
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 501: Regression Methods — Lesson 10, Model Building and Cross-validation",
+    "url": "https://online.stat.psu.edu/stat501/Lesson10",
+    "escopo": "planejamento de modelo, diagnóstico e validação"
+  },
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 501 — Lesson 4, SLR Model Assumptions",
+    "url": "https://online.stat.psu.edu/stat501/Lesson04",
+    "escopo": "resíduos e limites da regressão"
+  },
+  {
+    "instituicao": "MIT OpenCourseWare",
+    "titulo": "Video 4: Validating the Model",
+    "url": "https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/resources/video-4-validating-the-model-0/",
+    "escopo": "vídeo complementar"
+  }
+]

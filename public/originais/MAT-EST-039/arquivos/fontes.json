@@ -1,0 +1,32 @@
+[
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 500 — Lesson 11, Introduction to Nonparametric Tests and Bootstrap",
+    "url": "https://online.stat.psu.edu/stat500/Lesson11",
+    "uso": "procedimento de bootstrap com reposição, distribuição amostral aproximada, percentis, vídeo 11.1"
+  },
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 200 — Lesson 4, Confidence Intervals",
+    "url": "https://online.stat.psu.edu/stat200/Lesson04",
+    "uso": "distribuição bootstrap e intervalo percentílico"
+  },
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 200 — Lesson 5, Hypothesis Testing, Part 1",
+    "url": "https://online.stat.psu.edu/stat200/Lesson05",
+    "uso": "distribuição de aleatorização construída sob hipótese nula e valor-p"
+  },
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 555 — 2.5 Hypothesis Testing (Permutation Test)",
+    "url": "https://online.stat.psu.edu/stat555/node/35/",
+    "uso": "troca de rótulos e respeito ao pareamento"
+  },
+  {
+    "instituicao": "Projeto Reconstrução Escolar",
+    "titulo": "MAT-EST-034 a 038",
+    "url": null,
+    "uso": "continuidade de conteúdo e CSV fictício; cópia idêntica do CSV de MAT-EST-038"
+  }
+]

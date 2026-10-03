@@ -1,0 +1,254 @@
+[
+  {
+    "id": "MAT-EST-039-EX-APR-01",
+    "resposta": "É uma nova amostra de tamanho n, extraída da amostra original COM reposição.",
+    "resolucao": "A amostra observada é utilizada como distribuição empírica. Cada escolha permite repetir uma observação. O processo é repetido para recalcular a estatística.",
+    "causaProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-APR-02",
+    "resposta": "Porque cada seleção contém os quatro valores uma vez; a média permanece 5.",
+    "resolucao": "Sem reposição e com tamanho 4, apenas mudaria a ordem. Com reposição, algumas observações se repetem e outras ficam ausentes.",
+    "causaProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-APR-03",
+    "resposta": "5.",
+    "resolucao": "Somar 2+4+6+8=20 e dividir por 4: 20/4=5.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-APR-04",
+    "resposta": "5.",
+    "resolucao": "A soma é 20; divide-se pelo tamanho da réplica, quatro. Repetições são permitidas.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-APR-05",
+    "resposta": "5.",
+    "resolucao": "A amostra ordenada tem tamanho par; calcula-se a média dos dois valores centrais: (4+6)/2=5.",
+    "causaProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-APR-06",
+    "resposta": "6,5.",
+    "resolucao": "A soma é 26 e o tamanho é 4; 26/4=6,5.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-APR-07",
+    "resposta": "Não. Bootstrap replica padrões e problemas da amostra observada; não corrige automaticamente viés de origem.",
+    "resolucao": "Separar variabilidade estatística de representatividade do desenho. Mais réplicas artificiais não equivalem a mais unidades populacionais observadas.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-APR-08",
+    "resposta": "Bootstrap: incerteza; permutação: teste de hipótese nula.",
+    "resolucao": "No bootstrap sorteiam-se registros com reposição a partir da amostra; na permutação reorganizam-se rótulos sob a hipótese nula e as hipóteses de intercambiabilidade.",
+    "causaProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-APR-09",
+    "resposta": "2,5.",
+    "resolucao": "Soma 10 dividida por 4 = 2,5; observações podem repetir.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-APR-10",
+    "resposta": "Cerca de 25.",
+    "resolucao": "Cinco por cento de 500 = 25. Percentis usam a distribuição ordenada e dependem da convenção de quantis.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-CON-01",
+    "resposta": "256 sequências.",
+    "resolucao": "A cada sorteio há 4 possibilidades; pelo princípio multiplicativo: 4⁴=256. Médias repetidas não significam sequências idênticas.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-CON-02",
+    "resposta": "√1,25 ≈ 1,118.",
+    "resolucao": "O desvio-padrão é raiz da variância da distribuição das 256 médias; aproximadamente 1,118 unidades. Não é o desvio-padrão dos quatro dados originais.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-CON-03",
+    "resposta": "[3;7], apenas como construção didática de amostra muito pequena.",
+    "resolucao": "Selecionar os percentis 2,5 e 97,5 da distribuição de médias; o intervalo pode ter cobertura inadequada em amostra n=4.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-CON-04",
+    "resposta": "-6.",
+    "resolucao": "Média A=4 e média B=10. Diferença observada=4−10=−6.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-CON-05",
+    "resposta": "20.",
+    "resolucao": "Escolher quais 3 das 6 posições recebem A: combinação C(6,3)=6!/(3!3!)=20.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-CON-06",
+    "resposta": "0,10, ou 10%.",
+    "resolucao": "Há 2 resultados pelo menos tão extremos quanto o observado em 20 possíveis: 2/20=0,10. Em α=0,05 não se rejeita a hipótese nula neste exemplo.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-CON-07",
+    "resposta": "20/1000 = 0,02.",
+    "resolucao": "Somam-se uma observação extrema e a configuração observada no numerador e uma no denominador, na construção Monte Carlo apropriada: (19+1)/(999+1).",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-CON-08",
+    "resposta": "2/6=1/3≈0,333.",
+    "resolucao": "A diferença observada de médias é 2−6=−4. Em seis alocações possíveis, duas atingem módulo quatro; o valor-p é um terço.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-CON-09",
+    "resposta": "8.",
+    "resolucao": "São duas opções por par e três pares: 2³=8. A unidade de troca é a diferença dentro de cada par, não uma pessoa misturada entre grupos.",
+    "causaProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-CON-10",
+    "resposta": "−4/3≈−1,333.",
+    "resolucao": "Somar −2+1−3=−4 e dividir por 3. O sinal indica redução média no depois, sob esta convenção.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-VES-01",
+    "resposta": "A afirmação é inválida: bootstrap não torna probabilística uma amostra voluntária.",
+    "resolucao": "O intervalo pode representar variação condicional à amostra e às suposições, mas não torna demonstrada a representatividade da população. Exigir plano de amostragem defensável.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-VES-02",
+    "resposta": "Não em geral; reamostrar unidades independentes, por exemplo pacientes inteiros (bootstrap por conglomerados) quando o desenho permitir.",
+    "resolucao": "As quatro medidas do mesmo paciente compartilham dependência. Sortear cada linha isoladamente pode subestimar a incerteza.",
+    "causaProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-VES-03",
+    "resposta": "Não sem examinar dependência temporal e preservar o papel da partição; considerar avaliação cronológica e técnicas específicas de blocos quando adequadas.",
+    "resolucao": "Uma série temporal pode conter autocorrelação. O conjunto de teste não deve participar do ajuste. Não converter automaticamente oito dias em unidades independentes.",
+    "causaProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-VES-04",
+    "resposta": "Bootstrap estima incerteza amostral de uma estatística; teste de permutação mede quão extremo é um resultado sob a hipótese nula e permutabilidade.",
+    "resolucao": "Os mecanismos geradores diferem: amostragem com reposição da distribuição empírica versus realocação de rótulos sob H0. Não ler a cauda bootstrap bruta como valor-p automaticamente.",
+    "causaProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-VES-05",
+    "resposta": "Reamostrar com reposição três unidades de A dentro de A e três de B dentro de B; calcular a diferença de médias.",
+    "resolucao": "A estimativa de diferença pressupõe duas amostras observadas. Repetir separadamente preserva tamanhos e identidades de grupo para estimativa da incerteza.",
+    "causaProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-VES-06",
+    "resposta": "Permutar rótulos cria a distribuição nula de ausência de efeito de grupo sob intercambiabilidade, diferente da distribuição da estimativa observada.",
+    "resolucao": "O primeiro procedimento impõe o mecanismo nulo; o segundo avalia variação da estatística nos dados com os grupos observados.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-VES-07",
+    "resposta": "8/101≈0,0792.",
+    "resolucao": "(k+1)/(B+1)=(7+1)/(100+1), aproximadamente 7,92%. Registrar a convenção usada.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-VES-08",
+    "resposta": "√(0,1×0,9/1000)≈0,00949.",
+    "resolucao": "O desvio de Monte Carlo é aproximadamente raiz de 0,00009; aumentar réplicas diminui esse erro de simulação, não conserta desenho inválido.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-VES-09",
+    "resposta": "Quebra o pareamento; usar estatística das diferenças e permutações válidas dentro de pares, sob hipótese nula apropriada de intercambiabilidade.",
+    "resolucao": "As medições do mesmo indivíduo não são independentes. Respeitar a unidade experimental e a hipótese nula é indispensável.",
+    "causaProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-VES-10",
+    "resposta": "Não na interpretação frequentista padrão: o método gera intervalos cuja cobertura nominal é visada em repetidas amostras sob suas condições.",
+    "resolucao": "O valor populacional é fixo; a aleatoriedade é do procedimento amostral e dos intervalos antes de observar dados. A cobertura real pode ser diferente da nominal.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-RET-01",
+    "resposta": "3³=27.",
+    "resolucao": "Três opções em cada um dos três sorteios: 3×3×3=27.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-RET-02",
+    "resposta": "5/3≈1,667.",
+    "resolucao": "A soma é 5; o número de posições da réplica é 3.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-RET-03",
+    "resposta": "C(4,2)=6.",
+    "resolucao": "Escolhemos duas das quatro unidades para A; as duas restantes ficam em B.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-RET-04",
+    "resposta": "2/6=1/3≈0,333.",
+    "resolucao": "A diferença observada é 1,5−3,5=−2, e duas das seis alocações têm módulo pelo menos 2.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-RET-05",
+    "resposta": "2⁴=16.",
+    "resolucao": "Cada uma das quatro diferenças tem dois sinais; há 16 configurações se todas forem consideradas.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-039-EX-RET-06",
+    "resposta": "Não. Bootstrap não gera observações empíricas de grupos ausentes nem conserta cobertura inadequada.",
+    "resolucao": "A distribuição empírica só contém o observado; o número de reamostragens reduz ruído de simulação, não a lacuna de coleta.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  }
+]

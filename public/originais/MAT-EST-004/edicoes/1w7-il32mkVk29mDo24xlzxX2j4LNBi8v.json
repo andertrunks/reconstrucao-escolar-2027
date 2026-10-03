@@ -1,0 +1,45 @@
+{
+  "id": "MAT-EST-004",
+  "titulo": "Gráficos estatísticos: barras, setores, linhas, histogramas e escolha da representação",
+  "materia": "Matemática",
+  "unidade": "Estatística",
+  "nivel": 2,
+  "status_editorial": "reconstrucao_editorial_v1",
+  "identidade_com_original_perdido": false,
+  "pre_requisitos": [
+    "MAT-EST-001",
+    "MAT-EST-002",
+    "MAT-EST-003"
+  ],
+  "proximo_topico": "MAT-EST-005",
+  "questoes": {
+    "total": 36,
+    "apr": 10,
+    "con": 10,
+    "ves": 10,
+    "ret": 6,
+    "origem": "autoral"
+  },
+  "visuais": [
+    "01-barras-categorias.svg",
+    "02-setores-parte-todo.svg",
+    "03-linha-temporal.svg",
+    "04-barras-versus-histograma.svg",
+    "05-escala-truncada.svg",
+    "06-arvore-escolha-grafico.svg"
+  ],
+  "video": {
+    "titulo": "ESTATÍSTICA #03 | GRÁFI : Aprenda de Vez para o ENEM e Concursos",
+    "canal": "Tutoriar EAD",
+    "url": "https://www.youtube.com/watch?v=xB1OZXHLmBE",
+    "qa_audiovisual": "pendente"
+  },
+  "fontes_oficiais": [
+    "BNCC/MEC — EF06MA31 e EF06MA32",
+    "Inep — Matrizes de Referência do Enem, 2026",
+    "FUVEST — Programa do Vestibular 2027, habilidades de análise de gráficos e objetos de Estatística descritiva"
+  ],
+  "publicado": false,
+  "progresso_aluno_alterado": false,
+  "mat_est_068_iniciada": false
+}

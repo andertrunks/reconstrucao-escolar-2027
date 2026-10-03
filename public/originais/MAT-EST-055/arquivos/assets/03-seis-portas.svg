@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 346" role="img" aria-labelledby="title desc"><title id="title">Portas do protocolo original</title><desc id="desc">Amostra cinco de oito pendente; reduções médias parciais acima de vinte por cento; piora local de dezenove vírgula dois violou limite dez; auditoria e autorização reais não demonstradas.</desc>
+<rect width="1240" height="346" rx="20" fill="#10243b"/><text x="36" y="44" font-size="26" font-family="Arial, sans-serif" font-weight="700" fill="#f5fbff">Portas do protocolo original</text>
+<rect x="35.0" y="100" width="222.8" height="137" rx="12" fill="#dbeafe" stroke="#173352" stroke-width="2"/>
+<text x="146.4" y="133" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#142436">PENDENTE</text>
+<text x="146.4" y="158" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="400" fill="#142436">5 de 8</text>
+<path d="M 259.8 167 L 269.8 167 m -7 -7 l 7 7 -7 7" stroke="#fff" stroke-width="2" fill="none"/>
+<rect x="271.8" y="100" width="222.8" height="137" rx="12" fill="#dcfce7" stroke="#173352" stroke-width="2"/>
+<text x="383.2" y="133" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#142436">PARCIAL</text>
+<text x="383.2" y="158" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="400" fill="#142436">MAE −52,5%</text>
+<path d="M 496.6 167 L 506.6 167 m -7 -7 l 7 7 -7 7" stroke="#fff" stroke-width="2" fill="none"/>
+<rect x="508.6" y="100" width="222.8" height="137" rx="12" fill="#fef3c7" stroke="#173352" stroke-width="2"/>
+<text x="620.0" y="133" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#142436">PARCIAL</text>
+<text x="620.0" y="158" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="400" fill="#142436">custo −70,86%</text>
+<path d="M 733.4 167 L 743.4 167 m -7 -7 l 7 7 -7 7" stroke="#fff" stroke-width="2" fill="none"/>
+<rect x="745.4" y="100" width="222.8" height="137" rx="12" fill="#fee2e2" stroke="#173352" stroke-width="2"/>
+<text x="856.8" y="133" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#142436">VIOLADA</text>
+<text x="856.8" y="158" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="400" fill="#142436">t19: 19,2 &gt; 10</text>
+<path d="M 970.2 167 L 980.2 167 m -7 -7 l 7 7 -7 7" stroke="#fff" stroke-width="2" fill="none"/>
+<rect x="982.2" y="100" width="222.8" height="137" rx="12" fill="#ede9fe" stroke="#173352" stroke-width="2"/>
+<text x="1093.6" y="133" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#142436">NÃO PROVADAS</text>
+<text x="1093.6" y="158" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="400" fill="#142436">auditoria + aval</text>
+<text x="36" y="280" font-family="Arial,sans-serif" fill="#f5fbff" font-size="18">Todas as portas precisam ser atendidas; melhora média não apaga t19.</text>
+<text x="36" y="314" font-family="Arial,sans-serif" fill="#b9d6ec" font-size="14">Ilustração autoral • números fictícios • ler também a legenda completa na aula</text></svg>

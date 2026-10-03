@@ -1,0 +1,1563 @@
+﻿MAT-EST-006 — Mediana e moda: posição, frequência e comparação com a média
+
+
+Status editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.
+Matéria: Matemática.
+Unidade: Estatística.
+Nível principal: 2 — Ensino Fundamental II, com progressão para Ensino Médio, vestibulares e ponte universitária.
+Pré-requisitos: MAT-EST-001 a MAT-EST-005; ordenação de números; frequências absoluta e acumulada; média aritmética; frações e porcentagens básicas.
+Próximo tópico: MAT-EST-007 — Medidas de dispersão I: amplitude, desvios e desvio médio.
+Questões desta reconstrução: 100% autorais.
+
+
+1. Objetivo
+
+
+Ao dominar esta aula, o estudante deverá conseguir:
+
+
+• explicar intuitivamente o que a mediana representa;
+• encontrar a mediana em conjuntos com quantidade ímpar e par de dados;
+• compreender por que ordenar os dados é indispensável;
+• localizar a mediana em tabelas de frequência usando frequência acumulada;
+• distinguir valor mediano de posição mediana;
+• definir e encontrar moda em dados quantitativos e qualitativos;
+• reconhecer conjuntos sem moda, unimodais, bimodais e multimodais;
+• distinguir moda de “maior frequência”;
+• identificar classe modal em dados agrupados;
+• comparar média, mediana e moda diante de valores extremos e assimetria;
+• escolher uma medida de centro adequada ao tipo de variável e à pergunta;
+• relacionar mediana ao percentil 50, sem antecipar indevidamente o estudo completo de quartis e percentis;
+• interpretar medidas de centro sem generalizar além do que os dados permitem.
+
+
+2. Por que estudar outras medidas de centro?
+
+
+Na MAT-EST-005 vimos que a média usa todos os valores diretamente na soma.
+
+
+Isso é uma força, porque aproveita toda a informação numérica.
+
+
+Também é uma vulnerabilidade: valores extremos podem deslocar a média.
+
+
+Considere as rendas:
+
+
+R$ 2.000;
+R$ 2.100;
+R$ 2.200;
+R$ 2.300;
+R$ 20.000.
+
+
+Média:
+
+
+(2000 + 2100 + 2200 + 2300 + 20000) / 5
+= 28600 / 5
+= R$ 5.720.
+
+
+Mas quatro das cinco rendas estão entre R$ 2.000 e R$ 2.300.
+
+
+A média é matematicamente correta, porém talvez não represente bem o “centro típico” desse pequeno conjunto.
+
+
+A mediana oferece outra ideia de centro: posição.
+
+
+3. O que é mediana?
+
+
+A mediana é o valor que ocupa a posição central quando os dados são ordenados.
+
+
+A palavra central aqui é literal: precisamos colocar os dados em ordem.
+
+
+Exemplo:
+
+
+9, 2, 5, 4, 7.
+
+
+Primeiro ordenar:
+
+
+2, 4, 5, 7, 9.
+
+
+O valor central é 5.
+
+
+Mediana = 5.
+
+
+4. Ordenar é obrigatório
+
+
+Considere novamente:
+
+
+9, 2, 5, 4, 7.
+
+
+Se alguém simplesmente escolher o terceiro valor da lista original, obterá 5 por coincidência.
+
+
+Agora use:
+
+
+9, 2, 7, 4, 5.
+
+
+O terceiro valor original é 7.
+
+
+Mas ordenando:
+
+
+2, 4, 5, 7, 9.
+
+
+A mediana continua sendo 5.
+
+
+Portanto, a mediana depende da posição na lista ordenada, não da posição na ordem em que os dados foram coletados.
+
+
+5. Mediana com quantidade ímpar de dados
+
+
+Se n é ímpar, existe uma única posição central.
+
+
+A posição pode ser calculada por:
+
+
+p = (n + 1) / 2.
+
+
+Leitura pronunciável:
+
+
+“a posição da mediana é igual a ene mais um, dividido por dois”.
+
+
+Exemplo:
+
+
+n = 7.
+
+
+p = (7+1)/2 = 4.
+
+
+A mediana é o quarto valor da lista ordenada.
+
+
+6. Exemplo ímpar
+
+
+Dados:
+
+
+12, 8, 10, 7, 9, 11, 50.
+
+
+Ordenando:
+
+
+7, 8, 9, 10, 11, 12, 50.
+
+
+n=7.
+
+
+Posição central = 4.
+
+
+Mediana = 10.
+
+
+Observe que o valor 50 é extremo, mas não desloca a posição central.
+
+
+7. Mediana com quantidade par
+
+
+Se n é par, não existe uma única observação exatamente no meio.
+
+
+Existem duas posições centrais:
+
+
+n/2
+
+
+e
+
+
+n/2 + 1.
+
+
+A mediana é a média aritmética dos valores nessas duas posições.
+
+
+8. Exemplo par
+
+
+Dados:
+
+
+3, 10, 6, 8, 5, 7.
+
+
+Ordenando:
+
+
+3, 5, 6, 7, 8, 10.
+
+
+n=6.
+
+
+Posições centrais:
+
+
+6/2 = 3
+
+
+e
+
+
+3+1 = 4.
+
+
+Valores centrais:
+
+
+6 e 7.
+
+
+Mediana:
+
+
+(6+7)/2 = 6,5.
+
+
+9. A mediana pode não ser um valor observado
+
+
+No exemplo anterior, nenhum dado é 6,5.
+
+
+Mesmo assim, 6,5 é a mediana.
+
+
+Assim como a média, a mediana pode ser um valor não observado.
+
+
+10. Valor mediano não é posição mediana
+
+
+Em:
+
+
+2, 4, 8, 10, 20,
+
+
+a posição central é 3.
+
+
+O valor mediano é 8.
+
+
+Não confunda:
+
+
+posição = 3;
+mediana = 8.
+
+
+Vestibulares podem explorar essa diferença.
+
+
+11. Mediana como corte de posição
+
+
+Intuitivamente, a mediana divide a lista ordenada em duas partes.
+
+
+Em uma lista ímpar, o valor mediano fica entre as metades.
+
+
+Em uma lista par, a mediana fica entre os dois valores centrais.
+
+
+Em linguagem mais avançada, a mediana está relacionada ao percentil 50.
+
+
+Isso significa, em termos intuitivos, que ela marca o centro da distribuição por posição.
+
+
+A definição rigorosa em distribuições contínuas e com empates exige cuidado; por enquanto, use a ideia de posição central.
+
+
+12. A mediana é resistente a extremos
+
+
+Compare:
+
+
+Conjunto A:
+2, 3, 4, 5, 6.
+
+
+Mediana = 4.
+Média = 4.
+
+
+Agora altere apenas o maior valor:
+
+
+Conjunto B:
+2, 3, 4, 5, 100.
+
+
+Mediana = 4.
+Média = 22,8.
+
+
+A mediana não mudou.
+
+
+A média mudou muito.
+
+
+Por isso, dizemos que a mediana é mais resistente, ou robusta, a valores extremos.
+
+
+13. Resistência não significa invulnerabilidade
+
+
+A mediana pode mudar quando:
+
+
+• várias observações mudam;
+• valores cruzam a posição central;
+• a composição da amostra muda;
+• os dados são muito pequenos e uma observação altera quem ocupa o centro.
+
+
+Não devemos interpretar “robusta” como “nunca muda”.
+
+
+14. Mediana em dados ordinais
+
+
+A mediana pode fazer sentido em variáveis ordinais.
+
+
+Exemplo de satisfação:
+
+
+muito insatisfeito;
+insatisfeito;
+neutro;
+satisfeito;
+muito satisfeito.
+
+
+Existe uma ordem natural.
+
+
+Podemos localizar uma categoria central.
+
+
+Não precisamos atribuir números arbitrários e calcular média para obter uma medida de posição.
+
+
+15. Mediana em variável nominal?
+
+
+Em categorias nominais como tipo sanguíneo, cidade ou cor preferida, não existe ordem natural.
+
+
+Sem ordem, “posição central” não possui significado.
+
+
+Logo, a mediana normalmente não é adequada para variável nominal.
+
+
+16. Mediana a partir de tabela de frequência
+
+
+Considere:
+
+
+Valor | frequência
+1 | 2
+2 | 4
+3 | 3
+4 | 1
+
+
+Total:
+
+
+n = 10.
+
+
+Posições centrais:
+
+
+5 e 6.
+
+
+Precisamos descobrir quais valores ocupam essas posições.
+
+
+17. Usando frequência acumulada
+
+
+Frequências acumuladas:
+
+
+Valor 1: F=2.
+Valor 2: F=6.
+Valor 3: F=9.
+Valor 4: F=10.
+
+
+As posições 5 e 6 pertencem ao valor 2.
+
+
+Logo:
+
+
+mediana = 2.
+
+
+Não foi necessário expandir a lista inteira.
+
+
+18. Exemplo de mediana por frequência com posições diferentes
+
+
+Tabela:
+
+
+Valor 0: f=1.
+Valor 1: f=2.
+Valor 2: f=2.
+Valor 3: f=3.
+
+
+Total n=8.
+
+
+Posições centrais:
+4 e 5.
+
+
+Acumuladas:
+0 → 1.
+1 → 3.
+2 → 5.
+3 → 8.
+
+
+As posições 4 e 5 estão no valor 2.
+
+
+Mediana = 2.
+
+
+19. Exemplo par com dois valores centrais diferentes
+
+
+Tabela:
+
+
+Valor 1: f=2.
+Valor 2: f=2.
+Valor 3: f=2.
+Valor 4: f=2.
+
+
+n=8.
+
+
+Posições centrais:
+4 e 5.
+
+
+Posição 4 pertence ao valor 2.
+Posição 5 pertence ao valor 3.
+
+
+Mediana:
+
+
+(2+3)/2 = 2,5.
+
+
+20. Mediana em dados agrupados por classes
+
+
+Considere classes de idade:
+
+
+[0,10): f=3.
+[10,20): f=7.
+[20,30): f=12.
+[30,40): f=5.
+[40,50): f=3.
+
+
+Total n=30.
+
+
+A posição central está em torno das posições 15 e 16.
+
+
+Frequência acumulada:
+3;
+10;
+22;
+27;
+30.
+
+
+Logo, as posições centrais estão dentro da classe [20,30).
+
+
+Podemos afirmar que essa é a classe mediana.
+
+
+21. Podemos achar a mediana exata apenas com a classe?
+
+
+Não necessariamente.
+
+
+Se os valores individuais foram perdidos e sabemos apenas que 12 observações estão entre 20 e menos de 30, não sabemos exatamente onde estão as posições 15 e 16 dentro dessa classe.
+
+
+Existem fórmulas de interpolação para estimar a mediana em dados agrupados contínuos, mas elas dependem de hipóteses sobre a distribuição dentro da classe.
+
+
+Portanto, não confunda:
+
+
+classe mediana identificada;
+mediana exata conhecida.
+
+
+22. Ponte universitária: interpolação da mediana agrupada
+
+
+Uma aproximação comum é:
+
+
+Md ≈ L + [(n/2 − Fₐ)/fₘ] × h.
+
+
+Leitura pronunciável:
+
+
+“mediana aproximada é o limite inferior da classe mediana mais a diferença entre metade do total e a frequência acumulada anterior, dividida pela frequência da classe mediana, multiplicada pela largura da classe”.
+
+
+Onde:
+
+
+L = limite inferior da classe mediana;
+Fₐ = frequência acumulada antes da classe mediana;
+fₘ = frequência da classe mediana;
+h = largura da classe.
+
+
+Esta fórmula é uma aproximação sob uma hipótese de distribuição dentro da classe. Ela é ponte universitária, não requisito de memorização nesta etapa.
+
+
+23. O que é moda?
+
+
+Moda é o valor ou categoria com maior frequência.
+
+
+Exemplo:
+
+
+2, 2, 3, 4, 4, 4, 5.
+
+
+Frequências:
+2 aparece 2 vezes.
+3 aparece 1 vez.
+4 aparece 3 vezes.
+5 aparece 1 vez.
+
+
+Moda = 4.
+
+
+24. Moda é valor, não frequência
+
+
+No exemplo:
+
+
+moda = 4.
+
+
+Frequência da moda = 3.
+
+
+Dizer “a moda é 3” seria confundir o valor mais frequente com a quantidade de ocorrências.
+
+
+25. Moda em dados qualitativos
+
+
+A moda pode ser usada em categorias nominais.
+
+
+Pesquisa de transporte:
+
+
+Ônibus: 40.
+Carro: 25.
+A pé: 20.
+Bicicleta: 15.
+
+
+Moda = ônibus.
+
+
+Isso é uma vantagem da moda: ela não exige que as categorias sejam numéricas ou ordenadas.
+
+
+26. Conjunto sem moda
+
+
+Dados:
+
+
+1, 2, 3, 4, 5.
+
+
+Cada valor aparece uma vez.
+
+
+Nenhum valor aparece mais do que os outros.
+
+
+Neste uso escolar, dizemos que o conjunto é amodal, ou sem moda.
+
+
+27. Bimodalidade
+
+
+Dados:
+
+
+1, 1, 2, 3, 3, 4.
+
+
+1 aparece 2 vezes.
+3 aparece 2 vezes.
+Outros aparecem 1 vez.
+
+
+Há duas modas:
+
+
+1 e 3.
+
+
+O conjunto é bimodal.
+
+
+28. Mais de duas modas
+
+
+Se três ou mais valores compartilham a maior frequência, podemos dizer que o conjunto é multimodal.
+
+
+Exemplo:
+
+
+1,1,2,2,3,3,4.
+
+
+Modas:
+
+
+1, 2 e 3.
+
+
+29. Cuidado com a definição de “sem moda”
+
+
+Se todos os valores aparecem com a mesma frequência, nenhuma categoria se destaca como mais frequente.
+
+
+Em contexto escolar, classificar como amodal é adequado.
+
+
+Em contextos matemáticos mais formais, algumas convenções podem tratar todos como modos quando todos maximizam a frequência. O projeto adotará a convenção escolar mais comum e registrará exceções quando necessário.
+
+
+30. Moda em tabela de frequência
+
+
+Tabela:
+
+
+Categoria A: 8.
+Categoria B: 12.
+Categoria C: 12.
+Categoria D: 5.
+
+
+As maiores frequências são 12 para B e C.
+
+
+Modas:
+
+
+B e C.
+
+
+A distribuição é bimodal.
+
+
+31. Classe modal
+
+
+Em dados agrupados:
+
+
+[0,10): 4.
+[10,20): 9.
+[20,30): 15.
+[30,40): 7.
+
+
+A classe modal é [20,30).
+
+
+Isso não significa que “25” seja necessariamente a moda exata.
+
+
+Com dados agrupados, a classe mais frequente é conhecida, mas os valores individuais dentro dela podem não ser.
+
+
+32. Moda em dados contínuos
+
+
+Em medições contínuas com muitas casas decimais, valores exatos podem quase nunca se repetir.
+
+
+Exemplo:
+
+
+1,732;
+1,741;
+1,736;
+1,729;
+1,744.
+
+
+Não há repetição exata.
+
+
+Para estudar concentração, pode ser mais útil agrupar em classes, estimar densidades ou usar outras técnicas.
+
+
+Logo, moda de valores exatos nem sempre é útil em dados contínuos.
+
+
+33. Comparação: média, mediana e moda
+
+
+Média:
+usa todos os valores;
+é sensível a extremos;
+exige variável quantitativa;
+possui propriedades algébricas fortes.
+
+
+Mediana:
+usa ordem e posição;
+é mais resistente a extremos;
+pode ser usada em dados ordinais;
+não exige distâncias numericamente comparáveis entre categorias ordinais.
+
+
+Moda:
+usa frequência;
+pode ser usada até em variável nominal;
+pode haver nenhuma, uma ou várias modas;
+pode ser instável em amostras pequenas.
+
+
+34. Exemplo comparativo com extremo
+
+
+Dados:
+
+
+2, 3, 3, 4, 100.
+
+
+Média:
+
+
+112/5 = 22,4.
+
+
+Mediana:
+
+
+3.
+
+
+Moda:
+
+
+3.
+
+
+A média foi puxada para cima pelo 100.
+
+
+Mediana e moda permanecem perto da maior concentração dos dados.
+
+
+35. Isso significa que mediana é sempre melhor?
+
+
+Não.
+
+
+A média usa toda a informação quantitativa e é essencial em muitos modelos estatísticos.
+
+
+A escolha depende:
+
+
+• da pergunta;
+• do tipo de variável;
+• da forma da distribuição;
+• da presença de extremos;
+• do objetivo da análise.
+
+
+Não existe uma medida universalmente superior.
+
+
+36. Distribuição simétrica
+
+
+Em uma distribuição perfeitamente simétrica e unimodal, média, mediana e moda podem coincidir.
+
+
+Exemplo idealizado:
+uma distribuição simétrica concentrada em torno de um centro.
+
+
+Mas observar média = mediana = moda em uma amostra não prova que a distribuição inteira seja perfeitamente simétrica.
+
+
+37. Assimetria à direita
+
+
+Em muitas distribuições com cauda longa à direita, valores altos extremos puxam a média para cima.
+
+
+Um padrão comum é:
+
+
+moda < mediana < média.
+
+
+Mas isso é uma heurística frequente, não uma regra universal para todo conjunto finito.
+
+
+38. Assimetria à esquerda
+
+
+Em distribuições com cauda longa à esquerda, valores baixos extremos podem puxar a média para baixo.
+
+
+Um padrão comum é:
+
+
+média < mediana < moda.
+
+
+Novamente, não trate como fórmula infalível.
+
+
+39. Exemplo de renda
+
+
+Rendas:
+
+
+2000, 2100, 2200, 2300, 20000.
+
+
+Média = 5720.
+Mediana = 2200.
+Moda = não há, pois todos são diferentes.
+
+
+Pergunta:
+qual medida descreve melhor a renda central desse grupo pequeno?
+
+
+A mediana tende a representar melhor a posição central, pois a média foi fortemente afetada pelo valor alto.
+
+
+Mas a conclusão completa deve informar o tamanho pequeno da amostra e a presença do extremo.
+
+
+40. Exemplo de tamanho de calçado
+
+
+Tamanhos vendidos:
+
+
+37: 12 pares.
+38: 25 pares.
+39: 40 pares.
+40: 31 pares.
+41: 10 pares.
+
+
+Moda = 39.
+
+
+Para estoque, a moda pode ser muito útil: ela identifica a categoria mais demandada.
+
+
+A média do tamanho pode ser menos diretamente útil para decidir quantos pares de cada numeração comprar.
+
+
+41. Exemplo ordinal
+
+
+Avaliação:
+
+
+ruim: 5.
+regular: 15.
+bom: 40.
+ótimo: 20.
+
+
+Total = 80.
+
+
+Moda = bom.
+
+
+Para mediana, posições 40 e 41.
+
+
+Acumuladas:
+ruim até 5.
+regular até 20.
+bom até 60.
+ótimo até 80.
+
+
+As posições 40 e 41 estão em “bom”.
+
+
+Mediana = categoria bom.
+
+
+Não precisamos atribuir números 1, 2, 3, 4.
+
+
+42. Mediana e transformação linear
+
+
+Se somamos 10 a todos os valores, a mediana aumenta 10.
+
+
+Se multiplicamos todos por 2, a mediana dobra.
+
+
+Em transformações lineares aplicadas a todos os dados, média e mediana acompanham a transformação.
+
+
+A moda também é transformada quando a transformação é um-para-um: o valor mais frequente continua correspondendo ao valor transformado mais frequente.
+
+
+43. Adicionar um extremo
+
+
+Dados:
+
+
+1, 2, 3, 4, 5.
+
+
+Mediana = 3.
+
+
+Adicione 100:
+
+
+1, 2, 3, 4, 5, 100.
+
+
+Mediana = (3+4)/2 = 3,5.
+
+
+A mediana mudou pouco.
+
+
+A média mudou de 3 para 19,17 aproximadamente.
+
+
+44. Remover um valor central
+
+
+Dados:
+
+
+1, 2, 3, 4, 5.
+
+
+Mediana 3.
+
+
+Removendo 3:
+
+
+1, 2, 4, 5.
+
+
+Mediana = (2+4)/2 = 3.
+
+
+Curiosamente, o valor mediano permanece 3, embora 3 não esteja mais no conjunto.
+
+
+45. Mediana e percentil 50
+
+
+A mediana está intimamente ligada ao percentil 50.
+
+
+Mais adiante, em MAT-EST-010, estudaremos quartis, decis e percentis de forma sistemática.
+
+
+Por enquanto, guarde:
+
+
+mediana é uma medida de posição central;
+percentil 50 é outra forma de expressar essa posição, respeitando convenções de cálculo.
+
+
+46. Escolha da medida pelo tipo de variável
+
+
+Nominal:
+moda é adequada;
+mediana e média, em geral, não.
+
+
+Ordinal:
+moda e mediana podem ser adequadas;
+média pode ser inadequada se as distâncias entre categorias não forem quantitativamente definidas.
+
+
+Quantitativa:
+média, mediana e moda podem ser consideradas;
+a escolha depende da pergunta e da distribuição.
+
+
+47. Escolha da medida pela pergunta
+
+
+Pergunta:
+“Qual valor aparece mais?”
+
+
+Moda.
+
+
+Pergunta:
+“Qual é o ponto central da lista ordenada?”
+
+
+Mediana.
+
+
+Pergunta:
+“Qual valor preserva o total se redistribuirmos igualmente?”
+
+
+Média.
+
+
+Pergunta:
+“Qual centro é menos sensível a um valor extremo?”
+
+
+Mediana, em geral.
+
+
+48. Mediana ponderada: ponte avançada
+
+
+Em alguns contextos, observações têm pesos.
+
+
+Uma mediana ponderada é um valor em torno do qual a massa acumulada dos pesos atinge metade do total.
+
+
+A definição exata depende da convenção adotada.
+
+
+Esta ideia aparece em otimização, economia e ciência de dados.
+
+
+Não é conteúdo operacional obrigatório desta aula, mas mostra que a noção de posição pode ser generalizada.
+
+
+49. Mediana e minimização de desvios absolutos
+
+
+A média minimiza a soma dos quadrados dos desvios em muitos contextos.
+
+
+A mediana possui outra propriedade importante:
+
+
+ela minimiza a soma dos desvios absolutos.
+
+
+Isto é, valores próximos à mediana tendem a minimizar:
+
+
+Σ|xᵢ − a|.
+
+
+Leitura:
+“a soma das distâncias absolutas entre os dados e um ponto a é mínima quando a é uma mediana”.
+
+
+Esta é uma ponte universitária e ajuda a entender por que mediana e média respondem de modo diferente a extremos.
+
+
+50. Exemplo intuitivo da propriedade absoluta
+
+
+Dados:
+
+
+0, 0, 10.
+
+
+Mediana = 0.
+
+
+Soma das distâncias até 0:
+
+
+0 + 0 + 10 = 10.
+
+
+Até 3:
+
+
+3 + 3 + 7 = 13.
+
+
+Até 10:
+
+
+10 + 10 + 0 = 20.
+
+
+A mediana reduz a soma de distâncias absolutas.
+
+
+51. Moda e previsão categórica
+
+
+Se precisamos escolher uma única categoria como previsão mais comum em dados categóricos, a moda é uma escolha natural.
+
+
+Exemplo:
+
+
+tipo de pagamento mais frequente;
+tamanho de roupa mais vendido;
+categoria de defeito mais comum.
+
+
+Mas frequência histórica não garante comportamento futuro.
+
+
+A moda é descritiva.
+
+
+52. Moda e amostras pequenas
+
+
+Em amostras pequenas, uma diferença de uma observação pode mudar a moda.
+
+
+Exemplo:
+
+
+A: 4 ocorrências.
+B: 3 ocorrências.
+
+
+Se uma nova observação B chega, ocorre empate.
+
+
+Por isso, moda pode ser instável.
+
+
+53. Dados faltantes
+
+
+Dados ausentes não devem ser tratados como categoria numérica ou como zero sem justificativa.
+
+
+Para mediana:
+use observações válidas e documente ausências.
+
+
+Para moda:
+“sem resposta” pode ser uma categoria de qualidade da coleta, mas não deve ser confundida com uma resposta substantiva.
+
+
+54. Erros frequentes
+
+
+Erro 1. Calcular mediana sem ordenar.
+
+
+Erro 2. Para n par, escolher apenas um dos dois valores centrais.
+
+
+Erro 3. Confundir posição central com valor mediano.
+
+
+Erro 4. Confundir moda com frequência da moda.
+
+
+Erro 5. Achar que todo conjunto possui exatamente uma moda.
+
+
+Erro 6. Achar que mediana é sempre um valor observado.
+
+
+Erro 7. Calcular mediana de categorias nominais.
+
+
+Erro 8. Usar média automaticamente em dados muito assimétricos sem olhar a distribuição.
+
+
+Erro 9. Inferir simetria apenas porque média e mediana são próximas.
+
+
+Erro 10. Tratar classe modal como valor modal exato.
+
+
+55. Exemplo resolvido completo — ímpar
+
+
+Dados:
+
+
+14, 8, 11, 20, 9, 10, 7.
+
+
+Ordenação:
+
+
+7, 8, 9, 10, 11, 14, 20.
+
+
+n=7.
+
+
+Posição:
+
+
+(7+1)/2 = 4.
+
+
+Mediana = 10.
+
+
+56. Exemplo resolvido completo — par
+
+
+Dados:
+
+
+5, 2, 9, 4, 8, 10.
+
+
+Ordenação:
+
+
+2, 4, 5, 8, 9, 10.
+
+
+n=6.
+
+
+Valores centrais:
+5 e 8.
+
+
+Mediana:
+
+
+(5+8)/2 = 6,5.
+
+
+57. Exemplo resolvido completo — moda
+
+
+Dados:
+
+
+4, 4, 5, 5, 5, 6, 7, 7.
+
+
+Frequências:
+4 → 2.
+5 → 3.
+6 → 1.
+7 → 2.
+
+
+Moda = 5.
+
+
+Frequência modal = 3.
+
+
+58. Exemplo resolvido — bimodal
+
+
+Dados:
+
+
+1,1,2,2,3,4.
+
+
+Frequências máximas:
+
+
+1 aparece 2 vezes;
+2 aparece 2 vezes.
+
+
+Modas = 1 e 2.
+
+
+59. Exemplo integrado — média versus mediana
+
+
+Dados:
+
+
+10, 11, 12, 13, 54.
+
+
+Média:
+
+
+100/5 = 20.
+
+
+Mediana:
+
+
+12.
+
+
+Moda:
+
+
+não há.
+
+
+Se queremos descrever a posição central resistente ao valor 54, mediana é mais informativa.
+
+
+Mas a média continua correta e revela que o extremo aumenta o total médio.
+
+
+60. Relação com BNCC, ENEM e FUVEST
+
+
+A BNCC, em EF08MA25, prevê obter média, moda e mediana de uma pesquisa estatística, compreender seus significados e relacioná-las à dispersão indicada pela amplitude.
+
+
+O Programa FUVEST 2027 inclui explicitamente medidas de tendência central — média, mediana e moda — e suas interpretações, além de medidas de posição e dispersão.
+
+
+A Matriz de Referência do Enem publicada pelo Inep em 2026 é a referência institucional para competências, habilidades e objetos de conhecimento. Os exercícios VES deste material são autorais.
+
+
+61. O que observar nos seis visuais
+
+
+Visual 1 — mediana com n ímpar.
+Observe sete valores ordenados e a quarta posição destacada.
+
+
+Visual 2 — mediana com n par.
+Observe seis valores ordenados e as duas posições centrais, cuja média gera a mediana.
+
+
+Visual 3 — moda e frequência.
+Observe barras de frequência e distinga a categoria modal da altura/frequência.
+
+
+Visual 4 — efeito de extremo.
+Compare média e mediana antes e depois de substituir um valor por 100.
+
+
+Visual 5 — assimetria.
+Observe uma distribuição com cauda à direita e a posição relativa típica de moda, mediana e média, com aviso de que é padrão comum e não regra universal.
+
+
+Visual 6 — mediana em tabela de frequência.
+Observe a frequência acumulada cruzando as posições centrais e identificando o valor mediano.
+
+
+62. Resumo para revisão
+
+
+Mediana:
+valor central da lista ordenada.
+
+
+n ímpar:
+posição (n+1)/2.
+
+
+n par:
+média dos valores nas posições n/2 e n/2+1.
+
+
+Moda:
+valor ou categoria de maior frequência.
+
+
+Pode haver:
+nenhuma moda;
+uma moda;
+duas modas;
+várias modas.
+
+
+Média:
+usa magnitudes e soma.
+
+
+Mediana:
+usa ordem e posição.
+
+
+Moda:
+usa frequência.
+
+
+Extremos afetam a média mais fortemente do que a mediana.
+
+
+Moda funciona também para dados nominais.
+
+
+63. Versão curta para ouvir
+
+
+Para encontrar a mediana, primeiro ordene os dados.
+
+
+Se há quantidade ímpar, escolha o valor da posição central.
+
+
+Se há quantidade par, faça a média dos dois valores centrais.
+
+
+A moda é o valor ou categoria que aparece com maior frequência. Um conjunto pode ter nenhuma, uma ou várias modas.
+
+
+A média usa todos os valores e é sensível a extremos. A mediana usa posição e é mais resistente. A moda usa frequência e pode ser aplicada até a categorias nominais.
+
+
+A melhor medida depende da variável, da distribuição e da pergunta.
+
+
+64. Vídeo complementar
+
+
+Vídeo recomendado:
+“Libras e LSE | MODA, MÉDIA E MEDIANA ✅ ESTATÍSTICA”.
+Canal: Prof. MURAKAMI - MATEMÁTICA RAPIDOLA.
+
+
+Motivo:
+A descrição pública aborda média, moda, mediana, caso par da mediana e bimodalidade. O vídeo possui recursos de acessibilidade em Libras e LSE, o que combina com a diretriz de acessibilidade do projeto.
+
+
+Quando assistir:
+Após as seções 23 a 35 e antes dos exercícios de consolidação.
+
+
+Estado de QA:
+A página pública e a descrição foram localizadas nesta execução. Reprodução integral, duração efetiva, áudio e sincronização das legendas ainda não foram auditados no Microsoft Edge.
+
+
+65. Critério de domínio
+
+
+A leitura da aula não altera o status do aluno.
+
+
+Para consolidar, o estudante deverá:
+
+
+• calcular mediana em n ímpar e par;
+• usar frequência acumulada para localizar mediana;
+• identificar moda em dados numéricos e categóricos;
+• reconhecer bimodalidade e ausência de moda;
+• comparar média, mediana e moda em presença de extremos;
+• escolher medida adequada em situação nova;
+• justificar a escolha em palavras.
+
+
+66. Próximo passo
+
+
+MAT-EST-007 — Medidas de dispersão I: amplitude, desvios e desvio médio.
+
+
+A próxima aula responderá a uma pergunta que média, mediana e moda não resolvem sozinhas: quão espalhados estão os dados em torno do centro?

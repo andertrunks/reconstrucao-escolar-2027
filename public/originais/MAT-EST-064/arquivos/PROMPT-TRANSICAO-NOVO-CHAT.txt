@@ -1,0 +1,11 @@
+CONTINUIDADE — RECONSTRUÇÃO ESCOLAR + ENEM E VESTIBULARES 2027
+
+Último pacote editorial concluído LOCALMENTE: MAT-EST-064 — Análise pós-incidente e prevenção editorial: causas sistêmicas, ações verificáveis e revisão de controles. Consulte MAT-EST-064-pacote-integracao.zip e checkpoint-editorial.json (anexar no novo chat, se necessário).
+
+Próximo tópico ainda não iniciado: MAT-EST-065 — Indicadores de qualidade editorial: definição operacional, linhas de base e acompanhamento sem métricas ilusórias.
+
+Preservar os 23 arquivos-base por SHA-256, o ZIP integral MAT-EST-063 herdado, os dados t01–t22 e os protocolos e IDs anteriores. MAT-EST-049-PROT-v1: cinco de oito pares; MAE B=17,60, C=8,36; custos B=51,20, C=14,92; t19 piora C=19,2 > guarda 10; C não promovido. t23–t25 sem observações/emissões autenticadas; MAT-EST-056-PROT-SUC-v1 rascunho local, t26–t33 sem pares. SANDBOX-057 isolado: dois de oito avaliáveis, MAE B=3, C=4, custos 7; seis pendências. V/Z isolados.
+
+Estados G1/G2 checked_local, G3–G6 pending, G7/G8 not_performed; P01–P10 not_performed. MAT-EST-063 contém I00 baseline e I01–I06 mutações artificiais, com reteste só da cópia I01. MAT-EST-064 acrescentou seis hipóteses causais H64 (NÃO comprovadas em produção), sete ações autorais A64, seis ensaiadas só em fixtures e uma ação de governança apenas proposta. A mutação I01 n=8 gera MAE inválido 0,75 em vez de 3 unidades, diferença 2,25 e subestimação de 75% relativa ao verdadeiro. Nenhuma evidência de alcance público, causa operacional, eficácia real de prevenção ou aprovação humana.
+
+Ao receber Continuar, verificar checkpoint mais recente e avançar exatamente um passo editorial, MAT-EST-065. Produzir aula aprofundada, visuais acessíveis, vídeo com verificação honesta, 36 exercícios autorais graduais, gabarito separado, Markdown, metadados, prévia, ZIP, SHA-256 e validações. Não inventar novas observações, publicação, sincronização, revisores nem mudar progresso individual. Registrar novo checkpoint e fornecer botões Continuar e Copiar prompt.

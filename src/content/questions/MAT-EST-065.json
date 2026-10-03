@@ -1,0 +1,866 @@
+[
+  {
+    "id": "MAT-EST-065-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "No corte A do SANDBOX-057 há oito cartões e somente S01 e S02 avaliáveis. Calcule a fração e o percentual de completude e explique o denominador.",
+    "answer": "Dois dividido por oito é um quarto, ou 25%. O denominador oito representa todos os cartões planejados, não as previsões corretas. O resultado mede elegibilidade/completude, não precisão.",
+    "resolution": "Dois dividido por oito é um quarto, ou 25%. O denominador oito representa todos os cartões planejados, não as previsões corretas. O resultado mede elegibilidade/completude, não precisão.",
+    "errorReasons": [
+      "Interpretação: tratar dois de oito como taxa de acerto ou usar só os elegíveis no denominador."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "O modelo B tem erros assinados mais quatro e menos dois nos dois pares elegíveis. Calcule o erro absoluto médio e informe a unidade.",
+    "answer": "Aplique o módulo a cada erro: quatro e dois. A soma seis dividida por dois pares elegíveis é três unidades. O sinal não entra no MAE, mas importa para custos assimétricos.",
+    "resolution": "Aplique o módulo a cada erro: quatro e dois. A soma seis dividida por dois pares elegíveis é três unidades. O sinal não entra no MAE, mas importa para custos assimétricos.",
+    "errorReasons": [
+      "Conteúdo ou cálculo: cancelar sinais ou dividir pelos oito cartões planejados."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "O modelo C tem erros mais três e menos cinco. Calcule o MAE e diga se os seis cartões pendentes devem entrar com erro zero.",
+    "answer": "O MAE é (3+5)/2=4 unidades. Os seis pendentes não possuem pares avaliáveis; atribuir zero inventa observações e reduz artificialmente a média.",
+    "resolution": "O MAE é (3+5)/2=4 unidades. Os seis pendentes não possuem pares avaliáveis; atribuir zero inventa observações e reduz artificialmente a média.",
+    "errorReasons": [
+      "Estratégia: preencher dados ausentes com zero para completar a planilha."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Para B, um relatório substitui o denominador dois por oito: 6/8. Qual valor aparece e por que não é o MAE válido?",
+    "answer": "A divisão gera 0,75 unidade, mas não responde à pergunta: só dois pares têm erro observável. O MAE válido permanece seis dividido por dois, três unidades.",
+    "resolution": "A divisão gera 0,75 unidade, mas não responde à pergunta: só dois pares têm erro observável. O MAE válido permanece seis dividido por dois, três unidades.",
+    "errorReasons": [
+      "Interpretação: confundir universo planejado de completude com universo efetivo da métrica."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Uma média calculada com unidade observacional é três e uma função de custo retorna sete pontos. Explique por que não é correto escrever “dez unidades de qualidade”.",
+    "answer": "As grandezas têm significados e dimensões diferentes. MAE mede magnitude em unidades do observado e custo mede pontos conforme uma regra; somá-los não define medida coerente sem novo modelo e justificativa.",
+    "resolution": "As grandezas têm significados e dimensões diferentes. MAE mede magnitude em unidades do observado e custo mede pontos conforme uma regra; somá-los não define medida coerente sem novo modelo e justificativa.",
+    "errorReasons": [
+      "Conteúdo: ignorar dimensão e unidade da grandeza."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Um indicador de desempenho para t26–t33 tem zero pares elegíveis. É melhor exibir MAE zero ou não estimável? Justifique.",
+    "answer": "Não estimável. Não existe divisão definida por zero pares e nem erros observados dessa coorte. Zero implicaria erro medido igual a zero, dado que não existe.",
+    "resolution": "Não estimável. Não existe divisão definida por zero pares e nem erros observados dessa coorte. Zero implicaria erro medido igual a zero, dado que não existe.",
+    "errorReasons": [
+      "Interpretação: traduzir ausência de informação em valor numérico zero."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "G1 e G2 estão checked_local, G3 a G6 estão pending, e G7 e G8 not_performed. Conte cada categoria.",
+    "answer": "São dois checados localmente, quatro pendentes e dois não executados, totalizando oito controles. Nenhum controle mudou de estado por produzir uma nova aula.",
+    "resolution": "São dois checados localmente, quatro pendentes e dois não executados, totalizando oito controles. Nenhum controle mudou de estado por produzir uma nova aula.",
+    "errorReasons": [
+      "Memória ou atenção: incluir pendências como verificadas."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Seis mutações artificiais I01–I06 foram rejeitadas de seis ensaiadas. Calcule a fração observada e limite sua interpretação.",
+    "answer": "Seis dividido por seis é 1, ou 100% das seis fixtures criadas. Não há evidência para afirmar detecção de todos os incidentes reais, pois não existe uma amostra representativa de eventos de produção.",
+    "resolution": "Seis dividido por seis é 1, ou 100% das seis fixtures criadas. Não há evidência para afirmar detecção de todos os incidentes reais, pois não existe uma amostra representativa de eventos de produção.",
+    "errorReasons": [
+      "Interpretação: estender indevidamente resultado de testes escolhidos a qualquer população."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Seis ações A64 possuem ensaio local, entre sete propostas. Calcule o percentual arredondado a duas casas e diga o que ele mede.",
+    "answer": "Seis dividido por sete vezes cem é aproximadamente 85,71%. Mede apenas proporção de ações propostas com teste local de fixture; não mede implementação no site ou eficácia operacional.",
+    "resolution": "Seis dividido por sete vezes cem é aproximadamente 85,71%. Mede apenas proporção de ações propostas com teste local de fixture; não mede implementação no site ou eficácia operacional.",
+    "errorReasons": [
+      "Cálculo ou interpretação: arredondamento e mudança de objeto da medida."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "P01–P10 são dez checks planejados de pós-deploy e nenhum foi executado. A taxa de execução documental pode ser zero? E a taxa de sucesso pós-deploy?",
+    "answer": "Execução documental é zero dividido por dez, ou 0%. A taxa de sucesso dos checks executados não é estimável porque o denominador de execuções é zero. São duas perguntas distintas.",
+    "resolution": "Execução documental é zero dividido por dez, ou 0%. A taxa de sucesso dos checks executados não é estimável porque o denominador de execuções é zero. São duas perguntas distintas.",
+    "errorReasons": [
+      "Interpretação: confundir execução do plano com sucesso dos testes."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Derive a regra do custo fictício para erros assinados e calcule o custo médio de B nos erros +4 e −2.",
+    "answer": "O custo é 3 max(e,0)+max(-e,0). Para +4: 12 pontos; para −2: 2 pontos. Média (12+2)/2 = sete pontos. Distinguir unidade de custo e unidade da série.",
+    "resolution": "O custo é 3 max(e,0)+max(-e,0). Para +4: 12 pontos; para −2: 2 pontos. Média (12+2)/2 = sete pontos. Distinguir unidade de custo e unidade da série.",
+    "errorReasons": [
+      "Conteúdo: usar MAE ou aplicar peso três aos dois sinais."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Calcule o custo médio de C para erros +3 e −5 na mesma regra, e compare verbalmente com os respectivos MAEs B e C.",
+    "answer": "Para +3 o custo é nove pontos; para −5 é cinco. Média sete pontos. B também custa sete pontos, enquanto MAE B é três unidades e MAE C é quatro; igualdade de custo não significa igualdade de erros.",
+    "resolution": "Para +3 o custo é nove pontos; para −5 é cinco. Média sete pontos. B também custa sete pontos, enquanto MAE B é três unidades e MAE C é quatro; igualdade de custo não significa igualdade de erros.",
+    "errorReasons": [
+      "Estratégia: inferir conclusão de precisão apenas do custo."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Calcule diferenças emparelhadas dos erros absolutos C menos B em S01 e S02 e sua média.",
+    "answer": "S01: 3−4=−1. S02: 5−2=+3. A média das diferenças é (−1+3)/2=+1 unidade. Usar o mesmo par evita confundir populações diferentes, mas n=2 ainda é insuficiente para generalizar.",
+    "resolution": "S01: 3−4=−1. S02: 5−2=+3. A média das diferenças é (−1+3)/2=+1 unidade. Usar o mesmo par evita confundir populações diferentes, mas n=2 ainda é insuficiente para generalizar.",
+    "errorReasons": [
+      "Cálculo: subtrair em ordem invertida, ou emparelhar observações diferentes."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "A taxa de completude é 25%. Um gestor hipotético diz que 75% das previsões erraram. Identifique a falha e reescreva a frase corretamente.",
+    "answer": "A parte complementar, seis de oito, está pendente ou não avaliável; não são seis erros medidos. Correto: “No corte A, dois de oito cartões são avaliáveis e seis permanecem pendentes”.",
+    "resolution": "A parte complementar, seis de oito, está pendente ou não avaliável; não são seis erros medidos. Correto: “No corte A, dois de oito cartões são avaliáveis e seis permanecem pendentes”.",
+    "errorReasons": [
+      "Interpretação: tomar ausência como insucesso."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "A ação A64-07 não foi executada e A64-01 a A64-06 têm testes locais. Qual seria um título fiel para uma métrica 6/7?",
+    "answer": "“Proporção de ações propostas com ensaio local sobre fixture”, seis de sete ou cerca de 85,71%. Não usar “ações implementadas”, “eficácia de controles” ou “site aprovado”.",
+    "resolution": "“Proporção de ações propostas com ensaio local sobre fixture”, seis de sete ou cerca de 85,71%. Não usar “ações implementadas”, “eficácia de controles” ou “site aprovado”.",
+    "errorReasons": [
+      "Redação: título de gráfico que ultrapassa a evidência."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Um analista tenta somar G1 e G2 para anunciar “site 25% pronto”. Por que esse índice não é defendido pela fonte?",
+    "answer": "Dois de oito expressa contagem de controles checked_local, mas critérios heterogêneos não têm equivalência de peso. G3–G8 exigem evidências humanas e externas próprias; 25% de qualidade ou prontidão é uma inferência não justificada.",
+    "resolution": "Dois de oito expressa contagem de controles checked_local, mas critérios heterogêneos não têm equivalência de peso. G3–G8 exigem evidências humanas e externas próprias; 25% de qualidade ou prontidão é uma inferência não justificada.",
+    "errorReasons": [
+      "Estratégia: tratar checklist heterogêneo como escala aditiva validada."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Compare a fotografia local F0 com uma suposta F1 cujo conjunto excluiu S02 depois de ver seu erro. É possível chamar a diferença de melhora?",
+    "answer": "Não como comparação confirmatória. O universo/critério mudou após ver o resultado, criando viés de seleção. Seria necessário manter escopo congelado ou rotular F1 como análise exploratória com diferenças explicitadas.",
+    "resolution": "Não como comparação confirmatória. O universo/critério mudou após ver o resultado, criando viés de seleção. Seria necessário manter escopo congelado ou rotular F1 como análise exploratória com diferenças explicitadas.",
+    "errorReasons": [
+      "Estratégia: olhar apenas valores finais e ignorar a composição da amostra."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Suponha apenas para praticar que uma proporção passe de 25% para 50%. Quantos pontos percentuais e qual variação relativa?",
+    "answer": "Variação absoluta 50−25=25 pontos percentuais. Variação relativa (50/25−1)×100=100%. Essa passagem é hipótese aritmética, não fotografia posterior observada no projeto.",
+    "resolution": "Variação absoluta 50−25=25 pontos percentuais. Variação relativa (50/25−1)×100=100%. Essa passagem é hipótese aritmética, não fotografia posterior observada no projeto.",
+    "errorReasons": [
+      "Cálculo: confundir ponto percentual com percentagem relativa."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Escreva o mínimo necessário para auditar o indicador K65-02: pergunta, regra, fonte, unidade, população e limitação.",
+    "answer": "Pergunta: magnitude média do erro de B. Regra: soma dos módulos dos erros B dividida pelos pares elegíveis; seis sobre dois igual a três. Fonte: SANDBOX-057, corte A e versão declarada. Unidade: unidades fictícias. Limitação: apenas dois pares artificiais; seis pendentes.",
+    "resolution": "Pergunta: magnitude média do erro de B. Regra: soma dos módulos dos erros B dividida pelos pares elegíveis; seis sobre dois igual a três. Fonte: SANDBOX-057, corte A e versão declarada. Unidade: unidades fictícias. Limitação: apenas dois pares artificiais; seis pendentes.",
+    "errorReasons": [
+      "Memória ou estratégia: informar só valor e esquecer corte, fonte e denominador."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Uma planilha exibe “taxa de incidentes reais = 0%” sem logs nem período de exposição. Como corrigir o indicador?",
+    "answer": "Registrar como não estimável e explicitar a ausência de população, período e registros verificáveis. Zero por cento só teria sentido com exposição positiva bem definida e contagem adequada de incidentes.",
+    "resolution": "Registrar como não estimável e explicitar a ausência de população, período e registros verificáveis. Zero por cento só teria sentido com exposição positiva bem definida e contagem adequada de incidentes.",
+    "errorReasons": [
+      "Interpretação: confundir falta de registro com observação de ausência de incidentes."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Questão autoral em estilo vestibular. Uma reportagem afirma: “Após oito cadastros, o modelo tem 0,75 unidade de erro médio”. O apêndice revela apenas dois observados, com erros +4 e −2. Qual informação invalida a manchete e qual cifra substitui 0,75?",
+    "answer": "O cálculo dividiu a soma dos erros absolutos seis pelos oito planejados, incorporando casos sem alvo. Usando os dois pares existentes, o MAE é três unidades. O texto deve ainda informar os seis pendentes.",
+    "resolution": "O cálculo dividiu a soma dos erros absolutos seis pelos oito planejados, incorporando casos sem alvo. Usando os dois pares existentes, o MAE é três unidades. O texto deve ainda informar os seis pendentes.",
+    "errorReasons": [
+      "Interpretação de tabela e escolha indevida de denominador."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Questão autoral em estilo vestibular. Um painel mostra “100% de detecção” porque seis mutações criadas propositalmente foram rejeitadas. Redija uma versão defensável em uma frase.",
+    "answer": "“Nos seis testes artificiais I01–I06 executados localmente, todas as mutações foram rejeitadas conforme o esperado; isso não estima a taxa de detecção de falhas reais.” A população testada e a limitação precisam aparecer.",
+    "resolution": "“Nos seis testes artificiais I01–I06 executados localmente, todas as mutações foram rejeitadas conforme o esperado; isso não estima a taxa de detecção de falhas reais.” A população testada e a limitação precisam aparecer.",
+    "errorReasons": [
+      "Redação: retirar a população ou usar universalização indevida."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Questão autoral em estilo vestibular. Há seis ações testadas localmente entre sete propostas, mas nenhuma implantada no site. Determine duas porcentagens coerentes: teste local das propostas e implantação comprovada das propostas.",
+    "answer": "Teste local: 6/7≈85,71%. Implantação comprovada: 0/7=0% documentado neste conjunto; a conclusão é ausência de evidência de implantação, não demonstração de fracasso de controles em produção.",
+    "resolution": "Teste local: 6/7≈85,71%. Implantação comprovada: 0/7=0% documentado neste conjunto; a conclusão é ausência de evidência de implantação, não demonstração de fracasso de controles em produção.",
+    "errorReasons": [
+      "Interpretação: trocar status da ação e eficácia real."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Questão autoral em estilo vestibular. Dois gráficos usam “7” sem unidade: o primeiro retrata custo B e o segundo custo C. Um terceiro rotula MAE B como “7 pontos”. Que correções o relatório precisa fazer?",
+    "answer": "Custos médios B e C são sete pontos cada sob a regra declarada; MAE B é três unidades, MAE C quatro. O terceiro rótulo trocou grandeza e valor; eixos, legenda e narrativa precisam identificar regra, unidade e recorte.",
+    "resolution": "Custos médios B e C são sete pontos cada sob a regra declarada; MAE B é três unidades, MAE C quatro. O terceiro rótulo trocou grandeza e valor; eixos, legenda e narrativa precisam identificar regra, unidade e recorte.",
+    "errorReasons": [
+      "Conteúdo: ignorar análise dimensional e verificação de fonte."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Questão autoral em estilo vestibular. Um candidato de modelo reduziu seu MAE médio em cinco pares históricos, mas violou uma guarda de piora local de dez unidades em t19, com 19,2 unidades. Um gestor propõe aprová-lo pelo indicador médio. Discuta a lógica da decisão sob o protocolo MAT-EST-049-PROT-v1.",
+    "answer": "O protocolo prevê condição local além da média. A violação 19,2 > 10 permanece, independentemente dos MAEs históricos B=17,60 e C=8,36. O modelo C não foi promovido; alterar a guarda depois de observar o resultado seria outra decisão/protocolo, não correção retrospectiva.",
+    "resolution": "O protocolo prevê condição local além da média. A violação 19,2 > 10 permanece, independentemente dos MAEs históricos B=17,60 e C=8,36. O modelo C não foi promovido; alterar a guarda depois de observar o resultado seria outra decisão/protocolo, não correção retrospectiva.",
+    "errorReasons": [
+      "Estratégia: escolher a métrica favorável e ignorar restrição definida antes."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Questão autoral em estilo vestibular. O painel apresenta t26–t33 com MAE igual a zero; o plano só lista alvos futuros, sem emissão ou observado. Aponte o erro lógico e o estado correto.",
+    "answer": "O indicador não tem pares avaliáveis. A média do protocolo sucessor é não estimável, e não zero. O plano editorial não constitui avaliação prospectiva executada; precisam existir previsões emitidas antes e observações validadas depois.",
+    "resolution": "O indicador não tem pares avaliáveis. A média do protocolo sucessor é não estimável, e não zero. O plano editorial não constitui avaliação prospectiva executada; precisam existir previsões emitidas antes e observações validadas depois.",
+    "errorReasons": [
+      "Interpretação: tomar ausência e projeção como medidas observadas."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Questão autoral em estilo vestibular. Uma equipe coleta 2/8 hoje; amanhã passa a 4/8, mas mudou a definição de “avaliável” sem preservar a versão antiga. Pode afirmar melhora de 25 pontos percentuais?",
+    "answer": "A subtração aritmética de 50%−25% é 25 pontos percentuais, mas a comparação substantiva é inválida sem definições equivalentes. É necessário preservar versões e explicar a mudança ou recalcular comparavelmente com dados disponíveis. Os números de amanhã são hipótese, não resultado do projeto.",
+    "resolution": "A subtração aritmética de 50%−25% é 25 pontos percentuais, mas a comparação substantiva é inválida sem definições equivalentes. É necessário preservar versões e explicar a mudança ou recalcular comparavelmente com dados disponíveis. Os números de amanhã são hipótese, não resultado do projeto.",
+    "errorReasons": [
+      "Estratégia: comparar números sob contratos de dados incompatíveis."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Questão autoral em estilo vestibular. Em um relatório, um cartão pendente é registrado como erro zero para permitir o cálculo. Explique como isso afeta numerador, denominador e conclusão, sem calcular um valor novo.",
+    "answer": "O denominador aumenta com um caso não avaliável; o numerador não aumenta porque o zero foi inventado. A média tende a diminuir artificialmente, sugerindo precisão falsa. O correto é registrar pendência e calcular só pares observados no corte.",
+    "resolution": "O denominador aumenta com um caso não avaliável; o numerador não aumenta porque o zero foi inventado. A média tende a diminuir artificialmente, sugerindo precisão falsa. O correto é registrar pendência e calcular só pares observados no corte.",
+    "errorReasons": [
+      "Conteúdo: imputação indevida de ausência e seleção."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Questão autoral em estilo vestibular. Uma publicação declara “a acessibilidade do site está conforme” porque os seis arquivos SVG possuem title e desc válidos em teste automático. Construa uma ressalva tecnicamente responsável.",
+    "answer": "A validação estrutural garante presença dos elementos examinados, não equivalência da informação transmitida por áudio, navegação real ou conformidade integral. É preciso revisão humana, leitor de tela/Edge, escopo e metodologia representativa, mantendo G3 e G4 pendentes.",
+    "resolution": "A validação estrutural garante presença dos elementos examinados, não equivalência da informação transmitida por áudio, navegação real ou conformidade integral. É preciso revisão humana, leitor de tela/Edge, escopo e metodologia representativa, mantendo G3 e G4 pendentes.",
+    "errorReasons": [
+      "Interpretação: confundir estrutura verificável com experiência de usuário e conformidade."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Questão autoral em estilo vestibular. Escreva um mini-relatório de três frases que inclua completude SANDBOX, MAEs B/C, ensaios I01–I06 e um indicador ainda não estimável, sem extrapolar.",
+    "answer": "Resposta-modelo: “No corte A do SANDBOX-057, dois de oito cartões são avaliáveis (25%); nesses dois pares, MAE B=3 e C=4 unidades. As seis mutações artificiais I01–I06 foram corretamente rejeitadas apenas nos testes locais. MAE futuro t26–t33 e taxa de incidentes reais permanecem não estimáveis, sem observações nem população operacional.”",
+    "resolution": "Resposta-modelo: “No corte A do SANDBOX-057, dois de oito cartões são avaliáveis (25%); nesses dois pares, MAE B=3 e C=4 unidades. As seis mutações artificiais I01–I06 foram corretamente rejeitadas apenas nos testes locais. MAE futuro t26–t33 e taxa de incidentes reais permanecem não estimáveis, sem observações nem população operacional.”",
+    "errorReasons": [
+      "Redação: omitir denominador, unidade, natureza fictícia ou a ressalva sobre futuro."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Reteste independente posterior. Em outro exemplo puramente autoral há dez itens planejados, quatro pares elegíveis e soma de módulos igual a dezoito. Calcule completude e MAE sem confundir denominadores.",
+    "answer": "Completude 4/10=40%; MAE 18/4=4,5 unidades, se os erros estão na mesma unidade. Os seis itens restantes não entram como zero no cálculo do MAE. Este é exemplo novo, não nova observação da série t01–t33.",
+    "resolution": "Completude 4/10=40%; MAE 18/4=4,5 unidades, se os erros estão na mesma unidade. Os seis itens restantes não entram como zero no cálculo do MAE. Este é exemplo novo, não nova observação da série t01–t33.",
+    "errorReasons": [
+      "Cálculo: dividir 18 pelos dez planejados."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Reteste independente posterior. Um laboratório ensaiou quatro mutações intencionais e rejeitou três. Qual fração foi rejeitada, e pode ser publicada como taxa de detecção em produção?",
+    "answer": "Três sobre quatro é 75% das quatro fixtures escolhidas. Não se pode generalizar para incidentes reais sem amostragem, população e período observados.",
+    "resolution": "Três sobre quatro é 75% das quatro fixtures escolhidas. Não se pode generalizar para incidentes reais sem amostragem, população e período observados.",
+    "errorReasons": [
+      "Interpretação: extrapolação da base de testes."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Reteste independente posterior. Foram planejados cinco checks de um novo exemplo fictício, nenhum foi executado e ninguém mediu sucesso. Escreva a taxa de execução e o sucesso entre executados.",
+    "answer": "Execução: 0/5=0%. Sucesso entre executados: 0/0 é não estimável, porque não existe execução para avaliar. Não confundir as duas perguntas.",
+    "resolution": "Execução: 0/5=0%. Sucesso entre executados: 0/0 é não estimável, porque não existe execução para avaliar. Não confundir as duas perguntas.",
+    "errorReasons": [
+      "Conteúdo: tratar divisão por zero como zero por cento."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Reteste independente posterior. Um indicador tinha 30% numa medição hipotética e 36% em outra, com o mesmo contrato. Calcule variação em pontos percentuais e a relativa.",
+    "answer": "Diferença absoluta seis pontos percentuais. Variação relativa (36−30)/30×100=20%. Os valores são demonstração aritmética, não registros adicionais do projeto.",
+    "resolution": "Diferença absoluta seis pontos percentuais. Variação relativa (36−30)/30×100=20%. Os valores são demonstração aritmética, não registros adicionais do projeto.",
+    "errorReasons": [
+      "Cálculo: confundir seis pontos percentuais com seis por cento relativos."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Reteste independente posterior. Quatro verificações humanas estão pendentes, mas o sistema mostra “aprovação integral” porque passou em testes automatizados. Que evidências ainda seriam necessárias?",
+    "answer": "Identificação e registro de quem executou as revisões humanas, seus achados, teste real de Edge/leitor de tela, verificação integral de vídeo e, para afirmação de publicação, integração, URL, versão e pós-deploy. Teste de código não é assinatura nem comprovação de serviço público.",
+    "resolution": "Identificação e registro de quem executou as revisões humanas, seus achados, teste real de Edge/leitor de tela, verificação integral de vídeo e, para afirmação de publicação, integração, URL, versão e pós-deploy. Teste de código não é assinatura nem comprovação de serviço público.",
+    "errorReasons": [
+      "Estratégia: afirmar conclusão de uma categoria com evidência de outra."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-065-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-065"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Reteste independente posterior. Crie a ficha mínima de um indicador de qualidade de aulas sem inventar medições: pergunta, universo, fórmula, fonte, janela, nulos, unidade e aprovação.",
+    "answer": "Exemplo-modelo: pergunta “quantas aulas do lote tiveram revisão humana documentada?”; universo: aulas do lote definido; numerador: aulas com registro válido de revisão; denominador: todas as aulas elegíveis; fonte: registros autorizados e versionados; janela: corte explícito; nulos: pendente, nunca aprovação presumida; unidade: porcentagem e contagem; aprovação: ato separado com revisor e evidência. Sem dados, valor não calculado.",
+    "resolution": "Exemplo-modelo: pergunta “quantas aulas do lote tiveram revisão humana documentada?”; universo: aulas do lote definido; numerador: aulas com registro válido de revisão; denominador: todas as aulas elegíveis; fonte: registros autorizados e versionados; janela: corte explícito; nulos: pendente, nunca aprovação presumida; unidade: porcentagem e contagem; aprovação: ato separado com revisor e evidência. Sem dados, valor não calculado.",
+    "errorReasons": [
+      "Estratégia: substituir especificação por número fabricado, ou não definir regras de elegibilidade."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  }
+]

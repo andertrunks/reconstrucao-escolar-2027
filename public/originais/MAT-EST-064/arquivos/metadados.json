@@ -1,0 +1,85 @@
+{
+  "id": "MAT-EST-064",
+  "slug": "analise-pos-incidente-prevencao-editorial-causas-sistemicas-acoes-verificaveis-revisao-controles",
+  "titulo": "Análise pós-incidente e prevenção editorial: causas sistêmicas, ações verificáveis e revisão de controles",
+  "materia": "Matemática",
+  "unidade": "Estatística — ponte universitária",
+  "nivel": 6,
+  "ordem": 64,
+  "preRequisitos": [
+    "MAT-EST-047",
+    "MAT-EST-049",
+    "MAT-EST-053",
+    "MAT-EST-063"
+  ],
+  "objetivos": [
+    "distinguir causa real e hipótese causal",
+    "calcular denominador e magnitude de erro",
+    "planejar ações testáveis sem inventar implementação",
+    "preservar decisões e controles históricos"
+  ],
+  "aulaMarkdown": "MAT-EST-064-analise-pos-incidente-prevencao-editorial-causas-sistemicas-acoes-verificaveis-revisao-controles.md",
+  "visuais": [
+    {
+      "src": "assets/01-fato-hipotese-evidencia.svg",
+      "alt": "Separa fato demonstrado, hipótese e exposição não verificada.",
+      "legenda": "Figura 1."
+    },
+    {
+      "src": "assets/02-cadeia-causal-condicional.svg",
+      "alt": "Separa gatilho artificial, mecanismo matemático, hipótese e barreira.",
+      "legenda": "Figura 2."
+    },
+    {
+      "src": "assets/03-mae-completude.svg",
+      "alt": "Diferencia denominador do MAE e da completude.",
+      "legenda": "Figura 3."
+    },
+    {
+      "src": "assets/04-acoes-criterios.svg",
+      "alt": "Diferencia ensaios locais de ações que dependem de revisão e publicação.",
+      "legenda": "Figura 4."
+    },
+    {
+      "src": "assets/05-prevenir-detectar-retestar.svg",
+      "alt": "Mostra baseline aprovado, mutações bloqueadas e reteste isolado.",
+      "legenda": "Figura 5."
+    },
+    {
+      "src": "assets/06-controles-e-fechamento.svg",
+      "alt": "Demonstra os estados de G1 a G8 e P01 a P10 sem avançá-los.",
+      "legenda": "Figura 6."
+    }
+  ],
+  "video": {
+    "titulo": "Postmortem Action Items: Plan the Work and Work the Plan",
+    "canal": "USENIX, John Lunney / Google SRE",
+    "url": "https://www.usenix.org/conference/srecon17europe/conference-program/presentation/lunney",
+    "idioma": "inglês",
+    "duracao": "sessão prevista de 60 min; duração do vídeo não conferida",
+    "verificacao": "página institucional com vídeo identificada; reprodução integral pendente"
+  },
+  "exercicios": "exercicios.json",
+  "gabarito": "gabarito-comentado.json",
+  "fontes": [
+    "https://sre.google/workbook/postmortem-culture/",
+    "https://sre.google/sre-book/postmortem-culture/",
+    "https://research.google/pubs/postmortem-action-items-plan-the-work-and-work-the-plan/",
+    "https://www.w3.org/WAI/test-evaluate/easy-checks/"
+  ],
+  "anterior": "MAT-EST-063",
+  "proximoTopico": "MAT-EST-065",
+  "revisao": "1, 7, 30 dias após tentativa de estudo real",
+  "progressoIndividual": "não iniciado; nenhuma tentativa demonstrada",
+  "publicacaoSite": false,
+  "sincronizacaoDrive": false,
+  "sincronizacaoGithub": false,
+  "testeManualEdge": false,
+  "revisaoHumanaReal": false,
+  "reproducaoVideoIntegral": false,
+  "progressoIndividualAlterado": false,
+  "estudoRegistrado": false,
+  "dadosReais": false,
+  "exemploFicticio": true,
+  "historicoPreservado": true
+}

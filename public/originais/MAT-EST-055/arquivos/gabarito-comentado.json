@@ -1,0 +1,326 @@
+[
+  {
+    "id": "MAT-EST-055-EX-APR-01",
+    "resposta": "Não. A métrica é uma evidência; é preciso verificar cada porta congelada, qualidade, autorização e possibilidade de retorno.",
+    "resolucao": "Não. A métrica é uma evidência; é preciso verificar cada porta congelada, qualidade, autorização e possibilidade de retorno.",
+    "motivosDeErro": [
+      "estratégia",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-APR-02",
+    "resposta": "São necessários oito pares no horizonte um; existem cinco, t18 a t22. Faltam três alvos elegíveis, mas t23–t25 não estão observados.",
+    "resolucao": "São necessários oito pares no horizonte um; existem cinco, t18 a t22. Faltam três alvos elegíveis, mas t23–t25 não estão observados.",
+    "motivosDeErro": [
+      "memória",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-APR-03",
+    "resposta": "Divida cinco por oito e multiplique por cem: 62,5%. Isso mede quantidade parcial, não cobertura de uma previsão.",
+    "resolucao": "Divida cinco por oito e multiplique por cem: 62,5%. Isso mede quantidade parcial, não cobertura de uma previsão.",
+    "motivosDeErro": [
+      "cálculo",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-APR-04",
+    "resposta": "Exemplos: ID do protocolo, corte e versão dos dados, IDs das previsões, métricas com denominador e unidade, portas verificadas, limitação, responsável autorizado e eventual rollback. Quatro desses itens bastam.",
+    "resolucao": "Exemplos: ID do protocolo, corte e versão dos dados, IDs das previsões, métricas com denominador e unidade, portas verificadas, limitação, responsável autorizado e eventual rollback. Quatro desses itens bastam.",
+    "motivosDeErro": [
+      "conteúdo",
+      "memória"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-APR-05",
+    "resposta": "C teve módulo 23,2 e B teve módulo 4; a piora é 19,2, acima da guarda máxima de dez unidades.",
+    "resolucao": "C teve módulo 23,2 e B teve módulo 4; a piora é 19,2, acima da guarda máxima de dez unidades.",
+    "motivosDeErro": [
+      "cálculo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-APR-06",
+    "resposta": "Revisor de dados verifica proveniência e versões; decisor humano efetivamente designado autoriza dentro das regras. Nenhuma autorização real existe no ensaio.",
+    "resolucao": "Revisor de dados verifica proveniência e versões; decisor humano efetivamente designado autoriza dentro das regras. Nenhuma autorização real existe no ensaio.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-APR-07",
+    "resposta": "Não. Permite conferir se bytes correspondem a um resumo de referência; não autentica pessoa, fonte externa ou horário.",
+    "resolucao": "Não. Permite conferir se bytes correspondem a um resumo de referência; não autentica pessoa, fonte externa ou horário.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-APR-08",
+    "resposta": "Não, são recálculos didáticos. Não há observações de t23 a t25 nem emissão autenticada desses períodos.",
+    "resolucao": "Não, são recálculos didáticos. Não há observações de t23 a t25 nem emissão autenticada desses períodos.",
+    "motivosDeErro": [
+      "interpretação",
+      "memória"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-APR-09",
+    "resposta": "São exemplos isolados com outros namespaces, alvos e protocolos pedagógicos; agregá-los muda indevidamente o conjunto comparável.",
+    "resolucao": "São exemplos isolados com outros namespaces, alvos e protocolos pedagógicos; agregá-los muda indevidamente o conjunto comparável.",
+    "motivosDeErro": [
+      "interpretação",
+      "estratégia"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-APR-10",
+    "resposta": "Não. Encerrar o relatório sobre a candidatura e aposentar um modelo em operação são decisões diferentes, esta última com dependências e plano próprio.",
+    "resolucao": "Não. Encerrar o relatório sobre a candidatura e aposentar um modelo em operação são decisões diferentes, esta última com dependências e plano próprio.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-CON-01",
+    "resposta": "(17,60 − 8,36) / 17,60 × 100 = 9,24 / 17,60 × 100 = 52,5%. O denominador é B, definido como referência.",
+    "resolucao": "(17,60 − 8,36) / 17,60 × 100 = 9,24 / 17,60 × 100 = 52,5%. O denominador é B, definido como referência.",
+    "motivosDeErro": [
+      "cálculo",
+      "estratégia"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-CON-02",
+    "resposta": "(51,20 − 14,92) / 51,20 × 100 = 36,28 / 51,20 × 100 = 70,859375%.",
+    "resolucao": "(51,20 − 14,92) / 51,20 × 100 = 36,28 / 51,20 × 100 = 70,859375%.",
+    "motivosDeErro": [
+      "cálculo",
+      "estratégia"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-CON-03",
+    "resposta": "23,2 menos 4 = 19,2 unidades. Como 19,2 é maior que 10, a porta individual está violada, mesmo com redução média.",
+    "resolucao": "23,2 menos 4 = 19,2 unidades. Como 19,2 é maior que 10, a porta individual está violada, mesmo com redução média.",
+    "motivosDeErro": [
+      "cálculo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-CON-04",
+    "resposta": "Erro observado menos previsto = +2; custo = 3 × 2 = 6 pontos fictícios.",
+    "resolucao": "Erro observado menos previsto = +2; custo = 3 × 2 = 6 pontos fictícios.",
+    "motivosDeErro": [
+      "conteúdo",
+      "cálculo"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-CON-05",
+    "resposta": "Erro = 40 − 43 = −3, uma superprevisão; custo = 3 pontos porque o peso negativo é um.",
+    "resolucao": "Erro = 40 − 43 = −3, uma superprevisão; custo = 3 pontos porque o peso negativo é um.",
+    "motivosDeErro": [
+      "cálculo",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-CON-06",
+    "resposta": "Em L12, y=40 preliminar, módulos B2/C3. Em L13, y=44 validada, módulos B2/C1. A revisão de um mesmo alvo explica a mudança, não uma previsão refeita.",
+    "resolucao": "Em L12, y=40 preliminar, módulos B2/C3. Em L13, y=44 validada, módulos B2/C1. A revisão de um mesmo alvo explica a mudança, não uma previsão refeita.",
+    "motivosDeErro": [
+      "interpretação",
+      "cálculo"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-CON-07",
+    "resposta": "Um protocolo sucessor previamente fixado, com novo ID e justificativa. A regra antiga permanece associada aos dados anteriores; mudar retroativamente o limiar após t19 vicia a avaliação original.",
+    "resolucao": "Um protocolo sucessor previamente fixado, com novo ID e justificativa. A regra antiga permanece associada aos dados anteriores; mudar retroativamente o limiar após t19 vicia a avaliação original.",
+    "motivosDeErro": [
+      "estratégia",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-CON-08",
+    "resposta": "Erros +1 e +3; custos 3 e 9 pontos, respectivamente, por serem subprevisões. São versões do mesmo alvo, não dois alvos.",
+    "resolucao": "Erros +1 e +3; custos 3 e 9 pontos, respectivamente, por serem subprevisões. São versões do mesmo alvo, não dois alvos.",
+    "motivosDeErro": [
+      "cálculo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-CON-09",
+    "resposta": "Não comprovada como aprovação operacional. Reexecução local e hashes apoiam rastreabilidade, mas não equivalem a auditoria autorizada, fonte autenticada ou assinatura.",
+    "resolucao": "Não comprovada como aprovação operacional. Reexecução local e hashes apoiam rastreabilidade, mas não equivalem a auditoria autorizada, fonte autenticada ou assinatura.",
+    "motivosDeErro": [
+      "interpretação",
+      "estratégia"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-CON-10",
+    "resposta": "Cenários hipotéticos são imputados como resultados reais; altera-se indevidamente o conjunto elegível e cria-se falsa completude. Manter cinco pares e esperar observações validadas.",
+    "resolucao": "Cenários hipotéticos são imputados como resultados reais; altera-se indevidamente o conjunto elegível e cria-se falsa completude. Manter cinco pares e esperar observações validadas.",
+    "motivosDeErro": [
+      "conteúdo",
+      "estratégia"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-VES-01",
+    "resposta": "A redução é um cálculo sobre cinco pares fictícios, e não oito. Existe piora local de 19,2 em t19, superior à guarda dez; falta auditoria/aprovação operacional real. O protocolo original não autoriza promoção.",
+    "resolucao": "A redução é um cálculo sobre cinco pares fictícios, e não oito. Existe piora local de 19,2 em t19, superior à guarda dez; falta auditoria/aprovação operacional real. O protocolo original não autoriza promoção.",
+    "motivosDeErro": [
+      "interpretação",
+      "estratégia"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-VES-02",
+    "resposta": "Mistura outros namespaces e duplica alvo. O denominador correto da série principal continua cinco pares t18–t22; V, Z e repetições não são tarefas elegíveis independentes.",
+    "resolucao": "Mistura outros namespaces e duplica alvo. O denominador correto da série principal continua cinco pares t18–t22; V, Z e repetições não são tarefas elegíveis independentes.",
+    "motivosDeErro": [
+      "interpretação",
+      "estratégia"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-VES-03",
+    "resposta": "Primeiro par: MAE em unidades da série. Segundo: custo médio em pontos fictícios segundo peso 3:1. Sem unidade e regra decisória não se pode interpretar ou comparar as grandezas.",
+    "resolucao": "Primeiro par: MAE em unidades da série. Segundo: custo médio em pontos fictícios segundo peso 3:1. Sem unidade e regra decisória não se pode interpretar ou comparar as grandezas.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-VES-04",
+    "resposta": "Usar a regra escolhida depois de ver o erro para reclassificar v1 é seleção retrospectiva. Um novo objetivo pode justificar uma versão v2 antes de novos alvos, com análise exploratória do passado explícita, mas não reabilita v1.",
+    "resolucao": "Usar a regra escolhida depois de ver o erro para reclassificar v1 é seleção retrospectiva. Um novo objetivo pode justificar uma versão v2 antes de novos alvos, com análise exploratória do passado explícita, mas não reabilita v1.",
+    "motivosDeErro": [
+      "estratégia",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-VES-05",
+    "resposta": "Pode registrar igualdade dos bytes comparados aos digests conhecidos. Não pode declarar autoria, carimbo de emissão anterior ao alvo, fonte verídica ou autorização real apenas com hashes.",
+    "resolucao": "Pode registrar igualdade dos bytes comparados aos digests conhecidos. Não pode declarar autoria, carimbo de emissão anterior ao alvo, fonte verídica ou autorização real apenas com hashes.",
+    "motivosDeErro": [
+      "interpretação",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-VES-06",
+    "resposta": "Não promover candidato é conclusão de avaliação; retirar a referência exigiria decisão operacional separada, inventário de usuários/dependências, substituição, comunicação e contingência.",
+    "resolucao": "Não promover candidato é conclusão de avaliação; retirar a referência exigiria decisão operacional separada, inventário de usuários/dependências, substituição, comunicação e contingência.",
+    "motivosDeErro": [
+      "interpretação",
+      "estratégia"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-VES-07",
+    "resposta": "Modelo: “Cinco pares simulados t18–t22 produzem MAE 17,60 em B e 8,36 em C. Embora a média melhore, a guarda local falhou em t19, com piora 19,2 > 10, e faltam três pares. Auditoria e aprovação real não demonstradas; propor não promoção sob v1, sem ato operacional.”",
+    "resolucao": "Modelo: “Cinco pares simulados t18–t22 produzem MAE 17,60 em B e 8,36 em C. Embora a média melhore, a guarda local falhou em t19, com piora 19,2 > 10, e faltam três pares. Auditoria e aprovação real não demonstradas; propor não promoção sob v1, sem ato operacional.”",
+    "motivosDeErro": [
+      "estratégia",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-VES-08",
+    "resposta": "São versões de um único alvo em namespace isolado. O corte e a política de elegibilidade escolhem uma versão por alvo; não somar duas e não adicionar V aos cinco pares principais.",
+    "resolucao": "São versões de um único alvo em namespace isolado. O corte e a política de elegibilidade escolhem uma versão por alvo; não somar duas e não adicionar V aos cinco pares principais.",
+    "motivosDeErro": [
+      "conteúdo",
+      "estratégia"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-VES-09",
+    "resposta": "Não. A porta original exige nenhuma deterioração local >10 e t19 já falhou. Ainda não há observações futuras. Pode-se estudar novo protocolo prospectivo e separar claramente a avaliação antiga, sem alterar sua conclusão.",
+    "resolucao": "Não. A porta original exige nenhuma deterioração local >10 e t19 já falhou. Ainda não há observações futuras. Pode-se estudar novo protocolo prospectivo e separar claramente a avaliação antiga, sem alterar sua conclusão.",
+    "motivosDeErro": [
+      "interpretação",
+      "estratégia"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-VES-10",
+    "resposta": "Não. O framework é orientação voluntária geral; os seis limiares vieram do protocolo pedagógico MAT-EST-049-PROT-v1, não são uma regra normativa do NIST ou de vestibular.",
+    "resolucao": "Não. O framework é orientação voluntária geral; os seis limiares vieram do protocolo pedagógico MAT-EST-049-PROT-v1, não são uma regra normativa do NIST ou de vestibular.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-RET-01",
+    "resposta": "5/8 = 62,5%; faltam três pares elegíveis. Não tratar hipótese como observação.",
+    "resolucao": "5/8 = 62,5%; faltam três pares elegíveis. Não tratar hipótese como observação.",
+    "motivosDeErro": [
+      "memória",
+      "cálculo"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-RET-02",
+    "resposta": "18 − 7 = 11, superior a dez; a porta é violada. É exemplo novo, não é t19 da série principal.",
+    "resolucao": "18 − 7 = 11, superior a dez; a porta é violada. É exemplo novo, não é t19 da série principal.",
+    "motivosDeErro": [
+      "cálculo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-RET-03",
+    "resposta": "O papel técnico prepara contas, evidências e versões. Uma pessoa designada com autoridade organizacional avalia as condições e aprova ou não a ação; no pacote não existe essa assinatura.",
+    "resolucao": "O papel técnico prepara contas, evidências e versões. Uma pessoa designada com autoridade organizacional avalia as condições e aprova ou não a ação; no pacote não existe essa assinatura.",
+    "motivosDeErro": [
+      "conteúdo",
+      "memória"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-RET-04",
+    "resposta": "Não. Previsões de C1 permanecem vinculadas à versão original; C2 recebe versão e avaliação própria com disponibilidade temporal preservada.",
+    "resolucao": "Não. Previsões de C1 permanecem vinculadas à versão original; C2 recebe versão e avaliação própria com disponibilidade temporal preservada.",
+    "motivosDeErro": [
+      "conteúdo",
+      "estratégia"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-RET-05",
+    "resposta": "Encerrar relatório: arquivar avaliação concluindo “sem promoção” e evidências. Aposentar modelo: decisão operacional de desligar uma versão após mapear dependências e plano de substituição.",
+    "resolucao": "Encerrar relatório: arquivar avaliação concluindo “sem promoção” e evidências. Aposentar modelo: decisão operacional de desligar uma versão após mapear dependências e plano de substituição.",
+    "motivosDeErro": [
+      "interpretação",
+      "memória"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-RET-06",
+    "resposta": "Os bytes locais são internamente verificáveis segundo a serialização, sem prova de hora, identidade ou assinatura real; o parecer é editorial e não executou mudança operacional.",
+    "resolucao": "Os bytes locais são internamente verificáveis segundo a serialização, sem prova de hora, identidade ou assinatura real; o parecer é editorial e não executou mudança operacional.",
+    "motivosDeErro": [
+      "interpretação",
+      "estratégia"
+    ]
+  }
+]

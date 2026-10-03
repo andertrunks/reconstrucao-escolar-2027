@@ -1,0 +1,28 @@
+{
+  "id": "MAT-EST-053",
+  "checks": {
+    "inherited_15_byte_identical": true,
+    "protocol_original_unchanged": true,
+    "36_unique_question_ids": true,
+    "gabarito_exercise_ids_match": true,
+    "six_accessible_svg": true,
+    "new_case_arithmetic": true,
+    "logical_event_order": true,
+    "new_case_has_valid_correction_link": true,
+    "actual_main_csv_5_rows_and_t19_failure": true,
+    "unchanged_main_series_guard": true,
+    "no_t23_t25_observations_added": true,
+    "html_local_and_png_exist": true,
+    "sha256_manifest_pass": true
+  },
+  "passed": 13,
+  "total": 13,
+  "inherited_count": 15,
+  "question_count": 36,
+  "svg_count": 6,
+  "notes": [
+    "Prévia PNG é composição original, não captura do navegador",
+    "Conteúdo apenas local; sem teste manual Edge, Drive ou deploy",
+    "Vídeo indexado publicamente, sem teste integral de reprodução"
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "instituicao": "Hyndman e Athanasopoulos",
+    "titulo": "Forecasting: Principles and Practice, 3rd ed., section 5.10 Time series cross-validation",
+    "url": "https://otexts.com/fpp3/tscv.html",
+    "papel": "origens sucessivas usam apenas passado e avaliam alvos novos"
+  },
+  {
+    "instituicao": "Hyndman e Athanasopoulos",
+    "titulo": "Forecasting: Principles and Practice, 3rd ed., 5.8 Evaluating forecast accuracy",
+    "url": "https://otexts.com/fpp3/accuracy.html",
+    "papel": "métricas externas e distinção com resíduos de treinamento"
+  },
+  {
+    "instituicao": "NIST",
+    "titulo": "NIST AI RMF Playbook — Manage 2.2",
+    "url": "https://airc.nist.gov/airmf-resources/playbook/manage/",
+    "papel": "monitorar desempenho e mudanças após implantação; orientação de governança, não prova matemática para este cenário"
+  },
+  {
+    "instituicao": "NIST",
+    "titulo": "AI RMF Playbook — Govern 1.5",
+    "url": "https://airc.nist.gov/airmf-resources/playbook/govern/",
+    "papel": "prazos de revisão e responsabilidades"
+  },
+  {
+    "instituicao": "NIST",
+    "titulo": "NIST AI 800-4: Challenges to Monitoring Deployed AI Systems, notícia de março de 2026",
+    "url": "https://www.nist.gov/news-events/news/2026/03/new-report-challenges-monitoring-deployed-ai-systems",
+    "papel": "diversidade de tipos e desafios de monitoramento real"
+  },
+  {
+    "instituicao": "MIT OpenCourseWare / MIT Learn",
+    "titulo": "Lecture 12: Time Series Analysis",
+    "url": "https://learn.mit.edu/video/21027/lecture-12-time-series-analysis?playlist=21012",
+    "papel": "video complementar; página e duração conferidas; reprodução integral pendente"
+  },
+  {
+    "instituicao": "Projeto Reconstrução Escolar",
+    "titulo": "MAT-EST-047 e CSV herdados",
+    "url": null,
+    "papel": "estado editorial, modelo sazonal fixo, prefixos imutáveis e erros retrospectivos; fonte privada interna"
+  }
+]

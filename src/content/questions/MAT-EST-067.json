@@ -1,0 +1,866 @@
+[
+  {
+    "id": "MAT-EST-067-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Objetos distintos",
+    "statement": "O que significa previsto, observado e erro? Por que falta de observado não é erro zero?",
+    "answer": "Previsão é valor fixado antes do alvo; observado é dado do alvo; erro é observado menos previsão. Sem observado não se calcula erro. Zero seria igualdade verificada, não campo vazio.",
+    "resolution": "Previsão é valor fixado antes do alvo; observado é dado do alvo; erro é observado menos previsão. Sem observado não se calcula erro. Zero seria igualdade verificada, não campo vazio.",
+    "errorReasons": [
+      "Conteúdo: trocar ausência por valor numérico."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Contar estados",
+    "statement": "Dos seis cartões LAB-067, identifique os avaliáveis e os pendentes.",
+    "answer": "D01 a D04 são avaliáveis; D05 e D06 têm observado pendente. Todos têm previsões didáticas B e C.",
+    "resolution": "D01 a D04 são avaliáveis; D05 e D06 têm observado pendente. Todos têm previsões didáticas B e C.",
+    "errorReasons": [
+      "Interpretação: imaginar que D05/D06 não receberam previsão."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Completude",
+    "statement": "Calcule a completude do LAB-067 e explique a unidade da razão.",
+    "answer": "4/6=2/3≈66,67%. É proporção de cartões avaliáveis, sem unidade de kits nem de pontos.",
+    "resolution": "4/6=2/3≈66,67%. É proporção de cartões avaliáveis, sem unidade de kits nem de pontos.",
+    "errorReasons": [
+      "Cálculo: usar quatro sobre quatro."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Sinal dos erros",
+    "statement": "Calcule os erros B/C em D01 (y24; B21; C23) e D02 (y18; B20; C17).",
+    "answer": "D01: +3 para B e +1 para C. D02: −2 para B e +1 para C. Em todos os casos e=y−previsão.",
+    "resolution": "D01: +3 para B e +1 para C. D02: −2 para B e +1 para C. Em todos os casos e=y−previsão.",
+    "errorReasons": [
+      "Cálculo: inverter a subtração."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "MAE de B",
+    "statement": "Com os módulos de B em D01–D04 iguais a 3,2,4,1, calcule o MAE e dê a unidade.",
+    "answer": "(3+2+4+1)/4=10/4=2,5 kits. O denominador é quatro pares válidos.",
+    "resolution": "(3+2+4+1)/4=10/4=2,5 kits. O denominador é quatro pares válidos.",
+    "errorReasons": [
+      "Cálculo: dividir por seis ou cancelar sinais."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "MAE de C",
+    "statement": "Com módulos de C iguais a 1,1,3,2, calcule o MAE e interprete apenas no recorte.",
+    "answer": "(1+1+3+2)/4=7/4=1,75 kit, contra 2,5 kits de B nesses quatro pares. Nada se afirma sobre população futura.",
+    "resolution": "(1+1+3+2)/4=7/4=1,75 kit, contra 2,5 kits de B nesses quatro pares. Nada se afirma sobre população futura.",
+    "errorReasons": [
+      "Interpretação: transformar exemplo didático em implantação validada."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Custos em D01",
+    "statement": "Sob custo três pontos por kit subprevisto e um por kit superprevisto, calcule custo de B e C em D01.",
+    "answer": "B tem +3 e custa 3×3=9 pontos; C tem +1 e custa 3×1=3 pontos.",
+    "resolution": "B tem +3 e custa 3×3=9 pontos; C tem +1 e custa 3×1=3 pontos.",
+    "errorReasons": [
+      "Conteúdo: confundir pontos de custo com quantidade de kits."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Média ausente",
+    "statement": "O que informar como MAE quando há zero pares avaliáveis entre seis planejados?",
+    "answer": "MAE não estimável, pois não há soma dividida por quantidade positiva de pares. Completude 0/6=0% é definida.",
+    "resolution": "MAE não estimável, pois não há soma dividida por quantidade positiva de pares. Completude 0/6=0% é definida.",
+    "errorReasons": [
+      "Conteúdo: escrever MAE igual a zero."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "D04 e diferença emparelhada",
+    "statement": "Em D04, módulos B=1 e C=2. Qual é C menos B?",
+    "answer": "2−1=+1 kit: C tem piora local de um kit em D04.",
+    "resolution": "2−1=+1 kit: C tem piora local de um kit em D04.",
+    "errorReasons": [
+      "Cálculo: inverter o sentido da diferença."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Proveniência",
+    "statement": "Indique duas informações necessárias além do valor previsto para uma avaliação temporal auditável.",
+    "answer": "Exemplos: origem da previsão, horizonte, data-alvo, versão congelada, identificação e versão do observado, corte de avaliação. Duas corretas bastam.",
+    "resolution": "Exemplos: origem da previsão, horizonte, data-alvo, versão congelada, identificação e versão do observado, corte de avaliação. Duas corretas bastam.",
+    "errorReasons": [
+      "Memória: limitar registro ao número previsto."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Quatro pares de erros",
+    "statement": "Reconstrua os erros assinados de B e C para D01–D04 a partir da tabela da aula.",
+    "answer": "B=[+3,−2,+4,+1]; C=[+1,+1,−3,−2]. Calcular sempre observado menos previsão.",
+    "resolution": "B=[+3,−2,+4,+1]; C=[+1,+1,−3,−2]. Calcular sempre observado menos previsão.",
+    "errorReasons": [
+      "Cálculo: confundir sinal de demanda superprevista."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Diferenças emparelhadas",
+    "statement": "Calcule |eC|−|eB| em D01–D04, sua soma e média.",
+    "answer": "Diferenças [−2,−1,−1,+1]; soma −3 kits e média −3/4=−0,75 kit no recorte.",
+    "resolution": "Diferenças [−2,−1,−1,+1]; soma −3 kits e média −3/4=−0,75 kit no recorte.",
+    "errorReasons": [
+      "Cálculo: usar erros assinados em vez dos módulos."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Custo em quatro cartões",
+    "statement": "Calcule totais e custos médios de B/C com peso três para erro positivo e um para erro negativo.",
+    "answer": "B: [9,2,12,3], soma 26 e média 6,5 pontos. C: [3,3,3,2], soma 11 e média 2,75 pontos.",
+    "resolution": "B: [9,2,12,3], soma 26 e média 6,5 pontos. C: [3,3,3,2], soma 11 e média 2,75 pontos.",
+    "errorReasons": [
+      "Cálculo: perder a unidade ou tratar sinal como custo negativo."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Guarda pré-declarada",
+    "statement": "A guarda hipotética local admite piora de C−B até 0,5 kit em cada tarefa. Compare D04 e registre a consequência condicional.",
+    "answer": "D04 piora +1 kit, excede 0,5. A regra conjunta de promoção do exercício falha, apesar da menor média parcial de C. Não houve decisão real.",
+    "resolution": "D04 piora +1 kit, excede 0,5. A regra conjunta de promoção do exercício falha, apesar da menor média parcial de C. Não houve decisão real.",
+    "errorReasons": [
+      "Estratégia: mudar a guarda depois do resultado."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Limites por cartão ausente",
+    "statement": "D05 tem B22 e C21; D06, B25 e C23. Sem y, limite a diferença de módulos C−B em cada um.",
+    "answer": "Pela desigualdade triangular reversa, D05 está em [−1,+1] kit e D06 em [−2,+2] kits. São possibilidades condicionais, não resultados observados.",
+    "resolution": "Pela desigualdade triangular reversa, D05 está em [−1,+1] kit e D06 em [−2,+2] kits. São possibilidades condicionais, não resultados observados.",
+    "errorReasons": [
+      "Conteúdo: inventar y ou confundir limite com intervalo de confiança."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Limite para seis tarefas",
+    "statement": "A soma das diferenças C−B nos quatro conhecidos é −3; os faltantes estão em [−1,+1] e [−2,+2]. Limite a média completa se todos forem avaliados com mesmo peso.",
+    "answer": "Soma total entre −3−1−2=−6 e −3+1+2=0. Dividir por 6: média entre −1 e 0 kit.",
+    "resolution": "Soma total entre −3−1−2=−6 e −3+1+2=0. Dividir por 6: média entre −1 e 0 kit.",
+    "errorReasons": [
+      "Cálculo: usar denominador quatro para a média hipotética de seis."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Extremo de empate",
+    "statement": "Sem registrar observações: suponha apenas hipoteticamente que yD05≥22 e yD06≥25. Quanto seria a média completa de C−B?",
+    "answer": "Os cartões dariam diferenças +1 e +2; soma completa −3+1+2=0, média 0 kit. É cenário, não dado nem autorização de promoção.",
+    "resolution": "Os cartões dariam diferenças +1 e +2; soma completa −3+1+2=0, média 0 kit. É cenário, não dado nem autorização de promoção.",
+    "errorReasons": [
+      "Interpretação: converter hipótese em observado."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Outro extremo",
+    "statement": "Suponha apenas que yD05≤21 e yD06≤23. Qual seria a média completa C−B?",
+    "answer": "As diferenças seriam −1 e −2; soma −3−1−2=−6, média −1 kit. Nenhum observado foi criado pelo cálculo.",
+    "resolution": "As diferenças seriam −1 e −2; soma −3−1−2=−6, média −1 kit. Nenhum observado foi criado pelo cálculo.",
+    "errorReasons": [
+      "Interpretação: declarar essas desigualdades fatos."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Ausência possivelmente seletiva",
+    "statement": "Explique por que quatro observações disponíveis não demonstram que os dois cartões sem observado têm o mesmo comportamento.",
+    "answer": "Não há evidência do mecanismo de ausência. Pode haver seleção ligada à intensidade do fenômeno ou a falhas de recepção. Métricas descrevem apenas os quatro elegíveis.",
+    "resolution": "Não há evidência do mecanismo de ausência. Pode haver seleção ligada à intensidade do fenômeno ou a falhas de recepção. Métricas descrevem apenas os quatro elegíveis.",
+    "errorReasons": [
+      "Interpretação: presumir ausência totalmente aleatória."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Versões e pareamento",
+    "statement": "Um observado preliminar de D02 fosse retificado mais tarde. Qual trilha deve ser preservada e o que não deve mudar retroativamente?",
+    "answer": "Manter versão e corte preliminares e validados, origem da correção, mesmo alvo único e previsões do enunciado congeladas. Recalcular fotografia identificada sem apagar a anterior.",
+    "resolution": "Manter versão e corte preliminares e validados, origem da correção, mesmo alvo único e previsões do enunciado congeladas. Recalcular fotografia identificada sem apagar a anterior.",
+    "errorReasons": [
+      "Estratégia: duplicar alvo ou editar previsão para acompanhar a revisão."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Comunicado seletivo",
+    "statement": "Um comunicado destaca MAE C 1,75 versus B 2,5 e afirma: “C foi aprovado para todas as demandas futuras”. Reescreva de modo auditável.",
+    "answer": "Informar quatro de seis cartões fictícios avaliáveis, horizonte h1, médias somente desse recorte, ausência dos dois observados e violação da guarda local de 0,5 em D04. Nenhuma aprovação ou generalização ocorreu.",
+    "resolution": "Informar quatro de seis cartões fictícios avaliáveis, horizonte h1, médias somente desse recorte, ausência dos dois observados e violação da guarda local de 0,5 em D04. Nenhuma aprovação ou generalização ocorreu.",
+    "errorReasons": [
+      "Interpretação: extrapolar recorte e ocultar critério impeditivo."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Gráfico com legenda incorreta",
+    "statement": "Um gráfico dos quatro pares usa título “Taxa de acerto nas seis tarefas”. Proponha título, eixos e descrição sonora corretos.",
+    "answer": "Exemplo: “Erros absolutos dos quatro cartões avaliáveis de LAB-067”; eixo horizontal cartões D01–D04; eixo vertical erro absoluto em kits; descrever B 3,2,4,1 e C 1,1,3,2; D05/D06 pendentes.",
+    "resolution": "Exemplo: “Erros absolutos dos quatro cartões avaliáveis de LAB-067”; eixo horizontal cartões D01–D04; eixo vertical erro absoluto em kits; descrever B 3,2,4,1 e C 1,1,3,2; D05/D06 pendentes.",
+    "errorReasons": [
+      "Interpretação: confundir erro, acerto e completude."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Aplicação em química fictícia",
+    "statement": "Quatro amostras estão planejadas; três medições válidas fictícias são 8, 12 e 10 mg/L e uma está ausente. Calcule completude e média válida.",
+    "answer": "Completude 3/4=75%. Média (8+12+10)/3=10 mg/L. Ausência não é concentração zero. Não misturar este exemplo com LAB-067.",
+    "resolution": "Completude 3/4=75%. Média (8+12+10)/3=10 mg/L. Ausência não é concentração zero. Não misturar este exemplo com LAB-067.",
+    "errorReasons": [
+      "Cálculo: usar quatro no denominador da média."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Horizon e origem",
+    "statement": "Um relatório agrega erros de h1 e h2 como se fossem a mesma tarefa sem informar datas de origem. Identifique o problema e a informação necessária.",
+    "answer": "Horizontes e origens diferentes representam previsões diferentes, possivelmente com alvos coincidentes; identificar origem, horizonte, alvo, previsão congelada e vintage do observado; analisar estratos e dependência.",
+    "resolution": "Horizontes e origens diferentes representam previsões diferentes, possivelmente com alvos coincidentes; identificar origem, horizonte, alvo, previsão congelada e vintage do observado; analisar estratos e dependência.",
+    "errorReasons": [
+      "Estratégia: agregar sem rastrear tarefa e dependência temporal."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Sensibilidade sem premissa",
+    "statement": "Alguém afirma “erro de D05 não pode ultrapassar cinco kits” só porque B e C diferem um kit. Corrija a afirmação.",
+    "answer": "Somente a diferença de módulos entre C e B fica em [−1,+1] kit; cada erro absoluto pode crescer sem limite superior conhecido se y crescer. Cinco não foi pressuposto nem observado.",
+    "resolution": "Somente a diferença de módulos entre C e B fica em [−1,+1] kit; cada erro absoluto pode crescer sem limite superior conhecido se y crescer. Cinco não foi pressuposto nem observado.",
+    "errorReasons": [
+      "Conteúdo: confundir distância entre previsões com distância ao alvo."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Mistura de recortes",
+    "statement": "Um texto soma quatro pares LAB-067, dois SANDBOX-057 e dois TRANSFER-066 para anunciar desempenho histórico. Explique por que é inválido.",
+    "answer": "São exercícios de populações, regras, propósitos e definições distintas. A soma não reconstitui t01–t22 nem uma avaliação externa; identificar cada origem e relatar métricas separadamente.",
+    "resolution": "São exercícios de populações, regras, propósitos e definições distintas. A soma não reconstitui t01–t22 nem uma avaliação externa; identificar cada origem e relatar métricas separadamente.",
+    "errorReasons": [
+      "Interpretação: formar pseudopopulação com exercícios isolados."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Demonstração do limite",
+    "statement": "Para B e C fixos, justifique por que | |y−C|−|y−B| |≤|B−C|.",
+    "answer": "Aplicar |y−C|≤|y−B|+|B−C| e a desigualdade simétrica ao trocar B/C. Essas duas desigualdades limitam a diferença entre menos e mais |B−C|.",
+    "resolution": "Aplicar |y−C|≤|y−B|+|B−C| e a desigualdade simétrica ao trocar B/C. Essas duas desigualdades limitam a diferença entre menos e mais |B−C|.",
+    "errorReasons": [
+      "Conteúdo: memorizar fórmula sem justificativa."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Mecanismo desconhecido",
+    "statement": "Os cartões sem observado podem representar dias de maior demanda. Qual frase diferencia dado, hipótese e decisão?",
+    "answer": "Dado: D05/D06 não têm observado informado. Hipótese: pode haver associação entre ausência e demanda, ainda não verificada. Decisão editorial: não imputar nem extrapolar; buscar origem e documentar sensibilidade.",
+    "resolution": "Dado: D05/D06 não têm observado informado. Hipótese: pode haver associação entre ausência e demanda, ainda não verificada. Decisão editorial: não imputar nem extrapolar; buscar origem e documentar sensibilidade.",
+    "errorReasons": [
+      "Interpretação: declarar hipótese como causa descoberta."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Registro da guarda local",
+    "statement": "Redija um registro de auditoria do cartão D04 sem tocar no protocolo t19.",
+    "answer": "LAB-067-D04: y16, B15, C18, módulos B1/C2, piora C−B +1 kit; guarda fictícia local 0,5 violada; não promover sob regra do laboratório. MAT-EST-049 permanece independente.",
+    "resolution": "LAB-067-D04: y16, B15, C18, módulos B1/C2, piora C−B +1 kit; guarda fictícia local 0,5 violada; não promover sob regra do laboratório. MAT-EST-049 permanece independente.",
+    "errorReasons": [
+      "Estratégia: transportar guarda de um caso para outro."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Evidência para publicação",
+    "statement": "Após o pacote incremental passar testes locais, um editor escreve que os 23 invariantes foram revalidados, o vídeo integral foi visto e a aula foi publicada. O que o relatório deve dizer?",
+    "answer": "Relatar somente novos arquivos e testes realmente efetuados; ZIP original indisponível impede revalidar os 23 bytes e a cadeia cumulativa. Página do vídeo localizada, não playback integral; sem deploy, revisão humana ou teste Edge.",
+    "resolution": "Relatar somente novos arquivos e testes realmente efetuados; ZIP original indisponível impede revalidar os 23 bytes e a cadeia cumulativa. Página do vídeo localizada, não playback integral; sem deploy, revisão humana ou teste Edge.",
+    "errorReasons": [
+      "Interpretação: confundir verificação local e atos externos."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Média assinada versus MAE",
+    "statement": "Em caso futuro autoral isolado, erros −3,+4,−1 kits. Calcule média assinada e MAE.",
+    "answer": "Média assinada (−3+4−1)/3=0 kit; MAE (3+4+1)/3=8/3≈2,67 kits. Cancelamento dos sinais não elimina magnitude.",
+    "resolution": "Média assinada (−3+4−1)/3=0 kit; MAE (3+4+1)/3=8/3≈2,67 kits. Cancelamento dos sinais não elimina magnitude.",
+    "errorReasons": [
+      "Cálculo: concluir que MAE é zero."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Completude nula",
+    "statement": "Cinco cartões de outro exercício foram planejados; nenhum tem par elegível. Informe completude e MAE.",
+    "answer": "Completude 0/5=0%; MAE não estimável. Nenhuma nova tarefa t foi observada.",
+    "resolution": "Completude 0/5=0%; MAE não estimável. Nenhuma nova tarefa t foi observada.",
+    "errorReasons": [
+      "Conteúdo: usar zero no lugar de não estimável."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Novo limite triangular",
+    "statement": "Previsões fixas B10 e C13 para alvo desconhecido. Qual limite para |y−C|−|y−B|?",
+    "answer": "Entre −3 e +3 unidades, pois |10−13|=3. Não se descobriu y nem o erro individual.",
+    "resolution": "Entre −3 e +3 unidades, pois |10−13|=3. Não se descobriu y nem o erro individual.",
+    "errorReasons": [
+      "Conteúdo: interpretar diferença como erro real."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Custos em outro recorte",
+    "statement": "Em outro exercício independente, erros B [+2,−4] e C [−1,−5]. Com pesos 3 para positivo e 1 para negativo, calcule MAE e custo médio.",
+    "answer": "MAE B=(2+4)/2=3; C=(1+5)/2=3 unidades. Custo B=(6+4)/2=5; C=(1+5)/2=3 pontos. Mesmo MAE, custos distintos.",
+    "resolution": "MAE B=(2+4)/2=3; C=(1+5)/2=3 unidades. Custo B=(6+4)/2=5; C=(1+5)/2=3 pontos. Mesmo MAE, custos distintos.",
+    "errorReasons": [
+      "Cálculo: misturar pontos de custo e unidades de erro."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Linha do tempo de versões",
+    "statement": "Uma previsão fixa de 70 kits encontra observado preliminar 73 e validado 69. Calcule erros e proponha registro sem dupla contagem.",
+    "answer": "Erro preliminar +3; validado −1 kits. Registrar duas versões do mesmo alvo e datas de corte, não dois eventos e não previsões refeitas.",
+    "resolution": "Erro preliminar +3; validado −1 kits. Registrar duas versões do mesmo alvo e datas de corte, não dois eventos e não previsões refeitas.",
+    "errorReasons": [
+      "Estratégia: apagar versão anterior ou duplicar alvo."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-067-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-067"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Síntese de seis frases",
+    "statement": "Escreva até seis frases sobre LAB-067 incluindo completude, MAE, custo, guarda, ausência e limite matemático sem alegar implantação.",
+    "answer": "Modelo: “Quatro de seis cartões fictícios estão avaliáveis (66,67%). Nos quatro pares, MAE B é 2,5 e C é 1,75 kit. Custos simulados B/C são 6,5 e 2,75 pontos. D04 apresenta piora local de um kit de C, acima da guarda hipotética de 0,5 kit. D05/D06 não têm observado e não foram imputados. Sob previsões fixas e seis pares com igual peso, a diferença média completa C menos B fica entre −1 e 0 kit, sem validação externa nem promoção.”",
+    "resolution": "Modelo: “Quatro de seis cartões fictícios estão avaliáveis (66,67%). Nos quatro pares, MAE B é 2,5 e C é 1,75 kit. Custos simulados B/C são 6,5 e 2,75 pontos. D04 apresenta piora local de um kit de C, acima da guarda hipotética de 0,5 kit. D05/D06 não têm observado e não foram imputados. Sob previsões fixas e seis pares com igual peso, a diferença média completa C menos B fica entre −1 e 0 kit, sem validação externa nem promoção.”",
+    "errorReasons": [
+      "Interpretação/redação: ocultar denominadores ou transformar limite em observação."
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  }
+]

@@ -1,0 +1,11 @@
+periodo,observado,mesma_estacao_anterior,diferenca,nota
+t13,134,129,5,herdado de MAT-EST-048
+t14,151,145,6,herdado de MAT-EST-048
+t15,187,171,16,herdado de MAT-EST-048
+t16,160,144,16,herdado de MAT-EST-048
+t17,167,134,33,herdado de MAT-EST-048
+t18,176,151,25,t18 divulgado no pacote anterior
+t19,183,187,-4,novo cenario ficticio
+t20,181,160,21,novo cenario ficticio
+t21,188,167,21,novo cenario ficticio
+t22,193,176,17,novo cenario ficticio

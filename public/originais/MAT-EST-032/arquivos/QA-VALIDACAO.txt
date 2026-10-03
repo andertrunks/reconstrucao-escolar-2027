@@ -1,0 +1,10 @@
+# QA de MAT-EST-032
+Data editorial: 2026-09-28.
+Status: verificações locais aprovadas; sem falhas no conjunto executado.
+Exercícios: 36 autorais (10 aprendizagem, 10 consolidação, 10 transferência, 6 reteste), 36 IDs exclusivos, 36 resoluções comentadas, nenhuma tentativa criada.
+Cálculos auditados por assert: dois modelos, MAE, RMSE, R² negativo, ponderação, variação temporal, segmentação e reteste.
+Visuais: sete SVGs originais com role/title/desc, legenda e texto alternativo, convertidos para prévia PNG.
+Fontes: páginas institucionais verificadas na web em 28/09/2026; reprodução integral do vídeo não testada.
+Pendente: reprodução integral do vídeo, teste com Ler em voz alta do Microsoft Edge, testes de integração e publicação.
+Progresso: MAT-EST-018, MAT-PRO-039 e MAT-PRO-054 preservados como avaliações sem tentativa registrada; não foram criadas notas nem consolidações.
+Pacote ZIP e hashes: verificação local na criação.

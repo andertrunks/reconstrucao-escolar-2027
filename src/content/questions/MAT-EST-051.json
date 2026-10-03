@@ -1,0 +1,868 @@
+[
+  {
+    "id": "MAT-EST-051-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Quais períodos continuam sem observado?",
+    "statement": "Indique os três períodos seguintes a t22 que permanecem sem valor observado no pacote.",
+    "answer": "t23, t24 e t25.",
+    "resolution": "Há cinco pares t18–t22, e os três alvos restantes do protocolo não foram revelados. Não completar a série com cenários.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Hipótese ou observação?",
+    "statement": "Classifique a afirmação “Se t23 fosse 191” como observação, cenário ou regra de decisão.",
+    "answer": "Cenário hipotético.",
+    "resolution": "O verbo condicional “fosse” indica alternativa fictícia; 191 não entra no CSV de observados.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Duas origens e alvos",
+    "statement": "Na avaliação de horizonte um, qual é a origem da tarefa com alvo t24? E qual é a origem da tarefa com alvo t25?",
+    "answer": "t23 e t24, respectivamente.",
+    "resolution": "Horizonte um significa alvo imediatamente seguinte à origem, mas a emissão efetiva depende de uma observação prévia válida.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Leitura do erro",
+    "statement": "Uma previsão hipotética é 140 e o observado posterior validado é 147. Calcule o erro assinado na convenção da aula.",
+    "answer": "+7 unidades.",
+    "resolution": "Observado menos previsto: 147 − 140 = 7; o sinal positivo indica subprevisão.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Média absoluta",
+    "statement": "Em dois erros hipotéticos +4 e −6, encontre o MAE.",
+    "answer": "5 unidades.",
+    "resolution": "Módulos 4 e 6; soma 10; dividir por dois resulta 5. Sinais não se cancelam no MAE.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Custo congelado positivo",
+    "statement": "Aplique C(e)=3 max(e,0)+max(−e,0) a e=+4.",
+    "answer": "12 pontos fictícios.",
+    "resolution": "Para erro positivo, custo = 3 × 4 = 12. Peso três é parte do protocolo herdado.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Custo congelado negativo",
+    "statement": "Aplique a mesma regra a e=−4.",
+    "answer": "4 pontos fictícios.",
+    "resolution": "A parte positiva é zero e a magnitude da parte negativa é quatro.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Oito ou cinco?",
+    "statement": "Por que não se deve dividir uma soma de erros já observados por oito se existem somente cinco pares completos?",
+    "answer": "Porque os três futuros não são erros zero nem pares completos.",
+    "resolution": "O denominador de média por pares elegíveis deve ser cinco, com oito declarado separadamente como planejado.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Fonte sazonal B23",
+    "statement": "Com y19=183 e período sazonal quatro, calcule B23 usando apenas dados até t22.",
+    "answer": "183 unidades, recálculo ilustrativo.",
+    "resolution": "A regra B usa y_(23−4) = y19 = 183; não transformá-lo em registro autenticado de emissão.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Previsão C23",
+    "statement": "A média das diferenças sazonais d18 a d22 é 16. Se B23=183, calcule C23.",
+    "answer": "199 unidades, recálculo ilustrativo.",
+    "resolution": "Somar 183 + 16 = 199, mantendo o status didático e sem acessar o verdadeiro y23.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Derivar diferenças",
+    "statement": "Se y19=183, y20=181, y21=188 e y22=193, calcule d22 usando a sazonalidade de quatro períodos e y18=176.",
+    "answer": "d22=17.",
+    "resolution": "Diferença sazonal d22 é y22 menos y18: 193 − 176 = 17 unidades.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Janela C24",
+    "statement": "Na origem t23, suponha que uma futura observação válida seja representada por x=y23. As quatro diferenças anteriores da janela somam 55. Qual é a soma das cinco diferenças?",
+    "answer": "x−128.",
+    "resolution": "d23=x−y19=x−183. Soma 55+(x−183)=x−128. Não dar valor numérico a x.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Expressão para C24",
+    "statement": "A referência B24 é 181 e a soma da janela é x−128. Escreva a previsão C24 para horizonte um.",
+    "answer": "181+(x−128)/5.",
+    "resolution": "C soma à referência a média de cinco diferenças. A fórmula só será numericamente utilizável quando x tiver origem válida.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "C24 num cenário",
+    "statement": "Exclusivamente como cálculo condicional, use x=191 na fórmula de C24. Qual resultado?",
+    "answer": "193,6 unidades hipotéticas.",
+    "resolution": "(191−128)/5=63/5=12,6; 181+12,6=193,6. Não adicionar y23=191 aos observados.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "C25 simbólico",
+    "statement": "Com x=y23 e z=y24 ainda desconhecidos, escreva a fórmula da previsão de C para t25.",
+    "answer": "188+(x+z−305)/5.",
+    "resolution": "B25=y21=188; d20+d21+d22=59, d23=x−183, d24=z−181. Total x+z−305; dividir por cinco.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Quantos pares faltam?",
+    "statement": "O protocolo pede oito pares e cinco existem na série editorial. Quantos ainda faltam?",
+    "answer": "3 pares.",
+    "resolution": "8−5=3, correspondentes aos alvos t23, t24 e t25. Não são emissores ou observações reais deste pacote.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Limite de redução MAE",
+    "statement": "Se no fechamento hipotético de oito pares o MAE de B fosse 20, qual o maior MAE de C compatível com redução mínima de vinte por cento?",
+    "answer": "16 unidades.",
+    "resolution": "Vinte por cento de 20 é quatro; 20−4=16, equivalente a 0,8×20.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Piora local herdada",
+    "statement": "Em t19, os módulos são quatro para B e 23,2 para C. Calcule a deterioração local e compare ao limite dez.",
+    "answer": "19,2 unidades; falha.",
+    "resolution": "23,2−4=19,2, maior que dez. O registro da falha não se anula com novos pares ou médias melhores.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Fluxo de dado atrasado",
+    "statement": "Há dois alvos novos com previsões anteriores válidas, mas só um deles recebeu observado conferido. Quantos novos pares elegíveis existem?",
+    "answer": "1 novo par.",
+    "resolution": "A outra emissão não é erro zero; a observação faltante permanece pendente e ambas as contagens devem aparecer no relatório.",
+    "errorReasons": [
+      "estratégia\n\ninterpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Correção rastreável",
+    "statement": "Explique como registrar uma observação posteriormente retificada sem modificar a previsão antiga.",
+    "answer": "Adicionar evento de correção ligado ao original; preservar ambas as versões e reavaliar o par com proveniência.",
+    "resolution": "Uma retificação muda a versão do observado para cálculos explicitamente auditados, não o instante ou o valor emitido antes.",
+    "errorReasons": [
+      "estratégia\n\ninterpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Gráfico com faixas vazias",
+    "statement": "Um gráfico mostra t18–t22 como histórico fictício e t23–t25 como campos vazios. Um colega chama os três campos vazios de demanda nula. Avalie a conclusão.",
+    "answer": "Incorreta: ausência de observado não é valor zero.",
+    "resolution": "No gráfico, branco significa não revelado, e não número medido. Classificar o estado informacional é anterior ao cálculo.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Uma linha, duas previsões",
+    "statement": "Uma tabela apresenta duas previsões de modelos diferentes para o mesmo t23. Isso equivale a quantos alvos observados?",
+    "answer": "No máximo um alvo, e neste pacote zero observados em t23.",
+    "resolution": "Comparação emparelhada é uma tarefa alvo-modelos; duplicar modelos não cria duas realizações independentes.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Protocolo com portas cumulativas",
+    "statement": "Um candidato tem médias melhores que B e completa oito pares, mas registrou piora local de 19,2 onde o limite era dez. É autorizada sua promoção por MAT-EST-049-PROT-v1?",
+    "answer": "Não. A condição local falhou.",
+    "resolution": "As portas são cumulativas; completar o número e superar médias não desfaz o alvo t19.",
+    "errorReasons": [
+      "estratégia\n\ninterpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Proveniência de um número",
+    "statement": "Um aluno calcula C23=199 depois de ler todo o histórico t01–t22, mas insere “emitido em t22” sem log contemporâneo. Identifique a impropriedade.",
+    "answer": "Confusão entre recálculo didático e emissão autenticada.",
+    "resolution": "Conhecer apenas valores até t22 torna a fórmula retrospectivamente reproduzível, mas não prova data e autenticidade da emissão original.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Vazamento de dados",
+    "statement": "Para comparar B24 e C24, alguém escolhe x=y23 com base em um valor que ainda não estava disponível na suposta origem t23. Qual condição deve ser comprovada?",
+    "answer": "Que y23 estava disponível, verificado e registrado antes da emissão para t24.",
+    "resolution": "A sequência informacional, não apenas a ordem dos índices, é a exigência; atraso de publicação pode impedir o uso na origem nominal.",
+    "errorReasons": [
+      "estratégia\n\ninterpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Percentual com base nula",
+    "statement": "Um relatório tenta calcular G=1−MAE_C/MAE_B quando MAE_B=0. Qual problema matemático existe?",
+    "answer": "Divisão por zero; a redução relativa está indefinida.",
+    "resolution": "É necessário reportar os erros absolutos e a convenção previamente prevista; não inventar percentual infinito ou cem por cento.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Retificação sem reemissão",
+    "statement": "Um observado t23 inicialmente inválido é corrigido após a emissão, e um analista recalcula a previsão original usando o novo y23. O que deve ser preservado?",
+    "answer": "O valor original da previsão e a trilha da correção do observado; não refazer o passado.",
+    "resolution": "Recalcular avaliação com a versão corrigida é distinto de adulterar uma previsão já emitida.",
+    "errorReasons": [
+      "estratégia\n\ninterpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Probabilidades sem distribuição",
+    "statement": "Três cenários para t23 são 178, 191 e 209. Um relatório anuncia “33,3% de chance para cada”. A alegação é sustentada?",
+    "answer": "Não. Cenários alternativos não fornecem distribuição probabilística.",
+    "resolution": "Nenhum peso foi definido ou estimado; repartir 100% por três é uma escolha nova e injustificada.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Escolha pós-resultado de métrica",
+    "statement": "Depois de ver os alvos, um analista muda o peso de subprevisão de três para 0,25 e anuncia aprovação pelo protocolo anterior. Avalie.",
+    "answer": "Incorreto; trata-se de exploração ou novo protocolo, não da execução de MAT-EST-049-PROT-v1.",
+    "resolution": "O peso três foi congelado. Mudar parâmetros depois de ver dados deve ser rotulado e não apagar a falha local.",
+    "errorReasons": [
+      "estratégia\n\ninterpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Relatório sem denominador",
+    "statement": "Uma notícia diz “o candidato errou em média 8,36” sem mencionar universo, status dos dados ou horizonte. Reescreva com precisão.",
+    "answer": "Exemplo: Nos cinco pares fictícios t18–t22 de horizonte um, o MAE do candidato C foi 8,36 unidades; há três alvos ainda sem observado e a guarda local falhou em t19.",
+    "resolution": "A redação completa apresenta variável, período, unidade, caráter fictício, N e ressalva relevante.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Planilha de controle",
+    "statement": "Uma avaliação prevê seis pares; quatro possuem os dois registros anteriores e observado válido. Qual N entra na média e qual número é listado como pendente?",
+    "answer": "N=4; 2 pares pendentes.",
+    "resolution": "Planejado e elegível são contagens distintas; não imputar zeros aos dois alvos pendentes.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Nova janela simbólica",
+    "statement": "Considere um modelo que soma à referência a média de três diferenças 2, 5 e x−10. Qual é o ajuste simbólico?",
+    "answer": "(x−3)/3.",
+    "resolution": "2+5+x−10=x−3; dividir por três. Não atribuir número a x se ele depende de observado futuro.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Conferência de ordem",
+    "statement": "Uma previsão para período q foi salva após a observação de q, embora só tenha usado números anteriores a q. Como classificá-la para teste prospectivo?",
+    "answer": "Não comprova emissão prospectiva; deve ser tratada como recálculo retrospectivo ou invalidada segundo protocolo.",
+    "resolution": "A relação temporal comprovada entre registro de previsão e observação é requisito adicional à fórmula.",
+    "errorReasons": [
+      "estratégia\n\ninterpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Guarda irreversível",
+    "statement": "Um protocolo de dez períodos limita a piora individual a seis. No terceiro período, a piora foi sete. Os próximos sete períodos reduzem o MAE médio. A guarda do protocolo original passa?",
+    "answer": "Não, o terceiro período já violou o limite seis.",
+    "resolution": "A condição “nenhum alvo” é universal para o conjunto; ganhos posteriores não mudam o caso observado.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Comparação de custo",
+    "statement": "Sob C(e)=2 max(e,0)+max(−e,0), calcule custos para erros +5 e −5 e explique a assimetria.",
+    "answer": "10 e 5 pontos, respectivamente.",
+    "resolution": "O primeiro custa duas vezes a magnitude positiva e o segundo custa uma vez a negativa; custo não é o módulo puro.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-051-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-051"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Mini parecer",
+    "statement": "Redija três frases que diferenciem plano, observação e decisão quando ainda faltam resultados futuros.",
+    "answer": "Resposta-modelo: O plano documenta antecipadamente origem, alvo, versões e métricas. Os alvos ainda não validados permanecem pendentes e não são substituídos por cenários. A decisão aplica todas as portas herdadas e registra limites, inclusive qualquer falha histórica.",
+    "resolution": "O texto identifica três classes de evidência sem atribuir sucesso a evento não realizado.",
+    "errorReasons": [
+      "estratégia\n\ninterpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-051-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  }
+]

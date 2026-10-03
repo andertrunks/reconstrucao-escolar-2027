@@ -1,0 +1,93 @@
+﻿MAT-EST-006 — MANIFESTO DA RECONSTRUÇÃO EDITORIAL v1
+
+
+Natureza
+
+
+Esta é uma reconstrução editorial explícita. O código e o título históricos foram preservados, mas esta versão não afirma identidade textual, visual ou binária com o material anterior perdido.
+
+
+Escopo
+
+
+Pré-requisitos: MAT-EST-001 a MAT-EST-005.
+Próximo tópico: MAT-EST-007 — Medidas de dispersão I: amplitude, desvios e desvio médio.
+
+
+Conteúdo
+
+
+Aula aprofundada desde os fundamentos, incluindo:
+mediana como posição central;
+necessidade de ordenação;
+casos com n ímpar e par;
+diferença entre posição e valor mediano;
+mediana por frequência acumulada;
+classe mediana;
+ponte universitária para interpolação em dados agrupados;
+moda em dados quantitativos e qualitativos;
+amodalidade, unimodalidade, bimodalidade e multimodalidade;
+classe modal;
+comparação entre média, mediana e moda;
+efeito de extremos;
+dados ordinais e nominais;
+assimetria;
+mediana como percentil 50;
+mediana ponderada como ponte;
+propriedade de minimização de desvios absolutos;
+aplicações e limites.
+
+
+Avaliação
+
+
+36 questões autorais:
+10 APR;
+10 CON;
+10 VES;
+6 RET.
+
+
+Gabarito em documento separado, com raciocínio e motivo provável de erro.
+
+
+Visuais
+
+
+Seis visuais autorais:
+1. mediana com n ímpar;
+2. mediana com n par;
+3. moda e frequência;
+4. efeito de extremo sobre média e mediana;
+5. padrão comum de assimetria à direita;
+6. mediana por frequência acumulada.
+
+
+Cada visual possui título, descrição textual, observação e conclusão em áudio. A informação essencial também está escrita na aula.
+
+
+Fontes institucionais
+
+
+BNCC/MEC — EF08MA25.
+Inep — Matrizes de Referência do Enem, publicação institucional de 2026.
+FUVEST — Programa do Vestibular 2027, com medidas de tendência central e medidas de posição.
+
+
+Vídeo
+
+
+“Libras e LSE | MODA, MÉDIA E MEDIANA ✅ ESTATÍSTICA”, canal Prof. MURAKAMI - MATEMÁTICA RAPIDOLA.
+
+
+A página pública e descrição foram localizadas. QA audiovisual integral, duração efetiva, áudio e sincronização de legendas permanecem pendentes.
+
+
+Estado
+
+
+Publicação no site: não realizada.
+QA Microsoft Edge/Ler em voz alta: pendente.
+Integração ao modelo estruturado do repositório: pendente.
+Progresso do aluno: não alterado.
+MAT-EST-068: não iniciada.

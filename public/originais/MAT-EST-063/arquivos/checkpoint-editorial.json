@@ -1,0 +1,38 @@
+{
+  "projeto": "Reconstrução Escolar + ENEM e Vestibulares 2027",
+  "ultimo_pacote_editorial_concluido": "MAT-EST-063",
+  "ultimo_confirmado_antes": "MAT-EST-062",
+  "titulo_ultimo": "Gestão de incidentes editoriais: classificação de falhas, comunicação de impacto e reteste de correções",
+  "etapa_atual": "concluído editorialmente apenas em arquivos locais",
+  "proximo_topico_editorial": "MAT-EST-064",
+  "titulo_proximo_proposto": "Análise pós-incidente e prevenção editorial: causas sistêmicas, ações verificáveis e revisão de controles",
+  "proximo_estado": "não iniciado",
+  "progresso_individual": "não iniciado, sem estudo nem tentativas; inalterado",
+  "serie": "t01–t22 históricos fictícios; t23–t25 sem observações/emissões autenticadas; t26–t33 somente alvos propostos com zero pares",
+  "historico": "MAT-EST-049-PROT-v1: cinco pares; MAE B=17,60 e C=8,36; custos B=51,20 e C=14,92; piora local t19 de 19,2 > guarda dez; C não promovido",
+  "sandbox": "SANDBOX-057 isolado: dois de oito pares, MAE B=3 e C=4, custos médios sete pontos; seis pendências",
+  "controle": "G1/G2 checked_local; G3–G6 pending; G7/G8 not_performed. P01–P10 não executados.",
+  "novidades": [
+    "aula MAT-EST-063",
+    "seis figuras SVG",
+    "36 questões autorais, gabarito separado",
+    "I00 baseline e seis mutações artificiais I01–I06 isoladas",
+    "reteste local apenas da cópia I01; não altera baseline",
+    "registro sintético de classificação, contenção, comunicação e verificação"
+  ],
+  "anexo_anterior": "historico/MAT-EST-062-pacote-integracao.zip íntegro e byte a byte idêntico ao pacote fonte",
+  "sha256_pacote_anterior": "13b359cc934d4eac10b4af61f4e0561f47416265098e8fa603ac9212dac688d9",
+  "arquivos_invariantes_herdados_sha256": 23,
+  "nao_alegar": [
+    "incidente real no site",
+    "pessoas afetadas estimadas",
+    "publicação/sincronização Drive ou GitHub",
+    "aprovação humana ou G3–G8 executados",
+    "deploy ou rollback externo",
+    "teste manual Edge/leitor de tela",
+    "reprodução integral do vídeo",
+    "novas observações temporais",
+    "progresso individual estudado"
+  ],
+  "material_integracao": "MAT-EST-063-pacote-integracao.zip"
+}

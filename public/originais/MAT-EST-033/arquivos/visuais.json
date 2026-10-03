@@ -1,0 +1,72 @@
+[
+  {
+    "id": "MAT-EST-033-VIS-01",
+    "arquivo": "assets/01-observados-previstos-erros.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Cenário fictício: valores e erros A/B",
+    "alt": "Tabela com observados 80,100,120,100; A 85,95,115,105 e erros −5,+5,+5,−5; B 80,100,120,120 e erros zero,zero,zero,−20.",
+    "oQueObservar": "Compare a última previsão da versão B e os quatro erros da A.",
+    "conclusaoTextual": "Ambos possuem MAE de cinco, mas a distribuição e o sinal dos erros diferem."
+  },
+  {
+    "id": "MAT-EST-033-VIS-02",
+    "arquivo": "assets/02-metricas-na-mesma-base.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Métricas A/B calculadas na mesma base",
+    "alt": "Gráfico de barras com MAE A e B de cinco, RMSE A de cinco e RMSE B de dez atendimentos; eixos identificados.",
+    "oQueObservar": "Observe que as barras dos MAE empataram, mas o RMSE de B dobrou.",
+    "conclusaoTextual": "Uma métrica média não basta para resumir a distribuição dos erros."
+  },
+  {
+    "id": "MAT-EST-033-VIS-03",
+    "arquivo": "assets/03-custos-assimetricos.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Perda de decisão: modelo A custa 40 e B custa 20",
+    "alt": "Dois quadros com A: dez faltas, dez excedentes, custo quarenta; B: nenhuma falta, vinte excedentes, custo vinte.",
+    "oQueObservar": "Compare métricas matemáticas e consequências da decisão, sem supor que toda perda é simétrica.",
+    "conclusaoTextual": "Sob custos declarados, B é menos oneroso apesar do RMSE maior; isso não é conclusão universal."
+  },
+  {
+    "id": "MAT-EST-033-VIS-04",
+    "arquivo": "assets/04-intervalos-cobertura.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Intervalos preditivos e cobertura ilustrativa",
+    "alt": "Quatro faixas preditivas e quatro valores realizados. Os três primeiros pontos estão nas faixas e o quarto valor realizado 100 fica fora da faixa de 105 a 115.",
+    "oQueObservar": "Observe que o quarto ponto aparece antes do intervalo correspondente.",
+    "conclusaoTextual": "Cobertura observada de 75% em quatro exemplos não comprova cobertura populacional nem calibração."
+  },
+  {
+    "id": "MAT-EST-033-VIS-05",
+    "arquivo": "assets/05-agregacao-subgrupos.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Média global encobre MAE de grupo pequeno",
+    "alt": "Barras X com noventa registros e MAE dois, Y com dez registros e MAE oito e global ponderado de 2,6 atendimentos.",
+    "oQueObservar": "Compare o valor global com o valor de Y, observando tamanhos amostrais.",
+    "conclusaoTextual": "Uma média global não substitui relatórios segmentados nem comunica sua incerteza."
+  },
+  {
+    "id": "MAT-EST-033-VIS-06",
+    "arquivo": "assets/06-cenarios-sensibilidade.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Três cenários de custo mudam a comparação A/B",
+    "alt": "Cenário I com falta três e excedente um gera A 40 B 20; cenário II ambos um gera empate 20; cenário III falta um excedente três gera A 40 B 60.",
+    "oQueObservar": "Observe como alterar a função de perda muda a comparação.",
+    "conclusaoTextual": "Métrica de ajuste e custo decisório respondem a perguntas distintas; documentar premissas."
+  },
+  {
+    "id": "MAT-EST-033-VIS-07",
+    "arquivo": "assets/07-protocolo-reprodutivel.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Fluxo de decisão auditável em seis passos",
+    "alt": "Etapas: definir alvo e custos; validar sem vazamento; examinar métricas e incerteza; segmentar; decidir com supervisão; registrar versão e limites.",
+    "oQueObservar": "Localize a preservação do teste e o registro do cenário escolhido.",
+    "conclusaoTextual": "A decisão precisa de evidência, função de perda explícita e documentação que permita revisão futura."
+  }
+]

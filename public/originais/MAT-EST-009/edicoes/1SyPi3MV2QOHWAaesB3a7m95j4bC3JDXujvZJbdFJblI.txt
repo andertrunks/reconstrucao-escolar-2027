@@ -1,0 +1,918 @@
+﻿MAT-EST-009 — Coeficiente de variação
+
+
+Status editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.
+Matéria: Matemática.
+Unidade: Estatística.
+Nível principal: 3 — final do Ensino Fundamental / início do Ensino Médio, com progressão para vestibulares e ponte universitária.
+Pré-requisitos: MAT-EST-005 — média aritmética; MAT-EST-007 — amplitude, desvios e desvio médio; MAT-EST-008 — variância e desvio-padrão.
+Próximo tópico: MAT-EST-010 — Quartis, decis e percentis.
+Questões desta reconstrução: 100% autorais.
+
+
+1. Objetivo
+
+
+Ao concluir esta aula, o estudante deverá ser capaz de:
+
+
+• explicar por que o desvio-padrão absoluto nem sempre basta para comparar variabilidade;
+• compreender o coeficiente de variação como uma medida relativa de dispersão;
+• calcular CV a partir de média e desvio-padrão;
+• interpretar o resultado em porcentagem;
+• comparar conjuntos em escalas ou ordens de grandeza diferentes, quando isso for conceitualmente válido;
+• reconhecer quando o coeficiente de variação NÃO deve ser usado;
+• explicar o problema de média próxima de zero;
+• compreender por que escalas com zero arbitrário, como graus Celsius, podem tornar a comparação por CV inadequada;
+• distinguir “maior desvio-padrão” de “maior variabilidade relativa”;
+• reconhecer que regras fixas como “CV abaixo de 10% é baixo” dependem de área e contexto;
+• relacionar CV com média, desvio-padrão e transformação de escala;
+• interpretar situações de ENEM, FUVEST e outros vestibulares sem uso mecânico de fórmula.
+
+
+2. O problema que leva ao coeficiente de variação
+
+
+Considere dois conjuntos.
+
+
+A:
+média = 10;
+desvio-padrão = 2.
+
+
+B:
+média = 1000;
+desvio-padrão = 20.
+
+
+O conjunto B tem desvio-padrão maior: 20 contra 2.
+
+
+Mas isso significa que B é “mais variável” em termos relativos?
+
+
+Compare o desvio com a média.
+
+
+A:
+2 é 20% de 10.
+
+
+B:
+20 é 2% de 1000.
+
+
+Portanto, em relação ao nível médio, A varia proporcionalmente muito mais.
+
+
+É exatamente essa comparação relativa que o coeficiente de variação tenta resumir.
+
+
+3. Definição
+
+
+O coeficiente de variação, abreviado CV, é a razão entre o desvio-padrão e a média, normalmente expressa em porcentagem.
+
+
+Forma populacional:
+
+
+CV = σ / μ × 100%.
+
+
+Leitura:
+“coeficiente de variação é igual ao desvio-padrão populacional dividido pela média populacional, vezes cem por cento”.
+
+
+Forma amostral:
+
+
+CV = s / x̄ × 100%.
+
+
+Leitura:
+“coeficiente de variação amostral é igual ao desvio-padrão amostral dividido pela média amostral, vezes cem por cento”.
+
+
+4. O que significa o resultado?
+
+
+Se:
+
+
+média = 50;
+desvio-padrão = 5.
+
+
+Então:
+
+
+CV = 5/50 × 100% = 10%.
+
+
+Uma interpretação cuidadosa é:
+
+
+“o desvio-padrão corresponde a 10% da média”.
+
+
+Isso não significa que “10% dos dados estão errados” nem que “10% dos valores estão fora de uma faixa”.
+
+
+O CV é uma razão de escalas, não uma taxa de acerto.
+
+
+5. Exemplo básico
+
+
+Conjunto A:
+
+
+média 20;
+desvio-padrão 4.
+
+
+CV = 4/20 × 100% = 20%.
+
+
+Conjunto B:
+
+
+média 80;
+desvio-padrão 8.
+
+
+CV = 8/80 × 100% = 10%.
+
+
+B tem desvio-padrão absoluto maior, mas variabilidade relativa menor.
+
+
+6. Por que o CV é adimensional?
+
+
+Desvio-padrão e média têm a mesma unidade.
+
+
+Se ambos estão em centímetros:
+
+
+centímetros / centímetros = 1.
+
+
+As unidades se cancelam.
+
+
+Por isso, o CV é adimensional e costuma ser apresentado em porcentagem.
+
+
+7. Essa ausência de unidade é útil
+
+
+Ela permite, em certas situações, comparar variabilidade relativa de grandezas em escalas diferentes.
+
+
+Exemplo:
+
+
+Comprimento médio A = 10 cm, DP = 1 cm → CV = 10%.
+Comprimento médio B = 2 m, DP = 0,1 m → CV = 5%.
+
+
+Como a razão é adimensional, a comparação relativa continua fazendo sentido.
+
+
+8. Mas “sem unidade” não significa “serve para tudo”
+
+
+O fato de o CV não ter unidade não elimina exigências conceituais.
+
+
+A média precisa ser uma referência proporcional significativa.
+
+
+O zero da escala precisa ter significado físico ou estrutural adequado.
+
+
+A média não deve estar próxima de zero.
+
+
+Valores negativos podem tornar a interpretação problemática.
+
+
+9. Escala de razão
+
+
+O CV funciona melhor em variáveis de escala de razão, isto é, escalas com zero significativo.
+
+
+Exemplos:
+
+
+massa;
+altura;
+tempo de duração;
+distância;
+renda não negativa;
+contagem;
+concentração não negativa.
+
+
+Zero quilograma representa ausência de massa na escala idealizada; zero metro representa ausência de comprimento.
+
+
+10. O problema das escalas com zero arbitrário
+
+
+Temperatura em graus Celsius é uma escala em que zero não representa ausência de energia térmica.
+
+
+Considere:
+
+
+Cidade A: média 10 °C, DP 2 °C → CV = 20%.
+Cidade B: média 20 °C, DP 2 °C → CV = 10%.
+
+
+Se convertermos para Kelvin:
+
+
+10 °C = 283,15 K.
+20 °C = 293,15 K.
+
+
+Os desvios-padrão de 2 °C correspondem a 2 K.
+
+
+Agora:
+
+
+A: 2/283,15 ≈ 0,71%.
+B: 2/293,15 ≈ 0,68%.
+
+
+A conclusão numérica do CV muda radicalmente apenas pela mudança de origem da escala.
+
+
+Isso mostra que o CV não é adequado para escalas de intervalo com zero arbitrário.
+
+
+11. Média próxima de zero
+
+
+Suponha:
+
+
+média = 0,5;
+DP = 2.
+
+
+CV = 2/0,5 × 100% = 400%.
+
+
+Agora média = 0,1 e DP continua 2:
+
+
+CV = 2000%.
+
+
+O desvio-padrão quase não mudou, mas o denominador ficou muito pequeno.
+
+
+Quando a média se aproxima de zero, o CV pode explodir e se tornar instável ou pouco informativo.
+
+
+12. Média igual a zero
+
+
+Se a média é zero:
+
+
+CV = DP/0.
+
+
+Divisão por zero não é definida.
+
+
+Portanto, CV não é calculável da forma usual.
+
+
+Não se deve escrever “CV = infinito” como se isso fosse uma medida estatística regular sem explicar a singularidade.
+
+
+13. Médias negativas
+
+
+Se a média for negativa e usarmos literalmente:
+
+
+CV = s/x̄,
+
+
+o CV será negativo.
+
+
+Mas dispersão não é uma grandeza “negativa” nesse sentido.
+
+
+Alguns contextos usam |x̄| no denominador, mas isso precisa ser explicitado e justificado.
+
+
+Regra de segurança desta aula:
+
+
+não use CV mecanicamente quando a média é zero, próxima de zero ou negativa.
+
+
+14. CV não mede erro
+
+
+Um CV de 12% não significa:
+
+
+12% de erro;
+12% de dados incorretos;
+12% de incerteza;
+12% de observações fora da média.
+
+
+Ele mede desvio-padrão relativo à média.
+
+
+15. CV não substitui o desvio-padrão
+
+
+DP e CV respondem perguntas diferentes.
+
+
+DP:
+qual é a escala absoluta da dispersão?
+
+
+CV:
+qual é a dispersão em relação ao nível médio?
+
+
+Uma análise completa pode mostrar os dois.
+
+
+16. Exemplo — produção industrial
+
+
+Máquina A:
+
+
+média de peças por hora = 100;
+DP = 5.
+
+
+CV = 5%.
+
+
+Máquina B:
+
+
+média = 20;
+DP = 2.
+
+
+CV = 10%.
+
+
+A máquina A tem maior DP absoluto, 5 contra 2, mas menor variabilidade relativa.
+
+
+17. Exemplo — massa
+
+
+Lote A:
+
+
+média 500 g;
+DP 10 g.
+
+
+CV = 2%.
+
+
+Lote B:
+
+
+média 50 g;
+DP 3 g.
+
+
+CV = 6%.
+
+
+O lote B é relativamente mais variável.
+
+
+18. Exemplo — mesma média
+
+
+Se dois grupos têm a mesma média positiva, comparar CV é equivalente a comparar DP.
+
+
+Exemplo:
+
+
+A média = 100, DP = 4 → CV = 4%.
+B média = 100, DP = 9 → CV = 9%.
+
+
+Com denominador igual, maior DP implica maior CV.
+
+
+19. Exemplo — mesmo DP
+
+
+Se dois grupos têm o mesmo DP, o grupo com menor média positiva terá maior CV.
+
+
+A: média 20, DP 2 → CV 10%.
+B: média 100, DP 2 → CV 2%.
+
+
+20. Efeito de multiplicar todos os valores
+
+
+Se todos os valores são multiplicados por uma constante positiva k:
+
+
+nova média = k x̄;
+novo DP = k s.
+
+
+Então:
+
+
+novo CV = ks/(k x̄) = s/x̄.
+
+
+Portanto, o CV não muda.
+
+
+21. Exemplo de conversão de unidade
+
+
+Comprimentos em metros:
+
+
+média 2 m;
+DP 0,1 m.
+
+
+CV = 5%.
+
+
+Convertendo para centímetros:
+
+
+média 200 cm;
+DP 10 cm.
+
+
+CV = 10/200 = 5%.
+
+
+O CV permanece igual porque a mudança de unidade é multiplicativa.
+
+
+22. Efeito de somar constante
+
+
+Se somamos uma constante b a todos os valores:
+
+
+o DP não muda;
+a média muda.
+
+
+Logo, o CV muda.
+
+
+Isso é outra forma de perceber por que escalas com origem arbitrária causam problema.
+
+
+23. Relação com transformação linear
+
+
+Se y = a x + b:
+
+
+DP_y = |a| DP_x.
+
+
+Média_y = a média_x + b.
+
+
+Se b = 0 e a > 0, o CV é preservado.
+
+
+Se b ≠ 0, geralmente não é.
+
+
+24. CV e homogeneidade
+
+
+Alguns materiais usam termos como:
+
+
+“CV baixo = conjunto homogêneo”;
+“CV alto = conjunto heterogêneo”.
+
+
+Essa linguagem pode ser útil em um domínio específico, mas não existe um corte universal válido para toda área.
+
+
+25. Cuidado com faixas prontas
+
+
+Regras como:
+
+
+CV < 10%: baixo;
+10% a 20%: médio;
+CV > 20%: alto
+
+
+podem aparecer em materiais didáticos ou áreas específicas.
+
+
+Mas esses limites não são universais.
+
+
+Um CV de 15% pode ser excelente em um processo e inaceitável em outro.
+
+
+Sempre procure referência do contexto.
+
+
+26. Coeficiente de variação em experimentos
+
+
+Em experimentos, o CV pode ser usado como indicador relativo de variabilidade.
+
+
+Mas a interpretação depende de:
+
+
+• tipo de medida;
+• desenho experimental;
+• escala;
+• média;
+• precisão esperada;
+• área científica.
+
+
+27. CV e comparação entre grupos
+
+
+Para comparar dois grupos, verifique:
+
+
+1. a média é positiva e suficientemente distante de zero?
+2. o zero da escala é significativo?
+3. as grandezas são comparáveis?
+4. os dados representam processos similares?
+5. os desvios-padrão foram calculados de forma compatível?
+
+
+28. População e amostra
+
+
+Se temos toda a população, podemos usar σ e μ.
+
+
+Se temos amostra, usamos s e x̄.
+
+
+O conceito do CV é o mesmo, mas a natureza da estimativa é diferente.
+
+
+29. CV amostral é uma estatística
+
+
+CV amostral resume a amostra.
+
+
+Usá-lo para falar da população exige inferência e incerteza.
+
+
+Uma única amostra não transforma automaticamente o CV em propriedade conhecida da população.
+
+
+30. Exemplo com tabela de frequência
+
+
+Valores:
+10 com f=2;
+12 com f=3;
+14 com f=1.
+
+
+Primeiro calculamos média e DP usando as frequências.
+
+
+Depois:
+
+
+CV = DP/média × 100%.
+
+
+O CV depende de uma média e de um DP calculados coerentemente a partir do mesmo conjunto.
+
+
+31. Erro comum — misturar média e DP de grupos diferentes
+
+
+Não é válido usar:
+
+
+DP do grupo A / média do grupo B.
+
+
+Numerador e denominador precisam se referir ao mesmo conjunto ou processo definido.
+
+
+32. Erro comum — esquecer o percentual
+
+
+Se s/x̄ = 0,08:
+
+
+em forma decimal, 0,08;
+em porcentagem, 8%.
+
+
+Não escreva 0,08% sem multiplicar por 100.
+
+
+33. Erro comum — multiplicar duas vezes por 100
+
+
+Se 0,08 já virou 8%, não multiplique novamente.
+
+
+34. Erro comum — usar variância no lugar do DP
+
+
+A fórmula usa desvio-padrão, não variância.
+
+
+Variância tem unidade ao quadrado; a razão variância/média não produz o CV usual.
+
+
+35. Erro comum — média próxima de zero
+
+
+Um CV gigantesco pode ser apenas consequência de denominador muito pequeno.
+
+
+Antes de interpretar, examine a média.
+
+
+36. Erro comum — Celsius
+
+
+CV de temperatura em Celsius não é estável sob mudança para Kelvin. Isso revela que a medida não é apropriada para essa escala.
+
+
+37. Exemplo integrado 1
+
+
+A:
+média 40;
+DP 8.
+
+
+CV = 20%.
+
+
+B:
+média 100;
+DP 15.
+
+
+CV = 15%.
+
+
+B tem DP maior, mas CV menor.
+
+
+38. Exemplo integrado 2
+
+
+A:
+média 250;
+DP 5.
+
+
+CV = 2%.
+
+
+B:
+média 50;
+DP 4.
+
+
+CV = 8%.
+
+
+A é mais estável relativamente ao seu nível médio.
+
+
+39. Exemplo integrado 3 — unidade
+
+
+Média 1,5 m; DP 0,03 m.
+
+
+CV = 2%.
+
+
+Em centímetros:
+
+
+média 150 cm;
+DP 3 cm.
+
+
+CV continua 2%.
+
+
+40. Exemplo integrado 4 — soma de constante
+
+
+Dados têm média 10 e DP 2.
+
+
+CV = 20%.
+
+
+Somamos 100 a todos.
+
+
+Nova média = 110.
+DP permanece 2.
+
+
+Novo CV ≈ 1,82%.
+
+
+A dispersão absoluta não mudou, mas a razão relativa mudou. Por isso, adicionar constante altera o CV.
+
+
+41. Exemplo integrado 5 — média pequena
+
+
+Média 0,2 e DP 0,5:
+
+
+CV = 250%.
+
+
+O valor é matematicamente calculável, mas exige extrema cautela interpretativa porque a média está perto de zero.
+
+
+42. Relação com a FUVEST
+
+
+O Programa FUVEST 2027 inclui explicitamente coeficiente de variação entre as medidas de dispersão, junto com amplitude, desvio-médio, variância e desvio-padrão.
+
+
+Isso significa que o candidato deve não apenas calcular, mas interpretar a medida dentro de problemas.
+
+
+43. Relação com BNCC
+
+
+A BNCC do Ensino Fundamental trabalha medidas de tendência central e dispersão, com destaque explícito para amplitude em EF08MA25.
+
+
+O coeficiente de variação é um aprofundamento posterior, construído sobre média e desvio-padrão.
+
+
+44. Relação com ENEM
+
+
+A Matriz de Referência do Enem publicada pelo Inep em 2026 orienta resolução de problemas e análise de representações quantitativas.
+
+
+O CV pode aparecer em contexto de comparação de variabilidade, mesmo quando a prova não exige memorização isolada de nomenclatura.
+
+
+45. O que observar nos seis visuais
+
+
+Visual 1 — DP absoluto versus CV:
+A tem DP 2 e CV 20%; B tem DP 20 e CV 2%.
+
+
+Visual 2 — Fórmula:
+DP e média na mesma unidade; a divisão cancela a unidade.
+
+
+Visual 3 — Conversão de unidade:
+metros para centímetros preserva CV.
+
+
+Visual 4 — Soma de constante:
+DP não muda, mas média muda; CV muda.
+
+
+Visual 5 — Média perto de zero:
+o denominador pequeno faz o CV crescer rapidamente.
+
+
+Visual 6 — Checklist de uso:
+zero significativo, média positiva, distante de zero e conjuntos comparáveis.
+
+
+46. Resumo
+
+
+CV = s/x̄ × 100% para uma amostra.
+
+
+O CV expressa o desvio-padrão em relação à média.
+
+
+É adimensional.
+
+
+É preservado sob mudança puramente multiplicativa de unidade.
+
+
+Muda quando adicionamos constante.
+
+
+Não é adequado mecanicamente para média zero, próxima de zero, negativa ou escalas com zero arbitrário.
+
+
+Não existe corte universal de “baixo” ou “alto” CV.
+
+
+47. Versão curta para ouvir
+
+
+O coeficiente de variação compara o desvio-padrão com a média.
+
+
+Se o desvio-padrão é 5 e a média é 50, o CV é 10%.
+
+
+Ele é útil quando queremos comparar dispersão relativa, principalmente entre conjuntos em escalas ou ordens de grandeza diferentes.
+
+
+Mas exige cuidado: se a média está perto de zero, o resultado pode explodir; se o zero da escala é arbitrário, como em graus Celsius, a interpretação pode ser inadequada.
+
+
+O CV não substitui o desvio-padrão. Os dois respondem perguntas diferentes.
+
+
+48. Vídeo complementar
+
+
+Vídeo:
+“COEFICIENTE DE VARIAÇÃO : MEDIDA DE DISPERSÃO”.
+Canal: Prof. MURAKAMI - MATEMÁTICA RAPIDOLA.
+URL: https://www.youtube.com/watch?v=ZFj5WbYzr4Q
+
+
+Motivo:
+A descrição pública aborda definição, cálculo, porcentagem, comparação entre conjuntos e relação com desvio-padrão.
+
+
+Quando assistir:
+Após compreender as seções 2 a 23 e antes dos exercícios de consolidação.
+
+
+Estado de QA:
+Página pública e descrição localizadas nesta execução. Reprodução integral, áudio, duração efetiva e legendas ainda não foram auditados no Microsoft Edge.
+
+
+49. Critério de domínio
+
+
+Só considerar consolidado quando o estudante conseguir:
+
+
+• calcular CV;
+• interpretar a porcentagem;
+• distinguir DP absoluto de variabilidade relativa;
+• identificar quando CV é adequado;
+• rejeitar uso em média zero ou escala inadequada;
+• explicar efeito de conversão multiplicativa e de soma de constante;
+• resolver problema novo sem modelo copiado.
+
+
+A produção editorial não altera o progresso do aluno.
+
+
+50. Próximo passo
+
+
+MAT-EST-010 — Quartis, decis e percentis.

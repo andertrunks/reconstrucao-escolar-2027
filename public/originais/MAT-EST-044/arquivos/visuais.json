@@ -1,0 +1,79 @@
+[
+  {
+    "id": "MAT-EST-044-VIS-01",
+    "arquivo": "assets/01-corte-cronologico.svg",
+    "titulo": "Linha do tempo: separar treino e teste",
+    "legenda": "Linha do tempo: separar treino e teste",
+    "alt": "Doze caixas ordenadas do período 1 ao 12; oito primeiras representam treino e as quatro finais teste, com observados 129, 145, 171 e 144.",
+    "oQueObservar": "Os estados e parâmetros das fórmulas usam t1 a t8; a comparação usa os valores já conhecidos de t9 a t12.",
+    "conclusaoTextual": "A origem de previsão é o final do oitavo trimestre, com horizonte de um a quatro períodos.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-044-VIS-02",
+    "arquivo": "assets/02-atualizacao-ses.svg",
+    "titulo": "Atualização da suavização exponencial simples",
+    "legenda": "Atualização da suavização exponencial simples",
+    "alt": "Quatro caixas mostram y e o nível recursivo; a quarta atualização faz sessenta e cinco mais cinquenta e cinco, resultando em cento e vinte.",
+    "oQueObservar": "Cada novo nível combina observação atual com o nível anterior, sem usar y futuro.",
+    "conclusaoTextual": "Com alfa meio e nível inicial cem, a previsão emitida após a quarta observação é 120.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-044-VIS-03",
+    "arquivo": "assets/03-pesos-exponenciais.svg",
+    "titulo": "Pesos exponenciais em uma série curta",
+    "legenda": "Pesos exponenciais em uma série curta",
+    "alt": "Barras: peso de y4 é 0,5; y3 é 0,25; y2 0,125; nível inicial y1 0,125. Contribuições 65, 27,5, 15 e 12,5.",
+    "oQueObservar": "O valor atual recebe peso maior; em amostras finitas existe também o peso remanescente da condição inicial.",
+    "conclusaoTextual": "A soma dos quatro coeficientes é um, e a previsão é 120 unidades.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-044-VIS-04",
+    "arquivo": "assets/04-sensibilidade-alfa.svg",
+    "titulo": "Efeito de alfa em uma mesma sequência",
+    "legenda": "Efeito de alfa em uma mesma sequência",
+    "alt": "Eixo horizontal alfa 0,2, 0,5 e 0,8, sem unidade; eixo vertical nível final em unidades. Três pontos sobem de 110,16 para 126,24.",
+    "oQueObservar": "No exemplo, alfa maior responde mais ao último valor 130; em outros dados o sentido da variação final pode diferir.",
+    "conclusaoTextual": "Alfa controla sensibilidade à observação mais recente; seu valor deve ser escolhido com critério de treino e validação, nunca pelo teste final.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-044-VIS-05",
+    "arquivo": "assets/05-nivel-inclinacao-holt.svg",
+    "titulo": "Holt: duas variáveis de estado",
+    "legenda": "Holt: duas variáveis de estado",
+    "alt": "Duas caixas com nível cento e quarenta e cinco vírgula quatro e inclinação oito vírgula trinta e seis; fórmula soma h vezes a inclinação.",
+    "oQueObservar": "Neste exemplo a sazonalidade é ignorada por Holt, apesar de estar presente nos dados construídos.",
+    "conclusaoTextual": "A previsão de Holt cresce linearmente no horizonte; não garante que cada trimestre sazonal seja representado.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-044-VIS-06",
+    "arquivo": "assets/06-atualizacao-holt-winters.svg",
+    "titulo": "Holt-Winters aditivo: três atualizações",
+    "legenda": "Holt-Winters aditivo: três atualizações",
+    "alt": "Três linhas numeradas mostram fórmulas com α=0,4, β*=0,2, γ=0,2 e resultados 120,40; 5,08; menos 9,80.",
+    "oQueObservar": "Os estados anteriores são dados do enunciado; não se deve alegar que foram estimados pelo algoritmo a partir do CSV.",
+    "conclusaoTextual": "A suavização sazonal atualiza um efeito da mesma fase do ciclo, com período m igual a quatro.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-044-VIS-07",
+    "arquivo": "assets/07-mae-comparavel.svg",
+    "titulo": "Erros médios absolutos no mesmo conjunto futuro",
+    "legenda": "Erros médios absolutos no mesmo conjunto futuro",
+    "alt": "Gráfico em barras horizontais: cinco MAEs sobre os mesmos quatro observados 129,145,171,144; eixos identificados e unidades.",
+    "oQueObservar": "A referência com deslocamento capturou a tendência criada, mas o teste é artificial e tem apenas quatro observações.",
+    "conclusaoTextual": "Nesta comparação didática, alfa e beta foram fixados para as contas; a janela já era conhecida da aula anterior e não equivale a teste prospectivo novo.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  }
+]

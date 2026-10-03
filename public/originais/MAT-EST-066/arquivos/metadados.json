@@ -1,0 +1,104 @@
+{
+  "id": "MAT-EST-066",
+  "slug": "revisao-critica-consolidacao-avaliacao-temporal-integracao-metricas-auditoria-transferencia",
+  "titulo": "Revisão crítica e consolidação da unidade de avaliação temporal: integração de métricas, auditoria e transferência para problemas novos",
+  "materia": "Matemática",
+  "unidade": "Estatística — ponte universitária",
+  "nivel": 6,
+  "ordem": 66,
+  "preRequisitos": [
+    "MAT-EST-047",
+    "MAT-EST-049",
+    "MAT-EST-053",
+    "MAT-EST-057",
+    "MAT-EST-058",
+    "MAT-EST-060",
+    "MAT-EST-065"
+  ],
+  "objetivos": [
+    "reconstituir a cadeia completa de avaliação",
+    "calcular métricas e custos com unidades e denominadores corretos",
+    "reconhecer guarda, seleção, ausência e versões",
+    "transferir o raciocínio para contexto isolado e produzir comunicação proporcional à evidência"
+  ],
+  "aulaMarkdown": "MAT-EST-066-revisao-critica-consolidacao-avaliacao-temporal-integracao-metricas-auditoria-transferencia.md",
+  "visuais": [
+    {
+      "src": "assets/01-arvore-evidencias.svg",
+      "alt": "Fluxo da origem versionada à decisão: dados, elegibilidade, métrica com guarda, relato de limites e decisão auditável.",
+      "legenda": "Figura 1",
+      "observe": "Observe o encadeamento de cinco condições.",
+      "conclusaoAudio": "Uma conclusão exige rastrear o dado e seus limites."
+    },
+    {
+      "src": "assets/02-denominadores.svg",
+      "alt": "Completude 2/8 é 25%; erro absoluto médio de B é 6/2, igual a três unidades.",
+      "legenda": "Figura 2",
+      "observe": "Os denominadores são diferentes porque respondem a perguntas diferentes.",
+      "conclusaoAudio": "Trocar dois por oito no MAE gera medida inválida."
+    },
+    {
+      "src": "assets/03-coortes-separadas.svg",
+      "alt": "Histórico t18–t22 tem cinco pares e C com MAE 8,36; SANDBOX-057 tem dois pares e C com MAE quatro.",
+      "legenda": "Figura 3",
+      "observe": "Compare as legendas de população e quantidade.",
+      "conclusaoAudio": "Não transportar métricas entre amostras independentes."
+    },
+    {
+      "src": "assets/04-media-e-guarda.svg",
+      "alt": "MAE B de 17,60 e C de 8,36 no histórico; piora local de C em t19 igual a 19,2 ultrapassa limite dez.",
+      "legenda": "Figura 4",
+      "observe": "A melhora da média e a falha local coexistem.",
+      "conclusaoAudio": "A decisão do protocolo histórico permanece não promover C."
+    },
+    {
+      "src": "assets/05-transferencia.svg",
+      "alt": "No exercício novo R01 e R02 são avaliáveis; R03 e R04 pendentes; completude 50% e MAE B 2,5, C 1.",
+      "legenda": "Figura 5",
+      "observe": "Leia quais cartões podem entrar nas contas.",
+      "conclusaoAudio": "Nulos não podem ser tratados como erros zero."
+    },
+    {
+      "src": "assets/06-caminho-de-revisao.svg",
+      "alt": "A consolidação requer explicar, calcular, analisar limites, resolver problema novo e recuperar depois de intervalo.",
+      "legenda": "Figura 6",
+      "observe": "A última condição depende de estudo e tentativa reais.",
+      "conclusaoAudio": "Pacote produzido não altera o progresso do estudante."
+    }
+  ],
+  "video": {
+    "titulo": "How to spot a misleading graph — Lea Gaslowitz",
+    "canal": "TED-Ed",
+    "url": "https://www.youtube.com/watch?v=E91bGT9BjYk",
+    "idioma": "inglês",
+    "duracao": "aproximadamente 4 minutos e 9 segundos, conforme fonte pública secundária",
+    "momento_recomendado": "após seção 8",
+    "motivo": "escala, seleção de dados e mensagem do gráfico",
+    "pagina_publica_localizada": true,
+    "reproducao_integral": false
+  },
+  "exercicios": "exercicios.json",
+  "gabarito": "gabarito-comentado.json",
+  "transferencia": "transferencia/TRANSFER-066-cartoes.json",
+  "fontes": [
+    "https://otexts.com/fpppg/",
+    "https://otexts.com/fpp3/tscv.html",
+    "https://www.w3.org/WAI/tutorials/images/complex/",
+    "https://www.youtube.com/watch?v=E91bGT9BjYk"
+  ],
+  "anterior": "MAT-EST-065",
+  "proximoTopico": "MAT-EST-067",
+  "revisao": "1, 7 e 30 dias após tentativa efetiva",
+  "progressoIndividual": "não iniciado; sem tentativas registradas",
+  "publicacaoSite": false,
+  "sincronizacaoDrive": false,
+  "sincronizacaoGithub": false,
+  "testeManualEdge": false,
+  "revisaoHumanaReal": false,
+  "reproducaoVideoIntegral": false,
+  "progressoIndividualAlterado": false,
+  "estudoRegistrado": false,
+  "dadosReais": false,
+  "exemploFicticio": true,
+  "historicoPreservado": true
+}

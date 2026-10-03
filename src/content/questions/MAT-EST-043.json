@@ -1,0 +1,866 @@
+[
+  {
+    "id": "MAT-EST-043-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Ordem e periodicidade",
+    "statement": "Uma série trimestral registra quatro observações por ano. Qual é o período sazonal m em observações?",
+    "answer": "m = 4.",
+    "resolution": "A unidade de tempo é o trimestre. Para comparar a mesma fase do ano, retornamos quatro observações. Essa periodicidade de calendário não prova por si só que toda série trimestral apresente sazonalidade observável.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Identificar tendência",
+    "statement": "Na construção fictícia T(t)=100+5(t−1), quanto vale o componente de tendência no período 4?",
+    "answer": "115 unidades.",
+    "resolution": "Substitua t por quatro: t menos um vale três; cinco vezes três é quinze; somado a cem resulta 115. É um componente definido artificialmente, e não uma estimativa obtida do gráfico.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Sazonalidade constante",
+    "statement": "Um exemplo aditivo usa os efeitos trimestrais −10, 0, +20, −10. Qual o efeito do terceiro trimestre?",
+    "answer": "+20 unidades.",
+    "resolution": "Localize a terceira entrada do vetor sazonal; o sinal positivo representa acréscimo absoluto de vinte unidades em relação ao componente de tendência. Não trate o número vinte como porcentagem.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Índice sazonal centrado",
+    "statement": "Uma decomposição aditiva hipotética tem os efeitos sazonais −10, 0, 20 e −10 unidades. Qual é a soma dos quatro efeitos em um ciclo completo?",
+    "answer": "Zero.",
+    "resolution": "Some −10+0+20−10=0. A restrição de soma zero é uma normalização usual em decomposição aditiva com sazonalidade fixa; distribui os desvios entre as quatro fases.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Soma no período sete",
+    "statement": "No período 7, T=130, S=20 e R=0. Qual o observado construído pela identidade aditiva?",
+    "answer": "150 unidades.",
+    "resolution": "A identidade y=T+S+R determina 130+20+0=150. A interpretação depende de termos componentes definidos; não significa que decomposição automática sempre recuperará esses números.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Restante conhecido",
+    "statement": "No período 6, o observado é 124, T=125 e S=0. Determine o restante R.",
+    "answer": "−1 unidade.",
+    "resolution": "Isole R=y−T−S. Faça 124−125−0=−1. Um restante não é necessariamente erro de instrumento: pode conter choques e padrões não representados.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Ajuste sazonal aditivo",
+    "statement": "No período 3, y=128 e S=+20. Qual seria a série ajustada sazonalmente por subtração?",
+    "answer": "108 unidades.",
+    "resolution": "Em modelo aditivo, ajuste sazonal é y−S. Logo 128−20=108, que corresponde a T+R=110−2=108, e não somente à tendência T.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Diferença sazonal simples",
+    "statement": "O primeiro trimestre do ano 1 teve 90 unidades e o primeiro trimestre do ano 2 teve 111. Qual a diferença sazonal do período 5?",
+    "answer": "21 unidades.",
+    "resolution": "Com m=4, Δ4y(5)=y(5)−y(1)=111−90=21. Ela mede a mudança em unidades para a mesma fase, não a taxa percentual de crescimento.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Primeira diferença não sazonal",
+    "statement": "O período 4 tem 105 e o período 5 tem 111. Qual a primeira diferença do período 5?",
+    "answer": "+6 unidades.",
+    "resolution": "Primeira diferença compara observações consecutivas: 111−105=6. Ela não coincide necessariamente com a diferença sazonal, que compara períodos separados por quatro observações.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Referência sazonal ingênua",
+    "statement": "No fim do período 8, o último primeiro trimestre observado foi o período 5, com 111 unidades. Qual previsão sazonal ingênua para o período 9?",
+    "answer": "111 unidades.",
+    "resolution": "Para o próximo primeiro trimestre, repita o último primeiro trimestre já conhecido. Nesse corte temporal, y(9) será comparado com y(5), e y(9) não estava disponível na emissão da previsão.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Decomposição de um valor",
+    "statement": "Para o período 12, T=155, S=−10 e R=−1. Reconstrua y e interprete os sinais.",
+    "answer": "144 unidades.",
+    "resolution": "Comece no nível 155. A fase sazonal diminui dez unidades e o restante reduz mais uma: 155−10−1=144. Como a escala é aditiva, os valores são diferenças absolutas.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Oito diferenças sazonais",
+    "statement": "Partindo da série [90,107,128,105,111,124,150,127,129,145,171,144], calcule as diferenças de atraso 4, do período 5 ao 12.",
+    "answer": "21; 17; 22; 22; 18; 21; 21; 17.",
+    "resolution": "Alinhe as fases: 111−90=21; 124−107=17; 150−128=22; 127−105=22; 129−111=18; 145−124=21; 171−150=21; 144−127=17. Ao avançar quatro trimestres comparamos estações equivalentes.",
+    "errorReasons": [
+      "montagem da estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Cancelamento do efeito sazonal",
+    "statement": "Na identidade y(t)=T(t)+S(t)+R(t), com S(t)=S(t−4), expresse y(t)−y(t−4).",
+    "answer": "Diferença de tendências mais diferença dos restantes.",
+    "resolution": "Subtraia duas identidades: [T(t)−T(t−4)]+[S(t)−S(t−4)]+[R(t)−R(t−4)]. Por repetição fixa, o termo sazonal se anula. Isso não garante que a nova série seja independente ou tenha média zero.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Média móvel quatro",
+    "statement": "Calcule a média dos períodos 1 a 4, cujos observados são 90,107,128,105.",
+    "answer": "107,5 unidades.",
+    "resolution": "A soma é 430, dividida por quatro resulta 107,5. Por ser um número par de períodos, o ponto central desta janela fica entre os períodos 2 e 3, não exatamente no período 3.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Centralização par",
+    "statement": "A média dos períodos 1 a 4 é 107,5 e a dos períodos 2 a 5 é 112,75. Calcule a média centrada de ordem quatro no período 3.",
+    "answer": "110,125 unidades.",
+    "resolution": "A primeira média se posiciona entre os períodos 2 e 3; a segunda, entre 3 e 4. A média dessas duas é (107,5+112,75)/2=110,125, centrada em 3. Esse filtro consultou o período 5, portanto é retrospectivo nesse momento.",
+    "errorReasons": [
+      "montagem da estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Modelo multiplicativo ilustrativo",
+    "statement": "Para uma série positiva hipotética, T=100, fator sazonal S=1,20 e fator restante R=1. Qual y multiplicativo?",
+    "answer": "120 unidades.",
+    "resolution": "Na decomposição multiplicativa, y=T×S×R. Faça 100×1,20×1=120. O fator 1,20 significa vinte por cento acima do nível de referência, diferente de somar vinte unidades em qualquer escala.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Deslocamento anual do treino",
+    "statement": "As quatro diferenças sazonais inteiramente observadas no treino são 21,17,22,22. Qual o deslocamento médio anual usado na previsão didática?",
+    "answer": "20,5 unidades por mesma fase anual.",
+    "resolution": "Somamos 21+17+22+22=82 e dividimos por quatro: 20,5. Fixar essa regra no treino evita selecionar um parâmetro depois de conhecer o conjunto de teste.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Previsão para período nove",
+    "statement": "Se o último primeiro trimestre disponível vale 111 e o deslocamento histórico fixo de mesma fase é 20,5, preveja o período 9.",
+    "answer": "131,5 unidades.",
+    "resolution": "A regra criada para esta aula adiciona ao último valor da mesma fase o deslocamento médio histórico: 111+20,5=131,5. Ela não é uma decomposição STL e não exige conhecer o valor observado no teste.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "MAE sazonal ingênuo",
+    "statement": "No teste, os observados são [129,145,171,144] e a previsão sazonal ingênua é [111,124,150,127]. Calcule MAE.",
+    "answer": "19,25 unidades.",
+    "resolution": "Os erros absolutos são 18,21,21,17. Sua soma 77 dividida pelos quatro trimestres é 19,25. Não se deve substituir um dos períodos por dados do treino ou misturar horizontes distintos.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "RMSE sazonal ingênuo",
+    "statement": "A referência sazonal apresenta erros [18,21,21,17]. Calcule seu RMSE sem arredondamento intermediário.",
+    "answer": "Raiz de 1495 dividida por 2, aproximadamente 19,33 unidades.",
+    "resolution": "Eleve cada erro ao quadrado: 324,441,441,289; soma 1495. Divida por quatro e extraia a raiz: raiz de 1495/4 = raiz de 1495 dividida por dois.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Questão autoral: gráfico e evidência",
+    "statement": "Uma série de oito dias oscila. Um relatório afirma que existe sazonalidade trimestral estável, embora não existam trimestres registrados. Identifique o problema de desenho.",
+    "answer": "A frequência e o comprimento da série não permitem observar três ou mais ciclos trimestrais.",
+    "resolution": "Periodicidade sazonal precisa de unidade temporal, datas coerentes e repetições. Oito dias não contêm trimestres comparáveis. É válido descrever flutuações diárias, mas não atribuir sazonalidade trimestral por analogia visual.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Questão autoral: aditivo ou multiplicativo",
+    "statement": "Uma série passa de nível 100 para 200 e a oscilação sazonal passa aproximadamente de 10 para 20 unidades. Qual estrutura vale investigar e por quê?",
+    "answer": "Uma estrutura multiplicativa, ou uma transformação que estabilize a amplitude, pode ser pertinente.",
+    "resolution": "A amplitude sazonal cresceu na mesma proporção do nível, de dez a vinte quando o patamar dobrou. Um efeito percentual mais estável sugere fator multiplicativo; examine também zeros, sinais e resíduos antes de escolher.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Questão autoral: previsão e vazamento",
+    "statement": "Uma equipe calcula a média móvel centrada no período 7 usando o período 9 e apresenta o resultado como previsão emitida no fim do período 6. Avalie.",
+    "answer": "Houve vazamento cronológico.",
+    "resolution": "A média centrada depende de observações posteriores ao período a que se refere. O período nove não podia ser conhecido no fim do seis. Para previsão use regra causal e só histórico disponível naquele momento.",
+    "errorReasons": [
+      "montagem da estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Questão autoral: remover sazonalidade",
+    "statement": "Ao calcular y(t)−y(t−4), o resultado fica constante em todos os períodos para uma série exatamente T(t)=100+5(t−1) e S repetida, com R zero. Qual constante?",
+    "answer": "20 unidades.",
+    "resolution": "O crescimento por trimestre é cinco e quatro trimestres separam o par: T(t)−T(t−4)=5×4=20. A parte S é igual na mesma fase e cancela; com R zero não resta variação adicional.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Questão autoral: diferença de fase",
+    "statement": "No trimestre 12 da base artificial, y(12)=144 e y(8)=127. Calcule a diferença sazonal e indique por que não é a primeira diferença.",
+    "answer": "17 unidades; a comparação tem atraso quatro.",
+    "resolution": "A diferença é 144−127=17. A primeira diferença seria y(12)−y(11)=144−171=−27. Alterar o atraso modifica a pergunta e pode trocar até o sinal.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Questão autoral: desempenho do deslocamento",
+    "statement": "Com previsões fixadas antes do teste [131,5;144,5;170,5;147,5] e observados [129;145;171;144], calcule MAE.",
+    "answer": "1,75 unidade.",
+    "resolution": "Erros absolutos são 2,5; 0,5; 0,5; 3,5. Sua soma é 7; dividindo por quatro dá 1,75. É desempenho ilustrativo no teste curto, não expectativa garantida para novos dados.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Questão autoral: RMSE em teste",
+    "statement": "Para as mesmas previsões, os erros observado menos previsto são −2,5;+0,5;+0,5;−3,5. Calcule RMSE.",
+    "answer": "Raiz de 19 dividida por 2, aproximadamente 2,18 unidades.",
+    "resolution": "Os quadrados são 6,25;0,25;0,25;12,25, com soma 19. A média quadrática é 19/4, cuja raiz é raiz de 19/2. A média simples dos erros não substitui RMSE.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Questão autoral: escolher após inspecionar teste",
+    "statement": "Três regras foram comparadas no período 9 a 12. Um pesquisador quer escolher a melhor por esse desempenho e ainda chamar os mesmos dados de teste intocado. O que fazer?",
+    "answer": "Reconhecer seleção no teste e avaliar novamente em outro conjunto futuro que não participou da escolha.",
+    "resolution": "O teste serviu como validação de modelos quando orientou a escolha. Registre a decisão, fixe a regra e, se houver dados, reserve outra janela posterior. Evite refazer decisões para ocultar o uso do teste.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Questão autoral: afirmar recuperação exata",
+    "statement": "Um programa extrai componentes de dados reais por média móvel. O analista afirma que os valores extraídos devem ser idênticos ao T,S,R usados para inventar a base desta aula. Analise.",
+    "answer": "A reconstrução exata dos componentes não é garantida.",
+    "resolution": "A identidade artificial é conhecida porque foi definida na geração. Estimadores reais dependem de hipóteses, janela, fronteiras, choques, identificação e parâmetros; por exemplo, a média móvel centrada em t3 vale 110,125 e o T construído t3 vale 110.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Questão autoral: previsão por estação",
+    "statement": "Um relatório compara MAE da referência sazonal em t9–12 com MAE de um modelo ajustado em t1–12 e avaliado nesses mesmos t9–12. A comparação é justa?",
+    "answer": "Não. O segundo modelo utilizou os próprios alvos de avaliação em seu ajuste.",
+    "resolution": "Defina instante de emissão e treine ambos com informações encerradas em t8. O segundo desempenho é de ajuste ou contaminado, e não generalização fora da amostra. Reestime em corte correto para comparar.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Reteste: periodicidade mensal",
+    "statement": "Uma série mensal apresenta comportamento anual repetido. Qual atraso sazonal liga o mesmo mês em anos consecutivos?",
+    "answer": "12 observações.",
+    "resolution": "São doze medições mensais por ano. Para comparar março de dois anos consecutivos, subtraia o valor de doze meses antes, não o mês imediatamente anterior.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Reteste: outro ciclo curto",
+    "statement": "Uma série trimestral independente tem valores [40,60,50,70,44,63,56,72]. Calcule suas quatro diferenças sazonais de atraso 4.",
+    "answer": "4,3,6,2.",
+    "resolution": "Alinhe t5−t1=44−40=4; t6−t2=63−60=3; t7−t3=56−50=6; t8−t4=72−70=2. Os valores vieram de outro conjunto; não decore as diferenças do exercício anterior.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Reteste: nova decomposição",
+    "statement": "Uma observação fictícia vale 44, com tendência especificada T=60 e sazonalidade S=−10. Qual restante aditivo?",
+    "answer": "−6 unidades.",
+    "resolution": "Da identidade aditiva 44=60−10+R, isolamos R=44−60+10=−6. Verifique reconstruindo o observado: 60−10−6=44. A interpretação é em unidades absolutas, não percentuais.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Reteste: prever sazonalmente",
+    "statement": "Para [40,60,50,70,44,63,56,72], emitindo previsão ao fim de t8, quanto prevê para t9 a referência sazonal ingênua?",
+    "answer": "44 unidades.",
+    "resolution": "t9 tem a fase do primeiro trimestre, cujo último observado era t5=44. O valor 72 de t8 pertence à quarta fase e não é a referência sazonal apropriada.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Reteste: série com período três",
+    "statement": "Em [12,20,15,14,21,17], com período sazonal m=3, calcule as diferenças de atraso três em t4, t5 e t6.",
+    "answer": "2;1;2 unidades.",
+    "resolution": "Alinhe posições separadas por três: 14−12=2; 21−20=1; 17−15=2. O intervalo é dado pelo período hipotético três, não pelo padrão trimestral usado na aula principal.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-043-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-043"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Reteste: dados após o corte",
+    "statement": "Uma previsão para t7 emitida no fim de t6 utiliza uma estimativa de sazonalidade recalculada com o valor real de t7. Ela é uma avaliação fora da amostra válida?",
+    "answer": "Não; utiliza informação futura no pré-processamento.",
+    "resolution": "Mesmo que a fórmula final não mostre y7 diretamente, o parâmetro sazonal já foi calculado com esse alvo. Todos os passos, incluindo ajuste de sazonalidade e normalização, precisam ser reconstruídos apenas com dados disponíveis em t6.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-043-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  }
+]

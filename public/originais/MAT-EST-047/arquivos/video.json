@@ -1,0 +1,14 @@
+{
+  "titulo": "Lecture 12: Time Series Analysis",
+  "canal": "MIT OpenCourseWare",
+  "apresentador": "Peter Kempthorne",
+  "url": "https://ocw.mit.edu/courses/18-642-topics-in-mathematics-with-applications-in-finance-fall-2024/resources/18642-lecture-12-version-2_mp4/",
+  "urlYoutube": "https://www.youtube.com/watch?v=qlytPllimpQ",
+  "duracaoAproximada": "não confirmada",
+  "quandoAssistir": "Após a seção de resíduos e antes dos exercícios de consolidação.",
+  "motivo": "Introduz séries, estacionariedade, autocorrelação e modelos de dependência; a construção e pontuação de intervalos são ensinadas integralmente nesta aula e no livro técnico citado.",
+  "paginaPublicacaoLocalizada": true,
+  "reproducaoIntegralVerificada": false,
+  "testeEdgeRealizado": false,
+  "videoObrigatorioParaEntenderAula": false
+}

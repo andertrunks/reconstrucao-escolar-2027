@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="720" viewBox="0 0 1100 720">
+<title>Árvore inicial para escolher um gráfico estatístico</title>
+<desc>Fluxograma pergunta se o objetivo é destacar evolução em sequência, comparar categorias, mostrar partes de um único total ou mostrar distribuição quantitativa em intervalos; as saídas sugerem linha, barras, setores ou histograma.</desc>
+<rect width="1100" height="720" fill="white"/><text x="275" y="45" font-size="28" font-family="Arial">Roteiro inicial de escolha da representação</text>
+<g fill="none" stroke="black" stroke-width="3">
+<rect x="360" y="90" width="380" height="80"/><rect x="80" y="260" width="300" height="80"/><rect x="720" y="260" width="300" height="80"/>
+<rect x="60" y="480" width="240" height="80"/><rect x="340" y="480" width="240" height="80"/><rect x="620" y="480" width="240" height="80"/><rect x="880" y="480" width="180" height="80"/>
+<line x1="550" y1="170" x2="230" y2="260"/><line x1="550" y1="170" x2="870" y2="260"/>
+<line x1="230" y1="340" x2="180" y2="480"/><line x1="230" y1="340" x2="460" y2="480"/>
+<line x1="870" y1="340" x2="740" y2="480"/><line x1="870" y1="340" x2="970" y2="480"/>
+</g>
+<g font-family="Arial" font-size="18"><text x="405" y="125">Há sequência temporal ou ordem</text><text x="430" y="150">que queremos destacar?</text>
+<text x="150" y="295">Sim: evolução</text><text x="785" y="295">Não: qual é a estrutura?</text>
+<text x="105" y="520">LINHA</text><text x="375" y="510">Categorias para</text><text x="385" y="535">comparar → BARRAS</text>
+<text x="650" y="510">Partes exclusivas</text><text x="650" y="535">do todo → SETORES</text><text x="900" y="510">Intervalos</text><text x="900" y="535">→ HISTOGRAMA</text>
+<text x="90" y="650">A árvore sugere uma primeira escolha. A pergunta, os dados e a clareza podem justificar outras representações.</text></g></svg>

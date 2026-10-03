@@ -1,0 +1,48 @@
+﻿MAT-EST-009 — Gabarito comentado — reconstrução editorial v1
+
+
+Use somente após tentativa real.
+
+
+MAT-EST-009-EX-APR-01 — 5/50 = 0,10 = 10%. Erro provável: esquecer a conversão percentual.
+MAT-EST-009-EX-APR-02 — 4/20 = 0,20 = 20%. Erro provável: divisão incorreta.
+MAT-EST-009-EX-APR-03 — O DP corresponde a 10% da média. Erro provável: interpretar como “10% dos dados”.
+MAT-EST-009-EX-APR-04 — DP e média têm mesma unidade; a razão cancela a unidade. Erro provável: tratar porcentagem como nova unidade física.
+MAT-EST-009-EX-APR-05 — 20/100 = 0,20 = 20%. Erro provável: inverter a razão.
+MAT-EST-009-EX-APR-06 — Não, porque há divisão por zero. Erro provável: admitir infinito como valor usual do CV.
+MAT-EST-009-EX-APR-07 — Não, se a multiplicação é comum a todos os valores e positiva. Média e DP são multiplicados pelo mesmo fator. Erro provável: esquecer a transformação do DP.
+MAT-EST-009-EX-APR-08 — CV decimal 0,1; percentual 10%. Erro provável: confundir proporção com porcentagem.
+MAT-EST-009-EX-APR-09 — A: 20%; B: 10%. A tem maior dispersão relativa. Erro provável: comparar apenas DP.
+MAT-EST-009-EX-APR-10 — Porque a interpretação depende da área, fenômeno, método e finalidade. Erro provável: aplicar regra de bolso como lei universal.
+
+
+MAT-EST-009-EX-CON-01 — 30/200 = 0,15 = 15%.
+MAT-EST-009-EX-CON-02 — DP: B maior, 15 > 8. CV: A=20%; B=15%; A maior relativamente.
+MAT-EST-009-EX-CON-03 — 0,09/1,8 = 5%. Em cm: 9/180 = 5%.
+MAT-EST-009-EX-CON-04 — Celsius: 2/20=10%. Fahrenheit: média 68; DP 3,6; CV≈5,29%.
+MAT-EST-009-EX-CON-05 — O fenômeno físico é o mesmo, mas o CV mudou porque a escala sofreu translação (+32); logo, CV não é adequado mecanicamente a escalas com zero arbitrário.
+MAT-EST-009-EX-CON-06 — 1/0,1 = 10 = 1000%. Denominador pequeno torna a razão instável e exige cautela.
+MAT-EST-009-EX-CON-07 — 6/4 = 1,5 = 150%. Sim, é matematicamente possível.
+MAT-EST-009-EX-CON-08 — A: DP2, CV4%; B: DP5, CV10%. B maior em ambas porque médias são iguais.
+MAT-EST-009-EX-CON-09 — Média e DP multiplicam por 3; CV permanece igual.
+MAT-EST-009-EX-CON-10 — Não. O +10 altera a média sem alterar a parte de dispersão correspondente à translação.
+
+
+MAT-EST-009-EX-VES-01 — A: 6/120=5%; B: 2/20=10%. B maior relativamente.
+MAT-EST-009-EX-VES-02 — A: 2%; B: 4%. B tem maior CV, embora menor DP absoluto.
+MAT-EST-009-EX-VES-03 — Altura: 5%; massa: 10%. Massa tem maior dispersão relativa; ainda assim são fenômenos e unidades diferentes, então o significado substantivo continua distinto.
+MAT-EST-009-EX-VES-04 — 0,12/2,4=5%. Em metros, média 2400 e DP120, ainda 5%.
+MAT-EST-009-EX-VES-05 — Celsius tem zero arbitrário; mudança para Fahrenheit altera CV sem alterar o fenômeno físico.
+MAT-EST-009-EX-VES-06 — 0,05/0,02=2,5=250%. Média próxima de zero torna o CV muito sensível ao denominador.
+MAT-EST-009-EX-VES-07 — Não existe corte universal; critérios dependem da área e método.
+MAT-EST-009-EX-VES-08 — A: 5%; B: 8%. B maior relativamente.
+MAT-EST-009-EX-VES-09 — CV mede dispersão relativa/repetibilidade; um instrumento pode ser consistente e enviesado.
+MAT-EST-009-EX-VES-10 — Exemplo: A média10 DP2 →20%; B média100 DP5 →5%. B tem maior DP e menor CV.
+
+
+MAT-EST-009-EX-RET-01 — CV=DP/média; CV%=100×DP/média.
+MAT-EST-009-EX-RET-02 — 15/75=0,20=20%.
+MAT-EST-009-EX-RET-03 — Conversão é multiplicativa; média e DP recebem o mesmo fator e a razão não muda.
+MAT-EST-009-EX-RET-04 — Fahrenheit inclui +32, alterando a média sem efeito equivalente no DP.
+MAT-EST-009-EX-RET-05 — A razão pode crescer muito e tornar-se instável; em média zero, fica indefinida.
+MAT-EST-009-EX-RET-06 — Exemplos: média positiva e longe de zero; escala de razão com zero significativo; unidades/variáveis conceitualmente comparáveis; atenção a extremos e assimetria.

@@ -1,0 +1,330 @@
+[
+  {
+    "id": "MAT-EST-038-EX-APR-01",
+    "resposta": "Avaliação produzida e disponível; tentativa individual não iniciada ou não registrada, sem nota nem consolidação.",
+    "resolucao": [
+      "Separe produção editorial de atividade individual.",
+      "Sem resposta efetiva, não é possível calcular acertos ou diagnosticar dificuldade pessoal."
+    ],
+    "motivoErro": "Confundir material publicado com evidência pessoal de aprendizagem."
+  },
+  {
+    "id": "MAT-EST-038-EX-APR-02",
+    "resposta": "Interpretação/leitura dos dados; não necessariamente desconhecimento da fórmula.",
+    "resolucao": [
+      "Localize a primeira ruptura: transcrição do gráfico.",
+      "Registre leitura/interpretação e proponha releitura com unidade e legenda."
+    ],
+    "motivoErro": "Rotular todo resultado errado como falha de conteúdo."
+  },
+  {
+    "id": "MAT-EST-038-EX-APR-03",
+    "resposta": "54%; não determina exatamente a proporção populacional.",
+    "resolucao": [
+      "54 dividido por 100 = 0,54, ou 54 por cento.",
+      "Sem desenho representativo, não se pode generalizar legitimamente ao universo."
+    ],
+    "motivoErro": "Confundir estimativa com parâmetro conhecido."
+  },
+  {
+    "id": "MAT-EST-038-EX-APR-04",
+    "resposta": "2 unidades.",
+    "resolucao": [
+      "EP=12/√36.",
+      "A raiz de 36 é 6; 12/6=2."
+    ],
+    "motivoErro": "Dividir por n em vez da raiz de n."
+  },
+  {
+    "id": "MAT-EST-038-EX-APR-05",
+    "resposta": "[46;54]; margem diz respeito à incerteza da estimativa no procedimento especificado.",
+    "resolucao": [
+      "Subtraia e some 4 a 50.",
+      "A dispersão dos indivíduos e a precisão de uma estimativa são conceitos diferentes."
+    ],
+    "motivoErro": "Misturar a variabilidade individual com a incerteza do estimador."
+  },
+  {
+    "id": "MAT-EST-038-EX-APR-06",
+    "resposta": "Não rejeitar a hipótese nula; isso não a demonstra verdadeira.",
+    "resolucao": [
+      "Compare 0,08 com 0,05.",
+      "Não rejeição significa insuficiência de evidência contra H0 sob o modelo, não prova de igualdade."
+    ],
+    "motivoErro": "Dizer que H0 foi provada."
+  },
+  {
+    "id": "MAT-EST-038-EX-APR-07",
+    "resposta": "A diferença individual entre depois e antes, com sentido declarado.",
+    "resolucao": [
+      "A unidade observacional continua sendo a mesma pessoa.",
+      "Duas medidas da mesma pessoa não constituem amostras independentes."
+    ],
+    "motivoErro": "Escolher teste para amostras independentes ignorando o pareamento."
+  },
+  {
+    "id": "MAT-EST-038-EX-APR-08",
+    "resposta": "10.",
+    "resolucao": [
+      "Esperada = total da linha vezes total da coluna dividido pelo total geral.",
+      "30 vezes 20 dividido por 60 = 10."
+    ],
+    "motivoErro": "Empregar porcentagens sem definir o denominador."
+  },
+  {
+    "id": "MAT-EST-038-EX-APR-09",
+    "resposta": "+5 atendimentos; houve subprevisão de 5.",
+    "resolucao": [
+      "105 menos 100 é 5.",
+      "O sinal é positivo pois o observado superou a previsão."
+    ],
+    "motivoErro": "Trocar a convenção de sinal no meio do exercício."
+  },
+  {
+    "id": "MAT-EST-038-EX-APR-10",
+    "resposta": "Porque o teste deixa de ser avaliação independente e ocorre vazamento de seleção.",
+    "resolucao": [
+      "Treino ajusta parâmetros; validação apoia seleção.",
+      "Teste final serve para estimar desempenho em dados não usados nas escolhas."
+    ],
+    "motivoErro": "Usar o resultado do teste para otimizar a escolha que ele deveria avaliar."
+  },
+  {
+    "id": "MAT-EST-038-EX-CON-01",
+    "resposta": "Rever primeiro leitura de população/base/denominador, registrando também revisão pontual da aritmética.",
+    "resolucao": [
+      "Agrupe erros por causa, e não por sequência das questões.",
+      "Três erros na mesma habilidade sugerem falha recorrente; não atribua diagnóstico psicológico."
+    ],
+    "motivoErro": "Repetir a prova inteira antes de corrigir o pré-requisito recorrente."
+  },
+  {
+    "id": "MAT-EST-038-EX-CON-02",
+    "resposta": "Metade do valor original.",
+    "resolucao": [
+      "EP=sigma/raiz de n.",
+      "Raiz de 25 é 5; raiz de 100 é 10: o denominador dobra e EP reduz à metade."
+    ],
+    "motivoErro": "Supor que quadruplicar n reduz o erro-padrão a um quarto."
+  },
+  {
+    "id": "MAT-EST-038-EX-CON-03",
+    "resposta": "0,15, ou 15 pontos percentuais.",
+    "resolucao": [
+      "A é 0,60; B é 0,45.",
+      "0,60 - 0,45 = 0,15; distinguir pontos percentuais de variação relativa."
+    ],
+    "motivoErro": "Confundir 15 pontos percentuais com 15 por cento relativo."
+  },
+  {
+    "id": "MAT-EST-038-EX-CON-04",
+    "resposta": "+3 unidades.",
+    "resolucao": [
+      "Some 4+2+6+0=12.",
+      "Divida por quatro: 3; não trate oito medidas como independentes."
+    ],
+    "motivoErro": "Calcular média separada e omitir estrutura pareada de incerteza."
+  },
+  {
+    "id": "MAT-EST-038-EX-CON-05",
+    "resposta": "30%.",
+    "resolucao": [
+      "O denominador apropriado é 40, não a amostra inteira.",
+      "12/40=0,30; informe qual população condicional se refere."
+    ],
+    "motivoErro": "Usar um total sem relação com o evento condicionado."
+  },
+  {
+    "id": "MAT-EST-038-EX-CON-06",
+    "resposta": "Rever condições de aproximação e considerar método exato adequado ao desenho.",
+    "resolucao": [
+      "O qui-quadrado usa aproximação assintótica.",
+      "Contagens pequenas podem invalidar aproximação; registre as margens e o desenho."
+    ],
+    "motivoErro": "Aplicar fórmula conhecida sem verificar pressupostos."
+  },
+  {
+    "id": "MAT-EST-038-EX-CON-07",
+    "resposta": "F=4.",
+    "resolucao": [
+      "F é a razão dos quadrados médios.",
+      "Divida 8 por 2; a conclusão exigiria graus de liberdade e distribuição de referência."
+    ],
+    "motivoErro": "Tomar F=4 como prova automática de quais grupos diferem."
+  },
+  {
+    "id": "MAT-EST-038-EX-CON-08",
+    "resposta": "25 unidades.",
+    "resolucao": [
+      "Substitua: 10+2(4)+3(1)+1(4)(1).",
+      "Some 10+8+3+4=25; para D=0 seria 18."
+    ],
+    "motivoErro": "Omitir o termo de interação ao interpretar D=1."
+  },
+  {
+    "id": "MAT-EST-038-EX-CON-09",
+    "resposta": "MAE=6,25 atendimentos; RMSE=12,5 atendimentos.",
+    "resolucao": [
+      "MAE=(0+0+0+25)/4=6,25.",
+      "RMSE=raiz de ((0+0+0+625)/4)=raiz de 156,25=12,5."
+    ],
+    "motivoErro": "Confundir média dos quadrados com raiz da média dos quadrados."
+  },
+  {
+    "id": "MAT-EST-038-EX-CON-10",
+    "resposta": "A=40 unidades monetárias; B=25, sob este cenário hipotético.",
+    "resolucao": [
+      "A: 3 vezes 10 + 1 vezes 10 = 40.",
+      "B: 3 vezes 0 + 1 vezes 25 = 25; custos assumidos não são universais."
+    ],
+    "motivoErro": "Escolher um modelo só por MAE ou RMSE sem relacioná-lo ao custo da decisão."
+  },
+  {
+    "id": "MAT-EST-038-EX-VES-01",
+    "resposta": "A afirmação populacional não é sustentada; “54 entre 100 respondentes voluntários, isto é, 54%, foram favoráveis; não é possível inferir a proporção populacional sem avaliar seleção e cobertura.”",
+    "resolucao": [
+      "Identifique população-alvo e amostra efetiva.",
+      "Calcule 54/100, explicite voluntariado e limitação de generalização."
+    ],
+    "motivoErro": "Converter descrição da amostra em certeza sobre toda a população."
+  },
+  {
+    "id": "MAT-EST-038-EX-VES-02",
+    "resposta": "[0,442; 0,638], aproximadamente; np=54 e n(1-p)=46.",
+    "resolucao": [
+      "p estimado=0,54; EP=raiz(0,54 vezes 0,46/100), aproximadamente 0,04984.",
+      "Margem=1,96 vezes EP, aproximadamente 0,09768; extremos 0,44232 e 0,63768.",
+      "A cobertura é aproximada, depende das hipóteses e o intervalo de Wald não é a melhor escolha universal, sobretudo para proporções extremas."
+    ],
+    "motivoErro": "Aplicar aproximação ignorando a seleção da amostra ou atribuir probabilidade posterior de 95% ao parâmetro fixo."
+  },
+  {
+    "id": "MAT-EST-038-EX-VES-03",
+    "resposta": "O valor-p pode indicar evidência estatística contra H0 no modelo, mas não informa sozinho magnitude nem prova causalidade.",
+    "resolucao": [
+      "Peça estimativa e intervalo, verifique desenho, comparadores e pressupostos.",
+      "Causalidade exige premissas e estratégia de identificação além de p pequeno."
+    ],
+    "motivoErro": "Tratar p como magnitude ou garantia causal."
+  },
+  {
+    "id": "MAT-EST-038-EX-VES-04",
+    "resposta": "Não. Deve-se examinar contrastes ou comparações múltiplas apropriadas, como Tukey sob condições pertinentes, controlando multiplicidade.",
+    "resolucao": [
+      "A hipótese global avalia igualdade conjunta.",
+      "Rejeição significa evidência de pelo menos uma diferença, não de todas as comparações."
+    ],
+    "motivoErro": "Repetir testes par a par sem ajustar erro familiar."
+  },
+  {
+    "id": "MAT-EST-038-EX-VES-05",
+    "resposta": "No difícil: A 10%, B 20%; no fácil: A 90%, B 95%; no total: A 82/100=82%, B 35/100=35%. Apesar de B ter taxa maior em ambos os estratos, A parece maior no agregado por composição desigual.",
+    "resolucao": [
+      "Some numeradores e denominadores por grupo, não médias simples de taxas.",
+      "Compare cada estrato antes do agregado; composição pode inverter interpretação (paradoxo de Simpson).",
+      "Não infira efeito causal apenas das proporções."
+    ],
+    "motivoErro": "Comparar taxas agregadas ignorando a distribuição de casos difíceis e fáceis."
+  },
+  {
+    "id": "MAT-EST-038-EX-VES-06",
+    "resposta": "Há vazamento dos dados de teste para o treinamento, pois a transformação já usou informação de teste.",
+    "resolucao": [
+      "Faça a divisão antes de estimar parâmetros da transformação.",
+      "Ajuste a padronização somente no treino; aplique parâmetros treinados aos conjuntos seguintes e dentro de cada dobra da validação cruzada."
+    ],
+    "motivoErro": "Ignorar que pré-processamento também aprende parâmetros."
+  },
+  {
+    "id": "MAT-EST-038-EX-VES-07",
+    "resposta": "A: MAE 5 e RMSE 5; B: MAE 6,25 e RMSE 12,5. B concentra um erro de 25 em um dia.",
+    "resolucao": [
+      "A soma absoluta é 20 e a soma de quadrados é 100; divida por 4.",
+      "B soma absoluta 25 e quadrados 625; divida por 4 e tire raiz no RMSE.",
+      "Conclusão restrita aos quatro dias fictícios observados; não extrapolar sem avaliação adicional."
+    ],
+    "motivoErro": "Olhar apenas a média global e não identificar o dia extremo."
+  },
+  {
+    "id": "MAT-EST-038-EX-VES-08",
+    "resposta": "Não: custo assimétrico e RMSE medem objetivos diferentes; o relatório deve apresentar ambos e justificar a regra de decisão.",
+    "resolucao": [
+      "Custo privilegia penalidade direcional; RMSE eleva ao quadrado erros grandes sem considerar direção.",
+      "Descreva pressupostos e sensibilidade à mudança dos custos."
+    ],
+    "motivoErro": "Chamar uma métrica de melhor em todos os objetivos."
+  },
+  {
+    "id": "MAT-EST-038-EX-VES-09",
+    "resposta": "Sim, a relação y=x² é perfeita, mas a covariância e correlação lineares amostrais são zero por simetria.",
+    "resolucao": [
+      "Média de x é zero; média de y é 2.",
+      "A soma de x vezes (y-2) se cancela entre valores simétricos.",
+      "Inspecione diagrama de dispersão e ajuste não linear se justificável; r=0 não prova independência."
+    ],
+    "motivoErro": "Confundir ausência de correlação linear com ausência de associação."
+  },
+  {
+    "id": "MAT-EST-038-EX-VES-10",
+    "resposta": "“Simulado disponível; tentativa não registrada; correção e diagnóstico individual pendentes. Após resposta, classificar erros por habilidade e programar reteste independente.”",
+    "resolucao": [
+      "Distinga estado do conteúdo de estado do estudante.",
+      "Não gere nota, porcentagem de acerto, revisão cumprida nem etiqueta consolidado."
+    ],
+    "motivoErro": "Produzir métricas pessoais a partir do gabarito, e não das respostas do aluno."
+  },
+  {
+    "id": "MAT-EST-038-EX-RET-01",
+    "resposta": "60% da amostra; não é justificável afirmar 60% da população-alvo.",
+    "resolucao": [
+      "48/80 = 0,60.",
+      "A autoseleção impede generalização automática independentemente de n."
+    ],
+    "motivoErro": "Repetir erro de confundir amostra e população."
+  },
+  {
+    "id": "MAT-EST-038-EX-RET-02",
+    "resposta": "1-(0,95)^10, aproximadamente 40,13%.",
+    "resolucao": [
+      "Probabilidade de nenhum é 0,95 elevado a 10.",
+      "Pelo menos um é seu complemento; se a independência não vale, a fórmula não se aplica automaticamente."
+    ],
+    "motivoErro": "Somar 10 vezes 5% e ignorar sobreposição e independência."
+  },
+  {
+    "id": "MAT-EST-038-EX-RET-03",
+    "resposta": "7/3, aproximadamente 2,33 unidades.",
+    "resolucao": [
+      "Diferenças individuais: +2,+1,+4.",
+      "Soma =7, dividida por 3; não usar seis observações independentes."
+    ],
+    "motivoErro": "Ignorar a unidade de pareamento."
+  },
+  {
+    "id": "MAT-EST-038-EX-RET-04",
+    "resposta": "6.",
+    "resolucao": [
+      "24 vezes 15, dividido por 60, resulta 6.",
+      "Uma única célula esperada não determina isoladamente todo diagnóstico do teste; examine a tabela."
+    ],
+    "motivoErro": "Dividir pelo total da linha, em vez do total geral."
+  },
+  {
+    "id": "MAT-EST-038-EX-RET-05",
+    "resposta": "MAE=5/3≈1,667; MSE=11/3≈3,667; RMSE=√(11/3)≈1,915.",
+    "resolucao": [
+      "Absolutos: 1+1+3=5; divida por 3.",
+      "Quadrados: 1+1+9=11; divida por 3, depois tire raiz."
+    ],
+    "motivoErro": "Elevar a média dos erros ao quadrado em vez de fazer média dos quadrados."
+  },
+  {
+    "id": "MAT-EST-038-EX-RET-06",
+    "resposta": "MAE global=5,5; o resultado médio esconde pior desempenho no segundo subgrupo, exigindo investigação e validação adicional.",
+    "resolucao": [
+      "Com grupos de mesmo tamanho, faça a média ponderada: (2+9)/2=5,5.",
+      "Identifique a diferença entre grupos sem atribuí-la automaticamente a uma causa."
+    ],
+    "motivoErro": "Publicar apenas a média geral e ocultar heterogeneidade relevante."
+  }
+]

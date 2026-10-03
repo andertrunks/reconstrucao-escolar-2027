@@ -1,0 +1,79 @@
+[
+  {
+    "id": "MAT-EST-046-VIS-01",
+    "arquivo": "assets/01-origens-e-horizontes.svg",
+    "titulo": "Três origens de previsão e dois horizontes",
+    "legenda": "Três origens de previsão e dois horizontes",
+    "alt": "Linhas t8, t9 e t10 exibem blocos de informações disponíveis e alvos h1 e h2, cada qual depois do corte correspondente.",
+    "oQueObservar": "Verifique como o treino se expande e como o mesmo t10 aparece em previsões de origens distintas.",
+    "conclusaoTextual": "Só dados existentes até a origem podem formar estado, referência, parâmetro ou transformação do respectivo cálculo.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-046-VIS-02",
+    "arquivo": "assets/02-janelas-expansivas.svg",
+    "titulo": "Janelas expansivas no calendário trimestral",
+    "legenda": "Janelas expansivas no calendário trimestral",
+    "alt": "A origem oito usa t1 até t8; a origem nove acrescenta t9; a origem dez acrescenta t10; os dois próximos pontos de cada corte são alvos.",
+    "oQueObservar": "Observe que é legítimo usar t9 depois que a origem nove foi alcançada, mas jamais na emissão da origem oito.",
+    "conclusaoTextual": "Janela expansiva recompõe o modelo com o que já ocorreu; não adiciona observações posteriores à origem.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-046-VIS-03",
+    "arquivo": "assets/03-painel-seis-previsoes.svg",
+    "titulo": "Seis tarefas de previsão comparáveis",
+    "legenda": "Seis tarefas de previsão comparáveis",
+    "alt": "Seis linhas de origens oito, nove, dez cruzadas com horizontes um e dois; três previsões por linha, com valores escritos.",
+    "oQueObservar": "Leia uma linha inteira antes de comparar métodos; horizonte e origem precisam coincidir.",
+    "conclusaoTextual": "Comparações honestas usam o mesmo alvo, origem e informação disponível; valores não são teste independente inédito.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-046-VIS-04",
+    "arquivo": "assets/04-erros-por-origem.svg",
+    "titulo": "Erros do Holt-Winters por origem e horizonte",
+    "legenda": "Erros do Holt-Winters por origem e horizonte",
+    "alt": "Erros de h1: −1,99, −1,54, +2,76; erros de h2: −2,26, +2,20, −1,00.",
+    "oQueObservar": "Não confunda sinal com magnitude. Uma média de erros com sinais opostos pode ocultar erros relevantes.",
+    "conclusaoTextual": "As tarefas h1 e h2 compartilham períodos e não equivalem a seis experimentos independentes.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-046-VIS-05",
+    "arquivo": "assets/05-mae-por-horizonte.svg",
+    "titulo": "MAE separado por horizonte e procedimento",
+    "legenda": "MAE separado por horizonte e procedimento",
+    "alt": "Barras do ingênuo sazonal ficam próximas de vinte unidades, enquanto HW e deslocamento ficam próximas de duas unidades na base fictícia.",
+    "oQueObservar": "A métrica resumida para horizonte um não deve ser confundida com a de horizonte dois; identifique também referência e regra de comparação.",
+    "conclusaoTextual": "São apenas três erros por horizonte e os valores servem à oficina, sem classificação universal de modelos.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-046-VIS-06",
+    "arquivo": "assets/06-faixas-descritivas.svg",
+    "titulo": "Faixas ilustrativas e observações posteriores",
+    "legenda": "Faixas ilustrativas e observações posteriores",
+    "alt": "Duas das três previsões de h1 ficam dentro da faixa ±2; as três de h2 ficam dentro da faixa ±3, neste exemplo sintético.",
+    "oQueObservar": "A classificação é uma contagem retrospectiva; as faixas foram escolhidas didaticamente, não calibradas para 80%, 90% ou 95%.",
+    "conclusaoTextual": "Três casos por horizonte e alvos sobrepostos não demonstram cobertura populacional nem intervalo probabilístico válido.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-046-VIS-07",
+    "arquivo": "assets/07-protocolo-auditoria.svg",
+    "titulo": "Protocolo: previsão, avaliação e relatório",
+    "legenda": "Protocolo: previsão, avaliação e relatório",
+    "alt": "O protocolo separa emissão da previsão e leitura do alvo; o cálculo das métricas ocorre somente depois de observar.",
+    "oQueObservar": "Auditar exige registrar a origem, os parâmetros, os alvos e as decisões de reestimação em cada passo.",
+    "conclusaoTextual": "A base futura já divulgada permite treino didático, mas não estimar desempenho prospectivo imparcial ou calibrar faixas nominais.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  }
+]

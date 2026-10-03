@@ -1,0 +1,37 @@
+{
+  "projeto": "Reconstrução Escolar + ENEM e Vestibulares 2027",
+  "ultimo_pacote_editorial_concluido": "MAT-EST-052",
+  "titulo_ultimo": "Ensaio operacional de monitoramento: integridade do registro, atrasos de observação e encerramento auditável",
+  "ultimo_confirmado_antes": "MAT-EST-051",
+  "etapa_atual": "gerada localmente; não sincronizada, publicada nem estudada",
+  "proximo_topico_editorial": "MAT-EST-053",
+  "titulo_proximo_proposto": "Qualidade e versionamento de dados temporais: proveniência, reprocessamento e políticas de avaliação por versão",
+  "proxima_acao": "Verificar estado canônico; produzir somente MAT-EST-053, sem inventar observações t23 a t25 nem fatos operacionais. Trabalhar proveniência e política de versões, preservando log didático em namespace separado.",
+  "progresso_individual": "não iniciado; não atualizado",
+  "historico_ficticio": "t01 a t22 preservado",
+  "alvos_futuros_sem_observacao": [
+    "t23",
+    "t24",
+    "t25"
+  ],
+  "protocolo": "MAT-EST-049-PROT-v1 intacto",
+  "plano": "MAT-EST-051-PLAN-v1 intacto",
+  "cinco_pares_documentados": "t18 a t22",
+  "falha_t19": "piora local 19,2 > 10; não promover no protocolo 049",
+  "recalculos_t23": {
+    "B": 183,
+    "C": 199,
+    "status": "ilustrativos, não log autenticado"
+  },
+  "novos_eventos": "somente EXEMPLO-Z-ISOLADO; não representam t23/t24/t25",
+  "nao_alegar": [
+    "deploy",
+    "sincronização Drive ou GitHub",
+    "teste manual Edge",
+    "reprodução integral do vídeo",
+    "observação t23 a t25",
+    "emissão histórica autenticada para t23",
+    "promoção",
+    "aprovação de estudante"
+  ]
+}

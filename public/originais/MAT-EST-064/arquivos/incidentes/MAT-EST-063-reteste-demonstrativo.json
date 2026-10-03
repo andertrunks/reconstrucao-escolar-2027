@@ -1,0 +1,29 @@
+{
+  "id": "MAT-EST-063-RET-I01-v1",
+  "somente_demo": true,
+  "fixture": "I01",
+  "antes": {
+    "denominator": 8,
+    "resultado": "reject_denominator",
+    "digest": "077ab145a3824f544f3866665bb053c82729880113a1ccbb406f8737baf3e59f"
+  },
+  "correcao_minima": "restaurar denominator=2 apenas na cópia I01; não mudar baseline nem outros cartões",
+  "depois": {
+    "denominator": 2,
+    "resultado": "pass_local_fixture",
+    "digest": "88b55cee86c8cf53ad7894c3ed4e8725f1d64cad3b9d66dc6b68f6cfd76c1063"
+  },
+  "verificacoes": {
+    "teste_alvo": "pass_local_fixture",
+    "regressao_baseline": "pass_local_fixture",
+    "demais_mutacoes": {
+      "I02": "reject_alt",
+      "I03": "reject_history",
+      "I04": "reject_source_hash",
+      "I05": "reject_unit",
+      "I06": "reject_caption"
+    }
+  },
+  "publicacao": false,
+  "aprovacao_humana": false
+}

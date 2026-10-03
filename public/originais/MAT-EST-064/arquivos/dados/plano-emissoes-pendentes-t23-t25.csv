@@ -1,0 +1,4 @@
+plan_id,protocol_id,origin,target,horizon,forecast_status,forecast_b,forecast_c,observation_status,observed_value,reason
+MAT-EST-051-PLAN-T23,MAT-EST-049-PROT-v1,t22,t23,1,nao_emitido,,,nao_observado,,aula_de_desenho_sem_log_temporal_autenticado
+MAT-EST-051-PLAN-T24,MAT-EST-049-PROT-v1,t23,t24,1,nao_emitido,,,nao_observado,,aula_de_desenho_sem_log_temporal_autenticado
+MAT-EST-051-PLAN-T25,MAT-EST-049-PROT-v1,t24,t25,1,nao_emitido,,,nao_observado,,aula_de_desenho_sem_log_temporal_autenticado

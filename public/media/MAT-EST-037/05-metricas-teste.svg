@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="390" viewBox="0 0 1120 390" role="img" aria-labelledby="ttl desc">
+<title id="ttl">Comparação de MAE e RMSE no teste fictício</title>
+<desc id="desc">Gráfico de barras agrupadas em atendimentos por dia: A 5 e 5; B 6,25 e 12,5; Base 12,5 e 16,58. Escala vertical de 0 a 20.</desc>
+<rect width="1120" height="390" rx="20" fill="#f8fafc"/>
+<text x="50" y="40" font-size="23" font-weight="bold" font-family="Arial">Erro de previsão nos quatro dias de teste</text>
+<text x="50" y="68" font-size="15" font-family="Arial">Eixo vertical: atendimentos por dia (0 a 20). Eixo horizontal: candidato.</text>
+<path d="M 95 315 H 1000" stroke="#9ca3af" stroke-width="1"/>
+<text x="57" y="320" font-family="Arial" font-size="15">0</text>
+<path d="M 95 265 H 1000" stroke="#9ca3af" stroke-width="1"/>
+<text x="57" y="270" font-family="Arial" font-size="15">5</text>
+<path d="M 95 215 H 1000" stroke="#9ca3af" stroke-width="1"/>
+<text x="57" y="220" font-family="Arial" font-size="15">10</text>
+<path d="M 95 165 H 1000" stroke="#9ca3af" stroke-width="1"/>
+<text x="57" y="170" font-family="Arial" font-size="15">15</text>
+<path d="M 95 115 H 1000" stroke="#9ca3af" stroke-width="1"/>
+<text x="57" y="120" font-family="Arial" font-size="15">20</text>
+<rect x="215" y="265.0" width="62" height="50.0" fill="#174974"/>
+<text x="246" y="257.0" text-anchor="middle" font-family="Arial" font-size="16">5.00</text>
+<rect x="290" y="265.0" width="62" height="50.0" fill="#b35b13"/>
+<text x="321" y="257.0" text-anchor="middle" font-family="Arial" font-size="16">5.00</text>
+<text x="284" y="340" text-anchor="middle" font-family="Arial" font-size="19">A</text>
+<rect x="490" y="252.5" width="62" height="62.5" fill="#174974"/>
+<text x="521" y="244.5" text-anchor="middle" font-family="Arial" font-size="16">6.25</text>
+<rect x="565" y="190.0" width="62" height="125.0" fill="#b35b13"/>
+<text x="596" y="182.0" text-anchor="middle" font-family="Arial" font-size="16">12.50</text>
+<text x="559" y="340" text-anchor="middle" font-family="Arial" font-size="19">B</text>
+<rect x="765" y="190.0" width="62" height="125.0" fill="#174974"/>
+<text x="796" y="182.0" text-anchor="middle" font-family="Arial" font-size="16">12.50</text>
+<rect x="840" y="149.2" width="62" height="165.8" fill="#b35b13"/>
+<text x="871" y="141.2" text-anchor="middle" font-family="Arial" font-size="16">16.58</text>
+<text x="834" y="340" text-anchor="middle" font-family="Arial" font-size="19">Base</text>
+<rect x="400" y="356" width="16" height="16" fill="#174974"/><text x="423" y="370" font-family="Arial" font-size="14">MAE</text>
+<rect x="530" y="356" width="16" height="16" fill="#b35b13"/><text x="553" y="370" font-family="Arial" font-size="14">RMSE</text>
+</svg>

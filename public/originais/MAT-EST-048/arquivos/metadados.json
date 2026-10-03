@@ -1,0 +1,137 @@
+{
+  "id": "MAT-EST-048",
+  "slug": "monitoramento-prospectivo-series-temporais-registro-previsoes-deriva-dados-protocolos-revisao-modelos",
+  "titulo": "Monitoramento prospectivo de séries temporais: registro de previsões, deriva de dados e protocolos de revisão de modelos",
+  "materia": "Matemática",
+  "unidade": "Estatística — Séries temporais / ponte universitária",
+  "nivel": 6,
+  "ordem": 48,
+  "preRequisitos": [
+    "MAT-EST-031",
+    "MAT-EST-032",
+    "MAT-EST-039",
+    "MAT-EST-041",
+    "MAT-EST-042",
+    "MAT-EST-043",
+    "MAT-EST-044",
+    "MAT-EST-045",
+    "MAT-EST-046",
+    "MAT-EST-047"
+  ],
+  "objetivos": [
+    "Congelar previsões antes dos observados",
+    "Monitorar erros h1 e qualidade dos dados",
+    "Distinguir sinais de deriva de conclusões causais",
+    "Aplicar protocolo pedagógico predefinido",
+    "Comparar versão base e desafiante em alvos futuros"
+  ],
+  "conceitosRelacionados": [
+    "origem",
+    "alvo",
+    "horizonte",
+    "vazamento temporal",
+    "MAE",
+    "sazonalidade",
+    "deriva de dados",
+    "protocolo de revisão",
+    "avaliação emparelhada"
+  ],
+  "aplicacoes": [
+    "educação estatística",
+    "governança de modelos"
+  ],
+  "examesRelacionados": [
+    "ENEM — interpretação geral",
+    "FUVEST — leitura matemática geral",
+    "UNICAMP — interpretação geral",
+    "UNESP — interpretação geral",
+    "ponte universitária — conteúdo específico"
+  ],
+  "profundidadeEsperada": "Intuição, formalização, exemplo sequencial, auditoria de dados, limiares didáticos, crítica de evidência, transferência e reteste. Não declarado conteúdo exigido por banca.",
+  "anterior": "MAT-EST-047",
+  "proximoTopico": "MAT-EST-049",
+  "proximoTituloProposto": "Comparação prospectiva de modelos temporais: desafiante, referência, custos e decisão de atualização",
+  "aulaMarkdown": "MAT-EST-048-monitoramento-prospectivo-series-temporais-registro-previsoes-deriva-dados-protocolos-revisao-modelos.md",
+  "visuais": [
+    {
+      "src": "assets/01-serie-historica-e-chegadas.svg",
+      "alt": "Cada SVG possui title e desc, com legenda detalhada no corpo da aula."
+    },
+    {
+      "src": "assets/02-protocolo-temporal.svg",
+      "alt": "Cada SVG possui title e desc, com legenda detalhada no corpo da aula."
+    },
+    {
+      "src": "assets/03-erros-e-limiar.svg",
+      "alt": "Cada SVG possui title e desc, com legenda detalhada no corpo da aula."
+    },
+    {
+      "src": "assets/04-protocolo-revisao.svg",
+      "alt": "Cada SVG possui title e desc, com legenda detalhada no corpo da aula."
+    },
+    {
+      "src": "assets/05-desafiante-sem-vazamento.svg",
+      "alt": "Cada SVG possui title e desc, com legenda detalhada no corpo da aula."
+    }
+  ],
+  "video": {
+    "titulo": "Forecasting: Principles and Practice",
+    "canal_ou_autor": "Rob J Hyndman",
+    "url": "https://robjhyndman.com/hyndsight/fpp-video/",
+    "duracao": "não informada",
+    "idioma": "inglês",
+    "pontoRecomendado": "após seção 3",
+    "statusVerificacao": "página encontrada; reprodução integral não confirmada"
+  },
+  "exercicios": {
+    "arquivo": "exercicios.json",
+    "quantidade": 36,
+    "porCamada": {
+      "aprendizagem": 10,
+      "consolidacao": 10,
+      "vestibular_autoral": 10,
+      "reteste": 6
+    },
+    "origem": "autoral"
+  },
+  "gabarito": "gabarito-comentado.json",
+  "revisao": "1, 7 e 30 dias após estudo e tentativa efetivos",
+  "progressoIndividual": "não iniciado; não alterar sem evidência",
+  "statusEditorial": "pacote local concluido, sem publicação e sem sincronização",
+  "dados": {
+    "herdados": [
+      90,
+      107,
+      128,
+      105,
+      111,
+      124,
+      150,
+      127,
+      129,
+      145,
+      171,
+      144
+    ],
+    "novos_sinteticos": [
+      134,
+      151,
+      187,
+      160,
+      167,
+      176
+    ],
+    "nota": "Mesmo conjunto numérico herdado; não foi possível cotejar arquivo binário antigo."
+  },
+  "regras": {
+    "exporRespostaAntesTentativa": false,
+    "alterarHistorico": false,
+    "declararIntervaloCalibrado": false
+  },
+  "fontes": [
+    "https://otexts.com/fpp3/accuracy.html",
+    "https://otexts.com/fpp3/judgmental-principles.html",
+    "https://docs.cloud.google.com/gemini-enterprise-agent-platform/machine-learning/model-monitoring/overview",
+    "https://www.ibm.com/think/topics/model-drift"
+  ]
+}

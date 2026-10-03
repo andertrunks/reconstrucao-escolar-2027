@@ -1,0 +1,11 @@
+CONTINUIDADE — RECONSTRUÇÃO ESCOLAR + ENEM E VESTIBULARES 2027
+
+Último pacote editorial local concluído: MAT-EST-053 — Qualidade e versionamento de dados temporais: proveniência, reprocessamento e políticas de avaliação por versão. Consultar ZIP MAT-EST-053-pacote-integracao.zip e checkpoint-editorial.json. Se não estiverem disponíveis no novo chat, solicitar seu anexo, sem inventar arquivos.
+
+Próximo tópico apenas proposto (não iniciado): MAT-EST-054 — Auditoria de avaliações temporais: reconciliação de versões, rastreamento de métricas e relatórios reproduzíveis.
+
+Preservar série t01–t22, dez CSVs herdados e registros adicionais, MAT-EST-049-PROT-v1 e MAT-EST-051-PLAN-v1 intactos. t23–t25 sem observações nem emissões autenticadas; B23=183 e C23=199 são recálculos didáticos. Os cinco pares t18–t22 dão MAE B=17,60 C=8,36, mas t19 tem deterioração local 19,2>10: proibição de promoção sob protocolo original.
+
+EXEMPLO-Z-ISOLADO herdado: previsão29; v1 preliminar30; v2 validada32; erros+1 e +3, custos3 e9. EXEMPLO-V-ISOLADO acrescentado na MAT-EST-053: previsões congeladas B42 C43 em L10; observado preliminar40 em L12 e validado44 em L13; versão inicial módulos B2 C3 e custos B2 C3; versão validada módulos B2 C1 e custos B6 C3. L são ordens fictícias, NÃO timestamps autenticados. Esses exemplos não acrescentam pares principais. Política de vintage e avaliação devem sempre dizer corte, versão e elegibilidade.
+
+Quando eu disser Continuar, verificar primeiro o checkpoint canônico e avançar exatamente uma etapa editorial: MAT-EST-054. Produzir aula aprofundada, visuais acessíveis, vídeo complementar verificado, exercícios autorais graduais, gabarito separado, Markdown, dados e metadados, prévia, ZIP e manifesto SHA-256 com testes. Não inventar observações futuras ou alegar publicação, sincronização e teste real não realizados. Não atualizar progresso individual sem tentativa. Registrar próximo checkpoint e botões Continuar e Copiar prompt.

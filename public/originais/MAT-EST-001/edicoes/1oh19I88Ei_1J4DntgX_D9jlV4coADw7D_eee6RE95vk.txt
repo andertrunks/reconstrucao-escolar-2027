@@ -1,0 +1,163 @@
+﻿MAT-EST-001 — Exercícios da reconstrução editorial v1
+
+
+Regra: todos os 36 itens abaixo são AUTORAIS. Nenhum enunciado oficial foi reconstruído de memória. O gabarito fica em documento separado e só deve ser aberto depois da tentativa correspondente.
+
+
+Camada A — Aprendizagem básica
+
+
+MAT-EST-001-EX-APR-01
+Uma escola possui 820 estudantes matriculados. Uma pesquisa sobre deslocamento seleciona 120 deles. Identifique população e amostra.
+
+
+MAT-EST-001-EX-APR-02
+Em uma pesquisa sobre tempo de atendimento, cada linha da planilha corresponde a um atendimento, e uma mesma pessoa pode aparecer mais de uma vez. Qual é a unidade de análise?
+
+
+MAT-EST-001-EX-APR-03
+A coluna da planilha se chama “tempo de espera em minutos”. Em uma linha aparece o valor 18. Identifique a variável e o dado.
+
+
+MAT-EST-001-EX-APR-04
+Uma pesquisa registra “meio de transporte principal” com categorias ônibus, carro, bicicleta e caminhada. Classifique a variável.
+
+
+MAT-EST-001-EX-APR-05
+Uma tabela registra número de livros emprestados por usuário em um mês: 0, 1, 2, 3 e assim por diante. Classifique a variável.
+
+
+MAT-EST-001-EX-APR-06
+Uma pesquisa registra tempo de viagem com precisão de segundos. A grandeza tempo é discreta ou contínua?
+
+
+MAT-EST-001-EX-APR-07
+Uma pesquisa registra satisfação nas categorias baixa, média e alta. Ela é qualitativa nominal ou ordinal? Justifique.
+
+
+MAT-EST-001-EX-APR-08
+Uma fábrica examina todas as 2.400 peças produzidas em determinado lote. A coleta é censitária ou amostral em relação a esse lote?
+
+
+MAT-EST-001-EX-APR-09
+O código do setor é armazenado como 1, 2, 3 e 4, mas cada número é apenas um rótulo de setor. A variável é necessariamente quantitativa? Explique.
+
+
+MAT-EST-001-EX-APR-10
+Complete a frase: “População é ______; amostra é ______.”
+
+
+Camada B — Consolidação
+
+
+MAT-EST-001-EX-CON-01
+Uma biblioteca quer estudar a quantidade de páginas de todos os livros de ficção de seu acervo. Seleciona 300 livros. Defina população, amostra, unidade de análise, variável e um exemplo de dado.
+
+
+MAT-EST-001-EX-CON-02
+Uma empresa tem 2.000 funcionários. Um formulário voluntário recebe 1.100 respostas sobre satisfação. Explique por que “1.100 é um número grande” não é suficiente para afirmar representatividade.
+
+
+MAT-EST-001-EX-CON-03
+Em um estudo de ônibus, cada linha corresponde a uma viagem realizada, não ao veículo. A coluna “veículo” pode repetir. Qual é a unidade de análise? O que mudaria se cada linha representasse um ônibus?
+
+
+MAT-EST-001-EX-CON-04
+Classifique: cor favorita; grau de escolaridade em categorias ordenadas; número de faltas; massa corporal medida em quilogramas.
+
+
+MAT-EST-001-EX-CON-05
+Uma planilha contém uma coluna “idade” e outra “faixa etária”. Explique por que as duas podem ter classificações diferentes mesmo tratando do mesmo tema.
+
+
+MAT-EST-001-EX-CON-06
+Uma pesquisa pretende falar sobre todos os moradores de uma cidade, mas coleta dados somente em uma academia. Identifique o problema conceitual sem calcular qualquer porcentagem.
+
+
+MAT-EST-001-EX-CON-07
+“População = cidade; amostra = bairro.” Explique por que essa frase pode estar errada e reescreva-a de modo estatisticamente preciso.
+
+
+MAT-EST-001-EX-CON-08
+Uma universidade mede a temperatura de uma sala a cada minuto durante 24 horas. A unidade de análise é necessariamente “a sala”? Discuta uma definição coerente para a planilha.
+
+
+MAT-EST-001-EX-CON-09
+Um questionário pergunta “quantos aplicativos você abriu ontem?” e “qual aplicativo você mais usou?”. Classifique as duas variáveis.
+
+
+MAT-EST-001-EX-CON-10
+Uma população finita tem N = 5.000 unidades e a amostra tem n = 250. Explique o significado de N e n sem calcular proporção.
+
+
+Camada C — Transferência e estilo vestibular — autorais
+
+
+MAT-EST-001-EX-VES-01
+Um portal publica: “Pesquisa com 50 mil seguidores prova a opinião dos brasileiros”. As respostas vieram de uma enquete aberta aos seguidores do próprio perfil. Qual informação metodológica impede aceitar automaticamente a conclusão?
+
+
+MAT-EST-001-EX-VES-02
+Um estudo sobre atrasos de voos usa cada voo como linha. Outro usa cada aeroporto como linha e resume os voos de cada aeroporto. Explique como a mudança de unidade de análise altera o tipo de pergunta que pode ser respondida.
+
+
+MAT-EST-001-EX-VES-03
+Uma tabela usa os códigos 0 = não, 1 = sim. Um estudante afirma: “como são números, a variável é quantitativa discreta”. Avalie a afirmação.
+
+
+MAT-EST-001-EX-VES-04
+Uma pesquisa quer estudar o tempo de deslocamento de trabalhadores de um município. Uma proposta define a população como “todos os carros do município”. Mostre a incompatibilidade entre pergunta e população.
+
+
+MAT-EST-001-EX-VES-05
+Em uma base, a variável “classificação de risco” assume A, B, C e D, com ordem do menor para o maior nível. Qual é a classificação mais adequada da variável? O fato de usar letras muda a resposta?
+
+
+MAT-EST-001-EX-VES-06
+Um relatório diz que foram coletados “10.000 dados”. Explique por que essa frase não informa necessariamente quantas unidades foram observadas.
+
+
+MAT-EST-001-EX-VES-07
+Uma escola registra para cada estudante: turma, idade, altura e número de irmãos. Quais são qualitativas e quais são quantitativas? Há alguma informação adicional necessária para classificar “turma”?
+
+
+MAT-EST-001-EX-VES-08
+Uma pesquisa censitária de um cadastro contém erros de digitação em 8% das linhas. Explique por que “foi censo” não significa “os dados são perfeitos”.
+
+
+MAT-EST-001-EX-VES-09
+Compare as frases:
+A. “Na amostra, 62% escolheram a opção X.”
+B. “Na população, exatamente 62% escolheriam a opção X.”
+Por que a primeira pode ser uma descrição direta e a segunda exige justificativa adicional?
+
+
+MAT-EST-001-EX-VES-10
+Crie um exemplo próprio contendo: uma pergunta estatística, uma população, uma amostra, uma unidade de análise, uma variável qualitativa e uma variável quantitativa. Explique cada escolha.
+
+
+Camada D — Reteste independente — aplicar somente depois da correção e da recuperação necessária
+
+
+MAT-EST-001-EX-RET-01
+Uma plataforma quer estudar duração de sessões de uso. Cada usuário pode abrir várias sessões. Defina uma unidade de análise coerente e diga que população corresponderia a essa escolha.
+
+
+MAT-EST-001-EX-RET-02
+Uma variável assume valores “iniciante”, “intermediário” e “avançado”. Classifique e explique por que ela não se torna quantitativa apenas se for codificada como 1, 2 e 3.
+
+
+MAT-EST-001-EX-RET-03
+Uma indústria seleciona 200 produtos do turno noturno e tenta concluir sobre toda a produção semanal, incluindo outros turnos. Qual é a pergunta metodológica que deve ser feita antes da generalização?
+
+
+MAT-EST-001-EX-RET-04
+Diferencie, numa frase própria, “variável” e “dado” usando um exemplo diferente dos usados na aula.
+
+
+MAT-EST-001-EX-RET-05
+Uma pesquisa registra 600 linhas provenientes de 100 pessoas, seis linhas por pessoa. Quantas pessoas foram observadas? Quantos registros há? Por que os números não são sinônimos?
+
+
+MAT-EST-001-EX-RET-06
+Explique a cadeia “pergunta → população → unidade → variável → dados → conclusão” e dê um exemplo de erro causado por quebrar um dos elos.

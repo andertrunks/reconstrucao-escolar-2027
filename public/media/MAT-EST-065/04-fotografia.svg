@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="500" viewBox="0 0 1160 500" role="img" aria-labelledby="title desc">
+<title id="title">Fotografia não é tendência</title><desc id="desc">A linha de base consiste em uma única fotografia didática, não em vários instantes comparáveis.</desc>
+<rect width="100%" height="100%" fill="#f3f7fb"/>
+<rect x="22" y="22" width="1116" height="80" rx="14" fill="#173e64"/>
+<text x="48" y="70" fill="white" font-family="DejaVu Sans,Arial,sans-serif" font-size="26" font-weight="bold">Fotografia não é tendência</text>
+<rect x="34" y="126" width="1092" height="76" rx="11" fill="#ffffff" stroke="#c4d3df"/>
+<rect x="34" y="126" width="9" height="76" rx="4" fill="#2675aa"/>
+<text x="61" y="155" font-family="DejaVu Sans,Arial,sans-serif" font-weight="bold" font-size="21" fill="#162636">Fotografia F0: fonte e versão definidas</text>
+<text x="61" y="183" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#4b6175">Estado derivado das fixtures herdadas; sem timestamp de produção.</text>
+<rect x="34" y="218" width="1092" height="76" rx="11" fill="#fff3d8" stroke="#c4d3df"/>
+<rect x="34" y="218" width="9" height="76" rx="4" fill="#805700"/>
+<text x="61" y="247" font-family="DejaVu Sans,Arial,sans-serif" font-weight="bold" font-size="21" fill="#162636">Fotografia F1: não observada</text>
+<text x="61" y="275" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#4b6175">Não inventar dados de publicação, nova tentativa nem segunda medição.</text>
+<rect x="34" y="310" width="1092" height="76" rx="11" fill="#ffffff" stroke="#c4d3df"/>
+<rect x="34" y="310" width="9" height="76" rx="4" fill="#087a67"/>
+<text x="61" y="339" font-family="DejaVu Sans,Arial,sans-serif" font-weight="bold" font-size="21" fill="#162636">Comparação futura exige igual contrato</text>
+<text x="61" y="367" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#4b6175">Mesmo denominador, escopo, unidade e método de coleta.</text>
+<text x="38" y="463" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#4b6175">Figura 4. Um ponto isolado não mostra crescimento nem queda.</text>
+</svg>

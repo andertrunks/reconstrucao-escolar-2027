@@ -1,0 +1,62 @@
+{
+  "id": "MAT-EST-064-ENSAIO-v1",
+  "tipo": "reutilização das sete fixtures herdadas para treinar prevenção e detecção",
+  "baseline_preservado": true,
+  "resultados": [
+    {
+      "case_id": "I00",
+      "expected": "pass_local_fixture",
+      "actual": "pass_local_fixture",
+      "pass": true,
+      "source_only_fixture": true
+    },
+    {
+      "case_id": "I01",
+      "expected": "reject_denominator",
+      "actual": "reject_denominator",
+      "pass": true,
+      "source_only_fixture": true
+    },
+    {
+      "case_id": "I02",
+      "expected": "reject_alt",
+      "actual": "reject_alt",
+      "pass": true,
+      "source_only_fixture": true
+    },
+    {
+      "case_id": "I03",
+      "expected": "reject_history",
+      "actual": "reject_history",
+      "pass": true,
+      "source_only_fixture": true
+    },
+    {
+      "case_id": "I04",
+      "expected": "reject_source_hash",
+      "actual": "reject_source_hash",
+      "pass": true,
+      "source_only_fixture": true
+    },
+    {
+      "case_id": "I05",
+      "expected": "reject_unit",
+      "actual": "reject_unit",
+      "pass": true,
+      "source_only_fixture": true
+    },
+    {
+      "case_id": "I06",
+      "expected": "reject_caption",
+      "actual": "reject_caption",
+      "pass": true,
+      "source_only_fixture": true
+    }
+  ],
+  "I01_local_retest": {
+    "before": "reject_denominator",
+    "after": "pass_local_fixture",
+    "baseline": "pass_local_fixture"
+  },
+  "conclusao_limitada": "Testes passam em cópias locais; não provam alteração de processo real, eficácia operacional ou fechamento de ocorrência."
+}

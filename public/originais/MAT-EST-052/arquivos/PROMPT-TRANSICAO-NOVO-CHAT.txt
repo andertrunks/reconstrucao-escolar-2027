@@ -1,0 +1,9 @@
+CONTINUIDADE — PROJETO RECONSTRUÇÃO ESCOLAR + ENEM E VESTIBULARES 2027
+
+Última aula editorial concluída localmente: MAT-EST-052 — Ensaio operacional de monitoramento: integridade do registro, atrasos de observação e encerramento auditável. Consultar `MAT-EST-052-pacote-integracao.zip` e `checkpoint-editorial.json` que anexarei se necessário. NÃO houve publicação, sincronização Drive/GitHub, avaliação individual nem teste real do Edge.
+
+Próximo tópico proposto, ainda NÃO iniciado: MAT-EST-053 — Qualidade e versionamento de dados temporais: proveniência, reprocessamento e políticas de avaliação por versão.
+
+Preservar todas as aulas, IDs, arquitetura e dez CSVs herdados do 051; seis CSVs são o núcleo histórico. Dados fictícios t01–t22 preservados; t23, t24 e t25 sem observado e sem emissão autenticada. B23=183 e C23=199 são cálculos ilustrativos, cenários alternativos t23=178/191/209 não são observações. Referência BASE-SNAIVE-v1 e candidato CHAL-SDELTA5-v1. Protocolo `MAT-EST-049-PROT-v1` e plano `MAT-EST-051-PLAN-v1` preservados byte a byte; 5 de 8 pares, piora local de C em t19 = 19,2 maior que limite 10. Não promover sob o protocolo v1, não reajustar retroativamente custo 3. Novo JSONL EXEMPLO-Z-ISOLADO é somente treino com previsão 29, observado provisório 30 corrigido para 32; não misturar com série ou declarar evidência real.
+
+Ao receber Continuar, verificar checkpoint canônico e produzir exatamente MAT-EST-053. Criar aula aprofundada em Markdown, visuais acessíveis com alt/legenda/conclusão oral, vídeo complementar verificável, exercícios autorais graduais e gabarito separado, JSON metadados, CSVs herdados, ZIP de integração, prévia HTML/PNG, manifesto SHA-256 e testes. Não declarar integração, publicação, sincronização ou teste não realizados. Não alterar progresso individual sem estudo/tentativa. Ao terminar, registrar próximo tópico e entregar botões Continuar e Copiar prompt de transição.

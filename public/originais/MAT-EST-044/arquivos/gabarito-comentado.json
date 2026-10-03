@@ -1,0 +1,254 @@
+[
+  {
+    "questaoId": "MAT-EST-044-EX-APR-01",
+    "respostaEsperada": "Uma estimativa atualizada do nível da série.",
+    "correcaoComentada": "É o estado que resume a informação anterior de acordo com pesos decrescentes. A previsão para qualquer horizonte futuro, na forma simples, é esse nível final; ele não é uma tendência nem um índice sazonal.",
+    "motivoProvavelDoErroParaInvestigacao": "conteúdo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-APR-02",
+    "respostaEsperada": "0,70, ou 70%.",
+    "correcaoComentada": "A expressão l(t)=alfa vezes y(t) mais (1−alfa) vezes l(t−1) exige pesos que somem um. Assim um menos 0,30 vale 0,70.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-APR-03",
+    "respostaEsperada": "100 unidades.",
+    "correcaoComentada": "A regra declarada toma como primeiro nível a primeira observação: l1 é igual a y1 e não usa futuro. Outros procedimentos podem estimar valores iniciais no treino.",
+    "motivoProvavelDoErroParaInvestigacao": "interpretação",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-APR-04",
+    "respostaEsperada": "110 unidades.",
+    "correcaoComentada": "Multiplique 0,5 por 120 e 0,5 por 100. Os dois termos são 60 e 50, cuja soma é 110.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-APR-05",
+    "respostaEsperada": "110 unidades.",
+    "correcaoComentada": "A nova observação coincide com o estado anterior; 0,5 vezes 110 somado a 0,5 vezes 110 mantém o nível em 110.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-APR-06",
+    "respostaEsperada": "120 unidades.",
+    "correcaoComentada": "A observação recente contribui com 65; o nível anterior contribui com 55. A previsão emitida após t4 é 120.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-APR-07",
+    "respostaEsperada": "120 e 120 unidades.",
+    "correcaoComentada": "A forma simples produz previsão plana: para qualquer h maior ou igual a um, o valor emitido na origem quatro é l4=120. Não atualize com valores futuros não observados.",
+    "motivoProvavelDoErroParaInvestigacao": "estratégia",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-APR-08",
+    "respostaEsperada": "O nível permanece 100.",
+    "correcaoComentada": "l(t)=0×y(t)+1×l(t−1), logo cada atualização repete o nível anterior. Esse caso ignora observações novas.",
+    "motivoProvavelDoErroParaInvestigacao": "conteúdo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-APR-09",
+    "respostaEsperada": "130 unidades.",
+    "correcaoComentada": "l(t)=1×y(t)+0×l(t−1)=y(t). A previsão equivale à ingênua de último valor, pois o histórico anterior recebe peso zero.",
+    "motivoProvavelDoErroParaInvestigacao": "conteúdo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-APR-10",
+    "respostaEsperada": "m=4 observações.",
+    "correcaoComentada": "Um ano reúne quatro trimestres, portanto uma fase do ano reaparece após quatro medições. Identificar o calendário não garante que o padrão seja estável.",
+    "motivoProvavelDoErroParaInvestigacao": "interpretação",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-CON-01",
+    "respostaEsperada": "0,5; 0,25; 0,125; 0,125.",
+    "correcaoComentada": "Substitua l3 na equação l4=0,5 y4+0,5 l3; abra l3 e depois l2. Os coeficientes se tornam meio, um quarto, um oitavo e um oitavo. A soma é um.",
+    "motivoProvavelDoErroParaInvestigacao": "estratégia",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-CON-02",
+    "respostaEsperada": "120 unidades.",
+    "correcaoComentada": "Faça 65+27,5+15+12,5=120. O último termo corresponde ao nível inicial, preservado pela recursão finita.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-CON-03",
+    "respostaEsperada": "110,16 unidades.",
+    "correcaoComentada": "Inicie com l1=100. Faça l2=0,2×120+0,8×100=104; l3=22+83,2=105,2; l4=26+84,16=110,16. Mantenha a inicialização igual para comparações.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-CON-04",
+    "respostaEsperada": "126,24 unidades.",
+    "correcaoComentada": "Partindo de l1=100, obtenha l2=0,8×120+0,2×100=116; l3=0,8×110+0,2×116=111,2; l4=104+22,24=126,24. Alfa elevado reage mais ao período final neste exemplo.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-CON-05",
+    "respostaEsperada": "l2=98,5 e l3=113,25.",
+    "correcaoComentada": "Em t2: metade de 107 mais metade de 90 =98,5. Em t3: metade de 128 mais metade de 98,5 =64+49,25=113,25.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-CON-06",
+    "respostaEsperada": "130,2578125 unidades.",
+    "correcaoComentada": "Os níveis seguintes são l4=109,125; l5=110,0625; l6=117,03125; l7=133,515625; l8=130,2578125. Essa previsão é plana para h1 a h4 no corte oito.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-CON-07",
+    "respostaEsperada": "l3=125,6 e b3=17,32.",
+    "correcaoComentada": "Previsão anterior de um passo: 107+17=124. Nível novo: 0,4×128+0,6×124=125,6. Tendência nova: 0,2×(125,6−107)+0,8×17=3,72+13,6=17,32.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-CON-08",
+    "respostaEsperada": "Aproximadamente 153,8043 unidades.",
+    "correcaoComentada": "A previsão a um passo é l8+b8; some 145,44342342 a 8,36089229. Não substitua a sazonalidade por tendência automaticamente: Holt aqui não tem estado sazonal.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-CON-09",
+    "respostaEsperada": "120,4 unidades.",
+    "correcaoComentada": "A previsão de base é l4+b4=120, e o valor sazonalmente ajustado é 111−(−10)=121. Logo l5=0,4×121+0,6×120=120,4. Os estados são dados do exercício, não estimativas reais do CSV.",
+    "motivoProvavelDoErroParaInvestigacao": "estratégia",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-CON-10",
+    "respostaEsperada": "b5=5,08 e s5=−9,8.",
+    "correcaoComentada": "b5=0,2×(120,4−115)+0,8×5=5,08. s5=0,2×(111−115−5)+0,8×(−10)=−1,8−8=−9,8. Essa equação de s usa previsão de nível anterior mais inclinação.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-VES-01",
+    "respostaEsperada": "Porque representa apenas o nível, sem tendência e sazonalidade explícitas.",
+    "correcaoComentada": "A regra plana de SES não contém coeficiente de crescimento nem posição do mês. Compare referências e considere método com tendência e sazonalidade, validando em horizontes futuros. A descrição não prova superioridade automática de método algum.",
+    "motivoProvavelDoErroParaInvestigacao": "interpretação",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-VES-02",
+    "respostaEsperada": "Uso do teste para seleção de hiperparâmetros.",
+    "correcaoComentada": "Depois de avaliar 50 opções nesse conjunto, ele virou validação, não teste intocado. Reserve novo futuro para avaliação final e defina candidatos com dados anteriores; não crie a impressão de prova independente.",
+    "motivoProvavelDoErroParaInvestigacao": "estratégia",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-VES-03",
+    "respostaEsperada": "Mudou a origem e o conjunto de informações da previsão.",
+    "correcaoComentada": "A previsão original para t12 tinha horizonte quatro no corte oito. Ao atualizar com t9 a t11, obteve outra tarefa, previsão de um passo na origem onze. Compare cada estratégia com mesmo horizonte e corte.",
+    "motivoProvavelDoErroParaInvestigacao": "interpretação",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-VES-04",
+    "respostaEsperada": "SES≈17,6211; sazonal ingênuo=19,25 unidades.",
+    "correcaoComentada": "SES: erros absolutos 1,2578125;14,7421875;40,7421875;13,7421875, soma 70,484375 e média 17,62109375. Sazonal: 18+21+21+17=77 dividido por quatro =19,25. Um teste artificial não estabelece regra geral.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-VES-05",
+    "respostaEsperada": "Porque o RMSE eleva os erros ao quadrado antes da média.",
+    "correcaoComentada": "O erro do t11 é 171−130,2578125≈40,7422 e pesa quadraticamente. O RMSE≈22,7359, superior ao MAE≈17,6211. Isso descreve escala de erros, não fornece um intervalo de previsão.",
+    "motivoProvavelDoErroParaInvestigacao": "interpretação",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-VES-06",
+    "respostaEsperada": "Porque desempenho exige considerar os quatro erros na mesma origem, e o método não modelou o calendário explicitamente.",
+    "correcaoComentada": "No terceiro trimestre a previsão ficou próxima do observado 171. Nos demais ela superou observados, especialmente t9 e t12. O MAE completo é aproximadamente 19,3326. Um acerto isolado não mede robustez.",
+    "motivoProvavelDoErroParaInvestigacao": "interpretação",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-VES-07",
+    "respostaEsperada": "132; 147; 172; 147 unidades.",
+    "correcaoComentada": "Some a l8 o produto de h por 5 e o índice da mesma fase: 137+5−10=132; 137+10+0=147; 137+15+20=172; 137+20−10=147. Isso é álgebra com estados fornecidos, não ajuste do CSV nem pontuação comparável.",
+    "motivoProvavelDoErroParaInvestigacao": "estratégia",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-VES-08",
+    "respostaEsperada": "Estrutura multiplicativa, a validar empiricamente.",
+    "correcaoComentada": "Um efeito proporcional ao nível é compatível com fatores sazonais multiplicativos; efeitos em unidades constantes se alinham à versão aditiva. É necessário testar diagnóstico e erro futuro, e valores zero/negativos exigem cautela.",
+    "motivoProvavelDoErroParaInvestigacao": "conteúdo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-VES-09",
+    "respostaEsperada": "m=12.",
+    "correcaoComentada": "m mede observações por ciclo, não quantidade abstrata de estações climáticas; meses totalizam doze observações por ano. Quatro é adequado a registros trimestrais.",
+    "motivoProvavelDoErroParaInvestigacao": "interpretação",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-VES-10",
+    "respostaEsperada": "Amostra curta, construção artificial, parâmetros didáticos, possível instabilidade e necessidade de validação prospectiva.",
+    "correcaoComentada": "Informe origens e horizontes, métricas, inicialização, modelos candidatos, ausência de intervalos calibrados e que os quatro valores não entraram na recursão, mas já eram conhecidos da aula anterior. Não declare generalização universal ou causalidade.",
+    "motivoProvavelDoErroParaInvestigacao": "interpretação",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-RET-01",
+    "respostaEsperada": "l2=45; l3=46,25; previsão=46,25.",
+    "correcaoComentada": "Faça 0,25×60+0,75×40=45. Depois 0,25×50+0,75×45=12,5+33,75=46,25. Sem nova observação, a previsão SES repete o nível.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-RET-02",
+    "respostaEsperada": "0,4×0,6=0,24.",
+    "correcaoComentada": "Expanda l(t)=0,4 y(t)+0,6 l(t−1). Dentro do estado anterior, o coeficiente da observação y(t−1) é 0,4. O peso combinado é 0,6×0,4=0,24.",
+    "motivoProvavelDoErroParaInvestigacao": "conteúdo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-RET-03",
+    "respostaEsperada": "83 e 89 unidades.",
+    "correcaoComentada": "Calcule lT+h×bT: h1=80+3=83; h3=80+9=89. Essa fórmula pressupõe que a tendência linear não seja amortecida.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-RET-04",
+    "respostaEsperada": "196 unidades.",
+    "correcaoComentada": "t9 é primeiro trimestre do próximo ano, portanto o índice correspondente é −6. Faça 200+1×2−6=196, preservando a unidade.",
+    "motivoProvavelDoErroParaInvestigacao": "estratégia",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-RET-05",
+    "respostaEsperada": "MAE=4 e RMSE=raiz de 20≈4,4721.",
+    "correcaoComentada": "Erros absolutos 2 e 6 dão média 4. Quadrados 4 e 36 dão média 20, cuja raiz é 4,4721. Não confunda a raiz da média com a média dos módulos.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-044-EX-RET-06",
+    "respostaEsperada": "Sim, no protocolo descrito.",
+    "correcaoComentada": "A escolha de alfa usa exclusivamente passado, e as quatro observações futuras ficam reservadas à avaliação. Registre ainda quais foram a origem e os horizontes e evite múltiplas tentativas após ler esse teste.",
+    "motivoProvavelDoErroParaInvestigacao": "estratégia",
+    "observarRespostaRealAntesDeClassificar": true
+  }
+]

@@ -1,0 +1,11 @@
+CONTINUIDADE — RECONSTRUÇÃO ESCOLAR + ENEM E VESTIBULARES 2027
+
+Último pacote editorial concluído localmente: MAT-EST-056 — Revisão controlada de experimentos temporais: protocolo sucessor, pré-registro e prevenção de contaminação da avaliação. Confira o ZIP MAT-EST-056-pacote-integracao.zip e checkpoint-editorial.json; se indisponíveis no novo chat, solicite anexação.
+
+Próximo tópico apenas proposto, NÃO iniciado: MAT-EST-057 — Registro de desvios e auditoria prospectiva simulada: pendências, exclusões e relatório por coorte sem inventar alvos futuros.
+
+Preserve os 23 arquivos históricos do manifesto de hashes, MAT-EST-049-PROT-v1 intacto, MAT-EST-051-PLAN-v1 não executado e MAT-EST-055-PARECER-DIDATICO-v1 apenas editorial. Cinco pares fictícios t18–t22: MAE B=17,60, C=8,36, custo B=51,20, C=14,92; deterioração em t19=19,2 > guarda 10; não promover C sob protocolo histórico.
+
+MAT-EST-056-PROT-SUC-v1 é proposta local separada, não foi registrada externamente. t23–t25 sem observações e emissões autenticadas, em quarentena editorial por cenários já conhecidos; t26–t33 são alvos apenas planejados, com ZERO observados/emissões. Primeiro passo potencial em t25 somente depois de observados y23–y25 com validade e congelamento/prova temporal antes de y26. B e C conservam versões; novo protocolo não altera histórico. Casos V e Z isolados, fora do denominador.
+
+Quando eu escrever Continuar, verificar o checkpoint mais recente e avançar EXATAMENTE UMA etapa, MAT-EST-057, seguindo documento canônico, acessibilidade Edge, aprofundamento, visuais com alt+legenda+descrição, vídeo complementar com verificação honesta, 36 questões autorais, gabarito comentado separado, Markdown, ZIP, prévia, metadados e hashes. Nunca inventar novos alvos observados, registro externo, execução, assinaturas, publicação ou sincronização. Preservar progresso individual sem evidência de tentativa. Registrar próximo checkpoint e apresentar botões de continuar e copiar prompt.

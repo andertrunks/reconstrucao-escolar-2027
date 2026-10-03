@@ -1,0 +1,196 @@
+﻿MAT-EST-009 — Gabarito comentado — reconstrução editorial v1
+
+
+Use somente após tentativa real.
+
+
+CAMADA APR
+
+
+MAT-EST-009-EX-APR-01
+Resposta e raciocínio: 10%.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-APR-02
+Resposta e raciocínio: 20%.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-APR-03
+Resposta e raciocínio: O desvio-padrão corresponde a 10% da média.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-APR-04
+Resposta e raciocínio: Não; média e DP têm mesma unidade e a razão as cancela.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-APR-05
+Resposta e raciocínio: A:5%; B:10%; B tem maior CV.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-APR-06
+Resposta e raciocínio: 8%.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-APR-07
+Resposta e raciocínio: Porque o CV usa desvio-padrão; variância tem unidade ao quadrado.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-APR-08
+Resposta e raciocínio: Não, pois haveria divisão por zero.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-APR-09
+Resposta e raciocínio: Porque denominador pequeno pode produzir CV enorme e instável.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-APR-10
+Resposta e raciocínio: Não; DP mede dispersão absoluta, CV mede dispersão relativa.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+CAMADA CON
+
+
+MAT-EST-009-EX-CON-01
+Resposta e raciocínio: A=20%; B=15%; A é relativamente mais variável.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-CON-02
+Resposta e raciocínio: 2% em ambos.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-CON-03
+Resposta e raciocínio: 2/110×100≈1,82%.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-CON-04
+Resposta e raciocínio: CV permanece 20%.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-CON-05
+Resposta e raciocínio: 400%; matematicamente calculável, mas muito sensível à média pequena.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-CON-06
+Resposta e raciocínio: Primeiro:5%; segundo:8%; o segundo é relativamente mais variável.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-CON-07
+Resposta e raciocínio: CV é uma razão entre dispersão e média, não taxa de erro ou de registros ruins.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-CON-08
+Resposta e raciocínio: Não de forma direta; Celsius tem zero arbitrário e o CV muda ao converter para Kelvin.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-CON-09
+Resposta e raciocínio: 5% e 15%.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-CON-10
+Resposta e raciocínio: 10% e 2,5%.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+CAMADA VES
+
+
+MAT-EST-009-EX-VES-01
+Resposta e raciocínio: A=3%; B=6%; B tem maior variabilidade relativa.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-VES-02
+Resposta e raciocínio: Não existe corte universal; a classificação precisa de contexto ou referência da área.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-VES-03
+Resposta e raciocínio: Somar 273,15 à escala muda a média sem mudar o DP; portanto o CV muda por causa da origem arbitrária.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-VES-04
+Resposta e raciocínio: O CV literal seria negativo; dispersão relativa negativa não tem interpretação padrão, exigindo convenção e contexto.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-VES-05
+Resposta e raciocínio: De 5% para 25%; a variabilidade relativa aumenta porque o mesmo DP representa parcela maior da média.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-VES-06
+Resposta e raciocínio: Média e DP multiplicam por 1000; CV permanece igual.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-VES-07
+Resposta e raciocínio: Se zeros são significativos, se médias são positivas e distantes de zero, se os processos são comparáveis e se o CV tem sentido na área.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-VES-08
+Resposta e raciocínio: A=10%; B=15%. A tem DP muito maior, mas B tem maior CV.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-VES-09
+Resposta e raciocínio: Numerador e denominador devem descrever o mesmo conjunto; misturá-los produz razão sem significado.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-VES-10
+Resposta e raciocínio: 250%. Conclusão: variabilidade relativa calculada é muito alta, mas média próxima de zero torna o CV instável e exige cautela.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+CAMADA RET
+
+
+MAT-EST-009-EX-RET-01
+Resposta e raciocínio: CV=s/x̄×100%; s é desvio-padrão da amostra e x̄ é média da mesma amostra.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-RET-02
+Resposta e raciocínio: 15%.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-RET-03
+Resposta e raciocínio: Média e DP são multiplicados pelo mesmo fator, que se cancela na razão.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-RET-04
+Resposta e raciocínio: A constante altera a média, mas não o DP; portanto muda a razão.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-RET-05
+Resposta e raciocínio: Média zero; média próxima de zero; média negativa; escala com zero arbitrário, como Celsius.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.
+
+
+MAT-EST-009-EX-RET-06
+Resposta e raciocínio: DP compara escala absoluta; CV compara DP em relação à média.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade ou escolha inadequada da medida, conforme o caso.

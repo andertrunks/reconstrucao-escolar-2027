@@ -1,0 +1,196 @@
+﻿MAT-EST-003 — Gabarito comentado — reconstrução editorial v1
+
+
+Use somente após tentativa real. Todos os itens são autorais.
+
+
+CAMADA APR
+
+
+MAT-EST-003-EX-APR-01
+Resposta e raciocínio: 7.
+Motivo provável do erro: Conteúdo: confundiu valor/categoria com a contagem.
+
+
+MAT-EST-003-EX-APR-02
+Resposta e raciocínio: 5/20 = 1/4 = 0,25 = 25%.
+Motivo provável do erro: Cálculo: erro ao dividir ou converter decimal em porcentagem.
+
+
+MAT-EST-003-EX-APR-03
+Resposta e raciocínio: n = 4 + 6 + 10 = 20.
+Motivo provável do erro: Cálculo: não somou todas as frequências.
+
+
+MAT-EST-003-EX-APR-04
+Resposta e raciocínio: Sim. 0,25 + 0,35 + 0,40 = 1,00.
+Motivo provável do erro: Cálculo: soma de decimais.
+
+
+MAT-EST-003-EX-APR-05
+Resposta e raciocínio: 3, 8, 12.
+Motivo provável do erro: Conteúdo: confundiu frequência da linha com acumulada.
+
+
+MAT-EST-003-EX-APR-06
+Resposta e raciocínio: 15/50 = 0,30 = 30%.
+Motivo provável do erro: Cálculo: denominador incorreto.
+
+
+MAT-EST-003-EX-APR-07
+Resposta e raciocínio: A absoluta diz quantas observações estão na categoria; a relativa diz que parte do total elas representam.
+Motivo provável do erro: Conteúdo: definições não diferenciadas.
+
+
+MAT-EST-003-EX-APR-08
+Resposta e raciocínio: O total de observações válidas, n = 80.
+Motivo provável do erro: Conteúdo: não reconheceu a propriedade da última acumulada.
+
+
+MAT-EST-003-EX-APR-09
+Resposta e raciocínio: Em geral, não. Tipo sanguíneo é nominal; não existe ordem natural 'até' uma categoria.
+Motivo provável do erro: Conteúdo: criou ordem estatística a partir da disposição da tabela.
+
+
+MAT-EST-003-EX-APR-10
+Resposta e raciocínio: Sim, se a ordem ruim < regular < bom < ótimo estiver definida e for relevante à pergunta.
+Motivo provável do erro: Interpretação: não reconheceu variável ordinal.
+
+
+CAMADA CON
+
+
+MAT-EST-003-EX-CON-01
+Resposta e raciocínio: f(0)=1, f(1)=3, f(2)=4, f(3)=2; total 10.
+Motivo provável do erro: Contagem: omissão ou duplicação de valores.
+
+
+MAT-EST-003-EX-CON-02
+Resposta e raciocínio: 0:10%; 1:30%; 2:40%; 3:20%.
+Motivo provável do erro: Cálculo: usou denominador diferente de 10.
+
+
+MAT-EST-003-EX-CON-03
+Resposta e raciocínio: F: 1, 4, 8, 10.
+Motivo provável do erro: Conteúdo: somou apenas pares de linhas em vez de acumular.
+
+
+MAT-EST-003-EX-CON-04
+Resposta e raciocínio: A=25%; B=37,5%; C=37,5%; soma=100%.
+Motivo provável do erro: Cálculo: conversão para porcentagem.
+
+
+MAT-EST-003-EX-CON-05
+Resposta e raciocínio: Denominador 88. A tabela deve informar que os percentuais são calculados entre 88 respostas válidas e registrar as 12 ausências.
+Motivo provável do erro: Interpretação: ocultou dados ausentes.
+
+
+MAT-EST-003-EX-CON-06
+Resposta e raciocínio: Maior absoluta: B, 24 > 18. Maior relativa: A, 18/30=60% contra 24/50=48%.
+Motivo provável do erro: Estratégia: comparou contagens sem padronizar pelos totais.
+
+
+MAT-EST-003-EX-CON-07
+Resposta e raciocínio: n=20. Acumulada até a terceira linha = 4+7+5 = 16.
+Motivo provável do erro: Cálculo: confundiu terceira frequência com acumulada.
+
+
+MAT-EST-003-EX-CON-08
+Resposta e raciocínio: Não. Pode ser apenas arredondamento: 99,9% está compatível com três valores arredondados a uma casa decimal.
+Motivo provável do erro: Interpretação: tratou arredondamento como prova de erro.
+
+
+MAT-EST-003-EX-CON-09
+Resposta e raciocínio: A ordem alfabética é arbitrária; mudar a ordem muda os acumulados, portanto 'até' uma categoria não tem significado estável.
+Motivo provável do erro: Conteúdo: não distinguiu nominal de ordinal.
+
+
+MAT-EST-003-EX-CON-10
+Resposta e raciocínio: 10 entra em [10,20); 19,9 também em [10,20); 20 entra em [20,30).
+Motivo provável do erro: Conteúdo: não entendeu inclusão do limite esquerdo e exclusão do direito.
+
+
+CAMADA VES
+
+
+MAT-EST-003-EX-VES-01
+Resposta e raciocínio: 70/200=35%. Sem plano amostral não é legítimo concluir automaticamente que 35% de toda a população pertence a X.
+Motivo provável do erro: Interpretação: generalizou amostra para população.
+
+
+MAT-EST-003-EX-VES-02
+Resposta e raciocínio: Total 40. fr: 0,30; 0,45; 0,25. Percentuais: 30%, 45%, 25%.
+Motivo provável do erro: Cálculo: denominador total incorreto.
+
+
+MAT-EST-003-EX-VES-03
+Resposta e raciocínio: Até a terceira: 8+12+15=35. Total 40. Proporção 35/40=0,875=87,5%.
+Motivo provável do erro: Estratégia: não usou a acumulada.
+
+
+MAT-EST-003-EX-VES-04
+Resposta e raciocínio: Entre válidas: 28/80=35%. Dizer 28% usa 100 selecionados como denominador; responde a outra razão e mistura não resposta com a variável.
+Motivo provável do erro: Interpretação: denominador não explicitado.
+
+
+MAT-EST-003-EX-VES-05
+Resposta e raciocínio: Porque as populações têm tamanhos diferentes. As taxas são 300/10.000=3% e 500/25.000=2%; a maior contagem não implica maior proporção.
+Motivo provável do erro: Estratégia: comparação sem escala comum.
+
+
+MAT-EST-003-EX-VES-06
+Resposta e raciocínio: Não. Se uma pessoa pode marcar várias opções, as categorias não são mutuamente exclusivas e a soma pode ultrapassar 100%.
+Motivo provável do erro: Interpretação: aplicou regra de distribuição simples a respostas múltiplas.
+
+
+MAT-EST-003-EX-VES-07
+Resposta e raciocínio: 17/30≈0,5667=56,7%. Interpretação: aproximadamente 56,7% das observações duraram menos de 10 minutos.
+Motivo provável do erro: Cálculo/interpretação: esqueceu que é acumulada até o limite indicado.
+
+
+MAT-EST-003-EX-VES-08
+Resposta e raciocínio: 60−45=15 pessoas; 15/60=25%.
+Motivo provável do erro: Estratégia: não usou complemento.
+
+
+MAT-EST-003-EX-VES-09
+Resposta e raciocínio: Exemplo: 'O que significa estar até a categoria C?' Se não há resposta substantiva e a ordem pode ser trocada, a acumulada é arbitrária.
+Motivo provável do erro: Interpretação: não testou o sentido de 'até'.
+
+
+MAT-EST-003-EX-VES-10
+Resposta e raciocínio: Porque coerência aritmética não garante qualidade de coleta. A amostra pode ser enviesada, o instrumento pode medir mal ou a população-alvo pode estar mal definida.
+Motivo provável do erro: Conteúdo: confundiu soma correta com validade do estudo.
+
+
+CAMADA RET
+
+
+MAT-EST-003-EX-RET-01
+Resposta e raciocínio: Σf=n; Σfr=1; Σ%=100% aproximadamente após arredondamentos; última frequência absoluta acumulada=n (e a relativa acumulada final=1).
+Motivo provável do erro: Memória/conteúdo: não recuperou controles básicos.
+
+
+MAT-EST-003-EX-RET-02
+Resposta e raciocínio: f: 0→2, 1→3, 2→1, 3→2. fr: 25%, 37,5%, 12,5%, 25%. F: 2,5,6,8.
+Motivo provável do erro: Cálculo: contagem ou acumulada.
+
+
+MAT-EST-003-EX-RET-03
+Resposta e raciocínio: Quando as categorias/valores possuem uma ordem significativa que torna interpretável a ideia de 'até' a linha.
+Motivo provável do erro: Conteúdo: não verificou ordenação substantiva.
+
+
+MAT-EST-003-EX-RET-04
+Resposta e raciocínio: Deve informar que os percentuais usam 90 respostas válidas e que 10 registros estão ausentes para a variável.
+Motivo provável do erro: Interpretação: denominador oculto.
+
+
+MAT-EST-003-EX-RET-05
+Resposta e raciocínio: 36/48=0,75=75%.
+Motivo provável do erro: Cálculo: divisão ou conversão percentual.
+
+
+MAT-EST-003-EX-RET-06
+Resposta e raciocínio: A frequência relativa descreve o que ocorreu nos dados observados; tratá-la como probabilidade populacional exige um modelo/planejamento de amostragem e justificativas adicionais.
+Motivo provável do erro: Conteúdo: confundiu descrição amostral com inferência.

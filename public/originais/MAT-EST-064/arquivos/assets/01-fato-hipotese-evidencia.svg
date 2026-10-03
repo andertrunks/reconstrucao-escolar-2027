@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="365" viewBox="0 0 1080 365" role="img" aria-labelledby="title desc">
+<title id="title">I01: observado localmente não é causa operacional</title>
+<desc id="desc">Mutação I01 observada em arquivo de teste; hipótese sobre mecanismo operacional exige código e logs que não existem neste ensaio.</desc>
+<rect width="1080" height="365" rx="18" fill="#f8fafc"/>
+<text x="25" y="39" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#203246">I01: observado localmente não é causa operacional</text>
+<rect x="30.0" y="72" width="330.7" height="184" rx="12" fill="white" stroke="#27694c" stroke-width="2"/>
+<rect x="32.0" y="74" width="326.7" height="5" fill="#27694c"/>
+<text x="41.0" y="102" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#27694c">Fato da fixture</text>
+<text x="41.0" y="128" font-family="Arial,sans-serif" font-size="14" font-weight="400" fill="#203246">Denominador n=8</text>
+<text x="41.0" y="154" font-family="Arial,sans-serif" font-size="14" font-weight="400" fill="#203246">Criado de propósito</text>
+<rect x="374.7" y="72" width="330.7" height="184" rx="12" fill="white" stroke="#935e17" stroke-width="2"/>
+<rect x="376.7" y="74" width="326.7" height="5" fill="#935e17"/>
+<text x="385.7" y="102" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#935e17">Hipótese causal</text>
+<text x="385.7" y="128" font-family="Arial,sans-serif" font-size="14" font-weight="400" fill="#203246">Campo genérico</text>
+<text x="385.7" y="154" font-family="Arial,sans-serif" font-size="14" font-weight="400" fill="#203246">Só conjectura</text>
+<rect x="719.3" y="72" width="330.7" height="184" rx="12" fill="white" stroke="#9c353e" stroke-width="2"/>
+<rect x="721.3" y="74" width="326.7" height="5" fill="#9c353e"/>
+<text x="730.3" y="102" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#9c353e">Fato não verificado</text>
+<text x="730.3" y="128" font-family="Arial,sans-serif" font-size="14" font-weight="400" fill="#203246">Site exposto?</text>
+<text x="730.3" y="154" font-family="Arial,sans-serif" font-size="14" font-weight="400" fill="#203246">Sem evidência</text>
+<text x="25" y="288" font-family="Arial,sans-serif" font-size="16" fill="#203246" font-weight="700">Documentar o salto de evidência: não afirmar causalidade de produção nem alcance público.</text>
+</svg>

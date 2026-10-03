@@ -1,0 +1,900 @@
+[
+  {
+    "id": "MAT-EST-005-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Calcule a média de 4, 6 e 8.",
+    "answer": "6.",
+    "resolution": "Resposta e raciocínio: 6.\nMotivo provável do erro: cálculo.",
+    "errorReasons": [
+      "cálculo."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Calcule a média de 10, 12, 13 e 15.",
+    "answer": "12,5.",
+    "resolution": "Resposta e raciocínio: 12,5.\nMotivo provável do erro: cálculo.",
+    "errorReasons": [
+      "cálculo."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Os valores 1, 2, 3 e 4 têm média 2,5. Essa média precisa aparecer nos dados? Explique.",
+    "answer": "Não; a média é medida-resumo.",
+    "resolution": "Resposta e raciocínio: Não; a média é medida-resumo.\nMotivo provável do erro: conteúdo.",
+    "errorReasons": [
+      "conteúdo."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Uma média de tempos é 18. Qual unidade deve acompanhá-la se os dados estão em minutos?",
+    "answer": "18 minutos.",
+    "resolution": "Resposta e raciocínio: 18 minutos.\nMotivo provável do erro: unidade.",
+    "errorReasons": [
+      "unidade."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Explique a média de 2, 4 e 6 pela ideia de repartição igualitária.",
+    "answer": "Total 12 repartido entre 3 dá 4.",
+    "resolution": "Resposta e raciocínio: Total 12 repartido entre 3 dá 4.\nMotivo provável do erro: conteúdo.",
+    "errorReasons": [
+      "conteúdo."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Calcule a média de 5, 5, 7 e 7.",
+    "answer": "6.",
+    "resolution": "Resposta e raciocínio: 6.\nMotivo provável do erro: cálculo.",
+    "errorReasons": [
+      "cálculo."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Para 2, 3 e 7, verifique que os desvios em relação à média somam zero.",
+    "answer": "Média 4; desvios −2, −1, +3; soma 0.",
+    "resolution": "Resposta e raciocínio: Média 4; desvios −2, −1, +3; soma 0.\nMotivo provável do erro: conteúdo.",
+    "errorReasons": [
+      "conteúdo."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "É adequado calcular média dos códigos ônibus=1, carro=2 e bicicleta=3? Justifique.",
+    "answer": "Não; são rótulos nominais.",
+    "resolution": "Resposta e raciocínio: Não; são rótulos nominais.\nMotivo provável do erro: interpretação.",
+    "errorReasons": [
+      "interpretação."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Cinco valores têm média 12. Qual é a soma total?",
+    "answer": "60.",
+    "resolution": "Resposta e raciocínio: 60.\nMotivo provável do erro: estratégia.",
+    "errorReasons": [
+      "estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Três valores têm média 9. Dois são 7 e 11. Qual é o terceiro?\n\n\nCAMADA CON — Consolidação",
+    "answer": "9.",
+    "resolution": "Resposta e raciocínio: 9.\nMotivo provável do erro: estratégia.\n\n\nCAMADA CON",
+    "errorReasons": [
+      "estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Valores 0,1,2,3 têm frequências 2,3,4,1. Calcule a média.",
+    "answer": "1,4.",
+    "resolution": "Resposta e raciocínio: 1,4.\nMotivo provável do erro: frequência como peso.",
+    "errorReasons": [
+      "frequência como peso."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Notas 6,7,8 têm pesos 2,3,5. Calcule a média ponderada.",
+    "answer": "7,3.",
+    "resolution": "Resposta e raciocínio: 7,3.\nMotivo provável do erro: denominador dos pesos.",
+    "errorReasons": [
+      "denominador dos pesos."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Turma A: n=20, média 70. Turma B: n=30, média 80. Calcule a média conjunta.",
+    "answer": "76.",
+    "resolution": "Resposta e raciocínio: 76.\nMotivo provável do erro: média das médias.",
+    "errorReasons": [
+      "média das médias."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Quatro valores têm média 18. Três são 16,20,21. Encontre o quarto.",
+    "answer": "15.",
+    "resolution": "Resposta e raciocínio: 15.\nMotivo provável do erro: soma total.",
+    "errorReasons": [
+      "soma total."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Dez valores têm média 50. Um registro é corrigido de 40 para 60. Qual é a nova média?",
+    "answer": "52.",
+    "resolution": "Resposta e raciocínio: 52.\nMotivo provável do erro: correção do total.",
+    "errorReasons": [
+      "correção do total."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Cinco valores têm média 10. Adiciona-se 22. Qual é a nova média?",
+    "answer": "12.",
+    "resolution": "Resposta e raciocínio: 12.\nMotivo provável do erro: atualização de n.",
+    "errorReasons": [
+      "atualização de n."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Dez valores têm média 15. Remove-se 24. Qual é a nova média?",
+    "answer": "14.",
+    "resolution": "Resposta e raciocínio: 14.\nMotivo provável do erro: remoção e n.",
+    "errorReasons": [
+      "remoção e n."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "2,4,6 têm média 4. Some 10 a cada valor. Qual é a nova média?",
+    "answer": "14.",
+    "resolution": "Resposta e raciocínio: 14.\nMotivo provável do erro: transformação linear.",
+    "errorReasons": [
+      "transformação linear."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "2,4,6 têm média 4. Multiplique todos por 3. Qual é a nova média?",
+    "answer": "12.",
+    "resolution": "Resposta e raciocínio: 12.\nMotivo provável do erro: transformação linear.",
+    "errorReasons": [
+      "transformação linear."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Grupo A: 20 pessoas, 90% aprovadas. Grupo B: 80 pessoas, 50%. Calcule a aprovação conjunta.\n\n\nCAMADA VES — Transferência / estilo vestibular autoral",
+    "answer": "58%.",
+    "resolution": "Resposta e raciocínio: 58%.\nMotivo provável do erro: percentuais com denominadores diferentes.\n\n\nCAMADA VES",
+    "errorReasons": [
+      "percentuais com denominadores diferentes."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Notas 6,8,9 têm pesos 2,3,5. Calcule a média ponderada.",
+    "answer": "8,1.",
+    "resolution": "Resposta e raciocínio: 8,1.\nMotivo provável do erro: ponderação.",
+    "errorReasons": [
+      "ponderação."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Setor A: 10 trabalhadores, salário médio 3000. Setor B: 40, média 5000. Calcule a média salarial conjunta.",
+    "answer": "4600.",
+    "resolution": "Resposta e raciocínio: 4600.\nMotivo provável do erro: tamanhos dos grupos.",
+    "errorReasons": [
+      "tamanhos dos grupos."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "A média de 8 valores é 14. Acrescenta-se 30. Calcule a nova média.",
+    "answer": "142/9 ≈ 15,78.",
+    "resolution": "Resposta e raciocínio: 142/9 ≈ 15,78.\nMotivo provável do erro: adição de observação.",
+    "errorReasons": [
+      "adição de observação."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "A média de 25 notas é 7,2. Uma nota 5 deveria ser 8. Calcule a nova média.",
+    "answer": "7,32.",
+    "resolution": "Resposta e raciocínio: 7,32.\nMotivo provável do erro: correção de dado.",
+    "errorReasons": [
+      "correção de dado."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "4,5,5,5,6 têm média 5. Acrescente 30 e calcule a nova média. Explique o efeito.",
+    "answer": "55/6 ≈ 9,17; o extremo desloca a soma para cima.",
+    "resolution": "Resposta e raciocínio: 55/6 ≈ 9,17; o extremo desloca a soma para cima.\nMotivo provável do erro: efeito de extremo.",
+    "errorReasons": [
+      "efeito de extremo."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Dois grupos têm médias 60 e 80. Em que condição simples a média conjunta é exatamente 70?",
+    "answer": "Quando os grupos têm o mesmo tamanho.",
+    "resolution": "Resposta e raciocínio: Quando os grupos têm o mesmo tamanho.\nMotivo provável do erro: média das médias.",
+    "errorReasons": [
+      "média das médias."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma turma de 10 estudantes tem média 7. Quantos pontos precisam ser acrescentados ao total para a média subir para 7,5?",
+    "answer": "5 pontos.",
+    "resolution": "Resposta e raciocínio: 5 pontos.\nMotivo provável do erro: soma desejada.",
+    "errorReasons": [
+      "soma desejada."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Turmas com 90% e 60% de aprovação têm 10 e 100 estudantes. Calcule a aprovação conjunta.",
+    "answer": "69/110 ≈ 62,7%.",
+    "resolution": "Resposta e raciocínio: 69/110 ≈ 62,7%.\nMotivo provável do erro: ponderação de taxas.",
+    "errorReasons": [
+      "ponderação de taxas."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um veículo percorre 100 km a 50 km/h e 100 km a 100 km/h. Calcule a velocidade média do percurso.",
+    "answer": "200/3 ≈ 66,7 km/h.",
+    "resolution": "Resposta e raciocínio: 200/3 ≈ 66,7 km/h.\nMotivo provável do erro: definição da grandeza.",
+    "errorReasons": [
+      "definição da grandeza."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Dê dois conjuntos diferentes com média 5 e explique por que isso não torna as distribuições iguais.\n\n\nCAMADA RET — Reteste",
+    "answer": "Ex.: 4,5,6 e 0,5,10; ambos têm média 5, mas dispersões diferentes.",
+    "resolution": "Resposta e raciocínio: Ex.: 4,5,6 e 0,5,10; ambos têm média 5, mas dispersões diferentes.\nMotivo provável do erro: média versus distribuição.\n\n\nCAMADA RET",
+    "errorReasons": [
+      "média versus distribuição."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-005-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Escreva as fórmulas da média simples e ponderada e explique os denominadores.",
+    "answer": "Simples: Σx/n; ponderada: Σ(wx)/Σw.",
+    "resolution": "Resposta e raciocínio: Simples: Σx/n; ponderada: Σ(wx)/Σw.\nMotivo provável do erro: memória/conceito.",
+    "errorReasons": [
+      "memória/conceito."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Calcule a média de 3,5,7,9.",
+    "answer": "6.",
+    "resolution": "Resposta e raciocínio: 6.\nMotivo provável do erro: cálculo.",
+    "errorReasons": [
+      "cálculo."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Se 12 valores têm média 20 e um deles aumenta 24 unidades, de quanto a média aumenta?",
+    "answer": "2.",
+    "resolution": "Resposta e raciocínio: 2.\nMotivo provável do erro: efeito de alteração.",
+    "errorReasons": [
+      "efeito de alteração."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Valores 1,2,4 têm frequências 5,3,2. Calcule a média.",
+    "answer": "1,9.",
+    "resolution": "Resposta e raciocínio: 1,9.\nMotivo provável do erro: frequência como peso.",
+    "errorReasons": [
+      "frequência como peso."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Explique por que um valor extremo não deve ser removido apenas porque altera a média.",
+    "answer": "Porque extremo pode ser dado válido e exclusão exige justificativa.",
+    "resolution": "Resposta e raciocínio: Porque extremo pode ser dado válido e exclusão exige justificativa.\nMotivo provável do erro: interpretação.",
+    "errorReasons": [
+      "interpretação."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-005-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-005"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Explique por que 'média correta' não significa necessariamente 'valor típico para a maioria'.",
+    "answer": "A média pode ser puxada por extremos e não informa a dispersão.",
+    "resolution": "Resposta e raciocínio: A média pode ser puxada por extremos e não informa a dispersão.\nMotivo provável do erro: interpretação.",
+    "errorReasons": [
+      "interpretação."
+    ],
+    "source": {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  }
+]

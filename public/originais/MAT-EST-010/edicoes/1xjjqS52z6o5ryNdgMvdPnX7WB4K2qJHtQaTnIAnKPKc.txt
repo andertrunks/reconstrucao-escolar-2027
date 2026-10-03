@@ -1,0 +1,184 @@
+﻿MAT-EST-010 — Exercícios — reconstrução editorial v1
+Origem: 100% autoral.
+Camadas: APR 10; CON 10; VES 10; RET 6.
+Gabarito mantido em documento separado.
+
+
+MAT-EST-010-EX-APR-01
+Camada: APR
+Ordene os dados 9, 2, 7, 4, 5 e escreva a sequência que deve ser usada antes de calcular medidas de posição.
+
+
+MAT-EST-010-EX-APR-02
+Camada: APR
+Complete: Q1 corresponde a qual percentil?
+
+
+MAT-EST-010-EX-APR-03
+Camada: APR
+Complete: Q2 corresponde a qual percentil e a qual medida de tendência central?
+
+
+MAT-EST-010-EX-APR-04
+Camada: APR
+Complete: Q3 corresponde a qual percentil?
+
+
+MAT-EST-010-EX-APR-05
+Camada: APR
+Qual percentil é equivalente a D7?
+
+
+MAT-EST-010-EX-APR-06
+Camada: APR
+Uma pessoa está no P80 de uma prova. Isso significa necessariamente que acertou 80% das questões? Responda sim ou não e justifique.
+
+
+MAT-EST-010-EX-APR-07
+Camada: APR
+Na lista ordenada 10, 20, 30, 40, 50, qual é P50?
+
+
+MAT-EST-010-EX-APR-08
+Camada: APR
+Na linguagem desta aula, o que precisa ser conhecido antes de calcular um quantil quando diferentes métodos podem produzir respostas diferentes?
+
+
+MAT-EST-010-EX-APR-09
+Camada: APR
+Qual é a função da frequência acumulada ao localizar percentis em uma tabela?
+
+
+MAT-EST-010-EX-APR-10
+Camada: APR
+Complete a equivalência: D5 = ___ = mediana.
+
+
+MAT-EST-010-EX-CON-01
+Camada: CON
+Use nearest-rank, r = teto(pn). Nos dados ordenados 3, 5, 8, 10, 12, 15, 20, 21, 25, 30, calcule P70.
+
+
+MAT-EST-010-EX-CON-02
+Camada: CON
+Use nearest-rank. Em n = 24 observações, qual é a posição de P25?
+
+
+MAT-EST-010-EX-CON-03
+Camada: CON
+Use nearest-rank. Em n = 13 observações, qual é a posição de P90?
+
+
+MAT-EST-010-EX-CON-04
+Camada: CON
+Pelo método da mediana das metades, sem incluir a mediana central nas metades, calcule Q1 e Q3 para 1, 3, 5, 7, 9, 11, 13.
+
+
+MAT-EST-010-EX-CON-05
+Camada: CON
+Use interpolação didática: uma posição 4,25 cai entre o 4º valor 20 e o 5º valor 28. Qual é o quantil interpolado?
+
+
+MAT-EST-010-EX-CON-06
+Camada: CON
+Tabela: valor 10 frequência 2; valor 20 frequência 3; valor 30 frequência 5. Escreva as frequências acumuladas.
+
+
+MAT-EST-010-EX-CON-07
+Camada: CON
+Em uma tabela com N = 40, use nearest-rank para P75. Qual posição deve ser localizada na frequência acumulada?
+
+
+MAT-EST-010-EX-CON-08
+Camada: CON
+Use a fórmula de classe Pk = L + [(kN/100 - F_anterior)/f] × h. Para P60, N=100, L=40, F_anterior=52, f=20 e h=10, calcule.
+
+
+MAT-EST-010-EX-CON-09
+Camada: CON
+Se todos os dados recebem +5 e Q1 original é 18, qual é o novo Q1, em uma convenção compatível com transformação linear?
+
+
+MAT-EST-010-EX-CON-10
+Camada: CON
+Se todos os dados são multiplicados por 3 e Q3 original é 12, qual é o novo Q3?
+
+
+MAT-EST-010-EX-VES-01
+Camada: VES
+Uma escola informa que Ana está no percentil 85 de uma avaliação. Qual interpretação é correta: (A) acertou exatamente 85% da prova; (B) sua nota é 85% da maior; (C) sua posição está associada a aproximadamente 85% da distribuição de referência abaixo ou até seu resultado; (D) obteve nota 85.
+
+
+MAT-EST-010-EX-VES-02
+Camada: VES
+Em uma amostra pequena, um livro calcula Q1 pela mediana da metade inferior e um software usa nearest-rank, obtendo 2,5 e 2. Qual conclusão é correta?
+
+
+MAT-EST-010-EX-VES-03
+Camada: VES
+Um conjunto tem muitos valores iguais a 1 nas primeiras posições. É possível que P10, P20 e P25 sejam todos iguais a 1? Justifique.
+
+
+MAT-EST-010-EX-VES-04
+Camada: VES
+Uma prova tem 100 pontos. Bruno fez 60 pontos e está no P90. Explique por que isso não é contraditório.
+
+
+MAT-EST-010-EX-VES-05
+Camada: VES
+Em tempos de corrida, maior tempo é pior. Um atleta está no P90 da variável 'tempo de conclusão'. Isso significa necessariamente alto desempenho? Explique.
+
+
+MAT-EST-010-EX-VES-06
+Camada: VES
+Uma tabela agrupada estima P75 por interpolação dentro de uma classe. O resultado deve ser tratado como valor exato dos dados brutos? Por quê?
+
+
+MAT-EST-010-EX-VES-07
+Camada: VES
+Considere y = 2x + 10. Se x_A < x_B, compare y_A e y_B e explique o efeito sobre posições percentílicas.
+
+
+MAT-EST-010-EX-VES-08
+Camada: VES
+Se todos os dados são multiplicados por -1, a ordem é preservada? Qual cuidado isso impõe aos percentis?
+
+
+MAT-EST-010-EX-VES-09
+Camada: VES
+Por que Q1, mediana e Q3 costumam ser menos sensíveis a um único valor extremamente alto do que a média?
+
+
+MAT-EST-010-EX-VES-10
+Camada: VES
+A FUVEST 2027 explicita quais três famílias de medidas de posição no programa de Matemática desta trilha?
+
+
+MAT-EST-010-EX-RET-01
+Camada: RET
+Sem consultar a teoria, escreva as equivalências completas entre Q1, Q2, Q3 e percentis.
+
+
+MAT-EST-010-EX-RET-02
+Camada: RET
+Use nearest-rank. Para n=17, localize a posição de P40.
+
+
+MAT-EST-010-EX-RET-03
+Camada: RET
+Explique em uma frase a diferença entre valor percentílico e posto percentílico.
+
+
+MAT-EST-010-EX-RET-04
+Camada: RET
+Uma questão pede Q1 de uma amostra pequena, mas não informa a convenção e alternativas dependem da convenção. Qual é o problema técnico do item?
+
+
+MAT-EST-010-EX-RET-05
+Camada: RET
+Qual medida será construída na próxima aula a partir de Q3 - Q1 e o que ela descreve?
+
+
+MAT-EST-010-EX-RET-06
+Camada: RET
+Explique por que estar no P95 de uma variável não é, sozinho, 'bom' ou 'ruim'.

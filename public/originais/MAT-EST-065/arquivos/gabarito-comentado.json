@@ -1,0 +1,182 @@
+[
+  {
+    "id": "MAT-EST-065-EX-APR-01",
+    "resposta_e_resolucao": "Dois dividido por oito é um quarto, ou 25%. O denominador oito representa todos os cartões planejados, não as previsões corretas. O resultado mede elegibilidade/completude, não precisão.",
+    "motivoProvavelDeErro": "Interpretação: tratar dois de oito como taxa de acerto ou usar só os elegíveis no denominador."
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-02",
+    "resposta_e_resolucao": "Aplique o módulo a cada erro: quatro e dois. A soma seis dividida por dois pares elegíveis é três unidades. O sinal não entra no MAE, mas importa para custos assimétricos.",
+    "motivoProvavelDeErro": "Conteúdo ou cálculo: cancelar sinais ou dividir pelos oito cartões planejados."
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-03",
+    "resposta_e_resolucao": "O MAE é (3+5)/2=4 unidades. Os seis pendentes não possuem pares avaliáveis; atribuir zero inventa observações e reduz artificialmente a média.",
+    "motivoProvavelDeErro": "Estratégia: preencher dados ausentes com zero para completar a planilha."
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-04",
+    "resposta_e_resolucao": "A divisão gera 0,75 unidade, mas não responde à pergunta: só dois pares têm erro observável. O MAE válido permanece seis dividido por dois, três unidades.",
+    "motivoProvavelDeErro": "Interpretação: confundir universo planejado de completude com universo efetivo da métrica."
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-05",
+    "resposta_e_resolucao": "As grandezas têm significados e dimensões diferentes. MAE mede magnitude em unidades do observado e custo mede pontos conforme uma regra; somá-los não define medida coerente sem novo modelo e justificativa.",
+    "motivoProvavelDeErro": "Conteúdo: ignorar dimensão e unidade da grandeza."
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-06",
+    "resposta_e_resolucao": "Não estimável. Não existe divisão definida por zero pares e nem erros observados dessa coorte. Zero implicaria erro medido igual a zero, dado que não existe.",
+    "motivoProvavelDeErro": "Interpretação: traduzir ausência de informação em valor numérico zero."
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-07",
+    "resposta_e_resolucao": "São dois checados localmente, quatro pendentes e dois não executados, totalizando oito controles. Nenhum controle mudou de estado por produzir uma nova aula.",
+    "motivoProvavelDeErro": "Memória ou atenção: incluir pendências como verificadas."
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-08",
+    "resposta_e_resolucao": "Seis dividido por seis é 1, ou 100% das seis fixtures criadas. Não há evidência para afirmar detecção de todos os incidentes reais, pois não existe uma amostra representativa de eventos de produção.",
+    "motivoProvavelDeErro": "Interpretação: estender indevidamente resultado de testes escolhidos a qualquer população."
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-09",
+    "resposta_e_resolucao": "Seis dividido por sete vezes cem é aproximadamente 85,71%. Mede apenas proporção de ações propostas com teste local de fixture; não mede implementação no site ou eficácia operacional.",
+    "motivoProvavelDeErro": "Cálculo ou interpretação: arredondamento e mudança de objeto da medida."
+  },
+  {
+    "id": "MAT-EST-065-EX-APR-10",
+    "resposta_e_resolucao": "Execução documental é zero dividido por dez, ou 0%. A taxa de sucesso dos checks executados não é estimável porque o denominador de execuções é zero. São duas perguntas distintas.",
+    "motivoProvavelDeErro": "Interpretação: confundir execução do plano com sucesso dos testes."
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-01",
+    "resposta_e_resolucao": "O custo é 3 max(e,0)+max(-e,0). Para +4: 12 pontos; para −2: 2 pontos. Média (12+2)/2 = sete pontos. Distinguir unidade de custo e unidade da série.",
+    "motivoProvavelDeErro": "Conteúdo: usar MAE ou aplicar peso três aos dois sinais."
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-02",
+    "resposta_e_resolucao": "Para +3 o custo é nove pontos; para −5 é cinco. Média sete pontos. B também custa sete pontos, enquanto MAE B é três unidades e MAE C é quatro; igualdade de custo não significa igualdade de erros.",
+    "motivoProvavelDeErro": "Estratégia: inferir conclusão de precisão apenas do custo."
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-03",
+    "resposta_e_resolucao": "S01: 3−4=−1. S02: 5−2=+3. A média das diferenças é (−1+3)/2=+1 unidade. Usar o mesmo par evita confundir populações diferentes, mas n=2 ainda é insuficiente para generalizar.",
+    "motivoProvavelDeErro": "Cálculo: subtrair em ordem invertida, ou emparelhar observações diferentes."
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-04",
+    "resposta_e_resolucao": "A parte complementar, seis de oito, está pendente ou não avaliável; não são seis erros medidos. Correto: “No corte A, dois de oito cartões são avaliáveis e seis permanecem pendentes”.",
+    "motivoProvavelDeErro": "Interpretação: tomar ausência como insucesso."
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-05",
+    "resposta_e_resolucao": "“Proporção de ações propostas com ensaio local sobre fixture”, seis de sete ou cerca de 85,71%. Não usar “ações implementadas”, “eficácia de controles” ou “site aprovado”.",
+    "motivoProvavelDeErro": "Redação: título de gráfico que ultrapassa a evidência."
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-06",
+    "resposta_e_resolucao": "Dois de oito expressa contagem de controles checked_local, mas critérios heterogêneos não têm equivalência de peso. G3–G8 exigem evidências humanas e externas próprias; 25% de qualidade ou prontidão é uma inferência não justificada.",
+    "motivoProvavelDeErro": "Estratégia: tratar checklist heterogêneo como escala aditiva validada."
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-07",
+    "resposta_e_resolucao": "Não como comparação confirmatória. O universo/critério mudou após ver o resultado, criando viés de seleção. Seria necessário manter escopo congelado ou rotular F1 como análise exploratória com diferenças explicitadas.",
+    "motivoProvavelDeErro": "Estratégia: olhar apenas valores finais e ignorar a composição da amostra."
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-08",
+    "resposta_e_resolucao": "Variação absoluta 50−25=25 pontos percentuais. Variação relativa (50/25−1)×100=100%. Essa passagem é hipótese aritmética, não fotografia posterior observada no projeto.",
+    "motivoProvavelDeErro": "Cálculo: confundir ponto percentual com percentagem relativa."
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-09",
+    "resposta_e_resolucao": "Pergunta: magnitude média do erro de B. Regra: soma dos módulos dos erros B dividida pelos pares elegíveis; seis sobre dois igual a três. Fonte: SANDBOX-057, corte A e versão declarada. Unidade: unidades fictícias. Limitação: apenas dois pares artificiais; seis pendentes.",
+    "motivoProvavelDeErro": "Memória ou estratégia: informar só valor e esquecer corte, fonte e denominador."
+  },
+  {
+    "id": "MAT-EST-065-EX-CON-10",
+    "resposta_e_resolucao": "Registrar como não estimável e explicitar a ausência de população, período e registros verificáveis. Zero por cento só teria sentido com exposição positiva bem definida e contagem adequada de incidentes.",
+    "motivoProvavelDeErro": "Interpretação: confundir falta de registro com observação de ausência de incidentes."
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-01",
+    "resposta_e_resolucao": "O cálculo dividiu a soma dos erros absolutos seis pelos oito planejados, incorporando casos sem alvo. Usando os dois pares existentes, o MAE é três unidades. O texto deve ainda informar os seis pendentes.",
+    "motivoProvavelDeErro": "Interpretação de tabela e escolha indevida de denominador."
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-02",
+    "resposta_e_resolucao": "“Nos seis testes artificiais I01–I06 executados localmente, todas as mutações foram rejeitadas conforme o esperado; isso não estima a taxa de detecção de falhas reais.” A população testada e a limitação precisam aparecer.",
+    "motivoProvavelDeErro": "Redação: retirar a população ou usar universalização indevida."
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-03",
+    "resposta_e_resolucao": "Teste local: 6/7≈85,71%. Implantação comprovada: 0/7=0% documentado neste conjunto; a conclusão é ausência de evidência de implantação, não demonstração de fracasso de controles em produção.",
+    "motivoProvavelDeErro": "Interpretação: trocar status da ação e eficácia real."
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-04",
+    "resposta_e_resolucao": "Custos médios B e C são sete pontos cada sob a regra declarada; MAE B é três unidades, MAE C quatro. O terceiro rótulo trocou grandeza e valor; eixos, legenda e narrativa precisam identificar regra, unidade e recorte.",
+    "motivoProvavelDeErro": "Conteúdo: ignorar análise dimensional e verificação de fonte."
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-05",
+    "resposta_e_resolucao": "O protocolo prevê condição local além da média. A violação 19,2 > 10 permanece, independentemente dos MAEs históricos B=17,60 e C=8,36. O modelo C não foi promovido; alterar a guarda depois de observar o resultado seria outra decisão/protocolo, não correção retrospectiva.",
+    "motivoProvavelDeErro": "Estratégia: escolher a métrica favorável e ignorar restrição definida antes."
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-06",
+    "resposta_e_resolucao": "O indicador não tem pares avaliáveis. A média do protocolo sucessor é não estimável, e não zero. O plano editorial não constitui avaliação prospectiva executada; precisam existir previsões emitidas antes e observações validadas depois.",
+    "motivoProvavelDeErro": "Interpretação: tomar ausência e projeção como medidas observadas."
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-07",
+    "resposta_e_resolucao": "A subtração aritmética de 50%−25% é 25 pontos percentuais, mas a comparação substantiva é inválida sem definições equivalentes. É necessário preservar versões e explicar a mudança ou recalcular comparavelmente com dados disponíveis. Os números de amanhã são hipótese, não resultado do projeto.",
+    "motivoProvavelDeErro": "Estratégia: comparar números sob contratos de dados incompatíveis."
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-08",
+    "resposta_e_resolucao": "O denominador aumenta com um caso não avaliável; o numerador não aumenta porque o zero foi inventado. A média tende a diminuir artificialmente, sugerindo precisão falsa. O correto é registrar pendência e calcular só pares observados no corte.",
+    "motivoProvavelDeErro": "Conteúdo: imputação indevida de ausência e seleção."
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-09",
+    "resposta_e_resolucao": "A validação estrutural garante presença dos elementos examinados, não equivalência da informação transmitida por áudio, navegação real ou conformidade integral. É preciso revisão humana, leitor de tela/Edge, escopo e metodologia representativa, mantendo G3 e G4 pendentes.",
+    "motivoProvavelDeErro": "Interpretação: confundir estrutura verificável com experiência de usuário e conformidade."
+  },
+  {
+    "id": "MAT-EST-065-EX-VES-10",
+    "resposta_e_resolucao": "Resposta-modelo: “No corte A do SANDBOX-057, dois de oito cartões são avaliáveis (25%); nesses dois pares, MAE B=3 e C=4 unidades. As seis mutações artificiais I01–I06 foram corretamente rejeitadas apenas nos testes locais. MAE futuro t26–t33 e taxa de incidentes reais permanecem não estimáveis, sem observações nem população operacional.”",
+    "motivoProvavelDeErro": "Redação: omitir denominador, unidade, natureza fictícia ou a ressalva sobre futuro."
+  },
+  {
+    "id": "MAT-EST-065-EX-RET-01",
+    "resposta_e_resolucao": "Completude 4/10=40%; MAE 18/4=4,5 unidades, se os erros estão na mesma unidade. Os seis itens restantes não entram como zero no cálculo do MAE. Este é exemplo novo, não nova observação da série t01–t33.",
+    "motivoProvavelDeErro": "Cálculo: dividir 18 pelos dez planejados."
+  },
+  {
+    "id": "MAT-EST-065-EX-RET-02",
+    "resposta_e_resolucao": "Três sobre quatro é 75% das quatro fixtures escolhidas. Não se pode generalizar para incidentes reais sem amostragem, população e período observados.",
+    "motivoProvavelDeErro": "Interpretação: extrapolação da base de testes."
+  },
+  {
+    "id": "MAT-EST-065-EX-RET-03",
+    "resposta_e_resolucao": "Execução: 0/5=0%. Sucesso entre executados: 0/0 é não estimável, porque não existe execução para avaliar. Não confundir as duas perguntas.",
+    "motivoProvavelDeErro": "Conteúdo: tratar divisão por zero como zero por cento."
+  },
+  {
+    "id": "MAT-EST-065-EX-RET-04",
+    "resposta_e_resolucao": "Diferença absoluta seis pontos percentuais. Variação relativa (36−30)/30×100=20%. Os valores são demonstração aritmética, não registros adicionais do projeto.",
+    "motivoProvavelDeErro": "Cálculo: confundir seis pontos percentuais com seis por cento relativos."
+  },
+  {
+    "id": "MAT-EST-065-EX-RET-05",
+    "resposta_e_resolucao": "Identificação e registro de quem executou as revisões humanas, seus achados, teste real de Edge/leitor de tela, verificação integral de vídeo e, para afirmação de publicação, integração, URL, versão e pós-deploy. Teste de código não é assinatura nem comprovação de serviço público.",
+    "motivoProvavelDeErro": "Estratégia: afirmar conclusão de uma categoria com evidência de outra."
+  },
+  {
+    "id": "MAT-EST-065-EX-RET-06",
+    "resposta_e_resolucao": "Exemplo-modelo: pergunta “quantas aulas do lote tiveram revisão humana documentada?”; universo: aulas do lote definido; numerador: aulas com registro válido de revisão; denominador: todas as aulas elegíveis; fonte: registros autorizados e versionados; janela: corte explícito; nulos: pendente, nunca aprovação presumida; unidade: porcentagem e contagem; aprovação: ato separado com revisor e evidência. Sem dados, valor não calculado.",
+    "motivoProvavelDeErro": "Estratégia: substituir especificação por número fabricado, ou não definir regras de elegibilidade."
+  }
+]

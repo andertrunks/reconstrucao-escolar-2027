@@ -1,0 +1,91 @@
+{
+  "id": "MAT-EST-063-CADERNO-SIM-v1",
+  "tipo": "registro autoral de cenários hipotéticos, não incidentes no site",
+  "exposicao_real_verificada": false,
+  "tickets": [
+    {
+      "id": "INC-SIM-063-01",
+      "fixture": "I01",
+      "dominio": "métrica e denominador",
+      "gravidade_condicional": "alta no cenário de exposição; exposição real desconhecida",
+      "contenção_proposta": "bloquear comunicação da cifra errada",
+      "correcao_proposta": "restaurar 2 pares no denominador e mostrar 2/8",
+      "reteste_exigido": "recalcular MAE e texto/legenda",
+      "evidencia_humana": null,
+      "responsavel_real": null,
+      "url_real": null,
+      "data_real": null,
+      "estado": "simulado"
+    },
+    {
+      "id": "INC-SIM-063-02",
+      "fixture": "I02",
+      "dominio": "acessibilidade",
+      "gravidade_condicional": "alta se informação só no gráfico; exposição real desconhecida",
+      "contenção_proposta": "manter equivalente textual e não publicar mutação",
+      "correcao_proposta": "repor alternativa descritiva e legenda",
+      "reteste_exigido": "inspeção automatizada mais leitor de tela por pessoa",
+      "evidencia_humana": null,
+      "responsavel_real": null,
+      "url_real": null,
+      "data_real": null,
+      "estado": "simulado"
+    },
+    {
+      "id": "INC-SIM-063-03",
+      "fixture": "I03",
+      "dominio": "integridade histórica",
+      "gravidade_condicional": "alta no cenário de afirmação pública incorreta",
+      "contenção_proposta": "retirar conclusão adulterada da candidata",
+      "correcao_proposta": "repor decisão C não promovido",
+      "reteste_exigido": "comparar com protocolo hash e revisão editorial",
+      "evidencia_humana": null,
+      "responsavel_real": null,
+      "url_real": null,
+      "data_real": null,
+      "estado": "simulado"
+    },
+    {
+      "id": "INC-SIM-063-04",
+      "fixture": "I04",
+      "dominio": "proveniência",
+      "gravidade_condicional": "alta se fonte não rastreável",
+      "contenção_proposta": "congelar variante de origem duvidosa",
+      "correcao_proposta": "reconstruir de dados de SHA esperado",
+      "reteste_exigido": "recontar resultados e conferir hashes",
+      "evidencia_humana": null,
+      "responsavel_real": null,
+      "url_real": null,
+      "data_real": null,
+      "estado": "simulado"
+    },
+    {
+      "id": "INC-SIM-063-05",
+      "fixture": "I05",
+      "dominio": "unidade e interpretação",
+      "gravidade_condicional": "moderada conforme contexto e decisão",
+      "contenção_proposta": "suspender apresentação do custo ambíguo",
+      "correcao_proposta": "indicar pontos e unidades em campos separados",
+      "reteste_exigido": "teste textual + revisão humana",
+      "evidencia_humana": null,
+      "responsavel_real": null,
+      "url_real": null,
+      "data_real": null,
+      "estado": "simulado"
+    },
+    {
+      "id": "INC-SIM-063-06",
+      "fixture": "I06",
+      "dominio": "contexto da amostra",
+      "gravidade_condicional": "moderada com risco de generalização",
+      "contenção_proposta": "exibir corte A, dois avaliáveis de oito",
+      "correcao_proposta": "restituir legenda e seis pendências",
+      "reteste_exigido": "teste de legenda e revisão editorial",
+      "evidencia_humana": null,
+      "responsavel_real": null,
+      "url_real": null,
+      "data_real": null,
+      "estado": "simulado"
+    }
+  ]
+}

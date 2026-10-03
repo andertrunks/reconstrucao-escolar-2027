@@ -1,0 +1,336 @@
+{
+  "id": "MAT-EST-031",
+  "version": "publicacao-2026-10-03-v1",
+  "objective": "distinguir ajuste, validação e teste\n\ncalcular MAE, MSE, RMSE e R² de teste\n\nexplicar K-fold e divisão conforme dependência dos dados\n\nevitar vazamento na preparação e na seleção\n\nrelatar limites de generalização",
+  "prerequisites": [
+    "MAT-EST-019",
+    "MAT-EST-020",
+    "MAT-EST-021",
+    "MAT-EST-026",
+    "MAT-EST-027",
+    "MAT-EST-028",
+    "MAT-EST-029",
+    "MAT-EST-030"
+  ],
+  "why": "---\nid: MAT-EST-031\nslug: validacao-modelos-desempenho-preditivo-treino-teste-validacao-cruzada-sobreajuste\ntitulo: \"Validação de modelos e desempenho preditivo: amostras de treino e teste, validação cruzada e prevenção de sobreajuste\"\nmateria: Matemática\nunidade: Estatística\nnivel: [3, 4, 5, 6]\nordem: 31\ntipo: aula_teorica_pratica\nanterior: MAT-EST-030\npreRequisitos: [MAT-EST-019, MAT-EST-020, MAT-EST-021, MAT-EST-026, MAT-EST-027, MAT-EST-028, MAT-EST-029, MAT-EST-030]\nproximoTopico: MAT-EST-032\nstatusProducao: produzido_localmente_nao_publicado\nstatusAprendizagemInicial: nao_iniciado\norigemQuestoes: autoral\n---\n\n# MAT-EST-031 — Validação de modelos e desempenho preditivo: amostras de treino e teste, validação cruzada e prevenção de sobreajuste\n\n**Nota editorial:** aula autoral e independente, em continuidade a MAT-EST-030. Números, casos e 36 questões são fictícios e didáticos. O formalismo de validação preditiva é aprofundamento e ponte universitária, sem alegação de cobrança literal em ENEM, FUVEST, UNICAMP e UNESP. Nenhuma tentativa individual ou consolidação é criada. MAT-EST-018, MAT-PRO-039 e MAT-PRO-054 permanecem pendentes de resolução individual.\n\n",
+  "intuitive": [],
+  "deep": [],
+  "vocabulary": [],
+  "examples": [],
+  "visuals": [
+    {
+      "url": "media/MAT-EST-031/01-divisao-treino-validacao-teste.svg",
+      "caption": "Três funções para os dados",
+      "alt": "Uma faixa com 60% para treino, 20% para validação e 20% para teste; percentuais são apenas ilustrativos.",
+      "observe": "Observe que ajuste, escolha e avaliação final não devem compartilhar informações indevidas.",
+      "conclusion": "Cada bloco responde a uma pergunta distinta; não existe partição percentual universal."
+    },
+    {
+      "url": "media/MAT-EST-031/02-treino-sobreajuste.svg",
+      "caption": "Divergência de erros entre treino e teste",
+      "alt": "Barras dos modelos A e B: MAE de treino 0,4 e 1,1; MAE de teste 3,0 e 1,3 pontos, respectivamente.",
+      "observe": "Compare as medidas em uma mesma métrica e conjunto de avaliação.",
+      "conclusion": "O menor erro no treino não implica o menor erro em novos dados."
+    },
+    {
+      "url": "media/MAT-EST-031/03-validacao-cruzada-cinco.svg",
+      "caption": "Cinco rodadas de validação cruzada",
+      "alt": "Cinco linhas, cada qual com quatro partes de treino T e uma parte de validação V; a parte V muda de posição.",
+      "observe": "Observe a rotação da parte separada.",
+      "conclusion": "Cada observação participa uma vez da validação e quatro vezes do ajuste no K-fold de cinco partes."
+    },
+    {
+      "url": "media/MAT-EST-031/04-erro-absoluto-e-quadratico.svg",
+      "caption": "Como o erro grande pesa nas métricas",
+      "alt": "Quatro resíduos absolutos 1, 1, 1 e 5; a soma dos quadrados é 28 e a soma absoluta é 8.",
+      "observe": "Confira os eixos e as unidades: erro absoluto em pontos e contribuição quadrática em pontos ao quadrado.",
+      "conclusion": "RMSE é mais sensível a um erro grande por elevar os resíduos ao quadrado."
+    },
+    {
+      "url": "media/MAT-EST-031/05-vazamento-de-dados.svg",
+      "caption": "Pré-processar sem vazamento",
+      "alt": "Fluxo correto: separar registros; ajustar imputação e escala só no treino; aplicar transformações congeladas à avaliação.",
+      "observe": "Identifique a fronteira antes da etapa de pré-processamento.",
+      "conclusion": "Nenhuma estatística da partição retida deve participar do aprendizado das transformações."
+    },
+    {
+      "url": "media/MAT-EST-031/06-tempo-e-grupos.svg",
+      "caption": "Quando a divisão aleatória não serve",
+      "alt": "Dois diagramas: pessoas P1–P3 inteiras por parte e meses anteriores destinados ao treino, posteriores à validação.",
+      "observe": "Observe a diferença entre independência por grupo e ordem temporal.",
+      "conclusion": "Escolha a estratégia de separação conforme a dependência entre registros e o uso futuro."
+    },
+    {
+      "url": "media/MAT-EST-031/07-protocolo-de-auditoria.svg",
+      "caption": "Rota da avaliação preditiva",
+      "alt": "Cinco etapas: objetivo, divisão, pipeline nos folds, escolha, teste final e relatório.",
+      "observe": "O teste final deve ser consultado depois da escolha, não usado repetidamente para otimizá-la.",
+      "conclusion": "A avaliação final precisa permanecer independente das decisões anteriores."
+    }
+  ],
+  "applications": [],
+  "connections": [],
+  "commonErrors": [],
+  "learning": [
+    "MAT-EST-031-EX-APR-01",
+    "MAT-EST-031-EX-APR-02",
+    "MAT-EST-031-EX-APR-03",
+    "MAT-EST-031-EX-APR-04",
+    "MAT-EST-031-EX-APR-05",
+    "MAT-EST-031-EX-APR-06",
+    "MAT-EST-031-EX-APR-07",
+    "MAT-EST-031-EX-APR-08",
+    "MAT-EST-031-EX-APR-09",
+    "MAT-EST-031-EX-APR-10"
+  ],
+  "consolidation": [
+    "MAT-EST-031-EX-CON-01",
+    "MAT-EST-031-EX-CON-02",
+    "MAT-EST-031-EX-CON-03",
+    "MAT-EST-031-EX-CON-04",
+    "MAT-EST-031-EX-CON-05",
+    "MAT-EST-031-EX-CON-06",
+    "MAT-EST-031-EX-CON-07",
+    "MAT-EST-031-EX-CON-08",
+    "MAT-EST-031-EX-CON-09",
+    "MAT-EST-031-EX-CON-10"
+  ],
+  "entrance": [
+    "MAT-EST-031-EX-VES-01",
+    "MAT-EST-031-EX-VES-02",
+    "MAT-EST-031-EX-VES-03",
+    "MAT-EST-031-EX-VES-04",
+    "MAT-EST-031-EX-VES-05",
+    "MAT-EST-031-EX-VES-06",
+    "MAT-EST-031-EX-VES-07",
+    "MAT-EST-031-EX-VES-08",
+    "MAT-EST-031-EX-VES-09",
+    "MAT-EST-031-EX-VES-10"
+  ],
+  "retest": [
+    "MAT-EST-031-EX-RET-01",
+    "MAT-EST-031-EX-RET-02",
+    "MAT-EST-031-EX-RET-03",
+    "MAT-EST-031-EX-RET-04",
+    "MAT-EST-031-EX-RET-05",
+    "MAT-EST-031-EX-RET-06"
+  ],
+  "solutions": [],
+  "summary": "## 12. Resumo para recuperação e leitura em voz alta\n\nUm modelo precisa ser avaliado também em observações que não utilizou para ajustar seus parâmetros. Treino ajusta; validação orienta a escolha; teste preservado avalia o procedimento selecionado. MAE é a média dos erros absolutos e mantém a unidade da resposta. MSE é a média dos quadrados, e RMSE é sua raiz quadrada. Em validação cruzada, as partes se alternam na validação. Todos os procedimentos que aprendem estatísticas, incluindo padronização, imputação e seleção de variáveis, devem ser ajustados só nos registros de treino correspondentes. Registros correlacionados exigem divisão por grupo e previsões futuras exigem respeito à cronologia. Um bom ajuste interno não comprova generalização nem causalidade.\n\n",
+  "audioVersion": "## 12. Resumo para recuperação e leitura em voz alta\n\nUm modelo precisa ser avaliado também em observações que não utilizou para ajustar seus parâmetros. Treino ajusta; validação orienta a escolha; teste preservado avalia o procedimento selecionado. MAE é a média dos erros absolutos e mantém a unidade da resposta. MSE é a média dos quadrados, e RMSE é sua raiz quadrada. Em validação cruzada, as partes se alternam na validação. Todos os procedimentos que aprendem estatísticas, incluindo padronização, imputação e seleção de variáveis, devem ser ajustados só nos registros de treino correspondentes. Registros correlacionados exigem divisão por grupo e previsões futuras exigem respeito à cronologia. Um bom ajuste interno não comprova generalização nem causalidade.\n\n",
+  "sections": [
+    {
+      "id": "MAT-EST-031-s000",
+      "title": "Apresentação e contexto da fonte",
+      "paragraphs": [],
+      "markdown": "---\nid: MAT-EST-031\nslug: validacao-modelos-desempenho-preditivo-treino-teste-validacao-cruzada-sobreajuste\ntitulo: \"Validação de modelos e desempenho preditivo: amostras de treino e teste, validação cruzada e prevenção de sobreajuste\"\nmateria: Matemática\nunidade: Estatística\nnivel: [3, 4, 5, 6]\nordem: 31\ntipo: aula_teorica_pratica\nanterior: MAT-EST-030\npreRequisitos: [MAT-EST-019, MAT-EST-020, MAT-EST-021, MAT-EST-026, MAT-EST-027, MAT-EST-028, MAT-EST-029, MAT-EST-030]\nproximoTopico: MAT-EST-032\nstatusProducao: produzido_localmente_nao_publicado\nstatusAprendizagemInicial: nao_iniciado\norigemQuestoes: autoral\n---\n\n# MAT-EST-031 — Validação de modelos e desempenho preditivo: amostras de treino e teste, validação cruzada e prevenção de sobreajuste\n\n**Nota editorial:** aula autoral e independente, em continuidade a MAT-EST-030. Números, casos e 36 questões são fictícios e didáticos. O formalismo de validação preditiva é aprofundamento e ponte universitária, sem alegação de cobrança literal em ENEM, FUVEST, UNICAMP e UNESP. Nenhuma tentativa individual ou consolidação é criada. MAT-EST-018, MAT-PRO-039 e MAT-PRO-054 permanecem pendentes de resolução individual.\n\n",
+      "sourceStart": 0,
+      "sourceEnd": 1178
+    },
+    {
+      "id": "MAT-EST-031-s001",
+      "title": "1. Objetivo, pré-requisitos e blocos de estudo",
+      "paragraphs": [],
+      "markdown": "## 1. Objetivo, pré-requisitos e blocos de estudo\n\nAo concluir o estudo, você deverá saber separar ajuste, seleção e teste final; calcular erro absoluto médio (MAE), erro quadrático médio (MSE) e raiz do erro quadrático médio (RMSE); interpretar R² fora da amostra; realizar conceitualmente K-fold; reconhecer sobreajuste, vazamento de dados e avaliação incorreta de séries temporais ou registros repetidos; e relatar limites de generalização sem confundir boa previsão com causalidade.\n\nRevisão necessária: resíduos e regressão simples (MAT-EST-026/027), regressão múltipla e indicadores (MAT-EST-028/029), seleção interna de modelos (MAT-EST-030), inferência e incerteza (MAT-EST-019 a 022). Se houver dificuldade em uma fórmula, recupere o fundamento antes de prosseguir.\n\n**Blocos sugeridos:** 30–40 minutos para a intuição e separação; 35–50 minutos para métricas e exemplos; 25–40 minutos para validação cruzada; 30–45 minutos para vazamento e protocolos; 30–50 minutos para os exercícios de cada etapa. Faça o reteste em sessão posterior.\n\n",
+      "sourceStart": 1178,
+      "sourceEnd": 2225
+    },
+    {
+      "id": "MAT-EST-031-s002",
+      "title": "2. Por que não basta ajustar bem?",
+      "paragraphs": [],
+      "markdown": "## 2. Por que não basta ajustar bem?\n\nNo MAT-EST-030 comparamos modelos no mesmo conjunto fictício de doze registros. Acrescentar parâmetros em mínimos quadrados ordinários, na mesma base e sem penalização, nunca aumenta a soma de quadrados residuais do treino, pois o modelo anterior permanece disponível como caso especial. Isso não significa previsão melhor em registros ainda não observados. Quanto maior a flexibilidade, maior a possibilidade de ajustar particularidades e ruído daquele conjunto.\n\n**Generalização** significa conservar capacidade de prever em novos dados provenientes do contexto de aplicação. Um modelo que memoriza informações específicas da amostra pode exibir erro de treino muito pequeno e erro futuro elevado: esse comportamento é chamado de **sobreajuste**, ou *overfitting*. Um modelo simples demais pode não representar uma estrutura importante: chamamos isso de subajuste, ou *underfitting*. Não existe relação universal e fixa entre complexidade e desempenho: é preciso medir sob desenho de avaliação correto.\n\n![Divisão ilustrativa entre treino, validação e teste.](assets/01-divisao-treino-validacao-teste.svg)\n\n*Figura 1 — Funções distintas das partições. Observe que treino ajusta parâmetros, validação orienta escolhas e teste final avalia o procedimento selecionado. O exemplo 60%, 20% e 20% é apenas ilustrativo, não um padrão obrigatório.*\n\n",
+      "sourceStart": 2225,
+      "sourceEnd": 3607
+    },
+    {
+      "id": "MAT-EST-031-s003",
+      "title": "3. Treino, validação e teste: três perguntas, três funções",
+      "paragraphs": [],
+      "markdown": "## 3. Treino, validação e teste: três perguntas, três funções\n\n**Treino:** dados em que os coeficientes e transformações são aprendidos. **Validação:** dados não usados para ajustar o candidato naquela rodada e usados para comparar especificações ou hiperparâmetros. **Teste final:** dados preservados até que o procedimento esteja definido, usados para uma avaliação mais independente. Pode existir um conjunto de treino e validação cruzada dentro dele, sem precisar de uma divisão tripla fixa.\n\nA proporção de divisão varia com quantidade e estrutura dos dados, objetivo, dependência temporal, grupos e incerteza aceitável. Conservar 20% para teste não é obrigação matemática. Nenhuma proporção conserta amostragem enviesada: dados de um único contexto não demonstram, por si, transporte para outros contextos.\n\n**Exemplo passo a passo:** em 125 observações hipoteticamente independentes, separe 25 como teste final. Com 100 registros de desenvolvimento, faça validação cruzada de cinco partes iguais: em cada rodada, 80 treinam e 20 validam. Cada uma das cem observações participa uma vez da validação. Selecione o procedimento pelas medidas de validação, reajuste-o em todos os cem registros de desenvolvimento e somente então avalie as 25 observações preservadas. A etapa de teste não deve ser usada repetidamente para retocar parâmetros até conseguir um resultado conveniente.\n\n",
+      "sourceStart": 3607,
+      "sourceEnd": 4991
+    },
+    {
+      "id": "MAT-EST-031-s004",
+      "title": "4. Medir erros de previsão e conservar as unidades",
+      "paragraphs": [],
+      "markdown": "## 4. Medir erros de previsão e conservar as unidades\n\nSe o valor observado é `y` e a previsão é `ŷ` (leitura: ípsilon chapéu), o **erro de previsão** é `e = y − ŷ`, isto é, observado menos previsto. Para `n` previsões, temos:\n\n- `MAE = (Σ |eᵢ|)/n`: erro absoluto médio. Leitura: somatório dos módulos dos erros dividido pelo número de observações. Unidade igual à da resposta.\n- `MSE = (Σ eᵢ²)/n`: erro quadrático médio. Leitura: somatório dos quadrados dos erros dividido pela quantidade de observações. Unidade da resposta ao quadrado.\n- `RMSE = √MSE`: raiz quadrada do erro quadrático médio. Retorna à unidade da resposta e atribui maior peso a erros grandes do que o MAE.\n\nEssas métricas não devem ser comparadas numericamente entre bases com unidades ou escalas diferentes como se fossem equivalentes; calcule-as nas mesmas observações e com a mesma definição de alvo.\n\n**Exemplo resolvido:** valores observados de um teste: 10, 12, 14 e 16 pontos. O modelo A prevê 11, 11, 15 e 15. Seus erros são −1, +1, −1 e +1. MAE = 1 ponto, MSE = 1 ponto ao quadrado e RMSE = 1 ponto. O modelo B prevê 10, 13, 14 e 17. Seus erros são zero, menos um, zero e menos um. MAE = 0,5 ponto, MSE = 0,5 ponto ao quadrado e RMSE = √0,5 ≈ 0,707 ponto. B tem menor erro nas quatro observações de teste; essa comparação sozinha não garante desempenho em qualquer outra amostra.\n\nUm erro grande pesa mais no MSE. Para valores absolutos 1, 1, 1 e 5, MAE = 2 unidades, MSE = 7 unidades ao quadrado e RMSE = √7 ≈ 2,646 unidades. A escolha da métrica depende da consequência real dos erros, e deve ocorrer antes de inspecionar os resultados.\n\n![Comparação das contribuições aos erros absoluto e quadrático.](assets/04-erro-absoluto-e-quadratico.svg)\n\n*Figura 2 — Os quatro erros absolutos são 1, 1, 1 e 5. Suas contribuições quadráticas são 1, 1, 1 e 25. O erro de cinco unidades recebe contribuição muito maior quando elevado ao quadrado.*\n\n### R² fora da amostra exige cuidado\n\nPara regressão com denominador não nulo, uma convenção usual de avaliação de teste é `R²_teste = 1 − SSE_teste/SST_teste`, em que `SST_teste = Σ(yᵢ − média observada do próprio teste)²`. Leitura: um menos a razão entre a soma quadrática de erros de previsão e a soma quadrática dos desvios dos resultados do teste em relação à média observada do teste. Esse indicador **pode ser negativo**. Para os valores observados 10, 12, 14 e 16, a média do teste é 13, de modo que SST é 20. No modelo A, SSE = 4 e R² = 0,80. Se outro modelo prevê sempre 12, SSE = 24 e R² = −0,20. A previsão constante 12 era uma referência predefinida ou aprendida do treino, e não foi ajustada após observar o teste. Se todos os resultados observados do teste forem iguais, SST é zero: o R² usual nessa fórmula fica indefinido e deve ser tratado explicitamente.\n\n",
+      "sourceStart": 4991,
+      "sourceEnd": 7785
+    },
+    {
+      "id": "MAT-EST-031-s005",
+      "title": "5. Erro em treino versus erro fora do treino",
+      "paragraphs": [],
+      "markdown": "## 5. Erro em treino versus erro fora do treino\n\nImagine MAE de treino e teste, em pontos: para o modelo A, 0,4 e 3,0; para o B, 1,1 e 1,3. A treina melhor, mas B erra menos neste teste. A lacuna pode sinalizar sobreajuste; antes de concluir, examine tamanho e representatividade do teste, variação do processo e vazamentos possíveis. Esse caso não recomenda selecionar B olhando repetidamente o teste: a escolha deveria ocorrer na validação, com um teste independente depois.\n\n![MAE de treino e teste para dois modelos.](assets/02-treino-sobreajuste.svg)\n\n*Figura 3 — Barras dos modelos A e B. A apresenta erro de treino 0,4 e teste 3,0; B apresenta erro de treino 1,1 e teste 1,3 ponto. A hierarquia de treinamento não se repete no teste.*\n\n",
+      "sourceStart": 7785,
+      "sourceEnd": 8528
+    },
+    {
+      "id": "MAT-EST-031-s006",
+      "title": "6. Validação cruzada: rotacionar quem é avaliado",
+      "paragraphs": [],
+      "markdown": "## 6. Validação cruzada: rotacionar quem é avaliado\n\nNo método **K-fold**, divida o conjunto de desenvolvimento em K partes, chamadas *folds*. Em cada rodada, ajuste todos os passos que aprendem estatísticas dos dados somente nas K−1 partes de treino e avalie na parte retida. Repita K vezes, mudando a parte de validação. A média dos erros descreve desempenho no protocolo; a dispersão mostra variação entre partições, mas os folds não são estudos independentes, pois compartilham observações de treino.\n\n**Exemplo resolvido:** MAE em cinco partes de mesmo tamanho: 2, 3, 1, 2 e 2 pontos. O MAE médio por fold é `(2+3+1+2+2)/5 = 2` pontos. Com folds desiguais, se a pergunta pede MAE agregado por observação, pondere pelo número de itens: um fold de 10 itens com MAE 1 e outro de 30 itens com MAE 3 produzem `(10×1+30×3)/40=2,5` pontos, e não 2.\n\nUma vez escolhido o modelo, ajustá-lo em todos os dados de desenvolvimento e consultá-lo apenas uma vez em um teste preservado ajuda a impedir seleção oportunista. Se várias configurações forem escolhidas por validação cruzada, a própria média dos folds pode tornar-se otimista para o procedimento escolhido; uma validação **aninhada** com seleção interna e avaliação externa é uma ferramenta de aprofundamento para estudar esse problema. Não confunda intervalos de confiança para parâmetros com a variabilidade das métricas de validação cruzada.\n\n![Validação cruzada de cinco partes.](assets/03-validacao-cruzada-cinco.svg)\n\n*Figura 4 — Cada linha representa uma rodada. T significa treino e V significa validação; todas as cinco partes passam uma vez pela posição V. Isso oferece múltiplas avaliações, mas não cria cinco experimentos independentes.*\n\n",
+      "sourceStart": 8528,
+      "sourceEnd": 10229
+    },
+    {
+      "id": "MAT-EST-031-s007",
+      "title": "7. Vazamento: quando a avaliação recebe informação privilegiada",
+      "paragraphs": [],
+      "markdown": "## 7. Vazamento: quando a avaliação recebe informação privilegiada\n\n**Vazamento de dados** ocorre quando informações indisponíveis no momento real de previsão entram no ajuste ou nas escolhas. É possível haver vazamento mesmo que o modelo nunca utilize diretamente a resposta da parte de teste. Por exemplo, calcular média, desvio padrão, mediana para imputar ausências ou selecionar variáveis usando todos os registros antes de dividir as partes transmite informação futura ao processo de treinamento.\n\n**Procedimento correto:** divida antes de aprender as transformações; em cada rodada da validação cruzada, ajuste imputação, escala, seleção de variáveis e modelo somente com o treino da rodada; aplique essas transformações já aprendidas ao respectivo conjunto de validação. Depois da escolha, reajuste o procedimento em todo o conjunto de desenvolvimento, sem incluir o teste final. Um pipeline facilita essa disciplina operacional, como recomenda a documentação técnica do scikit-learn.\n\n**Exemplo resolvido:** os valores de x no treino são 2, 4, 6 e 8, com média 5. O teste contém 10 e 12. Para centralização, use média 5 aprendida no treino: valor 10 passa a 5. Não use a média combinada 7, que incorpora estatísticas de teste no preparo do treino.\n\nOutro vazamento é incluir uma variável cujo valor só se conheceria depois do resultado previsto: a nota final do curso não pode entrar num modelo destinado a prever aprovação no primeiro dia de aula. O problema é temporal e de concepção da pergunta, não apenas técnico.\n\n![Fluxo de pré-processamento sem vazamento.](assets/05-vazamento-de-dados.svg)\n\n*Figura 5 — Primeiro separe, depois aprenda as transformações só no treino e aplique-as de modo consistente à parte retida. O teste nunca é utilizado para recalcular os parâmetros de preparação.*\n\n",
+      "sourceStart": 10229,
+      "sourceEnd": 12035
+    },
+    {
+      "id": "MAT-EST-031-s008",
+      "title": "8. Independência, grupos e cronologia",
+      "paragraphs": [],
+      "markdown": "## 8. Independência, grupos e cronologia\n\nO K-fold aleatório é inadequado quando divide registros fortemente relacionados entre treino e validação. Se uma pessoa possui várias medições e a finalidade é prever pessoas novas, separe **por pessoa inteira**, nunca por linha. Se o objetivo é prever o futuro, valide em meses posteriores aos meses usados no treino. Também verifique se os preditores já estariam disponíveis no instante da previsão e se existe janela de segurança necessária entre treino e avaliação.\n\nA separação correta depende da população-alvo: prever a próxima medição das mesmas pessoas é diferente de prever pessoas inéditas. Não basta declarar “amostra independente” quando há agrupamento, repetição ou dependência temporal. Mesmo uma separação temporal pode falhar se a construção das variáveis usar, inadvertidamente, valores que só seriam conhecidos depois da data de previsão.\n\n![Separações por grupo e por tempo.](assets/06-tempo-e-grupos.svg)\n\n*Figura 6 — No painel superior, todas as linhas da pessoa P3 ficam no teste. No inferior, meses anteriores treinam e meses futuros validam. Escolha a divisão que representa o uso pretendido, sem comunicar a conclusão exclusivamente por cor.*\n\n",
+      "sourceStart": 12035,
+      "sourceEnd": 13247
+    },
+    {
+      "id": "MAT-EST-031-s009",
+      "title": "9. Como comunicar desempenho de modo responsável",
+      "paragraphs": [],
+      "markdown": "## 9. Como comunicar desempenho de modo responsável\n\nUma descrição auditável informa: finalidade e população, período e tamanho da amostra, regra de separação, transformação aprendida no treino, modelos comparados, critério fixado previamente, métrica com unidade e resultados em teste, resultados por subgrupos quando pertinentes, limitações, mudanças de distribuição e usos não validados. Acurácia de classificação pode ser enganosa se uma categoria for rara: prever todos os cem casos como negativos quando há 95 negativos e 5 positivos dá 95% de acurácia e sensibilidade zero para o grupo positivo. Uma previsão boa tampouco prova causalidade.\n\n**Exemplo de relatório adequado:** “Na partição de teste preservada deste conjunto fictício, o modelo B apresentou MAE 0,5 ponto e RMSE aproximadamente 0,707 ponto, contra 1,0 ponto em ambas as métricas para A. Esses resultados descrevem somente estes registros; a avaliação em outra população, período ou modo de coleta exige novo estudo.”\n\n![Fluxo de auditoria do modelo.](assets/07-protocolo-de-auditoria.svg)\n\n*Figura 7 — Defina a pergunta e a métrica, faça a separação coerente, valide o pipeline, escolha o modelo e só então consulte o teste final. Registre limites e evite conclusões causais não sustentadas.*\n\n",
+      "sourceStart": 13247,
+      "sourceEnd": 14514
+    },
+    {
+      "id": "MAT-EST-031-s010",
+      "title": "10. Vocabulário, exceções e erros frequentes",
+      "paragraphs": [],
+      "markdown": "## 10. Vocabulário, exceções e erros frequentes\n\n**Conjunto de desenvolvimento:** dados disponíveis para treinar, comparar e escolher modelos. **Hiperparâmetro:** opção definida pelo procedimento de ajuste ou comparação, não necessariamente um coeficiente aprendido diretamente por minimização no treino. **Baseline:** regra simples de referência, ajustada sem acesso ao teste. **Sobreajuste:** padrão de bom ajuste interno sem generalização correspondente. **Vazamento:** informação indevida que alcança o processo de desenvolvimento. **Validação externa:** avaliação adicional num contexto independente ou distinta da validação interna, de acordo com finalidade e desenho.\n\nEvite: escolher por erro de treino apenas; transformar todo o banco antes da divisão; repetir consultas ao teste; embaralhar séries temporais; misturar medições da mesma pessoa entre treino e teste ao prever pessoas inéditas; usar R² como causalidade; comparar métricas de unidades distintas; concluir que média de folds equivale a um estudo independente de toda a população; apagar pontos difíceis só porque elevam erros; confundir bom resultado agregado com desempenho homogêneo em subgrupos.\n\n",
+      "sourceStart": 14514,
+      "sourceEnd": 15686
+    },
+    {
+      "id": "MAT-EST-031-s011",
+      "title": "11. Exercícios graduais — questões autorais",
+      "paragraphs": [],
+      "markdown": "## 11. Exercícios graduais — questões autorais\n\nAs 36 questões abaixo são **originais deste projeto**, com correção prevista para exibição após a tentativa no site. O texto oferece respostas como material editorial; o site deve separar apresentação do enunciado, envio e devolutiva. Os retestes exigem sessão posterior e não foram resolvidos individualmente por Anderson.\n\n### Camada A — aprendizagem\n\n#### MAT-EST-031-EX-APR-01 — Erro que interessa\n\nPor que uma SSE muito baixa calculada nos mesmos registros que ajustaram o modelo não demonstra boa previsão de observações futuras?\n\n**Resposta esperada:** Porque mede ajuste na amostra de treino, não capacidade de generalização.\n\n**Correção comentada:** Os coeficientes foram escolhidos para reduzir erros nesses próprios registros. Para avaliar previsão, use dados não utilizados no ajuste; distribuições futuras também precisam ser compatíveis.\n\n**Habilidade:** ajuste versus previsão. **Erro provável:** conteúdo. Retome a definição do conceito e as hipóteses de aplicação.\n\n#### MAT-EST-031-EX-APR-02 — Divisão simples\n\nUm conjunto fictício de 120 registros independentes é dividido em 75% para treino e 25% para teste. Quantos registros em cada parte?\n\n**Resposta esperada:** 90 para treino e 30 para teste.\n\n**Correção comentada:** 120 × 0,75 = 90. 120 × 0,25 = 30; confirme que 90 + 30 = 120.\n\n**Habilidade:** proporções na separação. **Erro provável:** cálculo. Organize valores e unidades antes de calcular; confira a divisão.\n\n#### MAT-EST-031-EX-APR-03 — Qual é o papel da validação?\n\nExplique a diferença entre dados usados para treinar um modelo e dados usados para escolher entre dois modelos candidatos.\n\n**Resposta esperada:** Treino ajusta parâmetros; validação compara candidatos ou hiperparâmetros em dados não usados no respectivo ajuste.\n\n**Correção comentada:** Ajustar coeficientes e avaliar opções são decisões diferentes. Depois da escolha, um teste preservado oferece uma avaliação final sem uso nas decisões anteriores.\n\n**Habilidade:** função de validação. **Erro provável:** conteúdo. Retome a definição do conceito e as hipóteses de aplicação.\n\n#### MAT-EST-031-EX-APR-04 — Erro absoluto médio\n\nQuatro erros de previsão são −1, +1, −1 e +1 ponto. Calcule MAE.\n\n**Resposta esperada:** 1 ponto.\n\n**Correção comentada:** Tome os valores absolutos: 1 + 1 + 1 + 1 = 4. Divida pelo número de previsões: MAE = 4/4 = 1 ponto.\n\n**Habilidade:** MAE. **Erro provável:** cálculo. Organize valores e unidades antes de calcular; confira a divisão.\n\n#### MAT-EST-031-EX-APR-05 — Erro quadrático médio\n\nPara os mesmos quatro erros −1, +1, −1 e +1 ponto, determine MSE e RMSE.\n\n**Resposta esperada:** MSE = 1 ponto² e RMSE = 1 ponto.\n\n**Correção comentada:** Quadrados: 1, 1, 1 e 1; média dos quadrados igual a 1 ponto². Raiz quadrada de 1 ponto² = 1 ponto.\n\n**Habilidade:** MSE e RMSE. **Erro provável:** cálculo. Organize valores e unidades antes de calcular; confira a divisão.\n\n#### MAT-EST-031-EX-APR-06 — Treino versus teste\n\nO modelo A tem MAE de treino 0,4 e de teste 3,0 pontos. O modelo B tem MAE de treino 1,1 e de teste 1,3. Qual apresentou menor erro nesse teste?\n\n**Resposta esperada:** B; seu MAE de teste foi 1,3 contra 3,0 do A.\n\n**Correção comentada:** Compare na mesma partição de teste usando a mesma unidade e métrica. A lacuna de A sugere possível sobreajuste, mas deve-se verificar amostra, vazamento e deslocamento de distribuição.\n\n**Habilidade:** comparação fora da amostra. **Erro provável:** interpretação. Verifique o sentido da pergunta e se o resultado é treino, validação ou teste.\n\n#### MAT-EST-031-EX-APR-07 — Cinco partes\n\nEm validação cruzada de cinco partes de mesmo tamanho, quantas vezes cada parte participa da validação e quantas do treino?\n\n**Resposta esperada:** Uma vez da validação e quatro vezes do treino.\n\n**Correção comentada:** Em cada rodada uma das cinco partes fica fora do ajuste. As outras quatro treinam; o procedimento se repete até todas terem sido validadas uma vez.\n\n**Habilidade:** K-fold. **Erro provável:** conteúdo. Retome a definição do conceito e as hipóteses de aplicação.\n\n#### MAT-EST-031-EX-APR-08 — Vazamento no pré-processamento\n\nUm pesquisador calcula média e desvio padrão usando todos os registros antes de dividir treino e teste. Qual é o risco?\n\n**Resposta esperada:** Vazamento: estatísticas do teste influenciaram a preparação do treino.\n\n**Correção comentada:** Primeiro preserve o teste; calcule os parâmetros da transformação apenas no treino. Aplique a transformação aprendida ao teste sem refazê-la com esses registros.\n\n**Habilidade:** vazamento de dados. **Erro provável:** estratégia. Defina primeiro a finalidade, depois a divisão dos dados e por último a métrica.\n\n#### MAT-EST-031-EX-APR-09 — R² de teste\n\nCom valores de teste 10, 12, 14 e 16, previsão 11, 11, 15 e 15, calcule SSE e R² de teste usando a média dos próprios valores observados no teste.\n\n**Resposta esperada:** SSE = 4; SST = 20; R² = 0,80.\n\n**Correção comentada:** Resíduos observados menos previstos são −1, +1, −1 e +1, e SSE = 4. A média observada do teste é 13; SST = 9 + 1 + 1 + 9 = 20; R² = 1 − 4/20.\n\n**Habilidade:** R² fora da amostra. **Erro provável:** cálculo. Organize valores e unidades antes de calcular; confira a divisão.\n\n#### MAT-EST-031-EX-APR-10 — R² negativo\n\nÉ possível que R² em teste seja negativo? Explique sem declarar que correlação é negativa.\n\n**Resposta esperada:** Sim. Ocorre quando o SSE das previsões ultrapassa o SST calculado em torno da média observada do teste.\n\n**Correção comentada:** R² = 1 − SSE/SST; se a razão ultrapassa 1, o resultado é negativo. Não confunda R² fora da amostra com o quadrado do coeficiente de correlação nem com causalidade.\n\n**Habilidade:** interpretação de R². **Erro provável:** interpretação. Verifique o sentido da pergunta e se o resultado é treino, validação ou teste.\n\n\n### Camada B — consolidação\n\n#### MAT-EST-031-EX-CON-01 — Duas previsões na mesma amostra\n\nValores observados no teste: 10, 12, 14, 16. A prevê 11, 11, 15, 15; B prevê 10, 13, 14, 17. Calcule MAE e RMSE de cada um e compare.\n\n**Resposta esperada:** A: MAE 1, RMSE 1. B: MAE 0,5, RMSE ≈0,707; B erra menos nestes registros.\n\n**Correção comentada:** A tem quatro erros absolutos unitários: MAE = RMSE = 1. B tem erros 0, −1, 0 e −1: MAE = 2/4 = 0,5; MSE = 2/4 = 0,5; RMSE = √0,5.\n\n**Habilidade:** comparação de métricas. **Erro provável:** cálculo. Organize valores e unidades antes de calcular; confira a divisão.\n\n#### MAT-EST-031-EX-CON-02 — Média de cinco folds\n\nOs MAEs de cinco folds de mesmo tamanho são 2, 3, 1, 2 e 2 pontos. Determine a média e diga o que ela representa.\n\n**Resposta esperada:** 2 pontos de MAE médio entre os cinco folds.\n\n**Correção comentada:** Soma 2+3+1+2+2 = 10; divida por 5. É uma estimativa de desempenho sob o plano de validação, não garantia para qualquer população futura.\n\n**Habilidade:** agregação de validação cruzada. **Erro provável:** cálculo. Organize valores e unidades antes de calcular; confira a divisão.\n\n#### MAT-EST-031-EX-CON-03 — Tamanhos de folds distintos\n\nUm fold com 10 observações teve MAE 1; outro com 30 observações teve MAE 3. Qual o MAE agregado por observação?\n\n**Resposta esperada:** 2,5 pontos.\n\n**Correção comentada:** Total de erros absolutos: 10×1 + 30×3 = 100. Divida por 40 registros: 2,5. A média simples de 1 e 3 (=2) daria peso igual a folds desiguais.\n\n**Habilidade:** média ponderada. **Erro provável:** cálculo. Organize valores e unidades antes de calcular; confira a divisão.\n\n#### MAT-EST-031-EX-CON-04 — Treino, validação e teste\n\nHá 125 registros independentes. Reservam-se 25 para teste; os outros 100 são usados em K-fold com cinco partes iguais. Quantos registros treinam e validam em cada rodada?\n\n**Resposta esperada:** 80 treinam e 20 validam em cada rodada; 25 permanecem intocados como teste final.\n\n**Correção comentada:** 100/5 = 20 por parte. Em cada rodada, quatro partes fornecem 80 para ajuste e a restante fornece 20 para validação.\n\n**Habilidade:** desenho de avaliação. **Erro provável:** cálculo. Organize valores e unidades antes de calcular; confira a divisão.\n\n#### MAT-EST-031-EX-CON-05 — Escolha sem olhar o teste\n\nA obteve MAE de validação 1,7 e B 1,3. Antes de abrir o teste final, qual seria a escolha provisória se menor MAE é o critério previamente definido?\n\n**Resposta esperada:** B é a escolha provisória; a avaliação final no teste ainda não ocorreu.\n\n**Correção comentada:** Compare mesma métrica e mesmo esquema de validação. Não examine os resultados do teste para inverter repetidamente decisões.\n\n**Habilidade:** seleção de modelo. **Erro provável:** estratégia. Defina primeiro a finalidade, depois a divisão dos dados e por último a métrica.\n\n#### MAT-EST-031-EX-CON-06 — Escala calculada no treino\n\nOs valores de uma variável no treino são 2, 4, 6 e 8; no teste são 10 e 12. Qual é a média usada para centralizar a variável no teste sem vazamento? Que valor transformado terá 10?\n\n**Resposta esperada:** Média de treino = 5; valor centralizado de 10 = 5.\n\n**Correção comentada:** Média de treino: (2+4+6+8)/4 = 5. Transforme 10 por 10−5 = 5; não use a média de todos os seis valores.\n\n**Habilidade:** pré-processamento sem vazamento. **Erro provável:** cálculo. Organize valores e unidades antes de calcular; confira a divisão.\n\n#### MAT-EST-031-EX-CON-07 — Mesmo aluno várias vezes\n\nHá cinco avaliações por estudante. Por que uma divisão aleatória por linha pode superestimar desempenho se o objetivo é prever estudantes nunca vistos?\n\n**Resposta esperada:** Porque registros da mesma pessoa podem ficar em treino e validação, permitindo que informações específicas dela sejam reaproveitadas.\n\n**Correção comentada:** A unidade independente pretendida é o estudante, não a linha. Separe por identificador de estudante, mantendo todos os registros de cada um em apenas uma partição por rodada.\n\n**Habilidade:** separação por grupos. **Erro provável:** interpretação. Verifique o sentido da pergunta e se o resultado é treino, validação ou teste.\n\n#### MAT-EST-031-EX-CON-08 — Previsão de amanhã\n\nPara prever consumo de energia em outubro com dados até setembro, é apropriado embaralhar observações de todo o ano e treinar também com novembro?\n\n**Resposta esperada:** Não; os dados do futuro não existem no momento real da previsão.\n\n**Correção comentada:** Preserve a cronologia; treine no passado e valide em período posterior. Considere se os preditores estavam de fato disponíveis no instante em que a previsão seria emitida.\n\n**Habilidade:** validação temporal. **Erro provável:** estratégia. Defina primeiro a finalidade, depois a divisão dos dados e por último a métrica.\n\n#### MAT-EST-031-EX-CON-09 — Quando usar RMSE\n\nErros de um modelo: 1, 1, 1 e 5. Calcule MAE e RMSE; explique por que o segundo reage mais ao erro 5.\n\n**Resposta esperada:** MAE = 2; RMSE = √7 = 2,646 aproximadamente.\n\n**Correção comentada:** MAE = (1+1+1+5)/4 = 2. MSE = (1+1+1+25)/4 = 7; RMSE = √7. O quadrado atribui peso maior ao erro extremo.\n\n**Habilidade:** sensibilidade das métricas. **Erro provável:** cálculo. Organize valores e unidades antes de calcular; confira a divisão.\n\n#### MAT-EST-031-EX-CON-10 — Dados de categorias raras\n\nUma classificação possui 95 casos negativos e 5 positivos. Um modelo prevê sempre negativo. Calcule acurácia e sensibilidade para os positivos.\n\n**Resposta esperada:** Acurácia = 95%; sensibilidade para positivos = 0%.\n\n**Correção comentada:** 95/100 previsões corretas, portanto acurácia de 95%. Nenhum dos cinco positivos é identificado; sensibilidade = 0/5. Avalie métricas adequadas ao objetivo.\n\n**Habilidade:** métricas sob desbalanceamento. **Erro provável:** interpretação. Verifique o sentido da pergunta e se o resultado é treino, validação ou teste.\n\n\n### Camada C — transferência e aprofundamento\n\n#### MAT-EST-031-EX-VES-01 — R² não se transfere automaticamente\n\nUm modelo obteve R² de treino 0,96 e R² de teste −0,20. Redija uma conclusão limitada à evidência.\n\n**Resposta esperada:** O ajuste interno foi alto, mas o desempenho no conjunto de teste foi fraco segundo R²; a capacidade de generalização precisa ser investigada.\n\n**Correção comentada:** R² no teste abaixo de zero indica SSE maior que a dispersão em torno da média dos valores observados no teste. Examine tamanho, representatividade, vazamento, mudanças de distribuição e compare com uma referência definida antes.\n\n**Habilidade:** comunicação sem exagero. **Erro provável:** interpretação. Verifique o sentido da pergunta e se o resultado é treino, validação ou teste.\n\n#### MAT-EST-031-EX-VES-02 — Comparação com referência simples\n\nNa amostra de teste com y = 10, 12, 14, 16, o modelo prevê sempre 12. Calcule SSE, SST e R² fora da amostra.\n\n**Resposta esperada:** SSE = 24; SST = 20; R² = −0,20.\n\n**Correção comentada:** Erros −2, 0, 2 e 4; quadrados 4+0+4+16 = 24. Média observada em teste 13, SST 20; R² = 1−24/20 = −0,20.\n\n**Habilidade:** referência e generalização. **Erro provável:** cálculo. Organize valores e unidades antes de calcular; confira a divisão.\n\n#### MAT-EST-031-EX-VES-03 — Seleção excessiva e teste\n\nUma equipe comparou cinquenta configurações, consultando o mesmo teste após cada ajuste, e divulgou somente a melhor. Por que a nota final é otimista?\n\n**Resposta esperada:** Porque o teste foi usado para seleção e deixou de representar uma avaliação independente.\n\n**Correção comentada:** Muitas decisões foram condicionadas a resultados do teste. Empregue validação dentro do desenvolvimento e preserve novo teste independente; em seleção extensa, considere validação aninhada.\n\n**Habilidade:** uso indevido do teste. **Erro provável:** estratégia. Defina primeiro a finalidade, depois a divisão dos dados e por último a métrica.\n\n#### MAT-EST-031-EX-VES-04 — Seleção de variáveis fora do fold\n\nAntes da validação cruzada, selecionaram-se as dez variáveis mais relacionadas à resposta usando todos os registros de desenvolvimento. Qual problema ocorreu?\n\n**Resposta esperada:** Vazamento entre folds: os rótulos das futuras validações influenciaram a seleção de variáveis.\n\n**Correção comentada:** A seleção tem de ocorrer dentro de cada rodada, usando somente a parte de treino daquele fold. O pipeline completo é avaliado nas partes de validação não vistas nessa etapa.\n\n**Habilidade:** seleção dentro do fold. **Erro provável:** conteúdo. Retome a definição do conceito e as hipóteses de aplicação.\n\n#### MAT-EST-031-EX-VES-05 — Serviços atendidos mês a mês\n\nUm conjunto contém medições mensais do mesmo serviço, com evolução temporal. Proponha separação e explique por que folds aleatórios podem ser inadequados.\n\n**Resposta esperada:** Treinar em meses anteriores e validar em meses seguintes, respeitando a disponibilidade temporal e possível lacuna entre janelas.\n\n**Correção comentada:** A autocorrelação e tendências podem produzir similaridade artificial entre treino e validação se houver embaralhamento. Use janelas progressivas ou móveis e registre o horizonte de previsão.\n\n**Habilidade:** desenho temporal. **Erro provável:** estratégia. Defina primeiro a finalidade, depois a divisão dos dados e por último a métrica.\n\n#### MAT-EST-031-EX-VES-06 — Novo município\n\nUm modelo foi validado dentro de um município, mas será aplicado em outro com perfil distinto. Qual limite deve acompanhar a conclusão?\n\n**Resposta esperada:** O resultado interno não demonstra automaticamente capacidade de transporte; requer avaliação com dados representativos da população de destino.\n\n**Correção comentada:** Mudanças nas características e na relação entre variáveis e resposta afetam a validade externa. Planeje validação de grupos ou ambiente externo e relate o novo domínio.\n\n**Habilidade:** validade externa. **Erro provável:** interpretação. Verifique o sentido da pergunta e se o resultado é treino, validação ou teste.\n\n#### MAT-EST-031-EX-VES-07 — Intervalo não é exatidão\n\nCinco MAEs de validação cruzada são 1, 3, 1, 3 e 2. Uma equipe informa média 2 e chama os cinco resultados de cinco experimentos independentes. O que corrigir?\n\n**Resposta esperada:** A média é 2, mas os folds reutilizam dados de treinamento e não são cinco estudos independentes.\n\n**Correção comentada:** Os modelos treinam em conjuntos sobrepostos e compartilham o banco de dados. Variabilidade entre folds é descritiva do protocolo; não a interprete automaticamente como intervalo de confiança para outra população.\n\n**Habilidade:** incerteza de avaliação. **Erro provável:** interpretação. Verifique o sentido da pergunta e se o resultado é treino, validação ou teste.\n\n#### MAT-EST-031-EX-VES-08 — Variável do futuro\n\nPara prever aprovação no início de um curso, o modelo inclui nota final do próprio curso. Avalie o desenho.\n\n**Resposta esperada:** Inadequado: a nota final não está disponível no instante de previsão e provoca vazamento temporal ou de alvo.\n\n**Correção comentada:** Defina explicitamente a data da decisão. Retenha apenas variáveis conhecidas até esse momento e refaça a validação segundo a implantação real.\n\n**Habilidade:** vazamento de alvo. **Erro provável:** estratégia. Defina primeiro a finalidade, depois a divisão dos dados e por último a métrica.\n\n#### MAT-EST-031-EX-VES-09 — Desempenho por subgrupo\n\nUm modelo tem MAE geral de 1,2, MAE do grupo A de 0,5 e do grupo B de 3,0. Por que não basta reportar só 1,2?\n\n**Resposta esperada:** A média geral encobre erros substancialmente maiores para o grupo B.\n\n**Correção comentada:** Verifique quantidade de registros por grupo, cobertura e variabilidade; métricas agregadas podem mascarar falhas. Relate erro por subgrupo e interprete incertezas sem presumir causa.\n\n**Habilidade:** auditoria por subgrupo. **Erro provável:** interpretação. Verifique o sentido da pergunta e se o resultado é treino, validação ou teste.\n\n#### MAT-EST-031-EX-VES-10 — Protocolo comparativo íntegro\n\nCompare modelos M0, M1 e M2 da aula anterior. Proponha sequência para escolher por MAE sem explorar repetidamente o teste.\n\n**Resposta esperada:** Definir métrica e separação antes; dividir teste externo; validar cada pipeline M0–M2 nos dados de desenvolvimento; escolher; reajustar com dados de desenvolvimento; testar uma vez e relatar limitações.\n\n**Correção comentada:** A seleção se baseia no protocolo de validação, não apenas em SSE de treino. Pré-processamento e eventual ajuste de hiperparâmetros devem ocorrer dentro das rodadas relevantes; teste final fica preservado.\n\n**Habilidade:** protocolo completo. **Erro provável:** estratégia. Defina primeiro a finalidade, depois a divisão dos dados e por último a métrica.\n\n\n### Camada D — reteste independente\n\n#### MAT-EST-031-EX-RET-01 — Particionamento independente\n\nEm 150 linhas pertencentes a 30 pessoas com cinco medições cada, o objetivo é prever pessoas inéditas. Qual deve ser a unidade de divisão?\n\n**Resposta esperada:** Pessoa inteira: nenhuma pessoa deve aparecer ao mesmo tempo nas partes de desenvolvimento e de teste.\n\n**Correção comentada:** A independência relevante é por pessoa, pois as cinco linhas podem ser correlacionadas. Estratifique por pessoa quando justificável; nunca misture linhas do mesmo identificador nos lados da divisão.\n\n**Habilidade:** transferência de separação por grupo. **Erro provável:** estratégia. Defina primeiro a finalidade, depois a divisão dos dados e por último a métrica.\n\n#### MAT-EST-031-EX-RET-02 — Erro de previsão em outra unidade\n\nQuatro previsões em quilogramas têm erros 2, −2, 0 e 4 kg. Determine MAE e RMSE, incluindo unidades.\n\n**Resposta esperada:** MAE = 2 kg; MSE = 6 kg²; RMSE = √6 ≈ 2,449 kg.\n\n**Correção comentada:** MAE = (2+2+0+4)/4 = 2 kg. MSE=(4+4+0+16)/4=6 kg²; tire a raiz para retornar a quilogramas.\n\n**Habilidade:** métricas e unidades. **Erro provável:** cálculo. Organize valores e unidades antes de calcular; confira a divisão.\n\n#### MAT-EST-031-EX-RET-03 — Tratamento ausente\n\nUma variável tem valores ausentes. Uma pessoa preenche todos com a mediana de treino e avaliação juntas. Explique como corrigir.\n\n**Resposta esperada:** Calcular mediana exclusivamente com o treino de cada rodada e aplicá-la aos registros retidos para avaliação.\n\n**Correção comentada:** A imputação aprende informação dos dados, mesmo que não use diretamente a resposta. Inclua essa etapa no pipeline para que seja refeita corretamente a cada fold.\n\n**Habilidade:** imputação segura. **Erro provável:** conteúdo. Retome a definição do conceito e as hipóteses de aplicação.\n\n#### MAT-EST-031-EX-RET-04 — Seleção com resultado inesperado\n\nNo treino, A tem RMSE 0,6 e B 1,0. Na validação, A tem 2,5 e B 1,2. Com objetivo preditivo e condições comparáveis, qual candidato segue para avaliação externa e por quê?\n\n**Resposta esperada:** B, por ter erro menor na validação (1,2); o treino perfeito de A pode refletir sobreajuste.\n\n**Correção comentada:** A seleção preditiva deve priorizar amostra não usada para ajustar cada candidato. A decisão ainda será examinada no teste final preservado, com limites de representatividade.\n\n**Habilidade:** reteste de escolha. **Erro provável:** interpretação. Verifique o sentido da pergunta e se o resultado é treino, validação ou teste.\n\n#### MAT-EST-031-EX-RET-05 — Média ponderada fora de contexto\n\nEm validação cruzada, folds com 10 e 30 itens possuem MAEs de 2 e 4. Calcule o MAE agregado por observação.\n\n**Resposta esperada:** 3,5 unidades.\n\n**Correção comentada:** Erro absoluto total = 10×2 + 30×4 = 140. Divida pelo total de 40 itens: 3,5; a média não ponderada (=3) não representa o erro agregado por item.\n\n**Habilidade:** reteste de ponderação. **Erro provável:** cálculo. Organize valores e unidades antes de calcular; confira a divisão.\n\n#### MAT-EST-031-EX-RET-06 — Conclusão para divulgação\n\nUm estudo usa registros históricos de uma escola e encontra MAE de teste 1,4 ponto. Escreva uma conclusão de duas frases sem afirmar que o método funciona igualmente em todo o país.\n\n**Resposta esperada:** Exemplo: “Nos registros históricos reservados para teste desta escola, o modelo apresentou erro absoluto médio de 1,4 ponto. A aplicação em outras escolas ou períodos requer nova validação, com atenção a possíveis mudanças da população e do processo de coleta.”\n\n**Correção comentada:** Informe métrica, unidade, base de avaliação e contexto. Limite a generalização e não transforme erro médio em garantia individual ou evidência causal.\n\n**Habilidade:** comunicação responsável. **Erro provável:** interpretação. Verifique o sentido da pergunta e se o resultado é treino, validação ou teste.\n\n",
+      "sourceStart": 15686,
+      "sourceEnd": 38208
+    },
+    {
+      "id": "MAT-EST-031-s012",
+      "title": "12. Resumo para recuperação e leitura em voz alta",
+      "paragraphs": [],
+      "markdown": "## 12. Resumo para recuperação e leitura em voz alta\n\nUm modelo precisa ser avaliado também em observações que não utilizou para ajustar seus parâmetros. Treino ajusta; validação orienta a escolha; teste preservado avalia o procedimento selecionado. MAE é a média dos erros absolutos e mantém a unidade da resposta. MSE é a média dos quadrados, e RMSE é sua raiz quadrada. Em validação cruzada, as partes se alternam na validação. Todos os procedimentos que aprendem estatísticas, incluindo padronização, imputação e seleção de variáveis, devem ser ajustados só nos registros de treino correspondentes. Registros correlacionados exigem divisão por grupo e previsões futuras exigem respeito à cronologia. Um bom ajuste interno não comprova generalização nem causalidade.\n\n",
+      "sourceStart": 38208,
+      "sourceEnd": 38979
+    },
+    {
+      "id": "MAT-EST-031-s013",
+      "title": "13. Revisão espaçada e domínio",
+      "paragraphs": [],
+      "markdown": "## 13. Revisão espaçada e domínio\n\nApós o **estudo efetivo**, registrar revisão D+1 (conceitos e MAE/RMSE), D+7 (K-fold, vazamento e grupos) e D+30 (problema novo com relatório). O reteste independente deve ser feito em outra sessão, sem mostrar antecipadamente o gabarito. Para consolidar, exigir evidência individual de que o estudante explica o porquê da divisão, calcula e interpreta métricas, identifica um vazamento em caso novo e constrói uma avaliação adequada à população-alvo. Se falhar, registrar erro por conteúdo, interpretação, cálculo, distração, memória, estratégia ou tempo, recuperar o pré-requisito e repetir uma situação diferente. Nenhuma revisão foi executada automaticamente.\n\n",
+      "sourceStart": 38979,
+      "sourceEnd": 39679
+    },
+    {
+      "id": "MAT-EST-031-s014",
+      "title": "14. Vídeo complementar",
+      "paragraphs": [],
+      "markdown": "## 14. Vídeo complementar\n\n**Principal:** [Video 6: Cross-Validation — MIT OpenCourseWare, The Analytics Edge](https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/resources/video-6-cross-validation-0/). Professor Dimitris Bertsimas, em inglês; duração não confirmada. Assista após a seção 6, para visualizar a alternância das partes. A página institucional foi localizada; a reprodução integral não foi testada.\n\n**Opção YouTube:** [Machine Learning Fundamentals: Cross Validation — StatQuest with Josh Starmer](https://www.youtube.com/watch?v=fSytzGwwBVw), em inglês; duração não confirmada. Reforça intuição, exemplo de K-fold e seleção de parâmetros. A existência da página do vídeo foi verificada; a reprodução integral não foi testada. A aula escrita é autossuficiente.\n\n",
+      "sourceStart": 39679,
+      "sourceEnd": 40469
+    },
+    {
+      "id": "MAT-EST-031-s015",
+      "title": "15. Referências e delimitação curricular",
+      "paragraphs": [],
+      "markdown": "## 15. Referências e delimitação curricular\n\n- [Penn State — STAT 501, Lesson 10, Model Building (10.6 Cross-validation)](https://online.stat.psu.edu/stat501/Lesson10).\n- [scikit-learn — Cross-validation: evaluating estimator performance](https://scikit-learn.org/stable/modules/cross_validation.html).\n- [scikit-learn — Common pitfalls and recommended practices](https://scikit-learn.org/1.8/common_pitfalls.html).\n- Documentos do projeto 01 a 08: visão, metodologia, matriz, acessibilidade, visuais, arquitetura e fontes.\n\nOs fundamentos de interpretação gráfica, proporcionalidade, incerteza e modelos quantitativos dialogam com os vestibulares, mas a implementação detalhada de validação cruzada e pipeline é aprofundamento e ponte universitária, **sem atribuição indevida aos editais**. Nenhuma questão oficial foi copiada.\n\n**Anterior:** MAT-EST-030. **Próximo:** MAT-EST-032 — Avaliação integrada de previsões: comparação de métricas, incerteza e monitoramento de desempenho. O próximo conteúdo é proposta de continuidade editorial, não mudança automática de status individual.\n",
+      "sourceStart": 40469,
+      "sourceEnd": 41554
+    }
+  ],
+  "sources": [
+    {
+      "title": "MAT-EST-031-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    }
+  ],
+  "previous": "MAT-EST-030",
+  "next": "MAT-EST-032",
+  "videos": [
+    {
+      "title": "Video 6: Cross-Validation",
+      "channel": "MIT OpenCourseWare",
+      "url": "https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/resources/video-6-cross-validation-0/",
+      "duration": "Duração não confirmada",
+      "language": "inglês",
+      "reason": "Reforça o conceito apresentado nesta aula.",
+      "when": "após a seção 6",
+      "reinforces": [],
+      "checkedAt": "2026-10-03",
+      "verification": "Disponibilidade da página institucional conferida em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+      "type": "video"
+    }
+  ],
+  "video": {
+    "title": "Video 6: Cross-Validation",
+    "channel": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/resources/video-6-cross-validation-0/",
+    "duration": "Duração não confirmada",
+    "language": "inglês",
+    "reason": "Reforça o conceito apresentado nesta aula.",
+    "when": "após a seção 6",
+    "reinforces": [],
+    "checkedAt": "2026-10-03",
+    "verification": "Disponibilidade da página institucional conferida em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+    "type": "video"
+  },
+  "publication": {
+    "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+    "notes": [
+      "A produção e a publicação não registram domínio nem alteram seu progresso.",
+      "Aula avançada para consulta. A sequência de fundamentos ainda tem textos integrais a recuperar; confira os pré-requisitos antes de iniciar.",
+      "As referências a publicação pendente no texto original registram o estado da fonte na data de criação."
+    ],
+    "original": "originais/MAT-EST-031/aula.md",
+    "editions": [],
+    "attachments": [
+      {
+        "label": "questoes-oficiais-referencias.json",
+        "url": "originais/MAT-EST-031/arquivos/questoes-oficiais-referencias.json"
+      },
+      {
+        "label": "marcador-producao.json",
+        "url": "originais/MAT-EST-031/arquivos/marcador-producao.json"
+      },
+      {
+        "label": "fontes.json",
+        "url": "originais/MAT-EST-031/arquivos/fontes.json"
+      },
+      {
+        "label": "manifest.json",
+        "url": "originais/MAT-EST-031/arquivos/manifest.json"
+      },
+      {
+        "label": "visuais.json",
+        "url": "originais/MAT-EST-031/arquivos/visuais.json"
+      },
+      {
+        "label": "exercicios.json",
+        "url": "originais/MAT-EST-031/arquivos/exercicios.json"
+      },
+      {
+        "label": "SHA256.txt",
+        "url": "originais/MAT-EST-031/arquivos/SHA256.txt"
+      },
+      {
+        "label": "QA-VALIDACAO.txt",
+        "url": "originais/MAT-EST-031/arquivos/QA-VALIDACAO.txt"
+      }
+    ],
+    "questionCount": 36,
+    "visualCount": 7,
+    "sourceSha256": "6046bf059d513e422c8bca44d827d3dd7f27d93c924bcb1298361c672fbe729f"
+  }
+}

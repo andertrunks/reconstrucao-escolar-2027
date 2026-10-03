@@ -1,0 +1,48 @@
+﻿MAT-EST-009 — MANIFESTO DA RECONSTRUÇÃO EDITORIAL v1
+
+
+Natureza
+Reconstrução editorial explícita. O código e o título históricos foram preservados sem afirmar identidade byte a byte com material anterior perdido.
+
+
+Escopo
+Pré-requisitos: MAT-EST-001 a MAT-EST-008.
+Próximo tópico: MAT-EST-010 — Quartis, decis e percentis.
+
+
+Conteúdo
+Coeficiente de variação; dispersão absoluta e relativa; forma decimal e percentual; cancelamento de unidades; escala de razão; invariância multiplicativa; falha sob translação; Celsius/Fahrenheit; média zero, próxima de zero e negativa; CV acima de 100%; limites de regras de bolso; comparação entre grupos e escalas; sensibilidade a extremos; precisão versus exatidão; ponte para medidas robustas.
+
+
+Avaliação
+36 questões autorais: 10 APR, 10 CON, 10 VES, 6 RET.
+Gabarito separado e comentado.
+
+
+Visuais
+Seis SVGs com title e desc:
+01-dp-versus-cv.svg
+02-invariancia-multiplicativa.svg
+03-celsius-fahrenheit.svg
+04-media-proxima-zero.svg
+05-ranking-dp-cv.svg
+06-arvore-uso-cv.svg
+
+
+Fontes institucionais
+FUVEST — Programa do Vestibular 2027: medidas de dispersão incluindo coeficiente de variação.
+Inep — Matrizes de Referência do Enem, 2026.
+BNCC/MEC — fundamentos de medidas de centro e dispersão nos anos finais.
+
+
+Vídeo
+Prof. MURAKAMI - MATEMÁTICA RAPIDOLA — “COEFICIENTE DE VARIAÇÃO : MEDIDA DE DISPERSÃO”.
+QA audiovisual integral pendente.
+
+
+Estado
+Publicação no site: não realizada.
+Integração B2: pendente.
+QA Edge/Ler em voz alta: pendente.
+Progresso do aluno: não alterado.
+MAT-EST-068: não iniciada.

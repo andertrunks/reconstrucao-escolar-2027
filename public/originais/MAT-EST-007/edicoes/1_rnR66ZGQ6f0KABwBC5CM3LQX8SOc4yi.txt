@@ -1,0 +1,155 @@
+# MAT-EST-007 — Gabarito comentado — reconstrução editorial v1
+
+Use somente após tentativa real.
+
+**MAT-EST-007-EX-APR-01**  
+Resposta: 11−3 = 8.  
+Raciocínio: amplitude é máximo menos mínimo.  
+Motivo provável do erro: cálculo ou confusão entre amplitude e média.
+
+**MAT-EST-007-EX-APR-02**  
+Resposta: 0.  
+Raciocínio: máximo e mínimo são ambos 20.  
+Motivo provável do erro: acreditar que amplitude precisa ser positiva.
+
+**MAT-EST-007-EX-APR-03**  
+Resposta: porque sua fórmula usa somente máximo e mínimo.  
+Motivo provável do erro: interpretação conceitual.
+
+**MAT-EST-007-EX-APR-04**  
+Resposta: −2, −1 e +3.  
+Motivo provável do erro: subtração ou sinal.
+
+**MAT-EST-007-EX-APR-05**  
+Resposta: porque a média é ponto de equilíbrio e Σxᵢ = n x̄.  
+Motivo provável do erro: não relacionar propriedade da média aos desvios.
+
+**MAT-EST-007-EX-APR-06**  
+Resposta: 4, 2 e 1.  
+Motivo provável do erro: valor absoluto.
+
+**MAT-EST-007-EX-APR-07**  
+Resposta: (2+1+3)/3 = 2.  
+Motivo provável do erro: usar desvios com sinal.
+
+**MAT-EST-007-EX-APR-08**  
+Resposta: minutos.  
+Motivo provável do erro: esquecer que o DMA conserva unidade.
+
+**MAT-EST-007-EX-APR-09**  
+Resposta: não. Valores absolutos são não negativos.  
+Motivo provável do erro: confundir desvio com desvio absoluto.
+
+**MAT-EST-007-EX-APR-10**  
+Resposta: amplitude 0 e DMA 0.  
+Motivo provável do erro: não reconhecer ausência de variação.
+
+**MAT-EST-007-EX-CON-01**  
+Resposta: média 5; amplitude 4; DMA = (2+1+0+1+2)/5 = 1,2.  
+Motivo provável do erro: cálculo sequencial.
+
+**MAT-EST-007-EX-CON-02**  
+Resposta: média 5; amplitude 8; DMA = (4+4+0+4+4)/5 = 3,2.  
+Motivo provável do erro: valor absoluto ou soma.
+
+**MAT-EST-007-EX-CON-03**  
+Resposta: o segundo é mais disperso; tem amplitude 8 e DMA 3,2 contra 4 e 1,2.  
+Motivo provável do erro: comparar apenas médias.
+
+**MAT-EST-007-EX-CON-04**  
+Resposta: permanece 4/3.  
+Raciocínio: somar constante desloca todos os valores e a média igualmente.  
+Motivo provável do erro: pensar que mudança de nível é mudança de dispersão.
+
+**MAT-EST-007-EX-CON-05**  
+Resposta: 4.  
+Raciocínio: o DMA é multiplicado por |3|.  
+Motivo provável do erro: não aplicar fator de escala.
+
+**MAT-EST-007-EX-CON-06**  
+Resposta: média 2,5; DMA 1,25.  
+Raciocínio: soma ponderada 20, n 8; soma ponderada das distâncias 10.  
+Motivo provável do erro: esquecer frequências como pesos.
+
+**MAT-EST-007-EX-CON-07**  
+Resposta: porque amplitude depende diretamente do máximo e do mínimo; mudar um extremo altera uma das duas entradas da fórmula.  
+Motivo provável do erro: interpretação.
+
+**MAT-EST-007-EX-CON-08**  
+Resposta: não. A amplitude ignora os valores intermediários.  
+Motivo provável do erro: tratar uma medida-resumo como descrição completa.
+
+**MAT-EST-007-EX-CON-09**  
+Resposta: todos os valores válidos coincidem com o centro usado; em torno da média, todos são iguais à média.  
+Motivo provável do erro: não relacionar DMA zero com todas as distâncias zero.
+
+**MAT-EST-007-EX-CON-10**  
+Resposta: porque 5 metros e 5 centímetros não representam a mesma dispersão física; é preciso converter para unidade comum.  
+Motivo provável do erro: ignorar unidades.
+
+**MAT-EST-007-EX-VES-01**  
+Resposta: A: amplitude 2, DMA 2/3≈0,67. B: amplitude 10, DMA 10/3≈3,33. B é mais disperso.  
+Motivo provável do erro: usar apenas a média.
+
+**MAT-EST-007-EX-VES-02**  
+Resposta: média 9; amplitude 20; DMA = (4+4+4+4+16)/5 = 6,4.  
+Motivo provável do erro: recalcular a média incorretamente.
+
+**MAT-EST-007-EX-VES-03**  
+Resposta: porque os desvios positivos e negativos em relação à média sempre se cancelam e somam zero.  
+Motivo provável do erro: confundir direção com magnitude.
+
+**MAT-EST-007-EX-VES-04**  
+Resposta: 16.  
+Raciocínio: a transformação multiplica dispersão por |2|; +50 não altera.  
+Motivo provável do erro: aplicar também a constante à dispersão.
+
+**MAT-EST-007-EX-VES-05**  
+Resposta: porque B também opera em escala média cem vezes maior; comparação relativa exige normalização adequada.  
+Motivo provável do erro: comparar somente medidas absolutas.
+
+**MAT-EST-007-EX-VES-06**  
+Resposta: média 12; amplitude 4; DMA = (2×1 + 0×3 + 2×1)/5 = 0,8.  
+Motivo provável do erro: frequências.
+
+**MAT-EST-007-EX-VES-07**  
+Resposta: porque os extremos reais podem estar em qualquer ponto dentro das classes extremas.  
+Motivo provável do erro: confundir limites de classe com valores observados.
+
+**MAT-EST-007-EX-VES-08**  
+Resposta: a amplitude observada pode ser artificialmente menor, porque os extremos reais podem ter desaparecido.  
+Motivo provável do erro: ignorar mecanismo de ausência.
+
+**MAT-EST-007-EX-VES-09**  
+Resposta: se yᵢ=xᵢ+c e ȳ=x̄+c, então yᵢ−ȳ = xᵢ−x̄.  
+Motivo provável do erro: álgebra da transformação.
+
+**MAT-EST-007-EX-VES-10**  
+Resposta: extremo pode ser observação válida; exclusão precisa de regra e justificativa independentes do efeito sobre a estatística.  
+Motivo provável do erro: viés de resultado.
+
+**MAT-EST-007-EX-RET-01**  
+Resposta: R=máximo−mínimo; DMA=Σ|xᵢ−x̄|/n.  
+Motivo provável do erro: memória de fórmulas sem significado.
+
+**MAT-EST-007-EX-RET-02**  
+Resposta: média 4; amplitude 4; desvios absolutos 2,0,0,2; DMA=1.  
+Motivo provável do erro: calcular média ou soma das distâncias.
+
+**MAT-EST-007-EX-RET-03**  
+Resposta: amplitude usa somente extremos; DMA usa a distância de todas as observações a um centro.  
+Motivo provável do erro: conceitos misturados.
+
+**MAT-EST-007-EX-RET-04**  
+Resposta: para impedir que desvios positivos e negativos se cancelem.  
+Motivo provável do erro: finalidade do valor absoluto.
+
+**MAT-EST-007-EX-RET-05**  
+Resposta: é multiplicado por 2.  
+Raciocínio: fator é |−2|.  
+Motivo provável do erro: acreditar que dispersão se torna negativa.
+
+**MAT-EST-007-EX-RET-06**  
+Resposta: conjuntos com o mesmo centro podem apresentar afastamentos muito diferentes em torno desse centro.  
+Motivo provável do erro: confundir centro com espalhamento.
+

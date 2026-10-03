@@ -1,0 +1,41 @@
+{
+  "documento_id": "MAT-EST-055-PARECER-DIDATICO-v1",
+  "tipo": "síntese editorial local, não autorização ou assinatura operacional",
+  "base": "MAT-EST-049-PROT-v1",
+  "modelos": [
+    "BASE-SNAIVE-v1",
+    "CHAL-SDELTA5-v1"
+  ],
+  "evidencias": {
+    "pares_validos_sinteticos": 5,
+    "pares_requeridos": 8,
+    "completude_percent": "62.50",
+    "MAE_B": "17.6",
+    "MAE_C": "8.36",
+    "reducao_MAE_percent": "52.50000",
+    "custo_medio_B": "51.2",
+    "custo_medio_C": "14.92",
+    "reducao_custo_percent": "70.85938",
+    "piora_local_maxima": "19.2",
+    "alvo_guarda": "t19",
+    "limite_piora_local": "10",
+    "auditoria_real": "não realizada",
+    "assinatura_humana_real": "não coletada"
+  },
+  "verificacao_portas": {
+    "8_pares": "pendente (5/8)",
+    "reducao_MAE_20pct": "satisfeita apenas na amostra fictícia parcial",
+    "reducao_custo_20pct": "satisfeita apenas na amostra fictícia parcial",
+    "sem_piora_local_maior_10": "violada em t19 (19,2)",
+    "auditoria_qualidade": "sem aprovação real",
+    "aprovacao_humana_e_rollback": "sem aprovação real"
+  },
+  "conclusao_didatica": "Não promover o desafiante sob MAT-EST-049-PROT-v1; a referência permanece escolha do exercício, não uma ordem de produção.",
+  "implicacao_temporal": "Novos pares não apagam a infração histórica de t19. Uma experiência distinta requer protocolo novo, declarado antes das observações elegíveis.",
+  "casos_isolados": {
+    "V": "B42/C43; preliminar40 e validada44; não inserir no denominador principal",
+    "Z": "previsão29; preliminar30 e validada32; não inserir no denominador principal"
+  },
+  "futuro": "t23-t25 não observados; B23=183 e C23=199 são recálculos, sem emissão autenticada",
+  "responsaveis": "somente papéis simulados; sem nomes ou assinaturas atribuídas a pessoas reais"
+}

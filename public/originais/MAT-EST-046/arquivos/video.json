@@ -1,0 +1,13 @@
+{
+  "titulo": "Lecture 12: Time Series Analysis",
+  "canal": "MIT OpenCourseWare",
+  "apresentador": "Peter Kempthorne",
+  "url": "https://ocw.mit.edu/courses/18-642-topics-in-mathematics-with-applications-in-finance-fall-2024/resources/18642-lecture-12-version-2_mp4/",
+  "duracaoAproximada": "não confirmada",
+  "quandoAssistir": "Depois de estudar as origens temporais e antes das tarefas de consolidação.",
+  "motivo": "Vídeo institucional introduz dependência temporal, autocorrelação e modelos de séries; a avaliação por origens é explicada integralmente no texto da aula.",
+  "paginaPublicacaoLocalizada": true,
+  "reproducaoIntegralVerificada": false,
+  "testeEdgeRealizado": false,
+  "videoObrigatorioParaEntenderAula": false
+}

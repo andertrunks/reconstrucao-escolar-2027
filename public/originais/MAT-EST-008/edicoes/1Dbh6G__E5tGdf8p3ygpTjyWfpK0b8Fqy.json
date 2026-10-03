@@ -1,0 +1,50 @@
+{
+  "id": "MAT-EST-008",
+  "titulo": "Variância e desvio-padrão: quadrados dos desvios, unidades e interpretação",
+  "materia": "Matemática",
+  "unidade": "Estatística",
+  "nivel": 3,
+  "status_editorial": "reconstrucao_editorial_v1",
+  "identidade_com_original_perdido": false,
+  "pre_requisitos": [
+    "MAT-EST-001",
+    "MAT-EST-002",
+    "MAT-EST-003",
+    "MAT-EST-004",
+    "MAT-EST-005",
+    "MAT-EST-006",
+    "MAT-EST-007"
+  ],
+  "proximo_topico": "MAT-EST-009",
+  "proximo_titulo": "Coeficiente de variação",
+  "questoes": {
+    "total": 36,
+    "apr": 10,
+    "con": 10,
+    "ves": 10,
+    "ret": 6,
+    "origem": "autoral"
+  },
+  "visuais": [
+    "01-quadrados-desvios.svg",
+    "02-variancia-para-dp.svg",
+    "03-mesma-media-diferente-dp.svg",
+    "04-populacao-amostra.svg",
+    "05-transformacao-linear.svg",
+    "06-efeito-extremo.svg"
+  ],
+  "video": {
+    "titulo": "NOÇÕES DE ESTATÍSTICA : VARIÂNCIA E DESVIO PADRÃO (18/21)",
+    "canal": "Equaciona Com Paulo Pereira",
+    "url": "https://www.youtube.com/watch?v=okczT8W1fag",
+    "qa_audiovisual": "pendente"
+  },
+  "fontes_oficiais": [
+    "BNCC/MEC — EF08MA25",
+    "Inep — Matrizes de Referência do Enem, 2026",
+    "FUVEST — Programa do Vestibular 2027"
+  ],
+  "publicado": false,
+  "progresso_aluno_alterado": false,
+  "mat_est_068_iniciada": false
+}

@@ -1,0 +1,866 @@
+[
+  {
+    "id": "MAT-EST-042-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Ordem é informação",
+    "statement": "Uma planilha contém os totais por dia 80, 100, 120, 100. É válido embaralhar os quatro valores para estudar dependência temporal?",
+    "answer": "Não.",
+    "resolution": "A sequência e a distância entre períodos compõem a observação. Embaralhar preserva a coleção de valores, mas muda os pares entre dias e, portanto, a autocorrelação e a possibilidade de previsão cronológica.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Defasagem de um dia",
+    "statement": "A série dos dias 1 a 5 é 80, 100, 120, 100, 90. Qual é x(t−1) quando t=5?",
+    "answer": "100.",
+    "resolution": "A notação x(t−1), lida x no período anterior, indica dia quatro. Nesse registro, o quarto valor é 100; o valor 90 pertence ao próprio dia cinco.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Defasagem de dois dias",
+    "statement": "Na mesma série dos dias um a cinco, qual observação corresponde a x(t−2), defasagem de dois períodos, quando t=5?",
+    "answer": "120.",
+    "resolution": "Subtraia dois períodos do índice cinco: dia três, que registra 120. A diferença entre defasagem e diferença aritmética entre valores é essencial.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Pares disponíveis",
+    "statement": "Oito dias consecutivos admitem quantos pares observados para autocorrelação de defasagem um?",
+    "answer": "Sete pares.",
+    "resolution": "Os pares são dias (1,2) a (7,8). O primeiro dia não tem antecessor disponível. Em geral, para atraso k inferior a n, há n−k pares.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Primeira diferença",
+    "statement": "Se x(3)=120 e x(4)=100, calcule a primeira diferença do dia quatro.",
+    "answer": "−20 atendimentos.",
+    "resolution": "Definimos Δx(4)=x(4)−x(3), isto é, 100−120=−20. Não confunda a diferença com a razão ou porcentagem de variação: o resultado continua expresso em atendimentos.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Previsão ingênua",
+    "statement": "Se o último valor disponível no dia quatro foi 100, quanto prevê para o dia cinco o método do último valor?",
+    "answer": "100.",
+    "resolution": "O modelo ingênuo define previsão do próximo período igual à última observação conhecida. É uma referência que precisa ser comparada, não uma lei de evolução da série.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Média móvel causal",
+    "statement": "Os três últimos valores disponíveis são 100, 120 e 100. Qual a média móvel simples de três valores para o próximo dia?",
+    "answer": "320/3 ≈ 106,67.",
+    "resolution": "Some 100+120+100=320 e divida por três. O método só consulta observações já conhecidas ao emitir a previsão e preserva a janela de comprimento três.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Média centralizada e futuro",
+    "statement": "Para prever o dia cinco, pode ser usada a média de dias quatro, cinco e seis?",
+    "answer": "Não.",
+    "resolution": "Ela inclui o próprio observado futuro e o dia seis, posterior ao dia que se quer antecipar. Pode servir a descrição retrospectiva, mas introduz vazamento como previsão feita no dia quatro.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Erro com sinal",
+    "statement": "Uma previsão foi 106,67 e o valor observado foi 90. Usando erro igual a observado menos previsto, qual o sinal?",
+    "answer": "Negativo; aproximadamente −16,67.",
+    "resolution": "Ao subtrair 90−106,67 obtemos valor negativo. A convenção de sinal precisa estar definida; para MAE tomamos o módulo após calcular os erros.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "O que é um resíduo?",
+    "statement": "Explique a diferença entre um resíduo de ajuste e um erro de previsão em dado futuro.",
+    "answer": "O resíduo usa um dado ajustado observado; o erro futuro usa uma observação que estava indisponível no momento da previsão.",
+    "resolution": "Em ambas as situações é possível calcular observado menos estimado depois de observar a resposta, porém a segunda mede generalização se o conjunto futuro realmente ficou de fora do ajuste e seleção.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Pares para atraso dois",
+    "statement": "Na série de oito dias, quais pares de índices entram no numerador da ACF de atraso dois?",
+    "answer": "(1,3), (2,4), (3,5), (4,6), (5,7), (6,8).",
+    "resolution": "Para k=2 combinamos x(t) e x(t−2), iniciando no dia três até oito. São seis pares e nenhum implica consultar períodos além da amostra.",
+    "errorReasons": [
+      "montagem da estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Centro da série",
+    "statement": "Calcule a média dos oito atendimentos 80,100,120,100,90,110,130,100.",
+    "answer": "103,75 atendimentos.",
+    "resolution": "A soma é 830; ao dividir por oito, obtemos 103,75. A ACF amostral adotada centra os oito valores por essa mesma média.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Denominador ACF",
+    "statement": "Qual é o denominador soma dos quadrados dos desvios ao usar média 103,75 nessa base?",
+    "answer": "1.787,5 atendimentos ao quadrado.",
+    "resolution": "Os desvios são −23,75; −3,75; 16,25; −3,75; −13,75; 6,25; 26,25; −3,75. Some cada quadrado: o total é 1.787,5. O denominador é comum aos atrasos nesta convenção.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "ACF de atraso um",
+    "statement": "O numerador calculado do atraso um é −1,5625 e o denominador é 1.787,5. Ache r(1).",
+    "answer": "−1/1144 ≈ −0,000874.",
+    "resolution": "Dividimos o somatório dos sete produtos centrados pelo denominador total: −1,5625/1.787,5. Essa correlação amostral está muito próxima de zero, sem provar independência.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "ACF de atraso dois",
+    "statement": "O numerador do atraso dois é −1.003,125 e o denominador 1.787,5. Encontre r(2).",
+    "answer": "−321/572 ≈ −0,56119.",
+    "resolution": "Use a mesma convenção de denominador global: −1.003,125 dividido por 1.787,5. O sinal negativo indica associação inversa amostral para separação de dois dias; oito dados não bastam para certeza inferencial.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Média móvel dia seis",
+    "statement": "Para prever dia seis, use apenas os valores dos dias três, quatro e cinco: 120, 100, 90. Calcule.",
+    "answer": "310/3 ≈ 103,33.",
+    "resolution": "O conjunto de informação foi fechado no dia cinco. A soma dos três registros anteriores é 310; dividindo por três resulta aproximadamente 103,33.",
+    "errorReasons": [
+      "montagem da estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Média móvel dia sete",
+    "statement": "Para o dia sete, os dias quatro, cinco e seis tiveram 100, 90 e 110. Ache a previsão causal.",
+    "answer": "100.",
+    "resolution": "A média 300/3 é exatamente 100. O observado do dia sete, 130, só será usado para aferir erro depois, não para recalcular retroativamente a previsão.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "MAE média móvel três",
+    "statement": "Nos dias cinco a oito os erros absolutos são 50/3, 20/3, 30 e 10. Qual é o MAE?",
+    "answer": "95/6 ≈ 15,83 atendimentos.",
+    "resolution": "Somando: 70/3+40=190/3. Dividindo pelo total de quatro previsões temos 190/12, ou 95/6. Só agregue previsões do mesmo horizonte e da mesma avaliação.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Comparação justa",
+    "statement": "A média móvel de três dias teve MAE 15,83; a referência constante 100 teve MAE 12,50 nos mesmos dias. Qual descreve corretamente esses dados?",
+    "answer": "A referência constante apresentou MAE menor nesse recorte; não foi demonstrada superioridade futura universal.",
+    "resolution": "Compare mesma métrica, alvo e quatro dias. A diferença é aproximadamente 3,33 atendimentos médios. O tamanho curto e fictício impede generalização ou conclusão sobre outras épocas.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Resíduo com média zero",
+    "statement": "Se erros sequenciais são +1,+1,+1,−1,−1,−1, sua média nula basta para dizer que não há estrutura temporal?",
+    "answer": "Não.",
+    "resolution": "A soma é zero, mas o ordenamento mostra sequências de sinais iguais. Diagnóstico de resíduos também investiga correlação serial e mudanças de dispersão, não apenas viés médio.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Dado fictício, questão autoral: atendimento sazonal",
+    "statement": "Uma unidade registra 100, 150, 100, 150 por quatro semanas, nessa ordem. Um estudante diz que basta a média 125 para provar periodicidade anual. Avalie.",
+    "answer": "A média 125 está correta; periodicidade anual não foi demonstrada.",
+    "resolution": "A soma é 500, dividida por quatro. A alternância sugere um padrão possível de duas semanas, mas quatro observações não comprovam repetição sazonal estável e não podem demonstrar um ciclo de um ano.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Dado fictício, questão autoral: lag e disponibilidade",
+    "statement": "Ao prever o dia dez, o sistema utiliza uma coluna rotulada “valor anterior” que foi preenchida com o valor do dia onze em cinco linhas. Qual falha de avaliação ocorreu?",
+    "answer": "Vazamento cronológico por construção incorreta da defasagem.",
+    "resolution": "Verifique índice e instante de disponibilidade em cada linha. Um campo com nome “anterior” não garante passado; a célula veio de t+1. Deve ser reconstruída com deslocamento correto e retestada sem acesso ao futuro.",
+    "errorReasons": [
+      "montagem da estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Dado fictício, questão autoral: ACF e causalidade",
+    "statement": "Uma série apresenta r(2)=−0,56. É válido concluir que valores elevados causam queda exatamente dois dias depois?",
+    "answer": "Não.",
+    "resolution": "A autocorrelação descreve associação entre valores de uma mesma série separados por dois períodos. Causalidade requer desenho e controle de explicações alternativas; com oito observações a estimativa é especialmente instável.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Dado fictício, questão autoral: filtro retrospectivo",
+    "statement": "Um gráfico usa média centralizada de três dias para reduzir ruído e a legenda diz “previsão disponível no próprio dia”. Identifique duas ressalvas.",
+    "answer": "É uma suavização retrospectiva e emprega o valor do próprio dia e do dia seguinte.",
+    "resolution": "Um filtro centrado de ordem três em t usa x(t−1), x(t), x(t+1). Pode ser útil para visualizar tendência passada, mas não representa previsão ex ante em t. A legenda deve declarar disponibilidade e finalidade.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Dado fictício, questão autoral: AR(1) centrado",
+    "statement": "Sob o modelo ilustrativo μ=100 e φ=0,6, o último valor é 110. Qual previsão de um passo pela equação μ+φ(x(t)−μ)?",
+    "answer": "106.",
+    "resolution": "O desvio em relação à média é 10; 0,6 vezes esse desvio é 6. Somando à média de referência, 100+6=106. Os parâmetros foram fornecidos, não ajustados à série de oito dias.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Dado fictício, questão autoral: AR dois passos",
+    "statement": "No mesmo AR(1), sem novas observações, qual a previsão dois passos adiante?",
+    "answer": "103,6.",
+    "resolution": "A previsão em um passo é 106. A expectativa do passo seguinte usa o desvio previsto, 6: 100+0,6×6=103,6. Não se pode colocar um valor futuro real que ainda não foi observado.",
+    "errorReasons": [
+      "montagem da estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Dado fictício, questão autoral: dois significados de MA",
+    "statement": "Uma equipe afirma que a média aritmética dos últimos três dias é o mesmo que um modelo MA(1) com θ=0,5. Explique o equívoco.",
+    "answer": "A primeira é filtro determinístico de observações; a segunda é processo estocástico com choque atual e choque anterior.",
+    "resolution": "A previsão pela média móvel x(t−1)+x(t−2)+x(t−3), dividida por três, não usa inovações. Já MA(1) pode ser escrito x(t)=μ+ε(t)+0,5ε(t−1), com hipóteses explícitas sobre os erros.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Dado fictício, questão autoral: ACF teórica MA1",
+    "statement": "Em um processo MA(1) com choques brancos e θ=0,5, quanto vale a autocorrelação teórica de atraso um?",
+    "answer": "0,4.",
+    "resolution": "A variância é σ²(1+θ²), e a covariância no atraso um é θσ². Portanto rho(1)=0,5/(1+0,25)=0,4. Para atrasos superiores a um, a ACF teórica é zero nas hipóteses indicadas.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Dado fictício, questão autoral: AR1 versus MA1",
+    "statement": "Um AR(1) estacionário com φ=0,6 e um MA(1) com θ=0,5 têm qual autocorrelação teórica no atraso dois?",
+    "answer": "AR(1): 0,36; MA(1): 0.",
+    "resolution": "No AR(1), rho(k)=φ elevado a k; assim 0,6²=0,36. No MA(1), só há choque comum até atraso um, de modo que rho(2)=0. Essas são propriedades teóricas, não testes feitos com oito dados.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Dado fictício, questão autoral: política de modelo",
+    "statement": "Os MAEs são 20 (último valor), 15,83 (média móvel 3) e 12,50 (constante 100). Um gestor pretende adotar o terceiro sem monitorar. Que proposta estatística cabe?",
+    "answer": "Registrar a vantagem observada, ampliar validação temporal e monitorar alterações posteriores.",
+    "resolution": "A constante é uma referência útil e teve menor erro neste recorte, mas quatro datas não cobrem eventos especiais, estações ou mudanças na operação. Defina horizonte, critérios e novas origens cronológicas antes da implantação.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Reteste: mudar a série",
+    "statement": "Valores observados 3, 5, 8, 4, 7. Quais são os pares (anterior, atual) para atraso um?",
+    "answer": "(3,5), (5,8), (8,4), (4,7).",
+    "resolution": "Há n−1=4 pares em sequência. Conservar a ordem é requisito da correlação temporal; o par (7,3), por exemplo, não é adjacente nesta amostra linear.",
+    "errorReasons": [
+      "montagem da estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Reteste: diferença versus nível",
+    "statement": "Uma série tem x(4)=42 e x(5)=38. Calcule Δx(5) e indique se significa taxa percentual.",
+    "answer": "−4 unidades; não é porcentagem.",
+    "resolution": "Subtraia 38−42=−4. Se quisesse taxa proporcional, teria de dividir pelo valor de referência 42 e definir a interpretação; primeira diferença sozinha mede unidades originais.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Reteste: média causal diferente",
+    "statement": "Dados passados 9, 12, 15, 6. Usando só os últimos três, preveja o período seguinte.",
+    "answer": "11.",
+    "resolution": "Os últimos três são 12,15,6; a soma é 33, média 11. O 9 mais antigo fica fora da janela definida, e não há uso do futuro.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Reteste: ACF centrada",
+    "statement": "Em uma amostra já centrada com desvios [−1,0,1], calcule r(1) com o denominador global.",
+    "answer": "0.",
+    "resolution": "Denominador é 1+0+1=2. Numerador de atraso um: 0×(−1)+1×0=0. Logo r(1)=0, que nessa amostra diminuta não permite concluir independência populacional.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Reteste: diagnóstico de resíduos",
+    "statement": "Erro cronológico +2,+2,+2,+2,−2,−2,−2,−2 tem média zero. Que investigação específica ainda é necessária?",
+    "answer": "Inspecionar sequências e autocorrelação de resíduos.",
+    "resolution": "A média zero cancela sinais, mas os quatro erros positivos seguidos de quatro negativos sugerem padrão temporal a investigar. Examine o gráfico e a ACF, sem proclamar significância sem método adequado.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-042-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-042"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Reteste: desenhar a verificação",
+    "statement": "Você precisa prever o total de sexta-feira toda quinta à noite. Como impedir vazamento numa validação por origem móvel?",
+    "answer": "Em cada dobra, limitar todos os dados e transformações à informação disponível até quinta; testar sexta após observação.",
+    "resolution": "Documente instante real de disponibilidade de cada variável, ajuste regras e transformações dentro de cada treino e preserve as sextas para avaliação posterior. Uma base ordenada ainda vaza informação se suas colunas contêm valores futuros.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-042-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  }
+]

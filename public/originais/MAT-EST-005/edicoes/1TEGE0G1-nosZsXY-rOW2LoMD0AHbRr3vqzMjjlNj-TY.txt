@@ -1,0 +1,43 @@
+﻿MAT-EST-005 — MANIFESTO DA RECONSTRUÇÃO EDITORIAL v1
+
+
+Natureza
+Reconstrução editorial explícita. O código e o título históricos foram preservados, sem alegar identidade byte a byte com o original perdido.
+
+
+Escopo
+Pré-requisitos: MAT-EST-001 a MAT-EST-004.
+Próximo tópico: MAT-EST-006.
+
+
+Conteúdo
+Média como repartição; fórmula simples; unidade; ponto de equilíbrio; soma dos desvios; média por frequências; média ponderada; combinação de grupos; valor desconhecido; transformações; correção, adição e remoção de observações; valores extremos; média amostral/populacional; média de percentuais; limitações.
+
+
+Avaliação
+36 questões autorais: 10 APR, 10 CON, 10 VES, 6 RET.
+Gabarito separado com raciocínio e classificação provável de erro.
+
+
+Visuais
+Seis SVGs acessíveis produzidos especificamente para a reconstrução.
+
+
+Fontes
+BNCC/MEC — EF07MA35.
+Inep — Matrizes de Referência do Enem, 2026.
+FUVEST — Programa do Vestibular 2027.
+
+
+Vídeos
+Prof. Enildo Barbosa — Média Aritmética.
+Prof. Murakami — Média Aritmética Ponderada.
+QA audiovisual integral e legendas ainda pendentes.
+
+
+Estado
+Publicação: não realizada.
+QA Edge/Ler em voz alta: pendente.
+Integração ao modelo do site: pendente.
+Progresso do aluno: não alterado.
+MAT-EST-068: não iniciada.

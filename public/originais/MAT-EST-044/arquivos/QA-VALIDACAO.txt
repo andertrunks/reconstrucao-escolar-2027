@@ -1,0 +1,31 @@
+MAT-EST-044 — QA local
+OK | identificador e titulo
+OK | anterior e proximo
+OK | 36 questoes e distribuição
+OK | 36 IDs únicos
+OK | enunciados unicos
+OK | 36 gabaritos correspondentes
+OK | gabaritos com passo a passo
+OK | nenhuma questao se apresenta como oficial
+OK | 7 visuais com metadados acessiveis
+OK | SVG valido com titulo e descricao: MAT-EST-044-VIS-01
+OK | SVG valido com titulo e descricao: MAT-EST-044-VIS-02
+OK | SVG valido com titulo e descricao: MAT-EST-044-VIS-03
+OK | SVG valido com titulo e descricao: MAT-EST-044-VIS-04
+OK | SVG valido com titulo e descricao: MAT-EST-044-VIS-05
+OK | SVG valido com titulo e descricao: MAT-EST-044-VIS-06
+OK | SVG valido com titulo e descricao: MAT-EST-044-VIS-07
+OK | duas bases herdadas sem alteracao
+OK | recursão SES e extremos
+OK | pesos de SES consistentes
+OK | previsoes de Holt reprodutiveis
+OK | conta de Holt Winters com estados fornecidos
+OK | mesmo corte temporal para todos
+OK | MAE SES / Holt
+OK | previsões hipotéticas não rotuladas como ajuste
+OK | teste já conhecido explicitado
+OK | dados não são casos reais
+OK | sem resolucoes dentro do arquivo de exercicios
+OK | video identificado e limite de teste expresso
+OK | sem marcas de interpolacao python não substituidas
+OK | codigo reproduzivel executa sem erro

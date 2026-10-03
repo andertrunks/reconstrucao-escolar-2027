@@ -1,0 +1,121 @@
+{
+  "id": "MAT-EST-048",
+  "titulo": "Monitoramento prospectivo de séries temporais: registro de previsões, deriva de dados e protocolos de revisão de modelos",
+  "slug": "monitoramento-prospectivo-series-temporais-registro-previsoes-deriva-dados-protocolos-revisao-modelos",
+  "materia": "Matemática",
+  "unidade": "Estatística",
+  "nivel": 6,
+  "anterior": "MAT-EST-047",
+  "proximo": "MAT-EST-049",
+  "statusAprendizagem": "nao_iniciado",
+  "origem": "autoral",
+  "licencaConteudo": "autoral",
+  "aula": "MAT-EST-048-monitoramento-prospectivo-series-temporais-registro-previsoes-deriva-dados-protocolos-revisao-modelos.md",
+  "preRequisitos": [
+    "MAT-EST-031",
+    "MAT-EST-032",
+    "MAT-EST-041",
+    "MAT-EST-043",
+    "MAT-EST-045",
+    "MAT-EST-046",
+    "MAT-EST-047"
+  ],
+  "objetivos": [
+    "distinguir emissão de chegada e simulação de monitoramento real",
+    "reconstruir emissões com prefixos cronológicos",
+    "calcular erros e métricas em janelas maduras",
+    "interpretar sinais de possível mudança sem alegar prova causal",
+    "aplicar gatilho didático predefinido",
+    "esboçar revisão humana e avaliação de versão candidata",
+    "não contar pendências como acertos"
+  ],
+  "relacoes": [
+    "média e módulo",
+    "raízes e desigualdades",
+    "leitura de gráficos",
+    "estatística e metodologia científica",
+    "versionamento em computação",
+    "relatório e redação"
+  ],
+  "examesRelevantes": "Leitura de dados, gráficos e crítica inferencial é transferível; Holt-Winters e monitoramento formal constituem ponte universitária, sem atribuição indevida a editais.",
+  "questoes": {
+    "arquivo": "exercicios.json",
+    "gabaritoSeparado": "gabarito-comentado.json",
+    "total": 36,
+    "aprendizagem": 10,
+    "consolidacao": 10,
+    "transferenciaVestibular": 10,
+    "reteste": 6,
+    "questoesOficiais": 0
+  },
+  "visuais": {
+    "arquivo": "visuais.json",
+    "total": 7,
+    "formato": "SVG com title desc, alt, legenda e conclusão textual"
+  },
+  "video": "video.json",
+  "fontes": "fontes.json",
+  "arquivosReproduziveis": [
+    "calculos-reproduziveis.py",
+    "calculos-reproduziveis.json",
+    "registro-emissoes-simuladas.csv",
+    "registro-chegadas-simuladas.csv",
+    "cenario-ficticio-t13-t18.csv",
+    "emissoes-pendentes-simuladas.csv"
+  ],
+  "dadosHerdados": [
+    {
+      "arquivo": "dados-ficticios-referencia.csv",
+      "origem": "MAT-EST-047/dados-ficticios-referencia.csv",
+      "sha256": "f1cc3989cd8c701a14e544c424b797f27594806ae302a93253e2a1b82fab5ca9"
+    },
+    {
+      "arquivo": "dados-ficticios-trimestrais.csv",
+      "origem": "MAT-EST-047/dados-ficticios-trimestrais.csv",
+      "sha256": "c1d765b97f058ad9f94fba88e46b9cd6e3c1056bf1653ca3b048b97ca7c1c6f1"
+    }
+  ],
+  "protocolo": {
+    "cenarioReal": false,
+    "chegadasSimuladas": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "origens": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "versao": "HW-A-1.0",
+    "horizonteAvaliado": 1,
+    "limiarAbsErroEstrito": 4,
+    "quantidadeMinimaAltos": 2,
+    "janelaMadura": 3,
+    "emissoesPendentes": [
+      19,
+      20
+    ],
+    "retreinoAutomatico": false
+  },
+  "revisao": {
+    "diasAposEstudoReal": [
+      1,
+      7,
+      30
+    ],
+    "inicio": "somente após estudo e tentativa reais"
+  },
+  "publicacao": {
+    "googleDrive": false,
+    "site": false,
+    "edgeRealTestado": false,
+    "videoReproduzidoIntegralmente": false
+  }
+}

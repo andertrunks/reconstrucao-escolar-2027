@@ -1,0 +1,36 @@
+{
+  "projeto": "Reconstrução Escolar + ENEM e Vestibulares 2027",
+  "ultimo_pacote_editorial_concluido": "MAT-EST-061",
+  "ultimo_confirmado_antes": "MAT-EST-060",
+  "titulo_ultimo": "Teste de regressão editorial e preparação de publicação: evidências humanas, rollback e comunicação de correções",
+  "etapa_atual": "concluído editorialmente apenas em arquivo local",
+  "proximo_topico_editorial": "MAT-EST-062",
+  "titulo_proximo_proposto": "Manutenção de evidências e prontidão de publicação: checklist auditável, rastreio de pendências e validação pós-deploy",
+  "proximo_estado": "não iniciado",
+  "progresso_individual": "não iniciado; nenhuma tentativa ou evidência; inalterado",
+  "serie": "t01–t22 preservados; t23–t25 sem emissão/observação autenticada; t26–t33 apenas propostas, zero pares",
+  "historico": "MAT-EST-049-PROT-v1: cinco pares, MAE B17,60 C8,36, custo B51,20 C14,92, t19 piora19,2 > guarda dez; C não promovido",
+  "sandbox": "SANDBOX-057: oito cartões, dois avaliáveis, seis pendentes; MAE B3 C4 unidades; custo médio sete pontos para ambos",
+  "sucessor": "MAT-EST-056-PROT-SUC-v1 rascunho editorial local sem emissões nem observados",
+  "novidades": [
+    "candidata de texto R061-RC1 isolada",
+    "cinco mutações negativas de regressão T01–T05 isoladas",
+    "registro G1–G8 com verificações humanas pendentes",
+    "ensaio de extração do ZIP anterior apenas em diretório temporário",
+    "36 exercícios autorais e gabarito separado",
+    "seis visuais acessíveis"
+  ],
+  "anexo_anterior": "historico/MAT-EST-060-pacote-integracao.zip íntegro",
+  "arquivos_invariantes_herdados_sha256": 23,
+  "nao_alegar": [
+    "publicação de site",
+    "sincronização Drive ou GitHub",
+    "aprovação humana",
+    "teste real Edge/leitor de tela",
+    "reprodução completa do vídeo",
+    "rollback em produção",
+    "nova medição prospectiva",
+    "progresso estudado"
+  ],
+  "material_integracao": "MAT-EST-061-pacote-integracao.zip"
+}

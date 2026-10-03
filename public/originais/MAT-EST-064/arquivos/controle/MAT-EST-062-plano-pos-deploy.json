@@ -1,0 +1,99 @@
+{
+  "id": "MAT-EST-062-POST-v1",
+  "natureza": "roteiro futuro, não execução",
+  "url_publica": null,
+  "commit_publicado": null,
+  "executado": false,
+  "itens": [
+    {
+      "id": "P01",
+      "criterio": "URL do recurso corresponde ao destino esperado e HTTP adequado",
+      "evidencia_solicitada": "captura de URL com data/versão",
+      "status": "not_performed",
+      "evidencia_real": null,
+      "avaliador": null,
+      "executado_em": null
+    },
+    {
+      "id": "P02",
+      "criterio": "versão, commit e SHA da página correspondem ao manifesto",
+      "evidencia_solicitada": "ID e hash recuperados do site",
+      "status": "not_performed",
+      "evidencia_real": null,
+      "avaliador": null,
+      "executado_em": null
+    },
+    {
+      "id": "P03",
+      "criterio": "título, ordem semântica e navegação anterior/próximo funcionam",
+      "evidencia_solicitada": "checagem manual e URL",
+      "status": "not_performed",
+      "evidencia_real": null,
+      "avaliador": null,
+      "executado_em": null
+    },
+    {
+      "id": "P04",
+      "criterio": "36 questões e respostas não aparecem trocadas ou antecipadas",
+      "evidencia_solicitada": "contagem no site e tentativa de abertura",
+      "status": "not_performed",
+      "evidencia_real": null,
+      "avaliador": null,
+      "executado_em": null
+    },
+    {
+      "id": "P05",
+      "criterio": "denominadores e números reproduzem SANDBOX-057: 2/8, MAE B3 C4, custos 7",
+      "evidencia_solicitada": "cálculo reproduzido e versão de dados",
+      "status": "not_performed",
+      "evidencia_real": null,
+      "avaliador": null,
+      "executado_em": null
+    },
+    {
+      "id": "P06",
+      "criterio": "histórico preserva t19=19,2 e sucessor continua sem pares",
+      "evidencia_solicitada": "comparação explícita de fonte e texto",
+      "status": "not_performed",
+      "evidencia_real": null,
+      "avaliador": null,
+      "executado_em": null
+    },
+    {
+      "id": "P07",
+      "criterio": "seis imagens e suas alternativas textuais carregam",
+      "evidencia_solicitada": "inspeção e uso não exclusivamente visual",
+      "status": "not_performed",
+      "evidencia_real": null,
+      "avaliador": null,
+      "executado_em": null
+    },
+    {
+      "id": "P08",
+      "criterio": "leitura em voz alta do Edge, teclado e foco funcionam",
+      "evidencia_solicitada": "ambiente, passos e observações reais",
+      "status": "not_performed",
+      "evidencia_real": null,
+      "avaliador": null,
+      "executado_em": null
+    },
+    {
+      "id": "P09",
+      "criterio": "leitor de tela, zoom e contraste revisados por pessoa",
+      "evidencia_solicitada": "ambiente, versão e resultado",
+      "status": "not_performed",
+      "evidencia_real": null,
+      "avaliador": null,
+      "executado_em": null
+    },
+    {
+      "id": "P10",
+      "criterio": "cache/atualização e comportamento de erro/rollback documentados",
+      "evidencia_solicitada": "observação no site e links de evidência",
+      "status": "not_performed",
+      "evidencia_real": null,
+      "avaliador": null,
+      "executado_em": null
+    }
+  ]
+}

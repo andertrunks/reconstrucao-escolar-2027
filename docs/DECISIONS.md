@@ -1,5 +1,19 @@
 # Decisões
 
+## 2026-10-03 — Publicação do acervo integral recuperado
+
+A solicitação atual autoriza publicar todo o conteúdo criado. Foram percorridas as pastas do projeto, o inventário histórico, as reconstruções editoriais e os pacotes cumulativos. Importadas MAT-EST-001 a 011 (reconstrução editorial v1) e MAT-EST-031 a 067 (fontes integrais recuperadas). Não foram criadas aulas a partir de códigos ou títulos. MAT-EST-012 a 030, MAT-PRO-039 e outras referências históricas continuam sem material integral acessível; MAT-EST-068 continua apenas referência futura.
+
+As aulas avançadas ficam disponíveis para consulta, com aviso dos pré-requisitos diretos e transitivos indisponíveis. A árvore de fundamentos ainda não está completa (B1 parcial na auditoria AUD-MAT-EST-067). Não se declara que a trilha está pronta para um iniciante nem que a produção representa domínio do estudante.
+
+Textos originais, todos os itens de exercícios/gabarito, retestes, versões recuperadas, tabelas, SVG/PNG, dados e scripts foram preservados. Os cinco diagramas de MAT-EST-001 materializam as especificações visuais já existentes na fonte; são implementação editorial identificável, sem alegação de identidade binária histórica. As demais imagens são as recuperadas. As camadas TRA mantêm seus IDs e sua identidade de transferência.
+
+Os gabaritos são fontes para autocorreção, acessíveis na prática depois de salvar uma tentativa. 177 respostas têm explicação breve segundo conferência conservadora e recebem indicação de desenvolvimento pendente. A correspondência entre IDs/enunciados/respostas foi validada; nenhum item é declarado pedagogicamente revisado por contagem de palavras. Não são atribuídas notas automáticas.
+
+Vídeos do YouTube conferidos por oEmbed; recursos institucionais por resposta HTTP e conteúdo da página. Um link da Penn State retornou 502 e foi preservado com esse estado, acompanhado de complemento verificado. A indicação sem link exato de Ferretto em MAT-EST-008 foi mantida no original e acompanhada do vídeo verificado de Equaciona, presente na edição anterior. Reprodução integral, voz e legendas não foram auditadas.
+
+O ambiente local restringe sockets necessários ao navegador. A build, TypeScript, lint, conteúdo e testes unitários são locais; o workflow exige os seis testes completos em Chromium e Microsoft Edge antes do deploy. A URL real será inspecionada após o sucesso da implantação.
+
 ## 2026-09-22 — Primeira inspeção
 
 Nenhum repositório correspondente nos nove repositórios acessíveis do proprietário; diretório desta tarefa sem aplicação. Busca local por manifestos e documentos em Documents/Codex não identificou o projeto. Google Drive: Site do Projeto e Materiais por Matéria sem arquivos. A aplicação é iniciada aqui; futuras execuções continuam neste repositório.

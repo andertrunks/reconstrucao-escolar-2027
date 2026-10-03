@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.0",
+  "id": "MAT-EST-040",
+  "slug": "metodos-reamostragem-pratica-intervalos-desenho-auditoria-robustez",
+  "titulo": "Métodos de reamostragem em prática: comparação de intervalos, testes sob desenho amostral e auditoria de robustez",
+  "materia": "Matemática",
+  "unidade": "Estatística",
+  "nivel": [
+    6
+  ],
+  "ordem": 40,
+  "tipoConteudo": "ponte_universitaria_reamostragem_comparacao",
+  "anterior": "MAT-EST-039",
+  "preRequisitos": [
+    "MAT-EST-019",
+    "MAT-EST-020",
+    "MAT-EST-021",
+    "MAT-EST-023",
+    "MAT-EST-031",
+    "MAT-EST-034",
+    "MAT-EST-035",
+    "MAT-EST-039"
+  ],
+  "objetivos": [
+    "comparar intervalos bootstrap com hipóteses explícitas",
+    "construir teste de permutação conforme desenho",
+    "preservar pares e conglomerados",
+    "avaliar estabilidade e incerteza computacional",
+    "relatar limites de generalização"
+  ],
+  "examesRelacionados": [
+    "ENEM (fundamentos correlatos)",
+    "FUVEST (fundamentos correlatos)",
+    "UNICAMP (fundamentos correlatos)",
+    "UNESP (fundamentos correlatos)"
+  ],
+  "notaExames": "Bootstrap/permutação formal são ponte universitária; itens autorais não são questões oficiais.",
+  "arquivoMarkdown": "MAT-EST-040-metodos-reamostragem-pratica-intervalos-desenho-auditoria-robustez.md",
+  "arquivoExercicios": "exercicios.json",
+  "arquivoGabarito": "gabarito-comentado.json",
+  "arquivoDados": "dados-ficticios-referencia.csv",
+  "origemDados": "MAT-EST-039/dados-ficticios-referencia.csv, preservação binária",
+  "origemCSVSHA256": "f1cc3989cd8c701a14e544c424b797f27594806ae302a93253e2a1b82fab5ca9",
+  "arquivoCalculos": "calculos-reproduziveis.json",
+  "arquivoCodigo": "calculos-reproduziveis.py",
+  "visuais": [
+    {
+      "id": "MAT-EST-040-VIS-01",
+      "arquivo": "assets/01-camadas-validade.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Validade da inferência: coleta, método e conclusão",
+      "legenda": "Validade da inferência: coleta, método e conclusão",
+      "alt": "Três caixas em sequência mostram coleta, reamostragem e conclusão; alerta sobre replicações artificiais.",
+      "oQueObservar": "Confira se o desenho de coleta é anterior à escolha do método.",
+      "conclusaoTextual": "Simulação não corrige ausência ou dependência não tratada na amostra."
+    },
+    {
+      "id": "MAT-EST-040-VIS-02",
+      "arquivo": "assets/02-comparacao-intervalos.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Comparação de intervalos bootstrap para a média",
+      "legenda": "Comparação de intervalos bootstrap para a média",
+      "alt": "Eixo de 2 a 8 unidades, com intervalo percentílico de 3 a 7 e intervalo normal aproximado de 2,809 a 7,191; centro 5.",
+      "oQueObservar": "Compare limites obtidos por quantis e limites baseados em simetria e erro-padrão.",
+      "conclusaoTextual": "Métodos diferentes geram resultados distintos; amostra minúscula não atesta cobertura nominal."
+    },
+    {
+      "id": "MAT-EST-040-VIS-03",
+      "arquivo": "assets/03-permutacao-e-desenho.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Permutação exata condicionada ao desenho",
+      "legenda": "Permutação exata condicionada ao desenho",
+      "alt": "Dados A=[2,4,6], B=[8,10,12], 20 distribuições equiprováveis de rótulos e duas extremas, p de 0,10.",
+      "oQueObservar": "Confira a exigência de rótulos intercambiáveis sob a hipótese nula.",
+      "conclusaoTextual": "Sem troca justificável no desenho, a contagem de 20 não legitima o teste."
+    },
+    {
+      "id": "MAT-EST-040-VIS-04",
+      "arquivo": "assets/04-pacientes-conglomerados.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Reamostragem por conglomerados",
+      "legenda": "Reamostragem por conglomerados",
+      "alt": "Três pacientes com duas medições cada; médias dos pacientes 3, 7 e 11; reamostragem por paciente.",
+      "oQueObservar": "Observe que seis medições vieram de somente três pessoas.",
+      "conclusaoTextual": "A unidade de reamostragem respeita a unidade independente do desenho."
+    },
+    {
+      "id": "MAT-EST-040-VIS-05",
+      "arquivo": "assets/05-pares-modelos.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Comparação pareada de erros entre modelos",
+      "legenda": "Comparação pareada de erros entre modelos",
+      "alt": "Tabela de quatro dias: erros A 5,5,5,5; B 0,0,0,25; diferenças A menos B 5,5,5,-20.",
+      "oQueObservar": "A diferença deve ser formada na mesma data, não entre dias embaralhados.",
+      "conclusaoTextual": "A comparação integral muda de sinal no diagnóstico de exclusão do último dia."
+    },
+    {
+      "id": "MAT-EST-040-VIS-06",
+      "arquivo": "assets/06-distribuicao-pareada.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Distribuição exata das diferenças médias reamostradas",
+      "legenda": "Distribuição exata das diferenças médias reamostradas",
+      "alt": "Cinco barras em valores -20,-13,75,-7,5,-1,25 e 5, com frequências 1,12,54,108,81, respectivamente.",
+      "oQueObservar": "A distribuição concentra-se perto de menos 1,25, mas contém valores positivos e negativos.",
+      "conclusaoTextual": "O intervalo ilustrativo inclui zero e a pequena série não sustenta generalização temporal robusta."
+    },
+    {
+      "id": "MAT-EST-040-VIS-07",
+      "arquivo": "assets/07-arvore-auditoria.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Árvore de auditoria da reamostragem",
+      "legenda": "Árvore de auditoria da reamostragem",
+      "alt": "Quatro passos: pergunta, dependência, procedimento e análise de robustez, terminando em conclusão proporcional à evidência.",
+      "oQueObservar": "Não selecionar o procedimento antes de entender pergunta e coleta.",
+      "conclusaoTextual": "Incerteza de simulação, amostragem e viés são problemas distintos."
+    }
+  ],
+  "video": {
+    "titulo": "Video 11.1: Bootstrapping",
+    "canal": "Penn State Online / STAT 500",
+    "url": "https://online.stat.psu.edu/stat500/Lesson11",
+    "idioma": "inglês",
+    "duracaoAproximada": "não confirmada",
+    "momentoRecomendado": "após a seção 3",
+    "motivo": "explica a reamostragem com reposição e a distribuição de estatísticas",
+    "verificacao": "página e indicação do vídeo verificadas em 28/09/2026; reprodução integral não testada"
+  },
+  "fontes": [
+    {
+      "instituicao": "Pennsylvania State University",
+      "titulo": "STAT 500 — Lesson 11",
+      "url": "https://online.stat.psu.edu/stat500/Lesson11",
+      "uso": "bootstrap e percentil"
+    },
+    {
+      "instituicao": "Pennsylvania State University",
+      "titulo": "STAT 200 — Lesson 4",
+      "url": "https://online.stat.psu.edu/stat200/Lesson04",
+      "uso": "intervalos de confiança"
+    },
+    {
+      "instituicao": "Pennsylvania State University",
+      "titulo": "STAT 200 — Lesson 5",
+      "url": "https://online.stat.psu.edu/stat200/Lesson05",
+      "uso": "randomização e valor-p"
+    }
+  ],
+  "quantidadeQuestoesAutorais": 36,
+  "questoesOficiaisReproduzidas": 0,
+  "camadas": {
+    "aprendizagem": 10,
+    "consolidacao": 10,
+    "transferencia": 10,
+    "reteste": 6
+  },
+  "statusEditorial": "produzido_localmente_nao_publicado",
+  "statusAprendizagemInicial": "nao_iniciado",
+  "progressosAnterioresAlterados": false,
+  "proximoTopico": {
+    "id": "MAT-EST-041",
+    "titulo": "Inferência com dados dependentes: reamostragem por blocos e conglomerados, validação temporal e limites de generalização"
+  }
+}

@@ -1,0 +1,11 @@
+CONTINUIDADE — RECONSTRUÇÃO ESCOLAR + ENEM E VESTIBULARES 2027
+
+Último pacote editorial concluído localmente: MAT-EST-059 — Comunicação comparativa de desempenho temporal: gráficos honestos, incerteza condicional e relatório executivo verificável. Consultar MAT-EST-059-pacote-integracao.zip e checkpoint-editorial.json. Se os anexos não estiverem acessíveis no novo chat, solicitar anexação dos arquivos, sem adivinhar links de sandbox.
+
+Próxima etapa ainda não iniciada: MAT-EST-060 — Auditoria de gráficos e relatórios automatizados: testes de consistência, versões e acessibilidade de publicação.
+
+Preservar os 23 arquivos-base invariantes, os arquivos históricos, o ZIP MAT-EST-058 inteiro e IDs permanentes. t01–t22 fictícios preservados. Histórico MAT-EST-049-PROT-v1: cinco de oito pares, MAE B=17,60 C=8,36; custos B=51,20 C=14,92; piora local C em t19=19,2 > guarda dez. Não promover o desafiante no protocolo antigo. t23–t25 sem observações nem emissões autenticadas; t26–t33 propostos sem nenhum registro. MAT-EST-056-PROT-SUC-v1 somente rascunho local.
+
+SANDBOX-057 isolado: oito cartões S01–S08, somente S01 e S02 avaliáveis, seis pendentes; erros assinados B [+4,−2] e C [+3,−5]. MAE B=3 e C=4 unidades; custo médio sete pontos ambos. Diferenças pareadas dos módulos C menos B [−1,+3], média +1. Exclusão de S02 após resultado é exploração seletiva e não altera corte A. Os limites hipotéticos com M=10 para seis faltantes são B [0,75;8,25], C [1;8,5], diferença [−7,25;+7,75]; não são intervalos de confiança. A MAT-EST-059 traz matriz de alegações rastreáveis e relatórios derivados sem acrescentar valores observados.
+
+Quando eu escrever Continuar, verificar o checkpoint canônico mais recente e executar exatamente um passo editorial: MAT-EST-060. Produzir aula aprofundada, recursos visuais acessíveis, vídeo complementar com verificação honesta, 36 exercícios autorais graduais e reteste, gabarito separado, Markdown, metadados, ZIP, prévia, manifesto de hashes SHA-256 e verificações. Não inventar observações, publicar, sincronizar, assinar, registrar externamente ou atualizar progresso individual sem evidência. Registrar próximo checkpoint e apresentar botões Continuar e Copiar prompt de transição.

@@ -1,0 +1,254 @@
+[
+  {
+    "id": "MAT-EST-053-EX-APR-01",
+    "grupo": "APR",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "O que representa o período de referência do dado?"
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-02",
+    "grupo": "APR",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "Na simulação V, quando se tornam disponíveis 40 e 44?"
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-03",
+    "grupo": "APR",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "Em L11, que observação do alvo V está disponível?"
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-04",
+    "grupo": "APR",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "Qual é a qualidade de 40 e de 44 em V?"
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-05",
+    "grupo": "APR",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "Previsão B42 e observado 40: qual o erro assinado?"
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-06",
+    "grupo": "APR",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "Previsão C43 e observado 44: qual o erro assinado?"
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-07",
+    "grupo": "APR",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "Um dado faltante deve entrar como zero no MAE?"
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-08",
+    "grupo": "APR",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "Duas revisões do mesmo alvo contam como dois alvos?"
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-09",
+    "grupo": "APR",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "Qual campo vincula uma correção ao registro anterior?"
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-10",
+    "grupo": "APR",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "O hash sozinho prova data passada da emissão?"
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-01",
+    "grupo": "CON",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "Calcule módulos de B42 e C43 com v1=40."
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-02",
+    "grupo": "CON",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "Calcule módulos de B42 e C43 com v2=44."
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-03",
+    "grupo": "CON",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "Com custo 3 para erro positivo e 1 para negativo, calcule custos em v1=40."
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-04",
+    "grupo": "CON",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "Sob a mesma regra, custos em v2=44?"
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-05",
+    "grupo": "CON",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "Por que não substituir previsão B42 por B44 após saber o resultado?"
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-06",
+    "grupo": "CON",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "Cinco pares elegíveis entre oito planejados: completude?"
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-07",
+    "grupo": "CON",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "Se cinco módulos são 2,3,4,1,5, calcule MAE."
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-08",
+    "grupo": "CON",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "Se o terceiro módulo vira 2 por revisão, qual novo MAE?"
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-09",
+    "grupo": "CON",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "Defina VALIDATED_AS_OF em L12 para EXEMPLO-V."
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-10",
+    "grupo": "CON",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "EXEMPLO-Z tem previsão29, preliminar30, validado32. Quais erros e custos?"
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-01",
+    "grupo": "VES",
+    "origem": "autoral",
+    "exame": "contextualizada estilo vestibular; nao oficial",
+    "enunciado": "Uma reportagem compara o resultado calculado com última revisão a decisão original. Qual ressalva quantitativa falta?"
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-02",
+    "grupo": "VES",
+    "origem": "autoral",
+    "exame": "contextualizada estilo vestibular; nao oficial",
+    "enunciado": "Um painel divulga sete arquivos para cinco alvos e diz 7/8 de completude. Reescreva."
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-03",
+    "grupo": "VES",
+    "origem": "autoral",
+    "exame": "contextualizada estilo vestibular; nao oficial",
+    "enunciado": "Um analista escolhe 40 para favorecer B e 44 para favorecer C. Que problema existe?"
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-04",
+    "grupo": "VES",
+    "origem": "autoral",
+    "exame": "contextualizada estilo vestibular; nao oficial",
+    "enunciado": "Se a versão mais recente em L13 é 44, ela pode alimentar previsão congelada em L10?"
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-05",
+    "grupo": "VES",
+    "origem": "autoral",
+    "exame": "contextualizada estilo vestibular; nao oficial",
+    "enunciado": "Em v1 B módulo2 C módulo3; em v2 B módulo2 C módulo1. Que conclusão é justificada?"
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-06",
+    "grupo": "VES",
+    "origem": "autoral",
+    "exame": "contextualizada estilo vestibular; nao oficial",
+    "enunciado": "Qual documento precisa manter a regra 3:1 se uma auditoria recalcular o histórico MAT-EST-049?"
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-07",
+    "grupo": "VES",
+    "origem": "autoral",
+    "exame": "contextualizada estilo vestibular; nao oficial",
+    "enunciado": "O resultado C tem MAE 8,36 versus B17,60 nos cinco pares. Isso autoriza promoção?"
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-08",
+    "grupo": "VES",
+    "origem": "autoral",
+    "exame": "contextualizada estilo vestibular; nao oficial",
+    "enunciado": "Um arquivo apresenta hash, mas não fonte e carimbo confiável de emissão. Pode provar previsão anterior?"
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-09",
+    "grupo": "VES",
+    "origem": "autoral",
+    "exame": "contextualizada estilo vestibular; nao oficial",
+    "enunciado": "Exponha quatro informações para reproduzir um MAE revisado."
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-10",
+    "grupo": "VES",
+    "origem": "autoral",
+    "exame": "contextualizada estilo vestibular; nao oficial",
+    "enunciado": "Escreva em duas frases parecer sobre alvos t23–t25 após MAT-EST-053."
+  },
+  {
+    "id": "MAT-EST-053-EX-RET-01",
+    "grupo": "RET",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "No corte L11 de V, o valor 44 está disponível?"
+  },
+  {
+    "id": "MAT-EST-053-EX-RET-02",
+    "grupo": "RET",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "Se previsão12 e observado validado9, calcule erro e custo assimétrico 3:1."
+  },
+  {
+    "id": "MAT-EST-053-EX-RET-03",
+    "grupo": "RET",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "Uma versão preliminar 11 corrigida para 15, previsão 12. Calcule erros nas duas versões."
+  },
+  {
+    "id": "MAT-EST-053-EX-RET-04",
+    "grupo": "RET",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "Quatro alvos elegíveis, seis arquivos por duas revisões. Qual divisor do MAE?"
+  },
+  {
+    "id": "MAT-EST-053-EX-RET-05",
+    "grupo": "RET",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "Uma correção altera dado de entrada de uma previsão que já foi emitida. Como documentar?"
+  },
+  {
+    "id": "MAT-EST-053-EX-RET-06",
+    "grupo": "RET",
+    "origem": "autoral",
+    "exame": "formato didatico",
+    "enunciado": "Qual fato impede promoção em MAT-EST-049 independentemente de melhorias médias futuras?"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "projeto": "Reconstrução Escolar + ENEM e Vestibulares 2027",
+  "ultimo_pacote_editorial_concluido": "MAT-EST-064",
+  "ultimo_confirmado_antes": "MAT-EST-063",
+  "titulo_ultimo": "Análise pós-incidente e prevenção editorial: causas sistêmicas, ações verificáveis e revisão de controles",
+  "etapa_atual": "concluído editorialmente apenas em arquivos locais",
+  "proximo_topico_editorial": "MAT-EST-065",
+  "titulo_proximo_proposto": "Indicadores de qualidade editorial: definição operacional, linhas de base e acompanhamento sem métricas ilusórias",
+  "proximo_estado": "não iniciado",
+  "progresso_individual": "não iniciado; sem tentativas registradas; inalterado",
+  "historico": "t01–t22 preservados; MAT-EST-049-PROT-v1 com cinco de oito, guarda t19 19,2 > 10, C não promovido",
+  "sem_observacoes": "t23–t25 sem observações/emissões; t26–t33 somente proposta sem pares",
+  "sandbox": "SANDBOX-057 2/8 avaliáveis, MAE B=3, C=4, custo médio 7; casos V e Z isolados",
+  "controles": "G1/G2 checked_local; G3–G6 pending; G7/G8 not_performed; P01–P10 not_performed",
+  "novidades": [
+    "análise pós-incidente hipotética H64-01–06",
+    "sete ações propostas A64-01–07, seis testadas apenas em fixtures",
+    "reteste I01 herdado reproduzido sem alterar baseline",
+    "seis recursos visuais originais",
+    "36 exercícios autorais e gabarito separado"
+  ],
+  "anexo_anterior": "historico/MAT-EST-063-pacote-integracao.zip idêntico por hash à fonte",
+  "sha256_pacote_anterior": "93ce6b4ddbb3d37952fbe6144fbfb76b9ec61218fa75e34063b52e9063af9352",
+  "arquivos_invariantes_herdados_sha256": 23,
+  "sem_exposicao_publica_ou_revisao_humana": true,
+  "nao_alegar": [
+    "incidente de produção",
+    "causa sistêmica real confirmada",
+    "pessoas afetadas",
+    "eficácia operacional de controle",
+    "publicação, Drive, GitHub, deploy e rollback externo",
+    "G3–G8 executados",
+    "teste Edge real, vídeo integral",
+    "observações temporais futuras",
+    "progresso individual estudado"
+  ],
+  "material_integracao": "MAT-EST-064-pacote-integracao.zip"
+}

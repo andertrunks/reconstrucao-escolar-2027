@@ -1,0 +1,721 @@
+{
+  "id": "MAT-EST-006",
+  "version": "publicacao-2026-10-03-v1",
+  "objective": "1. Objetivo\n\n\nAo dominar esta aula, o estudante deverá conseguir:\n\n\n• explicar intuitivamente o que a mediana representa;\n• encontrar a mediana em conjuntos com quantidade ímpar e par de dados;\n• compreender por que ordenar os dados é indispensável;\n• localizar a mediana em tabelas de frequência usando frequência acumulada;\n• distinguir valor mediano de posição mediana;\n• definir e encontrar moda em dados quantitativos e qualitativos;\n• reconhecer conjuntos sem moda, unimodais, bimodais e multimodais;\n• distinguir moda de “maior frequência”;\n• identificar classe modal em dados agrupados;\n• comparar média, mediana e moda diante de valores extremos e assimetria;\n• escolher uma medida de centro adequada ao tipo de variável e à pergunta;\n• relacionar mediana ao percentil 50, sem antecipar indevidamente o estudo completo de quartis e percentis;\n• interpretar medidas de centro sem generalizar além do que os dados permitem.\n\n\n",
+  "prerequisites": [
+    "MAT-EST-001",
+    "MAT-EST-002",
+    "MAT-EST-003",
+    "MAT-EST-004",
+    "MAT-EST-005"
+  ],
+  "why": "MAT-EST-006 — Mediana e moda: posição, frequência e comparação com a média\n\n\nStatus editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.\nMatéria: Matemática.\nUnidade: Estatística.\nNível principal: 2 — Ensino Fundamental II, com progressão para Ensino Médio, vestibulares e ponte universitária.\nPré-requisitos: MAT-EST-001 a MAT-EST-005; ordenação de números; frequências absoluta e acumulada; média aritmética; frações e porcentagens básicas.\nPróximo tópico: MAT-EST-007 — Medidas de dispersão I: amplitude, desvios e desvio médio.\nQuestões desta reconstrução: 100% autorais.\n\n\n",
+  "intuitive": [],
+  "deep": [],
+  "vocabulary": [],
+  "examples": [],
+  "visuals": [
+    {
+      "url": "media/MAT-EST-006/galeria-01.png",
+      "caption": "Mediana com n ímpar",
+      "alt": "valores 7, 8, 9, 10, 11, 12 e 50; o valor 10 está marcado como mediana.",
+      "observe": "o extremo 50 não altera a posição central.",
+      "conclusion": "com sete dados, a mediana é o quarto valor da lista ordenada."
+    },
+    {
+      "url": "media/MAT-EST-006/galeria-02.png",
+      "caption": "Mediana com n par",
+      "alt": "valores 3, 5, 6, 7, 8 e 10; os valores centrais 6 e 7 são destacados.",
+      "observe": "não existe uma única observação central quando n é par.",
+      "conclusion": "a mediana é a média dos dois valores centrais."
+    },
+    {
+      "url": "media/MAT-EST-006/galeria-03.png",
+      "caption": "Moda e frequência",
+      "alt": "barras para valores 2, 3, 4 e 5 com frequências 2, 1, 3 e 1.",
+      "observe": "a moda é o valor 4; 3 é a frequência da moda.",
+      "conclusion": "moda é o valor mais frequente, não a contagem."
+    },
+    {
+      "url": "media/MAT-EST-006/galeria-04.png",
+      "caption": "Extremo: média versus mediana",
+      "alt": "comparação dos conjuntos 2,3,4,5,6 e 2,3,4,5,100.",
+      "observe": "média responde à magnitude extrema; mediana responde à posição.",
+      "conclusion": "a mediana é mais resistente a um valor extremo."
+    },
+    {
+      "url": "media/MAT-EST-006/galeria-05.png",
+      "caption": "Assimetria à direita",
+      "alt": "a moda aparece mais à esquerda, depois a mediana e mais à direita a média.",
+      "observe": "a cauda direita pode puxar a média.",
+      "conclusion": "moda menor que mediana menor que média é um padrão comum, não regra universal."
+    },
+    {
+      "url": "media/MAT-EST-006/galeria-06.png",
+      "caption": "Mediana por frequência acumulada",
+      "alt": "tabela com valores 1,2,3,4; frequências 2,4,3,1 e acumuladas 2,6,9,10.",
+      "observe": "a acumulada localiza as posições centrais sem expandir toda a lista.",
+      "conclusion": "ambas as posições centrais pertencem ao valor 2, portanto a mediana é 2."
+    }
+  ],
+  "applications": [],
+  "connections": [],
+  "commonErrors": [],
+  "learning": [
+    "MAT-EST-006-EX-APR-01",
+    "MAT-EST-006-EX-APR-02",
+    "MAT-EST-006-EX-APR-03",
+    "MAT-EST-006-EX-APR-04",
+    "MAT-EST-006-EX-APR-05",
+    "MAT-EST-006-EX-APR-06",
+    "MAT-EST-006-EX-APR-07",
+    "MAT-EST-006-EX-APR-08",
+    "MAT-EST-006-EX-APR-09",
+    "MAT-EST-006-EX-APR-10"
+  ],
+  "consolidation": [
+    "MAT-EST-006-EX-CON-01",
+    "MAT-EST-006-EX-CON-02",
+    "MAT-EST-006-EX-CON-03",
+    "MAT-EST-006-EX-CON-04",
+    "MAT-EST-006-EX-CON-05",
+    "MAT-EST-006-EX-CON-06",
+    "MAT-EST-006-EX-CON-07",
+    "MAT-EST-006-EX-CON-08",
+    "MAT-EST-006-EX-CON-09",
+    "MAT-EST-006-EX-CON-10"
+  ],
+  "entrance": [
+    "MAT-EST-006-EX-VES-01",
+    "MAT-EST-006-EX-VES-02",
+    "MAT-EST-006-EX-VES-03",
+    "MAT-EST-006-EX-VES-04",
+    "MAT-EST-006-EX-VES-05",
+    "MAT-EST-006-EX-VES-06",
+    "MAT-EST-006-EX-VES-07",
+    "MAT-EST-006-EX-VES-08",
+    "MAT-EST-006-EX-VES-09",
+    "MAT-EST-006-EX-VES-10"
+  ],
+  "retest": [
+    "MAT-EST-006-EX-RET-01",
+    "MAT-EST-006-EX-RET-02",
+    "MAT-EST-006-EX-RET-03",
+    "MAT-EST-006-EX-RET-04",
+    "MAT-EST-006-EX-RET-05",
+    "MAT-EST-006-EX-RET-06"
+  ],
+  "solutions": [],
+  "summary": "62. Resumo para revisão\n\n\nMediana:\nvalor central da lista ordenada.\n\n\nn ímpar:\nposição (n+1)/2.\n\n\nn par:\nmédia dos valores nas posições n/2 e n/2+1.\n\n\nModa:\nvalor ou categoria de maior frequência.\n\n\nPode haver:\nnenhuma moda;\numa moda;\nduas modas;\nvárias modas.\n\n\nMédia:\nusa magnitudes e soma.\n\n\nMediana:\nusa ordem e posição.\n\n\nModa:\nusa frequência.\n\n\nExtremos afetam a média mais fortemente do que a mediana.\n\n\nModa funciona também para dados nominais.\n\n\n",
+  "audioVersion": "63. Versão curta para ouvir\n\n\nPara encontrar a mediana, primeiro ordene os dados.\n\n\nSe há quantidade ímpar, escolha o valor da posição central.\n\n\nSe há quantidade par, faça a média dos dois valores centrais.\n\n\nA moda é o valor ou categoria que aparece com maior frequência. Um conjunto pode ter nenhuma, uma ou várias modas.\n\n\nA média usa todos os valores e é sensível a extremos. A mediana usa posição e é mais resistente. A moda usa frequência e pode ser aplicada até a categorias nominais.\n\n\nA melhor medida depende da variável, da distribuição e da pergunta.\n\n\n",
+  "sections": [
+    {
+      "id": "MAT-EST-006-s000",
+      "title": "Apresentação e contexto da fonte",
+      "paragraphs": [],
+      "markdown": "MAT-EST-006 — Mediana e moda: posição, frequência e comparação com a média\n\n\nStatus editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.\nMatéria: Matemática.\nUnidade: Estatística.\nNível principal: 2 — Ensino Fundamental II, com progressão para Ensino Médio, vestibulares e ponte universitária.\nPré-requisitos: MAT-EST-001 a MAT-EST-005; ordenação de números; frequências absoluta e acumulada; média aritmética; frações e porcentagens básicas.\nPróximo tópico: MAT-EST-007 — Medidas de dispersão I: amplitude, desvios e desvio médio.\nQuestões desta reconstrução: 100% autorais.\n\n\n",
+      "sourceStart": 0,
+      "sourceEnd": 619
+    },
+    {
+      "id": "MAT-EST-006-s001",
+      "title": "1. Objetivo",
+      "paragraphs": [],
+      "markdown": "1. Objetivo\n\n\nAo dominar esta aula, o estudante deverá conseguir:\n\n\n• explicar intuitivamente o que a mediana representa;\n• encontrar a mediana em conjuntos com quantidade ímpar e par de dados;\n• compreender por que ordenar os dados é indispensável;\n• localizar a mediana em tabelas de frequência usando frequência acumulada;\n• distinguir valor mediano de posição mediana;\n• definir e encontrar moda em dados quantitativos e qualitativos;\n• reconhecer conjuntos sem moda, unimodais, bimodais e multimodais;\n• distinguir moda de “maior frequência”;\n• identificar classe modal em dados agrupados;\n• comparar média, mediana e moda diante de valores extremos e assimetria;\n• escolher uma medida de centro adequada ao tipo de variável e à pergunta;\n• relacionar mediana ao percentil 50, sem antecipar indevidamente o estudo completo de quartis e percentis;\n• interpretar medidas de centro sem generalizar além do que os dados permitem.\n\n\n",
+      "sourceStart": 619,
+      "sourceEnd": 1552
+    },
+    {
+      "id": "MAT-EST-006-s002",
+      "title": "2. Por que estudar outras medidas de centro?",
+      "paragraphs": [],
+      "markdown": "2. Por que estudar outras medidas de centro?\n\n\nNa MAT-EST-005 vimos que a média usa todos os valores diretamente na soma.\n\n\nIsso é uma força, porque aproveita toda a informação numérica.\n\n\nTambém é uma vulnerabilidade: valores extremos podem deslocar a média.\n\n\nConsidere as rendas:\n\n\nR$ 2.000;\nR$ 2.100;\nR$ 2.200;\nR$ 2.300;\nR$ 20.000.\n\n\nMédia:\n\n\n(2000 + 2100 + 2200 + 2300 + 20000) / 5\n= 28600 / 5\n= R$ 5.720.\n\n\nMas quatro das cinco rendas estão entre R$ 2.000 e R$ 2.300.\n\n\nA média é matematicamente correta, porém talvez não represente bem o “centro típico” desse pequeno conjunto.\n\n\nA mediana oferece outra ideia de centro: posição.\n\n\n",
+      "sourceStart": 1552,
+      "sourceEnd": 2191
+    },
+    {
+      "id": "MAT-EST-006-s003",
+      "title": "3. O que é mediana?",
+      "paragraphs": [],
+      "markdown": "3. O que é mediana?\n\n\nA mediana é o valor que ocupa a posição central quando os dados são ordenados.\n\n\nA palavra central aqui é literal: precisamos colocar os dados em ordem.\n\n\nExemplo:\n\n\n9, 2, 5, 4, 7.\n\n\nPrimeiro ordenar:\n\n\n2, 4, 5, 7, 9.\n\n\nO valor central é 5.\n\n\nMediana = 5.\n\n\n",
+      "sourceStart": 2191,
+      "sourceEnd": 2471
+    },
+    {
+      "id": "MAT-EST-006-s004",
+      "title": "4. Ordenar é obrigatório",
+      "paragraphs": [],
+      "markdown": "4. Ordenar é obrigatório\n\n\nConsidere novamente:\n\n\n9, 2, 5, 4, 7.\n\n\nSe alguém simplesmente escolher o terceiro valor da lista original, obterá 5 por coincidência.\n\n\nAgora use:\n\n\n9, 2, 7, 4, 5.\n\n\nO terceiro valor original é 7.\n\n\nMas ordenando:\n\n\n2, 4, 5, 7, 9.\n\n\nA mediana continua sendo 5.\n\n\nPortanto, a mediana depende da posição na lista ordenada, não da posição na ordem em que os dados foram coletados.\n\n\n",
+      "sourceStart": 2471,
+      "sourceEnd": 2879
+    },
+    {
+      "id": "MAT-EST-006-s005",
+      "title": "5. Mediana com quantidade ímpar de dados",
+      "paragraphs": [],
+      "markdown": "5. Mediana com quantidade ímpar de dados\n\n\nSe n é ímpar, existe uma única posição central.\n\n\nA posição pode ser calculada por:\n\n\np = (n + 1) / 2.\n\n\nLeitura pronunciável:\n\n\n“a posição da mediana é igual a ene mais um, dividido por dois”.\n\n\nExemplo:\n\n\nn = 7.\n\n\np = (7+1)/2 = 4.\n\n\nA mediana é o quarto valor da lista ordenada.\n\n\n",
+      "sourceStart": 2879,
+      "sourceEnd": 3205
+    },
+    {
+      "id": "MAT-EST-006-s006",
+      "title": "6. Exemplo ímpar",
+      "paragraphs": [],
+      "markdown": "6. Exemplo ímpar\n\n\nDados:\n\n\n12, 8, 10, 7, 9, 11, 50.\n\n\nOrdenando:\n\n\n7, 8, 9, 10, 11, 12, 50.\n\n\nn=7.\n\n\nPosição central = 4.\n\n\nMediana = 10.\n\n\nObserve que o valor 50 é extremo, mas não desloca a posição central.\n\n\n",
+      "sourceStart": 3205,
+      "sourceEnd": 3417
+    },
+    {
+      "id": "MAT-EST-006-s007",
+      "title": "7. Mediana com quantidade par",
+      "paragraphs": [],
+      "markdown": "7. Mediana com quantidade par\n\n\nSe n é par, não existe uma única observação exatamente no meio.\n\n\nExistem duas posições centrais:\n\n\nn/2\n\n\ne\n\n\nn/2 + 1.\n\n\nA mediana é a média aritmética dos valores nessas duas posições.\n\n\n",
+      "sourceStart": 3417,
+      "sourceEnd": 3637
+    },
+    {
+      "id": "MAT-EST-006-s008",
+      "title": "8. Exemplo par",
+      "paragraphs": [],
+      "markdown": "8. Exemplo par\n\n\nDados:\n\n\n3, 10, 6, 8, 5, 7.\n\n\nOrdenando:\n\n\n3, 5, 6, 7, 8, 10.\n\n\nn=6.\n\n\nPosições centrais:\n\n\n6/2 = 3\n\n\ne\n\n\n3+1 = 4.\n\n\nValores centrais:\n\n\n6 e 7.\n\n\nMediana:\n\n\n(6+7)/2 = 6,5.\n\n\n",
+      "sourceStart": 3637,
+      "sourceEnd": 3828
+    },
+    {
+      "id": "MAT-EST-006-s009",
+      "title": "9. A mediana pode não ser um valor observado",
+      "paragraphs": [],
+      "markdown": "9. A mediana pode não ser um valor observado\n\n\nNo exemplo anterior, nenhum dado é 6,5.\n\n\nMesmo assim, 6,5 é a mediana.\n\n\nAssim como a média, a mediana pode ser um valor não observado.\n\n\n",
+      "sourceStart": 3828,
+      "sourceEnd": 4014
+    },
+    {
+      "id": "MAT-EST-006-s010",
+      "title": "10. Valor mediano não é posição mediana",
+      "paragraphs": [],
+      "markdown": "10. Valor mediano não é posição mediana\n\n\nEm:\n\n\n2, 4, 8, 10, 20,\n\n\na posição central é 3.\n\n\nO valor mediano é 8.\n\n\nNão confunda:\n\n\nposição = 3;\nmediana = 8.\n\n\nVestibulares podem explorar essa diferença.\n\n\n",
+      "sourceStart": 4014,
+      "sourceEnd": 4219
+    },
+    {
+      "id": "MAT-EST-006-s011",
+      "title": "11. Mediana como corte de posição",
+      "paragraphs": [],
+      "markdown": "11. Mediana como corte de posição\n\n\nIntuitivamente, a mediana divide a lista ordenada em duas partes.\n\n\nEm uma lista ímpar, o valor mediano fica entre as metades.\n\n\nEm uma lista par, a mediana fica entre os dois valores centrais.\n\n\nEm linguagem mais avançada, a mediana está relacionada ao percentil 50.\n\n\nIsso significa, em termos intuitivos, que ela marca o centro da distribuição por posição.\n\n\nA definição rigorosa em distribuições contínuas e com empates exige cuidado; por enquanto, use a ideia de posição central.\n\n\n",
+      "sourceStart": 4219,
+      "sourceEnd": 4742
+    },
+    {
+      "id": "MAT-EST-006-s012",
+      "title": "12. A mediana é resistente a extremos",
+      "paragraphs": [],
+      "markdown": "12. A mediana é resistente a extremos\n\n\nCompare:\n\n\nConjunto A:\n2, 3, 4, 5, 6.\n\n\nMediana = 4.\nMédia = 4.\n\n\nAgora altere apenas o maior valor:\n\n\nConjunto B:\n2, 3, 4, 5, 100.\n\n\nMediana = 4.\nMédia = 22,8.\n\n\nA mediana não mudou.\n\n\nA média mudou muito.\n\n\nPor isso, dizemos que a mediana é mais resistente, ou robusta, a valores extremos.\n\n\n",
+      "sourceStart": 4742,
+      "sourceEnd": 5076
+    },
+    {
+      "id": "MAT-EST-006-s013",
+      "title": "13. Resistência não significa invulnerabilidade",
+      "paragraphs": [],
+      "markdown": "13. Resistência não significa invulnerabilidade\n\n\nA mediana pode mudar quando:\n\n\n• várias observações mudam;\n• valores cruzam a posição central;\n• a composição da amostra muda;\n• os dados são muito pequenos e uma observação altera quem ocupa o centro.\n\n\nNão devemos interpretar “robusta” como “nunca muda”.\n\n\n",
+      "sourceStart": 5076,
+      "sourceEnd": 5385
+    },
+    {
+      "id": "MAT-EST-006-s014",
+      "title": "14. Mediana em dados ordinais",
+      "paragraphs": [],
+      "markdown": "14. Mediana em dados ordinais\n\n\nA mediana pode fazer sentido em variáveis ordinais.\n\n\nExemplo de satisfação:\n\n\nmuito insatisfeito;\ninsatisfeito;\nneutro;\nsatisfeito;\nmuito satisfeito.\n\n\nExiste uma ordem natural.\n\n\nPodemos localizar uma categoria central.\n\n\nNão precisamos atribuir números arbitrários e calcular média para obter uma medida de posição.\n\n\n",
+      "sourceStart": 5385,
+      "sourceEnd": 5738
+    },
+    {
+      "id": "MAT-EST-006-s015",
+      "title": "15. Mediana em variável nominal?",
+      "paragraphs": [],
+      "markdown": "15. Mediana em variável nominal?\n\n\nEm categorias nominais como tipo sanguíneo, cidade ou cor preferida, não existe ordem natural.\n\n\nSem ordem, “posição central” não possui significado.\n\n\nLogo, a mediana normalmente não é adequada para variável nominal.\n\n\n",
+      "sourceStart": 5738,
+      "sourceEnd": 5993
+    },
+    {
+      "id": "MAT-EST-006-s016",
+      "title": "16. Mediana a partir de tabela de frequência",
+      "paragraphs": [],
+      "markdown": "16. Mediana a partir de tabela de frequência\n\n\nConsidere:\n\n\nValor | frequência\n1 | 2\n2 | 4\n3 | 3\n4 | 1\n\n\nTotal:\n\n\nn = 10.\n\n\nPosições centrais:\n\n\n5 e 6.\n\n\nPrecisamos descobrir quais valores ocupam essas posições.\n\n\n",
+      "sourceStart": 5993,
+      "sourceEnd": 6207
+    },
+    {
+      "id": "MAT-EST-006-s017",
+      "title": "17. Usando frequência acumulada",
+      "paragraphs": [],
+      "markdown": "17. Usando frequência acumulada\n\n\nFrequências acumuladas:\n\n\nValor 1: F=2.\nValor 2: F=6.\nValor 3: F=9.\nValor 4: F=10.\n\n\nAs posições 5 e 6 pertencem ao valor 2.\n\n\nLogo:\n\n\nmediana = 2.\n\n\nNão foi necessário expandir a lista inteira.\n\n\n",
+      "sourceStart": 6207,
+      "sourceEnd": 6438
+    },
+    {
+      "id": "MAT-EST-006-s018",
+      "title": "18. Exemplo de mediana por frequência com posições diferentes",
+      "paragraphs": [],
+      "markdown": "18. Exemplo de mediana por frequência com posições diferentes\n\n\nTabela:\n\n\nValor 0: f=1.\nValor 1: f=2.\nValor 2: f=2.\nValor 3: f=3.\n\n\nTotal n=8.\n\n\nPosições centrais:\n4 e 5.\n\n\nAcumuladas:\n0 → 1.\n1 → 3.\n2 → 5.\n3 → 8.\n\n\nAs posições 4 e 5 estão no valor 2.\n\n\nMediana = 2.\n\n\n",
+      "sourceStart": 6438,
+      "sourceEnd": 6706
+    },
+    {
+      "id": "MAT-EST-006-s019",
+      "title": "19. Exemplo par com dois valores centrais diferentes",
+      "paragraphs": [],
+      "markdown": "19. Exemplo par com dois valores centrais diferentes\n\n\nTabela:\n\n\nValor 1: f=2.\nValor 2: f=2.\nValor 3: f=2.\nValor 4: f=2.\n\n\nn=8.\n\n\nPosições centrais:\n4 e 5.\n\n\nPosição 4 pertence ao valor 2.\nPosição 5 pertence ao valor 3.\n\n\nMediana:\n\n\n(2+3)/2 = 2,5.\n\n\n",
+      "sourceStart": 6706,
+      "sourceEnd": 6956
+    },
+    {
+      "id": "MAT-EST-006-s020",
+      "title": "20. Mediana em dados agrupados por classes",
+      "paragraphs": [],
+      "markdown": "20. Mediana em dados agrupados por classes\n\n\nConsidere classes de idade:\n\n\n[0,10): f=3.\n[10,20): f=7.\n[20,30): f=12.\n[30,40): f=5.\n[40,50): f=3.\n\n\nTotal n=30.\n\n\nA posição central está em torno das posições 15 e 16.\n\n\nFrequência acumulada:\n3;\n10;\n22;\n27;\n30.\n\n\nLogo, as posições centrais estão dentro da classe [20,30).\n\n\nPodemos afirmar que essa é a classe mediana.\n\n\n",
+      "sourceStart": 6956,
+      "sourceEnd": 7324
+    },
+    {
+      "id": "MAT-EST-006-s021",
+      "title": "21. Podemos achar a mediana exata apenas com a classe?",
+      "paragraphs": [],
+      "markdown": "21. Podemos achar a mediana exata apenas com a classe?\n\n\nNão necessariamente.\n\n\nSe os valores individuais foram perdidos e sabemos apenas que 12 observações estão entre 20 e menos de 30, não sabemos exatamente onde estão as posições 15 e 16 dentro dessa classe.\n\n\nExistem fórmulas de interpolação para estimar a mediana em dados agrupados contínuos, mas elas dependem de hipóteses sobre a distribuição dentro da classe.\n\n\nPortanto, não confunda:\n\n\nclasse mediana identificada;\nmediana exata conhecida.\n\n\n",
+      "sourceStart": 7324,
+      "sourceEnd": 7828
+    },
+    {
+      "id": "MAT-EST-006-s022",
+      "title": "22. Ponte universitária: interpolação da mediana agrupada",
+      "paragraphs": [],
+      "markdown": "22. Ponte universitária: interpolação da mediana agrupada\n\n\nUma aproximação comum é:\n\n\nMd ≈ L + [(n/2 − Fₐ)/fₘ] × h.\n\n\nLeitura pronunciável:\n\n\n“mediana aproximada é o limite inferior da classe mediana mais a diferença entre metade do total e a frequência acumulada anterior, dividida pela frequência da classe mediana, multiplicada pela largura da classe”.\n\n\nOnde:\n\n\nL = limite inferior da classe mediana;\nFₐ = frequência acumulada antes da classe mediana;\nfₘ = frequência da classe mediana;\nh = largura da classe.\n\n\nEsta fórmula é uma aproximação sob uma hipótese de distribuição dentro da classe. Ela é ponte universitária, não requisito de memorização nesta etapa.\n\n\n",
+      "sourceStart": 7828,
+      "sourceEnd": 8498
+    },
+    {
+      "id": "MAT-EST-006-s023",
+      "title": "23. O que é moda?",
+      "paragraphs": [],
+      "markdown": "23. O que é moda?\n\n\nModa é o valor ou categoria com maior frequência.\n\n\nExemplo:\n\n\n2, 2, 3, 4, 4, 4, 5.\n\n\nFrequências:\n2 aparece 2 vezes.\n3 aparece 1 vez.\n4 aparece 3 vezes.\n5 aparece 1 vez.\n\n\nModa = 4.\n\n\n",
+      "sourceStart": 8498,
+      "sourceEnd": 8703
+    },
+    {
+      "id": "MAT-EST-006-s024",
+      "title": "24. Moda é valor, não frequência",
+      "paragraphs": [],
+      "markdown": "24. Moda é valor, não frequência\n\n\nNo exemplo:\n\n\nmoda = 4.\n\n\nFrequência da moda = 3.\n\n\nDizer “a moda é 3” seria confundir o valor mais frequente com a quantidade de ocorrências.\n\n\n",
+      "sourceStart": 8703,
+      "sourceEnd": 8883
+    },
+    {
+      "id": "MAT-EST-006-s025",
+      "title": "25. Moda em dados qualitativos",
+      "paragraphs": [],
+      "markdown": "25. Moda em dados qualitativos\n\n\nA moda pode ser usada em categorias nominais.\n\n\nPesquisa de transporte:\n\n\nÔnibus: 40.\nCarro: 25.\nA pé: 20.\nBicicleta: 15.\n\n\nModa = ônibus.\n\n\nIsso é uma vantagem da moda: ela não exige que as categorias sejam numéricas ou ordenadas.\n\n\n",
+      "sourceStart": 8883,
+      "sourceEnd": 9150
+    },
+    {
+      "id": "MAT-EST-006-s026",
+      "title": "26. Conjunto sem moda",
+      "paragraphs": [],
+      "markdown": "26. Conjunto sem moda\n\n\nDados:\n\n\n1, 2, 3, 4, 5.\n\n\nCada valor aparece uma vez.\n\n\nNenhum valor aparece mais do que os outros.\n\n\nNeste uso escolar, dizemos que o conjunto é amodal, ou sem moda.\n\n\n",
+      "sourceStart": 9150,
+      "sourceEnd": 9343
+    },
+    {
+      "id": "MAT-EST-006-s027",
+      "title": "27. Bimodalidade",
+      "paragraphs": [],
+      "markdown": "27. Bimodalidade\n\n\nDados:\n\n\n1, 1, 2, 3, 3, 4.\n\n\n1 aparece 2 vezes.\n3 aparece 2 vezes.\nOutros aparecem 1 vez.\n\n\nHá duas modas:\n\n\n1 e 3.\n\n\nO conjunto é bimodal.\n\n\n",
+      "sourceStart": 9343,
+      "sourceEnd": 9504
+    },
+    {
+      "id": "MAT-EST-006-s028",
+      "title": "28. Mais de duas modas",
+      "paragraphs": [],
+      "markdown": "28. Mais de duas modas\n\n\nSe três ou mais valores compartilham a maior frequência, podemos dizer que o conjunto é multimodal.\n\n\nExemplo:\n\n\n1,1,2,2,3,3,4.\n\n\nModas:\n\n\n1, 2 e 3.\n\n\n",
+      "sourceStart": 9504,
+      "sourceEnd": 9680
+    },
+    {
+      "id": "MAT-EST-006-s029",
+      "title": "29. Cuidado com a definição de “sem moda”",
+      "paragraphs": [],
+      "markdown": "29. Cuidado com a definição de “sem moda”\n\n\nSe todos os valores aparecem com a mesma frequência, nenhuma categoria se destaca como mais frequente.\n\n\nEm contexto escolar, classificar como amodal é adequado.\n\n\nEm contextos matemáticos mais formais, algumas convenções podem tratar todos como modos quando todos maximizam a frequência. O projeto adotará a convenção escolar mais comum e registrará exceções quando necessário.\n\n\n",
+      "sourceStart": 9680,
+      "sourceEnd": 10105
+    },
+    {
+      "id": "MAT-EST-006-s030",
+      "title": "30. Moda em tabela de frequência",
+      "paragraphs": [],
+      "markdown": "30. Moda em tabela de frequência\n\n\nTabela:\n\n\nCategoria A: 8.\nCategoria B: 12.\nCategoria C: 12.\nCategoria D: 5.\n\n\nAs maiores frequências são 12 para B e C.\n\n\nModas:\n\n\nB e C.\n\n\nA distribuição é bimodal.\n\n\n",
+      "sourceStart": 10105,
+      "sourceEnd": 10308
+    },
+    {
+      "id": "MAT-EST-006-s031",
+      "title": "31. Classe modal",
+      "paragraphs": [],
+      "markdown": "31. Classe modal\n\n\nEm dados agrupados:\n\n\n[0,10): 4.\n[10,20): 9.\n[20,30): 15.\n[30,40): 7.\n\n\nA classe modal é [20,30).\n\n\nIsso não significa que “25” seja necessariamente a moda exata.\n\n\nCom dados agrupados, a classe mais frequente é conhecida, mas os valores individuais dentro dela podem não ser.\n\n\n",
+      "sourceStart": 10308,
+      "sourceEnd": 10606
+    },
+    {
+      "id": "MAT-EST-006-s032",
+      "title": "32. Moda em dados contínuos",
+      "paragraphs": [],
+      "markdown": "32. Moda em dados contínuos\n\n\nEm medições contínuas com muitas casas decimais, valores exatos podem quase nunca se repetir.\n\n\nExemplo:\n\n\n1,732;\n1,741;\n1,736;\n1,729;\n1,744.\n\n\nNão há repetição exata.\n\n\nPara estudar concentração, pode ser mais útil agrupar em classes, estimar densidades ou usar outras técnicas.\n\n\nLogo, moda de valores exatos nem sempre é útil em dados contínuos.\n\n\n",
+      "sourceStart": 10606,
+      "sourceEnd": 10987
+    },
+    {
+      "id": "MAT-EST-006-s033",
+      "title": "33. Comparação: média, mediana e moda",
+      "paragraphs": [],
+      "markdown": "33. Comparação: média, mediana e moda\n\n\nMédia:\nusa todos os valores;\né sensível a extremos;\nexige variável quantitativa;\npossui propriedades algébricas fortes.\n\n\nMediana:\nusa ordem e posição;\né mais resistente a extremos;\npode ser usada em dados ordinais;\nnão exige distâncias numericamente comparáveis entre categorias ordinais.\n\n\nModa:\nusa frequência;\npode ser usada até em variável nominal;\npode haver nenhuma, uma ou várias modas;\npode ser instável em amostras pequenas.\n\n\n",
+      "sourceStart": 10987,
+      "sourceEnd": 11464
+    },
+    {
+      "id": "MAT-EST-006-s034",
+      "title": "34. Exemplo comparativo com extremo",
+      "paragraphs": [],
+      "markdown": "34. Exemplo comparativo com extremo\n\n\nDados:\n\n\n2, 3, 3, 4, 100.\n\n\nMédia:\n\n\n112/5 = 22,4.\n\n\nMediana:\n\n\n3.\n\n\nModa:\n\n\n3.\n\n\nA média foi puxada para cima pelo 100.\n\n\nMediana e moda permanecem perto da maior concentração dos dados.\n\n\n",
+      "sourceStart": 11464,
+      "sourceEnd": 11692
+    },
+    {
+      "id": "MAT-EST-006-s035",
+      "title": "35. Isso significa que mediana é sempre melhor?",
+      "paragraphs": [],
+      "markdown": "35. Isso significa que mediana é sempre melhor?\n\n\nNão.\n\n\nA média usa toda a informação quantitativa e é essencial em muitos modelos estatísticos.\n\n\nA escolha depende:\n\n\n• da pergunta;\n• do tipo de variável;\n• da forma da distribuição;\n• da presença de extremos;\n• do objetivo da análise.\n\n\nNão existe uma medida universalmente superior.\n\n\n",
+      "sourceStart": 11692,
+      "sourceEnd": 12031
+    },
+    {
+      "id": "MAT-EST-006-s036",
+      "title": "36. Distribuição simétrica",
+      "paragraphs": [],
+      "markdown": "36. Distribuição simétrica\n\n\nEm uma distribuição perfeitamente simétrica e unimodal, média, mediana e moda podem coincidir.\n\n\nExemplo idealizado:\numa distribuição simétrica concentrada em torno de um centro.\n\n\nMas observar média = mediana = moda em uma amostra não prova que a distribuição inteira seja perfeitamente simétrica.\n\n\n",
+      "sourceStart": 12031,
+      "sourceEnd": 12361
+    },
+    {
+      "id": "MAT-EST-006-s037",
+      "title": "37. Assimetria à direita",
+      "paragraphs": [],
+      "markdown": "37. Assimetria à direita\n\n\nEm muitas distribuições com cauda longa à direita, valores altos extremos puxam a média para cima.\n\n\nUm padrão comum é:\n\n\nmoda < mediana < média.\n\n\nMas isso é uma heurística frequente, não uma regra universal para todo conjunto finito.\n\n\n",
+      "sourceStart": 12361,
+      "sourceEnd": 12626
+    },
+    {
+      "id": "MAT-EST-006-s038",
+      "title": "38. Assimetria à esquerda",
+      "paragraphs": [],
+      "markdown": "38. Assimetria à esquerda\n\n\nEm distribuições com cauda longa à esquerda, valores baixos extremos podem puxar a média para baixo.\n\n\nUm padrão comum é:\n\n\nmédia < mediana < moda.\n\n\nNovamente, não trate como fórmula infalível.\n\n\n",
+      "sourceStart": 12626,
+      "sourceEnd": 12851
+    },
+    {
+      "id": "MAT-EST-006-s039",
+      "title": "39. Exemplo de renda",
+      "paragraphs": [],
+      "markdown": "39. Exemplo de renda\n\n\nRendas:\n\n\n2000, 2100, 2200, 2300, 20000.\n\n\nMédia = 5720.\nMediana = 2200.\nModa = não há, pois todos são diferentes.\n\n\nPergunta:\nqual medida descreve melhor a renda central desse grupo pequeno?\n\n\nA mediana tende a representar melhor a posição central, pois a média foi fortemente afetada pelo valor alto.\n\n\nMas a conclusão completa deve informar o tamanho pequeno da amostra e a presença do extremo.\n\n\n",
+      "sourceStart": 12851,
+      "sourceEnd": 13274
+    },
+    {
+      "id": "MAT-EST-006-s040",
+      "title": "40. Exemplo de tamanho de calçado",
+      "paragraphs": [],
+      "markdown": "40. Exemplo de tamanho de calçado\n\n\nTamanhos vendidos:\n\n\n37: 12 pares.\n38: 25 pares.\n39: 40 pares.\n40: 31 pares.\n41: 10 pares.\n\n\nModa = 39.\n\n\nPara estoque, a moda pode ser muito útil: ela identifica a categoria mais demandada.\n\n\nA média do tamanho pode ser menos diretamente útil para decidir quantos pares de cada numeração comprar.\n\n\n",
+      "sourceStart": 13274,
+      "sourceEnd": 13610
+    },
+    {
+      "id": "MAT-EST-006-s041",
+      "title": "41. Exemplo ordinal",
+      "paragraphs": [],
+      "markdown": "41. Exemplo ordinal\n\n\nAvaliação:\n\n\nruim: 5.\nregular: 15.\nbom: 40.\nótimo: 20.\n\n\nTotal = 80.\n\n\nModa = bom.\n\n\nPara mediana, posições 40 e 41.\n\n\nAcumuladas:\nruim até 5.\nregular até 20.\nbom até 60.\nótimo até 80.\n\n\nAs posições 40 e 41 estão em “bom”.\n\n\nMediana = categoria bom.\n\n\nNão precisamos atribuir números 1, 2, 3, 4.\n\n\n",
+      "sourceStart": 13610,
+      "sourceEnd": 13930
+    },
+    {
+      "id": "MAT-EST-006-s042",
+      "title": "42. Mediana e transformação linear",
+      "paragraphs": [],
+      "markdown": "42. Mediana e transformação linear\n\n\nSe somamos 10 a todos os valores, a mediana aumenta 10.\n\n\nSe multiplicamos todos por 2, a mediana dobra.\n\n\nEm transformações lineares aplicadas a todos os dados, média e mediana acompanham a transformação.\n\n\nA moda também é transformada quando a transformação é um-para-um: o valor mais frequente continua correspondendo ao valor transformado mais frequente.\n\n\n",
+      "sourceStart": 13930,
+      "sourceEnd": 14328
+    },
+    {
+      "id": "MAT-EST-006-s043",
+      "title": "43. Adicionar um extremo",
+      "paragraphs": [],
+      "markdown": "43. Adicionar um extremo\n\n\nDados:\n\n\n1, 2, 3, 4, 5.\n\n\nMediana = 3.\n\n\nAdicione 100:\n\n\n1, 2, 3, 4, 5, 100.\n\n\nMediana = (3+4)/2 = 3,5.\n\n\nA mediana mudou pouco.\n\n\nA média mudou de 3 para 19,17 aproximadamente.\n\n\n",
+      "sourceStart": 14328,
+      "sourceEnd": 14535
+    },
+    {
+      "id": "MAT-EST-006-s044",
+      "title": "44. Remover um valor central",
+      "paragraphs": [],
+      "markdown": "44. Remover um valor central\n\n\nDados:\n\n\n1, 2, 3, 4, 5.\n\n\nMediana 3.\n\n\nRemovendo 3:\n\n\n1, 2, 4, 5.\n\n\nMediana = (2+4)/2 = 3.\n\n\nCuriosamente, o valor mediano permanece 3, embora 3 não esteja mais no conjunto.\n\n\n",
+      "sourceStart": 14535,
+      "sourceEnd": 14742
+    },
+    {
+      "id": "MAT-EST-006-s045",
+      "title": "45. Mediana e percentil 50",
+      "paragraphs": [],
+      "markdown": "45. Mediana e percentil 50\n\n\nA mediana está intimamente ligada ao percentil 50.\n\n\nMais adiante, em MAT-EST-010, estudaremos quartis, decis e percentis de forma sistemática.\n\n\nPor enquanto, guarde:\n\n\nmediana é uma medida de posição central;\npercentil 50 é outra forma de expressar essa posição, respeitando convenções de cálculo.\n\n\n",
+      "sourceStart": 14742,
+      "sourceEnd": 15073
+    },
+    {
+      "id": "MAT-EST-006-s046",
+      "title": "46. Escolha da medida pelo tipo de variável",
+      "paragraphs": [],
+      "markdown": "46. Escolha da medida pelo tipo de variável\n\n\nNominal:\nmoda é adequada;\nmediana e média, em geral, não.\n\n\nOrdinal:\nmoda e mediana podem ser adequadas;\nmédia pode ser inadequada se as distâncias entre categorias não forem quantitativamente definidas.\n\n\nQuantitativa:\nmédia, mediana e moda podem ser consideradas;\na escolha depende da pergunta e da distribuição.\n\n\n",
+      "sourceStart": 15073,
+      "sourceEnd": 15436
+    },
+    {
+      "id": "MAT-EST-006-s047",
+      "title": "47. Escolha da medida pela pergunta",
+      "paragraphs": [],
+      "markdown": "47. Escolha da medida pela pergunta\n\n\nPergunta:\n“Qual valor aparece mais?”\n\n\nModa.\n\n\nPergunta:\n“Qual é o ponto central da lista ordenada?”\n\n\nMediana.\n\n\nPergunta:\n“Qual valor preserva o total se redistribuirmos igualmente?”\n\n\nMédia.\n\n\nPergunta:\n“Qual centro é menos sensível a um valor extremo?”\n\n\nMediana, em geral.\n\n\n",
+      "sourceStart": 15436,
+      "sourceEnd": 15754
+    },
+    {
+      "id": "MAT-EST-006-s048",
+      "title": "48. Mediana ponderada: ponte avançada",
+      "paragraphs": [],
+      "markdown": "48. Mediana ponderada: ponte avançada\n\n\nEm alguns contextos, observações têm pesos.\n\n\nUma mediana ponderada é um valor em torno do qual a massa acumulada dos pesos atinge metade do total.\n\n\nA definição exata depende da convenção adotada.\n\n\nEsta ideia aparece em otimização, economia e ciência de dados.\n\n\nNão é conteúdo operacional obrigatório desta aula, mas mostra que a noção de posição pode ser generalizada.\n\n\n",
+      "sourceStart": 15754,
+      "sourceEnd": 16169
+    },
+    {
+      "id": "MAT-EST-006-s049",
+      "title": "49. Mediana e minimização de desvios absolutos",
+      "paragraphs": [],
+      "markdown": "49. Mediana e minimização de desvios absolutos\n\n\nA média minimiza a soma dos quadrados dos desvios em muitos contextos.\n\n\nA mediana possui outra propriedade importante:\n\n\nela minimiza a soma dos desvios absolutos.\n\n\nIsto é, valores próximos à mediana tendem a minimizar:\n\n\nΣ|xᵢ − a|.\n\n\nLeitura:\n“a soma das distâncias absolutas entre os dados e um ponto a é mínima quando a é uma mediana”.\n\n\nEsta é uma ponte universitária e ajuda a entender por que mediana e média respondem de modo diferente a extremos.\n\n\n",
+      "sourceStart": 16169,
+      "sourceEnd": 16677
+    },
+    {
+      "id": "MAT-EST-006-s050",
+      "title": "50. Exemplo intuitivo da propriedade absoluta",
+      "paragraphs": [],
+      "markdown": "50. Exemplo intuitivo da propriedade absoluta\n\n\nDados:\n\n\n0, 0, 10.\n\n\nMediana = 0.\n\n\nSoma das distâncias até 0:\n\n\n0 + 0 + 10 = 10.\n\n\nAté 3:\n\n\n3 + 3 + 7 = 13.\n\n\nAté 10:\n\n\n10 + 10 + 0 = 20.\n\n\nA mediana reduz a soma de distâncias absolutas.\n\n\n",
+      "sourceStart": 16677,
+      "sourceEnd": 16916
+    },
+    {
+      "id": "MAT-EST-006-s051",
+      "title": "51. Moda e previsão categórica",
+      "paragraphs": [],
+      "markdown": "51. Moda e previsão categórica\n\n\nSe precisamos escolher uma única categoria como previsão mais comum em dados categóricos, a moda é uma escolha natural.\n\n\nExemplo:\n\n\ntipo de pagamento mais frequente;\ntamanho de roupa mais vendido;\ncategoria de defeito mais comum.\n\n\nMas frequência histórica não garante comportamento futuro.\n\n\nA moda é descritiva.\n\n\n",
+      "sourceStart": 16916,
+      "sourceEnd": 17266
+    },
+    {
+      "id": "MAT-EST-006-s052",
+      "title": "52. Moda e amostras pequenas",
+      "paragraphs": [],
+      "markdown": "52. Moda e amostras pequenas\n\n\nEm amostras pequenas, uma diferença de uma observação pode mudar a moda.\n\n\nExemplo:\n\n\nA: 4 ocorrências.\nB: 3 ocorrências.\n\n\nSe uma nova observação B chega, ocorre empate.\n\n\nPor isso, moda pode ser instável.\n\n\n",
+      "sourceStart": 17266,
+      "sourceEnd": 17506
+    },
+    {
+      "id": "MAT-EST-006-s053",
+      "title": "53. Dados faltantes",
+      "paragraphs": [],
+      "markdown": "53. Dados faltantes\n\n\nDados ausentes não devem ser tratados como categoria numérica ou como zero sem justificativa.\n\n\nPara mediana:\nuse observações válidas e documente ausências.\n\n\nPara moda:\n“sem resposta” pode ser uma categoria de qualidade da coleta, mas não deve ser confundida com uma resposta substantiva.\n\n\n",
+      "sourceStart": 17506,
+      "sourceEnd": 17820
+    },
+    {
+      "id": "MAT-EST-006-s054",
+      "title": "54. Erros frequentes",
+      "paragraphs": [],
+      "markdown": "54. Erros frequentes\n\n\nErro 1. Calcular mediana sem ordenar.\n\n\nErro 2. Para n par, escolher apenas um dos dois valores centrais.\n\n\nErro 3. Confundir posição central com valor mediano.\n\n\nErro 4. Confundir moda com frequência da moda.\n\n\nErro 5. Achar que todo conjunto possui exatamente uma moda.\n\n\nErro 6. Achar que mediana é sempre um valor observado.\n\n\nErro 7. Calcular mediana de categorias nominais.\n\n\nErro 8. Usar média automaticamente em dados muito assimétricos sem olhar a distribuição.\n\n\nErro 9. Inferir simetria apenas porque média e mediana são próximas.\n\n\nErro 10. Tratar classe modal como valor modal exato.\n\n\n",
+      "sourceStart": 17820,
+      "sourceEnd": 18442
+    },
+    {
+      "id": "MAT-EST-006-s055",
+      "title": "55. Exemplo resolvido completo — ímpar",
+      "paragraphs": [],
+      "markdown": "55. Exemplo resolvido completo — ímpar\n\n\nDados:\n\n\n14, 8, 11, 20, 9, 10, 7.\n\n\nOrdenação:\n\n\n7, 8, 9, 10, 11, 14, 20.\n\n\nn=7.\n\n\nPosição:\n\n\n(7+1)/2 = 4.\n\n\nMediana = 10.\n\n\n",
+      "sourceStart": 18442,
+      "sourceEnd": 18608
+    },
+    {
+      "id": "MAT-EST-006-s056",
+      "title": "56. Exemplo resolvido completo — par",
+      "paragraphs": [],
+      "markdown": "56. Exemplo resolvido completo — par\n\n\nDados:\n\n\n5, 2, 9, 4, 8, 10.\n\n\nOrdenação:\n\n\n2, 4, 5, 8, 9, 10.\n\n\nn=6.\n\n\nValores centrais:\n5 e 8.\n\n\nMediana:\n\n\n(5+8)/2 = 6,5.\n\n\n",
+      "sourceStart": 18608,
+      "sourceEnd": 18773
+    },
+    {
+      "id": "MAT-EST-006-s057",
+      "title": "57. Exemplo resolvido completo — moda",
+      "paragraphs": [],
+      "markdown": "57. Exemplo resolvido completo — moda\n\n\nDados:\n\n\n4, 4, 5, 5, 5, 6, 7, 7.\n\n\nFrequências:\n4 → 2.\n5 → 3.\n6 → 1.\n7 → 2.\n\n\nModa = 5.\n\n\nFrequência modal = 3.\n\n\n",
+      "sourceStart": 18773,
+      "sourceEnd": 18927
+    },
+    {
+      "id": "MAT-EST-006-s058",
+      "title": "58. Exemplo resolvido — bimodal",
+      "paragraphs": [],
+      "markdown": "58. Exemplo resolvido — bimodal\n\n\nDados:\n\n\n1,1,2,2,3,4.\n\n\nFrequências máximas:\n\n\n1 aparece 2 vezes;\n2 aparece 2 vezes.\n\n\nModas = 1 e 2.\n\n\n",
+      "sourceStart": 18927,
+      "sourceEnd": 19065
+    },
+    {
+      "id": "MAT-EST-006-s059",
+      "title": "59. Exemplo integrado — média versus mediana",
+      "paragraphs": [],
+      "markdown": "59. Exemplo integrado — média versus mediana\n\n\nDados:\n\n\n10, 11, 12, 13, 54.\n\n\nMédia:\n\n\n100/5 = 20.\n\n\nMediana:\n\n\n12.\n\n\nModa:\n\n\nnão há.\n\n\nSe queremos descrever a posição central resistente ao valor 54, mediana é mais informativa.\n\n\nMas a média continua correta e revela que o extremo aumenta o total médio.\n\n\n",
+      "sourceStart": 19065,
+      "sourceEnd": 19372
+    },
+    {
+      "id": "MAT-EST-006-s060",
+      "title": "60. Relação com BNCC, ENEM e FUVEST",
+      "paragraphs": [],
+      "markdown": "60. Relação com BNCC, ENEM e FUVEST\n\n\nA BNCC, em EF08MA25, prevê obter média, moda e mediana de uma pesquisa estatística, compreender seus significados e relacioná-las à dispersão indicada pela amplitude.\n\n\nO Programa FUVEST 2027 inclui explicitamente medidas de tendência central — média, mediana e moda — e suas interpretações, além de medidas de posição e dispersão.\n\n\nA Matriz de Referência do Enem publicada pelo Inep em 2026 é a referência institucional para competências, habilidades e objetos de conhecimento. Os exercícios VES deste material são autorais.\n\n\n",
+      "sourceStart": 19372,
+      "sourceEnd": 19939
+    },
+    {
+      "id": "MAT-EST-006-s061",
+      "title": "61. O que observar nos seis visuais",
+      "paragraphs": [],
+      "markdown": "61. O que observar nos seis visuais\n\n\nVisual 1 — mediana com n ímpar.\nObserve sete valores ordenados e a quarta posição destacada.\n\n\nVisual 2 — mediana com n par.\nObserve seis valores ordenados e as duas posições centrais, cuja média gera a mediana.\n\n\nVisual 3 — moda e frequência.\nObserve barras de frequência e distinga a categoria modal da altura/frequência.\n\n\nVisual 4 — efeito de extremo.\nCompare média e mediana antes e depois de substituir um valor por 100.\n\n\nVisual 5 — assimetria.\nObserve uma distribuição com cauda à direita e a posição relativa típica de moda, mediana e média, com aviso de que é padrão comum e não regra universal.\n\n\nVisual 6 — mediana em tabela de frequência.\nObserve a frequência acumulada cruzando as posições centrais e identificando o valor mediano.\n\n\n",
+      "sourceStart": 19939,
+      "sourceEnd": 20725
+    },
+    {
+      "id": "MAT-EST-006-s062",
+      "title": "62. Resumo para revisão",
+      "paragraphs": [],
+      "markdown": "62. Resumo para revisão\n\n\nMediana:\nvalor central da lista ordenada.\n\n\nn ímpar:\nposição (n+1)/2.\n\n\nn par:\nmédia dos valores nas posições n/2 e n/2+1.\n\n\nModa:\nvalor ou categoria de maior frequência.\n\n\nPode haver:\nnenhuma moda;\numa moda;\nduas modas;\nvárias modas.\n\n\nMédia:\nusa magnitudes e soma.\n\n\nMediana:\nusa ordem e posição.\n\n\nModa:\nusa frequência.\n\n\nExtremos afetam a média mais fortemente do que a mediana.\n\n\nModa funciona também para dados nominais.\n\n\n",
+      "sourceStart": 20725,
+      "sourceEnd": 21180
+    },
+    {
+      "id": "MAT-EST-006-s063",
+      "title": "63. Versão curta para ouvir",
+      "paragraphs": [],
+      "markdown": "63. Versão curta para ouvir\n\n\nPara encontrar a mediana, primeiro ordene os dados.\n\n\nSe há quantidade ímpar, escolha o valor da posição central.\n\n\nSe há quantidade par, faça a média dos dois valores centrais.\n\n\nA moda é o valor ou categoria que aparece com maior frequência. Um conjunto pode ter nenhuma, uma ou várias modas.\n\n\nA média usa todos os valores e é sensível a extremos. A mediana usa posição e é mais resistente. A moda usa frequência e pode ser aplicada até a categorias nominais.\n\n\nA melhor medida depende da variável, da distribuição e da pergunta.\n\n\n",
+      "sourceStart": 21180,
+      "sourceEnd": 21745
+    },
+    {
+      "id": "MAT-EST-006-s064",
+      "title": "64. Vídeo complementar",
+      "paragraphs": [],
+      "markdown": "64. Vídeo complementar\n\n\nVídeo recomendado:\n“Libras e LSE | MODA, MÉDIA E MEDIANA ✅ ESTATÍSTICA”.\nCanal: Prof. MURAKAMI - MATEMÁTICA RAPIDOLA.\n\n\nMotivo:\nA descrição pública aborda média, moda, mediana, caso par da mediana e bimodalidade. O vídeo possui recursos de acessibilidade em Libras e LSE, o que combina com a diretriz de acessibilidade do projeto.\n\n\nQuando assistir:\nApós as seções 23 a 35 e antes dos exercícios de consolidação.\n\n\nEstado de QA:\nA página pública e a descrição foram localizadas nesta execução. Reprodução integral, duração efetiva, áudio e sincronização das legendas ainda não foram auditados no Microsoft Edge.\n\n\n",
+      "sourceStart": 21745,
+      "sourceEnd": 22384
+    },
+    {
+      "id": "MAT-EST-006-s065",
+      "title": "65. Critério de domínio",
+      "paragraphs": [],
+      "markdown": "65. Critério de domínio\n\n\nA leitura da aula não altera o status do aluno.\n\n\nPara consolidar, o estudante deverá:\n\n\n• calcular mediana em n ímpar e par;\n• usar frequência acumulada para localizar mediana;\n• identificar moda em dados numéricos e categóricos;\n• reconhecer bimodalidade e ausência de moda;\n• comparar média, mediana e moda em presença de extremos;\n• escolher medida adequada em situação nova;\n• justificar a escolha em palavras.\n\n\n",
+      "sourceStart": 22384,
+      "sourceEnd": 22828
+    },
+    {
+      "id": "MAT-EST-006-s066",
+      "title": "66. Próximo passo",
+      "paragraphs": [],
+      "markdown": "66. Próximo passo\n\n\nMAT-EST-007 — Medidas de dispersão I: amplitude, desvios e desvio médio.\n\n\nA próxima aula responderá a uma pergunta que média, mediana e moda não resolvem sozinhas: quão espalhados estão os dados em torno do centro?\n",
+      "sourceStart": 22828,
+      "sourceEnd": 23064
+    }
+  ],
+  "sources": [
+    {
+      "title": "MAT-EST-006 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1vx3dpHqumJYoNtHDTqOog2X8BBo-BbXvkD_MibLBckA/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "previous": "MAT-EST-005",
+  "next": "MAT-EST-007",
+  "videos": [
+    {
+      "title": "Libras e LSE | MODA, MÉDIA E MEDIANA ✅ ESTATÍSTICA",
+      "channel": "Prof. MURAKAMI - MATEMÁTICA RAPIDOLA",
+      "url": "https://www.youtube.com/watch?v=d965cRsim6I",
+      "duration": "Duração não confirmada",
+      "language": "Português",
+      "reason": "Link localizado para a indicação de média, moda e mediana da fonte.",
+      "when": "Após estudar a explicação escrita.",
+      "reinforces": [],
+      "checkedAt": "2026-10-03",
+      "type": "video",
+      "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados."
+    }
+  ],
+  "video": {
+    "title": "Libras e LSE | MODA, MÉDIA E MEDIANA ✅ ESTATÍSTICA",
+    "channel": "Prof. MURAKAMI - MATEMÁTICA RAPIDOLA",
+    "url": "https://www.youtube.com/watch?v=d965cRsim6I",
+    "duration": "Duração não confirmada",
+    "language": "Português",
+    "reason": "Link localizado para a indicação de média, moda e mediana da fonte.",
+    "when": "Após estudar a explicação escrita.",
+    "reinforces": [],
+    "checkedAt": "2026-10-03",
+    "type": "video",
+    "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados."
+  },
+  "publication": {
+    "kind": "Reconstrução editorial v1; sem identidade binária com a edição histórica.",
+    "notes": [
+      "A produção e a publicação não registram domínio nem alteram seu progresso.",
+      "As referências a publicação pendente no texto original registram o estado da fonte na data de criação."
+    ],
+    "original": "originais/MAT-EST-006/aula.md",
+    "editions": [
+      {
+        "label": "MAT-EST-006 — metadados JSON — reconstrução editorial v1 · 2026-10-01",
+        "url": "originais/MAT-EST-006/edicoes/1Hvhwxvv-0CsLar-_IkH1TBA29dtqXVYChhbEvcvNYL4.txt"
+      },
+      {
+        "label": "MAT-EST-006 — manifesto da reconstrução v1 · 2026-10-01",
+        "url": "originais/MAT-EST-006/edicoes/1MJ-Z3Ut8ze9RPXoN1obg3V9P98GcwwmO7ZmjR-cQnzY.txt"
+      },
+      {
+        "label": "MAT-EST-006 — gabarito comentado — reconstrução editorial v1 · 2026-10-01",
+        "url": "originais/MAT-EST-006/edicoes/1Wmto7p4pkKH95rJR03N9YgzJtUMeAZXoVtqxAEB3V2A.txt"
+      },
+      {
+        "label": "MAT-EST-006 — exercícios — reconstrução editorial v1 · 2026-10-01",
+        "url": "originais/MAT-EST-006/edicoes/1ze9f6_JVUhRWhSzhcaRuZrsFm5nKqvRJAwAkzeHpdmc.txt"
+      },
+      {
+        "label": "MAT-EST-006 — aula completa — reconstrução editorial v1 · 2026-10-01",
+        "url": "originais/MAT-EST-006/edicoes/1vx3dpHqumJYoNtHDTqOog2X8BBo-BbXvkD_MibLBckA.txt"
+      }
+    ],
+    "attachments": [],
+    "questionCount": 36,
+    "visualCount": 6,
+    "sourceSha256": "ae2559346d9b6e3f470c74981fe52d5df2057789e7bb264efb6587e663620b06"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "dataRegistro": "2026-09-28",
+  "unidade": "Estatística",
+  "ultimaAulaProduzida": "MAT-EST-040",
+  "proximaAulaObrigatoria": {
+    "id": "MAT-EST-041",
+    "titulo": "Inferência com dados dependentes: reamostragem por blocos e conglomerados, validação temporal e limites de generalização"
+  },
+  "statusProducao": "produzido localmente, ainda não publicado nem sincronizado com Google Drive",
+  "progressoIndividualAlterado": false,
+  "avaliacoesPendentes": [
+    "MAT-EST-018",
+    "MAT-EST-037",
+    "MAT-PRO-039",
+    "MAT-PRO-054"
+  ],
+  "instrucaoContinuar": "Produzir MAT-EST-041 no mesmo currículo, mantendo avaliações pendentes e sem registrar tentativas fictícias."
+}

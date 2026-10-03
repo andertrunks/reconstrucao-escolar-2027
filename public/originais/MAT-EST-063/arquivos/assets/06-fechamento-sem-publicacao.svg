@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="336" viewBox="0 0 1000 336" role="img" aria-labelledby="title desc">
+<title id="title">O reteste não abre a porta de deploy</title>
+<desc id="desc">G1 e G2 conferidos localmente, G3 a G6 pendentes, G7 e G8 não executados.</desc>
+<rect width="1000" height="336" rx="20" fill="#f8fafc"/>
+<text x="25" y="40" fill="#1f3044" font-size="23" font-weight="bold" font-family="Arial,sans-serif">O reteste não abre a porta de deploy</text>
+<rect x="30.0" y="77" width="224.5" height="167" rx="13" fill="white" stroke="#28654a" stroke-width="2"/>
+<rect x="31.0" y="78" width="222.5" height="5" rx="2" fill="#28654a"/>
+<text x="41.0" y="104" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#28654a">Teste local</text>
+<text x="41.0" y="129" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#1f3044">Reparo da cópia I01</text>
+<text x="41.0" y="154" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#1f3044">Verificado</text>
+<rect x="268.5" y="77" width="224.5" height="167" rx="13" fill="white" stroke="#986016" stroke-width="2"/>
+<rect x="269.5" y="78" width="222.5" height="5" rx="2" fill="#986016"/>
+<text x="279.5" y="104" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#986016">G3–G6</text>
+<text x="279.5" y="129" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#1f3044">Revisão humana</text>
+<text x="279.5" y="154" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#1f3044">Pendente</text>
+<rect x="507.0" y="77" width="224.5" height="167" rx="13" fill="white" stroke="#953239" stroke-width="2"/>
+<rect x="508.0" y="78" width="222.5" height="5" rx="2" fill="#953239"/>
+<text x="518.0" y="104" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#953239">G7</text>
+<text x="518.0" y="129" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#1f3044">Deploy autorizado</text>
+<text x="518.0" y="154" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#1f3044">Não executado</text>
+<rect x="745.5" y="77" width="224.5" height="167" rx="13" fill="white" stroke="#953239" stroke-width="2"/>
+<rect x="746.5" y="78" width="222.5" height="5" rx="2" fill="#953239"/>
+<text x="756.5" y="104" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#953239">G8</text>
+<text x="756.5" y="129" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#1f3044">Pós-deploy</text>
+<text x="756.5" y="154" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#1f3044">Não executado</text>
+<text x="25" y="279" font-family="Arial,sans-serif" font-weight="700" fill="#1f3044" font-size="16">O caso sintético terminou como ensaio; não há incidente público a encerrar.</text>
+</svg>

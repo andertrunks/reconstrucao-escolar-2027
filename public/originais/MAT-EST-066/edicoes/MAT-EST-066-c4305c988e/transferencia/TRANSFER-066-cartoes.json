@@ -1,0 +1,48 @@
+{
+  "id": "TRANSFER-066",
+  "natureza": "exercício autoral isolado; valores inventados; nenhuma conexão com t01–t33, V, Z ou SANDBOX-057",
+  "regra": "erro = observado menos previsão; custo = 3 por unidade de erro positivo e 1 por unidade de erro negativo",
+  "cartoes": [
+    {
+      "id": "R01",
+      "status": "avaliavel",
+      "observado": 50,
+      "previsao_B": 48,
+      "previsao_C": 51,
+      "erro_B": 2,
+      "erro_C": -1,
+      "origem": "ensaio didático isolado"
+    },
+    {
+      "id": "R02",
+      "status": "avaliavel",
+      "observado": 40,
+      "previsao_B": 43,
+      "previsao_C": 39,
+      "erro_B": -3,
+      "erro_C": 1,
+      "origem": "ensaio didático isolado"
+    },
+    {
+      "id": "R03",
+      "status": "pendente",
+      "observado": null,
+      "previsao_B": null,
+      "previsao_C": null,
+      "erro_B": null,
+      "erro_C": null,
+      "origem": "cartão apenas planejado"
+    },
+    {
+      "id": "R04",
+      "status": "pendente",
+      "observado": null,
+      "previsao_B": null,
+      "previsao_C": null,
+      "erro_B": null,
+      "erro_C": null,
+      "origem": "cartão apenas planejado"
+    }
+  ],
+  "limite": "R03 e R04 sem observações nem previsões; não transformar nulos em zero"
+}

@@ -1,0 +1,224 @@
+---
+id: MAT-EST-038
+slug: devolutiva-integradora-fechamento-editorial-estatistica-recuperacao-evidencias-ponte-universitaria
+titulo: "Devolutiva integradora e fechamento editorial da unidade de Estatística: recuperação por evidências e ponte universitária"
+materia: Matemática
+unidade: Estatística
+nivel: [3, 4, 5, 6]
+ordem: 38
+tipoConteudo: devolutiva_editorial_e_plano_de_recuperacao
+anterior: MAT-EST-037
+preRequisitos: [MAT-EST-018, MAT-EST-019, MAT-EST-020, MAT-EST-021, MAT-EST-022, MAT-EST-023, MAT-EST-024, MAT-EST-025, MAT-EST-026, MAT-EST-027, MAT-EST-028, MAT-EST-029, MAT-EST-030, MAT-EST-031, MAT-EST-032, MAT-EST-033, MAT-EST-034, MAT-EST-035, MAT-EST-036, MAT-EST-037]
+statusProducao: produzido_localmente_nao_publicado
+statusAprendizagemInicial: nao_iniciado
+arquivoExercicios: exercicios.json
+arquivoGabarito: gabarito-comentado.json
+proximoTopico: MAT-EST-039
+---
+
+# MAT-EST-038 — Devolutiva integradora e fechamento editorial da unidade de Estatística: recuperação por evidências e ponte universitária
+
+**Natureza:** fechamento editorial, não devolutiva pessoal. Todos os exemplos e exercícios são autorais e empregam dados fictícios ou hipóteses explicitadas. Nenhuma nota, acerto, dificuldade pessoal, revisão efetiva ou consolidação foi registrada. O simulado MAT-EST-037 tem 48 itens e mantém seu gabarito apartado. MAT-EST-018, MAT-PRO-039 e MAT-PRO-054 também permanecem pendentes de tentativa individual.
+
+**Planejamento de estudo:** material dividido em blocos de 25 a 50 minutos, sem dia da semana fixo. É possível ler e explorar o instrumento; a devolutiva individual só pode ser preenchida após respostas reais no site.
+
+## 1. Objetivos e pré-requisitos
+
+Ao final, o estudante deverá distinguir produção de material e evidência de aprendizagem, localizar a primeira ruptura de um raciocínio, reconstruir o pré-requisito apropriado, produzir uma conclusão quantitativa com limitações e reaplicar o conceito em questão diferente. O conteúdo retoma MAT-EST-019 a MAT-EST-037 e fundamentos anteriores de porcentagem, média, variância, probabilidade e leitura de gráficos. Não se presume domínio de MAT-EST-001 a 018 apenas por sua existência editorial.
+
+## 2. A ideia central: diagnóstico não é pontuação
+
+Uma nota agrega respostas; uma devolutiva explica o que precisa ser recuperado. Imagine dois exercícios errados. No primeiro, o estudante usa 100 no denominador, embora a questão pergunte a taxa dentro de um subgrupo de 40 pessoas. No segundo, identifica corretamente o grupo, mas erra a divisão de 12 por 40. As respostas finais podem ser igualmente erradas, mas as intervenções são distintas: no primeiro caso, ler melhor o evento e a população condicionante; no segundo, revisar frações, decimais e porcentagens.
+
+Para estabelecer evidência, registrar: identificador da questão, resposta enviada, solução escrita, momento do estudo, primeiro passo incorreto, hipótese sobre a causa, aula de pré-requisito, exercício de recuperação e novo item para reteste. A causa inicial é hipótese pedagógica que pode mudar após uma conversa ou uma segunda tentativa.
+
+![Mapa de pré-requisitos](assets/01-mapa-prerequisitos.svg)
+
+**Figura 1 — Mapa de pré-requisitos.** Texto alternativo: Quatro etapas e duas áreas de domínio: inferência e modelos. O que observar: A conclusão só vem depois de selecionar e avaliar o método. Conclusão: A ordem conceitual orienta a recuperação, não o número de aulas lidas.
+
+## 3. Como localizar o tipo de erro
+
+Há sete categorias operacionais: conteúdo, interpretação, cálculo, distração, memória, estratégia e tempo. Elas não são rótulos pessoais. *Conteúdo* é não compreender o que significa erro-padrão; *interpretação* é confundir amostra com população; *cálculo* é errar raiz ou divisão após montar a fórmula correta; *distração* é transcrever um dado incorretamente apesar de compreender o procedimento; *memória* é não recuperar uma definição estudada; *estratégia* é selecionar teste independente para observações pareadas; *tempo* é não concluir sob a condição cronometrada, devendo distinguir falta de tempo de falta de compreensão. O professor ou o sistema só deve atribuir causa individual depois de ver evidências da tentativa.
+
+![Matriz de erros](assets/02-matriz-erros.svg)
+
+**Figura 2 — Diagnóstico por causa.** Texto alternativo: Cinco categorias visíveis com exemplos de indícios. O que observar: Erros iguais na resposta podem ter origens diferentes. Conclusão: O tipo de erro orienta a atividade de recuperação.
+
+O procedimento para uma questão incorreta é localizar a primeira etapa que deixou de ser justificada. Se a seleção de modelo estava errada, refazer contas do modelo inadequado não resolve a causa principal. Se o modelo e as unidades estavam corretos, pode bastar recuperar o cálculo.
+
+## 4. Protocolo de devolutiva baseada em evidências
+
+**Etapa A: tentativa real.** Guardar respostas antes da revelação da solução. **Etapa B: correção comentada.** Verificar comando, variável, desenho, método, cálculo e conclusão. **Etapa C: diagnóstico.** Relacionar cada erro a um pré-requisito e registrar o grau de confiança; não inferir a causa somente pela alternativa marcada. **Etapa D: recuperação pequena.** Retomar uma explicação e dois ou três exercícios adequados. **Etapa E: reteste independente.** Usar situação nova, sem simplesmente memorizar o gabarito. **Etapa F: revisão longitudinal.** Reexaminar em 1, 7 e 30 dias após estudo efetivo, ajustando o intervalo conforme as evidências.
+
+![Fluxo de devolutiva](assets/03-fluxo-devolutiva.svg)
+
+**Figura 3 — Fluxo de devolutiva.** Texto alternativo: A caixa de aviso diferencia produção editorial de aprendizagem realizada. O que observar: Não pular etapas quando a tentativa ainda não existe. Conclusão: Não é possível concluir domínio individual a partir do gabarito publicado.
+
+### Roteiros por famílias de pré-requisitos
+
+| Sinal observável depois da tentativa | Repor fundamento | Retornar a |
+|---|---|---|
+| Confunde taxa na amostra e parâmetro da população | amostragem, representatividade e variável | MAT-EST-019, depois MAT-EST-020 |
+| Interpreta p como probabilidade de hipótese verdadeira | lógica condicional e hipótese nula | MAT-EST-021 e 022 |
+| Troca desenho pareado por independente | unidade de análise e diferença individual | MAT-EST-023 |
+| Faz várias comparações sem considerar multiplicidade | teste global, erro de falso positivo | MAT-EST-024 |
+| Omite categorias, denominadores e estratos | tabela de contingência e condicionais | MAT-EST-025 e MAT-PRO já produzido |
+| Lê r igual a zero como independência | dispersão, resíduos e forma funcional | MAT-EST-026 e 027 |
+| Interpreta coeficiente como causal sem ressalvas | confundimento, indicador, interação | MAT-EST-028 a 030 |
+| Usa teste final para escolher modelo | treino, validação, teste e vazamento | MAT-EST-031 |
+| Compara apenas uma métrica de erro | MAE, RMSE, custo e subgrupos | MAT-EST-032 e 033 |
+| Não consegue reproduzir relatório | base, versão, cálculo, hipóteses e limites | MAT-EST-034 e 035 |
+
+**Síntese oral da tabela:** primeiro localize a habilidade em que o raciocínio falhou; depois retorne à aula que a explica. Não atribua antecipadamente quais dessas falhas ocorrem com Anderson.
+
+## 5. Exemplo guiado: da frequência à generalização
+
+Na amostra fictícia com 54 respostas positivas entre 100, a estatística descritiva é 54 dividido por 100, isto é, 54 por cento. Isso por si só não informa a proporção exata da população. Para inferir, são necessários seleção defensável, independência ou tratamento apropriado do desenho, modelo de amostragem e medida de incerteza. Uma amostra de conveniência maior pode continuar enviesada.
+
+![Amostra e inferência](assets/04-inferencia-limites.svg)
+
+**Figura 4 — Do dado à inferência.** Texto alternativo: A seta não deve ser percorrida sem análise da coleta. O que observar: A frequência de uma amostra não determina o parâmetro de uma população. Conclusão: Toda generalização necessita de um desenho defensável.
+
+Sob amostragem aleatória simples idealizada e aproximação normal adequada, o erro-padrão da proporção estimada é a raiz quadrada de p estimado vezes um menos p estimado, dividido por n. Para 0,54 e 100, ele é aproximadamente 0,04984. Uma margem ilustrativa de 95% é 1,96 vezes esse erro-padrão, aproximadamente 0,09768. O intervalo de Wald aproximado é 0,442 a 0,638, ou cerca de 44,2% a 63,8%. Isso não elimina limitações de desenho ou o comportamento imperfeito do intervalo de Wald em condições desfavoráveis.
+
+## 6. Exemplo guiado: escolher método pelo desenho
+
+Compare duas medições da mesma pessoa: calcule primeiro a diferença para cada participante. Em grupos independentes, a estrutura de erro-padrão é outra. Em uma tabela categórica, a contagem esperada sob independência é produto do total da linha pelo total da coluna, dividido pelo total geral. Em ANOVA, uma rejeição global não informa quais pares diferem sem análise posterior adequada. Nenhuma dessas técnicas demonstra causalidade apenas pelo resultado numérico.
+
+![Escolha de desenho](assets/05-escolha-desenho.svg)
+
+**Figura 5 — Pareado e independente.** Texto alternativo: As unidades de análise mudam o cálculo de incerteza. O que observar: Observe se a mesma unidade foi medida duas vezes. Conclusão: A escolha do teste começa no desenho, e não na lembrança da fórmula.
+
+## 7. Exemplo guiado: reproduzir o relatório fictício anterior
+
+O arquivo `dados-ficticios.csv` reproduz **sem modificação** os oito dias hipotéticos de MAT-EST-034 a 037. Os dias 1 a 4 são referência; os dias 5 a 8 são teste. O erro é observado menos previsto. Nos quatro dias de teste, A tem erros menos 5, mais 5, mais 5 e menos 5; B tem zero, zero, zero e menos 25. Assim, MAE de A é 5 e RMSE de A também é 5 atendimentos. Para B, MAE é 6,25 e RMSE é 12,5. O baseline tem MAE 12,5 e RMSE de aproximadamente 16,58. Métricas descrevem o conjunto observado, sem garantia de desempenho futuro.
+
+![Métricas de teste](assets/06-metricas-validacao.svg)
+
+**Figura 6 — Métricas de previsão.** Texto alternativo: O modelo B tem RMSE muito maior que seu MAE, devido ao erro extremo. O que observar: Compare valores numéricos, não somente as barras coloridas. Conclusão: O erro extremo de B pesa mais no RMSE do que no MAE.
+
+**Por que MAE e RMSE diferem?** MAE é média das magnitudes absolutas; RMSE é raiz da média dos quadrados. Um erro grande eleva mais o RMSE. Uma função de custo assimétrica pode mudar a decisão: se cada falta custar três unidades e cada excesso uma, A custará 40 e B 25 nesses quatro dias; se o excesso custar três e a falta uma, A custará 40 e B 75. A avaliação deve declarar sua finalidade, não anunciar um vencedor universal.
+
+A cópia byte a byte é verificável por hash, mas a igualdade de hash não prova que a amostra é representativa, que não há confundimento ou que o modelo é apropriado. Reprodutibilidade computacional é condição diferente de validade estatística.
+
+## 8. Questões em três camadas e reteste
+
+As 36 atividades estão em `exercicios.json`. São dez de aprendizagem, dez de consolidação, dez de transferência em estilo de vestibular e ponte universitária, e seis de reteste independente. Todas são autorais e estão marcadas como tal. Correção completa em `gabarito-comentado.json`, a ser revelada depois da tentativa no site. Não confundir itens de aprofundamento com exigência oficial de uma banca.
+
+### Aprendizagem: identificar fundamentos
+
+**MAT-EST-038-EX-APR-01 — Dados publicados não são tentativa (autoral).** O arquivo MAT-EST-037 contém 48 questões e respostas comentadas. Sem registro de tentativa sua, qual status é justificável?
+
+**MAT-EST-038-EX-APR-02 — Classificar a causa do erro (autoral).** Uma pessoa aplicou a fórmula correta, mas leu 80 no gráfico onde estava escrito 60. Qual causa primária deve registrar?
+
+**MAT-EST-038-EX-APR-03 — Taxa amostral e população (autoral).** Em amostra fictícia com 54 respostas positivas em 100, calcule a frequência observada e diga o que ela não prova.
+
+**MAT-EST-038-EX-APR-04 — Erro-padrão da média (autoral).** Sob independência e desvio-padrão populacional conhecido de 12 unidades, calcule o erro-padrão de média de 36 observações.
+
+**MAT-EST-038-EX-APR-05 — Leitura audível do intervalo (autoral).** Uma estimativa é 50 e a margem é 4. Informe o intervalo e explique por que margem não é desvio-padrão individual.
+
+**MAT-EST-038-EX-APR-06 — Decisão com valor-p (autoral).** Em teste previamente especificado, p=0,08 e alfa=0,05. Que decisão é justificada?
+
+**MAT-EST-038-EX-APR-07 — Reconhecer dados pareados (autoral).** Mede-se o mesmo participante antes e depois de uma ação. Que objeto numérico deve iniciar a análise?
+
+**MAT-EST-038-EX-APR-08 — Contagens esperadas (autoral).** Em tabela categórica, uma linha soma 30, uma coluna soma 20 e o total geral é 60. Qual a contagem esperada sob independência?
+
+**MAT-EST-038-EX-APR-09 — Sinal do resíduo (autoral).** Adotando observado menos previsto, observado 105 e previsto 100, calcule resíduo e sentido.
+
+**MAT-EST-038-EX-APR-10 — Função do teste final (autoral).** Por que não se deve escolher o modelo comparando repetidamente seu erro no conjunto de teste final?
+
+
+### Consolidação: conectar procedimentos
+
+**MAT-EST-038-EX-CON-01 — Priorizar dois erros (autoral).** Uma tentativa real apresentou erro de leitura do denominador em três itens e um erro isolado de aritmética. Que prioridade de revisão é justificável?
+
+**MAT-EST-038-EX-CON-02 — Intervalo e precisão (autoral).** Sob os mesmos pressupostos, se n passa de 25 para 100 e sigma não muda, como fica o erro-padrão?
+
+**MAT-EST-038-EX-CON-03 — Diferença de proporções (autoral).** Em dados fictícios independentes, grupo A tem 60 positivos em 100 e grupo B, 45 em 100. Qual a diferença observada A menos B?
+
+**MAT-EST-038-EX-CON-04 — Média das diferenças (autoral).** Quatro pares apresentam diferenças depois menos antes de +4,+2,+6 e 0. Calcule a média das diferenças.
+
+**MAT-EST-038-EX-CON-05 — Percentual condicional (autoral).** Há 12 respostas positivas entre 40 integrantes de um grupo. Qual a taxa condicional do grupo?
+
+**MAT-EST-038-EX-CON-06 — Contingência e método (autoral).** Se as contagens esperadas numa tabela forem muito pequenas, qual é o primeiro cuidado antes de aplicar o qui-quadrado aproximado?
+
+**MAT-EST-038-EX-CON-07 — F da ANOVA (autoral).** Uma análise apresenta quadrado médio entre grupos igual a 8 e quadrado médio dentro dos grupos igual a 2. Calcule F.
+
+**MAT-EST-038-EX-CON-08 — Indicador e interação (autoral).** No modelo y=10+2x+3D+1xD, com D=1 e x=4, qual é a previsão?
+
+**MAT-EST-038-EX-CON-09 — Métricas de teste B (autoral).** No CSV fictício, B tem erros observados menos previstos iguais a 0,0,0,-25 nos quatro dias de teste. Calcule MAE e RMSE.
+
+**MAT-EST-038-EX-CON-10 — Custo assimétrico (autoral).** Nos dias de teste, A somou 10 unidades de falta e 10 de excesso; B somou zero de falta e 25 de excesso. Se cada falta custa 3 e cada excesso custa 1, calcule o custo de cada um.
+
+
+### Transferência: novos contextos e redação quantitativa
+
+**MAT-EST-038-EX-VES-01 — Generalização não autorizada (autoral).** Um formulário voluntário on-line recebeu 100 respostas, das quais 54 são favoráveis. Um relatório escreve: “54% de todos os moradores aprovam a proposta”. Audite a frase e reescreva-a.
+
+**MAT-EST-038-EX-VES-02 — Intervalo de proporção sob hipótese (autoral).** Uma amostra aleatória simples idealizada apresenta 54 sucessos em 100 observações independentes. Pelo intervalo normal ilustrativo de Wald, use 1,96 e calcule valores aproximados de 95%, verificando np e n(1-p).
+
+**MAT-EST-038-EX-VES-03 — Significância versus efeito (autoral).** Um relatório de estudo afirma “p=0,03, portanto a mudança teve grande efeito e foi causada pela intervenção”. O que os dados informados permitem concluir?
+
+**MAT-EST-038-EX-VES-04 — ANOVA e conclusão por pares (autoral).** Uma ANOVA global rejeitou igualdade de três médias a 5%. É legítimo afirmar que cada par de médias difere? Escreva o procedimento seguinte.
+
+**MAT-EST-038-EX-VES-05 — Paradoxo de agregação (autoral).** Dados fictícios: estrato difícil, A=1/10 e B=16/80; estrato fácil, A=81/90 e B=19/20. Calcule as taxas estratificadas e totais e explique a inversão.
+
+**MAT-EST-038-EX-VES-06 — Vazamento na validação (autoral).** Uma equipe padroniza todas as colunas com média e desvio-padrão do banco completo e só depois separa treino/teste. Avalie.
+
+**MAT-EST-038-EX-VES-07 — A versus B no teste (autoral).** No CSV, A tem erros -5,+5,+5,-5 e B tem 0,0,0,-25. Calcule MAE e RMSE de ambos e descreva o erro extremo.
+
+**MAT-EST-038-EX-VES-08 — Escolha depende do objetivo (autoral).** Sob custo hipotético falta=3 e excesso=1, B custa 25 e A 40 nos quatro dias de teste, mas B tem RMSE maior. Há contradição?
+
+**MAT-EST-038-EX-VES-09 — Dependência não linear (autoral).** Considere x=-2,-1,0,1,2 e y=4,1,0,1,4. A correlação linear pode ser zero apesar de haver relação? Explique.
+
+**MAT-EST-038-EX-VES-10 — Devolutiva sem inventar diagnóstico (autoral).** Escreva uma devolutiva editorial para MAT-EST-037 quando há 48 itens no arquivo, mas nenhuma resposta individual enviada. O que deve constar?
+
+
+### Reteste independente: somente após recuperação
+
+**MAT-EST-038-EX-RET-01 — Amostra repetida (autoral).** Novo caso: uma pesquisa voluntária de 80 pessoas tem 48 respostas positivas. Informe frequência observada e limite de inferência.
+
+**MAT-EST-038-EX-RET-02 — Multiplicidade de testes (autoral).** Em 10 testes independentes sob hipóteses nulas verdadeiras, cada um com risco de falso positivo de 5%, qual a chance de pelo menos um falso positivo?
+
+**MAT-EST-038-EX-RET-03 — Novo caso pareado (autoral).** Três participantes: antes 10,12,14; depois 12,13,18. Calcule a média da diferença depois menos antes.
+
+**MAT-EST-038-EX-RET-04 — Nova célula esperada (autoral).** Em uma tabela de contingência, linha totaliza 24, coluna totaliza 15 e total geral é 60. Qual contagem esperada sob independência?
+
+**MAT-EST-038-EX-RET-05 — Nova métrica de previsão (autoral).** Um modelo apresenta erros observados menos previstos +1,-1,+3. Calcule MAE, MSE e RMSE.
+
+**MAT-EST-038-EX-RET-06 — Conclusão por subgrupo (autoral).** Dois subgrupos igualmente numerosos têm MAE de 2 e 9, respectivamente. Calcule o MAE global e escreva uma conclusão prudente.
+
+
+## 9. Correção e caderno de erros
+
+O gabarito está fisicamente separado. Em cada item, registrar a resposta original antes da consulta, relacionar a primeira ruptura à categoria de erro e escolher no mapa a aula de retorno. A correção deve explicar os passos: reconhecer dados, justificar método, executar cálculo, colocar unidades e restringir conclusão. A comparação de respostas escritas exige leitura e devolutiva efetivas; não preencher automaticamente causa do erro com base no enunciado ou no gabarito-modelo.
+
+## 10. Revisão longitudinal e critério de consolidação
+
+![Revisão longitudinal](assets/07-revisao-longitudinal.svg)
+
+**Figura 7 — Plano de retenção.** Texto alternativo: Fluxo da tentativa real à recuperação, ao reteste independente e às revisões no primeiro, sétimo e trigésimo dia. O que observar: o calendário só começa após estudo efetivo. Conclusão: sem evidência individual, manter a avaliação pendente.
+
+Recomenda-se rever no dia seguinte, uma semana depois e um mês depois, contados do estudo executado. Não marcar como consolidado por ter aberto ou lido a aula. Exigir a capacidade de: explicar o conceito com palavras próprias; resolver um exemplo direto; transferi-lo a situação nova; identificar seus limites; recuperar o raciocínio após intervalo. Se falhar, reduzir o passo e recuperar o fundamento antes de expandir.
+
+## 11. Versão curta para ouvir no Microsoft Edge
+
+Estatística é uma cadeia de justificativas: a pergunta determina o desenho, o desenho orienta o método, o método exige hipóteses, o cálculo produz um resultado e a conclusão só pode afirmar aquilo que os dados sustentam. Uma devolutiva identifica a primeira etapa em que o raciocínio deixou de funcionar. Para um estudo ainda não respondido, não há nota nem diagnóstico individual. A retomada deve acontecer com exercícios novos depois da recuperação do pré-requisito.
+
+## 12. Vídeo complementar
+
+**Video 4: Validating the Model**, MIT OpenCourseWare, curso The Analytics Edge, Dimitris Bertsimas, inglês; duração não confirmada na página. Link: https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/resources/video-4-validating-the-model-0/ . Assistir após o exemplo das métricas e antes dos exercícios de transferência. Ajuda a distinguir dados de ajuste de avaliação externa. Página oficial localizada em 28 de setembro de 2026; reprodução integral não testada. O conteúdo textual desta aula é autossuficiente.
+
+## 13. Fontes e limite curricular
+
+- Documentos 01 a 08 do Projeto Reconstrução Escolar 2027: progressão por pré-requisitos, metodologia, acessibilidade e separação de conteúdo e progresso.
+- MAT-EST-034 a 037: base fictícia, arquivo de cálculos e simulado usados como referência; cópias mantidas íntegras.
+- Pennsylvania State University, STAT 200, Lesson 6: https://online.stat.psu.edu/stat200/Lesson06
+- Pennsylvania State University, STAT 501: https://online.stat.psu.edu/stat501/
+- INEP, acervo de provas e gabaritos: https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos
+
+Os exercícios de regressão múltipla, teste, validação de modelos e inferência formal são também ponte universitária, não descrição de uma cobrança específica do ENEM, FUVEST, UNICAMP ou UNESP. Nenhum item oficial foi reproduzido ou atribuído a edição específica.
+
+## 14. Próximo passo editorial
+
+MAT-EST-039 — Ponte universitária em Estatística: reamostragem, bootstrap e testes de permutação. A passagem à unidade de aprofundamento não encerra automaticamente as avaliações MAT-EST-018, MAT-EST-037, MAT-PRO-039 e MAT-PRO-054.

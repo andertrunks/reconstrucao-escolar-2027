@@ -1,0 +1,17 @@
+{
+  "id": "MAT-EST-044",
+  "status": "material_editorial_local",
+  "anterior": "MAT-EST-043",
+  "proximo": "MAT-EST-045",
+  "tituloProximo": "Modelos de suavização sazonal em prática: inicialização, ajuste e comparação com referências temporais",
+  "naoMarcarAulasComoEstudadas": true,
+  "avaliacoesPendentes": [
+    "MAT-EST-018",
+    "MAT-PRO-039",
+    "MAT-PRO-054",
+    "MAT-EST-037"
+  ],
+  "integracaoDrive": false,
+  "integracaoSite": false,
+  "regraContinuidade": "Prosseguir no proximo topico editorial sem reiniciar trilha; aprendizagem individual separada do estado de producao."
+}

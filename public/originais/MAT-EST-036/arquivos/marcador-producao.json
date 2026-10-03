@@ -1,0 +1,17 @@
+{
+  "dataRegistro": "2026-09-28",
+  "unidade": "Estatística",
+  "ultimaAulaProduzida": "MAT-EST-036",
+  "proximaAulaObrigatoria": {
+    "id": "MAT-EST-037",
+    "titulo": "Simulado integrador de Estatística: aplicação multidimensional, correção comentada e auditoria de retenção"
+  },
+  "statusProducao": "produzido localmente; ainda não publicado nem sincronizado com Google Drive",
+  "progressoIndividualAlterado": false,
+  "avaliacoesPendentes": [
+    "MAT-EST-018",
+    "MAT-PRO-039",
+    "MAT-PRO-054"
+  ],
+  "instrucoesContinuar": "Produzir MAT-EST-037 sem aplicar questionário no chat, inventar tentativas, ou alterar consolidação individual. Preservar a matriz e os tópicos produzidos."
+}

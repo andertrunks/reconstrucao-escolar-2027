@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc"><title id="title">Árvore de auditoria da reamostragem</title><desc id="desc">Quatro passos: pergunta, dependência, procedimento e análise de robustez, terminando em conclusão proporcional à evidência.</desc>
+<rect width="1000" height="560" fill="#f8fbfc"/>
+<text x="40" y="58" font-family="Arial,DejaVu Sans,sans-serif" font-size="29" font-weight="700" fill="#142637">Escolha do procedimento e auditoria de robustez</text>
+<rect x="86" y="92" width="830" height="83" rx="15" fill="#ffffff" stroke="#d4dce3" stroke-width="2"/>
+<rect x="86" y="92" width="12" height="83" rx="2" fill="#146f8c"/>
+<text x="118" y="125" font-family="Arial,DejaVu Sans,sans-serif" font-size="23" font-weight="700" fill="#146f8c">Pergunta</text>
+<text x="305" y="125" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" font-weight="400" fill="#142637">Estimar ou testar?</text>
+<text x="497" y="157" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" font-weight="700" fill="#536478" text-anchor="middle">↓</text>
+<rect x="86" y="203" width="830" height="83" rx="15" fill="#ffffff" stroke="#d4dce3" stroke-width="2"/>
+<rect x="86" y="203" width="12" height="83" rx="2" fill="#9a471b"/>
+<text x="118" y="236" font-family="Arial,DejaVu Sans,sans-serif" font-size="23" font-weight="700" fill="#9a471b">Dependência</text>
+<text x="305" y="236" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" font-weight="400" fill="#142637">Unidades independentes, pares ou blocos?</text>
+<text x="497" y="268" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" font-weight="700" fill="#536478" text-anchor="middle">↓</text>
+<rect x="86" y="314" width="830" height="83" rx="15" fill="#ffffff" stroke="#d4dce3" stroke-width="2"/>
+<rect x="86" y="314" width="12" height="83" rx="2" fill="#146f8c"/>
+<text x="118" y="347" font-family="Arial,DejaVu Sans,sans-serif" font-size="23" font-weight="700" fill="#146f8c">Procedimento</text>
+<text x="305" y="347" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" font-weight="400" fill="#142637">Bootstrap conforme desenho ou permutação válida</text>
+<text x="497" y="379" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" font-weight="700" fill="#536478" text-anchor="middle">↓</text>
+<rect x="86" y="425" width="830" height="83" rx="15" fill="#ffffff" stroke="#d4dce3" stroke-width="2"/>
+<rect x="86" y="425" width="12" height="83" rx="2" fill="#316c55"/>
+<text x="118" y="458" font-family="Arial,DejaVu Sans,sans-serif" font-size="23" font-weight="700" fill="#316c55">Robustez</text>
+<text x="305" y="458" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" font-weight="400" fill="#142637">Quantis, semente, sensibilidade e limites</text>
+<text x="497" y="490" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" font-weight="700" fill="#536478" text-anchor="middle">Conclusão proporcional à evidência</text>
+</svg>

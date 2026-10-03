@@ -1,0 +1,2094 @@
+{
+  "date": "2026-10-03",
+  "lessons": [
+    {
+      "id": "MAT-EST-001",
+      "title": "Introdução à Estatística: população, amostra, variável e dado",
+      "source": {
+        "title": "AULA — MAT-EST-001 — reconstrução editorial v1",
+        "url": "https://docs.google.com/document/d/1Ii7-kYu6gwgrld_ai64piR9xreFIo0VCfDAGcwS9Q0Y/edit?usp=drivesdk",
+        "version": "reconstrução editorial v1",
+        "checkedAt": "2026-10-03"
+      },
+      "sourceSha256": "f9a7c86fde259eae740fd3459310467c71df347d2c06c7122d8bd144c5f39416",
+      "sections": 24,
+      "characters": 24601,
+      "questions": 36,
+      "visuals": 5,
+      "prerequisites": [],
+      "kind": "Reconstrução editorial v1; sem identidade binária com a edição histórica.",
+      "original": "originais/MAT-EST-001/aula.md"
+    },
+    {
+      "id": "MAT-EST-002",
+      "title": "Censo, amostragem e representatividade: como escolher uma amostra",
+      "source": {
+        "title": "MAT-EST-002 — aula completa — reconstrução editorial v1",
+        "url": "https://docs.google.com/document/d/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg/edit?usp=drivesdk",
+        "version": "reconstrução editorial v1",
+        "checkedAt": "2026-10-03"
+      },
+      "sourceSha256": "513893f34c61d09b55fe77d1fa1c15ed85b6018da0b00441659ed6b65abb0359",
+      "sections": 28,
+      "characters": 26865,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-001"
+      ],
+      "kind": "Reconstrução editorial v1; sem identidade binária com a edição histórica.",
+      "original": "originais/MAT-EST-002/aula.md"
+    },
+    {
+      "id": "MAT-EST-003",
+      "title": "Organização de dados e tabelas de frequência: absoluta, relativa e acumulada",
+      "source": {
+        "title": "MAT-EST-003 — aula completa — reconstrução editorial v1",
+        "url": "https://docs.google.com/document/d/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY/edit?usp=drivesdk",
+        "version": "reconstrução editorial v1",
+        "checkedAt": "2026-10-03"
+      },
+      "sourceSha256": "27e90e6a20a6d2196f3c6d2cd1c515eed885e72d2f0f432c81e18d7c654c7396",
+      "sections": 34,
+      "characters": 25139,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-001",
+        "MAT-EST-002"
+      ],
+      "kind": "Reconstrução editorial v1; sem identidade binária com a edição histórica.",
+      "original": "originais/MAT-EST-003/aula.md"
+    },
+    {
+      "id": "MAT-EST-004",
+      "title": "Gráficos estatísticos: barras, setores, linhas, histogramas e escolha da representação",
+      "source": {
+        "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+        "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+        "version": "reconstrução editorial v1",
+        "checkedAt": "2026-10-03"
+      },
+      "sourceSha256": "0e476c48ee7a6ee2060bb38f1d516b967e9a44cc3ee178985d4350c0aa9ec2c8",
+      "sections": 46,
+      "characters": 27360,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-001",
+        "MAT-EST-002",
+        "MAT-EST-003"
+      ],
+      "kind": "Reconstrução editorial v1; sem identidade binária com a edição histórica.",
+      "original": "originais/MAT-EST-004/aula.md"
+    },
+    {
+      "id": "MAT-EST-005",
+      "title": "Média aritmética: significado, cálculo, média ponderada e efeito de valores extremos",
+      "source": {
+        "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+        "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+        "version": "reconstrução editorial v1",
+        "checkedAt": "2026-10-03"
+      },
+      "sourceSha256": "117c6742e9272cc97eada19217cdaadbc1c73887eaa29b50f8667a757609ec0d",
+      "sections": 48,
+      "characters": 23648,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-001",
+        "MAT-EST-002",
+        "MAT-EST-003",
+        "MAT-EST-004"
+      ],
+      "kind": "Reconstrução editorial v1; sem identidade binária com a edição histórica.",
+      "original": "originais/MAT-EST-005/aula.md"
+    },
+    {
+      "id": "MAT-EST-006",
+      "title": "Mediana e moda: posição, frequência e comparação com a média",
+      "source": {
+        "title": "MAT-EST-006 — aula completa — reconstrução editorial v1",
+        "url": "https://docs.google.com/document/d/1vx3dpHqumJYoNtHDTqOog2X8BBo-BbXvkD_MibLBckA/edit?usp=drivesdk",
+        "version": "reconstrução editorial v1",
+        "checkedAt": "2026-10-03"
+      },
+      "sourceSha256": "ae2559346d9b6e3f470c74981fe52d5df2057789e7bb264efb6587e663620b06",
+      "sections": 67,
+      "characters": 23064,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-001",
+        "MAT-EST-002",
+        "MAT-EST-003",
+        "MAT-EST-004",
+        "MAT-EST-005"
+      ],
+      "kind": "Reconstrução editorial v1; sem identidade binária com a edição histórica.",
+      "original": "originais/MAT-EST-006/aula.md"
+    },
+    {
+      "id": "MAT-EST-007",
+      "title": "Medidas de dispersão I: amplitude, desvios e desvio médio",
+      "source": {
+        "title": "MAT-EST-007 — aula completa — reconstrução editorial v1",
+        "url": "https://docs.google.com/document/d/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8/edit?usp=drivesdk",
+        "version": "reconstrução editorial v1",
+        "checkedAt": "2026-10-03"
+      },
+      "sourceSha256": "f774adb9f93b0bdca283340c9274711080ee20ffa355d7b405a5e49c085a35e8",
+      "sections": 54,
+      "characters": 19922,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-001",
+        "MAT-EST-002",
+        "MAT-EST-003",
+        "MAT-EST-004",
+        "MAT-EST-005",
+        "MAT-EST-006"
+      ],
+      "kind": "Reconstrução editorial v1; sem identidade binária com a edição histórica.",
+      "original": "originais/MAT-EST-007/aula.md"
+    },
+    {
+      "id": "MAT-EST-008",
+      "title": "Variância e desvio-padrão: quadrados dos desvios, unidades e interpretação",
+      "source": {
+        "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+        "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+        "version": "reconstrução editorial v1",
+        "checkedAt": "2026-10-03"
+      },
+      "sourceSha256": "fccb2eae6142f8175e10ba15256009aa25fe321602562f2d3c973262ffbfec93",
+      "sections": 60,
+      "characters": 15004,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-001",
+        "MAT-EST-002",
+        "MAT-EST-003",
+        "MAT-EST-004",
+        "MAT-EST-005",
+        "MAT-EST-006",
+        "MAT-EST-007"
+      ],
+      "kind": "Reconstrução editorial v1; sem identidade binária com a edição histórica.",
+      "original": "originais/MAT-EST-008/aula.md"
+    },
+    {
+      "id": "MAT-EST-009",
+      "title": "Coeficiente de variação: dispersão relativa e comparação entre escalas",
+      "source": {
+        "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+        "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+        "version": "reconstrução editorial v1",
+        "checkedAt": "2026-10-03"
+      },
+      "sourceSha256": "c509a550099f4fe89da8bb9c9a53bb8b72806e43ee27f82a3f473b07574ce068",
+      "sections": 54,
+      "characters": 17243,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-001",
+        "MAT-EST-002",
+        "MAT-EST-003",
+        "MAT-EST-004",
+        "MAT-EST-005",
+        "MAT-EST-006",
+        "MAT-EST-007",
+        "MAT-EST-008"
+      ],
+      "kind": "Reconstrução editorial v1; sem identidade binária com a edição histórica.",
+      "original": "originais/MAT-EST-009/aula.md"
+    },
+    {
+      "id": "MAT-EST-010",
+      "title": "Quartis, decis e percentis: posição relativa e divisão ordenada dos dados",
+      "source": {
+        "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+        "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+        "version": "reconstrução editorial v1",
+        "checkedAt": "2026-10-03"
+      },
+      "sourceSha256": "b385ead2b41aa3b634faa1c14b3840fdd6e66727305a7d2e2b6041d336ccd562",
+      "sections": 55,
+      "characters": 20692,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-001",
+        "MAT-EST-002",
+        "MAT-EST-003",
+        "MAT-EST-004",
+        "MAT-EST-005",
+        "MAT-EST-006",
+        "MAT-EST-007",
+        "MAT-EST-008",
+        "MAT-EST-009"
+      ],
+      "kind": "Reconstrução editorial v1; sem identidade binária com a edição histórica.",
+      "original": "originais/MAT-EST-010/aula.md"
+    },
+    {
+      "id": "MAT-EST-011",
+      "title": "Amplitude interquartil e box-plot: caixa, bigodes e valores discrepantes",
+      "source": {
+        "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+        "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+        "version": "reconstrução editorial v1",
+        "checkedAt": "2026-10-03"
+      },
+      "sourceSha256": "67fdceb838a5643d4b9f87174e67ffe12fa5070c4e3224f5d435866bc7bf73e2",
+      "sections": 53,
+      "characters": 20817,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-001",
+        "MAT-EST-002",
+        "MAT-EST-003",
+        "MAT-EST-004",
+        "MAT-EST-005",
+        "MAT-EST-006",
+        "MAT-EST-007",
+        "MAT-EST-008",
+        "MAT-EST-009",
+        "MAT-EST-010"
+      ],
+      "kind": "Reconstrução editorial v1; sem identidade binária com a edição histórica.",
+      "original": "originais/MAT-EST-011/aula.md"
+    },
+    {
+      "id": "MAT-EST-031",
+      "title": "Validação de modelos e desempenho preditivo: amostras de treino e teste, validação cruzada e prevenção de sobreajuste",
+      "source": {
+        "title": "MAT-EST-031-pacote-site.zip",
+        "url": "https://drive.google.com/file/d/1Memgu78-cqTjT2kR69Mf-_i8616SfQtX/view?usp=drivesdk",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "6046bf059d513e422c8bca44d827d3dd7f27d93c924bcb1298361c672fbe729f",
+      "sections": 16,
+      "characters": 41554,
+      "questions": 36,
+      "visuals": 7,
+      "prerequisites": [
+        "MAT-EST-019",
+        "MAT-EST-020",
+        "MAT-EST-021",
+        "MAT-EST-026",
+        "MAT-EST-027",
+        "MAT-EST-028",
+        "MAT-EST-029",
+        "MAT-EST-030"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-031/aula.md"
+    },
+    {
+      "id": "MAT-EST-032",
+      "title": "Avaliação integrada de previsões: comparação de métricas, incerteza e monitoramento de desempenho",
+      "source": {
+        "title": "MAT-EST-032-pacote-site.zip",
+        "url": "https://drive.google.com/file/d/1GT9VGVcrUvUKrFC4LA5bjrP7JY5Y77vK/view?usp=drivesdk",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "5872bed3fab966c68e1fc05158731679aff21687a5a0102ca45df4760cc8de1c",
+      "sections": 14,
+      "characters": 38642,
+      "questions": 36,
+      "visuals": 7,
+      "prerequisites": [
+        "MAT-EST-019",
+        "MAT-EST-020",
+        "MAT-EST-026",
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-032/aula.md"
+    },
+    {
+      "id": "MAT-EST-033",
+      "title": "Oficina de comunicação e decisão com modelos preditivos: cenários, erros, incerteza e documentação reprodutível",
+      "source": {
+        "title": "MAT-EST-033-pacote-site.zip",
+        "url": "https://drive.google.com/file/d/1Wrw_QLKwhN1w1hQLhnSqdF_m7U6XYc2E/view?usp=drivesdk",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "9d049a6ec7ca674aa522b48df1dbc67cd0c7c9c5969a1cfecf0a9b7b32693b06",
+      "sections": 18,
+      "characters": 39429,
+      "questions": 36,
+      "visuals": 7,
+      "prerequisites": [
+        "MAT-EST-020",
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031",
+        "MAT-EST-032"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-033/aula.md"
+    },
+    {
+      "id": "MAT-EST-034",
+      "title": "Projeto aplicado de síntese estatística: protocolo de análise, relatório interpretativo e avaliação de limites",
+      "source": {
+        "title": "MAT-EST-034-pacote-site.zip",
+        "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "3c2bda000693a4b7e3889a4b554bf21567370b245faf6a8afd06c9eece5aa66c",
+      "sections": 16,
+      "characters": 38020,
+      "questions": 36,
+      "visuals": 7,
+      "prerequisites": [
+        "MAT-EST-019",
+        "MAT-EST-020",
+        "MAT-EST-026",
+        "MAT-EST-027",
+        "MAT-EST-031",
+        "MAT-EST-032",
+        "MAT-EST-033"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-034/aula.md"
+    },
+    {
+      "id": "MAT-EST-035",
+      "title": "Auditoria final do projeto estatístico: reprodutibilidade, revisão independente e transferência para questões de vestibular",
+      "source": {
+        "title": "MAT-EST-035-pacote-site.zip",
+        "url": "https://drive.google.com/file/d/1s__OKEA3MmuQl9YA8QKlpekZhz5muSBk/view?usp=drivesdk",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "c0dab56374a535573afe83b3eae90aa350c544accb7779a9e30c0a85f848d10f",
+      "sections": 15,
+      "characters": 38050,
+      "questions": 36,
+      "visuals": 7,
+      "prerequisites": [
+        "MAT-EST-019",
+        "MAT-EST-020",
+        "MAT-EST-027",
+        "MAT-EST-031",
+        "MAT-EST-032",
+        "MAT-EST-033",
+        "MAT-EST-034"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-035/aula.md"
+    },
+    {
+      "id": "MAT-EST-036",
+      "title": "Consolidação integradora da Estatística: mapa de pré-requisitos, revisão longitudinal e plano de avaliação individual",
+      "source": {
+        "title": "MAT-EST-036-pacote-site.zip",
+        "url": "https://drive.google.com/file/d/1HxYI7-5eYbAL2PfoBpysJd3KX0J3uVL-/view?usp=drivesdk",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "64bba445000b9841b8f359940d0ea42b2085bb819a56c51e003f1e1d882e8511",
+      "sections": 15,
+      "characters": 44466,
+      "questions": 36,
+      "visuals": 7,
+      "prerequisites": [
+        "MAT-EST-018",
+        "MAT-EST-019",
+        "MAT-EST-020",
+        "MAT-EST-021",
+        "MAT-EST-022",
+        "MAT-EST-023",
+        "MAT-EST-024",
+        "MAT-EST-025",
+        "MAT-EST-026",
+        "MAT-EST-027",
+        "MAT-EST-028",
+        "MAT-EST-029",
+        "MAT-EST-030",
+        "MAT-EST-031",
+        "MAT-EST-032",
+        "MAT-EST-033",
+        "MAT-EST-034",
+        "MAT-EST-035"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-036/aula.md"
+    },
+    {
+      "id": "MAT-EST-037",
+      "title": "Simulado integrador de Estatística: aplicação multidimensional, correção comentada e auditoria de retenção",
+      "source": {
+        "title": "MAT-EST-037-pacote-site.zip",
+        "url": "https://drive.google.com/file/d/1Hc8gFyYP14E_xIMJeNcUqI0bWvb4mjdt/view?usp=drivesdk",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "3f2ebdfa19fbfbfad459472c325dafb2806e3d1eeb14c78d39401e21042c7e13",
+      "sections": 15,
+      "characters": 42344,
+      "questions": 48,
+      "visuals": 7,
+      "prerequisites": [
+        "MAT-EST-019",
+        "MAT-EST-020",
+        "MAT-EST-021",
+        "MAT-EST-022",
+        "MAT-EST-023",
+        "MAT-EST-024",
+        "MAT-EST-025",
+        "MAT-EST-026",
+        "MAT-EST-027",
+        "MAT-EST-028",
+        "MAT-EST-029",
+        "MAT-EST-030",
+        "MAT-EST-031",
+        "MAT-EST-032",
+        "MAT-EST-033",
+        "MAT-EST-034",
+        "MAT-EST-035",
+        "MAT-EST-036"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-037/aula.md"
+    },
+    {
+      "id": "MAT-EST-038",
+      "title": "Devolutiva integradora e fechamento editorial da unidade de Estatística: recuperação por evidências e ponte universitária",
+      "source": {
+        "title": "MAT-EST-038-pacote-site.zip",
+        "url": "https://drive.google.com/file/d/1IIZ2LGjFeeTEJq85Tet0bK41dKTfD-5n/view?usp=drivesdk",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "5adad08da8d17e0350d929a12cc90f9ff9c01fbb0f480e440001277f9acd5c42",
+      "sections": 15,
+      "characters": 21896,
+      "questions": 36,
+      "visuals": 7,
+      "prerequisites": [
+        "MAT-EST-018",
+        "MAT-EST-019",
+        "MAT-EST-020",
+        "MAT-EST-021",
+        "MAT-EST-022",
+        "MAT-EST-023",
+        "MAT-EST-024",
+        "MAT-EST-025",
+        "MAT-EST-026",
+        "MAT-EST-027",
+        "MAT-EST-028",
+        "MAT-EST-029",
+        "MAT-EST-030",
+        "MAT-EST-031",
+        "MAT-EST-032",
+        "MAT-EST-033",
+        "MAT-EST-034",
+        "MAT-EST-035",
+        "MAT-EST-036",
+        "MAT-EST-037"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-038/aula.md"
+    },
+    {
+      "id": "MAT-EST-039",
+      "title": "Ponte universitária em Estatística: reamostragem, bootstrap e testes de permutação",
+      "source": {
+        "title": "MAT-EST-039-pacote-site.zip",
+        "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "b54d2e5f86b5d1e821a668d2add1f86a30b53305eff9b9ac5dc2060a08a27f28",
+      "sections": 17,
+      "characters": 26102,
+      "questions": 36,
+      "visuals": 7,
+      "prerequisites": [
+        "MAT-EST-019",
+        "MAT-EST-020",
+        "MAT-EST-021",
+        "MAT-EST-023",
+        "MAT-EST-031",
+        "MAT-EST-038",
+        "MAT-PRO-039"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-039/aula.md"
+    },
+    {
+      "id": "MAT-EST-040",
+      "title": "Métodos de reamostragem em prática: comparação de intervalos, testes sob desenho amostral e auditoria de robustez",
+      "source": {
+        "title": "MAT-EST-040-pacote-site.zip",
+        "url": "https://drive.google.com/file/d/1UvTJWOyL8yfoBbwvh4h4CVaK347eWy7o/view?usp=drivesdk",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "5dda9b9ce90f175de8f1ceff754a114265a527ecf5a4fec6ed19bfd4977bacce",
+      "sections": 16,
+      "characters": 24463,
+      "questions": 36,
+      "visuals": 7,
+      "prerequisites": [
+        "MAT-EST-019",
+        "MAT-EST-020",
+        "MAT-EST-021",
+        "MAT-EST-023",
+        "MAT-EST-031",
+        "MAT-EST-034",
+        "MAT-EST-035",
+        "MAT-EST-039"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-040/aula.md"
+    },
+    {
+      "id": "MAT-EST-041",
+      "title": "Inferência com dados dependentes: reamostragem por blocos e conglomerados, validação temporal e limites de generalização",
+      "source": {
+        "title": "MAT-EST-041-pacote-site.zip",
+        "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "365b23813ed729ca3865e5fb0301a0abe3c3c555e18dd46186f2781c22b1bf20",
+      "sections": 16,
+      "characters": 28869,
+      "questions": 36,
+      "visuals": 7,
+      "prerequisites": [
+        "MAT-EST-019",
+        "MAT-EST-020",
+        "MAT-EST-021",
+        "MAT-EST-023",
+        "MAT-EST-031",
+        "MAT-EST-034",
+        "MAT-EST-035",
+        "MAT-EST-039",
+        "MAT-EST-040"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-041/aula.md"
+    },
+    {
+      "id": "MAT-EST-042",
+      "title": "Dependência temporal e modelos iniciais de séries: defasagens, autocorrelação, médias móveis e diagnóstico de resíduos",
+      "source": {
+        "title": "MAT-EST-042-pacote-site.zip",
+        "url": "https://drive.google.com/file/d/1FOy0AMwCk5uuHcKXfGBq3RIMioVPMnt8/view?usp=drivesdk",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "a38f1532677ef8a3b932ad3431d631ddc10cb441baedf9149a29701b990ae099",
+      "sections": 14,
+      "characters": 25583,
+      "questions": 36,
+      "visuals": 7,
+      "prerequisites": [
+        "MAT-EST-019",
+        "MAT-EST-020",
+        "MAT-EST-031",
+        "MAT-EST-034",
+        "MAT-EST-040",
+        "MAT-EST-041"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-042/aula.md"
+    },
+    {
+      "id": "MAT-EST-043",
+      "title": "Tendência, sazonalidade e decomposição de séries temporais: padrões, diferenças sazonais e previsões de referência",
+      "source": {
+        "title": "MAT-EST-043-pacote-site.zip",
+        "url": "https://drive.google.com/file/d/1qa59dgjoPYLXYc_2HMf7t8EU1qWdEml4/view?usp=drivesdk",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "11b324e1c015c2781cd34b0ed768db0543cbf05ee615ff6fcb04b837b2c2d2ba",
+      "sections": 14,
+      "characters": 26966,
+      "questions": 36,
+      "visuals": 7,
+      "prerequisites": [
+        "MAT-EST-019",
+        "MAT-EST-020",
+        "MAT-EST-031",
+        "MAT-EST-032",
+        "MAT-EST-041",
+        "MAT-EST-042"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-043/aula.md"
+    },
+    {
+      "id": "MAT-EST-044",
+      "title": "Suavização exponencial e previsões sazonais iniciais: parâmetros, atualização e avaliação temporal",
+      "source": {
+        "title": "MAT-EST-044-pacote-site.zip",
+        "url": "https://drive.google.com/file/d/1ATY0sDnu1u4F5BQwYprqYM2GKciQNGgv/view?usp=drivesdk",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "7f6efb2990288d8ef625f38ba114baf4fbaca1505fc71cf55db3231403e84517",
+      "sections": 12,
+      "characters": 27965,
+      "questions": 36,
+      "visuals": 7,
+      "prerequisites": [],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-044/aula.md"
+    },
+    {
+      "id": "MAT-EST-045",
+      "title": "Modelos de suavização sazonal em prática: inicialização, ajuste e comparação com referências temporais",
+      "source": {
+        "title": "MAT-EST-045-pacote-site.zip",
+        "url": "https://drive.google.com/file/d/1_43vG2n-bAu6lpgYnd9beMlZxM3QigmW/view?usp=drivesdk",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "4978e23eb6570c6b23f272908027f465ad8100ca833794a1b5c0119582e184f4",
+      "sections": 12,
+      "characters": 29244,
+      "questions": 36,
+      "visuals": 7,
+      "prerequisites": [
+        "MAT-EST-031",
+        "MAT-EST-032",
+        "MAT-EST-042",
+        "MAT-EST-043",
+        "MAT-EST-044"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-045/aula.md"
+    },
+    {
+      "id": "MAT-EST-046",
+      "title": "Avaliação de previsões sazonais em múltiplas origens: janelas expansivas, estabilidade e incerteza",
+      "source": {
+        "title": "MAT-EST-046-pacote-site.zip",
+        "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "aa88af7f4f500cb8556dea098a433de32f40570949e9d6b0517f1c5577de25bb",
+      "sections": 13,
+      "characters": 35161,
+      "questions": 36,
+      "visuals": 7,
+      "prerequisites": [
+        "MAT-EST-031",
+        "MAT-EST-032",
+        "MAT-EST-042",
+        "MAT-EST-043",
+        "MAT-EST-044",
+        "MAT-EST-045"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-046/aula.md"
+    },
+    {
+      "id": "MAT-EST-047",
+      "title": "Diagnóstico e calibração de previsões temporais: resíduos por horizonte, intervalos avaliáveis e comunicação de risco",
+      "source": {
+        "title": "MAT-EST-047-pacote-site.zip",
+        "url": "https://drive.google.com/file/d/1CMgoPCSkPyuXhiu7YkiB6UzniyO4ICmz/view?usp=drivesdk",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "3311b343a6ab5a3706381424fd4e548f55568b854f3e85541993fb419a96a3f5",
+      "sections": 13,
+      "characters": 31164,
+      "questions": 36,
+      "visuals": 7,
+      "prerequisites": [
+        "MAT-EST-031",
+        "MAT-EST-032",
+        "MAT-EST-039",
+        "MAT-EST-041",
+        "MAT-EST-042",
+        "MAT-EST-043",
+        "MAT-EST-044",
+        "MAT-EST-045",
+        "MAT-EST-046"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-047/aula.md"
+    },
+    {
+      "id": "MAT-EST-048",
+      "title": "Monitoramento prospectivo de séries temporais: registro de previsões, deriva de dados e protocolos de revisão de modelos",
+      "source": {
+        "title": "MAT-EST-048-pacote-integracao.zip",
+        "url": "https://drive.google.com/file/d/158wDKvwIUPYIDryC6sggHMYxTF0mVVOS/view?usp=drivesdk",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "6020ba0e491b672e5c5707a3be5a99a068af8b90e4590dd2434646ce8099b6a3",
+      "sections": 13,
+      "characters": 22171,
+      "questions": 36,
+      "visuals": 5,
+      "prerequisites": [
+        "MAT-EST-031",
+        "MAT-EST-032",
+        "MAT-EST-039",
+        "MAT-EST-041",
+        "MAT-EST-042",
+        "MAT-EST-043",
+        "MAT-EST-044",
+        "MAT-EST-045",
+        "MAT-EST-046",
+        "MAT-EST-047"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-048/aula.md"
+    },
+    {
+      "id": "MAT-EST-049",
+      "title": "Comparação prospectiva de modelos temporais: desafiante, referência, custos e decisão de atualização",
+      "source": {
+        "title": "MAT-EST-049-pacote-integracao.zip",
+        "url": "https://drive.google.com/file/d/1K3vAUqAv8_sBEmonWHtGkxvMWDfA29mJ/view?usp=drivesdk",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "4a02c6bf1a66042069a847fdfd3b7ea92495eca9c3aeaf1afd851f61b59692b0",
+      "sections": 15,
+      "characters": 28401,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-031",
+        "MAT-EST-032",
+        "MAT-EST-039",
+        "MAT-EST-041",
+        "MAT-EST-042",
+        "MAT-EST-043",
+        "MAT-EST-044",
+        "MAT-EST-045",
+        "MAT-EST-046",
+        "MAT-EST-047",
+        "MAT-EST-048"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-049/aula.md"
+    },
+    {
+      "id": "MAT-EST-050",
+      "title": "Robustez temporal: cenários, sensibilidade a custos e documentação de limites de generalização",
+      "source": {
+        "title": "MAT-EST-050-pacote-integracao.zip",
+        "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "97f9f0611b068b9e4fe6b8a8b2ba896f3ffcc330e872e416288e993dd3312cfb",
+      "sections": 17,
+      "characters": 35583,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-031",
+        "MAT-EST-032",
+        "MAT-EST-039",
+        "MAT-EST-041",
+        "MAT-EST-042",
+        "MAT-EST-043",
+        "MAT-EST-044",
+        "MAT-EST-045",
+        "MAT-EST-046",
+        "MAT-EST-047",
+        "MAT-EST-048",
+        "MAT-EST-049"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-050/aula.md"
+    },
+    {
+      "id": "MAT-EST-051",
+      "title": "Desenho de uma avaliação temporal futura: hipóteses, coleta, critérios e análise pós-registro",
+      "source": {
+        "title": "MAT-EST-051-pacote-integracao.zip",
+        "url": "https://drive.google.com/file/d/1j6tgolgwv_LKSqhrVV5a5jzLHwOvDLwn/view?usp=drivesdk",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "09b5ba4a4c03e2f7455a136cc1cde171037dc882ac5ddba76f5448018c0f9126",
+      "sections": 14,
+      "characters": 28804,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-031",
+        "MAT-EST-032",
+        "MAT-EST-039",
+        "MAT-EST-041",
+        "MAT-EST-042",
+        "MAT-EST-043",
+        "MAT-EST-044",
+        "MAT-EST-045",
+        "MAT-EST-046",
+        "MAT-EST-047",
+        "MAT-EST-048",
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-051/aula.md"
+    },
+    {
+      "id": "MAT-EST-052",
+      "title": "Ensaio operacional de monitoramento: integridade do registro, atrasos de observação e encerramento auditável",
+      "source": {
+        "title": "MAT-EST-052-pacote-integracao.zip",
+        "url": "https://drive.google.com/file/d/11Habs2a1IU3Qv_OtZbUHLxijIj5vJVFU/view?usp=drivesdk",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "966316e6021037a15f8f6f147c81564d52eb45762b1b9f0850cbbef5fb9eb486",
+      "sections": 12,
+      "characters": 24895,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-031",
+        "MAT-EST-032",
+        "MAT-EST-042",
+        "MAT-EST-047",
+        "MAT-EST-048",
+        "MAT-EST-049",
+        "MAT-EST-050",
+        "MAT-EST-051"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-052/aula.md"
+    },
+    {
+      "id": "MAT-EST-053",
+      "title": "Qualidade e versionamento de dados temporais: proveniência, reprocessamento e políticas de avaliação por versão",
+      "source": {
+        "title": "MAT-EST-053-pacote-integracao.zip",
+        "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "3dbaf85534de31c400533e69e57d9eb8b9d0073ade2cd2e71f93c91d897b248f",
+      "sections": 15,
+      "characters": 22787,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-047",
+        "MAT-EST-048",
+        "MAT-EST-049",
+        "MAT-EST-050",
+        "MAT-EST-051",
+        "MAT-EST-052"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-053/aula.md"
+    },
+    {
+      "id": "MAT-EST-054",
+      "title": "Auditoria de avaliações temporais: reconciliação de versões, rastreamento de métricas e relatórios reproduzíveis",
+      "source": {
+        "title": "MAT-EST-054-pacote-integracao.zip",
+        "url": "https://drive.google.com/file/d/1nin8eH-q5UhAkjdkbbr-V_PUtaodw927/view?usp=drivesdk",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "fdcc1f64381baf7ba937a89fc3ecebde2a1967ac2356e62a0869a5eb95cefeb3",
+      "sections": 14,
+      "characters": 22285,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-047",
+        "MAT-EST-049",
+        "MAT-EST-050",
+        "MAT-EST-051",
+        "MAT-EST-052",
+        "MAT-EST-053"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-054/aula.md"
+    },
+    {
+      "id": "MAT-EST-055",
+      "title": "Governança de modelos temporais: documentação de decisões, responsáveis, revisões e critérios de encerramento",
+      "source": {
+        "title": "Cumulativo MAT-EST-067 com histórico preservado",
+        "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "d9cc52a3233d0dba148934406edcb01bfd44b567454f1bff804180c8f4110fb6",
+      "sections": 13,
+      "characters": 20765,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-047",
+        "MAT-EST-049",
+        "MAT-EST-050",
+        "MAT-EST-051",
+        "MAT-EST-052",
+        "MAT-EST-053",
+        "MAT-EST-054"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-055/aula.md"
+    },
+    {
+      "id": "MAT-EST-056",
+      "title": "Revisão controlada de experimentos temporais: protocolo sucessor, pré-registro e prevenção de contaminação da avaliação",
+      "source": {
+        "title": "Cumulativo MAT-EST-067 com histórico preservado",
+        "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "965606a6ec0120194ff3e2921a4afdc9ff3acad31a6a1839a5cba9055ffddd2e",
+      "sections": 16,
+      "characters": 23411,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-047",
+        "MAT-EST-049",
+        "MAT-EST-050",
+        "MAT-EST-051",
+        "MAT-EST-052",
+        "MAT-EST-053",
+        "MAT-EST-054",
+        "MAT-EST-055"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-056/aula.md"
+    },
+    {
+      "id": "MAT-EST-057",
+      "title": "Registro de desvios e auditoria prospectiva simulada: pendências, exclusões e relatório por coorte sem inventar alvos futuros",
+      "source": {
+        "title": "Cumulativo MAT-EST-067 com histórico preservado",
+        "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "fdfb424939a92ede9412cccc2330d6bd2d8d459e851636382b5df5c6a2bd3b15",
+      "sections": 13,
+      "characters": 23463,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-047",
+        "MAT-EST-049",
+        "MAT-EST-050",
+        "MAT-EST-051",
+        "MAT-EST-052",
+        "MAT-EST-053",
+        "MAT-EST-054",
+        "MAT-EST-055",
+        "MAT-EST-056"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-057/aula.md"
+    },
+    {
+      "id": "MAT-EST-058",
+      "title": "Leitura crítica de relatórios temporais: resultados parciais, viés de seleção e comunicação de incerteza por coorte",
+      "source": {
+        "title": "Cumulativo MAT-EST-067 com histórico preservado",
+        "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "cccaecbd35b781db67a317f018758b24648cdaa19f674b222f38d88f49003baf",
+      "sections": 11,
+      "characters": 23146,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-047",
+        "MAT-EST-049",
+        "MAT-EST-050",
+        "MAT-EST-057"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-058/aula.md"
+    },
+    {
+      "id": "MAT-EST-059",
+      "title": "Comunicação comparativa de desempenho temporal: gráficos honestos, incerteza condicional e relatório executivo verificável",
+      "source": {
+        "title": "Cumulativo MAT-EST-067 com histórico preservado",
+        "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "99e95164671cd94fcaeb720db8c4e6a7099f9d5d9b7c28521ab41961b7b67aee",
+      "sections": 12,
+      "characters": 25028,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-047",
+        "MAT-EST-049",
+        "MAT-EST-050",
+        "MAT-EST-053",
+        "MAT-EST-054",
+        "MAT-EST-056",
+        "MAT-EST-057",
+        "MAT-EST-058"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-059/aula.md"
+    },
+    {
+      "id": "MAT-EST-060",
+      "title": "Auditoria de gráficos e relatórios automatizados: testes de consistência, versões e acessibilidade de publicação",
+      "source": {
+        "title": "Cumulativo MAT-EST-067 com histórico preservado",
+        "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "0460fbc967f22dee9f7da82956827122e5979985b392f4de5779ae4bdd4d5078",
+      "sections": 13,
+      "characters": 20531,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-049",
+        "MAT-EST-050",
+        "MAT-EST-053",
+        "MAT-EST-054",
+        "MAT-EST-056",
+        "MAT-EST-057",
+        "MAT-EST-058",
+        "MAT-EST-059"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-060/aula.md"
+    },
+    {
+      "id": "MAT-EST-061",
+      "title": "Teste de regressão editorial e preparação de publicação: evidências humanas, rollback e comunicação de correções",
+      "source": {
+        "title": "Cumulativo MAT-EST-067 com histórico preservado",
+        "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "bf9ea065f9e194a7158bf548828cba11d9aba95e637e0fd0c5021ebb155e4679",
+      "sections": 11,
+      "characters": 19703,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-049",
+        "MAT-EST-053",
+        "MAT-EST-054",
+        "MAT-EST-056",
+        "MAT-EST-057",
+        "MAT-EST-058",
+        "MAT-EST-059",
+        "MAT-EST-060"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-061/aula.md"
+    },
+    {
+      "id": "MAT-EST-062",
+      "title": "Manutenção de evidências e prontidão de publicação: checklist auditável, rastreio de pendências e validação pós-deploy",
+      "source": {
+        "title": "Cumulativo MAT-EST-067 com histórico preservado",
+        "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "0bad6145b1e201acf7f98f8f5c8319468e77c5c08173ae7775696ad4e46ec1b2",
+      "sections": 14,
+      "characters": 19164,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-049",
+        "MAT-EST-053",
+        "MAT-EST-054",
+        "MAT-EST-056",
+        "MAT-EST-057",
+        "MAT-EST-058",
+        "MAT-EST-059",
+        "MAT-EST-060",
+        "MAT-EST-061"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-062/aula.md"
+    },
+    {
+      "id": "MAT-EST-063",
+      "title": "Gestão de incidentes editoriais: classificação de falhas, comunicação de impacto e reteste de correções",
+      "source": {
+        "title": "Cumulativo MAT-EST-067 com histórico preservado",
+        "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "34567382bd895587e1f331d7503a110bfba8cd875231c40d088938b0a330ac77",
+      "sections": 13,
+      "characters": 19661,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-049",
+        "MAT-EST-053",
+        "MAT-EST-054",
+        "MAT-EST-057",
+        "MAT-EST-058",
+        "MAT-EST-059",
+        "MAT-EST-060",
+        "MAT-EST-061",
+        "MAT-EST-062"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-063/aula.md"
+    },
+    {
+      "id": "MAT-EST-064",
+      "title": "Análise pós-incidente e prevenção editorial: causas sistêmicas, ações verificáveis e revisão de controles",
+      "source": {
+        "title": "Cumulativo MAT-EST-067 com histórico preservado",
+        "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "c4d7950703b1bd353b31db869c2e90aedce41a6753de26df64cf6fceadbe9ebe",
+      "sections": 13,
+      "characters": 18238,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-047",
+        "MAT-EST-049",
+        "MAT-EST-053",
+        "MAT-EST-063"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-064/aula.md"
+    },
+    {
+      "id": "MAT-EST-065",
+      "title": "Indicadores de qualidade editorial: definição operacional, linhas de base e acompanhamento sem métricas ilusórias",
+      "source": {
+        "title": "Cumulativo MAT-EST-067 com histórico preservado",
+        "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "54d51031c3131ef1d12ed6e912fe3a449ea9c0c19ad47c886947e179ced036ec",
+      "sections": 13,
+      "characters": 19301,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-047",
+        "MAT-EST-049",
+        "MAT-EST-057",
+        "MAT-EST-058",
+        "MAT-EST-060",
+        "MAT-EST-064"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-065/aula.md"
+    },
+    {
+      "id": "MAT-EST-066",
+      "title": "Revisão crítica e consolidação da unidade de avaliação temporal: integração de métricas, auditoria e transferência para problemas novos",
+      "source": {
+        "title": "Cumulativo MAT-EST-067 com histórico preservado",
+        "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "49a5b9df1a56fbc76c9002ffd6932e598b22675b696d5b2347c056da9a70b61c",
+      "sections": 13,
+      "characters": 17977,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-047",
+        "MAT-EST-049",
+        "MAT-EST-053",
+        "MAT-EST-057",
+        "MAT-EST-058",
+        "MAT-EST-060",
+        "MAT-EST-065"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-066/aula.md"
+    },
+    {
+      "id": "MAT-EST-067",
+      "title": "Transferência integradora da estatística temporal para decisões sob dados incompletos: leitura de evidências e exercícios inéditos",
+      "source": {
+        "title": "Cumulativo MAT-EST-067 com histórico preservado",
+        "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+        "checkedAt": "2026-10-03",
+        "version": "fonte integral recuperada"
+      },
+      "sourceSha256": "a6f8452fe12ea95d7ea83b66aeb488ac69dc6054440f0906e0e278ef2f0b14a5",
+      "sections": 14,
+      "characters": 17376,
+      "questions": 36,
+      "visuals": 6,
+      "prerequisites": [
+        "MAT-EST-047",
+        "MAT-EST-049",
+        "MAT-EST-053",
+        "MAT-EST-057",
+        "MAT-EST-058",
+        "MAT-EST-060",
+        "MAT-EST-065",
+        "MAT-EST-066"
+      ],
+      "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+      "original": "originais/MAT-EST-067/aula.md"
+    }
+  ],
+  "pendingCorrections": [
+    "MAT-EST-001-EX-APR-04",
+    "MAT-EST-002-EX-APR-07",
+    "MAT-EST-002-EX-APR-08",
+    "MAT-EST-003-EX-APR-01",
+    "MAT-EST-003-EX-APR-02",
+    "MAT-EST-003-EX-APR-03",
+    "MAT-EST-003-EX-APR-04",
+    "MAT-EST-003-EX-APR-05",
+    "MAT-EST-003-EX-APR-06",
+    "MAT-EST-003-EX-APR-08",
+    "MAT-EST-003-EX-CON-02",
+    "MAT-EST-003-EX-CON-03",
+    "MAT-EST-003-EX-CON-04",
+    "MAT-EST-003-EX-CON-07",
+    "MAT-EST-003-EX-VES-08",
+    "MAT-EST-003-EX-RET-05",
+    "MAT-EST-004-EX-APR-01",
+    "MAT-EST-004-EX-APR-03",
+    "MAT-EST-004-EX-APR-04",
+    "MAT-EST-004-EX-APR-05",
+    "MAT-EST-004-EX-APR-06",
+    "MAT-EST-004-EX-APR-08",
+    "MAT-EST-004-EX-APR-10",
+    "MAT-EST-004-EX-CON-01",
+    "MAT-EST-004-EX-CON-03",
+    "MAT-EST-004-EX-VES-09",
+    "MAT-EST-004-EX-RET-03",
+    "MAT-EST-005-EX-APR-01",
+    "MAT-EST-005-EX-APR-02",
+    "MAT-EST-005-EX-APR-03",
+    "MAT-EST-005-EX-APR-04",
+    "MAT-EST-005-EX-APR-05",
+    "MAT-EST-005-EX-APR-06",
+    "MAT-EST-005-EX-APR-07",
+    "MAT-EST-005-EX-APR-08",
+    "MAT-EST-005-EX-APR-09",
+    "MAT-EST-005-EX-APR-10",
+    "MAT-EST-005-EX-CON-01",
+    "MAT-EST-005-EX-CON-02",
+    "MAT-EST-005-EX-CON-03",
+    "MAT-EST-005-EX-CON-04",
+    "MAT-EST-005-EX-CON-05",
+    "MAT-EST-005-EX-CON-06",
+    "MAT-EST-005-EX-CON-07",
+    "MAT-EST-005-EX-CON-08",
+    "MAT-EST-005-EX-CON-09",
+    "MAT-EST-005-EX-CON-10",
+    "MAT-EST-005-EX-VES-01",
+    "MAT-EST-005-EX-VES-02",
+    "MAT-EST-005-EX-VES-03",
+    "MAT-EST-005-EX-VES-04",
+    "MAT-EST-005-EX-VES-05",
+    "MAT-EST-005-EX-VES-06",
+    "MAT-EST-005-EX-VES-07",
+    "MAT-EST-005-EX-VES-08",
+    "MAT-EST-005-EX-VES-09",
+    "MAT-EST-005-EX-RET-01",
+    "MAT-EST-005-EX-RET-02",
+    "MAT-EST-005-EX-RET-03",
+    "MAT-EST-005-EX-RET-04",
+    "MAT-EST-005-EX-RET-05",
+    "MAT-EST-006-EX-APR-01",
+    "MAT-EST-006-EX-APR-04",
+    "MAT-EST-006-EX-APR-05",
+    "MAT-EST-006-EX-APR-06",
+    "MAT-EST-006-EX-APR-07",
+    "MAT-EST-006-EX-CON-05",
+    "MAT-EST-006-EX-CON-06",
+    "MAT-EST-006-EX-VES-03",
+    "MAT-EST-006-EX-VES-04",
+    "MAT-EST-006-EX-RET-02",
+    "MAT-EST-006-EX-RET-03",
+    "MAT-EST-006-EX-RET-04",
+    "MAT-EST-007-EX-APR-01",
+    "MAT-EST-007-EX-APR-02",
+    "MAT-EST-007-EX-APR-03",
+    "MAT-EST-007-EX-APR-04",
+    "MAT-EST-007-EX-APR-05",
+    "MAT-EST-007-EX-APR-06",
+    "MAT-EST-007-EX-APR-07",
+    "MAT-EST-007-EX-APR-08",
+    "MAT-EST-007-EX-APR-09",
+    "MAT-EST-007-EX-APR-10",
+    "MAT-EST-007-EX-CON-05",
+    "MAT-EST-007-EX-CON-08",
+    "MAT-EST-007-EX-VES-04",
+    "MAT-EST-007-EX-RET-01",
+    "MAT-EST-007-EX-RET-04",
+    "MAT-EST-007-EX-RET-05",
+    "MAT-EST-008-EX-APR-01",
+    "MAT-EST-008-EX-APR-02",
+    "MAT-EST-008-EX-APR-03",
+    "MAT-EST-008-EX-APR-04",
+    "MAT-EST-008-EX-APR-05",
+    "MAT-EST-008-EX-APR-06",
+    "MAT-EST-008-EX-APR-07",
+    "MAT-EST-008-EX-APR-08",
+    "MAT-EST-008-EX-APR-10",
+    "MAT-EST-008-EX-CON-01",
+    "MAT-EST-008-EX-CON-02",
+    "MAT-EST-008-EX-CON-03",
+    "MAT-EST-008-EX-CON-04",
+    "MAT-EST-008-EX-CON-06",
+    "MAT-EST-008-EX-CON-07",
+    "MAT-EST-008-EX-CON-08",
+    "MAT-EST-008-EX-CON-09",
+    "MAT-EST-008-EX-CON-10",
+    "MAT-EST-008-EX-VES-01",
+    "MAT-EST-008-EX-VES-02",
+    "MAT-EST-008-EX-VES-03",
+    "MAT-EST-008-EX-VES-04",
+    "MAT-EST-008-EX-VES-06",
+    "MAT-EST-008-EX-VES-07",
+    "MAT-EST-008-EX-VES-09",
+    "MAT-EST-008-EX-RET-02",
+    "MAT-EST-008-EX-RET-03",
+    "MAT-EST-008-EX-RET-04",
+    "MAT-EST-008-EX-RET-05",
+    "MAT-EST-009-EX-APR-01",
+    "MAT-EST-009-EX-APR-02",
+    "MAT-EST-009-EX-APR-05",
+    "MAT-EST-009-EX-CON-01",
+    "MAT-EST-009-EX-CON-03",
+    "MAT-EST-009-EX-CON-07",
+    "MAT-EST-009-EX-CON-09",
+    "MAT-EST-009-EX-VES-01",
+    "MAT-EST-009-EX-VES-07",
+    "MAT-EST-009-EX-VES-08",
+    "MAT-EST-009-EX-RET-01",
+    "MAT-EST-009-EX-RET-02",
+    "MAT-EST-009-EX-RET-04",
+    "MAT-EST-010-EX-APR-04",
+    "MAT-EST-010-EX-CON-02",
+    "MAT-EST-010-EX-CON-05",
+    "MAT-EST-010-EX-CON-07",
+    "MAT-EST-010-EX-CON-08",
+    "MAT-EST-011-EX-APR-01",
+    "MAT-EST-035-EX-RET-03",
+    "MAT-EST-037-EX-RET-01",
+    "MAT-EST-037-EX-RET-02",
+    "MAT-EST-039-EX-APR-09",
+    "MAT-EST-040-EX-RET-01",
+    "MAT-EST-040-EX-RET-02",
+    "MAT-EST-040-EX-RET-03",
+    "MAT-EST-049-EX-APR-06",
+    "MAT-EST-049-EX-APR-07",
+    "MAT-EST-049-EX-APR-09",
+    "MAT-EST-051-EX-APR-04",
+    "MAT-EST-051-EX-CON-01",
+    "MAT-EST-052-EX-APR-07",
+    "MAT-EST-053-EX-APR-01",
+    "MAT-EST-053-EX-APR-02",
+    "MAT-EST-053-EX-APR-03",
+    "MAT-EST-053-EX-APR-04",
+    "MAT-EST-053-EX-APR-05",
+    "MAT-EST-053-EX-APR-06",
+    "MAT-EST-053-EX-APR-08",
+    "MAT-EST-053-EX-APR-09",
+    "MAT-EST-053-EX-CON-01",
+    "MAT-EST-053-EX-CON-02",
+    "MAT-EST-053-EX-CON-03",
+    "MAT-EST-053-EX-CON-04",
+    "MAT-EST-053-EX-CON-06",
+    "MAT-EST-053-EX-CON-09",
+    "MAT-EST-053-EX-VES-02",
+    "MAT-EST-053-EX-VES-03",
+    "MAT-EST-053-EX-VES-08",
+    "MAT-EST-053-EX-VES-09",
+    "MAT-EST-053-EX-VES-10",
+    "MAT-EST-053-EX-RET-01",
+    "MAT-EST-053-EX-RET-02",
+    "MAT-EST-053-EX-RET-03",
+    "MAT-EST-053-EX-RET-04",
+    "MAT-EST-053-EX-RET-05",
+    "MAT-EST-055-EX-CON-04",
+    "MAT-EST-057-EX-VES-05",
+    "MAT-EST-061-EX-RET-03"
+  ],
+  "missingPrerequisites": [],
+  "versions": [
+    {
+      "label": "MANIFESTO — MAT-EST-001 — reconstrução editorial v1 · 2026-09-30",
+      "url": "originais/MAT-EST-001/edicoes/1tdMGxBUPVJqD5uh7PPK7p4YbMU_k2Ti5zoQxmbaCXt0.txt"
+    },
+    {
+      "label": "GABARITO — MAT-EST-001 — reconstrução editorial v1 · 2026-09-30",
+      "url": "originais/MAT-EST-001/edicoes/1mHeNH-JqIEDkHGWHbDxMfFeM23aKYc1kleqrdpo1sgo.txt"
+    },
+    {
+      "label": "EXERCÍCIOS — MAT-EST-001 — reconstrução editorial v1 · 2026-09-30",
+      "url": "originais/MAT-EST-001/edicoes/1oh19I88Ei_1J4DntgX_D9jlV4coADw7D_eee6RE95vk.txt"
+    },
+    {
+      "label": "AULA — MAT-EST-001 — reconstrução editorial v1 · 2026-09-30",
+      "url": "originais/MAT-EST-001/edicoes/1Ii7-kYu6gwgrld_ai64piR9xreFIo0VCfDAGcwS9Q0Y.txt"
+    },
+    {
+      "label": "MAT-EST-002-metadados.json · 2026-10-01",
+      "url": "originais/MAT-EST-002/edicoes/1mRqUyDtsIDPqZYxdoDbFkllE6_BbiG5J.json"
+    },
+    {
+      "label": "MAT-EST-002 — manifesto da reconstrução v1 · 2026-10-01",
+      "url": "originais/MAT-EST-002/edicoes/17r0mSbkFv3Lg45XqNIJrNwp9KwVp8HlH2XBaJ41YRVg.txt"
+    },
+    {
+      "label": "MAT-EST-002 — gabarito comentado — reconstrução editorial v1 · 2026-10-01",
+      "url": "originais/MAT-EST-002/edicoes/1Uov0xjG-KgMAOz7K5O16hNpVAoj6gZvHTgCWHIwIP3s.txt"
+    },
+    {
+      "label": "MAT-EST-002 — exercícios — reconstrução editorial v1 · 2026-10-01",
+      "url": "originais/MAT-EST-002/edicoes/1Fk7dlaBMqvUfTY7OIPGMWFiURwJJYFqU4AwcCOgC90w.txt"
+    },
+    {
+      "label": "MAT-EST-002 — aula completa — reconstrução editorial v1 · 2026-10-01",
+      "url": "originais/MAT-EST-002/edicoes/1gI8ZIlrtb4FYNvBeY6qFyDF6EjQYdXJsPu4zuSMjrTg.txt"
+    },
+    {
+      "label": "MAT-EST-003-metadados.json · 2026-10-01",
+      "url": "originais/MAT-EST-003/edicoes/1so5z5ra9MtUiLcJ44HnoPHZ-KnK9BaST.json"
+    },
+    {
+      "label": "MAT-EST-003 — manifesto da reconstrução v1 · 2026-10-01",
+      "url": "originais/MAT-EST-003/edicoes/1syM1SFfUtAw-tD5I0VS8Cw5rfwH8A1RRiV7CmuzsCXI.txt"
+    },
+    {
+      "label": "MAT-EST-003 — gabarito comentado — reconstrução editorial v1 · 2026-10-01",
+      "url": "originais/MAT-EST-003/edicoes/1jagJbYAk-Ep_05KuxOtYbJgYQ_G9SOgcb3X4f3eNU04.txt"
+    },
+    {
+      "label": "MAT-EST-003 — exercícios — reconstrução editorial v1 · 2026-10-01",
+      "url": "originais/MAT-EST-003/edicoes/1w_BfIuEYQQIHJoLuwkFWVOfbgpTKbOPTSLuNVuDfZXs.txt"
+    },
+    {
+      "label": "MAT-EST-003 — aula completa — reconstrução editorial v1 · 2026-10-01",
+      "url": "originais/MAT-EST-003/edicoes/1eL90o7X33lWdAlJfjqGyMUrNN6t66mEudeyjx_J49MY.txt"
+    },
+    {
+      "label": "MAT-EST-004-metadados.json · 2026-10-01",
+      "url": "originais/MAT-EST-004/edicoes/1w7-il32mkVk29mDo24xlzxX2j4LNBi8v.json"
+    },
+    {
+      "label": "MAT-EST-004 — manifesto da reconstrução v1 · 2026-10-01",
+      "url": "originais/MAT-EST-004/edicoes/1S35VKhKuyGSFi9fIfhC0rxBucnxLZzcPQ-F1r_wXXFs.txt"
+    },
+    {
+      "label": "MAT-EST-004 — gabarito comentado — reconstrução editorial v1 · 2026-10-01",
+      "url": "originais/MAT-EST-004/edicoes/1jHJpQo1sQnJax9nRto0aP1fiZpfybb-SDnxfldg4fvc.txt"
+    },
+    {
+      "label": "MAT-EST-004 — exercícios — reconstrução editorial v1 · 2026-10-01",
+      "url": "originais/MAT-EST-004/edicoes/1fNzyj-hMuwrRMkZZkJIS92QICMpjmri5yhu27WSO53Y.txt"
+    },
+    {
+      "label": "MAT-EST-004 — aula completa — reconstrução editorial v1 · 2026-10-01",
+      "url": "originais/MAT-EST-004/edicoes/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w.txt"
+    },
+    {
+      "label": "MAT-EST-005-metadados.json · 2026-10-01",
+      "url": "originais/MAT-EST-005/edicoes/1nvR8NO4KpMq5W3OkJPgeJ8M1kqZ8e80I.json"
+    },
+    {
+      "label": "MAT-EST-005 — manifesto da reconstrução v1 · 2026-10-01",
+      "url": "originais/MAT-EST-005/edicoes/1TEGE0G1-nosZsXY-rOW2LoMD0AHbRr3vqzMjjlNj-TY.txt"
+    },
+    {
+      "label": "MAT-EST-005 — gabarito comentado — reconstrução editorial v1 · 2026-10-01",
+      "url": "originais/MAT-EST-005/edicoes/1RxtTgu2FHRD1OTat_vKem_2y2SBm3lD99vY61X81K2I.txt"
+    },
+    {
+      "label": "MAT-EST-005 — exercícios — reconstrução editorial v1 · 2026-10-01",
+      "url": "originais/MAT-EST-005/edicoes/1YmCMmGe9UGEKcK_S0Eyuyjd40BmXBIdwit232iMVkqY.txt"
+    },
+    {
+      "label": "MAT-EST-005 — aula completa — reconstrução editorial v1 · 2026-10-01",
+      "url": "originais/MAT-EST-005/edicoes/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw.txt"
+    },
+    {
+      "label": "MAT-EST-006 — metadados JSON — reconstrução editorial v1 · 2026-10-01",
+      "url": "originais/MAT-EST-006/edicoes/1Hvhwxvv-0CsLar-_IkH1TBA29dtqXVYChhbEvcvNYL4.txt"
+    },
+    {
+      "label": "MAT-EST-006 — manifesto da reconstrução v1 · 2026-10-01",
+      "url": "originais/MAT-EST-006/edicoes/1MJ-Z3Ut8ze9RPXoN1obg3V9P98GcwwmO7ZmjR-cQnzY.txt"
+    },
+    {
+      "label": "MAT-EST-006 — gabarito comentado — reconstrução editorial v1 · 2026-10-01",
+      "url": "originais/MAT-EST-006/edicoes/1Wmto7p4pkKH95rJR03N9YgzJtUMeAZXoVtqxAEB3V2A.txt"
+    },
+    {
+      "label": "MAT-EST-006 — exercícios — reconstrução editorial v1 · 2026-10-01",
+      "url": "originais/MAT-EST-006/edicoes/1ze9f6_JVUhRWhSzhcaRuZrsFm5nKqvRJAwAkzeHpdmc.txt"
+    },
+    {
+      "label": "MAT-EST-006 — aula completa — reconstrução editorial v1 · 2026-10-01",
+      "url": "originais/MAT-EST-006/edicoes/1vx3dpHqumJYoNtHDTqOog2X8BBo-BbXvkD_MibLBckA.txt"
+    },
+    {
+      "label": "MAT-EST-007 — metadados — reconstrução editorial v1 · 2026-10-02",
+      "url": "originais/MAT-EST-007/edicoes/1EkU1jG5Zf0dsfCOin2cLvzW6CUmX5-mycOPItg-wRTs.txt"
+    },
+    {
+      "label": "MAT-EST-007 — aula completa — reconstrução editorial v1 · 2026-10-01",
+      "url": "originais/MAT-EST-007/edicoes/18zNmbMIKIHSN-LSFJOwS1-1REyh8sN66w0XB26bnud8.txt"
+    },
+    {
+      "label": "MAT-EST-007-manifesto.md · 2026-10-01",
+      "url": "originais/MAT-EST-007/edicoes/1RYC8Fbet3jya11BUQqkfIqgEUp0Wld2Q.txt"
+    },
+    {
+      "label": "MAT-EST-007-gabarito.md · 2026-10-01",
+      "url": "originais/MAT-EST-007/edicoes/1_rnR66ZGQ6f0KABwBC5CM3LQX8SOc4yi.txt"
+    },
+    {
+      "label": "MAT-EST-007-exercicios.md · 2026-10-01",
+      "url": "originais/MAT-EST-007/edicoes/1IqOVyexKrRD7t3ryu9GFU3iPOtZr1Z7R.txt"
+    },
+    {
+      "label": "MAT-EST-008-metadados.json · 2026-10-02",
+      "url": "originais/MAT-EST-008/edicoes/1UGimMYBsqOZBgMJcIpjVEQ2T0R7f4Zos.json"
+    },
+    {
+      "label": "MAT-EST-008 — manifesto da reconstrução v1 · 2026-10-02",
+      "url": "originais/MAT-EST-008/edicoes/1NJUzuDvNovxt4OetKQG50AwtU-dnVBFRLhUxsS4-EOA.txt"
+    },
+    {
+      "label": "MAT-EST-008 — gabarito comentado — reconstrução editorial v1 · 2026-10-02",
+      "url": "originais/MAT-EST-008/edicoes/1iZh8lp7O5y3A5wgdiQhHb_A0dlzIOfnzHvQR2gAgGV8.txt"
+    },
+    {
+      "label": "MAT-EST-008 — exercícios — reconstrução editorial v1 · 2026-10-02",
+      "url": "originais/MAT-EST-008/edicoes/13WnwqvIoyS9WmprID3cSepKHLwec6UFBjh60xzWHJ40.txt"
+    },
+    {
+      "label": "MAT-EST-008 — aula completa — reconstrução editorial v1 · 2026-10-02",
+      "url": "originais/MAT-EST-008/edicoes/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM.txt"
+    },
+    {
+      "label": "MAT-EST-008-metadados.json · 2026-10-02",
+      "url": "originais/MAT-EST-008/edicoes/1Dbh6G__E5tGdf8p3ygpTjyWfpK0b8Fqy.json"
+    },
+    {
+      "label": "MAT-EST-008 — manifesto da reconstrução v1 · 2026-10-02",
+      "url": "originais/MAT-EST-008/edicoes/138EuHOVkCIQyndsijFhdUjVPaqGC79TlKuMFi8IU1ns.txt"
+    },
+    {
+      "label": "MAT-EST-008 — gabarito comentado — reconstrução editorial v1 · 2026-10-02",
+      "url": "originais/MAT-EST-008/edicoes/1YoGPm-mRpuTiaBN5I85gCH6DCkWuCCThcLTWK0CdbNY.txt"
+    },
+    {
+      "label": "MAT-EST-008 — exercícios — reconstrução editorial v1 · 2026-10-02",
+      "url": "originais/MAT-EST-008/edicoes/11O5fv9P2SXDgEGg--_5Xv8y36ZfITsmBHmfs4_sx0ns.txt"
+    },
+    {
+      "label": "MAT-EST-008 — aula completa — reconstrução editorial v1 · 2026-10-02",
+      "url": "originais/MAT-EST-008/edicoes/1wzOqbBFJjq4WdWSnGCbBLWgOKk1JtO7jGGGgN6ZeSb4.txt"
+    },
+    {
+      "label": "Visual de outra fonte recuperada · 06-efeito-extremo.svg",
+      "url": "originais/MAT-EST-008/edicoes/ativos/1lMArj4kZ3xMgzbWANVpUhvNwz2Skp8KF/06-efeito-extremo.svg"
+    },
+    {
+      "label": "Visual de outra fonte recuperada · 05-transformacao-linear.svg",
+      "url": "originais/MAT-EST-008/edicoes/ativos/1M5hsEY1ZPFjqFVk0s99PLSn8XaS0_2aN/05-transformacao-linear.svg"
+    },
+    {
+      "label": "Visual de outra fonte recuperada · 04-populacao-amostra.svg",
+      "url": "originais/MAT-EST-008/edicoes/ativos/10TcUJSlOWGriE_5lzzeOLPRy8QCl3z3x/04-populacao-amostra.svg"
+    },
+    {
+      "label": "Visual de outra fonte recuperada · 03-mesma-media-diferente-dp.svg",
+      "url": "originais/MAT-EST-008/edicoes/ativos/1WHgjRAVHr3zZ6hGx2Nfh8zsUx2COYqTN/03-mesma-media-diferente-dp.svg"
+    },
+    {
+      "label": "Visual de outra fonte recuperada · 02-variancia-para-dp.svg",
+      "url": "originais/MAT-EST-008/edicoes/ativos/1uDrGP_uHDEjDz6dT2aFKgTTY77wQj42F/02-variancia-para-dp.svg"
+    },
+    {
+      "label": "Visual de outra fonte recuperada · 01-quadrados-desvios.svg",
+      "url": "originais/MAT-EST-008/edicoes/ativos/1URB6rBzKiEDtKD3gW8uIECNxjDtLmPqJ/01-quadrados-desvios.svg"
+    },
+    {
+      "label": "MAT-EST-009 — gabarito comentado — reconstrução editorial v1 · 2026-10-03",
+      "url": "originais/MAT-EST-009/edicoes/1uG-FxymKBhyvgt3IhkamnWTcd9ZC3YCxNqkdTb_uiBk.txt"
+    },
+    {
+      "label": "MAT-EST-009 — metadados — reconstrução editorial v1 · 2026-10-03",
+      "url": "originais/MAT-EST-009/edicoes/1TSmKIostIS-lWYARUkflaUe-wk7wHMzmKjdia7lVH9I.txt"
+    },
+    {
+      "label": "MAT-EST-009 — manifesto da reconstrução v1 · 2026-10-03",
+      "url": "originais/MAT-EST-009/edicoes/1YawNK1bpPpDms8WutvB-aD97E-L78RWCuMQAZVBB6p0.txt"
+    },
+    {
+      "label": "MAT-EST-009 — exercícios — reconstrução editorial v1 · 2026-10-03",
+      "url": "originais/MAT-EST-009/edicoes/1szGGCYPMXhtw-oxk2AZMnOJr_j1DMAHm-6LmXi8KSvA.txt"
+    },
+    {
+      "label": "MAT-EST-009 — aula completa — reconstrução editorial v1 · 2026-10-03",
+      "url": "originais/MAT-EST-009/edicoes/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs.txt"
+    },
+    {
+      "label": "MAT-EST-009-metadados.json · 2026-10-02",
+      "url": "originais/MAT-EST-009/edicoes/1ycjt_TxIxTHZ46GydmEV0abZwzwx3dbU.txt"
+    },
+    {
+      "label": "MAT-EST-009 — manifesto da reconstrução v1 · 2026-10-02",
+      "url": "originais/MAT-EST-009/edicoes/1Zl9oy-PFT116vqfPNNFlifJrcUOn6nNIvJweeFMRVmk.txt"
+    },
+    {
+      "label": "MAT-EST-009 — gabarito comentado — reconstrução editorial v1 · 2026-10-02",
+      "url": "originais/MAT-EST-009/edicoes/1-292GSb4aKWJheMPee-HGgozMZN8c-_tLjJxMVm27f0.txt"
+    },
+    {
+      "label": "MAT-EST-009 — exercícios — reconstrução editorial v1 · 2026-10-02",
+      "url": "originais/MAT-EST-009/edicoes/1DX13ySRo6nU2GsVPKu3zKBfhdRUO3WpBq8poAaFq0x4.txt"
+    },
+    {
+      "label": "MAT-EST-009 — aula completa — reconstrução editorial v1 · 2026-10-02",
+      "url": "originais/MAT-EST-009/edicoes/1SyPi3MV2QOHWAaesB3a7m95j4bC3JDXujvZJbdFJblI.txt"
+    },
+    {
+      "label": "Visual de outra fonte recuperada · 06-checklist-uso.svg",
+      "url": "originais/MAT-EST-009/edicoes/ativos/1UJ_HvRzBibV4h6zn8UiWvWEoToLynQ1g/06-checklist-uso.svg"
+    },
+    {
+      "label": "Visual de outra fonte recuperada · 05-media-proxima-zero.svg",
+      "url": "originais/MAT-EST-009/edicoes/ativos/11F4SKN_Y6ab5Le6v2dnB5uxrBJwbF0-L/05-media-proxima-zero.svg"
+    },
+    {
+      "label": "Visual de outra fonte recuperada · 04-soma-constante.svg",
+      "url": "originais/MAT-EST-009/edicoes/ativos/1hkzVjX61vjVmhXaxIgiFyae_9yDO0zz8/04-soma-constante.svg"
+    },
+    {
+      "label": "Visual de outra fonte recuperada · 03-conversao-unidade.svg",
+      "url": "originais/MAT-EST-009/edicoes/ativos/1m-wgA9mlGIfiof2evNlUIhjKrSuJ9XxU/03-conversao-unidade.svg"
+    },
+    {
+      "label": "Visual de outra fonte recuperada · 02-formula-unidades.svg",
+      "url": "originais/MAT-EST-009/edicoes/ativos/1gICkZX59EX2OwZC0VUJPDHYnn0-daLI5/02-formula-unidades.svg"
+    },
+    {
+      "label": "Visual de outra fonte recuperada · 01-dp-versus-cv.svg",
+      "url": "originais/MAT-EST-009/edicoes/ativos/1EMpdKojePPNATa6tSua4DGG3URZFI5sV/01-dp-versus-cv.svg"
+    },
+    {
+      "label": "MAT-EST-010 — manifesto da reconstrução v1 · 2026-10-03",
+      "url": "originais/MAT-EST-010/edicoes/1MO6ERJ2Kg99PKI4-eiXdwSB0Cg73mrk5t2Euf2OKaQ0.txt"
+    },
+    {
+      "label": "MAT-EST-010 — metadados — reconstrução editorial v1 · 2026-10-03",
+      "url": "originais/MAT-EST-010/edicoes/1vQx7oc-2dRxl6q7yWJB2EDNHFxzh6f_C952toiyqJfE.txt"
+    },
+    {
+      "label": "MAT-EST-010 — gabarito comentado — reconstrução editorial v1 · 2026-10-03",
+      "url": "originais/MAT-EST-010/edicoes/14ImJ7XyGdytsbxGtLSjyChO0vOBDjTE3wWLFOnecpMw.txt"
+    },
+    {
+      "label": "MAT-EST-010 — exercícios — reconstrução editorial v1 · 2026-10-03",
+      "url": "originais/MAT-EST-010/edicoes/1xjjqS52z6o5ryNdgMvdPnX7WB4K2qJHtQaTnIAnKPKc.txt"
+    },
+    {
+      "label": "MAT-EST-010 — aula completa — reconstrução editorial v1 · 2026-10-03",
+      "url": "originais/MAT-EST-010/edicoes/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo.txt"
+    },
+    {
+      "label": "MAT-EST-011 — manifesto da reconstrução v1 · 2026-10-03",
+      "url": "originais/MAT-EST-011/edicoes/12xkpNgkCEx1LRKvsdFJEaLS6rbuFgXbRyg99HxRq658.txt"
+    },
+    {
+      "label": "MAT-EST-011 — metadados — reconstrução editorial v1 · 2026-10-03",
+      "url": "originais/MAT-EST-011/edicoes/1pt4JfYHKSr9PrdyPegR1s7IcTREB-nJvhg_AlnZJQk4.txt"
+    },
+    {
+      "label": "MAT-EST-011 — gabarito comentado — reconstrução editorial v1 · 2026-10-03",
+      "url": "originais/MAT-EST-011/edicoes/1X-xn27kNYTey2Ryb_3p0Po_S5JLko0Lhd0rG48ygRy8.txt"
+    },
+    {
+      "label": "MAT-EST-011 — exercícios — reconstrução editorial v1 · 2026-10-03",
+      "url": "originais/MAT-EST-011/edicoes/1fKeAqzRrzptKj8lwg82w5dw06UA-2QxwrNmdVclisBg.txt"
+    },
+    {
+      "label": "MAT-EST-011 — aula completa — reconstrução editorial v1 · 2026-10-03",
+      "url": "originais/MAT-EST-011/edicoes/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg.txt"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-048-site · registro-chegadas-simuladas.csv",
+      "url": "originais/MAT-EST-048/edicoes/MAT-EST-048-site/registro-chegadas-simuladas.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-048-site · questoes-oficiais-referencias.json",
+      "url": "originais/MAT-EST-048/edicoes/MAT-EST-048-site/questoes-oficiais-referencias.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-048-site · gabarito-comentado.json",
+      "url": "originais/MAT-EST-048/edicoes/MAT-EST-048-site/gabarito-comentado.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-048-site · emissoes-pendentes-simuladas.csv",
+      "url": "originais/MAT-EST-048/edicoes/MAT-EST-048-site/emissoes-pendentes-simuladas.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-048-site · marcador-producao.json",
+      "url": "originais/MAT-EST-048/edicoes/MAT-EST-048-site/marcador-producao.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-048-site · fontes.json",
+      "url": "originais/MAT-EST-048/edicoes/MAT-EST-048-site/fontes.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-048-site · calculos-reproduziveis.json",
+      "url": "originais/MAT-EST-048/edicoes/MAT-EST-048-site/calculos-reproduziveis.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-048-site · calculos-reproduziveis.py",
+      "url": "originais/MAT-EST-048/edicoes/MAT-EST-048-site/calculos-reproduziveis.py"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-048-site · manifest.json",
+      "url": "originais/MAT-EST-048/edicoes/MAT-EST-048-site/manifest.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-048-site · dados-ficticios-trimestrais.csv",
+      "url": "originais/MAT-EST-048/edicoes/MAT-EST-048-site/dados-ficticios-trimestrais.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-048-site · registro-emissoes-simuladas.csv",
+      "url": "originais/MAT-EST-048/edicoes/MAT-EST-048-site/registro-emissoes-simuladas.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-048-site · dados-ficticios-referencia.csv",
+      "url": "originais/MAT-EST-048/edicoes/MAT-EST-048-site/dados-ficticios-referencia.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-048-site · video.json",
+      "url": "originais/MAT-EST-048/edicoes/MAT-EST-048-site/video.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-048-site · visuais.json",
+      "url": "originais/MAT-EST-048/edicoes/MAT-EST-048-site/visuais.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-048-site · exercicios.json",
+      "url": "originais/MAT-EST-048/edicoes/MAT-EST-048-site/exercicios.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-048-site · MAT-EST-048-monitoramento-prospectivo-series-temporais-registro-previsoes-deriva-dados-protocolos-revisao-modelos.md",
+      "url": "originais/MAT-EST-048/edicoes/MAT-EST-048-site/MAT-EST-048-monitoramento-prospectivo-series-temporais-registro-previsoes-deriva-dados-protocolos-revisao-modelos.md"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-048-site · SHA256.txt",
+      "url": "originais/MAT-EST-048/edicoes/MAT-EST-048-site/SHA256.txt"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-048-site · cenario-ficticio-t13-t18.csv",
+      "url": "originais/MAT-EST-048/edicoes/MAT-EST-048-site/cenario-ficticio-t13-t18.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-048-site · QA-VALIDACAO.txt",
+      "url": "originais/MAT-EST-048/edicoes/MAT-EST-048-site/QA-VALIDACAO.txt"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · plano-avaliacao-MAT-EST-051.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/plano-avaliacao-MAT-EST-051.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · manifesto-sha256.txt",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/manifesto-sha256.txt"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · protocolo-herdado-MAT-EST-049.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/protocolo-herdado-MAT-EST-049.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · relatorio-integridade.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/relatorio-integridade.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · MAT-EST-066-revisao-critica-consolidacao-avaliacao-temporal-integracao-metricas-auditoria-transferencia.md",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/MAT-EST-066-revisao-critica-consolidacao-avaliacao-temporal-integracao-metricas-auditoria-transferencia.md"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · gabarito-comentado.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/gabarito-comentado.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · verificar-pacote.py",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/verificar-pacote.py"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · LEIA-ME-INTEGRACAO.md",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/LEIA-ME-INTEGRACAO.md"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · exercicios.md",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/exercicios.md"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · metadados.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/metadados.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · exercicios.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/exercicios.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · gabarito-comentado.md",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/gabarito-comentado.md"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · checkpoint-editorial.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/checkpoint-editorial.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · PROMPT-TRANSICAO-NOVO-CHAT.txt",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/PROMPT-TRANSICAO-NOVO-CHAT.txt"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/politicas-de-vintage.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/politicas-de-vintage.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/serie-herdada-t01-t12.csv",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/serie-herdada-t01-t12.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/matriz-estados.csv",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/matriz-estados.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/cenarios-herdados-t23-nao-observados.csv",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/cenarios-herdados-t23-nao-observados.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/diferencas-sazonais-t13-t22.csv",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/diferencas-sazonais-t13-t22.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/EXEMPLO-V-reavaliacao.csv",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/EXEMPLO-V-reavaliacao.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/chegadas-novas-simuladas-t19-t22.csv",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/chegadas-novas-simuladas-t19-t22.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/EXEMPLO-V-versoes.csv",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/EXEMPLO-V-versoes.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/chegadas-simuladas-t13-t18.csv",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/chegadas-simuladas-t13-t18.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/plano-emissoes-pendentes-t23-t25.csv",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/plano-emissoes-pendentes-t23-t25.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/projecoes-ilustrativas-t23.csv",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/projecoes-ilustrativas-t23.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/EXEMPLO-V-eventos.jsonl",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/EXEMPLO-V-eventos.jsonl"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/ensaio-eventos-EXEMPLO-Z.jsonl",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/ensaio-eventos-EXEMPLO-Z.jsonl"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/registro-emissoes-h1.csv",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/registro-emissoes-h1.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/comparacao-emparelhada-t18-t22.csv",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/comparacao-emparelhada-t18-t22.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/dependencias-simbolicas-t24-t25.csv",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/dependencias-simbolicas-t24-t25.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/cartoes-casos-didaticos.csv",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/cartoes-casos-didaticos.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · governanca/hashes-herdados.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/governanca/hashes-herdados.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · relatorios/relatorio-auditoria.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/relatorios/relatorio-auditoria.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · relatorios/conciliacao-de-versoes.csv",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/relatorios/conciliacao-de-versoes.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · relatorios/MAT-EST-059-painel-dados.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/relatorios/MAT-EST-059-painel-dados.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · auditoria/testar_auditoria.py",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/auditoria/testar_auditoria.py"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · auditoria/recalcular_relatorios.py",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/auditoria/recalcular_relatorios.py"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · controle/MAT-EST-062-matriz-evidencias.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/controle/MAT-EST-062-matriz-evidencias.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · controle/testar_estados.py",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/controle/testar_estados.py"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · controle/MAT-EST-062-pendencias.csv",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/controle/MAT-EST-062-pendencias.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · controle/MAT-EST-062-plano-pos-deploy.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/controle/MAT-EST-062-plano-pos-deploy.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · controle/MAT-EST-062-ensaios-estados.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/controle/MAT-EST-062-ensaios-estados.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · indicadores/MAT-EST-065-fotografia-inicial.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/indicadores/MAT-EST-065-fotografia-inicial.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · indicadores/MAT-EST-065-fixtures-negativas.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/indicadores/MAT-EST-065-fixtures-negativas.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · indicadores/MAT-EST-065-painel-fotografia.csv",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/indicadores/MAT-EST-065-painel-fotografia.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · indicadores/MAT-EST-065-dicionario-indicadores.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/indicadores/MAT-EST-065-dicionario-indicadores.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · indicadores/recalcular-indicadores.py",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/indicadores/recalcular-indicadores.py"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · incidentes/MAT-EST-063-fixtures-incidentes.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/incidentes/MAT-EST-063-fixtures-incidentes.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · incidentes/MAT-EST-063-matriz-impacto.csv",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/incidentes/MAT-EST-063-matriz-impacto.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · incidentes/MAT-EST-063-caderno-sintetico.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/incidentes/MAT-EST-063-caderno-sintetico.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · incidentes/MAT-EST-063-reteste-demonstrativo.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/incidentes/MAT-EST-063-reteste-demonstrativo.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · transferencia/TRANSFER-066-contas.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/transferencia/TRANSFER-066-contas.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · transferencia/TRANSFER-066-cartoes.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/transferencia/TRANSFER-066-cartoes.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · protocolo-sucessor/MAT-EST-056-PROT-SUC-v1.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/protocolo-sucessor/MAT-EST-056-PROT-SUC-v1.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · pos-incidente/MAT-EST-064-plano-acoes.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/pos-incidente/MAT-EST-064-plano-acoes.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · pos-incidente/MAT-EST-064-ensaio-controles.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/pos-incidente/MAT-EST-064-ensaio-controles.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · pos-incidente/MAT-EST-064-hipoteses-causais.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/pos-incidente/MAT-EST-064-hipoteses-causais.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · pos-incidente/MAT-EST-064-contas-didaticas.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/pos-incidente/MAT-EST-064-contas-didaticas.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · regressao/MAT-EST-061-candidato-e-falhas-isoladas.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/regressao/MAT-EST-061-candidato-e-falhas-isoladas.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · regressao/MAT-EST-061-registro-evidencias.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/regressao/MAT-EST-061-registro-evidencias.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · regressao/MAT-EST-061-resultado-regressao.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/regressao/MAT-EST-061-resultado-regressao.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · sandbox/SANDBOX-057-cartoes.csv",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/sandbox/SANDBOX-057-cartoes.csv"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · sandbox/SANDBOX-057-resumo-metricas.json",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/sandbox/SANDBOX-057-resumo-metricas.json"
+    },
+    {
+      "label": "Edição anterior · MAT-EST-066-c4305c988e · sandbox/SANDBOX-057-desvios.jsonl",
+      "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/sandbox/SANDBOX-057-desvios.jsonl"
+    }
+  ]
+}

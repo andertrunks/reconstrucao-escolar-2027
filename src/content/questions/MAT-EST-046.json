@@ -1,0 +1,866 @@
+[
+  {
+    "id": "MAT-EST-046-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Origem temporal inicial",
+    "statement": "Na primeira rodada, a origem é o fim de t8. Enumere as observações permitidas na estimação do modelo e indique quais duas observações serão avaliadas.",
+    "answer": "Permitidos t1 até t8; alvos t9 e t10.",
+    "resolution": "O modelo emitido no fechamento de t8 não pode ler y9 ou y10. O alvo de horizonte um está em t9 e o de horizonte dois em t10. Os dados t9 e t10 só são vistos depois, ao calcular os erros.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Segunda janela e atualização legítima",
+    "statement": "Na origem t9, y9=129 já chegou. Qual é o novo tamanho da janela expansiva, e quais são os alvos h1 e h2?",
+    "answer": "Treino t1 a t9, com nove observações; alvos t10 e t11.",
+    "resolution": "Uma janela expansiva conserva t1..t8 e incorpora t9 depois de observado. Reestimam-se os estados por toda a série disponível, então preveem-se os próximos dois períodos.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Terceira janela",
+    "statement": "Na origem t10, descreva precisamente treino, horizonte um e horizonte dois.",
+    "answer": "Treino t1..t10; h1=t11; h2=t12.",
+    "resolution": "A origem é uma data de corte. Aumentar a janela não significa usar todo o banco de doze pontos: os últimos dois alvos ainda não existiam nesse corte.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Horizonte e calendário",
+    "statement": "Se um cálculo é emitido ao terminar t8, qual é o horizonte de sua previsão para t10? E por que não é horizonte um?",
+    "answer": "Horizonte dois; transcorrerão dois trimestres entre a origem t8 e o alvo t10.",
+    "resolution": "A fórmula é h = número do período-alvo menos número da origem. Portanto, dez menos oito é dois. O horizonte se conta desde a emissão, não desde a primeira linha do CSV.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Sazonal ingênuo na segunda origem",
+    "statement": "Na origem t9, qual é a previsão sazonal ingênua para t10, dado m=4 e y6=124?",
+    "answer": "124 unidades.",
+    "resolution": "O trimestre alvo t10 equivale à fase de t6, quatro períodos antes. A regra usa a última observação da mesma estação que já estava acessível na origem nove.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Referência sazonal para dois passos",
+    "statement": "Na origem t10, preveja t12 pela regra sazonal ingênua; o valor t8 é 127.",
+    "answer": "127 unidades.",
+    "resolution": "Com m=4, t12 repete a fase de t8. O valor y8=127 está no histórico t1..t10; usar y12 seria consultar o alvo e invalidaria a previsão.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Deslocamento anual até t8",
+    "statement": "As diferenças de fases correspondentes no treinamento inicial são 111−90, 124−107, 150−128 e 127−105. Calcule o deslocamento médio.",
+    "answer": "20,5 unidades por ciclo anual.",
+    "resolution": "As quatro diferenças são 21, 17, 22 e 22; somam 82 e sua média é 82/4=20,5. O valor é conhecido antes de t9 e serve de referência operacional, não de efeito causal.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Deslocamento anual ao abrir t9",
+    "statement": "Após chegar y9=129, acrescente a diferença anual entre y9 e y5=111 à soma anterior, 82. Qual o novo deslocamento médio?",
+    "answer": "(82+18)/5=20 unidades.",
+    "resolution": "Há cinco pares anuais observáveis em t1..t9. A nova diferença é 129−111=18; a soma total vira 100; a divisão correta usa cinco pares, não quatro.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Sinal de um erro de previsão",
+    "statement": "Na origem t8, Holt-Winters previu 130,99253184 para t9; o observado t9 é 129. Escreva o erro observado menos previsto e interprete seu sinal.",
+    "answer": "−1,99253184 unidade; previsão acima do observado.",
+    "resolution": "Faça y9 menos previsão: 129−130,99253184=−1,99253184. Erro negativo sob essa convenção significa que a previsão superou o valor real.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Observação repetida não é nova pessoa",
+    "statement": "A mesma observação y10=145 aparece como alvo h2 na origem t8 e alvo h1 na origem t9. Isso gera duas observações independentes? Explique.",
+    "answer": "São duas tarefas de previsão distintas, mas com o mesmo alvo; não constituem duas observações independentes.",
+    "resolution": "As previsões foram emitidas em datas diferentes e precisam ser avaliadas separadamente por horizonte. Porém ambas compartilham o observado t10=145, produzindo dependência entre seus erros.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Reestimação sem inventar estado inicial",
+    "statement": "Ao ampliar a origem de t8 para t9, é correto inicializar novamente com os quatro primeiros valores e depois atualizar até t9, mantendo alfa 0,3, beta-asterisco 0,2 e gama 0,2? Justifique.",
+    "answer": "Sim, essa é a regra fixa adotada: estados iniciais idênticos, atualização cronológica até a origem escolhida.",
+    "resolution": "A regra de inicialização depende só de t1..t4 e produz l4=115, b4=5 e índices −10, 2, 18, −10. Na origem nove, reprocessa-se t5..t9; a observação t10 permanece fora.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Atualização do nível em t9",
+    "statement": "Ao fechar t8 temos l8=135,6511392, b8=5,14139264 e s5=−9,8. Depois observamos y9=129. Calcule l9 com alfa=0,3.",
+    "answer": "l9 = 140,194772288 unidades.",
+    "resolution": "A base anterior é 135,6511392+5,14139264=140,79253184. A leitura dessazonalizada é 129−(−9,8)=138,8. Então l9=0,3×138,8+0,7×140,79253184=140,194772288.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Mesmo alvo, origens diferentes",
+    "statement": "A previsão HW de t10 a partir de t8 é 147,26192448; a partir de t9 é 146,5446130176. Qual delas incorpora y9, e por que não devem ser fundidas?",
+    "answer": "A previsão emitida em t9 incorpora y9; a de t8 não. São tarefas h1 e h2 distintas.",
+    "resolution": "O corte t9 já recebeu a observação 129 e atualizou seus estados. O corte t8 projetou t10 dois passos adiante sem conhecer t9. Mesclar as previsões apagaria a diferença de informação e horizonte.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Previsão de dois passos a partir de t9",
+    "statement": "Com origem t9, o exemplo computado apresenta previsão HW de t11 igual a 168,7963737472. Se y11=171, determine erro assinado e absoluto.",
+    "answer": "Erro +2,2036262528; absoluto 2,2036262528 unidades.",
+    "resolution": "Subtraia 168,7963737472 de 171. O sinal positivo indica que a previsão ficou abaixo do observado. A métrica MAE usa o módulo do resultado.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Informação vedada na origem dez",
+    "statement": "Uma equipe recalcula os parâmetros a partir de y11=171 antes de emitir a previsão t11 com origem t10. Identifique o problema.",
+    "answer": "Vazamento temporal: y11 é justamente o alvo h1 da origem t10.",
+    "resolution": "Ajustar estado, parâmetro, normalização ou selecionar variante com o próprio alvo destrói a simulação de uma previsão genuína. O ajuste da origem dez termina em y10=145.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Novo deslocamento anual com seis pares",
+    "statement": "No fim de t10, as diferenças anuais disponíveis são [21,17,22,22,18,21]. Encontre a média e explique por que ela não exige ler t11.",
+    "answer": "121/6 = 20,166666… unidades.",
+    "resolution": "Somando as seis diferenças obtemos 121. A última usa y10−y6=145−124=21, já conhecido no corte dez. O alvo y11 não é usado.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Erro do deslocamento sazonal em t12",
+    "statement": "Na origem t10, a previsão de deslocamento sazonal para t12 é 127+121/6=147,166666… e y12=144. Encontre seu erro com sinal.",
+    "answer": "Erro −19/6 = −3,166666… unidades.",
+    "resolution": "A regra observada menos prevista produz 144−147,166666…=−3,166666…. O sinal mostra que a previsão ficou acima do observado.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "MAE do HW em horizonte um",
+    "statement": "Para h1 nas origens t8, t9 e t10, os erros HW aproximados são [−1,99253184; −1,5446130176; +2,7596869391]. Calcule o MAE a partir dos módulos.",
+    "answer": "MAE ≈ 2,098944 unidades.",
+    "resolution": "Some 1,99253184+1,5446130176+2,7596869391=6,2968317967 e divida por três. Não calcule a média simples com sinais, pois isso poderia cancelá-los.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "MAE do HW em horizonte dois",
+    "statement": "Para h2, use os módulos aproximados [2,26192448;2,2036262528;0,9969458094]. Qual é o MAE?",
+    "answer": "MAE ≈ 1,820832 unidades.",
+    "resolution": "A soma dos módulos é cerca de 5,4624965422. Dividindo por três, encontramos 1,8208321807. Não conclua que horizontes longos são universalmente mais fáceis; aqui só há três tarefas.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "RMSE de horizonte um",
+    "statement": "Com os erros HW h1 [−1,99253184;−1,5446130176;+2,7596869391], escreva a conta de RMSE e apresente o resultado aproximado.",
+    "answer": "RMSE = raiz da média dos três quadrados ≈ 2,158077 unidades.",
+    "resolution": "Eleve cada erro ao quadrado, some, divida pelo número de tarefas (três) e só então extraia a raiz. Não é a raiz do MAE nem o módulo da média assinada.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Matriz completa da primeira origem",
+    "statement": "Na origem t8, o observado foi y9=129 e y10=145. Compare os erros HW em h1 e h2 usando previsões 130,99253184 e 147,26192448.",
+    "answer": "Erros h1≈−1,99253184 e h2≈−2,26192448; ambos são superprevisões.",
+    "resolution": "Calcule 129−130,99253184 e 145−147,26192448, sem atualizar o modelo com y9 entre os dois cálculos. Ambas as previsões foram emitidas conjuntamente em t8.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Duas previsões para t10",
+    "statement": "Em t8 a previsão de t10 era 147,26192448; em t9 passou para 146,5446130176. Com observado 145, qual previsão apresenta menor erro absoluto nesse alvo e o que não podemos inferir?",
+    "answer": "A emissão t9 tem erro absoluto ≈1,544613, menor que ≈2,261924 da emissão t8; isso não estabelece superioridade geral de um modelo.",
+    "resolution": "O observado é o mesmo, mas a previsão t9 incorpora mais uma observação e seu horizonte é menor. Uma comparação local não revela desempenho populacional nem comparação causal.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "MAE sazonal ingênuo no primeiro horizonte",
+    "statement": "Erros de h1 da referência ingênua são [18,21,21]. Calcule o erro absoluto médio.",
+    "answer": "20 unidades.",
+    "resolution": "Todos os erros são positivos e têm módulos 18, 21 e 21. A soma é 60 e o MAE é 60/3=20. Uma referência simples ainda é necessária para avaliar ganho prático.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "MAE do deslocamento sazonal no primeiro horizonte",
+    "statement": "Os erros h1 para deslocamento sazonal são [−2,5;1;5/6]. Calcule o MAE.",
+    "answer": "MAE = (2,5+1+5/6)/3 = 13/9 ≈ 1,444444 unidades.",
+    "resolution": "A soma dos valores absolutos é 5/2+1+5/6=13/3. Divida por três tarefas e obtenha 13/9. O resultado descreve somente a pequena base sintética.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "RMSE do deslocamento sazonal no segundo horizonte",
+    "statement": "Os três erros de h2 para deslocamento sazonal são [0,5;1;−19/6]. Calcule o RMSE.",
+    "answer": "RMSE ≈ 1,938881 unidades.",
+    "resolution": "Quadrados: 1/4, 1, 361/36. A soma é 203/18? Verifique: 9/36+36/36+361/36=406/36=203/18. Média por três =203/54; raiz = aproximadamente 1,938881.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Dois MAEs não definem uma regra universal",
+    "statement": "No h2, HW tem MAE ≈1,820832 e deslocamento sazonal ≈1,555556. Que afirmação é justificável e qual seria um exagero?",
+    "answer": "Nesta oficina, o deslocamento sazonal tem MAE h2 menor; é exagero afirmar que ele sempre supera Holt-Winters.",
+    "resolution": "A comparação foi calculada com somente três tarefas de horizonte dois, parâmetros didáticos e observações fictícias já conhecidas de aulas anteriores. Limite a conclusão ao protocolo e às condições examinadas.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Cobertura observada em faixa curta",
+    "statement": "Para h1, adote faixas didáticas previsão ±2 unidades. Os erros HW absolutos são aproximadamente [1,993;1,545;2,760]. Qual a proporção dentro das faixas?",
+    "answer": "2 de 3, isto é, 66,7% de cobertura retrospectiva observada.",
+    "resolution": "Os dois primeiros módulos não excedem dois, mas o terceiro excede. Conte dois acertos em três tarefas. Isso não equivale a garantir cobertura de 66,7% em novas séries.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Cobertura com faixa maior em h2",
+    "statement": "Para h2, adote faixas didáticas previsão ±3 unidades. Os módulos são [2,262;2,204;0,997]. Qual a cobertura observada e a largura de cada faixa?",
+    "answer": "3 de 3 observações cobertas; largura seis unidades por faixa.",
+    "resolution": "Todos os módulos são inferiores a três. Cada faixa vai do centro menos três ao centro mais três, medindo seis unidades. Não atribua cobertura nominal de 95% a essa contagem.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "O que ainda falta para um intervalo probabilístico",
+    "statement": "Um relatório chama de “intervalo de previsão de 95%” as faixas escolhidas arbitrariamente como ±2 e ±3. Corrija a linguagem e diga que evidência adicional seria necessária.",
+    "answer": "São faixas descritivas didáticas sem cobertura nominal; seria necessário método de construção e calibração apropriado, histórico suficiente e avaliação retrospectiva fora da estimação.",
+    "resolution": "Uma faixa desenhada em torno da previsão não ganha validade probabilística pelo nome. Estime a distribuição de erros por horizonte sob hipóteses examinadas, documente seleção e verifique cobertura em origens posteriores, com atenção à dependência temporal.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Seleção nos próprios alvos",
+    "statement": "Uma equipe testa 20 combinações de alfa, beta-asterisco e gama em origens t8..t10, escolhe a de menor RMSE e divulga o mesmo RMSE como “teste independente”. Qual o defeito e a correção?",
+    "answer": "O conjunto de avaliação foi reutilizado para selecionar parâmetros; é preciso separar seleção de avaliação final posterior ou empregar validação temporal aninhada apropriada.",
+    "resolution": "As 20 tentativas exploram os mesmos erros. O melhor resultado selecionado tende a ser otimista como avaliação do processo. Documente a busca e reserve períodos realmente não utilizados para a auditoria final; com doze pontos fictícios não há suporte para uma estimativa robusta disso.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Minissérie independente e janela expansiva",
+    "statement": "Em uma série fictícia diferente [10,12,14,16,18,20], use a previsão ingênua não sazonal “repetir último observado”. Quanto se prevê para o quinto valor na origem quatro e para o sexto na origem cinco?",
+    "answer": "Origem quatro prevê 16 para o quinto; origem cinco prevê 18 para o sexto.",
+    "resolution": "A regra repete o último valor disponível a cada corte: antes de observar 18, conhece-se 16; depois de observar 18, essa nova informação pode alimentar a previsão seguinte. Não utilize o alvo antecipadamente.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Dois passos em minissérie",
+    "statement": "Na mesma minissérie [10,12,14,16,18,20], emita na origem quatro dois passos à frente pela regra ingênua não sazonal e calcule o erro no sexto ponto.",
+    "answer": "Previsão de t6 é 16; erro observado−previsto é 20−16=+4.",
+    "resolution": "A origem quatro ainda só tem valores até 16. Uma previsão ingênua de horizonte dois conserva 16 em ambos os passos, sem utilizar o 18 intermediário que só chegará depois da emissão.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "MAE e RMSE com erros novos",
+    "statement": "Um par de previsões de uma segunda base tem erros −1 e +3. Calcule MAE e RMSE sem misturá-los.",
+    "answer": "MAE=2; RMSE=√5≈2,236.",
+    "resolution": "MAE é (1+3)/2=2. RMSE é raiz de (1²+3²)/2, isto é, raiz de cinco. O erro positivo e o negativo não se cancelam nas duas métricas.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Uma faixa e um alvo novo",
+    "statement": "Uma previsão pontual de 30 unidades recebeu faixa ilustrativa [28,32]. O valor observado foi 33. Indique se houve cobertura e a distância além do limite.",
+    "answer": "Não houve cobertura; observado excedeu limite superior em uma unidade.",
+    "resolution": "Compare 33 ao limite máximo 32. A faixa tem largura quatro, mas o alvo ficou uma unidade acima. Um único fracasso não basta para estimar uma probabilidade populacional.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Dobras de tamanhos desiguais",
+    "statement": "Uma avaliação guarda duas tarefas com erro absoluto 1 e 3 e outra com quatro tarefas cujos erros absolutos são 2,2,4,4. Calcule o MAE agregado corretamente.",
+    "answer": "MAE global=(1+3+2+2+4+4)/6=16/6≈2,6667.",
+    "resolution": "Há seis tarefas no total. O primeiro grupo tem MAE 2, o segundo MAE 3; a média simples dos dois MAEs seria 2,5 e daria peso igual a tamanhos diferentes. Use a soma de erros dividida por seis, se cada tarefa tiver igual peso definido no protocolo.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-046-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-046"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Relatório sem falsa certeza",
+    "statement": "Em uma nova série, três previsões estão dentro de faixas arbitrárias. Escreva uma conclusão metodologicamente defensável que evite chamar esse achado de intervalo de 95%.",
+    "answer": "As três observações deste pequeno exemplo ficaram dentro de faixas ilustrativas; isso é contagem descritiva, sem demonstração de cobertura probabilística futura.",
+    "resolution": "Declare o denominador, a regra que definiu a largura, a data da emissão e se os alvos foram reutilizados na escolha. Não confunda sucesso retrospectivo com prova de confiabilidade para novas observações.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-046-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Nn6j5_jIybpXwfomhSiv1JqjaIH2RoHU/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  }
+]

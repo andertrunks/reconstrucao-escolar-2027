@@ -1,0 +1,349 @@
+{
+  "id": "MAT-EST-033",
+  "version": "publicacao-2026-10-03-v1",
+  "objective": "distinguir previsão, evidência e decisão\n\ncomparar métricas e funções de perda\n\ncomunicar cenários e intervalos sem falsas garantias\n\ninterpretar desempenho por períodos e grupos\n\ndocumentar resultados de modo reprodutível",
+  "prerequisites": [
+    "MAT-EST-020",
+    "MAT-EST-027",
+    "MAT-EST-030",
+    "MAT-EST-031",
+    "MAT-EST-032"
+  ],
+  "why": "---\nid: MAT-EST-033\nslug: oficina-comunicacao-decisao-modelos-preditivos-cenarios-erros-incerteza-documentacao-reprodutivel\ntitulo: \"Oficina de comunicação e decisão com modelos preditivos: cenários, erros, incerteza e documentação reprodutível\"\nmateria: Matemática\nunidade: Estatística\nnivel: [3, 4, 5, 6]\nordem: 33\ntipoConteudo: aula_teorica_pratica\nanterior: MAT-EST-032\npreRequisitos: [MAT-EST-020, MAT-EST-027, MAT-EST-030, MAT-EST-031, MAT-EST-032]\nstatusProducao: produzido_localmente_nao_publicado\nstatusAprendizagemInicial: nao_iniciado\narquivoExercicios: exercicios.json\nproximoTopico: MAT-EST-034\n---\n\n# MAT-EST-033 — Oficina de comunicação e decisão com modelos preditivos: cenários, erros, incerteza e documentação reprodutível\n\n**Tempo sugerido:** três blocos de 25 a 50 minutos. **Origem:** aula autoral, exemplos inteiramente fictícios e 36 questões autorais. As habilidades de leitura de gráficos e interpretação quantitativa se relacionam à Educação Básica e à preparação para vestibulares; a avaliação operacional e documentação de modelos são aprofundamento e ponte universitária, não uma reprodução literal do programa de qualquer exame.\n\n",
+  "intuitive": [],
+  "deep": [],
+  "vocabulary": [],
+  "examples": [],
+  "visuals": [
+    {
+      "url": "media/MAT-EST-033/01-observados-previstos-erros.svg",
+      "caption": "Cenário fictício: valores e erros A/B",
+      "alt": "Tabela com observados 80,100,120,100; A 85,95,115,105 e erros −5,+5,+5,−5; B 80,100,120,120 e erros zero,zero,zero,−20.",
+      "observe": "Compare a última previsão da versão B e os quatro erros da A.",
+      "conclusion": "Ambos possuem MAE de cinco, mas a distribuição e o sinal dos erros diferem."
+    },
+    {
+      "url": "media/MAT-EST-033/02-metricas-na-mesma-base.svg",
+      "caption": "Métricas A/B calculadas na mesma base",
+      "alt": "Gráfico de barras com MAE A e B de cinco, RMSE A de cinco e RMSE B de dez atendimentos; eixos identificados.",
+      "observe": "Observe que as barras dos MAE empataram, mas o RMSE de B dobrou.",
+      "conclusion": "Uma métrica média não basta para resumir a distribuição dos erros."
+    },
+    {
+      "url": "media/MAT-EST-033/03-custos-assimetricos.svg",
+      "caption": "Perda de decisão: modelo A custa 40 e B custa 20",
+      "alt": "Dois quadros com A: dez faltas, dez excedentes, custo quarenta; B: nenhuma falta, vinte excedentes, custo vinte.",
+      "observe": "Compare métricas matemáticas e consequências da decisão, sem supor que toda perda é simétrica.",
+      "conclusion": "Sob custos declarados, B é menos oneroso apesar do RMSE maior; isso não é conclusão universal."
+    },
+    {
+      "url": "media/MAT-EST-033/04-intervalos-cobertura.svg",
+      "caption": "Intervalos preditivos e cobertura ilustrativa",
+      "alt": "Quatro faixas preditivas e quatro valores realizados. Os três primeiros pontos estão nas faixas e o quarto valor realizado 100 fica fora da faixa de 105 a 115.",
+      "observe": "Observe que o quarto ponto aparece antes do intervalo correspondente.",
+      "conclusion": "Cobertura observada de 75% em quatro exemplos não comprova cobertura populacional nem calibração."
+    },
+    {
+      "url": "media/MAT-EST-033/05-agregacao-subgrupos.svg",
+      "caption": "Média global encobre MAE de grupo pequeno",
+      "alt": "Barras X com noventa registros e MAE dois, Y com dez registros e MAE oito e global ponderado de 2,6 atendimentos.",
+      "observe": "Compare o valor global com o valor de Y, observando tamanhos amostrais.",
+      "conclusion": "Uma média global não substitui relatórios segmentados nem comunica sua incerteza."
+    },
+    {
+      "url": "media/MAT-EST-033/06-cenarios-sensibilidade.svg",
+      "caption": "Três cenários de custo mudam a comparação A/B",
+      "alt": "Cenário I com falta três e excedente um gera A 40 B 20; cenário II ambos um gera empate 20; cenário III falta um excedente três gera A 40 B 60.",
+      "observe": "Observe como alterar a função de perda muda a comparação.",
+      "conclusion": "Métrica de ajuste e custo decisório respondem a perguntas distintas; documentar premissas."
+    },
+    {
+      "url": "media/MAT-EST-033/07-protocolo-reprodutivel.svg",
+      "caption": "Fluxo de decisão auditável em seis passos",
+      "alt": "Etapas: definir alvo e custos; validar sem vazamento; examinar métricas e incerteza; segmentar; decidir com supervisão; registrar versão e limites.",
+      "observe": "Localize a preservação do teste e o registro do cenário escolhido.",
+      "conclusion": "A decisão precisa de evidência, função de perda explícita e documentação que permita revisão futura."
+    }
+  ],
+  "applications": [],
+  "connections": [],
+  "commonErrors": [],
+  "learning": [
+    "MAT-EST-033-EX-APR-01",
+    "MAT-EST-033-EX-APR-02",
+    "MAT-EST-033-EX-APR-03",
+    "MAT-EST-033-EX-APR-04",
+    "MAT-EST-033-EX-APR-05",
+    "MAT-EST-033-EX-APR-06",
+    "MAT-EST-033-EX-APR-07",
+    "MAT-EST-033-EX-APR-08",
+    "MAT-EST-033-EX-APR-09",
+    "MAT-EST-033-EX-APR-10"
+  ],
+  "consolidation": [
+    "MAT-EST-033-EX-CON-01",
+    "MAT-EST-033-EX-CON-02",
+    "MAT-EST-033-EX-CON-03",
+    "MAT-EST-033-EX-CON-04",
+    "MAT-EST-033-EX-CON-05",
+    "MAT-EST-033-EX-CON-06",
+    "MAT-EST-033-EX-CON-07",
+    "MAT-EST-033-EX-CON-08",
+    "MAT-EST-033-EX-CON-09",
+    "MAT-EST-033-EX-CON-10"
+  ],
+  "entrance": [
+    "MAT-EST-033-EX-VES-01",
+    "MAT-EST-033-EX-VES-02",
+    "MAT-EST-033-EX-VES-03",
+    "MAT-EST-033-EX-VES-04",
+    "MAT-EST-033-EX-VES-05",
+    "MAT-EST-033-EX-VES-06",
+    "MAT-EST-033-EX-VES-07",
+    "MAT-EST-033-EX-VES-08",
+    "MAT-EST-033-EX-VES-09",
+    "MAT-EST-033-EX-VES-10"
+  ],
+  "retest": [
+    "MAT-EST-033-EX-RET-01",
+    "MAT-EST-033-EX-RET-02",
+    "MAT-EST-033-EX-RET-03",
+    "MAT-EST-033-EX-RET-04",
+    "MAT-EST-033-EX-RET-05",
+    "MAT-EST-033-EX-RET-06"
+  ],
+  "solutions": [],
+  "summary": "## 13. Resumo para leitura em voz alta\n\nUma previsão não é uma observação e também não é uma decisão. A versão A distribui pequenos erros; B concentra um erro extremo. Por isso, embora ambas tenham erro absoluto médio de cinco, o erro quadrático médio e sua raiz mostram comportamentos diferentes. O custo de uma decisão depende de quanto custa faltar e de quanto custa sobrar; mudar esses preços hipotéticos pode inverter a comparação. É obrigatório informar unidade, grupo, período, referência e limites da incerteza. Intervalos precisam de verificação de cobertura; resultados de teste retido não devem ser usados repetidamente para escolher modelo. Documentar versões e dados é parte do rigor, não um detalhe decorativo.\n\n",
+  "audioVersion": "## 13. Resumo para leitura em voz alta\n\nUma previsão não é uma observação e também não é uma decisão. A versão A distribui pequenos erros; B concentra um erro extremo. Por isso, embora ambas tenham erro absoluto médio de cinco, o erro quadrático médio e sua raiz mostram comportamentos diferentes. O custo de uma decisão depende de quanto custa faltar e de quanto custa sobrar; mudar esses preços hipotéticos pode inverter a comparação. É obrigatório informar unidade, grupo, período, referência e limites da incerteza. Intervalos precisam de verificação de cobertura; resultados de teste retido não devem ser usados repetidamente para escolher modelo. Documentar versões e dados é parte do rigor, não um detalhe decorativo.\n\n",
+  "sections": [
+    {
+      "id": "MAT-EST-033-s000",
+      "title": "Apresentação e contexto da fonte",
+      "paragraphs": [],
+      "markdown": "---\nid: MAT-EST-033\nslug: oficina-comunicacao-decisao-modelos-preditivos-cenarios-erros-incerteza-documentacao-reprodutivel\ntitulo: \"Oficina de comunicação e decisão com modelos preditivos: cenários, erros, incerteza e documentação reprodutível\"\nmateria: Matemática\nunidade: Estatística\nnivel: [3, 4, 5, 6]\nordem: 33\ntipoConteudo: aula_teorica_pratica\nanterior: MAT-EST-032\npreRequisitos: [MAT-EST-020, MAT-EST-027, MAT-EST-030, MAT-EST-031, MAT-EST-032]\nstatusProducao: produzido_localmente_nao_publicado\nstatusAprendizagemInicial: nao_iniciado\narquivoExercicios: exercicios.json\nproximoTopico: MAT-EST-034\n---\n\n# MAT-EST-033 — Oficina de comunicação e decisão com modelos preditivos: cenários, erros, incerteza e documentação reprodutível\n\n**Tempo sugerido:** três blocos de 25 a 50 minutos. **Origem:** aula autoral, exemplos inteiramente fictícios e 36 questões autorais. As habilidades de leitura de gráficos e interpretação quantitativa se relacionam à Educação Básica e à preparação para vestibulares; a avaliação operacional e documentação de modelos são aprofundamento e ponte universitária, não uma reprodução literal do programa de qualquer exame.\n\n",
+      "sourceStart": 0,
+      "sourceEnd": 1160
+    },
+    {
+      "id": "MAT-EST-033-s001",
+      "title": "1. Objetivo e pré-requisitos",
+      "paragraphs": [],
+      "markdown": "## 1. Objetivo e pré-requisitos\n\nObjetivo: distinguir qualidade estatística de consequência de decisão, calcular e comunicar erros, construir cenários com funções de perda, interpretar incerteza e registrar uma avaliação reproduzível. Revisar MAT-EST-027 (resíduos), MAT-EST-030 (interpretação de modelos), MAT-EST-031 (treino, validação e teste) e MAT-EST-032 (métricas, incerteza, monitoramento). Se os cálculos do MAE e RMSE não estiverem firmes, retomar esses fundamentos antes de prosseguir.\n\n",
+      "sourceStart": 1160,
+      "sourceEnd": 1658
+    },
+    {
+      "id": "MAT-EST-033-s002",
+      "title": "2. Por que existe esta oficina?",
+      "paragraphs": [],
+      "markdown": "## 2. Por que existe esta oficina?\n\nUma previsão é uma descrição quantitativa de um resultado ainda desconhecido. Uma decisão é uma escolha realizada sob restrições e consequências. Não existe regra matemática universal que transforme automaticamente a menor métrica de erro na melhor ação em todo cenário. Uma mesma diferença entre observado e previsto pode gerar consequências diferentes quando se trata de capacidade insuficiente, excesso de recursos, manutenção ou orçamento. Precisamos declarar a pergunta, a função de perda, a unidade e o período da avaliação.\n\nO estudo será feito com dados **didáticos fictícios**, nunca apresentados como pesquisa efetivamente realizada. Imagine a previsão do número de atendimentos por dia de uma equipe. A decisão ilustrativa será reservar uma capacidade igual à previsão. Isso não representa orientação real de dimensionamento, e não substitui avaliação operacional e supervisão humana.\n\n",
+      "sourceStart": 1658,
+      "sourceEnd": 2591
+    },
+    {
+      "id": "MAT-EST-033-s003",
+      "title": "3. Exemplo central — quatro dias, duas previsões",
+      "paragraphs": [],
+      "markdown": "## 3. Exemplo central — quatro dias, duas previsões\n\n| Dia | Observado | Previsto A | Erro A | Previsto B | Erro B |\n|---|---:|---:|---:|---:|---:|\n| 1 | 80 | 85 | −5 | 80 | 0 |\n| 2 | 100 | 95 | +5 | 100 | 0 |\n| 3 | 120 | 115 | +5 | 120 | 0 |\n| 4 | 100 | 105 | −5 | 120 | −20 |\n\nAs duas métricas principais deste exemplo são `MAE = (Σ |eᵢ|)/n`, leitura: soma dos módulos dos erros dividida pela quantidade de previsões; e `RMSE = √[(Σ eᵢ²)/n]`, leitura: raiz quadrada da média dos erros elevados ao quadrado. O índice i identifica cada observação e n é a quantidade total de observações. Ambas têm a unidade da resposta.\n\nDefinição: `e = observado − previsto`. Leitura: erro é o valor observado menos o valor previsto. Erro positivo significa subestimar a demanda; erro negativo significa superestimá-la. A soma dos módulos de cada versão é vinte. Logo, **ambas têm MAE igual a cinco atendimentos**. Mas A distribui quatro erros de cinco, enquanto B concentra um erro de vinte. O erro quadrático médio de A é vinte e cinco; de B é cem. Portanto, o **RMSE de A é cinco e o de B é dez atendimentos**. Não compare unidades monetárias de custo com unidades de erro sem contextualizar a função de decisão.\n\n![Quadro do exemplo de demanda e previsões](assets/01-observados-previstos-erros.svg)\n\n**Figura 1 — Cenário fictício:** veja os quatro valores observados e as duas previsões. A versão B acerta três dias, mas no último supera o realizado em vinte atendimentos. A legenda e o quadro contêm todos os números necessários para estudo por áudio.\n\n![Comparação das métricas dos dois modelos](assets/02-metricas-na-mesma-base.svg)\n\n**Figura 2 — MAE e RMSE:** as duas versões têm MAE de cinco; o RMSE de B é dez, contra cinco de A. O eixo horizontal identifica versão e métrica, e o vertical informa erros em atendimentos. O contraste é explicado pelos números, não apenas pela cor.\n\n",
+      "sourceStart": 2591,
+      "sourceEnd": 4468
+    },
+    {
+      "id": "MAT-EST-033-s004",
+      "title": "4. Da métrica à decisão: função de perda",
+      "paragraphs": [],
+      "markdown": "## 4. Da métrica à decisão: função de perda\n\nSuponha que reservar uma unidade a menos do que a demanda efetiva tenha custo fictício de três unidades monetárias, ao passo que reservar uma unidade excedente tenha custo de uma. Denote `F = max(observado − previsto, 0)`, o total de faltas em cada caso; `S = max(previsto − observado, 0)`, o excedente. A função de custo é:\n\n`C = 3 × soma(F) + 1 × soma(S)`.\n\nLeitura: custo igual a três vezes a quantidade acumulada de faltas, mais uma vez a quantidade acumulada de excedentes. Estes são coeficientes didáticos, não preços reais. Na versão A há dez unidades de falta e dez de excedente: `3 × 10 + 1 × 10 = 40`. Na B há zero faltas e vinte excedentes: `3 × 0 + 1 × 20 = 20`. Neste cenário específico, B tem custo menor, apesar do RMSE maior. Isso não é indicação universal de escolha, e seu erro máximo continua sendo importante.\n\n![Custo assimétrico das versões A e B](assets/03-custos-assimetricos.svg)\n\n**Figura 3 — Custo condicional:** A gera custo 40 e B custo 20 sob os coeficientes declarados. Observe separadamente faltas e excedentes; os valores só têm sentido no cenário proposto.\n\n### Análise de sensibilidade: e se os custos mudarem?\n\nNo cenário I, falta custa três e excedente um: A custa quarenta, B vinte. No cenário II, ambos custam um: as versões empatam em vinte. No cenário III, falta custa um e excedente três: A custa quarenta e B sessenta. Os dados e os MAE não mudaram; apenas as consequências atribuídas a cada tipo de erro foram alteradas.\n\n![Cenários alternativos de custo](assets/06-cenarios-sensibilidade.svg)\n\n**Figura 6 — Sensibilidade:** os três quadros apresentam parâmetros e custos explícitos. A síntese auditiva é: resultados de avaliação dependem do objetivo definido, e nenhuma métrica isolada determina a decisão.\n\n",
+      "sourceStart": 4468,
+      "sourceEnd": 6266
+    },
+    {
+      "id": "MAT-EST-033-s005",
+      "title": "5. Linha de base e avaliação honesta",
+      "paragraphs": [],
+      "markdown": "## 5. Linha de base e avaliação honesta\n\nUma linha de base (baseline) é uma alternativa simples, conhecida, usada como referência. Se uma regra previsse cem atendimentos todos os dias, seus erros absolutos seriam vinte, zero, vinte e zero: `MAE = 40/4 = 10`. Os erros quadráticos seriam quatrocentos, zero, quatrocentos e zero: `RMSE = raiz de (800/4)`, ou aproximadamente **14,14 atendimentos**. Comparar A, B e a linha de base requer avaliar todos nos mesmos dias, com a mesma variável e o mesmo horizonte. Um teste usado para selecionar o modelo deixa de ser um teste final independente. Separe treinamento, validação e teste e evite normalizações que aprendam com dados futuros.\n\n",
+      "sourceStart": 6266,
+      "sourceEnd": 6950
+    },
+    {
+      "id": "MAT-EST-033-s006",
+      "title": "6. Incerteza: previsão pontual não é promessa",
+      "paragraphs": [],
+      "markdown": "## 6. Incerteza: previsão pontual não é promessa\n\nA previsão pontual é um número, mas qualquer nova observação está sujeita a variabilidade. Um intervalo preditivo agrega incerteza de estimação e variação individual sob as hipóteses adotadas. É diferente do intervalo para a resposta média, que não incorpora da mesma forma a variação de cada novo caso. Dizer que uma faixa tem **cobertura nominal** de noventa por cento não demonstra, sozinho, que ela atingirá essa frequência em uma população diferente.\n\nEm um exemplo puramente ilustrativo, as faixas 75 a 95, 90 a 110, 110 a 130 e 105 a 115 são confrontadas com realizados 80, 100, 120 e 100. As três primeiras incluem o valor realizado; a última não. A cobertura observada é três de quatro, **75%**, uma descrição de apenas quatro situações, insuficiente para afirmar calibração populacional.\n\n![Exemplo de faixa preditiva e cobertura](assets/04-intervalos-cobertura.svg)\n\n**Figura 4 — Quatro intervalos:** o ponto realizado aparece em três das quatro faixas. Eixo horizontal em atendimentos, com marcação de setenta a cento e trinta. O exemplo é conceitual e não pretende produzir intervalos estatísticos calculados a partir dos quatro dias anteriores.\n\n",
+      "sourceStart": 6950,
+      "sourceEnd": 8160
+    },
+    {
+      "id": "MAT-EST-033-s007",
+      "title": "7. Monitoramento por tempo e grupo",
+      "paragraphs": [],
+      "markdown": "## 7. Monitoramento por tempo e grupo\n\nO desempenho de um modelo deve ser verificado quando os resultados verdadeiros estiverem disponíveis. Mudança apenas nas entradas é um sinal de investigação, **não uma medida direta de MAE**, porque essa métrica requer observado e previsto emparelhados. Por exemplo, se uma faixa com cobertura nominal de noventa por cento cobriu 18/20 situações numa janela e 14/20 na seguinte, as frequências observadas foram noventa e setenta por cento: uma queda de **vinte pontos percentuais**, sem que esses dados isolados identifiquem sua causa.\n\nA agregação por grupo também pode esconder diferenças. Suponha noventa registros do grupo X com MAE dois e dez do grupo Y com MAE oito. A média global ponderada é `(90×2 + 10×8)/100 = 2,6`. Informar apenas 2,6 oculta a experiência de Y, além da maior incerteza que costuma acompanhar amostras pequenas.\n\n![Comparação de métricas em grupos de tamanhos diferentes](assets/05-agregacao-subgrupos.svg)\n\n**Figura 5 — Grupos:** barras identificam X com MAE dois, Y com MAE oito e valor global de 2,6 atendimentos. O eixo vertical usa a mesma unidade do alvo; tamanhos de grupo aparecem escritos.\n\n",
+      "sourceStart": 8160,
+      "sourceEnd": 9327
+    },
+    {
+      "id": "MAT-EST-033-s008",
+      "title": "8. Como redigir conclusões quantitativas",
+      "paragraphs": [],
+      "markdown": "## 8. Como redigir conclusões quantitativas\n\nUma conclusão reproduzível precisa dizer *o que foi medido*, *onde*, *quando*, *sobre quem*, *com qual referência*, *qual incerteza*, *quais hipóteses* e *quais limitações*. Evite frases como “o modelo prevê corretamente sempre” ou “um R² alto prova causalidade”. Uma formulação defensável para este caso é: “Em quatro dias fictícios, A e B obtiveram MAE de cinco atendimentos. A teve RMSE cinco e B dez. Para a perda simulada em que falta custa três por unidade e excedente custa um, os custos respectivos foram quarenta e vinte. A comparação depende dessa função de perda e não substitui avaliação de dados adicionais, erros extremos, grupos e períodos”.\n\nTambém evite confundir significância estatística com tamanho de efeito, associação com causalidade e desempenho de teste com garantia futura. Não deduza segurança, justiça ou qualidade operacional apenas de uma métrica.\n\n",
+      "sourceStart": 9327,
+      "sourceEnd": 10251
+    },
+    {
+      "id": "MAT-EST-033-s009",
+      "title": "9. Cartão de documentação reprodutível",
+      "paragraphs": [],
+      "markdown": "## 9. Cartão de documentação reprodutível\n\nRegistre: pergunta e decisão pretendida; unidade, alvo e horizonte; população e fonte dos dados; período, tamanho e condições de coleta; código e versão do modelo; variáveis e transformações; separação treino/validação/teste ou divisão temporal; critérios de seleção estabelecidos antes do teste; baseline e métricas; incerteza e cobertura; resultados por período e grupo; função de perda e cenários; responsáveis, data e limitações. Quando houver dados pessoais, não os reproduza no relatório: documente tratamento e acesso de modo compatível com a privacidade.\n\n![Fluxo de decisão e documentação](assets/07-protocolo-reprodutivel.svg)\n\n**Figura 7 — Protocolo em seis etapas:** definir, validar, examinar, segmentar, decidir com supervisão e registrar. A avaliação final preservada não deve ser utilizada repetidamente para escolher o modelo.\n\n",
+      "sourceStart": 10251,
+      "sourceEnd": 11139
+    },
+    {
+      "id": "MAT-EST-033-s010",
+      "title": "10. Erros frequentes e remediação",
+      "paragraphs": [],
+      "markdown": "## 10. Erros frequentes e remediação\n\n| Erro frequente | Por que está errado | Retomada |\n|---|---|---|\n| Escolher usando apenas MAE | Oculta distribuição e consequência do erro | Revisar MAT-EST-032 e o exemplo A/B |\n| Interpretar erro positivo como excedente | Nesta aula, `e = observado − previsto`; positivo indica falta se a previsão define capacidade | Refazer Figura 1 |\n| Dizer que intervalo preditivo garante valor | A faixa depende de método, nível nominal e hipóteses | Rever MAT-EST-020 e MAT-EST-032 |\n| Misturar meses e dias sem ajustar a unidade | Torna métricas incomparáveis | Revisar definição de alvo e horizonte |\n| Declarar melhora de MAE só pela mudança de entradas | MAE exige resposta efetiva | Revisar seção 7 |\n| Escolher um modelo após consultar repetidamente o teste final | Contamina avaliação independente | Retomar MAT-EST-031 |\n| Relatar somente a média global | Pode esconder diferenças por grupo e período | Refazer Figura 5 |\n| Atribuir causalidade a bom ajuste | Qualidade de previsão não comprova mecanismo causal | Retomar MAT-EST-026 e 030 |\n\n",
+      "sourceStart": 11139,
+      "sourceEnd": 12221
+    },
+    {
+      "id": "MAT-EST-033-s011",
+      "title": "11. Exercícios graduais",
+      "paragraphs": [],
+      "markdown": "## 11. Exercícios graduais\n\nA resolução deve ocorrer preferencialmente no site, em blocos de 25 a 50 minutos. O arquivo `exercicios.json` contém 36 questões autorais distintas: dez de aprendizagem (`APR`), dez de consolidação (`CON`), dez de transferência (`VES`) e seis de reteste independente (`RET`). A seguir estão seus enunciados, e as correções comentadas ficam em seção separada, para evitar antecipar o resultado ao estudante.\n\n### Aprendizagem básica\n\n**MAT-EST-033-EX-APR-01 — Finalidade da previsão.** Uma equipe prevê 100 atendimentos amanhã. Isso é um dado observado, uma previsão ou uma decisão? Explique.\n\n**MAT-EST-033-EX-APR-02 — Erro com sinal.** Observado 120 e previsto 115 atendimentos. Definindo e = observado − previsto, calcule o erro e interprete.\n\n**MAT-EST-033-EX-APR-03 — Mesmo MAE.** Dados observados: 80, 100, 120, 100. Previsões A: 85, 95, 115, 105. Calcule os quatro erros absolutos e o MAE.\n\n**MAT-EST-033-EX-APR-04 — Erro concentrado.** No mesmo conjunto observado, previsões B: 80, 100, 120, 120. Calcule o MAE e o maior erro absoluto.\n\n**MAT-EST-033-EX-APR-05 — RMSE comparado.** A tem quatro erros de módulo cinco; B tem módulos 0, 0, 0, 20. Calcule RMSE para ambas.\n\n**MAT-EST-033-EX-APR-06 — Erro assimétrico.** Em previsão de capacidade, qual erro produz falta de vagas: previsto maior ou menor que observado? Use e = observado − previsto.\n\n**MAT-EST-033-EX-APR-07 — Unidade e horizonte.** Um relatório diz “MAE = 5” sem unidade nem período. Que duas informações mínimas devem ser acrescentadas?\n\n**MAT-EST-033-EX-APR-08 — Intervalo preditivo.** Uma previsão pontual é 100 com intervalo preditivo de 90 a 110 atendimentos. É correto dizer que sempre haverá exatamente 100?\n\n**MAT-EST-033-EX-APR-09 — Base de comparação.** Um modelo tem MAE de 5 e a previsão simples de 100 em todos os dias tem MAE de 10. Por que citar a referência?\n\n**MAT-EST-033-EX-APR-10 — Registro reprodutível.** Cite quatro campos necessários para outra pessoa reproduzir uma avaliação de previsões.\n\n### Consolidação\n\n**MAT-EST-033-EX-CON-01 — Custo A.** Considere A com erros assinados −5,+5,+5,−5. Cada unidade de demanda descoberta custa 3 unidades monetárias; cada excedente custa 1. Calcule o custo total.\n\n**MAT-EST-033-EX-CON-02 — Custo B.** Para B, os erros assinados são 0,0,0,−20. Sob os mesmos custos (falta = 3; excedente = 1), determine o total.\n\n**MAT-EST-033-EX-CON-03 — Comparação de decisões.** A e B possuem MAE igual a cinco; RMSE de A é cinco e de B dez. Sob as perdas assimétricas do exemplo, qual possui menor custo? Isso torna B universalmente melhor?\n\n**MAT-EST-033-EX-CON-04 — Baseline fixa.** Os observados são 80,100,120,100. Uma referência prevê 100 em todos os dias. Calcule seu MAE e RMSE.\n\n**MAT-EST-033-EX-CON-05 — Custo condicionado.** Se o custo da falta cair de 3 para 1, mantendo custo do excedente igual a 1, qual o custo de A e B?\n\n**MAT-EST-033-EX-CON-06 — Cobertura descritiva.** Quatro intervalos para dias futuros contêm o valor observado em três ocasiões. Qual a cobertura observada? Isso comprova calibração de 75%?\n\n**MAT-EST-033-EX-CON-07 — Mudança de cobertura.** A cobertura de uma faixa nominalmente 90% foi 18/20 na janela anterior e 14/20 na recente. Calcule as duas frequências observadas e a variação em pontos percentuais.\n\n**MAT-EST-033-EX-CON-08 — Média global por grupo.** Noventa registros do grupo X têm MAE 2; dez do grupo Y têm MAE 8. Determine o MAE global ponderado.\n\n**MAT-EST-033-EX-CON-09 — Governança do teste.** Uma equipe consultou o conjunto de teste cinco vezes e, com base nele, escolheu o modelo vencedor. Por que o número final pode ser otimista?\n\n**MAT-EST-033-EX-CON-10 — Conclusão delimitada.** Reescreva: “Nosso modelo reduz erros em todas as situações, pois obteve MAE 5”.\n\n### Transferência contextualizada e estilo vestibular (questões autorais)\n\n**MAT-EST-033-EX-VES-01 — Planejamento de escala (autoral, estilo contextualizado).** Uma equipe aloca capacidade conforme previsão. Modelo A tem erros −5,+5,+5,−5 e B tem 0,0,0,−20. Cada falta custa três vezes um excedente. Determine MAE, RMSE e custo por modelo; redija conclusão condicional.\n\n**MAT-EST-033-EX-VES-02 — Previsão econômica com horizontes distintos (autoral).** Um relatório compara MAE de 3 reais por produto em previsões diárias com MAE de 4 mil reais em previsões mensais de receita. Por que não é uma comparação direta?\n\n**MAT-EST-033-EX-VES-03 — Monitoramento sem rótulo (autoral).** O perfil das entradas de um modelo mudou, mas as respostas verdadeiras só serão conhecidas após 30 dias. Pode-se afirmar agora que o MAE dobrou?\n\n**MAT-EST-033-EX-VES-04 — Janela temporal justa (autoral).** Dois sistemas são comparados, um avaliado em dias úteis e outro exclusivamente em feriados. A métrica do primeiro é menor. Qual problema de desenho e correção?\n\n**MAT-EST-033-EX-VES-05 — Risco de erro extremo (autoral).** Um modelo tem MAE baixo e um único erro de 60 unidades num evento raro, mas relevante. O que deve constar do relatório além do MAE?\n\n**MAT-EST-033-EX-VES-06 — Intervalo e compromisso (autoral).** Modelo informa 100 atendimentos com faixa preditiva [85,115], de nível nominal 90%. Escreva uma frase que preserve a distinção entre previsão, faixa e garantia.\n\n**MAT-EST-033-EX-VES-07 — Decisão por grupos (autoral).** Grupo X tem 90 casos e MAE 2; Y tem dez casos e MAE 8. O MAE agregado é 2,6. É suficiente relatar apenas 2,6?\n\n**MAT-EST-033-EX-VES-08 — Vazamento por janela futura (autoral).** A média do mês completo é calculada para normalizar previsões feitas no primeiro dia do mesmo mês. Qual falha e como corrigi-la?\n\n**MAT-EST-033-EX-VES-09 — Auditoria de relatório (autoral).** Um relatório contém só a frase “R² = 0,92, portanto o método causa crescimento”. Aponte pelo menos quatro lacunas.\n\n**MAT-EST-033-EX-VES-10 — Memorando reprodutível (autoral, estilo discursivo).** Redija um minirrelatório para o exemplo A/B que inclua dados, custo, conclusão e próximos controles de qualidade.\n\n### Reteste independente após recuperação\n\n**MAT-EST-033-EX-RET-01 — R1 — Estoque (independente).** Em três dias, a venda observada foi 20,30,40 e a previsão 18,35,37. Usando erro observado menos previsto, calcule erros, MAE e RMSE.\n\n**MAT-EST-033-EX-RET-02 — R2 — Custo de estoque (independente).** No reteste anterior, a falta custa quatro unidades monetárias por item e sobra custa duas. Quanto custaram os três dias?\n\n**MAT-EST-033-EX-RET-03 — R3 — Cobertura nova (independente).** Em 50 intervalos preditivos novos, 44 incluíram o realizado. Determine a cobertura observada e uma limitação da conclusão.\n\n**MAT-EST-033-EX-RET-04 — R4 — Segmentos novos (independente).** Grupo A: 40 casos com MAE 3. Grupo B: dez casos com MAE 7. Calcule MAE agregado e descreva um cuidado.\n\n**MAT-EST-033-EX-RET-05 — R5 — Comparação indevida (independente).** Um modelo foi escolhido após analisar repetidamente resultados do teste final. O que deveria ter sido preservado e que tipo de problema surgiu?\n\n**MAT-EST-033-EX-RET-06 — R6 — Conclusão responsável (independente).** Uma equipe reporta: “O erro foi 4, logo o sistema é seguro”. Reescreva com quatro informações que faltam.\n\n",
+      "sourceStart": 12221,
+      "sourceEnd": 19367
+    },
+    {
+      "id": "MAT-EST-033-s012",
+      "title": "12. Correção comentada — consultar após tentativa real",
+      "paragraphs": [],
+      "markdown": "## 12. Correção comentada — consultar após tentativa real\n\nCada item apresenta resultado, raciocínio e um possível diagnóstico de erro. O diagnóstico é uma hipótese pedagógica genérica, **não** uma classificação de uma resposta pessoal ainda inexistente. Não registrar notas, tentativas, revisões executadas ou consolidação a partir da produção deste arquivo.\n\n### Correções — Aprendizagem\n\n**MAT-EST-033-EX-APR-01 — Finalidade da previsão.** Resposta: Previsão, não observação nem decisão.\n\n1. 100 é uma estimativa para um resultado futuro ainda desconhecido.\n2. A decisão (por exemplo, reservar capacidade) depende de objetivos, recursos e perdas possíveis, além da previsão.\n\n*Se houver erro, verificar especialmente: interpretação — Distinguir dado observado, previsão, hipótese, incerteza e decisão; reler a unidade.*\n\n**MAT-EST-033-EX-APR-02 — Erro com sinal.** Resposta: e = +5; houve subestimação de cinco.\n\n1. 120 − 115 = +5.\n2. Como o previsto ficou abaixo do observado, a demanda foi subestimada.\n\n*Se houver erro, verificar especialmente: cálculo — Refazer os cálculos com a fórmula escrita, conferir sinais, divisão e unidade.*\n\n**MAT-EST-033-EX-APR-03 — Mesmo MAE.** Resposta: Erros absolutos: 5, 5, 5, 5; MAE = 5 atendimentos.\n\n1. Módulos de 80−85, 100−95, 120−115 e 100−105 são quatro valores iguais a cinco.\n2. MAE = (5+5+5+5)/4 = 5 atendimentos.\n\n*Se houver erro, verificar especialmente: cálculo — Refazer os cálculos com a fórmula escrita, conferir sinais, divisão e unidade.*\n\n**MAT-EST-033-EX-APR-04 — Erro concentrado.** Resposta: MAE = 5 atendimentos; maior erro = 20 atendimentos.\n\n1. Módulos são 0, 0, 0, 20, cuja soma é 20.\n2. MAE = 20/4 = 5, embora o último erro isolado alcance vinte.\n\n*Se houver erro, verificar especialmente: cálculo — Refazer os cálculos com a fórmula escrita, conferir sinais, divisão e unidade.*\n\n**MAT-EST-033-EX-APR-05 — RMSE comparado.** Resposta: RMSE de A = 5; RMSE de B = 10 atendimentos.\n\n1. A: quadrados somam 4 × 25 = 100; MSE = 25; raiz = 5.\n2. B: quadrados somam 400; MSE = 100; raiz = 10.\n\n*Se houver erro, verificar especialmente: cálculo — Refazer os cálculos com a fórmula escrita, conferir sinais, divisão e unidade.*\n\n**MAT-EST-033-EX-APR-06 — Erro assimétrico.** Resposta: Previsto menor que observado, isto é, e positivo.\n\n1. Se o realizado supera o planejado, há demanda que não foi coberta.\n2. O sinal indica direção; o custo depende das condições do problema.\n\n*Se houver erro, verificar especialmente: interpretação — Distinguir dado observado, previsão, hipótese, incerteza e decisão; reler a unidade.*\n\n**MAT-EST-033-EX-APR-07 — Unidade e horizonte.** Resposta: Unidade do alvo (por exemplo, atendimentos por dia) e período/população de avaliação.\n\n1. A métrica herda a unidade da variável prevista.\n2. Uma estimativa depende do conjunto e da janela temporal em que foi medida.\n\n*Se houver erro, verificar especialmente: interpretação — Distinguir dado observado, previsão, hipótese, incerteza e decisão; reler a unidade.*\n\n**MAT-EST-033-EX-APR-08 — Intervalo preditivo.** Resposta: Não. Cem é o ponto previsto; intervalo comunica incerteza sob método e hipóteses declarados.\n\n1. Ponto previsto e faixa não são observações futuras garantidas.\n2. A interpretação de cobertura exige método, nível nominal e validação em novos dados.\n\n*Se houver erro, verificar especialmente: interpretação — Distinguir dado observado, previsão, hipótese, incerteza e decisão; reler a unidade.*\n\n**MAT-EST-033-EX-APR-09 — Base de comparação.** Resposta: Porque o ganho é interpretável frente a uma alternativa comparável.\n\n1. Uma métrica isolada não informa se o sistema supera uma regra trivial.\n2. Ambas as medições precisam usar o mesmo conjunto e unidades.\n\n*Se houver erro, verificar especialmente: interpretação — Distinguir dado observado, previsão, hipótese, incerteza e decisão; reler a unidade.*\n\n**MAT-EST-033-EX-APR-10 — Registro reprodutível.** Resposta: Por exemplo: versão do modelo, período e origem dos dados, definição do alvo e divisão treino/validação/teste.\n\n1. Sem identificar a versão e os dados, resultados diferentes não podem ser confrontados.\n2. Registrar também código/transformações, métricas, grupos, limites e data de execução.\n\n*Se houver erro, verificar especialmente: memória — Reconstruir a definição e a justificativa antes de consultar a expressão pronta.*\n\n### Correções — Consolidação\n\n**MAT-EST-033-EX-CON-01 — Custo A.** Resposta: 40 unidades monetárias.\n\n1. As faltas somam 5+5=10; custo = 10×3=30.\n2. Os excedentes somam 5+5=10; custo = 10×1=10. Total = 40.\n\n*Se houver erro, verificar especialmente: cálculo — Refazer os cálculos com a fórmula escrita, conferir sinais, divisão e unidade.*\n\n**MAT-EST-033-EX-CON-02 — Custo B.** Resposta: 20 unidades monetárias.\n\n1. Não existe falta, logo seu custo é zero.\n2. Há vinte unidades excedentes, com custo de vinte.\n\n*Se houver erro, verificar especialmente: cálculo — Refazer os cálculos com a fórmula escrita, conferir sinais, divisão e unidade.*\n\n**MAT-EST-033-EX-CON-03 — Comparação de decisões.** Resposta: B tem custo 20 contra 40 de A; não é universalmente melhor.\n\n1. Os números de perda escolhem B nesta situação específica.\n2. Outra função de perda, outra população ou restrição operacional pode mudar a comparação; reportar também erro extremo.\n\n*Se houver erro, verificar especialmente: interpretação — Distinguir dado observado, previsão, hipótese, incerteza e decisão; reler a unidade.*\n\n**MAT-EST-033-EX-CON-04 — Baseline fixa.** Resposta: MAE = 10; RMSE = √200 ≈ 14,14 atendimentos.\n\n1. Módulos: 20,0,20,0, soma quarenta; MAE = 10.\n2. Quadrados: 400,0,400,0; MSE = 800/4 = 200; RMSE ≈ 14,14.\n\n*Se houver erro, verificar especialmente: cálculo — Refazer os cálculos com a fórmula escrita, conferir sinais, divisão e unidade.*\n\n**MAT-EST-033-EX-CON-05 — Custo condicionado.** Resposta: Ambos terão custo total 20.\n\n1. A: dez unidades de falta + dez de excedente = 20.\n2. B: vinte unidades de excedente = 20. A mudança da função de perda altera a comparação.\n\n*Se houver erro, verificar especialmente: cálculo — Refazer os cálculos com a fórmula escrita, conferir sinais, divisão e unidade.*\n\n**MAT-EST-033-EX-CON-06 — Cobertura descritiva.** Resposta: 3/4 = 75%; não comprova calibração em geral.\n\n1. Cobertura amostral = intervalos que cobriram / total = 3/4.\n2. Amostra pequena e método de seleção exigem cautela; não inferir garantia de cobertura futura.\n\n*Se houver erro, verificar especialmente: cálculo — Refazer os cálculos com a fórmula escrita, conferir sinais, divisão e unidade.*\n\n**MAT-EST-033-EX-CON-07 — Mudança de cobertura.** Resposta: 90%, 70%, queda de 20 pontos percentuais.\n\n1. 18 dividido por vinte é 0,90; 14 dividido por vinte é 0,70.\n2. 0,70 − 0,90 = −0,20, isto é, menos vinte pontos percentuais. Não concluir causa da queda sem investigação.\n\n*Se houver erro, verificar especialmente: cálculo — Refazer os cálculos com a fórmula escrita, conferir sinais, divisão e unidade.*\n\n**MAT-EST-033-EX-CON-08 — Média global por grupo.** Resposta: (90×2 + 10×8)/100 = 2,6 atendimentos.\n\n1. As somas absolutas por grupo são 180 e 80.\n2. A soma total 260 dividida por cem gera 2,6, mas esconde o valor oito do grupo Y.\n\n*Se houver erro, verificar especialmente: cálculo — Refazer os cálculos com a fórmula escrita, conferir sinais, divisão e unidade.*\n\n**MAT-EST-033-EX-CON-09 — Governança do teste.** Resposta: O teste final deixou de ser independente da escolha do modelo.\n\n1. As cinco consultas influenciam a seleção e introduzem adaptação ao teste.\n2. O protocolo deve usar validação para seleção e preservar teste final para avaliação única, ou redesenhar avaliação independente.\n\n*Se houver erro, verificar especialmente: estratégia — Definir a pergunta e a consequência de cada erro antes de escolher o procedimento.*\n\n**MAT-EST-033-EX-CON-10 — Conclusão delimitada.** Resposta: “No conjunto e período testados, o MAE foi 5 unidades; generalização, subgrupos e extremos exigem avaliação adicional.”\n\n1. O MAE é média no conjunto observado; não garante cada caso.\n2. Uma conclusão informa população, período, métrica, incerteza e limites.\n\n*Se houver erro, verificar especialmente: interpretação — Distinguir dado observado, previsão, hipótese, incerteza e decisão; reler a unidade.*\n\n### Correções — Transferência\n\n**MAT-EST-033-EX-VES-01 — Planejamento de escala (autoral, estilo contextualizado).** Resposta: A: MAE 5, RMSE 5, custo 40. B: MAE 5, RMSE 10, custo 20. Sob essa função de perda, B gera menor custo, mas maior erro extremo.\n\n1. Calcule média dos módulos: ambos vinte dividido por quatro, igual a cinco.\n2. Quadrados: A soma cem, B soma quatrocentos; RMSE cinco e dez.\n3. Custos: A dez faltas ×3 + dez sobras ×1 =40; B vinte sobras ×1 =20.\n4. A conclusão depende da função de perda e não identifica um modelo universalmente superior.\n\n*Se houver erro, verificar especialmente: estratégia — Definir a pergunta e a consequência de cada erro antes de escolher o procedimento.*\n\n**MAT-EST-033-EX-VES-02 — Previsão econômica com horizontes distintos (autoral).** Resposta: Alvos, escalas, unidades e horizontes distintos invalidam a comparação numérica direta.\n\n1. Os dois números têm dimensões distintas.\n2. Definir mesmo alvo, unidade, horizonte, período e baseline, ou usar critérios adequados ao objetivo.\n\n*Se houver erro, verificar especialmente: interpretação — Distinguir dado observado, previsão, hipótese, incerteza e decisão; reler a unidade.*\n\n**MAT-EST-033-EX-VES-03 — Monitoramento sem rótulo (autoral).** Resposta: Não. Detectou-se mudança nas entradas; MAE requer valores observados e previstos emparelhados.\n\n1. MAE usa |observado − previsto|; sem observado o erro ainda não está disponível.\n2. Registrar alerta de mudança de distribuição e reavaliar quando chegarem resultados reais.\n\n*Se houver erro, verificar especialmente: interpretação — Distinguir dado observado, previsão, hipótese, incerteza e decisão; reler a unidade.*\n\n**MAT-EST-033-EX-VES-04 — Janela temporal justa (autoral).** Resposta: Conjuntos não equivalentes; avaliar ambos sobre os mesmos períodos e unidades, idealmente com estratos temporais.\n\n1. Dias úteis e feriados podem ter dificuldade diferente.\n2. Comparação controlada usa o mesmo conjunto retido, métricas e análise por segmento.\n\n*Se houver erro, verificar especialmente: estratégia — Definir a pergunta e a consequência de cada erro antes de escolher o procedimento.*\n\n**MAT-EST-033-EX-VES-05 — Risco de erro extremo (autoral).** Resposta: Distribuição e máximo dos erros, frequência de extremos, contexto operacional e critérios de custo/segurança.\n\n1. A média pode ocultar a cauda dos erros.\n2. Uma decisão exige considerar quem é afetado e o impacto de falhas raras sem inferir probabilidade com um evento isolado.\n\n*Se houver erro, verificar especialmente: interpretação — Distinguir dado observado, previsão, hipótese, incerteza e decisão; reler a unidade.*\n\n**MAT-EST-033-EX-VES-06 — Intervalo e compromisso (autoral).** Resposta: “A estimativa pontual é 100; a faixa 85–115 busca a cobertura nominal de 90% sob o método e suas hipóteses, mas não garante o valor futuro.”\n\n1. A faixa não equivale à certeza de estar contida.\n2. A cobertura nominal deve ser conferida em observações novas e população compatível.\n\n*Se houver erro, verificar especialmente: interpretação — Distinguir dado observado, previsão, hipótese, incerteza e decisão; reler a unidade.*\n\n**MAT-EST-033-EX-VES-07 — Decisão por grupos (autoral).** Resposta: Não; relatar tamanhos e erros separados, investigando qualidade, distribuição e possíveis consequências no grupo Y.\n\n1. O agregado ponderado encobre heterogeneidade.\n2. Dez observações também geram maior incerteza na estimativa do subgrupo.\n\n*Se houver erro, verificar especialmente: interpretação — Distinguir dado observado, previsão, hipótese, incerteza e decisão; reler a unidade.*\n\n**MAT-EST-033-EX-VES-08 — Vazamento por janela futura (autoral).** Resposta: Uso de informação futura indisponível no instante da previsão; calcular transformação somente com dados disponíveis até a data de corte.\n\n1. A média do mês completo conhece dias futuros.\n2. Na validação temporal, todas as etapas de preprocessamento devem respeitar a disponibilidade histórica.\n\n*Se houver erro, verificar especialmente: estratégia — Definir a pergunta e a consequência de cada erro antes de escolher o procedimento.*\n\n**MAT-EST-033-EX-VES-09 — Auditoria de relatório (autoral).** Resposta: R² não demonstra causalidade; faltam conjunto retido, baseline, unidade/alvo, período, erro fora da amostra, incerteza e diagnóstico.\n\n1. R² mede ajuste relativo à variabilidade observada sob uma definição, não causalidade.\n2. Documentar estudo, grupos, hipótese e limitações antes de concluir.\n\n*Se houver erro, verificar especialmente: conteúdo — Rever a definição e sua condição de uso antes de selecionar uma métrica ou conclusão.*\n\n**MAT-EST-033-EX-VES-10 — Memorando reprodutível (autoral, estilo discursivo).** Resposta: Resposta-modelo: “Em quatro dias fictícios, ambos tiveram MAE de cinco atendimentos; A teve RMSE cinco e B dez. Com falta custando três por unidade e excedente um, custos foram 40 e 20. A condição favorece B no custo simulado, mas deve-se medir extremos, amostras novas e cobertura de intervalos antes do uso.”\n\n1. Explicite cenário fictício e origem dos números.\n2. Apresente métricas e função de perda, não apenas o resultado selecionado.\n3. Acrescente limitações, grupos, horizonte, dados adicionais e registro da versão.\n\n*Se houver erro, verificar especialmente: estratégia — Definir a pergunta e a consequência de cada erro antes de escolher o procedimento.*\n\n### Correções — Reteste\n\n**MAT-EST-033-EX-RET-01 — R1 — Estoque (independente).** Resposta: Erros 2,−5,3; MAE = 10/3 ≈ 3,33 unidades; RMSE = √(38/3) ≈ 3,56 unidades.\n\n1. Erros: 20−18=2; 30−35=−5; 40−37=3.\n2. MAE = (2+5+3)/3 = 10/3.\n3. Quadrados: 4+25+9=38; MSE=38/3; raiz aproximadamente 3,56.\n\n*Se houver erro, verificar especialmente: cálculo — Refazer os cálculos com a fórmula escrita, conferir sinais, divisão e unidade.*\n\n**MAT-EST-033-EX-RET-02 — R2 — Custo de estoque (independente).** Resposta: Custo = (2+3)×4 + 5×2 = 30 unidades monetárias.\n\n1. Erros positivos totalizam cinco unidades não atendidas, custo vinte.\n2. O erro negativo cinco é estoque excedente, custo dez. Total trinta.\n\n*Se houver erro, verificar especialmente: cálculo — Refazer os cálculos com a fórmula escrita, conferir sinais, divisão e unidade.*\n\n**MAT-EST-033-EX-RET-03 — R3 — Cobertura nova (independente).** Resposta: 44/50 = 88%; amostra não garante cobertura populacional nem validade em outro período.\n\n1. Cobertura empírica = 44 dividido por cinquenta = 0,88.\n2. A interpretação depende do método, seleção dos casos e estabilidade temporal.\n\n*Se houver erro, verificar especialmente: interpretação — Distinguir dado observado, previsão, hipótese, incerteza e decisão; reler a unidade.*\n\n**MAT-EST-033-EX-RET-04 — R4 — Segmentos novos (independente).** Resposta: MAE global = (40×3 + 10×7)/50 = 3,8 unidades; reportar também MAE 7 em B.\n\n1. Somatório ponderado = 120+70=190.\n2. 190 dividido por cinquenta = 3,8; informar tamanho e incerteza por grupo.\n\n*Se houver erro, verificar especialmente: cálculo — Refazer os cálculos com a fórmula escrita, conferir sinais, divisão e unidade.*\n\n**MAT-EST-033-EX-RET-05 — R5 — Comparação indevida (independente).** Resposta: Um conjunto final independente; a escolha contaminou o teste e pode gerar estimativa otimista.\n\n1. Validação seleciona modelo; teste retido só avalia modelo congelado.\n2. Repetir escolhas com o mesmo teste requer avaliação externa nova ou protocolo aninhado.\n\n*Se houver erro, verificar especialmente: estratégia — Definir a pergunta e a consequência de cada erro antes de escolher o procedimento.*\n\n**MAT-EST-033-EX-RET-06 — R6 — Conclusão responsável (independente).** Resposta: Exemplo: “O MAE foi 4 unidades na amostra e período X; sua adequação depende do baseline, erros extremos, incerteza e consequências das decisões; é necessário validar grupos e dados futuros.”\n\n1. Indicar métrica e unidade, base e horizonte.\n2. Distinguir utilidade, risco e condição de generalização; segurança não decorre de um número isolado.\n\n*Se houver erro, verificar especialmente: interpretação — Distinguir dado observado, previsão, hipótese, incerteza e decisão; reler a unidade.*\n\n",
+      "sourceStart": 19367,
+      "sourceEnd": 35729
+    },
+    {
+      "id": "MAT-EST-033-s013",
+      "title": "13. Resumo para leitura em voz alta",
+      "paragraphs": [],
+      "markdown": "## 13. Resumo para leitura em voz alta\n\nUma previsão não é uma observação e também não é uma decisão. A versão A distribui pequenos erros; B concentra um erro extremo. Por isso, embora ambas tenham erro absoluto médio de cinco, o erro quadrático médio e sua raiz mostram comportamentos diferentes. O custo de uma decisão depende de quanto custa faltar e de quanto custa sobrar; mudar esses preços hipotéticos pode inverter a comparação. É obrigatório informar unidade, grupo, período, referência e limites da incerteza. Intervalos precisam de verificação de cobertura; resultados de teste retido não devem ser usados repetidamente para escolher modelo. Documentar versões e dados é parte do rigor, não um detalhe decorativo.\n\n",
+      "sourceStart": 35729,
+      "sourceEnd": 36455
+    },
+    {
+      "id": "MAT-EST-033-s014",
+      "title": "14. Revisão ativa e espaçada",
+      "paragraphs": [],
+      "markdown": "## 14. Revisão ativa e espaçada\n\nNo primeiro contato, explique sem consultar: qual a diferença entre previsão e decisão? Por que A e B têm o mesmo MAE, mas RMSE diferente? Como mudar a função de perda altera a interpretação? O que uma cobertura observada de três em quatro permite dizer? O que precisa constar de um relatório reproduzível? Faça os exercícios de aprendizagem e consolidação. No dia seguinte, três dias depois, sete e quatorze dias depois do **estudo efetivo**, recupere as definições e refaça os retestes com novos contextos. A consolidação depende de tentativas individuais e evidência de transferência; a produção editorial não a concede automaticamente.\n\n",
+      "sourceStart": 36455,
+      "sourceEnd": 37129
+    },
+    {
+      "id": "MAT-EST-033-s015",
+      "title": "15. Vídeo complementar",
+      "paragraphs": [],
+      "markdown": "## 15. Vídeo complementar\n\n**Título:** Video 8: Comparing the Model to the Experts. **Canal/instituição:** MIT OpenCourseWare; curso *The Analytics Edge*, professor Dimitris Bertsimas. **Idioma:** inglês. **Duração:** não confirmada na página institucional. **Quando assistir:** após estudar as seções quatro, cinco e oito. **Por que:** reforça a comparação de previsões com referências e a necessidade de avaliar a interpretação de um modelo. [Acessar o vídeo na página institucional do MIT](https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/video-8-comparing-the-model-to-the-experts/). Página verificada; a reprodução integral do vídeo não foi testada. O vídeo é complementar: todo o conteúdo essencial está desenvolvido por escrito nesta aula.\n\n",
+      "sourceStart": 37129,
+      "sourceEnd": 37981
+    },
+    {
+      "id": "MAT-EST-033-s016",
+      "title": "16. Fontes e natureza do material",
+      "paragraphs": [],
+      "markdown": "## 16. Fontes e natureza do material\n\n1. [Penn State — STAT 501, Model Building](https://online.stat.psu.edu/stat501/Lesson10), formulação de objetivos e avaliação de generalização.\n2. [Penn State — STAT 501, Estimation & Prediction](https://online.stat.psu.edu/stat501/Lesson03), diferença entre estimativa da média e previsão de uma observação.\n3. [scikit-learn — Model Evaluation](https://scikit-learn.org/stable/modules/model_evaluation.html), definições de métricas.\n4. [scikit-learn — Common Pitfalls](https://scikit-learn.org/stable/common_pitfalls.html), prevenção de vazamento entre treino e teste.\n5. [MIT OpenCourseWare — Comparing the Model to the Experts](https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/video-8-comparing-the-model-to-the-experts/), vídeo complementar.\n\nO conteúdo e todas as questões são **autorais**. Não há reprodução nem atribuição de exercícios específicos como se fossem itens oficiais do ENEM, FUVEST, UNICAMP ou UNESP.\n\n",
+      "sourceStart": 37981,
+      "sourceEnd": 39044
+    },
+    {
+      "id": "MAT-EST-033-s017",
+      "title": "17. Próximo passo e continuidade",
+      "paragraphs": [],
+      "markdown": "## 17. Próximo passo e continuidade\n\nPróximo tópico editorial proposto: **MAT-EST-034 — Projeto aplicado de síntese estatística: protocolo de análise, relatório interpretativo e avaliação de limites**. A sequência, seus IDs permanentes e o progresso anterior não devem ser apagados. MAT-EST-018, MAT-PRO-039 e MAT-PRO-054 continuam sem tentativas individuais registradas neste pacote.\n",
+      "sourceStart": 39044,
+      "sourceEnd": 39429
+    }
+  ],
+  "sources": [
+    {
+      "title": "MAT-EST-033-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1Wrw_QLKwhN1w1hQLhnSqdF_m7U6XYc2E/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    }
+  ],
+  "previous": "MAT-EST-032",
+  "next": "MAT-EST-034",
+  "videos": [
+    {
+      "title": "Video 8: Comparing the Model to the Experts",
+      "channel": "MIT OpenCourseWare",
+      "url": "https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/video-8-comparing-the-model-to-the-experts/",
+      "duration": "Duração não confirmada",
+      "language": "inglês",
+      "reason": "Reforça o conceito apresentado nesta aula.",
+      "when": "após seções 4, 5 e 8",
+      "reinforces": [],
+      "checkedAt": "2026-10-03",
+      "verification": "Disponibilidade da página institucional conferida em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+      "type": "video"
+    }
+  ],
+  "video": {
+    "title": "Video 8: Comparing the Model to the Experts",
+    "channel": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/video-8-comparing-the-model-to-the-experts/",
+    "duration": "Duração não confirmada",
+    "language": "inglês",
+    "reason": "Reforça o conceito apresentado nesta aula.",
+    "when": "após seções 4, 5 e 8",
+    "reinforces": [],
+    "checkedAt": "2026-10-03",
+    "verification": "Disponibilidade da página institucional conferida em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+    "type": "video"
+  },
+  "publication": {
+    "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+    "notes": [
+      "A produção e a publicação não registram domínio nem alteram seu progresso.",
+      "Aula avançada para consulta. A sequência de fundamentos ainda tem textos integrais a recuperar; confira os pré-requisitos antes de iniciar.",
+      "As referências a publicação pendente no texto original registram o estado da fonte na data de criação."
+    ],
+    "original": "originais/MAT-EST-033/aula.md",
+    "editions": [],
+    "attachments": [
+      {
+        "label": "questoes-oficiais-referencias.json",
+        "url": "originais/MAT-EST-033/arquivos/questoes-oficiais-referencias.json"
+      },
+      {
+        "label": "marcador-producao.json",
+        "url": "originais/MAT-EST-033/arquivos/marcador-producao.json"
+      },
+      {
+        "label": "fontes.json",
+        "url": "originais/MAT-EST-033/arquivos/fontes.json"
+      },
+      {
+        "label": "manifest.json",
+        "url": "originais/MAT-EST-033/arquivos/manifest.json"
+      },
+      {
+        "label": "visuais.json",
+        "url": "originais/MAT-EST-033/arquivos/visuais.json"
+      },
+      {
+        "label": "exercicios.json",
+        "url": "originais/MAT-EST-033/arquivos/exercicios.json"
+      },
+      {
+        "label": "SHA256.txt",
+        "url": "originais/MAT-EST-033/arquivos/SHA256.txt"
+      },
+      {
+        "label": "QA-VALIDACAO.txt",
+        "url": "originais/MAT-EST-033/arquivos/QA-VALIDACAO.txt"
+      }
+    ],
+    "questionCount": 36,
+    "visualCount": 7,
+    "sourceSha256": "9d049a6ec7ca674aa522b48df1dbc67cd0c7c9c5969a1cfecf0a9b7b32693b06"
+  }
+}

@@ -1,0 +1,160 @@
+﻿MAT-EST-008 — Exercícios — reconstrução editorial v1
+
+
+Todas as questões são autorais. Tente resolver antes de consultar o gabarito.
+
+
+CAMADA APR — Aprendizagem
+
+
+MAT-EST-008-EX-APR-01
+Calcule a média de 2,4,6 e os desvios em relação à média.
+
+
+MAT-EST-008-EX-APR-02
+Para os desvios −2,0,+2, calcule os quadrados.
+
+
+MAT-EST-008-EX-APR-03
+Calcule a variância populacional de 2,4,6.
+
+
+MAT-EST-008-EX-APR-04
+Calcule o desvio-padrão populacional de 2,4,6.
+
+
+MAT-EST-008-EX-APR-05
+Qual é a unidade da variância se os dados estão em centímetros?
+
+
+MAT-EST-008-EX-APR-06
+Qual é a unidade do desvio-padrão se os dados estão em segundos?
+
+
+MAT-EST-008-EX-APR-07
+O que significa desvio-padrão igual a zero?
+
+
+MAT-EST-008-EX-APR-08
+Variância pode ser negativa? Justifique.
+
+
+MAT-EST-008-EX-APR-09
+Por que a média dos desvios simples em torno da média não mede dispersão?
+
+
+MAT-EST-008-EX-APR-10
+Qual a diferença entre amplitude e variância quanto aos dados utilizados?
+
+
+CAMADA CON — Consolidação
+
+
+MAT-EST-008-EX-CON-01
+Calcule variância e DP populacionais de 4,5,6.
+
+
+MAT-EST-008-EX-CON-02
+Calcule variância e DP populacionais de 0,5,10.
+
+
+MAT-EST-008-EX-CON-03
+Compare os dois conjuntos anteriores, sabendo que ambos têm média 5.
+
+
+MAT-EST-008-EX-CON-04
+Para amostra 2,4,6, calcule s² e s.
+
+
+MAT-EST-008-EX-CON-05
+Explique conceitualmente por que a variância amostral usual divide por n−1.
+
+
+MAT-EST-008-EX-CON-06
+Se todos os dados aumentam 100 unidades, o que ocorre com variância e DP?
+
+
+MAT-EST-008-EX-CON-07
+Se todos os dados são multiplicados por 3, o que ocorre com variância e DP?
+
+
+MAT-EST-008-EX-CON-08
+Valor 1 aparece uma vez, 2 aparece duas vezes e 3 aparece uma vez. Calcule variância e DP populacionais.
+
+
+MAT-EST-008-EX-CON-09
+Dados têm DP 4. Após y=−2x+50, qual é o novo DP?
+
+
+MAT-EST-008-EX-CON-10
+Dados têm variância 9. Após multiplicar todos por 5, qual é a nova variância?
+
+
+CAMADA VES — Transferência / estilo vestibular autoral
+
+
+MAT-EST-008-EX-VES-01
+Dois conjuntos têm média 50. A possui DP 2 e B DP 8. Qual é mais disperso em termos absolutos?
+
+
+MAT-EST-008-EX-VES-02
+Um processo tem média 100 e DP 1; outro média 100 e DP 10. Explique a diferença.
+
+
+MAT-EST-008-EX-VES-03
+Uma amostra de 5 valores tem soma dos quadrados dos desvios igual a 40. Calcule s².
+
+
+MAT-EST-008-EX-VES-04
+Uma população de 5 valores tem soma dos quadrados dos desvios igual a 40. Calcule σ².
+
+
+MAT-EST-008-EX-VES-05
+Explique por que variância em reais² é correta, mas menos intuitiva que o DP.
+
+
+MAT-EST-008-EX-VES-06
+Um extremo confirmado como verdadeiro aumentou muito a variância. Deve ser excluído? Justifique.
+
+
+MAT-EST-008-EX-VES-07
+A regra 68–95–99,7 pode ser usada em qualquer conjunto apenas porque conhecemos média e DP?
+
+
+MAT-EST-008-EX-VES-08
+Explique a diferença entre desvio-padrão e erro-padrão.
+
+
+MAT-EST-008-EX-VES-09
+Dados têm média 20 e DP 3. Aplicamos y=4x−7. Determine nova média e novo DP.
+
+
+MAT-EST-008-EX-VES-10
+A: média 10, DP 2. B: média 1000, DP 20. É suficiente dizer que B é dez vezes mais variável? Explique.
+
+
+CAMADA RET — Reteste
+
+
+MAT-EST-008-EX-RET-01
+Sem consultar, escreva as fórmulas de variância populacional, variância amostral e desvio-padrão.
+
+
+MAT-EST-008-EX-RET-02
+Calcule variância e DP populacionais de 3,3,3.
+
+
+MAT-EST-008-EX-RET-03
+Se DP=5 e todos os valores são multiplicados por −4, qual o novo DP?
+
+
+MAT-EST-008-EX-RET-04
+Explique por que somar a mesma constante a todos os valores não altera variância.
+
+
+MAT-EST-008-EX-RET-05
+Uma amostra tem n=8 e soma dos quadrados dos desvios 21. Calcule s².
+
+
+MAT-EST-008-EX-RET-06
+Explique por que DP pequeno ou grande não deve ser interpretado sem escala e contexto.

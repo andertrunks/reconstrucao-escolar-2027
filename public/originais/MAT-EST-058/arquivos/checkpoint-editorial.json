@@ -1,0 +1,31 @@
+{
+  "projeto": "Reconstrução Escolar + ENEM e Vestibulares 2027",
+  "ultimo_pacote_editorial_concluido": "MAT-EST-058",
+  "ultimo_confirmado_antes": "MAT-EST-057",
+  "titulo_ultimo": "Leitura crítica de relatórios temporais: resultados parciais, viés de seleção e comunicação de incerteza por coorte",
+  "etapa_atual": "pacote editorial concluído localmente; sem publicação ou sincronização",
+  "proximo_topico_editorial": "MAT-EST-059",
+  "titulo_proximo_proposto": "Comunicação comparativa de desempenho temporal: gráficos honestos, incerteza condicional e relatório executivo verificável",
+  "proximo_estado": "não iniciado",
+  "progresso_individual": "não iniciado; nenhuma tentativa do usuário registrada; inalterado",
+  "serie": "t01–t22 preservados; t23–t25 sem observado e emissão autenticada; t26–t33 propostos, zero pares",
+  "historico": "MAT-EST-049-PROT-v1 preservado; cinco pares, falha t19=19,2 > guarda 10; C não promovido no protocolo antigo",
+  "protocolo_sucessor": "MAT-EST-056-PROT-SUC-v1 rascunho editorial local; zero registros externos/emissões/observações",
+  "sandbox": "SANDBOX-057 permanece byte a byte intacto: 8 cartões, 2 avaliáveis, 6 pendentes; novo relatório MAT-EST-058 explicita seleção e hipóteses sem novos observados",
+  "anexo_anterior": "historico/MAT-EST-057-pacote-integracao.zip cópia integral byte a byte",
+  "arquivos_invariantes_herdados_sha256": 23,
+  "nao_alegar": [
+    "resultado t23–t33",
+    "emissões futuras autenticadas",
+    "pré-registro externo",
+    "intervalos de confiança para tetos hipotéticos",
+    "aprovação real",
+    "reversão da falha t19",
+    "publicação web",
+    "sincronização Drive ou GitHub",
+    "teste manual no Edge",
+    "reprodução integral do vídeo",
+    "progresso de estudo"
+  ],
+  "material_integracao": "MAT-EST-058-pacote-integracao.zip"
+}

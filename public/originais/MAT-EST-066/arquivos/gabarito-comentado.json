@@ -1,0 +1,182 @@
+[
+  {
+    "id": "MAT-EST-066-EX-APR-01",
+    "resposta_e_resolucao": "A previsão é feita antes do alvo; o observado só existe após o evento e sua recepção; erro é observado menos previsto e só pode ser calculado quando os dois estão disponíveis. Zero significaria acerto exato, não ausência.",
+    "motivoProvavelDeErro": "Conteúdo: misturar ausência de dado com resultado numérico."
+  },
+  {
+    "id": "MAT-EST-066-EX-APR-02",
+    "resposta_e_resolucao": "Dois dividido por oito é 0,25, ou 25%; o denominador corresponde aos oito cartões planejados. Isso não mede precisão.",
+    "motivoProvavelDeErro": "Interpretação: usar apenas os dois avaliáveis no denominador."
+  },
+  {
+    "id": "MAT-EST-066-EX-APR-03",
+    "resposta_e_resolucao": "O módulo de mais quatro é quatro e o de menos dois é dois. (4+2)/2=3 unidades. São dois pares, não oito cartões.",
+    "motivoProvavelDeErro": "Cálculo: cancelar sinais ou dividir pelo total planejado."
+  },
+  {
+    "id": "MAT-EST-066-EX-APR-04",
+    "resposta_e_resolucao": "(3+5)/2=4 unidades, contra 3 unidades de B. A comparação só vale para S01 e S02, não para os seis pendentes.",
+    "motivoProvavelDeErro": "Interpretação: transformar dois exemplos em conclusão geral."
+  },
+  {
+    "id": "MAT-EST-066-EX-APR-05",
+    "resposta_e_resolucao": "Erro positivo +4 é subprevisão e custa 3×4=12 pontos; erro negativo −2 custa 1×2=2 pontos. Custos são pontos, não unidades de erro.",
+    "motivoProvavelDeErro": "Conteúdo: esquecer a convenção do sinal ou as unidades."
+  },
+  {
+    "id": "MAT-EST-066-EX-APR-06",
+    "resposta_e_resolucao": "MAE é não estimável, porque não se divide soma de erros por zero observações. Já 0/10 verificações executadas é uma razão definida: 0%.",
+    "motivoProvavelDeErro": "Conteúdo: tratar duas perguntas com denominadores distintos como equivalentes."
+  },
+  {
+    "id": "MAT-EST-066-EX-APR-07",
+    "resposta_e_resolucao": "Informar origem, horizonte, data-alvo, modelo/versão, previsão congelada, valor observado e versão dele. Misturar horizontes sem identificação confunde tarefas distintas.",
+    "motivoProvavelDeErro": "Estratégia: omitir horizonte e origem."
+  },
+  {
+    "id": "MAT-EST-066-EX-APR-08",
+    "resposta_e_resolucao": "G1 e G2 têm evidência de verificação apenas local; G3 a G6 aguardam evidência humana; G7 e G8 não ocorreram. Esses estados não equivalem a aprovação para publicar.",
+    "motivoProvavelDeErro": "Interpretação: converter checked_local em aprovação humana."
+  },
+  {
+    "id": "MAT-EST-066-EX-APR-09",
+    "resposta_e_resolucao": "Hashes iguais permitem conferir identidade de bytes com altíssima confiabilidade prática. Não provam que o conteúdo é pedagogicamente correto, acessível ou que foi publicado.",
+    "motivoProvavelDeErro": "Conteúdo: confundir integridade de bytes com qualidade e autorização."
+  },
+  {
+    "id": "MAT-EST-066-EX-APR-10",
+    "resposta_e_resolucao": "Uma regra conjunta pode exigir desempenho médio e ausência de violações locais; falhar em uma condição impede a decisão prevista mesmo quando a média melhora.",
+    "motivoProvavelDeErro": "Estratégia: substituir protocolo prévio por critério oportunista."
+  },
+  {
+    "id": "MAT-EST-066-EX-CON-01",
+    "resposta_e_resolucao": "MAE B=(4+2)/2=3 unidades; C=(3+5)/2=4. Custo B=(12+2)/2=7 pontos; C=(9+5)/2=7. Mesmo custo não implica mesmo MAE.",
+    "motivoProvavelDeErro": "Cálculo/interpretação: fundir unidades e pontos."
+  },
+  {
+    "id": "MAT-EST-066-EX-CON-02",
+    "resposta_e_resolucao": "S01: 3−4=−1; S02: 5−2=+3; média (−1+3)/2=+1 unidade. O sinal positivo indica pior MAE de C na dupla observada.",
+    "motivoProvavelDeErro": "Cálculo: subtrair médias com interpretação individual incorreta."
+  },
+  {
+    "id": "MAT-EST-066-EX-CON-03",
+    "resposta_e_resolucao": "Registrar a melhora média parcial e, separadamente, a violação 19,2>10. Com apenas cinco dos oito pares, não promover C sob o protocolo original; não reescrever a guarda.",
+    "motivoProvavelDeErro": "Estratégia: escolher depois a regra que favorece a média."
+  },
+  {
+    "id": "MAT-EST-066-EX-CON-04",
+    "resposta_e_resolucao": "A cobertura empírica observada é 2/3≈66,67% nessa amostra. Não se pode atribuir garantia de cobertura probabilística nominal nem calibração externa com faixas arbitrárias e três casos.",
+    "motivoProvavelDeErro": "Interpretação: confundir contagem retrospectiva com validade prospectiva."
+  },
+  {
+    "id": "MAT-EST-066-EX-CON-05",
+    "resposta_e_resolucao": "Na versão preliminar, erro=30−29=+1; na validada, 32−29=+3. Registrar ambas com sua versão e corte, sem duplicar o alvo nem alterar a previsão.",
+    "motivoProvavelDeErro": "Conteúdo: contar correção de versão como novo evento independente."
+  },
+  {
+    "id": "MAT-EST-066-EX-CON-06",
+    "resposta_e_resolucao": "Preliminar 40: |40−42|=2 e |40−43|=3. Validada 44: |44−42|=2 e |44−43|=1. Mudou a comparação pela versão do observado, não pelas previsões.",
+    "motivoProvavelDeErro": "Cálculo: alterar previsões retroativamente."
+  },
+  {
+    "id": "MAT-EST-066-EX-CON-07",
+    "resposta_e_resolucao": "Os três quocientes têm populações e perguntas diferentes: cobertura de fixtures escolhidas, execução local de ações e execução externa de checks. Uma média não tem interpretação operacional justificada.",
+    "motivoProvavelDeErro": "Interpretação: agregar denominadores heterogêneos."
+  },
+  {
+    "id": "MAT-EST-066-EX-CON-08",
+    "resposta_e_resolucao": "Ficaria só S01, com MAE B=4 e C=3. Essa seleção posterior não altera o corte A originalmente definido; é análise exploratória condicionada ao resultado.",
+    "motivoProvavelDeErro": "Estratégia: esconder o cartão que inverte a narrativa."
+  },
+  {
+    "id": "MAT-EST-066-EX-CON-09",
+    "resposta_e_resolucao": "Erro é observado menos previsão: R01 B=+2 e C=−1; R02 B=−3 e C=+1. Os demais cartões R03 e R04 não têm resultados.",
+    "motivoProvavelDeErro": "Cálculo: inverter a subtração ou inventar R03/R04."
+  },
+  {
+    "id": "MAT-EST-066-EX-CON-10",
+    "resposta_e_resolucao": "MAE B=(2+3)/2=2,5 unidades; C=(1+1)/2=1. Custos B=(6+3)/2=4,5 pontos; C=(1+3)/2=2 pontos. Completude=2/4=50%.",
+    "motivoProvavelDeErro": "Conteúdo/cálculo: usar quatro como denominador do MAE ou trocar pontos por unidades."
+  },
+  {
+    "id": "MAT-EST-066-EX-VES-01",
+    "resposta_e_resolucao": "Uma fotografia não contém evolução temporal. Reescrever: a fotografia didática registra definições e valores limitados naquele corte; ainda não existe sequência comparável para estimar tendência.",
+    "motivoProvavelDeErro": "Interpretação: inferir variação temporal sem ao menos dois cortes compatíveis."
+  },
+  {
+    "id": "MAT-EST-066-EX-VES-02",
+    "resposta_e_resolucao": "Título: “Completude de cartões do SANDBOX-057 no corte A”. Eixo horizontal: status; vertical: cartões (quantidade). Mostrar dois avaliáveis de oito planejados, seis pendentes e explicar que não é acerto. Alt deve indicar essa relação e encaminhar à descrição longa.",
+    "motivoProvavelDeErro": "Interpretação: rotular completude como desempenho."
+  },
+  {
+    "id": "MAT-EST-066-EX-VES-03",
+    "resposta_e_resolucao": "MAE sucessor: não estimável, 0 pares avaliáveis. É correto mostrar zero pares executados entre oito propostos, sem apresentar isso como precisão nem como previsão emitida.",
+    "motivoProvavelDeErro": "Conteúdo: converter denominador zero em média zero."
+  },
+  {
+    "id": "MAT-EST-066-EX-VES-04",
+    "resposta_e_resolucao": "Métricas agregadas e guarda máxima avaliam propriedades distintas. A piora t19=19,2 supera o limite prévio dez e continua no histórico. Não há autorização de promoção sob MAT-EST-049-PROT-v1.",
+    "motivoProvavelDeErro": "Estratégia: revisão retroativa do critério após conhecer o resultado."
+  },
+  {
+    "id": "MAT-EST-066-EX-VES-05",
+    "resposta_e_resolucao": "É mistura de populações. SANDBOX-057 é exercício isolado: C=4 unidades em S01/S02; histórico t18–t22 tem C=8,36 unidades em cinco pares. Precisam de legendas e origens distintas.",
+    "motivoProvavelDeErro": "Interpretação: transportar números entre coortes."
+  },
+  {
+    "id": "MAT-EST-066-EX-VES-06",
+    "resposta_e_resolucao": "Preservar evento original 40 como versão preliminar com seu carimbo lógico, vincular a versão validada 44 e produzir relatório por política de vintage. Não apagar histórico ou fingir que a previsão foi refeita.",
+    "motivoProvavelDeErro": "Estratégia: apagar proveniência para parecer coerente."
+  },
+  {
+    "id": "MAT-EST-066-EX-VES-07",
+    "resposta_e_resolucao": "Reduzir o denominador sem alteração real dos avaliáveis aumenta artificialmente a taxa. Congelar população planejada, manter motivo de exclusão e comparar versões do corte.",
+    "motivoProvavelDeErro": "Estratégia: maquiar indicador por mudança silenciosa de população."
+  },
+  {
+    "id": "MAT-EST-066-EX-VES-08",
+    "resposta_e_resolucao": "Verificações locais provam resultados do conjunto testado. Publicação exige deploy real e conferência de URL/versão; acessibilidade precisa também de inspeção humana em Edge, teclado, leitor de tela e áudio; aprovação requer ato real documentado.",
+    "motivoProvavelDeErro": "Interpretação: extrapolar teste automático para condições externas."
+  },
+  {
+    "id": "MAT-EST-066-EX-VES-09",
+    "resposta_e_resolucao": "Completude 2/4=50%. Média (8+12)/2=10 miligramas por litro. Os dois dados ausentes não valem zero. A analogia transfere o raciocínio do MAE para outra ciência.",
+    "motivoProvavelDeErro": "Cálculo: confundir média de medições válidas com fração de amostras observadas."
+  },
+  {
+    "id": "MAT-EST-066-EX-VES-10",
+    "resposta_e_resolucao": "Nesses dois casos artificiais elegíveis, C teve MAE 1 e B 2,5 unidades e custo médio 2 contra 4,5 pontos. Só há duas observações; R03/R04 permanecem pendentes; não existe generalização ou implantação validada.",
+    "motivoProvavelDeErro": "Interpretação: extrapolar um exercício pequeno para decisão geral."
+  },
+  {
+    "id": "MAT-EST-066-EX-RET-01",
+    "resposta_e_resolucao": "Média assinada (−4+2+5)/3=1 unidade. MAE (4+2+5)/3=11/3≈3,67 unidades. A média assinada reduz magnitudes ao somar sinais opostos.",
+    "motivoProvavelDeErro": "Cálculo: calcular MAE somando sinais."
+  },
+  {
+    "id": "MAT-EST-066-EX-RET-02",
+    "resposta_e_resolucao": "Completude 3/12=25%; o MAE dos três pares conhecidos usa denominador três. Não há erros calculáveis para os nove pendentes.",
+    "motivoProvavelDeErro": "Interpretação: usar 12 como denominador dos erros."
+  },
+  {
+    "id": "MAT-EST-066-EX-RET-03",
+    "resposta_e_resolucao": "Custos: +2 custa 8; −3 custa 3; média 11/2=5,5 pontos. Trata-se de cenário alternativo, não substituição retroativa da regra congelada do histórico.",
+    "motivoProvavelDeErro": "Estratégia: aplicar nova política como se sempre tivesse existido."
+  },
+  {
+    "id": "MAT-EST-066-EX-RET-04",
+    "resposta_e_resolucao": "Módulos B=|60−58|=2 e C=|60−64|=4; piora C−B=2 unidades, maior que a guarda de uma. SE o cenário vier a ocorrer sob protocolo previamente fixado, falharia a guarda; não é observação do projeto.",
+    "motivoProvavelDeErro": "Interpretação: transformar um cenário condicional em dado novo."
+  },
+  {
+    "id": "MAT-EST-066-EX-RET-05",
+    "resposta_e_resolucao": "Erro provisório =73−70=+3; erro validado=69−70=−1. Manter ambas as versões com momentos e proveniência, sem duplicar o alvo nem recalcular previsão a posteriori.",
+    "motivoProvavelDeErro": "Conteúdo: confundir correção do dado com nova previsão."
+  },
+  {
+    "id": "MAT-EST-066-EX-RET-06",
+    "resposta_e_resolucao": "Modelo: “No SANDBOX-057, dois de oito cartões são avaliáveis; seis seguem pendentes. Neles, MAE B=3 e C=4 unidades. O custo médio fictício é sete pontos para ambos. Esses valores não descrevem a série histórica nem permitem generalizar. G1/G2 só têm verificação local; os demais requerem evidência adicional.” A resposta pode variar se preservar essas cinco informações.",
+    "motivoProvavelDeErro": "Interpretação/redação: omitir denominador, escopo ou limitação."
+  }
+]

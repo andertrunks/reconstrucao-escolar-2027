@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.0",
+  "id": "MAT-EST-037",
+  "slug": "simulado-integrador-estatistica-aplicacao-multidimensional-correcao-auditoria-retencao",
+  "titulo": "Simulado integrador de Estatística: aplicação multidimensional, correção comentada e auditoria de retenção",
+  "materia": "Matemática",
+  "unidade": "Estatística",
+  "nivel": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "ordem": 37,
+  "tipoConteudo": "simulado_integrador_com_auditoria_retencao",
+  "anterior": "MAT-EST-036",
+  "preRequisitos": [
+    "MAT-EST-019",
+    "MAT-EST-020",
+    "MAT-EST-021",
+    "MAT-EST-022",
+    "MAT-EST-023",
+    "MAT-EST-024",
+    "MAT-EST-025",
+    "MAT-EST-026",
+    "MAT-EST-027",
+    "MAT-EST-028",
+    "MAT-EST-029",
+    "MAT-EST-030",
+    "MAT-EST-031",
+    "MAT-EST-032",
+    "MAT-EST-033",
+    "MAT-EST-034",
+    "MAT-EST-035",
+    "MAT-EST-036"
+  ],
+  "objetivos": [
+    "identificar pergunta, população, tipo de variável, desenho e hipótese antes de calcular",
+    "integrar descrição, inferência, comparação, regressão, validação e comunicação",
+    "reproduzir as métricas dos dados fictícios originais",
+    "registrar erros por pré-requisito sem presumir domínio e retestar com itens novos"
+  ],
+  "habilidadesDesenvolvidas": [
+    "interpretação quantitativa",
+    "escolha de método",
+    "cálculo auditável",
+    "leitura crítica de conclusões",
+    "transferência de conhecimentos e retenção"
+  ],
+  "examesRelacionados": [
+    "ENEM",
+    "FUVEST",
+    "UNICAMP",
+    "UNESP"
+  ],
+  "notaExames": "48 questões autorais. Itens avançados pertencem a aprofundamento/ponte universitária e não reproduzem conteúdo obrigatório específico nem pontuação oficial.",
+  "arquivoMarkdown": "MAT-EST-037-simulado-integrador-estatistica-aplicacao-multidimensional-correcao-auditoria-retencao.md",
+  "arquivoExercicios": "exercicios.json",
+  "arquivoGabarito": "gabarito-comentado.json",
+  "gabaritoSeparado": true,
+  "politicaRevelacao": "somente após tentativa enviada pelo estudante no site; markdown editorial contém apêndice para revisão",
+  "arquivoDados": "dados-ficticios.csv",
+  "origemDados": "MAT-EST-034/MAT-EST-035, recebidos de MAT-EST-036 e preservados por cópia",
+  "visuais": [
+    {
+      "id": "MAT-EST-037-VIS-01",
+      "arquivo": "assets/01-mapa-prova.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Mapa dos quatro eixos do simulado",
+      "legenda": "Mapa dos quatro eixos do simulado",
+      "alt": "Fluxo entre leitura descritiva, inferência, comparação e predição; após correção há diagnóstico e reteste.",
+      "oQueObservar": "Observe que as camadas são integradas e não substituem os pré-requisitos.",
+      "conclusaoTextual": "O percurso só se fecha depois da tentativa, diagnóstico e recuperação."
+    },
+    {
+      "id": "MAT-EST-037-VIS-02",
+      "arquivo": "assets/02-amostra-estimativa.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Amostra e limite da generalização",
+      "legenda": "Amostra e limite da generalização",
+      "alt": "Seta liga população-alvo, seleção da amostra, estatística, inferência; seleção enviesada aparece como advertência.",
+      "oQueObservar": "Observe que seleção antecede o cálculo.",
+      "conclusaoTextual": "Mais respostas não corrigem automaticamente autoseleção."
+    },
+    {
+      "id": "MAT-EST-037-VIS-03",
+      "arquivo": "assets/03-erros-teste.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Matriz de decisão do teste",
+      "legenda": "Matriz de decisão do teste",
+      "alt": "Duas decisões cruzadas com hipótese verdadeira e hipótese falsa; aparecem erro I, erro II e poder.",
+      "oQueObservar": "Observe que não rejeitar não prova igualdade.",
+      "conclusaoTextual": "Alfa, beta e poder são propriedades condicionais do procedimento."
+    },
+    {
+      "id": "MAT-EST-037-VIS-04",
+      "arquivo": "assets/04-escolha-metodo.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Escolha conforme pergunta e desenho",
+      "legenda": "Escolha conforme pergunta e desenho",
+      "alt": "Caixas relacionam estimativa, grupos pareados, grupos independentes e variáveis categóricas a famílias de análise.",
+      "oQueObservar": "Leia pergunta, variável e vínculo entre observações antes de selecionar teste.",
+      "conclusaoTextual": "O teste apropriado depende do desenho, não só da fórmula lembrada."
+    },
+    {
+      "id": "MAT-EST-037-VIS-05",
+      "arquivo": "assets/05-metricas-teste.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Comparação de MAE e RMSE no teste fictício",
+      "legenda": "Comparação de MAE e RMSE no teste fictício",
+      "alt": "Barras dos candidatos A, B e Base para MAE e RMSE nos dias 5 a 8, em atendimentos por dia.",
+      "oQueObservar": "A=5 e 5; B=6,25 e 12,5; Base=12,5 e aproximadamente 16,58.",
+      "conclusaoTextual": "O erro extremo de B aumenta mais o RMSE do que seu MAE."
+    },
+    {
+      "id": "MAT-EST-037-VIS-06",
+      "arquivo": "assets/06-integridade-auditoria.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Cadeia de evidências de análise reprodutível",
+      "legenda": "Cadeia de evidências de análise reprodutível",
+      "alt": "Sequência: dados, partição, cálculo independente, hipótese, interpretação, revisão e hash do arquivo.",
+      "oQueObservar": "O hash só garante identidade dos bytes, não validade da conclusão.",
+      "conclusaoTextual": "Reprodutibilidade e validade são etapas diferentes."
+    },
+    {
+      "id": "MAT-EST-037-VIS-07",
+      "arquivo": "assets/07-retencao.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Caminho de retenção e revisão espaçada",
+      "legenda": "Caminho de retenção e revisão espaçada",
+      "alt": "Linha com tentativa real, devolutiva, recuperação, reteste novo e revisões futuras após 1, 7 e 30 dias.",
+      "oQueObservar": "Observe que datas começam depois de estudo efetivo.",
+      "conclusaoTextual": "Produção editorial nunca cria acertos ou domínio individual."
+    }
+  ],
+  "video": {
+    "titulo": "Video 4: Validating the Model",
+    "canal": "MIT OpenCourseWare",
+    "instrutor": "Dimitris Bertsimas",
+    "curso": "15.071 The Analytics Edge",
+    "url": "https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/resources/video-4-validating-the-model-0/",
+    "idioma": "inglês",
+    "duracaoAproximada": "não confirmada na página institucional",
+    "momentoRecomendado": "após os exemplos, antes da camada de transferência",
+    "motivo": "diferenciar desempenho observado, validação e aplicação externa",
+    "verificacao": "página oficial e descrição localizadas em 2026-09-28; reprodução integral não testada"
+  },
+  "quantidadeItens": 48,
+  "contagemPorCamada": {
+    "aprendizagem": 12,
+    "consolidacao": 12,
+    "transferencia": 16,
+    "reteste": 8
+  },
+  "questoesOficiaisReproduzidas": 0,
+  "statusProducao": "produzido_localmente_nao_publicado",
+  "statusAprendizagemInicial": "nao_iniciado",
+  "observacaoStatus": "não sobrescrever progresso individual pré-existente; não produzir tentativas, notas ou revisões fictícias",
+  "revisao": "D+1, D+7, D+30 após estudo real e remediação baseada em evidências",
+  "proximoTopico": {
+    "id": "MAT-EST-038",
+    "titulo": "Devolutiva integradora e fechamento editorial da unidade de Estatística: recuperação por evidências e ponte universitária"
+  }
+}

@@ -1,0 +1,4 @@
+cenario,alvo,valor_hipotetico_NAO_OBSERVADO,previsao_B_t22,previsao_C_t22,erro_B_condicional,erro_C_condicional,modulo_B,modulo_C,custo_B_r3,custo_C_r3,piora_modulo_C,tipo
+queda_hipotetica,t23,178,183,199,-5,-21,5,21,5,21,16,contrafactual_nao_observado
+intermediario_hipotetico,t23,191,183,199,8,-8,8,8,24,8,0,contrafactual_nao_observado
+alta_hipotetica,t23,209,183,199,26,10,26,10,78,30,-16,contrafactual_nao_observado

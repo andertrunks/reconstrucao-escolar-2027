@@ -1,0 +1,254 @@
+[
+  {
+    "id": "MAT-EST-042-EX-APR-01",
+    "resposta": "Não.",
+    "resolucao": "A sequência e a distância entre períodos compõem a observação. Embaralhar preserva a coleção de valores, mas muda os pares entre dias e, portanto, a autocorrelação e a possibilidade de previsão cronológica.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-APR-02",
+    "resposta": "100.",
+    "resolucao": "A notação x(t−1), lida x no período anterior, indica dia quatro. Nesse registro, o quarto valor é 100; o valor 90 pertence ao próprio dia cinco.",
+    "causaProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-APR-03",
+    "resposta": "120.",
+    "resolucao": "Subtraia dois períodos do índice cinco: dia três, que registra 120. A diferença entre defasagem e diferença aritmética entre valores é essencial.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-APR-04",
+    "resposta": "Sete pares.",
+    "resolucao": "Os pares são dias (1,2) a (7,8). O primeiro dia não tem antecessor disponível. Em geral, para atraso k inferior a n, há n−k pares.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-APR-05",
+    "resposta": "−20 atendimentos.",
+    "resolucao": "Definimos Δx(4)=x(4)−x(3), isto é, 100−120=−20. Não confunda a diferença com a razão ou porcentagem de variação: o resultado continua expresso em atendimentos.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-APR-06",
+    "resposta": "100.",
+    "resolucao": "O modelo ingênuo define previsão do próximo período igual à última observação conhecida. É uma referência que precisa ser comparada, não uma lei de evolução da série.",
+    "causaProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-APR-07",
+    "resposta": "320/3 ≈ 106,67.",
+    "resolucao": "Some 100+120+100=320 e divida por três. O método só consulta observações já conhecidas ao emitir a previsão e preserva a janela de comprimento três.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-APR-08",
+    "resposta": "Não.",
+    "resolucao": "Ela inclui o próprio observado futuro e o dia seis, posterior ao dia que se quer antecipar. Pode servir a descrição retrospectiva, mas introduz vazamento como previsão feita no dia quatro.",
+    "causaProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-APR-09",
+    "resposta": "Negativo; aproximadamente −16,67.",
+    "resolucao": "Ao subtrair 90−106,67 obtemos valor negativo. A convenção de sinal precisa estar definida; para MAE tomamos o módulo após calcular os erros.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-APR-10",
+    "resposta": "O resíduo usa um dado ajustado observado; o erro futuro usa uma observação que estava indisponível no momento da previsão.",
+    "resolucao": "Em ambas as situações é possível calcular observado menos estimado depois de observar a resposta, porém a segunda mede generalização se o conjunto futuro realmente ficou de fora do ajuste e seleção.",
+    "causaProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-CON-01",
+    "resposta": "(1,3), (2,4), (3,5), (4,6), (5,7), (6,8).",
+    "resolucao": "Para k=2 combinamos x(t) e x(t−2), iniciando no dia três até oito. São seis pares e nenhum implica consultar períodos além da amostra.",
+    "causaProvavel": "montagem da estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-CON-02",
+    "resposta": "103,75 atendimentos.",
+    "resolucao": "A soma é 830; ao dividir por oito, obtemos 103,75. A ACF amostral adotada centra os oito valores por essa mesma média.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-CON-03",
+    "resposta": "1.787,5 atendimentos ao quadrado.",
+    "resolucao": "Os desvios são −23,75; −3,75; 16,25; −3,75; −13,75; 6,25; 26,25; −3,75. Some cada quadrado: o total é 1.787,5. O denominador é comum aos atrasos nesta convenção.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-CON-04",
+    "resposta": "−1/1144 ≈ −0,000874.",
+    "resolucao": "Dividimos o somatório dos sete produtos centrados pelo denominador total: −1,5625/1.787,5. Essa correlação amostral está muito próxima de zero, sem provar independência.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-CON-05",
+    "resposta": "−321/572 ≈ −0,56119.",
+    "resolucao": "Use a mesma convenção de denominador global: −1.003,125 dividido por 1.787,5. O sinal negativo indica associação inversa amostral para separação de dois dias; oito dados não bastam para certeza inferencial.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-CON-06",
+    "resposta": "310/3 ≈ 103,33.",
+    "resolucao": "O conjunto de informação foi fechado no dia cinco. A soma dos três registros anteriores é 310; dividindo por três resulta aproximadamente 103,33.",
+    "causaProvavel": "montagem da estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-CON-07",
+    "resposta": "100.",
+    "resolucao": "A média 300/3 é exatamente 100. O observado do dia sete, 130, só será usado para aferir erro depois, não para recalcular retroativamente a previsão.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-CON-08",
+    "resposta": "95/6 ≈ 15,83 atendimentos.",
+    "resolucao": "Somando: 70/3+40=190/3. Dividindo pelo total de quatro previsões temos 190/12, ou 95/6. Só agregue previsões do mesmo horizonte e da mesma avaliação.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-CON-09",
+    "resposta": "A referência constante apresentou MAE menor nesse recorte; não foi demonstrada superioridade futura universal.",
+    "resolucao": "Compare mesma métrica, alvo e quatro dias. A diferença é aproximadamente 3,33 atendimentos médios. O tamanho curto e fictício impede generalização ou conclusão sobre outras épocas.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-CON-10",
+    "resposta": "Não.",
+    "resolucao": "A soma é zero, mas o ordenamento mostra sequências de sinais iguais. Diagnóstico de resíduos também investiga correlação serial e mudanças de dispersão, não apenas viés médio.",
+    "causaProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-VES-01",
+    "resposta": "A média 125 está correta; periodicidade anual não foi demonstrada.",
+    "resolucao": "A soma é 500, dividida por quatro. A alternância sugere um padrão possível de duas semanas, mas quatro observações não comprovam repetição sazonal estável e não podem demonstrar um ciclo de um ano.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-VES-02",
+    "resposta": "Vazamento cronológico por construção incorreta da defasagem.",
+    "resolucao": "Verifique índice e instante de disponibilidade em cada linha. Um campo com nome “anterior” não garante passado; a célula veio de t+1. Deve ser reconstruída com deslocamento correto e retestada sem acesso ao futuro.",
+    "causaProvavel": "montagem da estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-VES-03",
+    "resposta": "Não.",
+    "resolucao": "A autocorrelação descreve associação entre valores de uma mesma série separados por dois períodos. Causalidade requer desenho e controle de explicações alternativas; com oito observações a estimativa é especialmente instável.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-VES-04",
+    "resposta": "É uma suavização retrospectiva e emprega o valor do próprio dia e do dia seguinte.",
+    "resolucao": "Um filtro centrado de ordem três em t usa x(t−1), x(t), x(t+1). Pode ser útil para visualizar tendência passada, mas não representa previsão ex ante em t. A legenda deve declarar disponibilidade e finalidade.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-VES-05",
+    "resposta": "106.",
+    "resolucao": "O desvio em relação à média é 10; 0,6 vezes esse desvio é 6. Somando à média de referência, 100+6=106. Os parâmetros foram fornecidos, não ajustados à série de oito dias.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-VES-06",
+    "resposta": "103,6.",
+    "resolucao": "A previsão em um passo é 106. A expectativa do passo seguinte usa o desvio previsto, 6: 100+0,6×6=103,6. Não se pode colocar um valor futuro real que ainda não foi observado.",
+    "causaProvavel": "montagem da estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-VES-07",
+    "resposta": "A primeira é filtro determinístico de observações; a segunda é processo estocástico com choque atual e choque anterior.",
+    "resolucao": "A previsão pela média móvel x(t−1)+x(t−2)+x(t−3), dividida por três, não usa inovações. Já MA(1) pode ser escrito x(t)=μ+ε(t)+0,5ε(t−1), com hipóteses explícitas sobre os erros.",
+    "causaProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-VES-08",
+    "resposta": "0,4.",
+    "resolucao": "A variância é σ²(1+θ²), e a covariância no atraso um é θσ². Portanto rho(1)=0,5/(1+0,25)=0,4. Para atrasos superiores a um, a ACF teórica é zero nas hipóteses indicadas.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-VES-09",
+    "resposta": "AR(1): 0,36; MA(1): 0.",
+    "resolucao": "No AR(1), rho(k)=φ elevado a k; assim 0,6²=0,36. No MA(1), só há choque comum até atraso um, de modo que rho(2)=0. Essas são propriedades teóricas, não testes feitos com oito dados.",
+    "causaProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-VES-10",
+    "resposta": "Registrar a vantagem observada, ampliar validação temporal e monitorar alterações posteriores.",
+    "resolucao": "A constante é uma referência útil e teve menor erro neste recorte, mas quatro datas não cobrem eventos especiais, estações ou mudanças na operação. Defina horizonte, critérios e novas origens cronológicas antes da implantação.",
+    "causaProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-RET-01",
+    "resposta": "(3,5), (5,8), (8,4), (4,7).",
+    "resolucao": "Há n−1=4 pares em sequência. Conservar a ordem é requisito da correlação temporal; o par (7,3), por exemplo, não é adjacente nesta amostra linear.",
+    "causaProvavel": "montagem da estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-RET-02",
+    "resposta": "−4 unidades; não é porcentagem.",
+    "resolucao": "Subtraia 38−42=−4. Se quisesse taxa proporcional, teria de dividir pelo valor de referência 42 e definir a interpretação; primeira diferença sozinha mede unidades originais.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-RET-03",
+    "resposta": "11.",
+    "resolucao": "Os últimos três são 12,15,6; a soma é 33, média 11. O 9 mais antigo fica fora da janela definida, e não há uso do futuro.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-RET-04",
+    "resposta": "0.",
+    "resolucao": "Denominador é 1+0+1=2. Numerador de atraso um: 0×(−1)+1×0=0. Logo r(1)=0, que nessa amostra diminuta não permite concluir independência populacional.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-RET-05",
+    "resposta": "Inspecionar sequências e autocorrelação de resíduos.",
+    "resolucao": "A média zero cancela sinais, mas os quatro erros positivos seguidos de quatro negativos sugerem padrão temporal a investigar. Examine o gráfico e a ACF, sem proclamar significância sem método adequado.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-042-EX-RET-06",
+    "resposta": "Em cada dobra, limitar todos os dados e transformações à informação disponível até quinta; testar sexta após observação.",
+    "resolucao": "Documente instante real de disponibilidade de cada variável, ajuste regras e transformações dentro de cada treino e preserve as sextas para avaliação posterior. Uma base ordenada ainda vaza informação se suas colunas contêm valores futuros.",
+    "causaProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  }
+]

@@ -1,0 +1,664 @@
+{
+  "id": "MAT-EST-009",
+  "version": "publicacao-2026-10-03-v1",
+  "objective": "1. Objetivo\n\n\nAo concluir esta aula, o estudante deverá ser capaz de:\n\n\n• compreender por que o desvio-padrão absoluto nem sempre basta para comparar dispersões;\n• definir coeficiente de variação, ou CV;\n• calcular CV populacional e amostral quando apropriado;\n• interpretar o CV como dispersão relativa à média;\n• converter o CV para porcentagem;\n• reconhecer que o CV não possui unidade física quando usado adequadamente;\n• comparar conjuntos em escalas diferentes com cuidado;\n• reconhecer situações em que o CV é inadequado ou instável;\n• explicar por que médias iguais a zero ou muito próximas de zero criam problemas;\n• explicar por que escalas com zero arbitrário, como Celsius, exigem cautela;\n• distinguir comparação absoluta de comparação relativa;\n• relacionar o CV às transformações lineares estudadas na MAT-EST-008;\n• resolver problemas autorais no estilo de vestibulares.\n\n\n",
+  "prerequisites": [
+    "MAT-EST-001",
+    "MAT-EST-002",
+    "MAT-EST-003",
+    "MAT-EST-004",
+    "MAT-EST-005",
+    "MAT-EST-006",
+    "MAT-EST-007",
+    "MAT-EST-008"
+  ],
+  "why": "MAT-EST-009 — Coeficiente de variação: dispersão relativa e comparação entre escalas\n\n\nStatus editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.\nMatéria: Matemática.\nUnidade: Estatística.\nNível principal: 3 — transição entre Ensino Fundamental II e Ensino Médio, com aprofundamento para ENEM, FUVEST, UNICAMP, UNESP e ponte universitária.\nPré-requisitos: MAT-EST-001 a MAT-EST-008; média aritmética; desvio-padrão; razão, proporção e porcentagem.\nPróximo tópico: MAT-EST-010 — Quartis, decis e percentis: posição relativa e leitura de distribuição.\nQuestões desta reconstrução: 100% autorais.\n\n\n",
+  "intuitive": [],
+  "deep": [],
+  "vocabulary": [],
+  "examples": [],
+  "visuals": [
+    {
+      "url": "media/MAT-EST-009/galeria-01.png",
+      "caption": "DP absoluto versus CV relativo",
+      "alt": "Grupo A tem média 10 e DP 2, CV 20%. Grupo B tem média 1000 e DP 20, CV 2%. B tem DP absoluto maior; A tem maior dispersão relativa.",
+      "observe": "compare primeiro os DPs e depois divida cada DP pela própria média.",
+      "conclusion": "maior desvio-padrão absoluto não implica maior coeficiente de variação."
+    },
+    {
+      "url": "media/MAT-EST-009/galeria-02.png",
+      "caption": "Invariância multiplicativa",
+      "alt": "média 1,8 m e DP 0,09 m têm CV 5%; convertidos para 180 cm e 9 cm, o CV continua 5%.",
+      "observe": "média e DP recebem o mesmo fator de conversão.",
+      "conclusion": "mudanças puramente multiplicativas de unidade preservam o CV."
+    },
+    {
+      "url": "media/MAT-EST-009/galeria-03.png",
+      "caption": "Celsius versus Fahrenheit",
+      "alt": "média 20 °C e DP 2 dão CV 10%; em Fahrenheit, média 68 e DP 3,6 dão aproximadamente 5,29%.",
+      "observe": "o termo mais 32 altera a média, mas não entra da mesma forma no DP.",
+      "conclusion": "o CV não é adequado mecanicamente a escalas com zero arbitrário."
+    },
+    {
+      "url": "media/MAT-EST-009/galeria-04.png",
+      "caption": "Média próxima de zero",
+      "alt": "com DP fixo igual a 1, médias 10, 1 e 0,1 produzem CV de 10%, 100% e 1000%; com média zero, o CV é indefinido.",
+      "observe": "o denominador controla a estabilidade da razão.",
+      "conclusion": "médias muito pequenas podem tornar o CV enorme e pouco informativo."
+    },
+    {
+      "url": "media/MAT-EST-009/galeria-05.png",
+      "caption": "Ranking por DP e por CV",
+      "alt": "quatro grupos mostram que a ordem por desvio-padrão pode ser diferente da ordem por coeficiente de variação.",
+      "observe": "compare a coluna de DP com a coluna de CV.",
+      "conclusion": "dispersão absoluta e relativa respondem perguntas diferentes."
+    },
+    {
+      "url": "media/MAT-EST-009/galeria-06.png",
+      "caption": "Árvore de decisão para uso do CV",
+      "alt": "fluxograma pergunta se o zero da escala é significativo, se a média é positiva e longe de zero e se a comparação relativa faz sentido.",
+      "observe": "uma resposta negativa em etapas anteriores indica cautela ou escolha de outra medida.",
+      "conclusion": "não use CV automaticamente; verifique a escala, a média e o objetivo da comparação."
+    }
+  ],
+  "applications": [],
+  "connections": [],
+  "commonErrors": [],
+  "learning": [
+    "MAT-EST-009-EX-APR-01",
+    "MAT-EST-009-EX-APR-02",
+    "MAT-EST-009-EX-APR-03",
+    "MAT-EST-009-EX-APR-04",
+    "MAT-EST-009-EX-APR-05",
+    "MAT-EST-009-EX-APR-06",
+    "MAT-EST-009-EX-APR-07",
+    "MAT-EST-009-EX-APR-08",
+    "MAT-EST-009-EX-APR-09",
+    "MAT-EST-009-EX-APR-10"
+  ],
+  "consolidation": [
+    "MAT-EST-009-EX-CON-01",
+    "MAT-EST-009-EX-CON-02",
+    "MAT-EST-009-EX-CON-03",
+    "MAT-EST-009-EX-CON-04",
+    "MAT-EST-009-EX-CON-05",
+    "MAT-EST-009-EX-CON-06",
+    "MAT-EST-009-EX-CON-07",
+    "MAT-EST-009-EX-CON-08",
+    "MAT-EST-009-EX-CON-09",
+    "MAT-EST-009-EX-CON-10"
+  ],
+  "entrance": [
+    "MAT-EST-009-EX-VES-01",
+    "MAT-EST-009-EX-VES-02",
+    "MAT-EST-009-EX-VES-03",
+    "MAT-EST-009-EX-VES-04",
+    "MAT-EST-009-EX-VES-05",
+    "MAT-EST-009-EX-VES-06",
+    "MAT-EST-009-EX-VES-07",
+    "MAT-EST-009-EX-VES-08",
+    "MAT-EST-009-EX-VES-09",
+    "MAT-EST-009-EX-VES-10"
+  ],
+  "retest": [
+    "MAT-EST-009-EX-RET-01",
+    "MAT-EST-009-EX-RET-02",
+    "MAT-EST-009-EX-RET-03",
+    "MAT-EST-009-EX-RET-04",
+    "MAT-EST-009-EX-RET-05",
+    "MAT-EST-009-EX-RET-06"
+  ],
+  "solutions": [],
+  "summary": "49. Resumo\n\n\nCV = DP/média.\n\n\nCV% = 100 × DP/média.\n\n\nEm escalas de razão com média positiva, o CV mede dispersão relativa.\n\n\nMultiplicar todos os valores por constante positiva não altera o CV.\n\n\nAdicionar constante altera o CV em geral.\n\n\nCV não é adequado de forma automática para médias zero, próximas de zero ou negativas.\n\n\nEscalas com zero arbitrário, como Celsius, exigem cautela.\n\n\n",
+  "audioVersion": "50. Versão curta para ouvir\n\n\nO coeficiente de variação compara o desvio-padrão com a média.\n\n\nEle responde quanto o espalhamento representa em relação ao tamanho médio dos valores.\n\n\nA fórmula percentual é cem vezes o desvio-padrão dividido pela média.\n\n\nÉ útil para comparar dispersão relativa em escalas de razão e médias positivas.\n\n\nNão use mecanicamente quando a média é zero, quase zero ou negativa, nem quando o zero da escala é arbitrário.\n\n\nConverter metros em centímetros preserva o CV. Converter Celsius em Fahrenheit não preserva, porque existe uma mudança de origem.\n\n\n",
+  "sections": [
+    {
+      "id": "MAT-EST-009-s000",
+      "title": "Apresentação e contexto da fonte",
+      "paragraphs": [],
+      "markdown": "MAT-EST-009 — Coeficiente de variação: dispersão relativa e comparação entre escalas\n\n\nStatus editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.\nMatéria: Matemática.\nUnidade: Estatística.\nNível principal: 3 — transição entre Ensino Fundamental II e Ensino Médio, com aprofundamento para ENEM, FUVEST, UNICAMP, UNESP e ponte universitária.\nPré-requisitos: MAT-EST-001 a MAT-EST-008; média aritmética; desvio-padrão; razão, proporção e porcentagem.\nPróximo tópico: MAT-EST-010 — Quartis, decis e percentis: posição relativa e leitura de distribuição.\nQuestões desta reconstrução: 100% autorais.\n\n\n",
+      "sourceStart": 0,
+      "sourceEnd": 638
+    },
+    {
+      "id": "MAT-EST-009-s001",
+      "title": "1. Objetivo",
+      "paragraphs": [],
+      "markdown": "1. Objetivo\n\n\nAo concluir esta aula, o estudante deverá ser capaz de:\n\n\n• compreender por que o desvio-padrão absoluto nem sempre basta para comparar dispersões;\n• definir coeficiente de variação, ou CV;\n• calcular CV populacional e amostral quando apropriado;\n• interpretar o CV como dispersão relativa à média;\n• converter o CV para porcentagem;\n• reconhecer que o CV não possui unidade física quando usado adequadamente;\n• comparar conjuntos em escalas diferentes com cuidado;\n• reconhecer situações em que o CV é inadequado ou instável;\n• explicar por que médias iguais a zero ou muito próximas de zero criam problemas;\n• explicar por que escalas com zero arbitrário, como Celsius, exigem cautela;\n• distinguir comparação absoluta de comparação relativa;\n• relacionar o CV às transformações lineares estudadas na MAT-EST-008;\n• resolver problemas autorais no estilo de vestibulares.\n\n\n",
+      "sourceStart": 638,
+      "sourceEnd": 1527
+    },
+    {
+      "id": "MAT-EST-009-s002",
+      "title": "2. Retomada: por que o desvio-padrão pode não bastar?",
+      "paragraphs": [],
+      "markdown": "2. Retomada: por que o desvio-padrão pode não bastar?\n\n\nConsidere dois conjuntos de medidas na mesma unidade:\n\n\nGrupo A: média 10 e desvio-padrão 2.\nGrupo B: média 1000 e desvio-padrão 20.\n\n\nO grupo B tem desvio-padrão absoluto maior: 20 é maior que 2.\n\n\nMas a escala média de B também é cem vezes maior.\n\n\nNo grupo A, o desvio 2 corresponde a uma parcela relativamente grande da média 10.\nNo grupo B, o desvio 20 corresponde a uma parcela pequena da média 1000.\n\n\nIsso motiva uma medida relativa.\n\n\n",
+      "sourceStart": 1527,
+      "sourceEnd": 2027
+    },
+    {
+      "id": "MAT-EST-009-s003",
+      "title": "3. Definição do coeficiente de variação",
+      "paragraphs": [],
+      "markdown": "3. Definição do coeficiente de variação\n\n\nUma forma comum de coeficiente de variação é:\n\n\nCV = desvio-padrão / média.\n\n\nPara população:\n\n\nCV = σ / μ.\n\n\nLeitura pronunciável:\n“coeficiente de variação é igual ao desvio-padrão populacional dividido pela média populacional”.\n\n\nPara amostra:\n\n\nCV = s / x̄.\n\n\nLeitura:\n“coeficiente de variação amostral é igual ao desvio-padrão amostral dividido pela média amostral”.\n\n\n",
+      "sourceStart": 2027,
+      "sourceEnd": 2442
+    },
+    {
+      "id": "MAT-EST-009-s004",
+      "title": "4. Forma percentual",
+      "paragraphs": [],
+      "markdown": "4. Forma percentual\n\n\nMuitas vezes expressamos o CV em porcentagem:\n\n\nCV% = 100 × DP / média.\n\n\nExemplo:\n\n\nmédia = 50;\ndesvio-padrão = 5.\n\n\nCV = 5/50 = 0,10.\n\n\nCV% = 10%.\n\n\nInterpretação inicial: o desvio-padrão corresponde a 10% da média.\n\n\n",
+      "sourceStart": 2442,
+      "sourceEnd": 2684
+    },
+    {
+      "id": "MAT-EST-009-s005",
+      "title": "5. O CV é uma razão",
+      "paragraphs": [],
+      "markdown": "5. O CV é uma razão\n\n\nO CV é construído a partir de duas grandezas com a mesma unidade:\n\n\nDP em centímetros / média em centímetros.\n\n\nAs unidades se cancelam.\n\n\nPor isso, em situações adequadas, o CV é adimensional, isto é, não tem unidade física.\n\n\nQuando multiplicamos por 100, expressamos essa razão em porcentagem.\n\n\n",
+      "sourceStart": 2684,
+      "sourceEnd": 3005
+    },
+    {
+      "id": "MAT-EST-009-s006",
+      "title": "6. Exemplo comparativo simples",
+      "paragraphs": [],
+      "markdown": "6. Exemplo comparativo simples\n\n\nConjunto A:\nmédia 10;\nDP 2.\n\n\nCV = 2/10 = 0,20 = 20%.\n\n\nConjunto B:\nmédia 1000;\nDP 20.\n\n\nCV = 20/1000 = 0,02 = 2%.\n\n\nEmbora B tenha DP absoluto maior, A tem maior dispersão relativa à sua média.\n\n\n",
+      "sourceStart": 3005,
+      "sourceEnd": 3235
+    },
+    {
+      "id": "MAT-EST-009-s007",
+      "title": "7. Comparação absoluta versus relativa",
+      "paragraphs": [],
+      "markdown": "7. Comparação absoluta versus relativa\n\n\nDesvio-padrão responde:\n“qual é a escala absoluta do espalhamento?”\n\n\nCoeficiente de variação responde:\n“qual é o espalhamento em relação ao tamanho da média?”\n\n\nNenhuma das duas perguntas substitui a outra.\n\n\n",
+      "sourceStart": 3235,
+      "sourceEnd": 3486
+    },
+    {
+      "id": "MAT-EST-009-s008",
+      "title": "8. Quando o CV é útil?",
+      "paragraphs": [],
+      "markdown": "8. Quando o CV é útil?\n\n\nEle pode ser útil quando:\n\n\n• queremos comparar variabilidade de grandezas em escalas diferentes;\n• as médias são positivas e não estão próximas de zero;\n• a escala possui zero com significado de ausência da quantidade;\n• as variáveis estão em escala de razão;\n• a interpretação relativa faz sentido no contexto.\n\n\n",
+      "sourceStart": 3486,
+      "sourceEnd": 3826
+    },
+    {
+      "id": "MAT-EST-009-s009",
+      "title": "9. O que é uma escala de razão?",
+      "paragraphs": [],
+      "markdown": "9. O que é uma escala de razão?\n\n\nUma escala de razão possui um zero com significado de ausência da quantidade e permite interpretar razões.\n\n\nExemplos típicos:\n\n\nmassa;\ncomprimento;\ntempo decorrido;\nquantidade;\nrenda monetária não negativa em contexto apropriado;\nconcentração absoluta.\n\n\nSe uma massa é 20 kg e outra 10 kg, faz sentido dizer que a primeira é duas vezes a segunda.\n\n\n",
+      "sourceStart": 3826,
+      "sourceEnd": 4211
+    },
+    {
+      "id": "MAT-EST-009-s010",
+      "title": "10. Escalas intervalares e o problema do zero arbitrário",
+      "paragraphs": [],
+      "markdown": "10. Escalas intervalares e o problema do zero arbitrário\n\n\nTemperatura em graus Celsius é exemplo clássico de escala intervalar.\n\n\nZero grau Celsius não significa ausência de energia térmica.\n\n\nAlém disso, uma mudança de Celsius para Fahrenheit envolve:\n\n\nF = 1,8C + 32.\n\n\nNa MAT-EST-008 vimos que o termo +32 altera a média, mas não o DP.\n\n\nLogo, o CV muda.\n\n\nIsso mostra que o CV não é invariante a mudanças de origem.\n\n\n",
+      "sourceStart": 4211,
+      "sourceEnd": 4634
+    },
+    {
+      "id": "MAT-EST-009-s011",
+      "title": "11. Exemplo Celsius versus Fahrenheit",
+      "paragraphs": [],
+      "markdown": "11. Exemplo Celsius versus Fahrenheit\n\n\nSuponha:\n\n\nmédia em Celsius = 20 °C;\nDP = 2 °C.\n\n\nCV em Celsius:\n\n\n2/20 = 10%.\n\n\nConvertendo para Fahrenheit:\n\n\nmédia = 1,8×20 + 32 = 68 °F.\n\n\nDP = 1,8×2 = 3,6 °F.\n\n\nCV em Fahrenheit:\n\n\n3,6/68 ≈ 5,29%.\n\n\nA mesma realidade física produz CV diferente apenas pela mudança de escala.\n\n\nPortanto, comparar CV de temperaturas em Celsius é conceitualmente problemático.\n\n\n",
+      "sourceStart": 4634,
+      "sourceEnd": 5039
+    },
+    {
+      "id": "MAT-EST-009-s012",
+      "title": "12. Transformações multiplicativas",
+      "paragraphs": [],
+      "markdown": "12. Transformações multiplicativas\n\n\nSe todos os dados são multiplicados por uma constante positiva a:\n\n\nnova média = a × média;\nnovo DP = a × DP.\n\n\nEntão:\n\n\nnovo CV = (a×DP)/(a×média) = DP/média.\n\n\nO CV não muda.\n\n\nIsso mostra que o CV é invariante a mudança puramente multiplicativa de unidade.\n\n\n",
+      "sourceStart": 5039,
+      "sourceEnd": 5338
+    },
+    {
+      "id": "MAT-EST-009-s013",
+      "title": "13. Exemplo metros para centímetros",
+      "paragraphs": [],
+      "markdown": "13. Exemplo metros para centímetros\n\n\nMédia = 1,80 m.\nDP = 0,09 m.\n\n\nCV = 0,09/1,80 = 0,05 = 5%.\n\n\nConvertendo:\n\n\nmédia = 180 cm;\nDP = 9 cm.\n\n\nCV = 9/180 = 5%.\n\n\nO valor permanece igual.\n\n\n",
+      "sourceStart": 5338,
+      "sourceEnd": 5527
+    },
+    {
+      "id": "MAT-EST-009-s014",
+      "title": "14. Transformação com adição",
+      "paragraphs": [],
+      "markdown": "14. Transformação com adição\n\n\nSe:\n\n\ny = ax + b,\n\n\nentão:\n\n\nDP(y) = |a| DP(x),\n\n\nmas:\n\n\nmédia(y) = a média(x) + b.\n\n\nO termo b não aparece no DP, mas aparece na média.\n\n\nPortanto, em geral, CV não é preservado quando b ≠ 0.\n\n\n",
+      "sourceStart": 5527,
+      "sourceEnd": 5753
+    },
+    {
+      "id": "MAT-EST-009-s015",
+      "title": "15. Média igual a zero",
+      "paragraphs": [],
+      "markdown": "15. Média igual a zero\n\n\nSe média = 0, então:\n\n\nCV = DP/0.\n\n\nDivisão por zero não está definida.\n\n\nPortanto, o CV não é definido da maneira usual quando a média é zero.\n\n\n",
+      "sourceStart": 5753,
+      "sourceEnd": 5924
+    },
+    {
+      "id": "MAT-EST-009-s016",
+      "title": "16. Média próxima de zero",
+      "paragraphs": [],
+      "markdown": "16. Média próxima de zero\n\n\nMesmo quando a média não é exatamente zero, mas é muito pequena, o CV pode explodir.\n\n\nExemplo:\n\n\nmédia = 0,1;\nDP = 1.\n\n\nCV = 1/0,1 = 10 = 1000%.\n\n\nEsse número enorme pode ser consequência do denominador pequeno, e não de uma “variabilidade absurda” no sentido intuitivo.\n\n\n",
+      "sourceStart": 5924,
+      "sourceEnd": 6226
+    },
+    {
+      "id": "MAT-EST-009-s017",
+      "title": "17. Média negativa",
+      "paragraphs": [],
+      "markdown": "17. Média negativa\n\n\nSe a média for negativa, a fórmula simples produz CV negativo se mantivermos o sinal do denominador.\n\n\nIsso gera problemas de interpretação porque uma medida de dispersão relativa normalmente é pensada como não negativa.\n\n\nEm alguns contextos usa-se |média| no denominador, mas isso muda a convenção e precisa ser explicitado.\n\n\nRegra prática nesta trilha:\n\n\nnão use CV mecanicamente quando a média puder ser zero, próxima de zero ou negativa.\n\n\n",
+      "sourceStart": 6226,
+      "sourceEnd": 6693
+    },
+    {
+      "id": "MAT-EST-009-s018",
+      "title": "18. CV maior que 100%",
+      "paragraphs": [],
+      "markdown": "18. CV maior que 100%\n\n\nCV acima de 100% é matematicamente possível.\n\n\nExemplo:\n\n\nmédia = 4;\nDP = 6.\n\n\nCV = 6/4 = 1,5 = 150%.\n\n\nIsso significa que o DP é 1,5 vez a média.\n\n\nNão existe regra universal dizendo que CV acima de 100% é “erro”.\n\n\n",
+      "sourceStart": 6693,
+      "sourceEnd": 6934
+    },
+    {
+      "id": "MAT-EST-009-s019",
+      "title": "19. Não existem faixas universais de “baixo” e “alto” CV",
+      "paragraphs": [],
+      "markdown": "19. Não existem faixas universais de “baixo” e “alto” CV\n\n\nÉ comum encontrar regras como:\n\n\nCV menor que 10% = baixo;\nCV entre 10% e 20% = médio;\nCV acima de 30% = alto.\n\n\nEssas classificações podem existir em áreas específicas, mas não são leis gerais da estatística.\n\n\nO que é aceitável depende do fenômeno, da área, do instrumento, da escala e do objetivo.\n\n\n",
+      "sourceStart": 6934,
+      "sourceEnd": 7296
+    },
+    {
+      "id": "MAT-EST-009-s020",
+      "title": "20. Exemplo de comparação entre processos",
+      "paragraphs": [],
+      "markdown": "20. Exemplo de comparação entre processos\n\n\nProcesso A:\nmédia = 100 unidades;\nDP = 4.\n\n\nCV = 4%.\n\n\nProcesso B:\nmédia = 20 unidades;\nDP = 2.\n\n\nCV = 10%.\n\n\nB tem menor DP absoluto, mas maior dispersão relativa.\n\n\n",
+      "sourceStart": 7296,
+      "sourceEnd": 7507
+    },
+    {
+      "id": "MAT-EST-009-s021",
+      "title": "21. Exemplo com medidas corporais",
+      "paragraphs": [],
+      "markdown": "21. Exemplo com medidas corporais\n\n\nGrupo A:\naltura média = 170 cm;\nDP = 8,5 cm.\n\n\nCV = 8,5/170 = 5%.\n\n\nGrupo B:\nmassa média = 70 kg;\nDP = 7 kg.\n\n\nCV = 10%.\n\n\nOs DPs não podem ser comparados diretamente porque têm unidades diferentes.\n\n\nOs CVs são adimensionais e permitem uma comparação relativa, desde que a interpretação seja conceitualmente adequada.\n\n\n",
+      "sourceStart": 7507,
+      "sourceEnd": 7864
+    },
+    {
+      "id": "MAT-EST-009-s022",
+      "title": "22. Limitação: variáveis diferentes continuam sendo fenômenos diferentes",
+      "paragraphs": [],
+      "markdown": "22. Limitação: variáveis diferentes continuam sendo fenômenos diferentes\n\n\nMesmo quando o CV permite comparação numérica, não devemos esquecer o significado substantivo das variáveis.\n\n\nUm CV de 10% para massa corporal e 10% para tempo de reação têm a mesma dispersão relativa em relação às respectivas médias, mas isso não transforma os fenômenos em equivalentes.\n\n\n",
+      "sourceStart": 7864,
+      "sourceEnd": 8231
+    },
+    {
+      "id": "MAT-EST-009-s023",
+      "title": "23. CV populacional e amostral",
+      "paragraphs": [],
+      "markdown": "23. CV populacional e amostral\n\n\nSe estamos descrevendo população completa:\n\n\nCVpop = σ/μ.\n\n\nSe estamos trabalhando com amostra e usando o DP amostral:\n\n\nCVam = s/x̄.\n\n\nA escolha deve ser coerente com a definição de média e desvio-padrão usada.\n\n\n",
+      "sourceStart": 8231,
+      "sourceEnd": 8478
+    },
+    {
+      "id": "MAT-EST-009-s024",
+      "title": "24. Exemplo amostral",
+      "paragraphs": [],
+      "markdown": "24. Exemplo amostral\n\n\nAmostra:\n\n\nmédia x̄ = 50;\nDP amostral s = 7,5.\n\n\nCV = 7,5/50 = 0,15 = 15%.\n\n\n",
+      "sourceStart": 8478,
+      "sourceEnd": 8578
+    },
+    {
+      "id": "MAT-EST-009-s025",
+      "title": "25. Cuidado ao misturar DP populacional e média amostral",
+      "paragraphs": [],
+      "markdown": "25. Cuidado ao misturar DP populacional e média amostral\n\n\nUsar σ no numerador e x̄ no denominador pode misturar parâmetros e estatísticas de origens diferentes.\n\n\nSempre identifique o que cada símbolo representa.\n\n\n",
+      "sourceStart": 8578,
+      "sourceEnd": 8794
+    },
+    {
+      "id": "MAT-EST-009-s026",
+      "title": "26. Relação com variância",
+      "paragraphs": [],
+      "markdown": "26. Relação com variância\n\n\nComo DP = √variância:\n\n\nCV = √variância / média.\n\n\nMas não usamos variância diretamente no numerador porque ela está em unidade ao quadrado.\n\n\nO DP devolve a unidade original antes de formar a razão.\n\n\n",
+      "sourceStart": 8794,
+      "sourceEnd": 9024
+    },
+    {
+      "id": "MAT-EST-009-s027",
+      "title": "27. CV e mesma média",
+      "paragraphs": [],
+      "markdown": "27. CV e mesma média\n\n\nSe dois conjuntos têm a mesma média positiva, comparar CV é equivalente a comparar DP.\n\n\nExemplo:\n\n\nA: média 50, DP 2.\nB: média 50, DP 5.\n\n\nCV A = 4%.\nCV B = 10%.\n\n\nA ordenação é a mesma do DP.\n\n\n",
+      "sourceStart": 9024,
+      "sourceEnd": 9243
+    },
+    {
+      "id": "MAT-EST-009-s028",
+      "title": "28. CV e médias diferentes",
+      "paragraphs": [],
+      "markdown": "28. CV e médias diferentes\n\n\nQuando médias diferem, a ordenação pode mudar.\n\n\nA: média 10, DP 2 → CV 20%.\nB: média 100, DP 5 → CV 5%.\n\n\nB tem DP maior, mas CV menor.\n\n\n",
+      "sourceStart": 9243,
+      "sourceEnd": 9411
+    },
+    {
+      "id": "MAT-EST-009-s029",
+      "title": "29. CV e mudança de unidade",
+      "paragraphs": [],
+      "markdown": "29. CV e mudança de unidade\n\n\nQuilômetros para metros é multiplicação por 1000.\n\n\nSe média e DP são multiplicados por 1000, o CV permanece igual.\n\n\nEssa propriedade torna o CV útil para comparações relativas entre unidades de medida equivalentes.\n\n\n",
+      "sourceStart": 9411,
+      "sourceEnd": 9660
+    },
+    {
+      "id": "MAT-EST-009-s030",
+      "title": "30. CV e deslocamento de origem",
+      "paragraphs": [],
+      "markdown": "30. CV e deslocamento de origem\n\n\nCelsius para Fahrenheit inclui adição de 32.\n\n\nO DP sofre apenas multiplicação por 1,8, enquanto a média sofre multiplicação e adição.\n\n\nO CV muda.\n\n\nEssa é uma razão fundamental para exigir escala de razão.\n\n\n",
+      "sourceStart": 9660,
+      "sourceEnd": 9904
+    },
+    {
+      "id": "MAT-EST-009-s031",
+      "title": "31. Exemplo completo 1",
+      "paragraphs": [],
+      "markdown": "31. Exemplo completo 1\n\n\nConjunto A:\nmédia 40;\nDP 8.\n\n\nCV = 8/40 = 0,20 = 20%.\n\n\nConjunto B:\nmédia 100;\nDP 15.\n\n\nCV = 15/100 = 15%.\n\n\nA tem maior dispersão relativa, apesar de DP menor.\n\n\n",
+      "sourceStart": 9904,
+      "sourceEnd": 10092
+    },
+    {
+      "id": "MAT-EST-009-s032",
+      "title": "32. Exemplo completo 2",
+      "paragraphs": [],
+      "markdown": "32. Exemplo completo 2\n\n\nProduto A:\npreço médio R$ 20;\nDP R$ 1.\n\n\nCV = 5%.\n\n\nProduto B:\npreço médio R$ 100;\nDP R$ 8.\n\n\nCV = 8%.\n\n\nB apresenta maior dispersão relativa de preço.\n\n\n",
+      "sourceStart": 10092,
+      "sourceEnd": 10271
+    },
+    {
+      "id": "MAT-EST-009-s033",
+      "title": "33. Exemplo completo 3 — conversão de unidade",
+      "paragraphs": [],
+      "markdown": "33. Exemplo completo 3 — conversão de unidade\n\n\nComprimento médio = 2 m.\nDP = 0,1 m.\n\n\nCV = 5%.\n\n\nEm centímetros:\n\n\nmédia = 200 cm;\nDP = 10 cm;\n\n\nCV = 5%.\n\n\n",
+      "sourceStart": 10271,
+      "sourceEnd": 10428
+    },
+    {
+      "id": "MAT-EST-009-s034",
+      "title": "34. Exemplo completo 4 — média pequena",
+      "paragraphs": [],
+      "markdown": "34. Exemplo completo 4 — média pequena\n\n\nmédia = 0,02;\nDP = 0,05.\n\n\nCV = 250%.\n\n\nAntes de interpretar como “grande variabilidade”, devemos perguntar se a média próxima de zero torna o CV inadequado para a finalidade.\n\n\n",
+      "sourceStart": 10428,
+      "sourceEnd": 10647
+    },
+    {
+      "id": "MAT-EST-009-s035",
+      "title": "35. Exemplo completo 5 — zero arbitrário",
+      "paragraphs": [],
+      "markdown": "35. Exemplo completo 5 — zero arbitrário\n\n\nTemperatura:\n\n\nmédia 10 °C;\nDP 2 °C.\n\n\nCV Celsius = 20%.\n\n\nEm Fahrenheit:\n\n\nmédia = 50 °F;\nDP = 3,6 °F.\n\n\nCV = 7,2%.\n\n\nO CV mudou drasticamente sem alteração física do fenômeno.\n\n\n",
+      "sourceStart": 10647,
+      "sourceEnd": 10870
+    },
+    {
+      "id": "MAT-EST-009-s036",
+      "title": "36. Por que “adimensional” não significa “sempre comparável”?",
+      "paragraphs": [],
+      "markdown": "36. Por que “adimensional” não significa “sempre comparável”?\n\n\nDuas medidas sem unidade podem ter significados diferentes.\n\n\nA ausência de unidade facilita a comparação numérica, mas não elimina a necessidade de contexto, escala de mensuração e significado científico.\n\n\n",
+      "sourceStart": 10870,
+      "sourceEnd": 11142
+    },
+    {
+      "id": "MAT-EST-009-s037",
+      "title": "37. Comparação entre laboratórios",
+      "paragraphs": [],
+      "markdown": "37. Comparação entre laboratórios\n\n\nLaboratório A:\nmédia = 500 mg;\nDP = 10 mg.\n\n\nCV = 2%.\n\n\nLaboratório B:\nmédia = 50 mg;\nDP = 2 mg.\n\n\nCV = 4%.\n\n\nA tem maior DP absoluto, mas menor variabilidade relativa.\n\n\n",
+      "sourceStart": 11142,
+      "sourceEnd": 11349
+    },
+    {
+      "id": "MAT-EST-009-s038",
+      "title": "38. CV em controle de qualidade",
+      "paragraphs": [],
+      "markdown": "38. CV em controle de qualidade\n\n\nEm alguns contextos de laboratório, indústria e metrologia, o CV é usado para expressar repetibilidade relativa.\n\n\nMas os limites aceitáveis dependem do método e da área. Não existe um único corte universal.\n\n\n",
+      "sourceStart": 11349,
+      "sourceEnd": 11593
+    },
+    {
+      "id": "MAT-EST-009-s039",
+      "title": "39. CV e precisão",
+      "paragraphs": [],
+      "markdown": "39. CV e precisão\n\n\nCV baixo pode indicar baixa dispersão relativa.\n\n\nIsso pode estar associado a boa repetibilidade.\n\n\nMas, como discutido na MAT-EST-008, baixa dispersão não garante exatidão.\n\n\nUm instrumento pode ser muito consistente e sistematicamente errado.\n\n\n",
+      "sourceStart": 11593,
+      "sourceEnd": 11860
+    },
+    {
+      "id": "MAT-EST-009-s040",
+      "title": "40. CV e valores extremos",
+      "paragraphs": [],
+      "markdown": "40. CV e valores extremos\n\n\nComo o CV usa DP, ele herda a sensibilidade do desvio-padrão aos valores extremos.\n\n\nUm extremo pode aumentar o DP e também alterar a média.\n\n\nO efeito final no CV depende das duas mudanças.\n\n\n",
+      "sourceStart": 11860,
+      "sourceEnd": 12081
+    },
+    {
+      "id": "MAT-EST-009-s041",
+      "title": "41. CV não é medida robusta",
+      "paragraphs": [],
+      "markdown": "41. CV não é medida robusta\n\n\nComo média e DP são sensíveis a extremos, o CV também é sensível.\n\n\nEm dados muito assimétricos ou com extremos importantes, outras medidas relativas podem ser mais adequadas, dependendo do objetivo.\n\n\n",
+      "sourceStart": 12081,
+      "sourceEnd": 12313
+    },
+    {
+      "id": "MAT-EST-009-s042",
+      "title": "42. CV e dados lognormais",
+      "paragraphs": [],
+      "markdown": "42. CV e dados lognormais\n\n\nEm áreas como biologia, finanças e confiabilidade, dados positivos e assimétricos podem ser modelados por distribuições lognormais.\n\n\nHá relações específicas entre parâmetros logarítmicos e CV.\n\n\nEsse assunto é uma ponte universitária e não será aprofundado agora.\n\n\n",
+      "sourceStart": 12313,
+      "sourceEnd": 12608
+    },
+    {
+      "id": "MAT-EST-009-s043",
+      "title": "43. Alternativas relativas",
+      "paragraphs": [],
+      "markdown": "43. Alternativas relativas\n\n\nDependendo da situação, podem ser usadas outras medidas:\n\n\n• amplitude relativa;\n• desvio absoluto relativo;\n• razão entre amplitude interquartil e mediana;\n• medidas baseadas em logaritmos.\n\n\nA escolha depende do tipo de dado e da pergunta.\n\n\n",
+      "sourceStart": 12608,
+      "sourceEnd": 12881
+    },
+    {
+      "id": "MAT-EST-009-s044",
+      "title": "44. Relação com quartis",
+      "paragraphs": [],
+      "markdown": "44. Relação com quartis\n\n\nA próxima aula estudará quartis, decis e percentis.\n\n\nEssas medidas permitem construir formas de dispersão menos sensíveis a extremos, como amplitude interquartil.\n\n\n",
+      "sourceStart": 12881,
+      "sourceEnd": 13073
+    },
+    {
+      "id": "MAT-EST-009-s045",
+      "title": "45. Relação com box-plot",
+      "paragraphs": [],
+      "markdown": "45. Relação com box-plot\n\n\nO box-plot usa quartis e amplitude interquartil para representar centro, dispersão e possíveis extremos.\n\n\nEle complementa média, DP e CV com uma visão baseada em posições.\n\n\n",
+      "sourceStart": 13073,
+      "sourceEnd": 13275
+    },
+    {
+      "id": "MAT-EST-009-s046",
+      "title": "46. Relação com BNCC, ENEM e FUVEST",
+      "paragraphs": [],
+      "markdown": "46. Relação com BNCC, ENEM e FUVEST\n\n\nA BNCC constrói os fundamentos de centro e dispersão nos anos finais, especialmente com média, mediana, moda e amplitude.\n\n\nA FUVEST 2027 inclui explicitamente amplitude, desvio-médio, variância, desvio-padrão e coeficiente de variação entre as medidas de dispersão.\n\n\nA Matriz de Referência do Enem publicada pelo Inep em 2026 orienta competências de resolução de problemas e análise de dados. As questões desta reconstrução são autorais.\n\n\n",
+      "sourceStart": 13275,
+      "sourceEnd": 13755
+    },
+    {
+      "id": "MAT-EST-009-s047",
+      "title": "47. O que observar nos seis visuais",
+      "paragraphs": [],
+      "markdown": "47. O que observar nos seis visuais\n\n\nVisual 1 — DP absoluto versus CV.\nCompare dois grupos em escalas muito diferentes.\n\n\nVisual 2 — invariância por multiplicação.\nObserve que converter metros em centímetros multiplica média e DP pelo mesmo fator, preservando CV.\n\n\nVisual 3 — falha por adição de constante.\nObserve Celsius e Fahrenheit: o termo +32 altera a razão.\n\n\nVisual 4 — média próxima de zero.\nObserve como o denominador pequeno faz o CV crescer muito.\n\n\nVisual 5 — comparação de quatro grupos.\nObserve que a ordenação por DP pode ser diferente da ordenação por CV.\n\n\nVisual 6 — árvore de decisão.\nVerifique média positiva, zero significativo, escala de razão e objetivo comparativo antes de usar CV.\n\n\n",
+      "sourceStart": 13755,
+      "sourceEnd": 14467
+    },
+    {
+      "id": "MAT-EST-009-s048",
+      "title": "48. Erros frequentes",
+      "paragraphs": [],
+      "markdown": "48. Erros frequentes\n\n\nErro 1. Dividir variância pela média em vez de DP pela média.\nErro 2. Esquecer de multiplicar por 100 ao apresentar percentual.\nErro 3. Comparar CV em escala Celsius sem questionar o zero arbitrário.\nErro 4. Usar CV com média zero.\nErro 5. Interpretar CV enorme com média quase zero sem cautela.\nErro 6. Tratar faixas de “CV baixo/médio/alto” como universais.\nErro 7. Achar que CV sem unidade torna quaisquer fenômenos comparáveis.\nErro 8. Misturar DP populacional com média amostral sem justificativa.\nErro 9. Ignorar valores extremos.\nErro 10. Confundir baixa variabilidade relativa com exatidão.\n\n\n",
+      "sourceStart": 14467,
+      "sourceEnd": 15091
+    },
+    {
+      "id": "MAT-EST-009-s049",
+      "title": "49. Resumo",
+      "paragraphs": [],
+      "markdown": "49. Resumo\n\n\nCV = DP/média.\n\n\nCV% = 100 × DP/média.\n\n\nEm escalas de razão com média positiva, o CV mede dispersão relativa.\n\n\nMultiplicar todos os valores por constante positiva não altera o CV.\n\n\nAdicionar constante altera o CV em geral.\n\n\nCV não é adequado de forma automática para médias zero, próximas de zero ou negativas.\n\n\nEscalas com zero arbitrário, como Celsius, exigem cautela.\n\n\n",
+      "sourceStart": 15091,
+      "sourceEnd": 15482
+    },
+    {
+      "id": "MAT-EST-009-s050",
+      "title": "50. Versão curta para ouvir",
+      "paragraphs": [],
+      "markdown": "50. Versão curta para ouvir\n\n\nO coeficiente de variação compara o desvio-padrão com a média.\n\n\nEle responde quanto o espalhamento representa em relação ao tamanho médio dos valores.\n\n\nA fórmula percentual é cem vezes o desvio-padrão dividido pela média.\n\n\nÉ útil para comparar dispersão relativa em escalas de razão e médias positivas.\n\n\nNão use mecanicamente quando a média é zero, quase zero ou negativa, nem quando o zero da escala é arbitrário.\n\n\nConverter metros em centímetros preserva o CV. Converter Celsius em Fahrenheit não preserva, porque existe uma mudança de origem.\n\n\n",
+      "sourceStart": 15482,
+      "sourceEnd": 16065
+    },
+    {
+      "id": "MAT-EST-009-s051",
+      "title": "51. Vídeo complementar",
+      "paragraphs": [],
+      "markdown": "51. Vídeo complementar\n\n\nVídeo recomendado:\n“COEFICIENTE DE VARIAÇÃO : MEDIDA DE DISPERSÃO”.\nCanal: Prof. MURAKAMI - MATEMÁTICA RAPIDOLA.\nURL: https://www.youtube.com/watch?v=ZFj5WbYzr4Q\n\n\nMotivo:\nA descrição pública define o CV como medida padronizada de dispersão, explica a forma percentual e sua utilidade para comparar variabilidade relativa.\n\n\nQuando assistir:\nApós as seções 3 a 8 e antes dos exercícios de consolidação.\n\n\nEstado de QA:\nA página e a descrição pública foram localizadas. Reprodução integral, áudio, duração efetiva e sincronização das legendas no Microsoft Edge permanecem pendentes.\n\n\n",
+      "sourceStart": 16065,
+      "sourceEnd": 16674
+    },
+    {
+      "id": "MAT-EST-009-s052",
+      "title": "52. Critério de domínio",
+      "paragraphs": [],
+      "markdown": "52. Critério de domínio\n\n\nO tópico só deve ser marcado como consolidado quando o estudante conseguir:\n\n\n• calcular CV;\n• interpretar a porcentagem;\n• distinguir DP absoluto e relativo;\n• comparar escalas;\n• explicar invariância multiplicativa;\n• explicar falha sob translação;\n• reconhecer média zero ou próxima de zero;\n• justificar quando não usar CV;\n• resolver situação nova sem copiar modelo pronto.\n\n\nA produção editorial não altera progresso individual.\n\n\n",
+      "sourceStart": 16674,
+      "sourceEnd": 17137
+    },
+    {
+      "id": "MAT-EST-009-s053",
+      "title": "53. Próximo passo",
+      "paragraphs": [],
+      "markdown": "53. Próximo passo\n\n\nMAT-EST-010 — Quartis, decis e percentis: posição relativa e leitura de distribuição.\n",
+      "sourceStart": 17137,
+      "sourceEnd": 17243
+    }
+  ],
+  "sources": [
+    {
+      "title": "MAT-EST-009 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "previous": "MAT-EST-008",
+  "next": "MAT-EST-010",
+  "videos": [
+    {
+      "title": "COEFICIENTE DE VARIAÇÃO : MEDIDA DE DISPERSÃO",
+      "channel": "Prof. MURAKAMI - MATEMÁTICA RAPIDOLA",
+      "url": "https://www.youtube.com/watch?v=ZFj5WbYzr4Q",
+      "duration": "Duração não confirmada",
+      "language": "Português",
+      "reason": "Reforça o conceito apresentado nesta aula.",
+      "when": "Depois dos exemplos resolvidos, antes dos exercícios.",
+      "reinforces": [],
+      "checkedAt": "2026-10-03",
+      "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+      "type": "video"
+    }
+  ],
+  "video": {
+    "title": "COEFICIENTE DE VARIAÇÃO : MEDIDA DE DISPERSÃO",
+    "channel": "Prof. MURAKAMI - MATEMÁTICA RAPIDOLA",
+    "url": "https://www.youtube.com/watch?v=ZFj5WbYzr4Q",
+    "duration": "Duração não confirmada",
+    "language": "Português",
+    "reason": "Reforça o conceito apresentado nesta aula.",
+    "when": "Depois dos exemplos resolvidos, antes dos exercícios.",
+    "reinforces": [],
+    "checkedAt": "2026-10-03",
+    "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+    "type": "video"
+  },
+  "publication": {
+    "kind": "Reconstrução editorial v1; sem identidade binária com a edição histórica.",
+    "notes": [
+      "A produção e a publicação não registram domínio nem alteram seu progresso.",
+      "As referências a publicação pendente no texto original registram o estado da fonte na data de criação."
+    ],
+    "original": "originais/MAT-EST-009/aula.md",
+    "editions": [
+      {
+        "label": "MAT-EST-009 — gabarito comentado — reconstrução editorial v1 · 2026-10-03",
+        "url": "originais/MAT-EST-009/edicoes/1uG-FxymKBhyvgt3IhkamnWTcd9ZC3YCxNqkdTb_uiBk.txt"
+      },
+      {
+        "label": "MAT-EST-009 — metadados — reconstrução editorial v1 · 2026-10-03",
+        "url": "originais/MAT-EST-009/edicoes/1TSmKIostIS-lWYARUkflaUe-wk7wHMzmKjdia7lVH9I.txt"
+      },
+      {
+        "label": "MAT-EST-009 — manifesto da reconstrução v1 · 2026-10-03",
+        "url": "originais/MAT-EST-009/edicoes/1YawNK1bpPpDms8WutvB-aD97E-L78RWCuMQAZVBB6p0.txt"
+      },
+      {
+        "label": "MAT-EST-009 — exercícios — reconstrução editorial v1 · 2026-10-03",
+        "url": "originais/MAT-EST-009/edicoes/1szGGCYPMXhtw-oxk2AZMnOJr_j1DMAHm-6LmXi8KSvA.txt"
+      },
+      {
+        "label": "MAT-EST-009 — aula completa — reconstrução editorial v1 · 2026-10-03",
+        "url": "originais/MAT-EST-009/edicoes/1StkVSdX90fma38MzKy1naNlcfCgWjHpF4e5KoQ2lYHs.txt"
+      },
+      {
+        "label": "MAT-EST-009-metadados.json · 2026-10-02",
+        "url": "originais/MAT-EST-009/edicoes/1ycjt_TxIxTHZ46GydmEV0abZwzwx3dbU.txt"
+      },
+      {
+        "label": "MAT-EST-009 — manifesto da reconstrução v1 · 2026-10-02",
+        "url": "originais/MAT-EST-009/edicoes/1Zl9oy-PFT116vqfPNNFlifJrcUOn6nNIvJweeFMRVmk.txt"
+      },
+      {
+        "label": "MAT-EST-009 — gabarito comentado — reconstrução editorial v1 · 2026-10-02",
+        "url": "originais/MAT-EST-009/edicoes/1-292GSb4aKWJheMPee-HGgozMZN8c-_tLjJxMVm27f0.txt"
+      },
+      {
+        "label": "MAT-EST-009 — exercícios — reconstrução editorial v1 · 2026-10-02",
+        "url": "originais/MAT-EST-009/edicoes/1DX13ySRo6nU2GsVPKu3zKBfhdRUO3WpBq8poAaFq0x4.txt"
+      },
+      {
+        "label": "MAT-EST-009 — aula completa — reconstrução editorial v1 · 2026-10-02",
+        "url": "originais/MAT-EST-009/edicoes/1SyPi3MV2QOHWAaesB3a7m95j4bC3JDXujvZJbdFJblI.txt"
+      },
+      {
+        "label": "Visual de outra fonte recuperada · 06-checklist-uso.svg",
+        "url": "originais/MAT-EST-009/edicoes/ativos/1UJ_HvRzBibV4h6zn8UiWvWEoToLynQ1g/06-checklist-uso.svg"
+      },
+      {
+        "label": "Visual de outra fonte recuperada · 05-media-proxima-zero.svg",
+        "url": "originais/MAT-EST-009/edicoes/ativos/11F4SKN_Y6ab5Le6v2dnB5uxrBJwbF0-L/05-media-proxima-zero.svg"
+      },
+      {
+        "label": "Visual de outra fonte recuperada · 04-soma-constante.svg",
+        "url": "originais/MAT-EST-009/edicoes/ativos/1hkzVjX61vjVmhXaxIgiFyae_9yDO0zz8/04-soma-constante.svg"
+      },
+      {
+        "label": "Visual de outra fonte recuperada · 03-conversao-unidade.svg",
+        "url": "originais/MAT-EST-009/edicoes/ativos/1m-wgA9mlGIfiof2evNlUIhjKrSuJ9XxU/03-conversao-unidade.svg"
+      },
+      {
+        "label": "Visual de outra fonte recuperada · 02-formula-unidades.svg",
+        "url": "originais/MAT-EST-009/edicoes/ativos/1gICkZX59EX2OwZC0VUJPDHYnn0-daLI5/02-formula-unidades.svg"
+      },
+      {
+        "label": "Visual de outra fonte recuperada · 01-dp-versus-cv.svg",
+        "url": "originais/MAT-EST-009/edicoes/ativos/1EMpdKojePPNATa6tSua4DGG3URZFI5sV/01-dp-versus-cv.svg"
+      }
+    ],
+    "attachments": [],
+    "questionCount": 36,
+    "visualCount": 6,
+    "sourceSha256": "c509a550099f4fe89da8bb9c9a53bb8b72806e43ee27f82a3f473b07574ce068"
+  }
+}

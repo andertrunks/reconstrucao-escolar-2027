@@ -1,0 +1,32 @@
+{
+  "natureza": "contas de SANDBOX-057 somente, não são a coorte t26–t33 nem resultado de campo",
+  "denominador_planejado_ilustrativo": 8,
+  "elegiveis_ilustrativos": 2,
+  "pendentes_ou_nao_avaliaveis_no_corte": 6,
+  "taxa_pares_avaliaveis": "2/8 = 25%",
+  "MAE_base_somente_2_elegiveis": "3",
+  "MAE_desafiante_somente_2_elegiveis": "4",
+  "custo_medio_base_somente_2_elegiveis": "7",
+  "custo_medio_desafiante_somente_2_elegiveis": "7",
+  "MAE_coorte_confirmatoria_real": null,
+  "motivo": "nenhuma emissão ou observação t26–t33",
+  "status_por_categoria": {
+    "eligible_demo": 2,
+    "pending": 1,
+    "pending_at_cut": 5
+  },
+  "intervalos_condicionais_se_limite_didatico_M=10_para_6_pendentes": {
+    "base": [
+      "0.75",
+      "8.25"
+    ],
+    "desafiante": [
+      "1",
+      "8.5"
+    ],
+    "premissa": "hipótese artificial |erro|<=10 em seis casos pendentes; não foi demonstrada, não representa intervalo de confiança"
+  },
+  "observacoes_t23_t33_criadas": 0,
+  "emissoes_t23_t33_criadas": 0,
+  "assinaturas_reais": 0
+}

@@ -1,0 +1,13 @@
+{
+  "titulo": "Lecture 12: Time Series Analysis",
+  "canal": "MIT OpenCourseWare",
+  "apresentador": "Peter Kempthorne",
+  "duracaoAproximada": "1 h 20 min 32 s (MIT Learn)",
+  "url": "https://learn.mit.edu/video/21027/lecture-12-time-series-analysis?playlist=21012",
+  "paginaInstitucional": "https://ocw.mit.edu/courses/18-642-topics-in-mathematics-with-applications-in-finance-fall-2024/pages/week-7/",
+  "quandoAssistir": "após o exemplo de atualização temporal e antes da consolidação",
+  "porQue": "retoma estruturas temporais, estacionariedade e autocorrelação que fundamentam diagnóstico; o protocolo de monitoramento é desenvolvido na aula e nas leituras, não atribuído ao vídeo.",
+  "paginaPublicacaoLocalizada": true,
+  "reproducaoIntegralVerificada": false,
+  "testeEdgeRealizado": false
+}

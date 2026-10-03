@@ -1,0 +1,37 @@
+MAT-EST-045 — RELATÓRIO DE QA LOCAL
+OK | ID, título, predecessor e sucessor
+OK | Markdown sem controles nem interpolação não resolvida
+OK | dados herdados preservados bit-a-bit
+OK | inicialização com primeiro ciclo somente
+OK | parâmetros consistentes com convenção gamma
+OK | primeira previsão emitida antes de observar
+OK | primeira atualização de três estados
+OK | sequência t5 a t8 sem vazamento
+OK | estado final numericamente conferido
+OK | previsões de quatro passos
+OK | deslocamento sazonal calculado só com treino
+OK | mae e rmse HW
+OK | mae e rmse deslocamento
+OK | inversão de métricas comprovada
+OK | t9..t12 não apresentados como novo teste
+OK | 36 questões com camadas corretas
+OK | IDs de questões únicos
+OK | Enunciados únicos
+OK | gabarito separado e idêntico universo de IDs
+OK | resoluções explicativas
+OK | questões inteiramente autorais e nenhum progresso inventado
+OK | nenhum gabarito infiltrado no arquivo de exercícios
+OK | sete visuais metadados completos
+OK | SVG acessível MAT-EST-045-VIS-01
+OK | SVG acessível MAT-EST-045-VIS-02
+OK | SVG acessível MAT-EST-045-VIS-03
+OK | SVG acessível MAT-EST-045-VIS-04
+OK | SVG acessível MAT-EST-045-VIS-05
+OK | SVG acessível MAT-EST-045-VIS-06
+OK | SVG acessível MAT-EST-045-VIS-07
+OK | sete imagens incorporadas ao Markdown
+OK | video com transparência de verificação
+OK | sem questões oficiais alegadas
+OK | script reprodutível independente
+OK | preview renderizada
+OK | gabarito e exercício JSON válidos

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "MAT-EST-036-VIS-01",
+    "arquivo": "assets/01-mapa-pre-requisitos.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Mapa de dependências conceituais",
+    "legenda": "Mapa de dependências conceituais",
+    "alt": "Fluxo de fundamentos até modelos e revisão, com possibilidade de voltar aos pré-requisitos.",
+    "oQueObservar": "A revisão não é um salto diretamente do simulado à nota.",
+    "conclusaoTextual": "Erros são diagnosticados pelo fundamento ausente e retestados depois de remediação."
+  },
+  {
+    "id": "MAT-EST-036-VIS-02",
+    "arquivo": "assets/02-amostra-inferencia.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "População, amostra e inferência",
+    "legenda": "População, amostra e inferência",
+    "alt": "População, amostra e inferência ligadas por setas; observação sobre viés.",
+    "oQueObservar": "Observe que a seleção da amostra é etapa distinta do cálculo.",
+    "conclusaoTextual": "Precisão numérica não garante representatividade."
+  },
+  {
+    "id": "MAT-EST-036-VIS-03",
+    "arquivo": "assets/03-cadeia-inferencial.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Da pergunta à conclusão verificável",
+    "legenda": "Da pergunta à conclusão verificável",
+    "alt": "Quatro etapas de análise, com contraste entre interpretação adequada e generalização não demonstrada.",
+    "oQueObservar": "Observe a checagem de condições antes da conclusão.",
+    "conclusaoTextual": "Uma estatística correta não valida um desenho de pesquisa inadequado."
+  },
+  {
+    "id": "MAT-EST-036-VIS-04",
+    "arquivo": "assets/04-matriz-decisoes.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Matriz de decisão de um teste",
+    "legenda": "Matriz de decisão de um teste",
+    "alt": "Tabela 2 por 2: rejeitar ou não rejeitar cruzado com H0 verdadeira ou falsa.",
+    "oQueObservar": "Observe que não rejeitar H0 falsa também é possível.",
+    "conclusaoTextual": "Poder é um menos beta sob uma alternativa especificada; não rejeitar não prova H0."
+  },
+  {
+    "id": "MAT-EST-036-VIS-05",
+    "arquivo": "assets/05-metricas-teste.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Métricas do teste: MAE e RMSE",
+    "legenda": "Métricas do teste: MAE e RMSE",
+    "alt": "Barras com MAE e RMSE: A 5/5, B 6,25/12,5 e Base 12,5/aproximadamente 16,58 atendimentos.",
+    "oQueObservar": "Observe que o erro extremo do modelo B aumenta muito o RMSE.",
+    "conclusaoTextual": "As métricas respondem a critérios distintos, não servem como prova de superioridade universal."
+  },
+  {
+    "id": "MAT-EST-036-VIS-06",
+    "arquivo": "assets/06-cadeia-reprodutibilidade.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Cadeia de reprodutibilidade",
+    "legenda": "Cadeia de reprodutibilidade",
+    "alt": "CSV, protocolo, recálculo e parecer em sequência.",
+    "oQueObservar": "Observe que cópia de cálculos anteriores não substitui o recálculo.",
+    "conclusaoTextual": "Reprodutibilidade e validade externa são perguntas diferentes."
+  },
+  {
+    "id": "MAT-EST-036-VIS-07",
+    "arquivo": "assets/07-revisao-longitudinal.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Revisão longitudinal iniciada pelo estudo real",
+    "legenda": "Revisão longitudinal iniciada pelo estudo real",
+    "alt": "Quatro caixas D0, D+1, D+7 e D+30 em sequência.",
+    "oQueObservar": "Observe que os prazos são relativos à data em que uma tentativa efetivamente ocorrer.",
+    "conclusaoTextual": "Retenção se verifica com recuperação e aplicação, não apenas leitura repetida."
+  }
+]

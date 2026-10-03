@@ -1,0 +1,41 @@
+{
+  "projeto": "Reconstrução Escolar + ENEM e Vestibulares 2027",
+  "ultimo_pacote_editorial_integral_confirmado_por_checkpoint_textual": "MAT-EST-066",
+  "incremento_atual": "MAT-EST-067",
+  "titulo": "Transferência integradora da estatística temporal para decisões sob dados incompletos: leitura de evidências e exercícios inéditos",
+  "estado_novos_arquivos": "conteúdo editorial local produzido e verificável isoladamente",
+  "estado_integracao": "pendente de acesso aos bytes de MAT-EST-066-pacote-integracao.zip e conferência de todos os 23 invariantes e ZIP MAT-EST-065; não formar pacote cumulativo agora",
+  "etapa_a_seguir": "anexar ZIP original MAT-EST-066, integrar incremental 067, verificar bytes/hashes e então definir próximo tópico",
+  "proximo_topico_editorial": "MAT-EST-068 não iniciado ou autorizado no presente checkpoint",
+  "progresso_individual": "não iniciado; sem tentativas; inalterado",
+  "caso_novo": "LAB-067 autoral, isolado, seis cartões, quatro avaliáveis, dois pendentes; MAE B 2,5 e C 1,75 kits; custo 6,5 e 2,75 pontos; guarda fictícia local 0,5 falha em D04; limite condicional diferença média C−B de −1 a 0 kit",
+  "sem_alteracao": [
+    "t01–t22",
+    "t23–t33",
+    "MAT-EST-049-PROT-v1",
+    "MAT-EST-056-PROT-SUC-v1",
+    "SANDBOX-057",
+    "EXEMPLO-V",
+    "EXEMPLO-Z",
+    "TRANSFER-066",
+    "K65-01–K65-11",
+    "F0",
+    "G1–G8",
+    "P01–P10",
+    "A64-01–07"
+  ],
+  "afirmacoes_proibidas": [
+    "fonte ZIP MAT-EST-066 integrada",
+    "23 arquivos invariantes revalidados byte a byte",
+    "MAT-EST-065 ZIP incorporado",
+    "tendência temporal",
+    "promoção C histórica",
+    "deploy ou site publicado",
+    "estudo concluído pelo aluno",
+    "vídeo reproduzido integralmente",
+    "Edge validado manualmente"
+  ],
+  "fonte_estado_anterior": "checkpoint-editorial.json, Biblioteca, conteúdo textual lido em 29/09/2026",
+  "origem_bytes_anterior": "indisponíveis nesta sessão",
+  "status_publicacao": "somente local"
+}

@@ -1,0 +1,614 @@
+[
+  {
+    "id": "MAT-EST-043-EX-APR-01",
+    "titulo": "Ordem e periodicidade",
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Uma série trimestral registra quatro observações por ano. Qual é o período sazonal m em observações?",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-02",
+    "titulo": "Identificar tendência",
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Na construção fictícia T(t)=100+5(t−1), quanto vale o componente de tendência no período 4?",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-03",
+    "titulo": "Sazonalidade constante",
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Um exemplo aditivo usa os efeitos trimestrais −10, 0, +20, −10. Qual o efeito do terceiro trimestre?",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-04",
+    "titulo": "Índice sazonal centrado",
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Uma decomposição aditiva hipotética tem os efeitos sazonais −10, 0, 20 e −10 unidades. Qual é a soma dos quatro efeitos em um ciclo completo?",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-05",
+    "titulo": "Soma no período sete",
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "No período 7, T=130, S=20 e R=0. Qual o observado construído pela identidade aditiva?",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-06",
+    "titulo": "Restante conhecido",
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "No período 6, o observado é 124, T=125 e S=0. Determine o restante R.",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-07",
+    "titulo": "Ajuste sazonal aditivo",
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "No período 3, y=128 e S=+20. Qual seria a série ajustada sazonalmente por subtração?",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-08",
+    "titulo": "Diferença sazonal simples",
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "O primeiro trimestre do ano 1 teve 90 unidades e o primeiro trimestre do ano 2 teve 111. Qual a diferença sazonal do período 5?",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-09",
+    "titulo": "Primeira diferença não sazonal",
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "O período 4 tem 105 e o período 5 tem 111. Qual a primeira diferença do período 5?",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-10",
+    "titulo": "Referência sazonal ingênua",
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "No fim do período 8, o último primeiro trimestre observado foi o período 5, com 111 unidades. Qual previsão sazonal ingênua para o período 9?",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-01",
+    "titulo": "Decomposição de um valor",
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Para o período 12, T=155, S=−10 e R=−1. Reconstrua y e interprete os sinais.",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-02",
+    "titulo": "Oito diferenças sazonais",
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Partindo da série [90,107,128,105,111,124,150,127,129,145,171,144], calcule as diferenças de atraso 4, do período 5 ao 12.",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-03",
+    "titulo": "Cancelamento do efeito sazonal",
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Na identidade y(t)=T(t)+S(t)+R(t), com S(t)=S(t−4), expresse y(t)−y(t−4).",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-04",
+    "titulo": "Média móvel quatro",
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Calcule a média dos períodos 1 a 4, cujos observados são 90,107,128,105.",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-05",
+    "titulo": "Centralização par",
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "A média dos períodos 1 a 4 é 107,5 e a dos períodos 2 a 5 é 112,75. Calcule a média centrada de ordem quatro no período 3.",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-06",
+    "titulo": "Modelo multiplicativo ilustrativo",
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Para uma série positiva hipotética, T=100, fator sazonal S=1,20 e fator restante R=1. Qual y multiplicativo?",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-07",
+    "titulo": "Deslocamento anual do treino",
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "As quatro diferenças sazonais inteiramente observadas no treino são 21,17,22,22. Qual o deslocamento médio anual usado na previsão didática?",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-08",
+    "titulo": "Previsão para período nove",
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Se o último primeiro trimestre disponível vale 111 e o deslocamento histórico fixo de mesma fase é 20,5, preveja o período 9.",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-09",
+    "titulo": "MAE sazonal ingênuo",
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "No teste, os observados são [129,145,171,144] e a previsão sazonal ingênua é [111,124,150,127]. Calcule MAE.",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-10",
+    "titulo": "RMSE sazonal ingênuo",
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "A referência sazonal apresenta erros [18,21,21,17]. Calcule seu RMSE sem arredondamento intermediário.",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-01",
+    "titulo": "Questão autoral: gráfico e evidência",
+    "camada": "transferencia_e_estilo_vestibular",
+    "dificuldade": "aprofundada",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": "estilo autoral; nenhuma banca atribuída",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Uma série de oito dias oscila. Um relatório afirma que existe sazonalidade trimestral estável, embora não existam trimestres registrados. Identifique o problema de desenho.",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-02",
+    "titulo": "Questão autoral: aditivo ou multiplicativo",
+    "camada": "transferencia_e_estilo_vestibular",
+    "dificuldade": "aprofundada",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": "estilo autoral; nenhuma banca atribuída",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Uma série passa de nível 100 para 200 e a oscilação sazonal passa aproximadamente de 10 para 20 unidades. Qual estrutura vale investigar e por quê?",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-03",
+    "titulo": "Questão autoral: previsão e vazamento",
+    "camada": "transferencia_e_estilo_vestibular",
+    "dificuldade": "aprofundada",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": "estilo autoral; nenhuma banca atribuída",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Uma equipe calcula a média móvel centrada no período 7 usando o período 9 e apresenta o resultado como previsão emitida no fim do período 6. Avalie.",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-04",
+    "titulo": "Questão autoral: remover sazonalidade",
+    "camada": "transferencia_e_estilo_vestibular",
+    "dificuldade": "aprofundada",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": "estilo autoral; nenhuma banca atribuída",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Ao calcular y(t)−y(t−4), o resultado fica constante em todos os períodos para uma série exatamente T(t)=100+5(t−1) e S repetida, com R zero. Qual constante?",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-05",
+    "titulo": "Questão autoral: diferença de fase",
+    "camada": "transferencia_e_estilo_vestibular",
+    "dificuldade": "aprofundada",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": "estilo autoral; nenhuma banca atribuída",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "No trimestre 12 da base artificial, y(12)=144 e y(8)=127. Calcule a diferença sazonal e indique por que não é a primeira diferença.",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-06",
+    "titulo": "Questão autoral: desempenho do deslocamento",
+    "camada": "transferencia_e_estilo_vestibular",
+    "dificuldade": "aprofundada",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": "estilo autoral; nenhuma banca atribuída",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Com previsões fixadas antes do teste [131,5;144,5;170,5;147,5] e observados [129;145;171;144], calcule MAE.",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-07",
+    "titulo": "Questão autoral: RMSE em teste",
+    "camada": "transferencia_e_estilo_vestibular",
+    "dificuldade": "aprofundada",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": "estilo autoral; nenhuma banca atribuída",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Para as mesmas previsões, os erros observado menos previsto são −2,5;+0,5;+0,5;−3,5. Calcule RMSE.",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-08",
+    "titulo": "Questão autoral: escolher após inspecionar teste",
+    "camada": "transferencia_e_estilo_vestibular",
+    "dificuldade": "aprofundada",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": "estilo autoral; nenhuma banca atribuída",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Três regras foram comparadas no período 9 a 12. Um pesquisador quer escolher a melhor por esse desempenho e ainda chamar os mesmos dados de teste intocado. O que fazer?",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-09",
+    "titulo": "Questão autoral: afirmar recuperação exata",
+    "camada": "transferencia_e_estilo_vestibular",
+    "dificuldade": "aprofundada",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": "estilo autoral; nenhuma banca atribuída",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Um programa extrai componentes de dados reais por média móvel. O analista afirma que os valores extraídos devem ser idênticos ao T,S,R usados para inventar a base desta aula. Analise.",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-10",
+    "titulo": "Questão autoral: previsão por estação",
+    "camada": "transferencia_e_estilo_vestibular",
+    "dificuldade": "aprofundada",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": "estilo autoral; nenhuma banca atribuída",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Um relatório compara MAE da referência sazonal em t9–12 com MAE de um modelo ajustado em t1–12 e avaliado nesses mesmos t9–12. A comparação é justa?",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-RET-01",
+    "titulo": "Reteste: periodicidade mensal",
+    "camada": "reteste_independente",
+    "dificuldade": "mista",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Uma série mensal apresenta comportamento anual repetido. Qual atraso sazonal liga o mesmo mês em anos consecutivos?",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-RET-02",
+    "titulo": "Reteste: outro ciclo curto",
+    "camada": "reteste_independente",
+    "dificuldade": "mista",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Uma série trimestral independente tem valores [40,60,50,70,44,63,56,72]. Calcule suas quatro diferenças sazonais de atraso 4.",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-RET-03",
+    "titulo": "Reteste: nova decomposição",
+    "camada": "reteste_independente",
+    "dificuldade": "mista",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Uma observação fictícia vale 44, com tendência especificada T=60 e sazonalidade S=−10. Qual restante aditivo?",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-RET-04",
+    "titulo": "Reteste: prever sazonalmente",
+    "camada": "reteste_independente",
+    "dificuldade": "mista",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Para [40,60,50,70,44,63,56,72], emitindo previsão ao fim de t8, quanto prevê para t9 a referência sazonal ingênua?",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-RET-05",
+    "titulo": "Reteste: série com período três",
+    "camada": "reteste_independente",
+    "dificuldade": "mista",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Em [12,20,15,14,21,17], com período sazonal m=3, calcule as diferenças de atraso três em t4, t5 e t6.",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-RET-06",
+    "titulo": "Reteste: dados após o corte",
+    "camada": "reteste_independente",
+    "dificuldade": "mista",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-043"
+    ],
+    "enunciado": "Uma previsão para t7 emitida no fim de t6 utiliza uma estimativa de sazonalidade recalculada com o valor real de t7. Ela é uma avaliação fora da amostra válida?",
+    "tentativaIndividualRegistrada": false,
+    "correcaoAposTentativa": true
+  }
+]

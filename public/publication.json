@@ -1,0 +1,250 @@
+{
+  "version": "0.2.0",
+  "date": "2026-10-03",
+  "lessons": 48,
+  "practiceQuestions": 1740,
+  "visuals": 303,
+  "diagnosticQuestions": 37,
+  "sources": [
+    {
+      "id": "MAT-EST-001",
+      "sha256": "f9a7c86fde259eae740fd3459310467c71df347d2c06c7122d8bd144c5f39416",
+      "original": "originais/MAT-EST-001/aula.md"
+    },
+    {
+      "id": "MAT-EST-002",
+      "sha256": "513893f34c61d09b55fe77d1fa1c15ed85b6018da0b00441659ed6b65abb0359",
+      "original": "originais/MAT-EST-002/aula.md"
+    },
+    {
+      "id": "MAT-EST-003",
+      "sha256": "27e90e6a20a6d2196f3c6d2cd1c515eed885e72d2f0f432c81e18d7c654c7396",
+      "original": "originais/MAT-EST-003/aula.md"
+    },
+    {
+      "id": "MAT-EST-004",
+      "sha256": "0e476c48ee7a6ee2060bb38f1d516b967e9a44cc3ee178985d4350c0aa9ec2c8",
+      "original": "originais/MAT-EST-004/aula.md"
+    },
+    {
+      "id": "MAT-EST-005",
+      "sha256": "117c6742e9272cc97eada19217cdaadbc1c73887eaa29b50f8667a757609ec0d",
+      "original": "originais/MAT-EST-005/aula.md"
+    },
+    {
+      "id": "MAT-EST-006",
+      "sha256": "ae2559346d9b6e3f470c74981fe52d5df2057789e7bb264efb6587e663620b06",
+      "original": "originais/MAT-EST-006/aula.md"
+    },
+    {
+      "id": "MAT-EST-007",
+      "sha256": "f774adb9f93b0bdca283340c9274711080ee20ffa355d7b405a5e49c085a35e8",
+      "original": "originais/MAT-EST-007/aula.md"
+    },
+    {
+      "id": "MAT-EST-008",
+      "sha256": "fccb2eae6142f8175e10ba15256009aa25fe321602562f2d3c973262ffbfec93",
+      "original": "originais/MAT-EST-008/aula.md"
+    },
+    {
+      "id": "MAT-EST-009",
+      "sha256": "c509a550099f4fe89da8bb9c9a53bb8b72806e43ee27f82a3f473b07574ce068",
+      "original": "originais/MAT-EST-009/aula.md"
+    },
+    {
+      "id": "MAT-EST-010",
+      "sha256": "b385ead2b41aa3b634faa1c14b3840fdd6e66727305a7d2e2b6041d336ccd562",
+      "original": "originais/MAT-EST-010/aula.md"
+    },
+    {
+      "id": "MAT-EST-011",
+      "sha256": "67fdceb838a5643d4b9f87174e67ffe12fa5070c4e3224f5d435866bc7bf73e2",
+      "original": "originais/MAT-EST-011/aula.md"
+    },
+    {
+      "id": "MAT-EST-031",
+      "sha256": "6046bf059d513e422c8bca44d827d3dd7f27d93c924bcb1298361c672fbe729f",
+      "original": "originais/MAT-EST-031/aula.md"
+    },
+    {
+      "id": "MAT-EST-032",
+      "sha256": "5872bed3fab966c68e1fc05158731679aff21687a5a0102ca45df4760cc8de1c",
+      "original": "originais/MAT-EST-032/aula.md"
+    },
+    {
+      "id": "MAT-EST-033",
+      "sha256": "9d049a6ec7ca674aa522b48df1dbc67cd0c7c9c5969a1cfecf0a9b7b32693b06",
+      "original": "originais/MAT-EST-033/aula.md"
+    },
+    {
+      "id": "MAT-EST-034",
+      "sha256": "3c2bda000693a4b7e3889a4b554bf21567370b245faf6a8afd06c9eece5aa66c",
+      "original": "originais/MAT-EST-034/aula.md"
+    },
+    {
+      "id": "MAT-EST-035",
+      "sha256": "c0dab56374a535573afe83b3eae90aa350c544accb7779a9e30c0a85f848d10f",
+      "original": "originais/MAT-EST-035/aula.md"
+    },
+    {
+      "id": "MAT-EST-036",
+      "sha256": "64bba445000b9841b8f359940d0ea42b2085bb819a56c51e003f1e1d882e8511",
+      "original": "originais/MAT-EST-036/aula.md"
+    },
+    {
+      "id": "MAT-EST-037",
+      "sha256": "3f2ebdfa19fbfbfad459472c325dafb2806e3d1eeb14c78d39401e21042c7e13",
+      "original": "originais/MAT-EST-037/aula.md"
+    },
+    {
+      "id": "MAT-EST-038",
+      "sha256": "5adad08da8d17e0350d929a12cc90f9ff9c01fbb0f480e440001277f9acd5c42",
+      "original": "originais/MAT-EST-038/aula.md"
+    },
+    {
+      "id": "MAT-EST-039",
+      "sha256": "b54d2e5f86b5d1e821a668d2add1f86a30b53305eff9b9ac5dc2060a08a27f28",
+      "original": "originais/MAT-EST-039/aula.md"
+    },
+    {
+      "id": "MAT-EST-040",
+      "sha256": "5dda9b9ce90f175de8f1ceff754a114265a527ecf5a4fec6ed19bfd4977bacce",
+      "original": "originais/MAT-EST-040/aula.md"
+    },
+    {
+      "id": "MAT-EST-041",
+      "sha256": "365b23813ed729ca3865e5fb0301a0abe3c3c555e18dd46186f2781c22b1bf20",
+      "original": "originais/MAT-EST-041/aula.md"
+    },
+    {
+      "id": "MAT-EST-042",
+      "sha256": "a38f1532677ef8a3b932ad3431d631ddc10cb441baedf9149a29701b990ae099",
+      "original": "originais/MAT-EST-042/aula.md"
+    },
+    {
+      "id": "MAT-EST-043",
+      "sha256": "11b324e1c015c2781cd34b0ed768db0543cbf05ee615ff6fcb04b837b2c2d2ba",
+      "original": "originais/MAT-EST-043/aula.md"
+    },
+    {
+      "id": "MAT-EST-044",
+      "sha256": "7f6efb2990288d8ef625f38ba114baf4fbaca1505fc71cf55db3231403e84517",
+      "original": "originais/MAT-EST-044/aula.md"
+    },
+    {
+      "id": "MAT-EST-045",
+      "sha256": "4978e23eb6570c6b23f272908027f465ad8100ca833794a1b5c0119582e184f4",
+      "original": "originais/MAT-EST-045/aula.md"
+    },
+    {
+      "id": "MAT-EST-046",
+      "sha256": "aa88af7f4f500cb8556dea098a433de32f40570949e9d6b0517f1c5577de25bb",
+      "original": "originais/MAT-EST-046/aula.md"
+    },
+    {
+      "id": "MAT-EST-047",
+      "sha256": "3311b343a6ab5a3706381424fd4e548f55568b854f3e85541993fb419a96a3f5",
+      "original": "originais/MAT-EST-047/aula.md"
+    },
+    {
+      "id": "MAT-EST-048",
+      "sha256": "6020ba0e491b672e5c5707a3be5a99a068af8b90e4590dd2434646ce8099b6a3",
+      "original": "originais/MAT-EST-048/aula.md"
+    },
+    {
+      "id": "MAT-EST-049",
+      "sha256": "4a02c6bf1a66042069a847fdfd3b7ea92495eca9c3aeaf1afd851f61b59692b0",
+      "original": "originais/MAT-EST-049/aula.md"
+    },
+    {
+      "id": "MAT-EST-050",
+      "sha256": "97f9f0611b068b9e4fe6b8a8b2ba896f3ffcc330e872e416288e993dd3312cfb",
+      "original": "originais/MAT-EST-050/aula.md"
+    },
+    {
+      "id": "MAT-EST-051",
+      "sha256": "09b5ba4a4c03e2f7455a136cc1cde171037dc882ac5ddba76f5448018c0f9126",
+      "original": "originais/MAT-EST-051/aula.md"
+    },
+    {
+      "id": "MAT-EST-052",
+      "sha256": "966316e6021037a15f8f6f147c81564d52eb45762b1b9f0850cbbef5fb9eb486",
+      "original": "originais/MAT-EST-052/aula.md"
+    },
+    {
+      "id": "MAT-EST-053",
+      "sha256": "3dbaf85534de31c400533e69e57d9eb8b9d0073ade2cd2e71f93c91d897b248f",
+      "original": "originais/MAT-EST-053/aula.md"
+    },
+    {
+      "id": "MAT-EST-054",
+      "sha256": "fdcc1f64381baf7ba937a89fc3ecebde2a1967ac2356e62a0869a5eb95cefeb3",
+      "original": "originais/MAT-EST-054/aula.md"
+    },
+    {
+      "id": "MAT-EST-055",
+      "sha256": "d9cc52a3233d0dba148934406edcb01bfd44b567454f1bff804180c8f4110fb6",
+      "original": "originais/MAT-EST-055/aula.md"
+    },
+    {
+      "id": "MAT-EST-056",
+      "sha256": "965606a6ec0120194ff3e2921a4afdc9ff3acad31a6a1839a5cba9055ffddd2e",
+      "original": "originais/MAT-EST-056/aula.md"
+    },
+    {
+      "id": "MAT-EST-057",
+      "sha256": "fdfb424939a92ede9412cccc2330d6bd2d8d459e851636382b5df5c6a2bd3b15",
+      "original": "originais/MAT-EST-057/aula.md"
+    },
+    {
+      "id": "MAT-EST-058",
+      "sha256": "cccaecbd35b781db67a317f018758b24648cdaa19f674b222f38d88f49003baf",
+      "original": "originais/MAT-EST-058/aula.md"
+    },
+    {
+      "id": "MAT-EST-059",
+      "sha256": "99e95164671cd94fcaeb720db8c4e6a7099f9d5d9b7c28521ab41961b7b67aee",
+      "original": "originais/MAT-EST-059/aula.md"
+    },
+    {
+      "id": "MAT-EST-060",
+      "sha256": "0460fbc967f22dee9f7da82956827122e5979985b392f4de5779ae4bdd4d5078",
+      "original": "originais/MAT-EST-060/aula.md"
+    },
+    {
+      "id": "MAT-EST-061",
+      "sha256": "bf9ea065f9e194a7158bf548828cba11d9aba95e637e0fd0c5021ebb155e4679",
+      "original": "originais/MAT-EST-061/aula.md"
+    },
+    {
+      "id": "MAT-EST-062",
+      "sha256": "0bad6145b1e201acf7f98f8f5c8319468e77c5c08173ae7775696ad4e46ec1b2",
+      "original": "originais/MAT-EST-062/aula.md"
+    },
+    {
+      "id": "MAT-EST-063",
+      "sha256": "34567382bd895587e1f331d7503a110bfba8cd875231c40d088938b0a330ac77",
+      "original": "originais/MAT-EST-063/aula.md"
+    },
+    {
+      "id": "MAT-EST-064",
+      "sha256": "c4d7950703b1bd353b31db869c2e90aedce41a6753de26df64cf6fceadbe9ebe",
+      "original": "originais/MAT-EST-064/aula.md"
+    },
+    {
+      "id": "MAT-EST-065",
+      "sha256": "54d51031c3131ef1d12ed6e912fe3a449ea9c0c19ad47c886947e179ced036ec",
+      "original": "originais/MAT-EST-065/aula.md"
+    },
+    {
+      "id": "MAT-EST-066",
+      "sha256": "49a5b9df1a56fbc76c9002ffd6932e598b22675b696d5b2347c056da9a70b61c",
+      "original": "originais/MAT-EST-066/aula.md"
+    },
+    {
+      "id": "MAT-EST-067",
+      "sha256": "a6f8452fe12ea95d7ea83b66aeb488ac69dc6054440f0906e0e278ef2f0b14a5",
+      "original": "originais/MAT-EST-067/aula.md"
+    }
+  ]
+}

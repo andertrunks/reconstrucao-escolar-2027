@@ -1,0 +1,18 @@
+{
+  "schemaId": "MAT-EST-057-DEV-SCHEMA-v1",
+  "notice": "schema de eventos ilustrativos; sem autenticação, emissão real ou aprovação",
+  "required": [
+    "id",
+    "sandbox",
+    "case",
+    "type",
+    "phase",
+    "old_rule",
+    "proposal",
+    "effect",
+    "confirmatory",
+    "status"
+  ],
+  "no_overwrite": true,
+  "versioning": "append-only demonstrativo"
+}

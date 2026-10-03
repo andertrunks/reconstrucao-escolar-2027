@@ -1,0 +1,867 @@
+[
+  {
+    "id": "MAT-EST-039-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "O que é bootstrap",
+    "statement": "Descreva o que é uma réplica bootstrap não paramétrica de uma amostra com n observações.",
+    "answer": "É uma nova amostra de tamanho n, extraída da amostra original COM reposição.",
+    "resolution": "A amostra observada é utilizada como distribuição empírica. Cada escolha permite repetir uma observação. O processo é repetido para recalcular a estatística.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Por que com reposição",
+    "statement": "A partir de [2, 4, 6, 8], por que o sorteio sem reposição de quatro elementos não cria variabilidade na média?",
+    "answer": "Porque cada seleção contém os quatro valores uma vez; a média permanece 5.",
+    "resolution": "Sem reposição e com tamanho 4, apenas mudaria a ordem. Com reposição, algumas observações se repetem e outras ficam ausentes.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Estatística original",
+    "statement": "Calcule a média de [2, 4, 6, 8].",
+    "answer": "5.",
+    "resolution": "Somar 2+4+6+8=20 e dividir por 4: 20/4=5.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Réplica com elementos repetidos",
+    "statement": "Uma réplica bootstrap foi [2,2,8,8]. Qual sua média?",
+    "answer": "5.",
+    "resolution": "A soma é 20; divide-se pelo tamanho da réplica, quatro. Repetições são permitidas.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Mediana original",
+    "statement": "Qual a mediana de [2,4,6,8]?",
+    "answer": "5.",
+    "resolution": "A amostra ordenada tem tamanho par; calcula-se a média dos dois valores centrais: (4+6)/2=5.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Média de réplica",
+    "statement": "Calcule a média bootstrap de [8,8,8,2].",
+    "answer": "6,5.",
+    "resolution": "A soma é 26 e o tamanho é 4; 26/4=6,5.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Limite da reamostragem",
+    "statement": "Uma amostra voluntária não representa a população. Reamostrar seus registros milhares de vezes elimina o viés de seleção? Justifique.",
+    "answer": "Não. Bootstrap replica padrões e problemas da amostra observada; não corrige automaticamente viés de origem.",
+    "resolution": "Separar variabilidade estatística de representatividade do desenho. Mais réplicas artificiais não equivalem a mais unidades populacionais observadas.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Duas perguntas distintas",
+    "statement": "Qual procedimento é orientado principalmente a estimar a incerteza de uma estatística observada e qual constrói uma distribuição sob hipótese nula de rótulos permutáveis?",
+    "answer": "Bootstrap: incerteza; permutação: teste de hipótese nula.",
+    "resolution": "No bootstrap sorteiam-se registros com reposição a partir da amostra; na permutação reorganizam-se rótulos sob a hipótese nula e as hipóteses de intercambiabilidade.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Bootstrap de nova amostra",
+    "statement": "A amostra original é [1,1,3,3]. Uma réplica é [1,3,3,3]. Determine sua média.",
+    "answer": "2,5.",
+    "resolution": "Soma 10 dividida por 4 = 2,5; observações podem repetir.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-039-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Percentis simulados",
+    "statement": "Se forem calculadas 500 estimativas bootstrap, aproximadamente quantas ficam abaixo do percentil 5, desprezando empates?",
+    "answer": "Cerca de 25.",
+    "resolution": "Cinco por cento de 500 = 25. Percentis usam a distribuição ordenada e dependem da convenção de quantis.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Contagem exata de réplicas ordenadas",
+    "statement": "Com quatro valores originais distintos e quatro sorteios com reposição, quantas sequências ordenadas de réplica são possíveis?",
+    "answer": "256 sequências.",
+    "resolution": "A cada sorteio há 4 possibilidades; pelo princípio multiplicativo: 4⁴=256. Médias repetidas não significam sequências idênticas.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Erro-padrão bootstrap exato",
+    "statement": "Para [2,4,6,8], todas as 256 sequências ordenadas com reposição têm média bootstrap com variância populacional exata 1,25. Calcule o desvio-padrão.",
+    "answer": "√1,25 ≈ 1,118.",
+    "resolution": "O desvio-padrão é raiz da variância da distribuição das 256 médias; aproximadamente 1,118 unidades. Não é o desvio-padrão dos quatro dados originais.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Intervalo percentílico didático",
+    "statement": "Enumerando as 256 médias bootstrap de [2,4,6,8], o 7º valor ordenado é 3 e o 250º é 7. Informe o intervalo percentílico ilustrativo de 95% usando postos percentis de cauda 2,5%.",
+    "answer": "[3;7], apenas como construção didática de amostra muito pequena.",
+    "resolution": "Selecionar os percentis 2,5 e 97,5 da distribuição de médias; o intervalo pode ter cobertura inadequada em amostra n=4.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Diferença observada",
+    "statement": "Dois grupos independentes têm valores A=[2,4,6] e B=[8,10,12]. Calcule a diferença entre médias A menos B.",
+    "answer": "-6.",
+    "resolution": "Média A=4 e média B=10. Diferença observada=4−10=−6.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Número de permutações",
+    "statement": "Em seis observações independentes, três rótulos serão A e três B. Quantas alocações distintas de rótulos existem?",
+    "answer": "20.",
+    "resolution": "Escolher quais 3 das 6 posições recebem A: combinação C(6,3)=6!/(3!3!)=20.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Valor-p de permutação exato",
+    "statement": "Para A=[2,4,6] e B=[8,10,12], sob hipótese nula de permutabilidade, a enumeração das 20 alocações encontra duas com |diferença de médias|≥6. Qual valor-p bicaudal exato?",
+    "answer": "0,10, ou 10%.",
+    "resolution": "Há 2 resultados pelo menos tão extremos quanto o observado em 20 possíveis: 2/20=0,10. Em α=0,05 não se rejeita a hipótese nula neste exemplo.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Correção de Monte Carlo",
+    "statement": "Em B=999 permutações aleatórias simuladas, 19 apresentam estatística pelo menos tão extrema quanto a observada. Use a correção (k+1)/(B+1).",
+    "answer": "20/1000 = 0,02.",
+    "resolution": "Somam-se uma observação extrema e a configuração observada no numerador e uma no denominador, na construção Monte Carlo apropriada: (19+1)/(999+1).",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Teste exato pequeno",
+    "statement": "A=[1,3] e B=[5,7]. Sob troca de rótulos de quatro unidades independentes em dois grupos de dois, há seis divisões e duas com |diferença|≥4. Calcule p bicaudal.",
+    "answer": "2/6=1/3≈0,333.",
+    "resolution": "A diferença observada de médias é 2−6=−4. Em seis alocações possíveis, duas atingem módulo quatro; o valor-p é um terço.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Pareamento e sinais",
+    "statement": "Três diferenças pareadas são [2,−1,3]. Sob troca de sinais independentes, sem diferenças nulas, quantos padrões de sinais existem?",
+    "answer": "8.",
+    "resolution": "São duas opções por par e três pares: 2³=8. A unidade de troca é a diferença dentro de cada par, não uma pessoa misturada entre grupos.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Média pareada",
+    "statement": "Três diferenças depois menos antes são [−2,1,−3]. Qual a diferença média?",
+    "answer": "−4/3≈−1,333.",
+    "resolution": "Somar −2+1−3=−4 e dividir por 3. O sinal indica redução média no depois, sob esta convenção.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Seleção voluntária e intervalo",
+    "statement": "Um formulário voluntário apresenta 60% de respostas favoráveis. Uma equipe faz 10.000 reamostragens bootstrap e afirma ter corrigido o viés de seleção. Audite a inferência.",
+    "answer": "A afirmação é inválida: bootstrap não torna probabilística uma amostra voluntária.",
+    "resolution": "O intervalo pode representar variação condicional à amostra e às suposições, mas não torna demonstrada a representatividade da população. Exigir plano de amostragem defensável.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Unidade independente em dados clínicos fictícios",
+    "statement": "Há cinco pacientes com quatro medidas por paciente. Para inferir entre pacientes, é seguro sortear as 20 linhas individualmente como se fossem independentes? Indique alternativa.",
+    "answer": "Não em geral; reamostrar unidades independentes, por exemplo pacientes inteiros (bootstrap por conglomerados) quando o desenho permitir.",
+    "resolution": "As quatro medidas do mesmo paciente compartilham dependência. Sortear cada linha isoladamente pode subestimar a incerteza.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Série temporal e dependência",
+    "statement": "O CSV fictício MAT-EST-034/038 contém observações por dia e separação temporal referência/teste. É justificável misturar os dias com bootstrap independente indiscriminado para avaliar previsão futura?",
+    "answer": "Não sem examinar dependência temporal e preservar o papel da partição; considerar avaliação cronológica e técnicas específicas de blocos quando adequadas.",
+    "resolution": "Uma série temporal pode conter autocorrelação. O conjunto de teste não deve participar do ajuste. Não converter automaticamente oito dias em unidades independentes.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Intervalo e teste não são intercambiáveis",
+    "statement": "Explique por que percentis de estimativas bootstrap observadas e a cauda de uma distribuição de permutação sob H0 respondem a perguntas diferentes.",
+    "answer": "Bootstrap estima incerteza amostral de uma estatística; teste de permutação mede quão extremo é um resultado sob a hipótese nula e permutabilidade.",
+    "resolution": "Os mecanismos geradores diferem: amostragem com reposição da distribuição empírica versus realocação de rótulos sob H0. Não ler a cauda bootstrap bruta como valor-p automaticamente.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Dois grupos e bootstrap correto",
+    "statement": "Para estimar a incerteza da diferença de médias de grupos independentes A=[2,4,6] e B=[8,10,12], explique como construir uma réplica bootstrap respeitando os grupos.",
+    "answer": "Reamostrar com reposição três unidades de A dentro de A e três de B dentro de B; calcular a diferença de médias.",
+    "resolution": "A estimativa de diferença pressupõe duas amostras observadas. Repetir separadamente preserva tamanhos e identidades de grupo para estimativa da incerteza.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Permutação sob hipótese nula",
+    "statement": "No mesmo exemplo de dois grupos, por que reunir as seis observações e permutar os rótulos serve ao teste sob H0, mas não é automaticamente o bootstrap da diferença original?",
+    "answer": "Permutar rótulos cria a distribuição nula de ausência de efeito de grupo sob intercambiabilidade, diferente da distribuição da estimativa observada.",
+    "resolution": "O primeiro procedimento impõe o mecanismo nulo; o segundo avalia variação da estatística nos dados com os grupos observados.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Teste de Monte Carlo e convenção",
+    "statement": "Um teste aleatório de permutação gera B=100 configurações e observa k=7 estatísticas tão extremas quanto a observada. Calcule o valor-p com correção +1.",
+    "answer": "8/101≈0,0792.",
+    "resolution": "(k+1)/(B+1)=(7+1)/(100+1), aproximadamente 7,92%. Registrar a convenção usada.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Variabilidade de estimativa de p",
+    "statement": "Para p≈0,10 estimado em 1.000 permutações aproximadamente independentes, calcule o desvio-padrão de Monte Carlo aproximado pela expressão √[p(1−p)/B].",
+    "answer": "√(0,1×0,9/1000)≈0,00949.",
+    "resolution": "O desvio de Monte Carlo é aproximadamente raiz de 0,00009; aumentar réplicas diminui esse erro de simulação, não conserta desenho inválido.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Pareamento no teste",
+    "statement": "Se cada participante foi medido antes e depois, explique por que permutar livremente todos os valores entre grupos pode ser incorreto.",
+    "answer": "Quebra o pareamento; usar estatística das diferenças e permutações válidas dentro de pares, sob hipótese nula apropriada de intercambiabilidade.",
+    "resolution": "As medições do mesmo indivíduo não são independentes. Respeitar a unidade experimental e a hipótese nula é indispensável.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Interpretação de intervalo",
+    "statement": "Um intervalo bootstrap percentílico de 95% saiu [0,10;0,40] para certa proporção. É correto afirmar que um parâmetro fixo tem 95% de probabilidade de estar nesse intervalo já calculado?",
+    "answer": "Não na interpretação frequentista padrão: o método gera intervalos cuja cobertura nominal é visada em repetidas amostras sob suas condições.",
+    "resolution": "O valor populacional é fixo; a aleatoriedade é do procedimento amostral e dos intervalos antes de observar dados. A cobertura real pode ser diferente da nominal.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Número de sequências novo",
+    "statement": "Com amostra [1,2,3], uma réplica bootstrap de três sorteios com reposição admite quantas sequências ordenadas?",
+    "answer": "3³=27.",
+    "resolution": "Três opções em cada um dos três sorteios: 3×3×3=27.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Média de réplica nova",
+    "statement": "Para [1,2,3], uma réplica sorteada foi [1,1,3]. Determine sua média.",
+    "answer": "5/3≈1,667.",
+    "resolution": "A soma é 5; o número de posições da réplica é 3.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Permutações de dois grupos",
+    "statement": "Quatro unidades distintas são divididas em dois grupos de dois. Quantas alocações de rótulo são possíveis?",
+    "answer": "C(4,2)=6.",
+    "resolution": "Escolhemos duas das quatro unidades para A; as duas restantes ficam em B.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Valor-p de um novo caso",
+    "statement": "A=[1,2], B=[3,4], e a enumeração de 6 permutações apresenta 2 tão extremas quanto a diferença observada em módulo. Determine o p bicaudal exato.",
+    "answer": "2/6=1/3≈0,333.",
+    "resolution": "A diferença observada é 1,5−3,5=−2, e duas das seis alocações têm módulo pelo menos 2.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Sinais em pares novos",
+    "statement": "Com quatro pares e diferenças todas não nulas, quantas configurações de troca de sinais existem, sob um teste pareado adequado?",
+    "answer": "2⁴=16.",
+    "resolution": "Cada uma das quatro diferenças tem dois sinais; há 16 configurações se todas forem consideradas.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-039-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-039"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Limite de dados ausentes",
+    "statement": "Uma população rara não aparece em uma pequena amostra. A produção de 20.000 réplicas bootstrap cria observações desse grupo e prova generalização?",
+    "answer": "Não. Bootstrap não gera observações empíricas de grupos ausentes nem conserta cobertura inadequada.",
+    "resolution": "A distribuição empírica só contém o observado; o número de reamostragens reduz ruído de simulação, não a lacuna de coleta.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-039-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1y9uQIis4ETRrxd8w7sOLLRSIe2IqxxwR/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  }
+]

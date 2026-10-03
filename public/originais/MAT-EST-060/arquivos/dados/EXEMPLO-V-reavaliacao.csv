@@ -1,0 +1,5 @@
+namespace,vintage,observacao,modelo,previsao_congelada,erro_observado_menos_previsto,erro_absoluto,custo_3_subprevisao_1_superprevisao,status
+EXEMPLO-V-ISOLADO,L12/v1,40,B,42,-2,2,2,demonstracao_preliminar_nao_pontuar_final
+EXEMPLO-V-ISOLADO,L12/v1,40,C,43,-3,3,3,demonstracao_preliminar_nao_pontuar_final
+EXEMPLO-V-ISOLADO,L13/v2,44,B,42,2,2,6,demonstracao_final_validada
+EXEMPLO-V-ISOLADO,L13/v2,44,C,43,1,1,3,demonstracao_final_validada

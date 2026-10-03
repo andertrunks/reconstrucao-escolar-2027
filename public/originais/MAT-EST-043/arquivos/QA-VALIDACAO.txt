@@ -1,0 +1,37 @@
+# QA MAT-EST-043
+Data: 2026-09-28.
+- APROVADO: origem 8 dias preservada
+- APROVADO: base artificial com 12 valores distinta da origem
+- APROVADO: 12 identidades T+S+R
+- APROVADO: padrão sazonal de soma zero e período 4
+- APROVADO: diferenças de quatro corretas
+- APROVADO: médias de quatro e central
+- APROVADO: treino teste cronológicos
+- APROVADO: referências somente sobre o treino
+- APROVADO: drift estimado só treino
+- APROVADO: MAE três referências
+- APROVADO: RMSE três referências
+- APROVADO: 36 questões
+- APROVADO: IDs exclusivos
+- APROVADO: questões e gabarito pareados
+- APROVADO: gabarito não consta no JSON de enunciados
+- APROVADO: todas autorais e sem tentativa inventada
+- APROVADO: correções comentadas substantivas
+- APROVADO: enunciados substantivos
+- APROVADO: IDs no Markdown
+- APROVADO: 7 SVG
+- APROVADO: SVG acessível MAT-EST-043-VIS-01
+- APROVADO: SVG acessível MAT-EST-043-VIS-02
+- APROVADO: SVG acessível MAT-EST-043-VIS-03
+- APROVADO: SVG acessível MAT-EST-043-VIS-04
+- APROVADO: SVG acessível MAT-EST-043-VIS-05
+- APROVADO: SVG acessível MAT-EST-043-VIS-06
+- APROVADO: SVG acessível MAT-EST-043-VIS-07
+- APROVADO: todos diagramas embutidos na aula
+- APROVADO: preview PNG válido
+- APROVADO: código de reprodução executado
+- APROVADO: metadados proximo id
+- APROVADO: sem questões oficiais
+TOTAL: 32 verificações aprovadas; ZERO falhas.
+Pendências externas: reprodução completa vídeo, Edge Ler em voz alta, publicação site e sincronização Google Drive.
+Progresso individual não alterado.

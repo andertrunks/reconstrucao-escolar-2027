@@ -1,0 +1,50 @@
+{
+  "projeto": "Reconstrução Escolar + ENEM e Vestibulares 2027",
+  "ultimo_pacote_editorial_concluido": "MAT-EST-051",
+  "titulo_ultimo": "Desenho de uma avaliação temporal futura: hipóteses, coleta, critérios e análise pós-registro",
+  "ultimo_pacote_confirmado_antes": "MAT-EST-050",
+  "etapa_atual": "gerada localmente; não sincronizada, publicada nem estudada",
+  "proximo_topico_editorial": "MAT-EST-052",
+  "titulo_proximo_proposto": "Ensaio operacional de monitoramento: integridade do registro, atrasos de observação e encerramento auditável",
+  "proxima_acao": "Verificar checkpoint canônico; gerar exatamente MAT-EST-052 sem declarar observações t23–t25 ou emissão autenticada. Ensaiar registros sem inventar dados de campo e preservar 049 protocolo.",
+  "progresso_individual": "não iniciado; não atualizado",
+  "base_preservada": "seis CSVs herdados de MAT-EST-050 byte a byte e protocolo 049 byte a byte",
+  "alvos_futuros_sem_observacao": [
+    "t23",
+    "t24",
+    "t25"
+  ],
+  "hipoteses_apenas_cenarios_t23": [
+    178,
+    191,
+    209
+  ],
+  "modelos": [
+    "BASE-SNAIVE-v1",
+    "CHAL-SDELTA5-v1"
+  ],
+  "projecoes_didaticas_t23": {
+    "B": 183,
+    "C": 199,
+    "status": "não constituem log autenticado"
+  },
+  "formularios_t24_t25": {
+    "B24": "181",
+    "C24": "181+(x-128)/5",
+    "B25": "188",
+    "C25": "188+(x+z-305)/5",
+    "x": "y23 futuro",
+    "z": "y24 futuro"
+  },
+  "parecer_protocolo": "não promover: 5/8 e falha de guarda t19 por 19,2",
+  "nao_alegar": [
+    "deploy",
+    "sincronização Drive/GitHub",
+    "teste real Edge",
+    "observações t23–t25",
+    "autenticação de emissão no tempo t22",
+    "promoção",
+    "inferência populacional",
+    "aprovação de estudante"
+  ]
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="320" viewBox="0 0 950 320" role="img" aria-labelledby="t d">
+<title id="t">Mudança de versão exige rever dependências</title>
+<desc id="d">Se o arquivo de fonte muda, medições vinculadas ao hash antigo não validam a nova versão.</desc>
+<rect width="950" height="320" rx="22" fill="#f8fafc"/>
+<text x="28" y="39" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#172334">Mudança de versão exige rever dependências</text>
+<rect x="32.0" y="78" width="211.0" height="151" rx="12" fill="#fff" stroke="#35694a" stroke-width="2"/>
+<rect x="33.0" y="79" width="209.0" height="6" rx="3" fill="#35694a"/>
+<text x="44.0" y="109" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#35694a">Versão A</text>
+<text x="44.0" y="140" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">Fonte com SHA A</text>
+<text x="44.0" y="171" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">Teste G1 e G2</text>
+<rect x="257.0" y="78" width="211.0" height="151" rx="12" fill="#fff" stroke="#146f9a" stroke-width="2"/>
+<rect x="258.0" y="79" width="209.0" height="6" rx="3" fill="#146f9a"/>
+<text x="269.0" y="109" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#146f9a">Mudança</text>
+<text x="269.0" y="140" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">Fonte alterada</text>
+<text x="269.0" y="171" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">Novo SHA B</text>
+<rect x="482.0" y="78" width="211.0" height="151" rx="12" fill="#fff" stroke="#146f9a" stroke-width="2"/>
+<rect x="483.0" y="79" width="209.0" height="6" rx="3" fill="#146f9a"/>
+<text x="494.0" y="109" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#146f9a">Revisar</text>
+<text x="494.0" y="140" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">G1 e G2 novamente</text>
+<text x="494.0" y="171" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">G3–G6 por impacto</text>
+<rect x="707.0" y="78" width="211.0" height="151" rx="12" fill="#fff" stroke="#9b3237" stroke-width="2"/>
+<rect x="708.0" y="79" width="209.0" height="6" rx="3" fill="#9b3237"/>
+<text x="719.0" y="109" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#9b3237">Não inferir</text>
+<text x="719.0" y="140" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">Hash antigo não</text>
+<text x="719.0" y="171" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">libera versão B</text>
+<text x="30" y="267" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#172334">Hash confere bytes, não prova anterioridade nem compreensão.</text>
+<text x="30" y="291" font-family="Arial,sans-serif" font-size="13" fill="#44566c">Diagrama autoral; todos os estados são didáticos ou locais, sem certificação pública.</text></svg>

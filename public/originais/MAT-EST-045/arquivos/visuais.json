@@ -1,0 +1,79 @@
+[
+  {
+    "id": "MAT-EST-045-VIS-01",
+    "arquivo": "assets/01-cronologia-da-informacao.svg",
+    "titulo": "Linha do tempo: origem de cada informação",
+    "legenda": "Linha do tempo: origem de cada informação",
+    "alt": "Doze quadrados cronológicos com valores 90, 107, 128, 105, 111, 124, 150, 127, 129, 145, 171 e 144.",
+    "oQueObservar": "O cálculo dos estados iniciais usa apenas as quatro primeiras observações, e a previsão final é emitida ao terminar t8.",
+    "conclusaoTextual": "Não misturar treinamento, emissão e avaliação; o teste t9–t12 já é conhecido editorialmente.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-045-VIS-02",
+    "arquivo": "assets/02-inicializacao-destendencia.svg",
+    "titulo": "Inicialização: retirada da inclinação",
+    "legenda": "Inicialização: retirada da inclinação",
+    "alt": "Quatro cartões mostram observações originais, observações corrigidas 90, 102, 118, 90 e efeitos sazonais −10, +2, +18 e −10.",
+    "oQueObservar": "A inclinação inicial de cinco é uma escolha heurística do primeiro ciclo, não uma tendência identificada com certeza.",
+    "conclusaoTextual": "A soma dos quatro efeitos é zero; l4 = 100 + 3 vezes 5 = 115.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-045-VIS-03",
+    "arquivo": "assets/03-estados-iniciais.svg",
+    "titulo": "Estados iniciais e previsão sem vazamento",
+    "legenda": "Estados iniciais e previsão sem vazamento",
+    "alt": "Três cartões: nível 115, tendência 5 e quatro efeitos sazonais −10, 2, 18, −10. Uma linha inferior calcula 115 + 5 − 10 = 110.",
+    "oQueObservar": "Os estados iniciais são conhecidos depois de t4; as atualizações só começam com t5.",
+    "conclusaoTextual": "O primeiro erro sequencial é 111 menos 110 igual a mais um.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-045-VIS-04",
+    "arquivo": "assets/04-primeira-atualizacao.svg",
+    "titulo": "Atualização completa do quinto período",
+    "legenda": "Atualização completa do quinto período",
+    "alt": "Três linhas separadas mostram cálculo de nível 120,3, inclinação 5,06 e sazonalidade −9,8.",
+    "oQueObservar": "A última equação usa o nível 115 e tendência 5 anteriores, evitando misturar duas convenções de gama.",
+    "conclusaoTextual": "Ao fechar t5, os novos estados são l5 = 120,3; b5 = 5,06; s5 = −9,8.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-045-VIS-05",
+    "arquivo": "assets/05-evolucao-estados.svg",
+    "titulo": "Evolução do nível e da tendência",
+    "legenda": "Evolução do nível e da tendência",
+    "alt": "No painel esquerdo, nível aumenta de 115 em t4 para cerca de 135,651 em t8. No direito, tendência oscila entre 4,858 e 5,141 unidades por trimestre.",
+    "oQueObservar": "Observe que nível e tendência se atualizam separadamente; uma inclinação quase constante não implica nível constante.",
+    "conclusaoTextual": "No final de t8, nível = 135,6511392 e tendência = 5,14139264.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-045-VIS-06",
+    "arquivo": "assets/06-indices-sazonais.svg",
+    "titulo": "Índices sazonais em dois ciclos",
+    "legenda": "Índices sazonais em dois ciclos",
+    "alt": "Em todos os ciclos, o terceiro trimestre tem índice positivo maior; o primeiro e quarto são negativos. Cada barra tem valor numérico próprio.",
+    "oQueObservar": "A atualização não altera a ordem das fases do ano; compara t5 com t1, t6 com t2 e assim sucessivamente.",
+    "conclusaoTextual": "Índices novos s5..s8: −9,8; 1,328; 18,55792; −9,6146112.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-045-VIS-07",
+    "arquivo": "assets/07-previsoes-e-metricas.svg",
+    "titulo": "Previsões por trimestre e métricas",
+    "legenda": "Previsões por trimestre e métricas",
+    "alt": "Três linhas identificadas também por texto; o deslocamento sazonal tem menor MAE, enquanto Holt-Winters tem menor RMSE no exemplo.",
+    "oQueObservar": "A diferença de resultados por métrica exige declarar o que significa erro relevante, não coroar um método em geral.",
+    "conclusaoTextual": "O gráfico mostra comparação didática, não nova prova prospectiva, pois t9–t12 já eram conhecidos editorialmente.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  }
+]

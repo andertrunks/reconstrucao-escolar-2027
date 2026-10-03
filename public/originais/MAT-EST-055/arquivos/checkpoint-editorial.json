@@ -1,0 +1,35 @@
+{
+  "projeto": "Reconstrução Escolar + ENEM e Vestibulares 2027",
+  "ultimo_pacote_editorial_concluido": "MAT-EST-055",
+  "titulo_ultimo": "Governança de modelos temporais: documentação de decisões, responsáveis, revisões e critérios de encerramento",
+  "ultimo_confirmado_antes": "MAT-EST-054",
+  "etapa_atual": "gerada localmente; ZIP editorial; publicação e sincronização não realizadas",
+  "proximo_topico_editorial": "MAT-EST-056",
+  "titulo_proximo_proposto": "Revisão controlada de experimentos temporais: protocolo sucessor, pré-registro e prevenção de contaminação da avaliação",
+  "proxima_acao": "Verificar estado canônico antes de produzir somente MAT-EST-056, preservar dados e todas as regras históricas.",
+  "progresso_individual": "não iniciado, não modificado",
+  "historico": "t01–t22 fictício preservado; t23–t25 sem observado nem emissão autenticada",
+  "protocolo": "MAT-EST-049-PROT-v1 intacto; cinco de oito pares, t19 19,2 > guarda 10; não promover C",
+  "plano": "MAT-EST-051-PLAN-v1 permanece não executado",
+  "modelos": [
+    "BASE-SNAIVE-v1",
+    "CHAL-SDELTA5-v1"
+  ],
+  "metricas": "cinco pares t18–t22: MAE B=17,60/C=8,36; custos médios B=51,20/C=14,92",
+  "V": "isolado B42/C43; y=40 preliminar, y=44 validada; não adicionar ao denominador principal",
+  "Z": "isolado previsão 29; y=30 preliminar e y=32 validada; não adicionar ao denominador principal",
+  "novo_governanca": "parecer MAT-EST-055-PARECER-DIDATICO-v1 e trilha G1–G5 são elaboração fictícia sem assinatura ou atos operacionais; não alteram protocolos anteriores",
+  "arquivos_herdados_byte_identicos": 23,
+  "nao_alegar": [
+    "observações t23–t25",
+    "novas emissões reais",
+    "aprovação humana",
+    "execução operacional",
+    "publicação no site",
+    "sincronização Google Drive ou GitHub",
+    "teste manual Edge",
+    "reprodução integral do vídeo",
+    "alteração do progresso"
+  ],
+  "material_integracao": "MAT-EST-055-pacote-integracao.zip"
+}

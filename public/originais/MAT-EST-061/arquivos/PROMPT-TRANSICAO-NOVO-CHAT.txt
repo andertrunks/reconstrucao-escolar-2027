@@ -1,0 +1,11 @@
+CONTINUIDADE — RECONSTRUÇÃO ESCOLAR + ENEM E VESTIBULARES 2027
+
+Último pacote editorial concluído LOCALMENTE: MAT-EST-061 — Teste de regressão editorial e preparação de publicação: evidências humanas, rollback e comunicação de correções. Consulte MAT-EST-061-pacote-integracao.zip e checkpoint-editorial.json; se ausentes, solicite os anexos.
+
+Próximo tópico proposto, ainda NÃO iniciado: MAT-EST-062 — Manutenção de evidências e prontidão de publicação: checklist auditável, rastreio de pendências e validação pós-deploy.
+
+Preservar série principal fictícia t01–t22 e os 23 arquivos-base controlados por SHA-256; cópia integral de MAT-EST-060 em historico/. Histórico MAT-EST-049-PROT-v1: cinco de oito pares, MAE B17,60 C8,36, custos B51,20 C14,92, piora t19 C19,2 acima da guarda dez; C não promovido. t23–t25 sem observações e emissões autenticadas. MAT-EST-056-PROT-SUC-v1 rascunho local, t26–t33 com zero pares e MAE não estimável. V e Z isolados.
+
+SANDBOX-057 isolado: oito cartões, dois avaliáveis e seis pendentes. Erros B[+4,−2], C[+3,−5]; MAE B3 C4 unidades; custo médio sete pontos cada. F00–F08 do MAT-EST-060 são fixtures de teste. MAT-EST-061 criou R061-RC1 candidata isolada com esclarecimento de legenda/alt e cinco mutações negativas T01–T05 (denominador, alt, governança, digest, corte). Todas detectadas conforme esperado; sem alterar histórico. Registro de evidências: G1/G2 verificados localmente; G3–G6 pendentes; G7/G8 não executados. Restauração do ZIP 060 somente em pasta temporária, NÃO rollback público.
+
+Ao escrever Continuar, verificar checkpoint, avançar exatamente MAT-EST-062, preparar aula completa aprofundada com seis visuais significativos quando adequados, vídeo com status honesto, 36 exercícios autorais e gabaritos separados, Markdown, prévia, metadados, ZIP, SHA-256, testes e checkpoint subsequente. Não declarar publicação, sincronização, assinatura, revisão humana, teste manual ou observações futuras sem evidência. Não alterar progresso individual sem tentativa real. Oferecer botões Continuar e Copiar prompt para novo chat.

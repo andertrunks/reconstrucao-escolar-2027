@@ -1,0 +1,11 @@
+CONTINUIDADE — RECONSTRUÇÃO ESCOLAR + ENEM E VESTIBULARES 2027
+
+Última aula editorial concluída localmente: MAT-EST-063 — Gestão de incidentes editoriais: classificação de falhas, comunicação de impacto e reteste de correções. Consultar MAT-EST-063-pacote-integracao.zip e checkpoint-editorial.json; caso não estejam acessíveis no novo chat, solicitar que sejam anexados.
+
+Próxima etapa, ainda não iniciada: MAT-EST-064 — Análise pós-incidente e prevenção editorial: causas sistêmicas, ações verificáveis e revisão de controles.
+
+Preservar a série t01–t22 e os 23 arquivos-base de hash invariável; ZIP integral de MAT-EST-062 herdado. MAT-EST-049-PROT-v1: cinco de oito pares; MAE B=17,60, C=8,36; custo médio B=51,20 e C=14,92; piora local t19=19,2 acima da guarda 10; C não promovido. t23–t25 sem observações/emissões autenticadas. Protocolo sucessor MAT-EST-056-PROT-SUC-v1 ainda rascunho editorial sem emissões, observações e pares t26–t33. SANDBOX-057 isolado com oito cartões, dois avaliáveis e seis pendências; B [+4,−2], C [+3,−5]; MAE B=3, C=4, custos médios sete. V/Z também isolados.
+
+Estados dos controles G1/G2 checked_local, G3–G6 pending, G7/G8 not_performed. P01–P10 sem execução. MAT-EST-063 criou sete fixtures I00–I06: I00 correta e I01–I06 mutações artificiais independentes. I01 simula denominador oito indevido, 6/8=0,75 em vez de 6/2=3. Corrigiu-se apenas cópia de I01 e o reteste local passou, sem modificar baseline. Nenhuma falha real, exposição pública, pessoa impactada, autorização, deploy ou rollback foi demonstrado.
+
+Ao escrever Continuar, conferir o checkpoint e avançar exatamente um passo editorial: MAT-EST-064. Produzir aula aprofundada, visuais didáticos acessíveis, 36 exercícios autorais graduais com gabarito separado, vídeo complementar com verificação honesta, Markdown, metadados, ZIP, prévia, SHA-256 e testes. Não inventar incidentes, observações futuras, assinaturas, aprovação humana, publicação ou sincronização. Progresso pessoal somente com evidência de estudo. Registrar novo checkpoint e apresentar os botões Continuar e Copiar prompt para novo chat.

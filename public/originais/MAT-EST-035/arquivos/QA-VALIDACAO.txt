@@ -1,0 +1,26 @@
+# QA de MAT-EST-035
+Data editorial: 2026-09-28.
+Resultado: 18 verificações estruturais e matemáticas locais aprovadas.
+Base sintética MAT-EST-034 preservada, métricas recalculadas independentemente a partir do CSV.
+Todos os itens internos são autorais; nenhuma questão oficial específica foi importada.
+Nenhuma tentativa, nota, revisão realizada ou consolidação individual gerada.
+Pendências para publicação: reprodução integral do vídeo, teste real do Edge/Ler em voz alta, integração/rotas e validação da interface.
+Verificações:
+- OK: 36 exercícios exclusivos
+- OK: 10/10/10/6 camadas
+- OK: itens todos autorais
+- OK: resolução, habilidade e diagnóstico por questão
+- OK: 7 SVG com title/desc/role
+- OK: SVGs renderizados e preview
+- OK: dataset preservado
+- OK: cálculo anterior preservado
+- OK: dados e referências com origem sintética
+- OK: métricas independentes A
+- OK: métricas independentes B
+- OK: métricas independentes base
+- OK: sensibilidade de custos
+- OK: conteúdo e exercícios vinculados
+- OK: metadados e marcador coerentes
+- OK: progresso individual intocado
+- OK: fontes e vídeo presentes
+- OK: original vs nova auditoria

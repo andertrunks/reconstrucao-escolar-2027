@@ -1,0 +1,47 @@
+{
+  "id": "MAT-EST-052-CHECK-v1",
+  "kind": "didactic_checklist_not_executed_operationally",
+  "does_not_mutate": "MAT-EST-049-PROT-v1",
+  "forecast": [
+    "origin/target/horizon",
+    "model and algorithm version",
+    "input snapshot and input_max_period <= origin",
+    "issued_at trusted or authenticated order",
+    "immutable forecast and digest",
+    "no observation known at issuance"
+  ],
+  "observation": [
+    "source and target",
+    "expected due and actual availability",
+    "value or explicit null",
+    "quality and version",
+    "correction pointer",
+    "do not treat provisional as validated"
+  ],
+  "pair": [
+    "two model forecasts with same target/horizon/eligible snapshot",
+    "validated observation version",
+    "no duplicate target",
+    "signed and absolute errors",
+    "asymmetric cost frozen"
+  ],
+  "closing": [
+    "planned/issued/matured/received/validated/paired counts separately",
+    "report missing and delay separately",
+    "revisions and audited version frozen",
+    "all gates inherited",
+    "human authorization and rollback status recorded",
+    "do not claim real field run"
+  ],
+  "actual_current_project_state": {
+    "historical_paired_simulated": 5,
+    "planned": 8,
+    "future_targets_unobserved": [
+      "t23",
+      "t24",
+      "t25"
+    ],
+    "authenticated_future_forecast_issuances": 0,
+    "promotion": "blocked_by_t19_local_deterioration_19.2_gt_10"
+  }
+}

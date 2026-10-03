@@ -1,0 +1,254 @@
+[
+  {
+    "id": "MAT-EST-040-EX-APR-01",
+    "resposta": "Uma faixa para a média populacional, sob hipóteses de coleta compatíveis.",
+    "resolucao": "A média observada é cinco; a distribuição de médias reamostradas aproxima a variabilidade do estimador. Não representa quatro pessoas novas.",
+    "causaProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-APR-02",
+    "resposta": "Quatro sorteios com reposição.",
+    "resolucao": "Mantemos n=4, sorteando da distribuição empírica; podem ocorrer repetições e ausências de valores.",
+    "causaProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-APR-03",
+    "resposta": "5.",
+    "resolucao": "Somam-se vinte unidades e divide-se por quatro: vinte dividido por quatro é cinco.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-APR-04",
+    "resposta": "Quantis das estatísticas bootstrap; estimativa do erro-padrão bootstrap.",
+    "resolucao": "No primeiro lê-se a distribuição ordenada. No segundo constrói-se estimativa ± valor crítico × erro-padrão; ambos dependem do desenho.",
+    "causaProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-APR-05",
+    "resposta": "−6.",
+    "resolucao": "A média de A é quatro, e a de B é dez; quatro menos dez resulta menos seis.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-APR-06",
+    "resposta": "20.",
+    "resolucao": "Utiliza-se combinação de seis elementos tomados três a três: 6! dividido por 3! vezes 3!, resultando vinte.",
+    "causaProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-APR-07",
+    "resposta": "Quando a hipótese nula e o desenho tornam os rótulos intercambiáveis.",
+    "resolucao": "A possibilidade matemática de rearranjar não substitui justificativa de aleatorização ou hipótese de distribuição.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-APR-08",
+    "resposta": "O par completo ou sua diferença individual.",
+    "resolucao": "As duas medições estão ligadas à mesma unidade; embaralhá-las como observações independentes destrói a dependência.",
+    "causaProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-APR-09",
+    "resposta": "Não. Há três pacientes independentes, cada um com duas medições.",
+    "resolucao": "Para inferência entre pacientes, linhas de um paciente formam conglomerado, não participantes diferentes.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-APR-10",
+    "resposta": "Dados e procedimento/código, incluindo uma semente aleatória registrada.",
+    "resolucao": "É preciso saber a composição dos dados, algoritmo, parâmetros e origem da sequência pseudoaleatória; a semente isolada não basta.",
+    "causaProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-CON-01",
+    "resposta": "√1,25 ≈ 1,118.",
+    "resolucao": "O erro-padrão bootstrap do experimento enumerado é a raiz quadrada da variância das médias, não o desvio-padrão das quatro observações originais.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-CON-02",
+    "resposta": "[3;7].",
+    "resolucao": "Os limites são os quantis das duas caudas de 2,5%; a convenção de quantil precisa constar no relatório.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-CON-03",
+    "resposta": "[2,809;7,191], arredondado.",
+    "resolucao": "A margem é 1,96 vezes 1,11803, aproximadamente 2,19135; subtrair e somar de cinco. É comparação didática, não promessa de cobertura com n=4.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-CON-04",
+    "resposta": "Não. Resultam de procedimentos diferentes.",
+    "resolucao": "O intervalo percentílico usa limites empíricos da distribuição; o normal usa simetria aproximada e erro-padrão. O exemplo n=4 não valida cobertura real de nenhum deles.",
+    "causaProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-CON-05",
+    "resposta": "0,10 (10%).",
+    "resolucao": "Duas alocações extremas dividido por vinte alocações equiprováveis; a conclusão depende da permutabilidade sob H0.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-CON-06",
+    "resposta": "0,020.",
+    "resolucao": "(19+1)/(999+1)=20/1000; essa convenção impede p zero em amostragem Monte Carlo adequada.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-CON-07",
+    "resposta": "8.",
+    "resolucao": "Cada par admite mais ou menos independentemente sob o esquema nulo de troca de sinais: dois ao cubo.",
+    "causaProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-CON-08",
+    "resposta": "0,25.",
+    "resolucao": "Duas configurações extremas divididas por oito. Não reembaralhar individualmente as seis medições originais.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-CON-09",
+    "resposta": "7.",
+    "resolucao": "A soma das médias é vinte e um; divide-se por três unidades independentes.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-CON-10",
+    "resposta": "32/9 ≈ 3,556.",
+    "resolucao": "Cada réplica tem três sorteios independentes do conjunto empírico de pacientes; divide-se a variância empírica por três.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-VES-01",
+    "resposta": "Neste exemplo, a análise ingênua aparenta precisão maior e viola a estrutura por paciente.",
+    "resolucao": "O conjunto tem três unidades de seleção; o segundo cálculo ignora correlação intrapaciente. A direção e magnitude do erro dependem dos dados, portanto não são uma regra universal.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-VES-02",
+    "resposta": "Pela escola, preservando todos os alunos vinculados a ela.",
+    "resolucao": "A atribuição foi feita por escola. Trocar rótulos por aluno cria atribuições que não poderiam ocorrer no desenho original.",
+    "causaProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-VES-03",
+    "resposta": "Pode destruir dependência e tendência temporal.",
+    "resolucao": "Se os erros mudam com o tempo ou são autocorrelacionados, o bootstrap individual não reproduz o mecanismo da série; considerar blocos e avaliação temporal.",
+    "causaProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-VES-04",
+    "resposta": "Usar diferenças por data [5,5,5,−20] e reamostrar as datas como pares, se independência temporal for plausível.",
+    "resolucao": "O mesmo dia afeta ambos os modelos. Sortear as duas listas independentemente perde o pareamento; se houver dependência temporal, nem o bootstrap de datas isoladas é plenamente adequado.",
+    "causaProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-VES-05",
+    "resposta": "MAE(A)=5; MAE(B)=6,25.",
+    "resolucao": "A soma dos erros de A é vinte; a de B é vinte e cinco; dividir por quatro. Um dia extremo decide o balanço.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-VES-06",
+    "resposta": "−1,25; neste teste específico A teve menor erro absoluto médio.",
+    "resolucao": "A soma é menos cinco e a média menos 1,25. O sinal resume o recorte e não garante vantagem futura.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-VES-07",
+    "resposta": "[−13,75;5], inclui zero.",
+    "resolucao": "Uma réplica sorteia quatro datas com reposição, recalculando a média das diferenças. O intervalo ilustra grande instabilidade e não certifica cobertura com n=4.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-VES-08",
+    "resposta": "+5; a comparação inverte o sinal.",
+    "resolucao": "As três diferenças restantes valem cinco. A reversão indica influência importante; omitir o quarto dia para reportar vantagem seria seleção indevida.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-VES-09",
+    "resposta": "Não.",
+    "resolucao": "Mais réplicas podem reduzir a incerteza de simulação, não adicionar escolas ausentes nem consertar o processo de seleção.",
+    "causaProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-VES-10",
+    "resposta": "Não se rejeita H0 ao nível de 5%; o estudo é pouco informativo para afirmar ausência de diferença.",
+    "resolucao": "Relatar estatística, desenho, p e limitações; a conclusão não demonstra igualdade, causalidade ou poder estatístico suficiente.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-RET-01",
+    "resposta": "27.",
+    "resolucao": "Três escolhas em cada um de três sorteios: três ao cubo.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-RET-02",
+    "resposta": "7/3 ≈ 2,333.",
+    "resolucao": "Somar sete e dividir por três; valores repetidos são permitidos.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-RET-03",
+    "resposta": "1/3 ≈ 0,333.",
+    "resolucao": "Dividir duas alocações extremas pelas seis possíveis.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-RET-04",
+    "resposta": "Quatro pacientes/pares com reposição, preservando ambos os registros de cada paciente.",
+    "resolucao": "A unidade independente é o paciente; usar diferenças individuais ou reamostrar pares completos.",
+    "causaProvavel": "estratég",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-RET-05",
+    "resposta": "Não.",
+    "resolucao": "A distribuição empírica não contém o bairro ausente, de modo que a simulação não recupera a cobertura populacional.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-040-EX-RET-06",
+    "resposta": "Relatar resultado integral e análise de sensibilidade, com justificativa e limites.",
+    "resolucao": "Não esconder a observação nem escolher retrospectivamente só o cenário favorável; documentar procedimento e dependência do desenho temporal.",
+    "causaProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  }
+]

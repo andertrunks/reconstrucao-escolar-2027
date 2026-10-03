@@ -1,0 +1,583 @@
+{
+  "aula": "MAT-EST-050",
+  "versao": 1,
+  "origem": "autoral",
+  "questoes": [
+    {
+      "id": "MAT-EST-050-EX-APR-01",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "aprendizagem",
+      "dificuldade": "inicial",
+      "titulo": "Fronteira de conhecimento",
+      "enunciado": "Quais são os últimos alvos com valor registrado e os três seguintes ainda não observados nesta narrativa?",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-APR-02",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "aprendizagem",
+      "dificuldade": "inicial",
+      "titulo": "Definição de erro",
+      "enunciado": "Se y=20 e previsão=24, calcule e e identifique o sinal da falha.",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-APR-03",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "aprendizagem",
+      "dificuldade": "inicial",
+      "titulo": "Módulo local",
+      "enunciado": "No alvo t19, quais foram os módulos dos erros de B e C?",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-APR-04",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "aprendizagem",
+      "dificuldade": "inicial",
+      "titulo": "Custo de sinal positivo",
+      "enunciado": "Com r=2, qual o custo fictício do erro +3?",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-APR-05",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "aprendizagem",
+      "dificuldade": "inicial",
+      "titulo": "Custo de sinal negativo",
+      "enunciado": "Com r=5, qual o custo do erro −3?",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-APR-06",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "aprendizagem",
+      "dificuldade": "inicial",
+      "titulo": "Peso igual a um",
+      "enunciado": "Qual métrica coincide com o custo médio quando r=1?",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-APR-07",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "aprendizagem",
+      "dificuldade": "inicial",
+      "titulo": "Soma dos módulos",
+      "enunciado": "Calcule o MAE de B a partir da soma de módulos 88 em cinco pares.",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-APR-08",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "aprendizagem",
+      "dificuldade": "inicial",
+      "titulo": "Janelas e hipóteses",
+      "enunciado": "O valor hipotético y23=178 pode ser colocado no histórico principal de observados?",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-APR-09",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "aprendizagem",
+      "dificuldade": "inicial",
+      "titulo": "Piora versus percentual",
+      "enunciado": "C errou 23,2 e B errou 4 em t19. Qual a piora absoluta de C?",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-APR-10",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "aprendizagem",
+      "dificuldade": "inicial",
+      "titulo": "Condição lógica",
+      "enunciado": "Se um protocolo exige que todas as seis portas passem, basta duas médias favoráveis?",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-CON-01",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "consolidacao",
+      "dificuldade": "intermediaria",
+      "titulo": "Derivar reta B",
+      "enunciado": "Some os erros positivos de B (25,21,21,17) e a magnitude negativa 4. Escreva custo médio B em função de r.",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-CON-02",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "consolidacao",
+      "dificuldade": "intermediaria",
+      "titulo": "Derivar reta C",
+      "enunciado": "Para C, positivos somam 16,4 e magnitudes negativas 25,4. Escreva custo médio C em função de r.",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-CON-03",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "consolidacao",
+      "dificuldade": "intermediaria",
+      "titulo": "Calcular alternativa r=2",
+      "enunciado": "Calcule as duas médias de custo para r=2 e a diferença B menos C.",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-CON-04",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "consolidacao",
+      "dificuldade": "intermediaria",
+      "titulo": "Encontrar ponto de empate",
+      "enunciado": "Resolva 16,8r+0,8=3,28r+5,08.",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-CON-05",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "consolidacao",
+      "dificuldade": "intermediaria",
+      "titulo": "Testar r=0,25",
+      "enunciado": "Qual reta produz a menor média para r=0,25 e por quanto?",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-CON-06",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "consolidacao",
+      "dificuldade": "intermediaria",
+      "titulo": "Retirar t19 descritivamente",
+      "enunciado": "Retire t19 apenas para o diagnóstico. A partir das somas 88 e 41,8 e dos módulos 4 e 23,2, calcule os MAEs restantes.",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-CON-07",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "consolidacao",
+      "dificuldade": "intermediaria",
+      "titulo": "Retirar t18 descritivamente",
+      "enunciado": "Sem t18, cujos módulos eram 25 e 9,8, obtenha os dois MAEs.",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-CON-08",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "consolidacao",
+      "dificuldade": "intermediaria",
+      "titulo": "Projeção B de t23",
+      "enunciado": "No método B com sazonalidade quatro, y19=183. Qual a estimativa didática de t23 com origem t22?",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-CON-09",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "consolidacao",
+      "dificuldade": "intermediaria",
+      "titulo": "Projeção C de t23",
+      "enunciado": "As diferenças d18 a d22 são 25,−4,21,21,17. Se B23=183, calcule C23.",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-CON-10",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "consolidacao",
+      "dificuldade": "intermediaria",
+      "titulo": "Retificação hipotética",
+      "enunciado": "Suponha, sem alterar histórico, que y22 passasse de 193 a 190. Qual a nova diferença sazonal d22 e nova projeção C23?",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-VES-01",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "vestibular_autoral",
+      "dificuldade": "transferencia",
+      "titulo": "Interpretação de duas retas",
+      "enunciado": "Questão autoral em estilo vestibular. Em r=0,25, B custa 5,00 e C custa 5,90; em r=3, B custa 51,20 e C 14,92. Redija conclusão que respeite ambas as comparações.",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-VES-02",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "vestibular_autoral",
+      "dificuldade": "transferencia",
+      "titulo": "Menor média, guarda violada",
+      "enunciado": "Questão autoral em estilo vestibular. A candidata reduz a média de erro em 52,5%, mas piora 19,2 em t19. Um contrato exige nenhum alvo acima de 10. Qual é o estado?",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-VES-03",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "vestibular_autoral",
+      "dificuldade": "transferencia",
+      "titulo": "Igual módulo, outro custo",
+      "enunciado": "Questão autoral em estilo vestibular. Sob y23 hipotético igual a 191, B prevê 183 e C prevê 199. Compare módulo e custo para r=3.",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-VES-04",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "vestibular_autoral",
+      "dificuldade": "transferencia",
+      "titulo": "Cenário de queda",
+      "enunciado": "Questão autoral em estilo vestibular. Se y23 fosse 178, calcule módulos B e C e piora local do candidato.",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-VES-05",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "vestibular_autoral",
+      "dificuldade": "transferencia",
+      "titulo": "Cenário de alta",
+      "enunciado": "Questão autoral em estilo vestibular. Se y23 fosse 209, compare módulos dos erros B e C e os custos com r=3.",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-VES-06",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "vestibular_autoral",
+      "dificuldade": "transferencia",
+      "titulo": "Revisão de entrada",
+      "enunciado": "Questão autoral em estilo vestibular. Um gestor substitui silenciosamente y22=193 por 190 e reescreve a previsão passada. Explique o problema e quantifique a variação de C23.",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-VES-07",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "vestibular_autoral",
+      "dificuldade": "transferencia",
+      "titulo": "Vazamento condicional",
+      "enunciado": "Questão autoral em estilo vestibular. Alguém usa d23=y23−y19 para emitir previsão C para t24 antes de y23 ser observado. Qual é a restrição?",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-VES-08",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "vestibular_autoral",
+      "dificuldade": "transferencia",
+      "titulo": "Amostra dependente",
+      "enunciado": "Questão autoral em estilo vestibular. Um autor transforma cinco diagnósticos retirando uma linha de cada vez em cinco testes independentes de superioridade. Avalie.",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-VES-09",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "vestibular_autoral",
+      "dificuldade": "transferencia",
+      "titulo": "Política alterada depois",
+      "enunciado": "Questão autoral em estilo vestibular. Após t19, a equipe aumenta a guarda de dez para vinte e diz que a regra original foi cumprida. Reescreva corretamente.",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-VES-10",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "vestibular_autoral",
+      "dificuldade": "transferencia",
+      "titulo": "Comunicado técnico",
+      "enunciado": "Questão autoral em estilo vestibular. Escreva quatro frases: finalidade, resultado, exceção local e limite com encaminhamento, para os cinco pares t18–t22.",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-RET-01",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "reteste",
+      "dificuldade": "independente",
+      "titulo": "Nova família de custo",
+      "enunciado": "Reteste posterior e independente: outro par de métodos inventados tem soma dos erros positivos P: 30 e Q: 10; magnitudes negativas P: 5 e Q: 25, em cinco alvos. Escreva os custos médios como função de r e encontre o empate.",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-RET-02",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "reteste",
+      "dificuldade": "independente",
+      "titulo": "Novo cenário condicional",
+      "enunciado": "Reteste posterior: duas previsões para alvo ainda não observado são 40 e 55. Se a hipótese for valor 45, calcule erros, módulos e custos com r=2.",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-RET-03",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "reteste",
+      "dificuldade": "independente",
+      "titulo": "Retirada sem apagar falha",
+      "enunciado": "Reteste posterior: três erros absolutos do candidato são 1; 15; 2 e guarda é dez. Qual a média e o que ocorre se o valor 15 for retirado só do diagnóstico?",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-RET-04",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "reteste",
+      "dificuldade": "independente",
+      "titulo": "Correção de registro",
+      "enunciado": "Reteste posterior: modelo M usa média das últimas quatro diferenças. Uma única diferença corrigida caiu oito unidades. De quanto varia o componente médio, se o resto não muda?",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-RET-05",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "reteste",
+      "dificuldade": "independente",
+      "titulo": "Fronteira temporal",
+      "enunciado": "Reteste posterior: ao fechar t50, uma regra usa y51 para emitir previsão para t51. Explique a violação e uma solução de protocolo.",
+      "alternativas": null
+    },
+    {
+      "id": "MAT-EST-050-EX-RET-06",
+      "origem": "autoral",
+      "exame": null,
+      "ano": null,
+      "materia": "Matemática",
+      "topicos": [
+        "MAT-EST-049",
+        "MAT-EST-050"
+      ],
+      "camada": "reteste",
+      "dificuldade": "independente",
+      "titulo": "Parecer crítico de generalização",
+      "enunciado": "Reteste posterior: foram inventados seis alvos, publicados junto com a regra, com média de erro menor para C. Redija três ressalvas necessárias antes de afirmar desempenho externo.",
+      "alternativas": null
+    }
+  ]
+}

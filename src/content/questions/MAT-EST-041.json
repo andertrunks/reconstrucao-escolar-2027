@@ -1,0 +1,866 @@
+[
+  {
+    "id": "MAT-EST-041-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Linha versus unidade",
+    "statement": "Três pacientes foram medidos duas vezes. Quantas pessoas independentes há no exemplo?",
+    "answer": "Três pacientes.",
+    "resolution": "Conte identificadores de pessoas, não o número de linhas. Há seis medições agrupadas em P1, P2 e P3.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "O que é dependência temporal",
+    "statement": "Explique por que medições em dias seguidos podem não ser independentes.",
+    "answer": "Podem compartilhar padrões e efeitos persistentes.",
+    "resolution": "A demanda de hoje pode carregar fatores de ontem; o número de dias não equivale ao de experimentos separados.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Nomear o conglomerado",
+    "statement": "Um estudo seleciona aleatoriamente escolas e registra todos os alunos dentro delas. Qual unidade sorteada deve permanecer junta no bootstrap de escolas?",
+    "answer": "A escola inteira.",
+    "resolution": "O sorteio original foi entre escolas. Repetir separadamente alunos cria agrupamentos e independências artificiais.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Reposição de grupos",
+    "statement": "Num bootstrap de três pacientes, um mesmo paciente pode aparecer duas vezes na réplica?",
+    "answer": "Sim.",
+    "resolution": "O sorteio é com reposição entre identificadores de pacientes; as duas medições seguem o paciente em cada seleção.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Valor médio por paciente",
+    "statement": "P1=[2,4]. Calcule sua média antes da agregação por pessoas.",
+    "answer": "3.",
+    "resolution": "Somar as duas medidas, seis, e dividir por duas; esse paciente contribui com uma média ao alvo por paciente.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Janela consecutiva",
+    "statement": "Na série [2,4,6,8,10,12], indique a primeira janela de comprimento dois.",
+    "answer": "[2,4].",
+    "resolution": "A janela deve manter adjacência e ordem; não é uma escolha de quaisquer dois valores.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Quantas janelas móveis",
+    "statement": "Uma série tem seis períodos e blocos sobrepostos de comprimento dois. Quantos blocos de partida existem?",
+    "answer": "Cinco.",
+    "resolution": "Os inícios possíveis são períodos 1, 2, 3, 4 e 5; a posição 6 não comporta um par completo.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Treino e amanhã",
+    "statement": "Um modelo será avaliado no dia cinco. O valor observado do próprio dia cinco pode entrar no ajuste anterior?",
+    "answer": "Não.",
+    "resolution": "No instante da previsão, o alvo ainda está desconhecido. Usá-lo no treino tornaria o teste contaminado.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Horizonte de previsão",
+    "statement": "Diferencie prever amanhã de prever quatro dias adiante na montagem do teste.",
+    "answer": "Os horizontes e os dados disponíveis são diferentes.",
+    "resolution": "A origem deve ser a data a partir da qual a informação é conhecida. Um teste de quatro passos reserva quatro períodos posteriores.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Mais simulações",
+    "statement": "Cem mil reamostragens criam cem mil escolas observadas?",
+    "answer": "Não.",
+    "resolution": "Réplicas artificiais reutilizam escolas já amostradas; podem reduzir flutuação computacional, não preencher escolas ausentes.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Média das três pessoas",
+    "statement": "Calcule a média com peso igual para pacientes cujas médias são 3,7,11.",
+    "answer": "7.",
+    "resolution": "Somamos as médias individuais: 3 + 7 + 11 = 21; dividimos por três pacientes, com o mesmo peso para cada pessoa, resultando 7.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Sequências de pacientes",
+    "statement": "Com três pacientes, três seleções ordenadas com reposição geram quantas réplicas exatas?",
+    "answer": "27.",
+    "resolution": "A primeira seleção tem três opções, assim como a segunda e a terceira. Como há reposição e a ordem importa, 3 × 3 × 3 = 27.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Variância empírica de pacientes",
+    "statement": "Para médias [3,7,11] com probabilidade igual, calcule a variância empírica probabilística.",
+    "answer": "32/3.",
+    "resolution": "Centro 7, desvios −4,0,+4; quadrados 16,0,16; soma 32 e divisão pelo número de valores possíveis, três.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Erro-padrão em réplicas de pessoas",
+    "statement": "A variância empírica das médias de pacientes vale 32/3. Qual variância da média de três sorteios com reposição?",
+    "answer": "32/9.",
+    "resolution": "Três seleções independentes na distribuição bootstrap: a variância da média é a variância de um sorteio dividida por três.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Converter para erro-padrão",
+    "statement": "Calcule √(32/9) com três casas decimais.",
+    "answer": "1,886.",
+    "resolution": "A raiz da fração é √32/3≈5,656854/3≈1,885618; arredondamos para 1,886.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Média das escolas desiguais",
+    "statement": "Escolas com médias 3,8,12: calcule média por escola.",
+    "answer": "23/3≈7,667.",
+    "resolution": "Cada escola recebe peso igual de um terço. As três médias somam 3 + 8 + 12 = 23; dividir por três gera 23/3, aproximadamente 7,667.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Média por aluno",
+    "statement": "Alunos [2,4,6,8,10,12]. Calcule sua média.",
+    "answer": "7.",
+    "resolution": "A soma é 42 para seis estudantes, daí 42/6=7; outro alvo que a média por escola.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Contagem de blocos sorteados",
+    "statement": "Com cinco janelas disponíveis e três seleções ordenadas com reposição, quantas réplicas?",
+    "answer": "125.",
+    "resolution": "Existem cinco janelas em cada um dos três sorteios com reposição; multiplicamos 5 × 5 × 5 = 125 sequências ordenadas possíveis.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Réplica por blocos",
+    "statement": "Concatene B1=[2,4], B1=[2,4] e B5=[10,12] nesta ordem.",
+    "answer": "[2,4,2,4,10,12].",
+    "resolution": "Copiar cada janela inteira, na ordem sorteada, mantendo a ordem interna dos períodos.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Média da réplica",
+    "statement": "Calcule a média de [2,4,2,4,10,12].",
+    "answer": "34/6≈5,667.",
+    "resolution": "Mantemos as seis posições após a concatenação. A soma é 2 + 4 + 2 + 4 + 10 + 12 = 34; sua média é 34/6, cerca de 5,667.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Exclusão indevida de linhas",
+    "statement": "Uma escola foi sorteada, mas a análise reamostra seus alunos separadamente. Explique qual premissa do bootstrap de conglomerados foi quebrada.",
+    "answer": "Foi perdida a preservação da dependência intraclasse.",
+    "resolution": "O sorteio verdadeiro opera em escolas. Ao agir por linha, reinterpreta-se cada aluno como unidade de seleção independente e se altera a variância estimada.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Estimandos diferentes na réplica",
+    "statement": "Se a réplica é A,A,C, com A=[2,4] e C=[12], encontre (a) média de escola e (b) média de aluno.",
+    "answer": "(a) 6; (b) 4,8.",
+    "resolution": "As médias das escolas sorteadas são 3,3,12: soma 18/3=6. Os alunos repetidos são 2,4,2,4,12: soma 24/5=4,8.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Comparar dois erros-padrão",
+    "statement": "O erro-padrão por conglomerados é aproximadamente 1,886 e o ingênuo por linha é aproximadamente 1,394. O que os números demonstram e o que não demonstram?",
+    "answer": "Dependem da unidade simulada; não comprovam cobertura com três grupos.",
+    "resolution": "A menor dispersão ingênua decorre do sorteio independente de linhas. Com G=3, o bootstrap por grupos também é demonstrativo, não valida intervalos populacionais automaticamente.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Algoritmo contra hipótese",
+    "statement": "A série 2,4,6,8,10,12 produziu 125 réplicas por bloco. Explique por que isso não autoriza divulgar um intervalo de confiança de cobertura demonstrada.",
+    "answer": "A série tem forte tendência e não foi justificada a hipótese de estabilidade.",
+    "resolution": "O número 125 confirma apenas a enumeração. O método para inferência exige hipóteses temporais relevantes, como tratamento de não estacionariedade e escolha do bloco.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Variância das médias por blocos",
+    "statement": "Os blocos têm médias [3,5,7,9,11]. Calcule a variância empírica probabilística dessas cinco médias e a da média de três blocos com reposição.",
+    "answer": "8 e 8/3.",
+    "resolution": "A média é 7. Quadrados das diferenças são 16,4,0,4,16; 40/5=8. Por independência dos três sorteios no mundo bootstrap, 8/3.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Plano de teste cronológico",
+    "statement": "Escreva as quatro divisões expansivas para teste nos dias 5,6,7,8 iniciando treino em 1–4.",
+    "answer": "1–4→5; 1–5→6; 1–6→7; 1–7→8.",
+    "resolution": "Cada dobra estende o treino até a véspera do alvo; testar o passado com treino futuro seria diferente e inadequado para essa pergunta.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Modelo de último valor",
+    "statement": "Nos dias 4 a 8, observam-se 100,90,110,130,100. Usando o último valor conhecido como previsão dos dias 5 a 8, calcule MAE.",
+    "answer": "20 atendimentos.",
+    "resolution": "Previsões 100,90,110,130; erros 10,20,20,30; soma 80 dividida por quatro, igual a 20.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Comparar baseline fixo",
+    "statement": "Os observados dias 5–8 são 90,110,130,100. Uma referência prevê sempre 100. Qual o MAE, e como se compara ao MAE 20 de último valor no mesmo recorte?",
+    "answer": "MAE 12,5, inferior a 20 nesse recorte.",
+    "resolution": "Erros absolutos 10,10,30,0, soma 50, divisão por 4=12,5. É comparação histórica de quatro dias, não generalização universal.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Preditivo pré-calculado versus dobra",
+    "statement": "O CSV contém as previsões A e B para dias 5–8. É válido afirmar que essas colunas são frutos do reajuste de modelos em cada origem móvel?",
+    "answer": "Não.",
+    "resolution": "São previsões preexistentes. O protocolo de refit não está documentado para essas colunas; podem ser comparadas por seus erros, não apresentadas como CV reexecutada.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Transporte cidade e período",
+    "statement": "Um estudo mede quatro dias de uma unidade e quer estimar desempenho em escolas desconhecidas no ano seguinte. Proponha duas verificações de generalização.",
+    "answer": "Separação por escola não vista e por período futuro com disponibilidade de variáveis respeitada.",
+    "resolution": "Escolas novas pedem avaliação por grupo, e horizonte novo exige corte cronológico; se ambos importam, desenho conjunto, sem vazamento ou ajuste com teste final.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Novo desenho de grupos",
+    "statement": "Quatro famílias têm três respostas cada. Ao estimar a média por família via bootstrap, qual unidade é sorteada e quantos sorteios por réplica?",
+    "answer": "Quatro famílias completas, quatro sorteios com reposição.",
+    "resolution": "A unidade da pergunta é família; as três respostas permanecem agrupadas a cada família selecionada.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Contagem nova de blocos",
+    "statement": "Uma série possui oito registros e janelas móveis consecutivas de comprimento três. Quantas janelas distintas existem?",
+    "answer": "Seis.",
+    "resolution": "O início pode ocorrer nos índices 1 a 6; fórmula n − comprimento + 1 = 8 − 3 + 1 = 6.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Réplica independente de blocos",
+    "statement": "Seis janelas estão disponíveis e uma réplica utiliza duas escolhas ordenadas com reposição, quantas sequências de escolhas existem?",
+    "answer": "36.",
+    "resolution": "Cada posição comporta seis opções, e as escolhas são independentes na distribuição reamostrada: 6²=36.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Novo corte temporal",
+    "statement": "A previsão alvo é o dia 9, e o último dia de informação autorizado é 7 por atraso do sistema. É legítimo usar dia 8 como variável de entrada?",
+    "answer": "Não.",
+    "resolution": "O instante real de disponibilidade termina em 7; o dia 8 pertence ao intervalo sem informação liberada.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Mudança de população",
+    "statement": "O bootstrap de alunos em uma escola só demonstra representatividade de todas as escolas do estado?",
+    "answer": "Não.",
+    "resolution": "Reamostrar dados existentes não cria escolas que o desenho nunca incluiu; generalização de lugar demanda seleção e teste apropriados.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-041-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-041"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Erro de último valor em novo trecho",
+    "statement": "Na sequência [10,14,11,13], use a última observação conhecida para prever os últimos três valores e calcule o MAE.",
+    "answer": "3.",
+    "resolution": "Previsões 10,14,11; observados 14,11,13; erros absolutos 4,3,2, cuja soma 9 dividida por três dá 3.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-041-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1CIdP38nY49CQE52lfQdd9F7ScHAh0Jyd/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  }
+]

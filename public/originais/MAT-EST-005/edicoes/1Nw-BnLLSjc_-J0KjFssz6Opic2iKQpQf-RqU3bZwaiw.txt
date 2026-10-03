@@ -1,0 +1,1297 @@
+﻿MAT-EST-005 — Média aritmética: significado, cálculo, média ponderada e efeito de valores extremos
+
+
+Status editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.
+Matéria: Matemática.
+Unidade: Estatística.
+Nível principal: 2 — Ensino Fundamental II, com progressão para Ensino Médio, vestibulares e ponte universitária.
+Pré-requisitos conceituais: MAT-EST-001; MAT-EST-002; MAT-EST-003; MAT-EST-004; operações básicas com números naturais, inteiros, decimais, frações e porcentagens.
+Próximo tópico: MAT-EST-006 — Mediana e moda: posição, frequência e comparação com a média.
+Origem das questões desta reconstrução: 100% autoral.
+
+
+1. Objetivo
+
+
+Ao concluir o estudo real desta aula e resolver os exercícios sem consultar previamente o gabarito, o estudante deverá ser capaz de:
+
+
+• explicar com palavras próprias o que a média aritmética representa;
+• calcular média simples sem depender de uma fórmula decorada;
+• interpretar a média como repartição igualitária;
+• interpretar a média como ponto de equilíbrio de desvios;
+• calcular média a partir de uma tabela de frequências;
+• calcular média ponderada e explicar o papel dos pesos;
+• combinar médias de grupos sem cometer o erro de simplesmente tirar a média das médias;
+• descobrir valor desconhecido quando a média é conhecida;
+• reconhecer que a média preserva a unidade da variável;
+• prever como alterações nos dados modificam a média;
+• compreender por que valores extremos podem deslocar fortemente a média;
+• identificar situações em que a média é inadequada ou insuficiente;
+• diferenciar descrição de dados observados de generalização para uma população;
+• resolver aplicações em contexto escolar, financeiro, científico e de vestibular.
+
+
+2. A ideia antes da fórmula
+
+
+Considere três pessoas com 2, 4 e 6 fichas.
+
+
+Total:
+
+
+2 + 4 + 6 = 12.
+
+
+Se quisermos repartir as 12 fichas igualmente entre as três pessoas:
+
+
+12 ÷ 3 = 4.
+
+
+A média é 4.
+
+
+Observe que o cálculo “somar e dividir” tem um significado: primeiro reunimos o total; depois redistribuímos igualmente entre o número de observações.
+
+
+A média aritmética pode ser entendida como o valor que cada observação teria se o total permanecesse o mesmo, mas fosse igualmente repartido.
+
+
+3. Fórmula da média aritmética simples
+
+
+Se os valores são x₁, x₂, ..., xₙ, então:
+
+
+x̄ = (x₁ + x₂ + ... + xₙ) / n.
+
+
+Leitura pronunciável: “xis barra é igual à soma dos valores dividida pela quantidade de valores”.
+
+
+Outra forma:
+
+
+x̄ = Σxᵢ / n.
+
+
+Leitura: “xis barra é igual ao somatório dos xis índice i dividido por ene”.
+
+
+Onde:
+x̄ é a média;
+xᵢ representa cada valor observado;
+n é a quantidade de observações consideradas.
+
+
+4. Exemplo resolvido — média simples
+
+
+Valores: 7, 8, 6, 9, 10.
+
+
+Soma = 40.
+n = 5.
+Média = 40/5 = 8.
+
+
+Interpretação: se o total de 40 unidades fosse repartido igualmente entre as cinco observações, cada uma teria 8.
+
+
+5. A média pode não ser um valor observado
+
+
+1, 2, 2, 3 têm média 2.
+
+
+Já 1, 2, 3, 4 têm média 2,5.
+
+
+Nenhuma observação precisa ser exatamente igual à média. A média é uma medida-resumo.
+
+
+6. A média preserva a unidade
+
+
+Se os dados estão em centímetros, a média está em centímetros.
+Se estão em minutos, a média está em minutos.
+Se estão em reais, a média está em reais.
+Se estão em pontos, a média está em pontos.
+
+
+Exemplo: 480 minutos divididos por 6 observações = 80 minutos.
+
+
+7. Quando a média faz sentido?
+
+
+A média exige que soma e divisão tenham significado para a variável.
+
+
+Ela faz sentido para altura, massa, idade, renda, nota, quantidade, tempo e muitas outras variáveis quantitativas.
+
+
+Não faz sentido calcular média de categorias nominais como tipo sanguíneo, cidade de nascimento ou meio de transporte.
+
+
+Codificar “ônibus = 1, carro = 2, bicicleta = 3” não transforma rótulos em grandeza quantitativa.
+
+
+8. Média como ponto de equilíbrio
+
+
+Considere 2, 3 e 7.
+
+
+Média = 4.
+
+
+Desvios:
+2 − 4 = −2.
+3 − 4 = −1.
+7 − 4 = +3.
+
+
+Soma dos desvios:
+
+
+−2 + (−1) + 3 = 0.
+
+
+Propriedade:
+
+
+Σ(xᵢ − x̄) = 0.
+
+
+Leitura pronunciável: “a soma dos desvios de cada valor em relação à média é igual a zero”.
+
+
+9. Por que a soma dos desvios é zero?
+
+
+Σ(xᵢ − x̄) = Σxᵢ − n x̄.
+
+
+Como x̄ = Σxᵢ/n, então n x̄ = Σxᵢ.
+
+
+Logo:
+
+
+Σxᵢ − Σxᵢ = 0.
+
+
+Essa propriedade explica a ideia de ponto de equilíbrio.
+
+
+10. Média como redistribuição
+
+
+Para transformar 2, 3 e 7 em três valores iguais a 4:
+o valor 2 recebe 2;
+o valor 3 recebe 1;
+o valor 7 cede 3.
+
+
+O que falta abaixo da média é compensado pelo excesso acima dela.
+
+
+11. Média a partir de frequências
+
+
+Tabela:
+
+
+Número de livros | frequência
+0 | 2
+1 | 3
+2 | 4
+3 | 1
+
+
+Produtos:
+
+
+0×2 = 0
+1×3 = 3
+2×4 = 8
+3×1 = 3
+
+
+Soma dos produtos = 14.
+Total de observações = 10.
+
+
+Média = 14/10 = 1,4 livro.
+
+
+12. Fórmula da média com frequências
+
+
+x̄ = Σ(xᵢfᵢ) / Σfᵢ.
+
+
+Leitura pronunciável: “média é igual à soma de cada valor multiplicado por sua frequência, dividida pela soma das frequências”.
+
+
+Como Σfᵢ = n, esta é apenas uma forma compacta de repetir cada valor conforme sua frequência.
+
+
+13. Média ponderada
+
+
+Quando valores têm pesos diferentes:
+
+
+x̄ₚ = Σ(wᵢxᵢ) / Σwᵢ.
+
+
+Leitura pronunciável: “média ponderada é igual à soma dos produtos de cada valor pelo seu peso, dividida pela soma dos pesos”.
+
+
+14. Exemplo resolvido — notas com pesos
+
+
+Prova 1: nota 6, peso 2.
+Prova 2: nota 7, peso 3.
+Prova 3: nota 8, peso 5.
+
+
+Produtos:
+6×2 = 12
+7×3 = 21
+8×5 = 40
+
+
+Soma dos produtos = 73.
+Soma dos pesos = 10.
+
+
+Média ponderada = 73/10 = 7,3.
+
+
+15. Peso não significa porcentagem automaticamente
+
+
+Pesos 2, 3 e 5 equivalem, em participação, a 20%, 30% e 50% do peso total.
+
+
+Multiplicar todos os pesos pela mesma constante não muda a média ponderada.
+
+
+Pesos 2, 3, 5 e pesos 4, 6, 10 produzem a mesma média ponderada.
+
+
+16. Frequências são um caso de pesos
+
+
+Na tabela de livros, frequências 2, 3, 4 e 1 funcionam como pesos porque dizem quantas vezes cada valor participa da soma.
+
+
+17. O erro de “média das médias”
+
+
+Turma A: 20 estudantes, média 70.
+Turma B: 30 estudantes, média 80.
+
+
+É incorreto calcular simplesmente (70+80)/2 = 75 para todos os 50 estudantes.
+
+
+Totais:
+A: 20×70 = 1400.
+B: 30×80 = 2400.
+
+
+Total = 3800.
+n = 50.
+
+
+Média conjunta = 3800/50 = 76.
+
+
+18. Fórmula para combinar médias
+
+
+x̄ = (n₁x̄₁ + n₂x̄₂) / (n₁+n₂).
+
+
+Os tamanhos dos grupos funcionam como pesos.
+
+
+19. Quando a média das médias funciona?
+
+
+Quando os grupos têm o mesmo tamanho.
+
+
+Se ambos têm 20 pessoas e médias 70 e 80, então a média conjunta é 75.
+
+
+20. Descobrir um valor desconhecido
+
+
+Cinco valores têm média 12.
+
+
+Soma total = 12×5 = 60.
+
+
+Quatro valores conhecidos: 10, 11, 14 e 9.
+Soma conhecida = 44.
+
+
+Valor desconhecido = 60−44 = 16.
+
+
+21. A média e transformações nos dados
+
+
+Se somamos c a todos os valores, a média aumenta c.
+
+
+Se multiplicamos todos os valores por k, a média é multiplicada por k.
+
+
+Exemplo:
+2,4,6 têm média 4.
+Somando 10: 12,14,16, média 14.
+Multiplicando os originais por 3: 6,12,18, média 12.
+
+
+22. Forma geral da transformação
+
+
+Se yᵢ = a xᵢ + b, então:
+
+
+ȳ = a x̄ + b.
+
+
+Leitura pronunciável: “se cada novo valor y é igual a a vezes x mais b, a nova média é a vezes a média antiga mais b”.
+
+
+23. Alterar um único valor
+
+
+Se um valor aumenta em Δ em um conjunto com n observações, a média aumenta:
+
+
+Δ/n.
+
+
+Exemplo:
+10 valores têm média 50.
+Um registro é corrigido de 40 para 60.
+Δ = +20.
+
+
+Nova média = 50 + 20/10 = 52.
+
+
+24. Adicionar uma observação
+
+
+Se n valores têm média x̄ e adicionamos y:
+
+
+nova média = (n x̄ + y)/(n+1).
+
+
+Exemplo:
+5 valores têm média 10.
+Soma antiga = 50.
+Adiciona-se 22.
+
+
+Nova média = 72/6 = 12.
+
+
+25. Efeito de valores extremos
+
+
+Dados:
+4, 5, 5, 5, 6.
+
+
+Média = 5.
+
+
+Acrescente 30:
+
+
+4, 5, 5, 5, 6, 30.
+
+
+Soma = 55.
+n = 6.
+Média ≈ 9,17.
+
+
+Um único valor alto deslocou fortemente a média.
+
+
+26. Por que o extremo desloca a média?
+
+
+A média usa todos os valores diretamente na soma. Quanto mais distante um valor estiver do restante, maior sua contribuição para a soma.
+
+
+Isso não significa que o extremo deve ser apagado.
+
+
+Pergunte primeiro:
+é erro?
+é observação válida rara?
+pertence à população definida?
+há justificativa para exclusão?
+
+
+27. Extremo e erro não são sinônimos
+
+
+Rendas:
+R$ 2.000; R$ 2.200; R$ 2.100; R$ 2.300; R$ 20.000.
+
+
+R$ 20.000 é extremo, mas pode ser verdadeiro.
+
+
+Na MAT-EST-006 compararemos média, mediana e moda.
+
+
+28. Média e assimetria
+
+
+Poucos valores muito altos podem puxar a média para cima.
+
+
+A média continua matematicamente correta, mas pode deixar de representar bem o que alguém chama informalmente de “valor típico”.
+
+
+29. A média não substitui a distribuição
+
+
+A = 4,5,6.
+B = 0,5,10.
+C = 5,5,5.
+
+
+Todos têm média 5.
+
+
+As distribuições são muito diferentes.
+
+
+30. Comparar médias exige contexto
+
+
+Duas empresas podem ter a mesma média salarial e distribuições completamente diferentes.
+
+
+Precisamos olhar tamanho dos grupos, dispersão, extremos, cargos, períodos e qualidade da coleta.
+
+
+31. Média amostral e populacional
+
+
+Média de uma amostra descreve os dados observados.
+
+
+Usá-la para estimar a média da população é inferência e depende do plano amostral e da incerteza.
+
+
+32. Notação populacional
+
+
+A média de uma população costuma ser representada por μ, lida “mi”.
+
+
+A média amostral costuma ser x̄, “xis barra”.
+
+
+33. Média ponderada em índices
+
+
+Médias ponderadas aparecem em notas, índices de preços, investimentos, grupos com tamanhos distintos, frequências e indicadores compostos.
+
+
+Pesos precisam ter significado explícito.
+
+
+34. Exemplo resolvido — índice ponderado
+
+
+A: valor 80, peso 1.
+B: valor 60, peso 2.
+C: valor 90, peso 2.
+
+
+Soma ponderada = 80 + 120 + 180 = 380.
+Soma dos pesos = 5.
+
+
+Média ponderada = 76.
+
+
+35. Exemplo resolvido — tabela de frequência
+
+
+Nota 5: frequência 2.
+Nota 6: frequência 3.
+Nota 7: frequência 4.
+Nota 8: frequência 1.
+
+
+Soma ponderada:
+5×2 + 6×3 + 7×4 + 8×1 = 64.
+
+
+Total = 10.
+
+
+Média = 6,4.
+
+
+36. Exemplo resolvido — valor desconhecido
+
+
+Média de 4 números = 18.
+Soma total = 72.
+
+
+Três valores: 16, 20, 21.
+Soma = 57.
+
+
+Valor restante = 15.
+
+
+37. Exemplo resolvido — correção de dado
+
+
+25 notas têm média 7,2.
+Soma total = 180.
+
+
+Uma nota registrada como 5 deveria ser 8.
+A soma aumenta 3.
+
+
+Nova soma = 183.
+Nova média = 183/25 = 7,32.
+
+
+38. Exemplo resolvido — remover observação
+
+
+10 valores têm média 15.
+Soma = 150.
+
+
+Remove-se o valor 24.
+Nova soma = 126.
+Novo n = 9.
+
+
+Nova média = 14.
+
+
+39. Média de porcentagens
+
+
+Turma A:
+90% de 10 estudantes = 9 aprovados.
+
+
+Turma B:
+60% de 100 estudantes = 60 aprovados.
+
+
+Média simples dos percentuais = 75%, mas isso é inadequado para o conjunto.
+
+
+Aprovação conjunta:
+69/110 ≈ 62,7%.
+
+
+40. Média de velocidades: cuidado
+
+
+Um veículo percorre 100 km a 50 km/h e 100 km a 100 km/h.
+
+
+Tempos:
+2 horas e 1 hora.
+
+
+Distância total = 200 km.
+Tempo total = 3 h.
+
+
+Velocidade média = 200/3 ≈ 66,7 km/h.
+
+
+A média aritmética de 50 e 100, que seria 75 km/h, não representa a velocidade média desse percurso.
+
+
+41. Erros frequentes
+
+
+1. Dividir pelo número errado de observações.
+2. Em média ponderada, dividir pela quantidade de valores em vez da soma dos pesos.
+3. Tirar média de médias sem ponderar pelos tamanhos.
+4. Achar que a média precisa existir nos dados.
+5. Calcular média de códigos categóricos.
+6. Tratar extremo como erro automaticamente.
+7. Usar média sem observar a distribuição.
+8. Confundir média amostral com média populacional.
+9. Fazer média simples de percentuais com denominadores diferentes.
+10. Aplicar média aritmética em situação cuja definição exige outra grandeza.
+
+
+42. Relação com BNCC, ENEM e FUVEST
+
+
+A BNCC, em EF07MA35, exige compreender a média estatística em contextos significativos como indicador de tendência de uma pesquisa, calcular seu valor e relacioná-lo intuitivamente com a amplitude do conjunto de dados.
+
+
+A FUVEST 2027 inclui comunicar e interpretar resultados por medidas-resumo e, nos objetos de conhecimento, medidas de tendência central: média, mediana e moda, além de medidas de dispersão.
+
+
+A Matriz de Referência do Enem publicada pelo Inep em 2026 orienta resolução de situações-problema, interpretação matemática e análise de dados. Os itens VES desta reconstrução são autorais.
+
+
+43. O que observar nos seis visuais
+
+
+Visual 1 — redistribuição igualitária: 2,4,6 viram 4,4,4 sem mudar o total 12.
+
+
+Visual 2 — equilíbrio: desvios −2, −1 e +3 em torno da média 4 somam zero.
+
+
+Visual 3 — frequência como peso: a tabela reconstrói soma 14 e média 1,4.
+
+
+Visual 4 — média ponderada: notas 6,7,8 com pesos 2,3,5 produzem 7,3.
+
+
+Visual 5 — extremo: a média muda de 5 para aproximadamente 9,17 quando 30 é acrescentado.
+
+
+Visual 6 — média conjunta: turmas de tamanhos 20 e 30 com médias 70 e 80 resultam em 76, não 75.
+
+
+44. Resumo para revisão
+
+
+Média simples:
+x̄ = Σxᵢ/n.
+
+
+Média com frequências:
+x̄ = Σ(xᵢfᵢ)/Σfᵢ.
+
+
+Média ponderada:
+x̄ₚ = Σ(wᵢxᵢ)/Σwᵢ.
+
+
+Soma = média × quantidade.
+
+
+A soma dos desvios em relação à média é zero.
+
+
+Valores extremos podem deslocar fortemente a média.
+
+
+A mesma média pode aparecer em distribuições muito diferentes.
+
+
+45. Versão curta para ouvir
+
+
+A média aritmética reúne o total dos valores e o redistribui igualmente entre as observações.
+
+
+Na média simples, somamos os valores e dividimos pela quantidade.
+
+
+Na média ponderada, multiplicamos cada valor pelo peso, somamos os produtos e dividimos pela soma dos pesos.
+
+
+A média também é um ponto de equilíbrio: os desvios em relação a ela somam zero.
+
+
+Grupos de tamanhos diferentes exigem ponderação.
+
+
+Valores extremos podem deslocar muito a média.
+
+
+A média é importante, mas não descreve sozinha toda a distribuição.
+
+
+46. Vídeos complementares
+
+
+Vídeo 1:
+“Média Aritmética - Noções Básicas de Estatística - Aula 02”.
+Canal: Prof. Enildo Barbosa.
+Momento recomendado: após as seções 2 a 10.
+Motivo: reforça cálculo e interpretação algébrica da média.
+
+
+Vídeo 2:
+“MÉDIA ARITMÉTICA PONDERADA ✅ INTRODUÇÃO À ESTATÍSTICA”.
+Canal: Prof. MURAKAMI - MATEMÁTICA RAPIDOLA.
+Momento recomendado: após as seções 11 a 18.
+Motivo: a descrição pública cobre explicitamente média ponderada e soma de valores vezes pesos dividida pela soma dos pesos.
+
+
+Estado de QA:
+As páginas públicas foram localizadas nesta execução. Reprodução integral, duração efetiva, áudio e sincronização das legendas ainda não foram auditados no Microsoft Edge.
+
+
+47. Fontes da reconstrução
+
+
+Fontes internas canônicas:
+01 — Visão e princípios.
+02 — Metodologia.
+03 — Matriz mestre.
+04 — Acessibilidade e leitura em voz alta.
+05 — Padrão visual.
+06 — Arquitetura e modelo de conteúdo.
+07 — Fontes oficiais.
+08 — Instrução do projeto.
+
+
+Fontes institucionais externas:
+BNCC/MEC — EF07MA35.
+Inep — Matrizes de Referência do Enem, 2026.
+FUVEST — Programa do Vestibular 2027.
+
+
+
+
+49. Aprofundamento — média e conservação do total
+
+
+Uma maneira poderosa de pensar a média é por conservação.
+
+
+Se um conjunto tem n observações e média x̄, então a soma total é:
+
+
+S = n x̄.
+
+
+Leitura pronunciável:
+“a soma total é igual à quantidade de observações multiplicada pela média”.
+
+
+Essa relação permite passar de média para soma e de soma para média.
+
+
+Exemplo.
+
+
+Uma equipe realizou 12 atendimentos com tempo médio de 18 minutos.
+
+
+Soma dos tempos:
+
+
+12 × 18 = 216 minutos.
+
+
+Esse número não significa que um atendimento durou 216 minutos. Ele representa a soma dos 12 tempos.
+
+
+Se um décimo terceiro atendimento durar 24 minutos:
+
+
+nova soma = 216 + 24 = 240;
+novo n = 13;
+nova média = 240/13 ≈ 18,46 minutos.
+
+
+Essa visão evita decorar vários “truques” separados.
+
+
+50. A média de um valor repetido
+
+
+Se todos os valores são iguais a c:
+
+
+c, c, c, ..., c,
+
+
+a média também é c.
+
+
+Por quê?
+
+
+A soma é n c.
+
+
+Dividindo por n:
+
+
+n c / n = c.
+
+
+Esse caso é importante porque mostra que a média não “inventa” deslocamento quando não existe variação.
+
+
+51. A média fica entre o menor e o maior valor
+
+
+Para dados numéricos reais, a média aritmética não pode ser menor que o mínimo nem maior que o máximo.
+
+
+Se todos os valores estão entre 4 e 10, a média também estará entre 4 e 10.
+
+
+Isso fornece um controle de plausibilidade.
+
+
+Se alguém calcula média 12 para dados 4, 6, 7 e 10, existe erro.
+
+
+A média pode coincidir com o mínimo ou máximo somente se todos os valores forem iguais a esse extremo.
+
+
+52. Por que a média fica entre mínimo e máximo?
+
+
+Se m é o menor valor e M é o maior, então:
+
+
+m ≤ xᵢ ≤ M
+
+
+para cada observação.
+
+
+Somando n observações:
+
+
+n m ≤ Σxᵢ ≤ n M.
+
+
+Dividindo por n positivo:
+
+
+m ≤ x̄ ≤ M.
+
+
+Essa demonstração é uma ponte entre estatística e desigualdades.
+
+
+53. Média e deslocamento do centro
+
+
+Se acrescentamos uma observação acima da média atual, a nova média sobe.
+
+
+Se acrescentamos uma observação abaixo da média atual, a nova média cai.
+
+
+Se acrescentamos exatamente um valor igual à média atual, a média não muda.
+
+
+Demonstração intuitiva.
+
+
+Se a média atual é 10 e adicionamos 10, estamos acrescentando exatamente a “cota” média; portanto, o equilíbrio permanece em 10.
+
+
+54. Quanto a nova observação desloca a média?
+
+
+Média antiga x̄, n observações e nova observação y:
+
+
+nova média = (n x̄ + y)/(n+1).
+
+
+Subtraindo a média antiga:
+
+
+nova média − x̄
+= (y − x̄)/(n+1).
+
+
+Leitura:
+
+
+“a mudança na média é a diferença entre o novo valor e a média antiga, dividida pelo novo tamanho do conjunto”.
+
+
+Consequência:
+
+
+quanto maior o conjunto, menor o efeito de uma única nova observação de mesma distância.
+
+
+55. Exemplo — conjunto pequeno e conjunto grande
+
+
+Conjunto A:
+
+
+n = 4;
+média = 10;
+novo valor = 30.
+
+
+Mudança:
+
+
+(30−10)/5 = 4.
+
+
+Nova média = 14.
+
+
+Conjunto B:
+
+
+n = 99;
+média = 10;
+novo valor = 30.
+
+
+Mudança:
+
+
+(30−10)/100 = 0,2.
+
+
+Nova média = 10,2.
+
+
+O mesmo valor extremo produz efeito muito maior no conjunto pequeno.
+
+
+56. Média ponderada com pesos percentuais
+
+
+Se os pesos já estão expressos como proporções que somam 1, a fórmula pode ser escrita:
+
+
+x̄ₚ = w₁x₁ + w₂x₂ + ... + wₖxₖ,
+
+
+desde que:
+
+
+w₁ + w₂ + ... + wₖ = 1.
+
+
+Exemplo:
+
+
+Trabalho: nota 8, peso 20% = 0,20.
+Prova: nota 6, peso 30% = 0,30.
+Projeto: nota 9, peso 50% = 0,50.
+
+
+Média:
+
+
+8×0,20 + 6×0,30 + 9×0,50
+= 1,6 + 1,8 + 4,5
+= 7,9.
+
+
+Não se divide novamente por 3, pois os pesos já somam 1.
+
+
+57. Pesos que não somam 100%
+
+
+Pesos não precisam somar 100 ou 1.
+
+
+Podem ser 2, 3 e 5.
+
+
+A fórmula normaliza automaticamente:
+
+
+Σ(wᵢxᵢ)/Σwᵢ.
+
+
+O denominador transforma os pesos relativos em uma participação total coerente.
+
+
+58. Média ponderada e decisões
+
+
+Pesos são escolhas de modelagem ou regras institucionais.
+
+
+Se uma avaliação usa pesos 2, 3 e 5, o resultado é diferente de pesos 1, 1 e 1.
+
+
+Portanto, antes de calcular, pergunte:
+
+
+• quem definiu os pesos?
+• o que eles representam?
+• estão documentados?
+• são frequências, importância, exposição, quantidade, crédito ou outra grandeza?
+
+
+Um cálculo ponderado pode estar aritmeticamente correto e conceitualmente errado se os pesos não tiverem significado.
+
+
+59. Média a partir de dados agrupados
+
+
+Quando os dados são agrupados em classes, como:
+
+
+0 a menos de 10;
+10 a menos de 20;
+20 a menos de 30,
+
+
+podemos não conhecer os valores individuais.
+
+
+Uma aproximação comum é usar o ponto médio de cada classe.
+
+
+Para [10,20):
+
+
+ponto médio = (10+20)/2 = 15.
+
+
+Depois, usamos os pontos médios como valores representativos e as frequências como pesos.
+
+
+Importante:
+
+
+isso produz uma estimativa da média, não necessariamente a média exata, porque os valores reais dentro da classe foram substituídos pelo ponto médio.
+
+
+60. Exemplo — média aproximada em classes
+
+
+Tempo em minutos:
+
+
+[0,10): frequência 2.
+[10,20): frequência 5.
+[20,30): frequência 3.
+
+
+Pontos médios:
+
+
+5, 15, 25.
+
+
+Soma aproximada:
+
+
+5×2 + 15×5 + 25×3
+= 10 + 75 + 75
+= 160.
+
+
+Total = 10.
+
+
+Média aproximada = 16 minutos.
+
+
+O símbolo ou texto “aproximadamente” é importante.
+
+
+61. Média e arredondamento
+
+
+Se os dados originais têm precisão limitada, a média pode gerar muitas casas decimais.
+
+
+Exemplo:
+
+
+média = 7,333333...
+
+
+Não faz sentido apresentar dezenas de casas se as medições originais foram registradas com baixa precisão.
+
+
+A regra de arredondamento deve ser consistente e, quando necessário, documentada.
+
+
+Durante cálculos intermediários, prefira manter mais precisão e arredondar apenas no resultado final.
+
+
+62. Média e dados ausentes
+
+
+Suponha 10 pessoas selecionadas, mas apenas 8 têm valor registrado.
+
+
+A média dos 8 valores válidos usa n = 8.
+
+
+Não é correto preencher automaticamente os 2 ausentes com zero.
+
+
+Zero é um valor observado possível; ausência significa “não sabemos” ou “não foi registrado”.
+
+
+Transformar ausência em zero muda o significado dos dados.
+
+
+63. Média e zeros verdadeiros
+
+
+Por outro lado, se zero é um valor verdadeiro, deve participar.
+
+
+Exemplo:
+
+
+número de faltas de cinco estudantes:
+
+
+0, 0, 1, 2, 2.
+
+
+Soma = 5.
+Média = 1.
+
+
+Excluir os zeros porque “não houve falta” aumentaria indevidamente a média.
+
+
+64. Média e subgrupos
+
+
+Uma média geral pode esconder diferenças relevantes entre subgrupos.
+
+
+Exemplo:
+
+
+Grupo A média 8.
+Grupo B média 4.
+
+
+A média geral pode ser 6, mas nenhum dos grupos tem comportamento médio 6.
+
+
+Sempre que a pergunta envolver comparação entre grupos, mostre também as médias por grupo e seus tamanhos.
+
+
+65. Paradoxo intuitivo das médias agregadas
+
+
+É possível que uma média geral mude de forma surpreendente quando a composição dos grupos muda.
+
+
+Isso ocorre porque a média conjunta depende tanto das médias internas quanto dos pesos relativos dos grupos.
+
+
+Essa ideia prepara o terreno para fenômenos como o paradoxo de Simpson, estudado em níveis mais avançados.
+
+
+Nesta aula, basta guardar:
+
+
+médias agregadas precisam ser interpretadas junto com a composição dos grupos.
+
+
+66. Checklist antes de usar uma média
+
+
+1. A variável é quantitativa?
+2. Os valores estão na mesma unidade?
+3. O denominador está correto?
+4. Existem dados ausentes?
+5. Há pesos? O que significam?
+6. Existem valores extremos?
+7. A distribuição é muito assimétrica?
+8. Estou combinando grupos de tamanhos diferentes?
+9. A média é amostral ou populacional?
+10. A pergunta realmente pede média aritmética?
+
+
+Esse checklist reduz erros conceituais mesmo quando a conta é simples.
+
+
+67. Conexões com outras matérias
+
+
+Física:
+velocidade média exige definição baseada em distância e tempo; médias de medidas experimentais aparecem frequentemente.
+
+
+Química:
+médias podem resumir medições repetidas, mas precisam respeitar unidades e condições experimentais.
+
+
+Biologia:
+média de altura, massa, comprimento e contagens pode descrever amostras, mas extremos e desenho amostral importam.
+
+
+Geografia:
+médias de renda, precipitação e indicadores precisam ser interpretadas com distribuição espacial e temporal.
+
+
+Economia:
+renda média, preços médios e índices ponderados podem ser fortemente influenciados por composição e pesos.
+
+
+Tecnologia:
+latência média, tempo médio de resposta e custo médio podem esconder caudas longas; analisar apenas a média pode ser insuficiente.
+
+
+68. Critério de domínio desta aula
+
+
+A aula não está consolidada apenas porque foi lida.
+
+
+Para considerar o tópico consolidado, o estudante deve conseguir:
+
+
+• explicar média como repartição;
+• calcular média simples;
+• reconstruir soma total a partir de média e n;
+• usar frequências como pesos;
+• calcular média ponderada;
+• combinar grupos;
+• prever efeito de correção ou nova observação;
+• explicar efeito de extremos;
+• reconhecer situação em que média não é apropriada;
+• resolver um problema novo sem copiar modelo anterior.
+
+
+O status pedagógico do aluno só deve mudar após evidência real em exercícios. A produção editorial desta aula não altera progresso individual.
+
+
+
+
+69. Próximo passo
+
+
+MAT-EST-006 — Mediana e moda: posição, frequência e comparação com a média.

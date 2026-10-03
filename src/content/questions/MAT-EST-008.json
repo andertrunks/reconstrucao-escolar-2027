@@ -1,0 +1,895 @@
+[
+  {
+    "id": "MAT-EST-008-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Calcule a média de 2,4,6 e os desvios em relação à média.",
+    "answer": "Média 4; desvios −2,0,+2.",
+    "resolution": "Resposta e raciocínio: Média 4; desvios −2,0,+2.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Para os desvios −2,0,+2, calcule os quadrados.",
+    "answer": "4,0,4.",
+    "resolution": "Resposta e raciocínio: 4,0,4.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Calcule a variância populacional de 2,4,6.",
+    "answer": "8/3≈2,67.",
+    "resolution": "Resposta e raciocínio: 8/3≈2,67.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Calcule o desvio-padrão populacional de 2,4,6.",
+    "answer": "√(8/3)≈1,63.",
+    "resolution": "Resposta e raciocínio: √(8/3)≈1,63.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Qual é a unidade da variância se os dados estão em centímetros?",
+    "answer": "cm².",
+    "resolution": "Resposta e raciocínio: cm².\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Qual é a unidade do desvio-padrão se os dados estão em segundos?",
+    "answer": "segundos.",
+    "resolution": "Resposta e raciocínio: segundos.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "O que significa desvio-padrão igual a zero?",
+    "answer": "Todos os valores são iguais.",
+    "resolution": "Resposta e raciocínio: Todos os valores são iguais.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Variância pode ser negativa? Justifique.",
+    "answer": "Não, pois é média de quadrados.",
+    "resolution": "Resposta e raciocínio: Não, pois é média de quadrados.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Por que a média dos desvios simples em torno da média não mede dispersão?",
+    "answer": "Porque os desvios em torno da média se cancelam e somam zero.",
+    "resolution": "Resposta e raciocínio: Porque os desvios em torno da média se cancelam e somam zero.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-008-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Qual a diferença entre amplitude e variância quanto aos dados utilizados?\n\n\nCAMADA CON — Consolidação",
+    "answer": "Amplitude usa apenas mínimo e máximo; variância usa todas as observações.",
+    "resolution": "Resposta e raciocínio: Amplitude usa apenas mínimo e máximo; variância usa todas as observações.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.\n\n\nCAMADA CON",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Calcule variância e DP populacionais de 4,5,6.",
+    "answer": "Média 5; σ²=2/3≈0,67; σ≈0,82.",
+    "resolution": "Resposta e raciocínio: Média 5; σ²=2/3≈0,67; σ≈0,82.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Calcule variância e DP populacionais de 0,5,10.",
+    "answer": "Média 5; σ²=50/3≈16,67; σ≈4,08.",
+    "resolution": "Resposta e raciocínio: Média 5; σ²=50/3≈16,67; σ≈4,08.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Compare os dois conjuntos anteriores, sabendo que ambos têm média 5.",
+    "answer": "O segundo é muito mais disperso apesar da mesma média.",
+    "resolution": "Resposta e raciocínio: O segundo é muito mais disperso apesar da mesma média.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Para amostra 2,4,6, calcule s² e s.",
+    "answer": "s²=8/2=4; s=2.",
+    "resolution": "Resposta e raciocínio: s²=8/2=4; s=2.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Explique conceitualmente por que a variância amostral usual divide por n−1.",
+    "answer": "A média foi estimada pela própria amostra; resta n−1 graus de liberdade e o divisor corrige a subestimação da variância populacional.",
+    "resolution": "Resposta e raciocínio: A média foi estimada pela própria amostra; resta n−1 graus de liberdade e o divisor corrige a subestimação da variância populacional.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-008-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Se todos os dados aumentam 100 unidades, o que ocorre com variância e DP?",
+    "answer": "Não mudam.",
+    "resolution": "Resposta e raciocínio: Não mudam.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Se todos os dados são multiplicados por 3, o que ocorre com variância e DP?",
+    "answer": "Variância multiplica por 9; DP por 3.",
+    "resolution": "Resposta e raciocínio: Variância multiplica por 9; DP por 3.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Valor 1 aparece uma vez, 2 aparece duas vezes e 3 aparece uma vez. Calcule variância e DP populacionais.",
+    "answer": "Média 2; σ²=0,5; σ≈0,71.",
+    "resolution": "Resposta e raciocínio: Média 2; σ²=0,5; σ≈0,71.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Dados têm DP 4. Após y=−2x+50, qual é o novo DP?",
+    "answer": "8.",
+    "resolution": "Resposta e raciocínio: 8.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Dados têm variância 9. Após multiplicar todos por 5, qual é a nova variância?\n\n\nCAMADA VES — Transferência / estilo vestibular autoral",
+    "answer": "225.",
+    "resolution": "Resposta e raciocínio: 225.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.\n\n\nCAMADA VES",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Dois conjuntos têm média 50. A possui DP 2 e B DP 8. Qual é mais disperso em termos absolutos?",
+    "answer": "B, pois 8>2 na mesma escala.",
+    "resolution": "Resposta e raciocínio: B, pois 8>2 na mesma escala.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um processo tem média 100 e DP 1; outro média 100 e DP 10. Explique a diferença.",
+    "answer": "O segundo processo tem maior variabilidade em torno da mesma média.",
+    "resolution": "Resposta e raciocínio: O segundo processo tem maior variabilidade em torno da mesma média.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma amostra de 5 valores tem soma dos quadrados dos desvios igual a 40. Calcule s².",
+    "answer": "40/4=10.",
+    "resolution": "Resposta e raciocínio: 40/4=10.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma população de 5 valores tem soma dos quadrados dos desvios igual a 40. Calcule σ².",
+    "answer": "40/5=8.",
+    "resolution": "Resposta e raciocínio: 40/5=8.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Explique por que variância em reais² é correta, mas menos intuitiva que o DP.",
+    "answer": "Porque os desvios foram elevados ao quadrado; o DP tira a raiz e volta à unidade original.",
+    "resolution": "Resposta e raciocínio: Porque os desvios foram elevados ao quadrado; o DP tira a raiz e volta à unidade original.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-008-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um extremo confirmado como verdadeiro aumentou muito a variância. Deve ser excluído? Justifique.",
+    "answer": "Não automaticamente. Extremo válido pertence aos dados; exclusão exige justificativa metodológica.",
+    "resolution": "Resposta e raciocínio: Não automaticamente. Extremo válido pertence aos dados; exclusão exige justificativa metodológica.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "A regra 68–95–99,7 pode ser usada em qualquer conjunto apenas porque conhecemos média e DP?",
+    "answer": "Não. A regra depende de distribuição aproximadamente normal.",
+    "resolution": "Resposta e raciocínio: Não. A regra depende de distribuição aproximadamente normal.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Explique a diferença entre desvio-padrão e erro-padrão.",
+    "answer": "DP mede variabilidade das observações; erro-padrão mede variabilidade de uma estatística entre amostras.",
+    "resolution": "Resposta e raciocínio: DP mede variabilidade das observações; erro-padrão mede variabilidade de uma estatística entre amostras.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-008-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Dados têm média 20 e DP 3. Aplicamos y=4x−7. Determine nova média e novo DP.",
+    "answer": "Média 73; DP 12.",
+    "resolution": "Resposta e raciocínio: Média 73; DP 12.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "A: média 10, DP 2. B: média 1000, DP 20. É suficiente dizer que B é dez vezes mais variável? Explique.\n\n\nCAMADA RET — Reteste",
+    "answer": "Não. As escalas são muito diferentes; é preciso contexto e uma medida relativa como o CV quando apropriado.",
+    "resolution": "Resposta e raciocínio: Não. As escalas são muito diferentes; é preciso contexto e uma medida relativa como o CV quando apropriado.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.\n\n\nCAMADA RET",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-008-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Sem consultar, escreva as fórmulas de variância populacional, variância amostral e desvio-padrão.",
+    "answer": "σ²=Σ(x−μ)²/N; s²=Σ(x−x̄)²/(n−1); DP é a raiz da variância.",
+    "resolution": "Resposta e raciocínio: σ²=Σ(x−μ)²/N; s²=Σ(x−x̄)²/(n−1); DP é a raiz da variância.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-008-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Calcule variância e DP populacionais de 3,3,3.",
+    "answer": "Variância 0; DP 0.",
+    "resolution": "Resposta e raciocínio: Variância 0; DP 0.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Se DP=5 e todos os valores são multiplicados por −4, qual o novo DP?",
+    "answer": "20.",
+    "resolution": "Resposta e raciocínio: 20.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Explique por que somar a mesma constante a todos os valores não altera variância.",
+    "answer": "A média também aumenta pela mesma constante, mantendo x−média igual.",
+    "resolution": "Resposta e raciocínio: A média também aumenta pela mesma constante, mantendo x−média igual.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Uma amostra tem n=8 e soma dos quadrados dos desvios 21. Calcule s².",
+    "answer": "21/7=3.",
+    "resolution": "Resposta e raciocínio: 21/7=3.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-008-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-008"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Explique por que DP pequeno ou grande não deve ser interpretado sem escala e contexto.",
+    "answer": "A mesma magnitude pode ser grande ou pequena dependendo da unidade e da escala média do fenômeno.",
+    "resolution": "Resposta e raciocínio: A mesma magnitude pode ser grande ou pequena dependendo da unidade e da escala média do fenômeno.\nMotivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.",
+    "errorReasons": [
+      "conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia."
+    ],
+    "source": {
+      "title": "MAT-EST-008 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/10XcQVdS4wXKxBFYPHYAge8G07QJQ0K7yYHJqslDRwiM/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  }
+]

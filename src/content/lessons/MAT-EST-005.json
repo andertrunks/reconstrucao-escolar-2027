@@ -1,0 +1,581 @@
+{
+  "id": "MAT-EST-005",
+  "version": "publicacao-2026-10-03-v1",
+  "objective": "1. Objetivo\n\n\nAo concluir o estudo real desta aula e resolver os exercícios sem consultar previamente o gabarito, o estudante deverá ser capaz de:\n\n\n• explicar com palavras próprias o que a média aritmética representa;\n• calcular média simples sem depender de uma fórmula decorada;\n• interpretar a média como repartição igualitária;\n• interpretar a média como ponto de equilíbrio de desvios;\n• calcular média a partir de uma tabela de frequências;\n• calcular média ponderada e explicar o papel dos pesos;\n• combinar médias de grupos sem cometer o erro de simplesmente tirar a média das médias;\n• descobrir valor desconhecido quando a média é conhecida;\n• reconhecer que a média preserva a unidade da variável;\n• prever como alterações nos dados modificam a média;\n• compreender por que valores extremos podem deslocar fortemente a média;\n• identificar situações em que a média é inadequada ou insuficiente;\n• diferenciar descrição de dados observados de generalização para uma população;\n• resolver aplicações em contexto escolar, financeiro, científico e de vestibular.\n\n\n",
+  "prerequisites": [
+    "MAT-EST-001",
+    "MAT-EST-002",
+    "MAT-EST-003",
+    "MAT-EST-004"
+  ],
+  "why": "MAT-EST-005 — Média aritmética: significado, cálculo, média ponderada e efeito de valores extremos\n\n\nStatus editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.\nMatéria: Matemática.\nUnidade: Estatística.\nNível principal: 2 — Ensino Fundamental II, com progressão para Ensino Médio, vestibulares e ponte universitária.\nPré-requisitos conceituais: MAT-EST-001; MAT-EST-002; MAT-EST-003; MAT-EST-004; operações básicas com números naturais, inteiros, decimais, frações e porcentagens.\nPróximo tópico: MAT-EST-006 — Mediana e moda: posição, frequência e comparação com a média.\nOrigem das questões desta reconstrução: 100% autoral.\n\n\n",
+  "intuitive": [],
+  "deep": [],
+  "vocabulary": [],
+  "examples": [],
+  "visuals": [
+    {
+      "url": "media/MAT-EST-005/01-media-redistribuicao.svg",
+      "caption": "redistribuição igualitária: 2,4,6 viram 4,4,4 sem mudar o total 12.",
+      "alt": "Três colunas mostram 2, 4 e 6 unidades, total 12. Uma seta leva a três colunas iguais de 4 unidades, mantendo o total.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Três colunas mostram 2, 4 e 6 unidades, total 12. Uma seta leva a três colunas iguais de 4 unidades, mantendo o total."
+    },
+    {
+      "url": "media/MAT-EST-005/02-media-equilibrio.svg",
+      "caption": "equilíbrio: desvios −2, −1 e +3 em torno da média 4 somam zero.",
+      "alt": "Reta numérica com valores 2, 3 e 7 e média 4. Os desvios menos 2, menos 1 e mais 3 somam zero.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Reta numérica com valores 2, 3 e 7 e média 4. Os desvios menos 2, menos 1 e mais 3 somam zero."
+    },
+    {
+      "url": "media/MAT-EST-005/03-frequencia-como-peso.svg",
+      "caption": "frequência como peso: a tabela reconstrói soma 14 e média 1,4.",
+      "alt": "Tabela com valores zero, um, dois e três; frequências dois, três, quatro e um; produtos zero, três, oito e três. Soma ponderada 14, total 10 e média 1,4.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Tabela com valores zero, um, dois e três; frequências dois, três, quatro e um; produtos zero, três, oito e três. Soma ponderada 14, total 10 e média 1,4."
+    },
+    {
+      "url": "media/MAT-EST-005/04-media-ponderada.svg",
+      "caption": "média ponderada: notas 6,7,8 com pesos 2,3,5 produzem 7,3.",
+      "alt": "Notas 6, 7 e 8 com pesos 2, 3 e 5. Produtos 12, 21 e 40. Soma 73, peso total 10, média ponderada 7,3.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Notas 6, 7 e 8 com pesos 2, 3 e 5. Produtos 12, 21 e 40. Soma 73, peso total 10, média ponderada 7,3."
+    },
+    {
+      "url": "media/MAT-EST-005/05-efeito-extremo.svg",
+      "caption": "extremo: a média muda de 5 para aproximadamente 9,17 quando 30 é acrescentado.",
+      "alt": "Painel esquerdo mostra valores 4,5,5,5,6 com média 5. Painel direito acrescenta o valor 30 e mostra média aproximadamente 9,17.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Painel esquerdo mostra valores 4,5,5,5,6 com média 5. Painel direito acrescenta o valor 30 e mostra média aproximadamente 9,17."
+    },
+    {
+      "url": "media/MAT-EST-005/06-media-conjunta.svg",
+      "caption": "média conjunta: turmas de tamanhos 20 e 30 com médias 70 e 80 resultam em 76, não 75.",
+      "alt": "Grupo A tem 20 estudantes, média 70 e total 1400. Grupo B tem 30 estudantes, média 80 e total 2400. Juntos são 50 estudantes, soma 3800 e média 76, não 75.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Grupo A tem 20 estudantes, média 70 e total 1400. Grupo B tem 30 estudantes, média 80 e total 2400. Juntos são 50 estudantes, soma 3800 e média 76, não 75."
+    }
+  ],
+  "applications": [],
+  "connections": [],
+  "commonErrors": [],
+  "learning": [
+    "MAT-EST-005-EX-APR-01",
+    "MAT-EST-005-EX-APR-02",
+    "MAT-EST-005-EX-APR-03",
+    "MAT-EST-005-EX-APR-04",
+    "MAT-EST-005-EX-APR-05",
+    "MAT-EST-005-EX-APR-06",
+    "MAT-EST-005-EX-APR-07",
+    "MAT-EST-005-EX-APR-08",
+    "MAT-EST-005-EX-APR-09",
+    "MAT-EST-005-EX-APR-10"
+  ],
+  "consolidation": [
+    "MAT-EST-005-EX-CON-01",
+    "MAT-EST-005-EX-CON-02",
+    "MAT-EST-005-EX-CON-03",
+    "MAT-EST-005-EX-CON-04",
+    "MAT-EST-005-EX-CON-05",
+    "MAT-EST-005-EX-CON-06",
+    "MAT-EST-005-EX-CON-07",
+    "MAT-EST-005-EX-CON-08",
+    "MAT-EST-005-EX-CON-09",
+    "MAT-EST-005-EX-CON-10"
+  ],
+  "entrance": [
+    "MAT-EST-005-EX-VES-01",
+    "MAT-EST-005-EX-VES-02",
+    "MAT-EST-005-EX-VES-03",
+    "MAT-EST-005-EX-VES-04",
+    "MAT-EST-005-EX-VES-05",
+    "MAT-EST-005-EX-VES-06",
+    "MAT-EST-005-EX-VES-07",
+    "MAT-EST-005-EX-VES-08",
+    "MAT-EST-005-EX-VES-09",
+    "MAT-EST-005-EX-VES-10"
+  ],
+  "retest": [
+    "MAT-EST-005-EX-RET-01",
+    "MAT-EST-005-EX-RET-02",
+    "MAT-EST-005-EX-RET-03",
+    "MAT-EST-005-EX-RET-04",
+    "MAT-EST-005-EX-RET-05",
+    "MAT-EST-005-EX-RET-06"
+  ],
+  "solutions": [],
+  "summary": "44. Resumo para revisão\n\n\nMédia simples:\nx̄ = Σxᵢ/n.\n\n\nMédia com frequências:\nx̄ = Σ(xᵢfᵢ)/Σfᵢ.\n\n\nMédia ponderada:\nx̄ₚ = Σ(wᵢxᵢ)/Σwᵢ.\n\n\nSoma = média × quantidade.\n\n\nA soma dos desvios em relação à média é zero.\n\n\nValores extremos podem deslocar fortemente a média.\n\n\nA mesma média pode aparecer em distribuições muito diferentes.\n\n\n",
+  "audioVersion": "45. Versão curta para ouvir\n\n\nA média aritmética reúne o total dos valores e o redistribui igualmente entre as observações.\n\n\nNa média simples, somamos os valores e dividimos pela quantidade.\n\n\nNa média ponderada, multiplicamos cada valor pelo peso, somamos os produtos e dividimos pela soma dos pesos.\n\n\nA média também é um ponto de equilíbrio: os desvios em relação a ela somam zero.\n\n\nGrupos de tamanhos diferentes exigem ponderação.\n\n\nValores extremos podem deslocar muito a média.\n\n\nA média é importante, mas não descreve sozinha toda a distribuição.\n\n\n",
+  "sections": [
+    {
+      "id": "MAT-EST-005-s000",
+      "title": "Apresentação e contexto da fonte",
+      "paragraphs": [],
+      "markdown": "MAT-EST-005 — Média aritmética: significado, cálculo, média ponderada e efeito de valores extremos\n\n\nStatus editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.\nMatéria: Matemática.\nUnidade: Estatística.\nNível principal: 2 — Ensino Fundamental II, com progressão para Ensino Médio, vestibulares e ponte universitária.\nPré-requisitos conceituais: MAT-EST-001; MAT-EST-002; MAT-EST-003; MAT-EST-004; operações básicas com números naturais, inteiros, decimais, frações e porcentagens.\nPróximo tópico: MAT-EST-006 — Mediana e moda: posição, frequência e comparação com a média.\nOrigem das questões desta reconstrução: 100% autoral.\n\n\n",
+      "sourceStart": 0,
+      "sourceEnd": 671
+    },
+    {
+      "id": "MAT-EST-005-s001",
+      "title": "1. Objetivo",
+      "paragraphs": [],
+      "markdown": "1. Objetivo\n\n\nAo concluir o estudo real desta aula e resolver os exercícios sem consultar previamente o gabarito, o estudante deverá ser capaz de:\n\n\n• explicar com palavras próprias o que a média aritmética representa;\n• calcular média simples sem depender de uma fórmula decorada;\n• interpretar a média como repartição igualitária;\n• interpretar a média como ponto de equilíbrio de desvios;\n• calcular média a partir de uma tabela de frequências;\n• calcular média ponderada e explicar o papel dos pesos;\n• combinar médias de grupos sem cometer o erro de simplesmente tirar a média das médias;\n• descobrir valor desconhecido quando a média é conhecida;\n• reconhecer que a média preserva a unidade da variável;\n• prever como alterações nos dados modificam a média;\n• compreender por que valores extremos podem deslocar fortemente a média;\n• identificar situações em que a média é inadequada ou insuficiente;\n• diferenciar descrição de dados observados de generalização para uma população;\n• resolver aplicações em contexto escolar, financeiro, científico e de vestibular.\n\n\n",
+      "sourceStart": 671,
+      "sourceEnd": 1744
+    },
+    {
+      "id": "MAT-EST-005-s002",
+      "title": "2. A ideia antes da fórmula",
+      "paragraphs": [],
+      "markdown": "2. A ideia antes da fórmula\n\n\nConsidere três pessoas com 2, 4 e 6 fichas.\n\n\nTotal:\n\n\n2 + 4 + 6 = 12.\n\n\nSe quisermos repartir as 12 fichas igualmente entre as três pessoas:\n\n\n12 ÷ 3 = 4.\n\n\nA média é 4.\n\n\nObserve que o cálculo “somar e dividir” tem um significado: primeiro reunimos o total; depois redistribuímos igualmente entre o número de observações.\n\n\nA média aritmética pode ser entendida como o valor que cada observação teria se o total permanecesse o mesmo, mas fosse igualmente repartido.\n\n\n",
+      "sourceStart": 1744,
+      "sourceEnd": 2244
+    },
+    {
+      "id": "MAT-EST-005-s003",
+      "title": "3. Fórmula da média aritmética simples",
+      "paragraphs": [],
+      "markdown": "3. Fórmula da média aritmética simples\n\n\nSe os valores são x₁, x₂, ..., xₙ, então:\n\n\nx̄ = (x₁ + x₂ + ... + xₙ) / n.\n\n\nLeitura pronunciável: “xis barra é igual à soma dos valores dividida pela quantidade de valores”.\n\n\nOutra forma:\n\n\nx̄ = Σxᵢ / n.\n\n\nLeitura: “xis barra é igual ao somatório dos xis índice i dividido por ene”.\n\n\nOnde:\nx̄ é a média;\nxᵢ representa cada valor observado;\nn é a quantidade de observações consideradas.\n\n\n",
+      "sourceStart": 2244,
+      "sourceEnd": 2676
+    },
+    {
+      "id": "MAT-EST-005-s004",
+      "title": "4. Exemplo resolvido — média simples",
+      "paragraphs": [],
+      "markdown": "4. Exemplo resolvido — média simples\n\n\nValores: 7, 8, 6, 9, 10.\n\n\nSoma = 40.\nn = 5.\nMédia = 40/5 = 8.\n\n\nInterpretação: se o total de 40 unidades fosse repartido igualmente entre as cinco observações, cada uma teria 8.\n\n\n",
+      "sourceStart": 2676,
+      "sourceEnd": 2896
+    },
+    {
+      "id": "MAT-EST-005-s005",
+      "title": "5. A média pode não ser um valor observado",
+      "paragraphs": [],
+      "markdown": "5. A média pode não ser um valor observado\n\n\n1, 2, 2, 3 têm média 2.\n\n\nJá 1, 2, 3, 4 têm média 2,5.\n\n\nNenhuma observação precisa ser exatamente igual à média. A média é uma medida-resumo.\n\n\n",
+      "sourceStart": 2896,
+      "sourceEnd": 3086
+    },
+    {
+      "id": "MAT-EST-005-s006",
+      "title": "6. A média preserva a unidade",
+      "paragraphs": [],
+      "markdown": "6. A média preserva a unidade\n\n\nSe os dados estão em centímetros, a média está em centímetros.\nSe estão em minutos, a média está em minutos.\nSe estão em reais, a média está em reais.\nSe estão em pontos, a média está em pontos.\n\n\nExemplo: 480 minutos divididos por 6 observações = 80 minutos.\n\n\n",
+      "sourceStart": 3086,
+      "sourceEnd": 3380
+    },
+    {
+      "id": "MAT-EST-005-s007",
+      "title": "7. Quando a média faz sentido?",
+      "paragraphs": [],
+      "markdown": "7. Quando a média faz sentido?\n\n\nA média exige que soma e divisão tenham significado para a variável.\n\n\nEla faz sentido para altura, massa, idade, renda, nota, quantidade, tempo e muitas outras variáveis quantitativas.\n\n\nNão faz sentido calcular média de categorias nominais como tipo sanguíneo, cidade de nascimento ou meio de transporte.\n\n\nCodificar “ônibus = 1, carro = 2, bicicleta = 3” não transforma rótulos em grandeza quantitativa.\n\n\n",
+      "sourceStart": 3380,
+      "sourceEnd": 3822
+    },
+    {
+      "id": "MAT-EST-005-s008",
+      "title": "8. Média como ponto de equilíbrio",
+      "paragraphs": [],
+      "markdown": "8. Média como ponto de equilíbrio\n\n\nConsidere 2, 3 e 7.\n\n\nMédia = 4.\n\n\nDesvios:\n2 − 4 = −2.\n3 − 4 = −1.\n7 − 4 = +3.\n\n\nSoma dos desvios:\n\n\n−2 + (−1) + 3 = 0.\n\n\nPropriedade:\n\n\nΣ(xᵢ − x̄) = 0.\n\n\nLeitura pronunciável: “a soma dos desvios de cada valor em relação à média é igual a zero”.\n\n\n",
+      "sourceStart": 3822,
+      "sourceEnd": 4108
+    },
+    {
+      "id": "MAT-EST-005-s009",
+      "title": "9. Por que a soma dos desvios é zero?",
+      "paragraphs": [],
+      "markdown": "9. Por que a soma dos desvios é zero?\n\n\nΣ(xᵢ − x̄) = Σxᵢ − n x̄.\n\n\nComo x̄ = Σxᵢ/n, então n x̄ = Σxᵢ.\n\n\nLogo:\n\n\nΣxᵢ − Σxᵢ = 0.\n\n\nEssa propriedade explica a ideia de ponto de equilíbrio.\n\n\n",
+      "sourceStart": 4108,
+      "sourceEnd": 4296
+    },
+    {
+      "id": "MAT-EST-005-s010",
+      "title": "10. Média como redistribuição",
+      "paragraphs": [],
+      "markdown": "10. Média como redistribuição\n\n\nPara transformar 2, 3 e 7 em três valores iguais a 4:\no valor 2 recebe 2;\no valor 3 recebe 1;\no valor 7 cede 3.\n\n\nO que falta abaixo da média é compensado pelo excesso acima dela.\n\n\n",
+      "sourceStart": 4296,
+      "sourceEnd": 4510
+    },
+    {
+      "id": "MAT-EST-005-s011",
+      "title": "11. Média a partir de frequências",
+      "paragraphs": [],
+      "markdown": "11. Média a partir de frequências\n\n\nTabela:\n\n\nNúmero de livros | frequência\n0 | 2\n1 | 3\n2 | 4\n3 | 1\n\n\nProdutos:\n\n\n0×2 = 0\n1×3 = 3\n2×4 = 8\n3×1 = 3\n\n\nSoma dos produtos = 14.\nTotal de observações = 10.\n\n\nMédia = 14/10 = 1,4 livro.\n\n\n",
+      "sourceStart": 4510,
+      "sourceEnd": 4740
+    },
+    {
+      "id": "MAT-EST-005-s012",
+      "title": "12. Fórmula da média com frequências",
+      "paragraphs": [],
+      "markdown": "12. Fórmula da média com frequências\n\n\nx̄ = Σ(xᵢfᵢ) / Σfᵢ.\n\n\nLeitura pronunciável: “média é igual à soma de cada valor multiplicado por sua frequência, dividida pela soma das frequências”.\n\n\nComo Σfᵢ = n, esta é apenas uma forma compacta de repetir cada valor conforme sua frequência.\n\n\n",
+      "sourceStart": 4740,
+      "sourceEnd": 5027
+    },
+    {
+      "id": "MAT-EST-005-s013",
+      "title": "13. Média ponderada",
+      "paragraphs": [],
+      "markdown": "13. Média ponderada\n\n\nQuando valores têm pesos diferentes:\n\n\nx̄ₚ = Σ(wᵢxᵢ) / Σwᵢ.\n\n\nLeitura pronunciável: “média ponderada é igual à soma dos produtos de cada valor pelo seu peso, dividida pela soma dos pesos”.\n\n\n",
+      "sourceStart": 5027,
+      "sourceEnd": 5240
+    },
+    {
+      "id": "MAT-EST-005-s014",
+      "title": "14. Exemplo resolvido — notas com pesos",
+      "paragraphs": [],
+      "markdown": "14. Exemplo resolvido — notas com pesos\n\n\nProva 1: nota 6, peso 2.\nProva 2: nota 7, peso 3.\nProva 3: nota 8, peso 5.\n\n\nProdutos:\n6×2 = 12\n7×3 = 21\n8×5 = 40\n\n\nSoma dos produtos = 73.\nSoma dos pesos = 10.\n\n\nMédia ponderada = 73/10 = 7,3.\n\n\n",
+      "sourceStart": 5240,
+      "sourceEnd": 5478
+    },
+    {
+      "id": "MAT-EST-005-s015",
+      "title": "15. Peso não significa porcentagem automaticamente",
+      "paragraphs": [],
+      "markdown": "15. Peso não significa porcentagem automaticamente\n\n\nPesos 2, 3 e 5 equivalem, em participação, a 20%, 30% e 50% do peso total.\n\n\nMultiplicar todos os pesos pela mesma constante não muda a média ponderada.\n\n\nPesos 2, 3, 5 e pesos 4, 6, 10 produzem a mesma média ponderada.\n\n\n",
+      "sourceStart": 5478,
+      "sourceEnd": 5753
+    },
+    {
+      "id": "MAT-EST-005-s016",
+      "title": "16. Frequências são um caso de pesos",
+      "paragraphs": [],
+      "markdown": "16. Frequências são um caso de pesos\n\n\nNa tabela de livros, frequências 2, 3, 4 e 1 funcionam como pesos porque dizem quantas vezes cada valor participa da soma.\n\n\n",
+      "sourceStart": 5753,
+      "sourceEnd": 5917
+    },
+    {
+      "id": "MAT-EST-005-s017",
+      "title": "17. O erro de “média das médias”",
+      "paragraphs": [],
+      "markdown": "17. O erro de “média das médias”\n\n\nTurma A: 20 estudantes, média 70.\nTurma B: 30 estudantes, média 80.\n\n\nÉ incorreto calcular simplesmente (70+80)/2 = 75 para todos os 50 estudantes.\n\n\nTotais:\nA: 20×70 = 1400.\nB: 30×80 = 2400.\n\n\nTotal = 3800.\nn = 50.\n\n\nMédia conjunta = 3800/50 = 76.\n\n\n",
+      "sourceStart": 5917,
+      "sourceEnd": 6203
+    },
+    {
+      "id": "MAT-EST-005-s018",
+      "title": "18. Fórmula para combinar médias",
+      "paragraphs": [],
+      "markdown": "18. Fórmula para combinar médias\n\n\nx̄ = (n₁x̄₁ + n₂x̄₂) / (n₁+n₂).\n\n\nOs tamanhos dos grupos funcionam como pesos.\n\n\n",
+      "sourceStart": 6203,
+      "sourceEnd": 6319
+    },
+    {
+      "id": "MAT-EST-005-s019",
+      "title": "19. Quando a média das médias funciona?",
+      "paragraphs": [],
+      "markdown": "19. Quando a média das médias funciona?\n\n\nQuando os grupos têm o mesmo tamanho.\n\n\nSe ambos têm 20 pessoas e médias 70 e 80, então a média conjunta é 75.\n\n\n",
+      "sourceStart": 6319,
+      "sourceEnd": 6474
+    },
+    {
+      "id": "MAT-EST-005-s020",
+      "title": "20. Descobrir um valor desconhecido",
+      "paragraphs": [],
+      "markdown": "20. Descobrir um valor desconhecido\n\n\nCinco valores têm média 12.\n\n\nSoma total = 12×5 = 60.\n\n\nQuatro valores conhecidos: 10, 11, 14 e 9.\nSoma conhecida = 44.\n\n\nValor desconhecido = 60−44 = 16.\n\n\n",
+      "sourceStart": 6474,
+      "sourceEnd": 6669
+    },
+    {
+      "id": "MAT-EST-005-s021",
+      "title": "21. A média e transformações nos dados",
+      "paragraphs": [],
+      "markdown": "21. A média e transformações nos dados\n\n\nSe somamos c a todos os valores, a média aumenta c.\n\n\nSe multiplicamos todos os valores por k, a média é multiplicada por k.\n\n\nExemplo:\n2,4,6 têm média 4.\nSomando 10: 12,14,16, média 14.\nMultiplicando os originais por 3: 6,12,18, média 12.\n\n\n",
+      "sourceStart": 6669,
+      "sourceEnd": 6952
+    },
+    {
+      "id": "MAT-EST-005-s022",
+      "title": "22. Forma geral da transformação",
+      "paragraphs": [],
+      "markdown": "22. Forma geral da transformação\n\n\nSe yᵢ = a xᵢ + b, então:\n\n\nȳ = a x̄ + b.\n\n\nLeitura pronunciável: “se cada novo valor y é igual a a vezes x mais b, a nova média é a vezes a média antiga mais b”.\n\n\n",
+      "sourceStart": 6952,
+      "sourceEnd": 7151
+    },
+    {
+      "id": "MAT-EST-005-s023",
+      "title": "23. Alterar um único valor",
+      "paragraphs": [],
+      "markdown": "23. Alterar um único valor\n\n\nSe um valor aumenta em Δ em um conjunto com n observações, a média aumenta:\n\n\nΔ/n.\n\n\nExemplo:\n10 valores têm média 50.\nUm registro é corrigido de 40 para 60.\nΔ = +20.\n\n\nNova média = 50 + 20/10 = 52.\n\n\n",
+      "sourceStart": 7151,
+      "sourceEnd": 7381
+    },
+    {
+      "id": "MAT-EST-005-s024",
+      "title": "24. Adicionar uma observação",
+      "paragraphs": [],
+      "markdown": "24. Adicionar uma observação\n\n\nSe n valores têm média x̄ e adicionamos y:\n\n\nnova média = (n x̄ + y)/(n+1).\n\n\nExemplo:\n5 valores têm média 10.\nSoma antiga = 50.\nAdiciona-se 22.\n\n\nNova média = 72/6 = 12.\n\n\n",
+      "sourceStart": 7381,
+      "sourceEnd": 7585
+    },
+    {
+      "id": "MAT-EST-005-s025",
+      "title": "25. Efeito de valores extremos",
+      "paragraphs": [],
+      "markdown": "25. Efeito de valores extremos\n\n\nDados:\n4, 5, 5, 5, 6.\n\n\nMédia = 5.\n\n\nAcrescente 30:\n\n\n4, 5, 5, 5, 6, 30.\n\n\nSoma = 55.\nn = 6.\nMédia ≈ 9,17.\n\n\nUm único valor alto deslocou fortemente a média.\n\n\n",
+      "sourceStart": 7585,
+      "sourceEnd": 7778
+    },
+    {
+      "id": "MAT-EST-005-s026",
+      "title": "26. Por que o extremo desloca a média?",
+      "paragraphs": [],
+      "markdown": "26. Por que o extremo desloca a média?\n\n\nA média usa todos os valores diretamente na soma. Quanto mais distante um valor estiver do restante, maior sua contribuição para a soma.\n\n\nIsso não significa que o extremo deve ser apagado.\n\n\nPergunte primeiro:\né erro?\né observação válida rara?\npertence à população definida?\nhá justificativa para exclusão?\n\n\n",
+      "sourceStart": 7778,
+      "sourceEnd": 8129
+    },
+    {
+      "id": "MAT-EST-005-s027",
+      "title": "27. Extremo e erro não são sinônimos",
+      "paragraphs": [],
+      "markdown": "27. Extremo e erro não são sinônimos\n\n\nRendas:\nR$ 2.000; R$ 2.200; R$ 2.100; R$ 2.300; R$ 20.000.\n\n\nR$ 20.000 é extremo, mas pode ser verdadeiro.\n\n\nNa MAT-EST-006 compararemos média, mediana e moda.\n\n\n",
+      "sourceStart": 8129,
+      "sourceEnd": 8330
+    },
+    {
+      "id": "MAT-EST-005-s028",
+      "title": "28. Média e assimetria",
+      "paragraphs": [],
+      "markdown": "28. Média e assimetria\n\n\nPoucos valores muito altos podem puxar a média para cima.\n\n\nA média continua matematicamente correta, mas pode deixar de representar bem o que alguém chama informalmente de “valor típico”.\n\n\n",
+      "sourceStart": 8330,
+      "sourceEnd": 8546
+    },
+    {
+      "id": "MAT-EST-005-s029",
+      "title": "29. A média não substitui a distribuição",
+      "paragraphs": [],
+      "markdown": "29. A média não substitui a distribuição\n\n\nA = 4,5,6.\nB = 0,5,10.\nC = 5,5,5.\n\n\nTodos têm média 5.\n\n\nAs distribuições são muito diferentes.\n\n\n",
+      "sourceStart": 8546,
+      "sourceEnd": 8687
+    },
+    {
+      "id": "MAT-EST-005-s030",
+      "title": "30. Comparar médias exige contexto",
+      "paragraphs": [],
+      "markdown": "30. Comparar médias exige contexto\n\n\nDuas empresas podem ter a mesma média salarial e distribuições completamente diferentes.\n\n\nPrecisamos olhar tamanho dos grupos, dispersão, extremos, cargos, períodos e qualidade da coleta.\n\n\n",
+      "sourceStart": 8687,
+      "sourceEnd": 8915
+    },
+    {
+      "id": "MAT-EST-005-s031",
+      "title": "31. Média amostral e populacional",
+      "paragraphs": [],
+      "markdown": "31. Média amostral e populacional\n\n\nMédia de uma amostra descreve os dados observados.\n\n\nUsá-la para estimar a média da população é inferência e depende do plano amostral e da incerteza.\n\n\n",
+      "sourceStart": 8915,
+      "sourceEnd": 9104
+    },
+    {
+      "id": "MAT-EST-005-s032",
+      "title": "32. Notação populacional",
+      "paragraphs": [],
+      "markdown": "32. Notação populacional\n\n\nA média de uma população costuma ser representada por μ, lida “mi”.\n\n\nA média amostral costuma ser x̄, “xis barra”.\n\n\n",
+      "sourceStart": 9104,
+      "sourceEnd": 9249
+    },
+    {
+      "id": "MAT-EST-005-s033",
+      "title": "33. Média ponderada em índices",
+      "paragraphs": [],
+      "markdown": "33. Média ponderada em índices\n\n\nMédias ponderadas aparecem em notas, índices de preços, investimentos, grupos com tamanhos distintos, frequências e indicadores compostos.\n\n\nPesos precisam ter significado explícito.\n\n\n",
+      "sourceStart": 9249,
+      "sourceEnd": 9467
+    },
+    {
+      "id": "MAT-EST-005-s034",
+      "title": "34. Exemplo resolvido — índice ponderado",
+      "paragraphs": [],
+      "markdown": "34. Exemplo resolvido — índice ponderado\n\n\nA: valor 80, peso 1.\nB: valor 60, peso 2.\nC: valor 90, peso 2.\n\n\nSoma ponderada = 80 + 120 + 180 = 380.\nSoma dos pesos = 5.\n\n\nMédia ponderada = 76.\n\n\n",
+      "sourceStart": 9467,
+      "sourceEnd": 9660
+    },
+    {
+      "id": "MAT-EST-005-s035",
+      "title": "35. Exemplo resolvido — tabela de frequência",
+      "paragraphs": [],
+      "markdown": "35. Exemplo resolvido — tabela de frequência\n\n\nNota 5: frequência 2.\nNota 6: frequência 3.\nNota 7: frequência 4.\nNota 8: frequência 1.\n\n\nSoma ponderada:\n5×2 + 6×3 + 7×4 + 8×1 = 64.\n\n\nTotal = 10.\n\n\nMédia = 6,4.\n\n\n",
+      "sourceStart": 9660,
+      "sourceEnd": 9872
+    },
+    {
+      "id": "MAT-EST-005-s036",
+      "title": "36. Exemplo resolvido — valor desconhecido",
+      "paragraphs": [],
+      "markdown": "36. Exemplo resolvido — valor desconhecido\n\n\nMédia de 4 números = 18.\nSoma total = 72.\n\n\nTrês valores: 16, 20, 21.\nSoma = 57.\n\n\nValor restante = 15.\n\n\n",
+      "sourceStart": 9872,
+      "sourceEnd": 10023
+    },
+    {
+      "id": "MAT-EST-005-s037",
+      "title": "37. Exemplo resolvido — correção de dado",
+      "paragraphs": [],
+      "markdown": "37. Exemplo resolvido — correção de dado\n\n\n25 notas têm média 7,2.\nSoma total = 180.\n\n\nUma nota registrada como 5 deveria ser 8.\nA soma aumenta 3.\n\n\nNova soma = 183.\nNova média = 183/25 = 7,32.\n\n\n",
+      "sourceStart": 10023,
+      "sourceEnd": 10219
+    },
+    {
+      "id": "MAT-EST-005-s038",
+      "title": "38. Exemplo resolvido — remover observação",
+      "paragraphs": [],
+      "markdown": "38. Exemplo resolvido — remover observação\n\n\n10 valores têm média 15.\nSoma = 150.\n\n\nRemove-se o valor 24.\nNova soma = 126.\nNovo n = 9.\n\n\nNova média = 14.\n\n\n",
+      "sourceStart": 10219,
+      "sourceEnd": 10375
+    },
+    {
+      "id": "MAT-EST-005-s039",
+      "title": "39. Média de porcentagens",
+      "paragraphs": [],
+      "markdown": "39. Média de porcentagens\n\n\nTurma A:\n90% de 10 estudantes = 9 aprovados.\n\n\nTurma B:\n60% de 100 estudantes = 60 aprovados.\n\n\nMédia simples dos percentuais = 75%, mas isso é inadequado para o conjunto.\n\n\nAprovação conjunta:\n69/110 ≈ 62,7%.\n\n\n",
+      "sourceStart": 10375,
+      "sourceEnd": 10615
+    },
+    {
+      "id": "MAT-EST-005-s040",
+      "title": "40. Média de velocidades: cuidado",
+      "paragraphs": [],
+      "markdown": "40. Média de velocidades: cuidado\n\n\nUm veículo percorre 100 km a 50 km/h e 100 km a 100 km/h.\n\n\nTempos:\n2 horas e 1 hora.\n\n\nDistância total = 200 km.\nTempo total = 3 h.\n\n\nVelocidade média = 200/3 ≈ 66,7 km/h.\n\n\nA média aritmética de 50 e 100, que seria 75 km/h, não representa a velocidade média desse percurso.\n\n\n",
+      "sourceStart": 10615,
+      "sourceEnd": 10929
+    },
+    {
+      "id": "MAT-EST-005-s041",
+      "title": "41. Erros frequentes",
+      "paragraphs": [],
+      "markdown": "41. Erros frequentes\n\n\n1. Dividir pelo número errado de observações.\n2. Em média ponderada, dividir pela quantidade de valores em vez da soma dos pesos.\n3. Tirar média de médias sem ponderar pelos tamanhos.\n4. Achar que a média precisa existir nos dados.\n5. Calcular média de códigos categóricos.\n6. Tratar extremo como erro automaticamente.\n7. Usar média sem observar a distribuição.\n8. Confundir média amostral com média populacional.\n9. Fazer média simples de percentuais com denominadores diferentes.\n10. Aplicar média aritmética em situação cuja definição exige outra grandeza.\n\n\n",
+      "sourceStart": 10929,
+      "sourceEnd": 11514
+    },
+    {
+      "id": "MAT-EST-005-s042",
+      "title": "42. Relação com BNCC, ENEM e FUVEST",
+      "paragraphs": [],
+      "markdown": "42. Relação com BNCC, ENEM e FUVEST\n\n\nA BNCC, em EF07MA35, exige compreender a média estatística em contextos significativos como indicador de tendência de uma pesquisa, calcular seu valor e relacioná-lo intuitivamente com a amplitude do conjunto de dados.\n\n\nA FUVEST 2027 inclui comunicar e interpretar resultados por medidas-resumo e, nos objetos de conhecimento, medidas de tendência central: média, mediana e moda, além de medidas de dispersão.\n\n\nA Matriz de Referência do Enem publicada pelo Inep em 2026 orienta resolução de situações-problema, interpretação matemática e análise de dados. Os itens VES desta reconstrução são autorais.\n\n\n",
+      "sourceStart": 11514,
+      "sourceEnd": 12158
+    },
+    {
+      "id": "MAT-EST-005-s043",
+      "title": "43. O que observar nos seis visuais",
+      "paragraphs": [],
+      "markdown": "43. O que observar nos seis visuais\n\n\nVisual 1 — redistribuição igualitária: 2,4,6 viram 4,4,4 sem mudar o total 12.\n\n\nVisual 2 — equilíbrio: desvios −2, −1 e +3 em torno da média 4 somam zero.\n\n\nVisual 3 — frequência como peso: a tabela reconstrói soma 14 e média 1,4.\n\n\nVisual 4 — média ponderada: notas 6,7,8 com pesos 2,3,5 produzem 7,3.\n\n\nVisual 5 — extremo: a média muda de 5 para aproximadamente 9,17 quando 30 é acrescentado.\n\n\nVisual 6 — média conjunta: turmas de tamanhos 20 e 30 com médias 70 e 80 resultam em 76, não 75.\n\n\n",
+      "sourceStart": 12158,
+      "sourceEnd": 12693
+    },
+    {
+      "id": "MAT-EST-005-s044",
+      "title": "44. Resumo para revisão",
+      "paragraphs": [],
+      "markdown": "44. Resumo para revisão\n\n\nMédia simples:\nx̄ = Σxᵢ/n.\n\n\nMédia com frequências:\nx̄ = Σ(xᵢfᵢ)/Σfᵢ.\n\n\nMédia ponderada:\nx̄ₚ = Σ(wᵢxᵢ)/Σwᵢ.\n\n\nSoma = média × quantidade.\n\n\nA soma dos desvios em relação à média é zero.\n\n\nValores extremos podem deslocar fortemente a média.\n\n\nA mesma média pode aparecer em distribuições muito diferentes.\n\n\n",
+      "sourceStart": 12693,
+      "sourceEnd": 13025
+    },
+    {
+      "id": "MAT-EST-005-s045",
+      "title": "45. Versão curta para ouvir",
+      "paragraphs": [],
+      "markdown": "45. Versão curta para ouvir\n\n\nA média aritmética reúne o total dos valores e o redistribui igualmente entre as observações.\n\n\nNa média simples, somamos os valores e dividimos pela quantidade.\n\n\nNa média ponderada, multiplicamos cada valor pelo peso, somamos os produtos e dividimos pela soma dos pesos.\n\n\nA média também é um ponto de equilíbrio: os desvios em relação a ela somam zero.\n\n\nGrupos de tamanhos diferentes exigem ponderação.\n\n\nValores extremos podem deslocar muito a média.\n\n\nA média é importante, mas não descreve sozinha toda a distribuição.\n\n\n",
+      "sourceStart": 13025,
+      "sourceEnd": 13583
+    },
+    {
+      "id": "MAT-EST-005-s046",
+      "title": "46. Vídeos complementares",
+      "paragraphs": [],
+      "markdown": "46. Vídeos complementares\n\n\nVídeo 1:\n“Média Aritmética - Noções Básicas de Estatística - Aula 02”.\nCanal: Prof. Enildo Barbosa.\nMomento recomendado: após as seções 2 a 10.\nMotivo: reforça cálculo e interpretação algébrica da média.\n\n\nVídeo 2:\n“MÉDIA ARITMÉTICA PONDERADA ✅ INTRODUÇÃO À ESTATÍSTICA”.\nCanal: Prof. MURAKAMI - MATEMÁTICA RAPIDOLA.\nMomento recomendado: após as seções 11 a 18.\nMotivo: a descrição pública cobre explicitamente média ponderada e soma de valores vezes pesos dividida pela soma dos pesos.\n\n\nEstado de QA:\nAs páginas públicas foram localizadas nesta execução. Reprodução integral, duração efetiva, áudio e sincronização das legendas ainda não foram auditados no Microsoft Edge.\n\n\n",
+      "sourceStart": 13583,
+      "sourceEnd": 14288
+    },
+    {
+      "id": "MAT-EST-005-s047",
+      "title": "47. Fontes da reconstrução",
+      "paragraphs": [],
+      "markdown": "47. Fontes da reconstrução\n\n\nFontes internas canônicas:\n01 — Visão e princípios.\n02 — Metodologia.\n03 — Matriz mestre.\n04 — Acessibilidade e leitura em voz alta.\n05 — Padrão visual.\n06 — Arquitetura e modelo de conteúdo.\n07 — Fontes oficiais.\n08 — Instrução do projeto.\n\n\nFontes institucionais externas:\nBNCC/MEC — EF07MA35.\nInep — Matrizes de Referência do Enem, 2026.\nFUVEST — Programa do Vestibular 2027.\n\n\n\n\n49. Aprofundamento — média e conservação do total\n\n\nUma maneira poderosa de pensar a média é por conservação.\n\n\nSe um conjunto tem n observações e média x̄, então a soma total é:\n\n\nS = n x̄.\n\n\nLeitura pronunciável:\n“a soma total é igual à quantidade de observações multiplicada pela média”.\n\n\nEssa relação permite passar de média para soma e de soma para média.\n\n\nExemplo.\n\n\nUma equipe realizou 12 atendimentos com tempo médio de 18 minutos.\n\n\nSoma dos tempos:\n\n\n12 × 18 = 216 minutos.\n\n\nEsse número não significa que um atendimento durou 216 minutos. Ele representa a soma dos 12 tempos.\n\n\nSe um décimo terceiro atendimento durar 24 minutos:\n\n\nnova soma = 216 + 24 = 240;\nnovo n = 13;\nnova média = 240/13 ≈ 18,46 minutos.\n\n\nEssa visão evita decorar vários “truques” separados.\n\n\n50. A média de um valor repetido\n\n\nSe todos os valores são iguais a c:\n\n\nc, c, c, ..., c,\n\n\na média também é c.\n\n\nPor quê?\n\n\nA soma é n c.\n\n\nDividindo por n:\n\n\nn c / n = c.\n\n\nEsse caso é importante porque mostra que a média não “inventa” deslocamento quando não existe variação.\n\n\n51. A média fica entre o menor e o maior valor\n\n\nPara dados numéricos reais, a média aritmética não pode ser menor que o mínimo nem maior que o máximo.\n\n\nSe todos os valores estão entre 4 e 10, a média também estará entre 4 e 10.\n\n\nIsso fornece um controle de plausibilidade.\n\n\nSe alguém calcula média 12 para dados 4, 6, 7 e 10, existe erro.\n\n\nA média pode coincidir com o mínimo ou máximo somente se todos os valores forem iguais a esse extremo.\n\n\n52. Por que a média fica entre mínimo e máximo?\n\n\nSe m é o menor valor e M é o maior, então:\n\n\nm ≤ xᵢ ≤ M\n\n\npara cada observação.\n\n\nSomando n observações:\n\n\nn m ≤ Σxᵢ ≤ n M.\n\n\nDividindo por n positivo:\n\n\nm ≤ x̄ ≤ M.\n\n\nEssa demonstração é uma ponte entre estatística e desigualdades.\n\n\n53. Média e deslocamento do centro\n\n\nSe acrescentamos uma observação acima da média atual, a nova média sobe.\n\n\nSe acrescentamos uma observação abaixo da média atual, a nova média cai.\n\n\nSe acrescentamos exatamente um valor igual à média atual, a média não muda.\n\n\nDemonstração intuitiva.\n\n\nSe a média atual é 10 e adicionamos 10, estamos acrescentando exatamente a “cota” média; portanto, o equilíbrio permanece em 10.\n\n\n54. Quanto a nova observação desloca a média?\n\n\nMédia antiga x̄, n observações e nova observação y:\n\n\nnova média = (n x̄ + y)/(n+1).\n\n\nSubtraindo a média antiga:\n\n\nnova média − x̄\n= (y − x̄)/(n+1).\n\n\nLeitura:\n\n\n“a mudança na média é a diferença entre o novo valor e a média antiga, dividida pelo novo tamanho do conjunto”.\n\n\nConsequência:\n\n\nquanto maior o conjunto, menor o efeito de uma única nova observação de mesma distância.\n\n\n55. Exemplo — conjunto pequeno e conjunto grande\n\n\nConjunto A:\n\n\nn = 4;\nmédia = 10;\nnovo valor = 30.\n\n\nMudança:\n\n\n(30−10)/5 = 4.\n\n\nNova média = 14.\n\n\nConjunto B:\n\n\nn = 99;\nmédia = 10;\nnovo valor = 30.\n\n\nMudança:\n\n\n(30−10)/100 = 0,2.\n\n\nNova média = 10,2.\n\n\nO mesmo valor extremo produz efeito muito maior no conjunto pequeno.\n\n\n56. Média ponderada com pesos percentuais\n\n\nSe os pesos já estão expressos como proporções que somam 1, a fórmula pode ser escrita:\n\n\nx̄ₚ = w₁x₁ + w₂x₂ + ... + wₖxₖ,\n\n\ndesde que:\n\n\nw₁ + w₂ + ... + wₖ = 1.\n\n\nExemplo:\n\n\nTrabalho: nota 8, peso 20% = 0,20.\nProva: nota 6, peso 30% = 0,30.\nProjeto: nota 9, peso 50% = 0,50.\n\n\nMédia:\n\n\n8×0,20 + 6×0,30 + 9×0,50\n= 1,6 + 1,8 + 4,5\n= 7,9.\n\n\nNão se divide novamente por 3, pois os pesos já somam 1.\n\n\n57. Pesos que não somam 100%\n\n\nPesos não precisam somar 100 ou 1.\n\n\nPodem ser 2, 3 e 5.\n\n\nA fórmula normaliza automaticamente:\n\n\nΣ(wᵢxᵢ)/Σwᵢ.\n\n\nO denominador transforma os pesos relativos em uma participação total coerente.\n\n\n58. Média ponderada e decisões\n\n\nPesos são escolhas de modelagem ou regras institucionais.\n\n\nSe uma avaliação usa pesos 2, 3 e 5, o resultado é diferente de pesos 1, 1 e 1.\n\n\nPortanto, antes de calcular, pergunte:\n\n\n• quem definiu os pesos?\n• o que eles representam?\n• estão documentados?\n• são frequências, importância, exposição, quantidade, crédito ou outra grandeza?\n\n\nUm cálculo ponderado pode estar aritmeticamente correto e conceitualmente errado se os pesos não tiverem significado.\n\n\n59. Média a partir de dados agrupados\n\n\nQuando os dados são agrupados em classes, como:\n\n\n0 a menos de 10;\n10 a menos de 20;\n20 a menos de 30,\n\n\npodemos não conhecer os valores individuais.\n\n\nUma aproximação comum é usar o ponto médio de cada classe.\n\n\nPara [10,20):\n\n\nponto médio = (10+20)/2 = 15.\n\n\nDepois, usamos os pontos médios como valores representativos e as frequências como pesos.\n\n\nImportante:\n\n\nisso produz uma estimativa da média, não necessariamente a média exata, porque os valores reais dentro da classe foram substituídos pelo ponto médio.\n\n\n60. Exemplo — média aproximada em classes\n\n\nTempo em minutos:\n\n\n[0,10): frequência 2.\n[10,20): frequência 5.\n[20,30): frequência 3.\n\n\nPontos médios:\n\n\n5, 15, 25.\n\n\nSoma aproximada:\n\n\n5×2 + 15×5 + 25×3\n= 10 + 75 + 75\n= 160.\n\n\nTotal = 10.\n\n\nMédia aproximada = 16 minutos.\n\n\nO símbolo ou texto “aproximadamente” é importante.\n\n\n61. Média e arredondamento\n\n\nSe os dados originais têm precisão limitada, a média pode gerar muitas casas decimais.\n\n\nExemplo:\n\n\nmédia = 7,333333...\n\n\nNão faz sentido apresentar dezenas de casas se as medições originais foram registradas com baixa precisão.\n\n\nA regra de arredondamento deve ser consistente e, quando necessário, documentada.\n\n\nDurante cálculos intermediários, prefira manter mais precisão e arredondar apenas no resultado final.\n\n\n62. Média e dados ausentes\n\n\nSuponha 10 pessoas selecionadas, mas apenas 8 têm valor registrado.\n\n\nA média dos 8 valores válidos usa n = 8.\n\n\nNão é correto preencher automaticamente os 2 ausentes com zero.\n\n\nZero é um valor observado possível; ausência significa “não sabemos” ou “não foi registrado”.\n\n\nTransformar ausência em zero muda o significado dos dados.\n\n\n63. Média e zeros verdadeiros\n\n\nPor outro lado, se zero é um valor verdadeiro, deve participar.\n\n\nExemplo:\n\n\nnúmero de faltas de cinco estudantes:\n\n\n0, 0, 1, 2, 2.\n\n\nSoma = 5.\nMédia = 1.\n\n\nExcluir os zeros porque “não houve falta” aumentaria indevidamente a média.\n\n\n64. Média e subgrupos\n\n\nUma média geral pode esconder diferenças relevantes entre subgrupos.\n\n\nExemplo:\n\n\nGrupo A média 8.\nGrupo B média 4.\n\n\nA média geral pode ser 6, mas nenhum dos grupos tem comportamento médio 6.\n\n\nSempre que a pergunta envolver comparação entre grupos, mostre também as médias por grupo e seus tamanhos.\n\n\n65. Paradoxo intuitivo das médias agregadas\n\n\nÉ possível que uma média geral mude de forma surpreendente quando a composição dos grupos muda.\n\n\nIsso ocorre porque a média conjunta depende tanto das médias internas quanto dos pesos relativos dos grupos.\n\n\nEssa ideia prepara o terreno para fenômenos como o paradoxo de Simpson, estudado em níveis mais avançados.\n\n\nNesta aula, basta guardar:\n\n\nmédias agregadas precisam ser interpretadas junto com a composição dos grupos.\n\n\n66. Checklist antes de usar uma média\n\n\n1. A variável é quantitativa?\n2. Os valores estão na mesma unidade?\n3. O denominador está correto?\n4. Existem dados ausentes?\n5. Há pesos? O que significam?\n6. Existem valores extremos?\n7. A distribuição é muito assimétrica?\n8. Estou combinando grupos de tamanhos diferentes?\n9. A média é amostral ou populacional?\n10. A pergunta realmente pede média aritmética?\n\n\nEsse checklist reduz erros conceituais mesmo quando a conta é simples.\n\n\n67. Conexões com outras matérias\n\n\nFísica:\nvelocidade média exige definição baseada em distância e tempo; médias de medidas experimentais aparecem frequentemente.\n\n\nQuímica:\nmédias podem resumir medições repetidas, mas precisam respeitar unidades e condições experimentais.\n\n\nBiologia:\nmédia de altura, massa, comprimento e contagens pode descrever amostras, mas extremos e desenho amostral importam.\n\n\nGeografia:\nmédias de renda, precipitação e indicadores precisam ser interpretadas com distribuição espacial e temporal.\n\n\nEconomia:\nrenda média, preços médios e índices ponderados podem ser fortemente influenciados por composição e pesos.\n\n\nTecnologia:\nlatência média, tempo médio de resposta e custo médio podem esconder caudas longas; analisar apenas a média pode ser insuficiente.\n\n\n68. Critério de domínio desta aula\n\n\nA aula não está consolidada apenas porque foi lida.\n\n\nPara considerar o tópico consolidado, o estudante deve conseguir:\n\n\n• explicar média como repartição;\n• calcular média simples;\n• reconstruir soma total a partir de média e n;\n• usar frequências como pesos;\n• calcular média ponderada;\n• combinar grupos;\n• prever efeito de correção ou nova observação;\n• explicar efeito de extremos;\n• reconhecer situação em que média não é apropriada;\n• resolver um problema novo sem copiar modelo anterior.\n\n\nO status pedagógico do aluno só deve mudar após evidência real em exercícios. A produção editorial desta aula não altera progresso individual.\n\n\n\n\n69. Próximo passo\n\n\nMAT-EST-006 — Mediana e moda: posição, frequência e comparação com a média.\n",
+      "sourceStart": 14288,
+      "sourceEnd": 23648
+    }
+  ],
+  "sources": [
+    {
+      "title": "MAT-EST-005 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "previous": "MAT-EST-004",
+  "next": "MAT-EST-006",
+  "videos": [
+    {
+      "title": "Média Aritmética - Noções Básicas de Estatística - Aula 02",
+      "channel": "WE Educacional",
+      "url": "https://www.youtube.com/watch?v=6gxWsTG5zxE",
+      "duration": "Duração não confirmada",
+      "language": "Português",
+      "reason": "Reforça o conceito apresentado nesta aula.",
+      "when": "Depois dos exemplos resolvidos, antes dos exercícios.",
+      "reinforces": [],
+      "checkedAt": "2026-10-03",
+      "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+      "type": "video"
+    },
+    {
+      "title": "MÉDIA ARITMÉTICA PONDERADA ✅ INTRODUÇÃO À ESTATÍSTICA",
+      "channel": "Prof. MURAKAMI - MATEMÁTICA RAPIDOLA",
+      "url": "https://www.youtube.com/watch?v=6jX548ym6zI",
+      "duration": "Duração não confirmada",
+      "language": "Português",
+      "reason": "Reforça o conceito apresentado nesta aula.",
+      "when": "Depois dos exemplos resolvidos, antes dos exercícios.",
+      "reinforces": [],
+      "checkedAt": "2026-10-03",
+      "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+      "type": "video"
+    }
+  ],
+  "video": {
+    "title": "Média Aritmética - Noções Básicas de Estatística - Aula 02",
+    "channel": "WE Educacional",
+    "url": "https://www.youtube.com/watch?v=6gxWsTG5zxE",
+    "duration": "Duração não confirmada",
+    "language": "Português",
+    "reason": "Reforça o conceito apresentado nesta aula.",
+    "when": "Depois dos exemplos resolvidos, antes dos exercícios.",
+    "reinforces": [],
+    "checkedAt": "2026-10-03",
+    "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+    "type": "video"
+  },
+  "publication": {
+    "kind": "Reconstrução editorial v1; sem identidade binária com a edição histórica.",
+    "notes": [
+      "A produção e a publicação não registram domínio nem alteram seu progresso.",
+      "As referências a publicação pendente no texto original registram o estado da fonte na data de criação."
+    ],
+    "original": "originais/MAT-EST-005/aula.md",
+    "editions": [
+      {
+        "label": "MAT-EST-005-metadados.json · 2026-10-01",
+        "url": "originais/MAT-EST-005/edicoes/1nvR8NO4KpMq5W3OkJPgeJ8M1kqZ8e80I.json"
+      },
+      {
+        "label": "MAT-EST-005 — manifesto da reconstrução v1 · 2026-10-01",
+        "url": "originais/MAT-EST-005/edicoes/1TEGE0G1-nosZsXY-rOW2LoMD0AHbRr3vqzMjjlNj-TY.txt"
+      },
+      {
+        "label": "MAT-EST-005 — gabarito comentado — reconstrução editorial v1 · 2026-10-01",
+        "url": "originais/MAT-EST-005/edicoes/1RxtTgu2FHRD1OTat_vKem_2y2SBm3lD99vY61X81K2I.txt"
+      },
+      {
+        "label": "MAT-EST-005 — exercícios — reconstrução editorial v1 · 2026-10-01",
+        "url": "originais/MAT-EST-005/edicoes/1YmCMmGe9UGEKcK_S0Eyuyjd40BmXBIdwit232iMVkqY.txt"
+      },
+      {
+        "label": "MAT-EST-005 — aula completa — reconstrução editorial v1 · 2026-10-01",
+        "url": "originais/MAT-EST-005/edicoes/1Nw-BnLLSjc_-J0KjFssz6Opic2iKQpQf-RqU3bZwaiw.txt"
+      }
+    ],
+    "attachments": [],
+    "questionCount": 36,
+    "visualCount": 6,
+    "sourceSha256": "117c6742e9272cc97eada19217cdaadbc1c73887eaa29b50f8667a757609ec0d"
+  }
+}

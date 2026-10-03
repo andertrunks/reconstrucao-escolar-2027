@@ -1,0 +1,18 @@
+{
+  "dataRegistro": "2026-09-28",
+  "unidade": "Estatística",
+  "ultimaAulaProduzida": "MAT-EST-037",
+  "proximaAulaObrigatoria": {
+    "id": "MAT-EST-038",
+    "titulo": "Devolutiva integradora e fechamento editorial da unidade de Estatística: recuperação por evidências e ponte universitária"
+  },
+  "statusProducao": "produzido localmente; não publicado nem sincronizado com Google Drive",
+  "progressoIndividualAlterado": false,
+  "avaliacoesPendentes": [
+    "MAT-EST-018",
+    "MAT-PRO-039",
+    "MAT-PRO-054",
+    "MAT-EST-037"
+  ],
+  "instrucaoContinuar": "Produzir MAT-EST-038 como devolutiva e roteiro editorial; avaliação individual de MAT-EST-037 só após tentativa real, não inferir notas/acertos/consolidação. Não aplicar questionário na conversa."
+}

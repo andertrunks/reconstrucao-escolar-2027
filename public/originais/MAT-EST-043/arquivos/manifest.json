@@ -1,0 +1,198 @@
+{
+  "id": "MAT-EST-043",
+  "slug": "tendencia-sazonalidade-decomposicao-series-padroes-diferencas-sazonais-previsoes-referencia",
+  "titulo": "Tendência, sazonalidade e decomposição de séries temporais: padrões, diferenças sazonais e previsões de referência",
+  "materia": "Matemática",
+  "unidade": "Estatística",
+  "nivel": [
+    6
+  ],
+  "ordem": 43,
+  "tipoConteudo": "aprofundamento_ponte_universitaria_series_temporais",
+  "anterior": "MAT-EST-042",
+  "preRequisitos": [
+    "MAT-EST-019",
+    "MAT-EST-020",
+    "MAT-EST-031",
+    "MAT-EST-032",
+    "MAT-EST-041",
+    "MAT-EST-042"
+  ],
+  "objetivos": [
+    "diferenciar tendência, sazonalidade e restante",
+    "reconstruir identidade aditiva e distinguir hipótese multiplicativa",
+    "calcular diferença sazonal de quatro períodos",
+    "distinguir suavização retrospectiva de previsão causal",
+    "comparar referências sazonais em teste futuro comum",
+    "relatar limites de dados artificiais"
+  ],
+  "conceitosRelacionados": [
+    "tendência",
+    "sazonalidade",
+    "ciclos",
+    "restante",
+    "STL",
+    "diferenças sazonais",
+    "médias móveis centradas",
+    "previsão sazonal ingênua",
+    "vazamento temporal"
+  ],
+  "examesRelacionados": [
+    "ENEM (fundamentos correlatos)",
+    "FUVEST (fundamentos correlatos)",
+    "UNICAMP (fundamentos correlatos)",
+    "UNESP (fundamentos correlatos)"
+  ],
+  "notaExames": "Procedimentos formais de STL e diferenças sazonais são ponte universitária; as questões são autorais e nenhuma banca é atribuída.",
+  "arquivoMarkdown": "MAT-EST-043-tendencia-sazonalidade-decomposicao-series-padroes-diferencas-sazonais-previsoes-referencia.md",
+  "arquivoExercicios": "exercicios.json",
+  "arquivoGabarito": "gabarito-comentado.json",
+  "arquivoDadosAnterior": "dados-ficticios-referencia.csv",
+  "hashDadosAnterior": "f1cc3989cd8c701a14e544c424b797f27594806ae302a93253e2a1b82fab5ca9",
+  "arquivoDadosNovo": "dados-ficticios-trimestrais.csv",
+  "arquivoCalculos": "calculos-reproduziveis.json",
+  "arquivoCodigo": "calculos-reproduziveis.py",
+  "visuais": [
+    {
+      "id": "MAT-EST-043-VIS-01",
+      "arquivo": "assets/01-serie-trimestral.svg",
+      "titulo": "Série trimestral artificial: três ciclos",
+      "legenda": "Série trimestral artificial: três ciclos",
+      "alt": "Gráfico com eixo horizontal trimestre um a doze e eixo vertical em unidades. Os pontos são 90,107,128,105,111,124,150,127,129,145,171,144.",
+      "oQueObservar": "Observe a repetição aproximada de máximos no trimestre três e mínimos relativos nas fases um e quatro, junto de aumento de nível.",
+      "conclusaoTextual": "São três repetições desenhadas por construção matemática; não são evidências de uma série real nem garantia de padrão futuro.",
+      "autoria": "original",
+      "licenca": "uso_no_projeto"
+    },
+    {
+      "id": "MAT-EST-043-VIS-02",
+      "arquivo": "assets/02-decomposicao-aditiva.svg",
+      "titulo": "Decomposição aditiva construída: T + S + R",
+      "legenda": "Decomposição aditiva construída: T + S + R",
+      "alt": "Matriz de quatro fases mostrando T 100,105,110,115; S menos10, zero, mais20, menos10; R zero, dois, menos dois, zero; observados 90,107,128,105.",
+      "oQueObservar": "Leia por coluna, somando os três componentes para obter o total.",
+      "conclusaoTextual": "Decompor dados reais requer estimar os componentes; esta tabela é uma identidade artificial conhecida desde a geração.",
+      "autoria": "original",
+      "licenca": "uso_no_projeto"
+    },
+    {
+      "id": "MAT-EST-043-VIS-03",
+      "arquivo": "assets/03-soma-componentes.svg",
+      "titulo": "Como nasce uma observação no modelo aditivo",
+      "legenda": "Como nasce uma observação no modelo aditivo",
+      "alt": "Três caixas em linha e uma caixa de resultado, centro de tendência cento e trinta, sazonalidade mais vinte, restante zero, total cento e cinquenta.",
+      "oQueObservar": "A unidade permanece volume, e a sazonalidade é um acréscimo absoluto.",
+      "conclusaoTextual": "O terceiro trimestre fictício do segundo ano vale 150 por construção: 130 mais 20 mais zero.",
+      "autoria": "original",
+      "licenca": "uso_no_projeto"
+    },
+    {
+      "id": "MAT-EST-043-VIS-04",
+      "arquivo": "assets/04-diferencas-sazonais.svg",
+      "titulo": "Diferença sazonal: pares com quatro períodos de distância",
+      "legenda": "Diferença sazonal: pares com quatro períodos de distância",
+      "alt": "Tabela: fases T1 até T4, ano um 90,107,128,105; ano dois 111,124,150,127; ano três 129,145,171,144; diferenças 21,17,22,22 e 18,21,21,17.",
+      "oQueObservar": "Compare sempre a mesma fase; diferenças de ano contra ano não são variações de um trimestre para o seguinte.",
+      "conclusaoTextual": "As oito diferenças de atraso quatro são 21,17,22,22,18,21,21,17 unidades.",
+      "autoria": "original",
+      "licenca": "uso_no_projeto"
+    },
+    {
+      "id": "MAT-EST-043-VIS-05",
+      "arquivo": "assets/05-media-movel-centrada.svg",
+      "titulo": "Média móvel centrada de ordem quatro",
+      "legenda": "Média móvel centrada de ordem quatro",
+      "alt": "Primeiro bloco soma 430 dividido por quatro, segundo bloco soma 451 dividido por quatro; média das duas médias resulta 110,125.",
+      "oQueObservar": "Para uma janela par, centralizar exige duas médias adjacentes.",
+      "conclusaoTextual": "O valor centrado do terceiro trimestre é 110,125, diferente da tendência artificial conhecida 110; usar essa média como previsão emitida no trimestre 3 vazaria o período 5.",
+      "autoria": "original",
+      "licenca": "uso_no_projeto"
+    },
+    {
+      "id": "MAT-EST-043-VIS-06",
+      "arquivo": "assets/06-corte-temporal.svg",
+      "titulo": "Treino cronológico e teste futuro separado",
+      "legenda": "Treino cronológico e teste futuro separado",
+      "alt": "Linha de doze caixas numeradas, as oito primeiras como treino, últimas quatro como teste.",
+      "oQueObservar": "Uma previsão deve ter data de emissão e conjunto de informações permitido.",
+      "conclusaoTextual": "O incremento histórico 20,5 é estimado apenas dos oito valores iniciais; não use os dados 9 a 12 para aperfeiçoá-lo antes da comparação.",
+      "autoria": "original",
+      "licenca": "uso_no_projeto"
+    },
+    {
+      "id": "MAT-EST-043-VIS-07",
+      "arquivo": "assets/07-comparacao-mae.svg",
+      "titulo": "Comparação de referências no mesmo teste futuro",
+      "legenda": "Comparação de referências no mesmo teste futuro",
+      "alt": "Gráfico de barras horizontais: último valor vinte vírgula vinte e cinco, sazonal ingênuo dezenove vírgula vinte e cinco, deslocamento histórico um vírgula setenta e cinco.",
+      "oQueObservar": "O resultado só vale para estes quatro dados fictícios; a barra menor não é garantia de superioridade geral.",
+      "conclusaoTextual": "O método com deslocamento de 20,5, fixado no treino, reproduz quase toda a tendência artificial. Para estudos reais são necessários mais ciclos e avaliação prospectiva.",
+      "autoria": "original",
+      "licenca": "uso_no_projeto"
+    }
+  ],
+  "fontes": [
+    {
+      "instituicao": "Hyndman e Athanasopoulos",
+      "titulo": "Forecasting Principles and Practice 3e - Time series decomposition",
+      "url": "https://otexts.com/fpp3/decomposition.html",
+      "uso": "natureza dos componentes"
+    },
+    {
+      "instituicao": "Hyndman e Athanasopoulos",
+      "titulo": "Time series components",
+      "url": "https://otexts.com/fpp3/components.html",
+      "uso": "additive versus multiplicative"
+    },
+    {
+      "instituicao": "Hyndman e Athanasopoulos",
+      "titulo": "STL decomposition",
+      "url": "https://otexts.com/fpp3/stl.html",
+      "uso": "limites de decomposição estimada"
+    },
+    {
+      "instituicao": "Hyndman e Athanasopoulos",
+      "titulo": "Some simple forecasting methods",
+      "url": "https://otexts.com/fpp3/simple-methods.html",
+      "uso": "previsão sazonal ingênua"
+    },
+    {
+      "instituicao": "Pennsylvania State University",
+      "titulo": "STAT 510 Lesson 4 Seasonal Models",
+      "url": "https://online.stat.psu.edu/stat510/Lesson04",
+      "uso": "diferença sazonal"
+    },
+    {
+      "instituicao": "NPTEL IIT Bombay",
+      "titulo": "Week 02: Lecture 06: Time Series Decomposition",
+      "url": "https://www.youtube.com/watch?v=JbJjislNHFY",
+      "uso": "vídeo complementar"
+    }
+  ],
+  "video": {
+    "titulo": "Week 02: Lecture 06: Time Series Decomposition",
+    "canal": "NPTEL IIT Bombay",
+    "url": "https://www.youtube.com/watch?v=JbJjislNHFY",
+    "publicadoEm": "2025-01-24",
+    "duracaoAproximada": "não confirmada",
+    "idioma": "inglês",
+    "motivo": "aborda decomposição e interpretação de tendência, sazonalidade e restante",
+    "momentoRecomendado": "após seções 4–6",
+    "verificacao": "publicação indexada com título, canal e data em 28/09/2026; reprodução integral e Microsoft Edge não testados"
+  },
+  "quantidadeQuestoesAutorais": 36,
+  "questoesOficiaisReproduzidas": 0,
+  "camadas": {
+    "aprendizagem": 10,
+    "consolidacao": 10,
+    "transferencia": 10,
+    "reteste": 6
+  },
+  "statusEditorial": "produzido_localmente_nao_publicado",
+  "statusAprendizagemInicial": "nao_iniciado",
+  "progressosAnterioresAlterados": false,
+  "proximoTopico": {
+    "id": "MAT-EST-044",
+    "titulo": "Suavização exponencial e previsões sazonais iniciais: parâmetros, atualização e avaliação temporal"
+  }
+}

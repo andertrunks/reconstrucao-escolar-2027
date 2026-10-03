@@ -1,0 +1,614 @@
+{
+  "id": "MAT-EST-011",
+  "version": "publicacao-2026-10-03-v1",
+  "objective": "1. Objetivo\n\n\nAo concluir esta aula, o estudante deverá ser capaz de explicar o que mede a amplitude interquartil, calcular AIQ a partir de Q1 e Q3, construir e interpretar box-plots com convenção declarada, distinguir caixa, mediana, bigodes, limites e pontos sinalizados, comparar distribuições sem depender apenas da média e reconhecer limitações do gráfico.\n\n\nTambém deverá compreender que um ponto sinalizado pela regra de 1,5 vezes a amplitude interquartil não é automaticamente um erro, uma fraude ou um dado a ser removido.\n\n\n",
+  "prerequisites": [
+    "MAT-EST-001",
+    "MAT-EST-002",
+    "MAT-EST-003",
+    "MAT-EST-004",
+    "MAT-EST-005",
+    "MAT-EST-006",
+    "MAT-EST-007",
+    "MAT-EST-008",
+    "MAT-EST-009",
+    "MAT-EST-010"
+  ],
+  "why": "MAT-EST-011 — Amplitude interquartil e box-plot: caixa, bigodes e valores discrepantes\n\n\nStatus editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.\nTítulo histórico preservado conforme o inventário INC07.\nMatéria: Matemática.\nUnidade: Estatística.\nNível principal: 3 — Ensino Médio, com aprofundamento para ENEM, FUVEST, UNICAMP, UNESP e ponte universitária.\nPré-requisitos: MAT-EST-001 a MAT-EST-010, com ênfase em organização de dados, mediana, amplitude, variância, desvio-padrão, quartis e percentis.\nQuestões desta reconstrução: 100% autorais.\nPróximo tópico: MAT-EST-012 — Assimetria e forma das distribuições: comparação integrada de histogramas e box-plots.\n\n\n",
+  "intuitive": [],
+  "deep": [],
+  "vocabulary": [],
+  "examples": [],
+  "visuals": [
+    {
+      "url": "media/MAT-EST-011/MAT-EST-011-VIS-01-dados-ordenados.png",
+      "caption": "Dados ordenados.",
+      "alt": "oito valores aparecem em ordem crescente, com um valor final muito maior que os demais.",
+      "observe": "a construção dos quartis começa pela ordenação.",
+      "conclusion": "um extremo pode ficar longe do núcleo sem alterar todas as medidas centrais."
+    },
+    {
+      "url": "media/MAT-EST-011/MAT-EST-011-VIS-02-amplitude-interquartil.png",
+      "caption": "Amplitude interquartil.",
+      "alt": "uma faixa horizontal vai de Q1 igual a 3,5 até Q3 igual a 7,5, com mediana 5,5.",
+      "observe": "a AIQ é a largura entre Q1 e Q3.",
+      "conclusion": "os 50% centrais ocupam quatro unidades."
+    },
+    {
+      "url": "media/MAT-EST-011/MAT-EST-011-VIS-03-anatomia-boxplot.png",
+      "caption": "Anatomia do box-plot.",
+      "alt": "caixa horizontal de Q1 a Q3, linha de mediana, bigodes e um ponto separado em 20.",
+      "observe": "no box-plot modificado, o ponto 20 fica além do bigode.",
+      "conclusion": "caixa, bigodes e pontos separados representam funções diferentes."
+    },
+    {
+      "url": "media/MAT-EST-011/MAT-EST-011-VIS-04-limites-discrepantes.png",
+      "caption": "Limites da regra de 1,5 AIQ.",
+      "alt": "os dados são mostrados numa reta com linhas verticais nos limites inferior e superior; 20 aparece além do limite superior.",
+      "observe": "o limite é um valor calculado; o bigode termina em dado observado.",
+      "conclusion": "ultrapassar o limite sinaliza o ponto, não prova erro."
+    },
+    {
+      "url": "media/MAT-EST-011/MAT-EST-011-VIS-05-comparacao-boxplots.png",
+      "caption": "Comparação de dois box-plots.",
+      "alt": "dois grupos apresentam centros parecidos, mas o segundo ocupa faixa mais larga.",
+      "observe": "compare mediana e AIQ separadamente.",
+      "conclusion": "centro semelhante não implica dispersão semelhante."
+    },
+    {
+      "url": "media/MAT-EST-011/MAT-EST-011-VIS-06-roteiro-interpretacao.png",
+      "caption": "Roteiro de interpretação.",
+      "alt": "seis etapas conectam ordenação, quartis, AIQ, limites, comparação e interpretação.",
+      "observe": "a conclusão vem depois de verificar a convenção.",
+      "conclusion": "interpretar um box-plot exige método e contexto, não apenas reconhecer a figura."
+    }
+  ],
+  "applications": [],
+  "connections": [],
+  "commonErrors": [],
+  "learning": [
+    "MAT-EST-011-EX-APR-01",
+    "MAT-EST-011-EX-APR-02",
+    "MAT-EST-011-EX-APR-03",
+    "MAT-EST-011-EX-APR-04",
+    "MAT-EST-011-EX-APR-05",
+    "MAT-EST-011-EX-APR-06",
+    "MAT-EST-011-EX-APR-07",
+    "MAT-EST-011-EX-APR-08",
+    "MAT-EST-011-EX-APR-09",
+    "MAT-EST-011-EX-APR-10"
+  ],
+  "consolidation": [
+    "MAT-EST-011-EX-CON-01",
+    "MAT-EST-011-EX-CON-02",
+    "MAT-EST-011-EX-CON-03",
+    "MAT-EST-011-EX-CON-04",
+    "MAT-EST-011-EX-CON-05",
+    "MAT-EST-011-EX-CON-06",
+    "MAT-EST-011-EX-CON-07",
+    "MAT-EST-011-EX-CON-08",
+    "MAT-EST-011-EX-CON-09",
+    "MAT-EST-011-EX-CON-10"
+  ],
+  "entrance": [
+    "MAT-EST-011-EX-VES-01",
+    "MAT-EST-011-EX-VES-02",
+    "MAT-EST-011-EX-VES-03",
+    "MAT-EST-011-EX-VES-04",
+    "MAT-EST-011-EX-VES-05",
+    "MAT-EST-011-EX-VES-06",
+    "MAT-EST-011-EX-VES-07",
+    "MAT-EST-011-EX-VES-08",
+    "MAT-EST-011-EX-VES-09",
+    "MAT-EST-011-EX-VES-10"
+  ],
+  "retest": [
+    "MAT-EST-011-EX-RET-01",
+    "MAT-EST-011-EX-RET-02",
+    "MAT-EST-011-EX-RET-03",
+    "MAT-EST-011-EX-RET-04",
+    "MAT-EST-011-EX-RET-05",
+    "MAT-EST-011-EX-RET-06"
+  ],
+  "solutions": [],
+  "summary": "9. Resumo de cinco números\n\n\nUma representação clássica da distribuição usa cinco valores:\n\n\nmínimo;\nQ1;\nmediana;\nQ3;\nmáximo.\n\n\nEsse conjunto é chamado resumo de cinco números.\n\n\nEle ajuda a descrever posição e dispersão sem listar todos os dados.\n\n\n",
+  "audioVersion": "48. Versão curta para ouvir\n\n\nAmplitude interquartil é a diferença entre o terceiro e o primeiro quartil. Ela mede a largura da metade central dos dados.\n\n\nNo box-plot, a caixa vai de Q1 a Q3 e uma linha marca a mediana. Em um box-plot modificado, os bigodes vão até observações que permanecem dentro de limites calculados a partir de uma vez e meia a amplitude interquartil.\n\n\nUm ponto além desses limites é sinalizado para investigação. Ele não é automaticamente um erro e não deve ser removido sem justificativa.\n\n\nAo comparar box-plots, observe mediana, largura da caixa, bigodes, pontos sinalizados, escala e convenção usada.\n\n\n",
+  "sections": [
+    {
+      "id": "MAT-EST-011-s000",
+      "title": "Apresentação e contexto da fonte",
+      "paragraphs": [],
+      "markdown": "MAT-EST-011 — Amplitude interquartil e box-plot: caixa, bigodes e valores discrepantes\n\n\nStatus editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.\nTítulo histórico preservado conforme o inventário INC07.\nMatéria: Matemática.\nUnidade: Estatística.\nNível principal: 3 — Ensino Médio, com aprofundamento para ENEM, FUVEST, UNICAMP, UNESP e ponte universitária.\nPré-requisitos: MAT-EST-001 a MAT-EST-010, com ênfase em organização de dados, mediana, amplitude, variância, desvio-padrão, quartis e percentis.\nQuestões desta reconstrução: 100% autorais.\nPróximo tópico: MAT-EST-012 — Assimetria e forma das distribuições: comparação integrada de histogramas e box-plots.\n\n\n",
+      "sourceStart": 0,
+      "sourceEnd": 710
+    },
+    {
+      "id": "MAT-EST-011-s001",
+      "title": "1. Objetivo",
+      "paragraphs": [],
+      "markdown": "1. Objetivo\n\n\nAo concluir esta aula, o estudante deverá ser capaz de explicar o que mede a amplitude interquartil, calcular AIQ a partir de Q1 e Q3, construir e interpretar box-plots com convenção declarada, distinguir caixa, mediana, bigodes, limites e pontos sinalizados, comparar distribuições sem depender apenas da média e reconhecer limitações do gráfico.\n\n\nTambém deverá compreender que um ponto sinalizado pela regra de 1,5 vezes a amplitude interquartil não é automaticamente um erro, uma fraude ou um dado a ser removido.\n\n\n",
+      "sourceStart": 710,
+      "sourceEnd": 1244
+    },
+    {
+      "id": "MAT-EST-011-s002",
+      "title": "2. O que você precisa saber antes",
+      "paragraphs": [],
+      "markdown": "2. O que você precisa saber antes\n\n\nA aula usa os conceitos de dados ordenados, mediana, primeiro quartil Q1 e terceiro quartil Q3.\n\n\nSe Q1 e Q3 ainda não estiverem claros, retome MAT-EST-010 antes de avançar. A ordem conceitual importa mais do que o número da aula.\n\n\nTambém serão úteis amplitude total, proporção, reta numérica e leitura de gráficos.\n\n\n",
+      "sourceStart": 1244,
+      "sourceEnd": 1599
+    },
+    {
+      "id": "MAT-EST-011-s003",
+      "title": "3. Por que a amplitude interquartil existe?",
+      "paragraphs": [],
+      "markdown": "3. Por que a amplitude interquartil existe?\n\n\nA amplitude total usa somente o menor e o maior valor. Por isso, pode mudar muito quando aparece um valor extremo.\n\n\nA amplitude interquartil concentra-se na metade central da distribuição. Ela mede a distância entre o terceiro quartil e o primeiro quartil.\n\n\nAssim, oferece uma medida de dispersão menos sensível aos extremos do que a amplitude total.\n\n\n",
+      "sourceStart": 1599,
+      "sourceEnd": 2000
+    },
+    {
+      "id": "MAT-EST-011-s004",
+      "title": "4. A ideia dos 50% centrais",
+      "paragraphs": [],
+      "markdown": "4. A ideia dos 50% centrais\n\n\nQ1 está associado ao corte de 25% da distribuição ordenada e Q3 ao corte de 75%.\n\n\nEntre Q1 e Q3 fica a região central de aproximadamente 50% dos dados, respeitada a convenção de quartis usada.\n\n\nA amplitude interquartil mede a largura dessa região.\n\n\n",
+      "sourceStart": 2000,
+      "sourceEnd": 2282
+    },
+    {
+      "id": "MAT-EST-011-s005",
+      "title": "5. Definição formal",
+      "paragraphs": [],
+      "markdown": "5. Definição formal\n\n\nAIQ = Q3 - Q1.\n\n\nLeitura por extenso: “amplitude interquartil é igual ao terceiro quartil menos o primeiro quartil”.\n\n\nAIQ é a sigla usada nesta aula para amplitude interquartil. Também é comum encontrar IQR, do inglês interquartile range.\n\n\n",
+      "sourceStart": 2282,
+      "sourceEnd": 2546
+    },
+    {
+      "id": "MAT-EST-011-s006",
+      "title": "6. Unidade da AIQ",
+      "paragraphs": [],
+      "markdown": "6. Unidade da AIQ\n\n\nA amplitude interquartil tem a mesma unidade da variável original.\n\n\nSe os dados são medidos em minutos, a AIQ é medida em minutos.\n\n\nSe os dados são medidos em reais, a AIQ é medida em reais.\n\n\nDiferentemente da variância, não há elevação da unidade ao quadrado.\n\n\n",
+      "sourceStart": 2546,
+      "sourceEnd": 2832
+    },
+    {
+      "id": "MAT-EST-011-s007",
+      "title": "7. Exemplo direto",
+      "paragraphs": [],
+      "markdown": "7. Exemplo direto\n\n\nSuponha Q1 = 12 e Q3 = 20.\n\n\nAIQ = 20 - 12 = 8.\n\n\nA leitura é: “os cinquenta por cento centrais ocupam uma faixa de oito unidades entre o primeiro e o terceiro quartil”.\n\n\nIsso não significa que cada observação central esteja a oito unidades das demais. A AIQ resume a largura do intervalo central.\n\n\n",
+      "sourceStart": 2832,
+      "sourceEnd": 3153
+    },
+    {
+      "id": "MAT-EST-011-s008",
+      "title": "8. Retomada de uma convenção explícita",
+      "paragraphs": [],
+      "markdown": "8. Retomada de uma convenção explícita\n\n\nNesta reconstrução, quando for necessário calcular quartis a partir de dados brutos, o enunciado informará a convenção.\n\n\nEm vários exemplos simples, usaremos a mediana das metades, excluindo a mediana central quando houver número ímpar de observações, salvo indicação diferente.\n\n\nNão existe uma única convenção universal de quantil para toda amostra finita. Essa cautela foi construída em MAT-EST-010.\n\n\n",
+      "sourceStart": 3153,
+      "sourceEnd": 3600
+    },
+    {
+      "id": "MAT-EST-011-s009",
+      "title": "9. Resumo de cinco números",
+      "paragraphs": [],
+      "markdown": "9. Resumo de cinco números\n\n\nUma representação clássica da distribuição usa cinco valores:\n\n\nmínimo;\nQ1;\nmediana;\nQ3;\nmáximo.\n\n\nEsse conjunto é chamado resumo de cinco números.\n\n\nEle ajuda a descrever posição e dispersão sem listar todos os dados.\n\n\n",
+      "sourceStart": 3600,
+      "sourceEnd": 3850
+    },
+    {
+      "id": "MAT-EST-011-s010",
+      "title": "10. O box-plot",
+      "paragraphs": [],
+      "markdown": "10. O box-plot\n\n\nBox-plot, ou gráfico de caixa, é uma representação compacta baseada em quartis.\n\n\nA caixa se estende de Q1 a Q3.\n\n\nUma linha dentro da caixa marca a mediana.\n\n\nOs bigodes estendem a informação para regiões externas à caixa, mas a definição exata dos bigodes depende da convenção adotada.\n\n\n",
+      "sourceStart": 3850,
+      "sourceEnd": 4157
+    },
+    {
+      "id": "MAT-EST-011-s011",
+      "title": "11. Duas convenções de bigodes que não devem ser confundidas",
+      "paragraphs": [],
+      "markdown": "11. Duas convenções de bigodes que não devem ser confundidas\n\n\nEm um box-plot simples, algumas apresentações escolares usam bigodes até o mínimo e o máximo.\n\n\nNo box-plot modificado de Tukey, os bigodes normalmente vão até as observações mais extremas que permanecem dentro de limites calculados a partir da AIQ. Pontos além desses limites são desenhados separadamente.\n\n\nAntes de interpretar um gráfico, descubra qual convenção foi usada.\n\n\n",
+      "sourceStart": 4157,
+      "sourceEnd": 4599
+    },
+    {
+      "id": "MAT-EST-011-s012",
+      "title": "12. Regra de 1,5 vezes a AIQ",
+      "paragraphs": [],
+      "markdown": "12. Regra de 1,5 vezes a AIQ\n\n\nUma convenção muito difundida usa dois limites, também chamados cercas.\n\n\nLimite inferior = Q1 - 1,5 × AIQ.\n\n\nLimite superior = Q3 + 1,5 × AIQ.\n\n\nLeitura por extenso: “limite inferior é igual ao primeiro quartil menos uma vez e meia a amplitude interquartil; limite superior é igual ao terceiro quartil mais uma vez e meia a amplitude interquartil”.\n\n\n",
+      "sourceStart": 4599,
+      "sourceEnd": 4982
+    },
+    {
+      "id": "MAT-EST-011-s013",
+      "title": "13. O que os limites fazem",
+      "paragraphs": [],
+      "markdown": "13. O que os limites fazem\n\n\nOs limites não precisam coincidir com dados observados.\n\n\nEles servem para identificar valores que ficam suficientemente afastados da caixa segundo essa regra.\n\n\nUma observação abaixo do limite inferior ou acima do limite superior é sinalizada como potencialmente discrepante.\n\n\n",
+      "sourceStart": 4982,
+      "sourceEnd": 5290
+    },
+    {
+      "id": "MAT-EST-011-s014",
+      "title": "14. Exemplo completo com dados brutos",
+      "paragraphs": [],
+      "markdown": "14. Exemplo completo com dados brutos\n\n\nConsidere os dados ordenados:\n\n\n2, 3, 4, 5, 6, 7, 8, 20.\n\n\nUsando a mediana das metades:\n\n\nmetade inferior: 2, 3, 4, 5;\nQ1 = (3 + 4) / 2 = 3,5.\n\n\nmetade superior: 6, 7, 8, 20;\nQ3 = (7 + 8) / 2 = 7,5.\n\n\nAIQ = 7,5 - 3,5 = 4.\n\n\n",
+      "sourceStart": 5290,
+      "sourceEnd": 5555
+    },
+    {
+      "id": "MAT-EST-011-s015",
+      "title": "15. Limites do exemplo",
+      "paragraphs": [],
+      "markdown": "15. Limites do exemplo\n\n\nLimite inferior = 3,5 - 1,5 × 4 = -2,5.\n\n\nLimite superior = 7,5 + 1,5 × 4 = 13,5.\n\n\nO valor 20 está acima de 13,5. Portanto, é sinalizado pela regra de 1,5 vezes a AIQ.\n\n\n",
+      "sourceStart": 5555,
+      "sourceEnd": 5751
+    },
+    {
+      "id": "MAT-EST-011-s016",
+      "title": "16. Sinalizado não significa errado",
+      "paragraphs": [],
+      "markdown": "16. Sinalizado não significa errado\n\n\nO valor 20 pode ser:\n\n\numa observação legítima de uma cauda da distribuição;\num caso raro, mas real;\num valor proveniente de outra população;\num erro de digitação;\num erro de medição;\nou outra situação que exige investigação.\n\n\nO box-plot sozinho não decide qual dessas explicações é verdadeira.\n\n\n",
+      "sourceStart": 5751,
+      "sourceEnd": 6087
+    },
+    {
+      "id": "MAT-EST-011-s017",
+      "title": "17. Nunca remover um dado apenas porque ele foi sinalizado",
+      "paragraphs": [],
+      "markdown": "17. Nunca remover um dado apenas porque ele foi sinalizado\n\n\nA exclusão de uma observação exige justificativa ligada ao objetivo do estudo, ao processo de coleta e à qualidade do dado.\n\n\nRemover automaticamente pontos sinalizados pode distorcer a análise.\n\n\nEm vestibular, uma questão pode pedir apenas para identificar o ponto discrepante segundo a regra fornecida. Em análise real, a investigação não termina aí.\n\n\n",
+      "sourceStart": 6087,
+      "sourceEnd": 6504
+    },
+    {
+      "id": "MAT-EST-011-s018",
+      "title": "18. Onde terminam os bigodes no box-plot modificado?",
+      "paragraphs": [],
+      "markdown": "18. Onde terminam os bigodes no box-plot modificado?\n\n\nNo exemplo anterior, o limite superior é 13,5.\n\n\nO maior dado observado que não ultrapassa 13,5 é 8.\n\n\nPor isso, no box-plot modificado, o bigode superior termina em 8, e o 20 aparece separado.\n\n\nO bigode não termina necessariamente no próprio limite 13,5.\n\n\n",
+      "sourceStart": 6504,
+      "sourceEnd": 6818
+    },
+    {
+      "id": "MAT-EST-011-s019",
+      "title": "19. Construção passo a passo",
+      "paragraphs": [],
+      "markdown": "19. Construção passo a passo\n\n\nUm roteiro seguro é:\n\n\n1. ordenar os dados;\n2. fixar a convenção de quartis;\n3. calcular Q1, mediana e Q3;\n4. calcular AIQ;\n5. se for box-plot modificado, calcular os limites;\n6. localizar os últimos dados observados dentro dos limites;\n7. desenhar caixa, mediana e bigodes;\n8. marcar separadamente os pontos além dos limites;\n9. interpretar centro, dispersão e possíveis assimetrias com cautela.\n\n\n",
+      "sourceStart": 6818,
+      "sourceEnd": 7248
+    },
+    {
+      "id": "MAT-EST-011-s020",
+      "title": "20. Como ler a caixa",
+      "paragraphs": [],
+      "markdown": "20. Como ler a caixa\n\n\nO comprimento da caixa é a AIQ.\n\n\nUma caixa mais longa indica maior dispersão dos 50% centrais, na mesma escala e para variáveis comparáveis.\n\n\nUma caixa curta indica maior concentração central.\n\n\nNão conclua nada sobre a amplitude total olhando somente a caixa.\n\n\n",
+      "sourceStart": 7248,
+      "sourceEnd": 7536
+    },
+    {
+      "id": "MAT-EST-011-s021",
+      "title": "21. Como ler a mediana",
+      "paragraphs": [],
+      "markdown": "21. Como ler a mediana\n\n\nA mediana marca o centro por posição.\n\n\nSe a mediana está próxima do meio da caixa, isso é compatível com maior equilíbrio entre as duas metades centrais.\n\n\nSe está muito próxima de Q1 ou Q3, pode sugerir assimetria local.\n\n\n“Sugerir” não é “provar”. A forma completa da distribuição pode conter detalhes que o box-plot esconde.\n\n\n",
+      "sourceStart": 7536,
+      "sourceEnd": 7892
+    },
+    {
+      "id": "MAT-EST-011-s022",
+      "title": "22. Como ler os bigodes",
+      "paragraphs": [],
+      "markdown": "22. Como ler os bigodes\n\n\nBigodes de comprimentos muito diferentes podem sugerir diferenças entre as caudas ou assimetria.\n\n\nMas a interpretação depende da convenção dos bigodes e da amostra observada.\n\n\nBigodes também não mostram todos os intervalos vazios ou agrupamentos internos.\n\n\n",
+      "sourceStart": 7892,
+      "sourceEnd": 8178
+    },
+    {
+      "id": "MAT-EST-011-s023",
+      "title": "23. Comparando dois box-plots",
+      "paragraphs": [],
+      "markdown": "23. Comparando dois box-plots\n\n\nUma comparação deve considerar pelo menos:\n\n\nposição da mediana;\nAIQ;\nextensão dos bigodes;\npresença de pontos sinalizados;\nunidade e escala;\ndefinição dos bigodes;\ne contexto dos grupos.\n\n\nEvite declarar um grupo “mais variável” sem dizer qual medida de dispersão está sendo comparada.\n\n\n",
+      "sourceStart": 8178,
+      "sourceEnd": 8499
+    },
+    {
+      "id": "MAT-EST-011-s024",
+      "title": "24. Mesmo centro, dispersões diferentes",
+      "paragraphs": [],
+      "markdown": "24. Mesmo centro, dispersões diferentes\n\n\nDois grupos podem ter a mesma mediana e AIQs diferentes.\n\n\nNesse caso, os centros por posição são iguais, mas os 50% centrais ocupam larguras diferentes.\n\n\nIsso é uma informação que a média isolada não forneceria.\n\n\n",
+      "sourceStart": 8499,
+      "sourceEnd": 8757
+    },
+    {
+      "id": "MAT-EST-011-s025",
+      "title": "25. Mesma AIQ, centros diferentes",
+      "paragraphs": [],
+      "markdown": "25. Mesma AIQ, centros diferentes\n\n\nDois grupos podem ter a mesma AIQ e medianas diferentes.\n\n\nNesse caso, a dispersão central resumida pela AIQ é igual, mas a posição central muda.\n\n\nCentro e dispersão são dimensões distintas.\n\n\n",
+      "sourceStart": 8757,
+      "sourceEnd": 8987
+    },
+    {
+      "id": "MAT-EST-011-s026",
+      "title": "26. Box-plot não mostra tamanho da amostra por padrão",
+      "paragraphs": [],
+      "markdown": "26. Box-plot não mostra tamanho da amostra por padrão\n\n\nDois box-plots com aparência parecida podem ter sido construídos com 12 e 12 mil observações.\n\n\nA versão convencional não informa o tamanho amostral diretamente.\n\n\nAlgumas variações ajustam a largura da caixa ao tamanho da amostra, mas isso precisa ser indicado.\n\n\n",
+      "sourceStart": 8987,
+      "sourceEnd": 9308
+    },
+    {
+      "id": "MAT-EST-011-s027",
+      "title": "27. Box-plot pode esconder multimodalidade",
+      "paragraphs": [],
+      "markdown": "27. Box-plot pode esconder multimodalidade\n\n\nDuas distribuições muito diferentes podem ter o mesmo resumo de cinco números.\n\n\nUma distribuição pode ter dois picos e outra apenas um, mas seus box-plots serem parecidos.\n\n\nPor isso, quando a forma detalhada importa, histograma, gráfico de densidade, pontos individuais ou outros recursos podem complementar o box-plot.\n\n\n",
+      "sourceStart": 9308,
+      "sourceEnd": 9677
+    },
+    {
+      "id": "MAT-EST-011-s028",
+      "title": "28. Box-plot e histograma são complementares",
+      "paragraphs": [],
+      "markdown": "28. Box-plot e histograma são complementares\n\n\nO histograma enfatiza forma, frequências por intervalos e possíveis picos.\n\n\nO box-plot enfatiza quartis, mediana, dispersão central e pontos sinalizados.\n\n\nNenhum deles é universalmente “melhor”. A escolha depende da pergunta.\n\n\n",
+      "sourceStart": 9677,
+      "sourceEnd": 9954
+    },
+    {
+      "id": "MAT-EST-011-s029",
+      "title": "29. Dados repetidos",
+      "paragraphs": [],
+      "markdown": "29. Dados repetidos\n\n\nEmpates podem fazer Q1, mediana e Q3 coincidirem parcialmente.\n\n\nÉ possível que a AIQ seja zero.\n\n\nIsso não significa que todos os dados sejam iguais. Significa que, segundo a convenção adotada, a metade central está concentrada no mesmo valor ou numa faixa nula.\n\n\n",
+      "sourceStart": 9954,
+      "sourceEnd": 10242
+    },
+    {
+      "id": "MAT-EST-011-s030",
+      "title": "30. Caso AIQ igual a zero",
+      "paragraphs": [],
+      "markdown": "30. Caso AIQ igual a zero\n\n\nSe AIQ = 0, então os dois limites da regra de 1,5 vezes a AIQ coincidem com Q1 e Q3.\n\n\nNesse caso, qualquer valor diferente desse núcleo pode ser sinalizado.\n\n\nA regra torna-se muito agressiva em distribuições altamente discretas ou com muitos empates. A interpretação precisa de contexto.\n\n\n",
+      "sourceStart": 10242,
+      "sourceEnd": 10562
+    },
+    {
+      "id": "MAT-EST-011-s031",
+      "title": "31. Variáveis discretas",
+      "paragraphs": [],
+      "markdown": "31. Variáveis discretas\n\n\nBox-plots podem ser usados com muitas variáveis quantitativas discretas, mas a presença de poucos valores possíveis pode produzir caixas comprimidas e muitos empates.\n\n\nUm gráfico de pontos ou barras de frequências pode revelar melhor a estrutura.\n\n\nA escolha da representação deve ser justificada pela informação que se deseja enxergar.\n\n\n",
+      "sourceStart": 10562,
+      "sourceEnd": 10928
+    },
+    {
+      "id": "MAT-EST-011-s032",
+      "title": "32. Somar uma constante",
+      "paragraphs": [],
+      "markdown": "32. Somar uma constante\n\n\nSe adicionamos uma constante c a todos os dados:\n\n\nnovo Q1 = Q1 + c;\nnovo Q3 = Q3 + c.\n\n\nLogo:\n\n\nnova AIQ = (Q3 + c) - (Q1 + c) = Q3 - Q1.\n\n\nA soma de uma constante não altera a AIQ.\n\n\n",
+      "sourceStart": 10928,
+      "sourceEnd": 11139
+    },
+    {
+      "id": "MAT-EST-011-s033",
+      "title": "33. Multiplicar por uma constante positiva",
+      "paragraphs": [],
+      "markdown": "33. Multiplicar por uma constante positiva\n\n\nSe todos os dados são multiplicados por a, com a positivo:\n\n\nnovo Q1 = aQ1;\nnovo Q3 = aQ3.\n\n\nLogo:\n\n\nnova AIQ = a(Q3 - Q1) = a × AIQ.\n\n\nA leitura é: “a amplitude interquartil é multiplicada pelo mesmo fator positivo”.\n\n\n",
+      "sourceStart": 11139,
+      "sourceEnd": 11404
+    },
+    {
+      "id": "MAT-EST-011-s034",
+      "title": "34. Multiplicar por uma constante negativa",
+      "paragraphs": [],
+      "markdown": "34. Multiplicar por uma constante negativa\n\n\nUma multiplicação por número negativo inverte a ordem dos dados.\n\n\nDepois da reordenação, a amplitude interquartil é multiplicada pelo valor absoluto do fator.\n\n\nEm forma compacta:\n\n\nAIQ nova = |a| × AIQ antiga.\n\n\nLeitura: “a nova amplitude interquartil é o módulo de a vezes a amplitude interquartil antiga”.\n\n\n",
+      "sourceStart": 11404,
+      "sourceEnd": 11761
+    },
+    {
+      "id": "MAT-EST-011-s035",
+      "title": "35. Mudança de unidade",
+      "paragraphs": [],
+      "markdown": "35. Mudança de unidade\n\n\nSe uma medida em metros é convertida para centímetros, os valores são multiplicados por 100.\n\n\nA AIQ também é multiplicada por 100.\n\n\nEssa propriedade permite verificar coerência de unidade.\n\n\n",
+      "sourceStart": 11761,
+      "sourceEnd": 11979
+    },
+    {
+      "id": "MAT-EST-011-s036",
+      "title": "36. Robustez e comparação com a amplitude total",
+      "paragraphs": [],
+      "markdown": "36. Robustez e comparação com a amplitude total\n\n\nA AIQ ignora diretamente a distância entre os extremos e os quartis.\n\n\nPor isso, um único valor muito afastado pode aumentar muito a amplitude total sem alterar a AIQ.\n\n\nA palavra robusta, neste contexto, significa menos sensível a certos valores extremos, não “imune a qualquer problema”.\n\n\n",
+      "sourceStart": 11979,
+      "sourceEnd": 12321
+    },
+    {
+      "id": "MAT-EST-011-s037",
+      "title": "37. Aplicação: notas de duas turmas",
+      "paragraphs": [],
+      "markdown": "37. Aplicação: notas de duas turmas\n\n\nAo comparar notas, a mediana informa uma posição central e a AIQ informa a largura dos 50% centrais.\n\n\nUma turma pode ter mediana maior e também maior AIQ.\n\n\nNão existe uma única conclusão “melhor” sem dizer se a pergunta é sobre desempenho típico, consistência, extremos ou outro critério.\n\n\n",
+      "sourceStart": 12321,
+      "sourceEnd": 12652
+    },
+    {
+      "id": "MAT-EST-011-s038",
+      "title": "38. Aplicação: tempo de atendimento",
+      "paragraphs": [],
+      "markdown": "38. Aplicação: tempo de atendimento\n\n\nEm tempos de atendimento, uma cauda longa de valores altos pode indicar ocorrências demoradas.\n\n\nO box-plot ajuda a localizar casos sinalizados e a comparar turnos.\n\n\nMas ele não informa sozinho a causa dos atrasos nem demonstra que um turno é operacionalmente pior.\n\n\n",
+      "sourceStart": 12652,
+      "sourceEnd": 12959
+    },
+    {
+      "id": "MAT-EST-011-s039",
+      "title": "39. Aplicação: controle de processo",
+      "paragraphs": [],
+      "markdown": "39. Aplicação: controle de processo\n\n\nEm uma linha de produção, box-plots podem comparar lotes, turnos ou máquinas.\n\n\nMudança de mediana e mudança de AIQ são fenômenos diferentes.\n\n\nAntes de agir, é preciso verificar unidades, amostragem, condições de coleta e estabilidade do processo.\n\n\n",
+      "sourceStart": 12959,
+      "sourceEnd": 13248
+    },
+    {
+      "id": "MAT-EST-011-s040",
+      "title": "40. Ponte universitária: regra de Tukey é uma convenção descritiva",
+      "paragraphs": [],
+      "markdown": "40. Ponte universitária: regra de Tukey é uma convenção descritiva\n\n\nOs limites Q1 menos 1,5 AIQ e Q3 mais 1,5 AIQ são uma regra descritiva associada ao box-plot de Tukey.\n\n\nEles não são um intervalo de confiança.\n\n\nEles não correspondem automaticamente a “95% dos dados”.\n\n\nEles não dependem de assumir normalidade para serem calculados, embora a frequência de pontos sinalizados varie conforme a distribuição.\n\n\n",
+      "sourceStart": 13248,
+      "sourceEnd": 13662
+    },
+    {
+      "id": "MAT-EST-011-s041",
+      "title": "41. Relação com a BNCC",
+      "paragraphs": [],
+      "markdown": "41. Relação com a BNCC\n\n\nA Base Nacional Comum Curricular do Ensino Médio inclui habilidade de interpretar e comparar conjuntos de dados por diferentes diagramas e gráficos, incluindo o gráfico de caixa, ou box-plot.\n\n\nEsta aula desenvolve diretamente leitura, construção e comparação de box-plots, sempre explicitando limites da representação.\n\n\n",
+      "sourceStart": 13662,
+      "sourceEnd": 14009
+    },
+    {
+      "id": "MAT-EST-011-s042",
+      "title": "42. Relação com a FUVEST 2027",
+      "paragraphs": [],
+      "markdown": "42. Relação com a FUVEST 2027\n\n\nO Programa do Vestibular FUVEST 2027 inclui interpretação de registros de representação estatística e medidas de posição, como quartis, decis e percentis.\n\n\nA amplitude interquartil e o box-plot usam esses conceitos para comparar centro e dispersão.\n\n\nAs questões desta reconstrução são autorais; não são questões oficiais da FUVEST.\n\n\n",
+      "sourceStart": 14009,
+      "sourceEnd": 14377
+    },
+    {
+      "id": "MAT-EST-011-s043",
+      "title": "43. Relação com o Enem",
+      "paragraphs": [],
+      "markdown": "43. Relação com o Enem\n\n\nAs Matrizes de Referência do Enem publicadas pelo Inep em 2026 mantêm como eixos a resolução de situações-problema, o uso de linguagens e a interpretação de informações.\n\n\nNesta aula, o foco de preparação é ler dados, interpretar representações, comparar distribuições e justificar conclusões.\n\n\nNão se afirma que a regra de 1,5 vezes a AIQ seja um conteúdo isolado obrigatório do Enem apenas por aparecer aqui.\n\n\n",
+      "sourceStart": 14377,
+      "sourceEnd": 14816
+    },
+    {
+      "id": "MAT-EST-011-s044",
+      "title": "44. O que observar nos seis visuais",
+      "paragraphs": [],
+      "markdown": "44. O que observar nos seis visuais\n\n\nVisual 1 — Dados ordenados.\nTexto alternativo: oito valores aparecem em ordem crescente, com um valor final muito maior que os demais.\nObserve: a construção dos quartis começa pela ordenação.\nConclusão para áudio: um extremo pode ficar longe do núcleo sem alterar todas as medidas centrais.\n\n\nVisual 2 — Amplitude interquartil.\nTexto alternativo: uma faixa horizontal vai de Q1 igual a 3,5 até Q3 igual a 7,5, com mediana 5,5.\nObserve: a AIQ é a largura entre Q1 e Q3.\nConclusão para áudio: os 50% centrais ocupam quatro unidades.\n\n\nVisual 3 — Anatomia do box-plot.\nTexto alternativo: caixa horizontal de Q1 a Q3, linha de mediana, bigodes e um ponto separado em 20.\nObserve: no box-plot modificado, o ponto 20 fica além do bigode.\nConclusão para áudio: caixa, bigodes e pontos separados representam funções diferentes.\n\n\nVisual 4 — Limites da regra de 1,5 AIQ.\nTexto alternativo: os dados são mostrados numa reta com linhas verticais nos limites inferior e superior; 20 aparece além do limite superior.\nObserve: o limite é um valor calculado; o bigode termina em dado observado.\nConclusão para áudio: ultrapassar o limite sinaliza o ponto, não prova erro.\n\n\nVisual 5 — Comparação de dois box-plots.\nTexto alternativo: dois grupos apresentam centros parecidos, mas o segundo ocupa faixa mais larga.\nObserve: compare mediana e AIQ separadamente.\nConclusão para áudio: centro semelhante não implica dispersão semelhante.\n\n\nVisual 6 — Roteiro de interpretação.\nTexto alternativo: seis etapas conectam ordenação, quartis, AIQ, limites, comparação e interpretação.\nObserve: a conclusão vem depois de verificar a convenção.\nConclusão para áudio: interpretar um box-plot exige método e contexto, não apenas reconhecer a figura.\n\n\n",
+      "sourceStart": 14816,
+      "sourceEnd": 16577
+    },
+    {
+      "id": "MAT-EST-011-s045",
+      "title": "45. Erros frequentes",
+      "paragraphs": [],
+      "markdown": "45. Erros frequentes\n\n\nErro 1. Calcular AIQ como Q1 menos Q3 e obter valor negativo.\nErro 2. Confundir AIQ com amplitude total.\nErro 3. Achar que a caixa contém todos os dados.\nErro 4. Achar que os bigodes sempre são mínimo e máximo.\nErro 5. Desenhar o bigode exatamente no limite calculado, mesmo sem observação ali.\nErro 6. Tratar ponto sinalizado como erro comprovado.\nErro 7. Remover automaticamente todo ponto sinalizado.\nErro 8. Interpretar caixa mais longa como média maior.\nErro 9. Comparar box-plots com escalas ou unidades diferentes sem conversão.\nErro 10. Inferir tamanho da amostra pela largura convencional da caixa.\nErro 11. Concluir que não há multimodalidade porque o box-plot parece simétrico.\nErro 12. Esquecer de declarar a convenção de quartis.\nErro 13. Dizer que 1,5 AIQ é um intervalo de confiança.\nErro 14. Dizer que todo dado fora do limite é estatisticamente impossível.\n\n\n",
+      "sourceStart": 16577,
+      "sourceEnd": 17476
+    },
+    {
+      "id": "MAT-EST-011-s046",
+      "title": "46. Exercícios",
+      "paragraphs": [],
+      "markdown": "46. Exercícios\n\n\nOs 36 exercícios autorais estão armazenados em documento separado.\n\n\nDistribuição planejada:\n10 de aprendizagem;\n10 de consolidação;\n10 de transferência em estilo de vestibular e ponte universitária;\n6 de reteste independente.\n\n\nO gabarito comentado permanece separado para futura implementação de tentativa antes da revelação da resposta.\n\n\n",
+      "sourceStart": 17476,
+      "sourceEnd": 17835
+    },
+    {
+      "id": "MAT-EST-011-s047",
+      "title": "47. Resumo",
+      "paragraphs": [],
+      "markdown": "47. Resumo\n\n\nA amplitude interquartil é Q3 menos Q1.\n\n\nEla mede a largura dos 50% centrais da distribuição e tem a mesma unidade da variável.\n\n\nO box-plot usa Q1, mediana e Q3 para formar a caixa.\n\n\nBigodes dependem da convenção.\n\n\nNo box-plot modificado, a regra de 1,5 vezes a AIQ pode sinalizar observações afastadas.\n\n\nPonto sinalizado não é sinônimo de erro.\n\n\nAIQ é menos sensível a extremos do que a amplitude total.\n\n\nBox-plots são úteis para comparar centro e dispersão, mas escondem detalhes como multimodalidade e, na forma convencional, tamanho amostral.\n\n\n",
+      "sourceStart": 17835,
+      "sourceEnd": 18404
+    },
+    {
+      "id": "MAT-EST-011-s048",
+      "title": "48. Versão curta para ouvir",
+      "paragraphs": [],
+      "markdown": "48. Versão curta para ouvir\n\n\nAmplitude interquartil é a diferença entre o terceiro e o primeiro quartil. Ela mede a largura da metade central dos dados.\n\n\nNo box-plot, a caixa vai de Q1 a Q3 e uma linha marca a mediana. Em um box-plot modificado, os bigodes vão até observações que permanecem dentro de limites calculados a partir de uma vez e meia a amplitude interquartil.\n\n\nUm ponto além desses limites é sinalizado para investigação. Ele não é automaticamente um erro e não deve ser removido sem justificativa.\n\n\nAo comparar box-plots, observe mediana, largura da caixa, bigodes, pontos sinalizados, escala e convenção usada.\n\n\n",
+      "sourceStart": 18404,
+      "sourceEnd": 19037
+    },
+    {
+      "id": "MAT-EST-011-s049",
+      "title": "49. Vídeo complementar",
+      "paragraphs": [],
+      "markdown": "49. Vídeo complementar\n\n\nVídeo recomendado: “Amplitude interquartil - Khan Academy em português (8º ano)”.\nCanal: Khan Academy em Português de Portugal.\nURL: https://www.youtube.com/watch?v=rB86hCqaT-Q\nMotivo: reforça o significado e o cálculo da amplitude interquartil com linguagem introdutória.\nQuando assistir: depois das seções 5 a 18, antes dos exercícios de consolidação.\nEstado de QA: a página pública do vídeo foi localizada; reprodução integral, áudio, legendas, duração efetiva e compatibilidade com o Microsoft Edge permanecem pendentes.\n\n\n",
+      "sourceStart": 19037,
+      "sourceEnd": 19589
+    },
+    {
+      "id": "MAT-EST-011-s050",
+      "title": "50. Fontes curriculares verificadas",
+      "paragraphs": [],
+      "markdown": "50. Fontes curriculares verificadas\n\n\nFUVEST — Programa do Vestibular 2027:\nhttps://www.fuvest.br/wp-content/uploads/fuvest2027-programa-vestibular.pdf\n\n\nBNCC do Ensino Médio — Ministério da Educação:\nhttps://www.gov.br/mec/pt-br/cne/bncc_ensino_medio.pdf\n\n\nINEP — Matrizes de Referência do Enem, publicação institucional de 2026:\nhttps://www.gov.br/inep/pt-br/centrais-de-conteudo/acervo-linha-editorial/publicacoes-institucionais/avaliacoes-e-exames-da-educacao-basica/matrizes-de-referencia-enem/\n\n\n",
+      "sourceStart": 19589,
+      "sourceEnd": 20091
+    },
+    {
+      "id": "MAT-EST-011-s051",
+      "title": "51. Critério de domínio",
+      "paragraphs": [],
+      "markdown": "51. Critério de domínio\n\n\nO tópico só deve ser marcado como consolidado quando o estudante conseguir:\n\n\nexplicar AIQ com palavras próprias;\ncalcular AIQ a partir de quartis;\nconstruir um box-plot quando a convenção for fornecida;\ncalcular limites de 1,5 AIQ;\ndistinguir limite calculado de posição do bigode;\ninterpretar pontos sinalizados sem afirmar mais do que os dados permitem;\ncomparar duas distribuições por mediana e AIQ;\nexplicar ao menos uma limitação do box-plot;\nresolver uma situação nova;\nrecuperar o conceito após revisão espaçada.\n\n\nA produção editorial não altera progresso individual.\n\n\n",
+      "sourceStart": 20091,
+      "sourceEnd": 20696
+    },
+    {
+      "id": "MAT-EST-011-s052",
+      "title": "52. Próximo passo",
+      "paragraphs": [],
+      "markdown": "52. Próximo passo\n\n\nMAT-EST-012 — Assimetria e forma das distribuições: comparação integrada de histogramas e box-plots.\n",
+      "sourceStart": 20696,
+      "sourceEnd": 20817
+    }
+  ],
+  "sources": [
+    {
+      "title": "MAT-EST-011 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "previous": "MAT-EST-010",
+  "next": "MAT-EST-012",
+  "videos": [
+    {
+      "title": "Amplitude interquartil - Khan Academy em português (8º ano)",
+      "channel": "Khan Academy em Português de Portugal",
+      "url": "https://www.youtube.com/watch?v=rB86hCqaT-Q",
+      "duration": "Duração não confirmada",
+      "language": "Português",
+      "reason": "Reforça o conceito apresentado nesta aula.",
+      "when": "Depois dos exemplos resolvidos, antes dos exercícios.",
+      "reinforces": [],
+      "checkedAt": "2026-10-03",
+      "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+      "type": "video"
+    }
+  ],
+  "video": {
+    "title": "Amplitude interquartil - Khan Academy em português (8º ano)",
+    "channel": "Khan Academy em Português de Portugal",
+    "url": "https://www.youtube.com/watch?v=rB86hCqaT-Q",
+    "duration": "Duração não confirmada",
+    "language": "Português",
+    "reason": "Reforça o conceito apresentado nesta aula.",
+    "when": "Depois dos exemplos resolvidos, antes dos exercícios.",
+    "reinforces": [],
+    "checkedAt": "2026-10-03",
+    "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+    "type": "video"
+  },
+  "publication": {
+    "kind": "Reconstrução editorial v1; sem identidade binária com a edição histórica.",
+    "notes": [
+      "A produção e a publicação não registram domínio nem alteram seu progresso.",
+      "As referências a publicação pendente no texto original registram o estado da fonte na data de criação."
+    ],
+    "original": "originais/MAT-EST-011/aula.md",
+    "editions": [
+      {
+        "label": "MAT-EST-011 — manifesto da reconstrução v1 · 2026-10-03",
+        "url": "originais/MAT-EST-011/edicoes/12xkpNgkCEx1LRKvsdFJEaLS6rbuFgXbRyg99HxRq658.txt"
+      },
+      {
+        "label": "MAT-EST-011 — metadados — reconstrução editorial v1 · 2026-10-03",
+        "url": "originais/MAT-EST-011/edicoes/1pt4JfYHKSr9PrdyPegR1s7IcTREB-nJvhg_AlnZJQk4.txt"
+      },
+      {
+        "label": "MAT-EST-011 — gabarito comentado — reconstrução editorial v1 · 2026-10-03",
+        "url": "originais/MAT-EST-011/edicoes/1X-xn27kNYTey2Ryb_3p0Po_S5JLko0Lhd0rG48ygRy8.txt"
+      },
+      {
+        "label": "MAT-EST-011 — exercícios — reconstrução editorial v1 · 2026-10-03",
+        "url": "originais/MAT-EST-011/edicoes/1fKeAqzRrzptKj8lwg82w5dw06UA-2QxwrNmdVclisBg.txt"
+      },
+      {
+        "label": "MAT-EST-011 — aula completa — reconstrução editorial v1 · 2026-10-03",
+        "url": "originais/MAT-EST-011/edicoes/1tzx0jjdtOYwI1tKLi5CHrppaZQcKoWYjNbYburuBOHg.txt"
+      }
+    ],
+    "attachments": [],
+    "questionCount": 36,
+    "visualCount": 6,
+    "sourceSha256": "67fdceb838a5643d4b9f87174e67ffe12fa5070c4e3224f5d435866bc7bf73e2"
+  }
+}

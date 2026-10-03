@@ -1,0 +1,998 @@
+[
+  {
+    "id": "MAT-EST-036-EX-APR-01",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "População e amostra",
+    "enunciado": "Em uma cidade, deseja-se conhecer a proporção de adultos que usam transporte público. Foram entrevistadas 120 pessoas em pontos selecionados. O que é população e o que é amostra?",
+    "resposta": "População-alvo: adultos da cidade. Amostra: 120 entrevistados. A representatividade depende do recrutamento.",
+    "resolucao": [
+      "Defina o conjunto sobre o qual se pretende concluir.",
+      "Identifique quem efetivamente foi observado.",
+      "Não presuma aleatoriedade ao ler “entrevistados”."
+    ],
+    "habilidade": "identificar unidade e população",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Confundir local de coleta com a população-alvo.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-APR-02",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Estimativa não é parâmetro",
+    "enunciado": "De 100 respostas fictícias, 54 são positivas. Diga a frequência observada e se ela prova a proporção populacional.",
+    "resposta": "54/100 = 0,54, ou 54%; não determina exatamente a proporção populacional.",
+    "resolucao": [
+      "Divida o número positivo pelo total válido: 54 ÷ 100.",
+      "A estatística foi calculada na amostra; o parâmetro da população é desconhecido."
+    ],
+    "habilidade": "distinguir frequência e parâmetro",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "conteúdo",
+    "erroProvavel": "Tomar um percentual amostral por certeza populacional.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-APR-03",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Erro-padrão da média",
+    "enunciado": "Uma média amostral usa n = 64 valores e o desvio-padrão populacional é conhecido como σ = 8. Calcule o erro-padrão sob independência.",
+    "resposta": "8/√64 = 1 unidade.",
+    "resolucao": [
+      "Use EP = σ/√n, lido sigma dividido pela raiz de n.",
+      "A raiz quadrada de 64 é 8.",
+      "Divida 8 por 8; informe a unidade original."
+    ],
+    "habilidade": "calcular erro-padrão",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-020",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Dividir por n em vez de dividir por sua raiz.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-APR-04",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Sentido do intervalo",
+    "enunciado": "Um intervalo de confiança de 95% foi calculado como [48,04; 51,96]. É correto afirmar que a probabilidade de um parâmetro fixo estar nesse intervalo já calculado é 95%, na interpretação frequentista?",
+    "resposta": "Não. O procedimento de construção teria 95% de cobertura em repetições sob as hipóteses; o intervalo realizado contém ou não o parâmetro fixo.",
+    "resolucao": [
+      "Distingua o parâmetro fixo dos limites aleatórios calculados a partir de amostras.",
+      "A taxa de cobertura se refere ao método em muitas amostras."
+    ],
+    "habilidade": "interpretar intervalo frequentista",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-020",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Transformar confiança em probabilidade posterior sem modelo bayesiano.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-APR-05",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Não rejeitar",
+    "enunciado": "O teste produziu valor-p = 0,18 e nível de significância α = 0,05. Qual decisão é sustentada?",
+    "resposta": "Não rejeitar H0; isso não demonstra que H0 seja verdadeira.",
+    "resolucao": [
+      "Compare 0,18 com 0,05.",
+      "Como 0,18 é maior, não há evidência suficiente segundo esse critério para rejeitar H0."
+    ],
+    "habilidade": "interpretar decisão de teste",
+    "topicos": [
+      "MAT-EST-021",
+      "MAT-EST-022",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Trocar falta de evidência por comprovação de igualdade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-APR-06",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Tipo I e tipo II",
+    "enunciado": "Associe: rejeitar H0 verdadeira; deixar de rejeitar H0 falsa.",
+    "resposta": "Primeiro: erro tipo I. Segundo: erro tipo II.",
+    "resolucao": [
+      "O tipo I é falso positivo em relação a H0.",
+      "O tipo II é falha em detectar uma alternativa verdadeira."
+    ],
+    "habilidade": "distinguir erros de decisão",
+    "topicos": [
+      "MAT-EST-021",
+      "MAT-EST-022",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "memória",
+    "erroProvavel": "Inverter a definição dos dois erros.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-APR-07",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Pareamento",
+    "enunciado": "Os mesmos dez participantes são medidos antes e depois de uma intervenção. As duas coleções de valores são amostras independentes?",
+    "resposta": "Não. As medidas estão pareadas por participante; analisar as diferenças individuais.",
+    "resolucao": [
+      "Encontre a identidade repetida em cada par.",
+      "A dependência faz parte do desenho e não deve ser ignorada."
+    ],
+    "habilidade": "selecionar desenho amostral",
+    "topicos": [
+      "MAT-EST-023",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Escolher fórmula antes de entender como os dados foram coletados.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-APR-08",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Variável categórica",
+    "enunciado": "Classifique “tipo de transporte” (ônibus, bicicleta, a pé) e “minutos de deslocamento”.",
+    "resposta": "Tipo de transporte: categórica nominal. Minutos: quantitativa.",
+    "resolucao": [
+      "Categorias são rótulos sem unidade métrica própria.",
+      "Minutos têm medida numérica com escala e unidade."
+    ],
+    "habilidade": "distinguir tipos de variável",
+    "topicos": [
+      "MAT-EST-025",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "conteúdo",
+    "erroProvavel": "Aplicar correlação de Pearson a rótulos sem codificação e justificativa.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-APR-09",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Resíduo de regressão",
+    "enunciado": "A previsão de uma observação é 105 e o valor observado é 100. Usando resíduo = observado − previsto, calcule-o.",
+    "resposta": "−5 unidades; houve superestimação de cinco.",
+    "resolucao": [
+      "Substitua os valores: 100 − 105.",
+      "Sinal negativo significa que a previsão excedeu o observado nesta convenção."
+    ],
+    "habilidade": "calcular e interpretar resíduos",
+    "topicos": [
+      "MAT-EST-026",
+      "MAT-EST-027",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Inverter a ordem da subtração sem declarar a convenção.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-APR-10",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Treino e teste",
+    "enunciado": "Uma pessoa escolhe o melhor modelo olhando repetidamente o erro no conjunto reservado como teste final. Que risco surge?",
+    "resposta": "O teste deixa de ser uma avaliação independente; ocorre contaminação/vazamento por uso repetido na escolha.",
+    "resolucao": [
+      "O teste final deve ser preservado até a avaliação.",
+      "A escolha usa treino e validação, com desenho apropriado."
+    ],
+    "habilidade": "reconhecer vazamento",
+    "topicos": [
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Chamar o conjunto de teste de independente embora tenha servido à seleção.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-CON-01",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Intervalo normal ilustrativo",
+    "enunciado": "Sob amostra independente e σ populacional conhecido igual a 8, n=64 e média 50, use multiplicador 1,96 para estimar IC aproximado de 95% da média.",
+    "resposta": "50 ± 1,96 × (8/8) = [48,04; 51,96].",
+    "resolucao": [
+      "Erro-padrão = 8/√64 = 1.",
+      "Margem = 1,96 × 1 = 1,96.",
+      "Subtraia e some a margem; explique as hipóteses."
+    ],
+    "habilidade": "construir IC para média",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-020",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Esquecer o erro-padrão ou interpretar os limites como certezas.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-CON-02",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Intervalo de proporção ilustrativo",
+    "enunciado": "Em 100 respostas independentes, 54 são positivas. Use o intervalo normal de Wald com z=1,96, se = √[p(1−p)/n]. Calcule o resultado aproximado e cite uma limitação.",
+    "resposta": "p=0,54; EP≈0,04984; IC≈[0,4423; 0,6377], ou 44,23% a 63,77%. A aproximação exige condições e não corrige viés de seleção.",
+    "resolucao": [
+      "Calcule p = 54/100.",
+      "EP = √(0,54 × 0,46/100) ≈ 0,04984.",
+      "Margem ≈ 0,09769; some e subtraia.",
+      "É um intervalo ilustrativo de Wald, não universalmente o mais adequado."
+    ],
+    "habilidade": "construir IC aproximado proporção",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-020",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Usar 54 como se fosse proporção igual a 54, sem dividir por 100.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-CON-03",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Teste e intervalo bilateral",
+    "enunciado": "Um intervalo bilateral de 95% para a diferença de médias é [1; 5]. Qual conclusão corresponde ao teste bilateral H0: diferença = 0, com α = 0,05, sob métodos compatíveis?",
+    "resposta": "O zero não pertence ao intervalo; rejeita-se a diferença nula no teste bilateral compatível.",
+    "resolucao": [
+      "Verifique se o valor nulo, zero, está dentro dos limites.",
+      "O intervalo exclui zero; ressalve que o resultado depende de hipóteses/métodos compatíveis."
+    ],
+    "habilidade": "relacionar intervalo e teste",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-020",
+      "MAT-EST-021",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Comparar níveis incompatíveis ou esquecer que o valor nulo depende do parâmetro.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-CON-04",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Diferença pareada",
+    "enunciado": "Cinco participantes tiveram diferenças depois−antes iguais a [2, 4, 0, 2, 2]. Calcule a média das diferenças.",
+    "resposta": "(2+4+0+2+2)/5 = 2 unidades.",
+    "resolucao": [
+      "Some as diferenças dentro de cada pessoa: 10.",
+      "Divida pelas cinco pessoas: 2.",
+      "A unidade observacional é a pessoa, não dez registros independentes."
+    ],
+    "habilidade": "calcular diferença pareada",
+    "topicos": [
+      "MAT-EST-023",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Tratar cada par como duas pessoas distintas.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-CON-05",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Comparações múltiplas",
+    "enunciado": "Três comparações foram previamente definidas e será usada a correção Bonferroni com α familiar = 0,05. Qual o limiar individual?",
+    "resposta": "0,05/3 ≈ 0,01667.",
+    "resolucao": [
+      "Há três testes na família.",
+      "Divida o limiar familiar por três.",
+      "Não chame 0,01667 de valor-p observado: é o critério por teste."
+    ],
+    "habilidade": "calcular ajuste Bonferroni",
+    "topicos": [
+      "MAT-EST-024",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "conteúdo",
+    "erroProvavel": "Confundir significância familiar com estatística produzida pelos dados.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-CON-06",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Esperados em tabela 2 por 2",
+    "enunciado": "Em uma tabela com 100 pessoas, a primeira linha soma 40, a primeira coluna soma 30 e o total geral é 100. Qual a frequência esperada na célula de cruzamento sob independência?",
+    "resposta": "40 × 30 / 100 = 12.",
+    "resolucao": [
+      "Sob independência, Eij = total da linha × total da coluna / total geral.",
+      "Substitua 40, 30 e 100.",
+      "O valor esperado não é necessariamente o valor observado."
+    ],
+    "habilidade": "calcular frequência esperada",
+    "topicos": [
+      "MAT-EST-025",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Usar percentuais de linha com denominador diferente do total.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-CON-07",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Correlação não é determinação",
+    "enunciado": "Um ajuste linear simples com intercepto apresenta r = −0,8. Calcule r² e interprete sem afirmar causalidade.",
+    "resposta": "r² = 0,64. No ajuste linear simples com intercepto, 64% da variação amostral de Y é explicada pelo modelo linear; o sinal negativo indica associação linear inversa.",
+    "resolucao": [
+      "Eleve −0,8 ao quadrado: 0,64.",
+      "R² não retém o sinal; consulte r para direção.",
+      "Não conclua que X causa Y."
+    ],
+    "habilidade": "interpretar correlação e R²",
+    "topicos": [
+      "MAT-EST-026",
+      "MAT-EST-027",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Confundir 0,64 com 64% de certeza causal.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-CON-08",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Interação entre grupos",
+    "enunciado": "Para ŷ=10+2x+3D+1xD, onde D=0 no grupo A e D=1 no B, forneça as equações de cada grupo.",
+    "resposta": "A: ŷ=10+2x. B: ŷ=13+3x.",
+    "resolucao": [
+      "Substitua D por zero e elimine os termos com D.",
+      "Substitua D por um, somando interceptos e inclinações.",
+      "A inclinação não é comum porque há interação."
+    ],
+    "habilidade": "interpretar indicador e interação",
+    "topicos": [
+      "MAT-EST-028",
+      "MAT-EST-029",
+      "MAT-EST-030",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Acrescentar o intercepto de B sem acrescentar o termo xD.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-CON-09",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Comparar MAE e RMSE",
+    "enunciado": "No teste de quatro dias, o modelo A tem erros [−5, 5, 5, −5]. Calcule MAE e RMSE.",
+    "resposta": "MAE=5 atendimentos. RMSE=√[(25+25+25+25)/4]=5 atendimentos.",
+    "resolucao": [
+      "MAE é a média dos módulos: 20/4=5.",
+      "MSE é a média dos quadrados: 100/4=25.",
+      "RMSE é a raiz quadrada de 25: 5."
+    ],
+    "habilidade": "calcular duas métricas",
+    "topicos": [
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Esquecer a raiz no cálculo de RMSE.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-CON-10",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Comparação com erro extremo",
+    "enunciado": "No mesmo período o modelo B tem erros [0, 0, 0, −25]. Calcule MAE e RMSE.",
+    "resposta": "MAE=25/4=6,25; RMSE=√(625/4)=12,5 atendimentos.",
+    "resolucao": [
+      "Uma falha de magnitude 25 domina o somatório.",
+      "MAE = (0+0+0+25)/4.",
+      "MSE = 625/4=156,25; raiz = 12,5."
+    ],
+    "habilidade": "avaliar sensibilidade a extremos",
+    "topicos": [
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Confundir um erro concentrado com quatro erros pequenos.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-TRA-01",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Pesquisa com seleção enviesada",
+    "enunciado": "Uma pesquisa voluntária feita apenas em uma academia encontra 80% de praticantes de atividade física. É legítimo aplicar o percentual a todos os adultos do município? Fundamente.",
+    "resposta": "Não sem um desenho que sustente representatividade; adesão voluntária e local de recrutamento podem enviesar o resultado.",
+    "resolucao": [
+      "Identifique a população pretendida: adultos do município.",
+      "Descreva o quadro de recrutamento: pessoas de uma academia que responderam.",
+      "O tamanho da amostra, isoladamente, não remove viés de seleção."
+    ],
+    "habilidade": "limitar generalização",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-033",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Confundir precisão aritmética com validade da amostragem.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-TRA-02",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Estimativa com aparência precisa",
+    "enunciado": "Um relatório apresenta 54,000% de respostas positivas em 100 respostas. Discuta o que os três algarismos decimais acrescentam à inferência.",
+    "resposta": "Nada: os dados fornecem 54/100=54%; decimais extras não aumentam representatividade nem informação coletada.",
+    "resolucao": [
+      "Recupere contagem e denominador.",
+      "Distingua formatação numérica de incerteza amostral.",
+      "Apresente seleção e intervalo quando justificáveis."
+    ],
+    "habilidade": "avaliar precisão comunicada",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-020",
+      "MAT-EST-033",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Confundir casas decimais com evidência.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-TRA-03",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Significância versus relevância",
+    "enunciado": "Uma diferença média fictícia de 0,2 ponto tem valor-p 0,001 em amostra enorme, mas o critério de utilidade definido era melhoria mínima de 5 pontos. Escreva conclusão responsável.",
+    "resposta": "Existe evidência estatística de diferença sob o teste, mas 0,2 é inferior ao mínimo prático estipulado de 5; não se deve chamá-la relevante por causa apenas do valor-p.",
+    "resolucao": [
+      "Informe o efeito em unidade original.",
+      "Compare-o com 5, previamente definido.",
+      "Diferencie evidência de diferença e pertinência da decisão."
+    ],
+    "habilidade": "distinguir significância e utilidade",
+    "topicos": [
+      "MAT-EST-021",
+      "MAT-EST-022",
+      "MAT-EST-033",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Tratar valor-p como tamanho do benefício.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-TRA-04",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Três grupos e descoberta pós-teste",
+    "enunciado": "Um teste F rejeita igualdade global de médias em três grupos. É correto declarar que todos os três pares diferem?",
+    "resposta": "Não. O teste global indica alguma diferença; pares específicos exigem contrastes planejados ou procedimento pós-teste adequado.",
+    "resolucao": [
+      "Enuncie a hipótese global: médias iguais.",
+      "Sua rejeição não identifica necessariamente quais pares.",
+      "Controle multiplicidade nos contrastes pertinentes."
+    ],
+    "habilidade": "interpretar ANOVA e pós-teste",
+    "topicos": [
+      "MAT-EST-024",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Converter uma conclusão global em três conclusões não testadas.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-TRA-05",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Associação e condicionamento",
+    "enunciado": "Entre 40 pessoas do grupo A, 12 respondem sim; entre 60 do grupo B, 9 respondem sim. Compare taxas e diga se isso demonstra que o grupo causa a resposta.",
+    "resposta": "A: 12/40=30%; B: 9/60=15%; diferença de 15 pontos percentuais; não demonstra causalidade.",
+    "resolucao": [
+      "Use o total de cada grupo como denominador.",
+      "Subtraia 30%-15%=15 pontos percentuais.",
+      "Considere confundimento e desenho observacional."
+    ],
+    "habilidade": "interpretar tabela condicional",
+    "topicos": [
+      "MAT-EST-025",
+      "MAT-EST-019",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Comparar apenas 12 com 9 sem considerar denominadores.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-TRA-06",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Correlação nula com padrão não linear",
+    "enunciado": "Para x=[−2,−1,0,1,2] e y=[4,1,0,1,4], a correlação linear é zero. É correto dizer que não há associação?",
+    "resposta": "Não. Há relação quadrática exata y=x²; a covariância linear é zero por simetria.",
+    "resolucao": [
+      "Observe as correspondências x e y.",
+      "A média de x é zero e os termos x×(y−média de y) se cancelam em pares.",
+      "A correlação de Pearson detecta associação linear, não qualquer dependência."
+    ],
+    "habilidade": "reconhecer não linearidade",
+    "topicos": [
+      "MAT-EST-026",
+      "MAT-EST-027",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Confundir r=0 com independência.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-TRA-07",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Extrapolação",
+    "enunciado": "Uma reta foi ajustada com x de 2 a 12 e a equação é ŷ=30+2x. Calcule a previsão em x=20 e qualifique-a.",
+    "resposta": "70 unidades; previsão por extrapolação, sem garantia de validade além dos dados observados.",
+    "resolucao": [
+      "Substitua x=20: 30+40=70.",
+      "Compare 20 com o maior x observado (12).",
+      "A fórmula produz número, mas a validade externa não está demonstrada."
+    ],
+    "habilidade": "avaliar alcance preditivo",
+    "topicos": [
+      "MAT-EST-026",
+      "MAT-EST-027",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Achar que substituição algébrica prova boa previsão.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-TRA-08",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Vazamento temporal",
+    "enunciado": "Uma previsão para a próxima semana usa, como variável de entrada, um indicador que só será calculado depois que essa semana terminar. Explique o erro e a correção de desenho.",
+    "resposta": "Existe vazamento de informação futura; usar apenas atributos disponíveis no instante real da previsão e validar em ordem temporal.",
+    "resolucao": [
+      "Defina o momento em que a decisão será feita.",
+      "Verifique quando cada variável passa a existir.",
+      "Exclua ou reprojete o indicador impossível de conhecer antes."
+    ],
+    "habilidade": "detectar fuga temporal",
+    "topicos": [
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Confundir dados históricos completos com dados disponíveis no momento da previsão.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-TRA-09",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Critério de custo muda a decisão",
+    "enunciado": "Na amostra sintética do projeto, A tem erros [−5,5,5,−5] e B [0,0,0,−25]. Se falta de capacidade custa 3 por unidade e excesso 1, calcule a perda de A e B. A decisão vale universalmente?",
+    "resposta": "A = 2×5×3 + 2×5×1 = 40; B = 25×1=25. Nesse recorte e nesses custos fictícios, B tem menor perda. Não vale universalmente.",
+    "resolucao": [
+      "Erro positivo observado−previsto significa falta e recebe peso 3.",
+      "Erro negativo significa excesso e recebe peso 1.",
+      "Some os custos e declare período e pressupostos."
+    ],
+    "habilidade": "comparar perda assimétrica",
+    "topicos": [
+      "MAT-EST-033",
+      "MAT-EST-034",
+      "MAT-EST-035",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Escolher modelo por MAE sem levar em conta o custo do erro.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-TRA-10",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Relatório auditável",
+    "enunciado": "Um relatório apresenta “B é superior em qualquer situação” a partir de quatro dias fictícios. Reescreva a afirmação com origem, indicador, recorte e limitação.",
+    "resposta": "Exemplo: “Nos quatro dias fictícios de teste e sob custos de falta=3 e excesso=1, B teve perda 25, contra 40 de A; o resultado não demonstra superioridade em períodos ou serviços reais.”",
+    "resolucao": [
+      "Identifique exatamente o período.",
+      "Informe o critério e os dois valores.",
+      "Declare que os dados são sintéticos e que a comparação é condicional."
+    ],
+    "habilidade": "redigir parecer com limites",
+    "topicos": [
+      "MAT-EST-033",
+      "MAT-EST-034",
+      "MAT-EST-035",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Omitir origem e generalizar além dos dados.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-RET-01",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "diagnostica",
+    "titulo": "Reteste de erro-padrão",
+    "enunciado": "Nova amostra independente tem n=100 e σ populacional conhecido igual a 15. Qual o erro-padrão da média?",
+    "resposta": "15/√100=1,5 unidade.",
+    "resolucao": [
+      "A raiz de 100 é 10.",
+      "Divida 15 por 10 e mantenha a unidade."
+    ],
+    "habilidade": "recuperar erro-padrão",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-020",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Usar σ/n em vez de σ/√n.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-RET-02",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "diagnostica",
+    "titulo": "Reteste de intervalo",
+    "enunciado": "Nova amostra com média 72, n=100 e σ conhecido igual a 10, sob condições para modelo normal. Use z=1,96 para calcular intervalo aproximado de 95%.",
+    "resposta": "72 ± 1,96×(10/10) = [70,04;73,96].",
+    "resolucao": [
+      "Erro-padrão=1.",
+      "Margem=1,96.",
+      "Some e subtraia; interprete cobertura do procedimento."
+    ],
+    "habilidade": "recuperar estimativa intervalar",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-020",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Confundir multiplicador com margem calculada.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-RET-03",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "diagnostica",
+    "titulo": "Reteste de decisão de hipótese",
+    "enunciado": "Em novo teste pré-especificado, α=0,01 e valor-p=0,03. Qual decisão?",
+    "resposta": "Não rejeitar H0 a 1%; o mesmo resultado pode satisfazer outro α, mas este foi o predefinido.",
+    "resolucao": [
+      "Compare 0,03 com 0,01.",
+      "0,03 > 0,01.",
+      "Não mude α depois de observar o resultado."
+    ],
+    "habilidade": "recuperar lógica de teste",
+    "topicos": [
+      "MAT-EST-021",
+      "MAT-EST-022",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Escolher o limiar retrospectivamente para forçar significância.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-RET-04",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "diagnostica",
+    "titulo": "Reteste de tabela categórica",
+    "enunciado": "Uma amostra sintética tem 200 registros; primeira linha soma 80 e segunda coluna soma 50. Qual é a frequência esperada na célula correspondente sob independência?",
+    "resposta": "80×50/200=20.",
+    "resolucao": [
+      "Multiplique os totais marginais: 4000.",
+      "Divida pelo total geral: 200.",
+      "Não confunda frequência esperada com observada."
+    ],
+    "habilidade": "recuperar tabela de contingência",
+    "topicos": [
+      "MAT-EST-025",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Trocar um dos marginais pelo valor de célula.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-RET-05",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "diagnostica",
+    "titulo": "Reteste de métrica",
+    "enunciado": "Um novo modelo apresenta erros assinados [−2, 2, 2, −2] em quatro dias. Calcule MAE e RMSE.",
+    "resposta": "MAE=2 e RMSE=2 unidades.",
+    "resolucao": [
+      "Módulos somam 8; 8/4=2.",
+      "Quadrados somam 16; 16/4=4 e √4=2."
+    ],
+    "habilidade": "recuperar métricas",
+    "topicos": [
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Esquecer unidade e a raiz final.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-036-EX-RET-06",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "diagnostica",
+    "titulo": "Reteste de afirmação responsável",
+    "enunciado": "Um relatório novo encontra associação entre uso de aplicativo e notas, sem sorteio ou controle de fatores prévios. Escreva uma conclusão de até duas frases que não afirme causalidade.",
+    "resposta": "Exemplo: “Na amostra observada, uso do aplicativo e notas se associaram. Não é possível concluir que o aplicativo causou a diferença sem um desenho e controles apropriados.”",
+    "resolucao": [
+      "Diga apenas o que os dados observacionais sustentam.",
+      "Informe a limitação de confundimento/desenho.",
+      "Evite transformar associação em efeito comprovado."
+    ],
+    "habilidade": "recuperar comunicação inferencial",
+    "topicos": [
+      "MAT-EST-033",
+      "MAT-EST-034",
+      "MAT-EST-035",
+      "MAT-EST-036"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Inferir causalidade sem desenho capaz de sustentá-la.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  }
+]

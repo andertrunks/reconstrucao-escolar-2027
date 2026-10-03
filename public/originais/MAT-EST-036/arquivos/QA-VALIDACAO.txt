@@ -1,0 +1,32 @@
+# MAT-EST-036 — Validação local
+Data editorial: 2026-09-28.
+Resultado: 27 verificações aprovadas; zero falhas.
+- OK: 36 IDs exclusivos
+- OK: camadas 10/10/10/6
+- OK: questões autorais com resolução
+- OK: progresso intocado
+- OK: IDs na aula
+- OK: todos com pré-requisitos
+- OK: metadados e marcador coerentes
+- OK: 7 SVGs com título, descrição e legenda
+- OK: preview gerado
+- OK: dados anteriores copiados sem alteração
+- OK: oito linhas de dados preservadas
+- OK: partição quatro teste
+- OK: erros de A
+- OK: erros de B
+- OK: erros da base
+- OK: MAE A 5
+- OK: RMSE A 5
+- OK: MAE B 6.25
+- OK: RMSE B 12.5
+- OK: MAE base 12.5
+- OK: RMSE base raiz 275
+- OK: IC média exemplo
+- OK: IC proporção arredondamento
+- OK: custo A 40 B 25
+- OK: interação grupo B 13+3x
+- OK: reteste IC 70.04 a 73.96
+- OK: todos JSONs abrem
+Questões autorais sem simulação de tentativa. Dados sintéticos herdados por cópia com hash idêntico.
+Pendências de publicação: reprodução integral do vídeo, teste real de Ler em voz alta no Edge, QA de importação e rotas do site, sincronização no Google Drive, GitHub e deploy.

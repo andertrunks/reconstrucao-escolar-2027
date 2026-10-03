@@ -1,0 +1,23 @@
+﻿MAT-EST-007 — Metadados — reconstrução editorial v1
+
+
+ID: MAT-EST-007
+Título: Medidas de dispersão I: amplitude, desvios e desvio médio
+Matéria: Matemática
+Unidade: Estatística
+Nível: 2
+Status editorial: reconstrução editorial v1
+Identidade com original perdido: não
+Pré-requisitos: MAT-EST-001, MAT-EST-002, MAT-EST-003, MAT-EST-004, MAT-EST-005, MAT-EST-006
+Próximo tópico: MAT-EST-008
+Questões: 36 autorais
+Distribuição: APR 10; CON 10; VES 10; RET 6
+Visuais: 6
+Vídeo 1: AMPLITUDE ESTATÍSTICA | MEDIDA DE DISPERSÃO — Gis com Giz Mathematics — https://www.youtube.com/watch?v=mV_d_KejL8s
+Vídeo 2: DESVIO MÉDIO ABSOLUTO — Prof. MURAKAMI - MATEMÁTICA RAPIDOLA — https://www.youtube.com/watch?v=cEgG9bq2XQg
+Fontes oficiais: BNCC/MEC EF08MA25; Inep Matrizes de Referência do Enem 2026; FUVEST Programa do Vestibular 2027
+QA audiovisual: pendente
+QA Microsoft Edge/Ler em voz alta: pendente
+Publicado: não
+Progresso do aluno alterado: não
+MAT-EST-068 iniciada: não

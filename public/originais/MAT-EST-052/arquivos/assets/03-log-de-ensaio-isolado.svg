@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="440" viewBox="0 0 1440 440" role="img" aria-labelledby="title desc"><title id="title">Figura 3 — Ensaio isolado EXEMPLO-Z</title><desc id="desc">Uma previsão hipotética 29, um dado preliminar 30 recebido com atraso e correção posterior 32; não pertence à série t01 a t25.</desc>
+<rect width="1440" height="440" fill="#f7f9fc"/><text x="40" y="54" font-family="Arial,sans-serif" font-size="29" fill="#18212d" font-weight="bold">Figura 3 — Ensaio isolado EXEMPLO-Z</text>
+<rect x="40.0" y="104" width="260.8" height="244" rx="15" fill="#ffffff" stroke="#35485c" stroke-width="2"/>
+<text x="170.4" y="142" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#18304b">L1 previsão 29</text>
+<text x="170.4" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#24313d">congelar valor</text>
+<text x="307.8" y="230" font-family="Arial,sans-serif" font-size="21" text-anchor="middle" fill="#18212d">›</text>
+<rect x="314.8" y="104" width="260.8" height="244" rx="15" fill="#ffffff" stroke="#35485c" stroke-width="2"/>
+<text x="445.2" y="142" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#18304b">L2 prazo</text>
+<text x="445.2" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#24313d">sem observação</text>
+<text x="582.6" y="230" font-family="Arial,sans-serif" font-size="21" text-anchor="middle" fill="#18212d">›</text>
+<rect x="589.6" y="104" width="260.8" height="244" rx="15" fill="#ffffff" stroke="#35485c" stroke-width="2"/>
+<text x="720.0" y="142" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#18304b">L4 preliminar 30</text>
+<text x="720.0" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#24313d">atraso de 2 passos</text>
+<text x="857.4" y="230" font-family="Arial,sans-serif" font-size="21" text-anchor="middle" fill="#18212d">›</text>
+<rect x="864.4" y="104" width="260.8" height="244" rx="15" fill="#ffffff" stroke="#35485c" stroke-width="2"/>
+<text x="994.8" y="142" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#18304b">L5 revisão 32</text>
+<text x="994.8" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#24313d">v2 corrige v1</text>
+<text x="1132.2" y="230" font-family="Arial,sans-serif" font-size="21" text-anchor="middle" fill="#18212d">›</text>
+<rect x="1139.2" y="104" width="260.8" height="244" rx="15" fill="#ffffff" stroke="#35485c" stroke-width="2"/>
+<text x="1269.6" y="142" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#18304b">L6 recalcular</text>
+<text x="1269.6" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#24313d">erro 3 custo 9</text>
+<text x="40" y="404" font-family="Arial,sans-serif" font-size="19" fill="#18212d">Exemplo-Z é independente: nenhum valor de t23, t24 ou t25 foi observado.</text></svg>

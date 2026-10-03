@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "MAT-EST-032-EX-APR-01",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Previsão e erro",
+    "enunciado": "O valor observado é 12 e a previsão foi 15 pontos. Calcule o erro assinado usando observado menos previsto e o erro absoluto.",
+    "resposta": "Erro assinado = −3 pontos; absoluto = 3 pontos.",
+    "resolucao": [
+      "Erro = 12 − 15 = −3: a previsão superestimou o observado.",
+      "O módulo de −3 é 3; MAE nunca utiliza sinais negativos."
+    ],
+    "habilidade": "resíduos e módulo",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reorganizar as parcelas, verificar divisão, raiz e unidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-APR-02",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "MAE básico",
+    "enunciado": "Para quatro erros assinados +1, −2, +1 e 0 unidades, encontre MAE.",
+    "resposta": "MAE = 1 unidade.",
+    "resolucao": [
+      "Os módulos são 1, 2, 1 e 0.",
+      "MAE = (1 + 2 + 1 + 0)/4 = 1."
+    ],
+    "habilidade": "erro absoluto médio",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reorganizar as parcelas, verificar divisão, raiz e unidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-APR-03",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "RMSE básico",
+    "enunciado": "Os erros são −1, +1, −1 e +1 ponto. Calcule o MSE e o RMSE.",
+    "resposta": "MSE = 1 ponto²; RMSE = 1 ponto.",
+    "resolucao": [
+      "O quadrado de cada erro é 1; MSE = 4/4 = 1 ponto².",
+      "RMSE é a raiz de 1 e retorna à unidade original: 1 ponto."
+    ],
+    "habilidade": "erro quadrático e unidades",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reorganizar as parcelas, verificar divisão, raiz e unidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-APR-04",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Papel do R²",
+    "enunciado": "Em avaliação externa, um R² de −0,20 é impossível? Justifique.",
+    "resposta": "Não. Em dados retidos, um modelo pode ser pior que a previsão constante pela média observada do conjunto avaliado.",
+    "resolucao": [
+      "R² = 1 − SSE/SST, quando SST é positivo.",
+      "Se SSE superar SST, a fração é maior que 1 e R² fica negativo."
+    ],
+    "habilidade": "limites de R²",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Localizar exatamente o que o resultado permite concluir.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-APR-05",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Métrica e unidade",
+    "enunciado": "Se a resposta é medida em quilômetros, quais são as unidades do MAE, MSE e RMSE?",
+    "resposta": "MAE e RMSE: quilômetros; MSE: quilômetros ao quadrado.",
+    "resolucao": [
+      "O valor absoluto conserva a unidade original.",
+      "Elevar os erros ao quadrado muda a dimensão; a raiz a recupera."
+    ],
+    "habilidade": "análise dimensional",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "memória",
+    "erroProvavel": "Reconstituir a ideia e a fórmula em palavras antes de aplicá-la.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-APR-06",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Viés assinado",
+    "enunciado": "Os erros observado menos previsto são +2, +2, −2 e −2. Qual é o erro médio assinado? Isso significa previsões perfeitas?",
+    "resposta": "Erro médio assinado = 0; não, os erros se cancelaram.",
+    "resolucao": [
+      "A soma assinada é zero; dividida por quatro continua zero.",
+      "O MAE, porém, é 2: nenhuma das quatro previsões foi exata."
+    ],
+    "habilidade": "viés e cancelamento",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Localizar exatamente o que o resultado permite concluir.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-APR-07",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Referência simples",
+    "enunciado": "Por que avaliar também uma previsão ingênua, como repetir o último valor observado, em uma série temporal?",
+    "resposta": "Porque ela fornece uma base de comparação para saber se a complexidade do modelo melhora as previsões.",
+    "resolucao": [
+      "O erro absoluto do modelo precisa ser interpretado contra uma regra simples apropriada ao problema.",
+      "Um sistema sofisticado não demonstra valor preditivo só por produzir números."
+    ],
+    "habilidade": "linha de base",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Definir o objetivo de previsão, o conjunto de avaliação e a métrica antes de calcular.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-APR-08",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Intervalos diferentes",
+    "enunciado": "A média prevista para certo perfil é 10. Para a mesma confiança nominal e sob um mesmo modelo, qual intervalo normalmente será mais largo: o da resposta média ou o de uma nova observação individual?",
+    "resposta": "O intervalo de predição de uma nova observação individual.",
+    "resolucao": [
+      "Além da incerteza na média estimada, a nova observação tem sua própria variabilidade aleatória.",
+      "Essa parcela extra torna o intervalo preditivo individual mais largo, sob o modelo considerado."
+    ],
+    "habilidade": "incerteza preditiva",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "conteúdo",
+    "erroProvavel": "Revisar definição, hipótese e propósito da medida.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-APR-09",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Cobertura observada",
+    "enunciado": "Um procedimento produziu 10 intervalos preditivos e 8 contiveram os valores reais. Qual é a cobertura observada?",
+    "resposta": "8/10 = 80%.",
+    "resolucao": [
+      "Conte os intervalos que realmente cobriram o resultado.",
+      "Divida 8 por 10 e converta: 80%; amostra pequena não comprova cobertura populacional."
+    ],
+    "habilidade": "cobertura empírica",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reorganizar as parcelas, verificar divisão, raiz e unidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-APR-10",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Monitoramento e rótulos",
+    "enunciado": "É possível calcular MAE real sobre previsões de hoje quando os resultados observados só ficarão disponíveis no mês seguinte?",
+    "resposta": "Não. É possível acompanhar qualidade dos dados e distribuição das entradas, mas MAE exige resultados observados correspondentes.",
+    "resolucao": [
+      "Toda medida de erro supervisionada compara observado e previsto.",
+      "Sem os rótulos ou resultados finais, ainda não existe erro observado para aquela safra."
+    ],
+    "habilidade": "monitoramento com atraso",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Localizar exatamente o que o resultado permite concluir.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-CON-01",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Mesma média, risco diferente",
+    "enunciado": "Nos mesmos quatro casos, A tem erros +1, −1, +1 e −1; B tem 0, 0, 0 e −4. Calcule MAE e RMSE de ambos.",
+    "resposta": "Ambos têm MAE = 1. A: RMSE = 1; B: RMSE = 2.",
+    "resolucao": [
+      "A: soma dos módulos 4; soma dos quadrados 4.",
+      "B: soma dos módulos 4; soma dos quadrados 16. Divida cada soma por 4; retire a raiz no RMSE."
+    ],
+    "habilidade": "comparação de métricas",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reorganizar as parcelas, verificar divisão, raiz e unidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-CON-02",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "R² externo negativo",
+    "enunciado": "Dados observados são 10, 12, 14 e 16; previsões são sempre 12. Calcule SSE, SST em torno da média observada e R².",
+    "resposta": "SSE = 24; SST = 20; R² = −0,20.",
+    "resolucao": [
+      "Média observada: 13; SST = 9 + 1 + 1 + 9 = 20.",
+      "SSE = 4 + 0 + 4 + 16 = 24; 1 − 24/20 = −0,20."
+    ],
+    "habilidade": "R² com referência explícita",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reorganizar as parcelas, verificar divisão, raiz e unidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-CON-03",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "MAE por volume",
+    "enunciado": "Um período tem 10 casos e MAE de 1; outro tem 30 casos e MAE de 3. Calcule o MAE agregado.",
+    "resposta": "MAE total = 2,5 unidades.",
+    "resolucao": [
+      "Erro absoluto somado: 10×1 + 30×3 = 100.",
+      "Divida por 40 casos; a média simples entre 1 e 3 daria um resultado indevidamente não ponderado."
+    ],
+    "habilidade": "média ponderada",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reorganizar as parcelas, verificar divisão, raiz e unidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-CON-04",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "MAE entre populações",
+    "enunciado": "Modelo A: MAE 1 ponto numa prova de 20 pontos; modelo B: MAE 2 pontos numa prova de 100 pontos. É possível concluir somente pelos erros brutos que A é melhor?",
+    "resposta": "Não. As escalas e o objetivo diferem, e é preciso avaliar comparabilidade, impacto e referência apropriada.",
+    "resolucao": [
+      "Um ponto e dois pontos têm significados diferentes conforme a escala e o custo do erro.",
+      "Não atribua superioridade universal por MAE absoluto em contextos distintos."
+    ],
+    "habilidade": "comparação válida",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Localizar exatamente o que o resultado permite concluir.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-CON-05",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Desvio sistemático",
+    "enunciado": "Na amostra recente, os erros são 2, 2, 2 e 2 unidades. Calcule viés médio, MAE e RMSE; descreva o problema.",
+    "resposta": "Viés = +2; MAE = 2; RMSE = 2 unidades. O modelo subestima sistematicamente o valor observado.",
+    "resolucao": [
+      "Somar os sinais dá 8/4 = 2; os módulos também resultam 2.",
+      "Quadrados: 4 em todos os casos; raiz do MSE = 2."
+    ],
+    "habilidade": "monitoramento de viés",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reorganizar as parcelas, verificar divisão, raiz e unidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-CON-06",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Dois intervalos",
+    "enunciado": "Para um caso, o procedimento P fornece [8, 12] e Q fornece [5, 15], ambos na mesma unidade, e o observado foi 11. Compare cobertura e largura.",
+    "resposta": "Ambos cobriram 11; P tem largura 4 e Q tem largura 10.",
+    "resolucao": [
+      "11 pertence aos dois intervalos.",
+      "Larguras: 12−8=4 e 15−5=10; um caso isolado não prova melhor calibração geral."
+    ],
+    "habilidade": "largura e cobertura",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reorganizar as parcelas, verificar divisão, raiz e unidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-CON-07",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Proporção e denominador",
+    "enunciado": "Três erros graves foram encontrados em 20 previsões do período A; seis erros graves em 100 previsões no período B. Compare as taxas.",
+    "resposta": "A: 15%; B: 6%. A teve maior taxa apesar de menos erros em contagem bruta.",
+    "resolucao": [
+      "Divida 3/20 = 0,15 e 6/100 = 0,06.",
+      "Use o mesmo critério de erro grave e mantenha os denominadores visíveis."
+    ],
+    "habilidade": "taxas de falhas",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reorganizar as parcelas, verificar divisão, raiz e unidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-CON-08",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Atraso dos resultados",
+    "enunciado": "Em setembro foram feitas 80 previsões e apenas 20 já possuem resultado observado. Sobre quais registros se pode calcular MAE?",
+    "resposta": "Apenas sobre os 20 registros pareados com resultado já disponível, indicando cobertura de observação e potencial viés de atraso.",
+    "resolucao": [
+      "As outras 60 previsões não têm resultado comparável ainda.",
+      "Reportar MAE parcial como se representasse todos os 80 seria interpretação injustificada."
+    ],
+    "habilidade": "qualidade do acompanhamento",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Localizar exatamente o que o resultado permite concluir.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-CON-09",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Alerta por janela",
+    "enunciado": "O MAE era 1,0 em uma janela histórica e passou a 1,8 na janela recente sob a mesma unidade e protocolo. Qual foi a variação relativa?",
+    "resposta": "Aumento de 80%.",
+    "resolucao": [
+      "Diferença: 1,8−1,0=0,8.",
+      "Divisão pela referência 1,0: 0,8/1,0 = 0,80. Verificar também tamanho da amostra e mudança de perfil."
+    ],
+    "habilidade": "tendência de desempenho",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reorganizar as parcelas, verificar divisão, raiz e unidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-CON-10",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Dados temporais",
+    "enunciado": "Uma previsão para outubro depende de informações disponíveis até setembro. Por que misturar aleatoriamente meses futuros no treino é problemático?",
+    "resposta": "Porque produz informação futura indevida e uma avaliação menos semelhante ao uso real.",
+    "resolucao": [
+      "Separe os dados preservando a ordem cronológica e evite processamentos ajustados com informações futuras.",
+      "Reproduza o momento em que a previsão realmente estaria sendo emitida."
+    ],
+    "habilidade": "protocolo temporal",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Definir o objetivo de previsão, o conjunto de avaliação e a métrica antes de calcular.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-VES-01",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Escolha e custo do erro",
+    "enunciado": "A e B apresentam MAE idêntico de 1, mas RMSE de 1 e 2 no mesmo teste. Se grandes erros têm custo muito elevado, qual métrica ajuda a ver essa diferença e por quê?",
+    "resposta": "RMSE explicita a penalização quadrática mais forte aos grandes erros; a escolha deve partir da função de perda do uso.",
+    "resolucao": [
+      "O erro 4 de B vira 16 no quadrado e o RMSE sobe.",
+      "Não declare A melhor em qualquer aplicação: explicite o custo de grandes falhas e a incerteza da amostra."
+    ],
+    "habilidade": "métrica e objetivo",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Definir o objetivo de previsão, o conjunto de avaliação e a métrica antes de calcular.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-VES-02",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Base comparável de teste",
+    "enunciado": "Um relatório apresenta MAE de 1,2 para modelo A em 2024 e MAE de 1,1 para modelo B em 2026. Isso comprova que B prediz melhor?",
+    "resposta": "Não. Os conjuntos, populações, períodos e condições não são diretamente comparáveis.",
+    "resolucao": [
+      "Avalie candidatos sob protocolo comparável, na mesma população-alvo e com mesma definição de resposta.",
+      "Diferenças de distribuição e coleta podem explicar a aparente vantagem."
+    ],
+    "habilidade": "auditoria de comparabilidade",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Localizar exatamente o que o resultado permite concluir.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-VES-03",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Desempenho global mascara grupo",
+    "enunciado": "Há 90 casos do grupo X com MAE 1 e 10 do grupo Y com MAE 5. Calcule MAE global e explique uma conclusão cautelosa.",
+    "resposta": "MAE global = 1,4; a média global esconde erro cinco vezes maior no grupo Y.",
+    "resolucao": [
+      "Somatório absoluto = 90×1 + 10×5 = 140; /100 = 1,4.",
+      "Apresente também tamanho e MAE de cada grupo; verificar se há intervalos ou incertezas relevantes."
+    ],
+    "habilidade": "monitoramento por segmento",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reorganizar as parcelas, verificar divisão, raiz e unidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-VES-04",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Distribuição deslocada",
+    "enunciado": "Um modelo de consumo foi validado em temperaturas de 15 a 30 graus Celsius e será aplicado a 42 graus. O MAE antigo garante desempenho?",
+    "resposta": "Não. É extrapolação fora do domínio observado, exigindo nova validação e ressalva explícita.",
+    "resolucao": [
+      "O domínio de preditores mudou; a relação ajustada pode não continuar válida.",
+      "Restringir uso, obter dados representativos ou revisar o modelo é mais justificável que prometer a mesma precisão."
+    ],
+    "habilidade": "extrapolação e validade",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Localizar exatamente o que o resultado permite concluir.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-VES-05",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "MAPE e zero",
+    "enunciado": "Uma métrica percentual calcula |observado−previsto|/|observado|. O que ocorre quando observado = 0?",
+    "resposta": "A fração não está definida para observado igual a zero, portanto exige outra métrica ou tratamento justificado.",
+    "resolucao": [
+      "A divisão por zero não é uma taxa percentual calculável.",
+      "MAE ou RMSE, com unidade e contexto, podem ser alternativas quando adequadas."
+    ],
+    "habilidade": "limites de percentual",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "conteúdo",
+    "erroProvavel": "Revisar definição, hipótese e propósito da medida.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-VES-06",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Intervalo de média x indivíduo",
+    "enunciado": "Um relatório informa IC de 95% [49, 51] para resposta média e intervalo preditivo [40, 60] para um indivíduo com o mesmo perfil. O que cada afirmação procura cobrir?",
+    "resposta": "O primeiro procura cobrir o parâmetro da média condicional; o segundo procura cobrir uma futura observação individual, sob o modelo e suas hipóteses.",
+    "resolucao": [
+      "Uma previsão individual incorpora dispersão residual adicional.",
+      "Não reporte o intervalo estreito da média como promessa para cada pessoa."
+    ],
+    "habilidade": "incerteza estatística",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Localizar exatamente o que o resultado permite concluir.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-VES-07",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Cobertura e precisão juntas",
+    "enunciado": "Procedimento A cobriu 90 de 100 observações com largura média 12. B cobriu 90 de 100 com largura média 6, usando mesmos casos e nível nominal. O que se pode dizer descritivamente?",
+    "resposta": "Ambos tiveram cobertura observada de 90%; B teve intervalos mais estreitos nesse conjunto, mas são necessárias análises adicionais para generalizar.",
+    "resolucao": [
+      "Cobertura empírica = 90/100 para ambos.",
+      "Largura menor em B é observação descritiva, não prova universal; examine estabilidade, subgrupos e dependência da amostra."
+    ],
+    "habilidade": "calibração e largura",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Localizar exatamente o que o resultado permite concluir.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-VES-08",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Desempenho muda sem resultado",
+    "enunciado": "As características das entradas mudaram muito neste mês, mas os resultados só serão conhecidos posteriormente. Pode-se afirmar que o erro de previsão aumentou?",
+    "resposta": "Não. A mudança nas entradas é sinal de investigação; é preciso obter resultados observados para confirmar alteração do erro.",
+    "resolucao": [
+      "Deslocamento de dados não implica obrigatoriamente perda já demonstrada de precisão.",
+      "Monitore entrada, integridade, atraso de rótulos e, depois, MAE e cobertura nos resultados pareados."
+    ],
+    "habilidade": "mudança de distribuição",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "conteúdo",
+    "erroProvavel": "Revisar definição, hipótese e propósito da medida.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-VES-09",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Retraining sem vazamento",
+    "enunciado": "Um analista recalcula o escalonamento com todos os registros, incluindo os de teste final, antes de comparar os modelos. Qual correção é necessária?",
+    "resposta": "Aprender o escalonamento exclusivamente nos dados de treino de cada rodada, aplicá-lo aos dados retidos e preservar o teste para avaliação final.",
+    "resolucao": [
+      "Mesmo uma transformação sem rótulos pode vazar estatísticas da avaliação.",
+      "Refazer a avaliação corretamente ou registrar sua contaminação; não declarar o teste independente."
+    ],
+    "habilidade": "auditoria de pré-processamento",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Definir o objetivo de previsão, o conjunto de avaliação e a métrica antes de calcular.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-VES-10",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "transferencia",
+    "dificuldade": "avancada",
+    "titulo": "Conclusão para relatório",
+    "enunciado": "Um teste preservado em 60 registros de uma escola teve MAE 1,5 ponto e RMSE 2,1 pontos. Escreva duas frases sem extrapolar para outras escolas.",
+    "resposta": "Exemplo: “Nos 60 registros reservados da escola, o erro absoluto médio foi 1,5 ponto e a raiz do erro quadrático médio foi 2,1 pontos. A validade para outros anos ou escolas depende de nova avaliação com dados representativos.”",
+    "resolucao": [
+      "A primeira frase registra população, amostra, métrica e unidade.",
+      "A segunda evita generalização causal ou garantia de erro máximo a partir da média."
+    ],
+    "habilidade": "comunicação responsável",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Localizar exatamente o que o resultado permite concluir.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-RET-01",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "diagnostica",
+    "titulo": "Reteste: duas métricas",
+    "enunciado": "Os erros são 0, +2, −2 e +4 quilômetros. Calcule MAE, MSE e RMSE.",
+    "resposta": "MAE = 2 km; MSE = 6 km²; RMSE = √6 ≈ 2,449 km.",
+    "resolucao": [
+      "Módulos somam 8, divididos por 4 dão 2 km.",
+      "Quadrados somam 0+4+4+16 = 24; MSE = 6 km² e RMSE = √6 km."
+    ],
+    "habilidade": "recuperação independente de métricas",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reorganizar as parcelas, verificar divisão, raiz e unidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-RET-02",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "diagnostica",
+    "titulo": "Reteste: baseline",
+    "enunciado": "Os observados são 2, 4 e 6; um modelo prevê 4, 4 e 4. Calcule seu R² usando a média desses observados como referência.",
+    "resposta": "R² = 0; SSE = SST = 8.",
+    "resolucao": [
+      "Média observada = 4; SST = (2−4)²+0+(6−4)² = 8.",
+      "Previsões iguais à média geram SSE = 8, portanto 1−8/8 = 0."
+    ],
+    "habilidade": "R² e referência",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reorganizar as parcelas, verificar divisão, raiz e unidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-RET-03",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "diagnostica",
+    "titulo": "Reteste: grupos e volume",
+    "enunciado": "Grupo A tem 8 registros e MAE 1; grupo B tem 2 registros e MAE 6. Calcule MAE total e descreva o que o total oculta.",
+    "resposta": "MAE total = 2; grupo B tem MAE maior e apenas 2 observações.",
+    "resolucao": [
+      "Erro absoluto acumulado = 8×1 + 2×6 = 20, dividido por 10 = 2.",
+      "O indicador agregado omite heterogeneidade; reporte ambos os grupos e seus tamanhos."
+    ],
+    "habilidade": "monitoramento segmentado",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reorganizar as parcelas, verificar divisão, raiz e unidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-RET-04",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "diagnostica",
+    "titulo": "Reteste: intervalos",
+    "enunciado": "Um intervalo preditivo vai de 18 a 26 unidades e o observado é 27. Indique a largura e se houve cobertura.",
+    "resposta": "Largura = 8 unidades; não houve cobertura.",
+    "resolucao": [
+      "26−18 = 8.",
+      "Como 27 > 26, o resultado ficou fora do intervalo; um caso não determina sozinho sua taxa de cobertura."
+    ],
+    "habilidade": "intervalos de previsão",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Reorganizar as parcelas, verificar divisão, raiz e unidade.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-RET-05",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "diagnostica",
+    "titulo": "Reteste: defasagem temporal",
+    "enunciado": "O painel mostra 200 previsões recentes, mas só 50 possuem resultados conhecidos. Redija a cautela mínima para divulgar seu MAE.",
+    "resposta": "O MAE atual se refere aos 50 casos com resultado disponível, ou 25% das previsões recentes; pode haver viés de disponibilidade e é preciso atualizar quando os demais resultados chegarem.",
+    "resolucao": [
+      "50/200 = 0,25; nomeie a base de cálculo.",
+      "Descreva a defasagem e evite atribuir a estimativa ao conjunto completo de 200 casos."
+    ],
+    "habilidade": "rótulos atrasados",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Localizar exatamente o que o resultado permite concluir.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-032-EX-RET-06",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "diagnostica",
+    "titulo": "Reteste: monitoramento responsável",
+    "enunciado": "Depois de implantar um modelo, o MAE subiu de 1 para 2 unidades e também mudou a população atendida. Liste duas ações justificáveis, sem afirmar causa não testada.",
+    "resposta": "Verificar mudanças na coleta e nas características da população; auditar resultados pareados, segmentos e possíveis erros de integração, validando alternativas em dados recentes antes de alterar o modelo.",
+    "resolucao": [
+      "A mudança do MAE é fato descritivo, não diagnóstico automático da causa.",
+      "Investigue dados, rótulos, amostragem e estabilidade antes de recalibrar ou substituir."
+    ],
+    "habilidade": "tomada de decisão por evidências",
+    "topicos": [
+      "MAT-EST-027",
+      "MAT-EST-030",
+      "MAT-EST-031",
+      "MAT-EST-032"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Definir o objetivo de previsão, o conjunto de avaliação e a métrica antes de calcular.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  }
+]

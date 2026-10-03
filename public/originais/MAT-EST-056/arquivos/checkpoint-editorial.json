@@ -1,0 +1,29 @@
+{
+  "projeto": "Reconstrução Escolar + ENEM e Vestibulares 2027",
+  "ultimo_pacote_editorial_concluido": "MAT-EST-056",
+  "ultimo_confirmado_antes": "MAT-EST-055",
+  "titulo_ultimo": "Revisão controlada de experimentos temporais: protocolo sucessor, pré-registro e prevenção de contaminação da avaliação",
+  "etapa_atual": "pacote editorial local; sem publicação ou sincronização",
+  "proximo_topico_editorial": "MAT-EST-057",
+  "titulo_proximo_proposto": "Registro de desvios e auditoria prospectiva simulada: pendências, exclusões e relatório por coorte sem inventar alvos futuros",
+  "proximo_estado": "não iniciado",
+  "progresso_individual": "não iniciado; nenhuma tentativa registrada",
+  "modelo_e_dados": "B BASE-SNAIVE-v1, C CHAL-SDELTA5-v1; série t01–t22 fictícia preservada; t23–t25 sem observado nem emissão autenticada; t26–t33 apenas propostos",
+  "historico_protocolos": "MAT-EST-049-PROT-v1 permanece intacto; cinco de oito pares, piora t19=19,2 > guarda=10, não promover C; MAT-EST-051-PLAN-v1 não executado",
+  "sucessor": "MAT-EST-056-PROT-SUC-v1 é rascunho editorial local, sem depósito, emissões, observado ou aprovação; alvo proposto t26–t33 sob condições futuras",
+  "casos_isolados": "V e Z são exemplos de vintages, fora dos denominadores",
+  "arquivos_invariantes_herdados_sha256": 23,
+  "nao_alegar": [
+    "pré-registro externo",
+    "observação t23–t33",
+    "emissão autenticada futura",
+    "reversão da guarda antiga",
+    "autorização humana",
+    "publicação web",
+    "sincronização com Google Drive ou GitHub",
+    "teste manual Edge",
+    "reprodução integral do vídeo",
+    "estudo pessoal realizado"
+  ],
+  "material_integracao": "MAT-EST-056-pacote-integracao.zip"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "MAT-EST-056-PROT-SUC-v1",
+  "natureza": "proposta didática de protocolo sucessor; não submetida a registro público nem executada",
+  "estado": "rascunho_editorial_local",
+  "protocolo_historico": "MAT-EST-049-PROT-v1",
+  "altera_historico": false,
+  "justificativa": "Evidência parcial conhecida de t18 a t22 e violação irreversível da guarda de t19; novo estudo só pode obter avaliação própria em alvos posteriores e distintos.",
+  "amostra_exploratoria_ja_examinada": [
+    "t18",
+    "t19",
+    "t20",
+    "t21",
+    "t22"
+  ],
+  "zona_de_quarentena": [
+    "t23",
+    "t24",
+    "t25"
+  ],
+  "motivo_quarentena": "Alvos ainda sem observado, mas cenários e projeções foram expostos no processo editorial; não os reutilizar para afirmar teste confirmatório deste novo desenho.",
+  "alvos_confirmatorios_propostos": [
+    "t26",
+    "t27",
+    "t28",
+    "t29",
+    "t30",
+    "t31",
+    "t32",
+    "t33"
+  ],
+  "requisito_previo": "obter e validar y23,y24,y25 para cálculo futuro, congelar versão dos dados e modelos antes de qualquer observação de t26; exigir comprovação temporal independente na execução real",
+  "primeira_origem_potencial": "t25, apenas quando y25 e todos os pré-requisitos necessários estiverem validados",
+  "horizonte": 1,
+  "unidade": "unidades fictícias",
+  "ciclo_sazonal": 4,
+  "referencia": {
+    "id": "BASE-SNAIVE-v1",
+    "regra": "B_t = y_(t-4)"
+  },
+  "desafiante": {
+    "id": "CHAL-SDELTA5-v1",
+    "regra": "C_t = y_(t-4) + (1/5) * soma, j=t-5..t-1, de [y_j - y_(j-4)]"
+  },
+  "erro": "e = y_t - previsao; positivo significa subprevisão",
+  "metricas": {
+    "primaria": "MAE por oito pares elegíveis no mesmo horizonte",
+    "secundaria": "custo medio por oito pares, C(e)=3 max(e,0)+max(-e,0)",
+    "seguranca": "piora local absoluta |e_C|-|e_B|"
+  },
+  "criterios_didaticos_congelaveis_antes_execucao": {
+    "amostra_minima": 8,
+    "reducao_minima_MAE_pct": 20,
+    "reducao_minima_custo_pct": 20,
+    "piora_local_maxima": 10,
+    "qualidade_auditada": true,
+    "autorizacao_humana_real_e_rollback": true
+  },
+  "elegibilidade": "um par por alvo t26..t33, mesmo corte informacional e versões de modelos; previsões emitidas antes do observado e prova de ordem temporal; observado validado e com versão; sem duplicar alvo",
+  "ausencia_ou_atraso": "marcar pendente; não usar zero, não alterar denominador silenciosamente, não substituir alvos retroativamente; pausar conclusão até critérios definidos",
+  "versoes": "retificações de dado atualizam relatório auditável sem sobrescrever vintage anterior; alterações em modelo/regra criam novo ID e nova avaliação prospectiva; análises não planejadas são exploratórias",
+  "papel_documental": "identidade, algoritmo, corte, dependências, hash, ordem temporal, responsáveis, auditoria e relatório por alvo",
+  "public_registry": {
+    "status": "não submetido",
+    "osf_id": null,
+    "public_timestamp": null,
+    "external_signature": null
+  },
+  "new_forecast_emissions": 0,
+  "new_target_observations": 0,
+  "human_authorisations": 0,
+  "exames": "aprofundamento/ponte universitária; competências gerais de interpretação transferíveis, sem alegar exigência oficial de preregistro no vestibular"
+}

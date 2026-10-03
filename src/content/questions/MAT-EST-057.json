@@ -1,0 +1,867 @@
+[
+  {
+    "id": "MAT-EST-057-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Oito tarefas foram planejadas, duas têm pares avaliáveis e seis estão pendentes. Escreva a identidade entre os três números.",
+    "answer": "8 = 2 + 6.",
+    "resolution": "A contagem preserva todas as tarefas e identifica o subconjunto que pode entrar na métrica.",
+    "errorReasons": [
+      "cálculo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "O que diferencia o zero de um valor observado ausente?",
+    "answer": "Zero é valor numérico medido; ausente é informação indisponível.",
+    "resolution": "Uma lacuna não gera e=0 nem uma observação com valor 0.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Na coorte proposta t26–t33, quantos resultados observados e emissões autenticadas existem?",
+    "answer": "Zero observações, zero emissões autenticadas.",
+    "resolution": "São oito alvos previstos apenas no desenho local; não há dados prospectivos executados.",
+    "errorReasons": [
+      "memória\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "A sigla MAE mede que quantidade e qual o denominador correto?",
+    "answer": "Média dos módulos dos erros; número de pares elegíveis.",
+    "resolution": "Somam-se |y−previsão| para cada par válido, dividindo pela quantidade dessas tarefas, não pelo total planejado.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "O que ocorreu historicamente em t19 e por que ele não pode ser apagado?",
+    "answer": "Piora local de C de 19,2, acima da guarda dez.",
+    "resolution": "Os dados já examinados e a regra MAT-EST-049-PROT-v1 permanecem imutáveis; remover falha após vê-la contaminaria a análise.",
+    "errorReasons": [
+      "interpretação\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "S05 possui apenas observação provisória. É automaticamente par validado?",
+    "answer": "Não. Continua pendente no corte.",
+    "resolution": "Precisa cumprir a política de vintage e validação antes do escore; guardar provisória é distinto de usá-la.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "O que é um desvio metodológico, em uma frase?",
+    "answer": "Diferença documentada entre o procedimento planejado e o efetivamente seguido.",
+    "resolution": "A ocorrência tem motivo, alcance, relação com o plano, estado e tratamento no relatório.",
+    "errorReasons": [
+      "memória\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Por que EXEMPLO-V e EXEMPLO-Z não entram no denominador da série principal?",
+    "answer": "São casos isolados para ensinar versionamento.",
+    "resolution": "Não partilham a coorte, o mesmo alvo, a emissão nem a elegibilidade da avaliação principal.",
+    "errorReasons": [
+      "interpretação\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Calcule dois dividido por oito em porcentagem.",
+    "answer": "25%.",
+    "resolution": "2/8=1/4=0,25; multiplicar por cem dá vinte e cinco por cento.",
+    "errorReasons": [
+      "cálculo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Um hash SHA-256 local prova por si só que o plano foi registrado antes do resultado?",
+    "answer": "Não.",
+    "resolution": "Hash comprova correspondência de bytes com um resumo fornecido, não data, autoria ou depósito externo independente.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Seis dos oito cartões estão pendentes. Qual percentual é esse e o que não significa?",
+    "answer": "75% pendentes; não significa taxa de erro de modelo.",
+    "resolution": "6/8×100=75%; falta de elegibilidade é fluxo de dados, não erro preditivo.",
+    "errorReasons": [
+      "cálculo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Em S01, os erros assinados B=+4 e C=+3. Calcule os módulos.",
+    "answer": "4 e 3 unidades.",
+    "resolution": "O módulo elimina o sinal, preservando a distância entre observado e previsto.",
+    "errorReasons": [
+      "cálculo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Em S02, B=−2 e C=−5. Calcule a piora absoluta de C em relação a B.",
+    "answer": "3 unidades.",
+    "resolution": "|−5|−|−2|=5−2=3. S02 é sandbox e não altera t19.",
+    "errorReasons": [
+      "cálculo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Use S01 e S02 para calcular MAE de B.",
+    "answer": "3 unidades.",
+    "resolution": "(|4|+|−2|)/2=(4+2)/2=3; os seis casos pendentes não entram no denominador.",
+    "errorReasons": [
+      "cálculo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Use S01 e S02 para calcular MAE de C.",
+    "answer": "4 unidades.",
+    "resolution": "(|3|+|−5|)/2=(3+5)/2=4, limitado aos dois cartões avaliáveis.",
+    "errorReasons": [
+      "cálculo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "A regra C(e)=3max(e,0)+max(−e,0). Quanto custa B em S01 e S02 e qual a média?",
+    "answer": "S01 custa 12, S02 custa 2; média 7 pontos.",
+    "resolution": "Erro +4 gera 3×4=12; −2 gera 2; (12+2)/2=7.",
+    "errorReasons": [
+      "cálculo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Calcule custos e média para C, erros +3 e −5.",
+    "answer": "9 e 5; média 7 pontos.",
+    "resolution": "Subprevisão +3 custa 9 e superprevisão −5 custa 5; 14/2=7.",
+    "errorReasons": [
+      "cálculo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "O relatório A tem 2 avaliáveis/6 pendentes. Uma observação tardia S04 é validada em relatório B e havia emissão elegível. Como ficam as contagens?",
+    "answer": "A permanece 2/6; B registra 3/5, se a política permitir.",
+    "resolution": "A nova fotografia não sobrescreve A; cada corte informa sua elegibilidade. Não se atribui erro sem valores.",
+    "errorReasons": [
+      "estratégia\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Uma proposta quer excluir S02 após verificar que nele C foi pior. Pode chamar isso de regra inicial?",
+    "answer": "Não; trata-se de alteração pós-resultado ou exploração.",
+    "resolution": "Uma regra de exclusão criada depois de conhecer o resultado não pode ser rotulada retrospectivamente como pré-fixada.",
+    "errorReasons": [
+      "interpretação\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Seis erros pendentes não têm limite justificado, existe um teto finito garantido para MAE final dos oito cartões?",
+    "answer": "Não.",
+    "resolution": "Erros ainda ausentes podem ter módulos arbitrariamente grandes; qualquer teto depende de premissa extra explícita.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Questão autoral em estilo de vestibular. Uma manchete afirma: “O modelo acertou 25% das previsões” porque somente 2 de 8 cartões são avaliáveis. Identifique o salto lógico.",
+    "answer": "Os 25% medem disponibilidade, não acerto.",
+    "resolution": "Numerador dois indica pares prontos, não previsões dentro de tolerância nem erro menor que limiar.",
+    "errorReasons": [
+      "interpretação\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Questão autoral em estilo de vestibular. Um CSV usa 0 para os seis observados ausentes e anuncia MAE de B 0,75. Qual pressuposto indevido foi embutido?",
+    "answer": "Tratar os seis casos não avaliáveis como seis erros iguais a zero.",
+    "resolution": "Somar |4|+|−2| e dividir por oito presume erros zero desconhecidos; o MAE dos dois elegíveis é três.",
+    "errorReasons": [
+      "estratégia\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Questão autoral em estilo de vestibular. Um auditor soma cinco pares t18–t22 com os cartões S01 e S02. Por que sete não é denominador legítimo de um novo teste?",
+    "answer": "Os cinco são resultados conhecidos de outro protocolo e os cartões são ficção separada.",
+    "resolution": "Escopo, origem, dados e regra diferem; uma média agregada misturaria populações incompatíveis.",
+    "errorReasons": [
+      "interpretação\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Questão autoral em estilo de vestibular. S06 tem duas previsões com versões conflitantes, mas a observação está validada. É permitido escolher a que dá menor erro?",
+    "answer": "Não. Quarentenar e reconstruir a versão válida pela política anterior.",
+    "resolution": "Escolher após ver y introduz uso de informação do alvo na seleção.",
+    "errorReasons": [
+      "estratégia\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Questão autoral em estilo de vestibular. A fotografia A foi emitida com dois avaliáveis; semanas depois chega dado válido de S04. Redija a regra de publicação de B.",
+    "answer": "Preservar A, registrar a nova versão B, corte, evento de chegada, elegibilidade e diferença de contagens.",
+    "resolution": "Sem apagar vintage anterior e sem mudar silenciosamente os critérios confirmatórios.",
+    "errorReasons": [
+      "interpretação\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Questão autoral em estilo de vestibular. Qual a diferença entre análise de sensibilidade com teto |erro|≤10 e intervalo de confiança?",
+    "answer": "A primeira calcula consequências condicionais de premissa arbitrária; a segunda exige modelo/inferência estatística adequados.",
+    "resolution": "Uma hipótese M=10 não gera probabilidade de cobertura nem mede distribuição populacional.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Questão autoral em estilo de vestibular. Com soma dos módulos B=6 em dois casos e teto didático M=10 para seis pendentes, calcule limites para MAE de oito.",
+    "answer": "Entre 0,75 e 8,25 unidades, condicionalmente.",
+    "resolution": "Mínimo 6/8; máximo (6+6×10)/8=66/8=8,25; teto não foi demonstrado.",
+    "errorReasons": [
+      "cálculo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Questão autoral em estilo de vestibular. Para C, soma dos módulos é oito; repita limites usando M=10.",
+    "answer": "Entre 1 e 8,5 unidades, condicionalmente.",
+    "resolution": "Mínimo 8/8=1; máximo (8+6×10)/8=68/8=8,5.",
+    "errorReasons": [
+      "cálculo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Questão autoral em estilo de vestibular. O custo médio demonstrativo empata em sete pontos, embora MAE B seja três e MAE C seja quatro. É contradição?",
+    "answer": "Não. As métricas possuem funções de perda diferentes.",
+    "resolution": "Custo penaliza mais o erro positivo; módulos ignoram direção, então médias podem empatar ou inverter.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Questão autoral em estilo de vestibular. Redija a conclusão tecnicamente permitida sobre t26–t33 no atual checkpoint.",
+    "answer": "Oito alvos só propostos, sem emissão ou observado autenticados; nenhuma métrica futura calculável e nenhum parecer de desempenho.",
+    "resolution": "Planejamento não gera amostra medida. O histórico t19 continua barrando promoção sob o protocolo antigo.",
+    "errorReasons": [
+      "interpretação\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Sem consultar a aula, explique em três frases a diferença entre coorte histórica, quarentena e sucessor proposto.",
+    "answer": "Histórico tem cinco pares conhecidos t18–t22. Quarentena t23–t25 não tem observado e contém cenários expostos. Sucessor t26–t33 tem apenas oito alvos propostos, sem resultados.",
+    "resolution": "A distinção preserva independência temporal e impede transferir métricas de um escopo a outro.",
+    "errorReasons": [
+      "memória\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Em um novo sandbox inventado, 12 tarefas foram planejadas: quatro avaliáveis, cinco pendentes e três excluídas por regra previamente fixada. Confira a identidade e as porcentagens.",
+    "answer": "12=4+5+3; 33,33% avaliáveis; 41,67% pendentes; 25% excluídas, aproximadamente.",
+    "resolution": "4/12, 5/12 e 3/12 somam 100%; exclusões não se confundem com dados faltantes.",
+    "errorReasons": [
+      "cálculo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Novo reteste: erros assinados +2, −4 e +1. Calcule MAE e custo médio na regra assimétrica.",
+    "answer": "MAE=7/3≈2,333 unidades; custo médio=(6+4+3)/3=13/3≈4,333 pontos.",
+    "resolution": "Módulos 2+4+1=7; custo positivo vezes três e negativo pelo módulo.",
+    "errorReasons": [
+      "cálculo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Se um resultado corrigido passa de 40 para 44 para o mesmo alvo, quantos alvos existem e como guardar dados?",
+    "answer": "Um alvo, duas versões ou vintages.",
+    "resolution": "Preservar valor original, evento de correção, motivo, versão e fotografia recalculada; não duplicar o denominador.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Um analista usa os seis dados ausentes como zero e produz custo médio. Qual alerta você registraria?",
+    "answer": "Métrica indevida por imputação não prevista de ausência como zero; deixar a avaliação pendente e corrigir denominador.",
+    "resolution": "O custo não existe sem erro definido; documentar ocorrência e retificar versão do relatório sem apagá-la.",
+    "errorReasons": [
+      "estratégia\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-057-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-057"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Explique por que um registro SHA-256 local e um diário com datas digitadas não provam por si só pré-registro externo.",
+    "answer": "Hash protege comparação de conteúdo; a data textual pode ter sido escrita depois. Falta testemunho temporal independente e evidência de depósito/identidade.",
+    "resolution": "Separar controle de integridade local de certificação de existência prévia e de execução efetiva.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  }
+]

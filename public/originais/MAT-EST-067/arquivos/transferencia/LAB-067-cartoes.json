@@ -1,0 +1,55 @@
+{
+  "id": "LAB-067",
+  "origem": "exercicio_autoral_ficticio_isolado",
+  "contexto": "demanda artificial de kits por ciclo; horizonte h1; previsões tratadas como fixas antes dos observados informados; sem datas ou emissões reais",
+  "politica_custo_ficticia": {
+    "erro_positivo_por_unidade": 3,
+    "erro_negativo_por_unidade": 1
+  },
+  "guarda_ficticia": "piora C menos B em erro absoluto por tarefa <=0,5 kit, hipoteticamente pré-declarada",
+  "observacoes_ausentes": "motivos desconhecidos; não inventar valores",
+  "cartoes": [
+    {
+      "id": "LAB-067-D01",
+      "prev_B": 21,
+      "prev_C": 23,
+      "observado": 24,
+      "status": "avaliavel"
+    },
+    {
+      "id": "LAB-067-D02",
+      "prev_B": 20,
+      "prev_C": 17,
+      "observado": 18,
+      "status": "avaliavel"
+    },
+    {
+      "id": "LAB-067-D03",
+      "prev_B": 26,
+      "prev_C": 33,
+      "observado": 30,
+      "status": "avaliavel"
+    },
+    {
+      "id": "LAB-067-D04",
+      "prev_B": 15,
+      "prev_C": 18,
+      "observado": 16,
+      "status": "avaliavel"
+    },
+    {
+      "id": "LAB-067-D05",
+      "prev_B": 22,
+      "prev_C": 21,
+      "observado": null,
+      "status": "pendente_observado"
+    },
+    {
+      "id": "LAB-067-D06",
+      "prev_B": 25,
+      "prev_C": 23,
+      "observado": null,
+      "status": "pendente_observado"
+    }
+  ]
+}

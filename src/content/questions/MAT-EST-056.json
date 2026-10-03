@@ -1,0 +1,866 @@
+[
+  {
+    "id": "MAT-EST-056-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "O que deve receber novo identificador: uma nova regra de avaliação ou uma correção da escrita de uma explicação?",
+    "answer": "Uma nova regra de avaliação deve ter novo identificador; correção editorial sem efeito metodológico pode receber revisão textual rastreada.",
+    "resolution": "Identificador de protocolo define compromissos de avaliação; corrigir ortografia não deve fingir que os compromissos mudaram.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Qual é o identificador preservado do protocolo histórico?",
+    "answer": "MAT-EST-049-PROT-v1.",
+    "resolution": "Esse ID registra critérios fixados para t18–t25. Ele não será editado para favorecer uma nova avaliação.",
+    "errorReasons": [
+      "memória\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Quantos pares já foram examinados no protocolo antigo e em quais alvos?",
+    "answer": "Cinco pares fictícios, de t18 a t22.",
+    "resolution": "Contar alvos distintos t18,t19,t20,t21,t22; os alvos restantes t23–t25 ainda não têm observação.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Explique por que t23–t25 são colocados em quarentena no desenho sucessor.",
+    "answer": "São alvos sem observado, porém seus cenários e projeções já foram expostos no processo editorial.",
+    "resolution": "Quarentena é escolha conservadora para evitar apresentar as hipóteses examinadas nesses alvos como teste novo independente; o plano antigo permanece separado.",
+    "errorReasons": [
+      "interpretação\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Quais são os oito alvos exclusivamente propostos para o sucessor?",
+    "answer": "t26,t27,t28,t29,t30,t31,t32,t33.",
+    "resolution": "Dois blocos de quatro períodos dão oito alvos diferentes, nenhum ainda observado ou previsto por emissão registrada.",
+    "errorReasons": [
+      "memória\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Uma previsão calculada hoje a partir de dados já divulgados equivale a uma emissão autenticada em data histórica?",
+    "answer": "Não.",
+    "resolution": "Cálculo retrospectivo não demonstra que os bytes, a origem e a versão existiam antes do alvo; exige-se evidência externa de ordem temporal.",
+    "errorReasons": [
+      "interpretação\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Escreva a convenção de sinal do erro.",
+    "answer": "e = observado − previsto; e positivo significa subprevisão.",
+    "resolution": "Comparar y com estimativa: quando observado supera o previsto, a subtração é positiva.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "O que representa uma observação futura ainda não recebida na base de avaliação?",
+    "answer": "Estado pendente, nunca valor zero automático.",
+    "resolution": "Imputar zero cria artificialmente erro e distorce numerador e denominador sem regra legítima.",
+    "errorReasons": [
+      "estratégia\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "É permitido adicionar EXEMPLO-V e EXEMPLO-Z à amostra principal?",
+    "answer": "Não.",
+    "resolution": "São casos didáticos isolados de retificação; não são as mesmas tarefas nem emissões elegíveis da série principal.",
+    "errorReasons": [
+      "interpretação\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Um hash de um arquivo local prova hora de publicação externa e autoria pessoal?",
+    "answer": "Não.",
+    "resolution": "Hash comprova igualdade de bytes em relação ao conteúdo calculado; autenticação temporal e autoria requerem evidência e controles externos.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Calcule a proporção dos cinco pares disponíveis em relação aos oito requeridos pelo protocolo antigo.",
+    "answer": "5/8 = 0,625 = 62,5%.",
+    "resolution": "Dividir cinco por oito e multiplicar por cem; isso mede completude numérica, não validação de qualidade.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Na origem t18, B tem erro absoluto 4 e C tem 23,2. Calcule a piora local.",
+    "answer": "23,2 − 4 = 19,2 unidades.",
+    "resolution": "A piora é módulo C menos módulo B. Como 19,2 supera 10, a guarda histórica falhou.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Calcule a redução percentual do MAE se B=17,60 e C=8,36 nos cinco pares fictícios.",
+    "answer": "(17,60−8,36)/17,60 × 100 = 52,5%.",
+    "resolution": "A diferença é 9,24. Dividida por 17,60 é 0,525. Esse indicador parcial não reverte a guarda.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Calcule a redução percentual do custo médio se B=51,20 e C=14,92.",
+    "answer": "(51,20−14,92)/51,20 × 100 = 70,859375%, aproximadamente 70,86%.",
+    "resolution": "Diferença 36,28 dividida por 51,20 e multiplicada por cem. Trata-se de regra de custo fictícia.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Em exemplo independente, y=110, B=105 e C=112. Calcule erros assinados.",
+    "answer": "eB = +5; eC = −2.",
+    "resolution": "Pela definição observado menos previsto: 110−105=5; 110−112=−2. Não é um alvo t26–t33.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "No mesmo exemplo independente, calcule o custo com peso 3 na subprevisão e 1 na superprevisão.",
+    "answer": "CB = 15 pontos; CC = 2 pontos.",
+    "resolution": "Para +5 a regra dá 3×5=15; para −2 dá módulo 2×1=2.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Se a avaliação do sucessor especifica oito pares e somente sete têm observação validada, pode divulgar resultado confirmatório completo?",
+    "answer": "Não. O estado é pendente sob a regra proposta.",
+    "resolution": "Relatar sete de oito e motivo da ausência. Não diminuir silenciosamente denominador nem usar zero para fabricar o oitavo.",
+    "errorReasons": [
+      "estratégia\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Um registro é preenchido depois de observar y26, mas alega que a previsão havia sido emitida antes. Qual problema?",
+    "answer": "Ausência de prova temporal e possível vazamento informacional.",
+    "resolution": "Sem log autenticado anterior ao alvo, não há evidência de previsão externa genuína; a ficha posterior deve ser tratada como reconstrução.",
+    "errorReasons": [
+      "interpretação\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Se uma atualização de observação muda o custo de um mesmo par, o modelo deve ser reescrito?",
+    "answer": "Não. Congelar emissão e versionar observado/avaliação.",
+    "resolution": "A previsão original representa informação na origem. Retificação muda a versão do alvo usado na conta; guardar ambas as fotografias.",
+    "errorReasons": [
+      "estratégia\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Uma nova análise pós-resultado pode constar do relatório de um protocolo já congelado?",
+    "answer": "Sim, se marcada explicitamente como exploratória e sem alterar a conclusão confirmatória.",
+    "resolution": "Registrar razão, data e diferença entre regras antigas e novas; a fronteira depende de quando a hipótese foi fixada.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma equipe elimina t19 após ler o resultado, e chama o MAE reduzido de teste independente. Identifique a contaminação.",
+    "answer": "Exclusão pós-resultado para favorecer o modelo, com reclassificação indevida como confirmatória.",
+    "resolution": "A regra antiga inclui t19, cuja falha local deve permanecer. Pode analisar sem t19 exploratoriamente, com rótulo, jamais apagar o teste histórico.",
+    "errorReasons": [
+      "estratégia\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um novo estudo com oito alvos ainda não vistos conserva os algoritmos antigos. Por que necessita de novo ID de protocolo?",
+    "answer": "Porque amostra, coorte e momento de compromisso são novos; o histórico fracassado não pode ser reescrito.",
+    "resolution": "Modelos podem ter os mesmos IDs, mas o conjunto de condições e a decisão são outra unidade de investigação.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "A referência usa y(t−4) na origem t−1. Quais dados são necessários para previsão do alvo t26?",
+    "answer": "y22 para B26, e para a variante C26 precisam-se diferenças dos índices j=t21 a t25, com observações até t25, incluindo y23–y25.",
+    "resolution": "B26=y22. C26=y22 + média das diferenças sazonais j21..25; exige y25 e observados antecessores. Não inventar C26 numérica agora.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma pessoa ajusta o peso assimétrico de 3 para 5 após ver um resultado e usa o novo custo como métrica confirmatória original. Classifique.",
+    "answer": "Desvio pós-resultado; métrica nova é exploratória ou exige protocolo sucessor prospectivo.",
+    "resolution": "Preservar o custo com peso três no protocolo antigo; peso cinco só pode entrar com rótulo novo e registro anterior aos alvos de teste novo.",
+    "errorReasons": [
+      "estratégia\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um caso de t27 traz dado preliminar e depois versão validada. Como deve entrar no MAE confirmatório proposto?",
+    "answer": "Usar a versão validada pré-especificada, uma vez por alvo, preservando a preliminar para auditoria.",
+    "resolution": "A unidade do denominador é a tarefa/ alvo elegível, não cada versão disponível do mesmo observado.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma previsão emitida para t26 leu y26 em um arquivo corrigido. Por que um CSV final sem timestamp não resolve?",
+    "answer": "Há vazamento porque utilizou informação do próprio alvo; CSV final não demonstra a ordem de disponibilidade.",
+    "resolution": "É necessário histórico de snapshots, versões e prova temporal de emissão anterior à observação.",
+    "errorReasons": [
+      "interpretação\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um gráfico mostra MAE menor para C e guarda local maior que dez. Escreva uma conclusão de duas frases sem falsear a decisão.",
+    "answer": "C teve MAE menor na amostra fictícia descrita. Sob o protocolo com guarda máxima de dez, a violação local impede sua promoção.",
+    "resolution": "Separar média de restrição; não declarar escolha universal, significância estatística ou implantação real.",
+    "errorReasons": [
+      "interpretação\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma equipe conta t23 como par confirmado no estudo sucessor porque previu três cenários sobre ele. Qual é a falha?",
+    "answer": "Cenários não são valor observado; t23 também está fora do escopo confirmatório proposto t26–t33.",
+    "resolution": "Sem alvo validado e previsão autenticada não há par, e cenários já conhecidos motivam a separação editorial.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "No exercício independente y=110, B=105 e C=112: qual a piora local de C segundo |eC|−|eB|?",
+    "answer": "2−5=−3 unidades; C melhorou o erro absoluto em três.",
+    "resolution": "Não confundir piora negativa com piora de mais três; a guarda só barra deterioração positiva acima do limite.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um pesquisador altera critérios na metade do acompanhamento, mas mantém o mesmo documento como se fosse original. Reescreva o procedimento correto.",
+    "answer": "Manter a versão original imutável; registrar emenda datada, motivo, dados já conhecidos e período de aplicação; criar novo protocolo para uma conclusão prospectiva sob regras novas.",
+    "resolution": "A trilha precisa distinguir resultados antes/depois da mudança e análises confirmatórias versus exploratórias.",
+    "errorReasons": [
+      "estratégia\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Explique em voz alta em até quatro frases diferença entre hash local, pré-registro e previsão autenticada.",
+    "answer": "Hash verifica bytes; pré-registro registra plano anterior com evidência temporal externa; previsão autenticada prova versão e ordem antes de y-alvo.",
+    "resolution": "Esses três controles tratam perguntas distintas e nenhum deles, isoladamente, comprova sucesso do modelo.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Ao retomar após sete dias, como verificar que t19 continua no histórico?",
+    "answer": "Abrir protocolo antigo e tabela t18–t22; conferir eB=−4, eC=−23,2 e piora 19,2, preservando cinco pares.",
+    "resolution": "A revisão testa lembrança, cálculo e integridade do arquivo; não altera status da avaliação.",
+    "errorReasons": [
+      "memória\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Um relatório mostra t26–t33 marcados “sucesso” antes de observações. Como corrigir?",
+    "answer": "Substituir por “planejado; 0 emissões; 0 observações; 0 pares elegíveis”.",
+    "resolution": "Planejar alvos não materializa resultados; sucesso precisa de evidência de execução futura, versões e auditoria.",
+    "errorReasons": [
+      "interpretação\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Depois de um mês, escreva a fórmula de MAE por oito pares elegíveis e a leitura pronunciável.",
+    "answer": "MAE = (|e1|+...+|e8|)/8, se todos os oito pares elegíveis estão validados.",
+    "resolution": "É a soma dos oito módulos dos erros dividida por oito; não aplicar com menos pares sem declarar protocolo distinto.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Compare “não promover sob o protocolo antigo” com “proibir para sempre qualquer estudo do modelo C”.",
+    "answer": "São afirmações diferentes; a primeira é conclusão histórica fixa, a segunda não decorre dela.",
+    "resolution": "Novos estudos rigorosos podem ser desenhados com IDs próprios e dados futuros independentes; não apagam a avaliação antiga.",
+    "errorReasons": [
+      "interpretação\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-056-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-056"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Proponha regra para um alvo futuro que chegue após o encerramento da janela de análise.",
+    "answer": "Registrar pendência e motivo; seguir contingência declarada previamente ou abrir emenda/novo estudo, sem completar artificialmente o par.",
+    "resolution": "A decisão sobre atraso deve anteceder conhecimento seletivo dos resultados; relatar denominador e datas de versões.",
+    "errorReasons": [
+      "estratégia\n\nconteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  }
+]

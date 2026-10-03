@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc"><title id="title">Permutação exata condicionada ao desenho</title><desc id="desc">Dados A=[2,4,6], B=[8,10,12], 20 distribuições equiprováveis de rótulos e duas extremas, p de 0,10.</desc>
+<rect width="1000" height="560" fill="#f8fbfc"/>
+<text x="45" y="65" font-family="Arial,DejaVu Sans,sans-serif" font-size="29" font-weight="700" fill="#142637">Teste exato: dois grupos de três unidades</text>
+<rect x="42" y="125" width="430" height="180" rx="15" fill="#e8f4f7"/>
+<rect x="528" y="125" width="430" height="180" rx="15" fill="#fff2e7"/>
+<text x="65" y="175" font-family="Arial,DejaVu Sans,sans-serif" font-size="24" font-weight="700" fill="#146f8c">Dados observados</text>
+<text x="65" y="223" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" font-weight="400" fill="#142637">A = [2, 4, 6]; B = [8, 10, 12]</text>
+<text x="65" y="263" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="700" fill="#146f8c">Diferença A − B = −6</text>
+<text x="548" y="175" font-family="Arial,DejaVu Sans,sans-serif" font-size="24" font-weight="700" fill="#9a471b">Hipótese nula e desenho</text>
+<text x="548" y="224" font-family="Arial,DejaVu Sans,sans-serif" font-size="19" font-weight="400" fill="#142637">20 rótulos possíveis (6 escolhe 3)</text>
+<text x="548" y="264" font-family="Arial,DejaVu Sans,sans-serif" font-size="19" font-weight="400" fill="#142637">2 tão extremos quanto o observado</text>
+<rect x="130" y="355" width="740" height="95" rx="15" fill="#ffffff" stroke="#d4dce3" stroke-width="2"/>
+<text x="155" y="407" font-family="Arial,DejaVu Sans,sans-serif" font-size="29" font-weight="700" fill="#316c55">Valor-p bicaudal = 2 ÷ 20 = 0,10</text>
+</svg>

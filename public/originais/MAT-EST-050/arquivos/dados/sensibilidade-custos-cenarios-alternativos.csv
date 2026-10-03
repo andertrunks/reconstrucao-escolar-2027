@@ -1,0 +1,7 @@
+r_hipotetico,custo_medio_B_pontos,custo_medio_C_pontos,diferenca_B_menos_C_pontos,uso
+0.25,5.0,5.9,-0.9,cenario_nao_substitui_protocolo_r3
+0.5,9.2,6.72,2.48,cenario_nao_substitui_protocolo_r3
+1,17.6,8.36,9.24,cenario_nao_substitui_protocolo_r3
+2,34.4,11.64,22.76,cenario_nao_substitui_protocolo_r3
+3,51.2,14.92,36.28,cenario_nao_substitui_protocolo_r3
+5,84.8,21.48,63.32,cenario_nao_substitui_protocolo_r3

@@ -1,0 +1,890 @@
+[
+  {
+    "id": "MAT-EST-053-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "O que representa o período de referência do dado?",
+    "answer": "Período descrito pela medida.",
+    "resolution": "Não é necessariamente o momento em que o número foi divulgado.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Na simulação V, quando se tornam disponíveis 40 e 44?",
+    "answer": "40 em L12; 44 em L13.",
+    "resolution": "L10 contém somente as previsões inventadas e congeladas.",
+    "errorReasons": [
+      "memória\n\ninterpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Em L11, que observação do alvo V está disponível?",
+    "answer": "Nenhuma.",
+    "resolution": "L12 é o primeiro recebimento no exemplo. Não imputar zero.",
+    "errorReasons": [
+      "conteúdo\n\ndistração"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Qual é a qualidade de 40 e de 44 em V?",
+    "answer": "40 preliminar; 44 validado.",
+    "resolution": "A correção referencia o ID da preliminar e conserva a história.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Previsão B42 e observado 40: qual o erro assinado?",
+    "answer": "−2.",
+    "resolution": "Erro = 40 − 42; sinal negativo significa superprevisão.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Previsão C43 e observado 44: qual o erro assinado?",
+    "answer": "+1.",
+    "resolution": "Erro = 44 − 43; sinal positivo significa subprevisão.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Um dado faltante deve entrar como zero no MAE?",
+    "answer": "Não.",
+    "resolution": "Sem política de imputação justificada e sem observação, o par não é avaliável.",
+    "errorReasons": [
+      "conteúdo\n\nestratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Duas revisões do mesmo alvo contam como dois alvos?",
+    "answer": "Não.",
+    "resolution": "Cada fotografia/política seleciona no máximo uma versão elegível por alvo.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Qual campo vincula uma correção ao registro anterior?",
+    "answer": "corrects_observation_id (ou equivalente).",
+    "resolution": "Guarda explicitamente a linhagem sem apagar v1.",
+    "errorReasons": [
+      "memória"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "O hash sozinho prova data passada da emissão?",
+    "answer": "Não.",
+    "resolution": "Ele verifica integridade relativa aos bytes/referência; não autentica por si só tempo ou autor.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Calcule módulos de B42 e C43 com v1=40.",
+    "answer": "B=2; C=3.",
+    "resolution": "|40−42|=2 e |40−43|=3.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Calcule módulos de B42 e C43 com v2=44.",
+    "answer": "B=2; C=1.",
+    "resolution": "|44−42|=2 e |44−43|=1.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Com custo 3 para erro positivo e 1 para negativo, calcule custos em v1=40.",
+    "answer": "B=2; C=3 pontos.",
+    "resolution": "Ambos os erros são negativos: −2 e −3.",
+    "errorReasons": [
+      "cálculo\n\nconteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Sob a mesma regra, custos em v2=44?",
+    "answer": "B=6; C=3 pontos.",
+    "resolution": "Erros +2 e +1: 3×2=6 e 3×1=3.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Por que não substituir previsão B42 por B44 após saber o resultado?",
+    "answer": "Isso seria adulteração da previsão original/vazamento.",
+    "resolution": "A previsão é congelada antes de conhecer o observado; avaliação nova usa o valor previsto antigo.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Cinco pares elegíveis entre oito planejados: completude?",
+    "answer": "5/8=62,5%.",
+    "resolution": "O denominador da completude é oito alvos planejados.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Se cinco módulos são 2,3,4,1,5, calcule MAE.",
+    "answer": "3 unidades.",
+    "resolution": "Soma=15, dividida por cinco pares, não por oito alvos ou sete arquivos.",
+    "errorReasons": [
+      "cálculo\n\nestratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Se o terceiro módulo vira 2 por revisão, qual novo MAE?",
+    "answer": "2,6 unidades.",
+    "resolution": "Nova soma 2+3+2+1+5=13 e 13/5=2,6; registrar nova versão do relatório.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Defina VALIDATED_AS_OF em L12 para EXEMPLO-V.",
+    "answer": "Nenhum alvo validado elegível.",
+    "resolution": "40 é preliminar e 44 só aparece em L13.",
+    "errorReasons": [
+      "interpretação\n\nestratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "EXEMPLO-Z tem previsão29, preliminar30, validado32. Quais erros e custos?",
+    "answer": "v1 erro+1 custo3; v2 erro+3 custo9.",
+    "resolution": "Usa observado menos 29 e penalização três por subprevisão; v1 não conta no escore final.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma reportagem compara o resultado calculado com última revisão a decisão original. Qual ressalva quantitativa falta?",
+    "answer": "A fotografia disponível na data da decisão, bem como versão e corte.",
+    "resolution": "Não se pode atribuir retroativamente ao decisor um dado conhecido apenas depois.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um painel divulga sete arquivos para cinco alvos e diz 7/8 de completude. Reescreva.",
+    "answer": "5/8=62,5% de alvos elegíveis; sete arquivos incluem duas revisões.",
+    "resolution": "Arquivos e unidades de observação não são intercambiáveis.",
+    "errorReasons": [
+      "estratégia\n\ncálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um analista escolhe 40 para favorecer B e 44 para favorecer C. Que problema existe?",
+    "answer": "Escolha oportunista de versão depois de ver os resultados.",
+    "resolution": "Fixar previamente uma política; mostrar avaliações e cortes transparentemente.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Se a versão mais recente em L13 é 44, ela pode alimentar previsão congelada em L10?",
+    "answer": "Não.",
+    "resolution": "Seria vazamento de informação posterior, mesmo que o dado se refira ao mesmo período.",
+    "errorReasons": [
+      "conteúdo\n\ninterpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Em v1 B módulo2 C módulo3; em v2 B módulo2 C módulo1. Que conclusão é justificada?",
+    "answer": "A ordenação local muda ao trocar o observado usado na avaliação, sem melhoria demonstrada de previsão.",
+    "resolution": "As previsões são idênticas nos dois relatórios; só a versão observada mudou.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Qual documento precisa manter a regra 3:1 se uma auditoria recalcular o histórico MAT-EST-049?",
+    "answer": "MAT-EST-049-PROT-v1, intacto.",
+    "resolution": "Alterar pesos retroativamente seria trocar o protocolo. Cenários novos devem ser rotulados.",
+    "errorReasons": [
+      "memória\n\nestratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "O resultado C tem MAE 8,36 versus B17,60 nos cinco pares. Isso autoriza promoção?",
+    "answer": "Não.",
+    "resolution": "Restam três pares e t19 já violou a guarda: 23,2−4=19,2>10; faltam auditoria e aprovação.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um arquivo apresenta hash, mas não fonte e carimbo confiável de emissão. Pode provar previsão anterior?",
+    "answer": "Não.",
+    "resolution": "Integridade de bytes não autentica a disponibilidade temporal ou a autoria.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Exponha quatro informações para reproduzir um MAE revisado.",
+    "answer": "IDs de previsões, IDs de observações/versões, corte/política, versão do cálculo e denominador (ao menos).",
+    "resolution": "Sem esses elementos é impossível reconstruir com segurança o conjunto avaliável.",
+    "errorReasons": [
+      "memória\n\nestratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Escreva em duas frases parecer sobre alvos t23–t25 após MAT-EST-053.",
+    "answer": "Ainda não existem observações registradas nem emissões autenticadas de t23 a t25. Os casos V/Z são ensaios isolados, e a guarda t19 impede promoção no protocolo herdado.",
+    "resolution": "Não converter cenários e recálculos ilustrativos em evidência prospectiva.",
+    "errorReasons": [
+      "interpretação\n\nestratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-053-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "No corte L11 de V, o valor 44 está disponível?",
+    "answer": "Não; nenhuma observação está disponível.",
+    "resolution": "Primeira publicação simulada é L12 e correção L13.",
+    "errorReasons": [
+      "memória"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-053-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Se previsão12 e observado validado9, calcule erro e custo assimétrico 3:1.",
+    "answer": "Erro −3; custo 3.",
+    "resolution": "Superprevisão é erro negativo, cobra uma unidade por unidade.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-053-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Uma versão preliminar 11 corrigida para 15, previsão 12. Calcule erros nas duas versões.",
+    "answer": "−1 e +3.",
+    "resolution": "11−12=−1 e 15−12=+3; conservar previsão original.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-053-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Quatro alvos elegíveis, seis arquivos por duas revisões. Qual divisor do MAE?",
+    "answer": "Quatro.",
+    "resolution": "Unidade da métrica é alvo elegível, não total de versões.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-053-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Uma correção altera dado de entrada de uma previsão que já foi emitida. Como documentar?",
+    "answer": "Conservar a fotografia e previsão original; criar análise contrafactual/reprocessada rotulada com nova ID e justificativa.",
+    "resolution": "Não fingir que a previsão passada recebeu a nova informação.",
+    "errorReasons": [
+      "conteúdo\n\nestratégia"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-053-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-053"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Qual fato impede promoção em MAT-EST-049 independentemente de melhorias médias futuras?",
+    "answer": "A quebra da guarda no alvo t19: 19,2 unidades de piora local > limite 10 no protocolo v1.",
+    "resolution": "Uma regra cumulativa já violada não é apagada por médias ou por dados de ensaio separado.",
+    "errorReasons": [
+      "memória\n\ninterpretação"
+    ],
+    "source": {
+      "title": "MAT-EST-053-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1uSB4YJoZtmoi44Vwfwec49YXa9CPhVRo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  }
+]

@@ -1,0 +1,451 @@
+[
+  {
+    "id": "MAT-EST-037-EX-APR-01",
+    "resposta": "População: todos os moradores adultos; amostra: os 120 entrevistados.",
+    "resolucao": [
+      "População é o conjunto sobre o qual se quer concluir.",
+      "A amostra reúne apenas as unidades observadas; seleção e cobertura ainda precisam ser avaliadas."
+    ],
+    "motivoErro": "Confundir população com pessoas efetivamente entrevistadas."
+  },
+  {
+    "id": "MAT-EST-037-EX-APR-02",
+    "resposta": "54/100 = 0,54 = 54%; não se conhece exatamente o parâmetro da população.",
+    "resolucao": [
+      "Divida 54 por 100 e converta para porcentagem.",
+      "Uma frequência amostral é estimativa, não prova de prevalência populacional."
+    ],
+    "motivoErro": "Apresentar estatística amostral como parâmetro exato."
+  },
+  {
+    "id": "MAT-EST-037-EX-APR-03",
+    "resposta": "5 unidades.",
+    "resolucao": [
+      "Some 2+4+6+8 = 20.",
+      "Divida por quatro registros: 20/4 = 5."
+    ],
+    "motivoErro": "Dividir pela soma em vez do número de observações."
+  },
+  {
+    "id": "MAT-EST-037-EX-APR-04",
+    "resposta": "4 unidades ao quadrado.",
+    "resolucao": [
+      "Média: 4. Desvios: -2, 0 e +2.",
+      "Soma dos quadrados: 8; divida por n-1=2."
+    ],
+    "motivoErro": "Usar divisor n na variância amostral usual."
+  },
+  {
+    "id": "MAT-EST-037-EX-APR-05",
+    "resposta": "12/√36 = 2 unidades.",
+    "resolucao": [
+      "A raiz de 36 é seis.",
+      "Divida 12 por seis; a fórmula exige o desenho e a independência assumidos."
+    ],
+    "motivoErro": "Dividir 12 por 36 em vez de sua raiz."
+  },
+  {
+    "id": "MAT-EST-037-EX-APR-06",
+    "resposta": "[46,08; 53,92].",
+    "resolucao": [
+      "Margem: 1,96 vezes 2 = 3,92.",
+      "Subtraia e some 3,92 a 50; interprete cobertura como propriedade do procedimento sob hipóteses."
+    ],
+    "motivoErro": "Tratar 1,96 como margem completa ou afirmar que o parâmetro é aleatório."
+  },
+  {
+    "id": "MAT-EST-037-EX-APR-07",
+    "resposta": "Rejeitar uma hipótese nula verdadeira.",
+    "resolucao": [
+      "Cruze situação real com decisão.",
+      "Alfa é a taxa de erro I estabelecida pelo procedimento sob a hipótese nula, respeitadas suas condições."
+    ],
+    "motivoErro": "Inverter os erros I e II."
+  },
+  {
+    "id": "MAT-EST-037-EX-APR-08",
+    "resposta": "Não. É a probabilidade, sob H0 e o modelo assumido, de resultado tão extremo ou mais que o observado.",
+    "resolucao": [
+      "Condicione a probabilidade à hipótese nula e ao modelo.",
+      "O valor-p não é uma probabilidade posterior da hipótese nula."
+    ],
+    "motivoErro": "Inverter P(dados|H0) com P(H0|dados)."
+  },
+  {
+    "id": "MAT-EST-037-EX-APR-09",
+    "resposta": "A diferença dentro de cada pessoa (medição depois menos antes, ou convenção declarada).",
+    "resolucao": [
+      "As observações antes e depois da mesma pessoa estão vinculadas.",
+      "Calcule as diferenças individuais e analise seu conjunto."
+    ],
+    "motivoErro": "Tratar duas medidas da mesma pessoa como independentes."
+  },
+  {
+    "id": "MAT-EST-037-EX-APR-10",
+    "resposta": "Teste qui-quadrado de independência; com contagens esperadas pequenas, avaliar teste exato apropriado.",
+    "resolucao": [
+      "Identifique que ambas as variáveis são categóricas.",
+      "Verifique frequências esperadas antes de confiar na aproximação qui-quadrado."
+    ],
+    "motivoErro": "Usar correlação de Pearson diretamente em categorias nominais."
+  },
+  {
+    "id": "MAT-EST-037-EX-APR-11",
+    "resposta": "Resíduo = +5 atendimentos.",
+    "resolucao": [
+      "Subtraia 100 de 105.",
+      "O sinal positivo representa subprevisão no modelo adotado."
+    ],
+    "motivoErro": "Trocar a convenção e inverter o sinal sem aviso."
+  },
+  {
+    "id": "MAT-EST-037-EX-APR-12",
+    "resposta": "Avaliar desempenho em dados preservados, não usados para escolher ou ajustar o modelo.",
+    "resolucao": [
+      "Treino ajusta, validação auxilia a escolha, teste final avalia de forma independente.",
+      "Consultar o teste repetidamente pode contaminar a avaliação."
+    ],
+    "motivoErro": "Usar dados de teste para ajustar transformações ou escolher o modelo."
+  },
+  {
+    "id": "MAT-EST-037-EX-CON-01",
+    "resposta": "0,54 ± 1,96√(0,54×0,46/100) ≈ [0,4423; 0,6377], isto é, 44,23% a 63,77%.",
+    "resolucao": [
+      "Calcule p amostral = 54/100.",
+      "Erro-padrão estimado √(0,54×0,46/100) ≈ 0,04984.",
+      "A margem ≈ 0,09768; use apenas sob condições apropriadas e descreva o método de aproximação."
+    ],
+    "motivoErro": "Usar 54 no numerador do erro-padrão no lugar de 0,54."
+  },
+  {
+    "id": "MAT-EST-037-EX-CON-02",
+    "resposta": "Diferença 4; erro-padrão √(144/36 + 81/36) = 2,5; intervalo aproximado [-0,90; 8,90].",
+    "resolucao": [
+      "Use variâncias divididas por tamanhos separados e depois some.",
+      "Multiplicador 1,96 × 2,5 = 4,9.",
+      "O intervalo contém zero, sob o modelo e hipóteses de amostras independentes."
+    ],
+    "motivoErro": "Somar desvios-padrão em vez de variâncias dos estimadores."
+  },
+  {
+    "id": "MAT-EST-037-EX-CON-03",
+    "resposta": "Média 4; desvio-padrão amostral 2; erro-padrão = 2/√3 ≈ 1,155.",
+    "resolucao": [
+      "Média das diferenças é quatro.",
+      "Quadrados dos desvios: 4+0+4=8; divida por 2, obtendo variância 4.",
+      "Divida s=2 por raiz de três."
+    ],
+    "motivoErro": "Calcular médias separadas e ignorar vínculo dos pares."
+  },
+  {
+    "id": "MAT-EST-037-EX-CON-04",
+    "resposta": "SQ entre = 16; SQ dentro = 6; graus 2 e 3; F=(16/2)/(6/3)=4.",
+    "resolucao": [
+      "Médias por grupo: 3,5,7; média geral 5.",
+      "Entre: 2×(3−5)² + 2×0² + 2×(7−5)² = 16.",
+      "Dentro: para cada grupo quadrados de -1 e +1 somam 2; total 6.",
+      "Compare quadrados médios 8 e 2; F = 4, sem afirmar significância sem referência adequada."
+    ],
+    "motivoErro": "Confundir graus de liberdade entre e dentro."
+  },
+  {
+    "id": "MAT-EST-037-EX-CON-05",
+    "resposta": "Quatro esperados iguais a 25; χ²=4, com um grau de liberdade.",
+    "resolucao": [
+      "Cada esperado é 50×50/100=25.",
+      "Cada célula contribui (5²)/25=1; some 4.",
+      "Não conclua causalidade a partir do teste de associação."
+    ],
+    "motivoErro": "Usar observados na fórmula dos esperados."
+  },
+  {
+    "id": "MAT-EST-037-EX-CON-06",
+    "resposta": "Reta y=2x; r=+1, com variação positiva não nula em x e y.",
+    "resolucao": [
+      "Cada valor y é o dobro de x.",
+      "A relação é estritamente linear crescente; coeficiente é um.",
+      "Uma relação perfeita nos três pontos não prova mecanismo causal."
+    ],
+    "motivoErro": "Traduzir correlação perfeita diretamente em causalidade."
+  },
+  {
+    "id": "MAT-EST-037-EX-CON-07",
+    "resposta": "ŷ=25; grupo D=1: ŷ=13+3x; inclinação 3.",
+    "resolucao": [
+      "Substitua D=1, some termos fixos 10+3.",
+      "Some inclinações 2+1; em x=4, 13+12=25."
+    ],
+    "motivoErro": "Interpretar interação apenas como mudança fixa no intercepto."
+  },
+  {
+    "id": "MAT-EST-037-EX-CON-08",
+    "resposta": "Erros observado−previsto: -5,+5,+5,-5; MAE=5; RMSE=5 atendimentos.",
+    "resolucao": [
+      "Os quatro erros têm módulo 5.",
+      "MAE=20/4=5 e MSE=(25×4)/4=25; raiz =5."
+    ],
+    "motivoErro": "Não restringir os cálculos às quatro linhas de teste."
+  },
+  {
+    "id": "MAT-EST-037-EX-CON-09",
+    "resposta": "Erros 0,0,0,-25; MAE=6,25; RMSE=12,5 atendimentos.",
+    "resolucao": [
+      "Somatório absoluto 25 dividido por 4 = 6,25.",
+      "Somatório de quadrados 625/4 = 156,25; raiz = 12,5.",
+      "Erros concentrados afetam RMSE mais intensamente."
+    ],
+    "motivoErro": "Calcular raiz da soma antes de dividir por número de registros."
+  },
+  {
+    "id": "MAT-EST-037-EX-CON-10",
+    "resposta": "A: 40; B: 25 unidades monetárias fictícias.",
+    "resolucao": [
+      "Erros positivos significam falta: A tem duas faltas de cinco, custo 2×5×3=30.",
+      "A tem dois excessos de cinco, custo 10; total 40.",
+      "B tem somente excesso de 25; custo 25.",
+      "O critério depende dos custos fornecidos e não estabelece superioridade universal."
+    ],
+    "motivoErro": "Tratar RMSE como única métrica de decisão com custos assimétricos."
+  },
+  {
+    "id": "MAT-EST-037-EX-CON-11",
+    "resposta": "Há vazamento potencial da distribuição do teste. Ajustar parâmetros de normalização só no treino e aplicar ao teste sem refazer.",
+    "resolucao": [
+      "Média e desvio usados para normalizar são aprendidos dos dados.",
+      "Se incluem teste, informação externa entra no treinamento.",
+      "Use pipeline dentro da validação cruzada."
+    ],
+    "motivoErro": "Considerar normalização operação neutra que dispensa separação de dados."
+  },
+  {
+    "id": "MAT-EST-037-EX-CON-12",
+    "resposta": "Resíduos [0,0,+1]; MAE=1/3≈0,333; RMSE=√(1/3)≈0,577.",
+    "resolucao": [
+      "Some valores absolutos: 1; divida por 3.",
+      "Some quadrados: 1; divida por 3 e extraia raiz."
+    ],
+    "motivoErro": "Confundir média de módulos com raiz da média dos quadrados."
+  },
+  {
+    "id": "MAT-EST-037-EX-VES-01",
+    "resposta": "Não. Alta quantidade de respostas não elimina autoseleção e problemas de cobertura; concluir sobre a população requer desenho apropriado.",
+    "resolucao": [
+      "Identifique população-alvo e mecanismo de inclusão.",
+      "Reconheça que visitantes voluntários podem diferir dos moradores em geral.",
+      "Evite usar uma margem de erro de amostragem aleatória para justificar seleção de conveniência."
+    ],
+    "motivoErro": "Confundir grande n com representatividade."
+  },
+  {
+    "id": "MAT-EST-037-EX-VES-02",
+    "resposta": "0,02×0,90/[0,02×0,90+0,98×0,10] = 0,018/0,116 ≈ 15,52%.",
+    "resolucao": [
+      "Calcule verdadeiros positivos relativos: 0,018.",
+      "Calcule falsos positivos relativos: 0,098.",
+      "Divida positivos verdadeiros pelo total de positivos; condições e taxas são hipotéticas."
+    ],
+    "motivoErro": "Ignorar taxa-base e afirmar que positivo significa 90% de chance."
+  },
+  {
+    "id": "MAT-EST-037-EX-VES-03",
+    "resposta": "Em repetições hipotéticas do procedimento, cerca de 95% dos intervalos construídos conteriam o parâmetro fixo; não é uma probabilidade posterior de 95% para o parâmetro naquele intervalo observado.",
+    "resolucao": [
+      "Distinguir parâmetro fixo de intervalos aleatórios.",
+      "Relacionar a frequência de cobertura ao procedimento e suas hipóteses."
+    ],
+    "motivoErro": "Dizer que o parâmetro fixo muda aleatoriamente entre intervalos."
+  },
+  {
+    "id": "MAT-EST-037-EX-VES-04",
+    "resposta": "Rejeita-se H0 no procedimento especificado, mas a relevância prática do efeito não foi demonstrada.",
+    "resolucao": [
+      "Compare p com alfa.",
+      "Informe magnitude, unidade, incerteza e critério de importância.",
+      "Não converta significância estatística automaticamente em benefício relevante."
+    ],
+    "motivoErro": "Tratar rejeição de H0 como certificação de impacto substancial."
+  },
+  {
+    "id": "MAT-EST-037-EX-VES-05",
+    "resposta": "1−0,95^10 ≈ 0,4013, ou 40,13%, sob independência e hipóteses descritas.",
+    "resolucao": [
+      "Calcule a probabilidade de nenhum erro: 0,95 multiplicado dez vezes.",
+      "Subtraia de um; se testes não são independentes a expressão exata pode mudar."
+    ],
+    "motivoErro": "Somar 5% dez vezes como probabilidade exata, sem considerar sobreposição."
+  },
+  {
+    "id": "MAT-EST-037-EX-VES-06",
+    "resposta": "Por quatro.",
+    "resolucao": [
+      "EP=σ/√n.",
+      "Para dobrar a raiz de n, quadruplicar n; não elimina viés de seleção."
+    ],
+    "motivoErro": "Achar que basta duplicar a amostra."
+  },
+  {
+    "id": "MAT-EST-037-EX-VES-07",
+    "resposta": "Não. A evidência global indica que ao menos uma média difere, dadas hipóteses; comparações de pares exigem procedimento adicional e controle apropriado de multiplicidade.",
+    "resolucao": [
+      "Declare o alcance da hipótese global.",
+      "Planeje comparações pós-teste conforme pergunta e desenho."
+    ],
+    "motivoErro": "Inferir todos os pares a partir de um F global."
+  },
+  {
+    "id": "MAT-EST-037-EX-VES-08",
+    "resposta": "A aproximação usual qui-quadrado pode ser inadequada; examinar desenho, contagens e alternativas como teste exato de Fisher para uma tabela 2×2 quando apropriado.",
+    "resolucao": [
+      "Calcule frequências esperadas por produtos marginais sobre total.",
+      "Escolha procedimento respeitando condições; Fisher não conserta amostragem enviesada."
+    ],
+    "motivoErro": "Aplicar aproximação assintótica independentemente de esperados."
+  },
+  {
+    "id": "MAT-EST-037-EX-VES-09",
+    "resposta": "A:35/100=35%; B:73/100=73%. Dentro do estrato alto: A95% > B80%; no baixo: A20% > B10%. Distribuições desiguais dos estratos produzem inversão agregada.",
+    "resolucao": [
+      "Calcule cada taxa dentro dos estratos, mantendo seu denominador.",
+      "Calcule os totais globais de sucessos e participantes.",
+      "Interprete a distribuição diferente entre estratos antes de concluir sobre o grupo."
+    ],
+    "motivoErro": "Misturar taxas sem examinar os pesos dos estratos."
+  },
+  {
+    "id": "MAT-EST-037-EX-VES-10",
+    "resposta": "y=x² é dependência não linear perfeita nos cinco pontos; Pearson r=0 pela simetria.",
+    "resolucao": [
+      "A média de x é zero.",
+      "A soma x×(y−média de y) é zero por pares simétricos.",
+      "r nulo não significa ausência de toda relação."
+    ],
+    "motivoErro": "Interpretar r=0 como independência ou ausência de qualquer associação."
+  },
+  {
+    "id": "MAT-EST-037-EX-VES-11",
+    "resposta": "É extrapolação; exige justificativa estrutural e validação adicional fora da faixa observada.",
+    "resolucao": [
+      "Separe resultado da fórmula de validade empírica.",
+      "Examine comportamento do fenômeno e limites da amostra."
+    ],
+    "motivoErro": "Confundir facilidade de calcular com evidência de validade."
+  },
+  {
+    "id": "MAT-EST-037-EX-VES-12",
+    "resposta": "No recorte de teste, o flexível generalizou pior apesar do ajuste perfeito em treino; há indício de sobreajuste, a investigar.",
+    "resolucao": [
+      "Não escolha só pelo desempenho de treino.",
+      "Compare os erros de teste e tamanho/representatividade desse teste.",
+      "Não afirme que o modelo simples vencerá em todos os contextos."
+    ],
+    "motivoErro": "Usar erro zero de treino como garantia para novos dados."
+  },
+  {
+    "id": "MAT-EST-037-EX-VES-13",
+    "resposta": "Vazamento temporal: a variável não está disponível quando a previsão seria feita. Excluir, substituir por preditor disponível no momento ou redefinir a tarefa e revalidar.",
+    "resolucao": [
+      "Fixe o instante de previsão.",
+      "Liste disponibilidade de cada variável naquele instante.",
+      "Refaça treino e avaliação com a restrição real."
+    ],
+    "motivoErro": "Confundir informação histórica com informação futura."
+  },
+  {
+    "id": "MAT-EST-037-EX-VES-14",
+    "resposta": "Pode misturar informações posteriores e anteriores e criar avaliação otimista; uma validação por ordem temporal costuma ser mais fiel à tarefa prospectiva.",
+    "resolucao": [
+      "Identifique a direção temporal da previsão.",
+      "Reserve períodos posteriores para teste e evite vazamento em transformações."
+    ],
+    "motivoErro": "Ignorar ordem cronológica em tarefa prospectiva."
+  },
+  {
+    "id": "MAT-EST-037-EX-VES-15",
+    "resposta": "Demonstra alteração de métricas nesse recorte fictício; não prova a causa nem tendência populacional permanente, pois há apenas quatro observações em cada partição.",
+    "resolucao": [
+      "Leia partições corretamente.",
+      "Compare métricas com suas unidades; examine variabilidade, composição e quantidade de registros."
+    ],
+    "motivoErro": "Atribuir piora causal e permanente a quatro registros."
+  },
+  {
+    "id": "MAT-EST-037-EX-VES-16",
+    "resposta": "Não. Hash igual confere identidade dos bytes dos arquivos comparados; precisa-se ainda auditar fórmulas, versão, partição, hipóteses e interpretação.",
+    "resolucao": [
+      "Distinguir integridade de dados e validade da análise.",
+      "Reproduzir cálculos sem simplesmente copiar resultados publicados."
+    ],
+    "motivoErro": "Tratar integridade técnica como garantia de inferência correta."
+  },
+  {
+    "id": "MAT-EST-037-EX-RET-01",
+    "resposta": "7.",
+    "resolucao": [
+      "Some 28 e divida por 4."
+    ],
+    "motivoErro": "Repetir resposta antiga sem recalcular."
+  },
+  {
+    "id": "MAT-EST-037-EX-RET-02",
+    "resposta": "20/√100 = 2.",
+    "resolucao": [
+      "A raiz de 100 é dez; divida 20 por dez."
+    ],
+    "motivoErro": "Confundir n e raiz de n."
+  },
+  {
+    "id": "MAT-EST-037-EX-RET-03",
+    "resposta": "[74,12; 85,88].",
+    "resolucao": [
+      "Margem 1,96×3 = 5,88.",
+      "Limites 80−5,88 e 80+5,88."
+    ],
+    "motivoErro": "Esquecer o multiplicador ou arredondar cedo."
+  },
+  {
+    "id": "MAT-EST-037-EX-RET-04",
+    "resposta": "3 unidades.",
+    "resolucao": [
+      "Some 1+3+5=9 e divida por três.",
+      "Preserve o pareamento."
+    ],
+    "motivoErro": "Tratar diferenças como grupos independentes."
+  },
+  {
+    "id": "MAT-EST-037-EX-RET-05",
+    "resposta": "Esperados =10 em todas as células; χ²=4×(2²/10)=1,6; gl=1.",
+    "resolucao": [
+      "Cada esperado vale 20×20/40=10.",
+      "Cada diferença é ±2; cada contribuição é 0,4.",
+      "Somatório 1,6 e graus (2−1)(2−1)=1."
+    ],
+    "motivoErro": "Aplicar fórmula a observados sem esperado."
+  },
+  {
+    "id": "MAT-EST-037-EX-RET-06",
+    "resposta": "ŷ = 17.",
+    "resolucao": [
+      "Termos: 5+6+2+4=17.",
+      "Para D=1, intercepto é 7 e inclinação é 5."
+    ],
+    "motivoErro": "Omitir o termo produto xD."
+  },
+  {
+    "id": "MAT-EST-037-EX-RET-07",
+    "resposta": "MAE=(1+3+2+2)/4=2; RMSE=√[(1+9+4+4)/4]=√4,5≈2,121.",
+    "resolucao": [
+      "Some os módulos para MAE.",
+      "Eleve cada erro ao quadrado, obtenha média 4,5 e extraia raiz."
+    ],
+    "motivoErro": "Cancelar erros positivos e negativos antes de obter MAE."
+  },
+  {
+    "id": "MAT-EST-037-EX-RET-08",
+    "resposta": "Não rejeitar H0 ao nível de 1%; isso não confirma H0.",
+    "resolucao": [
+      "Compare 0,02 com 0,01.",
+      "Como p>alfa, não há evidência suficiente para rejeição no critério fixado."
+    ],
+    "motivoErro": "Trocar alfa em andamento ou declarar H0 provada."
+  }
+]

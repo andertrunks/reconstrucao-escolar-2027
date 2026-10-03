@@ -1,0 +1,11 @@
+CONTINUIDADE — RECONSTRUÇÃO ESCOLAR + ENEM E VESTIBULARES 2027
+
+Último pacote editorial concluído LOCALMENTE: MAT-EST-058 — Leitura crítica de relatórios temporais: resultados parciais, viés de seleção e comunicação de incerteza por coorte. Consulte MAT-EST-058-pacote-integracao.zip e checkpoint-editorial.json. Se o pacote não estiver disponível, solicite que eu o anexe.
+
+Próxima aula proposta, ainda não iniciada: MAT-EST-059 — Comunicação comparativa de desempenho temporal: gráficos honestos, incerteza condicional e relatório executivo verificável. Quando eu disser Continuar, execute exatamente uma etapa editorial.
+
+Preservar série fictícia t01–t22, os 23 arquivos-base invariantes, a cópia integral do ZIP anterior, todos os IDs e os protocolos. Histórico MAT-EST-049-PROT-v1: cinco de oito pares fictícios t18–t22, MAE B=17,60/C=8,36, custo médio B=51,20/C=14,92; piora local C em t19 =19,2 > guarda dez; não promoção permanece. MAT-EST-051-PLAN-v1 não executado. t23–t25 sem observação e emissão autenticada; B23=183/C23=199 são recálculos ilustrativos. Sucessor MAT-EST-056-PROT-SUC-v1 somente rascunho, t26–t33 planejados, zero emissões, zero observações e zero pares.
+
+SANDBOX-057 tem oito cartões Q01–Q08 ou S01–S08; no corte A só S01 e S02 são avaliáveis; seis pendências. Erros B [+4,-2] e C [+3,-5], MAE B=3/C=4 e custos médios ambos sete. As diferenças emparelhadas de erros absolutos C menos B são [-1,+3] e média +1. Remover S02 após ver resultado cria uma exploração seletiva (B=4/C=3), nunca substitui corte A. Os limites B [0,75;8,25], C [1;8,5] e da diferença [-7,25;+7,75] exigem hipótese artificial de seis erros absolutos em [0;10], NÃO são intervalos de confiança. Contrafactual S04 B+8/C+2 NÃO é observação. Casos V e Z continuam isolados.
+
+MAT-EST-058 preparou aula, seis visuais acessíveis, vídeo selecionado com reprodução integral pendente, 36 exercícios autorais graduais e gabaritos separados, relatórios condicionais, metadados, prévia e arquivos de integridade. Não alegar publicação, sincronização, validação de vídeo integral, pré-registro, teste manual Edge ou estudo individual. Avançar exatamente um passo, com novo checkpoint e botões para continuar e copiar prompt de transição.

@@ -1,0 +1,80 @@
+﻿MAT-EST-004 — MANIFESTO DA RECONSTRUÇÃO EDITORIAL v1
+
+
+Natureza
+Esta é uma reconstrução editorial explícita. O projeto preserva evidência histórica de que MAT-EST-004 foi produzida anteriormente, mas os bytes da versão antiga não foram recuperados. Esta versão não afirma identidade textual, visual ou binária com o original perdido.
+
+
+Escopo
+Código preservado: MAT-EST-004.
+Título preservado: Gráficos estatísticos: barras, setores, linhas, histogramas e escolha da representação.
+Pré-requisitos: MAT-EST-001, MAT-EST-002 e MAT-EST-003.
+Próximo tópico: MAT-EST-005.
+
+
+Conteúdo
+Aula aprofundada desde os fundamentos, incluindo:
+elementos constitutivos de gráficos;
+gráficos de barras e colunas;
+linha de base e escala;
+gráfico de setores e derivação do ângulo;
+gráfico de linhas;
+histograma e diferença para barras;
+limites de classes;
+efeito da largura de classes;
+ponte para densidade de frequência;
+polígono de frequência;
+infográficos;
+escalas lineares e reconhecimento de escalas logarítmicas;
+eixos truncados;
+distorção por área e perspectiva 3D;
+escolha da representação;
+descrição acessível por áudio;
+leitura crítica e separação entre descrição e causalidade.
+
+
+Avaliação
+36 questões autorais com IDs únicos:
+10 APR;
+10 CON;
+10 VES;
+6 RET.
+Gabarito separado, com raciocínio e motivo provável do erro.
+
+
+Visuais
+Seis SVGs produzidos especificamente para a aula, todos com title e desc:
+01-barras-categorias.svg
+02-setores-parte-todo.svg
+03-linha-temporal.svg
+04-barras-versus-histograma.svg
+05-escala-truncada.svg
+06-arvore-escolha-grafico.svg
+
+
+Regras de acessibilidade
+Cada gráfico contém título e elementos textuais próprios.
+A explicação essencial é repetida em texto na aula.
+Nenhuma conclusão depende apenas de cor.
+Eixos, unidades e escalas são explicitados quando aplicáveis.
+
+
+Fontes institucionais verificadas
+BNCC/MEC — EF06MA31 e EF06MA32.
+Inep — Matrizes de Referência do Enem, publicação institucional 2026.
+FUVEST — Programa do Vestibular 2027: comunicar e interpretar resultados por gráficos e tabelas; analisar gráficos; comparar dados por histogramas e outros diagramas; estatística descritiva com interpretação de tabelas, diagramas, gráficos e infográficos.
+
+
+Vídeo
+“ESTATÍSTICA #03 | GRÁFI : Aprenda de Vez para o ENEM e Concursos”, Tutoriar EAD.
+A página pública e descrição foram localizadas e indicam cobertura de barras, linhas, setores, histograma e polígono de frequências.
+QA integral de reprodução, áudio e legendas ainda pendente.
+
+
+Estado
+Fonte editorial reconstruída: criada.
+Publicação no site: não realizada.
+QA Microsoft Edge/Ler em voz alta: pendente.
+Integração ao modelo estruturado do repositório: pendente.
+Progresso do aluno: não alterado.
+MAT-EST-068: não iniciada.

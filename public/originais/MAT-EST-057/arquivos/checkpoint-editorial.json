@@ -1,0 +1,31 @@
+{
+  "projeto": "Reconstrução Escolar + ENEM e Vestibulares 2027",
+  "ultimo_pacote_editorial_concluido": "MAT-EST-057",
+  "ultimo_confirmado_antes": "MAT-EST-056",
+  "titulo_ultimo": "Registro de desvios e auditoria prospectiva simulada: pendências, exclusões e relatório por coorte sem inventar alvos futuros",
+  "etapa_atual": "pacote editorial concluído localmente; sem publicação ou sincronização",
+  "proximo_topico_editorial": "MAT-EST-058",
+  "titulo_proximo_proposto": "Leitura crítica de relatórios temporais: resultados parciais, viés de seleção e comunicação de incerteza por coorte",
+  "proximo_estado": "não iniciado",
+  "progresso_individual": "não iniciado; nenhuma tentativa registrada; inalterado",
+  "estado_serie": "t01–t22 preservados; t23–t25 sem observações e sem emissões autenticadas; t26–t33 somente alvos propostos, zero emissões e observados",
+  "protocolos": "MAT-EST-049-PROT-v1 intacto e mantém não promoção (t19=19,2 > 10); MAT-EST-051-PLAN-v1 não executado; MAT-EST-056-PROT-SUC-v1 rascunho local sem registro externo",
+  "sandbox": "SANDBOX-057 Q01–Q08 tem dois pares demonstrativos e seis pendências; não integrar aos dados ou métricas da coorte temporal principal",
+  "V_Z": "exemplos isolados, não contados",
+  "arquivos_invariantes_herdados_sha256": 23,
+  "anexo_arquivo_anterior": "historico/MAT-EST-056-pacote-integracao.zip (cópia integral byte a byte)",
+  "nao_alegar": [
+    "observações t23–t33",
+    "emissões futuras autenticadas",
+    "pré-registro externo",
+    "aprovação real",
+    "autoria externa de data",
+    "reversão da falha t19",
+    "publicação web",
+    "sincronização Google Drive ou GitHub",
+    "teste manual Edge",
+    "reprodução integral de vídeo",
+    "estudo ou tentativa pessoal"
+  ],
+  "material_integracao": "MAT-EST-057-pacote-integracao.zip"
+}

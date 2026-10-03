@@ -1,0 +1,11 @@
+CONTINUIDADE — RECONSTRUÇÃO ESCOLAR + ENEM E VESTIBULARES 2027
+
+Última aula concluída editorialmente apenas de forma LOCAL: MAT-EST-054 — Auditoria de avaliações temporais: reconciliação de versões, rastreamento de métricas e relatórios reproduzíveis. Consultar o ZIP MAT-EST-054-pacote-integracao.zip e seu checkpoint-editorial.json; solicitar anexo se não estiverem disponíveis no novo chat. Não houve publicação, Google Drive/GitHub sincronizados nem testes reais do Edge. Progresso individual não iniciado.
+
+Próximo passo, ainda NÃO iniciado: MAT-EST-055 — Governança de modelos temporais: documentação de decisões, responsáveis, revisões e critérios de encerramento.
+
+Preservar série fictícia t01–t22, 17 arquivos em dados/ herdados byte a byte e protocolo MAT-EST-049-PROT-v1 e plano MAT-EST-051-PLAN-v1 intactos. t23–t25 continuam SEM observações ou emissões autenticadas; B23=183 e C23=199 são recálculos ilustrativos, e cenários 178,191,209 não são medições. Cinco de oito pares t18–t22: MAE B17,60 C8,36; custo médio B51,20 C14,92; guarda t19 falhou pois C piorou 19,2 > limite 10. Não promover C.
+
+Ensaios Z/V isolados nunca integram a série principal: Z previsão29 preliminar30 (erro1, custo3) validada32 (erro3, custo9); V previsão B42 C43 congeladas, L12 v1=40 preliminar, L13 v2=44 validada, L14 evento avaliativo validado. Em V, módulo preliminar B2 C3, validado B2 C1. Aula 054 reproduziu localmente seis snapshots V (L11, L12, L13 × políticas AS_KNOWN/VALIDATED_AS_OF), um resumo principal e dois relatórios Z, com script auditável; isso não é certificação temporal.
+
+Ao receber Continuar, verifique o checkpoint mais recente, avance EXATAMENTE UMA etapa MAT-EST-055 sem reiniciar a arquitetura. Produza aula aprofundada, visuais educativos com alt/legenda/explicação áudio, exercícios autorais graduais e gabarito separado, vídeo complementar com status de verificação honesto, Markdown, metadados, ZIP, prévia, manifesto SHA-256 e testes. Não inventar observações nem atualizar progresso individual sem evidência. Não declarar site ou Drive sincronizados sem ações efetivas. Registrar checkpoint seguinte e disponibilizar botões Continuar e Copiar prompt de transição.

@@ -1,0 +1,4 @@
+modelo,soma_abs_elegiveis,M_hipotetico,pendencias,limite_inferior_mae,limite_superior_mae,nota
+B,6,10,6,0.75,8.25,hipotese nao verificada
+C,8,10,6,1,8.5,hipotese nao verificada
+C_menos_B,2,10,6,-7.25,7.75,diferenca pareada hipotetica nao IC

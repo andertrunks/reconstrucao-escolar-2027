@@ -1,0 +1,20 @@
+{
+  "package": "MAT-EST-060",
+  "all_9_fixture_expectations_met": true,
+  "fixture_pass_count": 1,
+  "fixture_rejection_count": 8,
+  "unique_exercise_ids": 36,
+  "diagram_count": 6,
+  "inherited_hashes_verified": 23,
+  "previous_zip_preserved": true,
+  "previous_zip_sha256": "335b9850217708f4571aee17d74251887baad0056f90e3ef6d571dff304cd343",
+  "future_observations_added": 0,
+  "manual_edge_screen_reader_test": "not_performed",
+  "video_full_playback": "not_performed",
+  "public_site_deploy": false,
+  "drive_sync": false,
+  "github_sync": false,
+  "user_progress_changed": false,
+  "illustration_not_screenshot": true,
+  "manifest_entry_count": 62
+}

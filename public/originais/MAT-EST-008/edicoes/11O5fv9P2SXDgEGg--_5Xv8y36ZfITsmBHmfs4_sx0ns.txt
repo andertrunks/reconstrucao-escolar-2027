@@ -1,0 +1,160 @@
+﻿MAT-EST-008 — Exercícios — reconstrução editorial v1
+
+
+Todas as questões são autorais. Resolva antes de consultar o gabarito.
+
+
+CAMADA APR — Aprendizagem básica
+
+
+MAT-EST-008-EX-APR-01
+Dados 2, 4 e 6. Calcule a média, os desvios e os quadrados dos desvios.
+
+
+MAT-EST-008-EX-APR-02
+Para 4, 6 e 8 como população, calcule a variância populacional.
+
+
+MAT-EST-008-EX-APR-03
+Usando a variância do exercício anterior, calcule o desvio-padrão populacional.
+
+
+MAT-EST-008-EX-APR-04
+Explique por que a variância de dados em centímetros fica em centímetros quadrados.
+
+
+MAT-EST-008-EX-APR-05
+Se todos os valores são 7, qual é a variância e o desvio-padrão?
+
+
+MAT-EST-008-EX-APR-06
+A variância pode ser negativa? Justifique.
+
+
+MAT-EST-008-EX-APR-07
+O desvio-padrão pode ser negativo? Justifique.
+
+
+MAT-EST-008-EX-APR-08
+Diferencie amplitude e desvio-padrão em uma frase.
+
+
+MAT-EST-008-EX-APR-09
+Se um conjunto tem DP 3 e todos os valores recebem +100, qual é o novo DP?
+
+
+MAT-EST-008-EX-APR-10
+Se um conjunto tem DP 3 e todos os valores são multiplicados por 4, qual é o novo DP?
+
+
+CAMADA CON — Consolidação
+
+
+MAT-EST-008-EX-CON-01
+Calcule variância e DP populacionais de 3,5,7.
+
+
+MAT-EST-008-EX-CON-02
+Calcule variância e DP populacionais de 2,2,2,8.
+
+
+MAT-EST-008-EX-CON-03
+Valores 10,12,14 têm frequências 1,3,1. Calcule a média, variância e DP populacionais.
+
+
+MAT-EST-008-EX-CON-04
+Um conjunto tem variância 25 cm². Qual é o DP e sua unidade?
+
+
+MAT-EST-008-EX-CON-05
+Um conjunto tem DP 4. Qual é sua variância?
+
+
+MAT-EST-008-EX-CON-06
+Dados 4,6,8 têm soma dos quadrados dos desvios igual a 8. Calcule variância populacional e amostral.
+
+
+MAT-EST-008-EX-CON-07
+Explique por que repetir cada observação duas vezes não muda a variância populacional.
+
+
+MAT-EST-008-EX-CON-08
+Um conjunto com DP 2 sofre transformação y=5x+10. Qual é o novo DP? E a nova variância se a antiga era 4?
+
+
+MAT-EST-008-EX-CON-09
+Compare os conjuntos 4,5,6 e 0,5,10: mesma média; qual é mais disperso? Justifique pelo DP.
+
+
+MAT-EST-008-EX-CON-10
+Explique por que n−1 não deve ser usado automaticamente em toda situação.
+
+
+CAMADA VES — Transferência / estilo vestibular autoral
+
+
+MAT-EST-008-EX-VES-01
+Uma fábrica registra medidas 100,100,100,100,120. Calcule média, variância e DP populacionais e interprete o papel do extremo.
+
+
+MAT-EST-008-EX-VES-02
+Duas turmas têm a mesma média de notas. A tem DP 0,8 e B tem DP 2,5. O que é possível concluir descritivamente?
+
+
+MAT-EST-008-EX-VES-03
+Uma variável em metros tem DP 0,4 m. Converta todos os valores para centímetros. Qual o novo DP?
+
+
+MAT-EST-008-EX-VES-04
+Temperaturas são convertidas de Celsius para Fahrenheit por F=1,8C+32. Se o DP em Celsius é 2, qual é o DP em Fahrenheit?
+
+
+MAT-EST-008-EX-VES-05
+Explique por que DP=5 não significa que todos os valores estão a no máximo 5 unidades da média.
+
+
+MAT-EST-008-EX-VES-06
+Uma planilha retorna dois valores de DP para os mesmos dados, um dividindo por n e outro por n−1. Explique por que ambos podem estar corretos.
+
+
+MAT-EST-008-EX-VES-07
+Classes [0,10), [10,20), [20,30) têm frequências 2,5,3. Explique como estimar variância e DP usando pontos médios e qual a limitação.
+
+
+MAT-EST-008-EX-VES-08
+Um relatório compara DP de 5 cm com DP de 5 kg e diz que as variabilidades são iguais. Qual é o problema?
+
+
+MAT-EST-008-EX-VES-09
+Conjunto A tem amplitude 10 e B também. Isso prova mesmo DP? Construa um contraexemplo.
+
+
+MAT-EST-008-EX-VES-10
+Explique por que um extremo tende a afetar mais variância/DP do que desvio médio absoluto.
+
+
+CAMADA RET — Reteste
+
+
+MAT-EST-008-EX-RET-01
+Sem consultar: escreva as fórmulas da variância populacional, DP populacional e variância amostral.
+
+
+MAT-EST-008-EX-RET-02
+Calcule a variância populacional de 1,3,5.
+
+
+MAT-EST-008-EX-RET-03
+Se a variância é 9, qual é o DP?
+
+
+MAT-EST-008-EX-RET-04
+Se todos os dados são multiplicados por −2, o que ocorre com variância e DP?
+
+
+MAT-EST-008-EX-RET-05
+Explique conceitualmente o motivo de aparecer n−1 na variância amostral.
+
+
+MAT-EST-008-EX-RET-06
+Diferencie, em duas frases, desvio-padrão e erro-padrão.

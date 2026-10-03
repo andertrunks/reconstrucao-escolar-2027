@@ -1,0 +1,17 @@
+{
+  "id": "MAT-EST-047",
+  "status": "material_editorial_local",
+  "anterior": "MAT-EST-046",
+  "proximo": "MAT-EST-048",
+  "tituloProximo": "Monitoramento prospectivo de séries temporais: registro de previsões, deriva de dados e protocolos de revisão de modelos",
+  "naoMarcarAulasComoEstudadas": true,
+  "avaliacoesPendentes": [
+    "MAT-EST-018",
+    "MAT-PRO-039",
+    "MAT-PRO-054",
+    "MAT-EST-037"
+  ],
+  "integracaoDrive": false,
+  "integracaoSite": false,
+  "regraContinuidade": "Continuar a sequência editorial sem reiniciar; avaliação individual exige tentativa verdadeira."
+}

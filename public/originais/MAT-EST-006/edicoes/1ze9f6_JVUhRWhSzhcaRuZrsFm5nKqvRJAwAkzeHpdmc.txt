@@ -1,0 +1,160 @@
+﻿MAT-EST-006 — Exercícios — reconstrução editorial v1
+
+
+Todas as questões são autorais. Tente responder antes de consultar o gabarito.
+
+
+CAMADA APR — Aprendizagem
+
+
+MAT-EST-006-EX-APR-01
+Encontre a mediana de 3, 7, 5.
+
+
+MAT-EST-006-EX-APR-02
+Encontre a mediana de 2, 8, 4, 10.
+
+
+MAT-EST-006-EX-APR-03
+Explique por que os dados precisam ser ordenados antes de encontrar a mediana.
+
+
+MAT-EST-006-EX-APR-04
+Em uma lista ordenada com n=9, qual é a posição da mediana?
+
+
+MAT-EST-006-EX-APR-05
+Em uma lista ordenada com n=8, quais são as duas posições centrais?
+
+
+MAT-EST-006-EX-APR-06
+Encontre a moda de 1, 2, 2, 3, 4.
+
+
+MAT-EST-006-EX-APR-07
+No conjunto 1, 1, 2, 3, 3, 4, quais são as modas?
+
+
+MAT-EST-006-EX-APR-08
+O conjunto 1, 2, 3, 4, 5 possui moda pela convenção escolar adotada? Explique.
+
+
+MAT-EST-006-EX-APR-09
+A variável “tipo sanguíneo” pode ter moda? Pode ter mediana? Justifique.
+
+
+MAT-EST-006-EX-APR-10
+Em 2, 3, 4, 5, 100, calcule a mediana e explique por que ela é pouco afetada pelo 100.
+
+
+CAMADA CON — Consolidação
+
+
+MAT-EST-006-EX-CON-01
+Ordene 12, 8, 10, 7, 9, 11, 50 e calcule a mediana.
+
+
+MAT-EST-006-EX-CON-02
+Ordene 3, 10, 6, 8, 5, 7 e calcule a mediana.
+
+
+MAT-EST-006-EX-CON-03
+Tabela: valor 1, f=2; valor 2, f=4; valor 3, f=3; valor 4, f=1. Calcule a mediana usando frequência acumulada.
+
+
+MAT-EST-006-EX-CON-04
+Tabela: valor 1, f=2; valor 2, f=2; valor 3, f=2; valor 4, f=2. Calcule a mediana.
+
+
+MAT-EST-006-EX-CON-05
+Tabela: A=8, B=12, C=12, D=5. Identifique a moda e classifique a distribuição quanto ao número de modas.
+
+
+MAT-EST-006-EX-CON-06
+Dados 2, 2, 3, 4, 4, 4, 5. Diga a moda e a frequência da moda.
+
+
+MAT-EST-006-EX-CON-07
+Compare média e mediana dos conjuntos A={2,3,4,5,6} e B={2,3,4,5,100}.
+
+
+MAT-EST-006-EX-CON-08
+Em uma escala ordinal ruim, regular, bom, ótimo, com frequências 5,15,40,20, encontre a moda e a categoria mediana.
+
+
+MAT-EST-006-EX-CON-09
+Classes [0,10):3; [10,20):7; [20,30):12; [30,40):5; [40,50):3. Identifique a classe mediana.
+
+
+MAT-EST-006-EX-CON-10
+Explique por que a classe modal [20,30) não implica que 25 seja a moda exata.
+
+
+CAMADA VES — Transferência / estilo vestibular autoral
+
+
+MAT-EST-006-EX-VES-01
+Rendas: 2000, 2100, 2200, 2300, 20000. Calcule média, mediana e moda e indique qual medida melhor representa o centro posicional.
+
+
+MAT-EST-006-EX-VES-02
+Um conjunto ordenado tem 11 valores. Qual posição contém a mediana? Se o sexto valor é 18, qual é a mediana?
+
+
+MAT-EST-006-EX-VES-03
+Um conjunto ordenado tem 12 valores. O sexto valor é 14 e o sétimo é 20. Calcule a mediana.
+
+
+MAT-EST-006-EX-VES-04
+Uma distribuição categórica possui frequências 30, 30, 20 e 10. Quantas modas existem e quais categorias podem ser chamadas modais?
+
+
+MAT-EST-006-EX-VES-05
+Dados 10,11,12,13,54. Calcule média e mediana. Explique qual delas é mais resistente ao valor 54.
+
+
+MAT-EST-006-EX-VES-06
+Uma tabela ordinal tem total 100 e frequência acumulada até “regular” igual a 42, até “bom” igual a 78. Em qual categoria está a mediana?
+
+
+MAT-EST-006-EX-VES-07
+Em um histograma, a classe [30,40) tem a maior frequência. O que é legítimo chamar de moda com os dados agrupados? O que não é legítimo afirmar sem dados individuais?
+
+
+MAT-EST-006-EX-VES-08
+Uma distribuição tem cauda longa à direita. Explique por que a média costuma ficar acima da mediana e por que isso não deve ser usado como regra infalível.
+
+
+MAT-EST-006-EX-VES-09
+Dados 0,0,10. Compare a soma dos desvios absolutos em relação a a=0, a=3 e a=10. Qual valor minimiza a soma?
+
+
+MAT-EST-006-EX-VES-10
+Para uma variável nominal “marca preferida”, explique por que moda é adequada e média/mediana normalmente não são.
+
+
+CAMADA RET — Reteste
+
+
+MAT-EST-006-EX-RET-01
+Sem consultar: descreva o procedimento para encontrar mediana com n ímpar e com n par.
+
+
+MAT-EST-006-EX-RET-02
+Encontre a mediana de 9, 1, 4, 7, 3.
+
+
+MAT-EST-006-EX-RET-03
+Encontre a mediana de 1, 2, 8, 9, 10, 12.
+
+
+MAT-EST-006-EX-RET-04
+No conjunto 2,2,3,3,4,5, identifique todas as modas.
+
+
+MAT-EST-006-EX-RET-05
+Explique em uma frase por que mediana é mais resistente a extremos do que média.
+
+
+MAT-EST-006-EX-RET-06
+Dê um exemplo de situação em que moda é mais informativa que média e mediana.

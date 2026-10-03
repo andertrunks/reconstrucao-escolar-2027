@@ -1,0 +1,37 @@
+{
+  "projeto": "Reconstrução Escolar + ENEM e Vestibulares 2027",
+  "ultimo_pacote_editorial_concluido": "MAT-EST-062",
+  "ultimo_confirmado_antes": "MAT-EST-061",
+  "titulo_ultimo": "Manutenção de evidências e prontidão de publicação: checklist auditável, rastreio de pendências e validação pós-deploy",
+  "etapa_atual": "concluído editorialmente apenas em arquivo local",
+  "proximo_topico_editorial": "MAT-EST-063",
+  "titulo_proximo_proposto": "Gestão de incidentes editoriais: classificação de falhas, comunicação de impacto e reteste de correções",
+  "proximo_estado": "não iniciado",
+  "progresso_individual": "não iniciado; sem estudo nem tentativas; inalterado",
+  "serie": "t01–t22 preservados; t23–t25 sem emissão ou observação autenticada; t26–t33 apenas alvos propostos com zero pares",
+  "historico": "MAT-EST-049-PROT-v1: cinco pares; MAE B=17,60, C=8,36; custos B=51,20 e C=14,92; t19 piora local 19,2 > guarda dez; C não promovido",
+  "sandbox": "SANDBOX-057: oito cartões, dois avaliáveis, seis pendentes; MAE B=3 e C=4 unidades; custos médios sete pontos ambos",
+  "controle": "Matriz derivada preserva G1/G2 checked_local, G3–G6 pending, G7/G8 not_performed; sem evidências humanas ou externas adicionadas",
+  "novidades": [
+    "caderno substantivo de manutenção de evidências",
+    "plano de pós-deploy com dez itens NÃO executados",
+    "matriz de controles herdada sem promoção de status",
+    "seis cenários sintéticos isolados e seis diagramas",
+    "36 questões autorais com gabarito separado"
+  ],
+  "anexo_anterior": "historico/MAT-EST-061-pacote-integracao.zip íntegro e idêntico ao anterior",
+  "sha256_pacote_anterior": "d32cc1fa61963140d1b4768e8e528f7cebf7e4c21ae10547a6a8a39579152235",
+  "arquivos_invariantes_herdados_sha256": 23,
+  "nao_alegar": [
+    "site publicado",
+    "sincronização Google Drive/GitHub",
+    "responsável real ou assinatura",
+    "G3–G8 executados",
+    "teste real Edge/leitor de tela",
+    "reprodução integral do vídeo",
+    "rollback externo",
+    "novas observações",
+    "progresso estudado"
+  ],
+  "material_integracao": "MAT-EST-062-pacote-integracao.zip"
+}

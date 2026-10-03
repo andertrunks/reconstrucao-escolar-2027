@@ -1,0 +1,542 @@
+[
+  {
+    "id": "MAT-EST-057-EX-APR-01",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Oito tarefas foram planejadas, duas têm pares avaliáveis e seis estão pendentes. Escreva a identidade entre os três números."
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-02",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "O que diferencia o zero de um valor observado ausente?"
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-03",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Na coorte proposta t26–t33, quantos resultados observados e emissões autenticadas existem?"
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-04",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "A sigla MAE mede que quantidade e qual o denominador correto?"
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-05",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "O que ocorreu historicamente em t19 e por que ele não pode ser apagado?"
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-06",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "S05 possui apenas observação provisória. É automaticamente par validado?"
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-07",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "O que é um desvio metodológico, em uma frase?"
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-08",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Por que EXEMPLO-V e EXEMPLO-Z não entram no denominador da série principal?"
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-09",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Calcule dois dividido por oito em porcentagem."
+  },
+  {
+    "id": "MAT-EST-057-EX-APR-10",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "básica",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Um hash SHA-256 local prova por si só que o plano foi registrado antes do resultado?"
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-01",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Seis dos oito cartões estão pendentes. Qual percentual é esse e o que não significa?"
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-02",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Em S01, os erros assinados B=+4 e C=+3. Calcule os módulos."
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-03",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Em S02, B=−2 e C=−5. Calcule a piora absoluta de C em relação a B."
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-04",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Use S01 e S02 para calcular MAE de B."
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-05",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Use S01 e S02 para calcular MAE de C."
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-06",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "A regra C(e)=3max(e,0)+max(−e,0). Quanto custa B em S01 e S02 e qual a média?"
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-07",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Calcule custos e média para C, erros +3 e −5."
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-08",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "O relatório A tem 2 avaliáveis/6 pendentes. Uma observação tardia S04 é validada em relatório B e havia emissão elegível. Como ficam as contagens?"
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-09",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Uma proposta quer excluir S02 após verificar que nele C foi pior. Pode chamar isso de regra inicial?"
+  },
+  {
+    "id": "MAT-EST-057-EX-CON-10",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "intermediária",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Seis erros pendentes não têm limite justificado, existe um teto finito garantido para MAE final dos oito cartões?"
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-01",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "autoral em estilo vestibular; não oficial",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Questão autoral em estilo de vestibular. Uma manchete afirma: “O modelo acertou 25% das previsões” porque somente 2 de 8 cartões são avaliáveis. Identifique o salto lógico."
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-02",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "autoral em estilo vestibular; não oficial",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Questão autoral em estilo de vestibular. Um CSV usa 0 para os seis observados ausentes e anuncia MAE de B 0,75. Qual pressuposto indevido foi embutido?"
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-03",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "autoral em estilo vestibular; não oficial",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Questão autoral em estilo de vestibular. Um auditor soma cinco pares t18–t22 com os cartões S01 e S02. Por que sete não é denominador legítimo de um novo teste?"
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-04",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "autoral em estilo vestibular; não oficial",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Questão autoral em estilo de vestibular. S06 tem duas previsões com versões conflitantes, mas a observação está validada. É permitido escolher a que dá menor erro?"
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-05",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "autoral em estilo vestibular; não oficial",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Questão autoral em estilo de vestibular. A fotografia A foi emitida com dois avaliáveis; semanas depois chega dado válido de S04. Redija a regra de publicação de B."
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-06",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "autoral em estilo vestibular; não oficial",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Questão autoral em estilo de vestibular. Qual a diferença entre análise de sensibilidade com teto |erro|≤10 e intervalo de confiança?"
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-07",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "autoral em estilo vestibular; não oficial",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Questão autoral em estilo de vestibular. Com soma dos módulos B=6 em dois casos e teto didático M=10 para seis pendentes, calcule limites para MAE de oito."
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-08",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "autoral em estilo vestibular; não oficial",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Questão autoral em estilo de vestibular. Para C, soma dos módulos é oito; repita limites usando M=10."
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-09",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "autoral em estilo vestibular; não oficial",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Questão autoral em estilo de vestibular. O custo médio demonstrativo empata em sete pontos, embora MAE B seja três e MAE C seja quatro. É contradição?"
+  },
+  {
+    "id": "MAT-EST-057-EX-VES-10",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "autoral em estilo vestibular; não oficial",
+    "dificuldade": "contextualizada",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Questão autoral em estilo de vestibular. Redija a conclusão tecnicamente permitida sobre t26–t33 no atual checkpoint."
+  },
+  {
+    "id": "MAT-EST-057-EX-RET-01",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "reteste",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Sem consultar a aula, explique em três frases a diferença entre coorte histórica, quarentena e sucessor proposto."
+  },
+  {
+    "id": "MAT-EST-057-EX-RET-02",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "reteste",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Em um novo sandbox inventado, 12 tarefas foram planejadas: quatro avaliáveis, cinco pendentes e três excluídas por regra previamente fixada. Confira a identidade e as porcentagens."
+  },
+  {
+    "id": "MAT-EST-057-EX-RET-03",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "reteste",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Novo reteste: erros assinados +2, −4 e +1. Calcule MAE e custo médio na regra assimétrica."
+  },
+  {
+    "id": "MAT-EST-057-EX-RET-04",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "reteste",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Se um resultado corrigido passa de 40 para 44 para o mesmo alvo, quantos alvos existem e como guardar dados?"
+  },
+  {
+    "id": "MAT-EST-057-EX-RET-05",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "reteste",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Um analista usa os seis dados ausentes como zero e produz custo médio. Qual alerta você registraria?"
+  },
+  {
+    "id": "MAT-EST-057-EX-RET-06",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "dificuldade": "reteste",
+    "materia": "Matemática",
+    "topicos": [
+      "auditoria temporal",
+      "desvios",
+      "elegibilidade",
+      "coortes"
+    ],
+    "enunciado": "Explique por que um registro SHA-256 local e um diário com datas digitadas não provam por si só pré-registro externo."
+  }
+]

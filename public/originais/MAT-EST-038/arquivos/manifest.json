@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "1.0",
+  "id": "MAT-EST-038",
+  "slug": "devolutiva-integradora-fechamento-editorial-estatistica-recuperacao-evidencias-ponte-universitaria",
+  "titulo": "Devolutiva integradora e fechamento editorial da unidade de Estatística: recuperação por evidências e ponte universitária",
+  "materia": "Matemática",
+  "unidade": "Estatística",
+  "nivel": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "ordem": 38,
+  "tipoConteudo": "devolutiva_editorial_e_recuperacao_por_evidencias",
+  "anterior": "MAT-EST-037",
+  "preRequisitos": [
+    "MAT-EST-018",
+    "MAT-EST-019",
+    "MAT-EST-020",
+    "MAT-EST-021",
+    "MAT-EST-022",
+    "MAT-EST-023",
+    "MAT-EST-024",
+    "MAT-EST-025",
+    "MAT-EST-026",
+    "MAT-EST-027",
+    "MAT-EST-028",
+    "MAT-EST-029",
+    "MAT-EST-030",
+    "MAT-EST-031",
+    "MAT-EST-032",
+    "MAT-EST-033",
+    "MAT-EST-034",
+    "MAT-EST-035",
+    "MAT-EST-036",
+    "MAT-EST-037"
+  ],
+  "objetivos": [
+    "distinguir produção e domínio individual",
+    "diagnosticar erros a partir de evidência efetiva",
+    "direcionar remediação por pré-requisito",
+    "integrar descrição, inferência, regressão, validação e interpretação",
+    "retestar com problemas novos após recuperação"
+  ],
+  "examesRelacionados": [
+    "ENEM",
+    "FUVEST",
+    "UNICAMP",
+    "UNESP"
+  ],
+  "notaExames": "todos os itens são autorais; inferência e regressão avançada incluem ponte universitária, sem atribuição de requisito obrigatório a edital",
+  "arquivoMarkdown": "MAT-EST-038-devolutiva-integradora-fechamento-editorial-estatistica-recuperacao-evidencias-ponte-universitaria.md",
+  "arquivoExercicios": "exercicios.json",
+  "arquivoGabarito": "gabarito-comentado.json",
+  "arquivoDados": "dados-ficticios.csv",
+  "origemDados": "MAT-EST-034/035 por cópia de MAT-EST-037",
+  "visuais": [
+    {
+      "id": "MAT-EST-038-VIS-01",
+      "arquivo": "assets/01-mapa-prerequisitos.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Mapa de pré-requisitos da síntese",
+      "legenda": "Mapa dos pré-requisitos",
+      "alt": "Quatro etapas e duas áreas de domínio: inferência e modelos.",
+      "oQueObservar": "A conclusão só vem depois de selecionar e avaliar o método.",
+      "conclusaoTextual": "A ordem conceitual orienta a recuperação, não o número de aulas lidas."
+    },
+    {
+      "id": "MAT-EST-038-VIS-02",
+      "arquivo": "assets/02-matriz-erros.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Matriz de diagnóstico por causa",
+      "legenda": "Matriz de erros: identificar a primeira ruptura",
+      "alt": "Cinco categorias visíveis com exemplos de indícios.",
+      "oQueObservar": "Erros iguais na resposta podem ter origens diferentes.",
+      "conclusaoTextual": "O tipo de erro orienta a atividade de recuperação."
+    },
+    {
+      "id": "MAT-EST-038-VIS-03",
+      "arquivo": "assets/03-fluxo-devolutiva.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Fluxo legítimo de devolutiva",
+      "legenda": "Fluxo da devolutiva individual",
+      "alt": "A caixa de aviso diferencia produção editorial de aprendizagem realizada.",
+      "oQueObservar": "Não pular etapas quando a tentativa ainda não existe.",
+      "conclusaoTextual": "Não é possível concluir domínio individual a partir do gabarito publicado."
+    },
+    {
+      "id": "MAT-EST-038-VIS-04",
+      "arquivo": "assets/04-inferencia-limites.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Do dado à inferência com limites",
+      "legenda": "Da amostra à população",
+      "alt": "A seta não deve ser percorrida sem análise da coleta.",
+      "oQueObservar": "A frequência de uma amostra não determina o parâmetro de uma população.",
+      "conclusaoTextual": "Toda generalização necessita de um desenho defensável."
+    },
+    {
+      "id": "MAT-EST-038-VIS-05",
+      "arquivo": "assets/05-escolha-desenho.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "A unidade determina o método",
+      "legenda": "Pareamento versus independência",
+      "alt": "As unidades de análise mudam o cálculo de incerteza.",
+      "oQueObservar": "Observe se a mesma unidade foi medida duas vezes.",
+      "conclusaoTextual": "A escolha do teste começa no desenho, e não na lembrança da fórmula."
+    },
+    {
+      "id": "MAT-EST-038-VIS-06",
+      "arquivo": "assets/06-metricas-validacao.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Comparação de métricas em dados de teste",
+      "legenda": "Métricas de previsão no teste",
+      "alt": "O modelo B tem RMSE muito maior que seu MAE, devido ao erro extremo.",
+      "oQueObservar": "Compare valores numéricos, não somente as barras coloridas.",
+      "conclusaoTextual": "O erro extremo de B pesa mais no RMSE do que no MAE."
+    },
+    {
+      "id": "MAT-EST-038-VIS-07",
+      "arquivo": "assets/07-revisao-longitudinal.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Revisão longitudinal sem consolidação automática",
+      "legenda": "Roteiro de estudo e retenção",
+      "alt": "O calendário começa depois de estudo real, não no dia da criação da aula.",
+      "oQueObservar": "Revisão deve ser registrada após execução, nunca antecipada.",
+      "conclusaoTextual": "A consolidação depende de explicar, aplicar e recuperar o conceito no tempo."
+    }
+  ],
+  "video": {
+    "titulo": "Video 4: Validating the Model",
+    "canal": "MIT OpenCourseWare",
+    "curso": "15.071 The Analytics Edge",
+    "instrutor": "Dimitris Bertsimas",
+    "url": "https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/resources/video-4-validating-the-model-0/",
+    "idioma": "inglês",
+    "duracaoAproximada": "não confirmada na página institucional",
+    "momentoRecomendado": "após o bloco de leitura diagnóstica e antes das aplicações de transferência",
+    "motivo": "revisar a separação entre desempenho de ajuste e validação externa",
+    "verificacao": "página oficial localizada em 2026-09-28; reprodução integral não testada"
+  },
+  "quantidadeItens": 36,
+  "contagemPorCamada": {
+    "aprendizagem": 10,
+    "consolidacao": 10,
+    "transferencia": 10,
+    "reteste": 6
+  },
+  "questoesOficiaisReproduzidas": 0,
+  "questoesAutorais": 36,
+  "correcaoAposTentativa": true,
+  "statusProducao": "produzido_localmente_nao_publicado",
+  "statusAprendizagemInicial": "nao_iniciado",
+  "observacaoStatus": "não sobrescrever progresso individual; não produzir tentativas, notas nem revisões fictícias",
+  "revisao": "D+1 D+7 D+30 depois de estudo real",
+  "proximoTopico": {
+    "id": "MAT-EST-039",
+    "titulo": "Ponte universitária em Estatística: reamostragem, bootstrap e testes de permutação"
+  }
+}

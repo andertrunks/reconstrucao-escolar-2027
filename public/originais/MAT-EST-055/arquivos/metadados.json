@@ -1,0 +1,129 @@
+{
+  "id": "MAT-EST-055",
+  "slug": "governanca-modelos-temporais-documentacao-decisoes-responsaveis-revisoes-criterios-encerramento",
+  "titulo": "Governança de modelos temporais: documentação de decisões, responsáveis, revisões e critérios de encerramento",
+  "materia": "Matemática",
+  "unidade": "Estatística / séries temporais / ponte universitária",
+  "nivel": 6,
+  "ordem": 55,
+  "anterior": "MAT-EST-054",
+  "proximoTopico": "MAT-EST-056",
+  "preRequisitos": [
+    "MAT-EST-047",
+    "MAT-EST-049",
+    "MAT-EST-050",
+    "MAT-EST-051",
+    "MAT-EST-052",
+    "MAT-EST-053",
+    "MAT-EST-054"
+  ],
+  "objetivos": [
+    "distinguir evidência e autorização",
+    "aplicar as seis portas congeladas",
+    "calcular e comunicar denominadores e percentuais",
+    "separar responsabilidades e assinaturas",
+    "distinguir versões de dados, modelos e regras",
+    "diferenciar fechamento e aposentadoria"
+  ],
+  "habilidades": [
+    "interpretação de tabelas",
+    "porcentagens",
+    "argumentação quantitativa",
+    "metodologia científica",
+    "governança documental"
+  ],
+  "conceitosRelacionados": [
+    "MAE",
+    "custo assimétrico",
+    "cortes informacionais",
+    "linhagem",
+    "versão",
+    "guardas de segurança"
+  ],
+  "examesRelacionados": [
+    "ENEM: transferência para interpretação de dados; conteúdo específico não afirmado",
+    "FUVEST/UNICAMP/UNESP: transferência para argumentação e informação quantitativa; conteúdo específico não afirmado",
+    "ponte universitária"
+  ],
+  "origem": "autoral",
+  "questoesOficiais": 0,
+  "aulaMarkdown": "MAT-EST-055-governanca-modelos-temporais-documentacao-decisoes-responsaveis-revisoes-criterios-encerramento.md",
+  "exercicios": "exercicios.json",
+  "gabarito": "gabarito-comentado.json",
+  "visuais": [
+    {
+      "src": "assets/01-evidencia-ate-decisao.svg",
+      "alt": "Dados versionados passam a cálculo reproduzível, aplicação de protocolo, auditoria e autorização humana; nenhuma etapa é pulada.",
+      "autoria": "original do projeto"
+    },
+    {
+      "src": "assets/02-papeis-segregados.svg",
+      "alt": "Técnico calcula, revisor de dados confere, auditor verifica regras, decisor designado delibera e responsável operacional planeja retorno; não há designação real.",
+      "autoria": "original do projeto"
+    },
+    {
+      "src": "assets/03-seis-portas.svg",
+      "alt": "Amostra cinco de oito pendente; reduções médias parciais acima de vinte por cento; piora local de dezenove vírgula dois violou limite dez; auditoria e autorização reais não demonstradas.",
+      "autoria": "original do projeto"
+    },
+    {
+      "src": "assets/04-trilha-decisao.svg",
+      "alt": "Cinco eventos fictícios G1 a G5 registram escopo, evidência, alerta local, separação V e Z e parecer de não promoção, sem assinatura humana.",
+      "autoria": "original do projeto"
+    },
+    {
+      "src": "assets/05-versoes-e-escopo.svg",
+      "alt": "Revisar uma observação altera avaliação; mudar algoritmo cria versão do modelo; mudar limiar exige protocolo futuro; nenhuma delas edita o histórico do protocolo original.",
+      "autoria": "original do projeto"
+    },
+    {
+      "src": "assets/06-fechamento-e-reinicio-controlado.svg",
+      "alt": "O relatório de cinco pares fica fechado com ressalvas; modelos permanecem inventariados; futuro estudo recebe novo protocolo antes de novos alvos, sem inventar t23–t25.",
+      "autoria": "original do projeto"
+    }
+  ],
+  "video": {
+    "titulo": "Episode 4: AI Risk Management Framework (NIST AI RMF)",
+    "canal": "Collibra (explicação comercial, não documento oficial NIST)",
+    "url": "https://www.youtube.com/watch?v=09PdKJa3wj0",
+    "idioma": "inglês",
+    "duracaoAproximada": "não confirmada",
+    "motivo": "distinguir funções Govern/Map/Measure/Manage",
+    "quandoAssistir": "após seção 4",
+    "verificacao": "título, descrição e URL localizados em busca web em 29/09/2026; reprodução integral não realizada"
+  },
+  "fontes": [
+    {
+      "nome": "NIST AI RMF Core",
+      "url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/"
+    },
+    {
+      "nome": "NIST Playbook",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook"
+    },
+    {
+      "nome": "Forecasting: Principles and Practice, forecast accuracy",
+      "url": "https://otexts.com/fpp3/accuracy.html"
+    },
+    {
+      "nome": "Time series cross-validation",
+      "url": "https://otexts.com/fpp3/tscv.html"
+    }
+  ],
+  "revisao": {
+    "aposEstudoDias": [
+      1,
+      7,
+      30
+    ],
+    "statusIndividual": "não iniciado, não atualizado"
+  },
+  "estadoEditorial": "gerado localmente; não publicado, não sincronizado",
+  "progressoIndividualAlterado": false,
+  "dados": {
+    "t01_t22": "intocados",
+    "t23_t25": "sem observações e sem emissões autenticadas",
+    "V_Z": "isolados"
+  },
+  "questionCount": 36
+}

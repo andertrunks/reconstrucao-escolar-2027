@@ -1,0 +1,196 @@
+﻿MAT-EST-004 — Gabarito comentado — reconstrução editorial v1
+
+
+Use somente após tentativa real. Todos os itens são autorais.
+
+
+CAMADA APR
+
+
+MAT-EST-004-EX-APR-01
+Resposta e raciocínio: Gráfico de barras ou colunas.
+Motivo provável do erro: Conteúdo: escolha de representação.
+
+
+MAT-EST-004-EX-APR-02
+Resposta e raciocínio: Porque o comprimento da barra codifica a magnitude; cortar a linha de base pode exagerar diferenças.
+Motivo provável do erro: Interpretação: não relacionou comprimento visual e escala.
+
+
+MAT-EST-004-EX-APR-03
+Resposta e raciocínio: 360° × 0,25 = 90°.
+Motivo provável do erro: Cálculo: conversão de porcentagem em frequência relativa ou produto.
+
+
+MAT-EST-004-EX-APR-04
+Resposta e raciocínio: 360° × 0,10 = 36°.
+Motivo provável do erro: Cálculo: produto por 360.
+
+
+MAT-EST-004-EX-APR-05
+Resposta e raciocínio: Gráfico de linhas.
+Motivo provável do erro: Conteúdo: não reconheceu sequência temporal.
+
+
+MAT-EST-004-EX-APR-06
+Resposta e raciocínio: Histograma.
+Motivo provável do erro: Conteúdo: confundiu categorias com intervalos quantitativos.
+
+
+MAT-EST-004-EX-APR-07
+Resposta e raciocínio: Barras categóricas costumam ter separação e categorias reordenáveis; histograma usa intervalos quantitativos em ordem fixa e barras contíguas.
+Motivo provável do erro: Conteúdo: confundiu forma e significado do eixo horizontal.
+
+
+MAT-EST-004-EX-APR-08
+Resposta e raciocínio: Na classe [20,30).
+Motivo provável do erro: Conteúdo: não interpretou limite incluído à esquerda.
+
+
+MAT-EST-004-EX-APR-09
+Resposta e raciocínio: Porque as categorias se sobrepõem e não são partes exclusivas de um único total de 100%.
+Motivo provável do erro: Interpretação: tratou múltiplas respostas como composição.
+
+
+MAT-EST-004-EX-APR-10
+Resposta e raciocínio: Exemplos: título, eixos, unidades, escala, legenda, fonte, período.
+Motivo provável do erro: Memória/estratégia: iniciou pela forma sem ler a estrutura.
+
+
+CAMADA CON
+
+
+MAT-EST-004-EX-CON-01
+Resposta e raciocínio: 144°, 108°, 72° e 36°. Soma = 360°.
+Motivo provável do erro: Cálculo: frequência relativa vezes 360.
+
+
+MAT-EST-004-EX-CON-02
+Resposta e raciocínio: Exemplo: sobe de 80 para 95; cai para 90; depois cresce até 130. Qualquer duas mudanças corretas e contextualizadas servem.
+Motivo provável do erro: Interpretação: descreveu causas em vez de variação.
+
+
+MAT-EST-004-EX-CON-03
+Resposta e raciocínio: Diferença = 4. Variação = 4/92 ≈ 4,35%.
+Motivo provável do erro: Cálculo: usou 96 como base ou confundiu pontos percentuais.
+
+
+MAT-EST-004-EX-CON-04
+Resposta e raciocínio: Acima da linha de base 90, os comprimentos aparentes são 2 e 6; a segunda barra parece três vezes maior, embora 96/92 ≈ 1,043.
+Motivo provável do erro: Estratégia: não comparou valores reais.
+
+
+MAT-EST-004-EX-CON-05
+Resposta e raciocínio: Classe modal [10,15), com 11. Abaixo de 15: 4+9+11 = 24.
+Motivo provável do erro: Contagem: confundiu classe modal ou acumulada.
+
+
+MAT-EST-004-EX-CON-06
+Resposta e raciocínio: A conexão sugere sequência, continuidade ou transição entre categorias que pode não existir.
+Motivo provável do erro: Conteúdo: não questionou o significado da linha.
+
+
+MAT-EST-004-EX-CON-07
+Resposta e raciocínio: Setores pequenos e próximos são difíceis de comparar por ângulo/área; barras permitem comparação de comprimento mais precisa.
+Motivo provável do erro: Estratégia: escolheu pela estética.
+
+
+MAT-EST-004-EX-CON-08
+Resposta e raciocínio: Em escala linear, espaços iguais devem representar diferenças iguais. O salto de 20 para 100 não pode ocupar o mesmo espaço que 0 para 10 sem quebra explícita.
+Motivo provável do erro: Conteúdo: não verificou escala.
+
+
+MAT-EST-004-EX-CON-09
+Resposta e raciocínio: Não. O eixo pode focar 15–25°C, por exemplo, se a escala estiver claramente rotulada e a escolha não ocultar o contexto.
+Motivo provável do erro: Interpretação: aplicou regra de barras indiscriminadamente.
+
+
+MAT-EST-004-EX-CON-10
+Resposta e raciocínio: A área aumenta por 2×2 = 4 vezes. Isso representaria quatro vezes, não duas vezes, a magnitude.
+Motivo provável do erro: Cálculo/interpretação: confundiu comprimento com área.
+
+
+CAMADA VES
+
+
+MAT-EST-004-EX-VES-01
+Resposta e raciocínio: Acima de 490, os comprimentos são 10 e 30, sugerindo razão 3; mas 520/500 = 1,04, só 4% maior.
+Motivo provável do erro: Interpretação: confiou na forma sem reconstruir a escala.
+
+
+MAT-EST-004-EX-VES-02
+Resposta e raciocínio: Evitar gráfico de setores único, porque os percentuais se sobrepõem e somam 135%; não são partes exclusivas de um mesmo todo.
+Motivo provável do erro: Conteúdo: não identificou múltiplas respostas.
+
+
+MAT-EST-004-EX-VES-03
+Resposta e raciocínio: As barras são intervalos numéricos em uma escala; reordená-las destruiria a continuidade e a posição dos valores.
+Motivo provável do erro: Conteúdo: tratou histograma como gráfico categórico.
+
+
+MAT-EST-004-EX-VES-04
+Resposta e raciocínio: Porque duas coisas podem variar juntas por coincidência, tendência prévia, outros fatores ou desenho do estudo. O gráfico mostra sequência/associação, não mecanismo causal.
+Motivo provável do erro: Interpretação: confundiu pós-evento com causalidade.
+
+
+MAT-EST-004-EX-VES-05
+Resposta e raciocínio: 1,5 × 1,5 = 2,25. A área cresce 125%, não 50%; o símbolo exagera a mudança.
+Motivo provável do erro: Cálculo: não percebeu efeito bidimensional.
+
+
+MAT-EST-004-EX-VES-06
+Resposta e raciocínio: Barras enfatizam totais de períodos discretos; linhas enfatizam evolução/tendência entre períodos ordenados. A pergunta determina a escolha.
+Motivo provável do erro: Estratégia: procurou uma única resposta universal.
+
+
+MAT-EST-004-EX-VES-07
+Resposta e raciocínio: Aumento = 4; 4/98 ≈ 4,08%. Se o eixo começa perto de 98, a diferença visual pode parecer enorme comparada à variação real.
+Motivo provável do erro: Cálculo/interpretação: não comparou escala com base.
+
+
+MAT-EST-004-EX-VES-08
+Resposta e raciocínio: Porque no histograma rigoroso a área precisa representar frequência. Com larguras diferentes, altura sozinha não é diretamente comparável; pode ser necessário usar densidade.
+Motivo provável do erro: Conteúdo: ignorou largura da classe.
+
+
+MAT-EST-004-EX-VES-09
+Resposta e raciocínio: 360° × 0,35 = 126°.
+Motivo provável do erro: Cálculo: conversão percentual e ângulo.
+
+
+MAT-EST-004-EX-VES-10
+Resposta e raciocínio: Exemplo: 'Entre os meses observados, março apresentou o maior tempo médio de espera, de 15 minutos; o gráfico não identifica a causa desse valor.'
+Motivo provável do erro: Interpretação: extrapolou para causalidade.
+
+
+CAMADA RET
+
+
+MAT-EST-004-EX-RET-01
+Resposta e raciocínio: Barras: comparar categorias. Setores: mostrar partes de um todo. Linhas: mostrar evolução em sequência. Histograma: mostrar distribuição quantitativa por intervalos.
+Motivo provável do erro: Memória/conteúdo: não recuperou finalidade das representações.
+
+
+MAT-EST-004-EX-RET-02
+Resposta e raciocínio: Barras representam categorias e podem ser reordenadas; histograma representa intervalos quantitativos em ordem fixa. No histograma, barras normalmente se encostam e a largura pode ter significado.
+Motivo provável do erro: Conteúdo: resposta apenas estética.
+
+
+MAT-EST-004-EX-RET-03
+Resposta e raciocínio: 12,5% = 0,125; 360° × 0,125 = 45°.
+Motivo provável do erro: Cálculo: porcentagem para decimal ou produto.
+
+
+MAT-EST-004-EX-RET-04
+Resposta e raciocínio: Resposta aberta. Título contextualiza o que é mostrado; eixos dizem quais variáveis; unidades dão significado numérico; escala controla a leitura; legenda diferencia séries; fonte permite rastreabilidade; período delimita a conclusão.
+Motivo provável do erro: Estratégia: descreveu elementos sem função.
+
+
+MAT-EST-004-EX-RET-05
+Resposta e raciocínio: Acima de 99, comprimentos aparentes 1 e 6 podem sugerir que 105 é seis vezes 100, quando na realidade é apenas 5% maior.
+Motivo provável do erro: Interpretação: não reconstruiu a linha de base.
+
+
+MAT-EST-004-EX-RET-06
+Resposta e raciocínio: Porque design pode ocultar escala, fonte, denominador ou usar áreas e perspectivas desproporcionais. Aparência profissional não garante fidelidade estatística.
+Motivo provável do erro: Conteúdo: confundiu estética com validade.

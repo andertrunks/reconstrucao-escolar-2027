@@ -10,7 +10,9 @@ Validação: `npm run typecheck`, `npm run lint`, `npm test`, `npm run build`, `
 
 ## Conteúdo
 
-A primeira versão contém o diagnóstico autoral integral com 37 questões. A fonte não possui correções; a interface salva respostas e indica correção pendente. Nenhum resumo de conversa é tratado como aula.
+A versão 0.2.0 acrescenta 48 aulas integrais de Estatística, 1.740 questões e 303 recursos visuais. Fontes e edições anteriores acompanham as aulas. O diagnóstico autoral de 37 questões permanece integral; sua fonte não possui correções. A interface salva tentativas e libera o gabarito de prática após uma tentativa salva, sem pontuação ou domínio automáticos. Nenhum resumo de conversa é tratado como aula.
+
+Há lacunas no acervo histórico, inclusive MAT-EST-012 a 030. As aulas avançadas indicam pré-requisitos indisponíveis e podem ser consultadas. O catálogo permite mostrar referências pendentes sem apresentá-las como aulas completas. Veja docs/PUBLICATION_2026-10-03.md para escopo, evidências e limitações da atualização.
 
 Consulte docs/CONTENT_MODEL.md e docs/EDITORIAL_INDEX.md. Fontes consolidadas em docs/SOURCES.md. O estado editorial é separado do progresso do estudante.
 

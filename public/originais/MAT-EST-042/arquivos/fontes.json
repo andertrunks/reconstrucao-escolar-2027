@@ -1,0 +1,26 @@
+[
+  {
+    "instituicao": "Penn State",
+    "titulo": "STAT 510 Lesson 1: Time Series Basics",
+    "url": "https://online.stat.psu.edu/stat510/Lesson01",
+    "uso": "ACF, estacionariedade, resíduos"
+  },
+  {
+    "instituicao": "Penn State",
+    "titulo": "STAT 510 Lesson 2: MA Models",
+    "url": "https://online.stat.psu.edu/stat510/Lesson02",
+    "uso": "processo MA estocástico"
+  },
+  {
+    "instituicao": "MIT OCW",
+    "titulo": "Lecture 12: Time Series Analysis",
+    "url": "https://ocw.mit.edu/courses/18-642-topics-in-mathematics-with-applications-in-finance-fall-2024/resources/18642-lecture-12-version-2_mp4/",
+    "uso": "vídeo complementar"
+  },
+  {
+    "instituicao": "Hyndman e Athanasopoulos",
+    "titulo": "Forecasting Principles and Practice 3e",
+    "url": "https://otexts.com/fpp3/",
+    "uso": "apoio sobre previsão e avaliação"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "MAT-EST-047-VIS-01",
+    "arquivo": "assets/01-painel-residuos-horizonte.svg",
+    "titulo": "Painel de erros por origem e horizonte",
+    "legenda": "Painel de erros por origem e horizonte",
+    "alt": "H1 e H2 são calculados em t8, t9 e t10, e os alvos t10 e t11 reaparecem em origens distintas.",
+    "oQueObservar": "Observe os sinais dos erros, o horizonte e a repetição das datas de alvo.",
+    "conclusaoTextual": "Há seis tarefas preditivas, não seis observações independentes; reportar o horizonte evita misturar condições de informação.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-047-VIS-02",
+    "arquivo": "assets/02-sinais-erros.svg",
+    "titulo": "Diagnóstico dos seis erros assinados",
+    "legenda": "Diagnóstico dos seis erros assinados",
+    "alt": "Quatro erros negativos e dois positivos; a maior magnitude positiva está em t10/h1, cerca de mais 2,76.",
+    "oQueObservar": "Compare os sinais sem cancelar magnitudes. Verifique quais valores pertencem a h1 e h2.",
+    "conclusaoTextual": "A média assinada perto de zero pode coexistir com erros absolutos próximos de duas unidades.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-047-VIS-03",
+    "arquivo": "assets/03-metricas-residuos.svg",
+    "titulo": "Média assinada não equivale a MAE",
+    "legenda": "Média assinada não equivale a MAE",
+    "alt": "Ambos os horizontes possuem média assinada negativa pequena, mas MAE perto de duas unidades.",
+    "oQueObservar": "Compare a média com sinal ao MAE e observe o tamanho três em cada grupo.",
+    "conclusaoTextual": "Correção de viés e redução de dispersão respondem a problemas diferentes; a amostra curta não autoriza inferência robusta.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-047-VIS-04",
+    "arquivo": "assets/04-cobertura-candidatas.svg",
+    "titulo": "Cobertura observada das duas faixas propostas",
+    "legenda": "Cobertura observada das duas faixas propostas",
+    "alt": "A tem uma observação fora, na origem dez e horizonte um; B abrange os seis alvos-tarefa.",
+    "oQueObservar": "Verifique que B é mais larga por definição e o denominador por horizonte é apenas três.",
+    "conclusaoTextual": "Cobertura observada na amostra curta não demonstra que alguma candidata atinge 80% no futuro.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-047-VIS-05",
+    "arquivo": "assets/05-largura-penalidade.svg",
+    "titulo": "Troca entre largura e penalidade por erro externo",
+    "legenda": "Troca entre largura e penalidade por erro externo",
+    "alt": "A em h1 é mais estreita mas perde a cobertura de um alvo; B é mais larga e inclui as três observações desse horizonte.",
+    "oQueObservar": "Compare escores dentro do mesmo horizonte e observe o preço de alargar todas as previsões.",
+    "conclusaoTextual": "O escore pondera largura e falha, mas os seis alvos-tarefa são poucos e parcialmente sobrepostos.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-047-VIS-06",
+    "arquivo": "assets/06-custo-assimetrico.svg",
+    "titulo": "Custos assimétricos tornam os sinais relevantes",
+    "legenda": "Custos assimétricos tornam os sinais relevantes",
+    "alt": "O erro positivo de t10/h1 tem custo três vezes a própria magnitude; erros negativos são penalizados na proporção um para um.",
+    "oQueObservar": "Não substitua MAE por custo sem declarar a regra e sua finalidade.",
+    "conclusaoTextual": "A regra de risco deve ser definida antes de examinar os alvos; um resultado estatístico não fixa sozinho a decisão.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  },
+  {
+    "id": "MAT-EST-047-VIS-07",
+    "arquivo": "assets/07-protocolo-risco.svg",
+    "titulo": "Checklist do relatório de risco preditivo",
+    "legenda": "Checklist do relatório de risco preditivo",
+    "alt": "A avaliação do intervalo aparece depois da emissão e antes de decisões com custo; a revisão exige dados futuros de verdade.",
+    "oQueObservar": "Acompanhe a separação entre estimativa, avaliação e decisão.",
+    "conclusaoTextual": "Comunicar limites, origem e método protege contra certeza exagerada e permite reprodutibilidade.",
+    "autoria": "original",
+    "licenca": "uso_no_projeto"
+  }
+]

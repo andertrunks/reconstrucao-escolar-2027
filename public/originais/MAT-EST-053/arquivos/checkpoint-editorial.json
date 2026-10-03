@@ -1,0 +1,33 @@
+{
+  "projeto": "Reconstrução Escolar + ENEM e Vestibulares 2027",
+  "ultimo_pacote_editorial_concluido": "MAT-EST-053",
+  "titulo_ultimo": "Qualidade e versionamento de dados temporais: proveniência, reprocessamento e políticas de avaliação por versão",
+  "ultimo_confirmado_antes": "MAT-EST-052",
+  "etapa_atual": "gerada localmente, não sincronizada nem publicada nem estudada",
+  "proximo_topico_editorial": "MAT-EST-054",
+  "titulo_proximo_proposto": "Auditoria de avaliações temporais: reconciliação de versões, rastreamento de métricas e relatórios reproduzíveis",
+  "proxima_acao": "Verificar checkpoint canônico, produzir somente MAT-EST-054, com os arquivos herdados se necessário, sem inventar dados futuros e sem alterar protocolos.",
+  "progresso_individual": "não iniciado; não atualizado",
+  "serie_principal": "t01–t22 preservada; t23–t25 sem observações nem emissões autenticadas",
+  "pares": "5/8 fictícios (t18–t22)",
+  "protocolo": "MAT-EST-049-PROT-v1 preservado; t19 19,2 > guarda 10; não promover",
+  "plan": "MAT-EST-051-PLAN-v1 preservado; não executado",
+  "isolated_experiments": [
+    "EXEMPLO-Z-ISOLADO, herdado: previsão 29, v1 30 preliminar, v2 32 validado",
+    "EXEMPLO-V-ISOLADO, novo: previsões B42 C43, observações preliminar40 e validada44; não é par da série principal"
+  ],
+  "recalculos_t23": {
+    "B": 183,
+    "C": 199,
+    "status": "didáticos não autenticados"
+  },
+  "nao_alegar": [
+    "deploy",
+    "Drive/GitHub sincronizados",
+    "teste manual Edge",
+    "reprodução integral vídeo",
+    "observações t23 a t25",
+    "mudança de protocolo ou progresso"
+  ],
+  "material_integracao": "MAT-EST-053-pacote-integracao.zip"
+}

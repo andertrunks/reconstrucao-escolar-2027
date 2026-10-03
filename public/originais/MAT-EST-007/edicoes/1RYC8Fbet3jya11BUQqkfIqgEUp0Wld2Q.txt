@@ -1,0 +1,66 @@
+# MAT-EST-007 — Manifesto da reconstrução editorial v1
+
+## Natureza
+
+Reconstrução editorial explícita. O projeto preserva evidência histórica do código e do título, mas os bytes do material anterior não foram recuperados. Esta versão não afirma identidade textual, visual ou binária com o original perdido.
+
+## Escopo
+
+Código: MAT-EST-007.  
+Título: Medidas de dispersão I: amplitude, desvios e desvio médio.  
+Pré-requisitos: MAT-EST-001 a MAT-EST-006.  
+Próximo tópico: MAT-EST-008 — Variância e desvio-padrão: quadrados dos desvios, unidades e interpretação.
+
+## Conteúdo reconstruído
+
+- conceito de dispersão;
+- amplitude e suas limitações;
+- desvios em relação à média;
+- cancelamento algébrico;
+- valor absoluto;
+- desvio médio absoluto;
+- unidade e propriedades;
+- transformação linear;
+- cálculo com frequências;
+- comparação entre conjuntos;
+- extremos e dados ausentes;
+- dados agrupados;
+- ponte universitária para média/mediana e funções de perda;
+- ligação conceitual com variância, desvio-padrão e coeficiente de variação.
+
+## Avaliação
+
+36 questões autorais com IDs únicos:
+
+- 10 APR;
+- 10 CON;
+- 10 VES;
+- 6 RET.
+
+Gabarito separado, com raciocínio e motivo provável do erro.
+
+## Visuais
+
+Seis SVGs originais desta reconstrução, cada um com title e desc e com explicação textual equivalente na aula.
+
+## Fontes institucionais verificadas
+
+- BNCC/MEC — EF08MA25 e relação entre tendência central e dispersão indicada pela amplitude.
+- Inep — Matrizes de Referência do Enem, publicação institucional de 2026.
+- FUVEST — Programa do Vestibular 2027: amplitude, desvio-médio, variância, desvio-padrão e coeficiente de variação.
+
+## Vídeos
+
+1. AMPLITUDE ESTATÍSTICA | MEDIDA DE DISPERSÃO — Gis com Giz Mathematics.
+2. DESVIO MÉDIO ABSOLUTO — Prof. MURAKAMI - MATEMÁTICA RAPIDOLA.
+
+Páginas localizadas; QA audiovisual integral permanece pendente.
+
+## Estado
+
+Publicação no site: não realizada.  
+QA Edge/Ler em voz alta: pendente.  
+Integração no modelo estruturado do site: pendente.  
+Progresso do aluno: não alterado.  
+MAT-EST-068: não iniciada.
+

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "MAT-EST-040-VIS-01",
+    "arquivo": "assets/01-camadas-validade.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Validade da inferência: coleta, método e conclusão",
+    "legenda": "Validade da inferência: coleta, método e conclusão",
+    "alt": "Três caixas em sequência mostram coleta, reamostragem e conclusão; alerta sobre replicações artificiais.",
+    "oQueObservar": "Confira se o desenho de coleta é anterior à escolha do método.",
+    "conclusaoTextual": "Simulação não corrige ausência ou dependência não tratada na amostra."
+  },
+  {
+    "id": "MAT-EST-040-VIS-02",
+    "arquivo": "assets/02-comparacao-intervalos.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Comparação de intervalos bootstrap para a média",
+    "legenda": "Comparação de intervalos bootstrap para a média",
+    "alt": "Eixo de 2 a 8 unidades, com intervalo percentílico de 3 a 7 e intervalo normal aproximado de 2,809 a 7,191; centro 5.",
+    "oQueObservar": "Compare limites obtidos por quantis e limites baseados em simetria e erro-padrão.",
+    "conclusaoTextual": "Métodos diferentes geram resultados distintos; amostra minúscula não atesta cobertura nominal."
+  },
+  {
+    "id": "MAT-EST-040-VIS-03",
+    "arquivo": "assets/03-permutacao-e-desenho.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Permutação exata condicionada ao desenho",
+    "legenda": "Permutação exata condicionada ao desenho",
+    "alt": "Dados A=[2,4,6], B=[8,10,12], 20 distribuições equiprováveis de rótulos e duas extremas, p de 0,10.",
+    "oQueObservar": "Confira a exigência de rótulos intercambiáveis sob a hipótese nula.",
+    "conclusaoTextual": "Sem troca justificável no desenho, a contagem de 20 não legitima o teste."
+  },
+  {
+    "id": "MAT-EST-040-VIS-04",
+    "arquivo": "assets/04-pacientes-conglomerados.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Reamostragem por conglomerados",
+    "legenda": "Reamostragem por conglomerados",
+    "alt": "Três pacientes com duas medições cada; médias dos pacientes 3, 7 e 11; reamostragem por paciente.",
+    "oQueObservar": "Observe que seis medições vieram de somente três pessoas.",
+    "conclusaoTextual": "A unidade de reamostragem respeita a unidade independente do desenho."
+  },
+  {
+    "id": "MAT-EST-040-VIS-05",
+    "arquivo": "assets/05-pares-modelos.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Comparação pareada de erros entre modelos",
+    "legenda": "Comparação pareada de erros entre modelos",
+    "alt": "Tabela de quatro dias: erros A 5,5,5,5; B 0,0,0,25; diferenças A menos B 5,5,5,-20.",
+    "oQueObservar": "A diferença deve ser formada na mesma data, não entre dias embaralhados.",
+    "conclusaoTextual": "A comparação integral muda de sinal no diagnóstico de exclusão do último dia."
+  },
+  {
+    "id": "MAT-EST-040-VIS-06",
+    "arquivo": "assets/06-distribuicao-pareada.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Distribuição exata das diferenças médias reamostradas",
+    "legenda": "Distribuição exata das diferenças médias reamostradas",
+    "alt": "Cinco barras em valores -20,-13,75,-7,5,-1,25 e 5, com frequências 1,12,54,108,81, respectivamente.",
+    "oQueObservar": "A distribuição concentra-se perto de menos 1,25, mas contém valores positivos e negativos.",
+    "conclusaoTextual": "O intervalo ilustrativo inclui zero e a pequena série não sustenta generalização temporal robusta."
+  },
+  {
+    "id": "MAT-EST-040-VIS-07",
+    "arquivo": "assets/07-arvore-auditoria.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Árvore de auditoria da reamostragem",
+    "legenda": "Árvore de auditoria da reamostragem",
+    "alt": "Quatro passos: pergunta, dependência, procedimento e análise de robustez, terminando em conclusão proporcional à evidência.",
+    "oQueObservar": "Não selecionar o procedimento antes de entender pergunta e coleta.",
+    "conclusaoTextual": "Incerteza de simulação, amostragem e viés são problemas distintos."
+  }
+]

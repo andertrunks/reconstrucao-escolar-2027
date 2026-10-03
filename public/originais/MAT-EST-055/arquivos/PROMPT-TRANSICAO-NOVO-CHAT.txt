@@ -1,0 +1,11 @@
+CONTINUIDADE — RECONSTRUÇÃO ESCOLAR + ENEM E VESTIBULARES 2027
+
+Último pacote editorial concluído LOCALMENTE: MAT-EST-055 — Governança de modelos temporais: documentação de decisões, responsáveis, revisões e critérios de encerramento. Consulte o arquivo checkpoint-editorial.json e o pacote MAT-EST-055-pacote-integracao.zip; peça que eu os anexe caso não estejam disponíveis.
+
+Próximo tópico proposto, ainda não iniciado: MAT-EST-056 — Revisão controlada de experimentos temporais: protocolo sucessor, pré-registro e prevenção de contaminação da avaliação. Quando escrever Continuar, produzir exatamente uma etapa, sem refazer material anterior.
+
+Preservar MAT-EST-049-PROT-v1 (sem edição) e MAT-EST-051-PLAN-v1 (não executado); os 23 arquivos herdados copiados de MAT-EST-054; série fictícia t01–t22. Alvos t23–t25 não observados nem têm emissões autenticadas; B23=183 e C23=199 são somente recálculos. Cinco de oito pares t18–t22, MAE B=17,60 e C=8,36, custos médios B=51,20 e C=14,92. Em t19, C piora localmente 19,2 acima da guarda máxima de dez; não promover o modelo C sob protocolo antigo. Não acrescentar V e Z à série principal: V B42/C43, preliminar40 e validada44; Z previsão29, preliminar30 e validada32.
+
+MAT-EST-055 acrescentou parecer MAT-EST-055-PARECER-DIDATICO-v1 e trilha G1–G5 apenas simulados. Papéis são abstratos; não há assinatura, auditoria ou autorização operacional real. Uma regra sucessora futura exigirá novo ID e pré-registro antes dos alvos elegíveis, sem reabilitar retroativamente v1.
+
+Produzir aula completa aprofundada, seis diagramas ou recursos visuais com legenda/alt e texto para áudio Edge, vídeo complementar com verificação honesta, 36 exercícios autorais em três níveis mais reteste e gabarito separado, MD, JSON, ZIP de integração, prévia HTML/PNG, SHA-256 e testes locais. Preservar dados e IDs, distinguir fontes externas de dados fictícios e não alegar publicação, sincronização Drive/GitHub, teste real no Edge ou progresso estudantil. Registrar checkpoint e apresentar botões Continuar e Copiar prompt para novo chat.

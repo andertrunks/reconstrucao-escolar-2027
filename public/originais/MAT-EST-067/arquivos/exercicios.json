@@ -1,0 +1,506 @@
+[
+  {
+    "id": "MAT-EST-067-EX-APR-01",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "básica",
+    "camada": "APR",
+    "titulo": "Objetos distintos",
+    "enunciado": "O que significa previsto, observado e erro? Por que falta de observado não é erro zero?"
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-02",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "básica",
+    "camada": "APR",
+    "titulo": "Contar estados",
+    "enunciado": "Dos seis cartões LAB-067, identifique os avaliáveis e os pendentes."
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-03",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "básica",
+    "camada": "APR",
+    "titulo": "Completude",
+    "enunciado": "Calcule a completude do LAB-067 e explique a unidade da razão."
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-04",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "básica",
+    "camada": "APR",
+    "titulo": "Sinal dos erros",
+    "enunciado": "Calcule os erros B/C em D01 (y24; B21; C23) e D02 (y18; B20; C17)."
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-05",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "básica",
+    "camada": "APR",
+    "titulo": "MAE de B",
+    "enunciado": "Com os módulos de B em D01–D04 iguais a 3,2,4,1, calcule o MAE e dê a unidade."
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-06",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "básica",
+    "camada": "APR",
+    "titulo": "MAE de C",
+    "enunciado": "Com módulos de C iguais a 1,1,3,2, calcule o MAE e interprete apenas no recorte."
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-07",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "básica",
+    "camada": "APR",
+    "titulo": "Custos em D01",
+    "enunciado": "Sob custo três pontos por kit subprevisto e um por kit superprevisto, calcule custo de B e C em D01."
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-08",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "básica",
+    "camada": "APR",
+    "titulo": "Média ausente",
+    "enunciado": "O que informar como MAE quando há zero pares avaliáveis entre seis planejados?"
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-09",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "básica",
+    "camada": "APR",
+    "titulo": "D04 e diferença emparelhada",
+    "enunciado": "Em D04, módulos B=1 e C=2. Qual é C menos B?"
+  },
+  {
+    "id": "MAT-EST-067-EX-APR-10",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "básica",
+    "camada": "APR",
+    "titulo": "Proveniência",
+    "enunciado": "Indique duas informações necessárias além do valor previsto para uma avaliação temporal auditável."
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-01",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "intermediária",
+    "camada": "CON",
+    "titulo": "Quatro pares de erros",
+    "enunciado": "Reconstrua os erros assinados de B e C para D01–D04 a partir da tabela da aula."
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-02",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "intermediária",
+    "camada": "CON",
+    "titulo": "Diferenças emparelhadas",
+    "enunciado": "Calcule |eC|−|eB| em D01–D04, sua soma e média."
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-03",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "intermediária",
+    "camada": "CON",
+    "titulo": "Custo em quatro cartões",
+    "enunciado": "Calcule totais e custos médios de B/C com peso três para erro positivo e um para erro negativo."
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-04",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "intermediária",
+    "camada": "CON",
+    "titulo": "Guarda pré-declarada",
+    "enunciado": "A guarda hipotética local admite piora de C−B até 0,5 kit em cada tarefa. Compare D04 e registre a consequência condicional."
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-05",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "intermediária",
+    "camada": "CON",
+    "titulo": "Limites por cartão ausente",
+    "enunciado": "D05 tem B22 e C21; D06, B25 e C23. Sem y, limite a diferença de módulos C−B em cada um."
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-06",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "intermediária",
+    "camada": "CON",
+    "titulo": "Limite para seis tarefas",
+    "enunciado": "A soma das diferenças C−B nos quatro conhecidos é −3; os faltantes estão em [−1,+1] e [−2,+2]. Limite a média completa se todos forem avaliados com mesmo peso."
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-07",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "intermediária",
+    "camada": "CON",
+    "titulo": "Extremo de empate",
+    "enunciado": "Sem registrar observações: suponha apenas hipoteticamente que yD05≥22 e yD06≥25. Quanto seria a média completa de C−B?"
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-08",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "intermediária",
+    "camada": "CON",
+    "titulo": "Outro extremo",
+    "enunciado": "Suponha apenas que yD05≤21 e yD06≤23. Qual seria a média completa C−B?"
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-09",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "intermediária",
+    "camada": "CON",
+    "titulo": "Ausência possivelmente seletiva",
+    "enunciado": "Explique por que quatro observações disponíveis não demonstram que os dois cartões sem observado têm o mesmo comportamento."
+  },
+  {
+    "id": "MAT-EST-067-EX-CON-10",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "intermediária",
+    "camada": "CON",
+    "titulo": "Versões e pareamento",
+    "enunciado": "Um observado preliminar de D02 fosse retificado mais tarde. Qual trilha deve ser preservada e o que não deve mudar retroativamente?"
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-01",
+    "origem": "autoral",
+    "exame": "estilo vestibular, não oficial",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "transferência",
+    "camada": "VES",
+    "titulo": "Comunicado seletivo",
+    "enunciado": "Um comunicado destaca MAE C 1,75 versus B 2,5 e afirma: “C foi aprovado para todas as demandas futuras”. Reescreva de modo auditável."
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-02",
+    "origem": "autoral",
+    "exame": "estilo vestibular, não oficial",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "transferência",
+    "camada": "VES",
+    "titulo": "Gráfico com legenda incorreta",
+    "enunciado": "Um gráfico dos quatro pares usa título “Taxa de acerto nas seis tarefas”. Proponha título, eixos e descrição sonora corretos."
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-03",
+    "origem": "autoral",
+    "exame": "estilo vestibular, não oficial",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "transferência",
+    "camada": "VES",
+    "titulo": "Aplicação em química fictícia",
+    "enunciado": "Quatro amostras estão planejadas; três medições válidas fictícias são 8, 12 e 10 mg/L e uma está ausente. Calcule completude e média válida."
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-04",
+    "origem": "autoral",
+    "exame": "estilo vestibular, não oficial",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "transferência",
+    "camada": "VES",
+    "titulo": "Horizon e origem",
+    "enunciado": "Um relatório agrega erros de h1 e h2 como se fossem a mesma tarefa sem informar datas de origem. Identifique o problema e a informação necessária."
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-05",
+    "origem": "autoral",
+    "exame": "estilo vestibular, não oficial",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "transferência",
+    "camada": "VES",
+    "titulo": "Sensibilidade sem premissa",
+    "enunciado": "Alguém afirma “erro de D05 não pode ultrapassar cinco kits” só porque B e C diferem um kit. Corrija a afirmação."
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-06",
+    "origem": "autoral",
+    "exame": "estilo vestibular, não oficial",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "transferência",
+    "camada": "VES",
+    "titulo": "Mistura de recortes",
+    "enunciado": "Um texto soma quatro pares LAB-067, dois SANDBOX-057 e dois TRANSFER-066 para anunciar desempenho histórico. Explique por que é inválido."
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-07",
+    "origem": "autoral",
+    "exame": "estilo vestibular, não oficial",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "transferência",
+    "camada": "VES",
+    "titulo": "Demonstração do limite",
+    "enunciado": "Para B e C fixos, justifique por que | |y−C|−|y−B| |≤|B−C|."
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-08",
+    "origem": "autoral",
+    "exame": "estilo vestibular, não oficial",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "transferência",
+    "camada": "VES",
+    "titulo": "Mecanismo desconhecido",
+    "enunciado": "Os cartões sem observado podem representar dias de maior demanda. Qual frase diferencia dado, hipótese e decisão?"
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-09",
+    "origem": "autoral",
+    "exame": "estilo vestibular, não oficial",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "transferência",
+    "camada": "VES",
+    "titulo": "Registro da guarda local",
+    "enunciado": "Redija um registro de auditoria do cartão D04 sem tocar no protocolo t19."
+  },
+  {
+    "id": "MAT-EST-067-EX-VES-10",
+    "origem": "autoral",
+    "exame": "estilo vestibular, não oficial",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "transferência",
+    "camada": "VES",
+    "titulo": "Evidência para publicação",
+    "enunciado": "Após o pacote incremental passar testes locais, um editor escreve que os 23 invariantes foram revalidados, o vídeo integral foi visto e a aula foi publicada. O que o relatório deve dizer?"
+  },
+  {
+    "id": "MAT-EST-067-EX-RET-01",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "revisão",
+    "camada": "RET",
+    "titulo": "Média assinada versus MAE",
+    "enunciado": "Em caso futuro autoral isolado, erros −3,+4,−1 kits. Calcule média assinada e MAE."
+  },
+  {
+    "id": "MAT-EST-067-EX-RET-02",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "revisão",
+    "camada": "RET",
+    "titulo": "Completude nula",
+    "enunciado": "Cinco cartões de outro exercício foram planejados; nenhum tem par elegível. Informe completude e MAE."
+  },
+  {
+    "id": "MAT-EST-067-EX-RET-03",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "revisão",
+    "camada": "RET",
+    "titulo": "Novo limite triangular",
+    "enunciado": "Previsões fixas B10 e C13 para alvo desconhecido. Qual limite para |y−C|−|y−B|?"
+  },
+  {
+    "id": "MAT-EST-067-EX-RET-04",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "revisão",
+    "camada": "RET",
+    "titulo": "Custos em outro recorte",
+    "enunciado": "Em outro exercício independente, erros B [+2,−4] e C [−1,−5]. Com pesos 3 para positivo e 1 para negativo, calcule MAE e custo médio."
+  },
+  {
+    "id": "MAT-EST-067-EX-RET-05",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "revisão",
+    "camada": "RET",
+    "titulo": "Linha do tempo de versões",
+    "enunciado": "Uma previsão fixa de 70 kits encontra observado preliminar 73 e validado 69. Calcule erros e proponha registro sem dupla contagem."
+  },
+  {
+    "id": "MAT-EST-067-EX-RET-06",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-067"
+    ],
+    "dificuldade": "revisão",
+    "camada": "RET",
+    "titulo": "Síntese de seis frases",
+    "enunciado": "Escreva até seis frases sobre LAB-067 incluindo completude, MAE, custo, guarda, ausência e limite matemático sem alegar implantação."
+  }
+]

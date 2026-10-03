@@ -1,0 +1,17 @@
+{
+  "projeto": "Reconstrução Escolar + ENEM e Vestibulares 2027",
+  "ultimo_pacote_editorial_integrado": "MAT-EST-067",
+  "ultimo_pacote_anterior": "MAT-EST-066",
+  "origem": "integração local após verificação do ZIP integral MAT-EST-066",
+  "zip_066_sha256": "c4305c988ee732ae990af37c1d1afaf4702c602ef4228c8e2a99d38bbb7c22a7",
+  "zip_065_sha256": "b8a2d2504fa63eac5a50519ab5793baac3bac4db4d06cf261ca2c89f2b165d4c",
+  "invariantes_herdados_validados": 23,
+  "zip_067_incremental_sha256": "2526da69f5c0d21da49445ee80128ce4388cebdda95947cc68cbc3598cc298ec",
+  "arquivos_066_preservados_byte_a_byte": 77,
+  "novos_arquivos_067_em_etapas": 20,
+  "progresso_individual": "inalterado; nenhuma inferência sobre domínio ou tentativas",
+  "publicacao_site": false,
+  "sincronizacao_drive": false,
+  "sincronizacao_github": false,
+  "proximo_topico_editorial": "não iniciado por este integrador"
+}

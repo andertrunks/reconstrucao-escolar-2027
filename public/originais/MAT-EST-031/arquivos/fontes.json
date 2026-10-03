@@ -1,0 +1,32 @@
+[
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 501 — Lesson 10, Model Building, seção 10.6 Cross-validation",
+    "url": "https://online.stat.psu.edu/stat501/Lesson10",
+    "uso": "validação e erro preditivo"
+  },
+  {
+    "instituicao": "scikit-learn",
+    "titulo": "Cross-validation: evaluating estimator performance",
+    "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+    "uso": "separação, folds, seleção e independência da avaliação"
+  },
+  {
+    "instituicao": "scikit-learn",
+    "titulo": "Common pitfalls and recommended practices",
+    "url": "https://scikit-learn.org/1.8/common_pitfalls.html",
+    "uso": "vazamento e pipeline de pré-processamento"
+  },
+  {
+    "instituicao": "MIT OpenCourseWare",
+    "titulo": "Video 6: Cross-Validation (The Analytics Edge)",
+    "url": "https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/resources/video-6-cross-validation-0/",
+    "uso": "vídeo institucional de apoio; página localizada, reprodução integral não testada"
+  },
+  {
+    "instituicao": "StatQuest with Josh Starmer",
+    "titulo": "Machine Learning Fundamentals: Cross Validation",
+    "url": "https://www.youtube.com/watch?v=fSytzGwwBVw",
+    "uso": "vídeo alternativo do YouTube; página localizada, reprodução integral não testada"
+  }
+]

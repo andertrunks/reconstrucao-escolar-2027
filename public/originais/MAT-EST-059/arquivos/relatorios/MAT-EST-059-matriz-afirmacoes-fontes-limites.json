@@ -1,0 +1,99 @@
+{
+  "id": "MAT-EST-059-CLAIMS-v1",
+  "natureza": "rastreabilidade editorial local; não auditoria externa",
+  "afirmacoes": [
+    {
+      "id": "CL-01",
+      "afirmacao": "O sandbox contém oito cartões planejados.",
+      "origem": "sandbox/SANDBOX-057-cartoes.csv",
+      "escopo": "SANDBOX-057 corte A",
+      "derivacao": "contagem de linhas=8",
+      "limite": "não é t26–t33",
+      "veredicto": "descritiva"
+    },
+    {
+      "id": "CL-02",
+      "afirmacao": "Somente dois de oito cartões são avaliáveis: 25%.",
+      "origem": "sandbox/SANDBOX-057-cartoes.csv",
+      "escopo": "SANDBOX-057 corte A",
+      "derivacao": "eligible_demo=2; 2/8=25%",
+      "limite": "seis pendências conservadas",
+      "veredicto": "descritiva"
+    },
+    {
+      "id": "CL-03",
+      "afirmacao": "Nos dois cartões avaliáveis, MAE B=3 e MAE C=4 unidades.",
+      "origem": "sandbox/SANDBOX-057-cartoes.csv",
+      "escopo": "S01,S02; n=2",
+      "derivacao": "(4+2)/2=3; (3+5)/2=4",
+      "limite": "não extrapolar os seis pendentes",
+      "veredicto": "descritiva condicional ao corte"
+    },
+    {
+      "id": "CL-04",
+      "afirmacao": "Os dois custos médios são iguais a sete pontos.",
+      "origem": "sandbox/SANDBOX-057-cartoes.csv",
+      "escopo": "S01,S02; n=2",
+      "derivacao": "B=(12+2)/2; C=(9+5)/2",
+      "limite": "regra artificial: três vezes subprevisão e uma vez superprevisão",
+      "veredicto": "descritiva condicional ao custo"
+    },
+    {
+      "id": "CL-05",
+      "afirmacao": "Diferenças emparelhadas de módulos C menos B: −1 e +3; média +1 unidade.",
+      "origem": "sandbox/SANDBOX-057-cartoes.csv",
+      "escopo": "S01,S02; n=2",
+      "derivacao": "3−4=−1; 5−2=+3; (−1+3)/2=+1",
+      "limite": "não são duas amostras independentes",
+      "veredicto": "descritiva"
+    },
+    {
+      "id": "CL-06",
+      "afirmacao": "Sob hipótese M=10, MAE B está entre 0,75 e 8,25, C entre 1 e 8,5.",
+      "origem": "relatorios/MAT-EST-058-leitura-critica-SANDBOX-057.json",
+      "escopo": "oito cartões hipoteticamente avaliados",
+      "derivacao": "soma conhecida B=6 C=8; seis desconhecidos em [0;10]",
+      "limite": "limites condicionais, não intervalo de confiança",
+      "veredicto": "hipótese ilustrativa"
+    },
+    {
+      "id": "CL-07",
+      "afirmacao": "A diferença condicional C menos B pode ir de −7,25 a +7,75.",
+      "origem": "relatorios/MAT-EST-058-leitura-critica-SANDBOX-057.json",
+      "escopo": "hipótese M=10",
+      "derivacao": "(2−60)/8; (2+60)/8",
+      "limite": "não atribuir probabilidades nem ordem final",
+      "veredicto": "hipótese ilustrativa"
+    },
+    {
+      "id": "CL-08",
+      "afirmacao": "A exclusão posterior de S02 inverte MAEs para B=4 e C=3.",
+      "origem": "relatorios/MAT-EST-058-leitura-critica-SANDBOX-057.json",
+      "escopo": "exploração somente S01",
+      "derivacao": "módulos S01 B=4 C=3",
+      "limite": "não substitui a fotografia primária",
+      "veredicto": "exploratória, não decisória"
+    },
+    {
+      "id": "CL-09",
+      "afirmacao": "O histórico contém cinco pares e falha em t19 de 19,2 acima da guarda dez.",
+      "origem": "dados/comparacao-emparelhada-t18-t22.csv",
+      "escopo": "MAT-EST-049-PROT-v1",
+      "derivacao": "cinco linhas e campo de t19=19,2",
+      "limite": "não misturar com sandbox; protocolo antigo não aprova C",
+      "veredicto": "histórico didático"
+    },
+    {
+      "id": "CL-10",
+      "afirmacao": "t26–t33 não fornecem MAE.",
+      "origem": "protocolo-sucessor/MAT-EST-056-PROT-SUC-v1.json",
+      "escopo": "sucessor proposto",
+      "derivacao": "0 emissões e 0 observados",
+      "limite": "métrica não estimável, não zero",
+      "veredicto": "estado editorial"
+    }
+  ],
+  "novas_observacoes_t23_t33": 0,
+  "novas_emissoes_t23_t33": 0,
+  "publicado": false
+}

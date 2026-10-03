@@ -1,0 +1,125 @@
+{
+  "id": "MAT-EST-061",
+  "slug": "teste-regressao-editorial-preparacao-publicacao-evidencias-humanas-rollback-comunicacao-correcoes",
+  "titulo": "Teste de regressão editorial e preparação de publicação: evidências humanas, rollback e comunicação de correções",
+  "materia": "Matemática",
+  "unidade": "Estatística / séries temporais / ponte universitária",
+  "nivel": 6,
+  "ordem": 61,
+  "anterior": "MAT-EST-060",
+  "proximoTopico": "MAT-EST-062",
+  "preRequisitos": [
+    "MAT-EST-049",
+    "MAT-EST-053",
+    "MAT-EST-054",
+    "MAT-EST-056",
+    "MAT-EST-057",
+    "MAT-EST-058",
+    "MAT-EST-059",
+    "MAT-EST-060"
+  ],
+  "objetivos": [
+    "definir baseline e candidato",
+    "executar regressão sem alterar fonte",
+    "documentar limites da automação e evidência humana",
+    "separar restauração local de rollback público",
+    "comunicar correções verificavelmente"
+  ],
+  "conceitosRelacionados": [
+    "média e módulo",
+    "denominador",
+    "proveniência e versão",
+    "testes positivos e negativos",
+    "hash SHA-256",
+    "estado de aprovação",
+    "revisão humana",
+    "restauração e rollback"
+  ],
+  "examesRelacionados": [
+    "interpretação estatística e de gráficos transferível; regressão de publicação é aprofundamento universitário sem alegação de conteúdo exigido por edital"
+  ],
+  "origem": "autoral",
+  "questoesOficiais": 0,
+  "questoesAutorais": 36,
+  "aulaMarkdown": "MAT-EST-061-teste-regressao-editorial-preparacao-publicacao-evidencias-humanas-rollback-comunicacao-correcoes.md",
+  "exercicios": "exercicios.json",
+  "gabarito": "gabarito-comentado.json",
+  "visuais": [
+    {
+      "src": "assets/01-linha-base-candidato.svg",
+      "alt": "MAT-EST-060 preservada; candidata isolada R061-RC1; verificações automáticas; revisão humana pendente.",
+      "autoria": "produção original do projeto"
+    },
+    {
+      "src": "assets/02-denominadores-unidades.svg",
+      "alt": "Oito cartões planejados, dois elegíveis, seis pendentes, MAE B 3 e C 4 unidades, custo médio 7 pontos para cada modelo.",
+      "autoria": "produção original do projeto"
+    },
+    {
+      "src": "assets/03-suite-regressao.svg",
+      "alt": "A candidata R061-RC1 passa os testes automáticos; cinco cópias alteradas T01 a T05 são rejeitadas.",
+      "autoria": "produção original do projeto"
+    },
+    {
+      "src": "assets/04-portoes-e-evidencias.svg",
+      "alt": "G1 e G2 concluídos localmente; G3 a G6 pendentes; G7 e G8 não executados.",
+      "autoria": "produção original do projeto"
+    },
+    {
+      "src": "assets/05-restauracao-isolada.svg",
+      "alt": "O arquivo ZIP anterior é extraído em pasta temporária e comparado byte a byte; o site não é alterado.",
+      "autoria": "produção original do projeto"
+    },
+    {
+      "src": "assets/06-comunicado-correcoes.svg",
+      "alt": "Quatro partes: escopo, problema, correção e limite, cada uma com fatos e estado de evidência.",
+      "autoria": "produção original do projeto"
+    }
+  ],
+  "video": {
+    "titulo": "Evaluation Tools Overview",
+    "canal": "W3C Web Accessibility Initiative (WAI)",
+    "url": "https://www.w3.org/WAI/test-evaluate/tools/",
+    "idioma": "inglês, com transcrição textual e descrição visual",
+    "duracaoAproximada": null,
+    "momento": "depois da seção 5",
+    "porQueEscolhido": "distingue a contribuição de verificações automáticas da intervenção humana",
+    "verificacao": "página institucional com vídeo e transcrição consultada; duração e reprodução integral não verificadas"
+  },
+  "fontes": [
+    {
+      "nome": "W3C WAI, avaliação de acessibilidade",
+      "url": "https://www.w3.org/WAI/test-evaluate/"
+    },
+    {
+      "nome": "W3C, ferramentas e vídeo institucional",
+      "url": "https://www.w3.org/WAI/test-evaluate/tools/"
+    },
+    {
+      "nome": "W3C, modelo de relatório",
+      "url": "https://www.w3.org/WAI/test-evaluate/report-template/"
+    },
+    {
+      "nome": "GitHub, histórico de deploy",
+      "url": "https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/view-deployment-history"
+    },
+    {
+      "nome": "GitHub, ambientes de deploy",
+      "url": "https://docs.github.com/en/actions/concepts/workflows-and-actions/deployment-environments"
+    }
+  ],
+  "origemDosDados": "série, sandbox e fixtures inteiramente fictícios preservados",
+  "progressoIndividualAlterado": false,
+  "estudoRegistrado": false,
+  "publicacaoSite": false,
+  "sincronizacaoDrive": false,
+  "sincronizacaoGithub": false,
+  "testeManualEdge": false,
+  "revisaoHumanaReal": false,
+  "previa": "HTML local e PNG ilustrativa, sem deploy",
+  "proximaAula": {
+    "id": "MAT-EST-062",
+    "titulo": "Manutenção de evidências e prontidão de publicação: checklist auditável, rastreio de pendências e validação pós-deploy",
+    "estado": "proposta não iniciada"
+  }
+}

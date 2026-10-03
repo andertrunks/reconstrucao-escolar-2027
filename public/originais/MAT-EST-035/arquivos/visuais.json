@@ -1,0 +1,72 @@
+[
+  {
+    "id": "MAT-EST-035-VIS-01",
+    "arquivo": "assets/01-cadeia-auditoria.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Cadeia de auditoria reprodutível",
+    "alt": "Cinco etapas: inspecionar CSV, recalcular, comparar, revisar independentemente e relatar.",
+    "oQueObservar": "A verificação começa na entrada, não na conclusão já pronta.",
+    "conclusaoTextual": "Um resultado reprodutível precisa de fonte, cálculo e revisão rastreáveis."
+  },
+  {
+    "id": "MAT-EST-035-VIS-02",
+    "arquivo": "assets/02-tabela-e-particoes.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Tabela de origem e partições",
+    "alt": "Oito linhas de dados fictícios. Dias 1 a 4 são referência e dias 5 a 8 são teste; previsões A e B e base 100.",
+    "oQueObservar": "Observe o recorte temporal e os denominadores iguais para as três comparações no teste.",
+    "conclusaoTextual": "Nenhum ajuste deve usar os resultados do teste para produzir o mesmo desempenho anunciado."
+  },
+  {
+    "id": "MAT-EST-035-VIS-03",
+    "arquivo": "assets/03-erros-assinados.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Vetor de erros por dia e modelo",
+    "alt": "A tem menos cinco, mais cinco, mais cinco e menos cinco. B tem zero, zero, zero e menos vinte e cinco. Baseline tem menos dez, mais dez, mais trinta e zero.",
+    "oQueObservar": "O erro extremo de B está no último dia; confira o sinal convencionado.",
+    "conclusaoTextual": "A simples média assinada pode esconder erros compensados."
+  },
+  {
+    "id": "MAT-EST-035-VIS-04",
+    "arquivo": "assets/04-mae-rmse.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Comparação de MAE e RMSE",
+    "alt": "Gráfico de barras numéricas com A: MAE 5, RMSE 5; B: MAE 6,25, RMSE 12,5; baseline: MAE 12,5, RMSE 16,58.",
+    "oQueObservar": "Compare barras da mesma métrica e observe o RMSE maior de B pelo erro extremo.",
+    "conclusaoTextual": "Métricas têm objetivos diferentes; a interpretação deve manter a mesma unidade e conjunto de casos."
+  },
+  {
+    "id": "MAT-EST-035-VIS-05",
+    "arquivo": "assets/05-analise-sensibilidade.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Mudança da função de perda",
+    "alt": "Em dois cenários didáticos, A custa 40 em ambos; B custa 25 com falta mais cara e 75 com excedente mais caro.",
+    "oQueObservar": "Compare os cenários sem mudar os dados de entrada.",
+    "conclusaoTextual": "O resultado decisório depende das hipóteses declaradas de custo."
+  },
+  {
+    "id": "MAT-EST-035-VIS-06",
+    "arquivo": "assets/06-estados-auditoria.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Matriz de estados de auditoria",
+    "alt": "Três estados identificados por palavras: conferido, parcial e pendente, com evidência requerida para cada um.",
+    "oQueObservar": "O estado deve descrever exatamente o que foi inspecionado.",
+    "conclusaoTextual": "Não atribuir origem oficial a item autoral ou a questão cuja versão não foi checada."
+  },
+  {
+    "id": "MAT-EST-035-VIS-07",
+    "arquivo": "assets/07-revisao-por-evidencias.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Protocolo de revisão e reteste",
+    "alt": "Cinco etapas: tentativa real, conferência, diagnóstico, remediação e reteste com item novo.",
+    "oQueObservar": "O início é uma tentativa efetivamente registrada, não a publicação editorial.",
+    "conclusaoTextual": "Consolidar exige desempenho demonstrado, inclusive recuperação posterior."
+  }
+]

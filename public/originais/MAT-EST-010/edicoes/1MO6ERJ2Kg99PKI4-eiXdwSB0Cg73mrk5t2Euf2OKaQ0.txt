@@ -1,0 +1,19 @@
+﻿MAT-EST-010 — Manifesto da reconstrução editorial v1
+
+
+1. Esta versão é uma reconstrução editorial explícita, não recuperação byte a byte do material histórico.
+2. Código histórico preservado: MAT-EST-010.
+3. Título histórico canônico preservado: “Quartis, decis e percentis: posição relativa e divisão ordenada dos dados”.
+4. A variante “posição relativa e leitura de distribuição” permanece registrada como redação usada no checkpoint INC16.
+5. A aula foi reconstruída em profundidade, com explicação de convenções, frequência acumulada, interpolação em classes, interpretação e ponte para amplitude interquartil.
+6. Foram produzidos 36 exercícios autorais com IDs completos e únicos: APR 10, CON 10, VES 10 e RET 6.
+7. Foi produzido gabarito separado com os mesmos 36 IDs, resposta, resolução e motivo provável de erro.
+8. Foram produzidos seis visuais autorais com título, texto alternativo, orientação do que observar e conclusão para áudio.
+9. Fontes oficiais verificadas: FUVEST Programa do Vestibular 2027, Matriz de Referência do Enem publicada pelo Inep em 2026 e BNCC/MEC.
+10. A FUVEST 2027 explicita “distribuição estatística e medidas de posição (quartis, decis e percentis)”.
+11. A BNCC foi usada como base para análise estatística, medidas resumo e box-plot; não foi feita alegação de que a lista “quartis, decis e percentis” apareça explicitamente na mesma formulação consultada.
+12. Vídeo complementar localizado por página e descrição pública; QA audiovisual integral e QA no Microsoft Edge permanecem pendentes.
+13. Esta reconstrução não autoriza publicação.
+14. Permanecem necessários B2–B5 do relatório AUD-MAT-EST-067 antes de publicação.
+15. MAT-EST-068 não foi iniciada.
+16. O progresso individual do aluno não foi alterado.

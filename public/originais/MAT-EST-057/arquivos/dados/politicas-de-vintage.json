@@ -1,0 +1,26 @@
+{
+  "id": "MAT-EST-053-VINTAGE-POLICIES-v1",
+  "nature": "exemplo editorial, não altera protocolo MAT-EST-049-PROT-v1",
+  "policies": [
+    {
+      "id": "AS_KNOWN",
+      "definition": "fotografia do conhecimento disponível no corte; pode ser preliminar, rotular status; não imputar futuro"
+    },
+    {
+      "id": "VALIDATED_AS_OF",
+      "definition": "somente versões já validadas até o corte; pendências fora do escore final"
+    },
+    {
+      "id": "LATEST_VALIDATED",
+      "definition": "última versão validada até um corte explicitado; retrospectiva rotulada, jamais usada como insumo na previsão passada"
+    },
+    {
+      "id": "DUAL_REPORT",
+      "definition": "relatar cálculo preliminar e recalculado com seus IDs, sem contar ambos como alvos independentes"
+    }
+  ],
+  "frozen_protocol": "MAT-EST-049-PROT-v1 intacto",
+  "nonpromotion_t19": "piora local 19.2 > 10",
+  "main_series_changes": "none",
+  "isolated_case": "EXEMPLO-V-ISOLADO"
+}

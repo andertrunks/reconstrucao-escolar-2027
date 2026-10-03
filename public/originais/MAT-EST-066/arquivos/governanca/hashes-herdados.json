@@ -1,0 +1,28 @@
+{
+  "escopo": "igualdade de bytes entre pacote local MAT-EST-054 e suas copias no MAT-EST-055; nao prova autenticidade externa",
+  "hashes_sha256": {
+    "auditoria/recalcular_relatorios.py": "ddc038009efae225fc5be319b16c37dec8cd7b422fba5ea802f8ed88ea288d88",
+    "auditoria/testar_auditoria.py": "5d42ee26d8baf3c20abd7765689d59f7b56bd1ffb36516de289f1738202af381",
+    "dados/EXEMPLO-V-eventos.jsonl": "7abcf6f25d66ccc85844bdb27ddb4ec1dac86d77b5d2d074eedddbe52ead2fd1",
+    "dados/EXEMPLO-V-reavaliacao.csv": "d1837244aaa7cf97abe8b035380b9b7ad185277208cadef067bfca0fdfd973aa",
+    "dados/EXEMPLO-V-versoes.csv": "a88187fd4c121fb1e67ee9355db90a640d7be075fd3243134f560aa9196ac0fb",
+    "dados/cartoes-casos-didaticos.csv": "39f296846bcb12be32786e988f64f42e18c36b04ae0df626e0c9610b9f6afbef",
+    "dados/cenarios-herdados-t23-nao-observados.csv": "52dd574b832b5926db83c6d4bef6e99cbbbaf42bb4d563d4af948736dcac1ce3",
+    "dados/chegadas-novas-simuladas-t19-t22.csv": "50cbb570116d49d33fbbff1f519c451c52262737c7e3034a7add82d352438362",
+    "dados/chegadas-simuladas-t13-t18.csv": "af1673655ecdb2080582597495edf8af41ea7d7519614b5afd6ab61432f56bb0",
+    "dados/comparacao-emparelhada-t18-t22.csv": "ea98b2481dcf088e08871205f0fd8b43dbf9cd162457a1f17bf2c0c0cc3ba5d0",
+    "dados/dependencias-simbolicas-t24-t25.csv": "a8599baf703c33e5541ab8e11c9f872b6d2d1da497f25bf894528581e1110c24",
+    "dados/diferencas-sazonais-t13-t22.csv": "bfda6f628c75f29953c45589f7685b3d6c7d9ce09bc75c677e4c34ce5700e199",
+    "dados/ensaio-eventos-EXEMPLO-Z.jsonl": "7d05ee7418382f570a4151ba89fcb8eab944bf30a54a89c622e3231e63bdf25c",
+    "dados/matriz-estados.csv": "42aa07cdabddea2d78f6c7eb68036d9cf82b5949a9c5f710990c7a4291ba2ddb",
+    "dados/plano-emissoes-pendentes-t23-t25.csv": "ec885aa73a518b5ad4938cb7536042c822b697f7530970dd16d283280e8e738a",
+    "dados/politicas-de-vintage.json": "4963569493ae9aef68c3360a029fdd8de99c0aeb332623e40016c0479097b295",
+    "dados/projecoes-ilustrativas-t23.csv": "9a0aa711d806669c826cf34e2a7f86910b5a9adf303227755656506f54a0e149",
+    "dados/registro-emissoes-h1.csv": "4b4e557b13dbd32fcd89bff331af2f55ffab039edb3cd25b5a8d0bef836cfb4b",
+    "dados/serie-herdada-t01-t12.csv": "20bde1973f1b92303eb0f621554ff242c9884e7a23ad5276800369640c67757c",
+    "plano-avaliacao-MAT-EST-051.json": "3b78a6802cc8a0dceffab146642b6203695f6e07b836e61f1d77be0b4c46044b",
+    "protocolo-herdado-MAT-EST-049.json": "adfec11fba8b71630a593c3310988b9bb6759ce5f4d81e5f2e42dd2afdf30673",
+    "relatorios/conciliacao-de-versoes.csv": "13280b3f26f59e0349dc6ddbd9dea9004ea32e8dff9c6986fad99592e5cb29e3",
+    "relatorios/relatorio-auditoria.json": "17a6dbfc3f5030bc76a333a99b3b5f2340b46820d34fa5a830514192d65df20b"
+  }
+}

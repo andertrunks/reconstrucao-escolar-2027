@@ -1,0 +1,7 @@
+CONTINUIDADE — RECONSTRUÇÃO ESCOLAR + ENEM E VESTIBULARES 2027
+
+Último pacote editorial local concluído MAT-EST-051 — Desenho de uma avaliação temporal futura: hipóteses, coleta, critérios e análise pós-registro. Consultar o ZIP MAT-EST-051-pacote-integracao.zip e checkpoint-editorial.json anexado pelo usuário quando necessário; confirmar checkpoint canônico antes de avançar. Não houve sincronização no Drive/GitHub, publicação, teste manual do Edge ou estudo do aluno.
+
+Próximo tópico proposto, ainda não iniciado: MAT-EST-052 — Ensaio operacional de monitoramento: integridade do registro, atrasos de observação e encerramento auditável. Continuar exatamente um passo editorial. Preservar dados t01–t22 e IDs. t23 a t25 SEM observado e sem logs autenticados de previsão. Cálculos condicionais: B23=183 e C23=199 são ilustrativos, C24=181+(x-128)/5 para x=y23 futuro, C25=188+(x+z-305)/5 para z=y24 futuro. Cenários x=178,191,209 NÃO são observações nem distribuição probabilística. Protocolo herdado MAT-EST-049-PROT-v1 intocado; cinco pares de oito e guarda local em t19 falhou por 19,2 > 10. Não promover C. Plano MAT-EST-051-PLAN-v1 é especificação, não registro de execução.
+
+Preservar aula aprofundada, três camadas + reteste, resolução separada, seis SVG acessíveis, vídeo complementar, Markdown, ZIP de integração, preview, metadados, hashes e testes. Não alegar observação, emissão real, sincronização ou deploy não realizados, nem mexer em progresso individual. Apresentar botões Continuar e Copiar prompt para novo chat.

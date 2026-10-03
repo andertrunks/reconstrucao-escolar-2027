@@ -1,0 +1,38 @@
+[
+  {
+    "instituicao": "Hyndman e Athanasopoulos",
+    "titulo": "Forecasting Principles and Practice 3e - Time series decomposition",
+    "url": "https://otexts.com/fpp3/decomposition.html",
+    "uso": "natureza dos componentes"
+  },
+  {
+    "instituicao": "Hyndman e Athanasopoulos",
+    "titulo": "Time series components",
+    "url": "https://otexts.com/fpp3/components.html",
+    "uso": "additive versus multiplicative"
+  },
+  {
+    "instituicao": "Hyndman e Athanasopoulos",
+    "titulo": "STL decomposition",
+    "url": "https://otexts.com/fpp3/stl.html",
+    "uso": "limites de decomposição estimada"
+  },
+  {
+    "instituicao": "Hyndman e Athanasopoulos",
+    "titulo": "Some simple forecasting methods",
+    "url": "https://otexts.com/fpp3/simple-methods.html",
+    "uso": "previsão sazonal ingênua"
+  },
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 510 Lesson 4 Seasonal Models",
+    "url": "https://online.stat.psu.edu/stat510/Lesson04",
+    "uso": "diferença sazonal"
+  },
+  {
+    "instituicao": "NPTEL IIT Bombay",
+    "titulo": "Week 02: Lecture 06: Time Series Decomposition",
+    "url": "https://www.youtube.com/watch?v=JbJjislNHFY",
+    "uso": "vídeo complementar"
+  }
+]

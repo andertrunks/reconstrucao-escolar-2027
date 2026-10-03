@@ -1,0 +1,195 @@
+{
+  "id": "MAT-EST-050",
+  "slug": "robustez-temporal-cenarios-sensibilidade-custos-limites-generalizacao",
+  "titulo": "Robustez temporal: cenários, sensibilidade a custos e documentação de limites de generalização",
+  "materia": "Matemática",
+  "unidade": "Estatística — Séries temporais / ponte universitária",
+  "nivel": 6,
+  "ordem": 50,
+  "preRequisitos": [
+    "MAT-EST-031",
+    "MAT-EST-032",
+    "MAT-EST-039",
+    "MAT-EST-041",
+    "MAT-EST-042",
+    "MAT-EST-043",
+    "MAT-EST-044",
+    "MAT-EST-045",
+    "MAT-EST-046",
+    "MAT-EST-047",
+    "MAT-EST-048",
+    "MAT-EST-049"
+  ],
+  "objetivos": [
+    "Definir robustez relativa a hipóteses e condições explícitas",
+    "Distinguir cenários contrafactuais de observações",
+    "Derivar funções de custo assimétrico para peso variável e resolver seu empate",
+    "Interpretar análise de retirada de um alvo como diagnóstico, sem excluir perdas do protocolo",
+    "Calcular previsões didáticas condicionais para t23 sem usar observação futura",
+    "Documentar retificação de dados com rastro de versões",
+    "Relatar limites da generalização e preservar portas de protocolo"
+  ],
+  "conceitosRelacionados": [
+    "custo assimétrico",
+    "função linear",
+    "sensibilidade",
+    "cenário condicional",
+    "retirada de um alvo",
+    "protocolo congelado",
+    "vazamento temporal",
+    "revisão de dados",
+    "proveniência",
+    "generalização",
+    "mudança de distribuição",
+    "dependência temporal"
+  ],
+  "aplicacoes": [
+    "leitura crítica de dados",
+    "revisão científica",
+    "versionamento de modelos",
+    "tomada de decisão sujeita a critérios múltiplos",
+    "escrita de parecer técnico"
+  ],
+  "examesRelacionados": [
+    "ENEM — interpretação de funções, tabelas e porcentagens em geral",
+    "FUVEST — raciocínio matemático geral",
+    "UNICAMP — interpretação e discussão de limites gerais",
+    "UNESP — leitura quantitativa geral",
+    "Ponte universitária — avaliação temporal e governança de modelos"
+  ],
+  "profundidadeEsperada": "intuição; formalização; seis visuais acessíveis; contas completas e verificadas; 3 camadas e reteste; linguagem pronunciável; limites e aplicações",
+  "anterior": "MAT-EST-049",
+  "proximoTopico": "MAT-EST-051",
+  "proximoTituloProposto": "Desenho de uma avaliação temporal futura: hipóteses, coleta, critérios e análise pós-registro",
+  "aulaMarkdown": "MAT-EST-050-robustez-temporal-cenarios-sensibilidade-custos-limites-generalizacao.md",
+  "visuais": [
+    {
+      "src": "assets/01-fronteira-informacional.svg",
+      "alt": "Linha temporal mostra valores inventados registrados em t18–t22 e alvos t23–t25 não observados."
+    },
+    {
+      "src": "assets/02-sensibilidade-de-custo.svg",
+      "alt": "Custo médio B e C como funções lineares de r, cruzamento em aproximadamente 0,31657."
+    },
+    {
+      "src": "assets/03-retirada-um-alvo.svg",
+      "alt": "Cinco pares de barras com MAEs dos quatro alvos restantes quando cada alvo é retirado temporariamente."
+    },
+    {
+      "src": "assets/04-arvore-cenarios.svg",
+      "alt": "Cenários condicionais para t23 igual a 178, 191 e 209; nenhum valor é observado."
+    },
+    {
+      "src": "assets/05-portas-inalteradas.svg",
+      "alt": "Portas do protocolo: 5/8, médias favoráveis, falha local, auditoria pendente e não promoção."
+    },
+    {
+      "src": "assets/06-revisao-rastreavel.svg",
+      "alt": "Registro y22=193 ao lado de retificação hipotética y22=190 com efeito na projeção C23."
+    }
+  ],
+  "video": {
+    "titulo": "Time series cross-validation — vídeo associado à seção 5.10 de Forecasting: Principles and Practice (3ª ed.)",
+    "canalOuColecao": "OTexts / Rob J. Hyndman e George Athanasopoulos",
+    "url": "https://otexts.com/fpp3/tscv.html",
+    "videoYoutubeHistoricoPacoteAnterior": "https://www.youtube.com/watch?v=OGpENuxjRWM",
+    "idioma": "inglês",
+    "duracaoAproximada": null,
+    "momentoRecomendado": "depois da seção 5",
+    "motivo": "distinguir treino do passado, emissão e alvo futuro",
+    "statusVerificacao": "página do livro e declaração dos autores sobre coleção de vídeos abertas; link direto Youtube, duração e reprodução integral não verificados; rever antes de publicar"
+  },
+  "exercicios": {
+    "arquivo": "exercicios.json",
+    "quantidade": 36,
+    "porCamada": {
+      "aprendizagem": 10,
+      "consolidacao": 10,
+      "vestibular_autoral": 10,
+      "reteste": 6
+    },
+    "origem": "autoral",
+    "questoesOficiais": 0
+  },
+  "gabarito": "gabarito-comentado.json",
+  "exporRespostaAntesTentativa": false,
+  "revisao": "1, 7 e 30 dias a partir de estudo e tentativa efetiva",
+  "progressoIndividual": "não iniciado; não alterado pela criação do material",
+  "statusEditorial": "pacote local preparado, sem integração, publicação ou sincronização",
+  "dados": {
+    "historico_t01_t12": [
+      90,
+      107,
+      128,
+      105,
+      111,
+      124,
+      150,
+      127,
+      129,
+      145,
+      171,
+      144
+    ],
+    "historico_t13_t18": [
+      134,
+      151,
+      187,
+      160,
+      167,
+      176
+    ],
+    "historico_t19_t22": [
+      183,
+      181,
+      188,
+      193
+    ],
+    "alvos_nao_observados": [
+      "t23",
+      "t24",
+      "t25"
+    ],
+    "futurosSomenteHipoteticos_t23": [
+      178,
+      191,
+      209
+    ],
+    "origem": "seis CSVs de MAT-EST-049 copiados byte a byte; CSVs derivados separados"
+  },
+  "modelos": {
+    "referencia": "BASE-SNAIVE-v1",
+    "desafiante": "CHAL-SDELTA5-v1",
+    "sazonalidade": 4,
+    "janelaDiferencasSazonais": 5,
+    "horizonte": 1,
+    "protocoloCongelado": "MAT-EST-049-PROT-v1"
+  },
+  "resultadosDidaticos": {
+    "pares_existentes": 5,
+    "maeB": 17.6,
+    "maeC": 8.36,
+    "custoMedioB_r3": 51.2,
+    "custoMedioC_r3": 14.92,
+    "funcaoCustoMediaB": "16.8*r+0.8",
+    "funcaoCustoMediaC": "3.28*r+5.08",
+    "pesoEmpate": 0.3165680473372781,
+    "pioraLocal_t19": 19.2,
+    "forecastT23CondicionalDadosAteT22_B": 183,
+    "forecastT23CondicionalDadosAteT22_C": 199,
+    "decisaoProtocolo": "não promover: cinco de oito e guarda local falhou"
+  },
+  "fontes": [
+    "https://otexts.com/fpp3/accuracy.html",
+    "https://otexts.com/fpp3/tscv.html",
+    "https://robjhyndman.com/hyndsight/fpp3_videos.html"
+  ],
+  "limitacoes": [
+    "não houve deploy ou sincronização Drive/GitHub",
+    "não houve Edge leitura em voz alta real",
+    "vídeo não reproduzido integralmente; validar antes de publicação",
+    "PNG é visualização ilustrativa e não screenshot",
+    "sem y23–t25 observado",
+    "sem teste real de eficácia"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "MAT-EST-002",
+  "title": "Censo, amostragem e representatividade: como escolher uma amostra",
+  "subject": "MAT",
+  "unit": "Estatística",
+  "level": [2, 3, 4],
+  "order": 2,
+  "statusEditorial": "reconstrucao_editorial_v1_nao_publicada",
+  "historicalBytesRecovered": false,
+  "previous": "MAT-EST-001",
+  "next": "MAT-EST-003",
+  "prerequisites": ["MAT-EST-001"],
+  "exerciseCounts": {"APR": 10, "CON": 10, "VES": 10, "RET": 6, "total": 36},
+  "questionOrigin": "autoral",
+  "visuals": [
+    "01-censo-amostra.svg",
+    "02-cobertura-resposta.svg",
+    "03-probabilistica-nao-probabilistica.svg",
+    "04-metodos-amostragem.svg",
+    "05-fontes-de-erro.svg",
+    "06-tamanho-versus-desenho.svg"
+  ],
+  "video": {
+    "title": "Conceitos Básicos de Estatística: População, Amostra, Amostragem, Variáveis e Organização de Dados",
+    "channel": "Professora Gisele Ramos - Matemática",
+    "url": "https://www.youtube.com/watch?v=5ctWgFOizkQ",
+    "pageVerified": "2026-09-30",
+    "avQa": "pending"
+  },
+  "publication": "not_published",
+  "studentProgressChanged": false
+}

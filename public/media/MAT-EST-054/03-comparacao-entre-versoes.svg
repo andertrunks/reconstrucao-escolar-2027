@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="475" viewBox="0 0 960 475" role="img" aria-labelledby="ttl ds">
+<title id="ttl">Mesmo alvo, resultados diferentes</title>
+<desc id="ds">Na v1 preliminar 40, módulos B2 C3; na v2 validada 44, módulos B2 C1; as previsões B42 C43 permanecem iguais.</desc>
+<rect width="960" height="475" fill="#F7F9FC"/><text x="40" y="48" fill="#1B2C42" font-family="sans-serif" font-weight="700" font-size="25">Mesmo alvo, resultados diferentes</text>
+<text x="40" y="78" fill="#7B8DA2" font-family="sans-serif" font-size="15">MAT-EST-054 • Diagrama original / valores simulados</text>
+<rect x="40" y="123" width="255" height="168" rx="12" fill="#E7EFF7" stroke="#215D9B" stroke-width="1.4"/>
+<text x="55" y="150" fill="#1B2C42" font-family="sans-serif" font-weight="700" font-size="17">Previsões congeladas</text>
+<text x="55" y="174" fill="#1B2C42" font-family="sans-serif" font-size="14">B = 42; C = 43</text>
+<text x="55" y="193" fill="#1B2C42" font-family="sans-serif" font-size="14">nenhuma revisão no modelo</text>
+<rect x="353" y="123" width="255" height="168" rx="12" fill="#E7EFF7" stroke="#215D9B" stroke-width="1.4"/>
+<text x="368" y="150" fill="#1B2C42" font-family="sans-serif" font-weight="700" font-size="17">v1 = 40 (L12)</text>
+<text x="368" y="174" fill="#1B2C42" font-family="sans-serif" font-size="14"></text>
+<text x="368" y="193" fill="#1B2C42" font-family="sans-serif" font-size="14">erro B</text>
+<text x="368" y="212" fill="#1B2C42" font-family="sans-serif" font-size="14"> = 2; custo B = 2</text>
+<text x="368" y="231" fill="#1B2C42" font-family="sans-serif" font-size="14"></text>
+<text x="368" y="250" fill="#1B2C42" font-family="sans-serif" font-size="14">erro C</text>
+<text x="368" y="269" fill="#1B2C42" font-family="sans-serif" font-size="14"> = 3; custo C = 3</text>
+<rect x="666" y="123" width="255" height="168" rx="12" fill="#E7EFF7" stroke="#215D9B" stroke-width="1.4"/>
+<text x="681" y="150" fill="#1B2C42" font-family="sans-serif" font-weight="700" font-size="17">v2 = 44 (L13)</text>
+<text x="681" y="174" fill="#1B2C42" font-family="sans-serif" font-size="14"></text>
+<text x="681" y="193" fill="#1B2C42" font-family="sans-serif" font-size="14">erro B</text>
+<text x="681" y="212" fill="#1B2C42" font-family="sans-serif" font-size="14"> = 2; custo B = 6</text>
+<text x="681" y="231" fill="#1B2C42" font-family="sans-serif" font-size="14"></text>
+<text x="681" y="250" fill="#1B2C42" font-family="sans-serif" font-size="14">erro C</text>
+<text x="681" y="269" fill="#1B2C42" font-family="sans-serif" font-size="14"> = 1; custo C = 3</text>
+<line x1="295" y1="210" x2="353" y2="210" stroke="#215D9B" stroke-width="2"/><circle cx="353" cy="210" r="4" fill="#215D9B"/>
+<text x="303" y="204" fill="#1B2C42" font-family="sans-serif" font-size="12">mesmos IDs</text>
+<line x1="608" y1="210" x2="666" y2="210" stroke="#215D9B" stroke-width="2"/><circle cx="666" cy="210" r="4" fill="#215D9B"/>
+<text x="616" y="204" fill="#1B2C42" font-family="sans-serif" font-size="12">revisão do alvo</text>
+<rect x="36" y="413" width="888" height="47" rx="10" fill="#F4EEDF"/><text x="50" y="442" fill="#1B2C42" font-family="sans-serif" font-size="16">Uma única observação-alvo, duas fotografias: não somar como dois pares.</text>
+</svg>

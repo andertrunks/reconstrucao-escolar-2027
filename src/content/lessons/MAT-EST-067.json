@@ -1,0 +1,320 @@
+{
+  "id": "MAT-EST-067",
+  "version": "publicacao-2026-10-03-v1",
+  "objective": "separar observabilidade e erro\n\ncalcular e interpretar métricas e custos em recorte elegível\n\nusar desigualdade triangular reversa para limites com dados faltantes\n\nreconhecer guarda e comunicar limites\n\npreservar coortes isoladas",
+  "prerequisites": [
+    "MAT-EST-047",
+    "MAT-EST-049",
+    "MAT-EST-053",
+    "MAT-EST-057",
+    "MAT-EST-058",
+    "MAT-EST-060",
+    "MAT-EST-065",
+    "MAT-EST-066"
+  ],
+  "why": "# MAT-EST-067 — Transferência integradora da estatística temporal para decisões sob dados incompletos: leitura de evidências e exercícios inéditos\n\n**Natureza:** aula, figuras e problemas autorais. **Situação:** produção editorial incremental exclusivamente local, integração histórica pendente. **Estudo individual:** não iniciado; nenhuma tentativa registrada. **Anterior:** MAT-EST-066. **Próximo tópico:** bloqueado até integração comprovada; MAT-EST-068 não iniciado.\n\n",
+  "intuitive": [],
+  "deep": [],
+  "vocabulary": [],
+  "examples": [],
+  "visuals": [
+    {
+      "url": "media/MAT-EST-067/01-cadeia-evidencias.svg",
+      "caption": "Figura 1",
+      "alt": "Seis etapas sucessivas de plano, previsão, observado, pareamento, métrica/guarda e decisão documentada.",
+      "observe": "Observe a necessidade de rastrear cada ligação.",
+      "conclusion": "Número isolado não autoriza decisão."
+    },
+    {
+      "url": "media/MAT-EST-067/02-elegibilidade.svg",
+      "caption": "Figura 2",
+      "alt": "Seis cartões: D01 a D04 avaliáveis, D05 e D06 sem observado.",
+      "observe": "Quatro de seis é completude, não acerto.",
+      "conclusion": "As duas ausências não entram como zero."
+    },
+    {
+      "url": "media/MAT-EST-067/03-erros-pareados.svg",
+      "caption": "Figura 3",
+      "alt": "Gráfico D01–D04 dos módulos B 3,2,4,1 e C 1,1,3,2, em kits; eixos e barras rotulados.",
+      "observe": "Em D04, C erra mais, apesar de menor soma.",
+      "conclusion": "B soma 10, C soma 7 kits nos avaliáveis."
+    },
+    {
+      "url": "media/MAT-EST-067/04-media-e-guarda.svg",
+      "caption": "Figura 4",
+      "alt": "MAE B 2,5 e C 1,75 kits; D04 tem piora C menos B +1 acima de 0,5.",
+      "observe": "Média e critério impeditivo respondem a perguntas diferentes.",
+      "conclusion": "A guarda hipotética falha, sem mudar o protocolo histórico."
+    },
+    {
+      "url": "media/MAT-EST-067/05-limite-diferenca.svg",
+      "caption": "Figura 5",
+      "alt": "Reta do intervalo fechado de menos um a zero kit para a diferença média C menos B, sob seis cartões fixos.",
+      "observe": "Os extremos são hipóteses algébricas, não novos observados.",
+      "conclusion": "Limite de diferença não é intervalo de confiança."
+    },
+    {
+      "url": "media/MAT-EST-067/06-matriz-decisao.svg",
+      "caption": "Figura 6",
+      "alt": "Quatro quadros distingem fato didático, ausência, limite condicional e estado da regra.",
+      "observe": "As afirmações exigem fundamentos distintos.",
+      "conclusion": "Não houve implantação, publicação ou inferência populacional."
+    }
+  ],
+  "applications": [
+    "planejamento logístico fictício",
+    "transferência para química, geografia e redação"
+  ],
+  "connections": [],
+  "commonErrors": [],
+  "learning": [
+    "MAT-EST-067-EX-APR-01",
+    "MAT-EST-067-EX-APR-02",
+    "MAT-EST-067-EX-APR-03",
+    "MAT-EST-067-EX-APR-04",
+    "MAT-EST-067-EX-APR-05",
+    "MAT-EST-067-EX-APR-06",
+    "MAT-EST-067-EX-APR-07",
+    "MAT-EST-067-EX-APR-08",
+    "MAT-EST-067-EX-APR-09",
+    "MAT-EST-067-EX-APR-10"
+  ],
+  "consolidation": [
+    "MAT-EST-067-EX-CON-01",
+    "MAT-EST-067-EX-CON-02",
+    "MAT-EST-067-EX-CON-03",
+    "MAT-EST-067-EX-CON-04",
+    "MAT-EST-067-EX-CON-05",
+    "MAT-EST-067-EX-CON-06",
+    "MAT-EST-067-EX-CON-07",
+    "MAT-EST-067-EX-CON-08",
+    "MAT-EST-067-EX-CON-09",
+    "MAT-EST-067-EX-CON-10"
+  ],
+  "entrance": [
+    "MAT-EST-067-EX-VES-01",
+    "MAT-EST-067-EX-VES-02",
+    "MAT-EST-067-EX-VES-03",
+    "MAT-EST-067-EX-VES-04",
+    "MAT-EST-067-EX-VES-05",
+    "MAT-EST-067-EX-VES-06",
+    "MAT-EST-067-EX-VES-07",
+    "MAT-EST-067-EX-VES-08",
+    "MAT-EST-067-EX-VES-09",
+    "MAT-EST-067-EX-VES-10"
+  ],
+  "retest": [
+    "MAT-EST-067-EX-RET-01",
+    "MAT-EST-067-EX-RET-02",
+    "MAT-EST-067-EX-RET-03",
+    "MAT-EST-067-EX-RET-04",
+    "MAT-EST-067-EX-RET-05",
+    "MAT-EST-067-EX-RET-06"
+  ],
+  "solutions": [],
+  "summary": "## 12. Resumo curto para ouvir\n\nSeis cartões estão planejados e quatro possuem observação. A completude é quatro sextos; o MAE usa os quatro pares e não os seis planejados. Nos quatro, B tem MAE 2,5 kits e C 1,75 kit. Os custos fictícios são 6,5 pontos para B e 2,75 para C. C apresenta melhora média mas viola a guarda fictícia de meio kit em D04, porque sua piora ali é um kit. Para D05 e D06, não inventamos observado; usamos a desigualdade triangular reversa para limitar a diferença entre erros absolutos. Se os seis cartões do enunciado vierem a ser avaliados com previsões fixas e mesmo peso, a diferença média C menos B ficará entre menos um e zero kit. Esse limite não corrige a guarda nem demonstra eficácia futura. Todas as outras coortes permanecem isoladas, e produzir material editorial não significa que alguém estudou.\n\n",
+  "audioVersion": "## 12. Resumo curto para ouvir\n\nSeis cartões estão planejados e quatro possuem observação. A completude é quatro sextos; o MAE usa os quatro pares e não os seis planejados. Nos quatro, B tem MAE 2,5 kits e C 1,75 kit. Os custos fictícios são 6,5 pontos para B e 2,75 para C. C apresenta melhora média mas viola a guarda fictícia de meio kit em D04, porque sua piora ali é um kit. Para D05 e D06, não inventamos observado; usamos a desigualdade triangular reversa para limitar a diferença entre erros absolutos. Se os seis cartões do enunciado vierem a ser avaliados com previsões fixas e mesmo peso, a diferença média C menos B ficará entre menos um e zero kit. Esse limite não corrige a guarda nem demonstra eficácia futura. Todas as outras coortes permanecem isoladas, e produzir material editorial não significa que alguém estudou.\n\n",
+  "sections": [
+    {
+      "id": "MAT-EST-067-s000",
+      "title": "Apresentação e contexto da fonte",
+      "paragraphs": [],
+      "markdown": "# MAT-EST-067 — Transferência integradora da estatística temporal para decisões sob dados incompletos: leitura de evidências e exercícios inéditos\n\n**Natureza:** aula, figuras e problemas autorais. **Situação:** produção editorial incremental exclusivamente local, integração histórica pendente. **Estudo individual:** não iniciado; nenhuma tentativa registrada. **Anterior:** MAT-EST-066. **Próximo tópico:** bloqueado até integração comprovada; MAT-EST-068 não iniciado.\n\n",
+      "sourceStart": 0,
+      "sourceEnd": 474
+    },
+    {
+      "id": "MAT-EST-067-s001",
+      "title": "1. Objetivos e pré-requisitos",
+      "paragraphs": [],
+      "markdown": "## 1. Objetivos e pré-requisitos\n\nEm três blocos de 25 a 45 minutos, transportar um método de avaliação temporal para um problema novo sem transportar os números históricos. Aprender a separar observabilidade de desempenho; calcular métricas e custos em pares elegíveis; distinguir média de critério impeditivo; e deduzir limites parciais mesmo quando faltam observações. O objetivo final é escrever uma conclusão proporcional à evidência.\n\nPré-requisitos: MAT-EST-047, MAT-EST-049, MAT-EST-053, MAT-EST-057, MAT-EST-058, MAT-EST-060, MAT-EST-065 e MAT-EST-066; média, módulo, porcentagem, previsão temporal e versão do dado. A desigualdade triangular será reconstruída na seção 7.\n\n",
+      "sourceStart": 474,
+      "sourceEnd": 1157
+    },
+    {
+      "id": "MAT-EST-067-s002",
+      "title": "2. Por que dados incompletos exigem duas perguntas?",
+      "paragraphs": [],
+      "markdown": "## 2. Por que dados incompletos exigem duas perguntas?\n\nImagine uma equipe que planeja uma quantidade de kits para seis ciclos. Só quatro demandas observadas estão disponíveis. Qual o erro médio de previsão nos quatro ciclos com observação? Quanto do plano foi realmente avaliável? A primeira pergunta divide a soma dos módulos dos erros por quatro; a segunda divide quatro por seis. Nenhuma autoriza transformar dois campos não preenchidos em demanda zero ou erro zero.\n\nO mecanismo de ausência também importa. Talvez falte informação por atraso de registro, falha de recepção ou alguma associação com a própria demanda; **não sabemos a causa neste exercício**. Uma média entre casos disponíveis descreve primeiro aquele subconjunto. Para falar de seis casos ou de demanda futura, são necessárias hipóteses e evidências adicionais, enunciadas em vez de ocultas.\n\n![Cadeia de evidência com seis passos identificados, do plano à decisão documentada.](assets/01-cadeia-evidencias.svg)\n\n**Figura 1 — Cadeia de evidências.** Observe a sequência plano, previsão, observado, pareamento, métrica com guarda e decisão. Leitura sonora: cada número deve trazer origem e definição; uma média isolada não prova a validade de uma decisão.\n\n",
+      "sourceStart": 1157,
+      "sourceEnd": 2384
+    },
+    {
+      "id": "MAT-EST-067-s003",
+      "title": "3. Caso inteiramente novo e isolado: LAB-067",
+      "paragraphs": [],
+      "markdown": "## 3. Caso inteiramente novo e isolado: LAB-067\n\nO laboratório autoral utiliza **kits por ciclo**, sempre com horizonte fictício h1, ou seja, um ciclo adiante. Os dados foram criados para ensinar; não são observações do município, de laboratório real ou do histórico t01–t22. Dentro do enunciado, B e C são previsões fixas antes dos observados informados. D05 e D06 têm previsão, mas seu observado **não foi informado**; a causa da ausência é desconhecida. Não adicionar essas linhas ao SANDBOX-057 nem ao TRANSFER-066.\n\n| Cartão | B: previsão, kits | C: previsão, kits | Observado, kits | Situação |\n|---|---:|---:|---:|---|\n| LAB-067-D01 | 21 | 23 | 24 | avaliável |\n| LAB-067-D02 | 20 | 17 | 18 | avaliável |\n| LAB-067-D03 | 26 | 33 | 30 | avaliável |\n| LAB-067-D04 | 15 | 18 | 16 | avaliável |\n| LAB-067-D05 | 22 | 21 | não informado | pendente |\n| LAB-067-D06 | 25 | 23 | não informado | pendente |\n\nSíntese por áudio: seis cartões estão planejados; somente D01 a D04 têm observado e podem produzir erros. D05 e D06 não têm erro calculável, ainda que possuam previsão. Escrever zero para esses erros seria afirmar falsamente que a previsão coincidiu com um valor observado.\n\n![Painel de seis cartões: quatro avaliáveis e dois pendentes, todos identificados individualmente.](assets/02-elegibilidade.svg)\n\n**Figura 2 — Elegibilidade.** Observe quatro avaliáveis de seis planejados. Isso é **completude**, não taxa de acerto. A imagem nomeia os dois pendentes em vez de representá-los como zero.\n\n",
+      "sourceStart": 2384,
+      "sourceEnd": 3884
+    },
+    {
+      "id": "MAT-EST-067-s004",
+      "title": "4. Erro assinado, erro absoluto e denominadores",
+      "paragraphs": [],
+      "markdown": "## 4. Erro assinado, erro absoluto e denominadores\n\nA convenção é `erro = observado − previsão`, pronunciado “erro é observado menos previsão”. Erro positivo significa subprevisão; negativo significa superprevisão. O erro absoluto é o módulo dessa diferença, sempre não negativo. A fórmula do erro absoluto médio é `MAE = soma dos módulos / quantidade de pares avaliáveis`; pronuncie “MAE é a média dos erros em módulo”. Sua unidade aqui é **kit**, não porcentagem.\n\nEm D01, B produz `24−21=+3` kits e C produz `24−23=+1` kit. Em D02, B produz `18−20=−2` kits e C produz `18−17=+1` kit. Com a mesma regra:\n\n| Cartão | Erro B, kits | Erro C, kits | Módulo B, kits | Módulo C, kits | Módulo C menos B, kits |\n|---|---:|---:|---:|---:|---:|\n| D01 | +3 | +1 | 3 | 1 | −2 |\n| D02 | −2 | +1 | 2 | 1 | −1 |\n| D03 | +4 | −3 | 4 | 3 | −1 |\n| D04 | +1 | −2 | 1 | 2 | +1 |\n| **Total** | **+6** | **−3** | **10** | **7** | **−3** |\n\nApós a tabela: os módulos de B somam dez kits e os de C somam sete. As quatro diferenças emparelhadas C menos B são menos dois, menos um, menos um e mais um kit. A soma é menos três e a média é `−3/4 = −0,75 kit`. O sinal negativo favorece C **nesses quatro pares**, mas D04 é uma piora local para C.\n\n**Completude:** `4/6 = 2/3 ≈ 66,67%`. **MAE B:** `10/4 = 2,5 kits`. **MAE C:** `7/4 = 1,75 kit`. O denominador do MAE é quatro, não seis; utilizar seis equivaleria a atribuir erro zero aos pendentes. Com zero pares, completude poderia ser `0/6=0%`, mas MAE seria **não estimável**, nunca zero.\n\n![Gráfico com eixo horizontal D01 a D04 e eixo vertical erro absoluto em kits, duas barras rotuladas para B e C.](assets/03-erros-pareados.svg)\n\n**Figura 3 — Erros absolutos nos pares.** Observe a exceção D04: B erra um e C erra dois kits. A leitura por voz dos conjuntos é: módulos de B três, dois, quatro e um; módulos de C um, um, três e dois.\n\n",
+      "sourceStart": 3884,
+      "sourceEnd": 5750
+    },
+    {
+      "id": "MAT-EST-067-s005",
+      "title": "5. Custo não é erro, e média não revoga guarda",
+      "paragraphs": [],
+      "markdown": "## 5. Custo não é erro, e média não revoga guarda\n\nNo **novo exercício** fixamos hipoteticamente a regra antes da análise: cada kit subprevisto custa três pontos; cada kit superprevisto custa um ponto. Logo, quando o erro é positivo, custo igual a três vezes o erro; quando negativo, custo igual ao módulo do erro. Os valores são **pontos de custo fictício**, não kits. Em D01 B custa nove e C custa três pontos; em D02 B custa dois e C custa três; em D03 B custa doze e C custa três; em D04 B custa três e C custa dois. Total de B: 26 pontos; média `26/4 = 6,5 pontos`. Total de C: 11 pontos; média `11/4 = 2,75 pontos`.\n\nOutra regra **exclusivamente hipotética de LAB-067**, também estipulada antes de inspecionar os resultados do próprio exercício, diz que C só seria promovido se a piora individual de seu módulo sobre B não ultrapassasse **0,5 kit** em nenhum cartão, além do desempenho agregado favorável. Em D04 a diferença é `2−1=+1 kit`, superior a 0,5. Portanto a guarda fictícia falha, ainda que C apresente menores médias no recorte. É um raciocínio condicional; nenhuma decisão externa aconteceu.\n\nNão confundir essa regra com o histórico MAT-EST-049-PROT-v1: nele há **cinco de oito pares**, MAE B 17,60 e C 8,36, custo B 51,20 e C 14,92; a piora de C em t19 é 19,2, acima da guarda dez, e **C não foi promovido**. Esses valores continuam apenas no histórico; a guarda 0,5 do LAB-067 não os modifica.\n\n![Painel textual mostra MAE menor de C, mas piora local de um kit em D04 acima da guarda hipotética de meio kit.](assets/04-media-e-guarda.svg)\n\n**Figura 4 — Média e guarda.** Observe que melhora agregada e violação de uma condição local podem coexistir. O gráfico não representa aprovação, implantação ou experiência operacional real.\n\n",
+      "sourceStart": 5750,
+      "sourceEnd": 7503
+    },
+    {
+      "id": "MAT-EST-067-s006",
+      "title": "6. Ausência, comparabilidade e versão",
+      "paragraphs": [],
+      "markdown": "## 6. Ausência, comparabilidade e versão\n\nAntes de calcular o erro, confirme: a tarefa foi planejada? A previsão existe e foi fixada sem usar o alvo? O alvo corresponde à mesma origem e horizonte? Há observado informado e versão identificada? Uma previsão não emitida, um observado ainda ausente e um pareamento impossível são estados diferentes. Ausente não é zero, e observação retificada não deve apagar silenciosamente a versão preliminar ou duplicar o mesmo evento.\n\nUma razão de completude descreve disponibilidade, não precisão. Um recorte com faltas eventualmente associadas à magnitude do fenômeno pode diferir dos casos que faltam, mas não sabemos se isso acontece neste laboratório. Assim, os quatro erros são uma descrição legítima dos quatro cartões avaliáveis, não uma comprovação sobre uma população de demandas futuras. A seção sobre ausências de *Forecasting: Principles and Practice* explica por que investigar os mecanismos de dados faltantes é relevante na modelagem; suas explicações não são fonte dos números do caso autoral.\n\n",
+      "sourceStart": 7503,
+      "sourceEnd": 8552
+    },
+    {
+      "id": "MAT-EST-067-s007",
+      "title": "7. Limites parciais sem inventar observado",
+      "paragraphs": [],
+      "markdown": "## 7. Limites parciais sem inventar observado\n\nA ideia matemática mais profunda é que **não precisamos conhecer um alvo y para limitar quanto duas distâncias até esse mesmo alvo diferem**. Para previsões fixas B e C, a desigualdade triangular reversa fornece:\n\n`−|B−C| ≤ |y−C|−|y−B| ≤ |B−C|`.\n\nLeitura: a diferença entre o erro absoluto de C e o erro absoluto de B está entre menos e mais a distância entre as previsões B e C. Derivação: pela desigualdade triangular, `|y−C| ≤ |y−B|+|B−C|`. Trocando B com C, obtemos `|y−B| ≤ |y−C|+|B−C|`. Reorganizando as duas relações, aparecem o limite superior e o inferior. Intuitivamente, mover a previsão de B até C por d kits muda sua distância a qualquer alvo, no máximo, em d kits.\n\nEm D05, as previsões B22 e C21 distam um kit: a diferença de erros absolutos C menos B estará em **[−1,+1] kit**. Em D06, B25 e C23 distam dois: a diferença estará em **[−2,+2] kits**. A soma conhecida das diferenças em D01–D04 é −3. Logo, se os seis observados um dia fossem fornecidos como números válidos do mesmo alvo e as previsões não fossem modificadas, a soma completa ficaria entre `−3−1−2=−6` e `−3+1+2=0`. Dividindo por seis, a diferença média completa C menos B ficaria entre **−1 e zero kit**.\n\nEsse é um **limite algébrico condicional**, não intervalo de confiança, não probabilidade e não valor observado de D05 ou D06. Sob essas condições fechadas, C não teria MAE superior ao de B nos seis pares e poderia empatar. Mas a guarda de D04 já falhou e os seis exemplos artificiais não validam desempenho externo. Isso não autoriza promoção.\n\nOs extremos são alcançáveis em hipóteses, **sem preencher o registro**: se yD05 fosse no mínimo 22 e yD06 no mínimo 25, as diferenças ausentes seriam +1 e +2, produzindo empate. Se yD05 fosse no máximo 21 e yD06 no máximo 23, seriam −1 e −2, produzindo média −1 kit. A conclusão interessante é que **a diferença emparelhada** é limitada, mas o erro absoluto individual em um alvo desconhecido não recebe limite superior só com essas previsões: y pode ser arbitrariamente alto. Não chamar a faixa de calibração ou previsão probabilística.\n\n![Reta do limite algébrico para a diferença média C menos B: extremo menos um kit a zero kit, com condições declaradas.](assets/05-limite-diferenca.svg)\n\n**Figura 5 — Limite de diferença.** Eixo horizontal: diferença média MAE C menos MAE B, em kits. Observe os extremos menos um e zero; a faixa é uma dedução das previsões fixas, e não uma coleção de novas medições.\n\n",
+      "sourceStart": 8552,
+      "sourceEnd": 11041
+    },
+    {
+      "id": "MAT-EST-067-s008",
+      "title": "8. Transferência de método, nunca mistura de coortes",
+      "paragraphs": [],
+      "markdown": "## 8. Transferência de método, nunca mistura de coortes\n\nO projeto contém objetos com finalidades diferentes. O histórico fictício t01–t22 e MAT-EST-049-PROT-v1 são uma série. t23–t25 continuam sem emissão ou observação autenticada; MAT-EST-056-PROT-SUC-v1 é somente proposta editorial local; t26–t33 têm zero pares e MAE não estimável. SANDBOX-057 é uma sala isolada com oito cartões, apenas S01/S02 avaliáveis, erros B [+4,−2] e C [+3,−5], MAE B três e C quatro unidades e custo médio sete pontos para ambos. EXEMPLO-V, EXEMPLO-Z e TRANSFER-066 não fornecem observações adicionais a essas séries. TRANSFER-066 permanece com R01/R02 avaliáveis, R03/R04 pendentes, MAE B 2,5 e C 1 unidade, custo B 4,5 e C 2 pontos, completude 50%. LAB-067 é **mais um exercício distinto**, não um apêndice estatístico desses grupos.\n\nK65-01–K65-11 possuem uma única fotografia didática F0; não há série de fotografias que autorize tendência. G1/G2 estão `checked_local`; G3–G6, `pending`; G7/G8 e P01–P10, `not_performed`; A64-01–06 são ensaios locais e A64-07 não ocorreu. Reunir esses estados em uma pontuação única apagaria definições e denominadores diferentes. Nenhum deles é alterado por esta aula.\n\n**Vídeo complementar após esta seção:** [How to spot a misleading graph — Lea Gaslowitz, TED-Ed](https://www.youtube.com/watch?v=E91bGT9BjYk). Inglês, aproximadamente quatro minutos. A página pública foi encontrada em 29/09/2026; não foi realizada reprodução integral, teste de legendas ou teste do Edge. Ele reforça a leitura crítica de escala e recorte. Ao assistir, pergunte se um gráfico de quatro casos pode receber título que promete resultados sobre seis planejados. O vídeo é apoio; toda a explicação necessária está nesta aula.\n\n",
+      "sourceStart": 11041,
+      "sourceEnd": 12769
+    },
+    {
+      "id": "MAT-EST-067-s009",
+      "title": "9. Comunicado proporcional à evidência",
+      "paragraphs": [],
+      "markdown": "## 9. Comunicado proporcional à evidência\n\nModelo de conclusão responsável sobre o caso didático: “Em LAB-067, quatro de seis cartões estão avaliáveis: 66,67% de completude. Neles, o MAE é 2,5 kits em B e 1,75 kit em C. Os custos médios fictícios são 6,5 e 2,75 pontos, respectivamente. Em D04 C piorou um kit em relação a B, acima da guarda hipotética de 0,5 kit, logo a condição de promoção do exercício falhou. D05 e D06 seguem sem observado; sob as hipóteses de previsões fixas, peso igual e futura avaliação dos seis pares, a diferença média C menos B estaria entre −1 e zero kit. Não houve decisão operacional, inferência populacional, sincronização ou publicação.”\n\nO texto nomeia população, horizonte, unidade, denominador, regra, ausência, limite e estado editorial. Um bom relatório separa **fato fornecido**, **falta**, **dedução condicional** e **decisão permitida pela regra**.\n\n![Matriz textual separa fatos didáticos, pendências, limite condicional e ausência de autorização operacional.](assets/06-matriz-decisao.svg)\n\n**Figura 6 — Matriz de decisão.** Observe quatro tipos distintos de afirmação. Leitura em voz alta: valores calculados não substituem observações faltantes; uma dedução condicional não comprova resultado futuro, e um pacote editorial não é implantação.\n\n",
+      "sourceStart": 12769,
+      "sourceEnd": 14058
+    },
+    {
+      "id": "MAT-EST-067-s010",
+      "title": "10. Aplicações e erros frequentes",
+      "paragraphs": [],
+      "markdown": "## 10. Aplicações e erros frequentes\n\nEm Saúde Pública, separar atendimento planejado de atendimento realmente registrado evita fabricar taxas com registros vazios; não estamos apresentando qualquer dado epidemiológico. Em Química, ausência de uma leitura não é concentração zero. Em Geografia, município sem indicador não pode ser rotulado como indicador igual a zero. Em Redação, toda afirmação quantitativa precisa explicitar universo, corte e limitações. São analogias, não bases reais importadas para LAB-067.\n\nErros recorrentes incluem dividir MAE por seis quando só quatro pares são válidos; cancelar sinais para calcular erro absoluto; misturar pontos e kits; alterar guarda após observar resultado; declarar mecanismo de ausência sem evidência; chamar limite algébrico de intervalo probabilístico; misturar t18–t22, SANDBOX-057, TRANSFER-066 e LAB-067; e afirmar que teste automatizado equivale a aprovação humana, publicação ou estudo concluído.\n\n",
+      "sourceStart": 14058,
+      "sourceEnd": 15015
+    },
+    {
+      "id": "MAT-EST-067-s011",
+      "title": "11. Prática e revisão espaçada",
+      "paragraphs": [],
+      "markdown": "## 11. Prática e revisão espaçada\n\nNo primeiro bloco, explique a cadeia de evidências e refaça a classificação dos seis cartões. No segundo, reconstrua a tabela, os custos e o teste de guarda. No terceiro, derive os limites algébricos com exemplos e redija o comunicado sem extrapolação. Resolva as 36 questões autorais de `exercicios.md`, divididas em aprendizagem, consolidação, estilo vestibular e reteste. Não há reprodução de questão oficial. Só consulte `gabarito-comentado.md` após tentar.\n\nUma revisão pode ocorrer um, sete e trinta dias **após estudo efetivo**, não após a criação do arquivo. Classificar dificuldades como conteúdo, interpretação, cálculo, distração, memória, estratégia ou tempo exige tentativa real. Este material não altera progresso individual.\n\n",
+      "sourceStart": 15015,
+      "sourceEnd": 15791
+    },
+    {
+      "id": "MAT-EST-067-s012",
+      "title": "12. Resumo curto para ouvir",
+      "paragraphs": [],
+      "markdown": "## 12. Resumo curto para ouvir\n\nSeis cartões estão planejados e quatro possuem observação. A completude é quatro sextos; o MAE usa os quatro pares e não os seis planejados. Nos quatro, B tem MAE 2,5 kits e C 1,75 kit. Os custos fictícios são 6,5 pontos para B e 2,75 para C. C apresenta melhora média mas viola a guarda fictícia de meio kit em D04, porque sua piora ali é um kit. Para D05 e D06, não inventamos observado; usamos a desigualdade triangular reversa para limitar a diferença entre erros absolutos. Se os seis cartões do enunciado vierem a ser avaliados com previsões fixas e mesmo peso, a diferença média C menos B ficará entre menos um e zero kit. Esse limite não corrige a guarda nem demonstra eficácia futura. Todas as outras coortes permanecem isoladas, e produzir material editorial não significa que alguém estudou.\n\n",
+      "sourceStart": 15791,
+      "sourceEnd": 16627
+    },
+    {
+      "id": "MAT-EST-067-s013",
+      "title": "Fontes e proveniência",
+      "paragraphs": [],
+      "markdown": "## Fontes e proveniência\n\n- Base interna: checkpoint textual MAT-EST-066 e seus materiais textuais acessíveis; o ZIP original não pôde ser extraído nesta sessão.\n- Rob J. Hyndman e George Athanasopoulos, *Forecasting: Principles and Practice*, [5.8 Avaliação de previsões](https://otexts.com/fpp3/accuracy.html), [5.10 Validação cruzada temporal](https://otexts.com/fpp3/tscv.html) e [13.9 Valores ausentes e atípicos](https://otexts.com/fpp3/missing-outliers.html). Apoio conceitual externo, não origem dos números artificiais.\n- [TED-Ed — How to spot a misleading graph](https://www.youtube.com/watch?v=E91bGT9BjYk), página localizada; reprodução integral não realizada.\n- Todos os seis SVG e as 36 questões são produção autoral deste incremento.\n",
+      "sourceStart": 16627,
+      "sourceEnd": 17376
+    }
+  ],
+  "sources": [
+    {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    }
+  ],
+  "previous": "MAT-EST-066",
+  "next": "MAT-EST-068",
+  "videos": [
+    {
+      "title": "How to spot a misleading graph - Lea Gaslowitz",
+      "channel": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=E91bGT9BjYk",
+      "duration": "aproximadamente 4 minutos (não aferida por reprodução integral)",
+      "language": "inglês",
+      "reason": "interpretação crítica de escala e recorte em gráficos",
+      "when": "após seção 8",
+      "reinforces": [],
+      "checkedAt": "2026-10-03",
+      "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+      "type": "video"
+    }
+  ],
+  "video": {
+    "title": "How to spot a misleading graph - Lea Gaslowitz",
+    "channel": "TED-Ed",
+    "url": "https://www.youtube.com/watch?v=E91bGT9BjYk",
+    "duration": "aproximadamente 4 minutos (não aferida por reprodução integral)",
+    "language": "inglês",
+    "reason": "interpretação crítica de escala e recorte em gráficos",
+    "when": "após seção 8",
+    "reinforces": [],
+    "checkedAt": "2026-10-03",
+    "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+    "type": "video"
+  },
+  "publication": {
+    "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+    "notes": [
+      "A produção e a publicação não registram domínio nem alteram seu progresso.",
+      "Aula avançada para consulta. A sequência de fundamentos ainda tem textos integrais a recuperar; confira os pré-requisitos antes de iniciar.",
+      "As referências a publicação pendente no texto original registram o estado da fonte na data de criação."
+    ],
+    "original": "originais/MAT-EST-067/aula.md",
+    "editions": [],
+    "attachments": [
+      {
+        "label": "checkpoint-editorial-MAT-EST-067.json",
+        "url": "originais/MAT-EST-067/arquivos/checkpoint-editorial-MAT-EST-067.json"
+      },
+      {
+        "label": "manifesto-sha256.txt",
+        "url": "originais/MAT-EST-067/arquivos/manifesto-sha256.txt"
+      },
+      {
+        "label": "gabarito-comentado.json",
+        "url": "originais/MAT-EST-067/arquivos/gabarito-comentado.json"
+      },
+      {
+        "label": "metadados.json",
+        "url": "originais/MAT-EST-067/arquivos/metadados.json"
+      },
+      {
+        "label": "exercicios.json",
+        "url": "originais/MAT-EST-067/arquivos/exercicios.json"
+      },
+      {
+        "label": "PROMPT-TRANSICAO-NOVO-CHAT.txt",
+        "url": "originais/MAT-EST-067/arquivos/PROMPT-TRANSICAO-NOVO-CHAT.txt"
+      },
+      {
+        "label": "controle/relatorio-verificacoes.json",
+        "url": "originais/MAT-EST-067/arquivos/controle/relatorio-verificacoes.json"
+      },
+      {
+        "label": "controle/estado-herdado-nao-revalidado.json",
+        "url": "originais/MAT-EST-067/arquivos/controle/estado-herdado-nao-revalidado.json"
+      },
+      {
+        "label": "transferencia/LAB-067-cartoes.json",
+        "url": "originais/MAT-EST-067/arquivos/transferencia/LAB-067-cartoes.json"
+      }
+    ],
+    "questionCount": 36,
+    "visualCount": 6,
+    "sourceSha256": "a6f8452fe12ea95d7ea83b66aeb488ac69dc6054440f0906e0e278ef2f0b14a5"
+  }
+}

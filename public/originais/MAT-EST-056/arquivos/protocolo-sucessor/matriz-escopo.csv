@@ -1,0 +1,5 @@
+grupo,intervalo,estado,uso_permitido,uso_vedado
+historico_exploratorio,t18–t22,5 pares fictícios conhecidos,descrever limitações e planejar,reclassificar como teste independente novo
+quarentena,t23–t25,alvos não observados; cenários já expostos,preservar plano antigo e requisitos futuros,contá-los como confirmações do sucessor
+sucessor_desenho,t26–t33,nenhuma previsão ou observação emitida,propor pré-registro externo antes do teste,"alegar sucesso, emissão ou certificação"
+ensaios_isolados,V e Z,exemplos de versionamento,ensinar retificação,somar ao denominador principal

@@ -1,0 +1,11 @@
+CONTINUIDADE — RECONSTRUÇÃO ESCOLAR + ENEM E VESTIBULARES 2027
+
+Último pacote editorial concluído LOCALMENTE: MAT-EST-057 — Registro de desvios e auditoria prospectiva simulada: pendências, exclusões e relatório por coorte sem inventar alvos futuros. Consulte MAT-EST-057-pacote-integracao.zip e checkpoint-editorial.json (anexar caso indisponíveis). O ZIP inclui cópia byte a byte integral do pacote MAT-EST-056 e 23 arquivos-base controlados por SHA-256.
+
+Próximo tópico ainda NÃO iniciado: MAT-EST-058 — Leitura crítica de relatórios temporais: resultados parciais, viés de seleção e comunicação de incerteza por coorte.
+
+Preservar dados t01–t22; t23–t25 NÃO observados nem com emissão autenticada. t26–t33 são oito alvos propostos, com ZERO emissões, ZERO observados, ZERO pares. MAT-EST-056-PROT-SUC-v1 é rascunho editorial local, sem pré-registro externo. MAT-EST-051-PLAN-v1 não executado. Protocolo MAT-EST-049-PROT-v1: cinco dos oito pares históricos t18–t22; MAE B17,60 e C8,36; custo médio B51,20 e C14,92; falha da guarda em t19, 19,2>10, portanto não promover C no protocolo antigo. V e Z permanecem casos isolados.
+
+MAT-EST-057 introduziu SANDBOX-057, completamente separado dos dados anteriores: oito cartões inventados Q01–Q08, dois pares avaliáveis fictícios, seis pendentes. Apenas nesses dois pares: erros B +4 e −2 (MAE 3), C +3 e −5 (MAE 4); custos médios ambos 7. Fotografias A/B são explicações condicionais; nenhum dado ou emissão t26–t33 foi fabricado. Não misturar este sandbox com a coorte principal nem transportar seus resultados.
+
+Ao receber Continuar, conferir checkpoint mais recente e avançar exatamente um passo editorial: MAT-EST-058. Criar aula aprofundada, visuais acessíveis, vídeo complementar com verificação honesta, 36 exercícios autorais em três camadas e reteste, gabarito separado, Markdown, metadados, ZIP, prévia, manifesto e testes de integridade. Não declarar publicação, sincronização, autenticação, reprodução integral ou testes manuais não realizados. Não alterar progresso individual sem estudo efetivo. Registrar próximo tópico e mostrar botões Continuar e Copiar prompt para novo chat.

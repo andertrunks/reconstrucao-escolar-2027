@@ -1,0 +1,72 @@
+[
+  {
+    "id": "MAT-EST-031-VIS-01",
+    "arquivo": "assets/01-divisao-treino-validacao-teste.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Três funções para os dados",
+    "alt": "Uma faixa com 60% para treino, 20% para validação e 20% para teste; percentuais são apenas ilustrativos.",
+    "oQueObservar": "Observe que ajuste, escolha e avaliação final não devem compartilhar informações indevidas.",
+    "conclusaoTextual": "Cada bloco responde a uma pergunta distinta; não existe partição percentual universal."
+  },
+  {
+    "id": "MAT-EST-031-VIS-02",
+    "arquivo": "assets/02-treino-sobreajuste.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Divergência de erros entre treino e teste",
+    "alt": "Barras dos modelos A e B: MAE de treino 0,4 e 1,1; MAE de teste 3,0 e 1,3 pontos, respectivamente.",
+    "oQueObservar": "Compare as medidas em uma mesma métrica e conjunto de avaliação.",
+    "conclusaoTextual": "O menor erro no treino não implica o menor erro em novos dados."
+  },
+  {
+    "id": "MAT-EST-031-VIS-03",
+    "arquivo": "assets/03-validacao-cruzada-cinco.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Cinco rodadas de validação cruzada",
+    "alt": "Cinco linhas, cada qual com quatro partes de treino T e uma parte de validação V; a parte V muda de posição.",
+    "oQueObservar": "Observe a rotação da parte separada.",
+    "conclusaoTextual": "Cada observação participa uma vez da validação e quatro vezes do ajuste no K-fold de cinco partes."
+  },
+  {
+    "id": "MAT-EST-031-VIS-04",
+    "arquivo": "assets/04-erro-absoluto-e-quadratico.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Como o erro grande pesa nas métricas",
+    "alt": "Quatro resíduos absolutos 1, 1, 1 e 5; a soma dos quadrados é 28 e a soma absoluta é 8.",
+    "oQueObservar": "Confira os eixos e as unidades: erro absoluto em pontos e contribuição quadrática em pontos ao quadrado.",
+    "conclusaoTextual": "RMSE é mais sensível a um erro grande por elevar os resíduos ao quadrado."
+  },
+  {
+    "id": "MAT-EST-031-VIS-05",
+    "arquivo": "assets/05-vazamento-de-dados.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Pré-processar sem vazamento",
+    "alt": "Fluxo correto: separar registros; ajustar imputação e escala só no treino; aplicar transformações congeladas à avaliação.",
+    "oQueObservar": "Identifique a fronteira antes da etapa de pré-processamento.",
+    "conclusaoTextual": "Nenhuma estatística da partição retida deve participar do aprendizado das transformações."
+  },
+  {
+    "id": "MAT-EST-031-VIS-06",
+    "arquivo": "assets/06-tempo-e-grupos.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Quando a divisão aleatória não serve",
+    "alt": "Dois diagramas: pessoas P1–P3 inteiras por parte e meses anteriores destinados ao treino, posteriores à validação.",
+    "oQueObservar": "Observe a diferença entre independência por grupo e ordem temporal.",
+    "conclusaoTextual": "Escolha a estratégia de separação conforme a dependência entre registros e o uso futuro."
+  },
+  {
+    "id": "MAT-EST-031-VIS-07",
+    "arquivo": "assets/07-protocolo-de-auditoria.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Rota da avaliação preditiva",
+    "alt": "Cinco etapas: objetivo, divisão, pipeline nos folds, escolha, teste final e relatório.",
+    "oQueObservar": "O teste final deve ser consultado depois da escolha, não usado repetidamente para otimizá-la.",
+    "conclusaoTextual": "A avaliação final precisa permanecer independente das decisões anteriores."
+  }
+]

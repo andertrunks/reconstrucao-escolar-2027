@@ -1,0 +1,72 @@
+[
+  {
+    "id": "MAT-EST-034-VIS-01",
+    "arquivo": "assets/01-protocolo-pesquisa.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Protocolo em cinco passos",
+    "alt": "Cinco caixas sucessivas: pergunta, dados, análise, limites e relatório; os dados são inteiramente inventados.",
+    "oQueObservar": "Observe que explicitar limites é uma etapa própria, anterior à conclusão.",
+    "conclusaoTextual": "Projeto quantitativo não termina no cálculo: deve registrar origem, escolhas, limites e interpretação."
+  },
+  {
+    "id": "MAT-EST-034-VIS-02",
+    "arquivo": "assets/02-dados-e-particoes.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Tabela dos dados sintéticos e recorte temporal",
+    "alt": "Tabela com oito dias, valores reais, previsões A e B e baseline 100; dias 5 a 8 são conjunto de teste.",
+    "oQueObservar": "Observe que os dias de teste vêm depois dos dias de referência, sem mudar previsões depois de ver resultados.",
+    "conclusaoTextual": "A e B são previsões candidatas dadas, não modelos treinados sobre apenas quatro linhas."
+  },
+  {
+    "id": "MAT-EST-034-VIS-03",
+    "arquivo": "assets/03-comparacao-mae-rmse.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Comparação das métricas no conjunto de teste",
+    "alt": "MAE de A 5, B 6,25 e referência 12,5. RMSE de A 5, B 12,5 e referência 16,58 atendimentos.",
+    "oQueObservar": "Observe que o erro concentrado de B eleva o RMSE em relação ao MAE.",
+    "conclusaoTextual": "Métricas devem ser calculadas no mesmo conjunto e interpretadas conforme seu objetivo."
+  },
+  {
+    "id": "MAT-EST-034-VIS-04",
+    "arquivo": "assets/04-erros-assinados-tempo.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Erros assinados por dia",
+    "alt": "A apresenta erros −5,+5,+5,−5; B apresenta 0,0,0,−25 nos quatro dias de teste.",
+    "oQueObservar": "Observe que a média de B encobre um único erro negativo grande.",
+    "conclusaoTextual": "O sinal do erro influencia o custo se falta e excedente tiverem perdas diferentes."
+  },
+  {
+    "id": "MAT-EST-034-VIS-05",
+    "arquivo": "assets/05-custo-decisao.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Custo condicionado à função de perda",
+    "alt": "Para falta custando três e excedente um, custo no teste: A igual a 40; B igual a 25 unidades fictícias.",
+    "oQueObservar": "Compare a quantidade de faltas e excedentes, e não apenas MAE e RMSE.",
+    "conclusaoTextual": "A decisão depende da função de perda e de evidências em dados representativos."
+  },
+  {
+    "id": "MAT-EST-034-VIS-06",
+    "arquivo": "assets/06-escada-evidencias.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Escada de evidências",
+    "alt": "Quatro níveis: descrição do conjunto, comparação na mesma base, generalização com amostragem adequada e causalidade com desenho próprio.",
+    "oQueObservar": "Observe que um cálculo descritivo não dá, por si só, direito a uma afirmação causal.",
+    "conclusaoTextual": "Afirmações mais amplas dependem de evidência e hipóteses adicionais."
+  },
+  {
+    "id": "MAT-EST-034-VIS-07",
+    "arquivo": "assets/07-cartao-relatorio.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Estrutura do relatório interpretativo",
+    "alt": "Seis seções: pergunta, dados, método, achados, limites e conclusão, com anexos reproduzíveis.",
+    "oQueObservar": "Observe que a seção de limites aparece antes da conclusão.",
+    "conclusaoTextual": "O relatório documenta a trilha entre dados, contas e afirmações, sem inventar observações."
+  }
+]

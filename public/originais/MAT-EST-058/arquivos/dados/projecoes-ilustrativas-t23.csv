@@ -1,0 +1,3 @@
+id,origin,target,horizon,model_version,calculated_value,status,input_max_period
+MAT-EST-051-ILLUSTRATIVE-T23-B,t22,t23,1,BASE-SNAIVE-v1,183,recalculo_didatico_nao_log_autenticado,t22
+MAT-EST-051-ILLUSTRATIVE-T23-C,t22,t23,1,CHAL-SDELTA5-v1,199,recalculo_didatico_nao_log_autenticado,t22

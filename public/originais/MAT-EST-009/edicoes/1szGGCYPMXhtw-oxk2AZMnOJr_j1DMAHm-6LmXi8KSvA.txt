@@ -1,0 +1,160 @@
+﻿MAT-EST-009 — Exercícios — reconstrução editorial v1
+
+
+Todas as questões são autorais. Resolva antes de consultar o gabarito.
+
+
+CAMADA APR — Aprendizagem básica
+
+
+MAT-EST-009-EX-APR-01
+Média 50 e DP 5. Calcule o CV e o CV percentual.
+
+
+MAT-EST-009-EX-APR-02
+Média 20 e DP 4. Calcule o CV percentual.
+
+
+MAT-EST-009-EX-APR-03
+Explique com palavras o que significa CV de 10%.
+
+
+MAT-EST-009-EX-APR-04
+Por que o CV normalmente não tem unidade física?
+
+
+MAT-EST-009-EX-APR-05
+Média 100 e DP 20. Qual é o CV?
+
+
+MAT-EST-009-EX-APR-06
+Se média = 0, o CV usual está definido? Justifique.
+
+
+MAT-EST-009-EX-APR-07
+Se todos os valores são multiplicados por 10, o CV muda? Explique.
+
+
+MAT-EST-009-EX-APR-08
+Média 80 e DP 8. O CV é 0,1 ou 10? Diferencie forma decimal e percentual.
+
+
+MAT-EST-009-EX-APR-09
+Qual grupo tem maior dispersão relativa: A média 10 DP 2; B média 100 DP 10?
+
+
+MAT-EST-009-EX-APR-10
+Por que não existe uma classificação universal de CV “baixo” ou “alto”?
+
+
+CAMADA CON — Consolidação
+
+
+MAT-EST-009-EX-CON-01
+A média é 200 e o DP 30. Calcule CV decimal e percentual.
+
+
+MAT-EST-009-EX-CON-02
+A tem média 40 e DP 8; B tem média 100 e DP 15. Compare DP absoluto e CV.
+
+
+MAT-EST-009-EX-CON-03
+Comprimento médio 1,8 m e DP 0,09 m. Calcule CV; depois converta para cm e confirme o mesmo resultado.
+
+
+MAT-EST-009-EX-CON-04
+Temperatura média 20 °C e DP 2 °C. Calcule CV em Celsius e, depois, em Fahrenheit.
+
+
+MAT-EST-009-EX-CON-05
+Explique por que a diferença entre os CVs do exercício anterior revela uma limitação conceitual.
+
+
+MAT-EST-009-EX-CON-06
+Média 0,1 e DP 1. Calcule o CV percentual e explique por que exige cautela.
+
+
+MAT-EST-009-EX-CON-07
+Média 4 e DP 6. Calcule o CV. Um valor acima de 100% é matematicamente possível?
+
+
+MAT-EST-009-EX-CON-08
+A: média 50 DP 2; B: média 50 DP 5. Compare CV e DP.
+
+
+MAT-EST-009-EX-CON-09
+Um conjunto sofre transformação y=3x. O que acontece com média, DP e CV?
+
+
+MAT-EST-009-EX-CON-10
+Um conjunto sofre transformação y=3x+10. O CV necessariamente permanece igual? Explique.
+
+
+CAMADA VES — Transferência / estilo vestibular autoral
+
+
+MAT-EST-009-EX-VES-01
+Processo A: média 120, DP 6. Processo B: média 20, DP 2. Qual tem maior dispersão relativa?
+
+
+MAT-EST-009-EX-VES-02
+Dois laboratórios medem a mesma substância. A: média 500 mg, DP 10 mg. B: média 50 mg, DP 2 mg. Compare CVs.
+
+
+MAT-EST-009-EX-VES-03
+Altura: média 170 cm, DP 8,5 cm. Massa: média 70 kg, DP 7 kg. Compare dispersões relativas e discuta a limitação substantiva.
+
+
+MAT-EST-009-EX-VES-04
+Uma variável em km tem média 2,4 e DP 0,12. Ao converter para metros, qual será o CV?
+
+
+MAT-EST-009-EX-VES-05
+Um pesquisador compara CV de temperaturas em Celsius entre cidades. Qual problema conceitual precisa ser discutido?
+
+
+MAT-EST-009-EX-VES-06
+Média 0,02 e DP 0,05. Calcule CV e explique por que o resultado não deve ser interpretado mecanicamente.
+
+
+MAT-EST-009-EX-VES-07
+Um relatório afirma que CV 8% é “sempre baixo”. Critique a afirmação.
+
+
+MAT-EST-009-EX-VES-08
+Produto A: preço médio 20, DP 1. Produto B: média 100, DP 8. Compare a variabilidade relativa.
+
+
+MAT-EST-009-EX-VES-09
+Explique por que um CV menor não prova maior exatidão de um instrumento.
+
+
+MAT-EST-009-EX-VES-10
+Construa dois grupos em que o grupo com maior DP tenha menor CV.
+
+
+CAMADA RET — Reteste
+
+
+MAT-EST-009-EX-RET-01
+Sem consultar, escreva as fórmulas do CV decimal e percentual.
+
+
+MAT-EST-009-EX-RET-02
+Média 75 e DP 15. Calcule o CV percentual.
+
+
+MAT-EST-009-EX-RET-03
+Explique por que o CV não muda ao converter metros para centímetros.
+
+
+MAT-EST-009-EX-RET-04
+Explique por que o CV pode mudar ao converter Celsius para Fahrenheit.
+
+
+MAT-EST-009-EX-RET-05
+O que acontece com o CV quando a média se aproxima de zero?
+
+
+MAT-EST-009-EX-RET-06
+Liste três condições ou cuidados antes de usar CV.

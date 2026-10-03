@@ -1,0 +1,57 @@
+{
+  "id": "MAT-EST-064-HIP-CAUS-v1",
+  "escopo": "análise educacional de mutações artificiais I01–I06; NÃO diagnóstico de incidente real",
+  "observado_apenas_em_fixture": true,
+  "causas_reais_confirmadas": 0,
+  "hipoteses": [
+    {
+      "id": "H64-01",
+      "example": "I01",
+      "observed_in_fixture": "denominator field is 8 where valid paired error count is 2",
+      "hypothesis": "Um gerador que compartilhe um campo genérico de total planejado para MAE e completude permitiria misturar denominadores. Não há prova de que esse gerador esteja implantado.",
+      "would_need": "Código de construção dos relatórios e rastreio de origem do campo denominator",
+      "classification": "mecanismo possível, não causa real confirmada"
+    },
+    {
+      "id": "H64-02",
+      "example": "I02",
+      "observed_in_fixture": "alt vazio rejeitado por teste",
+      "hypothesis": "Ausência de contrato obrigatório de equivalente textual permitiria divulgar um gráfico sem significado por áudio.",
+      "would_need": "Template efetivo, inspeção humana de equivalência e versão servida",
+      "classification": "mecanismo possível"
+    },
+    {
+      "id": "H64-03",
+      "example": "I03",
+      "observed_in_fixture": "texto falseia promoção histórica",
+      "hypothesis": "Separar cálculos de decisões de protocolo sem vínculo de versão possibilita sobrepor uma decisão passada.",
+      "would_need": "Manifesto canônico, pipeline, hashes e execução real",
+      "classification": "mecanismo possível"
+    },
+    {
+      "id": "H64-04",
+      "example": "I04",
+      "observed_in_fixture": "hash mutado diverge do esperado",
+      "hypothesis": "Falta de conferência de hash na entrada poderia enfraquecer a proveniência de fonte.",
+      "would_need": "Logs confiáveis e arquitetura real de ingestão",
+      "classification": "mecanismo possível"
+    },
+    {
+      "id": "H64-05",
+      "example": "I05",
+      "observed_in_fixture": "unidade pontos rotulada como unidades",
+      "hypothesis": "Métricas sem campo de unidade tipada podem ser rotuladas ambiguamente em novo template.",
+      "would_need": "Esquema usado em produção e testes de renderização",
+      "classification": "mecanismo possível"
+    },
+    {
+      "id": "H64-06",
+      "example": "I06",
+      "observed_in_fixture": "legenda omite corte A e seis pendências",
+      "hypothesis": "Omissão de metadados obrigatórios do recorte permite generalização indevida.",
+      "would_need": "Regras editoriais reais e prova de versão exibida",
+      "classification": "mecanismo possível"
+    }
+  ],
+  "incerteza": "Não há logs de produção, URL pública, assinatura, horas reais ou rastreio de usuários."
+}

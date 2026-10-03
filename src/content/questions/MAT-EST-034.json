@@ -1,0 +1,866 @@
+[
+  {
+    "id": "MAT-EST-034-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Pergunta verificável",
+    "statement": "No projeto sintético de oito dias, formule uma pergunta quantitativa verificável sobre a demanda e diga qual é a variável-alvo.",
+    "answer": "Pergunta: como A e B se comparam ao prever atendimentos dos dias 5 a 8? Alvo: atendimentos observados por dia.",
+    "resolution": "A pergunta precisa definir unidade, período e medida de comparação.\n\nA variável-alvo é a contagem diária realizada; previsões são valores produzidos antes de observar cada resultado.",
+    "errorReasons": [
+      "Identificar o que o enunciado permite concluir; diferenciar descrição, previsão e causalidade."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Origem da base",
+    "statement": "Os oito registros da tabela são uma pesquisa real sobre um município? É possível fazer inferência populacional direta?",
+    "answer": "Não: dados integralmente inventados para aprendizagem, sem população aleatória definida.",
+    "resolution": "Um exemplo fictício ilustra cálculos, mas não informa uma taxa ou média real de município algum.\n\nNão há amostragem probabilística nem tamanho suficiente para garantia de generalização.",
+    "errorReasons": [
+      "Identificar o que o enunciado permite concluir; diferenciar descrição, previsão e causalidade."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Unidade e horizonte",
+    "statement": "Qual é a unidade do alvo e qual é o horizonte de cada previsão neste projeto?",
+    "answer": "Contagem de atendimentos por dia; previsão para cada dia correspondente.",
+    "resolution": "A unidade é atendimentos, não porcentagem; a observação corresponde ao dia indicado.\n\nComparações entre previsões devem preservar mesmo alvo e horizonte.",
+    "errorReasons": [
+      "Identificar o que o enunciado permite concluir; diferenciar descrição, previsão e causalidade."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Média observada no teste",
+    "statement": "Calcule a média de atendimentos observados nos dias 5 a 8: 90, 110, 130 e 100.",
+    "answer": "107,5 atendimentos por dia.",
+    "resolution": "Soma: 90+110+130+100=430.\n\nDivisão: 430/4=107,5. É descrição desses quatro dias, não média de uma população ampla.",
+    "errorReasons": [
+      "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Mediana do teste",
+    "statement": "Determine a mediana de 90, 110, 130, 100.",
+    "answer": "105 atendimentos.",
+    "resolution": "Ordene: 90, 100, 110, 130.\n\nComo há quatro observações, faça (100+110)/2=105.",
+    "errorReasons": [
+      "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Períodos separados",
+    "statement": "Quais dias são referência e quais foram preservados como teste no banco? Por que não embaralhá-los sem justificativa?",
+    "answer": "Referência: dias 1–4; teste: dias 5–8. A ordem cronológica importa para representar previsão temporal.",
+    "resolution": "O arquivo contém o campo particao com esses valores.\n\nMisturar futuro com passado pode introduzir informação indisponível na data de previsão.",
+    "errorReasons": [
+      "Definir pergunta, critério, partição e método antes de calcular."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Convenção de sinal",
+    "statement": "No dia 5, a demanda foi 90 e A previu 95. Usando e = observado − previsto, calcule e.",
+    "answer": "−5 atendimentos; A superestimou a demanda em cinco.",
+    "resolution": "Subtraia 90−95=−5.\n\nSinal negativo indica excesso de previsão; positivo indica demanda acima da prevista.",
+    "errorReasons": [
+      "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "MAE do modelo A",
+    "statement": "No teste, os erros assinados de A são −5, +5, +5 e −5. Calcule MAE.",
+    "answer": "5 atendimentos.",
+    "resolution": "Use valores absolutos: 5+5+5+5=20.\n\nMAE=20/4=5 atendimentos.",
+    "errorReasons": [
+      "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Erro extremo de B",
+    "statement": "Nos dias 5–8, B prevê 90, 110, 130 e 125. Qual é seu maior erro absoluto?",
+    "answer": "25 atendimentos, no dia 8.",
+    "resolution": "Os valores observados são 90,110,130,100.\n\nDiferenças: 0,0,0,−25; maior módulo 25.",
+    "errorReasons": [
+      "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Natureza da conclusão",
+    "statement": "A frase “A teve MAE 5 nos quatro dias de teste; logo será exato para sempre” é aceitável?",
+    "answer": "Não. A primeira parte é descritiva; a extrapolação é indevida.",
+    "resolution": "O teste tem só quatro dias fictícios e não representa todos os contextos futuros.\n\nDescreva recorte, métrica e limitações, sem garantia de perpetuação do resultado.",
+    "errorReasons": [
+      "Identificar o que o enunciado permite concluir; diferenciar descrição, previsão e causalidade."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Baseline: erro médio",
+    "statement": "A referência simples prevê 100 atendimentos em todos os dias. Calcule seu MAE no teste.",
+    "answer": "12,5 atendimentos.",
+    "resolution": "Erros assinados: −10,+10,+30,0; módulos:10,10,30,0.\n\nSoma 50; MAE=50/4=12,5.",
+    "errorReasons": [
+      "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Baseline: penalização de extremos",
+    "statement": "Calcule RMSE da previsão fixa 100 nos dias 5 a 8.",
+    "answer": "Raiz quadrada de 275, aproximadamente 16,58 atendimentos.",
+    "resolution": "Quadrados dos erros:100,100,900,0; soma 1100.\n\nMSE=1100/4=275; RMSE=√275≈16,58.",
+    "errorReasons": [
+      "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "MAE e RMSE de B",
+    "statement": "Os erros de B no teste são 0, 0, 0 e −25. Determine MAE e RMSE.",
+    "answer": "MAE 6,25; RMSE 12,5 atendimentos.",
+    "resolution": "MAE=(0+0+0+25)/4=6,25.\n\nRMSE=√(625/4)=√156,25=12,5. Um erro extremo eleva mais o RMSE.",
+    "errorReasons": [
+      "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Viés médio observado",
+    "statement": "Qual é o erro médio assinado (observado − previsto) de B nos quatro dias de teste?",
+    "answer": "−6,25 atendimentos por dia.",
+    "resolution": "Soma dos erros 0+0+0−25=−25.\n\nDivida por quatro: −6,25; neste pequeno conjunto B superestimou a demanda em média.",
+    "errorReasons": [
+      "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Custo da previsão A",
+    "statement": "Com falta de capacidade custando 3 por unidade e excedente custando 1, calcule a perda de A no teste. Use e = observado − previsto.",
+    "answer": "40 unidades monetárias fictícias.",
+    "resolution": "A tem dez unidades de falta (dois erros +5) e dez de excedente (dois erros −5).\n\nPerda=3×10+1×10=40.",
+    "errorReasons": [
+      "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Custo da previsão B",
+    "statement": "Com a mesma perda: falta 3, excedente 1. Qual é o custo de B no teste?",
+    "answer": "25 unidades monetárias fictícias.",
+    "resolution": "Os três primeiros erros são zero e o último é −25, um excedente de 25.\n\nPerda=3×0+1×25=25.",
+    "errorReasons": [
+      "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Sensibilidade às preferências",
+    "statement": "Se a falta custasse 1 e o excedente 3, quais seriam os custos de A e B?",
+    "answer": "A=40; B=75.",
+    "resolution": "A possui dez faltas e dez excedentes:1×10+3×10=40.\n\nB possui 25 excedentes:3×25=75. Os resultados dependem da função de perda declarada.",
+    "errorReasons": [
+      "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Comparação temporal de B",
+    "statement": "Calcule MAE de B separadamente nos dias 5–6 e nos dias 7–8.",
+    "answer": "0 e 12,5 atendimentos, respectivamente.",
+    "resolution": "Nos dias 5–6 os erros são 0,0: MAE 0.\n\nNos dias 7–8 os módulos são 0,25: MAE=25/2=12,5. Isso não prova tendência com apenas duas observações por recorte.",
+    "errorReasons": [
+      "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Métrica condicionada ao objetivo",
+    "statement": "A tem menor RMSE que B no teste; B tem custo 25 contra 40 de A sob perdas 3/1. Qual afirmação é defensável?",
+    "answer": "Cada comparação responde a um objetivo distinto; relatar ambas com o custo e recorte especificados.",
+    "resolution": "RMSE avalia magnitude quadrática dos erros, sem distinguir o preço de falta e excesso.\n\nA função de perda do cenário penaliza falta três vezes mais e, por isso, os custos se diferenciam.",
+    "errorReasons": [
+      "Identificar o que o enunciado permite concluir; diferenciar descrição, previsão e causalidade."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Teste final preservado",
+    "statement": "Uma pessoa vê os erros no teste dos dias 5–8, altera B para acertar o dia 8 e anuncia o novo erro no mesmo conjunto como desempenho futuro. Identifique o problema.",
+    "answer": "Uso do teste final para ajuste; a avaliação independente foi contaminada.",
+    "resolution": "A modificação incorporou informação do próprio teste.\n\nAjuste precisa ocorrer com treino/validação; após mexer no modelo, é necessário um teste novo e independente.",
+    "errorReasons": [
+      "Definir pergunta, critério, partição e método antes de calcular."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Parágrafo de resultados",
+    "statement": "Escreva uma conclusão quantitativa, sem escolher universalmente um modelo, usando MAE de A=5 e B=6,25 no teste e custo 40 contra 25 (falta=3, excedente=1).",
+    "answer": "Conclusão contextualizada com período, alvo, unidades, custos e ausência de garantia de generalização.",
+    "resolution": "Exemplo: “Nos quatro dias fictícios de teste, A teve MAE de 5 e B de 6,25 atendimentos; sob falta=3 e excedente=1, as perdas simuladas foram 40 e 25, respectivamente.”\n\nAcrescente que a comparação depende do critério e de quatro observações artificiais, e não identifica efeitos causais.",
+    "errorReasons": [
+      "Identificar o que o enunciado permite concluir; diferenciar descrição, previsão e causalidade."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Estimativa não representa inferência",
+    "statement": "Uma pessoa usa a média de 107,5 atendimentos dos quatro dias de teste e cria intervalo “95%” sem justificar amostra ou método. Quais informações faltam?",
+    "answer": "Faltam população-alvo, plano de coleta, dependência temporal, variabilidade, método, hipóteses e tamanho adequado.",
+    "resolution": "Quatro dias sintéticos não são amostra probabilística de uma população real.\n\nUm nível de confiança não nasce de um rótulo: necessita procedimento amostral e pressupostos auditáveis.",
+    "errorReasons": [
+      "Recuperar a definição de população, amostra, variável, partição, viés ou incerteza antes de repetir."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Intervalo da média e da previsão",
+    "statement": "Um relatório oferece “intervalo para atendimento médio” e o apresenta como se cobrisse automaticamente o próximo dia individual. Explique o equívoco.",
+    "answer": "O intervalo de confiança para a média não é intervalo preditivo de uma observação individual.",
+    "resolution": "Prever um dia inclui a variabilidade entre dias além da incerteza de estimar a média.\n\nUm intervalo preditivo adequado tende a ser mais amplo sob o mesmo modelo e nível nominal.",
+    "errorReasons": [
+      "Identificar o que o enunciado permite concluir; diferenciar descrição, previsão e causalidade."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Associação não causa",
+    "statement": "Em outro levantamento, dias com mais divulgação apresentam mais atendimentos. Isso prova que aumentar divulgação causa aumento da demanda?",
+    "answer": "Não; associação observacional não estabelece efeito causal.",
+    "resolution": "Pode haver sazonalidade, calendário, exposição ou outros confundidores.\n\nSeria preciso um desenho causal adequado ou evidência adicional, sem transformar regressão isolada em prova de causa.",
+    "errorReasons": [
+      "Identificar o que o enunciado permite concluir; diferenciar descrição, previsão e causalidade."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Auditoria de denominadores",
+    "statement": "Um gráfico anuncia “redução de 50% do erro” comparando MAE 10 de um modelo antigo com MAE 5 de outro, mas um usa dias úteis e o outro feriados. O que impede a comparação simples?",
+    "answer": "As bases não correspondem ao mesmo recorte; comparar modelos na mesma amostra e no mesmo horizonte.",
+    "resolution": "A redução (10−5)/10=50% é aritmeticamente verdadeira para números apresentados, mas a atribuição de melhora entre modelos é injustificada.\n\nMantenha conjunto, unidade, momento e definição de alvo comparáveis.",
+    "errorReasons": [
+      "Definir pergunta, critério, partição e método antes de calcular."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Planejamento de relatório",
+    "statement": "Organize as seções mínimas de um relatório reproduzível de quatro páginas sobre os oito dias sintéticos.",
+    "answer": "Pergunta/contexto; dados e dicionário; método e partição; resultados/gráficos; incerteza/limites; conclusão e reprodutibilidade.",
+    "resolution": "O relatório deve permitir que outra pessoa recalcule métricas a partir do CSV e da fórmula de erro.\n\nAnexe dados fictícios e cálculos, registre como candidatos A/B foram fixados e não invente amostragem real.",
+    "errorReasons": [
+      "Definir pergunta, critério, partição e método antes de calcular."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Falta de dados",
+    "statement": "Suponha que o observado do dia 8 desapareça do arquivo e alguém preencha com a previsão de A (105) para medir MAE de A. Qual é o risco?",
+    "answer": "Imputação feita com previsão do próprio modelo contamina a avaliação e pode reduzir artificialmente o erro.",
+    "resolution": "Sem valor verdadeiro, a métrica do dia não pode ser calculada como se houvesse observação real.\n\nIdentifique ausência, procure a fonte, documente eventual exclusão e analise sensibilidade; não substitua o alvo pela previsão avaliada.",
+    "errorReasons": [
+      "Definir pergunta, critério, partição e método antes de calcular."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Medida por subperíodo",
+    "statement": "Uma pessoa observa MAE global de B de 6,25 e afirma que B errou igualmente em todos os dias. Use o vetor 0,0,0,−25 para avaliar.",
+    "answer": "Afirmação falsa: todo o erro absoluto de B concentrou-se no quarto dia do teste.",
+    "resolution": "A média (0+0+0+25)/4=6,25 oculta a distribuição.\n\nInforme maior erro, sinais e desempenho por subperíodo, principalmente quando perdas são assimétricas.",
+    "errorReasons": [
+      "Identificar o que o enunciado permite concluir; diferenciar descrição, previsão e causalidade."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Condição de validade",
+    "statement": "Liste pelo menos quatro limitações que impedem recomendar a implantação operacional de A ou B usando somente esta aula.",
+    "answer": "Dados artificiais, apenas quatro dias de teste, ausência de plano amostral real, possíveis mudanças temporais, hipóteses e intervalos não estimados, custos fictícios e falta de avaliação externa.",
+    "resolution": "O projeto demonstra método, não comprova adequação operacional.\n\nAntes de uso real, definir população, medir em períodos representativos, validar separação temporal, obter critérios de decisão e monitorar efeitos.",
+    "errorReasons": [
+      "Identificar o que o enunciado permite concluir; diferenciar descrição, previsão e causalidade."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Parecer final reprodutível",
+    "statement": "Redija um parecer curto que compare A, B e baseline para os dias 5–8 com os MAE 5, 6,25 e 12,5 e explicite qual decisão continua em aberto.",
+    "answer": "A e B têm menor MAE descritivo que baseline na base sintética; decisão real está em aberto.",
+    "resolution": "Escreva: “Nos quatro dias sintéticos preservados como teste, A, B e a baseline tiveram MAE 5, 6,25 e 12,5 atendimentos.”\n\nAcrescente finalidade, custos, amostra real e estabilidade futura como condições a avaliar; não declare superioridade universal nem causalidade.",
+    "errorReasons": [
+      "Identificar o que o enunciado permite concluir; diferenciar descrição, previsão e causalidade."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Novo conjunto: média e mediana",
+    "statement": "Uma nova prática, independente da base anterior, tem observados 40,50,60,70. Calcule média e mediana.",
+    "answer": "Ambas são 55 atendimentos.",
+    "resolution": "Média=(40+50+60+70)/4=220/4=55.\n\nMediana=(50+60)/2=55, pois são quatro observações ordenadas.",
+    "errorReasons": [
+      "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Novo conjunto: modelo X",
+    "statement": "Na prática independente, X prevê 42,48,63,67 para observados 40,50,60,70. Calcule MAE e RMSE.",
+    "answer": "MAE 2,5; RMSE √6,5≈2,55 atendimentos.",
+    "resolution": "Erros: −2,+2,−3,+3; módulos somam 10: MAE=10/4=2,5.\n\nQuadrados somam 4+4+9+9=26; RMSE=√(26/4)=√6,5≈2,55.",
+    "errorReasons": [
+      "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Novo conjunto: modelo Y",
+    "statement": "No mesmo conjunto, Y prevê 40,50,60,80. Calcule MAE, RMSE e maior erro absoluto.",
+    "answer": "MAE 2,5; RMSE 5; máximo 10 atendimentos.",
+    "resolution": "Erros 0,0,0,−10; MAE=10/4=2,5.\n\nRMSE=√(100/4)=5; o maior módulo é dez.",
+    "errorReasons": [
+      "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Novo conjunto: custo com perdas diferentes",
+    "statement": "No novo conjunto, falta custa 4 e excesso custa 1 por unidade. Quanto custam os erros de X (−2,+2,−3,+3) e Y (0,0,0,−10)?",
+    "answer": "X custa 25; Y custa 10 unidades monetárias fictícias.",
+    "resolution": "Para X: falta 2+3=5, excedente 2+3=5: 4×5+1×5=25.\n\nPara Y: zero falta, excedente dez: 1×10=10. O critério de custo difere do RMSE.",
+    "errorReasons": [
+      "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Novo conjunto: baseline",
+    "statement": "A referência constante de 55 é confrontada com 40,50,60,70. Calcule seu MAE e diga se a base permite generalizar para outra população.",
+    "answer": "MAE 10; sem generalização automática.",
+    "resolution": "Erros absolutos 15,5,5,15 somam 40; divida por 4: MAE=10.\n\nO conjunto é didático e não representa amostra probabilística externa.",
+    "errorReasons": [
+      "Reescrever fórmula, conferir sinais, denominadores, arredondamento e unidades."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-034-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-034"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Novo parecer independente",
+    "statement": "Escreva duas frases comparando X e Y no novo conjunto e uma limitação metodológica obrigatória.",
+    "answer": "Exemplo: ambos têm MAE 2,5; X tem RMSE aproximadamente 2,55 e Y, 5. A decisão depende da perda e de dados externos.",
+    "resolution": "A métrica quadrática torna mais visível o erro isolado de dez de Y.\n\nA perda 4/1 favorece Y neste cenário (10 contra 25), sem validar futuro, causalidade ou segurança operacional.",
+    "errorReasons": [
+      "Identificar o que o enunciado permite concluir; diferenciar descrição, previsão e causalidade."
+    ],
+    "source": {
+      "title": "MAT-EST-034-pacote-site.zip",
+      "url": "https://drive.google.com/file/d/1dT0UsOHe3fldbr-IXhCe0aPPwyRrOfuo/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "entidade": "02 — Metodologia de aprendizagem e aprofundamento",
+    "tipo": "arquivo_do_projeto",
+    "uso": "ciclo de aula, exercício graduado, revisão e evidência de domínio"
+  },
+  {
+    "entidade": "03 — Matriz Mestre e estrutura curricular",
+    "tipo": "arquivo_do_projeto",
+    "uso": "continuidade da trilha e fundamento universitário sem inventar exigência de exame"
+  },
+  {
+    "entidade": "04 — Acessibilidade e leitura em voz alta no Edge",
+    "tipo": "arquivo_do_projeto",
+    "uso": "fórmulas com leitura textual, legendas, áudio e sem dependência exclusiva de cor"
+  },
+  {
+    "entidade": "05 — Padrão visual, gráficos, imagens e vídeos",
+    "tipo": "arquivo_do_projeto",
+    "uso": "sete visuais originais legíveis e descritos"
+  },
+  {
+    "entidade": "06 — Arquitetura do site e modelo de conteúdo",
+    "tipo": "arquivo_do_projeto",
+    "uso": "separação Markdown/JSON e estado do usuário desacoplado"
+  },
+  {
+    "entidade": "MAT-EST-046",
+    "tipo": "predecessor_editorial",
+    "uso": "mesmos 12 pontos fictícios, mesmas origens e parâmetros fixos, preservação dos dois CSV por hash"
+  },
+  {
+    "entidade": "Hyndman e Athanasopoulos, FPP3 §5.4",
+    "tipo": "referencia_tecnica_publica",
+    "url": "https://otexts.com/fpp3/diagnostics.html",
+    "uso": "inovações, média residual e autocorrelação; distinguir resíduos do ajuste e erros de previsão"
+  },
+  {
+    "entidade": "Hyndman e Athanasopoulos, FPP3 §5.5",
+    "tipo": "referencia_tecnica_publica",
+    "url": "https://otexts.com/fpp3/prediction-intervals.html",
+    "uso": "desvio-padrão preditivo por horizonte e intervalos condicionados a hipóteses"
+  },
+  {
+    "entidade": "Hyndman e Athanasopoulos, FPP3 §5.9",
+    "tipo": "referencia_tecnica_publica",
+    "url": "https://otexts.com/fpp3/distaccuracy.html",
+    "uso": "escore intervalar de Winkler, cobertura e largura"
+  },
+  {
+    "entidade": "Hyndman e Athanasopoulos, FPP3 §5.10",
+    "tipo": "referencia_tecnica_publica",
+    "url": "https://otexts.com/fpp3/tscv.html",
+    "uso": "origens móveis e avaliação temporal"
+  },
+  {
+    "entidade": "Penn State, STAT 510 Lesson 01",
+    "tipo": "referencia_tecnica_publica",
+    "url": "https://online.stat.psu.edu/stat510/Lesson01",
+    "uso": "resíduos de séries e autocorrelação"
+  },
+  {
+    "entidade": "MIT OpenCourseWare, Lecture 12: Time Series Analysis",
+    "tipo": "video_institucional",
+    "url": "https://ocw.mit.edu/courses/18-642-topics-in-mathematics-with-applications-in-finance-fall-2024/resources/18642-lecture-12-version-2_mp4/",
+    "uso": "fundamentação da dependência temporal; página localizada; reprodução integral pendente"
+  }
+]

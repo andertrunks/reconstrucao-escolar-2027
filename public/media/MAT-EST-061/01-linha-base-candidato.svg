@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="583" viewBox="0 0 1020 583" role="img" aria-labelledby="ti de">
+<title id="ti">Linha de base, candidata e gates</title>
+<desc id="de">MAT-EST-060 preservada; candidata isolada R061-RC1; verificações automáticas; revisão humana pendente.</desc>
+<rect width="100%" height="100%" fill="#f7fafc"/>
+<text x="36" y="48" font-size="25" font-weight="bold" fill="#173753">Linha de base, candidata e gates</text>
+<rect x="36" y="80" width="948" height="58" rx="7" fill="#e6f3f7" stroke="#718c9b"/>
+<text x="55" y="116" font-size="19" fill="#173753">1. Baseline: ZIP MAT-EST-060 e SHA-256 registrado</text>
+<rect x="36" y="156" width="948" height="58" rx="7" fill="#f2eee3" stroke="#718c9b"/>
+<text x="55" y="192" font-size="19" fill="#173753">2. Criar R061-RC1 sem sobrescrever F00 nem dados históricos</text>
+<rect x="36" y="232" width="948" height="58" rx="7" fill="#e6f3f7" stroke="#718c9b"/>
+<text x="55" y="268" font-size="19" fill="#173753">3. Executar regressões e conferir resultados esperados</text>
+<rect x="36" y="308" width="948" height="58" rx="7" fill="#f2eee3" stroke="#718c9b"/>
+<text x="55" y="344" font-size="19" fill="#173753">4. Registrar evidências humanas ainda pendentes</text>
+<rect x="36" y="384" width="948" height="58" rx="7" fill="#e6f3f7" stroke="#718c9b"/>
+<text x="55" y="420" font-size="19" fill="#173753">5. Publicação: NÃO EXECUTADA</text>
+<text x="36" y="528" font-size="16" fill="#414e5a">Fluxo ilustrativo; todas as etapas são locais.</text>
+</svg>

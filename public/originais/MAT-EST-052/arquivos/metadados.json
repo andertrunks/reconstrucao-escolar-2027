@@ -1,0 +1,139 @@
+{
+  "id": "MAT-EST-052",
+  "slug": "ensaio-operacional-monitoramento-integridade-registro-atrasos-observacao-encerramento-auditavel",
+  "titulo": "Ensaio operacional de monitoramento: integridade do registro, atrasos de observação e encerramento auditável",
+  "materia": "Matemática",
+  "unidade": "Estatística — séries temporais / ponte universitária",
+  "nivel": 6,
+  "ordem": 52,
+  "anterior": "MAT-EST-051",
+  "preRequisitos": [
+    "MAT-EST-031",
+    "MAT-EST-032",
+    "MAT-EST-042",
+    "MAT-EST-047",
+    "MAT-EST-048",
+    "MAT-EST-049",
+    "MAT-EST-050",
+    "MAT-EST-051"
+  ],
+  "objetivos": [
+    "Distinguir previsão planejada e emissão comprovada",
+    "Separar prazo, disponibilidade e revisão",
+    "Registrar correções sem sobrescrever evidências",
+    "Diferenciar pendente, atraso, quarentena e zero validado",
+    "Avaliar denominadores corretos e encerrar sem promoção automática"
+  ],
+  "habilidades": [
+    "média",
+    "porcentagem",
+    "álgebra",
+    "pensamento temporal",
+    "auditoria de evidências",
+    "redação técnica"
+  ],
+  "examesRelacionados": [
+    "ENEM: interpretação quantitativa geral",
+    "FUVEST: raciocínio e leitura de dados geral",
+    "UNICAMP: argumentação quantitativa geral",
+    "UNESP: interpretação de tabelas geral",
+    "Ponte universitária: monitoramento e versionamento"
+  ],
+  "aulaMarkdown": "MAT-EST-052-ensaio-operacional-monitoramento-integridade-registro-atrasos-observacao-encerramento-auditavel.md",
+  "visuais": [
+    {
+      "src": "assets/01-estados-de-um-par.svg",
+      "alt": "Uma tarefa começa planejada, precisa de previsão autenticada, recebe observação com qualidade conferida e só então pode gerar par avaliável.",
+      "autoria": "produção própria",
+      "legenda": "Figura 1 — Estados de uma tarefa auditável"
+    },
+    {
+      "src": "assets/02-tres-tempos.svg",
+      "alt": "Separação entre período de referência, momento em que o dado ficou disponível e momento de sua revisão.",
+      "autoria": "produção própria",
+      "legenda": "Figura 2 — Marcos temporais distintos"
+    },
+    {
+      "src": "assets/03-log-de-ensaio-isolado.svg",
+      "alt": "Uma previsão hipotética 29, um dado preliminar 30 recebido com atraso e correção posterior 32; não pertence à série t01 a t25.",
+      "autoria": "produção própria",
+      "legenda": "Figura 3 — Ensaio isolado EXEMPLO-Z"
+    },
+    {
+      "src": "assets/04-denominadores.svg",
+      "alt": "Cinco pares didáticos validados na narrativa e três alvos futuros pendentes; a razão de completude é cinco de oito, não um MAE dividido por oito.",
+      "autoria": "produção própria",
+      "legenda": "Figura 4 — Denominadores não intercambiáveis"
+    },
+    {
+      "src": "assets/05-correcao-sem-apagar.svg",
+      "alt": "Evento inicial e retificação ficam vinculados; a previsão permanece 29, a avaliação anterior é identificada como provisória e a final usa 32.",
+      "autoria": "produção própria",
+      "legenda": "Figura 5 — Correção por nova versão"
+    },
+    {
+      "src": "assets/06-encerramento-e-guardas.svg",
+      "alt": "A amostra fictícia possui cinco de oito pares e a falha histórica de t19 de 19,2 unidades excede a guarda de 10; fechar relatório não aprova modelo.",
+      "autoria": "produção própria",
+      "legenda": "Figura 6 — Encerramento do protocolo anterior"
+    }
+  ],
+  "video": {
+    "titulo": "Forecasting: Principles & Practice — 5.10 Time series cross-validation",
+    "canal": "OTexts",
+    "url": "https://www.youtube.com/watch?v=OGpENuxjRWM",
+    "duracaoAproximada": "16 min 35 s conforme índice público; não confirmada por reprodução integral",
+    "idioma": "inglês",
+    "motivo": "explica validação com origem móvel e restrição de dados futuros",
+    "momentoRecomendado": "depois da seção 3",
+    "statusVerificacao": "link indexado no YouTube e associado a seção oficial; playback e legendas não conferidos"
+  },
+  "exercicios": {
+    "quantidade": 36,
+    "aprendizagem": 10,
+    "consolidacao": 10,
+    "vestibular_autoral": 10,
+    "reteste": 6,
+    "questoesOficiais": 0,
+    "arquivo": "exercicios.json",
+    "origem": "autoral"
+  },
+  "gabarito": "gabarito-comentado.json",
+  "dadosHerdadosByteAByte": [
+    "dados/serie-herdada-t01-t12.csv",
+    "dados/chegadas-simuladas-t13-t18.csv",
+    "dados/chegadas-novas-simuladas-t19-t22.csv",
+    "dados/registro-emissoes-h1.csv",
+    "dados/diferencas-sazonais-t13-t22.csv",
+    "dados/comparacao-emparelhada-t18-t22.csv"
+  ],
+  "protocoloHerdado": "protocolo-herdado-MAT-EST-049.json",
+  "planoHerdado": "plano-avaliacao-MAT-EST-051.json",
+  "ensaiosNovos": [
+    "dados/ensaio-eventos-EXEMPLO-Z.jsonl",
+    "dados/matriz-estados.csv",
+    "dados/cartoes-casos-didaticos.csv",
+    "checklist-operacional-didatico.json"
+  ],
+  "estadoDaSerie": {
+    "observado_ficticio_ate": "t22",
+    "t23_t25": "sem observações registradas e sem emissões autenticadas",
+    "recalculoIlustrativoT23": {
+      "B": 183,
+      "C": 199
+    },
+    "paresDocumentados": 5,
+    "totalPlanejado": 8,
+    "pioraLocalT19": 19.2,
+    "guardaMaxima": 10,
+    "promocao": "bloqueada no protocolo MAT-EST-049-PROT-v1"
+  },
+  "proximoTopico": "MAT-EST-053",
+  "proximoTituloProposto": "Qualidade e versionamento de dados temporais: proveniência, reprocessamento e políticas de avaliação por versão",
+  "progressoIndividual": "não iniciado; não alterado",
+  "statusEditorial": "local; não publicado/sincronizado; ensaio não operacional",
+  "fontes": [
+    "https://otexts.com/fpp3/tscv.html",
+    "https://www.sciencedirect.com/science/article/pii/S1574070605010177"
+  ]
+}

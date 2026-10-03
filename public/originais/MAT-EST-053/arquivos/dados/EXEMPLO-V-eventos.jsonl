@@ -1,0 +1,6 @@
+{"id": "MAT-EST-053-V-PRED-B", "kind": "forecast_toy", "logical_time": "L10", "model": "B", "namespace": "EXEMPLO-V-ISOLADO", "quality": "frozen_didactic", "simulation_only": true, "target": "v-alvo", "value": 42}
+{"id": "MAT-EST-053-V-PRED-C", "kind": "forecast_toy", "logical_time": "L10", "model": "C", "namespace": "EXEMPLO-V-ISOLADO", "quality": "frozen_didactic", "simulation_only": true, "target": "v-alvo", "value": 43}
+{"id": "MAT-EST-053-V-OBS-v1", "kind": "observation_provisional", "logical_time": "L12", "namespace": "EXEMPLO-V-ISOLADO", "quality": "preliminar", "simulation_only": true, "target": "v-alvo", "value": 40}
+{"id": "MAT-EST-053-V-EVAL-v1", "include_final_metrics": false, "kind": "evaluation_preliminary", "logical_time": "L12", "namespace": "EXEMPLO-V-ISOLADO", "simulation_only": true, "uses_observation": "MAT-EST-053-V-OBS-v1"}
+{"corrects_id": "MAT-EST-053-V-OBS-v1", "id": "MAT-EST-053-V-OBS-v2", "kind": "observation_revision", "logical_time": "L13", "namespace": "EXEMPLO-V-ISOLADO", "quality": "validado", "simulation_only": true, "target": "v-alvo", "value": 44}
+{"id": "MAT-EST-053-V-EVAL-v2", "include_final_metrics": true, "kind": "evaluation_validated", "logical_time": "L14", "namespace": "EXEMPLO-V-ISOLADO", "simulation_only": true, "supersedes_evaluation": "MAT-EST-053-V-EVAL-v1", "uses_observation": "MAT-EST-053-V-OBS-v2"}

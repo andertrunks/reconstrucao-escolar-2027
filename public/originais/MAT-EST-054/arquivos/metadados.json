@@ -1,0 +1,166 @@
+{
+  "id": "MAT-EST-054",
+  "slug": "auditoria-avaliacoes-temporais-reconciliacao-versoes-rastreamento-metricas-relatorios-reproduziveis",
+  "titulo": "Auditoria de avaliações temporais: reconciliação de versões, rastreamento de métricas e relatórios reproduzíveis",
+  "materia": "Matemática",
+  "unidade": "Estatística / séries temporais / ponte universitária",
+  "nivel": 6,
+  "ordem": 54,
+  "anterior": "MAT-EST-053",
+  "preRequisitos": [
+    "MAT-EST-047",
+    "MAT-EST-049",
+    "MAT-EST-050",
+    "MAT-EST-051",
+    "MAT-EST-052",
+    "MAT-EST-053"
+  ],
+  "objetivos": [
+    "identificar a linhagem completa de uma avaliação",
+    "selecionar versão elegível sem vazamento futuro",
+    "calcular métricas e custos por corte",
+    "reconciliar divergências entre versões de relatórios",
+    "reproduzir deterministicamente um relatório de dados fictícios",
+    "distinguir verificação de hash de autenticação temporal",
+    "preservar protocolos e decisões anteriores"
+  ],
+  "habilidades": [
+    "módulo e sinais",
+    "média e porcentagem",
+    "interpretação crítica de fontes",
+    "construção de evidência e redação técnica",
+    "controle de versões"
+  ],
+  "conceitosRelacionados": [
+    "MAT-EST-053",
+    "MAT-EST-049",
+    "proveniência de dados",
+    "auditoria de modelos",
+    "avaliação por origens móveis"
+  ],
+  "examesRelacionados": [
+    "ENEM: transferência para leitura de dados e inferências",
+    "FUVEST/UNICAMP/UNESP: interpretação de fontes e argumentação quantitativa gerais",
+    "ponte universitária: avaliação temporal reprodutível"
+  ],
+  "profundidadeEsperada": "formalização dos indicadores, reconciliação por corte, demonstração Z e V, programa reexecutável e limites da autenticidade",
+  "aulaMarkdown": "MAT-EST-054-auditoria-avaliacoes-temporais-reconciliacao-versoes-rastreamento-metricas-relatorios-reproduziveis.md",
+  "visuais": [
+    {
+      "src": "assets/01-cadeia-linhagem-relatorio.svg",
+      "alt": "Protocolo, previsões, observações versionadas, política, corte e código formam a cadeia identificada de um relatório.",
+      "autoria": "produção original do projeto",
+      "legenda": "Linhagem do relatório"
+    },
+    {
+      "src": "assets/02-fotografias-por-corte.svg",
+      "alt": "Em V, L10 congela B42 e C43, L11 não tem observação, L12 traz 40 preliminar, L13 traz 44 validado e L14 registra evento avaliativo.",
+      "autoria": "produção original do projeto",
+      "legenda": "Fotografias por corte"
+    },
+    {
+      "src": "assets/03-comparacao-entre-versoes.svg",
+      "alt": "Previsões B42 e C43 permanecem; observação preliminar 40 gera módulos B2 C3, observação validada 44 gera módulos B2 C1.",
+      "autoria": "produção original do projeto",
+      "legenda": "Comparação de versões"
+    },
+    {
+      "src": "assets/04-trilha-z.svg",
+      "alt": "Caso isolado Z mantém previsão 29, recebe 30 em L4, corrige para 32 em L5, recalcula em L6 e encerra em L7.",
+      "autoria": "produção original do projeto",
+      "legenda": "Retificação do exemplo Z"
+    },
+    {
+      "src": "assets/05-reconciliacao-reproduzivel.svg",
+      "alt": "O fluxo congela insumos, seleciona namespace e corte, calcula e compara métricas, verifica integridade e grava relatório versionado.",
+      "autoria": "produção original do projeto",
+      "legenda": "Fluxo de cálculo reproduzível"
+    },
+    {
+      "src": "assets/06-escopo-e-guardas.svg",
+      "alt": "Cinco pares t18 a t22, alvos t23 a t25 pendentes e casos V e Z isolados; t19 tem piora 19,2 superior ao limite dez.",
+      "autoria": "produção original do projeto",
+      "legenda": "Escopo isolado e guardas"
+    }
+  ],
+  "video": {
+    "titulo": "Time series cross-validation",
+    "canal": "OTexts (referência herdada; ficha de canal pendente de conferência)",
+    "url": "https://www.youtube.com/watch?v=OGpENuxjRWM",
+    "duracaoAproximada": "16min35s segundo ficha herdada, não cronometrada nesta execução",
+    "idioma": "inglês",
+    "momentoRecomendado": "após a seção 4",
+    "motivo": "ilustra o princípio de avaliar alvos usando somente informação anterior",
+    "statusVerificacao": "pendente: a página do vídeo não pôde ser aberta pela busca nesta execução; disponibilidade atual, canal, duração e legendas exigem validação antes da publicação"
+  },
+  "exercicios": {
+    "quantidade": 36,
+    "aprendizagem": 10,
+    "consolidacao": 10,
+    "estiloVestibularAutoral": 10,
+    "reteste": 6,
+    "origem": "autoral",
+    "questoesOficiais": 0,
+    "arquivo": "exercicios.json"
+  },
+  "gabarito": "gabarito-comentado.json",
+  "dadosHerdadosByteAByte": [
+    "dados/EXEMPLO-V-eventos.jsonl",
+    "dados/EXEMPLO-V-reavaliacao.csv",
+    "dados/EXEMPLO-V-versoes.csv",
+    "dados/cartoes-casos-didaticos.csv",
+    "dados/cenarios-herdados-t23-nao-observados.csv",
+    "dados/chegadas-novas-simuladas-t19-t22.csv",
+    "dados/chegadas-simuladas-t13-t18.csv",
+    "dados/comparacao-emparelhada-t18-t22.csv",
+    "dados/dependencias-simbolicas-t24-t25.csv",
+    "dados/diferencas-sazonais-t13-t22.csv",
+    "dados/ensaio-eventos-EXEMPLO-Z.jsonl",
+    "dados/matriz-estados.csv",
+    "dados/plano-emissoes-pendentes-t23-t25.csv",
+    "dados/politicas-de-vintage.json",
+    "dados/projecoes-ilustrativas-t23.csv",
+    "dados/registro-emissoes-h1.csv",
+    "dados/serie-herdada-t01-t12.csv",
+    "protocolo-herdado-MAT-EST-049.json",
+    "plano-avaliacao-MAT-EST-051.json"
+  ],
+  "artefatosNovos": [
+    "auditoria/recalcular_relatorios.py",
+    "auditoria/testar_auditoria.py",
+    "relatorios/relatorio-auditoria.json",
+    "relatorios/conciliacao-de-versoes.csv",
+    "previa-local.html",
+    "previa-local.png"
+  ],
+  "estadoDaSerie": {
+    "ficcional_observado_ate": "t22",
+    "t23_t25": "sem observações ou emissões autenticadas",
+    "recalculoIlustrativoT23": {
+      "B": 183,
+      "C": 199
+    },
+    "paresDocumentados": 5,
+    "totalPlanejado": 8,
+    "MAE_B": 17.6,
+    "MAE_C": 8.36,
+    "custoMedio_B": 51.2,
+    "custoMedio_C": 14.92,
+    "pioraLocalT19": 19.2,
+    "guardaMaxima": 10,
+    "promocao": "não autorizada sob MAT-EST-049-PROT-v1"
+  },
+  "casosIsolados": [
+    "EXEMPLO-Z-ISOLADO: previsão 29; v1=30; v2=32; custo 3→9",
+    "EXEMPLO-V-ISOLADO: B42 C43; v1=40; v2=44; módulos preliminares B2 C3 e validados B2 C1"
+  ],
+  "relatorios": "recálculos locais dos casos didáticos; não registros autenticados do passado",
+  "proximoTopico": "MAT-EST-055",
+  "proximoTituloProposto": "Governança de modelos temporais: documentação de decisões, responsáveis, revisões e critérios de encerramento",
+  "progressoIndividual": "não iniciado; nenhuma tentativa recebida",
+  "statusEditorial": "material gerado somente localmente, sem publicação no site nem sincronização Drive/GitHub",
+  "fontes": [
+    "https://otexts.com/fpp3/tscv.html",
+    "https://otexts.com/fpp3/accuracy.html"
+  ]
+}

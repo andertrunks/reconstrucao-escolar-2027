@@ -1,0 +1,40 @@
+﻿{
+  "id": "MAT-EST-006",
+  "titulo": "Mediana e moda: posição, frequência e comparação com a média",
+  "materia": "Matemática",
+  "unidade": "Estatística",
+  "nivel": 2,
+  "status_editorial": "reconstrucao_editorial_v1",
+  "identidade_com_original_perdido": false,
+  "pre_requisitos": ["MAT-EST-001", "MAT-EST-002", "MAT-EST-003", "MAT-EST-004", "MAT-EST-005"],
+  "proximo_topico": "MAT-EST-007",
+  "questoes": {
+    "total": 36,
+    "apr": 10,
+    "con": 10,
+    "ves": 10,
+    "ret": 6,
+    "origem": "autoral"
+  },
+  "visuais": [
+    "mediana-impar",
+    "mediana-par",
+    "moda-frequencia",
+    "extremo-media-mediana",
+    "assimetria",
+    "mediana-frequencia-acumulada"
+  ],
+  "fontes_oficiais": [
+    "BNCC/MEC — EF08MA25",
+    "Inep — Matrizes de Referência do Enem, 2026",
+    "FUVEST — Programa do Vestibular 2027"
+  ],
+  "video": {
+    "titulo": "Libras e LSE | MODA, MÉDIA E MEDIANA ✅ ESTATÍSTICA",
+    "canal": "Prof. MURAKAMI - MATEMÁTICA RAPIDOLA",
+    "qa_audiovisual": "pendente"
+  },
+  "publicado": false,
+  "progresso_aluno_alterado": false,
+  "mat_est_068_iniciada": false
+}

@@ -1,0 +1,629 @@
+{
+  "id": "MAT-EST-010",
+  "version": "publicacao-2026-10-03-v1",
+  "objective": "1. Objetivo\n\n\nAo concluir esta aula, o estudante deverá ser capaz de:\n- explicar por que quartis, decis e percentis são medidas de posição;\n- ordenar dados antes de localizar posições;\n- distinguir posição relativa de valor observado;\n- definir Q1, Q2 e Q3;\n- definir D1 a D9;\n- definir P1 a P99;\n- reconhecer Q1 = P25, Q2 = P50, Q3 = P75 e D5 = P50;\n- interpretar frases como “está no percentil 80”;\n- calcular medidas de posição em conjuntos simples quando a convenção é fornecida;\n- perceber que diferentes convenções de quantil podem produzir respostas diferentes em amostras pequenas;\n- trabalhar com frequências acumuladas;\n- localizar percentis em tabelas de frequência;\n- compreender a ideia de interpolação em dados agrupados por classes;\n- evitar confundir percentil com porcentagem de acertos ou porcentagem do valor máximo;\n- relacionar quartis à futura amplitude interquartil e ao box-plot.\n\n\n",
+  "prerequisites": [
+    "MAT-EST-001",
+    "MAT-EST-002",
+    "MAT-EST-003",
+    "MAT-EST-004",
+    "MAT-EST-005",
+    "MAT-EST-006",
+    "MAT-EST-007",
+    "MAT-EST-008",
+    "MAT-EST-009"
+  ],
+  "why": "MAT-EST-010 — Quartis, decis e percentis: posição relativa e divisão ordenada dos dados\n\n\nStatus editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.\nTítulo histórico preservado conforme inventário. O checkpoint INC16 usou a variante “posição relativa e leitura de distribuição”.\nMatéria: Matemática.\nUnidade: Estatística.\nNível principal: 3 — Ensino Médio, com aprofundamento para ENEM, FUVEST, UNICAMP, UNESP e ponte universitária.\nPré-requisitos: MAT-EST-001 a MAT-EST-009; organização de dados; frequências; média, mediana e moda; noção de porcentagem e proporção.\nPróximo tópico: MAT-EST-011 — Amplitude interquartil e box-plot: caixa, bigodes e valores discrepantes.\nQuestões desta reconstrução: 100% autorais.\n\n\n",
+  "intuitive": [],
+  "deep": [],
+  "vocabulary": [],
+  "examples": [],
+  "visuals": [
+    {
+      "url": "media/MAT-EST-010/MAT-EST-010-VIS-01-quartis-ordenados.png",
+      "caption": "Quartis em dados ordenados.",
+      "alt": "MAT-EST-010-VIS-01-quartis-ordenados",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "MAT-EST-010-VIS-01-quartis-ordenados"
+    },
+    {
+      "url": "media/MAT-EST-010/MAT-EST-010-VIS-02-equivalencias.png",
+      "caption": "Equivalências.",
+      "alt": "MAT-EST-010-VIS-02-equivalencias",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "MAT-EST-010-VIS-02-equivalencias"
+    },
+    {
+      "url": "media/MAT-EST-010/MAT-EST-010-VIS-03-convencoes.png",
+      "caption": "Convenções.",
+      "alt": "MAT-EST-010-VIS-03-convencoes",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "MAT-EST-010-VIS-03-convencoes"
+    },
+    {
+      "url": "media/MAT-EST-010/MAT-EST-010-VIS-04-frequencia-acumulada.png",
+      "caption": "Frequência acumulada.",
+      "alt": "MAT-EST-010-VIS-04-frequencia-acumulada",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "MAT-EST-010-VIS-04-frequencia-acumulada"
+    },
+    {
+      "url": "media/MAT-EST-010/MAT-EST-010-VIS-05-transformacao.png",
+      "caption": "Transformação crescente.",
+      "alt": "MAT-EST-010-VIS-05-transformacao",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "MAT-EST-010-VIS-05-transformacao"
+    },
+    {
+      "url": "media/MAT-EST-010/MAT-EST-010-VIS-06-roteiro.png",
+      "caption": "Roteiro seguro.",
+      "alt": "MAT-EST-010-VIS-06-roteiro",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "MAT-EST-010-VIS-06-roteiro"
+    }
+  ],
+  "applications": [],
+  "connections": [],
+  "commonErrors": [],
+  "learning": [
+    "MAT-EST-010-EX-APR-01",
+    "MAT-EST-010-EX-APR-02",
+    "MAT-EST-010-EX-APR-03",
+    "MAT-EST-010-EX-APR-04",
+    "MAT-EST-010-EX-APR-05",
+    "MAT-EST-010-EX-APR-06",
+    "MAT-EST-010-EX-APR-07",
+    "MAT-EST-010-EX-APR-08",
+    "MAT-EST-010-EX-APR-09",
+    "MAT-EST-010-EX-APR-10"
+  ],
+  "consolidation": [
+    "MAT-EST-010-EX-CON-01",
+    "MAT-EST-010-EX-CON-02",
+    "MAT-EST-010-EX-CON-03",
+    "MAT-EST-010-EX-CON-04",
+    "MAT-EST-010-EX-CON-05",
+    "MAT-EST-010-EX-CON-06",
+    "MAT-EST-010-EX-CON-07",
+    "MAT-EST-010-EX-CON-08",
+    "MAT-EST-010-EX-CON-09",
+    "MAT-EST-010-EX-CON-10"
+  ],
+  "entrance": [
+    "MAT-EST-010-EX-VES-01",
+    "MAT-EST-010-EX-VES-02",
+    "MAT-EST-010-EX-VES-03",
+    "MAT-EST-010-EX-VES-04",
+    "MAT-EST-010-EX-VES-05",
+    "MAT-EST-010-EX-VES-06",
+    "MAT-EST-010-EX-VES-07",
+    "MAT-EST-010-EX-VES-08",
+    "MAT-EST-010-EX-VES-09",
+    "MAT-EST-010-EX-VES-10"
+  ],
+  "retest": [
+    "MAT-EST-010-EX-RET-01",
+    "MAT-EST-010-EX-RET-02",
+    "MAT-EST-010-EX-RET-03",
+    "MAT-EST-010-EX-RET-04",
+    "MAT-EST-010-EX-RET-05",
+    "MAT-EST-010-EX-RET-06"
+  ],
+  "solutions": [],
+  "summary": "49. Resumo\n\n\nQuartis, decis e percentis são medidas de posição.\nEles dependem da ordenação dos dados.\nQ1 = P25.\nQ2 = D5 = P50 = mediana.\nQ3 = P75.\nDk = P(10k).\nPercentil descreve posição relativa, não porcentagem do valor máximo.\nExistem várias convenções de quantis.\nQuando a convenção muda, amostras pequenas podem produzir resultados diferentes.\nFrequência acumulada ajuda a localizar percentis em tabelas.\nDados agrupados por classes podem exigir interpolação aproximada.\nQuartis preparam o estudo de amplitude interquartil e box-plot.\n\n\n",
+  "audioVersion": "50. Versão curta para ouvir\n\n\nQuartis, decis e percentis dizem onde um valor se encontra dentro de uma distribuição ordenada.\n\n\nO primeiro quartil corresponde ao percentil vinte e cinco. O segundo quartil é a mediana e corresponde ao percentil cinquenta. O terceiro quartil corresponde ao percentil setenta e cinco.\n\n\nOs decis usam divisões de dez em dez por cento. O sétimo decil, por exemplo, corresponde ao percentil setenta.\n\n\nNão confunda percentil com porcentagem de acertos. Estar no percentil oitenta significa ocupar uma posição relativa em uma distribuição de referência, não necessariamente acertar oitenta por cento de uma prova.\n\n\nExistem diferentes convenções para calcular quantis em amostras finitas. Por isso, quando o resultado depender da convenção, a regra precisa ser informada.\n\n\n",
+  "sections": [
+    {
+      "id": "MAT-EST-010-s000",
+      "title": "Apresentação e contexto da fonte",
+      "paragraphs": [],
+      "markdown": "MAT-EST-010 — Quartis, decis e percentis: posição relativa e divisão ordenada dos dados\n\n\nStatus editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.\nTítulo histórico preservado conforme inventário. O checkpoint INC16 usou a variante “posição relativa e leitura de distribuição”.\nMatéria: Matemática.\nUnidade: Estatística.\nNível principal: 3 — Ensino Médio, com aprofundamento para ENEM, FUVEST, UNICAMP, UNESP e ponte universitária.\nPré-requisitos: MAT-EST-001 a MAT-EST-009; organização de dados; frequências; média, mediana e moda; noção de porcentagem e proporção.\nPróximo tópico: MAT-EST-011 — Amplitude interquartil e box-plot: caixa, bigodes e valores discrepantes.\nQuestões desta reconstrução: 100% autorais.\n\n\n",
+      "sourceStart": 0,
+      "sourceEnd": 760
+    },
+    {
+      "id": "MAT-EST-010-s001",
+      "title": "1. Objetivo",
+      "paragraphs": [],
+      "markdown": "1. Objetivo\n\n\nAo concluir esta aula, o estudante deverá ser capaz de:\n- explicar por que quartis, decis e percentis são medidas de posição;\n- ordenar dados antes de localizar posições;\n- distinguir posição relativa de valor observado;\n- definir Q1, Q2 e Q3;\n- definir D1 a D9;\n- definir P1 a P99;\n- reconhecer Q1 = P25, Q2 = P50, Q3 = P75 e D5 = P50;\n- interpretar frases como “está no percentil 80”;\n- calcular medidas de posição em conjuntos simples quando a convenção é fornecida;\n- perceber que diferentes convenções de quantil podem produzir respostas diferentes em amostras pequenas;\n- trabalhar com frequências acumuladas;\n- localizar percentis em tabelas de frequência;\n- compreender a ideia de interpolação em dados agrupados por classes;\n- evitar confundir percentil com porcentagem de acertos ou porcentagem do valor máximo;\n- relacionar quartis à futura amplitude interquartil e ao box-plot.\n\n\n",
+      "sourceStart": 760,
+      "sourceEnd": 1666
+    },
+    {
+      "id": "MAT-EST-010-s002",
+      "title": "2. Por que essas medidas existem?",
+      "paragraphs": [],
+      "markdown": "2. Por que essas medidas existem?\n\n\nMédia, mediana e desvio-padrão resumem aspectos importantes, mas não dizem diretamente onde se encontra um ponto que separa, por exemplo, os 25% menores valores dos 75% restantes.\n\n\nMedidas de posição respondem perguntas desse tipo.\n\n\nElas transformam a ideia de “onde este valor está dentro da distribuição?” em uma medida sistemática.\n\n\n",
+      "sourceStart": 1666,
+      "sourceEnd": 2041
+    },
+    {
+      "id": "MAT-EST-010-s003",
+      "title": "3. Primeiro passo: ordenar",
+      "paragraphs": [],
+      "markdown": "3. Primeiro passo: ordenar\n\n\nQuartis, decis e percentis dependem da ordem.\n\n\nConsidere:\n8, 2, 11, 5, 7.\n\n\nAntes de localizar posições:\n2, 5, 7, 8, 11.\n\n\nO valor 7 é a mediana porque ocupa a posição central.\n\n\nA lógica dos quartis, decis e percentis amplia essa mesma ideia.\n\n\n",
+      "sourceStart": 2041,
+      "sourceEnd": 2317
+    },
+    {
+      "id": "MAT-EST-010-s004",
+      "title": "4. O que é uma medida de posição?",
+      "paragraphs": [],
+      "markdown": "4. O que é uma medida de posição?\n\n\nUma medida de posição indica um ponto da distribuição associado a uma proporção acumulada dos dados.\n\n\nUm percentil de ordem p procura um valor abaixo do qual se encontra aproximadamente p por cento dos dados, conforme a convenção adotada.\n\n\nExemplo:\nP25 é o percentil 25.\nLeitura: “P vinte e cinco”.\n\n\nInterpretação aproximada: cerca de 25% dos dados ficam abaixo ou até esse ponto, dependendo da definição operacional usada.\n\n\n",
+      "sourceStart": 2317,
+      "sourceEnd": 2782
+    },
+    {
+      "id": "MAT-EST-010-s005",
+      "title": "5. Quartis",
+      "paragraphs": [],
+      "markdown": "5. Quartis\n\n\nOs quartis dividem a distribuição ordenada em quatro partes.\n\n\nQ1: primeiro quartil, associado a 25%.\nQ2: segundo quartil, associado a 50%.\nQ3: terceiro quartil, associado a 75%.\n\n\nQ2 coincide com a mediana.\n\n\nRelações fundamentais:\nQ1 = P25.\nQ2 = P50.\nQ3 = P75.\n\n\n",
+      "sourceStart": 2782,
+      "sourceEnd": 3060
+    },
+    {
+      "id": "MAT-EST-010-s006",
+      "title": "6. Decis",
+      "paragraphs": [],
+      "markdown": "6. Decis\n\n\nOs decis dividem a distribuição ordenada em dez partes.\n\n\nD1 corresponde a 10%.\nD2 corresponde a 20%.\n...\nD9 corresponde a 90%.\n\n\nRelação:\nDk = P(10k).\n\n\nExemplo:\nD7 = P70.\n\n\nLeitura pronunciável:\n“o sétimo decil é igual ao percentil setenta”.\n\n\n",
+      "sourceStart": 3060,
+      "sourceEnd": 3317
+    },
+    {
+      "id": "MAT-EST-010-s007",
+      "title": "7. Percentis",
+      "paragraphs": [],
+      "markdown": "7. Percentis\n\n\nOs percentis usam uma escala de cem partes.\n\n\nP1 corresponde a 1%.\nP10 corresponde a 10%.\nP50 corresponde a 50%.\nP90 corresponde a 90%.\nP99 corresponde a 99%.\n\n\nEles permitem descrever posição com granularidade maior do que quartis e decis.\n\n\n",
+      "sourceStart": 3317,
+      "sourceEnd": 3575
+    },
+    {
+      "id": "MAT-EST-010-s008",
+      "title": "8. Percentil não é porcentagem do valor máximo",
+      "paragraphs": [],
+      "markdown": "8. Percentil não é porcentagem do valor máximo\n\n\nSe uma pessoa está no percentil 80 de uma distribuição, isso não significa que obteve 80% da pontuação máxima.\n\n\nSignifica que sua posição está relacionada a aproximadamente 80% da distribuição de referência abaixo ou até seu resultado, conforme a convenção usada.\n\n\nEssa distinção é essencial.\n\n\n",
+      "sourceStart": 3575,
+      "sourceEnd": 3921
+    },
+    {
+      "id": "MAT-EST-010-s009",
+      "title": "9. Percentil não é necessariamente porcentagem de acertos",
+      "paragraphs": [],
+      "markdown": "9. Percentil não é necessariamente porcentagem de acertos\n\n\nUma prova pode ter nota 60 em 100 pontos e, ainda assim, essa nota estar no percentil 90 se a maioria tiver notas menores.\n\n\nDo mesmo modo, uma nota 90 pode estar em um percentil relativamente baixo em um grupo de desempenho muito alto.\n\n\nPercentual de acertos descreve a própria prova.\nPercentil descreve posição relativa em relação a uma distribuição.\n\n\n",
+      "sourceStart": 3921,
+      "sourceEnd": 4337
+    },
+    {
+      "id": "MAT-EST-010-s010",
+      "title": "10. Percentile rank e percentile value",
+      "paragraphs": [],
+      "markdown": "10. Percentile rank e percentile value\n\n\nHá duas ideias que costumam ser confundidas.\n\n\nValor percentílico: qual valor corresponde a determinado percentil?\nExemplo: “qual é o P75?”\n\n\nPosto percentílico, ou percentile rank: qual porcentagem acumulada está associada a determinado valor?\nExemplo: “qual é a posição relativa de 72 pontos?”\n\n\nSão perguntas inversas.\n\n\n",
+      "sourceStart": 4337,
+      "sourceEnd": 4702
+    },
+    {
+      "id": "MAT-EST-010-s011",
+      "title": "11. Q2 e mediana",
+      "paragraphs": [],
+      "markdown": "11. Q2 e mediana\n\n\nA mediana divide a distribuição ordenada em duas partes centrais.\n\n\nPor isso:\nQ2 = P50 = D5 = mediana.\n\n\nEssa equivalência conecta a aula atual à MAT-EST-006.\n\n\n",
+      "sourceStart": 4702,
+      "sourceEnd": 4882
+    },
+    {
+      "id": "MAT-EST-010-s012",
+      "title": "12. Um exemplo sem ambiguidade",
+      "paragraphs": [],
+      "markdown": "12. Um exemplo sem ambiguidade\n\n\nDados:\n10, 20, 30, 40, 50.\n\n\nO valor central é 30.\n\n\nLogo:\nmediana = 30;\nQ2 = 30;\nP50 = 30;\nD5 = 30.\n\n\nAqui não precisamos discutir convenções porque todas as definições usuais de mediana levam ao mesmo centro.\n\n\n",
+      "sourceStart": 4882,
+      "sourceEnd": 5128
+    },
+    {
+      "id": "MAT-EST-010-s013",
+      "title": "13. Por que aparecem convenções diferentes?",
+      "paragraphs": [],
+      "markdown": "13. Por que aparecem convenções diferentes?\n\n\nQuando queremos P25, P70 ou outros pontos que não coincidem exatamente com uma observação, precisamos definir como transformar uma proporção em uma posição num conjunto finito.\n\n\nExistem diferentes convenções estatísticas legítimas.\n\n\nProgramas como planilhas, linguagens estatísticas e livros podem usar fórmulas diferentes.\n\n\nEm amostras pequenas, isso pode mudar o resultado.\n\n\n",
+      "sourceStart": 5128,
+      "sourceEnd": 5555
+    },
+    {
+      "id": "MAT-EST-010-s014",
+      "title": "14. Regra editorial desta trilha",
+      "paragraphs": [],
+      "markdown": "14. Regra editorial desta trilha\n\n\nNão haverá uma convenção escondida.\n\n\nQuando um exercício depender da escolha de método, o enunciado informará a regra.\n\n\nQuando o método não for informado, serão escolhidos dados para os quais as convenções relevantes não alterem a conclusão exigida.\n\n\nEssa regra evita decorar uma fórmula como se fosse a única definição possível.\n\n\n",
+      "sourceStart": 5555,
+      "sourceEnd": 5925
+    },
+    {
+      "id": "MAT-EST-010-s015",
+      "title": "15. Convenção A: mediana das metades para quartis",
+      "paragraphs": [],
+      "markdown": "15. Convenção A: mediana das metades para quartis\n\n\nEm muitos contextos escolares, uma forma de obter quartis é:\n1. ordenar os dados;\n2. calcular a mediana;\n3. dividir o conjunto em metade inferior e superior;\n4. calcular a mediana de cada metade.\n\n\nDependendo de o número de observações ser ímpar, é necessário informar se a mediana central entra ou não nas metades.\n\n\nMais uma vez, a convenção deve ser explícita.\n\n\n",
+      "sourceStart": 5925,
+      "sourceEnd": 6343
+    },
+    {
+      "id": "MAT-EST-010-s016",
+      "title": "16. Convenção B: nearest-rank",
+      "paragraphs": [],
+      "markdown": "16. Convenção B: nearest-rank\n\n\nUma convenção comum para percentis empíricos usa a posição:\nr = teto(p × n).\n\n\nLeitura:\n“r é o menor inteiro maior ou igual a p vezes n”.\n\n\nAqui:\np é a proporção em forma decimal;\nn é o número de observações.\n\n\nExemplo para P75 com n = 20:\np = 0,75.\nr = teto(0,75 × 20) = teto(15) = 15.\n\n\nO P75 é tomado como o 15º valor ordenado nessa convenção.\n\n\n",
+      "sourceStart": 6343,
+      "sourceEnd": 6724
+    },
+    {
+      "id": "MAT-EST-010-s017",
+      "title": "17. Interpolação linear",
+      "paragraphs": [],
+      "markdown": "17. Interpolação linear\n\n\nOutras convenções permitem que o percentil fique entre duas observações.\n\n\nUma regra possível usa uma posição fracionária e interpola.\n\n\nExemplo didático:\nse a posição calculada for 4,25, o quantil está a um quarto do caminho entre o 4º e o 5º valores ordenados.\n\n\nSe esses valores forem 20 e 28:\n20 + 0,25 × (28 - 20)\n= 20 + 2\n= 22.\n\n\nA leitura por extenso é:\n“vinte mais um quarto da diferença entre vinte e oito e vinte”.\n\n\n",
+      "sourceStart": 6724,
+      "sourceEnd": 7177
+    },
+    {
+      "id": "MAT-EST-010-s018",
+      "title": "18. Nenhuma fórmula deve ser usada sem saber a convenção",
+      "paragraphs": [],
+      "markdown": "18. Nenhuma fórmula deve ser usada sem saber a convenção\n\n\nDuas fórmulas diferentes podem estar corretas dentro de suas próprias definições.\n\n\nO erro é misturá-las na mesma solução sem perceber.\n\n\nEm prova, siga a definição fornecida ou o padrão explicitado pela banca quando houver.\n\n\n",
+      "sourceStart": 7177,
+      "sourceEnd": 7463
+    },
+    {
+      "id": "MAT-EST-010-s019",
+      "title": "19. Exemplo de convenções diferentes",
+      "paragraphs": [],
+      "markdown": "19. Exemplo de convenções diferentes\n\n\nDados:\n1, 2, 3, 4, 5, 6, 7, 8.\n\n\nPelo método da mediana da metade inferior:\nQ1 é a mediana de 1, 2, 3, 4.\nQ1 = (2 + 3)/2 = 2,5.\n\n\nPela nearest-rank para P25:\nr = teto(0,25 × 8) = teto(2) = 2.\nP25 = 2.\n\n\nOs resultados diferem porque as convenções diferem.\n\n\n",
+      "sourceStart": 7463,
+      "sourceEnd": 7759
+    },
+    {
+      "id": "MAT-EST-010-s020",
+      "title": "20. O que fazer quando a banca não diz o método?",
+      "paragraphs": [],
+      "markdown": "20. O que fazer quando a banca não diz o método?\n\n\nPrimeiro, verificar se o enunciado ou o material oficial define a convenção.\n\n\nSegundo, observar se os dados foram escolhidos de modo que a resposta relevante seja inequívoca.\n\n\nTerceiro, em produção autoral ou análise técnica, registrar explicitamente o método.\n\n\n",
+      "sourceStart": 7759,
+      "sourceEnd": 8075
+    },
+    {
+      "id": "MAT-EST-010-s021",
+      "title": "21. Frequência acumulada",
+      "paragraphs": [],
+      "markdown": "21. Frequência acumulada\n\n\nQuando há muitos valores repetidos, uma tabela de frequências evita escrever cada observação.\n\n\nExemplo:\nvalor 10: frequência 2;\nvalor 20: frequência 3;\nvalor 30: frequência 5.\n\n\nFrequência acumulada:\naté 10: 2;\naté 20: 5;\naté 30: 10.\n\n\nA frequência acumulada mostra quantas observações já foram alcançadas ao percorrer a distribuição em ordem.\n\n\n",
+      "sourceStart": 8075,
+      "sourceEnd": 8449
+    },
+    {
+      "id": "MAT-EST-010-s022",
+      "title": "22. Localizando um percentil por frequência acumulada",
+      "paragraphs": [],
+      "markdown": "22. Localizando um percentil por frequência acumulada\n\n\nSuponha N = 40 observações e queremos o percentil 75 pela regra de posição r = teto(0,75N).\n\n\nr = teto(30) = 30.\n\n\nProcuramos na tabela a primeira categoria cuja frequência acumulada alcança pelo menos 30.\n\n\nEsse valor é o P75 nessa convenção.\n\n\n",
+      "sourceStart": 8449,
+      "sourceEnd": 8751
+    },
+    {
+      "id": "MAT-EST-010-s023",
+      "title": "23. Dados agrupados em classes",
+      "paragraphs": [],
+      "markdown": "23. Dados agrupados em classes\n\n\nEm tabelas de intervalos, como:\n0 a 10;\n10 a 20;\n20 a 30;\n\n\npodemos primeiro identificar em qual classe cai o percentil.\n\n\nSe quisermos uma estimativa numérica dentro da classe, alguns cursos usam interpolação linear.\n\n\n",
+      "sourceStart": 8751,
+      "sourceEnd": 9004
+    },
+    {
+      "id": "MAT-EST-010-s024",
+      "title": "24. Fórmula de interpolação em classe",
+      "paragraphs": [],
+      "markdown": "24. Fórmula de interpolação em classe\n\n\nUma forma comum é:\n\n\nP_k = L + [(kN/100 - F_anterior) / f] × h.\n\n\nLeitura pronunciável:\n“o percentil k é igual ao limite inferior da classe, mais a razão entre a posição desejada menos a frequência acumulada anterior e a frequência da classe, multiplicada pela amplitude da classe”.\n\n\nOnde:\nL é o limite inferior da classe percentílica;\nk é a ordem do percentil;\nN é o total de observações;\nF_anterior é a frequência acumulada antes da classe;\nf é a frequência da classe;\nh é a amplitude da classe.\n\n\n",
+      "sourceStart": 9004,
+      "sourceEnd": 9545
+    },
+    {
+      "id": "MAT-EST-010-s025",
+      "title": "25. Hipótese por trás da interpolação em classe",
+      "paragraphs": [],
+      "markdown": "25. Hipótese por trás da interpolação em classe\n\n\nQuando interpolamos dentro de uma classe, estamos aproximando a posição interna como se os dados estivessem distribuídos de maneira suficientemente regular dentro do intervalo.\n\n\nOs dados brutos poderiam gerar valor diferente.\n\n\nA fórmula é uma aproximação dependente da informação agrupada disponível.\n\n\n",
+      "sourceStart": 9545,
+      "sourceEnd": 9900
+    },
+    {
+      "id": "MAT-EST-010-s026",
+      "title": "26. Exemplo com classe",
+      "paragraphs": [],
+      "markdown": "26. Exemplo com classe\n\n\nConsidere N = 100.\nQueremos P60.\n\n\nA posição é 60.\n\n\nSuponha que:\na frequência acumulada antes da classe 40 a 50 seja 52;\na frequência da classe seja 20;\nh = 10;\nL = 40.\n\n\nEntão:\nP60 = 40 + [(60 - 52)/20] × 10.\nP60 = 40 + (8/20) × 10.\nP60 = 40 + 4.\nP60 = 44.\n\n\n",
+      "sourceStart": 9900,
+      "sourceEnd": 10186
+    },
+    {
+      "id": "MAT-EST-010-s027",
+      "title": "27. Valores repetidos",
+      "paragraphs": [],
+      "markdown": "27. Valores repetidos\n\n\nEmpates não invalidam percentis.\n\n\nSe muitas observações têm o mesmo valor, diferentes percentis podem coincidir numericamente.\n\n\nExemplo:\n1, 1, 1, 1, 1, 10, 20, 30.\n\n\nÉ possível que vários cortes iniciais retornem 1.\n\n\nIsso mostra que “dividir em quatro partes” não significa necessariamente obter quatro faixas com valores distintos.\n\n\n",
+      "sourceStart": 10186,
+      "sourceEnd": 10548
+    },
+    {
+      "id": "MAT-EST-010-s028",
+      "title": "28. Distribuições discretas",
+      "paragraphs": [],
+      "markdown": "28. Distribuições discretas\n\n\nEm variáveis discretas, como número de filhos, alguns quantis podem saltar de um inteiro para outro.\n\n\nO valor de P70 pode ser 2 mesmo que exatamente 70% não terminem em 2.\n\n\nO percentil é definido pela regra de posição e pela distribuição acumulada, não pela exigência de uma igualdade perfeita em toda amostra finita.\n\n\n",
+      "sourceStart": 10548,
+      "sourceEnd": 10900
+    },
+    {
+      "id": "MAT-EST-010-s029",
+      "title": "29. Distribuições contínuas",
+      "paragraphs": [],
+      "markdown": "29. Distribuições contínuas\n\n\nEm um modelo contínuo idealizado, um quantil q_p pode ser definido por uma função de distribuição acumulada F.\n\n\nDe modo simplificado:\nq_p é um valor associado ao ponto em que F atinge a probabilidade p.\n\n\nEssa é uma ponte universitária.\n\n\nNo Ensino Médio, o foco principal é ordenar, localizar e interpretar.\n\n\n",
+      "sourceStart": 10900,
+      "sourceEnd": 11242
+    },
+    {
+      "id": "MAT-EST-010-s030",
+      "title": "30. Quantis e função de distribuição acumulada",
+      "paragraphs": [],
+      "markdown": "30. Quantis e função de distribuição acumulada\n\n\nA frequência acumulada empírica é uma versão amostral da ideia de distribuição acumulada.\n\n\nQuando procuramos P90, estamos procurando um ponto associado a 90% acumulado.\n\n\nEsse vínculo será útil em estatística universitária e probabilidade.\n\n\n",
+      "sourceStart": 11242,
+      "sourceEnd": 11534
+    },
+    {
+      "id": "MAT-EST-010-s031",
+      "title": "31. Transformações crescentes preservam a ordem",
+      "paragraphs": [],
+      "markdown": "31. Transformações crescentes preservam a ordem\n\n\nSe transformamos todos os dados por uma função estritamente crescente, a ordem não muda.\n\n\nExemplo:\ny = 2x + 10.\n\n\nSe x1 < x2, então y1 < y2.\n\n\nLogo, o elemento que ocupa determinada posição relativa continua correspondendo ao mesmo indivíduo ou observação, embora o valor numérico do quantil mude.\n\n\n",
+      "sourceStart": 11534,
+      "sourceEnd": 11885
+    },
+    {
+      "id": "MAT-EST-010-s032",
+      "title": "32. Soma de constante",
+      "paragraphs": [],
+      "markdown": "32. Soma de constante\n\n\nSe todos os valores aumentam 5, os quartis também aumentam 5, para convenções compatíveis com transformação linear.\n\n\nExemplo:\nQ1 = 20.\nApós somar 5 a todos os dados:\nnovo Q1 = 25.\n\n\nA posição relativa é preservada.\n\n\n",
+      "sourceStart": 11885,
+      "sourceEnd": 12127
+    },
+    {
+      "id": "MAT-EST-010-s033",
+      "title": "33. Multiplicação por constante positiva",
+      "paragraphs": [],
+      "markdown": "33. Multiplicação por constante positiva\n\n\nSe todos os valores são multiplicados por 3:\nnovo Q1 = 3 × Q1;\nnovo Q2 = 3 × Q2;\nnovo Q3 = 3 × Q3.\n\n\nA ordem permanece a mesma.\n\n\n",
+      "sourceStart": 12127,
+      "sourceEnd": 12300
+    },
+    {
+      "id": "MAT-EST-010-s034",
+      "title": "34. Multiplicação por número negativo",
+      "paragraphs": [],
+      "markdown": "34. Multiplicação por número negativo\n\n\nMultiplicar por número negativo inverte a ordem.\n\n\nIsso exige cuidado.\n\n\nO antigo percentil 10 se relaciona com a cauda superior depois da inversão, e não simplesmente com o novo percentil 10.\n\n\nNão aplique a regra de preservação de posição para transformação decrescente sem reordenar.\n\n\n",
+      "sourceStart": 12300,
+      "sourceEnd": 12629
+    },
+    {
+      "id": "MAT-EST-010-s035",
+      "title": "35. Percentis e valores extremos",
+      "paragraphs": [],
+      "markdown": "35. Percentis e valores extremos\n\n\nQuartis centrais são menos sensíveis a valores extremos do que média e desvio-padrão.\n\n\nUm único valor muito grande pode alterar bastante a média, mas pode não alterar Q1, mediana ou Q3 em muitos conjuntos.\n\n\nIsso prepara a amplitude interquartil.\n\n\n",
+      "sourceStart": 12629,
+      "sourceEnd": 12914
+    },
+    {
+      "id": "MAT-EST-010-s036",
+      "title": "36. Percentis de cauda",
+      "paragraphs": [],
+      "markdown": "36. Percentis de cauda\n\n\nP1, P5, P95 e P99 ficam próximos das extremidades.\n\n\nEles podem ser mais sensíveis a amostra pequena e a poucos valores extremos do que os quartis centrais.\n\n\nA posição escolhida importa.\n\n\n",
+      "sourceStart": 12914,
+      "sourceEnd": 13129
+    },
+    {
+      "id": "MAT-EST-010-s037",
+      "title": "37. Aplicação: resultados de provas",
+      "paragraphs": [],
+      "markdown": "37. Aplicação: resultados de provas\n\n\nPercentis podem comparar desempenho dentro de uma população de referência.\n\n\nMas a interpretação depende de:\n- qual grupo foi usado;\n- quando os dados foram coletados;\n- tamanho e representatividade;\n- regra de cálculo;\n- existência de empates.\n\n\nPercentil sem população de referência é informação incompleta.\n\n\n",
+      "sourceStart": 13129,
+      "sourceEnd": 13479
+    },
+    {
+      "id": "MAT-EST-010-s038",
+      "title": "38. Aplicação: distribuição de renda",
+      "paragraphs": [],
+      "markdown": "38. Aplicação: distribuição de renda\n\n\nMedidas como P10, mediana e P90 ajudam a descrever desigualdade.\n\n\nPodemos comparar a parte inferior, o centro e a parte superior da distribuição sem depender apenas da média.\n\n\nA análise completa exige contexto econômico e definição precisa da variável.\n\n\n",
+      "sourceStart": 13479,
+      "sourceEnd": 13775
+    },
+    {
+      "id": "MAT-EST-010-s039",
+      "title": "39. Aplicação: crescimento e medidas corporais",
+      "paragraphs": [],
+      "markdown": "39. Aplicação: crescimento e medidas corporais\n\n\nCurvas de referência podem usar percentis.\n\n\nEstar em determinado percentil significa posição relativa em uma população de referência, não diagnóstico e não julgamento de normalidade por si só.\n\n\nA interpretação de saúde depende de profissionais, idade, sexo quando aplicável, trajetória temporal e referência utilizada.\n\n\n",
+      "sourceStart": 13775,
+      "sourceEnd": 14147
+    },
+    {
+      "id": "MAT-EST-010-s040",
+      "title": "40. Aplicação: tempos e desempenho esportivo",
+      "paragraphs": [],
+      "markdown": "40. Aplicação: tempos e desempenho esportivo\n\n\nEm provas de tempo, menor pode ser melhor.\n\n\nO percentil precisa ser interpretado com o sentido da variável.\n\n\nUm percentil alto de “tempo gasto” pode significar maior tempo, não melhor desempenho.\n\n\nSempre interprete o que valores maiores significam.\n\n\n",
+      "sourceStart": 14147,
+      "sourceEnd": 14448
+    },
+    {
+      "id": "MAT-EST-010-s041",
+      "title": "41. Aplicação: controle de processos",
+      "paragraphs": [],
+      "markdown": "41. Aplicação: controle de processos\n\n\nPercentis podem indicar limites empíricos.\n\n\nPor exemplo, P95 de tempo de resposta descreve um ponto abaixo do qual está aproximadamente 95% dos tempos, conforme a convenção.\n\n\nIsso é comum em tecnologia e operações.\n\n\n",
+      "sourceStart": 14448,
+      "sourceEnd": 14706
+    },
+    {
+      "id": "MAT-EST-010-s042",
+      "title": "42. Relação com amplitude interquartil",
+      "paragraphs": [],
+      "markdown": "42. Relação com amplitude interquartil\n\n\nA próxima aula estudará:\nAIQ = Q3 - Q1.\n\n\nLeitura:\n“amplitude interquartil é igual ao terceiro quartil menos o primeiro quartil”.\n\n\nA AIQ resume a largura dos 50% centrais da distribuição.\n\n\n",
+      "sourceStart": 14706,
+      "sourceEnd": 14938
+    },
+    {
+      "id": "MAT-EST-010-s043",
+      "title": "43. Relação com box-plot",
+      "paragraphs": [],
+      "markdown": "43. Relação com box-plot\n\n\nO box-plot usa principalmente:\nQ1;\nmediana;\nQ3;\nAIQ.\n\n\nEle transforma medidas de posição em representação visual de centro, dispersão e possíveis valores discrepantes.\n\n\n",
+      "sourceStart": 14938,
+      "sourceEnd": 15135
+    },
+    {
+      "id": "MAT-EST-010-s044",
+      "title": "44. Relação com FUVEST 2027",
+      "paragraphs": [],
+      "markdown": "44. Relação com FUVEST 2027\n\n\nO Programa do Vestibular FUVEST 2027 inclui explicitamente “distribuição estatística e medidas de posição (quartis, decis e percentis)”.\n\n\nIsso torna o tópico diretamente exigível no exame.\n\n\n",
+      "sourceStart": 15135,
+      "sourceEnd": 15357
+    },
+    {
+      "id": "MAT-EST-010-s045",
+      "title": "45. Relação com BNCC",
+      "paragraphs": [],
+      "markdown": "45. Relação com BNCC\n\n\nA BNCC do Ensino Médio trabalha análise de dados, medidas de tendência central e dispersão e interpretação de gráficos, incluindo box-plot.\n\n\nA habilidade EM13MAT407 prevê interpretar e comparar conjuntos de dados por diagramas e gráficos, incluindo box-plot.\n\n\nEsta reconstrução não afirma que “quartis, decis e percentis” apareçam como lista explícita na mesma formulação da BNCC consultada; a FUVEST 2027 os explicita.\n\n\n",
+      "sourceStart": 15357,
+      "sourceEnd": 15804
+    },
+    {
+      "id": "MAT-EST-010-s046",
+      "title": "46. Relação com ENEM",
+      "paragraphs": [],
+      "markdown": "46. Relação com ENEM\n\n\nA Matriz de Referência do Enem publicada pelo Inep em 2026 orienta competências de resolução de situações-problema e análise de dados.\n\n\nEsta aula usa percentis como ferramenta de estatística descritiva e interpretação.\n\n\nAs 36 questões deste pacote são autorais, não questões oficiais do Enem.\n\n\n",
+      "sourceStart": 15804,
+      "sourceEnd": 16124
+    },
+    {
+      "id": "MAT-EST-010-s047",
+      "title": "47. O que observar nos seis visuais",
+      "paragraphs": [],
+      "markdown": "47. O que observar nos seis visuais\n\n\nVisual 1 — Quartis em dados ordenados.\nObserve os três cortes Q1, Q2 e Q3 sobre uma sequência ordenada.\n\n\nVisual 2 — Equivalências.\nObserve Q1 = P25, Q2 = D5 = P50 e Q3 = P75.\n\n\nVisual 3 — Convenções.\nObserve que uma amostra pequena pode produzir Q1 diferente sob métodos legítimos distintos.\n\n\nVisual 4 — Frequência acumulada.\nObserve como o percentil é localizado pela primeira frequência acumulada que alcança a posição-alvo.\n\n\nVisual 5 — Transformação crescente.\nObserve que y = 2x + 10 altera os valores, mas preserva a ordem relativa.\n\n\nVisual 6 — Roteiro seguro.\nSiga ordenar, identificar proporção, verificar convenção, localizar posição, interpolar quando permitido e interpretar.\n\n\n",
+      "sourceStart": 16124,
+      "sourceEnd": 16854
+    },
+    {
+      "id": "MAT-EST-010-s048",
+      "title": "48. Erros frequentes",
+      "paragraphs": [],
+      "markdown": "48. Erros frequentes\n\n\nErro 1. Calcular percentil sem ordenar os dados.\nErro 2. Confundir P80 com 80% da pontuação máxima.\nErro 3. Confundir percentil com porcentagem de acertos.\nErro 4. Achar que existe uma única fórmula universal de quartil.\nErro 5. Misturar nearest-rank e interpolação na mesma resolução.\nErro 6. Esquecer de usar frequência acumulada.\nErro 7. Interpolar categorias ordinais como se fossem medidas numéricas contínuas.\nErro 8. Ignorar empates.\nErro 9. Dizer que Q1 contém “exatamente” 25% dos valores em qualquer amostra finita.\nErro 10. Interpretar percentil sem dizer qual é a população de referência.\nErro 11. Achar que percentil alto sempre significa resultado desejável.\nErro 12. Usar interpolação em classes como se recuperasse exatamente os dados brutos.\n\n\n",
+      "sourceStart": 16854,
+      "sourceEnd": 17638
+    },
+    {
+      "id": "MAT-EST-010-s049",
+      "title": "49. Resumo",
+      "paragraphs": [],
+      "markdown": "49. Resumo\n\n\nQuartis, decis e percentis são medidas de posição.\nEles dependem da ordenação dos dados.\nQ1 = P25.\nQ2 = D5 = P50 = mediana.\nQ3 = P75.\nDk = P(10k).\nPercentil descreve posição relativa, não porcentagem do valor máximo.\nExistem várias convenções de quantis.\nQuando a convenção muda, amostras pequenas podem produzir resultados diferentes.\nFrequência acumulada ajuda a localizar percentis em tabelas.\nDados agrupados por classes podem exigir interpolação aproximada.\nQuartis preparam o estudo de amplitude interquartil e box-plot.\n\n\n",
+      "sourceStart": 17638,
+      "sourceEnd": 18180
+    },
+    {
+      "id": "MAT-EST-010-s050",
+      "title": "50. Versão curta para ouvir",
+      "paragraphs": [],
+      "markdown": "50. Versão curta para ouvir\n\n\nQuartis, decis e percentis dizem onde um valor se encontra dentro de uma distribuição ordenada.\n\n\nO primeiro quartil corresponde ao percentil vinte e cinco. O segundo quartil é a mediana e corresponde ao percentil cinquenta. O terceiro quartil corresponde ao percentil setenta e cinco.\n\n\nOs decis usam divisões de dez em dez por cento. O sétimo decil, por exemplo, corresponde ao percentil setenta.\n\n\nNão confunda percentil com porcentagem de acertos. Estar no percentil oitenta significa ocupar uma posição relativa em uma distribuição de referência, não necessariamente acertar oitenta por cento de uma prova.\n\n\nExistem diferentes convenções para calcular quantis em amostras finitas. Por isso, quando o resultado depender da convenção, a regra precisa ser informada.\n\n\n",
+      "sourceStart": 18180,
+      "sourceEnd": 18982
+    },
+    {
+      "id": "MAT-EST-010-s051",
+      "title": "51. Vídeo complementar",
+      "paragraphs": [],
+      "markdown": "51. Vídeo complementar\n\n\nVídeo recomendado: “Estatística - Separatrizes: Quartil, Decil e Percentil”.\nCanal: Making the Numbers Add Up.\nURL: https://www.youtube.com/watch?v=3Iphf0UB9MQ\nPublicação localizada: 7 de abril de 2026.\nDuração aproximada: não confirmada pelo metadado público recuperado nesta auditoria.\nMotivo: a descrição pública informa teoria, definições de Q1 a Q3, D1 a D9 e P1 a P99, além de exemplos resolvidos.\nQuando assistir: após as seções 5 a 20 e antes dos exercícios de consolidação.\nEstado de QA: página e descrição públicas localizadas; reprodução integral, áudio, legendas e compatibilidade no Microsoft Edge permanecem pendentes.\n\n\n",
+      "sourceStart": 18982,
+      "sourceEnd": 19642
+    },
+    {
+      "id": "MAT-EST-010-s052",
+      "title": "52. Fontes curriculares verificadas",
+      "paragraphs": [],
+      "markdown": "52. Fontes curriculares verificadas\n\n\nFUVEST — Programa do Vestibular 2027: explicita distribuição estatística e medidas de posição, incluindo quartis, decis e percentis.\nINEP — Matrizes de Referência do Enem, publicação institucional de 2026.\nBNCC/MEC — Probabilidade e Estatística no Ensino Médio, incluindo análise de dados, medidas de centro e dispersão e interpretação de box-plot.\n\n\n",
+      "sourceStart": 19642,
+      "sourceEnd": 20031
+    },
+    {
+      "id": "MAT-EST-010-s053",
+      "title": "53. Critério de domínio",
+      "paragraphs": [],
+      "markdown": "53. Critério de domínio\n\n\nO tópico só deve ser marcado como consolidado quando o estudante conseguir:\n- explicar quartil, decil e percentil com palavras próprias;\n- ordenar dados e localizar posições;\n- reconhecer equivalências entre Q, D e P;\n- interpretar percentis sem confundir com porcentagem;\n- usar frequência acumulada;\n- aplicar uma convenção explicitamente fornecida;\n- explicar por que convenções podem divergir;\n- resolver situação nova;\n- conectar quartis à amplitude interquartil.\n\n\nA produção editorial não altera progresso individual.\n\n\n",
+      "sourceStart": 20031,
+      "sourceEnd": 20584
+    },
+    {
+      "id": "MAT-EST-010-s054",
+      "title": "54. Próximo passo",
+      "paragraphs": [],
+      "markdown": "54. Próximo passo\n\n\nMAT-EST-011 — Amplitude interquartil e box-plot: caixa, bigodes e valores discrepantes.\n",
+      "sourceStart": 20584,
+      "sourceEnd": 20692
+    }
+  ],
+  "sources": [
+    {
+      "title": "MAT-EST-010 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    }
+  ],
+  "previous": "MAT-EST-009",
+  "next": "MAT-EST-011",
+  "videos": [
+    {
+      "title": "Estatística - Separatrizes: Quartil, Decil e Percentil",
+      "channel": "Acertando as Contas",
+      "url": "https://www.youtube.com/watch?v=3Iphf0UB9MQ",
+      "duration": "Duração não confirmada",
+      "language": "Português",
+      "reason": "Complementa a explicação escrita.",
+      "when": "Depois dos exemplos resolvidos.",
+      "reinforces": [],
+      "checkedAt": "2026-10-03",
+      "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+      "type": "video"
+    }
+  ],
+  "video": {
+    "title": "Estatística - Separatrizes: Quartil, Decil e Percentil",
+    "channel": "Acertando as Contas",
+    "url": "https://www.youtube.com/watch?v=3Iphf0UB9MQ",
+    "duration": "Duração não confirmada",
+    "language": "Português",
+    "reason": "Complementa a explicação escrita.",
+    "when": "Depois dos exemplos resolvidos.",
+    "reinforces": [],
+    "checkedAt": "2026-10-03",
+    "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+    "type": "video"
+  },
+  "publication": {
+    "kind": "Reconstrução editorial v1; sem identidade binária com a edição histórica.",
+    "notes": [
+      "A produção e a publicação não registram domínio nem alteram seu progresso.",
+      "As referências a publicação pendente no texto original registram o estado da fonte na data de criação."
+    ],
+    "original": "originais/MAT-EST-010/aula.md",
+    "editions": [
+      {
+        "label": "MAT-EST-010 — manifesto da reconstrução v1 · 2026-10-03",
+        "url": "originais/MAT-EST-010/edicoes/1MO6ERJ2Kg99PKI4-eiXdwSB0Cg73mrk5t2Euf2OKaQ0.txt"
+      },
+      {
+        "label": "MAT-EST-010 — metadados — reconstrução editorial v1 · 2026-10-03",
+        "url": "originais/MAT-EST-010/edicoes/1vQx7oc-2dRxl6q7yWJB2EDNHFxzh6f_C952toiyqJfE.txt"
+      },
+      {
+        "label": "MAT-EST-010 — gabarito comentado — reconstrução editorial v1 · 2026-10-03",
+        "url": "originais/MAT-EST-010/edicoes/14ImJ7XyGdytsbxGtLSjyChO0vOBDjTE3wWLFOnecpMw.txt"
+      },
+      {
+        "label": "MAT-EST-010 — exercícios — reconstrução editorial v1 · 2026-10-03",
+        "url": "originais/MAT-EST-010/edicoes/1xjjqS52z6o5ryNdgMvdPnX7WB4K2qJHtQaTnIAnKPKc.txt"
+      },
+      {
+        "label": "MAT-EST-010 — aula completa — reconstrução editorial v1 · 2026-10-03",
+        "url": "originais/MAT-EST-010/edicoes/1iNjyxA4d842_dtLkfaIbAXjSC5-8jKmettt67bAQ5oo.txt"
+      }
+    ],
+    "attachments": [],
+    "questionCount": 36,
+    "visualCount": 6,
+    "sourceSha256": "b385ead2b41aa3b634faa1c14b3840fdd6e66727305a7d2e2b6041d336ccd562"
+  }
+}

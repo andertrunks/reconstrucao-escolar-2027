@@ -1,0 +1,124 @@
+{
+  "id": "MAT-EST-060",
+  "slug": "auditoria-graficos-relatorios-automatizados-testes-consistencia-versoes-acessibilidade-publicacao",
+  "titulo": "Auditoria de gráficos e relatórios automatizados: testes de consistência, versões e acessibilidade de publicação",
+  "materia": "Matemática",
+  "unidade": "Estatística / séries temporais / ponte universitária",
+  "nivel": 6,
+  "ordem": 60,
+  "anterior": "MAT-EST-059",
+  "proximoTopico": "MAT-EST-061",
+  "preRequisitos": [
+    "MAT-EST-049",
+    "MAT-EST-050",
+    "MAT-EST-053",
+    "MAT-EST-054",
+    "MAT-EST-056",
+    "MAT-EST-057",
+    "MAT-EST-058",
+    "MAT-EST-059"
+  ],
+  "objetivos": [
+    "auditar consistência aritmética e semântica",
+    "preservar proveniência e versões",
+    "testar gráficos com eixos e unidades corretos",
+    "distinguir verificação automática de teste assistivo humano",
+    "comunicar estado real da integração"
+  ],
+  "conceitosRelacionados": [
+    "MAE",
+    "função de custo",
+    "dados ausentes",
+    "testes negativos",
+    "hash SHA-256",
+    "legenda e descrição alternativa",
+    "rastreabilidade de versões"
+  ],
+  "aplicacoes": [
+    "reprodução de relatórios",
+    "leitura crítica de gráficos",
+    "engenharia de dados",
+    "acessibilidade web"
+  ],
+  "examesRelacionados": [
+    "transferência de gráficos, média e interpretação ao ENEM e vestibulares; automação é ponte universitária sem alegação de exigência específica"
+  ],
+  "origem": "autoral",
+  "questoesOficiais": 0,
+  "questoesAutorais": 36,
+  "aulaMarkdown": "MAT-EST-060-auditoria-graficos-relatorios-automatizados-testes-consistencia-versoes-acessibilidade-publicacao.md",
+  "exercicios": "exercicios.json",
+  "gabarito": "gabarito-comentado.json",
+  "visuais": [
+    {
+      "src": "assets/01-cadeia-proveniencia.svg",
+      "alt": "Os seis elos são CSV e corte, hash, elegibilidade, cálculo com unidade, gráfico acessível e situação editorial; cada elo precisa permanecer rastreável.",
+      "autoria": "produção original do projeto"
+    },
+    {
+      "src": "assets/02-escopos-diferenciados.svg",
+      "alt": "Histórico cinco de oito, quarentena zero de três, sucessor zero de oito e sandbox dois de oito. Barras mostram contagens avaliáveis, não valores de erro nem resultados do futuro.",
+      "autoria": "produção original do projeto"
+    },
+    {
+      "src": "assets/03-escala-barras.svg",
+      "alt": "No gráfico à esquerda as barras de B três e C quatro unidades começam em zero; no contrafactual da direita o eixo começa em 2,9, ampliando artificialmente a diferença visual.",
+      "autoria": "produção original do projeto"
+    },
+    {
+      "src": "assets/04-hash-e-versao.svg",
+      "alt": "O CSV real mantém o digest esperado; um fixture didático substitui o texto do hash por zeros e deve falhar. Uma verificação de hash não demonstra que uma fonte é verdadeira ou que foi emitida antes.",
+      "autoria": "produção original do projeto"
+    },
+    {
+      "src": "assets/05-equivalencia-acessivel.svg",
+      "alt": "A mesma informação essencial — B três, C quatro, dois cartões avaliáveis de oito e seis pendências — deve aparecer em gráfico com números, alternativa textual e tabela ou parágrafo.",
+      "autoria": "produção original do projeto"
+    },
+    {
+      "src": "assets/06-portoes-de-publicacao.svg",
+      "alt": "Integridade, semântica, acessibilidade, revisão humana e integração são verificações distintas; apenas os testes locais de parte dessas etapas foram executados.",
+      "autoria": "produção original do projeto"
+    }
+  ],
+  "video": {
+    "titulo": "Vídeo de Introdução à Acessibilidade Web e Padrões W3C",
+    "canal": "W3C Web Accessibility Initiative (WAI)",
+    "url": "https://www.w3.org/WAI/videos/standards-and-benefits/pt-BR",
+    "idioma": "página e transcrição em português do Brasil",
+    "duracaoAproximada": null,
+    "momento": "depois da seção 7",
+    "porQueEscolhido": "relaciona marcação semântica, leitores de tela e acessibilidade; fonte institucional com transcrição e alternativa de vídeo",
+    "verificacao": "página institucional com vídeo e transcrição consultada; reprodução integral e duração no player não verificadas"
+  },
+  "fontes": [
+    {
+      "nome": "W3C WAI, nomes e descrições",
+      "url": "https://www.w3.org/WAI/ARIA/apg/practices/names-and-descriptions/"
+    },
+    {
+      "nome": "W3C WAI, tabelas",
+      "url": "https://www.w3.org/WAI/tutorials/tables/"
+    },
+    {
+      "nome": "Datawrapper, alternativas para visualização",
+      "url": "https://www.datawrapper.de/academy/how-to-write-good-alternative-descriptions-for-your-data-visualization"
+    },
+    {
+      "nome": "Vídeo institucional W3C WAI",
+      "url": "https://www.w3.org/WAI/videos/standards-and-benefits/pt-BR"
+    }
+  ],
+  "progressoIndividualAlterado": false,
+  "estudoRegistrado": false,
+  "publicacaoSite": false,
+  "sincronizacaoDrive": false,
+  "sincronizacaoGithub": false,
+  "testeManualEdge": false,
+  "previa": "composição ilustrativa PNG; HTML local sem deploy",
+  "proximaAula": {
+    "id": "MAT-EST-061",
+    "titulo": "Teste de regressão editorial e preparação de publicação: evidências humanas, rollback e comunicação de correções",
+    "estado": "não iniciado"
+  }
+}

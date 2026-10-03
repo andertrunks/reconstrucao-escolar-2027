@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "MAT-EST-035-EX-APR-01",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Origem dos registros",
+    "enunciado": "Os oito dias da planilha representam registros reais de uma unidade de saúde? Qual anotação obrigatória deve acompanhar a tabela?",
+    "resposta": "São oito registros inteiramente fictícios, destinados ao ensino; devem trazer identificação explícita de dados sintéticos.",
+    "resolucao": [
+      "Leia a nota de origem na aula MAT-EST-034.",
+      "Uma conta reproduzível não torna um conjunto de dados inventado uma pesquisa real."
+    ],
+    "habilidade": "rastrear proveniência",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Reconhecer o alcance da evidência, o recorte e a pergunta.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-APR-02",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Unidade de análise",
+    "enunciado": "Qual é a unidade de análise da base e em que unidade se expressam as previsões?",
+    "resposta": "Cada linha é um dia fictício; previsões e observações são atendimentos por dia.",
+    "resolucao": [
+      "Leia o dicionário das colunas.",
+      "Não confunda quantidade diária com taxa por pessoa nem com média populacional."
+    ],
+    "habilidade": "identificar unidade",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Reconhecer o alcance da evidência, o recorte e a pergunta.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-APR-03",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Separar períodos",
+    "enunciado": "Quais dias compõem a referência e quais dias formam o teste preservado?",
+    "resposta": "Referência: dias 1 a 4. Teste: dias 5 a 8.",
+    "resolucao": [
+      "Confira a coluna particao, e não a posição arbitrária de linhas após ordenação.",
+      "Esse recorte é ilustrativo e preserva a sequência temporal."
+    ],
+    "habilidade": "rastrear partições",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "distração",
+    "erroProvavel": "Conferir sinal, rótulo, período e denominador.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-APR-04",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Convenção de sinal",
+    "enunciado": "No dia 8, observaram-se 100 atendimentos e B previu 125. Calcule e = observado − previsto.",
+    "resposta": "−25 atendimentos; B superestimou a demanda em 25.",
+    "resolucao": [
+      "Substitua: 100 − 125 = −25.",
+      "O sinal negativo representa previsão acima do realizado nesta convenção."
+    ],
+    "habilidade": "calcular erro assinado",
+    "topicos": [
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Recalcular termo a termo e verificar unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-APR-05",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Vetor de erros A",
+    "enunciado": "Para o teste, o observado é [90,110,130,100] e A prevê [95,105,125,105]. Escreva os erros assinados.",
+    "resposta": "[−5,+5,+5,−5] atendimentos.",
+    "resolucao": [
+      "Subtraia cada previsão do observado, dia a dia.",
+      "Confira que as posições permanecem alinhadas e a soma é zero."
+    ],
+    "habilidade": "recalcular vetor de erros",
+    "topicos": [
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Recalcular termo a termo e verificar unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-APR-06",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Erro absoluto médio A",
+    "enunciado": "Calcule o MAE de A a partir de [−5,+5,+5,−5].",
+    "resposta": "MAE = (5+5+5+5)/4 = 5 atendimentos.",
+    "resolucao": [
+      "Tome o módulo de cada erro.",
+      "Some 20 e divida pelas quatro observações."
+    ],
+    "habilidade": "calcular MAE",
+    "topicos": [
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Recalcular termo a termo e verificar unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-APR-07",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Erro quadrático médio B",
+    "enunciado": "Calcule o MSE de B com erros [0,0,0,−25].",
+    "resposta": "MSE = 625/4 = 156,25 atendimentos².",
+    "resolucao": [
+      "Eleve cada erro ao quadrado; apenas (−25)² é 625.",
+      "Divida pelo número de dias e explicite a unidade quadrática."
+    ],
+    "habilidade": "calcular MSE",
+    "topicos": [
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Recalcular termo a termo e verificar unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-APR-08",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Raiz do erro quadrático B",
+    "enunciado": "Usando MSE de B = 156,25, determine o RMSE.",
+    "resposta": "RMSE = √156,25 = 12,5 atendimentos.",
+    "resolucao": [
+      "Aplique raiz quadrada ao erro quadrático médio.",
+      "A unidade retorna à escala de atendimentos."
+    ],
+    "habilidade": "calcular RMSE",
+    "topicos": [
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Recalcular termo a termo e verificar unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-APR-09",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Fonte da reprodução",
+    "enunciado": "Qual arquivo é a entrada observacional sintética e qual apresenta os resultados esperados para uma verificação?",
+    "resposta": "Entrada: dados-ficticios.csv; referência de resultados: calculos-reproduziveis.json.",
+    "resolucao": [
+      "A origem tabular não deve ser substituída por uma imagem da tabela.",
+      "Recalcule a partir do CSV e só depois compare com o JSON."
+    ],
+    "habilidade": "rastrear arquivos",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Separar coleta, treino, validação, teste e relato.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-APR-10",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "aprendizagem",
+    "dificuldade": "basica",
+    "titulo": "Estado da auditoria",
+    "enunciado": "Se o gabarito oficial de uma prova foi localizado, mas a imagem do enunciado não foi conferida, a questão está totalmente auditada?",
+    "resposta": "Não; o gabarito está conferido, mas a inspeção do enunciado segue pendente.",
+    "resolucao": [
+      "Atribua estados separados a cada evidência.",
+      "Não apresente um número ou texto de questão como verificado apenas pela existência do gabarito."
+    ],
+    "habilidade": "distinguir auditoria parcial",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Reconhecer o alcance da evidência, o recorte e a pergunta.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-CON-01",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "MAE da baseline",
+    "enunciado": "A baseline prevê 100; nos quatro dias de teste o observado é [90,110,130,100]. Calcule MAE.",
+    "resposta": "(10+10+30+0)/4 = 12,5 atendimentos.",
+    "resolucao": [
+      "Calcule observação menos 100: −10,+10,+30,0.",
+      "Some módulos e divida por quatro."
+    ],
+    "habilidade": "comparar referência",
+    "topicos": [
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Recalcular termo a termo e verificar unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-CON-02",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "RMSE da baseline",
+    "enunciado": "Para erros [−10,+10,+30,0], calcule o RMSE.",
+    "resposta": "√[(100+100+900+0)/4] = √275 ≈ 16,58 atendimentos.",
+    "resolucao": [
+      "Some 1100 atendimentos².",
+      "Divida por quatro e extraia a raiz, arredondando apenas no final."
+    ],
+    "habilidade": "recalcular métrica",
+    "topicos": [
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Recalcular termo a termo e verificar unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-CON-03",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Erro médio B",
+    "enunciado": "Os erros assinados de B no teste são [0,0,0,−25]. Qual é o erro médio?",
+    "resposta": "ME = −25/4 = −6,25 atendimentos.",
+    "resolucao": [
+      "Não use o módulo para o erro médio assinado.",
+      "O valor negativo indica previsão em excesso, em média, no recorte."
+    ],
+    "habilidade": "distinguir viés observado e MAE",
+    "topicos": [
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Recalcular termo a termo e verificar unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-CON-04",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "B em dois subperíodos",
+    "enunciado": "Calcule MAE de B nos dias 5–6 e nos dias 7–8.",
+    "resposta": "Dias 5–6: 0. Dias 7–8: (0+25)/2 = 12,5 atendimentos.",
+    "resolucao": [
+      "Separe o vetor [0,0,0,−25] em dois pares.",
+      "Médias de apenas dois dias são descrição local, não tendência populacional."
+    ],
+    "habilidade": "diagnosticar heterogeneidade",
+    "topicos": [
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Recalcular termo a termo e verificar unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-CON-05",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Perda de A: falta três",
+    "enunciado": "Se cada falta custa 3 unidades fictícias e cada excedente custa 1, calcule a perda total de A no teste.",
+    "resposta": "Erros positivos somam 10 e negativos em módulo somam 10: 3×10+1×10=40.",
+    "resolucao": [
+      "Use e=observado−previsto; valores positivos representam falta.",
+      "Não trate os custos inventados como preços observados em instituições reais."
+    ],
+    "habilidade": "reproduzir perda assimétrica",
+    "topicos": [
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Recalcular termo a termo e verificar unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-CON-06",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Perda de B: falta três",
+    "enunciado": "Sob os mesmos custos (falta 3, excedente 1), calcule a perda de B.",
+    "resposta": "B tem falta 0 e excedente 25: 3×0+1×25=25 unidades fictícias.",
+    "resolucao": [
+      "Leia o sinal dos erros [0,0,0,−25].",
+      "A comparação vale só para os custos e dados inventados."
+    ],
+    "habilidade": "reproduzir perda assimétrica",
+    "topicos": [
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Recalcular termo a termo e verificar unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-CON-07",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Inversão dos custos",
+    "enunciado": "Se falta custar 1 e excedente custar 3, quais os custos totais de A e B?",
+    "resposta": "A = 1×10+3×10 = 40; B = 1×0+3×25 = 75.",
+    "resolucao": [
+      "Troque apenas os pesos; mantenha os mesmos erros.",
+      "A ordem de custos depende da função de perda, sem implicar recomendação universal."
+    ],
+    "habilidade": "analisar sensibilidade",
+    "topicos": [
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Recalcular termo a termo e verificar unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-CON-08",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Corrigir alteração acidental",
+    "enunciado": "Um arquivo derivado trocou a previsão B no dia 8 de 125 para 120, sem documentar a mudança. Qual seria o MAE e o RMSE alterados?",
+    "resposta": "Erros viram [0,0,0,−20]; MAE=5 e RMSE=10. A mudança precisa ser registrada e não substituir silenciosamente a origem.",
+    "resolucao": [
+      "Calcule 20/4=5 e √(400/4)=10.",
+      "Compare o dado derivado com o CSV original; destaque a divergência."
+    ],
+    "habilidade": "detectar divergência de versão",
+    "topicos": [
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Recalcular termo a termo e verificar unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-CON-09",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Teste reutilizado",
+    "enunciado": "Uma equipe alterou B após examinar os dias 5 a 8 e mediu a nova versão nos mesmos dias. O que ocorreu?",
+    "resposta": "O conjunto de teste deixou de funcionar como avaliação independente para a nova versão; é necessário novo conjunto preservado.",
+    "resolucao": [
+      "O resultado do teste orientou uma escolha.",
+      "Registrar o resultado antigo e buscar nova avaliação prospectiva ou independente."
+    ],
+    "habilidade": "detectar vazamento de teste",
+    "topicos": [
+      "MAT-EST-031",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Separar coleta, treino, validação, teste e relato.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-CON-10",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "consolidacao",
+    "dificuldade": "intermediaria",
+    "titulo": "Trilha de reprodução",
+    "enunciado": "Enumere quatro registros necessários para outra pessoa reconstruir a comparação entre A, B e baseline.",
+    "resposta": "CSV original com versão, dicionário de colunas e unidades, convenção de erro/fórmulas e partição temporal; incluir resultados e alterações.",
+    "resolucao": [
+      "Reproduzir exige entradas e procedimento, não só gráfico final.",
+      "Informar origem sintética, versão, regras e responsáveis de revisão."
+    ],
+    "habilidade": "documentar rastreabilidade",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Separar coleta, treino, validação, teste e relato.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-VES-01",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "vestibular",
+    "dificuldade": "avancada",
+    "titulo": "Questão autoral no estilo ENEM: leitura crítica",
+    "enunciado": "Um infográfico apresenta MAE de A=5 e B=6,25, mas declara “A será sempre 20% melhor em qualquer município”. Identifique o salto lógico e calcule a redução relativa no recorte, tomando B como base.",
+    "resposta": "Redução de (6,25−5)/6,25=20% no MAE observado. A generalização para municípios não é justificada por quatro dias fictícios.",
+    "resolucao": [
+      "Divida a diferença 1,25 pelo valor de referência 6,25.",
+      "Não confunda uma comparação descritiva com validade externa ou causalidade."
+    ],
+    "habilidade": "argumentar com denominador",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-032",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Reconhecer o alcance da evidência, o recorte e a pergunta.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-VES-02",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "vestibular",
+    "dificuldade": "avancada",
+    "titulo": "Questão autoral no estilo FUVEST: confronto de métricas",
+    "enunciado": "Dois modelos têm erros absolutos [5,5,5,5] e [0,0,0,20]. Calcule MAE e RMSE de cada um e explique a divergência.",
+    "resposta": "Ambos têm MAE 5; RMSE do primeiro é 5 e do segundo é 10. O quadrado penaliza mais o erro concentrado.",
+    "resolucao": [
+      "Para o primeiro: 20/4=5 e √(100/4)=5.",
+      "Para o segundo: 20/4=5 e √(400/4)=10."
+    ],
+    "habilidade": "comparar métricas",
+    "topicos": [
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Recalcular termo a termo e verificar unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-VES-03",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "vestibular",
+    "dificuldade": "avancada",
+    "titulo": "Questão autoral no estilo UNICAMP: replicação temporal",
+    "enunciado": "A previsão B tem MAE 5 na referência e 6,25 no teste. Explique por que essa diferença, sozinha, não comprova piora estrutural do modelo.",
+    "resposta": "São dois recortes sintéticos de apenas quatro dias, sem amostragem representativa nem inferência válida de mudança; descreve diferença observada.",
+    "resolucao": [
+      "Na referência, B erra [0,0,0,−20], logo MAE=5.",
+      "No teste erra [0,0,0,−25], logo MAE=6,25; não estimar tendência sem desenho."
+    ],
+    "habilidade": "avaliar evidência",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Reconhecer o alcance da evidência, o recorte e a pergunta.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-VES-04",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "vestibular",
+    "dificuldade": "avancada",
+    "titulo": "Questão autoral no estilo UNESP: escala do erro",
+    "enunciado": "No teste, RMSE de A é 5 e de B é 12,5. Quantas vezes o RMSE de B representa o de A? Quais as unidades?",
+    "resposta": "12,5/5=2,5 vezes. Ambos são medidos em atendimentos, diferentemente do MSE, expresso em atendimentos².",
+    "resolucao": [
+      "Calcule a razão 12,5÷5.",
+      "Informe as unidades e limite a comparação ao conjunto observado."
+    ],
+    "habilidade": "comparar escala de métricas",
+    "topicos": [
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Recalcular termo a termo e verificar unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-VES-05",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "vestibular",
+    "dificuldade": "avancada",
+    "titulo": "Intervalo sem base",
+    "enunciado": "Um relatório declara “IC de 95% para a demanda média do município” usando somente os quatro dias inventados e sem delineamento. É um resultado válido?",
+    "resposta": "Não. Falta amostragem real e representativa, estimador/erro-padrão fundamentado, hipótese de independência ou desenho temporal e método do intervalo.",
+    "resolucao": [
+      "Um cálculo aritmético não cria uma população observada.",
+      "Separar ilustração de inferência e apresentar condições necessárias."
+    ],
+    "habilidade": "avaliar inferência",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-020",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "conteúdo",
+    "erroProvavel": "Rever definição, hipóteses e o modelo de cálculo.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-VES-06",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "vestibular",
+    "dificuldade": "avancada",
+    "titulo": "Inspeção de gráfico enganoso",
+    "enunciado": "Um gráfico de barras mostra erros 5 e 6,25 com eixo vertical começando em 4,8 sem avisar. Descreva o efeito visual e como corrigir.",
+    "resposta": "O recorte estreito pode exagerar visualmente uma diferença de 1,25. Informar escala completa/recorte, valores numéricos, unidades e fonte; em barras, em geral começar em zero.",
+    "resolucao": [
+      "Compare a diferença absoluta com a escala desenhada.",
+      "A informação decisiva precisa continuar legível por áudio e não depender só da cor."
+    ],
+    "habilidade": "auditar visual",
+    "topicos": [
+      "MAT-EST-032",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Reconhecer o alcance da evidência, o recorte e a pergunta.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-VES-07",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "vestibular",
+    "dificuldade": "avancada",
+    "titulo": "Denominador incompatível",
+    "enunciado": "Um gráfico compara a soma dos erros absolutos de A nos 4 dias de teste com a soma dos erros de B em 8 dias. Que ajuste é necessário antes de comparar qualidade?",
+    "resposta": "Recalcular ambos na mesma janela e mesma população de casos, com medida comparável como MAE; não comparar totais de recortes diferentes.",
+    "resolucao": [
+      "O número de observações altera somas.",
+      "Use os mesmos dias para comparações pareadas dos candidatos."
+    ],
+    "habilidade": "comparabilidade",
+    "topicos": [
+      "MAT-EST-031",
+      "MAT-EST-032",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Separar coleta, treino, validação, teste e relato.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-VES-08",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "vestibular",
+    "dificuldade": "avancada",
+    "titulo": "Escolha após olhar o teste",
+    "enunciado": "Um avaliador troca a previsão de B no dia 8 para 100 depois de conhecer o observado daquele dia, publica MAE zero e o chama de “teste cego”. Explique.",
+    "resposta": "Houve uso do resultado para ajustar o candidato. MAE zero no mesmo recorte é reavaliação contaminada, não validação cega; requer teste novo.",
+    "resolucao": [
+      "Identifique quando o observado entrou na construção.",
+      "Distinga ajuste de validação independente."
+    ],
+    "habilidade": "diagnosticar vazamento",
+    "topicos": [
+      "MAT-EST-031",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Separar coleta, treino, validação, teste e relato.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-VES-09",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "vestibular",
+    "dificuldade": "avancada",
+    "titulo": "Concluir com amostra mínima",
+    "enunciado": "Uma equipe subdivide o teste em dois blocos de 2 dias e anuncia mudança populacional comprovada porque o MAE de B passou de 0 a 12,5. Reescreva a conclusão.",
+    "resposta": "No cenário sintético, houve diferença descritiva entre os pares; com 2 registros por período e sem desenho real, não há comprovação populacional.",
+    "resolucao": [
+      "Relate os valores 0 e 12,5 corretamente.",
+      "Separe descrição e inferência."
+    ],
+    "habilidade": "comunicar limites",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Reconhecer o alcance da evidência, o recorte e a pergunta.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-VES-10",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "vestibular",
+    "dificuldade": "avancada",
+    "titulo": "Parecer independente",
+    "enunciado": "Produza parecer de até seis frases com pergunta, fonte, método, achados, sensibilidade e limite usando MAE A=5, B=6,25, baseline=12,5, e custos 40 e 25 na hipótese falta3/excedente1.",
+    "resposta": "Resposta-modelo: Dados fictícios de quatro dias de teste, com A e B fixados previamente. Recalculei MAE de 5, 6,25 e 12,5 para A, B e baseline. Sob pesos fictícios falta=3/excedente=1, custos totais de A e B foram 40 e 25. As métricas não respondem à mesma pergunta que o custo decisório. Como a base e os pesos são inventados e o teste é muito pequeno, não faço recomendação operacional nem inferência populacional. Exigiria dados novos com origem e avaliação preservada.",
+    "resolucao": [
+      "Verifique se os resultados reproduzem as entradas.",
+      "Inclua declaração explícita de escopo, ausência de causalidade e condições para revisão."
+    ],
+    "habilidade": "redigir parecer",
+    "topicos": [
+      "MAT-EST-033",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Separar coleta, treino, validação, teste e relato.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-RET-01",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "intermediaria",
+    "titulo": "Reteste novo: métricas com empate aparente",
+    "enunciado": "Um novo exemplo fictício apresenta erros de X=[−4,+4,−4,+4] e de Y=[0,0,0,+16]. Calcule MAE e RMSE de ambos.",
+    "resposta": "MAE X=4 e Y=4; RMSE X=4 e Y=8.",
+    "resolucao": [
+      "X: soma de módulos 16, média dos quadrados 16.",
+      "Y: módulos somam 16, quadrados somam 256; MSE 64 e RMSE 8."
+    ],
+    "habilidade": "transferir métricas",
+    "topicos": [
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Recalcular termo a termo e verificar unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-RET-02",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "intermediaria",
+    "titulo": "Reteste novo: perdas assimétricas",
+    "enunciado": "Nos erros X=[−4,+4,−4,+4] e Y=[0,0,0,+16], considerando e=observado−previsto, falta=3 e excedente=1, calcule as perdas.",
+    "resposta": "X: positivos somam 8, negativos em módulo somam 8, perda=32; Y: positivos 16 e negativos zero, perda=48.",
+    "resolucao": [
+      "Use os sinais de X e Y.",
+      "A função de perda não é a mesma medida que MAE."
+    ],
+    "habilidade": "transferir custo",
+    "topicos": [
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Recalcular termo a termo e verificar unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-RET-03",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "intermediaria",
+    "titulo": "Reteste novo: outro conjunto de quatro casos",
+    "enunciado": "Observados: [20,24,22,26]. P prevê [22,22,22,22]. Calcule vetor de erros e MAE.",
+    "resposta": "Erros P=[−2,+2,0,+4]; MAE=(2+2+0+4)/4=2.",
+    "resolucao": [
+      "Subtraia previsão da observação.",
+      "O total absoluto é oito."
+    ],
+    "habilidade": "recalcular caso novo",
+    "topicos": [
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Recalcular termo a termo e verificar unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-RET-04",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "intermediaria",
+    "titulo": "Reteste novo: erro extremo",
+    "enunciado": "Nos mesmos observados [20,24,22,26], Q prevê [20,24,22,32]. Calcule MAE e RMSE e compare ao de P.",
+    "resposta": "Q: e=[0,0,0,−6], MAE=1,5 e RMSE=3; P tem RMSE=√6≈2,45. Q tem menor MAE, mas maior RMSE.",
+    "resolucao": [
+      "Para P, quadrados 4+4+0+16=24, MSE=6.",
+      "Para Q, quadrados somam 36, MSE=9."
+    ],
+    "habilidade": "comparar comportamentos",
+    "topicos": [
+      "MAT-EST-032",
+      "MAT-EST-033",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "cálculo",
+    "erroProvavel": "Recalcular termo a termo e verificar unidades.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-RET-05",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "intermediaria",
+    "titulo": "Reteste novo: transformação vazada",
+    "enunciado": "Em um estudo com 200 registros, uma padronização de preditores calcula média e desvio com os 200 antes de separar treino e teste. Isso preserva a independência do teste?",
+    "resposta": "Não. Os valores do teste afetaram parâmetros de pré-processamento; ajustar transformações apenas no treino e aplicá-las aos conjuntos reservados.",
+    "resolucao": [
+      "A média global já consultou dados do teste.",
+      "O processo de transformação deve integrar a sequência de treino e validação."
+    ],
+    "habilidade": "identificar vazamento",
+    "topicos": [
+      "MAT-EST-031",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "estratégia",
+    "erroProvavel": "Separar coleta, treino, validação, teste e relato.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  },
+  {
+    "id": "MAT-EST-035-EX-RET-06",
+    "origem": "autoral",
+    "questaoOficial": false,
+    "camada": "reteste",
+    "dificuldade": "intermediaria",
+    "titulo": "Reteste novo: limites do parecer",
+    "enunciado": "Um modelo com RMSE baixo nos dados históricos de uma escola fictícia será usado em outra cidade sem dados novos. Redija duas condições de validação e um limite da conclusão.",
+    "resposta": "Conferir qualidade e comparabilidade das novas fontes, avaliar em período/local independente com métrica e critérios previamente fixados. O RMSE histórico, isoladamente, não garante desempenho em outra população.",
+    "resolucao": [
+      "Considere mudança de contexto e distribuição.",
+      "Exija avaliação nova e registre o limite de validade externa."
+    ],
+    "habilidade": "transferir decisão",
+    "topicos": [
+      "MAT-EST-019",
+      "MAT-EST-031",
+      "MAT-EST-034",
+      "MAT-EST-035"
+    ],
+    "tipoErro": "interpretação",
+    "erroProvavel": "Reconhecer o alcance da evidência, o recorte e a pergunta.",
+    "correcaoAposTentativa": true,
+    "tentativaIndividualRegistrada": false,
+    "statusTentativaInicial": "nao_iniciado",
+    "exame": null,
+    "ano": null
+  }
+]

@@ -1,0 +1,305 @@
+[
+  {
+    "id": "MAT-EST-053-EX-APR-01",
+    "resposta": "Período descrito pela medida.",
+    "resolucao": "Não é necessariamente o momento em que o número foi divulgado.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-02",
+    "resposta": "40 em L12; 44 em L13.",
+    "resolucao": "L10 contém somente as previsões inventadas e congeladas.",
+    "motivosDeErro": [
+      "memória",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-03",
+    "resposta": "Nenhuma.",
+    "resolucao": "L12 é o primeiro recebimento no exemplo. Não imputar zero.",
+    "motivosDeErro": [
+      "conteúdo",
+      "distração"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-04",
+    "resposta": "40 preliminar; 44 validado.",
+    "resolucao": "A correção referencia o ID da preliminar e conserva a história.",
+    "motivosDeErro": [
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-05",
+    "resposta": "−2.",
+    "resolucao": "Erro = 40 − 42; sinal negativo significa superprevisão.",
+    "motivosDeErro": [
+      "cálculo",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-06",
+    "resposta": "+1.",
+    "resolucao": "Erro = 44 − 43; sinal positivo significa subprevisão.",
+    "motivosDeErro": [
+      "cálculo"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-07",
+    "resposta": "Não.",
+    "resolucao": "Sem política de imputação justificada e sem observação, o par não é avaliável.",
+    "motivosDeErro": [
+      "conteúdo",
+      "estratégia"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-08",
+    "resposta": "Não.",
+    "resolucao": "Cada fotografia/política seleciona no máximo uma versão elegível por alvo.",
+    "motivosDeErro": [
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-09",
+    "resposta": "corrects_observation_id (ou equivalente).",
+    "resolucao": "Guarda explicitamente a linhagem sem apagar v1.",
+    "motivosDeErro": [
+      "memória"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-APR-10",
+    "resposta": "Não.",
+    "resolucao": "Ele verifica integridade relativa aos bytes/referência; não autentica por si só tempo ou autor.",
+    "motivosDeErro": [
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-01",
+    "resposta": "B=2; C=3.",
+    "resolucao": "|40−42|=2 e |40−43|=3.",
+    "motivosDeErro": [
+      "cálculo"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-02",
+    "resposta": "B=2; C=1.",
+    "resolucao": "|44−42|=2 e |44−43|=1.",
+    "motivosDeErro": [
+      "cálculo"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-03",
+    "resposta": "B=2; C=3 pontos.",
+    "resolucao": "Ambos os erros são negativos: −2 e −3.",
+    "motivosDeErro": [
+      "cálculo",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-04",
+    "resposta": "B=6; C=3 pontos.",
+    "resolucao": "Erros +2 e +1: 3×2=6 e 3×1=3.",
+    "motivosDeErro": [
+      "cálculo"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-05",
+    "resposta": "Isso seria adulteração da previsão original/vazamento.",
+    "resolucao": "A previsão é congelada antes de conhecer o observado; avaliação nova usa o valor previsto antigo.",
+    "motivosDeErro": [
+      "estratégia"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-06",
+    "resposta": "5/8=62,5%.",
+    "resolucao": "O denominador da completude é oito alvos planejados.",
+    "motivosDeErro": [
+      "cálculo"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-07",
+    "resposta": "3 unidades.",
+    "resolucao": "Soma=15, dividida por cinco pares, não por oito alvos ou sete arquivos.",
+    "motivosDeErro": [
+      "cálculo",
+      "estratégia"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-08",
+    "resposta": "2,6 unidades.",
+    "resolucao": "Nova soma 2+3+2+1+5=13 e 13/5=2,6; registrar nova versão do relatório.",
+    "motivosDeErro": [
+      "cálculo"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-09",
+    "resposta": "Nenhum alvo validado elegível.",
+    "resolucao": "40 é preliminar e 44 só aparece em L13.",
+    "motivosDeErro": [
+      "interpretação",
+      "estratégia"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-CON-10",
+    "resposta": "v1 erro+1 custo3; v2 erro+3 custo9.",
+    "resolucao": "Usa observado menos 29 e penalização três por subprevisão; v1 não conta no escore final.",
+    "motivosDeErro": [
+      "cálculo"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-01",
+    "resposta": "A fotografia disponível na data da decisão, bem como versão e corte.",
+    "resolucao": "Não se pode atribuir retroativamente ao decisor um dado conhecido apenas depois.",
+    "motivosDeErro": [
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-02",
+    "resposta": "5/8=62,5% de alvos elegíveis; sete arquivos incluem duas revisões.",
+    "resolucao": "Arquivos e unidades de observação não são intercambiáveis.",
+    "motivosDeErro": [
+      "estratégia",
+      "cálculo"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-03",
+    "resposta": "Escolha oportunista de versão depois de ver os resultados.",
+    "resolucao": "Fixar previamente uma política; mostrar avaliações e cortes transparentemente.",
+    "motivosDeErro": [
+      "estratégia"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-04",
+    "resposta": "Não.",
+    "resolucao": "Seria vazamento de informação posterior, mesmo que o dado se refira ao mesmo período.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-05",
+    "resposta": "A ordenação local muda ao trocar o observado usado na avaliação, sem melhoria demonstrada de previsão.",
+    "resolucao": "As previsões são idênticas nos dois relatórios; só a versão observada mudou.",
+    "motivosDeErro": [
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-06",
+    "resposta": "MAT-EST-049-PROT-v1, intacto.",
+    "resolucao": "Alterar pesos retroativamente seria trocar o protocolo. Cenários novos devem ser rotulados.",
+    "motivosDeErro": [
+      "memória",
+      "estratégia"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-07",
+    "resposta": "Não.",
+    "resolucao": "Restam três pares e t19 já violou a guarda: 23,2−4=19,2>10; faltam auditoria e aprovação.",
+    "motivosDeErro": [
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-08",
+    "resposta": "Não.",
+    "resolucao": "Integridade de bytes não autentica a disponibilidade temporal ou a autoria.",
+    "motivosDeErro": [
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-09",
+    "resposta": "IDs de previsões, IDs de observações/versões, corte/política, versão do cálculo e denominador (ao menos).",
+    "resolucao": "Sem esses elementos é impossível reconstruir com segurança o conjunto avaliável.",
+    "motivosDeErro": [
+      "memória",
+      "estratégia"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-VES-10",
+    "resposta": "Ainda não existem observações registradas nem emissões autenticadas de t23 a t25. Os casos V/Z são ensaios isolados, e a guarda t19 impede promoção no protocolo herdado.",
+    "resolucao": "Não converter cenários e recálculos ilustrativos em evidência prospectiva.",
+    "motivosDeErro": [
+      "interpretação",
+      "estratégia"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-RET-01",
+    "resposta": "Não; nenhuma observação está disponível.",
+    "resolucao": "Primeira publicação simulada é L12 e correção L13.",
+    "motivosDeErro": [
+      "memória"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-RET-02",
+    "resposta": "Erro −3; custo 3.",
+    "resolucao": "Superprevisão é erro negativo, cobra uma unidade por unidade.",
+    "motivosDeErro": [
+      "cálculo"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-RET-03",
+    "resposta": "−1 e +3.",
+    "resolucao": "11−12=−1 e 15−12=+3; conservar previsão original.",
+    "motivosDeErro": [
+      "cálculo"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-RET-04",
+    "resposta": "Quatro.",
+    "resolucao": "Unidade da métrica é alvo elegível, não total de versões.",
+    "motivosDeErro": [
+      "estratégia"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-RET-05",
+    "resposta": "Conservar a fotografia e previsão original; criar análise contrafactual/reprocessada rotulada com nova ID e justificativa.",
+    "resolucao": "Não fingir que a previsão passada recebeu a nova informação.",
+    "motivosDeErro": [
+      "conteúdo",
+      "estratégia"
+    ]
+  },
+  {
+    "id": "MAT-EST-053-EX-RET-06",
+    "resposta": "A quebra da guarda no alvo t19: 19,2 unidades de piora local > limite 10 no protocolo v1.",
+    "resolucao": "Uma regra cumulativa já violada não é apagada por médias ou por dados de ensaio separado.",
+    "motivosDeErro": [
+      "memória",
+      "interpretação"
+    ]
+  }
+]

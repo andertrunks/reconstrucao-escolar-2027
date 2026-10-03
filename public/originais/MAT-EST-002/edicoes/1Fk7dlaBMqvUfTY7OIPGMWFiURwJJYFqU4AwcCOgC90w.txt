@@ -1,0 +1,161 @@
+﻿MAT-EST-002 — Censo, amostragem e representatividade: como escolher uma amostra — Exercícios
+
+
+Origem: 36 questões autorais. Nenhuma questão oficial foi reproduzida.
+Uso: tentar antes de abrir o gabarito comentado.
+
+
+APRENDIZAGEM BÁSICA
+
+
+MAT-EST-002-EX-APR-01 — Censo ou amostra
+Uma biblioteca possui 2.400 livros e deseja registrar o idioma de todos eles consultando seu catálogo completo. A investigação é censitária ou amostral? Explique.
+
+
+MAT-EST-002-EX-APR-02 — População-alvo
+Uma escola quer saber como todos os seus 900 estudantes chegam às aulas. Qual é a população-alvo?
+
+
+MAT-EST-002-EX-APR-03 — Marco amostral
+A escola usa uma lista de matrícula atualizada para sortear estudantes. Que papel essa lista desempenha no desenho da pesquisa?
+
+
+MAT-EST-002-EX-APR-04 — Conveniência
+Uma pesquisa sobre hábitos de leitura de toda a cidade entrevista somente clientes que estão dentro de uma livraria. Qual é o principal problema de seleção?
+
+
+MAT-EST-002-EX-APR-05 — Resposta voluntária
+Um portal abre uma enquete sobre satisfação com transporte público e qualquer visitante pode responder. Por que o resultado não deve ser tratado automaticamente como pesquisa probabilística da cidade?
+
+
+MAT-EST-002-EX-APR-06 — Amostragem aleatória simples
+Em uma turma com 30 estudantes numerados, um programa sorteia 6 números distintos. Que método introdutório está sendo usado?
+
+
+MAT-EST-002-EX-APR-07 — Sistemática
+Uma lista tem 500 registros e deseja-se selecionar 50, com início aleatório e depois um registro a cada 10 posições. Que método é esse?
+
+
+MAT-EST-002-EX-APR-08 — Estratificada
+Uma escola sorteia estudantes separadamente dentro de cada série para garantir presença de 1º, 2º e 3º anos. Que método está sendo usado?
+
+
+MAT-EST-002-EX-APR-09 — Conglomerados
+Uma rede sorteia 5 turmas entre 50 e entrevista todos os estudantes das turmas sorteadas. Que método introdutório descreve melhor o procedimento?
+
+
+MAT-EST-002-EX-APR-10 — Tipos de erro
+Um questionário pergunta de maneira tendenciosa: “Você apoia a excelente nova biblioteca?”. Qual fonte de erro aparece principalmente?
+
+
+CONSOLIDAÇÃO
+
+
+MAT-EST-002-EX-CON-01 — Censo sem perfeição
+Explique por que uma pesquisa censitária pode continuar sujeita a erro mesmo quando pretende observar toda a população.
+
+
+MAT-EST-002-EX-CON-02 — Tamanho versus viés
+Pesquisa A tem 5.000 respostas voluntárias pela internet. Pesquisa B tem 600 pessoas selecionadas probabilisticamente de um cadastro adequado. É correto escolher A como mais representativa apenas porque é maior? Justifique.
+
+
+MAT-EST-002-EX-CON-03 — Fração amostral
+Uma população tem N = 2.000 unidades e a amostra planejada tem n = 200. Calcule f = n/N e interprete o resultado sem confundi-lo com representatividade.
+
+
+MAT-EST-002-EX-CON-04 — Alocação proporcional
+Uma escola tem 700 estudantes no turno da manhã e 300 à noite. Deseja amostra estratificada proporcional de 100 estudantes. Quantos selecionar em cada turno?
+
+
+MAT-EST-002-EX-CON-05 — Não resposta
+Foram selecionadas 300 pessoas, mas apenas 210 responderam. Por que “300 selecionadas” e “210 respondentes” precisam aparecer separadamente no relatório?
+
+
+MAT-EST-002-EX-CON-06 — Cobertura
+Uma pesquisa eleitoral por telefone usa cadastro que não contém um grupo relevante da população-alvo. Mesmo que o sorteio dentro do cadastro seja perfeito, que erro permanece?
+
+
+MAT-EST-002-EX-CON-07 — Sistemática e periodicidade
+Uma fábrica registra quatro tipos de peça repetidos sempre na mesma sequência. Por que selecionar a cada 4ª posição pode ser perigoso?
+
+
+MAT-EST-002-EX-CON-08 — Estrato versus conglomerado
+Explique, em uma frase para cada método, a diferença entre amostragem estratificada e por conglomerados.
+
+
+MAT-EST-002-EX-CON-09 — Desenho escolar
+Uma escola quer estimar uso de transporte público e sabe que os três anos têm tamanhos muito diferentes. Proponha um desenho simples que preserve a presença de todos os anos.
+
+
+MAT-EST-002-EX-CON-10 — Cinco erros
+Associe cada situação ao tipo predominante de erro: a) cadastro omite moradores recentes; b) entrevistado não atende; c) pergunta ambígua; d) digitação troca 18 por 81; e) duas amostras aleatórias legítimas dão proporções ligeiramente diferentes.
+
+
+TRANSFERÊNCIA E ESTILO VESTIBULAR — QUESTÕES AUTORAIS
+
+
+MAT-EST-002-EX-VES-01 — Enquete esportiva
+Um site pergunta aos leitores qual é o clube mais popular do Brasil. Votam 80 mil visitantes. Escreva uma conclusão metodologicamente adequada sobre o que esses 80 mil votos permitem e não permitem afirmar.
+
+
+MAT-EST-002-EX-VES-02 — Pesquisa em terminal
+Uma prefeitura quer conhecer o meio de transporte de todos os trabalhadores e entrevista 1.500 pessoas somente em um terminal de ônibus. Identifique a fonte principal de viés e proponha uma melhoria de desenho.
+
+
+MAT-EST-002-EX-VES-03 — Amostra maior
+Duas amostras usam o mesmo método probabilístico adequado: uma tem 400 unidades e outra 1.600, na mesma população e para o mesmo objetivo. O que tende a melhorar com maior n e o que não fica garantido apenas por isso?
+
+
+MAT-EST-002-EX-VES-04 — Planejamento por bairros
+Uma cidade deseja garantir informação de cinco bairros com tamanhos populacionais muito diferentes. Explique por que estratificar por bairro pode ser útil e que cuidado deve ser tomado ao agregar os resultados.
+
+
+MAT-EST-002-EX-VES-05 — Conglomerados econômicos
+Uma pesquisa nacional sorteia escolas e, dentro de cada escola sorteada, seleciona estudantes. Por que esse desenho pode ser logisticamente mais barato do que sortear estudantes espalhados por todo o país? Qual limite estatístico precisa ser lembrado?
+
+
+MAT-EST-002-EX-VES-06 — Censo com questionário amostral
+Explique como uma operação censitária pode, ao mesmo tempo, usar um questionário detalhado aplicado apenas a uma amostra, sem contradição conceitual.
+
+
+MAT-EST-002-EX-VES-07 — Sorteio na rua
+Um repórter afirma: “Escolhi ao acaso 100 pessoas que passavam nesta praça; logo tenho amostragem aleatória simples da cidade”. Critique a afirmação.
+
+
+MAT-EST-002-EX-VES-08 — Não resposta diferencial
+Em uma pesquisa de satisfação, 90% dos clientes satisfeitos respondem, mas apenas 20% dos insatisfeitos. Explique por que a taxa final de satisfação entre respondentes pode estar distorcida.
+
+
+MAT-EST-002-EX-VES-09 — Cadastro duplicado
+Uma lista usada para sorteio contém algumas pessoas duas vezes. Que problema isso cria para as probabilidades de inclusão e para a ideia de amostragem simples?
+
+
+MAT-EST-002-EX-VES-10 — Parecer de quatro frases
+Redija até quatro frases avaliando a pesquisa: população de 10.000 trabalhadores; 500 selecionados aleatoriamente de um cadastro que cobre todos os setores; 430 respondentes; pergunta neutra. Inclua uma força do desenho e pelo menos dois limites.
+
+
+RETESTE POSTERIOR
+
+
+MAT-EST-002-EX-RET-01 — Novo censo
+Uma associação tem 65 membros e registra a idade de todos em cadastro atualizado. Classifique o levantamento e cite um tipo de erro que ainda pode existir.
+
+
+MAT-EST-002-EX-RET-02 — Nova estratificação
+Uma população possui 200 unidades no grupo A e 800 no B. Para uma amostra proporcional de 100, quantas unidades selecionar em cada grupo?
+
+
+MAT-EST-002-EX-RET-03 — Novo sistemático
+Uma lista tem 240 itens e a amostra desejada é 24. Calcule o intervalo k e explique a função do início aleatório.
+
+
+MAT-EST-002-EX-RET-04 — Nova conveniência
+Uma pesquisa sobre alimentação de universitários entrevista apenas frequentadores do restaurante vegetariano. Qual generalização deve ser evitada?
+
+
+MAT-EST-002-EX-RET-05 — Novo mapa de erros
+Diferencie em uma frase erro amostral e erro de cobertura.
+
+
+MAT-EST-002-EX-RET-06 — Projeto independente
+Você quer estimar a proporção de moradores de um condomínio que usam bicicleta ao menos uma vez por semana. Esboce população, marco amostral, método de seleção, registro de não resposta e uma limitação.

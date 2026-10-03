@@ -1,0 +1,56 @@
+[
+  {
+    "entidade": "Fonte interna — 02 Metodologia de aprendizagem e aprofundamento",
+    "tipo": "arquivo_do_projeto",
+    "uso": "camadas didáticas; áudio; correções, reteste e revisão"
+  },
+  {
+    "entidade": "Fonte interna — 03 Matriz Mestre e estrutura curricular",
+    "tipo": "arquivo_do_projeto",
+    "uso": "nível 6, progressão por pré-requisitos e sem classificação artificial de prova oficial"
+  },
+  {
+    "entidade": "Fonte interna — 04 Acessibilidade no Edge",
+    "tipo": "arquivo_do_projeto",
+    "uso": "leitura em voz alta, pronúncia de fórmulas, explicação textual de tabelas e visuais"
+  },
+  {
+    "entidade": "Fonte interna — 05 Padrão visual",
+    "tipo": "arquivo_do_projeto",
+    "uso": "sete esquemas com descrição, observação e conclusão textual"
+  },
+  {
+    "entidade": "Fonte interna — 06 Arquitetura e modelo de conteúdo",
+    "tipo": "arquivo_do_projeto",
+    "uso": "IDs permanentes, Markdown, JSON e progresso desacoplado"
+  },
+  {
+    "entidade": "MAT-EST-045",
+    "tipo": "antecessor_editorial",
+    "uso": "base trimestral e convenção HW, dois arquivos CSV preservados integralmente"
+  },
+  {
+    "entidade": "Hyndman e Athanasopoulos, Forecasting: Principles and Practice, 3ª ed., seção 5.10",
+    "url": "https://otexts.com/fpp3/tscv.html",
+    "tipo": "referencia_tecnica_publica",
+    "uso": "avaliação com origens móveis/expansivas, h1 e h2, prevenção de uso de informação futura"
+  },
+  {
+    "entidade": "Hyndman e Athanasopoulos, FPP3, seção 5.8",
+    "url": "https://otexts.com/fpp3/accuracy.html",
+    "tipo": "referencia_tecnica_publica",
+    "uso": "erro de previsão fora do ajuste, MAE, RMSE e limitações de métricas de treino"
+  },
+  {
+    "entidade": "Hyndman e Athanasopoulos, FPP3, seção 5.5",
+    "url": "https://otexts.com/fpp3/prediction-intervals.html",
+    "tipo": "referencia_tecnica_publica",
+    "uso": "incerteza por horizonte e distinção entre faixas arbitrárias e intervalos probabilísticos"
+  },
+  {
+    "entidade": "MIT OpenCourseWare, Lecture 12: Time Series Analysis",
+    "url": "https://ocw.mit.edu/courses/18-642-topics-in-mathematics-with-applications-in-finance-fall-2024/resources/18642-lecture-12-version-2_mp4/",
+    "tipo": "video_institucional",
+    "uso": "complemento sobre análise e dependência temporal; página localizada, reprodução integral não testada"
+  }
+]

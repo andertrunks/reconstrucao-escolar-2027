@@ -1,0 +1,30 @@
+{
+  "id": "MAT-EST-056",
+  "escopo": "verificação editorial e de bytes em ambiente local; não valida registro externo ou execução",
+  "resultado_testes": {
+    "passaram": 31,
+    "total": 31
+  },
+  "arquivos_herdados_sha256_identicos": 23,
+  "questoes_autorais": 36,
+  "questoes_oficiais": 0,
+  "ids_unicos": 36,
+  "svg_semanticos": 6,
+  "protocolo_historico_intacto": true,
+  "guarda_t19": "19,2 > 10; não promover C no protocolo antigo",
+  "sucessor": "rascunho local, sem pré-registro externo",
+  "t23_t25": "sem observações ou emissões autenticadas",
+  "t26_t33": "alvos apenas propostos, zero emissões e zero observados",
+  "html": "prévia local; sem teste manual Edge",
+  "png": "composição ilustrativa; não captura do site",
+  "video": "página OSF com indicação de vídeo verificada na web; duração e reprodução integral não verificadas",
+  "progress": "não iniciado; inalterado",
+  "publication": "não realizada",
+  "drive_sync": "não realizada",
+  "github_sync": "não realizada",
+  "sha_manifest_entries": 69,
+  "sha_manifest_exclusions": [
+    "manifesto-sha256.txt",
+    "relatorio-integridade.json"
+  ]
+}

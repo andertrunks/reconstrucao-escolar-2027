@@ -1,0 +1,254 @@
+[
+  {
+    "questaoId": "MAT-EST-045-EX-APR-01",
+    "respostaEsperada": "m=4 significa quatro observações por ciclo anual: primeiro, segundo, terceiro e quarto trimestres.",
+    "correcaoComentada": "Conte a frequência de coleta: a cada ano há quatro pontos, então cada posição do ciclo reaparece quatro observações depois. Em dados mensais com sazonalidade anual, m seria 12.",
+    "motivoProvavelDoErroParaInvestigacao": "conteúdo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-APR-02",
+    "respostaEsperada": "90; 107; 128; 105 e média 107,5 unidades.",
+    "correcaoComentada": "Somando 90+107+128+105 obtemos 430; dividimos por quatro e encontramos 107,5. A média bruta não é ainda o nível na origem t1 da inicialização escolhida.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-APR-03",
+    "respostaEsperada": "b4 = (105−90)/3 = 5 unidades por trimestre.",
+    "correcaoComentada": "Há três intervalos entre as observações 1 e 4; por isso o divisor é 3 e não 4. É um palpite operacional inicial, pois um único ciclo não separa inequivocamente sazonalidade de tendência.",
+    "motivoProvavelDoErroParaInvestigacao": "estratégia",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-APR-04",
+    "respostaEsperada": "128−5×2=118 unidades corrigidas.",
+    "correcaoComentada": "Da posição t1 à t3 transcorreram dois intervalos. Removemos dez unidades. Usar três intervalos deslocaria a origem e prejudicaria a decomposição inicial.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-APR-05",
+    "respostaEsperada": "100 unidades.",
+    "correcaoComentada": "A soma é 400, então a média é 100. Esta centralização separa uma referência de nível dos desvios trimestrais sob a convenção inicial escolhida.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-APR-06",
+    "respostaEsperada": "[−10,+2,+18,−10] unidades.",
+    "correcaoComentada": "Faça cada desvio: 90−100, 102−100, 118−100 e 90−100. A soma é zero, característica da centralização aditiva no início.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-APR-07",
+    "respostaEsperada": "l4=100+3×5=115 unidades.",
+    "correcaoComentada": "Entre t1 e t4 há três passos. O estado l4 é o nível sem efeito sazonal, não o valor observado y4=105. O quarto trimestre tem efeito inicial igual a −10.",
+    "motivoProvavelDoErroParaInvestigacao": "interpretação",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-APR-08",
+    "respostaEsperada": "110 unidades.",
+    "correcaoComentada": "A origem de previsão está no fim de t4. Some o nível 115, a inclinação de um passo 5 e o índice da fase equivalente do ano anterior −10. O y5=111 não entra nesta previsão.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-APR-09",
+    "respostaEsperada": "Alfa atualiza nível; beta-asterisco, tendência; gama, sazonalidade.",
+    "correcaoComentada": "São três ponderações de estados diferentes. O número de estações m=4 é o período do calendário, não um quarto parâmetro de suavização. Esta aula fixa previamente alfa 0,3, beta-asterisco 0,2 e gama 0,2.",
+    "motivoProvavelDoErroParaInvestigacao": "conteúdo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-APR-10",
+    "respostaEsperada": "Erro = +1 unidade; a previsão vem antes da observação.",
+    "correcaoComentada": "Registre a previsão no final de t4, depois observe t5. Só então faça 111−110=1 e atualize os estados. Reordenar etapas introduz informação futura.",
+    "motivoProvavelDoErroParaInvestigacao": "interpretação",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-CON-01",
+    "respostaEsperada": "l5=0,3×121+0,7×120=120,3 unidades.",
+    "correcaoComentada": "Primeiro elimine o efeito sazonal: 111−(−10)=121. A projeção de base antiga é 115+5=120. Combine 30% de 121 com 70% de 120, sem utilizar o novo s5.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-CON-02",
+    "respostaEsperada": "b5=0,2×5,3+0,8×5=5,06 unidades por trimestre.",
+    "correcaoComentada": "A variação nova do nível é 120,3−115=5,3. A ponderação preserva oitenta por cento da inclinação antiga de cinco e acrescenta vinte por cento da nova variação.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-CON-03",
+    "respostaEsperada": "s5=0,2×(111−115−5)+0,8×(−10)=−9,8 unidades.",
+    "correcaoComentada": "O erro em relação à base prevista é −9. Multiplique por 0,2 e adicione 0,8 do índice anterior −10. Não troque l4 e b4 por l5 e b5 sem redefinir a parametrização.",
+    "motivoProvavelDoErroParaInvestigacao": "estratégia",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-CON-04",
+    "respostaEsperada": "127,36 unidades.",
+    "correcaoComentada": "A fase seguinte ao primeiro trimestre é a segunda: l5+b5+s2 = 120,3+5,06+2. O observado y6=124 ainda não é usado nessa conta.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-CON-05",
+    "respostaEsperada": "l6=124,352 unidades.",
+    "correcaoComentada": "A observação dessazonalizada é 124−2=122. A projeção de base é 120,3+5,06=125,36. Faça 0,3×122+0,7×125,36=36,6+87,752=124,352.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-CON-06",
+    "respostaEsperada": "b6=4,8584 unidades por trimestre.",
+    "correcaoComentada": "A mudança do nível é 4,052. Assim 0,2×4,052+0,8×5,06=0,8104+4,048=4,8584, mostrando que a tendência também responde ao erro recebido.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-CON-07",
+    "respostaEsperada": "Porque t7 e t3 estão separados por m=4 e ocupam a mesma fase sazonal.",
+    "correcaoComentada": "A informação antiga relevante é o índice do terceiro trimestre do ciclo anterior. s6 descreve o segundo trimestre e misturaria fases distintas. O método preserva a correspondência de calendário em t e t−m.",
+    "motivoProvavelDoErroParaInvestigacao": "conteúdo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-CON-08",
+    "respostaEsperada": "2,7896 unidades.",
+    "correcaoComentada": "Defina erro como observado menos previsto; 150−147,2104=+2,7896. Não confunda este resíduo sequencial dentro do treinamento com um erro de teste independente.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-CON-09",
+    "respostaEsperada": "l8≈135,6511 e b8≈5,1414.",
+    "correcaoComentada": "As atualizações usam y5, y6, y7 e y8, nessa ordem, com índices anteriores de suas respectivas fases. Os valores completos para reprodutibilidade são 135,6511392 e 5,14139264.",
+    "motivoProvavelDoErroParaInvestigacao": "memória",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-CON-10",
+    "respostaEsperada": "Gama deveria ser no máximo 0,7; 0,8 não atende a gama≤1−alfa.",
+    "correcaoComentada": "No livro FPP3, a versão de gama adotada nesta aula satisfaz 0≤gama≤1−alfa, ou seja, até 0,7. Outra convenção com gama-asterisco existe, mas não deve ser trocada silenciosamente.",
+    "motivoProvavelDoErroParaInvestigacao": "conteúdo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-VES-01",
+    "respostaEsperada": "t9≈130,9925 e t12≈146,6021 unidades.",
+    "correcaoComentada": "Para h=1 use s5: 135,6511392+5,14139264−9,8=130,99253184. Para h=4 use s8: 135,6511392+4×5,14139264−9,6146112=146,60209856. Nenhum observado t9..t12 entra nos estados.",
+    "motivoProvavelDoErroParaInvestigacao": "estratégia",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-VES-02",
+    "respostaEsperada": "Usou a fase terceiro trimestre no lugar da fase primeiro trimestre, cujo índice é s5=−9,8.",
+    "correcaoComentada": "t9 é o primeiro trimestre do ciclo seguinte ao treino, então deve reutilizar s5. A troca acrescentaria 28,35792 unidades à previsão e quebraria a correspondência sazonal.",
+    "motivoProvavelDoErroParaInvestigacao": "interpretação",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-VES-03",
+    "respostaEsperada": "Erro≈−1,99253184 e erro absoluto≈1,99253184 unidades.",
+    "correcaoComentada": "A convenção é observado menos previsto: 129−130,99253184. O sinal negativo indica previsão acima da observação; MAE usa o módulo, sem o sinal.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-VES-04",
+    "respostaEsperada": "MAE≈2,05582944 unidades.",
+    "correcaoComentada": "Some os módulos: 1,99253184+2,26192448+1,36676288+2,60209856=8,22331776. Divida por quatro: 2,05582944. É a média dos erros absolutos neste conjunto didático de quatro observações.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-VES-05",
+    "respostaEsperada": "O deslocamento tem menor MAE e Holt-Winters tem menor RMSE no mesmo recorte; a métrica depende do custo de erros grandes.",
+    "correcaoComentada": "MAE pondera cada módulo linearmente, RMSE eleva os erros ao quadrado e retorna à unidade após a raiz. A diferença decorre do perfil dos quatro erros; resultados sintéticos e curtos não demonstram superioridade geral.",
+    "motivoProvavelDoErroParaInvestigacao": "interpretação",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-VES-06",
+    "respostaEsperada": "Aumentos [21; 17; 22; 22], média 20,5 unidades; previsões [131,5; 144,5; 170,5; 147,5].",
+    "correcaoComentada": "Primeiro subtraia trimestres equivalentes: 111−90, 124−107, 150−128 e 127−105. Somando 82 e dividindo por quatro resulta 20,5, estimado só com t1..t8.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-VES-07",
+    "respostaEsperada": "O conjunto de teste participou da seleção; a avaliação deixou de ser independente.",
+    "correcaoComentada": "Esses quatro pontos viraram material de validação ou exploração. Registre todas as tentativas, escolha parâmetros com janelas passadas e reserve um futuro ainda intocado para testar generalização real.",
+    "motivoProvavelDoErroParaInvestigacao": "estratégia",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-VES-08",
+    "respostaEsperada": "Passou de previsão de quatro passos na origem t8 para tarefa atualizada, mais próxima de um passo na origem t11.",
+    "correcaoComentada": "Há informações novas e horizonte diferente. A comparação do mesmo protocolo deve usar exclusivamente os estados t8 para todos os quatro horizontes; avaliações com reestimativas posteriores precisam ser registradas como outro experimento.",
+    "motivoProvavelDoErroParaInvestigacao": "interpretação",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-VES-09",
+    "respostaEsperada": "Se todos os pontos usados pertencem ao treinamento disponível na origem de previsão e o algoritmo documenta onde a atualização começa.",
+    "correcaoComentada": "Não se deve inicializar no t4 com y5..t8 e depois anunciar as previsões t5..t8 como feitas em tempo real. A inicialização com dados posteriores pode servir a ajuste interno, mas deve ser rotulada, evitando falso passado.",
+    "motivoProvavelDoErroParaInvestigacao": "estratégia",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-VES-10",
+    "respostaEsperada": "No recorte didático, o modelo tem MAE de cerca de 2,0558 unidades. A série artificial curta e o bloco de teste já divulgado não autorizam garantir precisão futura.",
+    "correcaoComentada": "A primeira frase informa número, unidade e horizonte. A segunda explicita tamanho e natureza da série, método de inicialização, parâmetros previamente fixados e necessidade de testar em novos dados cronológicos.",
+    "motivoProvavelDoErroParaInvestigacao": "interpretação",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-RET-01",
+    "respostaEsperada": "m=12; atualizar o mês 14 usando o índice sazonal do mês 2.",
+    "correcaoComentada": "Mês 14 e mês 2 são a mesma fase do ciclo anual, separados por doze observações. Não aplique m=4 só porque o exemplo anterior era trimestral.",
+    "motivoProvavelDoErroParaInvestigacao": "conteúdo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-RET-02",
+    "respostaEsperada": "Corrigidos [40,50,60,40]; média 47,5; efeitos [−7,5;+2,5;+12,5;−7,5].",
+    "correcaoComentada": "Subtraia 0, 5, 10 e 15 das observações. A soma corrigida é 190 e a média 47,5. Os desvios somam zero. l4=47,5+3×5=62,5, se necessário para continuar.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-RET-03",
+    "respostaEsperada": "60 unidades.",
+    "correcaoComentada": "A previsão usa o efeito do primeiro trimestre do novo ciclo: 62,5+5−7,5=60. Não se deve usar um eventual y5 antes de emitir a previsão.",
+    "motivoProvavelDoErroParaInvestigacao": "estratégia",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-RET-04",
+    "respostaEsperada": "l5=68,3 unidades.",
+    "correcaoComentada": "O valor dessazonalizado é 62−(−7,5)=69,5; a base prevista anterior é 62,5+5=67,5. Assim l5=0,4×69,5+0,6×67,5=27,8+40,5=68,3.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-RET-05",
+    "respostaEsperada": "s5=−7,1 unidades.",
+    "correcaoComentada": "Pela convenção adotada, s5=0,2×(62−62,5−5)+0,8×(−7,5)=0,2×(−5,5)−6=−7,1. A equação usa l4 e b4, não o l5 novo.",
+    "motivoProvavelDoErroParaInvestigacao": "cálculo",
+    "observarRespostaRealAntesDeClassificar": true
+  },
+  {
+    "questaoId": "MAT-EST-045-EX-RET-06",
+    "respostaEsperada": "É uma comparação retrospectiva didática, não uma nova validação independente; o modelo deve ser reavaliado em futuras observações ainda não usadas para escolhas.",
+    "correcaoComentada": "Distinguir disponibilidade do dado no cálculo do modelo e conhecimento prévio do conjunto pelos autores. Guardar origens, parâmetros e tentativas para que ninguém interprete resultado retrospectivo como prova prospectiva.",
+    "motivoProvavelDoErroParaInvestigacao": "estratégia",
+    "observarRespostaRealAntesDeClassificar": true
+  }
+]

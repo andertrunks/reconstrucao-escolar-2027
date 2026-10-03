@@ -1,0 +1,186 @@
+{
+  "aula": "MAT-EST-050",
+  "liberacao": "somente apos tentativa efetiva",
+  "correcoes": [
+    {
+      "id": "MAT-EST-050-EX-APR-01",
+      "resposta": "O histórico fictício vai até t22. t23, t24 e t25 não têm observado neste pacote. Cenários com y23 não preenchem essa ausência.",
+      "motivosDeErro": "interpretação: tomar hipótese por ocorrência"
+    },
+    {
+      "id": "MAT-EST-050-EX-APR-02",
+      "resposta": "Erro é 20 menos 24, ou menos quatro unidades. O modelo previu acima do observado, portanto ocorreu superprevisão.",
+      "motivosDeErro": "conteúdo: inverter observado menos previsto"
+    },
+    {
+      "id": "MAT-EST-050-EX-APR-03",
+      "resposta": "Os módulos foram quatro e 23,2 unidades, respectivamente. Retirar sinal serve à comparação de magnitudes, mas o sinal continua necessário para calcular custo assimétrico.",
+      "motivosDeErro": "cálculo: manter sinal no módulo"
+    },
+    {
+      "id": "MAT-EST-050-EX-APR-04",
+      "resposta": "O custo é duas vezes três, igual a seis pontos. Não existe parcela negativa para e positivo.",
+      "motivosDeErro": "conteúdo: confundir penalidade de sinal"
+    },
+    {
+      "id": "MAT-EST-050-EX-APR-05",
+      "resposta": "Custo é três pontos, pois a parte positiva é zero e a magnitude negativa é três. O peso cinco não atua na superprevisão nesta definição.",
+      "motivosDeErro": "conteúdo: penalizar ambos os sinais pelo mesmo r"
+    },
+    {
+      "id": "MAT-EST-050-EX-APR-06",
+      "resposta": "Custo de cada linha é o módulo do erro, porque ambas as direções custam um ponto por unidade; a média coincide numericamente com MAE. As unidades de custo seguem sendo pontos fictícios.",
+      "motivosDeErro": "conteúdo: não reconhecer função por partes"
+    },
+    {
+      "id": "MAT-EST-050-EX-APR-07",
+      "resposta": "Oitenta e oito dividido por cinco é 17,6 unidades. Não dividir por oito: três alvos do protocolo ainda não foram observados.",
+      "motivosDeErro": "cálculo: usar tamanho planejado da amostra"
+    },
+    {
+      "id": "MAT-EST-050-EX-APR-08",
+      "resposta": "Não. É somente cenário condicional e permanece em arquivo separado com rótulo de não observado.",
+      "motivosDeErro": "interpretação: misturar simulação condicional e registro"
+    },
+    {
+      "id": "MAT-EST-050-EX-APR-09",
+      "resposta": "A diferença 23,2 menos quatro é 19,2 unidades. Não é 19,2 por cento.",
+      "motivosDeErro": "cálculo: confundir operação e unidade"
+    },
+    {
+      "id": "MAT-EST-050-EX-APR-10",
+      "resposta": "Não. Trata-se de uma conjunção lógica; amostra incompleta e falha da guarda local impedem aprovação dentro daquele protocolo.",
+      "motivosDeErro": "estratégia: substituir critérios múltiplos por uma métrica"
+    },
+    {
+      "id": "MAT-EST-050-EX-CON-01",
+      "resposta": "Positivos somam 84; magnitude negativa soma quatro. Dividindo (84r+4) por cinco, obtemos 16,8r+0,8 pontos por previsão.",
+      "motivosDeErro": "cálculo: esquecer divisão por cinco"
+    },
+    {
+      "id": "MAT-EST-050-EX-CON-02",
+      "resposta": "(16,4r+25,4)/5 é igual a 3,28r+5,08 pontos por previsão. As parcelas têm origem em sinais diferentes dos cinco erros.",
+      "motivosDeErro": "conteúdo: trocar partes positivas e negativas"
+    },
+    {
+      "id": "MAT-EST-050-EX-CON-03",
+      "resposta": "B=16,8 vezes dois mais 0,8 = 34,4. C=3,28 vezes dois mais 5,08 = 11,64. Diferença é 22,76 pontos fictícios em favor de C no agregado alternativo.",
+      "motivosDeErro": "cálculo: substituição numérica ou subtração"
+    },
+    {
+      "id": "MAT-EST-050-EX-CON-04",
+      "resposta": "Subtraindo 3,28r e depois 0,8, fica 13,52r=4,28. Portanto r=4,28/13,52, cerca de 0,31657. O resultado é adimensional.",
+      "motivosDeErro": "álgebra: transpor termo com sinal incorreto"
+    },
+    {
+      "id": "MAT-EST-050-EX-CON-05",
+      "resposta": "B=5,00, C=5,90, então B fica 0,90 ponto abaixo. O achado mostra dependência do custo e não altera o protocolo r=3.",
+      "motivosDeErro": "cálculo: arredondar o limiar cedo"
+    },
+    {
+      "id": "MAT-EST-050-EX-CON-06",
+      "resposta": "B=(88−4)/4=21. C=(41,8−23,2)/4=4,65. Essa conta mede influência; a guarda original continua registrando t19.",
+      "motivosDeErro": "estratégia: transformar diagnóstico em exclusão oficial"
+    },
+    {
+      "id": "MAT-EST-050-EX-CON-07",
+      "resposta": "B=(88−25)/4=15,75 e C=(41,8−9,8)/4=8. A redução relativa neste recorte é aproximadamente 49,21 por cento.",
+      "motivosDeErro": "cálculo: usar cinco no denominador após retirar um"
+    },
+    {
+      "id": "MAT-EST-050-EX-CON-08",
+      "resposta": "B23 é y19, ou 183. Não é y22, pois a referência sazonal usa a mesma estação do ciclo anterior.",
+      "motivosDeErro": "conteúdo: confundir sazonal ingênuo com último valor"
+    },
+    {
+      "id": "MAT-EST-050-EX-CON-09",
+      "resposta": "A soma é 80 e a média em cinco valores é 16. O candidato prevê 183+16=199 unidades. A janela só usa informações disponíveis até t22.",
+      "motivosDeErro": "cálculo: dividir pelo período sazonal quatro em vez da janela cinco"
+    },
+    {
+      "id": "MAT-EST-050-EX-CON-10",
+      "resposta": "d22=190−176=14. A soma da janela cai de 80 para 77; sua média cai para 15,4. A previsão C23 hipotética seria 198,4, não 199.",
+      "motivosDeErro": "estratégia: sobrescrever dado e previsão originais"
+    },
+    {
+      "id": "MAT-EST-050-EX-VES-01",
+      "resposta": "Não existe preferência de custo independente do peso: no recorte r=0,25 a média B é menor; em r=3 a média C é menor. Esses resultados são descritivos e não substituem a guarda do protocolo.",
+      "motivosDeErro": "interpretação: extrapolar uma métrica para todas as políticas"
+    },
+    {
+      "id": "MAT-EST-050-EX-VES-02",
+      "resposta": "A condição local falha porque 19,2 supera dez. Redução agregada não compensa uma porta definida como obrigatória. A regra também exige oito pares, e há só cinco.",
+      "motivosDeErro": "estratégia: ponderar critérios que foram definidos como portas obrigatórias"
+    },
+    {
+      "id": "MAT-EST-050-EX-VES-03",
+      "resposta": "Erros seriam +8 e −8, módulos ambos oito. Custos seriam 24 e oito pontos, pois o mesmo tamanho em sentidos opostos recebe pesos distintos. Não afirmar que y23 aconteceu.",
+      "motivosDeErro": "conteúdo: confundir módulo e custo"
+    },
+    {
+      "id": "MAT-EST-050-EX-VES-04",
+      "resposta": "Módulos seriam cinco e 21 unidades; C pioraria dezesseis unidades, além do limite dez. É cenário condicional, não mais uma falha observada.",
+      "motivosDeErro": "interpretação: transformar cenário em evidência histórica"
+    },
+    {
+      "id": "MAT-EST-050-EX-VES-05",
+      "resposta": "Erros +26 e +10; módulos 26 e dez; custos 78 e 30 pontos fictícios. A melhora condicional de C não reverte a falha já registrada em t19.",
+      "motivosDeErro": "estratégia: considerar nova possibilidade como reparo do histórico"
+    },
+    {
+      "id": "MAT-EST-050-EX-VES-06",
+      "resposta": "A previsão C23 sob a hipótese cairia de 199 para 198,4, diferença de menos 0,6. Uma retificação real deve manter a emissão original, nova versão e momento do evento; reescrever o passado elimina auditabilidade.",
+      "motivosDeErro": "interpretação: achar que mudança pequena dispensa registro"
+    },
+    {
+      "id": "MAT-EST-050-EX-VES-07",
+      "resposta": "Não se pode obter d23 verdadeiro sem y23. O valor condicional obtido sob cenário y23=191 é legítimo somente como cenário, nunca como emissão real baseada nos dados de t22.",
+      "motivosDeErro": "estratégia: cruzar fronteira de informação"
+    },
+    {
+      "id": "MAT-EST-050-EX-VES-08",
+      "resposta": "As quatro linhas remanescentes se sobrepõem fortemente entre diagnósticos e pertencem à mesma sequência temporal inventada. Logo, não são cinco testes independentes nem validam inferência probabilística externa.",
+      "motivosDeErro": "conteúdo: ignorar dependência entre subconjuntos"
+    },
+    {
+      "id": "MAT-EST-050-EX-VES-09",
+      "resposta": "O protocolo herdado continua violado; uma nova política com guarda vinte teria de receber outra versão, justificativa e avaliação posterior independente. Não se pode apresentar ajuste pós-resultado como congelamento prévio.",
+      "motivosDeErro": "estratégia: retrospectiva apresentada como pré-registro"
+    },
+    {
+      "id": "MAT-EST-050-EX-VES-10",
+      "resposta": "Exemplo: Comparamos B e C em cinco alvos fictícios h1. MAE foi 17,6 versus 8,36 unidades, com custo médio r=3 de 51,2 versus 14,92 pontos. Em t19, C piorou 19,2 unidades, excedendo a guarda de dez. Faltam três pares e auditoria/autorização, portanto não há promoção nem inferência de desempenho real futuro.",
+      "motivosDeErro": "interpretação: omitir unidade, ressalva ou contexto da média"
+    },
+    {
+      "id": "MAT-EST-050-EX-RET-01",
+      "resposta": "P(r)=(30r+5)/5=6r+1. Q(r)=(10r+25)/5=2r+5. Igualando, 4r=4 e r=1. Esta questão exige transferir a derivação, não memorizar o limiar do exemplo central.",
+      "motivosDeErro": "conteúdo: não reconstruir separação de sinais"
+    },
+    {
+      "id": "MAT-EST-050-EX-RET-02",
+      "resposta": "Erros seriam +5 e −10; módulos cinco e dez; custos dez e dez pontos. Igual custo não implica igual erro absoluto. O observado continua hipotético.",
+      "motivosDeErro": "cálculo: confundir direção e peso"
+    },
+    {
+      "id": "MAT-EST-050-EX-RET-03",
+      "resposta": "Média original (1+15+2)/3=6. Nos dois restantes seria 1,5; essa queda não apaga a perda individual de 15, que continua violando a guarda.",
+      "motivosDeErro": "estratégia: usar exclusão descritiva para contornar regra"
+    },
+    {
+      "id": "MAT-EST-050-EX-RET-04",
+      "resposta": "A média cai oito dividido por quatro, isto é, duas unidades. O ajuste é hipotético e uma retificação real precisa de trilha de versões.",
+      "motivosDeErro": "cálculo: esquecer efeito do denominador"
+    },
+    {
+      "id": "MAT-EST-050-EX-RET-05",
+      "resposta": "y51 só será conhecido após o período-alvo, então há vazamento. Congelar a regra com valores até t50 e registrar emissão antes da revelação de y51; avaliar depois e preservar versões.",
+      "motivosDeErro": "estratégia: ignorar ordenação temporal"
+    },
+    {
+      "id": "MAT-EST-050-EX-RET-06",
+      "resposta": "Os alvos são fictícios e não constituem amostra de operação real; a escolha da regra e os valores não formam teste externo cego; é preciso avaliação futura com emissões registradas, dados auditados e métricas/guardas predefinidas. Uma média menor isolada não assegura cada alvo.",
+      "motivosDeErro": "interpretação: extrapolar amostra sintética"
+    }
+  ]
+}

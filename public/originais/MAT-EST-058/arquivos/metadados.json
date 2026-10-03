@@ -1,0 +1,122 @@
+{
+  "id": "MAT-EST-058",
+  "slug": "leitura-critica-relatorios-temporais-resultados-parciais-vies-selecao-comunicacao-incerteza-coorte",
+  "titulo": "Leitura crítica de relatórios temporais: resultados parciais, viés de seleção e comunicação de incerteza por coorte",
+  "materia": "Matemática",
+  "unidade": "Estatística / séries temporais / ponte universitária",
+  "nivel": 6,
+  "ordem": 58,
+  "anterior": "MAT-EST-057",
+  "proximoTopico": "MAT-EST-059",
+  "preRequisitos": [
+    "MAT-EST-047",
+    "MAT-EST-049",
+    "MAT-EST-050",
+    "MAT-EST-057"
+  ],
+  "objetivos": [
+    "ler denominadores e coortes",
+    "calcular médias e diferença emparelhada",
+    "detectar seleção posterior ao resultado",
+    "distinguir hipótese de ausência e dado disponível",
+    "calcular limites aritméticos condicionais",
+    "comunicar incerteza por coorte"
+  ],
+  "conceitosRelacionados": [
+    "MAE",
+    "custo assimétrico",
+    "viés de seleção",
+    "casos completos",
+    "dados ausentes MCAR MAR MNAR",
+    "limites de sensibilidade",
+    "coorte",
+    "vintage temporal"
+  ],
+  "examesRelacionados": [
+    "transferência à interpretação de matemática e gráficos no ENEM, FUVEST, UNICAMP e UNESP; análise de ausências e protocolo não afirmada como conteúdo obrigatório",
+    "ponte universitária"
+  ],
+  "origem": "autoral",
+  "questoesOficiais": 0,
+  "questoesAutorais": 36,
+  "aulaMarkdown": "MAT-EST-058-leitura-critica-relatorios-temporais-resultados-parciais-vies-selecao-comunicacao-incerteza-coorte.md",
+  "exercicios": "exercicios.json",
+  "gabarito": "gabarito-comentado.json",
+  "visuais": [
+    {
+      "src": "assets/01-quatro-escopos.svg",
+      "alt": "Quatro conjuntos informacionais: cinco pares históricos, quarentena sem observado, sucessor proposto sem emissões, sandbox isolado com dois pares.",
+      "autoria": "original do projeto"
+    },
+    {
+      "src": "assets/02-denominadores.svg",
+      "alt": "Oito planejados viram dois avaliáveis e seis pendentes; completude tem denominador oito, média dos erros tem denominador dois.",
+      "autoria": "original do projeto"
+    },
+    {
+      "src": "assets/03-diferenca-emparelhada.svg",
+      "alt": "Gráfico das diferenças de módulos C menos B: S01 menos um, S02 mais três; média mais um.",
+      "autoria": "original do projeto"
+    },
+    {
+      "src": "assets/04-selecao-pos-resultado.svg",
+      "alt": "O MAE passa de B três e C quatro para B quatro e C três quando S02 é excluído após o resultado.",
+      "autoria": "original do projeto"
+    },
+    {
+      "src": "assets/05-limites-condicionais.svg",
+      "alt": "Faixas aritméticas sob M hipotético dez: B de zero vírgula setenta e cinco a oito vírgula vinte e cinco; C de um a oito vírgula cinco.",
+      "autoria": "original do projeto"
+    },
+    {
+      "src": "assets/06-relatorio-responsavel.svg",
+      "alt": "Fluxo com pergunta, denominadores, corte, métricas, pendências e conclusão.",
+      "autoria": "original do projeto"
+    }
+  ],
+  "video": {
+    "titulo": "Sampling Methods and Bias with Surveys: Crash Course Statistics #10",
+    "canal": "CrashCourse",
+    "url": "https://www.youtube.com/watch?v=Rf-fIpB4D50",
+    "idioma": "inglês",
+    "duracaoAproximada": "não confirmada",
+    "momento": "após seção 5",
+    "utilidade": "analogia sobre seleção e representatividade; não é tutorial de série temporal",
+    "verificacao": "página pública do vídeo encontrada por pesquisa; reprodução integral não realizada"
+  },
+  "fontes": [
+    {
+      "nome": "Forecasting Principles and Practice — Time series cross-validation",
+      "url": "https://otexts.com/fpp3/tscv.html"
+    },
+    {
+      "nome": "Forecasting Principles and Practice — Accuracy",
+      "url": "https://otexts.com/fpp3/accuracy.html"
+    },
+    {
+      "nome": "BMJ Open — Reporting missing participant data (analogia, não previsão)",
+      "url": "https://bmjopen.bmj.com/content/5/12/e008431"
+    },
+    {
+      "nome": "CONSORT 2025 (analogia de relato de perdas)",
+      "url": "https://www.bmj.com/content/389/bmj-2024-081124"
+    }
+  ],
+  "dados": {
+    "t01_t22": "preservado",
+    "t23_t25": "sem emissão ou observado autenticado",
+    "t26_t33": "oito propostos, zero pares",
+    "sandbox": "SANDBOX-057 isolado com dois pares e seis pendências",
+    "exemplosVZ": "isolados"
+  },
+  "revisao": {
+    "diasAposTentativa": [
+      1,
+      7,
+      30
+    ],
+    "statusIndividual": "não iniciado; inalterado"
+  },
+  "statusEditorial": "concluido_localmente_nao_publicado",
+  "progressoIndividualAlterado": false
+}

@@ -1,0 +1,5 @@
+recorte,n_planejado,n_avaliavel,pendentes,MAE_B_unidade,MAE_C_unidade,custo_B_pontos,custo_C_pontos,tipo_resultado
+historico MAT-EST-049,8,5,3,17.60,8.36,51.20,14.92,histórico fictício: t19 viola guarda
+quarentena t23–t25,3,0,3,,,,,sem observado e emissão autenticada
+sucessor t26–t33,8,0,8,,,,,proposto: zero eventos
+SANDBOX-057 corte A,8,2,6,3,4,7,7,apenas exercício isolado

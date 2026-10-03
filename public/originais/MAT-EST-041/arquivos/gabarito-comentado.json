@@ -1,0 +1,254 @@
+[
+  {
+    "id": "MAT-EST-041-EX-APR-01",
+    "resposta": "Três pacientes.",
+    "resolucao": "Conte identificadores de pessoas, não o número de linhas. Há seis medições agrupadas em P1, P2 e P3.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-APR-02",
+    "resposta": "Podem compartilhar padrões e efeitos persistentes.",
+    "resolucao": "A demanda de hoje pode carregar fatores de ontem; o número de dias não equivale ao de experimentos separados.",
+    "causaProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-APR-03",
+    "resposta": "A escola inteira.",
+    "resolucao": "O sorteio original foi entre escolas. Repetir separadamente alunos cria agrupamentos e independências artificiais.",
+    "causaProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-APR-04",
+    "resposta": "Sim.",
+    "resolucao": "O sorteio é com reposição entre identificadores de pacientes; as duas medições seguem o paciente em cada seleção.",
+    "causaProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-APR-05",
+    "resposta": "3.",
+    "resolucao": "Somar as duas medidas, seis, e dividir por duas; esse paciente contribui com uma média ao alvo por paciente.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-APR-06",
+    "resposta": "[2,4].",
+    "resolucao": "A janela deve manter adjacência e ordem; não é uma escolha de quaisquer dois valores.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-APR-07",
+    "resposta": "Cinco.",
+    "resolucao": "Os inícios possíveis são períodos 1, 2, 3, 4 e 5; a posição 6 não comporta um par completo.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-APR-08",
+    "resposta": "Não.",
+    "resolucao": "No instante da previsão, o alvo ainda está desconhecido. Usá-lo no treino tornaria o teste contaminado.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-APR-09",
+    "resposta": "Os horizontes e os dados disponíveis são diferentes.",
+    "resolucao": "A origem deve ser a data a partir da qual a informação é conhecida. Um teste de quatro passos reserva quatro períodos posteriores.",
+    "causaProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-APR-10",
+    "resposta": "Não.",
+    "resolucao": "Réplicas artificiais reutilizam escolas já amostradas; podem reduzir flutuação computacional, não preencher escolas ausentes.",
+    "causaProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-CON-01",
+    "resposta": "7.",
+    "resolucao": "Somamos as médias individuais: 3 + 7 + 11 = 21; dividimos por três pacientes, com o mesmo peso para cada pessoa, resultando 7.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-CON-02",
+    "resposta": "27.",
+    "resolucao": "A primeira seleção tem três opções, assim como a segunda e a terceira. Como há reposição e a ordem importa, 3 × 3 × 3 = 27.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-CON-03",
+    "resposta": "32/3.",
+    "resolucao": "Centro 7, desvios −4,0,+4; quadrados 16,0,16; soma 32 e divisão pelo número de valores possíveis, três.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-CON-04",
+    "resposta": "32/9.",
+    "resolucao": "Três seleções independentes na distribuição bootstrap: a variância da média é a variância de um sorteio dividida por três.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-CON-05",
+    "resposta": "1,886.",
+    "resolucao": "A raiz da fração é √32/3≈5,656854/3≈1,885618; arredondamos para 1,886.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-CON-06",
+    "resposta": "23/3≈7,667.",
+    "resolucao": "Cada escola recebe peso igual de um terço. As três médias somam 3 + 8 + 12 = 23; dividir por três gera 23/3, aproximadamente 7,667.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-CON-07",
+    "resposta": "7.",
+    "resolucao": "A soma é 42 para seis estudantes, daí 42/6=7; outro alvo que a média por escola.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-CON-08",
+    "resposta": "125.",
+    "resolucao": "Existem cinco janelas em cada um dos três sorteios com reposição; multiplicamos 5 × 5 × 5 = 125 sequências ordenadas possíveis.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-CON-09",
+    "resposta": "[2,4,2,4,10,12].",
+    "resolucao": "Copiar cada janela inteira, na ordem sorteada, mantendo a ordem interna dos períodos.",
+    "causaProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-CON-10",
+    "resposta": "34/6≈5,667.",
+    "resolucao": "Mantemos as seis posições após a concatenação. A soma é 2 + 4 + 2 + 4 + 10 + 12 = 34; sua média é 34/6, cerca de 5,667.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-VES-01",
+    "resposta": "Foi perdida a preservação da dependência intraclasse.",
+    "resolucao": "O sorteio verdadeiro opera em escolas. Ao agir por linha, reinterpreta-se cada aluno como unidade de seleção independente e se altera a variância estimada.",
+    "causaProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-VES-02",
+    "resposta": "(a) 6; (b) 4,8.",
+    "resolucao": "As médias das escolas sorteadas são 3,3,12: soma 18/3=6. Os alunos repetidos são 2,4,2,4,12: soma 24/5=4,8.",
+    "causaProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-VES-03",
+    "resposta": "Dependem da unidade simulada; não comprovam cobertura com três grupos.",
+    "resolucao": "A menor dispersão ingênua decorre do sorteio independente de linhas. Com G=3, o bootstrap por grupos também é demonstrativo, não valida intervalos populacionais automaticamente.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-VES-04",
+    "resposta": "A série tem forte tendência e não foi justificada a hipótese de estabilidade.",
+    "resolucao": "O número 125 confirma apenas a enumeração. O método para inferência exige hipóteses temporais relevantes, como tratamento de não estacionariedade e escolha do bloco.",
+    "causaProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-VES-05",
+    "resposta": "8 e 8/3.",
+    "resolucao": "A média é 7. Quadrados das diferenças são 16,4,0,4,16; 40/5=8. Por independência dos três sorteios no mundo bootstrap, 8/3.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-VES-06",
+    "resposta": "1–4→5; 1–5→6; 1–6→7; 1–7→8.",
+    "resolucao": "Cada dobra estende o treino até a véspera do alvo; testar o passado com treino futuro seria diferente e inadequado para essa pergunta.",
+    "causaProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-VES-07",
+    "resposta": "20 atendimentos.",
+    "resolucao": "Previsões 100,90,110,130; erros 10,20,20,30; soma 80 dividida por quatro, igual a 20.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-VES-08",
+    "resposta": "MAE 12,5, inferior a 20 nesse recorte.",
+    "resolucao": "Erros absolutos 10,10,30,0, soma 50, divisão por 4=12,5. É comparação histórica de quatro dias, não generalização universal.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-VES-09",
+    "resposta": "Não.",
+    "resolucao": "São previsões preexistentes. O protocolo de refit não está documentado para essas colunas; podem ser comparadas por seus erros, não apresentadas como CV reexecutada.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-VES-10",
+    "resposta": "Separação por escola não vista e por período futuro com disponibilidade de variáveis respeitada.",
+    "resolucao": "Escolas novas pedem avaliação por grupo, e horizonte novo exige corte cronológico; se ambos importam, desenho conjunto, sem vazamento ou ajuste com teste final.",
+    "causaProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-RET-01",
+    "resposta": "Quatro famílias completas, quatro sorteios com reposição.",
+    "resolucao": "A unidade da pergunta é família; as três respostas permanecem agrupadas a cada família selecionada.",
+    "causaProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-RET-02",
+    "resposta": "Seis.",
+    "resolucao": "O início pode ocorrer nos índices 1 a 6; fórmula n − comprimento + 1 = 8 − 3 + 1 = 6.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-RET-03",
+    "resposta": "36.",
+    "resolucao": "Cada posição comporta seis opções, e as escolhas são independentes na distribuição reamostrada: 6²=36.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-RET-04",
+    "resposta": "Não.",
+    "resolucao": "O instante real de disponibilidade termina em 7; o dia 8 pertence ao intervalo sem informação liberada.",
+    "causaProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-RET-05",
+    "resposta": "Não.",
+    "resolucao": "Reamostrar dados existentes não cria escolas que o desenho nunca incluiu; generalização de lugar demanda seleção e teste apropriados.",
+    "causaProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-041-EX-RET-06",
+    "resposta": "3.",
+    "resolucao": "Previsões 10,14,11; observados 14,11,13; erros absolutos 4,3,2, cuja soma 9 dividida por três dá 3.",
+    "causaProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  }
+]

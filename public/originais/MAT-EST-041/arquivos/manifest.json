@@ -1,0 +1,188 @@
+{
+  "id": "MAT-EST-041",
+  "slug": "inferencia-dados-dependentes-reamostragem-blocos-conglomerados-validacao-temporal-limites-generalizacao",
+  "titulo": "Inferência com dados dependentes: reamostragem por blocos e conglomerados, validação temporal e limites de generalização",
+  "materia": "Matemática",
+  "unidade": "Estatística",
+  "nivel": [
+    6
+  ],
+  "ordem": 41,
+  "tipoConteudo": "aprofundamento_ponte_universitaria_dados_dependentes",
+  "anterior": "MAT-EST-040",
+  "preRequisitos": [
+    "MAT-EST-019",
+    "MAT-EST-020",
+    "MAT-EST-021",
+    "MAT-EST-023",
+    "MAT-EST-031",
+    "MAT-EST-034",
+    "MAT-EST-035",
+    "MAT-EST-039",
+    "MAT-EST-040"
+  ],
+  "objetivos": [
+    "identificar unidade independente e estimando",
+    "reconstruir bootstrap de conglomerados e blocos",
+    "organizar validação cronológica",
+    "avaliar o risco de vazamento de dados",
+    "delimitar generalizações estatísticas"
+  ],
+  "examesRelacionados": [
+    "ENEM (fundamentos correlatos)",
+    "FUVEST (fundamentos correlatos)",
+    "UNICAMP (fundamentos correlatos)",
+    "UNESP (fundamentos correlatos)"
+  ],
+  "notaExames": "Métodos avançados são ponte universitária; todos os itens são autorais e não são atribuídos a bancas.",
+  "arquivoMarkdown": "MAT-EST-041-inferencia-dados-dependentes-reamostragem-blocos-conglomerados-validacao-temporal-limites-generalizacao.md",
+  "arquivoExercicios": "exercicios.json",
+  "arquivoGabarito": "gabarito-comentado.json",
+  "arquivoDados": "dados-ficticios-referencia.csv",
+  "origemDados": "MAT-EST-040/dados-ficticios-referencia.csv, cópia binária",
+  "origemCSVSHA256": "f1cc3989cd8c701a14e544c424b797f27594806ae302a93253e2a1b82fab5ca9",
+  "arquivoCalculos": "calculos-reproduziveis.json",
+  "arquivoCodigo": "calculos-reproduziveis.py",
+  "visuais": [
+    {
+      "id": "MAT-EST-041-VIS-01",
+      "arquivo": "assets/01-unidade-dependencia.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Da coleta à inferência com dependência",
+      "legenda": "Da coleta à inferência com dependência",
+      "alt": "Três colunas associam coleta, dependência e alvo de inferência.",
+      "oQueObservar": "Antes de sortear registros, localize o que pode variar sem quebrar vínculos.",
+      "conclusaoTextual": "O método depende do desenho de coleta e da pergunta, não do número de linhas."
+    },
+    {
+      "id": "MAT-EST-041-VIS-02",
+      "arquivo": "assets/02-conglomerados.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Bootstrap por conglomerados: três pacientes",
+      "legenda": "Bootstrap por conglomerados: três pacientes",
+      "alt": "Três pacientes com dois números cada, média 3,7,11, sorteados como unidades inteiras.",
+      "oQueObservar": "Compare seis medições registradas com três pacientes independentes.",
+      "conclusaoTextual": "São 27 sequências de três pacientes, não bootstrap de seis linhas separadas."
+    },
+    {
+      "id": "MAT-EST-041-VIS-03",
+      "arquivo": "assets/03-pesos-conglomerados.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Dois alvos: escola média versus aluno médio",
+      "legenda": "Dois alvos: escola média versus aluno médio",
+      "alt": "Escolas A, B, C de tamanhos diferentes; média por escola 7,667 e por aluno 7.",
+      "oQueObservar": "Pergunte qual elemento recebe peso igual no parâmetro.",
+      "conclusaoTextual": "Peso igual por escola não equivale a peso igual por aluno."
+    },
+    {
+      "id": "MAT-EST-041-VIS-04",
+      "arquivo": "assets/04-blocos-moveis.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Bootstrap por blocos móveis de comprimento dois",
+      "legenda": "Bootstrap por blocos móveis de comprimento dois",
+      "alt": "Cinco pares consecutivos e sorteio com reposição de três blocos.",
+      "oQueObservar": "O bloco preserva vizinhança interna, embora colagens produzam novas fronteiras.",
+      "conclusaoTextual": "Há cinco ao cubo, 125 réplicas; tendência da série impede alegação automática de cobertura."
+    },
+    {
+      "id": "MAT-EST-041-VIS-05",
+      "arquivo": "assets/05-origem-movel.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Validação temporal com janela expansiva",
+      "legenda": "Validação temporal com janela expansiva",
+      "alt": "Quatro pares de treino no passado e teste no dia seguinte.",
+      "oQueObservar": "Verifique se todo índice de treino precede o índice de teste.",
+      "conclusaoTextual": "Ordenação temporal protege contra usar o futuro, mas não impede todos os vazamentos de variáveis."
+    },
+    {
+      "id": "MAT-EST-041-VIS-06",
+      "arquivo": "assets/06-erros-origem-movel.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Erro da previsão ingênua na avaliação temporal",
+      "legenda": "Erro da previsão ingênua na avaliação temporal",
+      "alt": "Barras 10, 20, 20 e 30 para dias 5 a 8; ambos eixos estão rotulados.",
+      "oQueObservar": "Note a elevação do erro no último dia e não confunda quatro testes com quatro séries independentes.",
+      "conclusaoTextual": "A soma dos erros absolutos é 80, dividida por quatro resulta MAE 20 atendimentos."
+    },
+    {
+      "id": "MAT-EST-041-VIS-07",
+      "arquivo": "assets/07-arvore-desenho.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "titulo": "Árvore de decisão: desenho, método e limites",
+      "legenda": "Árvore de decisão: desenho, método e limites",
+      "alt": "Cinco etapas de decisão e alerta de generalização para tempo e locais novos.",
+      "oQueObservar": "Não usar método estatístico como um substituto da pergunta-alvo.",
+      "conclusaoTextual": "O plano de validação e os limites precisam ser definidos antes de ver o resultado."
+    }
+  ],
+  "video": {
+    "titulo": "Lecture 12: Time Series Analysis",
+    "canal": "MIT OpenCourseWare, Topics in Mathematics with Applications in Finance (Fall 2024)",
+    "url": "https://ocw.mit.edu/courses/18-642-topics-in-mathematics-with-applications-in-finance-fall-2024/resources/18642-lecture-12-version-2_mp4/",
+    "idioma": "inglês",
+    "duracaoAproximada": "não confirmada",
+    "momentoRecomendado": "após seção 4",
+    "motivo": "estacionariedade e autocorrelação, pré-requisitos da dependência temporal",
+    "verificacao": "página oficial e presença de video verificadas em 28/09/2026; reprodução integral não testada"
+  },
+  "fontes": [
+    {
+      "instituicao": "Penn State",
+      "titulo": "STAT 510 Lesson 1",
+      "url": "https://online.stat.psu.edu/stat510/Lesson01",
+      "uso": "dependência, estacionariedade"
+    },
+    {
+      "instituicao": "The R Journal",
+      "titulo": "Bootstrapping Clustered Data in R using lmeresampler",
+      "url": "https://journal.r-project.org/articles/RJ-2023-015/",
+      "uso": "bootstrap por conglomerados"
+    },
+    {
+      "instituicao": "Hyndman e Athanasopoulos",
+      "titulo": "Forecasting: Principles and Practice §5.10",
+      "url": "https://otexts.com/fpp3/tscv.html",
+      "uso": "origem móvel"
+    },
+    {
+      "instituicao": "scikit-learn",
+      "titulo": "TimeSeriesSplit",
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html",
+      "uso": "separação temporal"
+    },
+    {
+      "instituicao": "CRAN",
+      "titulo": "moving block bootstrap",
+      "url": "https://packages.oit.ncsu.edu/cran/web/packages/modernBoot/refman/modernBoot.html",
+      "uso": "blocos móveis"
+    },
+    {
+      "instituicao": "MIT OCW",
+      "titulo": "Lecture 12: Time Series Analysis",
+      "url": "https://ocw.mit.edu/courses/18-642-topics-in-mathematics-with-applications-in-finance-fall-2024/resources/18642-lecture-12-version-2_mp4/",
+      "uso": "vídeo complementar"
+    }
+  ],
+  "quantidadeQuestoesAutorais": 36,
+  "questoesOficiaisReproduzidas": 0,
+  "camadas": {
+    "aprendizagem": 10,
+    "consolidacao": 10,
+    "transferencia": 10,
+    "reteste": 6
+  },
+  "statusEditorial": "produzido_localmente_nao_publicado",
+  "statusAprendizagemInicial": "nao_iniciado",
+  "progressosAnterioresAlterados": false,
+  "proximoTopico": {
+    "id": "MAT-EST-042",
+    "titulo": "Dependência temporal e modelos iniciais de séries: defasagens, autocorrelação, médias móveis e diagnóstico de resíduos"
+  }
+}

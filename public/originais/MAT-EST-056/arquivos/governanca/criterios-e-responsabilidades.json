@@ -1,0 +1,23 @@
+{
+  "id": "MAT-EST-055-GOV-EXEMPLO-v1",
+  "natureza": "roteiro didatico autoral, nao documento de uma organizacao real",
+  "protocolo_congelado": "MAT-EST-049-PROT-v1",
+  "plano_nao_executado": "MAT-EST-051-PLAN-v1",
+  "criterios_herdados_sem_modificacao": {
+    "pares_minimos": 8,
+    "reducao_minima_mae_percent": 20,
+    "reducao_minima_custo_percent": 20,
+    "piora_local_maxima_unidades": 10,
+    "auditoria_qualidade": true,
+    "aprovacao_humana_e_rollback": true
+  },
+  "distincoes": {
+    "revisao_de_protocolo": "gera nova versao com efeito futuro; não altera resultados antigos",
+    "encerramento_de_avaliacao": "conclui decisão e arquiva evidências; não equivale a aposentadoria do modelo",
+    "aposentadoria_de_modelo": "requer ato separado com inventário, dependências e plano de substituição",
+    "pausa_por_incidente": "pode ocorrer antes de completar a amostra quando há porta bloqueante"
+  },
+  "escopo": "serie principal t18-t22; V e Z são anexos isolados, nao pares principais",
+  "data_referencia": "2026-09-29",
+  "marcos": "G1-G5 são apenas ordem lógica fictícia, não comprovantes de atos externos"
+}

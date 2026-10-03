@@ -1,0 +1,71 @@
+{
+  "id": "MAT-EST-051-PLAN-v1",
+  "type": "didactic_draft_not_executed",
+  "parent_protocol": "MAT-EST-049-PROT-v1",
+  "parent_protocol_mutated": false,
+  "objectives": [
+    "Document future task origin and one-step horizon",
+    "Keep observations separate from scenarios",
+    "Pair B/C only after validated target arrives",
+    "Conclude inherited protocol without erasing t19 breach"
+  ],
+  "next_targets": [
+    "t23",
+    "t24",
+    "t25"
+  ],
+  "status": "design_only",
+  "emissions_created": 0,
+  "observations_created": 0,
+  "stated_at": "2026-09-29",
+  "timestamps_not_evidence_of_prior_emission": true,
+  "protocol_gates": {
+    "pairs_required": 8,
+    "mae_ratio_max": 0.8,
+    "mean_cost_ratio_max": 0.8,
+    "worst_local_deterioration_max": 10,
+    "quality_audit_required": true,
+    "human_approval_and_rollback_required": true
+  },
+  "cost": "3*max(error,0)+max(-error,0)",
+  "error_sign": "observed-minus-predicted",
+  "field_specification": {
+    "forecast": [
+      "event_id",
+      "protocol_id",
+      "model_version",
+      "origin_period",
+      "target_period",
+      "horizon",
+      "forecast_value",
+      "unit",
+      "input_data_snapshot_id",
+      "input_max_period",
+      "issued_at_or_authenticated_order",
+      "status",
+      "algorithm_version",
+      "digest"
+    ],
+    "observation": [
+      "observation_id",
+      "target_period",
+      "observed_value_or_null",
+      "source",
+      "available_at",
+      "quality_status",
+      "data_version",
+      "corrects_event_id_or_null"
+    ],
+    "pair": [
+      "pair_id",
+      "reference_event_id",
+      "challenger_event_id",
+      "validated_observation_id",
+      "signed_errors",
+      "absolute_errors",
+      "costs",
+      "local_deterioration"
+    ]
+  },
+  "nonpromotion_reason": "Five of eight synthetic pairs, and t19 local deterioration 19.2 > 10 already violated inherited protocol."
+}

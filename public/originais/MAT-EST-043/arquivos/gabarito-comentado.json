@@ -1,0 +1,254 @@
+[
+  {
+    "id": "MAT-EST-043-EX-APR-01",
+    "resposta": "m = 4.",
+    "resolucao": "A unidade de tempo é o trimestre. Para comparar a mesma fase do ano, retornamos quatro observações. Essa periodicidade de calendário não prova por si só que toda série trimestral apresente sazonalidade observável.",
+    "categoriaErroProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-02",
+    "resposta": "115 unidades.",
+    "resolucao": "Substitua t por quatro: t menos um vale três; cinco vezes três é quinze; somado a cem resulta 115. É um componente definido artificialmente, e não uma estimativa obtida do gráfico.",
+    "categoriaErroProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-03",
+    "resposta": "+20 unidades.",
+    "resolucao": "Localize a terceira entrada do vetor sazonal; o sinal positivo representa acréscimo absoluto de vinte unidades em relação ao componente de tendência. Não trate o número vinte como porcentagem.",
+    "categoriaErroProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-04",
+    "resposta": "Zero.",
+    "resolucao": "Some −10+0+20−10=0. A restrição de soma zero é uma normalização usual em decomposição aditiva com sazonalidade fixa; distribui os desvios entre as quatro fases.",
+    "categoriaErroProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-05",
+    "resposta": "150 unidades.",
+    "resolucao": "A identidade y=T+S+R determina 130+20+0=150. A interpretação depende de termos componentes definidos; não significa que decomposição automática sempre recuperará esses números.",
+    "categoriaErroProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-06",
+    "resposta": "−1 unidade.",
+    "resolucao": "Isole R=y−T−S. Faça 124−125−0=−1. Um restante não é necessariamente erro de instrumento: pode conter choques e padrões não representados.",
+    "categoriaErroProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-07",
+    "resposta": "108 unidades.",
+    "resolucao": "Em modelo aditivo, ajuste sazonal é y−S. Logo 128−20=108, que corresponde a T+R=110−2=108, e não somente à tendência T.",
+    "categoriaErroProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-08",
+    "resposta": "21 unidades.",
+    "resolucao": "Com m=4, Δ4y(5)=y(5)−y(1)=111−90=21. Ela mede a mudança em unidades para a mesma fase, não a taxa percentual de crescimento.",
+    "categoriaErroProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-09",
+    "resposta": "+6 unidades.",
+    "resolucao": "Primeira diferença compara observações consecutivas: 111−105=6. Ela não coincide necessariamente com a diferença sazonal, que compara períodos separados por quatro observações.",
+    "categoriaErroProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-APR-10",
+    "resposta": "111 unidades.",
+    "resolucao": "Para o próximo primeiro trimestre, repita o último primeiro trimestre já conhecido. Nesse corte temporal, y(9) será comparado com y(5), e y(9) não estava disponível na emissão da previsão.",
+    "categoriaErroProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-01",
+    "resposta": "144 unidades.",
+    "resolucao": "Comece no nível 155. A fase sazonal diminui dez unidades e o restante reduz mais uma: 155−10−1=144. Como a escala é aditiva, os valores são diferenças absolutas.",
+    "categoriaErroProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-02",
+    "resposta": "21; 17; 22; 22; 18; 21; 21; 17.",
+    "resolucao": "Alinhe as fases: 111−90=21; 124−107=17; 150−128=22; 127−105=22; 129−111=18; 145−124=21; 171−150=21; 144−127=17. Ao avançar quatro trimestres comparamos estações equivalentes.",
+    "categoriaErroProvavel": "montagem da estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-03",
+    "resposta": "Diferença de tendências mais diferença dos restantes.",
+    "resolucao": "Subtraia duas identidades: [T(t)−T(t−4)]+[S(t)−S(t−4)]+[R(t)−R(t−4)]. Por repetição fixa, o termo sazonal se anula. Isso não garante que a nova série seja independente ou tenha média zero.",
+    "categoriaErroProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-04",
+    "resposta": "107,5 unidades.",
+    "resolucao": "A soma é 430, dividida por quatro resulta 107,5. Por ser um número par de períodos, o ponto central desta janela fica entre os períodos 2 e 3, não exatamente no período 3.",
+    "categoriaErroProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-05",
+    "resposta": "110,125 unidades.",
+    "resolucao": "A primeira média se posiciona entre os períodos 2 e 3; a segunda, entre 3 e 4. A média dessas duas é (107,5+112,75)/2=110,125, centrada em 3. Esse filtro consultou o período 5, portanto é retrospectivo nesse momento.",
+    "categoriaErroProvavel": "montagem da estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-06",
+    "resposta": "120 unidades.",
+    "resolucao": "Na decomposição multiplicativa, y=T×S×R. Faça 100×1,20×1=120. O fator 1,20 significa vinte por cento acima do nível de referência, diferente de somar vinte unidades em qualquer escala.",
+    "categoriaErroProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-07",
+    "resposta": "20,5 unidades por mesma fase anual.",
+    "resolucao": "Somamos 21+17+22+22=82 e dividimos por quatro: 20,5. Fixar essa regra no treino evita selecionar um parâmetro depois de conhecer o conjunto de teste.",
+    "categoriaErroProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-08",
+    "resposta": "131,5 unidades.",
+    "resolucao": "A regra criada para esta aula adiciona ao último valor da mesma fase o deslocamento médio histórico: 111+20,5=131,5. Ela não é uma decomposição STL e não exige conhecer o valor observado no teste.",
+    "categoriaErroProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-09",
+    "resposta": "19,25 unidades.",
+    "resolucao": "Os erros absolutos são 18,21,21,17. Sua soma 77 dividida pelos quatro trimestres é 19,25. Não se deve substituir um dos períodos por dados do treino ou misturar horizontes distintos.",
+    "categoriaErroProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-CON-10",
+    "resposta": "Raiz de 1495 dividida por 2, aproximadamente 19,33 unidades.",
+    "resolucao": "Eleve cada erro ao quadrado: 324,441,441,289; soma 1495. Divida por quatro e extraia a raiz: raiz de 1495/4 = raiz de 1495 dividida por dois.",
+    "categoriaErroProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-01",
+    "resposta": "A frequência e o comprimento da série não permitem observar três ou mais ciclos trimestrais.",
+    "resolucao": "Periodicidade sazonal precisa de unidade temporal, datas coerentes e repetições. Oito dias não contêm trimestres comparáveis. É válido descrever flutuações diárias, mas não atribuir sazonalidade trimestral por analogia visual.",
+    "categoriaErroProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-02",
+    "resposta": "Uma estrutura multiplicativa, ou uma transformação que estabilize a amplitude, pode ser pertinente.",
+    "resolucao": "A amplitude sazonal cresceu na mesma proporção do nível, de dez a vinte quando o patamar dobrou. Um efeito percentual mais estável sugere fator multiplicativo; examine também zeros, sinais e resíduos antes de escolher.",
+    "categoriaErroProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-03",
+    "resposta": "Houve vazamento cronológico.",
+    "resolucao": "A média centrada depende de observações posteriores ao período a que se refere. O período nove não podia ser conhecido no fim do seis. Para previsão use regra causal e só histórico disponível naquele momento.",
+    "categoriaErroProvavel": "montagem da estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-04",
+    "resposta": "20 unidades.",
+    "resolucao": "O crescimento por trimestre é cinco e quatro trimestres separam o par: T(t)−T(t−4)=5×4=20. A parte S é igual na mesma fase e cancela; com R zero não resta variação adicional.",
+    "categoriaErroProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-05",
+    "resposta": "17 unidades; a comparação tem atraso quatro.",
+    "resolucao": "A diferença é 144−127=17. A primeira diferença seria y(12)−y(11)=144−171=−27. Alterar o atraso modifica a pergunta e pode trocar até o sinal.",
+    "categoriaErroProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-06",
+    "resposta": "1,75 unidade.",
+    "resolucao": "Erros absolutos são 2,5; 0,5; 0,5; 3,5. Sua soma é 7; dividindo por quatro dá 1,75. É desempenho ilustrativo no teste curto, não expectativa garantida para novos dados.",
+    "categoriaErroProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-07",
+    "resposta": "Raiz de 19 dividida por 2, aproximadamente 2,18 unidades.",
+    "resolucao": "Os quadrados são 6,25;0,25;0,25;12,25, com soma 19. A média quadrática é 19/4, cuja raiz é raiz de 19/2. A média simples dos erros não substitui RMSE.",
+    "categoriaErroProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-08",
+    "resposta": "Reconhecer seleção no teste e avaliar novamente em outro conjunto futuro que não participou da escolha.",
+    "resolucao": "O teste serviu como validação de modelos quando orientou a escolha. Registre a decisão, fixe a regra e, se houver dados, reserve outra janela posterior. Evite refazer decisões para ocultar o uso do teste.",
+    "categoriaErroProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-09",
+    "resposta": "A reconstrução exata dos componentes não é garantida.",
+    "resolucao": "A identidade artificial é conhecida porque foi definida na geração. Estimadores reais dependem de hipóteses, janela, fronteiras, choques, identificação e parâmetros; por exemplo, a média móvel centrada em t3 vale 110,125 e o T construído t3 vale 110.",
+    "categoriaErroProvavel": "interpretação",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-VES-10",
+    "resposta": "Não. O segundo modelo utilizou os próprios alvos de avaliação em seu ajuste.",
+    "resolucao": "Defina instante de emissão e treine ambos com informações encerradas em t8. O segundo desempenho é de ajuste ou contaminado, e não generalização fora da amostra. Reestime em corte correto para comparar.",
+    "categoriaErroProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-RET-01",
+    "resposta": "12 observações.",
+    "resolucao": "São doze medições mensais por ano. Para comparar março de dois anos consecutivos, subtraia o valor de doze meses antes, não o mês imediatamente anterior.",
+    "categoriaErroProvavel": "conteúdo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-RET-02",
+    "resposta": "4,3,6,2.",
+    "resolucao": "Alinhe t5−t1=44−40=4; t6−t2=63−60=3; t7−t3=56−50=6; t8−t4=72−70=2. Os valores vieram de outro conjunto; não decore as diferenças do exercício anterior.",
+    "categoriaErroProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-RET-03",
+    "resposta": "−6 unidades.",
+    "resolucao": "Da identidade aditiva 44=60−10+R, isolamos R=44−60+10=−6. Verifique reconstruindo o observado: 60−10−6=44. A interpretação é em unidades absolutas, não percentuais.",
+    "categoriaErroProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-RET-04",
+    "resposta": "44 unidades.",
+    "resolucao": "t9 tem a fase do primeiro trimestre, cujo último observado era t5=44. O valor 72 de t8 pertence à quarta fase e não é a referência sazonal apropriada.",
+    "categoriaErroProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-RET-05",
+    "resposta": "2;1;2 unidades.",
+    "resolucao": "Alinhe posições separadas por três: 14−12=2; 21−20=1; 17−15=2. O intervalo é dado pelo período hipotético três, não pelo padrão trimestral usado na aula principal.",
+    "categoriaErroProvavel": "cálculo",
+    "correcaoAposTentativa": true
+  },
+  {
+    "id": "MAT-EST-043-EX-RET-06",
+    "resposta": "Não; utiliza informação futura no pré-processamento.",
+    "resolucao": "Mesmo que a fórmula final não mostre y7 diretamente, o parâmetro sazonal já foi calculado com esse alvo. Todos os passos, incluindo ajuste de sazonalidade e normalização, precisam ser reconstruídos apenas com dados disponíveis em t6.",
+    "categoriaErroProvavel": "estratégia",
+    "correcaoAposTentativa": true
+  }
+]

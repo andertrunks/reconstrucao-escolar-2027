@@ -1,0 +1,27 @@
+{
+  "id": "MAT-EST-051",
+  "tests": {
+    "question_count": 36,
+    "unique_question_ids": true,
+    "answer_separation": true,
+    "six_accessible_svgs": true,
+    "six_inherited_csv_byte_identical": true,
+    "inherited_protocol_byte_identical": true,
+    "pending_targets_without_observation": true,
+    "B23": 183,
+    "C23": 199,
+    "C24_if_x191": 193.6,
+    "C25_if_x191_z185": 202.2,
+    "guard_t19_breach": 19.2,
+    "preview": "composição visual ilustrativa local; captura automatizada Chromium excedeu tempo de execução; NÃO screenshot",
+    "svgs_xml_valid": true
+  },
+  "limitations": [
+    "No Drive/GitHub sync",
+    "No publication",
+    "No manual Edge/read-aloud test",
+    "No actual prospective emission authenticated",
+    "No t23–t25 observation",
+    "YouTube runtime and length not verified"
+  ]
+}

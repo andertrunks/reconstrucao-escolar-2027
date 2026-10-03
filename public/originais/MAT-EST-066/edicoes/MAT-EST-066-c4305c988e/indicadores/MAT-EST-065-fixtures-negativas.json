@@ -1,0 +1,79 @@
+{
+  "id": "MAT-EST-065-NEG-v1",
+  "natureza": "casos sintéticos de validação, não incidentes reais",
+  "casos": [
+    {
+      "id": "N65-00",
+      "classe": "controle_correto",
+      "input": {
+        "evaluable": 2,
+        "planned": 8,
+        "sum_abs_B": 6,
+        "reported_MAE_B": 3,
+        "scope": "sandbox",
+        "real_incident_rate": null
+      },
+      "expected": "accept_local_fixture"
+    },
+    {
+      "id": "N65-01",
+      "classe": "denominador_trocado",
+      "input": {
+        "evaluable": 2,
+        "planned": 8,
+        "sum_abs_B": 6,
+        "reported_MAE_B": 0.75,
+        "scope": "sandbox",
+        "real_incident_rate": null
+      },
+      "expected": "reject_mae_denominator"
+    },
+    {
+      "id": "N65-02",
+      "classe": "nulo_como_zero",
+      "input": {
+        "future_evaluable": 0,
+        "future_MAE": 0
+      },
+      "expected": "reject_nonestimable_as_zero"
+    },
+    {
+      "id": "N65-03",
+      "classe": "generalizacao_fixture",
+      "input": {
+        "detected": 6,
+        "tested": 6,
+        "claim": "100% dos incidentes reais detectados"
+      },
+      "expected": "reject_scope_extrapolation"
+    },
+    {
+      "id": "N65-04",
+      "classe": "execucao_vs_eficacia",
+      "input": {
+        "actions_local": 6,
+        "actions_total": 7,
+        "claim": "85,71% de eficácia operacional"
+      },
+      "expected": "reject_category_error"
+    },
+    {
+      "id": "N65-05",
+      "classe": "unidade_trocada",
+      "input": {
+        "MAE_B": 3,
+        "unit": "pontos"
+      },
+      "expected": "reject_unit"
+    },
+    {
+      "id": "N65-06",
+      "classe": "serie_temporal_inventada",
+      "input": {
+        "snapshots": 1,
+        "claim": "tendência de melhoria comprovada"
+      },
+      "expected": "reject_unobserved_trend"
+    }
+  ]
+}

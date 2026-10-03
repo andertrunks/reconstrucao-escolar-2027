@@ -1,0 +1,483 @@
+{
+  "id": "MAT-EST-063",
+  "version": "publicacao-2026-10-03-v1",
+  "objective": "separar fixture, defeito em candidato e incidente público\n\nclassificar impacto sem inventar alcance\n\nrecalcular denominador, completude e MAE\n\ndocumentar contenção, correção, reteste e regressão\n\nredigir comunicado condicionado a evidência\n\ndistinguir fechamento local de publicação e avaliação humana",
+  "prerequisites": [
+    "MAT-EST-049",
+    "MAT-EST-053",
+    "MAT-EST-054",
+    "MAT-EST-057",
+    "MAT-EST-058",
+    "MAT-EST-059",
+    "MAT-EST-060",
+    "MAT-EST-061",
+    "MAT-EST-062"
+  ],
+  "why": "# MAT-EST-063 — Gestão de incidentes editoriais: classificação de falhas, comunicação de impacto e reteste de correções\n\n**Matéria:** Matemática. **Unidade:** Estatística e séries temporais — ponte universitária, qualidade de comunicação quantitativa. **Nível:** 6. **Anterior:** MAT-EST-062. **Próximo tópico proposto:** MAT-EST-064. **Origem:** aula, dados adicionais e exercícios autorais. **Questões oficiais:** nenhuma. **Progresso individual:** não iniciado; elaboração editorial não comprova estudo.\n\n**Organização sugerida:** bloco A, classificação e impacto (25–50 minutos); bloco B, contenção, correção e reteste (25–50 minutos); bloco C, comunicação, exercícios e revisão (25–50 minutos). Não se determina a evolução apenas pelo tempo de leitura.\n\n",
+  "intuitive": [],
+  "deep": [],
+  "vocabulary": [],
+  "examples": [],
+  "visuals": [
+    {
+      "url": "media/MAT-EST-063/01-distincao-fixture-incidente.svg",
+      "caption": "Teste local não demonstra incidente público",
+      "alt": "De mutação deliberada a rejeição em cópia isolada, sem prova de exposição pública.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "A mutação artificial é detectada em cópia isolada; não há URL ou alcance confirmado."
+    },
+    {
+      "url": "media/MAT-EST-063/02-matriz-severidade-e-certeza.svg",
+      "caption": "Três perguntas distintas antes de classificar",
+      "alt": "Classificação separa domínio, alcance e certeza do achado.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Domínio da falha, alcance comprovado e confiança da evidência devem ser examinados separadamente."
+    },
+    {
+      "url": "media/MAT-EST-063/03-denominadores-e-impacto.svg",
+      "caption": "MAE dos pares versus completude planejada",
+      "alt": "Somatório seis com denominador dois gera MAE três; com oito gera valor incorreto 0,75; completude dois sobre oito é 25%.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Os módulos quatro e dois devem ser divididos por dois pares elegíveis, não por oito cartões planejados."
+    },
+    {
+      "url": "media/MAT-EST-063/04-registro-versionado.svg",
+      "caption": "Linha lógica de tratamento da ocorrência",
+      "alt": "Fluxo de registro, triagem, correção e reteste com versões preservadas.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Um registro auditável separa detecção, triagem, contenção, correção, reteste e fechamento, com versões."
+    },
+    {
+      "url": "media/MAT-EST-063/05-correcao-e-reteste.svg",
+      "caption": "I01 corrigida; outras mutações continuam reprovadas",
+      "alt": "I01 falha com n oito, passa com n dois; outras mutações são rejeitadas.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "I01 usa denominador oito e falha; cópia corrigida usa dois e passa; I02 a I06 seguem mutações negativas."
+    },
+    {
+      "url": "media/MAT-EST-063/06-fechamento-sem-publicacao.svg",
+      "caption": "O reteste não abre a porta de deploy",
+      "alt": "Só o teste local terminou; revisão humana e deploy continuam pendentes.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "G1 e G2 conferidos localmente, G3 a G6 pendentes, G7 e G8 não executados."
+    }
+  ],
+  "applications": [],
+  "connections": [],
+  "commonErrors": [],
+  "learning": [
+    "MAT-EST-063-EX-APR-01",
+    "MAT-EST-063-EX-APR-02",
+    "MAT-EST-063-EX-APR-03",
+    "MAT-EST-063-EX-APR-04",
+    "MAT-EST-063-EX-APR-05",
+    "MAT-EST-063-EX-APR-06",
+    "MAT-EST-063-EX-APR-07",
+    "MAT-EST-063-EX-APR-08",
+    "MAT-EST-063-EX-APR-09",
+    "MAT-EST-063-EX-APR-10"
+  ],
+  "consolidation": [
+    "MAT-EST-063-EX-CON-01",
+    "MAT-EST-063-EX-CON-02",
+    "MAT-EST-063-EX-CON-03",
+    "MAT-EST-063-EX-CON-04",
+    "MAT-EST-063-EX-CON-05",
+    "MAT-EST-063-EX-CON-06",
+    "MAT-EST-063-EX-CON-07",
+    "MAT-EST-063-EX-CON-08",
+    "MAT-EST-063-EX-CON-09",
+    "MAT-EST-063-EX-CON-10"
+  ],
+  "entrance": [
+    "MAT-EST-063-EX-VES-01",
+    "MAT-EST-063-EX-VES-02",
+    "MAT-EST-063-EX-VES-03",
+    "MAT-EST-063-EX-VES-04",
+    "MAT-EST-063-EX-VES-05",
+    "MAT-EST-063-EX-VES-06",
+    "MAT-EST-063-EX-VES-07",
+    "MAT-EST-063-EX-VES-08",
+    "MAT-EST-063-EX-VES-09",
+    "MAT-EST-063-EX-VES-10"
+  ],
+  "retest": [
+    "MAT-EST-063-EX-RET-01",
+    "MAT-EST-063-EX-RET-02",
+    "MAT-EST-063-EX-RET-03",
+    "MAT-EST-063-EX-RET-04",
+    "MAT-EST-063-EX-RET-05",
+    "MAT-EST-063-EX-RET-06"
+  ],
+  "solutions": [],
+  "summary": "## 12. Resumo para ouvir e revisão espaçada\n\nUm incidente editorial precisa de versão, escopo, evidência e limite do que se sabe. A mutação de teste I01 trocou o denominador dos dois pares pelo total de oito cartões: o MAE B incorreto cairia de três para 0,75. A correção isolada devolve o denominador dois; o reteste não equivale a aprovação, deploy ou ausência comprovada de usuários afetados. As demais mutações demonstram riscos de alternativa textual, alteração histórica, fonte, unidade e legenda. O histórico permanece imutável e a série futura permanece não observada.\n\n**Revisão espaçada:** depois de uma tentativa real, retornar em um, sete e trinta dias. No primeiro retorno, explicar com as próprias palavras a diferença entre defeito de fixture e incidente exposto. No sétimo, refazer o cálculo do MAE e um comunicado condicionado a evidências. No trigésimo, resolver o reteste sem gabarito, escrever um registro auditável e apontar quais controles G1–G8 ainda não possuem prova. O estado pessoal “consolidado” exige desempenho demonstrado, não leitura ou geração de arquivos.\n\n**Próximo tópico editorial proposto:** MAT-EST-064 — Análise pós-incidente e prevenção editorial: causas sistêmicas, ações verificáveis e revisão de controles. Ainda não iniciado.\n\n**Limites de execução:** pacote produzido e verificado apenas localmente; sem incidente real, aprovação humana, sincronização com Google Drive/GitHub, publicação, rollback externo, inspeção real de leitores, teste manual Edge ou reprodução integral do vídeo; progresso individual inalterado.\n",
+  "audioVersion": "## 12. Resumo para ouvir e revisão espaçada\n\nUm incidente editorial precisa de versão, escopo, evidência e limite do que se sabe. A mutação de teste I01 trocou o denominador dos dois pares pelo total de oito cartões: o MAE B incorreto cairia de três para 0,75. A correção isolada devolve o denominador dois; o reteste não equivale a aprovação, deploy ou ausência comprovada de usuários afetados. As demais mutações demonstram riscos de alternativa textual, alteração histórica, fonte, unidade e legenda. O histórico permanece imutável e a série futura permanece não observada.\n\n**Revisão espaçada:** depois de uma tentativa real, retornar em um, sete e trinta dias. No primeiro retorno, explicar com as próprias palavras a diferença entre defeito de fixture e incidente exposto. No sétimo, refazer o cálculo do MAE e um comunicado condicionado a evidências. No trigésimo, resolver o reteste sem gabarito, escrever um registro auditável e apontar quais controles G1–G8 ainda não possuem prova. O estado pessoal “consolidado” exige desempenho demonstrado, não leitura ou geração de arquivos.\n\n**Próximo tópico editorial proposto:** MAT-EST-064 — Análise pós-incidente e prevenção editorial: causas sistêmicas, ações verificáveis e revisão de controles. Ainda não iniciado.\n\n**Limites de execução:** pacote produzido e verificado apenas localmente; sem incidente real, aprovação humana, sincronização com Google Drive/GitHub, publicação, rollback externo, inspeção real de leitores, teste manual Edge ou reprodução integral do vídeo; progresso individual inalterado.\n",
+  "sections": [
+    {
+      "id": "MAT-EST-063-s000",
+      "title": "Apresentação e contexto da fonte",
+      "paragraphs": [],
+      "markdown": "# MAT-EST-063 — Gestão de incidentes editoriais: classificação de falhas, comunicação de impacto e reteste de correções\n\n**Matéria:** Matemática. **Unidade:** Estatística e séries temporais — ponte universitária, qualidade de comunicação quantitativa. **Nível:** 6. **Anterior:** MAT-EST-062. **Próximo tópico proposto:** MAT-EST-064. **Origem:** aula, dados adicionais e exercícios autorais. **Questões oficiais:** nenhuma. **Progresso individual:** não iniciado; elaboração editorial não comprova estudo.\n\n**Organização sugerida:** bloco A, classificação e impacto (25–50 minutos); bloco B, contenção, correção e reteste (25–50 minutos); bloco C, comunicação, exercícios e revisão (25–50 minutos). Não se determina a evolução apenas pelo tempo de leitura.\n\n",
+      "sourceStart": 0,
+      "sourceEnd": 759
+    },
+    {
+      "id": "MAT-EST-063-s001",
+      "title": "1. O que será aprendido e o que precisa saber antes",
+      "paragraphs": [],
+      "markdown": "## 1. O que será aprendido e o que precisa saber antes\n\nAo estudar e tentar os exercícios, você deverá explicar (1) a diferença entre falha de uma cópia de teste, defeito confirmado em um pacote real e incidente com exposição pública; (2) como classificar gravidade sem inventar alcance; (3) como calcular corretamente denominador e impacto quantitativo; (4) como montar um registro cronológico rastreável; (5) como separar contenção, correção, reteste, autorização, deploy e verificação pública; (6) como comunicar uma retificação sem ocultar versões; (7) quando uma evidência anterior perde validade; (8) como usar pós-incidente para aprendizado sem transformar um ensaio em ocorrência real.\n\nPré-requisitos conceituais: subtração, módulo, média e porcentagem; MAT-EST-049, 053, 054, 057–062; noções de proveniência e identificador criptográfico SHA-256. Se o denominador ainda gerar dúvida, refaça primeiro o exemplo de média dos dois pares desta aula. **Relevância para exames:** leitura de gráficos, frações, proporcionalidade e avaliação crítica de fontes são transferíveis ao ENEM e vestibulares. Gestão operacional de incidentes é uma extensão de ponte universitária e não é anunciada como tópico obrigatório de qualquer banca.\n\n",
+      "sourceStart": 759,
+      "sourceEnd": 1996
+    },
+    {
+      "id": "MAT-EST-063-s002",
+      "title": "2. Contexto: detectar não é publicar e reprovar fixture não é incidente real",
+      "paragraphs": [],
+      "markdown": "## 2. Contexto: detectar não é publicar e reprovar fixture não é incidente real\n\nA candidata didática `R061-RC1` descreve corretamente o exercício isolado SANDBOX-057. MAT-EST-060 testou alterações artificiais que deveriam ser rejeitadas. MAT-EST-061 demonstrou o reteste de uma candidata em pasta local. MAT-EST-062 congelou a matriz de controles. Agora vamos aprender a registrar e comunicar uma **ocorrência hipotética** com precisão.\n\nO pacote herdado tem: G1 e G2 em `checked_local`; G3, G4, G5 e G6 em `pending`; G7 e G8 em `not_performed`. Isso significa que **não há publicação comprovada nem revisão humana concluída**, e uma falha sintética não permite concluir que usuários tenham visto conteúdo incorreto. Foi criada uma série de sete *fixtures* de teste: I00 é uma cópia válida; I01 a I06 são seis mutações artificiais independentes. Não são seis incidentes na plataforma.\n\nPara cada relato, faça três perguntas: *o que foi observado e em qual artefato?*; *qual efeito seria possível caso estivesse exposto?*; *qual evidência falta para afirmar exposição e alcance real?* A terceira pergunta impede que uma gravidade potencial seja confundida com dano comprovado.\n\n![Da mutação ao incidente documentado](assets/01-distincao-fixture-incidente.svg)\n\n**Figura 1.** Texto alternativo: a seta vai de alteração deliberada em cópia de teste a rejeição automática; somente verificação em versão real e exposição comprovada autorizariam abrir relato de incidente operacional. **Observe:** O ramo sintético termina sem público afetado identificado. **Conclusão por áudio:** defeito de exercício é evidência de teste, não prova de incidente do site.\n\n",
+      "sourceStart": 1996,
+      "sourceEnd": 3649
+    },
+    {
+      "id": "MAT-EST-063-s003",
+      "title": "3. Classificação: impacto, exposição, certeza e prioridade",
+      "paragraphs": [],
+      "markdown": "## 3. Classificação: impacto, exposição, certeza e prioridade\n\n**Defeito** é um comportamento divergente de um requisito verificável. **Incidente operacional** é um acontecimento que impacta um serviço ou seu uso, documentado com contexto e alcance. **Evento de teste** é alteração deliberada em um ambiente isolado. **Desvio editorial** é diferença da versão congelada ou de seu protocolo, que pode exigir investigação mesmo sem deploy. **Quase-incidente**, quando o termo for empregado, precisa ser claramente definido, porque uma falha barrada antes de publicação não comprova usuários afetados.\n\nEsta aula oferece uma **rubrica autoral ilustrativa**, não um padrão oficial universal: gravidade alta quando a versão hipoteticamente exibida comprometer interpretação histórica, exclusão de acesso essencial ou rastreabilidade central; moderada quando unidades ou legendas puderem alterar o entendimento sem contaminar toda a conclusão; baixa quando a apresentação for superficial e a informação continuar intacta e acessível. A classificação deve ser reavaliada quando surgirem evidências de alcance, alternativas de acesso e tempo de exposição. Não há pontuação automática de severidade a partir do simples número de erros detectados.\n\n| Mutação sintética | Potencial efeito se exposta | Exposição efetivamente demonstrada |\n|---|---|---|\n| I01: denominador de 2 substituído por 8 | MAE divulgado como 0,75 em vez de 3 | Nenhuma: cópia de teste |\n| I02: alternativa textual retirada | Obstáculo ao acesso à informação visual | Nenhuma: cópia de teste |\n| I03: conclusão histórica reescrita | Alegar falsamente promoção de C | Nenhuma: cópia de teste |\n| I04: hash de fonte trocado | Perda de rastreabilidade | Nenhuma: cópia de teste |\n| I05: custo chamado de unidades | Confundir custo com erro absoluto | Nenhuma: cópia de teste |\n| I06: legenda sem corte A | Ocultar seis pendências e enfraquecer leitura | Nenhuma: cópia de teste |\n\n**Síntese para ouvir:** a gravidade potencial ajuda a ordenar a resposta; a coluna de exposição real permanece não verificada. Ausência de evidência não é evidência de zero usuários afetados. Não escrever “nenhum usuário afetado” sem logs ou outra verificação pertinente.\n\n![Matriz de perguntas para classificação](assets/02-matriz-severidade-e-certeza.svg)\n\n**Figura 2.** Texto alternativo: três perguntas independentes: qual conteúdo falhou, quão amplo foi o alcance comprovado e qual é a certeza da conclusão. **Observe:** gravidade potencial não preenche automaticamente a coluna de alcance. **Conclusão por áudio:** uma hipótese de dano exige contenção proporcional, sem ser relatada como dano medido.\n\n",
+      "sourceStart": 3649,
+      "sourceEnd": 6297
+    },
+    {
+      "id": "MAT-EST-063-s004",
+      "title": "4. Exemplo matemático resolvido: o erro de denominador I01",
+      "paragraphs": [],
+      "markdown": "## 4. Exemplo matemático resolvido: o erro de denominador I01\n\nNa fotografia didática SANDBOX-057 existem oito cartões planejados: S01 e S02 são avaliáveis no corte A; seis são pendentes. Os erros assinados da referência B são mais quatro e menos dois. Seus módulos são quatro e dois. Assim, o erro absoluto médio é:\n\n\\[MAE_B=\\frac{|+4|+|-2|}{2}=\\frac{6}{2}=3\\;\\text{unidades}.\\]\n\nLeitura por extenso: MAE de B é a soma dos módulos, quatro mais dois, dividida pelo número de pares avaliáveis, que é dois. O resultado é três unidades. Se uma mutação usar o número planejado de oito como denominador, ela obtém **seis dividido por oito, igual a zero vírgula setenta e cinco**. Esse valor não é o MAE dos pares disponíveis; ele aplica zeros indevidos aos seis cartões sem erro calculável. O resultado correto para C é `(3+5)/2=4` unidades.\n\nA completude tem outro denominador e responde a outra pergunta:\n\n\\[completude=\\frac{2}{8}=0,25=25\\%.\\]\n\nLeitura: dois dos oito cartões planejados estão avaliáveis, o que corresponde a vinte e cinco por cento de completude. Há seis de oito pendentes, ou setenta e cinco por cento. Não dividir a soma dos erros pelos oito planejados. A diferença entre **3 e 0,75** no exemplo de B é 2,25 unidades; a cifra incorreta é um quarto da correta. Na hipótese de um boletim com tal erro, a correção precisa explicar *qual denominador mudou*, *quais números permanecem válidos* e *quais leitores poderiam ter sido atingidos*, em vez de simplesmente substituir um algarismo.\n\nO custo médio didático permanece **sete pontos para B e sete pontos para C**. A unidade “pontos de custo” não deve ser trocada por “unidades da série”. A série principal t01–t22 e os cenários t23–t33 não participam desse recálculo.\n\n![Denominador correto e armadilha](assets/03-denominadores-e-impacto.svg)\n\n**Figura 3.** Texto alternativo: no lado correto, seis unidades de erro absoluto divididas por dois pares resultam em três; no lado mutado, dividir por oito gera 0,75; completude é dois sobre oito. **Observe:** duas frações diferentes respondem a perguntas distintas. **Conclusão por áudio:** a amostra prevista informa completude, mas não substitui o total de erros observados no denominador do MAE.\n\n",
+      "sourceStart": 6297,
+      "sourceEnd": 8509
+    },
+    {
+      "id": "MAT-EST-063-s005",
+      "title": "5. Registro de incidente: esquema mínimo que preserva versões",
+      "paragraphs": [],
+      "markdown": "## 5. Registro de incidente: esquema mínimo que preserva versões\n\nUma ficha auditável tem identificador, escopo, fonte e versão, descrição de achado observável, mecanismo de detecção, hipótese de alcance, evidências confirmadas, informações desconhecidas, classificação provisória, proposta de contenção, correção, testes de regressão, estado de autorização, possível comunicado e critério de encerramento. Quando existir operação real, registrar instantes de ocorrência, detecção, reconhecimento, contenção e resolução com fuso e prova correspondente. **Não inventar datas retroativas** para um ensaio lógico como este.\n\nO arquivo `incidentes/MAT-EST-063-caderno-sintetico.json` contém seis fichas claramente marcadas como simuladas, com `responsavel_real`, `url_real` e `data_real` nulos. Uma pessoa responsável seria designada apenas em execução real. O registro original não é apagado depois da correção: acrescentar evento de retificação, versão nova e vínculo com a versão anterior. Nem hash nem assinatura de aprovação são intercambiáveis: hash demonstra identidade de bytes comparados; não garante que um humano leu, que o arquivo existia na data alegada ou que o site foi publicado.\n\n**Tempo até detecção** requer hora de ocorrência e de detecção comprovadas. A expressão é `instante de detecção menos instante de ocorrência`. **Tempo até recuperação** necessita uma definição operacional de recuperação e registros dos dois instantes. Em nossas fichas didáticas não existem esses horários; logo os tempos permanecem **não estimáveis**, não zero minuto.\n\n![Linha de evidências e de versão](assets/04-registro-versionado.svg)\n\n**Figura 4.** Texto alternativo: detecção, classificação, contenção, correção, reteste e encerramento são eventos separados, cada qual ligado a uma versão. **Observe:** corrigir gera nova versão, sem excluir a ficha anterior. **Conclusão por áudio:** registrar a ordem protege a reprodutibilidade e a comunicação posterior.\n\n",
+      "sourceStart": 8509,
+      "sourceEnd": 10469
+    },
+    {
+      "id": "MAT-EST-063-s006",
+      "title": "6. Conter, corrigir e retestar são ações distintas",
+      "paragraphs": [],
+      "markdown": "## 6. Conter, corrigir e retestar são ações distintas\n\n**Contenção** limita a chance de propagação enquanto se investiga. Num teste local, basta manter a fixture mutada fora da candidata. Em operação pública comprovada, a ação deve depender do impacto verificado e das permissões: por exemplo, interromper a distribuição de um gráfico enganoso, mostrar uma ressalva visível ou, quando autorizado, restaurar uma versão conhecida. Não realizar rollback público só porque um ZIP foi extraído em pasta temporária.\n\n**Correção** elimina a causa definida. No exemplo I01, altera-se somente o denominador da cópia de oito para dois; não se fabricam erros para S03–S08, não se muda C e não se reescreve o corte A. **Reteste alvo** verifica novamente o cálculo: `(4+2)/2=3`. **Regressão** verifica se outras propriedades permanecem corretas: `MAE_C=4`, custo B=C=7, corte A de dois sobre oito, texto alternativo, hashes, conclusão histórica e estados G1–G8. A demonstração gerou `MAT-EST-063-reteste-demonstrativo.json`: a cópia I01 falha antes e passa após reparo, enquanto as demais mutações continuam falhando como esperado. Nenhuma alteração foi aplicada ao baseline herdado.\n\n**Revalidação da prova:** um teste G1 feito para a versão A não autoriza afirmar que a versão B foi validada, se os bytes fonte mudaram. É necessário rastrear dependências e repetir os testes atingidos. **Aprovação humana** só poderá ser anotada com pessoa, resultado e evidência reais. **Deploy** exige identificador real, caminho e versão efetivamente disponibilizada. **Pós-deploy** requer olhar a versão servida ao usuário, não somente o ZIP de origem.\n\n![Correção mínima e regressão](assets/05-correcao-e-reteste.svg)\n\n**Figura 5.** Texto alternativo: I01 falha com denominador oito; sua cópia corrigida usa dois e passa, enquanto I02–I06 continuam reprovados. **Observe:** a correção isolada não deve fazer outras mutações sumirem nem alterar o baseline. **Conclusão por áudio:** um reteste confirma a correção específica; regressão evita perdas colaterais.\n\n",
+      "sourceStart": 10469,
+      "sourceEnd": 12506
+    },
+    {
+      "id": "MAT-EST-063-s007",
+      "title": "7. Comunicação de impacto: separar fato, hipótese, ação e pendência",
+      "paragraphs": [],
+      "markdown": "## 7. Comunicação de impacto: separar fato, hipótese, ação e pendência\n\nUma mensagem responsável pode seguir quatro blocos. **Fato verificado:** “Em uma cópia local deliberadamente mutada, o teste detectou denominador oito no lugar de dois.” **Possível consequência:** “Se essa variante fosse disponibilizada, o MAE B seria apresentado como 0,75, embora seu valor no corte A seja 3 unidades.” **Ação no ensaio:** “A cópia foi corrigida e retestada; os arquivos históricos ficaram idênticos.” **Limite:** “Não houve comprovação de versão pública afetada; não existem URL, horários de exposição nem contagem de pessoas impactadas.”\n\nEm um incidente real, esses campos precisam ser preenchidos com observações obtidas, identificação da versão, alcance verificável, canal da retificação e instruções proporcionais. Um comunicado de correção não deve esconder a cifra anterior nem afirmar “problema solucionado para todos” antes da checagem pós-publicação. O relatório de avaliação de acessibilidade do W3C recomenda declarar escopo, método, resultados e ações sugeridas. O capítulo de resposta a incidentes do Google SRE enfatiza coordenação, registros e comunicação, enquanto a análise pós-incidente documenta fatos e ações sem imputar culpa. Essas referências são boas práticas de apoio; **as categorias e números I01–I06 são autorais deste projeto**.\n\n",
+      "sourceStart": 12506,
+      "sourceEnd": 13857
+    },
+    {
+      "id": "MAT-EST-063-s008",
+      "title": "8. Encerramento e revisão posterior sem confundir estados",
+      "paragraphs": [],
+      "markdown": "## 8. Encerramento e revisão posterior sem confundir estados\n\nPara fechar uma ocorrência real, perguntar: a causa foi corrigida em versão identificada? O teste específico passou? A regressão relevante passou? Houve revisão humana quando exigida? A publicação, se autorizada, foi comprovada? A versão efetivamente servida foi inspecionada? A retificação chegou ao público que podia ter recebido a informação anterior? As pendências residuais foram designadas, com critérios de verificação? Se as perguntas não têm evidência, o estado deve permanecer parcial, pendente ou não executado.\n\nNo caso desta aula, a resposta é explícita: apenas um **reteste sintético local** foi concluído. G1–G8 preservam os estados anteriores. P01–P10, roteiro de pós-deploy herdado, seguem não executados. A falha histórica do modelo C em t19 foi 19,2 unidades, acima da guarda de dez; o modelo não é promovido no protocolo original. O protocolo sucessor continua proposta sem observações t26–t33. Os alvos t23–t25 continuam sem observações ou emissões autenticadas. Não existem indicadores novos de desempenho principal.\n\n![Limites do fechamento](assets/06-fechamento-sem-publicacao.svg)\n\n**Figura 6.** Texto alternativo: há um reteste didático bem-sucedido, porém revisão humana, deploy e pós-deploy continuam abertos. **Observe:** conclusão de teste não salta diretamente para status de publicação. **Conclusão por áudio:** fechar uma fixture é diferente de resolver um incidente que atingiu leitores reais.\n\n",
+      "sourceStart": 13857,
+      "sourceEnd": 15348
+    },
+    {
+      "id": "MAT-EST-063-s009",
+      "title": "9. Aplicações, erros comuns e interdisciplinaridade",
+      "paragraphs": [],
+      "markdown": "## 9. Aplicações, erros comuns e interdisciplinaridade\n\nEm Matemática e Estatística, o tema exige distinguir numerador, denominador, conjuntos avaliáveis e medidas não estimáveis. Em Redação e Língua Portuguesa, exercita comunicações objetivas com ressalvas e correção explícita. Em computação, relaciona controle de versão, teste de regressão, proveniência e restauração. Em cidadania digital, ensina a ler erratas e avaliar se uma alegação de correção apresenta evidência verificável.\n\n**Erros comuns:** chamar uma fixture de incidente público; tratar “alcance desconhecido” como “ninguém afetado”; divulgar MAE com denominador de pares planejados; transformar pendência em erro de zero; medir tempo até detecção sem datas; reclassificar a gravidade sem novos dados; corrigir o gráfico e esquecer legenda ou alternativa textual; alterar resultado histórico após a falha; chamar G1/G2 de autorização; reportar extração de ZIP como rollback público; esconder a versão anterior; afirmar revisor humano inexistente; encerrar caso sem a confirmação de versão servida.\n\n",
+      "sourceStart": 15348,
+      "sourceEnd": 16414
+    },
+    {
+      "id": "MAT-EST-063-s010",
+      "title": "10. Vídeo complementar e fontes",
+      "paragraphs": [],
+      "markdown": "## 10. Vídeo complementar e fontes\n\n**Vídeo complementar:** [Easy Checks – A First Review of Web Accessibility — W3C Web Accessibility Initiative](https://www.w3.org/WAI/test-evaluate/preliminary/). **Idioma:** inglês; a página oferece vídeo e transcrição descritiva. **Duração:** não confirmada. **Momento recomendado:** após a seção 6, para observar como um teste inicial pode detectar barreiras, mas não substitui avaliação mais completa. O vídeo está referido em página institucional consultada; reprodução audiovisual integral não realizada. A aula é autossuficiente.\n\nFontes externas de apoio: [Google SRE, Incident Response](https://sre.google/workbook/incident-response/); [Google SRE, Postmortem Culture](https://sre.google/workbook/postmortem-culture/); [W3C WAI, modelo de relatório de avaliação](https://www.w3.org/WAI/test-evaluate/report-template/); [W3C WAI, avaliação de acessibilidade](https://www.w3.org/WAI/test-evaluate/). Material estruturante do projeto: visão, metodologia, matriz curricular, acessibilidade, padrão visual, arquitetura e regras de fontes (documentos 01–07). Os dados e a rubrica de prioridade são exercícios autorais, não políticas dessas instituições.\n\n",
+      "sourceStart": 16414,
+      "sourceEnd": 17608
+    },
+    {
+      "id": "MAT-EST-063-s011",
+      "title": "11. Atividades e forma de correção",
+      "paragraphs": [],
+      "markdown": "## 11. Atividades e forma de correção\n\nExistem 36 atividades independentes em `exercicios.md`, divididas em aprendizagem (10), consolidação (10), aplicação autoral em estilo vestibular (10) e reteste posterior (6). Os gabaritos estão em arquivos separados para não antecipar a resolução ao estudante. Cada resposta tem justificativa e uma hipótese de erro a registrar: conceito, interpretação, cálculo, estratégia, memória, distração ou tempo. Nenhuma questão é apresentada como oficial.\n\n",
+      "sourceStart": 17608,
+      "sourceEnd": 18097
+    },
+    {
+      "id": "MAT-EST-063-s012",
+      "title": "12. Resumo para ouvir e revisão espaçada",
+      "paragraphs": [],
+      "markdown": "## 12. Resumo para ouvir e revisão espaçada\n\nUm incidente editorial precisa de versão, escopo, evidência e limite do que se sabe. A mutação de teste I01 trocou o denominador dos dois pares pelo total de oito cartões: o MAE B incorreto cairia de três para 0,75. A correção isolada devolve o denominador dois; o reteste não equivale a aprovação, deploy ou ausência comprovada de usuários afetados. As demais mutações demonstram riscos de alternativa textual, alteração histórica, fonte, unidade e legenda. O histórico permanece imutável e a série futura permanece não observada.\n\n**Revisão espaçada:** depois de uma tentativa real, retornar em um, sete e trinta dias. No primeiro retorno, explicar com as próprias palavras a diferença entre defeito de fixture e incidente exposto. No sétimo, refazer o cálculo do MAE e um comunicado condicionado a evidências. No trigésimo, resolver o reteste sem gabarito, escrever um registro auditável e apontar quais controles G1–G8 ainda não possuem prova. O estado pessoal “consolidado” exige desempenho demonstrado, não leitura ou geração de arquivos.\n\n**Próximo tópico editorial proposto:** MAT-EST-064 — Análise pós-incidente e prevenção editorial: causas sistêmicas, ações verificáveis e revisão de controles. Ainda não iniciado.\n\n**Limites de execução:** pacote produzido e verificado apenas localmente; sem incidente real, aprovação humana, sincronização com Google Drive/GitHub, publicação, rollback externo, inspeção real de leitores, teste manual Edge ou reprodução integral do vídeo; progresso individual inalterado.\n",
+      "sourceStart": 18097,
+      "sourceEnd": 19661
+    }
+  ],
+  "sources": [
+    {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    }
+  ],
+  "previous": "MAT-EST-062",
+  "next": "MAT-EST-064",
+  "videos": [
+    {
+      "title": "Easy Checks – A First Review of Web Accessibility",
+      "channel": "W3C Web Accessibility Initiative",
+      "url": "https://www.w3.org/WAI/test-evaluate/preliminary/",
+      "duration": "Duração não confirmada",
+      "language": "inglês, transcrição descritiva",
+      "reason": "Reforça o conceito apresentado nesta aula.",
+      "when": "após seção 6",
+      "reinforces": [],
+      "checkedAt": "2026-10-03",
+      "verification": "Disponibilidade da página institucional conferida em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+      "type": "leitura"
+    },
+    {
+      "title": "Recurso complementar verificado",
+      "channel": "",
+      "url": "https://www.w3.org/WAI/videos/standards-and-benefits/pt-BR",
+      "duration": "Duração não confirmada",
+      "language": "Português",
+      "reason": "Vídeo introdutório da W3C para complementar a leitura sobre avaliação da acessibilidade.",
+      "when": "Após estudar a explicação escrita.",
+      "reinforces": [],
+      "checkedAt": "2026-10-03",
+      "type": "video",
+      "verification": "Disponibilidade da página institucional conferida em 03/10/2026. Reprodução integral, áudio e legendas não auditados."
+    }
+  ],
+  "video": {
+    "title": "Easy Checks – A First Review of Web Accessibility",
+    "channel": "W3C Web Accessibility Initiative",
+    "url": "https://www.w3.org/WAI/test-evaluate/preliminary/",
+    "duration": "Duração não confirmada",
+    "language": "inglês, transcrição descritiva",
+    "reason": "Reforça o conceito apresentado nesta aula.",
+    "when": "após seção 6",
+    "reinforces": [],
+    "checkedAt": "2026-10-03",
+    "verification": "Disponibilidade da página institucional conferida em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+    "type": "leitura"
+  },
+  "publication": {
+    "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+    "notes": [
+      "A produção e a publicação não registram domínio nem alteram seu progresso.",
+      "Aula avançada para consulta. A sequência de fundamentos ainda tem textos integrais a recuperar; confira os pré-requisitos antes de iniciar.",
+      "As referências a publicação pendente no texto original registram o estado da fonte na data de criação."
+    ],
+    "original": "originais/MAT-EST-063/aula.md",
+    "editions": [],
+    "attachments": [
+      {
+        "label": "plano-avaliacao-MAT-EST-051.json",
+        "url": "originais/MAT-EST-063/arquivos/plano-avaliacao-MAT-EST-051.json"
+      },
+      {
+        "label": "manifesto-sha256.txt",
+        "url": "originais/MAT-EST-063/arquivos/manifesto-sha256.txt"
+      },
+      {
+        "label": "protocolo-herdado-MAT-EST-049.json",
+        "url": "originais/MAT-EST-063/arquivos/protocolo-herdado-MAT-EST-049.json"
+      },
+      {
+        "label": "relatorio-integridade.json",
+        "url": "originais/MAT-EST-063/arquivos/relatorio-integridade.json"
+      },
+      {
+        "label": "gabarito-comentado.json",
+        "url": "originais/MAT-EST-063/arquivos/gabarito-comentado.json"
+      },
+      {
+        "label": "verificar-pacote.py",
+        "url": "originais/MAT-EST-063/arquivos/verificar-pacote.py"
+      },
+      {
+        "label": "metadados.json",
+        "url": "originais/MAT-EST-063/arquivos/metadados.json"
+      },
+      {
+        "label": "exercicios.json",
+        "url": "originais/MAT-EST-063/arquivos/exercicios.json"
+      },
+      {
+        "label": "checkpoint-editorial.json",
+        "url": "originais/MAT-EST-063/arquivos/checkpoint-editorial.json"
+      },
+      {
+        "label": "PROMPT-TRANSICAO-NOVO-CHAT.txt",
+        "url": "originais/MAT-EST-063/arquivos/PROMPT-TRANSICAO-NOVO-CHAT.txt"
+      },
+      {
+        "label": "dados/politicas-de-vintage.json",
+        "url": "originais/MAT-EST-063/arquivos/dados/politicas-de-vintage.json"
+      },
+      {
+        "label": "dados/serie-herdada-t01-t12.csv",
+        "url": "originais/MAT-EST-063/arquivos/dados/serie-herdada-t01-t12.csv"
+      },
+      {
+        "label": "dados/matriz-estados.csv",
+        "url": "originais/MAT-EST-063/arquivos/dados/matriz-estados.csv"
+      },
+      {
+        "label": "dados/cenarios-herdados-t23-nao-observados.csv",
+        "url": "originais/MAT-EST-063/arquivos/dados/cenarios-herdados-t23-nao-observados.csv"
+      },
+      {
+        "label": "dados/diferencas-sazonais-t13-t22.csv",
+        "url": "originais/MAT-EST-063/arquivos/dados/diferencas-sazonais-t13-t22.csv"
+      },
+      {
+        "label": "dados/EXEMPLO-V-reavaliacao.csv",
+        "url": "originais/MAT-EST-063/arquivos/dados/EXEMPLO-V-reavaliacao.csv"
+      },
+      {
+        "label": "dados/chegadas-novas-simuladas-t19-t22.csv",
+        "url": "originais/MAT-EST-063/arquivos/dados/chegadas-novas-simuladas-t19-t22.csv"
+      },
+      {
+        "label": "dados/EXEMPLO-V-versoes.csv",
+        "url": "originais/MAT-EST-063/arquivos/dados/EXEMPLO-V-versoes.csv"
+      },
+      {
+        "label": "dados/chegadas-simuladas-t13-t18.csv",
+        "url": "originais/MAT-EST-063/arquivos/dados/chegadas-simuladas-t13-t18.csv"
+      },
+      {
+        "label": "dados/plano-emissoes-pendentes-t23-t25.csv",
+        "url": "originais/MAT-EST-063/arquivos/dados/plano-emissoes-pendentes-t23-t25.csv"
+      },
+      {
+        "label": "dados/projecoes-ilustrativas-t23.csv",
+        "url": "originais/MAT-EST-063/arquivos/dados/projecoes-ilustrativas-t23.csv"
+      },
+      {
+        "label": "dados/EXEMPLO-V-eventos.jsonl",
+        "url": "originais/MAT-EST-063/arquivos/dados/EXEMPLO-V-eventos.jsonl"
+      },
+      {
+        "label": "dados/ensaio-eventos-EXEMPLO-Z.jsonl",
+        "url": "originais/MAT-EST-063/arquivos/dados/ensaio-eventos-EXEMPLO-Z.jsonl"
+      },
+      {
+        "label": "dados/registro-emissoes-h1.csv",
+        "url": "originais/MAT-EST-063/arquivos/dados/registro-emissoes-h1.csv"
+      },
+      {
+        "label": "dados/comparacao-emparelhada-t18-t22.csv",
+        "url": "originais/MAT-EST-063/arquivos/dados/comparacao-emparelhada-t18-t22.csv"
+      },
+      {
+        "label": "dados/dependencias-simbolicas-t24-t25.csv",
+        "url": "originais/MAT-EST-063/arquivos/dados/dependencias-simbolicas-t24-t25.csv"
+      },
+      {
+        "label": "dados/cartoes-casos-didaticos.csv",
+        "url": "originais/MAT-EST-063/arquivos/dados/cartoes-casos-didaticos.csv"
+      },
+      {
+        "label": "governanca/hashes-herdados.json",
+        "url": "originais/MAT-EST-063/arquivos/governanca/hashes-herdados.json"
+      },
+      {
+        "label": "relatorios/relatorio-auditoria.json",
+        "url": "originais/MAT-EST-063/arquivos/relatorios/relatorio-auditoria.json"
+      },
+      {
+        "label": "relatorios/conciliacao-de-versoes.csv",
+        "url": "originais/MAT-EST-063/arquivos/relatorios/conciliacao-de-versoes.csv"
+      },
+      {
+        "label": "relatorios/MAT-EST-059-painel-dados.json",
+        "url": "originais/MAT-EST-063/arquivos/relatorios/MAT-EST-059-painel-dados.json"
+      },
+      {
+        "label": "auditoria/testar_auditoria.py",
+        "url": "originais/MAT-EST-063/arquivos/auditoria/testar_auditoria.py"
+      },
+      {
+        "label": "auditoria/recalcular_relatorios.py",
+        "url": "originais/MAT-EST-063/arquivos/auditoria/recalcular_relatorios.py"
+      },
+      {
+        "label": "controle/MAT-EST-062-matriz-evidencias.json",
+        "url": "originais/MAT-EST-063/arquivos/controle/MAT-EST-062-matriz-evidencias.json"
+      },
+      {
+        "label": "controle/testar_estados.py",
+        "url": "originais/MAT-EST-063/arquivos/controle/testar_estados.py"
+      },
+      {
+        "label": "controle/MAT-EST-062-pendencias.csv",
+        "url": "originais/MAT-EST-063/arquivos/controle/MAT-EST-062-pendencias.csv"
+      },
+      {
+        "label": "controle/MAT-EST-062-plano-pos-deploy.json",
+        "url": "originais/MAT-EST-063/arquivos/controle/MAT-EST-062-plano-pos-deploy.json"
+      },
+      {
+        "label": "controle/MAT-EST-062-ensaios-estados.json",
+        "url": "originais/MAT-EST-063/arquivos/controle/MAT-EST-062-ensaios-estados.json"
+      },
+      {
+        "label": "incidentes/MAT-EST-063-fixtures-incidentes.json",
+        "url": "originais/MAT-EST-063/arquivos/incidentes/MAT-EST-063-fixtures-incidentes.json"
+      },
+      {
+        "label": "incidentes/MAT-EST-063-matriz-impacto.csv",
+        "url": "originais/MAT-EST-063/arquivos/incidentes/MAT-EST-063-matriz-impacto.csv"
+      },
+      {
+        "label": "incidentes/MAT-EST-063-caderno-sintetico.json",
+        "url": "originais/MAT-EST-063/arquivos/incidentes/MAT-EST-063-caderno-sintetico.json"
+      },
+      {
+        "label": "incidentes/MAT-EST-063-reteste-demonstrativo.json",
+        "url": "originais/MAT-EST-063/arquivos/incidentes/MAT-EST-063-reteste-demonstrativo.json"
+      },
+      {
+        "label": "protocolo-sucessor/MAT-EST-056-PROT-SUC-v1.json",
+        "url": "originais/MAT-EST-063/arquivos/protocolo-sucessor/MAT-EST-056-PROT-SUC-v1.json"
+      },
+      {
+        "label": "regressao/MAT-EST-061-candidato-e-falhas-isoladas.json",
+        "url": "originais/MAT-EST-063/arquivos/regressao/MAT-EST-061-candidato-e-falhas-isoladas.json"
+      },
+      {
+        "label": "regressao/MAT-EST-061-registro-evidencias.json",
+        "url": "originais/MAT-EST-063/arquivos/regressao/MAT-EST-061-registro-evidencias.json"
+      },
+      {
+        "label": "regressao/MAT-EST-061-resultado-regressao.json",
+        "url": "originais/MAT-EST-063/arquivos/regressao/MAT-EST-061-resultado-regressao.json"
+      },
+      {
+        "label": "sandbox/SANDBOX-057-cartoes.csv",
+        "url": "originais/MAT-EST-063/arquivos/sandbox/SANDBOX-057-cartoes.csv"
+      },
+      {
+        "label": "sandbox/SANDBOX-057-resumo-metricas.json",
+        "url": "originais/MAT-EST-063/arquivos/sandbox/SANDBOX-057-resumo-metricas.json"
+      },
+      {
+        "label": "sandbox/SANDBOX-057-desvios.jsonl",
+        "url": "originais/MAT-EST-063/arquivos/sandbox/SANDBOX-057-desvios.jsonl"
+      }
+    ],
+    "questionCount": 36,
+    "visualCount": 6,
+    "sourceSha256": "34567382bd895587e1f331d7503a110bfba8cd875231c40d088938b0a330ac77"
+  }
+}

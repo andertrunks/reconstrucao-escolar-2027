@@ -1,0 +1,434 @@
+[
+  {
+    "id": "MAT-EST-055-EX-APR-01",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "Uma métrica média inferior permite, por si só, promover um modelo sob um protocolo com várias portas? Explique.",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-APR-02",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "Quantos pares de alvos exige MAT-EST-049-PROT-v1 e quantos pares fictícios estão disponíveis?",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-APR-03",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "Transforme cinco de oito pares em porcentagem de completude numérica.",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-APR-04",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "O que deve constar no registro de uma decisão além do nome do modelo? Cite quatro itens.",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-APR-05",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "O que ocorreu com a guarda local em t19?",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-APR-06",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "Qual papel fictício verifica proveniência e versão de observação, e qual papel autoriza uma mudança operacional quando existe designação real?",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-APR-07",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "Hash SHA-256 sozinho comprova data real ou identidade de quem assinou uma decisão?",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-APR-08",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "B23=183 e C23=199 são previsões operacionalmente autenticadas?",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-APR-09",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "Por que EXEMPLO-V e EXEMPLO-Z não podem completar os oito pares da série principal?",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-APR-10",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "Encerrar a avaliação do candidato significa automaticamente descontinuar o modelo de referência?",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-CON-01",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "Derive a redução percentual do MAE de B=17,60 para C=8,36, tomando B como referência.",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-CON-02",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "Calcule a redução percentual de custo médio de B=51,20 para C=14,92.",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-CON-03",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "Mostre a piora local do desafiante em t19 quando B tem módulo 4 e C tem módulo 23,2.",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-CON-04",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "Para previsão 42 e observado 44, encontre erro assinado e custo sob três por unidade subprevista.",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-CON-05",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "Para previsão 43 e observado preliminar 40, calcule erro assinado e custo da mesma regra.",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-CON-06",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "Qual a diferença entre o resultado V em L12 e L13 sem modificar as previsões B42 e C43?",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-CON-07",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "Qual documento precisa de novo identificador quando uma equipe muda a guarda de dez para vinte para um estudo futuro? Por quê?",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-CON-08",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "Em Z, previsão 29 e observações 30 preliminar e 32 validada: calcule erros assinados e custos.",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-CON-09",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "Se uma porta exige auditoria de qualidade aprovada e só existe script reexecutável com hashes, qual é o estado adequado da porta?",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-CON-10",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "Uma meta exige oito pares; um analista acrescenta três valores de cenários de t23 como se fossem observados. Identifique o problema.",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-VES-01",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "estilo ENEM/vestibular (autoral)",
+    "enunciado": "Uma notícia anuncia: “Desafiante autorizado porque reduziu MAE em 52,5%”. Redija correção técnica em até quatro frases.",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-VES-02",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "estilo ENEM/vestibular (autoral)",
+    "enunciado": "Uma comissão propõe reapresentar os cinco pares como amostra de oito, incluindo V, Z e uma repetição de t22. Por que a proposta viola a comparação?",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-VES-03",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "estilo ENEM/vestibular (autoral)",
+    "enunciado": "Um relatório mostra B17,60/C8,36 e B51,20/C14,92. Identifique para cada par se a unidade é de erro ou de custo e por que a distinção importa.",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-VES-04",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "estilo ENEM/vestibular (autoral)",
+    "enunciado": "Após t19, o autor muda o limite local para vinte sem trocar protocolo e anuncia que v1 passou. Redija uma crítica metodológica sem sugerir que o novo limite seja sempre proibido.",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-VES-05",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "estilo ENEM/vestibular (autoral)",
+    "enunciado": "Um auditor recebeu arquivos com SHA-256 coincidente. Que afirmação modesta pode registrar e que afirmação não pode deduzir?",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-VES-06",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "estilo ENEM/vestibular (autoral)",
+    "enunciado": "Um candidato é rejeitado por violar a guarda. O responsável pergunta se deve desligar a referência já utilizada. Diferencie os dois procedimentos.",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-VES-07",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "estilo ENEM/vestibular (autoral)",
+    "enunciado": "Construa um parecer curto com escopo, cálculo, limitação e encaminhamento sem fingir assinatura real.",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-VES-08",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "estilo ENEM/vestibular (autoral)",
+    "enunciado": "Uma revisão da observação V de 40 para 44 muda a comparação de módulos, mas um gerente conta ambas as versões na média geral. Corrija a metodologia.",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-VES-09",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "estilo ENEM/vestibular (autoral)",
+    "enunciado": "Se os próximos três alvos fossem hipoteticamente todos favoráveis a C, a violação histórica t19 seria apagada? O que é possível afirmar sem inventar os resultados?",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-VES-10",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": "estilo ENEM/vestibular (autoral)",
+    "enunciado": "Uma organização usa o NIST AI RMF para dialogar sobre riscos de um sistema. Isso torna os seis limiares numéricos autorais deste exercício obrigatórios por lei? Explique.",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-RET-01",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "Sem olhar a aula: se 5 de 8 pares foram observados, diga completude e quantos faltam.",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-RET-02",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "Em uma comparação nova e isolada, B tem módulo 7 e C tem 18. A guarda é piora local máxima dez. Verifique a porta.",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-RET-03",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "Escreva duas frases distinguindo quem calcula de quem aprova.",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-RET-04",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "Um novo algoritmo C2 surge. É adequado renomear retrospectivamente as previsões feitas por C1?",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-RET-05",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "Diferencie encerrar relatório e aposentar modelo usando um exemplo de uma linha para cada.",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  },
+  {
+    "id": "MAT-EST-055-EX-RET-06",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": "não se aplica",
+    "enunciado": "Uma trilha fictícia G1–G5 tem hashes corretos, mas nenhum certificado externo. Qual a conclusão honesta?",
+    "topicos": [
+      "governança",
+      "regras de decisão",
+      "séries temporais"
+    ]
+  }
+]

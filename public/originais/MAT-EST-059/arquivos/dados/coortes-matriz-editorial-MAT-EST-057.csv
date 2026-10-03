@@ -1,0 +1,17 @@
+cohort,target,scope,forecast_B_status,forecast_C_status,observed_status,evaluated_pair_count,eligible_at_present,reason
+MAT-EST-049-PROT-v1,t18,already_known_editorial_simulation,historical_synthetic,historical_synthetic,historical_synthetic,1,not_new_confirmatory,cannot_recycle_old_results
+MAT-EST-049-PROT-v1,t19,already_known_editorial_simulation,historical_synthetic,historical_synthetic,historical_synthetic,1,not_new_confirmatory,cannot_recycle_old_results
+MAT-EST-049-PROT-v1,t20,already_known_editorial_simulation,historical_synthetic,historical_synthetic,historical_synthetic,1,not_new_confirmatory,cannot_recycle_old_results
+MAT-EST-049-PROT-v1,t21,already_known_editorial_simulation,historical_synthetic,historical_synthetic,historical_synthetic,1,not_new_confirmatory,cannot_recycle_old_results
+MAT-EST-049-PROT-v1,t22,already_known_editorial_simulation,historical_synthetic,historical_synthetic,historical_synthetic,1,not_new_confirmatory,cannot_recycle_old_results
+MAT-EST-056-PROT-SUC-v1,t23,editorial_quarantine,not_authenticated,not_authenticated,not_observed,0,no,scenarios_previously_exposed
+MAT-EST-056-PROT-SUC-v1,t24,editorial_quarantine,not_authenticated,not_authenticated,not_observed,0,no,scenarios_previously_exposed
+MAT-EST-056-PROT-SUC-v1,t25,editorial_quarantine,not_authenticated,not_authenticated,not_observed,0,no,scenarios_previously_exposed
+MAT-EST-056-PROT-SUC-v1,t26,successor_proposed_only,not_issued,not_issued,not_observed,0,not_yet,proposal_unexecuted
+MAT-EST-056-PROT-SUC-v1,t27,successor_proposed_only,not_issued,not_issued,not_observed,0,not_yet,proposal_unexecuted
+MAT-EST-056-PROT-SUC-v1,t28,successor_proposed_only,not_issued,not_issued,not_observed,0,not_yet,proposal_unexecuted
+MAT-EST-056-PROT-SUC-v1,t29,successor_proposed_only,not_issued,not_issued,not_observed,0,not_yet,proposal_unexecuted
+MAT-EST-056-PROT-SUC-v1,t30,successor_proposed_only,not_issued,not_issued,not_observed,0,not_yet,proposal_unexecuted
+MAT-EST-056-PROT-SUC-v1,t31,successor_proposed_only,not_issued,not_issued,not_observed,0,not_yet,proposal_unexecuted
+MAT-EST-056-PROT-SUC-v1,t32,successor_proposed_only,not_issued,not_issued,not_observed,0,not_yet,proposal_unexecuted
+MAT-EST-056-PROT-SUC-v1,t33,successor_proposed_only,not_issued,not_issued,not_observed,0,not_yet,proposal_unexecuted

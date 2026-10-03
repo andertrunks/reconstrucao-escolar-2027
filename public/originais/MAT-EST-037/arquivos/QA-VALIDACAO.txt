@@ -1,0 +1,38 @@
+# MAT-EST-037 — QA local
+OK: 48 IDs únicos
+OK: Camadas 12/12/16/8
+OK: Gabarito apartado com 48 comentários
+OK: Todas questões sem origem oficial
+OK: Correção só após tentativa sinalizada
+OK: Todas identificações em Markdown
+OK: Nenhuma questão sem pré-requisito
+OK: Todas resoluções têm ao menos 1 etapa
+OK: Fontes institucionais registradas
+OK: Vídeo da página oficial e estado claro
+OK: 7 SVGs
+OK: Visual acessível: 02-amostra-estimativa.svg
+OK: Visual acessível: 01-mapa-prova.svg
+OK: Visual acessível: 06-integridade-auditoria.svg
+OK: Visual acessível: 04-escolha-metodo.svg
+OK: Visual acessível: 03-erros-teste.svg
+OK: Visual acessível: 07-retencao.svg
+OK: Visual acessível: 05-metricas-teste.svg
+OK: Dados originais preservados SHA
+OK: 8 dias e 4 linhas de teste
+OK: Erros A e B e baseline
+OK: Métricas A
+OK: Métricas B
+OK: Métricas Base
+OK: Intervalo proporção 54 de 100
+OK: Diferença médias e erro-padrão
+OK: ANOVA de 3 grupos
+OK: Bayes 2% base
+OK: Simpson estratos e total
+OK: Multiplicidade 10 independentes
+OK: Custo por falta/excesso
+OK: Reteste RMSE
+OK: Progresso intocado
+OK: Sem alteração de numeração
+OK: Manifesto e arquivos JSON parseáveis
+Resultado: 35/35 verificações aprovadas; 0 falhas.
+Pendências externas: assistir integralmente ao vídeo, testar Edge Ler em voz alta, integrar/importar/rotas no site e sincronizar Google Drive/GitHub/deploy.

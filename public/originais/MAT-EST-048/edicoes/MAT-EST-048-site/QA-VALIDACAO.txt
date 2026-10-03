@@ -1,0 +1,37 @@
+MAT-EST-048 — QA LOCAL
+OK | continuity and source materials
+OK | original CSV exact hash matches
+OK | original series unchanged
+OK | invented new scenario is separate
+OK | six original emission IDs
+OK | all prefixes exclude own target
+OK | recalculation from available prefix
+OK | signed errors correct
+OK | MAE accuracy both windows
+OK | RMSE accuracy both windows
+OK | threshold predeclared and strict
+OK | trigger occurs first at t17
+OK | pending target count excludes observed
+OK | pendings have independent targets and forecasts
+OK | all simulated issuance CSV values omit actual at emission
+OK | explicit simulation caveat
+OK | 36 question distribution
+OK | 36 unique question IDs/prompts
+OK | gabarito full separate coverage
+OK | all correction explanations substantial
+OK | all 36 original and no fake attempts
+OK | zero official references
+OK | all question IDs in written lesson
+OK | seven distinct visuals with descriptions
+OK | SVG title and desc MAT-EST-048-VIS-01
+OK | SVG title and desc MAT-EST-048-VIS-02
+OK | SVG title and desc MAT-EST-048-VIS-03
+OK | SVG title and desc MAT-EST-048-VIS-04
+OK | SVG title and desc MAT-EST-048-VIS-05
+OK | SVG title and desc MAT-EST-048-VIS-06
+OK | SVG title and desc MAT-EST-048-VIS-07
+OK | visual preview dimensions
+OK | video availability claim honest
+OK | manifest never invents publication or learning
+OK | no control chars
+OK | separate reproduction script passed

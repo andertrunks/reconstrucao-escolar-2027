@@ -1,0 +1,213 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MAT-EST-051 — Prévia editorial local</title><style>html{font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;color:#1c2937;background:#f3f6fa}body{margin:0}a{color:#114e79}a:focus-visible,button:focus-visible{outline:3px solid #b94a00;outline-offset:3px}.layout{max-width:1040px;margin:auto;padding:2rem 1.3rem}article{background:white;border:1px solid #d7e1ec;border-radius:15px;padding:2.2rem;line-height:1.68;font-size:1.075rem}header{background:#162d43;color:white;padding:1.6rem 2rem;border-radius:14px;margin-bottom:1rem}h1{font-size:1.8rem;line-height:1.24}h2{margin-top:2.6rem;border-bottom:1px solid #c9d2dc;padding-bottom:.4rem}h3{margin-top:2rem}p{max-width:78ch}img{width:100%;height:auto;max-height:370px;object-fit:contain}table{border-collapse:collapse;width:100%;overflow:auto;display:block;margin:1rem 0}td,th{text-align:left;padding:.6rem .75rem;border:1px solid #becbd8;min-width:90px}th{background:#e8eef5}code{overflow-wrap:anywhere}blockquote{border-left:4px solid #546a82;padding-left:1rem}nav a{display:inline-block;margin:.4rem 1rem .4rem 0}footer{padding:2rem;text-align:center} @media(prefers-color-scheme:dark){html{background:#111821;color:#e5e7eb}article{background:#1b2838;border-color:#43566a}a{color:#8bd0fc}header{background:#243b53}th{background:#31445b}td,th{border-color:#6a7886}}@media(max-width:600px){.layout{padding:.3rem}header,article{padding:1rem;border-radius:0}}</style></head><body><div class="layout"><header><strong>RECONSTRUÇÃO ESCOLAR • PRÉVIA LOCAL</strong><p>MAT-EST-051 — sem publicação nem progresso do estudante</p></header><main><article><h1>MAT-EST-051 — Desenho de uma avaliação temporal futura: hipóteses, coleta, critérios e análise pós-registro</h1>
+<p><strong>Área:</strong> Matemática. <strong>Unidade:</strong> Estatística — séries temporais / ponte universitária. <strong>Nível:</strong> 6. <strong>Anterior:</strong> MAT-EST-050. <strong>Próximo, proposto:</strong> MAT-EST-052 — Ensaio operacional de monitoramento: integridade do registro, atrasos de observação e encerramento auditável. <strong>Material:</strong> texto, dados, gráficos e 36 questões autorais, sem reprodução de questões oficiais. <strong>Progresso individual:</strong> não iniciado e inalterado.</p>
+<p><strong>Estado dos dados:</strong> os 22 pontos de t01 a t22 são números <strong>inventados</strong> e mantidos como narrativa histórica do projeto. Em t23, t24 e t25 <strong>ainda não existem valores observados</strong>. Os valores 178, 191 e 209 são três cenários alternativos <em>para t23</em>, não observações, não probabilidades e não três novas linhas de uma série. A previsão de t23 calculada retroativamente com dados até t22 é <strong>ilustrativa</strong>, não registro autenticado de uma emissão real naquele instante. Nenhuma decisão de produção ou ciência empírica decorre destes dados.</p>
+<p><strong>Roteiro de estudo:</strong> bloco A, 30 a 45 minutos, pergunta avaliativa, evidência e tempo informacional; bloco B, 30 a 50 minutos, protocolo, registro e critérios; bloco C, 30 a 50 minutos, análise condicionada, exercícios, relatório e revisão. Se uma fórmula não for compreendida, recuperar médias, diferenças ou funções lineares antes de passar ao próximo bloco.</p>
+<h2>1. Objetivos e pré-requisitos</h2>
+<p>Ao estudar e tentar as atividades, você deverá conseguir: distinguir hipótese, critério, cenário e observação; definir de antemão uma tarefa com origem e horizonte; identificar quando uma previsão passa de cálculo ilustrativo a emissão registrável; preparar um esquema auditável de coleta e versões; derivar as previsões condicionais de t24 e t25 sem acessar alvos futuros; construir métricas emparelhadas com denominador explícito; aplicar portas de decisão sem ignorar falhas históricas; explicar como dados ausentes e retificados entram em registros apend-only; e redigir uma análise pós-registro que separe resultados, ressalvas e autorização humana.</p>
+<p><strong>Conhecimentos anteriores:</strong> frações, proporções, médias, módulo, números negativos, funções simples, séries sazonais e avaliação de previsões. Na árvore do projeto, recuperar MAT-EST-031, 032, 039, 041, 042 e MAT-EST-043 a 050 quando necessário. A ligação com ENEM e vestibulares é a leitura crítica de gráficos, tabelas, proporcionalidade, formulação de hipóteses e qualidade de argumentos; governança de modelos é o aprofundamento universitário aqui proposto, <strong>não</strong> uma exigência curricular específica atribuída a qualquer banca.</p>
+<h2>2. Por que desenhar a avaliação antes de receber a resposta?</h2>
+<p>É relativamente fácil criar critérios depois de descobrir os resultados: excluir um trimestre ruim, trocar um custo ou considerar um cenário como observado. Isso produz uma história favorável, mas impede distinguir previsão genuína de explicação construída com o alvo já conhecido. Um protocolo pré-especificado indica qual pergunta será respondida, quais observações poderão entrar, quando serão obtidas, como serão comparadas e o que será feito se faltar um dado. Um registro temporal verificável estabelece a ordem entre emissão, observação e correção. Chama-se aqui <strong>avaliação prospectiva</strong> aquela cuja previsão e cujo protocolo existem antes de se conhecer o respectivo resultado; no presente pacote criamos apenas o <strong>desenho didático</strong> dessa avaliação.</p>
+<p>O livro aberto <em>Forecasting: Principles and Practice</em>, seção 5.10, explica a avaliação por origens temporais sucessivas: cada previsão deve usar apenas observações anteriores ao alvo. A literatura de avaliação de previsões alerta também para vazamento de informação durante pré-processamento, escolha de modelo e comparação. Isso fundamenta o método geral, <strong>não valida os valores inventados desta aula</strong>. Fontes ao final.</p>
+<p><img src="assets/01-fronteira-e-perguntas.svg" alt="Fronteira informacional até o período vinte e dois" /></p>
+<p><strong>Figura 1 — Tempo da pergunta e da resposta.</strong> Texto alternativo: uma faixa de t18 a t22 contém cinco alvos fictícios emparelhados; uma divisória separa t23 a t25 ainda sem observado. <strong>Observe:</strong> uma coluna futura vazia não é zero e um cenário não pode substituí-la. <strong>Conclusão por áudio:</strong> o desenho de avaliação precede a chegada dos resultados; não há sexto, sétimo ou oitavo par efetivo neste pacote. <strong>Autoria:</strong> projeto, diagrama original.</p>
+<h3>Vocabulário que não deve ser misturado</h3>
+<p><em>Hipótese</em> é uma proposição testável: por exemplo, “o desafiante reduzirá o MAE em pelo menos vinte por cento nos oito pares previstos”. <em>Critério de decisão</em> indica a regra operacional para permitir ou impedir uma ação; pode exigir mais do que uma hipótese média. <em>Cenário</em> é um “e se”: se t23 fosse 178, calcularíamos determinados erros. <em>Observação</em> é o valor efetivamente recebido e verificado conforme a fonte e o momento declarados; nosso mundo aqui é inteiramente fictício, mas mesmo a simulação deve respeitar suas etiquetas. <em>Pré-registro</em> é a documentação anterior ao acesso às respostas futuras. <em>Apend-only</em> significa adicionar eventos sem sobrescrever silenciosamente os anteriores: uma correção é outro evento vinculado ao registro original.</p>
+<h2>3. O que o projeto já possui e o que continua bloqueado</h2>
+<p>A referência sazonal <code>BASE-SNAIVE-v1</code>, abreviada B, toma o valor quatro períodos antes: (\widehat y^B_{t\mid t-1}=y_{t-4}). Leitura: previsão de B para o próximo período é o observado quatro períodos antes. O desafiante <code>CHAL-SDELTA5-v1</code>, abreviado C, soma a B a média de cinco diferenças sazonais recentes (d_j=y_j-y_{j-4}). A equação é (\widehat y^C_{t\mid t-1}=y_{t-4}+\frac15\sum_{j=t-5}^{t-1}d_j). Leitura: para prever t, C usa a mesma observação sazonal de B e acrescenta a média de cinco diferenças já disponíveis no fechamento do período t menos um. Nenhum parâmetro foi reaprendido aqui; trata-se das regras documentadas na MAT-EST-049.</p>
+<table>
+<thead>
+<tr>
+  <th>Alvo fictício</th>
+  <th>Origem</th>
+  <th style="text-align:right">Observado fictício</th>
+  <th style="text-align:right">Previsão B</th>
+  <th style="text-align:right">Previsão C</th>
+  <th style="text-align:right">Erro B</th>
+  <th style="text-align:right">Erro C</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>t18</td>
+  <td>t17</td>
+  <td style="text-align:right">176</td>
+  <td style="text-align:right">151</td>
+  <td style="text-align:right">166,2</td>
+  <td style="text-align:right">+25</td>
+  <td style="text-align:right">+9,8</td>
+</tr>
+<tr>
+  <td>t19</td>
+  <td>t18</td>
+  <td style="text-align:right">183</td>
+  <td style="text-align:right">187</td>
+  <td style="text-align:right">206,2</td>
+  <td style="text-align:right">−4</td>
+  <td style="text-align:right">−23,2</td>
+</tr>
+<tr>
+  <td>t20</td>
+  <td>t19</td>
+  <td style="text-align:right">181</td>
+  <td style="text-align:right">160</td>
+  <td style="text-align:right">177,2</td>
+  <td style="text-align:right">+21</td>
+  <td style="text-align:right">+3,8</td>
+</tr>
+<tr>
+  <td>t21</td>
+  <td>t20</td>
+  <td style="text-align:right">188</td>
+  <td style="text-align:right">167</td>
+  <td style="text-align:right">185,2</td>
+  <td style="text-align:right">+21</td>
+  <td style="text-align:right">+2,8</td>
+</tr>
+<tr>
+  <td>t22</td>
+  <td>t21</td>
+  <td style="text-align:right">193</td>
+  <td style="text-align:right">176</td>
+  <td style="text-align:right">195,2</td>
+  <td style="text-align:right">+17</td>
+  <td style="text-align:right">−2,2</td>
+</tr>
+</tbody>
+</table>
+<p>O erro assinado é (e=y-\widehat y). Pronuncie: “erro igual a observado menos previsto”. Um sinal positivo indica que faltou previsão; um sinal negativo indica que houve previsão excessiva. A soma dos módulos é 88 para B e 41,8 para C, portanto (MAE_B=88/5=17,6) e (MAE_C=41,8/5=8,36), ambos em unidades fictícias. MAE lê-se “erro absoluto médio”. Sob o custo congelado (C(e)=3\max(e,0)+\max(-e,0)), as médias são 51,2 e 14,92 pontos fictícios.</p>
+<p><strong>Mas:</strong> em t19, o módulo de C foi 23,2, contra quatro de B: piora local de <strong>19,2 unidades</strong>. <code>MAT-EST-049-PROT-v1</code> exige pelo menos oito pares em dois ciclos sazonais; redução mínima de vinte por cento para MAE e custo médio; nenhuma piora local acima de dez unidades; qualidade auditada; aprovação humana e plano de reversão. <strong>A falha de t19 é irrevogável para esse protocolo.</strong> Novos dados podem completar o registro para fins pedagógicos ou fundamentar <em>outro</em> protocolo declarado antecipadamente, mas não apagar a falha nem autorizar a promoção na versão antiga. Há cinco pares completos de oito planejados. Preservamos <code>MAT-EST-049-PROT-v1</code> byte a byte.</p>
+<p><img src="assets/04-portas-do-protocolo.svg" alt="Painel das portas do protocolo" /></p>
+<p><strong>Figura 2 — Portas cumulativas.</strong> Texto alternativo: há cinco de oito pares; as duas médias atuais são descritivamente menores; a guarda local t19 foi violada; auditoria e decisão humana ainda são ausentes. <strong>Observe:</strong> a guarda continua fechada mesmo se o total chegar a oito. <strong>Conclusão por áudio:</strong> atender um agregado não substitui todas as condições de aprovação. <strong>Autoria:</strong> projeto, diagrama original.</p>
+<h2>4. Perguntas e registro propostos: o que é fixo e o que é derivado</h2>
+<p><strong>Pergunta primária congelada herdada:</strong> nos alvos t18 a t25, horizonte um, o candidato C pode ser analisado para promoção segundo todas as portas de <code>MAT-EST-049-PROT-v1</code>? A resposta quanto à promoção sob essa versão já é <strong>não</strong>, pois t19 viola uma porta. Ainda é instrutivo registrar os alvos restantes sem apagar perdas e escrever um encerramento honesto. A segunda pergunta, de aprendizagem operacional, é se o desenho permite reproduzir emissões e avaliações futuras, com origem, data de disponibilidade, versão do modelo, dados conhecidos e retificações.</p>
+<p><strong>Hipóteses descritivas a verificar somente quando houver pares válidos:</strong> H1, o MAE médio do desafiante será no máximo oitenta por cento do MAE da referência no conjunto completo t18–t25; H2, o custo médio de C, usando o <em>mesmo peso três</em> anterior, será no máximo oitenta por cento do custo médio de B; H3, nenhuma tarefa terá piora de módulo superior a dez unidades; H4, a trilha de dados terá proveniência e conferência suficientes. Escrever cada uma não a torna verdadeira. H3 já foi violada em t19. Não se atribui probabilidade de sucesso nem teste estatístico a uma amostra inventada.</p>
+<p><strong>Regra de origem e alvo:</strong> t23 deve corresponder à origem t22, t24 à origem t23, t25 à origem t24. O horizonte é sempre um período. Para cada alvo, B e C usam a mesma versão validada da observação disponível naquela origem. O objetivo primário utiliza pares, não o mesmo valor de t23 reciclado como se fossem dois alvos. Um modelo não recebe acesso a dados posteriores por antecipação.</p>
+<p><img src="assets/03-origens-e-alvos.svg" alt="Três ciclos de origem e revelação" /></p>
+<p><strong>Figura 3 — Três origens móveis.</strong> Texto alternativo: origem t22 aponta para alvo t23; t23 aponta para t24 apenas depois de uma observação válida; t24 aponta para t25 sob a mesma condição. <strong>Observe:</strong> o segundo e terceiro pares dependem da chegada dos dados anteriores. <strong>Conclusão por áudio:</strong> a regra de um passo só pode avançar quando há observação admitida e emissão preservada. <strong>Autoria:</strong> projeto, diagrama original.</p>
+<h3>Contrato de registro prospectivo didático: <code>MAT-EST-051-PLAN-v1</code></h3>
+<p>Este é um <strong>plano para possível simulação posterior</strong>, não uma alteração de <code>MAT-EST-049-PROT-v1</code> nem um log efetivamente emitido. Uma ficha de emissão precisa, no mínimo: <code>event_id</code>; <code>protocol_id</code>; <code>model_version</code>; <code>origin_period</code>; <code>target_period</code>; <code>horizon</code>; <code>forecast_value</code>; <code>unit</code>; <code>input_data_snapshot_id</code>; <code>input_max_period</code>; <code>issued_at</code> ou índice de sequência autenticado; <code>status</code>; <code>algorithm_version</code>; <code>digest</code>. A ficha de observação traz <code>observation_id</code>, <code>target_period</code>, <code>observed_value</code> ou nulo, <code>source</code>, <code>available_at</code>, <code>quality_status</code>, <code>data_version</code> e eventual referência a correção. A comparação registra os dois <code>event_id</code> compatíveis, a observação aprovada e o método de cálculo. O comunicado final lista também a quantidade de pares previstos, completos, ainda pendentes, excluídos <strong>por regra prévia</strong>, versões utilizadas e bloqueios.</p>
+<p><strong>Sem relógio verificável, não inventar horário.</strong> Um número de sequência de simulação pode mostrar a lógica, mas não prova ordem de eventos real. Um resumo criptográfico, como SHA-256, ajuda a verificar bytes preservados; isoladamente não prova que o arquivo existiu antes da observação nem autentica quem o produziu. Um protocolo genuinamente prospectivo exigiria trilha externa de data e controle de acesso. Não existe esse registro para t23 nesta aula.</p>
+<p><img src="assets/02-ciclo-do-registro.svg" alt="Ciclo de emissão, observação e auditoria" /></p>
+<p><strong>Figura 4 — Registro com ordem verificável.</strong> Texto alternativo: planejamento leva a emissão imutável; depois vem observação, validação de qualidade, emparelhamento e parecer. Uma retificação entra em ramo novo, sem apagar a versão antiga. <strong>Observe:</strong> a observação não alimenta retroativamente a emissão antiga. <strong>Conclusão por áudio:</strong> corrigir dados significa adicionar uma versão e recalcular explicitamente as consequências, nunca editar previsões históricas silenciosamente. <strong>Autoria:</strong> projeto, diagrama original.</p>
+<h3>Um registro inicialmente incompleto é um resultado de controle legítimo</h3>
+<p>O <code>plano-emissoes-pendentes-t23-t25.csv</code> apresenta três linhas de planejamento com <code>forecast_status=nao_emitido</code>. Na coluna de observação o estado é <code>nao_observado</code> e o valor permanece vazio. Há um CSV <em>separado</em>, <code>projecoes-ilustrativas-t23.csv</code>, para os cálculos B igual a 183 e C igual a 199, marcados como <code>recalculo_didatico_nao_log_autenticado</code>. Não copiar esses valores para um campo que indique emissão autenticada; isso seria fabricar evidência temporal. O arquivo <code>cenarios-herdados-t23-nao-observados.csv</code> mantém os cenários alternativos em sua própria classe.</p>
+<h2>5. Como preparar previsão futura sem revelar futuro: exemplo resolvido</h2>
+<p>No fechamento fictício de t22 temos y19 igual a 183, y20 igual a 181, y21 igual a 188, y22 igual a 193. Para t23, a referência toma y19: <strong>B23 = 183</strong>. As diferenças sazonais d18 a d22 são, respectivamente, 25, menos quatro, 21, 21 e 17. Somam 80; a média é 16. Assim, <strong>C23 = 183 + 16 = 199</strong>. Estas são contas condicionadas ao histórico, não provas de emissão em tempo real.</p>
+<h3>5.1 E se recebermos t23 igual a x, futuramente?</h3>
+<p>Não atribuímos número a x. Apenas demonstramos qual conta será possível <strong>depois</strong> de registrar e validar esse observado. Na origem t23, a referência para t24 será y20, igual a <strong>181</strong>. Para C24, a janela passa a d19, d20, d21, d22 e d23. Os quatro conhecidos somam menos quatro mais 21 mais 21 mais 17, igual a <strong>55</strong>. Como (d_{23}=x-183), a soma vira (x-128). Portanto:</p>
+<p>[\widehat y^C_{24\mid23}=181+\frac{x-128}{5}.]</p>
+<p>Leitura: “previsão C para o período vinte e quatro, feita na origem vinte e três, é cento e oitenta e um mais x menos cento e vinte e oito dividido por cinco”. O valor x é um possível observado de t23, ainda desconhecido. Não calcular uma previsão numérica para t24 sem x e depois alegar que se trata de uma emissão de horizonte um.</p>
+<h3>5.2 E se, mais tarde, t24 for registrado como z?</h3>
+<p>Para t25 a referência toma y21, logo <strong>B25 = 188</strong>. A janela de C passa a d20, d21, d22, d23 e d24: os três primeiros somam 21 mais 21 mais 17, igual a 59. O quarto é x menos 183 e o quinto é z menos 181. A soma total é (x+z-305). Então:</p>
+<p>[\widehat y^C_{25\mid24}=188+\frac{x+z-305}{5}.]</p>
+<p>Leitura: “previsão C para vinte e cinco é cento e oitenta e oito mais x mais z menos trezentos e cinco, tudo dividido por cinco”. Para aprender, se <em>hipoteticamente</em> x igual a 191 e z igual a 185, C24 seria 193,6 e C25 seria 202,2. Esses números permanecem em uma ficha de <strong>exemplo condicionado</strong>, jamais no registro de fatos do estudo. Em especial, o cenário 191 já existia como uma das alternativas t23 na aula anterior, sem probabilidade ou status observado.</p>
+<p><img src="assets/05-formulas-condicionais.svg" alt="Dependência de x e z nas projeções futuras" /></p>
+<p><strong>Figura 5 — Valores ainda desconhecidos.</strong> Texto alternativo: B23 e C23 têm valores ilustrativos 183 e 199, enquanto C24 depende de x, o ainda não observado t23, e C25 depende de x e z, sendo z o ainda não observado t24. <strong>Observe:</strong> cada variável aparece apenas depois que a origem autorizada a conhece. <strong>Conclusão por áudio:</strong> fórmula simbólica permite planejar sem preencher indevidamente o futuro. <strong>Autoria:</strong> projeto, diagrama original.</p>
+<h2>6. Critérios e denominadores: planejar a conta antes do resultado</h2>
+<p>Para um conjunto de N pares elegíveis, compare erro absoluto médio, MAE, separadamente, mas no <strong>mesmo alvo e horizonte</strong>:</p>
+<p>[MAE_M=\frac{\sum_{i=1}^{N}|y_i-\widehat y_{M,i}|}{N}.]</p>
+<p>Leitura: “erro absoluto médio do modelo M é a soma de N módulos de observado menos previsto, dividida por N”. A unidade é a mesma da série. O custo médio congelado usa (C(e)=3\max(e,0)+\max(-e,0)), em pontos fictícios por previsão. O ganho descritivo relativo em MAE é (G_{MAE}=1-MAE_C/MAE_B), lido “um menos o erro médio de C dividido pelo erro médio de B”, se o denominador for maior que zero. Para o custo, a forma é análoga. Se o denominador for zero, a razão fica indefinida e um protocolo deveria dizer como tratar esse caso, em vez de inventar percentuais.</p>
+<p>Há dois limiares de vinte por cento: (MAE_C\leq0,8,MAE_B) e (\overline C_C\leq0,8,\overline C_B). Leitura: a média do desafiante deve ser no máximo oitenta por cento da média da referência em cada métrica. Além disso, para <strong>todo alvo elegível</strong>, (|e_C|-|e_B|\leq10) unidades; pronuncie “módulo do erro do candidato menos módulo do erro da referência deve ser menor ou igual a dez”. A desigualdade falhou em t19: 23,2 menos quatro igual a 19,2. Isso não pode ser reparado calculando outra média.</p>
+<table>
+<thead>
+<tr>
+  <th>Critério do protocolo herdado</th>
+  <th>Estado demonstrado até t22</th>
+  <th>Situação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Oito pares t18–t25, mesmo horizonte</td>
+  <td>Cinco completos, três futuros</td>
+  <td>Pendente</td>
+</tr>
+<tr>
+  <td>Redução MAE pelo menos 20%</td>
+  <td>Resultado parcial 52,5%</td>
+  <td>Descritivo, não final</td>
+</tr>
+<tr>
+  <td>Redução de custo médio pelo menos 20%, peso 3</td>
+  <td>Resultado parcial cerca de 70,86%</td>
+  <td>Descritivo, não final</td>
+</tr>
+<tr>
+  <td>Piora local nunca acima de dez</td>
+  <td>t19 igual a 19,2</td>
+  <td><strong>Falhou</strong></td>
+</tr>
+<tr>
+  <td>Auditoria, autorização humana, rollback</td>
+  <td>Não realizados</td>
+  <td>Pendente</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Síntese por áudio:</strong> completar mais três linhas não elimina a falha ocorrida em t19; por isso o status de promoção sob este protocolo permanece bloqueado. Os resultados agregados parciais são medidas sobre cinco pares sintéticos, não inferência para oito tarefas nem para demandas reais. O documento de planejamento não modifica os limiares antigos.</p>
+<h3>Exemplo de contagem com atraso</h3>
+<p>Suponha que duas previsões novas foram <strong>devidamente emitidas e registradas</strong>, mas chegou apenas uma observação de qualidade aprovada. A contagem de pares elegíveis sobe em um, não em dois. O outro alvo permanece pendente. Nunca preencher zero, usar o cenário 178 como substituto ou dividir a soma pelo total planejado como se todas as observações existissem. É necessário reportar <code>N_planejado</code>, <code>N_emitido</code>, <code>N_observado_validado</code>, <code>N_pareado</code> e <code>N_pendente</code>. Uma eventual exclusão deve decorrer de regra documentada, com razão e histórico preservados.</p>
+<h2>7. Falhas de coleta e correções: governança antes do cálculo</h2>
+<p>O valor observado pode chegar atrasado, duplicado, com unidade errada ou sujeito a retificação. O fluxo recomendado para o projeto simulado é: receber em quarentena; conferir período, tipo, fonte e unidade; registrar <code>observation_id</code> e versão; comparar com os eventos de emissão anteriores; aceitar ou classificar a divergência; calcular métricas apenas em pares válidos; produzir relatório com denominadores. Uma retificação jamais deve apagar a versão inicial. Um evento <code>OBS-CORRECTION</code> aponta para o anterior, relata motivo e mantém os dois valores, o momento em que se tornaram disponíveis e o efeito sobre o parecer.</p>
+<p>Imagine, <strong>apenas como demonstração</strong>, uma futura linha t23 inicialmente registrada como 191 e corrigida para 190 depois. A emissão B23=183 e C23=199 teria de permanecer com o mesmo valor se tiver registro prévio válido; os erros calculados seriam atualizados com rastro de versões. A nova observação não pode ser usada para refazer a previsão original. Neste pacote, porém, 191 e 190 <strong>não são observações</strong>, nem há evento efetivamente corrigido em t23. Este exemplo serve para ensinar a operação, não para criar dados.</p>
+<p><img src="assets/06-fluxo-qualidade.svg" alt="Ramos de qualidade de uma chegada de dados" /></p>
+<p><strong>Figura 6 — Qualidade sem preenchimento enganoso.</strong> Texto alternativo: dado recebido entra em conferência; se válido, torna-se elegível; se atrasado, permanece pendente; se incorreto, retificação é evento novo e mantém a versão antiga. <strong>Observe:</strong> não há seta que transforme o campo vazio em zero ou cenário. <strong>Conclusão por áudio:</strong> métricas só podem usar observações aceitas e previsões comprovadamente anteriores aos alvos. <strong>Autoria:</strong> projeto, diagrama original.</p>
+<h3>Uma tabela mínima para publicação e auditoria</h3>
+<table>
+<thead>
+<tr>
+  <th>Campo de saída</th>
+  <th>Conteúdo exigido</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Pergunta e amostra</td>
+  <td>Períodos-alvo, horizonte, número previsto e número completo</td>
+</tr>
+<tr>
+  <td>Proveniência</td>
+  <td>Fonte, data/ordem confiável, versões dos dados e modelos</td>
+</tr>
+<tr>
+  <td>Desempenho</td>
+  <td>MAE, custo, piora local e respectivos denominadores</td>
+</tr>
+<tr>
+  <td>Irregularidades</td>
+  <td>Atrasos, ausências, correções, duplicações, janela sazonal</td>
+</tr>
+<tr>
+  <td>Decisão</td>
+  <td>Portas individualmente, responsável humano e versão da decisão</td>
+</tr>
+<tr>
+  <td>Limitação</td>
+  <td>Série sintética, seleção do candidato e não generalização</td>
+</tr>
+</tbody>
+</table>
+<p>Dizer apenas “o candidato reduziu o MAE” oculta a falha t19 e a incompletude da amostra. Dizer “não promover” sem registrar as médias também seria um relatório empobrecido. Boa comunicação inclui os dois lados, as condições e as reservas.</p>
+<h2>8. Como separar análise registrada, exploração e mudança de protocolo</h2>
+<p>O plano proposto mantém <code>MAT-EST-049-PROT-v1</code> intacto como base do exercício. Qualquer teste de sensibilidade à retirada de uma linha, ao peso do custo ou a cenários de t23 pode acompanhar o relatório em apêndice rotulado <strong>exploratório</strong>. Uma alteração de regra para um novo ciclo deve ser escrita como novo ID antes de ver os resultados daquele ciclo e não ser apresentada como cumprimento do protocolo antigo. O modelo em sombra pode permanecer disponível para estudo, sujeito a qualidade e responsabilidade, sem ser promovido. O momento de emissão e o momento de avaliação são duas etapas separadas; o envio dos valores hipotéticos 178, 191 ou 209 a uma planilha de observados destruiria essa separação.</p>
+<p>Em um sistema de aprendizagem, o mesmo cuidado se aplica à avaliação do aluno: produzir aula não é realizar tentativa. Este pacote não registra estudo, pontuação, revisão feita ou consolidação. A revisão poderá ser programada em um, sete e trinta dias <strong>depois de tentativa efetiva</strong>, não depois da geração do material.</p>
+<h2>9. Exemplo completo de relatório de pré-registro, sem inventar resultado</h2>
+<p><strong>Pergunta:</strong> o ciclo de oito tarefas sazonais de horizonte um compara B e C nos mesmos alvos t18 a t25, segundo a regra congelada <code>MAT-EST-049-PROT-v1</code>. T18 a t22 são pares editoriais sintéticos já existentes; t23 a t25 continuam sem observado e sem log autenticado de emissão futura.</p>
+<p><strong>Procedimento:</strong> preservar o arquivo do protocolo, regras de B e C, janela de cinco diferenças e a métrica assinalada. Ao fechar uma origem, validar as entradas, calcular as duas previsões e registrar eventos imutáveis antes de admitir o alvo. Receber cada resultado com proveniência, permitir retificação como nova versão, parear somente eventos elegíveis e calcular MAE, custos e perdas locais. Separar dúvidas exploratórias do teste congelado.</p>
+<p><strong>Estado:</strong> há cinco pares no roteiro sintético, MAE B=17,6 e C=8,36, custo médio B=51,2 e C=14,92; em t19 a piora do erro absoluto de C foi 19,2, ultrapassando dez. A regra herdada já impede promoção. O objetivo de preencher eventual avaliação restante é documentar, ensinar e auditar, não apagar esse resultado.</p>
+<p><strong>Limitações e próximos controles:</strong> os dados são criados para aprender e não há uma avaliação temporal prospectiva real; não se conhecem observações futuras nem probabilidades de seus cenários. A condição de confiabilidade da coleta e a autorização humana não foram satisfeitas. Antes de qualquer uso externo, seriam necessários fontes autênticas, protocolo efetivamente datado, proteção contra vazamento, monitoramento adequado e validação específica no contexto de aplicação.</p>
+<h2>10. Erros recorrentes e ligações conceituais</h2>
+<p><strong>Erros frequentes:</strong> registrar cenário como observado; afirmar que uma conta feita hoje foi uma previsão autenticada ontem; confundir três cenários do mesmo alvo com três pares independentes; misturar horizontes; alterar o peso três após ver o resultado e atribuí-lo ao protocolo anterior; reemitir previsão depois de conhecer a resposta; apagar uma falha individual por causa de médias favoráveis; usar como denominador oito quando só cinco pares existem; tratar ausência como zero; confundir hash com carimbo temporal; perder a versão corrigida de um dado; declarar validação externa para série criada editorialmente.</p>
+<p><strong>Relações com outras matérias:</strong> funções e álgebra permitem manter x e z simbólicos, sem fingir observações; em Língua Portuguesa e Redação, hipóteses e limitações precisam ser escritas de forma verificável; em Ciências, pré-registro ajuda a separar teste de exploração; em tecnologia, esquema de eventos, controle de versões e hashes apoiam reprodutibilidade; em Educação Matemática, uma explicação narrada deve dizer como a figura comunica a separação entre passado e futuro. Em contextos públicos ou de saúde, o exercício não autoriza previsão real de atendimento nem regra operacional para pessoas.</p>
+<h2>11. Vídeo complementar e leitura verificada</h2>
+<p><strong>Vídeo:</strong> <a href="https://www.youtube.com/watch?v=OGpENuxjRWM">Forecasting: Principles &amp; Practice — 5.10 Time series cross-validation</a>, <strong>canal OTexts</strong>, em inglês, publicado em 5 de março de 2023 conforme resultado indexado do YouTube. <strong>Duração:</strong> não confirmada; não reproduzimos integralmente o vídeo e o carregamento direto do YouTube não foi concluído neste ambiente. Seu título e a vinculação com a coleção do livro estão disponíveis. <strong>Assistir depois da seção 4</strong>, para reforçar a regra de que cada origem usa apenas informações anteriores ao alvo. A aula permanece completa sem o vídeo. Conferir a reprodução direta e legendas antes da publicação no site.</p>
+<p><strong>Leituras:</strong> Hyndman e Athanasopoulos, <a href="https://otexts.com/fpp3/tscv.html"><em>Forecasting: Principles and Practice</em>, 3ª ed., seção 5.10: Time series cross-validation</a> e <a href="https://otexts.com/fpp3/accuracy.html">seção 5.8: Evaluating forecast accuracy</a>; <a href="https://link.springer.com/article/10.1007/s10618-022-00894-5">artigo científico sobre erros comuns em avaliação de previsões</a>, publicado em 2022, edição 2023. A fundamentação bibliográfica refere-se a método, não a um resultado factual da série inventada.</p>
+<h2>12. Atividades graduais e correção</h2>
+<p>Os enunciados completos estão em <code>exercicios.md</code> e <code>exercicios.json</code>: dez de aprendizagem básica, dez de consolidação, dez autorais em estilo vestibular e seis de reteste em outra sessão, totalizando <strong>36 questões autorais</strong>. A resolução individual, com justificativa, conferência das contas e categoria provável de erro, está <strong>separada</strong> em <code>gabarito-comentado.md</code> e <code>gabarito-comentado.json</code>. Não exibir automaticamente a resposta antes da tentativa; nenhuma dessas questões é oficial de ENEM, FUVEST, UNICAMP ou UNESP.</p>
+<p><strong>Orientação de resolução:</strong> em toda questão pergunte primeiro qual é a origem informacional, qual é o alvo, qual o status do número (registrado, hipotético ou pendente), que operação é necessária e que afirmação os dados autorizam. Refaça contas sem gabarito antes de classificar o erro em conteúdo, interpretação, cálculo, distração, memória, estratégia ou tempo.</p>
+<h2>13. Resumo pronunciável para ouvir</h2>
+<p>Uma previsão só pode ser avaliada de modo prospectivo quando a sua origem, versão e valor já estavam registrados antes de conhecer a resposta. Até t22 há cinco pares criados editorialmente, enquanto t23 a t25 ainda não possuem valores observados. Os cálculos B23 igual a cento e oitenta e três e C23 igual a cento e noventa e nove são reconstruções didáticas com dados até t22, não prova de emissão em campo. Para prever t24 em horizonte um, dependemos de um x que represente o futuro observado de t23, devidamente validado; para t25, dependemos também de z, futuro observado de t24. A amostra tem cinco pares, não oito. O erro pior do desafiante em t19 foi dezenove vírgula dois unidades acima do erro da referência, infringindo a guarda de dez unidades; nenhuma média posterior apaga essa falha histórica no protocolo antigo. Planejar não é observar, registrar não é avaliar, corrigir não é sobrescrever, e concluir exige mostrar tanto a conta quanto os limites.</p>
+<p><strong>Revisão espaçada após tentativa real:</strong> no primeiro retorno, reproduza uma origem, um alvo e a distinção cenário versus observado. Após sete dias, derive novamente C24 em função de x e monte a tabela de critérios com denominadores. Após trinta dias, resolva o reteste sem consultar o gabarito e escreva um pré-registro de um parágrafo e um parecer de resultados de dois parágrafos. Se um cálculo travar, retome sua operação elementar e reteste; não alterar progresso individual por leitura ou por geração editorial.</p>
+<p><strong>Próximo passo editorial proposto:</strong> MAT-EST-052 — Ensaio operacional de monitoramento: integridade do registro, atrasos de observação e encerramento auditável. Não criar observações para t23 a t25 automaticamente e não declarar execução de uma avaliação prospectiva real.</p>
+<p><strong>Limites desta entrega:</strong> arquivos locais, sem sincronização com Google Drive ou GitHub, publicação ou teste real do Edge, e sem verificação de reprodução integral do vídeo. Nenhuma tentativa de estudante foi fornecida nesta geração.</p>
+</article></main><footer>Material didático autoral · Prévia local · Próximo: MAT-EST-052</footer></div></body></html>

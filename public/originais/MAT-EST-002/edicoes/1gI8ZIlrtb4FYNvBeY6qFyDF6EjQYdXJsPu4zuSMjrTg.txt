@@ -1,0 +1,623 @@
+﻿MAT-EST-002 — Censo, amostragem e representatividade: como escolher uma amostra
+
+
+Status editorial: RECONSTRUÇÃO EDITORIAL v1 — não é cópia byte a byte do material histórico perdido.
+Matéria: Matemática.
+Unidade: Estatística.
+Nível principal: 2 — Ensino Fundamental II, com aprofundamento progressivo para os níveis 3 e 4.
+Anterior: MAT-EST-001 — Introdução à Estatística: população, amostra, variável e dado.
+Próximo tópico: MAT-EST-003 — Organização de dados e tabelas de frequência: absoluta, relativa e acumulada.
+Origem das questões desta reconstrução: 100% autoral.
+Tempo sugerido: quatro blocos de 25 a 50 minutos. O avanço deve ocorrer pela compreensão, não pela pressa.
+
+
+1. Objetivo
+
+
+Ao concluir o estudo real desta aula e resolver as atividades sem consultar previamente o gabarito, o estudante deverá ser capaz de:
+
+
+- explicar a diferença entre pesquisa censitária e pesquisa amostral;
+- identificar população-alvo, unidade de análise, cadastro ou marco amostral e amostra efetivamente obtida;
+- explicar por que uma amostra grande não é automaticamente representativa;
+- reconhecer vantagens, custos e limitações de um censo;
+- distinguir amostragem probabilística e não probabilística;
+- reconhecer amostragem aleatória simples, sistemática, estratificada e por conglomerados em situações introdutórias;
+- reconhecer amostras de conveniência e de resposta voluntária e explicar os riscos de viés;
+- distinguir erro amostral de erros de cobertura, não resposta, medição e processamento;
+- escolher, em situações simples, um desenho de amostragem coerente com a pergunta de pesquisa;
+- justificar por escrito os limites de uma conclusão baseada em amostra.
+
+
+2. Pré-requisitos
+
+
+Esta aula depende diretamente da MAT-EST-001. Antes de prosseguir, é necessário reconhecer população, amostra, unidade de análise, variável e dado.
+
+
+Não é necessário saber média, desvio-padrão, intervalo de confiança ou probabilidade formal.
+
+
+Revisão mínima: se uma escola possui 1.200 estudantes e queremos estudar como eles chegam à escola, a população, se a pergunta se refere a todos os matriculados, é formada pelos 1.200 estudantes. Se observarmos 120 deles, esses 120 compõem uma amostra. A questão desta aula é: como escolher esses 120 de maneira defensável?
+
+
+3. Por que esta aula existe?
+
+
+Uma estatística pode ser calculada corretamente e ainda responder mal à pergunta se os dados vierem de um grupo selecionado de forma inadequada.
+
+
+Imagine uma pesquisa sobre o meio de transporte usado por estudantes. O pesquisador entrevista 300 pessoas na entrada do estacionamento de carros. O número 300 pode parecer grande, mas o local de coleta favorece justamente quem chegou de automóvel. A dificuldade não está na quantidade de respostas; está no mecanismo de seleção.
+
+
+Amostragem é o conjunto de procedimentos usados para decidir quais unidades da população serão observadas. O desenho de amostragem interfere na possibilidade de generalizar os resultados.
+
+
+A pergunta correta não é apenas “quantas pessoas responderam?”, mas também:
+1. Quem poderia ter sido selecionado?
+2. Quem ficou fora do alcance da pesquisa?
+3. Como cada unidade foi escolhida?
+4. Quem se recusou ou não respondeu?
+5. O instrumento mediu corretamente aquilo que pretendia medir?
+
+
+4. Censo e pesquisa amostral
+
+
+4.1 O que é um censo?
+
+
+Uma pesquisa censitária procura obter informações de todas as unidades da população definida.
+
+
+Se uma empresa possui exatamente 80 funcionários e registra o setor de todos eles, realizou um levantamento censitário para essa população e variável.
+
+
+Um censo é útil quando a população é pequena ou administrativamente acessível, quando a informação de cada unidade é necessária, quando há obrigação legal ou operacional ou quando pequenas áreas e subgrupos precisam de detalhamento que uma amostra talvez não sustente.
+
+
+Mas um censo não é sinônimo de perfeição. Mesmo tentando observar todos, podem ocorrer unidades não localizadas, duplicidades, respostas incorretas, erro de digitação, pergunta ambígua, classificação incorreta e cobertura incompleta.
+
+
+O Instituto Brasileiro de Geografia e Estatística, IBGE, realiza avaliações de cobertura do Censo Demográfico e reconhece que uma operação censitária complexa está sujeita a omissões e inclusões indevidas. Observar todos é um objetivo operacional, não uma garantia automática de ausência de erro.
+
+
+4.2 O que é uma pesquisa amostral?
+
+
+Pesquisa amostral observa apenas parte da população.
+
+
+Ela costuma ser escolhida quando observar todos seria muito caro, o tempo é limitado, a coleta é destrutiva, a população é muito grande ou uma amostra bem planejada fornece precisão suficiente para a finalidade.
+
+
+Exemplo: para verificar a resistência de 100 mil lâmpadas, quebrar todas em um teste destrutivo impediria a venda. Uma amostra pode ser a única opção prática.
+
+
+4.3 Censo versus amostra não é “bom versus ruim”
+
+
+A escolha depende da pergunta, dos recursos, do nível de detalhamento e da qualidade do desenho.
+
+
+Um censo mal executado pode produzir informação ruim. Uma amostra probabilística bem planejada pode produzir estimativas úteis com custo muito menor.
+
+
+Figura 1 — Censo e amostra. Arquivo: 01-censo-amostra.svg.
+Texto alternativo: uma população de vinte unidades aparece inteira no lado do censo; no lado da amostra, seis unidades são selecionadas segundo um plano.
+Observe: o censo tenta observar todas as unidades; a amostra observa parte delas.
+Conclusão para áudio: censo e amostra são estratégias diferentes de coleta; nenhuma dispensa planejamento.
+
+
+5. População-alvo, população acessível e marco amostral
+
+
+Para escolher uma amostra, precisamos distinguir três ideias.
+
+
+5.1 População-alvo
+
+
+É o conjunto sobre o qual queremos concluir.
+
+
+Pergunta: “Como os estudantes matriculados no ensino médio da Escola Horizonte se deslocam para a escola no segundo semestre?”
+
+
+População-alvo: todos os estudantes matriculados no ensino médio da escola durante o período definido.
+
+
+5.2 População acessível
+
+
+É a parte da população-alvo que pode ser alcançada pelo procedimento real de coleta.
+
+
+Se a pesquisa só for realizada no turno da manhã, estudantes que frequentam exclusivamente o turno noturno podem ficar inacessíveis.
+
+
+5.3 Marco ou cadastro amostral
+
+
+É a lista, cadastro, mapa ou sistema operacional a partir do qual as unidades podem ser selecionadas.
+
+
+Exemplos: lista atualizada de estudantes matriculados; cadastro de domicílios; relação de estabelecimentos; mapa de setores; lista de pedidos emitidos no mês.
+
+
+Se o cadastro estiver desatualizado, uma seleção aleatória perfeita dentro da lista ainda poderá excluir unidades da população-alvo que não aparecem nela. Esse problema é chamado de erro de cobertura.
+
+
+Figura 2 — Da população ao conjunto respondente. Arquivo: 02-cobertura-resposta.svg.
+Texto alternativo: quatro caixas encadeadas mostram população-alvo, marco amostral, selecionados e respondentes; cada passagem pode excluir unidades.
+Observe: a amostra analisada pode ser menor e diferente da população que se pretendia estudar.
+Conclusão para áudio: representatividade depende de cobertura, seleção e resposta, não só do número final.
+
+
+6. O que significa representatividade?
+
+
+Uma amostra é chamada de representativa quando consegue refletir adequadamente, para os objetivos da pesquisa, características relevantes da população-alvo.
+
+
+Esse conceito exige cuidado. Não existe um teste visual universal que declare uma amostra “representativa” apenas porque ela parece diversificada.
+
+
+Uma amostra pode ter a mesma proporção de homens e mulheres da população e, ainda assim, estar distorcida por idade, região ou renda.
+
+
+Ao avaliar representatividade, perguntamos:
+- o marco amostral cobre a população-alvo?
+- a seleção deu oportunidades conhecidas ou defensáveis às unidades?
+- subgrupos importantes estão adequadamente presentes?
+- houve não resposta seletiva?
+- existem pesos ou ajustes necessários?
+- a pergunta de pesquisa depende de características relacionadas ao modo de seleção?
+
+
+Ideia essencial: uma amostra maior reduz parte da variabilidade aleatória quando o desenho permanece adequado, mas não corrige automaticamente um viés sistemático de seleção.
+
+
+7. Amostragem probabilística e não probabilística
+
+
+7.1 Amostragem probabilística
+
+
+Na amostragem probabilística, o mecanismo de seleção usa aleatoriedade e permite associar probabilidades conhecidas ou calculáveis de inclusão às unidades do marco amostral.
+
+
+Isso cria uma base matemática para estimar características da população e quantificar parte da incerteza amostral em etapas posteriores.
+
+
+7.2 Amostragem não probabilística
+
+
+Na amostragem não probabilística, a inclusão não resulta de um mecanismo probabilístico conhecido.
+
+
+Exemplos: entrevistar quem estiver mais próximo; publicar um formulário aberto e analisar quem decidir responder; escolher participantes por facilidade de acesso; selecionar deliberadamente certos perfis sem probabilidades conhecidas.
+
+
+Essas estratégias podem ser úteis em exploração inicial, pesquisa qualitativa ou situações sem cadastro, mas seus resultados exigem limites explícitos. Não é correto transformar uma amostra de conveniência em retrato garantido da população inteira.
+
+
+Figura 3 — Probabilística versus não probabilística. Arquivo: 03-probabilistica-nao-probabilistica.svg.
+Texto alternativo: dois caminhos saem de um marco amostral; um usa mecanismo aleatório documentado e o outro usa conveniência ou resposta voluntária.
+Observe: o ponto central é o mecanismo de seleção, não a aparência dos participantes.
+Conclusão para áudio: probabilística significa que a seleção é regida por um procedimento aleatório conhecido; não probabilística não possui essa garantia.
+
+
+8. Amostragem aleatória simples
+
+
+A amostragem aleatória simples, abreviada como AAS, é o modelo básico.
+
+
+Em uma versão sem reposição e com tamanho fixo, todas as amostras possíveis daquele tamanho têm a mesma probabilidade de serem selecionadas.
+
+
+Exemplo resolvido 1.
+
+
+Uma turma tem 40 estudantes numerados de 1 a 40. Queremos selecionar 5.
+
+
+Procedimento correto:
+1. construir a lista completa dos 40 estudantes;
+2. usar um mecanismo aleatório confiável;
+3. selecionar cinco números distintos;
+4. registrar o procedimento.
+
+
+Escolher “os cinco primeiros que entrarem na sala” não é AAS, porque a ordem de chegada pode estar associada a outras características.
+
+
+A aleatoriedade precisa entrar no mecanismo, e não na impressão de que a escolha foi “meio ao acaso”.
+
+
+9. Amostragem sistemática
+
+
+Na amostragem sistemática, organizamos as unidades em uma lista e selecionamos posições em intervalos regulares após um início aleatório.
+
+
+Exemplo resolvido 2.
+
+
+Uma lista possui 1.000 pedidos e desejamos 100. O intervalo é:
+
+
+k = N/n = 1000/100 = 10.
+
+
+Leitura: “cá é igual ao tamanho da população dividido pelo tamanho planejado da amostra; neste exemplo, dez”.
+
+
+Escolhemos aleatoriamente um início entre 1 e 10. Suponha início 7. Selecionamos 7, 17, 27, 37 e assim por diante.
+
+
+Cuidado: se a lista tiver uma periodicidade relacionada à variável de interesse, a seleção sistemática pode produzir distorção. O método precisa considerar a maneira como a lista está ordenada.
+
+
+10. Amostragem estratificada
+
+
+Estratificar significa dividir a população em grupos não sobrepostos, chamados estratos, e realizar seleção dentro de cada estrato.
+
+
+Os estratos são definidos antes da seleção com base em características conhecidas e relevantes.
+
+
+Exemplo resolvido 3.
+
+
+Uma escola possui 600 estudantes no 1º ano, 400 no 2º ano e 200 no 3º ano. Total: 1.200.
+
+
+Desejamos uma amostra proporcional de 120 estudantes, ou 10% de cada estrato.
+
+
+Selecionamos 60 do 1º ano, 40 do 2º ano e 20 do 3º ano. Depois, dentro de cada ano, aplicamos uma seleção probabilística.
+
+
+A estratificação pode garantir presença dos grupos definidos e aumentar eficiência em certas situações. Porém, escolher “qualquer 60” do primeiro ano não basta: o mecanismo dentro dos estratos também precisa ser defendido.
+
+
+11. Amostragem por conglomerados
+
+
+Conglomerados são grupos naturais de unidades: turmas de estudantes, escolas, quarteirões, setores censitários ou domicílios.
+
+
+Em vez de selecionar diretamente indivíduos espalhados por toda a população, podemos selecionar alguns conglomerados e observar todas as unidades dentro deles, ou realizar uma segunda amostragem no interior dos conglomerados.
+
+
+Exemplo: uma rede possui 100 turmas. Selecionam-se aleatoriamente 10 turmas e, em cada uma, entrevistam-se todos os estudantes.
+
+
+Isso é diferente de amostragem estratificada.
+
+
+Estratificada: normalmente queremos amostrar dentro de todos os estratos relevantes.
+Conglomerados: selecionamos alguns conglomerados entre muitos.
+
+
+Conglomerados podem reduzir custo logístico, mas unidades do mesmo conglomerado podem ser semelhantes entre si. Em etapas avançadas, essa semelhança afeta a precisão e precisa ser incorporada aos cálculos.
+
+
+Figura 4 — Quatro desenhos probabilísticos. Arquivo: 04-metodos-amostragem.svg.
+Texto alternativo: quatro painéis mostram seleção aleatória simples, seleção sistemática, seleção dentro de estratos e seleção de conglomerados inteiros.
+Observe: os quatro métodos podem usar aleatoriedade, mas organizam a seleção de maneiras diferentes.
+Conclusão para áudio: o método adequado depende da estrutura da população, do cadastro, dos custos e da pergunta.
+
+
+12. Conveniência e resposta voluntária
+
+
+12.1 Amostra de conveniência
+
+
+Seleciona unidades fáceis de alcançar.
+
+
+Exemplo: pesquisar alimentação de toda uma cidade entrevistando apenas clientes de uma academia.
+
+
+Não é proibido coletar esses dados. O erro é declarar que o grupo necessariamente representa a cidade inteira.
+
+
+12.2 Resposta voluntária
+
+
+As próprias pessoas decidem participar após um convite aberto.
+
+
+Enquetes em sites e redes sociais frequentemente funcionam assim.
+
+
+Pessoas com opinião muito forte podem ter maior motivação para responder. O resultado descreve os participantes daquela enquete, mas não deve ser tratado automaticamente como uma pesquisa probabilística da população.
+
+
+13. Cinco fontes de erro que precisam ser separadas
+
+
+13.1 Erro amostral
+
+
+Surge porque observamos uma amostra em vez da população inteira. Duas amostras probabilísticas legítimas podem gerar resultados diferentes por acaso. Esse componente pode ser estudado matematicamente.
+
+
+13.2 Erro de cobertura
+
+
+Acontece quando o marco amostral não cobre adequadamente a população-alvo ou inclui unidades que não pertencem a ela.
+
+
+13.3 Erro de não resposta
+
+
+Algumas unidades selecionadas não participam. O problema se torna especialmente importante quando a não resposta está relacionada à variável investigada.
+
+
+13.4 Erro de medição
+
+
+A pergunta, o instrumento ou a forma de coleta produz valor diferente do que se pretendia medir.
+
+
+Exemplo: perguntar “Você concorda que a excelente nova biblioteca deve receber mais verba?” induz uma avaliação positiva antes da resposta.
+
+
+13.5 Erro de processamento
+
+
+Pode ocorrer na digitação, codificação, junção de arquivos, classificação ou cálculo.
+
+
+Um censo elimina o erro amostral decorrente de selecionar só parte da população, mas não elimina automaticamente os outros erros.
+
+
+Figura 5 — Mapa de erros. Arquivo: 05-fontes-de-erro.svg.
+Texto alternativo: cinco cartões identificam erro amostral, cobertura, não resposta, medição e processamento.
+Observe: aumentar o tamanho da amostra atua principalmente sobre a variabilidade amostral, não sobre todos os erros.
+Conclusão para áudio: qualidade estatística exige controlar a cadeia completa da coleta.
+
+
+14. Amostra grande versus amostra bem planejada
+
+
+Imagine duas pesquisas sobre transporte de 10.000 trabalhadores.
+
+
+Pesquisa A: 2.000 respostas obtidas por formulário divulgado apenas em um estacionamento empresarial.
+
+
+Pesquisa B: 400 trabalhadores selecionados a partir de cadastro que cobre todos os setores e turnos, com desenho probabilístico e acompanhamento de não resposta.
+
+
+Não é correto afirmar automaticamente que B é perfeita ou que A é inútil. Mas o simples fato de A ter cinco vezes mais respostas não corrige sua cobertura seletiva.
+
+
+Figura 6 — Tamanho não corrige viés. Arquivo: 06-tamanho-versus-desenho.svg.
+Texto alternativo: à esquerda, uma amostra grande concentrada em um único acesso; à direita, uma amostra menor distribuída entre grupos da população segundo plano conhecido.
+Observe: quantidade e qualidade do mecanismo de seleção são dimensões diferentes.
+Conclusão para áudio: uma amostra enorme selecionada de modo enviesado pode continuar enviesada.
+
+
+15. Fração amostral: uma medida simples
+
+
+Se a população é finita e conhecida, podemos descrever a fração observada:
+
+
+f = n/N.
+
+
+Leitura: “efe é igual ao tamanho da amostra dividido pelo tamanho da população”.
+
+
+Se N = 1.200 e n = 120, então f = 120/1200 = 0,10 = 10%.
+
+
+Isso informa que 10% das unidades foram selecionadas.
+
+
+Mas a fração de 10% não prova representatividade. Ela descreve tamanho relativo. Ainda precisamos saber como ocorreu a seleção e a resposta.
+
+
+16. Um exemplo real: o Censo Demográfico e a amostra do questionário
+
+
+O Censo Demográfico brasileiro é uma operação censitária do IBGE, mas isso não significa que cada pergunta detalhada precise ser aplicada da mesma maneira a todos os domicílios.
+
+
+Na metodologia do Censo 2022, o IBGE utilizou questionário básico e questionário de amostra. A seleção dos domicílios para o questionário amostral é probabilística, com estratificação por setor censitário e seleção sistemática dentro do setor, segundo frações definidas conforme o porte do município.
+
+
+Essa combinação é didaticamente importante:
+- a operação é censitária para enumerar a população e coletar informações básicas;
+- parte das informações detalhadas pode ser obtida por amostragem probabilística;
+- “censo” e “amostra” podem coexistir dentro de uma operação estatística complexa.
+
+
+Não precisamos memorizar as frações específicas do Censo. O ponto pedagógico é observar como um instituto oficial documenta população, cadastro, estratos, seleção e questionários.
+
+
+17. Como escolher um desenho: roteiro de decisão
+
+
+Antes de escolher o método, responda:
+1. Qual é a população-alvo?
+2. Qual é a unidade de análise?
+3. Existe um cadastro completo e atualizado?
+4. Quais subgrupos precisam aparecer com precisão suficiente?
+5. A população está geograficamente dispersa?
+6. Quanto custa chegar às unidades?
+7. Há risco de periodicidade numa lista?
+8. Como será tratada a não resposta?
+9. A conclusão precisa de inferência probabilística?
+10. O desenho e as limitações serão documentados?
+
+
+Um desenho é adequado quando responde à pergunta dentro das restrições reais, sem esconder seus limites.
+
+
+18. Exemplo integrador passo a passo
+
+
+Problema: uma escola quer estimar a proporção de estudantes que usam transporte público.
+
+
+Dados administrativos: 1º ano, 500 estudantes; 2º ano, 350; 3º ano, 150; total, 1.000.
+
+
+Deseja-se entrevistar 100 estudantes.
+
+
+Passo 1 — Definir população: todos os 1.000 estudantes matriculados nos três anos.
+Passo 2 — Identificar cadastro: lista oficial atualizada de matrícula.
+Passo 3 — Escolher desenho: uma opção é amostragem estratificada proporcional por ano.
+Passo 4 — Determinar alocação: 50 do 1º ano, 35 do 2º ano e 15 do 3º ano.
+Passo 5 — Selecionar dentro de cada estrato: usar mecanismo aleatório documentado em cada lista.
+Passo 6 — Registrar não resposta: se apenas 92 responderem, informar 100 selecionados e 92 respondentes e investigar padrões de não resposta.
+Passo 7 — Concluir com limites: os resultados descrevem a amostra obtida e podem ser usados para estimar a população sob o desenho e hipóteses apropriados. A precisão será estudada em aulas posteriores.
+
+
+19. Erros frequentes
+
+
+Erro 1: “Quanto maior a amostra, mais representativa.”
+Correção: tamanho ajuda contra variação aleatória, mas não corrige seleção sistematicamente enviesada.
+
+
+Erro 2: “Censo não tem erro.”
+Correção: pode haver cobertura, medição, não resposta e processamento.
+
+
+Erro 3: “Escolher pessoas aleatoriamente na rua é amostragem aleatória simples.”
+Correção: a população que tem chance real de ser encontrada naquele ponto já pode estar filtrada.
+
+
+Erro 4: “Estratificada e conglomerada são iguais porque ambas usam grupos.”
+Correção: estratificação amostra dentro dos estratos; conglomerados selecionam alguns grupos naturais como unidades de seleção.
+
+
+Erro 5: “Enquete de rede social representa os seguidores.”
+Correção: respondentes voluntários podem diferir dos que não responderam.
+
+
+Erro 6: “10% da população é sempre suficiente.”
+Correção: não existe uma fração universal. Precisão depende de objetivo, variabilidade, desenho, nível de detalhe e outras condições.
+
+
+Erro 7: “Se a seleção foi aleatória, tudo está resolvido.”
+Correção: marco amostral, não resposta e medição continuam relevantes.
+
+
+20. Conexões com outras matérias
+
+
+Geografia: censos, mapas e distribuição territorial dependem de definições de população e cobertura.
+Sociologia: pesquisas de opinião e desigualdades exigem atenção a quem é incluído ou excluído.
+Biologia: amostragem é usada em populações de organismos e estudos ambientais.
+Química e indústria: testes de qualidade frequentemente usam amostras porque ensaiar todas as unidades pode ser caro ou destrutivo.
+Língua Portuguesa e Redação: avaliar uma pesquisa divulgada exige ler metodologia, distinguir fato de generalização e comunicar limites sem exagero.
+Computação e Ciência de Dados: conjuntos de treinamento podem reproduzir vieses de cobertura ou seleção. Mais dados não corrigem automaticamente uma origem enviesada.
+
+
+21. Relação com BNCC e vestibulares
+
+
+A reconstrução usa a BNCC como referência estrutural. Em material oficial do IBGE Educa associado à BNCC, aparecem duas habilidades especialmente relacionadas:
+
+
+EF08MA26: selecionar razões que justifiquem pesquisas amostrais em vez de censitárias e reconhecer formas de seleção, incluindo amostra casual simples, sistemática e estratificada.
+
+
+EF08MA27: planejar e executar pesquisa amostral, selecionar técnica adequada e comunicar resultados.
+
+
+Para o ENEM, esta aula sustenta leitura crítica de dados, tabelas, gráficos e argumentos quantitativos. Não se afirma aqui que cada técnica de amostragem tenha de aparecer nominalmente em toda edição do exame.
+
+
+O Programa do Vestibular FUVEST 2027 é explícito: entre as habilidades de Matemática aparecem compreender o planejamento de pesquisa amostral e analisar métodos de amostragem divulgados em diferentes meios; entre os objetos de conhecimento aparece “população e amostra”.
+
+
+As questões desta reconstrução são autorais. Nenhuma questão oficial foi reproduzida.
+
+
+22. Exercícios
+
+
+Os exercícios completos estão em documento separado para impedir que o gabarito seja revelado durante a leitura da teoria.
+
+
+Camadas:
+- 10 questões de aprendizagem básica;
+- 10 questões de consolidação;
+- 10 questões de transferência e estilo vestibular;
+- 6 questões de reteste para momento posterior.
+
+
+Não considerar o tópico consolidado apenas por ler a teoria. A evidência de aprendizagem exige tentativa e correção.
+
+
+23. Resumo para revisão
+
+
+- Censo procura observar toda a população definida.
+- Pesquisa amostral observa parte da população.
+- Amostragem é o processo de seleção da amostra.
+- População-alvo e marco amostral não são necessariamente iguais.
+- Representatividade não depende somente do tamanho.
+- Probabilística usa mecanismo aleatório com probabilidades de inclusão conhecidas ou calculáveis.
+- Aleatória simples, sistemática, estratificada e por conglomerados são desenhos diferentes.
+- Conveniência e resposta voluntária exigem limites de generalização.
+- Erro amostral é diferente de cobertura, não resposta, medição e processamento.
+- Censo não elimina todos os erros.
+- Uma conclusão deve informar como os dados foram obtidos.
+
+
+24. Versão curta para ouvir
+
+
+Uma pesquisa censitária tenta observar todas as unidades de uma população definida. Uma pesquisa amostral observa apenas parte. Para que uma amostra sustente conclusões sobre a população, não basta que seja grande: é necessário examinar o cadastro de onde foi retirada, o método de seleção, a presença de grupos importantes e a não resposta. Na amostragem probabilística, a seleção segue um mecanismo aleatório documentado. Os modelos introdutórios incluem aleatória simples, sistemática, estratificada e por conglomerados. Amostras de conveniência e enquetes voluntárias podem fornecer informação sobre seus participantes, mas não devem ser generalizadas automaticamente. A qualidade de uma pesquisa depende de toda a cadeia de coleta, inclusive cobertura, medição e processamento.
+
+
+25. Vídeo complementar
+
+
+Título: Conceitos Básicos de Estatística: População, Amostra, Amostragem, Variáveis e Organização de Dados.
+Canal: Professora Gisele Ramos — Matemática.
+Disponibilidade da página verificada: YouTube, em 30/09/2026.
+Trecho mais útil para esta aula: aproximadamente de 1 minuto e 43 segundos a 9 minutos e 30 segundos, cobrindo pesquisa censitária, pesquisa com amostra e métodos de amostragem.
+Quando assistir: depois das seções 7 a 11, antes dos exercícios.
+Motivo: apresenta, em sequência curta, censo, amostra, amostragem casual simples, sistemática e estratificada.
+URL: https://www.youtube.com/watch?v=5ctWgFOizkQ
+
+
+O vídeo é complementar; a aula permanece completa sem ele. A reprodução integral, a qualidade do áudio e a sincronização das legendas ainda precisam de QA audiovisual específico antes de publicação.
+
+
+26. Fontes
+
+
+1. Base Nacional Comum Curricular — Ministério da Educação. https://basenacionalcomum.mec.gov.br/
+2. IBGE Educa — atividades associadas às habilidades EF08MA26 e EF08MA27. https://educa.ibge.gov.br/
+3. IBGE — Censo Demográfico 2022, metodologia e procedimento de amostragem. https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html
+4. Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira — Matrizes de Referência do Enem, publicação institucional de 2026. https://www.gov.br/inep/
+5. FUVEST — Programa do Vestibular 2027, Matemática e suas Tecnologias. https://www.fuvest.br/wp-content/uploads/fuvest2027-programa-vestibular.pdf
+6. Documentos canônicos do Projeto Reconstrução Escolar 2027: visão, metodologia, matriz mestre, acessibilidade, padrão visual, arquitetura e fontes oficiais.
+
+
+27. Próximo passo
+
+
+Próximo tópico editorial da reconstrução: MAT-EST-003 — Organização de dados e tabelas de frequência: absoluta, relativa e acumulada.
+
+
+Antes de publicação da MAT-EST-002, ainda é necessário validar os seis SVGs em contexto real; a reprodução audiovisual e as legendas do vídeo; leitura em voz alta no Microsoft Edge; navegação por teclado, zoom e leitor de tela; e a conversão para o modelo estruturado do site.
+
+
+A existência desta reconstrução não registra estudo, tentativa, acerto ou domínio do estudante.

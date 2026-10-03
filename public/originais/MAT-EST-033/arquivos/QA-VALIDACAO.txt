@@ -1,0 +1,43 @@
+# QA — MAT-EST-033
+Verificações: 37 aprovadas; zero falhas.
+
+[OK] 36 IDs distintos
+[OK] camadas 10/10/10/6
+[OK] cada questão tem resposta e comentário
+[OK] metadados de origem autoral
+[OK] sete visuais SVG acessíveis
+[OK] quatro MAE A/B
+[OK] RMSE A/B
+[OK] perda assimétrica A/B
+[OK] cenário com sobras mais caras
+[OK] linha de base MAE e RMSE
+[OK] cobertura 3/4
+[OK] grupos agregados
+[OK] ret1
+[OK] ret2 e ret3
+[OK] ret4
+[OK] origem oficial diferenciada
+[OK] links visuais resolvidos
+[OK] marcador correto
+[OK] não houve progresso individual
+[OK] zip CRC
+[OK] zip arquivos esperados
+[OK] zip tem dados, aula, visuais e continuidade
+[OK] zip hash MAT-EST-033-oficina-comunicacao-decisao-modelos-preditivos-cenarios-erros-incerteza-documentacao-reprodutivel.md
+[OK] zip hash assets/01-observados-previstos-erros.svg
+[OK] zip hash assets/02-metricas-na-mesma-base.svg
+[OK] zip hash assets/03-custos-assimetricos.svg
+[OK] zip hash assets/04-intervalos-cobertura.svg
+[OK] zip hash assets/05-agregacao-subgrupos.svg
+[OK] zip hash assets/06-cenarios-sensibilidade.svg
+[OK] zip hash assets/07-protocolo-reprodutivel.svg
+[OK] zip hash exercicios.json
+[OK] zip hash fontes.json
+[OK] zip hash manifest.json
+[OK] zip hash marcador-producao.json
+[OK] zip hash preview-visuais.png
+[OK] zip hash questoes-oficiais-referencias.json
+[OK] zip hash visuais.json
+
+Questões autorais e nenhuma tentativa real simulada. Sete SVGs renderizados. Integridade do ZIP reaberta e confrontada com SHA-256.
+Pendências: teste no Microsoft Edge, reprodução audiovisual integral, integração no site, sincronização com Google Drive.

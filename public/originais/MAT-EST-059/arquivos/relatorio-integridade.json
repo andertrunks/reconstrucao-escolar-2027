@@ -1,0 +1,21 @@
+{
+  "id": "MAT-EST-059",
+  "escopo": "testes locais e dados editoriais, não validação de campo ou deploy",
+  "testes_passaram": 45,
+  "testes_totais": 45,
+  "questoes_autorais": 36,
+  "diagramas_svg": 6,
+  "invariantes_herdados": 23,
+  "zip_anterior_sha256": "3e8d19553deb92f91078e485f10cb96ed08d88daf2721566444300cfb5188f0c",
+  "zip_anterior_quantidade_de_arquivos": 58,
+  "manifesto_entradas": 59,
+  "novas_observacoes_t23_t33": 0,
+  "novas_emissoes_t23_t33": 0,
+  "sucessor_MAE": null,
+  "preview_png": "composição editorial, não captura do navegador",
+  "video": "página oficial localizada, duração aproximadamente 4:10 secundária, reprodução integral não realizada",
+  "site_publicado": false,
+  "drive_sincronizado": false,
+  "github_sincronizado": false,
+  "progresso_individual_alterado": false
+}

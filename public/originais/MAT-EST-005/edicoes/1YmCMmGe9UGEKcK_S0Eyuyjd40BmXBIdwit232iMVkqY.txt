@@ -1,0 +1,160 @@
+﻿MAT-EST-005 — Exercícios — reconstrução editorial v1
+
+
+Todas as questões são autorais. Tente antes de consultar o gabarito.
+
+
+CAMADA APR — Aprendizagem
+
+
+MAT-EST-005-EX-APR-01
+Calcule a média de 4, 6 e 8.
+
+
+MAT-EST-005-EX-APR-02
+Calcule a média de 10, 12, 13 e 15.
+
+
+MAT-EST-005-EX-APR-03
+Os valores 1, 2, 3 e 4 têm média 2,5. Essa média precisa aparecer nos dados? Explique.
+
+
+MAT-EST-005-EX-APR-04
+Uma média de tempos é 18. Qual unidade deve acompanhá-la se os dados estão em minutos?
+
+
+MAT-EST-005-EX-APR-05
+Explique a média de 2, 4 e 6 pela ideia de repartição igualitária.
+
+
+MAT-EST-005-EX-APR-06
+Calcule a média de 5, 5, 7 e 7.
+
+
+MAT-EST-005-EX-APR-07
+Para 2, 3 e 7, verifique que os desvios em relação à média somam zero.
+
+
+MAT-EST-005-EX-APR-08
+É adequado calcular média dos códigos ônibus=1, carro=2 e bicicleta=3? Justifique.
+
+
+MAT-EST-005-EX-APR-09
+Cinco valores têm média 12. Qual é a soma total?
+
+
+MAT-EST-005-EX-APR-10
+Três valores têm média 9. Dois são 7 e 11. Qual é o terceiro?
+
+
+CAMADA CON — Consolidação
+
+
+MAT-EST-005-EX-CON-01
+Valores 0,1,2,3 têm frequências 2,3,4,1. Calcule a média.
+
+
+MAT-EST-005-EX-CON-02
+Notas 6,7,8 têm pesos 2,3,5. Calcule a média ponderada.
+
+
+MAT-EST-005-EX-CON-03
+Turma A: n=20, média 70. Turma B: n=30, média 80. Calcule a média conjunta.
+
+
+MAT-EST-005-EX-CON-04
+Quatro valores têm média 18. Três são 16,20,21. Encontre o quarto.
+
+
+MAT-EST-005-EX-CON-05
+Dez valores têm média 50. Um registro é corrigido de 40 para 60. Qual é a nova média?
+
+
+MAT-EST-005-EX-CON-06
+Cinco valores têm média 10. Adiciona-se 22. Qual é a nova média?
+
+
+MAT-EST-005-EX-CON-07
+Dez valores têm média 15. Remove-se 24. Qual é a nova média?
+
+
+MAT-EST-005-EX-CON-08
+2,4,6 têm média 4. Some 10 a cada valor. Qual é a nova média?
+
+
+MAT-EST-005-EX-CON-09
+2,4,6 têm média 4. Multiplique todos por 3. Qual é a nova média?
+
+
+MAT-EST-005-EX-CON-10
+Grupo A: 20 pessoas, 90% aprovadas. Grupo B: 80 pessoas, 50%. Calcule a aprovação conjunta.
+
+
+CAMADA VES — Transferência / estilo vestibular autoral
+
+
+MAT-EST-005-EX-VES-01
+Notas 6,8,9 têm pesos 2,3,5. Calcule a média ponderada.
+
+
+MAT-EST-005-EX-VES-02
+Setor A: 10 trabalhadores, salário médio 3000. Setor B: 40, média 5000. Calcule a média salarial conjunta.
+
+
+MAT-EST-005-EX-VES-03
+A média de 8 valores é 14. Acrescenta-se 30. Calcule a nova média.
+
+
+MAT-EST-005-EX-VES-04
+A média de 25 notas é 7,2. Uma nota 5 deveria ser 8. Calcule a nova média.
+
+
+MAT-EST-005-EX-VES-05
+4,5,5,5,6 têm média 5. Acrescente 30 e calcule a nova média. Explique o efeito.
+
+
+MAT-EST-005-EX-VES-06
+Dois grupos têm médias 60 e 80. Em que condição simples a média conjunta é exatamente 70?
+
+
+MAT-EST-005-EX-VES-07
+Uma turma de 10 estudantes tem média 7. Quantos pontos precisam ser acrescentados ao total para a média subir para 7,5?
+
+
+MAT-EST-005-EX-VES-08
+Turmas com 90% e 60% de aprovação têm 10 e 100 estudantes. Calcule a aprovação conjunta.
+
+
+MAT-EST-005-EX-VES-09
+Um veículo percorre 100 km a 50 km/h e 100 km a 100 km/h. Calcule a velocidade média do percurso.
+
+
+MAT-EST-005-EX-VES-10
+Dê dois conjuntos diferentes com média 5 e explique por que isso não torna as distribuições iguais.
+
+
+CAMADA RET — Reteste
+
+
+MAT-EST-005-EX-RET-01
+Escreva as fórmulas da média simples e ponderada e explique os denominadores.
+
+
+MAT-EST-005-EX-RET-02
+Calcule a média de 3,5,7,9.
+
+
+MAT-EST-005-EX-RET-03
+Se 12 valores têm média 20 e um deles aumenta 24 unidades, de quanto a média aumenta?
+
+
+MAT-EST-005-EX-RET-04
+Valores 1,2,4 têm frequências 5,3,2. Calcule a média.
+
+
+MAT-EST-005-EX-RET-05
+Explique por que um valor extremo não deve ser removido apenas porque altera a média.
+
+
+MAT-EST-005-EX-RET-06
+Explique por que 'média correta' não significa necessariamente 'valor típico para a maioria'.

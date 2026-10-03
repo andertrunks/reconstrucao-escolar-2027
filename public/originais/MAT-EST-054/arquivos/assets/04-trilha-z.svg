@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="475" viewBox="0 0 960 475" role="img" aria-labelledby="ttl ds">
+<title id="ttl">Retificação do exemplo Z</title>
+<desc id="ds">O valor 29 é previsão isolada. Em L4 chega 30 preliminar, em L5 há revisão para 32, em L6 recálculo e em L7 encerramento.</desc>
+<rect width="960" height="475" fill="#F7F9FC"/><text x="40" y="48" fill="#1B2C42" font-family="sans-serif" font-weight="700" font-size="25">Retificação do exemplo Z</text>
+<text x="40" y="78" fill="#7B8DA2" font-family="sans-serif" font-size="15">MAT-EST-054 • Diagrama original / valores simulados</text>
+<rect x="34" y="128" width="171" height="123" rx="12" fill="#E7EFF7" stroke="#215D9B" stroke-width="1.4"/>
+<text x="49" y="155" fill="#1B2C42" font-family="sans-serif" font-weight="700" font-size="17">L1 · previsão</text>
+<text x="49" y="179" fill="#1B2C42" font-family="sans-serif" font-size="14">29 fictício</text>
+<rect x="215" y="128" width="171" height="123" rx="12" fill="#E7EFF7" stroke="#215D9B" stroke-width="1.4"/>
+<text x="230" y="155" fill="#1B2C42" font-family="sans-serif" font-weight="700" font-size="17">L4 · provisória</text>
+<text x="230" y="179" fill="#1B2C42" font-family="sans-serif" font-size="14">y = 30</text>
+<text x="230" y="198" fill="#1B2C42" font-family="sans-serif" font-size="14">erro +1; custo 3</text>
+<rect x="396" y="128" width="171" height="123" rx="12" fill="#E7EFF7" stroke="#215D9B" stroke-width="1.4"/>
+<text x="411" y="155" fill="#1B2C42" font-family="sans-serif" font-weight="700" font-size="17">L5 · retificação</text>
+<text x="411" y="179" fill="#1B2C42" font-family="sans-serif" font-size="14">y = 32</text>
+<text x="411" y="198" fill="#1B2C42" font-family="sans-serif" font-size="14">v2 validada</text>
+<rect x="577" y="128" width="171" height="123" rx="12" fill="#E7EFF7" stroke="#215D9B" stroke-width="1.4"/>
+<text x="592" y="155" fill="#1B2C42" font-family="sans-serif" font-weight="700" font-size="17">L6 · recálculo</text>
+<text x="592" y="179" fill="#1B2C42" font-family="sans-serif" font-size="14">erro +3</text>
+<text x="592" y="198" fill="#1B2C42" font-family="sans-serif" font-size="14">custo 9</text>
+<rect x="758" y="128" width="168" height="123" rx="12" fill="#E7EFF7" stroke="#215D9B" stroke-width="1.4"/>
+<text x="773" y="155" fill="#1B2C42" font-family="sans-serif" font-weight="700" font-size="17">L7 · fecho</text>
+<text x="773" y="179" fill="#1B2C42" font-family="sans-serif" font-size="14">registro</text>
+<text x="773" y="198" fill="#1B2C42" font-family="sans-serif" font-size="14">preservado</text>
+<line x1="205" y1="191" x2="215" y2="191" stroke="#215D9B" stroke-width="2"/><circle cx="215" cy="191" r="4" fill="#215D9B"/>
+<line x1="386" y1="191" x2="396" y2="191" stroke="#215D9B" stroke-width="2"/><circle cx="396" cy="191" r="4" fill="#215D9B"/>
+<line x1="567" y1="191" x2="577" y2="191" stroke="#215D9B" stroke-width="2"/><circle cx="577" cy="191" r="4" fill="#215D9B"/>
+<line x1="748" y1="191" x2="758" y2="191" stroke="#215D9B" stroke-width="2"/><circle cx="758" cy="191" r="4" fill="#215D9B"/>
+<rect x="36" y="413" width="888" height="47" rx="10" fill="#F4EEDF"/><text x="50" y="442" fill="#1B2C42" font-family="sans-serif" font-size="16">L5 torna o valor disponível; o evento de avaliação retificada ocorre em L6.</text>
+</svg>

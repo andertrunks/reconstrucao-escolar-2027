@@ -1,0 +1,320 @@
+# MAT-EST-046 — Avaliação de previsões sazonais em múltiplas origens: janelas expansivas, estabilidade e incerteza
+
+**Área:** Matemática. **Unidade:** Estatística — ponte universitária em séries temporais. **Código permanente:** MAT-EST-046. **Anterior:** MAT-EST-045. **Próxima:** MAT-EST-047. **Origem:** aula e 36 questões autorais. **Estado individual inicial:** não iniciado; gerar a aula não registra tentativa nem comprova domínio.
+
+**Ritmo de estudo:** bloco A, origens de previsão, de 25 a 50 minutos; bloco B, recálculo e erros por horizonte, de 25 a 50 minutos; bloco C, incerteza, auditoria e exercícios, de 25 a 50 minutos. O avanço acontece pela compreensão, não pelo relógio.
+
+## 1. Objetivo e pré-requisitos
+
+**Objetivo geral:** produzir, comparar e auditar previsões sazonais em mais de uma origem cronológica, declarando a informação disponível em cada emissão, a regra fixa dos modelos, o horizonte de cada erro e as limitações de uma análise retrospectiva muito pequena.
+
+**Ao praticar e corrigir os exercícios, ser capaz de:** (a) localizar origens e horizontes sem consultar o futuro; (b) explicar o que muda e o que não muda em uma janela expansiva; (c) recomputar os estados sazonais com parâmetros fixos; (d) comparar Holt-Winters, sazonal ingênuo e deslocamento sazonal; (e) calcular MAE e RMSE separadamente para cada horizonte; (f) reconhecer observações-alvo repetidas e erros dependentes; (g) separar faixa descritiva de intervalo probabilístico calibrado; e (h) redigir conclusões com população, horizonte e limites explícitos.
+
+**Pré-requisitos:** média, números negativos, valor absoluto e raiz quadrada; tempo cronológico e defasagens, MAT-EST-042; sazonalidade trimestral, MAT-EST-043; suavização, MAT-EST-044; estado inicial e atualização de Holt-Winters aditivo, MAT-EST-045; treino, validação, MAE/RMSE, MAT-EST-031 e MAT-EST-032. Se as operações básicas ainda exigirem esforço excessivo, retomar essas etapas antes de continuar.
+
+Esta aula relaciona médias ponderadas, sequências numéricas, funções de atualização, comparação crítica de gráficos, análise de dados públicos e escrita científica. O formalismo completo é apresentado como ponte universitária: não se afirma, sem edital específico, que cálculos recursivos de Holt-Winters sejam exigência formal do ENEM, FUVEST, UNICAMP ou UNESP. Os exercícios no estilo dos exames são **autorais**, não questões oficiais.
+
+## 2. Por que avaliar mais de uma origem?
+
+Imagine que, no fim do oitavo trimestre, uma equipe estima a demanda dos dois trimestres seguintes. Quando o nono período termina, a equipe recebe uma informação adicional e faz novas previsões. Depois do décimo período, repete o processo. A realidade não apresenta todos os valores de uma só vez.
+
+A previsão de t10 emitida em t8 usa oito observações e tem horizonte dois. A previsão também dirigida a t10, mas emitida no fim de t9, usa nove observações e tem horizonte um. Ambas podem ser avaliadas contra y10=145, mas são **duas tarefas** com origem e horizonte diferentes; não são duas observações reais independentes.
+
+Uma avaliação com **origem de previsão móvel** repete a sequência “ajustar até a data, emitir previsão, esperar pelo alvo, medir erro”. Com **janela expansiva**, o histórico começa no mesmo primeiro período e cresce quando chegam observações. A seção 5.10 de *Forecasting: Principles and Practice* documenta essa avaliação, inclusive para horizontes superiores a um. [Referência técnica: avaliação por origens móveis](https://otexts.com/fpp3/tscv.html).
+
+![Três origens e dois horizontes](assets/01-origens-e-horizontes.svg)
+
+**Figura 1.** Texto alternativo: Linhas t8, t9 e t10 exibem blocos de informações disponíveis e alvos h1 e h2, cada qual depois do corte correspondente. **Observe:** Verifique como o treino se expande e como o mesmo t10 aparece em previsões de origens distintas. **Conclusão para áudio:** Só dados existentes até a origem podem formar estado, referência, parâmetro ou transformação do respectivo cálculo.
+
+**Cuidado editorial:** a série fictícia inteira e t9–t12 já apareceram em aulas anteriores. Portanto, faremos uma **reconstrução retrospectiva e didática**, impondo que cada cálculo utilize apenas o prefixo disponível na origem. O fato de o exercício respeitar essa restrição numérica não transforma os dados em um novo teste cego e prospectivo. Os resultados não podem ser tratados como evidência independente de desempenho futuro.
+
+## 3. Base fictícia preservada e protocolo de avaliação
+
+Os arquivos `dados-ficticios-trimestrais.csv` e `dados-ficticios-referencia.csv` foram copiados de MAT-EST-045 sem modificar seus bytes. A primeira base contém as doze observações, em unidades fictícias de demanda: `90; 107; 128; 105; 111; 124; 150; 127; 129; 145; 171; 144`. O período sazonal é `m=4`, isto é, quatro trimestres formam um ciclo. Esses números não representam pessoas, escolas, empresas nem amostragem do mundo real.
+
+| Origem | Treino disponível | Alvo h1 | Alvo h2 |
+|---|---|---|---|
+| Fim de t8 | t1 a t8 | t9, observado depois: 129 | t10, observado depois: 145 |
+| Fim de t9 | t1 a t9 | t10, observado depois: 145 | t11, observado depois: 171 |
+| Fim de t10 | t1 a t10 | t11, observado depois: 171 | t12, observado depois: 144 |
+
+**Síntese para áudio:** começamos com oito dados de treinamento, avançamos para nove depois de observar t9 e, por fim, para dez depois de observar t10. Em cada corte, preveem-se os dois trimestres seguintes. Os alvos t10 e t11 reaparecem porque origens distintas podem prever o mesmo período com horizontes diferentes.
+
+![Expansão do conjunto de treinamento](assets/02-janelas-expansivas.svg)
+
+**Figura 2.** Texto alternativo: A origem oito usa t1 até t8; a origem nove acrescenta t9; a origem dez acrescenta t10; os dois próximos pontos de cada corte são alvos. **Observe:** Observe que é legítimo usar t9 depois que a origem nove foi alcançada, mas jamais na emissão da origem oito. **Conclusão para áudio:** Janela expansiva recompõe o modelo com o que já ocorreu; não adiciona observações posteriores à origem.
+
+**Protocolo imutável da oficina:** as três origens seguem exatamente a inicialização heurística de MAT-EST-045 a partir de t1..t4: nível no fim de t4 igual a 115 unidades; tendência inicial igual a cinco unidades por trimestre; sazonalidades iniciais iguais a menos dez, mais dois, mais dezoito e menos dez. Fixamos, por decisão pedagógica anterior a esta comparação, `alfa=0,3`, `beta-asterisco=0,2`, `gama=0,2`, `m=4`. Nenhum parâmetro será escolhido usando os erros t9..t12. A cada origem, os estados são recomputados com observações até aquele corte; as regras e os parâmetros continuam os mesmos.
+
+**Três métodos sob avaliação:** Holt-Winters aditivo com a convenção e a inicialização anteriores; sazonal ingênuo, que repete o último valor observado da mesma estação; e deslocamento sazonal, que soma ao valor sazonal ingênuo a média de diferenças anuais conhecida na origem. Não incluiremos novos algoritmos cujo resultado exigiria otimização com os próprios alvos desta avaliação.
+
+## 4. Formalização: origens, horizontes e estados
+
+**Bloco A — 25 a 50 minutos.** Uma origem `o` é o período final do conjunto disponível. O horizonte `h` é quantos períodos à frente queremos prever. Escrevemos `ŷ_(o+h|o)` para “ípsilon previsto no período ó mais agá, conhecido apenas o que ocorreu até ó”. Se `o=8` e `h=2`, o alvo é t10, ainda não disponível no momento da emissão.
+
+O erro de previsão fica:
+
+\[e_{o,h}=y_{o+h}-\widehat y_{o+h\mid o}.\]
+
+**Leitura por extenso:** erro na origem ó e horizonte agá é o observado no período ó mais agá menos o previsto para esse período com informações até ó. Erro positivo significa subprevisão; erro negativo significa superprevisão. A unidade, neste exemplo, é unidade fictícia de demanda.
+
+Para Holt-Winters aditivo com a **mesma convenção** de MAT-EST-045, registramos as equações de atualização para a observação que acabou de chegar ao período t:
+
+\[\ell_t=\alpha(y_t-s_{t-4})+(1-\alpha)(\ell_{t-1}+b_{t-1}).\]
+
+Leitura: o nível atualizado mistura a observação descontada do efeito sazonal da mesma fase anterior e a projeção de base do estado anterior.
+
+\[b_t=\beta^*(\ell_t-\ell_{t-1})+(1-\beta^*)b_{t-1}.\]
+
+Leitura: a tendência atualizada mistura a variação recém-observada no nível e a tendência anterior.
+
+\[s_t=\gamma(y_t-\ell_{t-1}-b_{t-1})+(1-\gamma)s_{t-4}.\]
+
+Leitura: a sazonalidade atual usa o desvio em relação à base **prevista anteriormente**, mais o efeito da mesma estação do ciclo anterior. Não substitua sem aviso esta fórmula por uma convenção alternativa que utiliza o nível atualizado `l_t`. Nesta parametrização, `gama=0,2` respeita `0 ≤ gama ≤ 1−alfa=0,7`.
+
+Para horizonte um ou dois, usamos o efeito sazonal da fase correspondente do último ciclo disponível:
+
+\[\widehat y_{o+h\mid o}=\ell_o+h\,b_o+s_{o+h-4},\qquad h=1,2.\]
+
+Leitura: a previsão é o nível final mais o horizonte multiplicado pela tendência final, somado ao efeito sazonal registrado quatro posições antes do alvo. Como o horizonte máximo é dois e o período sazonal é quatro, o índice necessário está no histórico em todas as três origens. Assim, para emitir t9 a partir de t8, usamos s5; para t10 a partir de t9, usamos s6.
+
+**Referência sazonal ingênua:** `ŷ_(o+h|o) = y_(o+h−4)`. Leitura: copiar o observado do trimestre equivalente do último ano conhecido. Para o **deslocamento sazonal**, definimos antes da previsão:
+
+\[d_o=\frac{\sum_{t=5}^o(y_t-y_{t-4})}{o-4},\qquad \widehat y_{o+h\mid o}^{D}=y_{o+h-4}+d_o.\]
+
+Leitura: o deslocamento na origem é a média de todas as diferenças entre trimestres equivalentes que já podem ser observadas; a previsão deslocada soma essa média ao valor da mesma estação do ciclo anterior. Os `o−4` pares existentes até cada origem determinam o divisor. É uma **referência didática**, não uma estimativa de mudança causal.
+
+## 5. Exemplo resolvido: da origem oito à origem dez
+
+**Bloco B — 25 a 50 minutos.** Ao fechar t8, herdamos de MAT-EST-045 o nível `l8=135,6511392`, a tendência `b8=5,14139264` e os efeitos mais recentes `s5=−9,8`, `s6=+1,328`, `s7=+18,55792` e `s8=−9,6146112`. Nada nessa linha usa t9 ou t10.
+
+**Previsão emitida em t8 para t9:** `135,6511392 + 5,14139264 − 9,8 = 130,99253184`. Depois chega o observado y9=129. O erro é `129−130,99253184=−1,99253184` unidade.
+
+**Previsão também emitida em t8 para t10:** `135,6511392 + 2×5,14139264 + 1,328 = 147,26192448`. Só quando t10 chega, constatamos y10=145 e erro `−2,26192448`. Essa previsão não recebe a atualização de t9 entre o primeiro e o segundo passo, pois ambos foram emitidos na mesma origem.
+
+**A atualização legítima depois de observar t9** usa `y9=129`. A projeção não sazonal do estado antigo é `135,6511392+5,14139264=140,79253184`. Depois de retirar `s5=−9,8`, o observado ajustado é `129−(−9,8)=138,8`. Assim:
+
+- Nível t9: `0,3×138,8 + 0,7×140,79253184 = 140,194772288`.
+- Tendência t9: `0,2×(140,194772288−135,6511392) + 0,8×5,14139264 = 5,0218407296`.
+- Sazonalidade t9: `0,2×(129−140,79253184) + 0,8×(−9,8) = −10,198506368`.
+
+A partir desse estado, a previsão **nova** de t10, agora emitida em t9 e com horizonte um, é `140,194772288 + 5,0218407296 + s6`, ou `146,5446130176`. O observado continua sendo 145, mas o erro novo é `−1,5446130176`. O valor previsto mudou legitimamente porque chegou uma observação a mais. Observe: essa nova previsão não apaga nem reescreve a anterior.
+
+Para t11 com origem t9 e horizonte dois, o modelo projeta `168,7963737472`. Depois de incorporar t10=145, a origem t10 produz nova previsão t11, agora de horizonte um: `168,240313060864`.
+
+![Tabela de seis previsões](assets/03-painel-seis-previsoes.svg)
+
+**Figura 3.** Texto alternativo: Seis linhas de origens oito, nove, dez cruzadas com horizontes um e dois; três previsões por linha, com valores escritos. **Observe:** Leia uma linha inteira antes de comparar métodos; horizonte e origem precisam coincidir. **Conclusão para áudio:** Comparações honestas usam o mesmo alvo, origem e informação disponível; valores não são teste independente inédito.
+
+A tabela textual preserva precisão suficiente para conferência; os decimais apresentados são aproximados e escritos com vírgula:
+
+| Origem | Horizonte | Alvo | Observado | Holt-Winters | Ingênuo sazonal | Deslocamento sazonal |
+|---:|---:|---:|---:|---:|---:|---:|
+| t8 | 1 | t9 | 129 | 130,99253 | 111,00000 | 131,50000 |
+| t8 | 2 | t10 | 145 | 147,26192 | 124,00000 | 144,50000 |
+| t9 | 1 | t10 | 145 | 146,54461 | 124,00000 | 144,00000 |
+| t9 | 2 | t11 | 171 | 168,79637 | 150,00000 | 170,00000 |
+| t10 | 1 | t11 | 171 | 168,24031 | 150,00000 | 170,16667 |
+| t10 | 2 | t12 | 144 | 144,99695 | 127,00000 | 147,16667 |
+
+**Leitura da comparação:** o sazonal ingênuo tende a ficar abaixo dos observados nesta base, pois ignora o deslocamento de patamar construído ao longo dos anos fictícios. Holt-Winters e a referência de deslocamento incorporam mudança no nível por regras diferentes. Esta constatação vale para os números deste exercício, não descreve uma propriedade universal dos métodos.
+
+## 6. Erro por horizonte, estabilidade e agregação
+
+**Não se deve misturar automaticamente h1 e h2.** São tarefas diferentes, pois cada horizonte responde a uma pergunta temporal. O erro absoluto médio (MAE, sigla em inglês para *mean absolute error*) toma o módulo de cada erro e encontra sua média:
+
+\[MAE_h=\frac{1}{n_h}\sum_o|e_{o,h}|.\]
+
+Leitura: MAE no horizonte agá é a soma dos erros absolutos desse horizonte dividida pelo número de origens avaliadas. Aqui `n_h=3`, três tarefas por horizonte.
+
+A raiz do erro quadrático médio (RMSE, *root mean squared error*) atribui maior peso relativo às magnitudes grandes:
+
+\[RMSE_h=\sqrt{\frac{1}{n_h}\sum_o e_{o,h}^2}.\]
+
+Leitura: eleve cada erro ao quadrado, faça a média e extraia a raiz. As duas medidas ficam em unidades da demanda fictícia. Uma média simples de erros assinados pode quase zerar mesmo com previsões ruins, quando erros positivos e negativos se compensam.
+
+**Holt-Winters, horizonte um.** Os erros, na ordem das origens oito, nove e dez, são aproximadamente `−1,992532; −1,544613; +2,759687`. O MAE é `(1,992532+1,544613+2,759687)/3≈2,098944`; o RMSE é aproximadamente `2,158077` unidades.
+
+**Holt-Winters, horizonte dois.** Os erros são `−2,261924; +2,203626; −0,996946`, produzindo MAE ≈ `1,820832` e RMSE ≈ `1,911908`. A comparação numérica em três pontos **não** permite formular a regra de que horizontes maiores são mais fáceis: o erro observado depende das datas, do modelo e do conjunto de avaliação.
+
+![Gráfico de erros com sinais](assets/04-erros-por-origem.svg)
+
+**Figura 4.** Texto alternativo: Erros de h1: −1,99, −1,54, +2,76; erros de h2: −2,26, +2,20, −1,00. **Observe:** Não confunda sinal com magnitude. Uma média de erros com sinais opostos pode ocultar erros relevantes. **Conclusão para áudio:** As tarefas h1 e h2 compartilham períodos e não equivalem a seis experimentos independentes.
+
+| Procedimento | MAE h1 (un.) | RMSE h1 (un.) | MAE h2 (un.) | RMSE h2 (un.) |
+|---|---:|---:|---:|---:|
+| Holt-Winters aditivo | 2,09894 | 2,15808 | 1,82083 | 1,91191 |
+| Sazonal ingênuo | 20,00000 | 20,04994 | 19,66667 | 19,75686 |
+| Deslocamento sazonal | 1,44444 | 1,62731 | 1,55556 | 1,93888 |
+
+**Síntese para áudio:** o erro médio do sazonal ingênuo fica próximo de vinte unidades nos dois horizontes. O deslocamento sazonal apresenta MAE de aproximadamente 1,44 no horizonte um e 1,56 no horizonte dois; o Holt-Winters apresenta MAE de aproximadamente 2,10 e 1,82, respectivamente. As diferenças são descritivas da base sintética e não autorizam um ranking geral. Nenhum dos quatro observados t9..t12 é um teste novo e oculto.
+
+![Comparação de MAE por horizonte](assets/05-mae-por-horizonte.svg)
+
+**Figura 5.** Texto alternativo: Barras do ingênuo sazonal ficam próximas de vinte unidades, enquanto HW e deslocamento ficam próximas de duas unidades na base fictícia. **Observe:** A métrica resumida para horizonte um não deve ser confundida com a de horizonte dois; identifique também referência e regra de comparação. **Conclusão para áudio:** São apenas três erros por horizonte e os valores servem à oficina, sem classificação universal de modelos.
+
+**Estabilidade por origem:** além da média, verifique se algum corte produziu erro incomum, qual foi o maior erro absoluto e como a distribuição muda entre fases sazonais. Aqui podemos registrar o desempenho nas origens oito, nove e dez, mas não construir estimativas confiáveis da variabilidade futura com tão poucos períodos. A observação t10 contribui duas vezes como alvo em tarefas de horizontes distintos: agrupá-las sem essa observação faz o tamanho informacional parecer maior do que é.
+
+**Agregação com tamanhos diferentes:** se cada tarefa tiver peso igual e um conjunto contiver dois erros e outro quatro, o MAE global é a soma dos seis módulos dividida por seis; não é, em geral, a média simples dos dois MAEs de grupo. É indispensável declarar como foram ponderadas as origens, os horizontes e as séries, se houver mais de uma.
+
+## 7. Incerteza: faixa desenhada não é intervalo calibrado
+
+**Bloco C — 25 a 50 minutos.** Uma previsão pontual contém um número central, mas não informa, sozinha, quão afastada dele uma futura observação pode ficar. Um **intervalo de previsão probabilístico** exige hipóteses e um método de estimação da distribuição dos erros, com interpretação de cobertura para observações novas sob condições apropriadas. A seção 5.5 de *Forecasting: Principles and Practice* distingue a distribuição de previsão, intervalos por horizonte e abordagens como bootstrap de resíduos sob hipóteses examinadas. [Ler: intervalos de previsão](https://otexts.com/fpp3/prediction-intervals.html).
+
+Para tornar visível a mecânica de **contar cobertura**, antes de olhar a tabela de erros definimos **faixas didáticas arbitrárias**: para h1, centro da previsão mais ou menos duas unidades; para h2, centro mais ou menos três unidades. Escrevemos:
+
+\[B_1=[\widehat y-2,\widehat y+2],\qquad B_2=[\widehat y-3,\widehat y+3].\]
+
+Leitura: a primeira faixa se estende duas unidades para baixo e duas para cima do centro; a segunda se estende três para cada lado. As larguras totais são quatro e seis unidades. Os valores foram escolhidos para **demonstrar uma conta**, sem estimação estatística. Nenhuma dessas faixas foi calibrada para cobertura nominal de oitenta, noventa ou noventa e cinco por cento.
+
+| Origem e horizonte | Limite inferior | Observado | Limite superior | Dentro da faixa? |
+|---|---:|---:|---:|---|
+| t8 / h1 | 128,993 | 129 | 132,993 | Sim |
+| t8 / h2 | 144,262 | 145 | 150,262 | Sim |
+| t9 / h1 | 144,545 | 145 | 148,545 | Sim |
+| t9 / h2 | 165,796 | 171 | 171,796 | Sim |
+| t10 / h1 | 166,240 | 171 | 170,240 | Não |
+| t10 / h2 | 141,997 | 144 | 147,997 | Sim |
+
+**Contagem:** em h1, duas de três observações ficaram dentro das faixas de largura quatro. Em h2, três de três ficaram dentro das faixas de largura seis. Dizer “duas de três” e “três de três” é correto para esta pequena verificação retrospectiva; inferir uma probabilidade real de cobertura para o futuro não é justificável. O horizonte dois ficou dentro em todos os três casos também porque lhe foi atribuída uma faixa mais larga, não porque esteja provado mais seguro.
+
+![Faixas e cobertura descritiva](assets/06-faixas-descritivas.svg)
+
+**Figura 6.** Texto alternativo: Duas das três previsões de h1 ficam dentro da faixa ±2; as três de h2 ficam dentro da faixa ±3, neste exemplo sintético. **Observe:** A classificação é uma contagem retrospectiva; as faixas foram escolhidas didaticamente, não calibradas para 80%, 90% ou 95%. **Conclusão para áudio:** Três casos por horizonte e alvos sobrepostos não demonstram cobertura populacional nem intervalo probabilístico válido.
+
+Para estudar incerteza de maneira mais sólida depois, precisamos de mais origens genuínas, horizonte declarado, método de construção baseado em informação acessível até cada origem, análise de resíduos e dependência temporal, e avaliação da cobertura em períodos posteriores aos usados na escolha do procedimento. O conjunto curto de doze pontos não fornece base para anunciar um intervalo preditivo nominal validado.
+
+## 8. Checklist de auditoria: o que é permitido e o que altera a pergunta?
+
+**Exemplo correto:** na origem oito, emitir as duas previsões e guardá-las antes de ler y9. Depois, ao abrir a origem nove, receber y9 e atualizar o estado para novas emissões. Não modificar a previsão antiga. Fazer isso de novo na origem dez, sempre com parâmetros já fixados.
+
+**Exemplo de vazamento:** testar vinte trios de alfa, beta-asterisco e gama nos erros das origens oito a dez; escolher o trio de menor RMSE; depois divulgar esse mesmo RMSE como se fosse um teste final intacto. A avaliação virou parte da seleção. Para avaliar o processo de seleção, seria preciso separar um segmento posterior genuinamente não utilizado ou recorrer a uma validação temporal aninhada, com tamanho de histórico compatível.
+
+**Outro erro:** reduzir a faixa de incerteza porque ela pareceu grande demais depois de ver os observados, ou aumentar a faixa só até todos os pontos entrarem e chamá-la de intervalo de noventa e cinco por cento. Isso troca a pergunta sem declarar a escolha retrospectiva.
+
+![Fluxo de auditoria](assets/07-protocolo-auditoria.svg)
+
+**Figura 7.** Texto alternativo: O protocolo separa emissão da previsão e leitura do alvo; o cálculo das métricas ocorre somente depois de observar. **Observe:** Auditar exige registrar a origem, os parâmetros, os alvos e as decisões de reestimação em cada passo. **Conclusão para áudio:** A base futura já divulgada permite treino didático, mas não estimar desempenho prospectivo imparcial ou calibrar faixas nominais.
+
+### Outros erros frequentes
+
+- Confundir previsão de dois passos, emitida em t8, com previsão de um passo emitida em t9, porque ambas podem ter t10 como alvo.
+- Reescrever retrospectivamente a previsão antiga depois da chegada de y9, apagando a diferença entre uma emissão real e uma simulação atualizada.
+- Considerar os seis erros tarefas independentes, embora alguns alvos observados se repitam.
+- Comparar números de métricas de treino com erros fora do ajuste como se fossem a mesma espécie de evidência.
+- Calcular RMSE extraindo raiz antes de elevar e somar os erros ao quadrado.
+- Misturar índices sazonais de fases diferentes ou usar o parâmetro gama de outra parametrização sem reescrever a fórmula.
+- Concluir que um método é universalmente superior por uma comparação retrospectiva de três tarefas por horizonte.
+- Chamar faixa arbitrária de intervalo probabilístico calibrado e omitir suas condições de validade.
+
+## 9. Aplicações práticas e relações entre disciplinas
+
+Em planejamento de estoque, o horizonte dois pode interessar se encomendas precisarem ocorrer dois trimestres antes da chegada. Em serviços públicos, o horizonte utilizado deve corresponder ao prazo de tomada de decisão; nenhuma previsão hipotética substitui avaliação de necessidades reais ou critérios administrativos. Em leitura de notícias e gráficos, conhecer origem e horizonte ajuda a identificar apresentações que comparam previsões feitas em momentos distintos.
+
+**Relação com matemática:** a janela expansiva emprega sequências; o MAE usa valor absoluto; o RMSE usa potências e raízes; a suavização usa ponderações e recorrência. **Relação com Português e Redação:** uma conclusão científica necessita citar universo observado, período, métrica, procedimento e ressalvas. **Relação com metodologia científica:** reproduzir o protocolo importa tanto quanto obter o resultado numérico.
+
+## 10. Vídeo complementar e referências técnicas
+
+**Vídeo:** [Lecture 12: Time Series Analysis — MIT OpenCourseWare](https://ocw.mit.edu/courses/18-642-topics-in-mathematics-with-applications-in-finance-fall-2024/resources/18642-lecture-12-version-2_mp4/). **Canal:** MIT OpenCourseWare. **Apresentador:** Peter Kempthorne. **Duração:** não confirmada na página consultada. **Quando assistir:** depois do exemplo de origens cronológicas e antes dos exercícios de consolidação. **Por que este vídeo:** oferece contexto institucional sobre autocorrelação, dependência temporal e modelos de séries; os cálculos específicos de validação por origens são explicados integralmente aqui e podem ser estudados sem o vídeo. A página institucional foi localizada; a reprodução integral e um teste real no Edge ainda estão pendentes.
+
+**Leituras técnicas verificadas:** [FPP3: avaliação de previsões](https://otexts.com/fpp3/accuracy.html), [FPP3: validação cruzada de séries temporais](https://otexts.com/fpp3/tscv.html), [FPP3: distribuições e intervalos de previsão](https://otexts.com/fpp3/prediction-intervals.html). As fórmulas da atualização sazonal seguem a convenção do conteúdo anterior; o protocolo de seis tarefas e todos os números fictícios são autorais.
+
+## 11. Exercícios graduais, com gabarito separado
+
+**Como usar no site:** apresentar primeiro `exercicios.json`, sem mostrar `gabarito-comentado.json` até o estudante enviar tentativa verdadeira. A correção deve explicar a construção do raciocínio, registrar a provável causa do erro e recomendar retorno ao pré-requisito correspondente. São 10 questões de aprendizagem, 10 de consolidação, 10 de transferência/estilo vestibular e 6 de reteste independente; nenhuma é questão oficial. O arquivo `questoes-oficiais-referencias.json` está vazio.
+
+O estudante pode responder em papel ou no site. Não é necessário publicar uma nota ou marcar domínio apenas por abrir a aula. O reteste precisa ocorrer depois de corrigir e revisar a primeira tentativa.
+
+### 11.1 Aprendizagem básica
+
+**MAT-EST-046-EX-APR-01 — Origem temporal inicial.** Na primeira rodada, a origem é o fim de t8. Enumere as observações permitidas na estimação do modelo e indique quais duas observações serão avaliadas.
+
+**MAT-EST-046-EX-APR-02 — Segunda janela e atualização legítima.** Na origem t9, y9=129 já chegou. Qual é o novo tamanho da janela expansiva, e quais são os alvos h1 e h2?
+
+**MAT-EST-046-EX-APR-03 — Terceira janela.** Na origem t10, descreva precisamente treino, horizonte um e horizonte dois.
+
+**MAT-EST-046-EX-APR-04 — Horizonte e calendário.** Se um cálculo é emitido ao terminar t8, qual é o horizonte de sua previsão para t10? E por que não é horizonte um?
+
+**MAT-EST-046-EX-APR-05 — Sazonal ingênuo na segunda origem.** Na origem t9, qual é a previsão sazonal ingênua para t10, dado m=4 e y6=124?
+
+**MAT-EST-046-EX-APR-06 — Referência sazonal para dois passos.** Na origem t10, preveja t12 pela regra sazonal ingênua; o valor t8 é 127.
+
+**MAT-EST-046-EX-APR-07 — Deslocamento anual até t8.** As diferenças de fases correspondentes no treinamento inicial são 111−90, 124−107, 150−128 e 127−105. Calcule o deslocamento médio.
+
+**MAT-EST-046-EX-APR-08 — Deslocamento anual ao abrir t9.** Após chegar y9=129, acrescente a diferença anual entre y9 e y5=111 à soma anterior, 82. Qual o novo deslocamento médio?
+
+**MAT-EST-046-EX-APR-09 — Sinal de um erro de previsão.** Na origem t8, Holt-Winters previu 130,99253184 para t9; o observado t9 é 129. Escreva o erro observado menos previsto e interprete seu sinal.
+
+**MAT-EST-046-EX-APR-10 — Observação repetida não é nova pessoa.** A mesma observação y10=145 aparece como alvo h2 na origem t8 e alvo h1 na origem t9. Isso gera duas observações independentes? Explique.
+
+### 11.2 Consolidação
+
+**MAT-EST-046-EX-CON-01 — Reestimação sem inventar estado inicial.** Ao ampliar a origem de t8 para t9, é correto inicializar novamente com os quatro primeiros valores e depois atualizar até t9, mantendo alfa 0,3, beta-asterisco 0,2 e gama 0,2? Justifique.
+
+**MAT-EST-046-EX-CON-02 — Atualização do nível em t9.** Ao fechar t8 temos l8=135,6511392, b8=5,14139264 e s5=−9,8. Depois observamos y9=129. Calcule l9 com alfa=0,3.
+
+**MAT-EST-046-EX-CON-03 — Mesmo alvo, origens diferentes.** A previsão HW de t10 a partir de t8 é 147,26192448; a partir de t9 é 146,5446130176. Qual delas incorpora y9, e por que não devem ser fundidas?
+
+**MAT-EST-046-EX-CON-04 — Previsão de dois passos a partir de t9.** Com origem t9, o exemplo computado apresenta previsão HW de t11 igual a 168,7963737472. Se y11=171, determine erro assinado e absoluto.
+
+**MAT-EST-046-EX-CON-05 — Informação vedada na origem dez.** Uma equipe recalcula os parâmetros a partir de y11=171 antes de emitir a previsão t11 com origem t10. Identifique o problema.
+
+**MAT-EST-046-EX-CON-06 — Novo deslocamento anual com seis pares.** No fim de t10, as diferenças anuais disponíveis são [21,17,22,22,18,21]. Encontre a média e explique por que ela não exige ler t11.
+
+**MAT-EST-046-EX-CON-07 — Erro do deslocamento sazonal em t12.** Na origem t10, a previsão de deslocamento sazonal para t12 é 127+121/6=147,166666… e y12=144. Encontre seu erro com sinal.
+
+**MAT-EST-046-EX-CON-08 — MAE do HW em horizonte um.** Para h1 nas origens t8, t9 e t10, os erros HW aproximados são [−1,99253184; −1,5446130176; +2,7596869391]. Calcule o MAE a partir dos módulos.
+
+**MAT-EST-046-EX-CON-09 — MAE do HW em horizonte dois.** Para h2, use os módulos aproximados [2,26192448;2,2036262528;0,9969458094]. Qual é o MAE?
+
+**MAT-EST-046-EX-CON-10 — RMSE de horizonte um.** Com os erros HW h1 [−1,99253184;−1,5446130176;+2,7596869391], escreva a conta de RMSE e apresente o resultado aproximado.
+
+### 11.3 Transferência e estilo vestibular — todas autorais
+
+**MAT-EST-046-EX-VES-01 — Matriz completa da primeira origem.** Na origem t8, o observado foi y9=129 e y10=145. Compare os erros HW em h1 e h2 usando previsões 130,99253184 e 147,26192448.
+
+**MAT-EST-046-EX-VES-02 — Duas previsões para t10.** Em t8 a previsão de t10 era 147,26192448; em t9 passou para 146,5446130176. Com observado 145, qual previsão apresenta menor erro absoluto nesse alvo e o que não podemos inferir?
+
+**MAT-EST-046-EX-VES-03 — MAE sazonal ingênuo no primeiro horizonte.** Erros de h1 da referência ingênua são [18,21,21]. Calcule o erro absoluto médio.
+
+**MAT-EST-046-EX-VES-04 — MAE do deslocamento sazonal no primeiro horizonte.** Os erros h1 para deslocamento sazonal são [−2,5;1;5/6]. Calcule o MAE.
+
+**MAT-EST-046-EX-VES-05 — RMSE do deslocamento sazonal no segundo horizonte.** Os três erros de h2 para deslocamento sazonal são [0,5;1;−19/6]. Calcule o RMSE.
+
+**MAT-EST-046-EX-VES-06 — Dois MAEs não definem uma regra universal.** No h2, HW tem MAE ≈1,820832 e deslocamento sazonal ≈1,555556. Que afirmação é justificável e qual seria um exagero?
+
+**MAT-EST-046-EX-VES-07 — Cobertura observada em faixa curta.** Para h1, adote faixas didáticas previsão ±2 unidades. Os erros HW absolutos são aproximadamente [1,993;1,545;2,760]. Qual a proporção dentro das faixas?
+
+**MAT-EST-046-EX-VES-08 — Cobertura com faixa maior em h2.** Para h2, adote faixas didáticas previsão ±3 unidades. Os módulos são [2,262;2,204;0,997]. Qual a cobertura observada e a largura de cada faixa?
+
+**MAT-EST-046-EX-VES-09 — O que ainda falta para um intervalo probabilístico.** Um relatório chama de “intervalo de previsão de 95%” as faixas escolhidas arbitrariamente como ±2 e ±3. Corrija a linguagem e diga que evidência adicional seria necessária.
+
+**MAT-EST-046-EX-VES-10 — Seleção nos próprios alvos.** Uma equipe testa 20 combinações de alfa, beta-asterisco e gama em origens t8..t10, escolhe a de menor RMSE e divulga o mesmo RMSE como “teste independente”. Qual o defeito e a correção?
+
+### 11.4 Reteste independente — aplicar em outro momento
+
+**MAT-EST-046-EX-RET-01 — Minissérie independente e janela expansiva.** Em uma série fictícia diferente [10,12,14,16,18,20], use a previsão ingênua não sazonal “repetir último observado”. Quanto se prevê para o quinto valor na origem quatro e para o sexto na origem cinco?
+
+**MAT-EST-046-EX-RET-02 — Dois passos em minissérie.** Na mesma minissérie [10,12,14,16,18,20], emita na origem quatro dois passos à frente pela regra ingênua não sazonal e calcule o erro no sexto ponto.
+
+**MAT-EST-046-EX-RET-03 — MAE e RMSE com erros novos.** Um par de previsões de uma segunda base tem erros −1 e +3. Calcule MAE e RMSE sem misturá-los.
+
+**MAT-EST-046-EX-RET-04 — Uma faixa e um alvo novo.** Uma previsão pontual de 30 unidades recebeu faixa ilustrativa [28,32]. O valor observado foi 33. Indique se houve cobertura e a distância além do limite.
+
+**MAT-EST-046-EX-RET-05 — Dobras de tamanhos desiguais.** Uma avaliação guarda duas tarefas com erro absoluto 1 e 3 e outra com quatro tarefas cujos erros absolutos são 2,2,4,4. Calcule o MAE agregado corretamente.
+
+**MAT-EST-046-EX-RET-06 — Relatório sem falsa certeza.** Em uma nova série, três previsões estão dentro de faixas arbitrárias. Escreva uma conclusão metodologicamente defensável que evite chamar esse achado de intervalo de 95%.
+
+## 12. Correção comentada, resumo e revisão
+
+O material de correção completo está em `gabarito-comentado.json`, separado dos enunciados. Para cada resposta incorreta, registrar o tipo predominante de erro: conteúdo, interpretação, cálculo, distração, memória, montagem da estratégia ou tempo. Não confundir uma conta errada com ausência de compreensão estatística; conferir o enunciado, a fórmula escolhida, o sinal, o divisor e a justificativa.
+
+**Resumo para escutar:** prever em t8 usa até t8. Ao chegar t9, a janela pode aumentar, mas a previsão antiga de t10 emitida em t8 não muda. Uma origem e um horizonte identificam uma tarefa; vários erros podem compartilhar um mesmo alvo observado. Para cada horizonte, MAE mede o tamanho médio dos módulos e RMSE dá maior peso às magnitudes elevadas. Uma faixa ilustrativa não possui cobertura probabilística automática. Uma conclusão válida explica o procedimento, o número de tarefas e as restrições de interpretação.
+
+**Revisão espaçada:** após o estudo real e uma primeira tentativa registrada, programar retomadas em um, sete e trinta dias. Na primeira, reconstruir o calendário das três origens e as equações sem olhar os resultados. Na segunda, refazer os cálculos de h1/h2 e a comparação por métrica. Na terceira, resolver o reteste sem consultar o gabarito e escrever um relatório de quatro parágrafos: objetivo, método, números e limitações. A data de revisão parte do estudo efetivo, não da data de geração editorial.
+
+**Critério de consolidação:** demonstrar que consegue desenhar janelas sem vazamento, calcular ao menos uma atualização e duas previsões com horizonte distinto, explicar MAE e RMSE com unidade, detectar alvo sobreposto e não apresentar cobertura descritiva como intervalo calibrado. Se houver dificuldade, reduzir a etapa e recuperar a operação ou o conceito necessário antes de avançar.
+
+**Próximo tópico:** MAT-EST-047 — Diagnóstico e calibração de previsões temporais: resíduos por horizonte, intervalos avaliáveis e comunicação de risco. A sequência editorial não resolve as avaliações individuais ainda pendentes: MAT-EST-018, MAT-PRO-039, MAT-PRO-054 e MAT-EST-037.
+
+**Situação de publicação:** apenas pacote local; integração com Google Drive, GitHub e site não executada. Teste de reprodução integral do vídeo e teste real do Microsoft Edge não executados. Nenhuma tentativa, nota, consolidação ou progresso individual foi inventado.

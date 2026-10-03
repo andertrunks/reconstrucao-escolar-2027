@@ -1,0 +1,48 @@
+{
+  "aula": "MAT-EST-050",
+  "status": "aprovado",
+  "testes": {
+    "36_questoes_36_respostas_IDS_bijetivos": true,
+    "10_10_10_6_por_camada": true,
+    "todos_autorais": true,
+    "sem_respostas_no_JSON_de_exercicios": true,
+    "seis_CSVs_anteriores_byte_a_byte": true,
+    "protocolo_herdado_byte_a_byte": true,
+    "seis_svg_title_desc_acessiveis": true,
+    "aula_referencia_seis_figuras": true,
+    "aula_notas_audio_visual": true,
+    "metadados_checkpoint_mesmo_proximo": true,
+    "media_mae_anterior": true,
+    "media_custo_r3_anterior": true,
+    "falha_local_t19_preservada": true,
+    "sensibilidade_custo_6_pesos": true,
+    "ponto_empate": true,
+    "cinco_retiradas_corretas": true,
+    "tres_cenarios_nao_observados_corretos": true,
+    "sem_csv_observacao_t23": true,
+    "retificacao_matematica": true,
+    "preview_presente": true,
+    "status_nao_publicado": true
+  },
+  "total_testes": 21,
+  "aprovados": 21,
+  "arquivos_anteriores_copiados_byte_a_byte": [
+    "serie-herdada-t01-t12.csv",
+    "chegadas-simuladas-t13-t18.csv",
+    "chegadas-novas-simuladas-t19-t22.csv",
+    "comparacao-emparelhada-t18-t22.csv",
+    "registro-emissoes-h1.csv",
+    "diferencas-sazonais-t13-t22.csv"
+  ],
+  "arquivos_svg": 6,
+  "questoes": 36,
+  "gabaritos": 36,
+  "limites": [
+    "sem teste real de Microsoft Edge ou leitor de tela",
+    "PNG ilustrativo, não screenshot",
+    "sem acesso ao GitHub/site durante a criação",
+    "nenhuma sincronização ao Google Drive",
+    "página e coleção de vídeos localizadas, reprodução integral e duração não verificadas",
+    "sem observações t23–t25 ou teste prospectivo real"
+  ]
+}

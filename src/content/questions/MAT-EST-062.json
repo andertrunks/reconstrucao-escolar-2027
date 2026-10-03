@@ -1,0 +1,866 @@
+[
+  {
+    "id": "MAT-EST-062-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Explique em duas frases a diferença entre resultado de um teste e evidência do teste.",
+    "answer": "Resultado é a saída, por exemplo, MAE igual a três. Evidência também identifica qual fonte e corte foram usados, procedimento, versão, execução e alcance. Sem essas informações não é possível auditar com segurança a afirmação.",
+    "resolution": "Resultado é a saída, por exemplo, MAE igual a três. Evidência também identifica qual fonte e corte foram usados, procedimento, versão, execução e alcance. Sem essas informações não é possível auditar com segurança a afirmação.",
+    "errorReasons": [
+      "conceito"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Qual é o estado herdado de G1 e G2 na MAT-EST-061? Esse estado significa publicação?",
+    "answer": "Ambos foram conferidos localmente. Isso não comprova revisão humana, deploy nem acesso público; G7 e G8 continuam não executados.",
+    "resolution": "Ambos foram conferidos localmente. Isso não comprova revisão humana, deploy nem acesso público; G7 e G8 continuam não executados.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Quais quatro controles ainda dependem de atuação humana e o que abrangem?",
+    "answer": "G3: Edge e teclado. G4: leitor de tela, zoom e reflow. G5: revisão editorial de significado e fontes. G6: reprodução integral do vídeo. Todos permanecem pendentes, sem responsáveis reais atestados.",
+    "resolution": "G3: Edge e teclado. G4: leitor de tela, zoom e reflow. G5: revisão editorial de significado e fontes. G6: reprodução integral do vídeo. Todos permanecem pendentes, sem responsáveis reais atestados.",
+    "errorReasons": [
+      "memória"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "No SANDBOX-057, dois dos oito cartões são avaliáveis. Calcule a completude do corte A.",
+    "answer": "Dois dividido por oito é 0,25; multiplicado por cem, 25%. Não usar essa fração como medida de aprovação editorial.",
+    "resolution": "Dois dividido por oito é 0,25; multiplicado por cem, 25%. Não usar essa fração como medida de aprovação editorial.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Calcule o MAE de B com erros assinados +4 e −2. Identifique a unidade.",
+    "answer": "MAE é a média dos módulos: quatro mais dois, dividido por dois, igual a três unidades fictícias. O sinal não afeta o módulo.",
+    "resolution": "MAE é a média dos módulos: quatro mais dois, dividido por dois, igual a três unidades fictícias. O sinal não afeta o módulo.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "O protocolo sucessor tem zero pares. Qual MAE deve constar e por quê?",
+    "answer": "MAE não estimável, por exemplo, null no JSON. Zero afirmaria uma precisão que não foi medida; não há erros conhecidos para calcular a média.",
+    "resolution": "MAE não estimável, por exemplo, null no JSON. Zero afirmaria uma precisão que não foi medida; não há erros conhecidos para calcular a média.",
+    "errorReasons": [
+      "conceito"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "O que um digest SHA-256 de arquivo pode indicar e o que não pode provar sozinho?",
+    "answer": "Comparado com um digest esperado confiável, permite conferir igualdade dos bytes com grande sensibilidade. Não prova sozinho assinatura de uma pessoa, data anterior à publicação ou leitura humana.",
+    "resolution": "Comparado com um digest esperado confiável, permite conferir igualdade dos bytes com grande sensibilidade. Não prova sozinho assinatura de uma pessoa, data anterior à publicação ou leitura humana.",
+    "errorReasons": [
+      "conceito"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "O campo revisor real está vazio em G3. Pode ser preenchido com um nome fictício para completar o formulário?",
+    "answer": "Não. Deixar nulo até haver pessoa e ato verificável. Preencher nome e data inventados transformaria planejamento em alegação falsa de execução.",
+    "resolution": "Não. Deixar nulo até haver pessoa e ato verificável. Preencher nome e data inventados transformaria planejamento em alegação falsa de execução.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Por que o controle G8 não pode estar concluído antes do G7?",
+    "answer": "G8 verifica a versão pública após o deploy; se G7 não ocorreu, não há URL e versão publicada a inspecionar. A ordem é uma dependência lógica, não formalidade.",
+    "resolution": "G8 verifica a versão pública após o deploy; se G7 não ocorreu, não há URL e versão publicada a inspecionar. A ordem é uma dependência lógica, não formalidade.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "As falhas R061-T01 até T05 demonstram defeitos do site público?",
+    "answer": "Não. São mutações sintéticas em cópias locais usadas para testar se o validador rejeita problemas. Não há evidência de site publicado.",
+    "resolution": "Não. São mutações sintéticas em cópias locais usadas para testar se o validador rejeita problemas. Não há evidência de site publicado.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Recalcule os custos médios de B e C no SANDBOX-057 sob três pontos por unidade subprevista e um por unidade superprevista.",
+    "answer": "B: +4 custa doze e −2 custa dois; média quatorze dividido por dois, sete pontos. C: +3 custa nove e −5 custa cinco; média quatorze dividido por dois, sete pontos. A métrica custo não tem a mesma unidade do MAE.",
+    "resolution": "B: +4 custa doze e −2 custa dois; média quatorze dividido por dois, sete pontos. C: +3 custa nove e −5 custa cinco; média quatorze dividido por dois, sete pontos. A métrica custo não tem a mesma unidade do MAE.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Um relatório afirma: “G1 e G2 concluídos, portanto o projeto está 25% liberado”. Identifique duas falhas nessa interpretação.",
+    "answer": "Embora dois de oito seja aritmeticamente 25%, portas de tipos e ordens diferentes não formam um placar de prontidão. Além disso, faltam controles humanos e não há G7/G8; a palavra liberado não decorre dos dois testes locais.",
+    "resolution": "Embora dois de oito seja aritmeticamente 25%, portas de tipos e ordens diferentes não formam um placar de prontidão. Além disso, faltam controles humanos e não há G7/G8; a palavra liberado não decorre dos dois testes locais.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Depois de alterar uma célula de CSV, quais evidências precisam ser reconsideradas e por quê?",
+    "answer": "O hash, o recálculo G1 e afirmações/gráficos dependentes devem ser refeitos; G2 e G3–G6 entram em análise de impacto conforme o que mudou. A evidência antiga continua válida para a versão antiga, não automaticamente para a nova.",
+    "resolution": "O hash, o recálculo G1 e afirmações/gráficos dependentes devem ser refeitos; G2 e G3–G6 entram em análise de impacto conforme o que mudou. A evidência antiga continua válida para a versão antiga, não automaticamente para a nova.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Uma legenda muda e os números permanecem. É correto reaproveitar automaticamente a revisão visual e por áudio antiga?",
+    "answer": "Não automaticamente: o texto alterado pode quebrar a alternativa, a leitura ou o contexto. Documentar impacto e conferir novamente ao menos legenda, descrição, leitura e eventuais referências afetadas.",
+    "resolution": "Não automaticamente: o texto alterado pode quebrar a alternativa, a leitura ou o contexto. Documentar impacto e conferir novamente ao menos legenda, descrição, leitura e eventuais referências afetadas.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Dê cinco campos de uma ficha de evidência para “MAE B = 3 unidades” que tornem a frase auditável.",
+    "answer": "Exemplo suficiente: identificador SANDBOX-057/corte A; S01 e S02 elegíveis; fonte com versão/hash; cálculo (|4|+|−2|)/2; resultado com unidade e estado da execução. Responsável real e data são adicionais quando existirem, não inventados.",
+    "resolution": "Exemplo suficiente: identificador SANDBOX-057/corte A; S01 e S02 elegíveis; fonte com versão/hash; cálculo (|4|+|−2|)/2; resultado com unidade e estado da execução. Responsável real e data são adicionais quando existirem, não inventados.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Um registro de G7 foi marcado publicado, mas URL pública e commit são nulos. Qual deve ser a saída de um validador honesto?",
+    "answer": "Rejeitar a alegação como evidência insuficiente. Pode ser hipótese em fixture artificial, mas não mudar o estado real de G7; pedir registro autenticado de integração e URL efetiva.",
+    "resolution": "Rejeitar a alegação como evidência insuficiente. Pode ser hipótese em fixture artificial, mas não mudar o estado real de G7; pedir registro autenticado de integração e URL efetiva.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Selecione quatro verificações pós-deploy que o teste de ZIP não consegue substituir.",
+    "answer": "Por exemplo: abrir a URL efetiva e conferir a versão exibida; navegar entre aulas; ouvir texto no Edge; verificar assets e textos alternativos no site; usar leitor de tela e zoom; conferir cache. O ZIP mostra artefatos locais, não sua experiência pública.",
+    "resolution": "Por exemplo: abrir a URL efetiva e conferir a versão exibida; navegar entre aulas; ouvir texto no Edge; verificar assets e textos alternativos no site; usar leitor de tela e zoom; conferir cache. O ZIP mostra artefatos locais, não sua experiência pública.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "No EXEMPLO-Z, a previsão permanece 29 e a observação passa de provisória 30 para validada 32. Quais erros assinados resultam e qual o cuidado documental?",
+    "answer": "O erro observado menos previsto é +1 na versão provisória e +3 na validada. Preservar ambas as versões e usar a política de avaliação aplicável, sem contar duas observações distintas nem alterar a previsão original.",
+    "resolution": "O erro observado menos previsto é +1 na versão provisória e +3 na validada. Preservar ambas as versões e usar a política de avaliação aplicável, sem contar duas observações distintas nem alterar a previsão original.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Interprete a diferença entre MAE B17,60 e C8,36 no histórico à luz da guarda t19=19,2 superior a dez.",
+    "answer": "C tem MAE menor nesse conjunto de cinco pares, mas violou o critério local congelado. Assim, não se deve anunciar promoção sob MAT-EST-049-PROT-v1. Melhor média parcial não revoga uma condição necessária.",
+    "resolution": "C tem MAE menor nesse conjunto de cinco pares, mas violou o critério local congelado. Assim, não se deve anunciar promoção sob MAT-EST-049-PROT-v1. Melhor média parcial não revoga uma condição necessária.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Escreva uma frase de entrega que distinga pacote local, autorização e publicação, usando estados G1–G8.",
+    "answer": "Exemplo: “Material local com G1 e G2 conferidos; G3 a G6 aguardam revisão humana e G7/G8 não foram executados; não há autorização ou publicação comprovada.” Todos os estados são explícitos.",
+    "resolution": "Exemplo: “Material local com G1 e G2 conferidos; G3 a G6 aguardam revisão humana e G7/G8 não foram executados; não há autorização ou publicação comprovada.” Todos os estados são explícitos.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "[Autoral, estilo vestibular] Uma notícia afirma que seis cartões sem resultado contam como erros nulos para obter MAE B = (4+2)/8. Critique matematicamente e reescreva o cálculo.",
+    "answer": "Os seis não são observações com erro zero. No corte A há dois pares avaliáveis; logo MAE B=(4+2)/2=3 unidades. Dividir por oito mistura completude e estimativa de erro, subestimando artificialmente a magnitude.",
+    "resolution": "Os seis não são observações com erro zero. No corte A há dois pares avaliáveis; logo MAE B=(4+2)/2=3 unidades. Dividir por oito mistura completude e estimativa de erro, subestimando artificialmente a magnitude.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "[Autoral, estilo vestibular] Um painel exibe “25% da publicação aprovada” porque G1 e G2 estão concluídos. Indique o erro lógico sem negar que 2/8=25%.",
+    "answer": "A conta é correta como fração de controles listados, mas não mede prontidão: as portas têm pesos, funções e dependências diferentes. G3–G6 ainda dependem de pessoas; G7/G8 são externos e não executados. Não atribuir uma porcentagem de liberação a uma contagem heterogênea.",
+    "resolution": "A conta é correta como fração de controles listados, mas não mede prontidão: as portas têm pesos, funções e dependências diferentes. G3–G6 ainda dependem de pessoas; G7/G8 são externos e não executados. Não atribuir uma porcentagem de liberação a uma contagem heterogênea.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "[Autoral, estilo vestibular] Um CSV troca a fonte por versão B, enquanto o relatório preserva o hash da versão A. O relatório é automaticamente válido? Proponha uma ação mínima.",
+    "answer": "Não. Conferir hashes de ambas as versões, congelar B, repetir cálculo e inspeções dependentes e guardar o resultado de A como histórico. O digest antigo não certifica os novos bytes.",
+    "resolution": "Não. Conferir hashes de ambas as versões, congelar B, repetir cálculo e inspeções dependentes e guardar o resultado de A como histórico. O digest antigo não certifica os novos bytes.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "[Autoral, estilo vestibular] Um desenvolvedor escreveu “acessibilidade certificada” porque SVGs têm título e descrição. Que evidência ainda falta?",
+    "answer": "Esses atributos são verificações estruturais úteis, mas faltam, por exemplo, leitura no Edge, navegação por teclado, uso real de leitor de tela, zoom/reflow e revisão humana de significado. Não declarar certificação total.",
+    "resolution": "Esses atributos são verificações estruturais úteis, mas faltam, por exemplo, leitura no Edge, navegação por teclado, uso real de leitor de tela, zoom/reflow e revisão humana de significado. Não declarar certificação total.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "[Autoral, estilo vestibular] Um relatório oferece “intervalo de confiança” [0,75;8,25] para MAE B em SANDBOX-057, usando seis erros ainda ausentes limitados de zero a dez. Qual afirmação é adequada?",
+    "answer": "É somente limite condicional ilustrativo sob hipótese não comprovada de que cada erro absoluto faltante pertence a [0;10]. Soma conhecida B=6; mínimo 6/8=0,75 e máximo (6+60)/8=8,25. Sem modelo amostral e validação da premissa, não é intervalo de confiança.",
+    "resolution": "É somente limite condicional ilustrativo sob hipótese não comprovada de que cada erro absoluto faltante pertence a [0;10]. Soma conhecida B=6; mínimo 6/8=0,75 e máximo (6+60)/8=8,25. Sem modelo amostral e validação da premissa, não é intervalo de confiança.",
+    "errorReasons": [
+      "conteúdo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "[Autoral, estilo vestibular] O candidato tem custo médio menor na janela histórica, mas viola a guarda t19. Quais duas informações não podem faltar no sumário?",
+    "answer": "Registrar os resultados médios com janela e unidade e declarar que a piora local 19,2 ultrapassa o limite dez; sob o protocolo antigo, C não foi promovido. Uma síntese sem a guarda distorce a decisão.",
+    "resolution": "Registrar os resultados médios com janela e unidade e declarar que a piora local 19,2 ultrapassa o limite dez; sob o protocolo antigo, C não foi promovido. Uma síntese sem a guarda distorce a decisão.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "[Autoral, estilo vestibular] A fixture R061-T02 não contém texto alternativo e o validador a rejeita. Um editor escreve que o site ficou inacessível. Qual a diferença entre as duas afirmações?",
+    "answer": "O resultado confirma que uma cópia artificial falha como esperado na verificação. Não existe teste da página pública nem evidência de defeito efetivo nela. O relato deve identificar fixture local e limitar sua conclusão.",
+    "resolution": "O resultado confirma que uma cópia artificial falha como esperado na verificação. Não existe teste da página pública nem evidência de defeito efetivo nela. O relato deve identificar fixture local e limitar sua conclusão.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "[Autoral, estilo vestibular] Um ZIP antigo é extraído e seus arquivos comparados. Pode-se relatar “rollback público bem-sucedido”? Justifique com evidências necessárias.",
+    "answer": "Não. Foi ensaio local de restauração. Um rollback público exigiria execução autorizada, identificador da versão restaurada, URL, comparação do conteúdo efetivamente servido e novos testes.",
+    "resolution": "Não. Foi ensaio local de restauração. Um rollback público exigiria execução autorizada, identificador da versão restaurada, URL, comparação do conteúdo efetivamente servido e novos testes.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "[Autoral, estilo vestibular] Redija quatro frases para um executivo sobre o estado de publicação, os números do sandbox, o principal limite e o próximo passo.",
+    "answer": "Exemplo: “A candidata possui G1 e G2 conferidos localmente, mas não foi publicada. No SANDBOX-057 isolado, apenas dois de oito cartões são avaliáveis; MAE B=3 e C=4 unidades. G3–G6 ainda carecem de revisão humana, e não há G7/G8. O próximo passo é coletar evidências reais, autorizar a integração e só depois verificar a URL publicada.”",
+    "resolution": "Exemplo: “A candidata possui G1 e G2 conferidos localmente, mas não foi publicada. No SANDBOX-057 isolado, apenas dois de oito cartões são avaliáveis; MAE B=3 e C=4 unidades. G3–G6 ainda carecem de revisão humana, e não há G7/G8. O próximo passo é coletar evidências reais, autorizar a integração e só depois verificar a URL publicada.”",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "[Autoral, estilo vestibular] Um plano marca t26–t33 como oito alvos futuros. Seria correto apresentar n=8 e MAE=0 no quadro de resultados? Explique.",
+    "answer": "Não. São oito alvos planejados, com zero emissões e zero pares avaliáveis. O denominador de MAE seria zero e a métrica não é estimável, representada por null; exibir zero daria a entender desempenho perfeito fictício.",
+    "resolution": "Não. São oito alvos planejados, com zero emissões e zero pares avaliáveis. O denominador de MAE seria zero e a métrica não é estimável, representada por null; exibir zero daria a entender desempenho perfeito fictício.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "[Reteste independente] Em outro exercício fictício, cinco registros são planejados e três são avaliáveis. Qual completude?",
+    "answer": "Três dividido por cinco é 0,60, isto é, 60%. Os outros dois permanecem pendentes e não entram como erros zero.",
+    "resolution": "Três dividido por cinco é 0,60, isto é, 60%. Os outros dois permanecem pendentes e não entram como erros zero.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "[Reteste independente] No mesmo exercício, os erros assinados são −2, +1 e +4. Calcule o MAE.",
+    "answer": "Os módulos são dois, um e quatro. Soma sete, dividida por três: 7/3 ou aproximadamente 2,333 unidades fictícias.",
+    "resolution": "Os módulos são dois, um e quatro. Soma sete, dividida por três: 7/3 ou aproximadamente 2,333 unidades fictícias.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "[Reteste independente] Com custo três por unidade de erro positivo e um por unidade de erro negativo, calcule o custo médio dos erros −2, +1 e +4.",
+    "answer": "Custos dois, três e doze. Total dezessete, dividido por três: 17/3, aproximadamente 5,667 pontos. Não confundir custo médio com MAE.",
+    "resolution": "Custos dois, três e doze. Total dezessete, dividido por três: 17/3, aproximadamente 5,667 pontos. Não confundir custo médio com MAE.",
+    "errorReasons": [
+      "cálculo"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "[Reteste independente] Um administrador fornece “publicado” em um campo, mas não possui URL ou versão verificável. Qual estado documentar?",
+    "answer": "Não tratar publicação como comprovada. Registrar alegação pendente de verificação, sem inventar URL/commit; obter prova da execução e depois conferir a versão servida.",
+    "resolution": "Não tratar publicação como comprovada. Registrar alegação pendente de verificação, sem inventar URL/commit; obter prova da execução e depois conferir a versão servida.",
+    "errorReasons": [
+      "interpretação"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "[Reteste independente] Uma imagem muda depois de um teste acessível da versão anterior. Que pergunta deve orientar o uso da evidência antiga?",
+    "answer": "A evidência realmente cobre a nova versão? Conferir impacto no significado visual, alternativa textual, dimensão/reflow e audiodescrição, e reexecutar os controles afetados; guardar a verificação antiga como histórico.",
+    "resolution": "A evidência realmente cobre a nova versão? Conferir impacto no significado visual, alternativa textual, dimensão/reflow e audiodescrição, e reexecutar os controles afetados; guardar a verificação antiga como histórico.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-062-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-062"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "[Reteste independente] Após deploy hipotético, um gráfico não aparece na URL pública. Descreva registro e passos sem afirmar que ocorreram no projeto.",
+    "answer": "Registrar URL, versão, data e navegador reais somente se testados, descrever o gráfico ausente e impacto, abrir incidente, decidir com responsável entre correção ou reversão autorizada, verificar novamente o site e publicar comunicado delimitado. No projeto atual é apenas hipótese; G7/G8 não executados.",
+    "resolution": "Registrar URL, versão, data e navegador reais somente se testados, descrever o gráfico ausente e impacto, abrir incidente, decidir com responsável entre correção ou reversão autorizada, verificar novamente o site e publicar comunicado delimitado. No projeto atual é apenas hipótese; G7/G8 não executados.",
+    "errorReasons": [
+      "estratégia"
+    ],
+    "source": {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  }
+]

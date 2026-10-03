@@ -1,0 +1,72 @@
+[
+  {
+    "id": "MAT-EST-032-VIS-01",
+    "arquivo": "assets/01-registro-de-erros.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Quatro observações e duas previsões",
+    "alt": "Tabela mostra valores observados 10, 12, 14, 16 e erros de A: mais um, menos um, mais um, menos um; erros de B: zero, zero, zero, menos quatro.",
+    "oQueObservar": "Compare a última linha e a ausência de erro de B nas três primeiras linhas.",
+    "conclusaoTextual": "O mesmo conjunto precisa ser usado para comparar A e B; módulos e quadrados respondem a perguntas diferentes."
+  },
+  {
+    "id": "MAT-EST-032-VIS-02",
+    "arquivo": "assets/02-metricas-por-modelo.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Comparação de MAE e RMSE",
+    "alt": "Gráfico de barras em pontos: A possui MAE 1 e RMSE 1; B possui MAE 1 e RMSE 2. Eixo horizontal identifica modelo e métrica; eixo vertical mede erro em pontos.",
+    "oQueObservar": "Observe os valores escritos em cada barra, não apenas as cores.",
+    "conclusaoTextual": "As médias absolutas coincidem, mas a medida quadrática identifica o erro isolado mais intenso de B."
+  },
+  {
+    "id": "MAT-EST-032-VIS-03",
+    "arquivo": "assets/03-r2-negativo.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Modelo pior que a referência de média",
+    "alt": "Esquema compara SST de 20 pontos ao quadrado com SSE de 24 pontos ao quadrado e calcula R ao quadrado igual a menos 0,20.",
+    "oQueObservar": "Veja a comparação entre a soma quadrática do modelo e a soma quadrática de referência.",
+    "conclusaoTextual": "Em avaliação retida, o R² pode ser negativo quando os erros quadráticos ultrapassam a referência da média."
+  },
+  {
+    "id": "MAT-EST-032-VIS-04",
+    "arquivo": "assets/04-incerteza-intervalos.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Intervalo para média e para observação individual",
+    "alt": "Reta horizontal de 0 a 20 pontos; intervalo da média de 8 a 12 e intervalo individual de 5 a 15, ambos centrados em 10. Valores didáticos, não intervalos calculados com dados.",
+    "oQueObservar": "Compare as larguras: quatro e dez pontos.",
+    "conclusaoTextual": "Uma observação nova inclui variabilidade que não está apenas na incerteza da média."
+  },
+  {
+    "id": "MAT-EST-032-VIS-05",
+    "arquivo": "assets/05-monitoramento-temporal.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Desempenho em janelas temporais",
+    "alt": "Linha com MAE de 1,0 ponto na janela histórica e 1,8 na recente; eixo horizontal indica janela e eixo vertical MAE em pontos.",
+    "oQueObservar": "Observe o aumento relativo de 80% e os nomes das janelas.",
+    "conclusaoTextual": "Uma mudança de MAE deve levar a investigar amostra, coleta e população, não a decretar uma causa sem testes."
+  },
+  {
+    "id": "MAT-EST-032-VIS-06",
+    "arquivo": "assets/06-metricas-por-grupo.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Média global e diferenças entre grupos",
+    "alt": "Gráfico: grupo X com 90 registros e MAE 1, grupo Y com 10 registros e MAE 5, global ponderado MAE 1,4; eixo vertical em pontos.",
+    "oQueObservar": "Observe valores, número de registros e diferenças entre grupos.",
+    "conclusaoTextual": "Uma boa aparência do agregado pode esconder erros maiores em um grupo pequeno."
+  },
+  {
+    "id": "MAT-EST-032-VIS-07",
+    "arquivo": "assets/07-fluxo-avaliacao-monitoramento.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "legenda": "Ciclo de avaliação e monitoramento",
+    "alt": "Fluxo textual de objetivo e linha de base, separação adequada, seleção, teste final preservado, monitoramento com resultados e revisão documentada.",
+    "oQueObservar": "Identifique onde a informação de teste fica isolada e quando chegam os resultados reais.",
+    "conclusaoTextual": "O teste final é independente da seleção; o acompanhamento após implantação requer resultados observados e condições comparáveis."
+  }
+]

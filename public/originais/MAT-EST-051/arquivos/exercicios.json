@@ -1,0 +1,470 @@
+[
+  {
+    "id": "MAT-EST-051-EX-APR-01",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "aprendizagem",
+    "titulo": "Quais períodos continuam sem observado?",
+    "enunciado": "Indique os três períodos seguintes a t22 que permanecem sem valor observado no pacote."
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-02",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "aprendizagem",
+    "titulo": "Hipótese ou observação?",
+    "enunciado": "Classifique a afirmação “Se t23 fosse 191” como observação, cenário ou regra de decisão."
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-03",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "aprendizagem",
+    "titulo": "Duas origens e alvos",
+    "enunciado": "Na avaliação de horizonte um, qual é a origem da tarefa com alvo t24? E qual é a origem da tarefa com alvo t25?"
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-04",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "aprendizagem",
+    "titulo": "Leitura do erro",
+    "enunciado": "Uma previsão hipotética é 140 e o observado posterior validado é 147. Calcule o erro assinado na convenção da aula."
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-05",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "aprendizagem",
+    "titulo": "Média absoluta",
+    "enunciado": "Em dois erros hipotéticos +4 e −6, encontre o MAE."
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-06",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "aprendizagem",
+    "titulo": "Custo congelado positivo",
+    "enunciado": "Aplique C(e)=3 max(e,0)+max(−e,0) a e=+4."
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-07",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "aprendizagem",
+    "titulo": "Custo congelado negativo",
+    "enunciado": "Aplique a mesma regra a e=−4."
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-08",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "aprendizagem",
+    "titulo": "Oito ou cinco?",
+    "enunciado": "Por que não se deve dividir uma soma de erros já observados por oito se existem somente cinco pares completos?"
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-09",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "aprendizagem",
+    "titulo": "Fonte sazonal B23",
+    "enunciado": "Com y19=183 e período sazonal quatro, calcule B23 usando apenas dados até t22."
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-10",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "aprendizagem",
+    "titulo": "Previsão C23",
+    "enunciado": "A média das diferenças sazonais d18 a d22 é 16. Se B23=183, calcule C23."
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-01",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "consolidacao",
+    "titulo": "Derivar diferenças",
+    "enunciado": "Se y19=183, y20=181, y21=188 e y22=193, calcule d22 usando a sazonalidade de quatro períodos e y18=176."
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-02",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "consolidacao",
+    "titulo": "Janela C24",
+    "enunciado": "Na origem t23, suponha que uma futura observação válida seja representada por x=y23. As quatro diferenças anteriores da janela somam 55. Qual é a soma das cinco diferenças?"
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-03",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "consolidacao",
+    "titulo": "Expressão para C24",
+    "enunciado": "A referência B24 é 181 e a soma da janela é x−128. Escreva a previsão C24 para horizonte um."
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-04",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "consolidacao",
+    "titulo": "C24 num cenário",
+    "enunciado": "Exclusivamente como cálculo condicional, use x=191 na fórmula de C24. Qual resultado?"
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-05",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "consolidacao",
+    "titulo": "C25 simbólico",
+    "enunciado": "Com x=y23 e z=y24 ainda desconhecidos, escreva a fórmula da previsão de C para t25."
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-06",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "consolidacao",
+    "titulo": "Quantos pares faltam?",
+    "enunciado": "O protocolo pede oito pares e cinco existem na série editorial. Quantos ainda faltam?"
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-07",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "consolidacao",
+    "titulo": "Limite de redução MAE",
+    "enunciado": "Se no fechamento hipotético de oito pares o MAE de B fosse 20, qual o maior MAE de C compatível com redução mínima de vinte por cento?"
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-08",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "consolidacao",
+    "titulo": "Piora local herdada",
+    "enunciado": "Em t19, os módulos são quatro para B e 23,2 para C. Calcule a deterioração local e compare ao limite dez."
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-09",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "consolidacao",
+    "titulo": "Fluxo de dado atrasado",
+    "enunciado": "Há dois alvos novos com previsões anteriores válidas, mas só um deles recebeu observado conferido. Quantos novos pares elegíveis existem?"
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-10",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "consolidacao",
+    "titulo": "Correção rastreável",
+    "enunciado": "Explique como registrar uma observação posteriormente retificada sem modificar a previsão antiga."
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-01",
+    "origem": "autoral",
+    "exame": "estilo_vestibular_autoral_sem_banca",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "vestibular_autoral",
+    "titulo": "Gráfico com faixas vazias",
+    "enunciado": "Um gráfico mostra t18–t22 como histórico fictício e t23–t25 como campos vazios. Um colega chama os três campos vazios de demanda nula. Avalie a conclusão."
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-02",
+    "origem": "autoral",
+    "exame": "estilo_vestibular_autoral_sem_banca",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "vestibular_autoral",
+    "titulo": "Uma linha, duas previsões",
+    "enunciado": "Uma tabela apresenta duas previsões de modelos diferentes para o mesmo t23. Isso equivale a quantos alvos observados?"
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-03",
+    "origem": "autoral",
+    "exame": "estilo_vestibular_autoral_sem_banca",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "vestibular_autoral",
+    "titulo": "Protocolo com portas cumulativas",
+    "enunciado": "Um candidato tem médias melhores que B e completa oito pares, mas registrou piora local de 19,2 onde o limite era dez. É autorizada sua promoção por MAT-EST-049-PROT-v1?"
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-04",
+    "origem": "autoral",
+    "exame": "estilo_vestibular_autoral_sem_banca",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "vestibular_autoral",
+    "titulo": "Proveniência de um número",
+    "enunciado": "Um aluno calcula C23=199 depois de ler todo o histórico t01–t22, mas insere “emitido em t22” sem log contemporâneo. Identifique a impropriedade."
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-05",
+    "origem": "autoral",
+    "exame": "estilo_vestibular_autoral_sem_banca",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "vestibular_autoral",
+    "titulo": "Vazamento de dados",
+    "enunciado": "Para comparar B24 e C24, alguém escolhe x=y23 com base em um valor que ainda não estava disponível na suposta origem t23. Qual condição deve ser comprovada?"
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-06",
+    "origem": "autoral",
+    "exame": "estilo_vestibular_autoral_sem_banca",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "vestibular_autoral",
+    "titulo": "Percentual com base nula",
+    "enunciado": "Um relatório tenta calcular G=1−MAE_C/MAE_B quando MAE_B=0. Qual problema matemático existe?"
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-07",
+    "origem": "autoral",
+    "exame": "estilo_vestibular_autoral_sem_banca",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "vestibular_autoral",
+    "titulo": "Retificação sem reemissão",
+    "enunciado": "Um observado t23 inicialmente inválido é corrigido após a emissão, e um analista recalcula a previsão original usando o novo y23. O que deve ser preservado?"
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-08",
+    "origem": "autoral",
+    "exame": "estilo_vestibular_autoral_sem_banca",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "vestibular_autoral",
+    "titulo": "Probabilidades sem distribuição",
+    "enunciado": "Três cenários para t23 são 178, 191 e 209. Um relatório anuncia “33,3% de chance para cada”. A alegação é sustentada?"
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-09",
+    "origem": "autoral",
+    "exame": "estilo_vestibular_autoral_sem_banca",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "vestibular_autoral",
+    "titulo": "Escolha pós-resultado de métrica",
+    "enunciado": "Depois de ver os alvos, um analista muda o peso de subprevisão de três para 0,25 e anuncia aprovação pelo protocolo anterior. Avalie."
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-10",
+    "origem": "autoral",
+    "exame": "estilo_vestibular_autoral_sem_banca",
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "vestibular_autoral",
+    "titulo": "Relatório sem denominador",
+    "enunciado": "Uma notícia diz “o candidato errou em média 8,36” sem mencionar universo, status dos dados ou horizonte. Reescreva com precisão."
+  },
+  {
+    "id": "MAT-EST-051-EX-RET-01",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "reteste",
+    "titulo": "Planilha de controle",
+    "enunciado": "Uma avaliação prevê seis pares; quatro possuem os dois registros anteriores e observado válido. Qual N entra na média e qual número é listado como pendente?"
+  },
+  {
+    "id": "MAT-EST-051-EX-RET-02",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "reteste",
+    "titulo": "Nova janela simbólica",
+    "enunciado": "Considere um modelo que soma à referência a média de três diferenças 2, 5 e x−10. Qual é o ajuste simbólico?"
+  },
+  {
+    "id": "MAT-EST-051-EX-RET-03",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "reteste",
+    "titulo": "Conferência de ordem",
+    "enunciado": "Uma previsão para período q foi salva após a observação de q, embora só tenha usado números anteriores a q. Como classificá-la para teste prospectivo?"
+  },
+  {
+    "id": "MAT-EST-051-EX-RET-04",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "reteste",
+    "titulo": "Guarda irreversível",
+    "enunciado": "Um protocolo de dez períodos limita a piora individual a seis. No terceiro período, a piora foi sete. Os próximos sete períodos reduzem o MAE médio. A guarda do protocolo original passa?"
+  },
+  {
+    "id": "MAT-EST-051-EX-RET-05",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "reteste",
+    "titulo": "Comparação de custo",
+    "enunciado": "Sob C(e)=2 max(e,0)+max(−e,0), calcule custos para erros +5 e −5 e explique a assimetria."
+  },
+  {
+    "id": "MAT-EST-051-EX-RET-06",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-051"
+    ],
+    "dificuldade": "reteste",
+    "titulo": "Mini parecer",
+    "enunciado": "Redija três frases que diferenciem plano, observação e decisão quando ainda faltam resultados futuros."
+  }
+]

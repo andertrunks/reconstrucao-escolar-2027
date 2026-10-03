@@ -1,0 +1,123 @@
+{
+  "amostraOriginal": [
+    2,
+    4,
+    6,
+    8
+  ],
+  "media": 5,
+  "bootstrapExato": {
+    "numeroSequencias": 256,
+    "mediaDasMedias": 5.0,
+    "variancia": 1.2500000000000002,
+    "erroPadrao": 1.118033988749895,
+    "quantisPostos": {
+      "posto7": 3.0,
+      "posto250": 7.0
+    },
+    "intervaloPercentil": [
+      3.0,
+      7.0
+    ],
+    "intervaloNormalAproximado": [
+      2.808653382050206,
+      7.191346617949794
+    ]
+  },
+  "permutacaoGrupos": {
+    "A": [
+      2,
+      4,
+      6
+    ],
+    "B": [
+      8,
+      10,
+      12
+    ],
+    "diferenca": -6,
+    "alocacoes": 20,
+    "extremas": 2,
+    "pExato": 0.1
+  },
+  "testePareadoSinais": {
+    "diferencas": [
+      1,
+      2,
+      3
+    ],
+    "configuracoes": 8,
+    "extremos": 2,
+    "pExato": 0.25
+  },
+  "pacientes": {
+    "medicoes": [
+      [
+        2,
+        4
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        10,
+        12
+      ]
+    ],
+    "medias": [
+      3,
+      7,
+      11
+    ],
+    "varianciaEmpiricaDasMedias": 10.666666666666666,
+    "erroPadraoPorPaciente": 1.8856180831641267,
+    "erroPadraoIngenuoPorLinha": 1.3944333775567925
+  },
+  "dadosTemporais": {
+    "dias": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "errosAbsolutosA": [
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "errosAbsolutosB": [
+      0.0,
+      0.0,
+      0.0,
+      25.0
+    ],
+    "diferencasPareadas": [
+      5.0,
+      5.0,
+      5.0,
+      -20.0
+    ],
+    "MAEA": 5.0,
+    "MAEB": 6.25,
+    "mediaDiferencas": -1.25,
+    "mediaSemUltimoDia": 5.0,
+    "bootstrapExato": {
+      "numeroSequencias": 256,
+      "frequencias": {
+        "-20.0": 1,
+        "-13.75": 12,
+        "-7.5": 54,
+        "-1.25": 108,
+        "5.0": 81
+      },
+      "intervaloPercentilPostos": [
+        -13.75,
+        5.0
+      ]
+    }
+  },
+  "origemCSVSHA256": "f1cc3989cd8c701a14e544c424b797f27594806ae302a93253e2a1b82fab5ca9",
+  "nota": "Métodos exatos neste experimento enumerável; cobertura inferencial futura não demonstrada."
+}

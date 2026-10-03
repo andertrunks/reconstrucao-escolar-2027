@@ -1,0 +1,271 @@
+{
+  "id": "MAT-EST-044",
+  "origin": "Only synthetic, quarterly numbers reused unmodified from MAT-EST-043. No real people or administrative records.",
+  "preservedFiles": {
+    "dados-ficticios-referencia.csv": {
+      "source": "MAT-EST-043/dados-ficticios-referencia.csv",
+      "sha256Source": "f1cc3989cd8c701a14e544c424b797f27594806ae302a93253e2a1b82fab5ca9",
+      "sha256Local": "f1cc3989cd8c701a14e544c424b797f27594806ae302a93253e2a1b82fab5ca9"
+    },
+    "dados-ficticios-trimestrais.csv": {
+      "source": "MAT-EST-043/dados-ficticios-trimestrais.csv",
+      "sha256Source": "c1d765b97f058ad9f94fba88e46b9cd6e3c1056bf1653ca3b048b97ca7c1c6f1",
+      "sha256Local": "c1d765b97f058ad9f94fba88e46b9cd6e3c1056bf1653ca3b048b97ca7c1c6f1"
+    }
+  },
+  "toySES": {
+    "data": [
+      100,
+      120,
+      110,
+      130
+    ],
+    "initial_l1": 100,
+    "levelsAlpha05": [
+      100.0,
+      110.0,
+      110.0,
+      120.0
+    ],
+    "levelsAlpha02": [
+      100.0,
+      104.0,
+      105.2,
+      110.16000000000001
+    ],
+    "levelsAlpha08": [
+      100.0,
+      116.0,
+      111.19999999999999,
+      126.24
+    ],
+    "nextStepAlpha05": 120,
+    "decompositionAlpha05": {
+      "y4": 65,
+      "y3": 27.5,
+      "y2": 15,
+      "l1": 12.5
+    }
+  },
+  "quarterly": {
+    "observed": [
+      90,
+      107,
+      128,
+      105,
+      111,
+      124,
+      150,
+      127,
+      129,
+      145,
+      171,
+      144
+    ],
+    "train1to8": [
+      90,
+      107,
+      128,
+      105,
+      111,
+      124,
+      150,
+      127
+    ],
+    "test9to12": [
+      129,
+      145,
+      171,
+      144
+    ],
+    "sesAlpha": 0.5,
+    "sesLevelTrace1to8": [
+      90.0,
+      98.5,
+      113.25,
+      109.125,
+      110.0625,
+      117.03125,
+      133.515625,
+      130.2578125
+    ],
+    "sesForecasts9to12": [
+      130.2578125,
+      130.2578125,
+      130.2578125,
+      130.2578125
+    ],
+    "holtAlpha": 0.4,
+    "holtBetaStar": 0.2,
+    "holtInit": {
+      "l2": 107,
+      "b2": 17
+    },
+    "holtTrace": [
+      {
+        "t": 2,
+        "level": 107.0,
+        "trend": 17.0
+      },
+      {
+        "t": 3,
+        "level": 125.6,
+        "trend": 17.32
+      },
+      {
+        "t": 4,
+        "level": 127.752,
+        "trend": 14.286400000000002
+      },
+      {
+        "t": 5,
+        "level": 129.62304,
+        "trend": 11.803328000000004
+      },
+      {
+        "t": 6,
+        "level": 134.4558208,
+        "trend": 10.409218560000003
+      },
+      {
+        "t": 7,
+        "level": 146.919023616,
+        "trend": 10.820015411200005
+      },
+      {
+        "t": 8,
+        "level": 145.44342341632,
+        "trend": 8.360892289024004
+      }
+    ],
+    "holtForecasts9to12": [
+      153.804315705344,
+      162.16520799436802,
+      170.52610028339203,
+      178.88699257241603
+    ],
+    "seasonalPeriod": 4,
+    "drift20point5": 20.5,
+    "predictionAtSameOrigin8": {
+      "last_train_value": {
+        "values": [
+          127,
+          127,
+          127,
+          127
+        ],
+        "errorsObservedMinusForecast": [
+          2,
+          18,
+          44,
+          17
+        ],
+        "mae": 20.25,
+        "rmse": 25.26361019331956
+      },
+      "seasonal_naive": {
+        "values": [
+          111,
+          124,
+          150,
+          127
+        ],
+        "errorsObservedMinusForecast": [
+          18,
+          21,
+          21,
+          17
+        ],
+        "mae": 19.25,
+        "rmse": 19.332614929181204
+      },
+      "seasonal_drift": {
+        "values": [
+          131.5,
+          144.5,
+          170.5,
+          147.5
+        ],
+        "errorsObservedMinusForecast": [
+          -2.5,
+          0.5,
+          0.5,
+          -3.5
+        ],
+        "mae": 1.75,
+        "rmse": 2.179449471770337
+      },
+      "ses_alpha05": {
+        "values": [
+          130.2578125,
+          130.2578125,
+          130.2578125,
+          130.2578125
+        ],
+        "errorsObservedMinusForecast": [
+          -1.2578125,
+          14.7421875,
+          40.7421875,
+          13.7421875
+        ],
+        "mae": 17.62109375,
+        "rmse": 22.735917312375065
+      },
+      "holt_alpha04_beta02": {
+        "values": [
+          153.804315705344,
+          162.16520799436802,
+          170.52610028339203,
+          178.88699257241603
+        ],
+        "errorsObservedMinusForecast": [
+          -24.80431570534401,
+          -17.165207994368018,
+          0.47389971660797414,
+          -34.886992572416034
+        ],
+        "mae": 19.33260399718401,
+        "rmse": 23.060926232425615
+      }
+    }
+  },
+  "holtWintersWorkedUpdateHypothetical": {
+    "input": {
+      "previous_level": 115.0,
+      "previous_trend": 5.0,
+      "prior_matching_seasonal": -10.0,
+      "newObservation": 111.0,
+      "alpha": 0.4,
+      "betaStar": 0.2,
+      "gamma": 0.2
+    },
+    "newLevel": 120.4,
+    "newTrend": 5.080000000000001,
+    "newSeasonal": -9.8,
+    "hypotheticalForecastAtT8": {
+      "stateProvidedForTeachingOnly": {
+        "level": 137,
+        "trend": 5,
+        "seasonals": [
+          -10,
+          0,
+          20,
+          -10
+        ]
+      },
+      "forecast9to12": [
+        132,
+        147,
+        172,
+        147
+      ],
+      "NOT_FITTED_TO_TRAIN": true
+    }
+  },
+  "limits": [
+    "Holdout t9-t12 had already been disclosed in MAT-EST-043, so this reuse is illustrative, NOT a fresh independent test. Results do not rank universal strategies.",
+    "Alpha and beta are fixed as teaching examples, not selected with holdout.",
+    "No intervals were estimated: a point forecast does not determine predictive uncertainty.",
+    "Holt-Winters hypothetical starting states are GIVEN, not fitted or an independent test score."
+  ]
+}

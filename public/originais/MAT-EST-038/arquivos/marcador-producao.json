@@ -1,0 +1,19 @@
+{
+  "dataRegistro": "2026-09-28",
+  "unidade": "Estatística",
+  "ultimaAulaProduzida": "MAT-EST-038",
+  "proximaAulaObrigatoria": {
+    "id": "MAT-EST-039",
+    "titulo": "Ponte universitária em Estatística: reamostragem, bootstrap e testes de permutação"
+  },
+  "fechamento": "editorial da etapa anterior, não consolidação individual",
+  "statusProducao": "produzido localmente; não publicado nem sincronizado com Google Drive",
+  "progressoIndividualAlterado": false,
+  "avaliacoesPendentes": [
+    "MAT-EST-018",
+    "MAT-EST-037",
+    "MAT-PRO-039",
+    "MAT-PRO-054"
+  ],
+  "instrucaoContinuar": "Produzir MAT-EST-039 como ponte universitária progressiva, sem reabrir nova trilha nem consolidar automaticamente avaliações pendentes. Não aplicar questionário na conversa."
+}

@@ -1,0 +1,17 @@
+{
+  "projeto": "Reconstrução Escolar + ENEM e Vestibulares 2027",
+  "ultimo_pacote_editorial_concluido": "MAT-EST-048",
+  "titulo_ultimo": "Monitoramento prospectivo de séries temporais: registro de previsões, deriva de dados e protocolos de revisão de modelos",
+  "etapa_atual": "MAT-EST-048 concluída em artefatos locais; não sincronizada no Google Drive, GitHub ou site",
+  "proximo_topico_editorial": "MAT-EST-049",
+  "titulo_proximo_proposto": "Comparação prospectiva de modelos temporais: desafiante, referência, custos e decisão de atualização",
+  "proxima_acao": "Ao escrever Continuar, antes de criar qualquer novo arquivo conferir checkpoints e se MAT-EST-049 já existe; se não, produzir apenas o passo editorial MAT-EST-049, preservando histórico fictício e IDs.",
+  "progresso_individual": "não iniciado; não atualizado",
+  "registro_da_base": "t01 a t12 herdados numericamente, t13 a t18 simulação separada",
+  "nao_alegar": [
+    "deploy",
+    "sincronizacao Drive",
+    "reproducao de video",
+    "teste manual Edge"
+  ]
+}

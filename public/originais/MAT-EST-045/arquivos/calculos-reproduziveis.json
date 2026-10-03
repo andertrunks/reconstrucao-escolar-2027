@@ -1,0 +1,213 @@
+{
+  "id": "MAT-EST-045",
+  "origin": "Fictional training data inherited byte-for-byte from MAT-EST-044 and originally defined in MAT-EST-043. All examples authorial.",
+  "preservedFiles": {
+    "dados-ficticios-referencia.csv": {
+      "source": "MAT-EST-044/dados-ficticios-referencia.csv",
+      "sha256Source": "f1cc3989cd8c701a14e544c424b797f27594806ae302a93253e2a1b82fab5ca9",
+      "sha256Local": "f1cc3989cd8c701a14e544c424b797f27594806ae302a93253e2a1b82fab5ca9"
+    },
+    "dados-ficticios-trimestrais.csv": {
+      "source": "MAT-EST-044/dados-ficticios-trimestrais.csv",
+      "sha256Source": "c1d765b97f058ad9f94fba88e46b9cd6e3c1056bf1653ca3b048b97ca7c1c6f1",
+      "sha256Local": "c1d765b97f058ad9f94fba88e46b9cd6e3c1056bf1653ca3b048b97ca7c1c6f1"
+    }
+  },
+  "series": [
+    90,
+    107,
+    128,
+    105,
+    111,
+    124,
+    150,
+    127,
+    129,
+    145,
+    171,
+    144
+  ],
+  "trainPeriods1to8": [
+    90,
+    107,
+    128,
+    105,
+    111,
+    124,
+    150,
+    127
+  ],
+  "illustrativeHoldoutPeriods9to12AlreadyDisclosed": [
+    129,
+    145,
+    171,
+    144
+  ],
+  "initialization": {
+    "firstCycle": [
+      90,
+      107,
+      128,
+      105
+    ],
+    "slopeHeuristic_b4": 5.0,
+    "detrendedFirstCycle": [
+      90.0,
+      102.0,
+      118.0,
+      90.0
+    ],
+    "detrendedMeanAtT1": 100.0,
+    "initialLevel_l4": 115.0,
+    "initialTrend_b4": 5.0,
+    "seasonals_s1_to_s4": [
+      -10.0,
+      2.0,
+      18.0,
+      -10.0
+    ],
+    "initialisationUsesOnlyT1toT4": true,
+    "caveat": "First-cycle heuristic only, not an independently identified or optimized trend/seasonal decomposition."
+  },
+  "parametersFixedForIllustration": {
+    "alpha": 0.3,
+    "betaStar": 0.2,
+    "gamma": 0.2,
+    "seasonalPeriod": 4,
+    "restriction": "0<=gamma<=1-alpha in the selected FPP3 parameterisation"
+  },
+  "updateTraceT5toT8": [
+    {
+      "t": 5,
+      "y": 111,
+      "priorLevel": 115.0,
+      "priorTrend": 5.0,
+      "priorMatchingSeason": -10.0,
+      "oneStepForecastBeforeSeeingY": 110.0,
+      "oneStepResidual": 1.0,
+      "newLevel": 120.3,
+      "newTrend": 5.06,
+      "newSeason": -9.8
+    },
+    {
+      "t": 6,
+      "y": 124,
+      "priorLevel": 120.3,
+      "priorTrend": 5.06,
+      "priorMatchingSeason": 2.0,
+      "oneStepForecastBeforeSeeingY": 127.36,
+      "oneStepResidual": -3.3599999999999994,
+      "newLevel": 124.352,
+      "newTrend": 4.858400000000001,
+      "newSeason": 1.3280000000000007
+    },
+    {
+      "t": 7,
+      "y": 150,
+      "priorLevel": 124.352,
+      "priorTrend": 4.858400000000001,
+      "priorMatchingSeason": 18.0,
+      "oneStepForecastBeforeSeeingY": 147.2104,
+      "oneStepResidual": 2.789600000000007,
+      "newLevel": 130.04728,
+      "newTrend": 5.0257760000000005,
+      "newSeason": 18.55792
+    },
+    {
+      "t": 8,
+      "y": 127,
+      "priorLevel": 130.04728,
+      "priorTrend": 5.0257760000000005,
+      "priorMatchingSeason": -10.0,
+      "oneStepForecastBeforeSeeingY": 125.07305600000001,
+      "oneStepResidual": 1.9269439999999918,
+      "newLevel": 135.6511392,
+      "newTrend": 5.1413926399999985,
+      "newSeason": -9.6146112
+    }
+  ],
+  "lastStateAtT8": {
+    "level": 135.6511392,
+    "trend": 5.1413926399999985,
+    "lastSeasonalsS5toS8": [
+      -9.8,
+      1.3280000000000007,
+      18.55792,
+      -9.6146112
+    ]
+  },
+  "annualMeanShiftFromTrain": 20.5,
+  "modelsAtSameOriginT8": {
+    "hw_additive_fixed_params": {
+      "forecast": [
+        130.99253184,
+        147.26192448,
+        169.63323712,
+        146.60209856
+      ],
+      "errors": [
+        -1.99253184,
+        -2.26192448,
+        1.36676288,
+        -2.60209856
+      ],
+      "mae": 2.0558294399999824,
+      "rmse": 2.1050797593402897
+    },
+    "seasonal_naive": {
+      "forecast": [
+        111,
+        124,
+        150,
+        127
+      ],
+      "errors": [
+        18,
+        21,
+        21,
+        17
+      ],
+      "mae": 19.25,
+      "rmse": 19.332614929181204
+    },
+    "seasonal_shift_fixed_train": {
+      "forecast": [
+        131.5,
+        144.5,
+        170.5,
+        147.5
+      ],
+      "errors": [
+        -2.5,
+        0.5,
+        0.5,
+        -3.5
+      ],
+      "mae": 1.75,
+      "rmse": 2.179449471770337
+    },
+    "last_value": {
+      "forecast": [
+        127,
+        127,
+        127,
+        127
+      ],
+      "errors": [
+        2,
+        18,
+        44,
+        17
+      ],
+      "mae": 20.25,
+      "rmse": 25.26361019331956
+    }
+  },
+  "limitations": [
+    "Holdout observations t9-t12 were already disclosed in MAT-EST-043 and MAT-EST-044: this is a didactic reuse, not independent prospective validation.",
+    "First-cycle initialization is one heuristic; first cycle alone cannot cleanly identify trend and seasonality.",
+    "Chosen parameters fixed before showing test scores for illustration, not statistically optimized.",
+    "The first-cycle initialisation and subsequent one-step training errors are not independent test errors.",
+    "No prediction interval, universal model ranking, or claim about real people is warranted."
+  ]
+}

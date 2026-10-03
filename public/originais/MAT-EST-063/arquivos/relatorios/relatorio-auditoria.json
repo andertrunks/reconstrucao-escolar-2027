@@ -1,0 +1,247 @@
+{
+  "exemplo_V": [
+    {
+      "corte": "L11",
+      "metricas": null,
+      "n_alvos": 0,
+      "namespace": "EXEMPLO-V-ISOLADO",
+      "nota": "não imputar zero nem usar versões posteriores",
+      "observacao_id": null,
+      "politica": "AS_KNOWN",
+      "status": "pendente"
+    },
+    {
+      "corte": "L11",
+      "metricas": null,
+      "n_alvos": 0,
+      "namespace": "EXEMPLO-V-ISOLADO",
+      "nota": "não imputar zero nem usar versões posteriores",
+      "observacao_id": null,
+      "politica": "VALIDATED_AS_OF",
+      "status": "pendente"
+    },
+    {
+      "corte": "L12",
+      "metricas": {
+        "B": {
+          "custo_3_1": "2.00",
+          "erro": "-2.00",
+          "erro_absoluto": "2.00",
+          "previsao": "42.00",
+          "previsao_id": "MAT-EST-053-V-PRED-B"
+        },
+        "C": {
+          "custo_3_1": "3.00",
+          "erro": "-3.00",
+          "erro_absoluto": "3.00",
+          "previsao": "43.00",
+          "previsao_id": "MAT-EST-053-V-PRED-C"
+        }
+      },
+      "n_alvos": 1,
+      "namespace": "EXEMPLO-V-ISOLADO",
+      "natureza": "recálculo local, não emissão ou relatório histórico autenticado",
+      "observacao_id": "MAT-EST-053-V-OBS-v1",
+      "politica": "AS_KNOWN",
+      "status": "preliminar",
+      "valor_observado": "40.00"
+    },
+    {
+      "corte": "L12",
+      "metricas": null,
+      "n_alvos": 0,
+      "namespace": "EXEMPLO-V-ISOLADO",
+      "nota": "não imputar zero nem usar versões posteriores",
+      "observacao_id": null,
+      "politica": "VALIDATED_AS_OF",
+      "status": "pendente"
+    },
+    {
+      "corte": "L13",
+      "metricas": {
+        "B": {
+          "custo_3_1": "6.00",
+          "erro": "2.00",
+          "erro_absoluto": "2.00",
+          "previsao": "42.00",
+          "previsao_id": "MAT-EST-053-V-PRED-B"
+        },
+        "C": {
+          "custo_3_1": "3.00",
+          "erro": "1.00",
+          "erro_absoluto": "1.00",
+          "previsao": "43.00",
+          "previsao_id": "MAT-EST-053-V-PRED-C"
+        }
+      },
+      "n_alvos": 1,
+      "namespace": "EXEMPLO-V-ISOLADO",
+      "natureza": "recálculo local, não emissão ou relatório histórico autenticado",
+      "observacao_id": "MAT-EST-053-V-OBS-v2",
+      "politica": "AS_KNOWN",
+      "status": "validado",
+      "valor_observado": "44.00"
+    },
+    {
+      "corte": "L13",
+      "metricas": {
+        "B": {
+          "custo_3_1": "6.00",
+          "erro": "2.00",
+          "erro_absoluto": "2.00",
+          "previsao": "42.00",
+          "previsao_id": "MAT-EST-053-V-PRED-B"
+        },
+        "C": {
+          "custo_3_1": "3.00",
+          "erro": "1.00",
+          "erro_absoluto": "1.00",
+          "previsao": "43.00",
+          "previsao_id": "MAT-EST-053-V-PRED-C"
+        }
+      },
+      "n_alvos": 1,
+      "namespace": "EXEMPLO-V-ISOLADO",
+      "natureza": "recálculo local, não emissão ou relatório histórico autenticado",
+      "observacao_id": "MAT-EST-053-V-OBS-v2",
+      "politica": "VALIDATED_AS_OF",
+      "status": "validado",
+      "valor_observado": "44.00"
+    }
+  ],
+  "exemplo_Z": {
+    "avaliacoes": [
+      {
+        "avaliacao_event_id": "MAT-EST-052-DRILL-004",
+        "corte": "L4",
+        "custo": "3.00",
+        "erro": "1.00",
+        "observacao_event_id": "MAT-EST-052-DRILL-003",
+        "status": "preliminar_não_final"
+      },
+      {
+        "avaliacao_event_id": "MAT-EST-052-DRILL-006",
+        "corte": "L6",
+        "custo": "9.00",
+        "erro": "3.00",
+        "observacao_event_id": "MAT-EST-052-DRILL-005",
+        "status": "retificado_validado"
+      }
+    ],
+    "n_alvos_distintos": 1,
+    "namespace": "EXEMPLO-Z-ISOLADO",
+    "simulation_only": true,
+    "verificacao_cadeia": {
+      "alcance": "somente integridade relativa ao arquivo de referência; não autentica tempo ou autor",
+      "eventos": 7,
+      "hash_final": "8619b82cc2bacf78f0e302c365c83655ce031627f89f05eda2b943040d1533e7"
+    }
+  },
+  "id": "MAT-EST-054-AUDIT-v1",
+  "proveniencia_SHA256": {
+    "auditoria/recalcular_relatorios.py": "ddc038009efae225fc5be319b16c37dec8cd7b422fba5ea802f8ed88ea288d88",
+    "dados/EXEMPLO-V-eventos.jsonl": "7abcf6f25d66ccc85844bdb27ddb4ec1dac86d77b5d2d074eedddbe52ead2fd1",
+    "dados/EXEMPLO-V-reavaliacao.csv": "d1837244aaa7cf97abe8b035380b9b7ad185277208cadef067bfca0fdfd973aa",
+    "dados/EXEMPLO-V-versoes.csv": "a88187fd4c121fb1e67ee9355db90a640d7be075fd3243134f560aa9196ac0fb",
+    "dados/comparacao-emparelhada-t18-t22.csv": "ea98b2481dcf088e08871205f0fd8b43dbf9cd162457a1f17bf2c0c0cc3ba5d0",
+    "dados/ensaio-eventos-EXEMPLO-Z.jsonl": "7d05ee7418382f570a4151ba89fcb8eab944bf30a54a89c622e3231e63bdf25c",
+    "dados/politicas-de-vintage.json": "4963569493ae9aef68c3360a029fdd8de99c0aeb332623e40016c0479097b295",
+    "plano-avaliacao-MAT-EST-051.json": "3b78a6802cc8a0dceffab146642b6203695f6e07b836e61f1d77be0b4c46044b",
+    "protocolo-herdado-MAT-EST-049.json": "adfec11fba8b71630a593c3310988b9bb6759ce5f4d81e5f2e42dd2afdf30673"
+  },
+  "regra_corte": "versão disponível até o corte; qualificação explícita; nenhum dado futuro como insumo da previsão",
+  "restricoes": [
+    "Namespaces isolados: Z e V não aumentam n=5 de 8 da série",
+    "Não há observações t23–t25",
+    "Snapshots de avaliação recalculados são didáticos, não timestamps certificados",
+    "SHA-256 não certifica origem, veracidade ou data passada",
+    "A falha t19 permanece irrevogável no protocolo congelado"
+  ],
+  "serie_principal": {
+    "alvos": [
+      "t18",
+      "t19",
+      "t20",
+      "t21",
+      "t22"
+    ],
+    "decisao": "não promover sob MAT-EST-049-PROT-v1",
+    "deterioracao_t19": "19.20",
+    "guarda_maxima": "10.00",
+    "guarda_violada": true,
+    "linhas": [
+      {
+        "alvo": "t18",
+        "custo_B": "75.00",
+        "custo_C": "29.40",
+        "deterioracao_local_C_menos_B": "-15.20",
+        "erro_B": "25.00",
+        "erro_C": "9.80",
+        "modulo_B": "25.00",
+        "modulo_C": "9.80",
+        "pair_id": "MAT-EST-049-PAIR-T18"
+      },
+      {
+        "alvo": "t19",
+        "custo_B": "4.00",
+        "custo_C": "23.20",
+        "deterioracao_local_C_menos_B": "19.20",
+        "erro_B": "-4.00",
+        "erro_C": "-23.20",
+        "modulo_B": "4.00",
+        "modulo_C": "23.20",
+        "pair_id": "MAT-EST-049-PAIR-T19"
+      },
+      {
+        "alvo": "t20",
+        "custo_B": "63.00",
+        "custo_C": "11.40",
+        "deterioracao_local_C_menos_B": "-17.20",
+        "erro_B": "21.00",
+        "erro_C": "3.80",
+        "modulo_B": "21.00",
+        "modulo_C": "3.80",
+        "pair_id": "MAT-EST-049-PAIR-T20"
+      },
+      {
+        "alvo": "t21",
+        "custo_B": "63.00",
+        "custo_C": "8.40",
+        "deterioracao_local_C_menos_B": "-18.20",
+        "erro_B": "21.00",
+        "erro_C": "2.80",
+        "modulo_B": "21.00",
+        "modulo_C": "2.80",
+        "pair_id": "MAT-EST-049-PAIR-T21"
+      },
+      {
+        "alvo": "t22",
+        "custo_B": "51.00",
+        "custo_C": "2.20",
+        "deterioracao_local_C_menos_B": "-14.80",
+        "erro_B": "17.00",
+        "erro_C": "-2.20",
+        "modulo_B": "17.00",
+        "modulo_C": "2.20",
+        "pair_id": "MAT-EST-049-PAIR-T22"
+      }
+    ],
+    "medias": {
+      "B_abs": "17.60",
+      "B_cost": "51.20",
+      "C_abs": "8.36",
+      "C_cost": "14.92"
+    },
+    "n_pares": 5,
+    "namespace": "SERIE-PRINCIPAL-FICTICIA",
+    "planejados": 8,
+    "simulation_only": true,
+    "somas": {
+      "B_abs": "88.00",
+      "B_cost": "256.00",
+      "C_abs": "41.80",
+      "C_cost": "74.60"
+    }
+  },
+  "simulation_only": true
+}

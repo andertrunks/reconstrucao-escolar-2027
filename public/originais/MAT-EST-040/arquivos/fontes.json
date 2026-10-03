@@ -1,0 +1,20 @@
+[
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 500 — Lesson 11",
+    "url": "https://online.stat.psu.edu/stat500/Lesson11",
+    "uso": "bootstrap e percentil"
+  },
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 200 — Lesson 4",
+    "url": "https://online.stat.psu.edu/stat200/Lesson04",
+    "uso": "intervalos de confiança"
+  },
+  {
+    "instituicao": "Pennsylvania State University",
+    "titulo": "STAT 200 — Lesson 5",
+    "url": "https://online.stat.psu.edu/stat200/Lesson05",
+    "uso": "randomização e valor-p"
+  }
+]

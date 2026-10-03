@@ -1,0 +1,5 @@
+{"etapa": "D1", "tipo": "separacao_historico", "descricao": "Preservar falha local t19 e proibir reciclagem dos pares vistos.", "estado": "simulado"}
+{"etapa": "D2", "tipo": "quarentena", "descricao": "Cenários t23–t25 expostos previamente; não entram no novo denominador confirmatório.", "estado": "simulado"}
+{"etapa": "D3", "tipo": "alvos", "descricao": "Propor oito futuros alvos exclusivos t26–t33; nenhum observado ou emitido.", "estado": "simulado"}
+{"etapa": "D4", "tipo": "pre_registro", "descricao": "Proposta local requer depósito temporal verificável e congelamento antes dos novos alvos.", "estado": "simulado"}
+{"etapa": "D5", "tipo": "desvios", "descricao": "Desvios são apêndices datados, sem reescrever regra confirmatória; avaliar separado.", "estado": "simulado"}

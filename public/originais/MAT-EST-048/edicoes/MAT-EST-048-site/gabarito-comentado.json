@@ -1,0 +1,254 @@
+[
+  {
+    "questaoId": "MAT-EST-048-EX-APR-01",
+    "respostaEsperada": "Origem 12; alvo 13; horizonte 1.",
+    "correcaoComentada": "O horizonte mede a distância temporal: 13 menos 12 é um trimestre. Um valor de t13 não pode participar do cálculo emitido em t12. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "interpretação",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-APR-02",
+    "respostaEsperada": "Para comparar a previsão realmente emitida com o alvo posterior, preservando a auditoria.",
+    "correcaoComentada": "Sem congelamento, é possível recalcular uma previsão após conhecer o resultado, confundindo ajuste retrospectivo com previsão original. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "estratégia",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-APR-03",
+    "respostaEsperada": "+1,215273 unidades.",
+    "correcaoComentada": "Subtraia 149,784727 de 151: +1,215273. Positivo significa valor observado acima do previsto, não superprevisão. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "cálculo",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-APR-04",
+    "respostaEsperada": "0,124698 unidade.",
+    "correcaoComentada": "O módulo ignora somente o sinal: |−0,124698| = 0,124698. Não transformar o erro em zero por ser negativo. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "conteúdo",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-APR-05",
+    "respostaEsperada": "Não.",
+    "correcaoComentada": "Superior a quatro significa > 4, e quatro não satisfaz a desigualdade estrita. A convenção do limiar precisa constar no protocolo antes de ver o resultado. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "interpretação",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-APR-06",
+    "respostaEsperada": "Não; faltam observações para a janela completa.",
+    "correcaoComentada": "O protocolo exige exatamente três tarefas já avaliáveis; antecipar a decisão troca o denominador e altera a regra. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "estratégia",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-APR-07",
+    "respostaEsperada": "Não; permanece pendente e fora do denominador.",
+    "correcaoComentada": "Erro é diferença entre observado e previsto; sem observado não existe diferença calculável. Zero seria um resultado inventado e reduziria o MAE artificialmente. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "conteúdo",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-APR-08",
+    "respostaEsperada": "Para rastreabilidade da comparação e reprodução dos exemplos anteriores.",
+    "correcaoComentada": "Mudar silenciosamente a fonte confundiria efeito dos dados com efeito de uma nova regra de monitoramento. Conferir hash prova identidade dos bytes copiados. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "estratégia",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-APR-09",
+    "respostaEsperada": "Seis.",
+    "correcaoComentada": "Conte t13, t14, t15, t16, t17 e t18. As emissões pendentes para t19 e t20 estão fora do conjunto avaliado. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "cálculo",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-APR-10",
+    "respostaEsperada": "Não: é uma simulação editorial explicitamente construída.",
+    "correcaoComentada": "A ordem programada das etapas ilustra como evitar vazamento de informação, mas não converte valores inventados em evidência independente do desempenho real. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "interpretação",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-CON-01",
+    "respostaEsperada": "0,974947 unidades.",
+    "correcaoComentada": "Some os três módulos e divida por três. A soma é 2,924842 e o resultado é 0,974947. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "cálculo",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-CON-02",
+    "respostaEsperada": "7,650622 unidades.",
+    "correcaoComentada": "As magnitudes são 9,899421, 6,142537, 6,909909. A soma é 22,951867; divida por três para obter 7,650622. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "cálculo",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-CON-03",
+    "respostaEsperada": "+7,650622 unidades.",
+    "correcaoComentada": "Some +9,899421, +6,142537, +6,909909 e divida por três: +7,650622. Não troque erro assinado por módulo. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "conteúdo",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-CON-04",
+    "respostaEsperada": "7,820404 unidades.",
+    "correcaoComentada": "Eleve cada erro de t16, t17 e t18 ao quadrado, some e divida por três; aplique a raiz quadrada: 7,820404 unidades. Não tire a raiz de cada erro antes da média. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "estratégia",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-CON-05",
+    "respostaEsperada": "t17; dois de três erros estão acima de quatro.",
+    "correcaoComentada": "A janela t15, t16, t17 contém apenas t16 e t17 com módulo superior a quatro. Em t16 a janela t14 a t16 tinha somente um caso alto. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "interpretação",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-CON-06",
+    "respostaEsperada": "Três de três.",
+    "correcaoComentada": "As chegadas t16, t17 e t18 são todas maiores que quatro em módulo. O alerta permanece ativo, mas isso ainda não ordena atualização automática do modelo. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "cálculo",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-CON-07",
+    "respostaEsperada": "Atualização de estado dentro da mesma versão.",
+    "correcaoComentada": "A passagem de t13 para o conjunto conhecido de t14 atualiza nível, tendência e sazonalidade. Hiperparâmetros e método permanecem congelados; selecionar novos parâmetros seria outro procedimento. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "conteúdo",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-CON-08",
+    "respostaEsperada": "Detectar duplicação pela chave do alvo/registro e impedir dupla contagem.",
+    "correcaoComentada": "O mesmo alvo não representa duas realizações independentes. Verifique identificador imutável, proveniência e estado de retificação antes de recalcular indicadores. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "estratégia",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-CON-09",
+    "respostaEsperada": "Primeiro, inconsistência de unidade a corrigir e documentar.",
+    "correcaoComentada": "Uma multiplicação por mil da coluna observada criaria falsos erros enormes; diagnostique a transformação dos dados antes de formular hipótese de mudança de processo. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "interpretação",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-CON-10",
+    "respostaEsperada": "h1 aponta para t19, h2 para t20; zero erro avaliável.",
+    "correcaoComentada": "Alvo é origem mais horizonte. O observado de t19 e t20 foi deixado propositalmente vazio. Os centros previstos não podem ser utilizados para declarar acerto nem cobertura. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "cálculo",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-VES-01",
+    "respostaEsperada": "Conclusão não demonstrada; há somente sinal exploratório que pede investigação.",
+    "correcaoComentada": "A sequência é ficcional, tem seis registros e compara blocos sazonais diferentes. Faltam série extensa, controle de mudanças no dado e avaliação independente; um alerta de investigação não identifica mecanismo causal. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "interpretação",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-VES-02",
+    "respostaEsperada": "Porque os blocos reúnem diferentes trimestres sazonais e têm somente três observações.",
+    "correcaoComentada": "O primeiro bloco inclui Q1, Q2 e Q3; o segundo Q4, Q1 e Q2. A diferença bruta de níveis pode misturar sazonalidade, tendência e qualquer mudança; compare erros alinhados por horizonte e informação disponível. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "estratégia",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-VES-03",
+    "respostaEsperada": "Seleção retrospectiva ou vazamento de avaliação.",
+    "correcaoComentada": "Os dados usados para mudar parâmetros tornam-se dados de desenvolvimento. Para medir ganho fora da escolha, fixe previamente a nova versão e avalie novos alvos, com logs separados e referência comparável. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "conteúdo",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-VES-04",
+    "respostaEsperada": "Não. É um critério exploratório ajustado após olhar os resultados.",
+    "correcaoComentada": "O procedimento só pode ser denominado pré-especificado se valor, janela, horizonte e regra forem registrados antes das chegadas usadas para sua avaliação. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "interpretação",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-VES-05",
+    "respostaEsperada": "Manter a tarefa pendente, registrar latência/proveniência, não imputar erro zero; ao chegar, vincular e avaliar.",
+    "correcaoComentada": "Atraso é qualidade operacional e não medida de acurácia. O denominador considera apenas tarefas maduras e disponíveis; monitoramento deve registrar também quantas permanecem pendentes. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "estratégia",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-VES-06",
+    "respostaEsperada": "Não. Quatro quintos é cobertura observada, não garantia nominal calibrada.",
+    "correcaoComentada": "Um intervalo probabilístico exige procedimento definido antes da avaliação e condições adequadas. Cinco tarefas curtas não demonstram comportamento futuro, especialmente com dependência temporal. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "conteúdo",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-VES-07",
+    "respostaEsperada": "Não há registros de X para sustentar a afirmação.",
+    "correcaoComentada": "Pode-se monitorar a qualidade de Y e seus erros, mas não medir diretamente a distribuição de uma variável ausente. Falha da previsão não identifica, por si só, mudança na entrada ou relação condicional. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "interpretação",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-VES-08",
+    "respostaEsperada": "Exemplo: “No cenário fictício, t17 ativa revisão por duas magnitudes acima de quatro nas últimas três chegadas; não há prova de deriva real”.",
+    "correcaoComentada": "A frase menciona unidade de observação, janela, condição, consequência e limitação da simulação; não atribui probabilidade, causa ou resultado futuro não medido. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "redação",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-VES-09",
+    "respostaEsperada": "MAE elimina o sinal, portanto não representa custos assimétricos.",
+    "correcaoComentada": "É necessário declarar um custo separado, avaliar sinais e restrições da decisão; a métrica de erro continua informativa, mas não substitui o objetivo decisório. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "conteúdo",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-VES-10",
+    "respostaEsperada": "O segundo é o protocolo estabelecido; alerta não autoriza troca automática.",
+    "correcaoComentada": "Preservar dados permite verificar falha operacional, comparar com referência, documentar hipótese e testar versão candidata em janela distinta. Substituição sem essas etapas pode maquiar a própria avaliação. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "estratégia",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-RET-01",
+    "respostaEsperada": "Horizonte dois; t20 e t21 não estão disponíveis na origem t19.",
+    "correcaoComentada": "O horizonte é 21 menos 19. Uma previsão com origem t19 só usa observações até t19. Incorporar t20 alteraria a origem para t20 e a tarefa original deixaria de ser a mesma. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "interpretação",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-RET-02",
+    "respostaEsperada": "Gatilho ativo: 4,1 e 5,2 são altos, 3 não.",
+    "correcaoComentada": "Compare individualmente cada erro com a desigualdade estrita quatro. Há dois resultados altos em três tarefas maduras, o mínimo especificado para investigar. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "cálculo",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-RET-03",
+    "respostaEsperada": "MAE 4; média assinada +2.",
+    "correcaoComentada": "MAE é (2 + 6) dividido por dois, igual a quatro. A média assinada é (−2 + 6) dividido por dois, igual a dois. Direção e magnitude respondem a perguntas diferentes. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "cálculo",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-RET-04",
+    "respostaEsperada": "Sete; três seguem pendentes.",
+    "correcaoComentada": "Uma previsão emitida não fornece um erro enquanto seu alvo está ausente. O relatório deve citar simultaneamente o MAE das sete tarefas maduras e a pendência três de dez. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "interpretação",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-RET-05",
+    "respostaEsperada": "Congelar nova versão e testá-la em observações posteriores, ainda não usadas para escolher beta.",
+    "correcaoComentada": "O ajuste de hiperparâmetro torna a janela analisada parte do desenvolvimento. Um teste separado evita premiar um modelo apenas por adequação retrospectiva aos mesmos dados. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "estratégia",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  },
+  {
+    "questaoId": "MAT-EST-048-EX-RET-06",
+    "respostaEsperada": "Não; falta precedência verificável da emissão.",
+    "correcaoComentada": "Versionamento é necessário, mas não basta: emissão deve anteceder acesso ao observado da mesma tarefa. Do contrário, há possibilidade de reconstrução retrospectiva disfarçada. A verificação deve explicar o procedimento e o limite inferencial, não apenas registrar uma alternativa.",
+    "provavelCausaErro": "interpretação",
+    "orientacaoRecuperacao": "Se houver falha, refazer a definição e um caso simples antes do reteste. Não marcar como consolidado sem tentativa real."
+  }
+]

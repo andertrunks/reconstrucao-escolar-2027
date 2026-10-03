@@ -1,0 +1,122 @@
+{
+  "id": "MAT-EST-057",
+  "slug": "registro-desvios-auditoria-prospectiva-simulada-pendencias-exclusoes-relatorio-por-coorte",
+  "titulo": "Registro de desvios e auditoria prospectiva simulada: pendências, exclusões e relatório por coorte sem inventar alvos futuros",
+  "materia": "Matemática",
+  "unidade": "Estatística / séries temporais / ponte universitária",
+  "nivel": 6,
+  "ordem": 57,
+  "anterior": "MAT-EST-056",
+  "proximoTopico": "MAT-EST-058",
+  "preRequisitos": [
+    "MAT-EST-047",
+    "MAT-EST-049",
+    "MAT-EST-050",
+    "MAT-EST-051",
+    "MAT-EST-052",
+    "MAT-EST-053",
+    "MAT-EST-054",
+    "MAT-EST-055",
+    "MAT-EST-056"
+  ],
+  "objetivos": [
+    "separar coortes históricas e propostas",
+    "distinguir pendência, desvio, exclusão e retificação",
+    "justificar denominadores e métricas",
+    "preservar cortes e versões",
+    "interpretar ausência sem inventar valores",
+    "registrar conclusão com limites"
+  ],
+  "conceitosRelacionados": [
+    "MAE",
+    "custo assimétrico",
+    "dados ausentes",
+    "data vintage",
+    "viés de seleção",
+    "pré-registro",
+    "coorte",
+    "append-only"
+  ],
+  "examesRelacionados": [
+    "transferência a interpretação quantitativa ENEM/FUVEST/UNICAMP/UNESP; tema técnico não afirmado como exigência",
+    "ponte universitária"
+  ],
+  "origem": "autoral",
+  "questoesOficiais": 0,
+  "questoesAutorais": 36,
+  "aulaMarkdown": "MAT-EST-057-registro-desvios-auditoria-prospectiva-simulada-pendencias-exclusoes-relatorio-por-coorte.md",
+  "exercicios": "exercicios.json",
+  "gabarito": "gabarito-comentado.json",
+  "visuais": [
+    {
+      "src": "assets/01-coortes-e-escopos.svg",
+      "alt": "Histórico t18–t22: cinco pares já conhecidos; quarentena t23–t25: sem observado; sucessor proposto t26–t33: oito alvos sem emissão ou observado.",
+      "autoria": "original do projeto"
+    },
+    {
+      "src": "assets/02-tipos-de-ocorrencia.svg",
+      "alt": "Atraso, provisório e conflitos geram pendências rastreáveis; exclusão posterior ao resultado não altera a regra inicial; retificação gera nova versão.",
+      "autoria": "original do projeto"
+    },
+    {
+      "src": "assets/03-fluxo-elegibilidade.svg",
+      "alt": "Fluxo didático SANDBOX-057: 8 cartões planejados; 2 válidos no corte e 6 com estados diferentes ainda pendentes.",
+      "autoria": "original do projeto"
+    },
+    {
+      "src": "assets/04-contas-denominadores.svg",
+      "alt": "Somente dois cartões do sandbox possuem erros: para B, erros 4 e menos 2 dão MAE 3; para C, 3 e menos 5 dão MAE 4; custo médio 7 para ambos.",
+      "autoria": "original do projeto"
+    },
+    {
+      "src": "assets/05-fotografias-versoes.svg",
+      "alt": "O corte A conserva dois pares e seis pendências; se S04 depois for validado e cumprir critérios, outro retrato B pode ter três e cinco, sem sobrescrever A.",
+      "autoria": "original do projeto"
+    },
+    {
+      "src": "assets/06-relatorio-por-coorte.svg",
+      "alt": "Histórico tem cinco pares fictícios, t23–t25 não tem observado, sucessor t26–t33 tem zero emissão e observado, sandbox separado tem dois de oito elegíveis.",
+      "autoria": "original do projeto"
+    }
+  ],
+  "video": {
+    "titulo": "Simplifying the Preregistration Process (Video)",
+    "canal": "Open Science Framework — OSF Support",
+    "url": "https://help.osf.io/article/626-simplifying-the-preregistration-process",
+    "idioma": "inglês",
+    "duracaoAproximada": "não confirmada",
+    "momento": "após a seção 3",
+    "verificacao": "página oficial com descrição do vídeo encontrada em 29/09/2026; reprodução integral não realizada"
+  },
+  "fontes": [
+    {
+      "nome": "OSF Registrations",
+      "url": "https://help.osf.io/article/330-welcome-to-registrations"
+    },
+    {
+      "nome": "Forecasting Principles and Practice — time series cross-validation",
+      "url": "https://otexts.com/fpp3/tscv.html"
+    },
+    {
+      "nome": "Forecasting Principles and Practice — accuracy",
+      "url": "https://otexts.com/fpp3/accuracy.html"
+    }
+  ],
+  "dados": {
+    "principal_t01_t22": "preservado",
+    "t23_t25": "não observados ou emitidos de forma autenticada",
+    "t26_t33": "somente propostos; 0 registros",
+    "sandbox": "Q01–Q08 isolado, 2 elegíveis demonstrativos",
+    "V_Z": "isolados"
+  },
+  "revisao": {
+    "diasAposTentativa": [
+      1,
+      7,
+      30
+    ],
+    "statusIndividual": "não iniciado, não modificado"
+  },
+  "statusEditorial": "concluido_localmente_nao_publicado",
+  "progressoIndividualAlterado": false
+}

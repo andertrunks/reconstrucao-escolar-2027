@@ -1,0 +1,7 @@
+gate,estado_herdado,classe,evidencia_a_coletar,papel_proposto,responsavel_real,data_real,link_ou_artefato_real
+G3,pendente,pré-publicação,"registro de trecho ouvido no Edge, resultado do teclado e ambiente",revisor de leitura acessível a designar,,,
+G4,pendente,pré-publicação,"leitor de tela, 200% zoom, reflow e ocorrências observadas",avaliador de acessibilidade a designar,,,
+G5,pendente,pré-publicação,"revisão de afirmações, fonte, unidade, denominador e parecer datado",revisor editorial a designar,,,
+G6,pendente,pré-publicação,"vídeo reproduzido, duração, disponibilidade e adequação",revisor de vídeo a designar,,,
+G7,não executado,publicação,"autorização, commit, execução de deploy e URL real",responsável por integração autorizado a designar,,,
+G8,não executado,pós-publicação,"URL pública, versão servida, navegação, recursos e problemas/ação",responsável por verificação pública a designar,,,

@@ -1,0 +1,31 @@
+{
+  "id": "MAT-EST-065-SNAP-DID-v1",
+  "natureza": "fotografia didática derivada de fixtures anteriores, não dados reais",
+  "medicao_externa": false,
+  "registro_autenticado": false,
+  "valores": {
+    "completude_sandbox": 0.25,
+    "MAE_B": 3,
+    "MAE_C": 4,
+    "custo_B_pontos": 7,
+    "custo_C_pontos": 7,
+    "mutacoes_rejeitadas": 6,
+    "mutacoes_testadas": 6,
+    "acoes_testadas_fixture": 6,
+    "acoes_propostas": 7,
+    "controles_checked_local": 2,
+    "controles_total": 8,
+    "controles_human_pending": 4,
+    "controles_external_not_performed": 2,
+    "checks_pos_deploy_executados": 0,
+    "checks_pos_deploy_planejados": 10,
+    "MAE_sucessor": null,
+    "taxa_incidentes_reais": null
+  },
+  "ressalvas": [
+    "taxa de rejeição das seis mutações não estima desempenho em produção",
+    "a fotografia não é linha temporal nem evidência de tendência",
+    "nenhum controle de revisão humana ou de deploy foi executado",
+    "não existe valor posterior comparável nesta aula"
+  ]
+}

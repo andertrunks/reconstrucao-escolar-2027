@@ -1,0 +1,308 @@
+[
+  {
+    "url": "https://help.osf.io/article/626-simplifying-the-preregistration-process",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "HTTP e conteúdo da página institucional",
+    "httpStatus": 200,
+    "resolvedUrl": "https://help.osf.io/article/626-simplifying-the-preregistration-process",
+    "pageTitle": "Simplifying the Preregistration Process (Video) - OSF Support",
+    "type": "video"
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/video-8-comparing-the-model-to-the-experts/",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "HTTP e conteúdo da página institucional",
+    "httpStatus": 200,
+    "resolvedUrl": "https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/video-8-comparing-the-model-to-the-experts/",
+    "pageTitle": "2.2 The Statistical Sommelier: An Introduction to Linear Regression | The Analytics Edge | Sloan School of Management | MIT OpenCourseWare",
+    "type": "video"
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/resources/video-4-validating-the-model-0/",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "HTTP e conteúdo da página institucional",
+    "httpStatus": 200,
+    "resolvedUrl": "https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/resources/video-4-validating-the-model-0/",
+    "pageTitle": "Video 4: Validating the Model | The Analytics Edge | Sloan School of Management | MIT OpenCourseWare",
+    "type": "video"
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/resources/video-6-cross-validation-0/",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "HTTP e conteúdo da página institucional",
+    "httpStatus": 200,
+    "resolvedUrl": "https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/resources/video-6-cross-validation-0/",
+    "pageTitle": "Video 6: Cross-Validation | The Analytics Edge | Sloan School of Management | MIT OpenCourseWare",
+    "type": "video"
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/18-642-topics-in-mathematics-with-applications-in-finance-fall-2024/resources/18642-lecture-12-version-2_mp4/",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "HTTP e conteúdo da página institucional",
+    "httpStatus": 200,
+    "resolvedUrl": "https://ocw.mit.edu/courses/18-642-topics-in-mathematics-with-applications-in-finance-fall-2024/resources/18642-lecture-12-version-2_mp4/",
+    "pageTitle": "Lecture 12: Time Series Analysis | Topics in Mathematics with Applications in Finance | Mathematics | MIT OpenCourseWare",
+    "type": "video"
+  },
+  {
+    "url": "https://online.stat.psu.edu/stat500/Lesson11",
+    "checkedAt": "2026-10-03",
+    "ok": false,
+    "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+    "url": "https://otexts.com/fpp3/tscv.html",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "HTTP e conteúdo da página institucional",
+    "httpStatus": 200,
+    "resolvedUrl": "https://otexts.com/fpp3/tscv.html",
+    "pageTitle": "5.10 Time series cross-validation | Forecasting: Principles and Practice (3rd ed)",
+    "type": "video"
+  },
+  {
+    "url": "https://robjhyndman.com/hyndsight/fpp-video/",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "HTTP e conteúdo da página institucional",
+    "httpStatus": 200,
+    "resolvedUrl": "https://robjhyndman.com/hyndsight/fpp-video/",
+    "pageTitle": "Forecasting: Principles and Practice – Rob J Hyndman",
+    "type": "video"
+  },
+  {
+    "url": "https://www.usenix.org/conference/srecon17europe/conference-program/presentation/lunney",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "HTTP e conteúdo da página institucional",
+    "httpStatus": 200,
+    "resolvedUrl": "https://www.usenix.org/conference/srecon17europe/conference-program/presentation/lunney",
+    "pageTitle": "Postmortem Action Items: Plan the Work and Work the Plan | USENIX",
+    "type": "video"
+  },
+  {
+    "url": "https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "HTTP e conteúdo da página institucional",
+    "httpStatus": 200,
+    "resolvedUrl": "https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/",
+    "pageTitle": "WCAG-EM Overview: WCAG Evaluation Methodology | Web Accessibility Initiative (WAI) | W3C",
+    "type": "leitura"
+  },
+  {
+    "url": "https://www.w3.org/WAI/test-evaluate/preliminary/",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "HTTP e conteúdo da página institucional",
+    "httpStatus": 200,
+    "resolvedUrl": "https://www.w3.org/WAI/test-evaluate/preliminary/",
+    "pageTitle": "Easy Checks – A First Review of Web Accessibility | Web Accessibility Initiative (WAI) | W3C",
+    "type": "leitura"
+  },
+  {
+    "url": "https://www.w3.org/WAI/test-evaluate/tools/",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "HTTP e conteúdo da página institucional",
+    "httpStatus": 200,
+    "resolvedUrl": "https://www.w3.org/WAI/test-evaluate/tools/",
+    "pageTitle": "Evaluation Tools Overview | Web Accessibility Initiative (WAI) | W3C",
+    "type": "leitura"
+  },
+  {
+    "url": "https://www.w3.org/WAI/videos/standards-and-benefits/pt-BR",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "HTTP e conteúdo da página institucional",
+    "httpStatus": 200,
+    "resolvedUrl": "https://www.w3.org/WAI/videos/standards-and-benefits/pt-BR",
+    "pageTitle": "Vídeo de Introdução a Acessibilidade Web e Padrões W3C | Web Accessibility Initiative (WAI) | W3C",
+    "type": "video"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=09PdKJa3wj0",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "YouTube oEmbed",
+    "title": "Episode 4: AI Risk Management Framework (NIST AI RMF)",
+    "channel": "Collibra",
+    "type": "video"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=3Iphf0UB9MQ",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "YouTube oEmbed",
+    "title": "Estatística - Separatrizes: Quartil, Decil e Percentil",
+    "channel": "Acertando as Contas",
+    "type": "video"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=5ctWgFOizkQ",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "YouTube oEmbed",
+    "title": "CONCEITOS BÁSICOS DE ESTATÍSTICA: POPULAÇÃO,  AMOSTRA, AMOSTRAGEM, VARIÁVEIS E ORGANIZAÇÃO DE DADOS",
+    "channel": "Professora Gisele Ramos - Matemática",
+    "type": "video"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=6gxWsTG5zxE",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "YouTube oEmbed",
+    "title": "Média Aritmética - Noções Básicas de Estatística - Aula 02",
+    "channel": "WE Educacional",
+    "type": "video"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=6jX548ym6zI",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "YouTube oEmbed",
+    "title": "MÉDIA ARITMÉTICA PONDERADA ✅ INTRODUÇÃO À ESTATÍSTICA",
+    "channel": "Prof. MURAKAMI - MATEMÁTICA RAPIDOLA",
+    "type": "video"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=E91bGT9BjYk",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "YouTube oEmbed",
+    "title": "How to spot a misleading graph - Lea Gaslowitz",
+    "channel": "TED-Ed",
+    "type": "video"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=JbJjislNHFY",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "YouTube oEmbed",
+    "title": "Week 02: Lecture 06: Time Series Decomposition",
+    "channel": "NPTEL IIT Bombay",
+    "type": "video"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Kbf9NNt-4XQ",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "YouTube oEmbed",
+    "title": "Lecture 21: Holt Winter Method (additive seasonality)",
+    "channel": "IIT KANPUR-NPTEL",
+    "type": "video"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=OGpENuxjRWM",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "YouTube oEmbed",
+    "title": "Forecasting Principles & Practice: 5.10 Time series cross-validation",
+    "channel": "OTexts",
+    "type": "video"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Rf-fIpB4D50",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "YouTube oEmbed",
+    "title": "Sampling Methods and Bias with Surveys: Crash Course Statistics #10",
+    "channel": "CrashCourse",
+    "type": "video"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Xz0x-8-cgaQ",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "YouTube oEmbed",
+    "title": "Bootstrapping Main Ideas!!!",
+    "channel": "StatQuest with Josh Starmer",
+    "type": "video"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=ZFj5WbYzr4Q",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "YouTube oEmbed",
+    "title": "COEFICIENTE DE VARIAÇÃO : MEDIDA DE DISPERSÃO",
+    "channel": "Prof. MURAKAMI - MATEMÁTICA RAPIDOLA",
+    "type": "video"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=cEgG9bq2XQg",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "YouTube oEmbed",
+    "title": "DESVIO MÉDIO ABSOLUTO",
+    "channel": "Prof. MURAKAMI - MATEMÁTICA RAPIDOLA",
+    "type": "video"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=d965cRsim6I",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "YouTube oEmbed",
+    "title": "Libras e LSE | MODA, MÉDIA E MEDIANA ✅ ESTATÍSTICA",
+    "channel": "Prof. MURAKAMI - MATEMÁTICA RAPIDOLA",
+    "type": "video"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=k9dhcfIyOFc",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "YouTube oEmbed",
+    "title": "Mod-02 Lec-02 Forecasting -- Time series models -- Simple Exponential smoothing",
+    "channel": "nptelhrd",
+    "type": "video"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=mV_d_KejL8s",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "YouTube oEmbed",
+    "title": "AMPLITUDE ESTATÍSTICA | MEDIDA DE DISPERSÃO |",
+    "channel": "Gis com Giz",
+    "type": "video"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=okczT8W1fag",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "YouTube oEmbed",
+    "title": "NOÇÕES DE ESTATÍSTICA : VARIÂNCIA E DESVIO PADRÃO (18/21)",
+    "channel": "Equaciona Com Paulo Pereira",
+    "type": "video"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=onOgEotiuMw",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "YouTube oEmbed",
+    "title": "Estatística Básica - Introdução e Tabelas de Frequência",
+    "channel": "Téo Me Why",
+    "type": "video"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=rB86hCqaT-Q",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "YouTube oEmbed",
+    "title": "Amplitude interquartil - Khan Academy em português (8º ano)",
+    "channel": "Khan Academy em Português de Portugal",
+    "type": "video"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=xB1OZXHLmBE",
+    "checkedAt": "2026-10-03",
+    "ok": true,
+    "method": "YouTube oEmbed",
+    "title": "ESTATÍSTICA #03 | GRÁFI : Aprenda de Vez para o ENEM e Concursos",
+    "channel": "Tutoriar EAD",
+    "type": "video"
+  }
+]

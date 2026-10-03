@@ -1,0 +1,36 @@
+MAT-EST-047 — QA LOCAL
+OK | continuity and source paths
+OK | inherited CSV exact SHA-256 matches
+OK | observed series intact
+OK | six tasks and chronology
+OK | all tasks based only on prefixes
+OK | HW reproduced values exact
+OK | MAE h1 h2
+OK | sign counts by horizon
+OK | A coverage
+OK | B coverage
+OK | A score outside correctly penalized
+OK | A pooled score
+OK | B pooled score
+OK | underforecast cost
+OK | all limits and nominal caveats in lesson
+OK | question counts
+OK | unique question ids and prompts
+OK | answer file coverage and separation
+OK | 36 meaningful explanations
+OK | all questions original and no invented attempts
+OK | no fake official question refs
+OK | every question appears in Markdown
+OK | seven distinct visuals linked and described
+OK | SVG title and desc MAT-EST-047-VIS-01
+OK | SVG title and desc MAT-EST-047-VIS-02
+OK | SVG title and desc MAT-EST-047-VIS-03
+OK | SVG title and desc MAT-EST-047-VIS-04
+OK | SVG title and desc MAT-EST-047-VIS-05
+OK | SVG title and desc MAT-EST-047-VIS-06
+OK | SVG title and desc MAT-EST-047-VIS-07
+OK | visual proof dimensions
+OK | video status honest
+OK | manifest does not invent publication/progress
+OK | no invalid control in lesson
+OK | independent reproduction program

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "MAT-EST-042-VIS-01",
+    "arquivo": "assets/01-linha-tempo-defasagens.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Série temporal e defasagens",
+    "legenda": "Série temporal e defasagens",
+    "alt": "Linha ordenada de oito pontos; a defasagem 1 aponta ao dia anterior e a 2 a dois dias antes.",
+    "oQueObservar": "A posição é parte da observação.",
+    "conclusaoTextual": "Em t igual a cinco, as defasagens um e dois são os valores dos dias quatro e três: 100 e 120."
+  },
+  {
+    "id": "MAT-EST-042-VIS-02",
+    "arquivo": "assets/02-pares-defasagem.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Pares para a autocorrelação de atraso um",
+    "legenda": "Pares para a autocorrelação de atraso um",
+    "alt": "Sete linhas ligam dia anterior à observação seguinte, sem reordenar os tempos.",
+    "oQueObservar": "Compare sempre períodos de mesma separação.",
+    "conclusaoTextual": "A correlação de atraso um usa sete produtos no numerador, mesmo com oito pontos no denominador convencionado."
+  },
+  {
+    "id": "MAT-EST-042-VIS-03",
+    "arquivo": "assets/03-serie-temporal.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Atendimentos por dia, amostra fictícia",
+    "legenda": "Atendimentos por dia, amostra fictícia",
+    "alt": "Gráfico temporal com subida do dia um ao três, queda ao cinco, subida ao sete e queda ao oito.",
+    "oQueObservar": "Não leia oito pontos como evidência conclusiva de sazonalidade.",
+    "conclusaoTextual": "Há oscilação e uma amostra curta; o gráfico permite descrever, não certificar a estrutura populacional."
+  },
+  {
+    "id": "MAT-EST-042-VIS-04",
+    "arquivo": "assets/04-acf-amostral.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Autocorrelação amostral: atrasos 1, 2 e 3",
+    "legenda": "Autocorrelação amostral: atrasos 1, 2 e 3",
+    "alt": "A defasagem um está próxima de zero, enquanto a de dois é negativa na pequena série.",
+    "oQueObservar": "O valor de cada atraso não mede causalidade nem garante significância com apenas oito datas.",
+    "conclusaoTextual": "Defasagem um r perto de 0; defasagem dois r perto de -0,561; defasagem três r perto de +0,109."
+  },
+  {
+    "id": "MAT-EST-042-VIS-05",
+    "arquivo": "assets/05-media-movel-causal.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Média móvel causal de três observações",
+    "legenda": "Média móvel causal de três observações",
+    "alt": "Três caixas de passado alimentam uma previsão para um dia ainda não visto.",
+    "oQueObservar": "Para prever o dia cinco, não usar o valor do dia cinco nem de dias posteriores.",
+    "conclusaoTextual": "A média móvel simples de três dias é 106 e dois terços; o observado posterior é 90."
+  },
+  {
+    "id": "MAT-EST-042-VIS-06",
+    "arquivo": "assets/06-desempenho-prev-novos-dias.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "MAE nos dias 5 a 8: três referências",
+    "legenda": "MAE nos dias 5 a 8: três referências",
+    "alt": "Três métodos na mesma amostra futura; a constante 100 mostra menor MAE neste recorte.",
+    "oQueObservar": "Compare sempre mesmo período, mesmo alvo e mesma unidade de erro.",
+    "conclusaoTextual": "O MAE é 20 no último valor, 15,83 na média móvel de três valores e 12,50 na constante 100, apenas nesta pequena base."
+  },
+  {
+    "id": "MAT-EST-042-VIS-07",
+    "arquivo": "assets/07-residuos-sequenciais.svg",
+    "autoria": "original",
+    "licenca": "uso_no_projeto",
+    "titulo": "Diagnóstico dos resíduos após a previsão",
+    "legenda": "Diagnóstico dos resíduos após a previsão",
+    "alt": "Os três primeiros erros são positivos e os últimos três negativos.",
+    "oQueObservar": "Sequências sugerem investigar estrutura não capturada sem afirmar diagnóstico conclusivo.",
+    "conclusaoTextual": "Erros de média zero ainda podem preservar dependência temporal; aqui a ACF residual de atraso um é 0,5."
+  }
+]

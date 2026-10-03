@@ -1,0 +1,506 @@
+[
+  {
+    "id": "MAT-EST-066-EX-APR-01",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "básica",
+    "titulo": "Diferenciar objetos",
+    "enunciado": "Explique com suas palavras a diferença entre previsão emitida, observação e erro de previsão. Por que um dado futuro em branco não pode ser registrado como erro zero?"
+  },
+  {
+    "id": "MAT-EST-066-EX-APR-02",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "básica",
+    "titulo": "Completude do SANDBOX",
+    "enunciado": "O SANDBOX-057 contém oito cartões, dos quais dois avaliáveis. Calcule completude e identifique seu denominador."
+  },
+  {
+    "id": "MAT-EST-066-EX-APR-03",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "básica",
+    "titulo": "MAE de B no sandbox",
+    "enunciado": "No SANDBOX-057, os dois erros de B são +4 e −2. Calcule o erro absoluto médio e sua unidade."
+  },
+  {
+    "id": "MAT-EST-066-EX-APR-04",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "básica",
+    "titulo": "MAE de C no sandbox",
+    "enunciado": "Para erros C iguais a +3 e −5, calcule MAE e compare descritivamente com B na mesma dupla de cartões."
+  },
+  {
+    "id": "MAT-EST-066-EX-APR-05",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "básica",
+    "titulo": "Custo e sinal",
+    "enunciado": "Na regra fictícia custo três por unidade subprevista e um por unidade superprevista, determine os custos de +4 e −2."
+  },
+  {
+    "id": "MAT-EST-066-EX-APR-06",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "básica",
+    "titulo": "Nulo versus zero",
+    "enunciado": "Uma coorte sucessora ainda tem zero pares avaliáveis. Indique MAE correto e diferencie de uma taxa de execução igual a 0/10."
+  },
+  {
+    "id": "MAT-EST-066-EX-APR-07",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "básica",
+    "titulo": "H1 e H2",
+    "enunciado": "Uma previsão de dois períodos é comparada com previsão de um período. Qual informação mínima deve acompanhar cada erro?"
+  },
+  {
+    "id": "MAT-EST-066-EX-APR-08",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "básica",
+    "titulo": "Governança dos controles",
+    "enunciado": "O que significam G1/G2 checked_local, G3–G6 pending e G7/G8 not_performed?"
+  },
+  {
+    "id": "MAT-EST-066-EX-APR-09",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "básica",
+    "titulo": "Arquivo de integridade",
+    "enunciado": "Explique o que uma comparação SHA-256 de dois arquivos permite concluir e o que ela não demonstra."
+  },
+  {
+    "id": "MAT-EST-066-EX-APR-10",
+    "camada": "APR",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "básica",
+    "titulo": "Etapas de decisão",
+    "enunciado": "Em uma frase, explique por que média menor não elimina um critério impeditivo declarado antes de ver os dados."
+  },
+  {
+    "id": "MAT-EST-066-EX-CON-01",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "intermediária",
+    "titulo": "Conciliação de métricas sandbox",
+    "enunciado": "Calcule MAE e custo médio para B e C usando B=[+4,−2], C=[+3,−5] e custo 3 para erros positivos e 1 para negativos; interprete diferenças."
+  },
+  {
+    "id": "MAT-EST-066-EX-CON-02",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "intermediária",
+    "titulo": "Diferenças emparelhadas",
+    "enunciado": "Use módulos de B [4,2] e de C [3,5] para obter C menos B por cartão e média."
+  },
+  {
+    "id": "MAT-EST-066-EX-CON-03",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "intermediária",
+    "titulo": "Guarda histórica",
+    "enunciado": "Na avaliação t18–t22, MAE B=17,60 e C=8,36, mas piora de C em t19=19,2 ultrapassa guarda máxima dez. Qual registro de decisão preserva a lógica do protocolo?"
+  },
+  {
+    "id": "MAT-EST-066-EX-CON-04",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "intermediária",
+    "titulo": "Cobertura versus calibração",
+    "enunciado": "Duas de três observações ficaram dentro de faixas retrospectivas escolhidas a olho. Qual conclusão numérica é possível e qual afirmação seria indevida?"
+  },
+  {
+    "id": "MAT-EST-066-EX-CON-05",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "intermediária",
+    "titulo": "Reconciliação Z",
+    "enunciado": "EXEMPLO-Z: previsão 29, observação provisória 30 e validada 32. Calcule erros por versão e explique o uso de cada fotografia."
+  },
+  {
+    "id": "MAT-EST-066-EX-CON-06",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "intermediária",
+    "titulo": "Reconciliação V",
+    "enunciado": "EXEMPLO-V: previsões congeladas B42 e C43, observação preliminar 40 e validada 44. Calcule os módulos nas duas versões."
+  },
+  {
+    "id": "MAT-EST-066-EX-CON-07",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "intermediária",
+    "titulo": "Indicadores não combináveis",
+    "enunciado": "Explique por que 6/6 mutações artificiais rejeitadas, 6/7 ações testadas em fixtures e 0/10 checks pós-deploy não podem ser resumidos por uma média simples de qualidade."
+  },
+  {
+    "id": "MAT-EST-066-EX-CON-08",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "intermediária",
+    "titulo": "Análise de seleção",
+    "enunciado": "No SANDBOX-057, exclui-se S02 depois de observar que ele favorece B. Recalcule MAE nos cartões restantes e identifique a falha metodológica."
+  },
+  {
+    "id": "MAT-EST-066-EX-CON-09",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "intermediária",
+    "titulo": "Novo problema transferência 066",
+    "enunciado": "No TRANSFER-066, R01 tem y=50, B48 e C51. R02 tem y=40, B43 e C39. Calcule os quatro erros assinados."
+  },
+  {
+    "id": "MAT-EST-066-EX-CON-10",
+    "camada": "CON",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "intermediária",
+    "titulo": "Transferência de custos e ausência",
+    "enunciado": "Com os erros de R01/R02 do exercício anterior, obtenha MAE e custos médios de B/C e a completude entre quatro cartões."
+  },
+  {
+    "id": "MAT-EST-066-EX-VES-01",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "contextualizada em estilo vestibular; não oficial",
+    "titulo": "Relatório que promete tendência",
+    "enunciado": "Uma reportagem usa uma única fotografia F0 dos onze indicadores K65 para afirmar que a qualidade editorial vem aumentando por mês. Identifique o erro e reescreva a conclusão."
+  },
+  {
+    "id": "MAT-EST-066-EX-VES-02",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "contextualizada em estilo vestibular; não oficial",
+    "titulo": "Gráfico enganoso de qualidade",
+    "enunciado": "Um gráfico de 25% de completude usa o título “25% de aulas corretas”. Proponha título, eixos e texto alternativo adequado."
+  },
+  {
+    "id": "MAT-EST-066-EX-VES-03",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "contextualizada em estilo vestibular; não oficial",
+    "titulo": "Coorte nova zerada",
+    "enunciado": "Um painel publica “MAE do sucessor = zero” porque t26–t33 ainda não têm pares. Corrija o painel e indique qual contagem pode ser zero."
+  },
+  {
+    "id": "MAT-EST-066-EX-VES-04",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "contextualizada em estilo vestibular; não oficial",
+    "titulo": "Regra adversa",
+    "enunciado": "Alguém propõe apagar a falha t19 porque o MAE C ficou menor que B nos cinco pares. Explique por que o relatório deve mostrar ambos."
+  },
+  {
+    "id": "MAT-EST-066-EX-VES-05",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "contextualizada em estilo vestibular; não oficial",
+    "titulo": "Leitura de recorte",
+    "enunciado": "O MAE de C do sandbox é quatro. Uma apresentação usa esse número para a série t18–t22. Qual inconsistência e quais dois valores de C devem aparecer com legenda?"
+  },
+  {
+    "id": "MAT-EST-066-EX-VES-06",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "contextualizada em estilo vestibular; não oficial",
+    "titulo": "Acidente na retificação",
+    "enunciado": "Após o valor de V mudar de 40 para 44, o editor exclui a avaliação de 40 e declara que nunca existiu. Avalie a prática e especifique registro correto."
+  },
+  {
+    "id": "MAT-EST-066-EX-VES-07",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "contextualizada em estilo vestibular; não oficial",
+    "titulo": "Indicador com incentivo perverso",
+    "enunciado": "Um responsável melhora o percentual de prontidão apagando cartões pendentes do denominador. Explique por que o número sobe e qual controle evitaria isso."
+  },
+  {
+    "id": "MAT-EST-066-EX-VES-08",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "contextualizada em estilo vestibular; não oficial",
+    "titulo": "Teste e aprovação",
+    "enunciado": "O pacote passa 249 verificações locais. Um relatório escreve “publicado, acessível e aprovado”. Que evidências adicionais são necessárias?"
+  },
+  {
+    "id": "MAT-EST-066-EX-VES-09",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "contextualizada em estilo vestibular; não oficial",
+    "titulo": "Transposição para química",
+    "enunciado": "Em um experimento fictício, quatro amostras foram planejadas, mas apenas duas tiveram medida válida: 8 e 12 miligramas por litro. Calcule completude e média das medidas válidas e justifique denominadores."
+  },
+  {
+    "id": "MAT-EST-066-EX-VES-10",
+    "camada": "VES",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "contextualizada em estilo vestibular; não oficial",
+    "titulo": "Transferência de critério futuro",
+    "enunciado": "No TRANSFER-066, um relatório diz “C está comprovadamente superior para toda demanda futura” porque nos dois casos seu MAE foi 1 contra 2,5 de B. Reescreva com evidência e limite."
+  },
+  {
+    "id": "MAT-EST-066-EX-RET-01",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "reteste posterior",
+    "titulo": "Novo conjunto de erros",
+    "enunciado": "Em exercício futuro independente, três erros assinados são −4, +2 e +5. Calcule média assinada e MAE, explicando o cancelamento."
+  },
+  {
+    "id": "MAT-EST-066-EX-RET-02",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "reteste posterior",
+    "titulo": "Novo denominador",
+    "enunciado": "Numa coorte didática diferente, há doze alvos propostos, três previsões com observação válida e nove pendências. Calcule completude e indique o denominador para o MAE."
+  },
+  {
+    "id": "MAT-EST-066-EX-RET-03",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "reteste posterior",
+    "titulo": "Custo assimétrico alternativo",
+    "enunciado": "Se cada erro positivo custa quatro pontos por unidade e cada negativo um, qual o custo médio dos erros [+2,−3] e que ressalva acompanha a mudança de regra?"
+  },
+  {
+    "id": "MAT-EST-066-EX-RET-04",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "reteste posterior",
+    "titulo": "Guarda em hipótese futura",
+    "enunciado": "Considere APENAS um cenário hipotético independente: observado 60, previsões B58 e C64, guarda de piora máxima uma unidade. Calcule diferença C menos B dos módulos e conclusão condicional."
+  },
+  {
+    "id": "MAT-EST-066-EX-RET-05",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "reteste posterior",
+    "titulo": "Versão de observado",
+    "enunciado": "Uma previsão congelada foi 70, a medição provisória 73 e a validada 69. Calcule os dois erros e descreva a trilha de versões."
+  },
+  {
+    "id": "MAT-EST-066-EX-RET-06",
+    "camada": "RET",
+    "origem": "autoral",
+    "exame": null,
+    "ano": null,
+    "materia": "Matemática",
+    "topicos": [
+      "MAT-EST-066"
+    ],
+    "dificuldade": "reteste posterior",
+    "titulo": "Comunicado integrador",
+    "enunciado": "Escreva até seis frases sobre SANDBOX-057 contendo população, MAE, custo, pendências e limite de evidência, além de uma frase sobre os controles G."
+  }
+]

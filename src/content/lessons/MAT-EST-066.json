@@ -1,0 +1,777 @@
+{
+  "id": "MAT-EST-066",
+  "version": "publicacao-2026-10-03-v1",
+  "objective": "reconstituir a cadeia completa de avaliação\n\ncalcular métricas e custos com unidades e denominadores corretos\n\nreconhecer guarda, seleção, ausência e versões\n\ntransferir o raciocínio para contexto isolado e produzir comunicação proporcional à evidência",
+  "prerequisites": [
+    "MAT-EST-047",
+    "MAT-EST-049",
+    "MAT-EST-053",
+    "MAT-EST-057",
+    "MAT-EST-058",
+    "MAT-EST-060",
+    "MAT-EST-065"
+  ],
+  "why": "# MAT-EST-066 — Revisão crítica e consolidação da unidade de avaliação temporal: integração de métricas, auditoria e transferência para problemas novos\n\n**Matéria:** Matemática. **Unidade:** Estatística — ponte universitária. **Nível:** 6. **Anterior:** MAT-EST-065. **Próximo tópico proposto:** MAT-EST-067. **Origem:** aula, visuais e 36 exercícios autorais; nenhuma questão oficial. **Produção editorial:** pacote local, não publicado. **Progresso individual:** não iniciado e sem tentativas registradas; o verbo “consolidação” no título descreve a proposta pedagógica, não atribui domínio ao estudante.\n\n**Plano em blocos:** bloco A, reconstruir as fórmulas e a população (25 a 50 minutos); bloco B, crítica de evidência, risco e proveniência (25 a 50); bloco C, resolver problema novo, redigir e revisar (25 a 50). Pausar e recuperar fundamentos sempre que necessário.\n\n",
+  "intuitive": [],
+  "deep": [],
+  "vocabulary": [],
+  "examples": [],
+  "visuals": [
+    {
+      "url": "media/MAT-EST-066/01-arvore-evidencias.svg",
+      "caption": "Figura 1",
+      "alt": "Fluxo da origem versionada à decisão: dados, elegibilidade, métrica com guarda, relato de limites e decisão auditável.",
+      "observe": "Observe o encadeamento de cinco condições.",
+      "conclusion": "Uma conclusão exige rastrear o dado e seus limites."
+    },
+    {
+      "url": "media/MAT-EST-066/02-denominadores.svg",
+      "caption": "Figura 2",
+      "alt": "Completude 2/8 é 25%; erro absoluto médio de B é 6/2, igual a três unidades.",
+      "observe": "Os denominadores são diferentes porque respondem a perguntas diferentes.",
+      "conclusion": "Trocar dois por oito no MAE gera medida inválida."
+    },
+    {
+      "url": "media/MAT-EST-066/03-coortes-separadas.svg",
+      "caption": "Figura 3",
+      "alt": "Histórico t18–t22 tem cinco pares e C com MAE 8,36; SANDBOX-057 tem dois pares e C com MAE quatro.",
+      "observe": "Compare as legendas de população e quantidade.",
+      "conclusion": "Não transportar métricas entre amostras independentes."
+    },
+    {
+      "url": "media/MAT-EST-066/04-media-e-guarda.svg",
+      "caption": "Figura 4",
+      "alt": "MAE B de 17,60 e C de 8,36 no histórico; piora local de C em t19 igual a 19,2 ultrapassa limite dez.",
+      "observe": "A melhora da média e a falha local coexistem.",
+      "conclusion": "A decisão do protocolo histórico permanece não promover C."
+    },
+    {
+      "url": "media/MAT-EST-066/05-transferencia.svg",
+      "caption": "Figura 5",
+      "alt": "No exercício novo R01 e R02 são avaliáveis; R03 e R04 pendentes; completude 50% e MAE B 2,5, C 1.",
+      "observe": "Leia quais cartões podem entrar nas contas.",
+      "conclusion": "Nulos não podem ser tratados como erros zero."
+    },
+    {
+      "url": "media/MAT-EST-066/06-caminho-de-revisao.svg",
+      "caption": "Figura 6",
+      "alt": "A consolidação requer explicar, calcular, analisar limites, resolver problema novo e recuperar depois de intervalo.",
+      "observe": "A última condição depende de estudo e tentativa reais.",
+      "conclusion": "Pacote produzido não altera o progresso do estudante."
+    }
+  ],
+  "applications": [],
+  "connections": [],
+  "commonErrors": [],
+  "learning": [
+    "MAT-EST-066-EX-APR-01",
+    "MAT-EST-066-EX-APR-02",
+    "MAT-EST-066-EX-APR-03",
+    "MAT-EST-066-EX-APR-04",
+    "MAT-EST-066-EX-APR-05",
+    "MAT-EST-066-EX-APR-06",
+    "MAT-EST-066-EX-APR-07",
+    "MAT-EST-066-EX-APR-08",
+    "MAT-EST-066-EX-APR-09",
+    "MAT-EST-066-EX-APR-10"
+  ],
+  "consolidation": [
+    "MAT-EST-066-EX-CON-01",
+    "MAT-EST-066-EX-CON-02",
+    "MAT-EST-066-EX-CON-03",
+    "MAT-EST-066-EX-CON-04",
+    "MAT-EST-066-EX-CON-05",
+    "MAT-EST-066-EX-CON-06",
+    "MAT-EST-066-EX-CON-07",
+    "MAT-EST-066-EX-CON-08",
+    "MAT-EST-066-EX-CON-09",
+    "MAT-EST-066-EX-CON-10"
+  ],
+  "entrance": [
+    "MAT-EST-066-EX-VES-01",
+    "MAT-EST-066-EX-VES-02",
+    "MAT-EST-066-EX-VES-03",
+    "MAT-EST-066-EX-VES-04",
+    "MAT-EST-066-EX-VES-05",
+    "MAT-EST-066-EX-VES-06",
+    "MAT-EST-066-EX-VES-07",
+    "MAT-EST-066-EX-VES-08",
+    "MAT-EST-066-EX-VES-09",
+    "MAT-EST-066-EX-VES-10"
+  ],
+  "retest": [
+    "MAT-EST-066-EX-RET-01",
+    "MAT-EST-066-EX-RET-02",
+    "MAT-EST-066-EX-RET-03",
+    "MAT-EST-066-EX-RET-04",
+    "MAT-EST-066-EX-RET-05",
+    "MAT-EST-066-EX-RET-06"
+  ],
+  "solutions": [],
+  "summary": "reconstituir a cadeia completa de avaliação\n\ncalcular métricas e custos com unidades e denominadores corretos\n\nreconhecer guarda, seleção, ausência e versões\n\ntransferir o raciocínio para contexto isolado e produzir comunicação proporcional à evidência",
+  "audioVersion": "reconstituir a cadeia completa de avaliação\n\ncalcular métricas e custos com unidades e denominadores corretos\n\nreconhecer guarda, seleção, ausência e versões\n\ntransferir o raciocínio para contexto isolado e produzir comunicação proporcional à evidência",
+  "sections": [
+    {
+      "id": "MAT-EST-066-s000",
+      "title": "Apresentação e contexto da fonte",
+      "paragraphs": [],
+      "markdown": "# MAT-EST-066 — Revisão crítica e consolidação da unidade de avaliação temporal: integração de métricas, auditoria e transferência para problemas novos\n\n**Matéria:** Matemática. **Unidade:** Estatística — ponte universitária. **Nível:** 6. **Anterior:** MAT-EST-065. **Próximo tópico proposto:** MAT-EST-067. **Origem:** aula, visuais e 36 exercícios autorais; nenhuma questão oficial. **Produção editorial:** pacote local, não publicado. **Progresso individual:** não iniciado e sem tentativas registradas; o verbo “consolidação” no título descreve a proposta pedagógica, não atribui domínio ao estudante.\n\n**Plano em blocos:** bloco A, reconstruir as fórmulas e a população (25 a 50 minutos); bloco B, crítica de evidência, risco e proveniência (25 a 50); bloco C, resolver problema novo, redigir e revisar (25 a 50). Pausar e recuperar fundamentos sempre que necessário.\n\n",
+      "sourceStart": 0,
+      "sourceEnd": 875
+    },
+    {
+      "id": "MAT-EST-066-s001",
+      "title": "1. Objetivo, pré-requisitos e pergunta central",
+      "paragraphs": [],
+      "markdown": "## 1. Objetivo, pré-requisitos e pergunta central\n\nDepois de estudar e tentar os exercícios, a meta é explicar a cadeia completa que liga uma previsão congelada ao relatório: população, data de origem, horizonte, versão do observado, erro com sinal, módulo, custo, agregação, limitações e decisão. Saberá distinguir dados ausentes de zero, justificar quais conclusões os exemplos permitem, verificar uma regra impeditiva e aplicar o método em outro contexto sem decorar respostas dos exemplos anteriores.\n\n**Pré-requisitos:** fração, porcentagem, média, valor absoluto, subtração de números negativos, interpretação de gráfico e leitura de condição lógica. Referências de continuidade: MAT-EST-047 (resíduos e horizontes), 049 (comparação emparelhada e guarda), 052–054 (registro, vintage e auditoria), 057–059 (pendência, seleção, comunicação) e 060–065 (testes, governança e indicadores). Se a operação “seis dividido por dois” ainda não for confortável, resolva alguns exemplos pequenos antes deste bloco.\n\n**Relevância para exames:** a leitura de gráficos, porcentagens, médias, amostras e validade de inferências transfere-se para exercícios autorais no estilo do Exame Nacional do Ensino Médio (ENEM) e vestibulares. Protocolos de monitoramento e auditoria de previsão são aprofundamento universitário; não são anunciados como obrigação de edital de nenhuma banca. As questões desta aula são todas autorais.\n\n",
+      "sourceStart": 875,
+      "sourceEnd": 2290
+    },
+    {
+      "id": "MAT-EST-066-s002",
+      "title": "2. A integração: por que um número correto ainda pode induzir erro",
+      "paragraphs": [],
+      "markdown": "## 2. A integração: por que um número correto ainda pode induzir erro\n\nUm indicador não é uma qualidade abstrata. É o resultado de uma pergunta, de uma população, de uma regra de inclusão e de uma fonte. A soma de erros pode estar matematicamente correta e o relatório ainda estar errado se trocar o denominador ou mesclar coortes que nunca foram comparáveis.\n\nNa série histórica fictícia de t01 a t22, o protocolo MAT-EST-049-PROT-v1 contém cinco dos oito pares pretendidos, t18–t22. Há demonstrações editoriais, não operação externa autenticada. A comparação produziu MAE de B igual a 17,60 unidades e MAE de C igual a 8,36 unidades. O custo médio da regra fictícia foi 51,20 pontos para B e 14,92 para C. Entretanto, em t19 C teve piora local de 19,2 unidades contra limite dez. Portanto, o protocolo histórico não autoriza sua promoção. Essa é uma conjunção lógica: média favorável não suprime uma restrição previamente estabelecida.\n\nNenhuma observação t23–t25 foi autenticada. O sucessor MAT-EST-056-PROT-SUC-v1 é apenas proposta local para t26–t33 e não dispõe de pares avaliáveis. Seu MAE é **não estimável**, não zero. Esse cuidado impede que o leitor confunda ausência de resultado com precisão perfeita.\n\n![Da métrica à conclusão](assets/01-arvore-evidencias.svg)\n\n**Figura 1.** Texto alternativo: dados versionados levam à definição de elegibilidade, cálculo da métrica, conferência da guarda, relato de limites e decisão; uma falha na guarda bloqueia a promoção. **Observe:** uma conclusão depende de etapas anteriores. **Conclusão para áudio:** o caminho entre um dado e uma decisão precisa ser reconstituível e inclui condições além da média.\n\n",
+      "sourceStart": 2290,
+      "sourceEnd": 3949
+    },
+    {
+      "id": "MAT-EST-066-s003",
+      "title": "3. O denominador tem significado, não é uma formalidade",
+      "paragraphs": [],
+      "markdown": "## 3. O denominador tem significado, não é uma formalidade\n\nNo exercício isolado SANDBOX-057, há oito cartões planejados, dois avaliáveis, S01 e S02, e seis pendências. Os erros assinados da referência B são mais quatro e menos dois; os de C são mais três e menos cinco. O erro é o observado menos o previsto. Um erro positivo significa subprevisão; um negativo significa superprevisão.\n\nEscrevemos o erro absoluto médio por `MAE`, abreviação inglesa de *mean absolute error*:\n\n\\[\\operatorname{MAE}=\\frac{\\sum_{i=1}^{n}|y_i-\\widehat y_i|}{n}.\\]\n\n**Leitura pronunciável:** erro absoluto médio é a soma dos módulos das diferenças entre valor observado e valor previsto, dividida pela quantidade n de pares válidos. O módulo transforma sinais positivos e negativos em magnitudes sem sinal. A unidade do resultado é a unidade da variável prevista.\n\nPara B no sandbox, `MAE_B = (4 + 2)/2 = 3 unidades`. Para C, `MAE_C = (3 + 5)/2 = 4 unidades`. O denominador é dois porque só dois pares foram avaliados. Já a **completude** é `2/8 = 25%`, dois cartões avaliáveis entre oito planejados. Dividir seis por oito e chamar o resultado 0,75 de MAE é o defeito sintético I01: uma conta aritmeticamente possível, mas estatisticamente sem significado para a pergunta.\n\n![Denominadores diferentes](assets/02-denominadores.svg)\n\n**Figura 2.** Texto alternativo: à esquerda, completude é dois dividido por oito, 25%; à direita, MAE de B é seis dividido por dois, três unidades. **Observe:** as populações de referência são distintas. **Conclusão em áudio:** a fórmula só faz sentido quando denominador e unidade correspondem à pergunta.\n\nA revisão da MAT-EST-065 também registrou onze fichas K65-01 a K65-11 e uma única fotografia didática F0. Uma fotografia não demonstra uma tendência mensal. Os itens sem dados futuros ou sem população de exposição devem continuar ausentes, e não ser convertidos em zeros.\n\n",
+      "sourceStart": 3949,
+      "sourceEnd": 5842
+    },
+    {
+      "id": "MAT-EST-066-s004",
+      "title": "4. Média com sinal, magnitude, custo e diferença emparelhada",
+      "paragraphs": [],
+      "markdown": "## 4. Média com sinal, magnitude, custo e diferença emparelhada\n\nA média assinada pode cancelar erros: para B, mais quatro e menos dois somam mais dois, cuja média é mais um. Isso NÃO corresponde ao MAE três. Quando custos dependem do sentido do erro, nem mesmo o MAE responde sozinho à pergunta decisória.\n\nNesta simulação, usa-se a função:\n\n\\[C(e)=3\\max(e,0)+\\max(-e,0).\\]\n\n**Leitura:** o custo de um erro positivo é três vezes seu valor; o custo de um erro negativo é uma vez sua magnitude. Em B, os custos são doze e dois pontos, com média de sete pontos. Em C, os custos são nove e cinco pontos, também com média sete. O empate em custo médio coexiste com MAE diferente. **Ponto de custo** é uma unidade convencional da regra inventada, não a unidade da demanda.\n\nUma comparação emparelhada conserva o mesmo alvo para B e C: a diferença dos módulos `C menos B` é menos um em S01 e mais três em S02. A média dessas diferenças é mais uma unidade. Essa medida continua limitada aos dois cartões conhecidos. Não se torna prova de superioridade geral de um modelo.\n\n![Populações distintas](assets/03-coortes-separadas.svg)\n\n**Figura 3.** Texto alternativo: histórico t18–t22 reúne cinco pares, com MAE B 17,60 e C 8,36; sandbox isolado reúne dois pares, com MAE B três e C quatro. **Observe:** legendas, amostras e finalidades mudam. **Conclusão para áudio:** não existe contradição entre números de populações diferentes, mas é incorreto misturá-los.\n\n",
+      "sourceStart": 5842,
+      "sourceEnd": 7295
+    },
+    {
+      "id": "MAT-EST-066-s005",
+      "title": "5. Um resultado médio favorável pode coexistir com uma guarda violada",
+      "paragraphs": [],
+      "markdown": "## 5. Um resultado médio favorável pode coexistir com uma guarda violada\n\nUma regra de decisão pode exigir simultaneamente uma melhora média e que nenhuma piora individual supere um limite. No histórico, C teve MAE menor que B, mas em t19 a piora foi `19,2 > 10`, isto é, dezenove vírgula dois é maior que dez. O registro preserva a recusa de promoção sob MAT-EST-049-PROT-v1. Os cinco pares não devem ser convertidos em oito por preenchimento de lacunas.\n\nNão há autorização para descartar t19 depois de observar o resultado, assim como não seria apropriado apagar S02 do sandbox para inverter a comparação. Um relatório responsável admite a média, o número de pares, a falha e a regra original.\n\n![Média e guarda](assets/04-media-e-guarda.svg)\n\n**Figura 4.** Texto alternativo: média do histórico favorece C nos cinco pares, porém piora local em t19 é 19,2, acima do limite dez. **Observe:** são dois critérios distintos. **Conclusão por áudio:** a decisão histórica permanece não promover o desafiante conforme o protocolo antigo.\n\n",
+      "sourceStart": 7295,
+      "sourceEnd": 8330
+    },
+    {
+      "id": "MAT-EST-066-s006",
+      "title": "6. Versões e integridade: Z e V continuam isolados",
+      "paragraphs": [],
+      "markdown": "## 6. Versões e integridade: Z e V continuam isolados\n\nNo EXEMPLO-Z, a previsão congelada foi 29. A observação preliminar era 30 e a validada passou a 32. Os erros são, respectivamente, mais um e mais três. Não surgiram dois alvos distintos; uma mesma medição foi revisada. No EXEMPLO-V, as previsões congeladas eram B igual a 42 e C igual a 43. Com observado preliminar 40, os módulos são dois e três; com observado validado 44, tornam-se dois e um. A ordem das versões e a fonte precisam estar explícitas.\n\nA conferência SHA-256 serve para detectar alteração de bytes entre versões de arquivo e cópias herdadas. Não atesta verdade externa, autoria humana, correção pedagógica, acessibilidade real, sucesso de deploy ou estado pessoal de aprendizagem. Os 23 arquivos controlados conservam seus hashes originais neste pacote.\n\nOs controles de prontidão herdados seguem exatamente: G1 e G2 **checked_local**; G3 a G6 **pending**; G7 e G8 **not_performed**; P01–P10 não executados. Seis ações A64 foram testadas somente com fixtures, e A64-07 segue proposta. Esse painel documental não é uma nota única de qualidade.\n\n",
+      "sourceStart": 8330,
+      "sourceEnd": 9446
+    },
+    {
+      "id": "MAT-EST-066-s007",
+      "title": "7. Problema de transferência totalmente novo, sem contaminar os anteriores",
+      "paragraphs": [],
+      "markdown": "## 7. Problema de transferência totalmente novo, sem contaminar os anteriores\n\nCriamos **TRANSFER-066**, um exercício autoral completamente isolado, com quatro cartões fictícios R01–R04. Os dois últimos ficam pendentes sem observação e sem previsão registrada. Os dois conhecidos têm estes valores inventados:\n\n| Cartão | Observado | Previsão B | Previsão C | Erro B | Erro C |\n|---|---:|---:|---:|---:|---:|\n| R01 | 50 | 48 | 51 | +2 | −1 |\n| R02 | 40 | 43 | 39 | −3 | +1 |\n| R03 | ausente | ausente | ausente | não estimável | não estimável |\n| R04 | ausente | ausente | ausente | não estimável | não estimável |\n\n**Síntese para áudio:** R01 e R02 são os únicos dois casos calculáveis. Em R01, B subpreviu duas unidades e C superpreviu uma. Em R02, B superpreviu três e C subpreviu uma. R03 e R04 não receberam resultados.\n\nA completude é dois de quatro, **50%**. Para B, MAE é dois mais três, divididos por dois: **2,5 unidades**. Para C, um mais um, dividido por dois: **1 unidade**. Na regra de custo três para erro positivo e um para negativo, B custa seis e três pontos, com média **4,5 pontos**; C custa um e três pontos, com média **2 pontos**. As diferenças emparelhadas dos módulos C menos B são menos um e menos dois, com média menos **1,5 unidade**. Trata-se de demonstração com duas observações inventadas, sem inferência populacional ou decisão operacional.\n\n![Dois conhecidos e dois pendentes](assets/05-transferencia.svg)\n\n**Figura 5.** Texto alternativo: R01 e R02 estão avaliáveis; R03 e R04 estão pendentes; completude cinquenta por cento, MAE B 2,5 e C uma unidade. **Observe:** há dois denominadores distintos para as duas perguntas. **Conclusão por áudio:** resolver um caso novo exige reaplicar o princípio, e não copiar números antigos.\n\nUma variação **hipotética, não observada**, propõe observado 60, B igual a 58 e C igual a 64 e guarda de piora de uma unidade. Os módulos seriam dois e quatro; a piora de C menos B seria dois, superior ao limite hipotético de um. Isso ensina a reavaliar um protocolo condicional sem fingir que o cenário aconteceu.\n\n",
+      "sourceStart": 9446,
+      "sourceEnd": 11525
+    },
+    {
+      "id": "MAT-EST-066-s008",
+      "title": "8. Como auditar uma frase de relatório",
+      "paragraphs": [],
+      "markdown": "## 8. Como auditar uma frase de relatório\n\nConsidere a frase deliberadamente falha: “C foi aprovado, porque sua média é menor e a auditoria passou em cem por cento das mutações.” Ela falha por quatro motivos. Primeiro, omite o limite t19 do protocolo histórico. Segundo, confunde seis fixtures artificiais detectadas entre seis escolhidas com cobertura universal. Terceiro, ignora que o sucessor tem zero pares avaliáveis. Quarto, atribui aprovação humana sem registro.\n\nUma formulação fiel seria: “No exercício retrospectivo fictício t18–t22, C apresentou MAE 8,36, contra 17,60 de B, mas violou o limite local de dez em t19, com 19,2. Existem somente cinco dos oito pares previstos e não houve promoção sob o protocolo original. A rejeição das seis mutações sintéticas valida somente aqueles testes locais; revisão humana, publicação e acompanhamento futuro permanecem pendentes.”\n\n**Checklist de evidência antes de qualquer frase pública:** explicitar escopo e finalidade; identificar fonte e versão; declarar origem/horizonte; registrar elegibilidade; recomputar média e custo com unidades; manter restrição prévia; informar tamanho e pendências; incluir hipótese necessária em qualquer limite condicional; oferecer gráfico acessível com dados e descrição longa; separar teste local de revisão humana e deploy; registrar decisão e possibilidade de correção. Nenhuma dessas etapas equivale, por si, a um ato externo realizado.\n\n",
+      "sourceStart": 11525,
+      "sourceEnd": 12956
+    },
+    {
+      "id": "MAT-EST-066-s009",
+      "title": "9. Erros comuns e conexões com outras matérias",
+      "paragraphs": [],
+      "markdown": "## 9. Erros comuns e conexões com outras matérias\n\nOs erros mais comuns são confundir “não estimável” com zero; dividir o numerador do MAE pelos cartões planejados; transformar um teste de laboratório em taxa universal; misturar a série histórica com exercícios isolados; apagar uma versão preliminar; ajustar regras após ver resultados; inferir tendência de uma fotografia; chamar cenário de observação; anunciar aprovação sem evidência; trocar unidade de erro por pontos de custo; produzir gráficos cuja mensagem só pode ser compreendida pelas cores.\n\nEm Biologia e Química, valores pendentes não são medições iguais a zero. Em História, versões e documentos datados exigem proveniência. Em Geografia, um mapa ou gráfico requer escala e unidade. Em Língua Portuguesa e Redação, uma conclusão deve conter base, ressalva e grau de certeza proporcionais às evidências. Em Computação, versões, hashes e testes automatizados tornam um procedimento reproduzível, mas não substituem o juízo humano.\n\n",
+      "sourceStart": 12956,
+      "sourceEnd": 13951
+    },
+    {
+      "id": "MAT-EST-066-s010",
+      "title": "10. Vídeo complementar e fontes de apoio",
+      "paragraphs": [],
+      "markdown": "## 10. Vídeo complementar e fontes de apoio\n\n**Vídeo complementar verificado como página pública:** [How to spot a misleading graph — Lea Gaslowitz](https://www.youtube.com/watch?v=E91bGT9BjYk), canal **TED-Ed**, em inglês; duração aproximada de **4 minutos e 9 segundos**, conforme indicação pública de instituição acadêmica. Recomenda-se assistir após a seção 8 e observar como a escolha de escala, a seleção de períodos e a linguagem do gráfico alteram a percepção. Página e descrição do vídeo localizadas; a reprodução integral não foi efetuada neste ambiente. O vídeo apenas reforça a aula, não a substitui.\n\n**Leituras de apoio:** [Previsão: Princípios e prática, terceira edição, OTexts, versão em português](https://otexts.com/fpppg/), e [Validação cruzada de séries temporais](https://otexts.com/fpp3/tscv.html), que explica por que cada treino temporal utiliza somente observações disponíveis antes do alvo. Para os visuais, [Imagens complexas, W3C Web Accessibility Initiative](https://www.w3.org/WAI/tutorials/images/complex/) orienta alternativa curta e descrição detalhada com os dados essenciais. As fórmulas dos exercícios e TRANSFER-066 são autorais deste projeto; não se atribuem a essas fontes.\n\n",
+      "sourceStart": 13951,
+      "sourceEnd": 15166
+    },
+    {
+      "id": "MAT-EST-066-s011",
+      "title": "11. Exercícios, gabarito, revisão e critério de domínio",
+      "paragraphs": [],
+      "markdown": "## 11. Exercícios, gabarito, revisão e critério de domínio\n\nO arquivo `exercicios.md` contém dez exercícios de aprendizagem, dez de consolidação, dez de transferência em estilo vestibular **todos autorais** e seis de reteste para momento posterior. O gabarito e as hipóteses de motivo do erro estão exclusivamente em `gabarito-comentado.md` e em JSON separado. Tente e registre suas respostas antes de consultar as soluções.\n\n**Revisão espaçada:** agendar um, sete e trinta dias a partir da tentativa real, não da geração do pacote. Na primeira, refazer MAE, completude e custos em uma folha em branco. Na segunda, explicar t19, vintage e escopo sem consultar o texto. Na terceira, resolver o reteste e apresentar um relatório do TRANSFER-066 com população, unidades, dados ausentes e limites de conclusão.\n\n**Critério para possível consolidação pessoal:** explicar a regra, executar corretamente contas básicas, justificar população e unidade, distinguir dado/hipótese, criticar uma afirmação exagerada, transferir o raciocínio para um problema novo e recuperar a ideia depois de intervalo. O sistema de progresso deve registrar evidência da tentativa e da revisão; o pacote editorial não altera o status individual.\n\n![Trilha de domínio](assets/06-caminho-de-revisao.svg)\n\n**Figura 6.** Texto alternativo: cinco passos, explicar, calcular, criticar, aplicar em caso novo e revisar posteriormente; só evidência individual autoriza consolidação. **Observe:** a última etapa depende da prática. **Conclusão para áudio:** a existência desta aula não prova que alguém já aprendeu seu conteúdo.\n\n**Resumo para ouvir:** escolher o denominador certo define a pergunta certa. No SANDBOX-057, dois entre oito medem completude de vinte e cinco por cento; somar magnitudes seis e dividir por dois mede MAE de três unidades para B. Valores pendentes são ausentes, não zeros. Em t19 houve piora local de dezenove vírgula dois acima do limite dez, apesar da média favorável a C. Hash e testes locais não são aprovação de publicação. O novo exercício TRANSFER-066 permite verificar se o raciocínio foi compreendido sem alterar a série principal.\n\n",
+      "sourceStart": 15166,
+      "sourceEnd": 17299
+    },
+    {
+      "id": "MAT-EST-066-s012",
+      "title": "12. Continuidade editorial e limites",
+      "paragraphs": [],
+      "markdown": "## 12. Continuidade editorial e limites\n\n**Próximo tópico proposto, não iniciado:** MAT-EST-067 — Transferência integradora da estatística temporal para decisões sob dados incompletos: leitura de evidências e exercícios inéditos. A formulação poderá ser ajustada mediante checkpoint canônico, sem reiniciar a trilha.\n\n**Limites de execução:** arquivos criados localmente; não houve sincronização no Google Drive/GitHub, publicação no site, dados externos, autenticação de emissão prospectiva, aprovação humana, reprodução integral do vídeo, teste real de Ler em voz alta do Edge ou tentativa individual. Os estados G1–G8, P01–P10 e o protocolo histórico permanecem inalterados.\n",
+      "sourceStart": 17299,
+      "sourceEnd": 17977
+    }
+  ],
+  "sources": [
+    {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    }
+  ],
+  "previous": "MAT-EST-065",
+  "next": "MAT-EST-067",
+  "videos": [
+    {
+      "title": "How to spot a misleading graph - Lea Gaslowitz",
+      "channel": "TED-Ed",
+      "url": "https://www.youtube.com/watch?v=E91bGT9BjYk",
+      "duration": "aproximadamente 4 minutos e 9 segundos, conforme fonte pública secundária",
+      "language": "inglês",
+      "reason": "escala, seleção de dados e mensagem do gráfico",
+      "when": "após seção 8",
+      "reinforces": [],
+      "checkedAt": "2026-10-03",
+      "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+      "type": "video"
+    }
+  ],
+  "video": {
+    "title": "How to spot a misleading graph - Lea Gaslowitz",
+    "channel": "TED-Ed",
+    "url": "https://www.youtube.com/watch?v=E91bGT9BjYk",
+    "duration": "aproximadamente 4 minutos e 9 segundos, conforme fonte pública secundária",
+    "language": "inglês",
+    "reason": "escala, seleção de dados e mensagem do gráfico",
+    "when": "após seção 8",
+    "reinforces": [],
+    "checkedAt": "2026-10-03",
+    "verification": "Disponibilidade e título/canal conferidos pelo YouTube em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+    "type": "video"
+  },
+  "publication": {
+    "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+    "notes": [
+      "A produção e a publicação não registram domínio nem alteram seu progresso.",
+      "Aula avançada para consulta. A sequência de fundamentos ainda tem textos integrais a recuperar; confira os pré-requisitos antes de iniciar.",
+      "As referências a publicação pendente no texto original registram o estado da fonte na data de criação."
+    ],
+    "original": "originais/MAT-EST-066/aula.md",
+    "editions": [
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · plano-avaliacao-MAT-EST-051.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/plano-avaliacao-MAT-EST-051.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · manifesto-sha256.txt",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/manifesto-sha256.txt"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · protocolo-herdado-MAT-EST-049.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/protocolo-herdado-MAT-EST-049.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · relatorio-integridade.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/relatorio-integridade.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · MAT-EST-066-revisao-critica-consolidacao-avaliacao-temporal-integracao-metricas-auditoria-transferencia.md",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/MAT-EST-066-revisao-critica-consolidacao-avaliacao-temporal-integracao-metricas-auditoria-transferencia.md"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · gabarito-comentado.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/gabarito-comentado.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · verificar-pacote.py",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/verificar-pacote.py"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · LEIA-ME-INTEGRACAO.md",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/LEIA-ME-INTEGRACAO.md"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · exercicios.md",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/exercicios.md"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · metadados.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/metadados.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · exercicios.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/exercicios.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · gabarito-comentado.md",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/gabarito-comentado.md"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · checkpoint-editorial.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/checkpoint-editorial.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · PROMPT-TRANSICAO-NOVO-CHAT.txt",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/PROMPT-TRANSICAO-NOVO-CHAT.txt"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/politicas-de-vintage.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/politicas-de-vintage.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/serie-herdada-t01-t12.csv",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/serie-herdada-t01-t12.csv"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/matriz-estados.csv",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/matriz-estados.csv"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/cenarios-herdados-t23-nao-observados.csv",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/cenarios-herdados-t23-nao-observados.csv"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/diferencas-sazonais-t13-t22.csv",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/diferencas-sazonais-t13-t22.csv"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/EXEMPLO-V-reavaliacao.csv",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/EXEMPLO-V-reavaliacao.csv"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/chegadas-novas-simuladas-t19-t22.csv",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/chegadas-novas-simuladas-t19-t22.csv"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/EXEMPLO-V-versoes.csv",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/EXEMPLO-V-versoes.csv"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/chegadas-simuladas-t13-t18.csv",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/chegadas-simuladas-t13-t18.csv"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/plano-emissoes-pendentes-t23-t25.csv",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/plano-emissoes-pendentes-t23-t25.csv"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/projecoes-ilustrativas-t23.csv",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/projecoes-ilustrativas-t23.csv"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/EXEMPLO-V-eventos.jsonl",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/EXEMPLO-V-eventos.jsonl"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/ensaio-eventos-EXEMPLO-Z.jsonl",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/ensaio-eventos-EXEMPLO-Z.jsonl"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/registro-emissoes-h1.csv",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/registro-emissoes-h1.csv"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/comparacao-emparelhada-t18-t22.csv",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/comparacao-emparelhada-t18-t22.csv"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/dependencias-simbolicas-t24-t25.csv",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/dependencias-simbolicas-t24-t25.csv"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · dados/cartoes-casos-didaticos.csv",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/dados/cartoes-casos-didaticos.csv"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · governanca/hashes-herdados.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/governanca/hashes-herdados.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · relatorios/relatorio-auditoria.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/relatorios/relatorio-auditoria.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · relatorios/conciliacao-de-versoes.csv",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/relatorios/conciliacao-de-versoes.csv"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · relatorios/MAT-EST-059-painel-dados.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/relatorios/MAT-EST-059-painel-dados.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · auditoria/testar_auditoria.py",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/auditoria/testar_auditoria.py"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · auditoria/recalcular_relatorios.py",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/auditoria/recalcular_relatorios.py"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · controle/MAT-EST-062-matriz-evidencias.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/controle/MAT-EST-062-matriz-evidencias.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · controle/testar_estados.py",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/controle/testar_estados.py"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · controle/MAT-EST-062-pendencias.csv",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/controle/MAT-EST-062-pendencias.csv"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · controle/MAT-EST-062-plano-pos-deploy.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/controle/MAT-EST-062-plano-pos-deploy.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · controle/MAT-EST-062-ensaios-estados.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/controle/MAT-EST-062-ensaios-estados.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · indicadores/MAT-EST-065-fotografia-inicial.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/indicadores/MAT-EST-065-fotografia-inicial.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · indicadores/MAT-EST-065-fixtures-negativas.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/indicadores/MAT-EST-065-fixtures-negativas.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · indicadores/MAT-EST-065-painel-fotografia.csv",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/indicadores/MAT-EST-065-painel-fotografia.csv"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · indicadores/MAT-EST-065-dicionario-indicadores.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/indicadores/MAT-EST-065-dicionario-indicadores.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · indicadores/recalcular-indicadores.py",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/indicadores/recalcular-indicadores.py"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · incidentes/MAT-EST-063-fixtures-incidentes.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/incidentes/MAT-EST-063-fixtures-incidentes.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · incidentes/MAT-EST-063-matriz-impacto.csv",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/incidentes/MAT-EST-063-matriz-impacto.csv"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · incidentes/MAT-EST-063-caderno-sintetico.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/incidentes/MAT-EST-063-caderno-sintetico.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · incidentes/MAT-EST-063-reteste-demonstrativo.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/incidentes/MAT-EST-063-reteste-demonstrativo.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · transferencia/TRANSFER-066-contas.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/transferencia/TRANSFER-066-contas.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · transferencia/TRANSFER-066-cartoes.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/transferencia/TRANSFER-066-cartoes.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · protocolo-sucessor/MAT-EST-056-PROT-SUC-v1.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/protocolo-sucessor/MAT-EST-056-PROT-SUC-v1.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · pos-incidente/MAT-EST-064-plano-acoes.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/pos-incidente/MAT-EST-064-plano-acoes.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · pos-incidente/MAT-EST-064-ensaio-controles.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/pos-incidente/MAT-EST-064-ensaio-controles.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · pos-incidente/MAT-EST-064-hipoteses-causais.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/pos-incidente/MAT-EST-064-hipoteses-causais.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · pos-incidente/MAT-EST-064-contas-didaticas.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/pos-incidente/MAT-EST-064-contas-didaticas.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · regressao/MAT-EST-061-candidato-e-falhas-isoladas.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/regressao/MAT-EST-061-candidato-e-falhas-isoladas.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · regressao/MAT-EST-061-registro-evidencias.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/regressao/MAT-EST-061-registro-evidencias.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · regressao/MAT-EST-061-resultado-regressao.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/regressao/MAT-EST-061-resultado-regressao.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · sandbox/SANDBOX-057-cartoes.csv",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/sandbox/SANDBOX-057-cartoes.csv"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · sandbox/SANDBOX-057-resumo-metricas.json",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/sandbox/SANDBOX-057-resumo-metricas.json"
+      },
+      {
+        "label": "Edição anterior · MAT-EST-066-c4305c988e · sandbox/SANDBOX-057-desvios.jsonl",
+        "url": "originais/MAT-EST-066/edicoes/MAT-EST-066-c4305c988e/sandbox/SANDBOX-057-desvios.jsonl"
+      }
+    ],
+    "attachments": [
+      {
+        "label": "plano-avaliacao-MAT-EST-051.json",
+        "url": "originais/MAT-EST-066/arquivos/plano-avaliacao-MAT-EST-051.json"
+      },
+      {
+        "label": "manifesto-sha256.txt",
+        "url": "originais/MAT-EST-066/arquivos/manifesto-sha256.txt"
+      },
+      {
+        "label": "protocolo-herdado-MAT-EST-049.json",
+        "url": "originais/MAT-EST-066/arquivos/protocolo-herdado-MAT-EST-049.json"
+      },
+      {
+        "label": "relatorio-integridade.json",
+        "url": "originais/MAT-EST-066/arquivos/relatorio-integridade.json"
+      },
+      {
+        "label": "gabarito-comentado.json",
+        "url": "originais/MAT-EST-066/arquivos/gabarito-comentado.json"
+      },
+      {
+        "label": "verificar-pacote.py",
+        "url": "originais/MAT-EST-066/arquivos/verificar-pacote.py"
+      },
+      {
+        "label": "checkpoint-editorial-atual.json",
+        "url": "originais/MAT-EST-066/arquivos/checkpoint-editorial-atual.json"
+      },
+      {
+        "label": "metadados.json",
+        "url": "originais/MAT-EST-066/arquivos/metadados.json"
+      },
+      {
+        "label": "exercicios.json",
+        "url": "originais/MAT-EST-066/arquivos/exercicios.json"
+      },
+      {
+        "label": "checkpoint-editorial.json",
+        "url": "originais/MAT-EST-066/arquivos/checkpoint-editorial.json"
+      },
+      {
+        "label": "manifesto-sha256-cumulativo.txt",
+        "url": "originais/MAT-EST-066/arquivos/manifesto-sha256-cumulativo.txt"
+      },
+      {
+        "label": "PROMPT-TRANSICAO-NOVO-CHAT.txt",
+        "url": "originais/MAT-EST-066/arquivos/PROMPT-TRANSICAO-NOVO-CHAT.txt"
+      },
+      {
+        "label": "dados/politicas-de-vintage.json",
+        "url": "originais/MAT-EST-066/arquivos/dados/politicas-de-vintage.json"
+      },
+      {
+        "label": "dados/serie-herdada-t01-t12.csv",
+        "url": "originais/MAT-EST-066/arquivos/dados/serie-herdada-t01-t12.csv"
+      },
+      {
+        "label": "dados/matriz-estados.csv",
+        "url": "originais/MAT-EST-066/arquivos/dados/matriz-estados.csv"
+      },
+      {
+        "label": "dados/cenarios-herdados-t23-nao-observados.csv",
+        "url": "originais/MAT-EST-066/arquivos/dados/cenarios-herdados-t23-nao-observados.csv"
+      },
+      {
+        "label": "dados/diferencas-sazonais-t13-t22.csv",
+        "url": "originais/MAT-EST-066/arquivos/dados/diferencas-sazonais-t13-t22.csv"
+      },
+      {
+        "label": "dados/EXEMPLO-V-reavaliacao.csv",
+        "url": "originais/MAT-EST-066/arquivos/dados/EXEMPLO-V-reavaliacao.csv"
+      },
+      {
+        "label": "dados/chegadas-novas-simuladas-t19-t22.csv",
+        "url": "originais/MAT-EST-066/arquivos/dados/chegadas-novas-simuladas-t19-t22.csv"
+      },
+      {
+        "label": "dados/EXEMPLO-V-versoes.csv",
+        "url": "originais/MAT-EST-066/arquivos/dados/EXEMPLO-V-versoes.csv"
+      },
+      {
+        "label": "dados/chegadas-simuladas-t13-t18.csv",
+        "url": "originais/MAT-EST-066/arquivos/dados/chegadas-simuladas-t13-t18.csv"
+      },
+      {
+        "label": "dados/plano-emissoes-pendentes-t23-t25.csv",
+        "url": "originais/MAT-EST-066/arquivos/dados/plano-emissoes-pendentes-t23-t25.csv"
+      },
+      {
+        "label": "dados/projecoes-ilustrativas-t23.csv",
+        "url": "originais/MAT-EST-066/arquivos/dados/projecoes-ilustrativas-t23.csv"
+      },
+      {
+        "label": "dados/EXEMPLO-V-eventos.jsonl",
+        "url": "originais/MAT-EST-066/arquivos/dados/EXEMPLO-V-eventos.jsonl"
+      },
+      {
+        "label": "dados/ensaio-eventos-EXEMPLO-Z.jsonl",
+        "url": "originais/MAT-EST-066/arquivos/dados/ensaio-eventos-EXEMPLO-Z.jsonl"
+      },
+      {
+        "label": "dados/registro-emissoes-h1.csv",
+        "url": "originais/MAT-EST-066/arquivos/dados/registro-emissoes-h1.csv"
+      },
+      {
+        "label": "dados/comparacao-emparelhada-t18-t22.csv",
+        "url": "originais/MAT-EST-066/arquivos/dados/comparacao-emparelhada-t18-t22.csv"
+      },
+      {
+        "label": "dados/dependencias-simbolicas-t24-t25.csv",
+        "url": "originais/MAT-EST-066/arquivos/dados/dependencias-simbolicas-t24-t25.csv"
+      },
+      {
+        "label": "dados/cartoes-casos-didaticos.csv",
+        "url": "originais/MAT-EST-066/arquivos/dados/cartoes-casos-didaticos.csv"
+      },
+      {
+        "label": "governanca/hashes-herdados.json",
+        "url": "originais/MAT-EST-066/arquivos/governanca/hashes-herdados.json"
+      },
+      {
+        "label": "relatorios/relatorio-auditoria.json",
+        "url": "originais/MAT-EST-066/arquivos/relatorios/relatorio-auditoria.json"
+      },
+      {
+        "label": "relatorios/conciliacao-de-versoes.csv",
+        "url": "originais/MAT-EST-066/arquivos/relatorios/conciliacao-de-versoes.csv"
+      },
+      {
+        "label": "relatorios/MAT-EST-059-painel-dados.json",
+        "url": "originais/MAT-EST-066/arquivos/relatorios/MAT-EST-059-painel-dados.json"
+      },
+      {
+        "label": "auditoria/testar_auditoria.py",
+        "url": "originais/MAT-EST-066/arquivos/auditoria/testar_auditoria.py"
+      },
+      {
+        "label": "auditoria/recalcular_relatorios.py",
+        "url": "originais/MAT-EST-066/arquivos/auditoria/recalcular_relatorios.py"
+      },
+      {
+        "label": "controle/MAT-EST-062-matriz-evidencias.json",
+        "url": "originais/MAT-EST-066/arquivos/controle/MAT-EST-062-matriz-evidencias.json"
+      },
+      {
+        "label": "controle/testar_estados.py",
+        "url": "originais/MAT-EST-066/arquivos/controle/testar_estados.py"
+      },
+      {
+        "label": "controle/MAT-EST-062-pendencias.csv",
+        "url": "originais/MAT-EST-066/arquivos/controle/MAT-EST-062-pendencias.csv"
+      },
+      {
+        "label": "controle/MAT-EST-062-plano-pos-deploy.json",
+        "url": "originais/MAT-EST-066/arquivos/controle/MAT-EST-062-plano-pos-deploy.json"
+      },
+      {
+        "label": "controle/MAT-EST-062-ensaios-estados.json",
+        "url": "originais/MAT-EST-066/arquivos/controle/MAT-EST-062-ensaios-estados.json"
+      },
+      {
+        "label": "indicadores/MAT-EST-065-fotografia-inicial.json",
+        "url": "originais/MAT-EST-066/arquivos/indicadores/MAT-EST-065-fotografia-inicial.json"
+      },
+      {
+        "label": "indicadores/MAT-EST-065-fixtures-negativas.json",
+        "url": "originais/MAT-EST-066/arquivos/indicadores/MAT-EST-065-fixtures-negativas.json"
+      },
+      {
+        "label": "indicadores/MAT-EST-065-painel-fotografia.csv",
+        "url": "originais/MAT-EST-066/arquivos/indicadores/MAT-EST-065-painel-fotografia.csv"
+      },
+      {
+        "label": "indicadores/MAT-EST-065-dicionario-indicadores.json",
+        "url": "originais/MAT-EST-066/arquivos/indicadores/MAT-EST-065-dicionario-indicadores.json"
+      },
+      {
+        "label": "indicadores/recalcular-indicadores.py",
+        "url": "originais/MAT-EST-066/arquivos/indicadores/recalcular-indicadores.py"
+      },
+      {
+        "label": "incidentes/MAT-EST-063-fixtures-incidentes.json",
+        "url": "originais/MAT-EST-066/arquivos/incidentes/MAT-EST-063-fixtures-incidentes.json"
+      },
+      {
+        "label": "incidentes/MAT-EST-063-matriz-impacto.csv",
+        "url": "originais/MAT-EST-066/arquivos/incidentes/MAT-EST-063-matriz-impacto.csv"
+      },
+      {
+        "label": "incidentes/MAT-EST-063-caderno-sintetico.json",
+        "url": "originais/MAT-EST-066/arquivos/incidentes/MAT-EST-063-caderno-sintetico.json"
+      },
+      {
+        "label": "incidentes/MAT-EST-063-reteste-demonstrativo.json",
+        "url": "originais/MAT-EST-066/arquivos/incidentes/MAT-EST-063-reteste-demonstrativo.json"
+      },
+      {
+        "label": "transferencia/TRANSFER-066-contas.json",
+        "url": "originais/MAT-EST-066/arquivos/transferencia/TRANSFER-066-contas.json"
+      },
+      {
+        "label": "transferencia/TRANSFER-066-cartoes.json",
+        "url": "originais/MAT-EST-066/arquivos/transferencia/TRANSFER-066-cartoes.json"
+      },
+      {
+        "label": "protocolo-sucessor/MAT-EST-056-PROT-SUC-v1.json",
+        "url": "originais/MAT-EST-066/arquivos/protocolo-sucessor/MAT-EST-056-PROT-SUC-v1.json"
+      },
+      {
+        "label": "pos-incidente/MAT-EST-064-plano-acoes.json",
+        "url": "originais/MAT-EST-066/arquivos/pos-incidente/MAT-EST-064-plano-acoes.json"
+      },
+      {
+        "label": "pos-incidente/MAT-EST-064-ensaio-controles.json",
+        "url": "originais/MAT-EST-066/arquivos/pos-incidente/MAT-EST-064-ensaio-controles.json"
+      },
+      {
+        "label": "pos-incidente/MAT-EST-064-hipoteses-causais.json",
+        "url": "originais/MAT-EST-066/arquivos/pos-incidente/MAT-EST-064-hipoteses-causais.json"
+      },
+      {
+        "label": "pos-incidente/MAT-EST-064-contas-didaticas.json",
+        "url": "originais/MAT-EST-066/arquivos/pos-incidente/MAT-EST-064-contas-didaticas.json"
+      },
+      {
+        "label": "regressao/MAT-EST-061-candidato-e-falhas-isoladas.json",
+        "url": "originais/MAT-EST-066/arquivos/regressao/MAT-EST-061-candidato-e-falhas-isoladas.json"
+      },
+      {
+        "label": "regressao/MAT-EST-061-registro-evidencias.json",
+        "url": "originais/MAT-EST-066/arquivos/regressao/MAT-EST-061-registro-evidencias.json"
+      },
+      {
+        "label": "regressao/MAT-EST-061-resultado-regressao.json",
+        "url": "originais/MAT-EST-066/arquivos/regressao/MAT-EST-061-resultado-regressao.json"
+      },
+      {
+        "label": "sandbox/SANDBOX-057-cartoes.csv",
+        "url": "originais/MAT-EST-066/arquivos/sandbox/SANDBOX-057-cartoes.csv"
+      },
+      {
+        "label": "sandbox/SANDBOX-057-resumo-metricas.json",
+        "url": "originais/MAT-EST-066/arquivos/sandbox/SANDBOX-057-resumo-metricas.json"
+      },
+      {
+        "label": "sandbox/SANDBOX-057-desvios.jsonl",
+        "url": "originais/MAT-EST-066/arquivos/sandbox/SANDBOX-057-desvios.jsonl"
+      }
+    ],
+    "questionCount": 36,
+    "visualCount": 6,
+    "sourceSha256": "49a5b9df1a56fbc76c9002ffd6932e598b22675b696d5b2347c056da9a70b61c"
+  }
+}

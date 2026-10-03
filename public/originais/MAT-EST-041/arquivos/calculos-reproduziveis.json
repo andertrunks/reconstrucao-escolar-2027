@@ -1,0 +1,118 @@
+{
+  "dadosOriginalSHA256": "f1cc3989cd8c701a14e544c424b797f27594806ae302a93253e2a1b82fab5ca9",
+  "dados": [
+    80,
+    100,
+    120,
+    100,
+    90,
+    110,
+    130,
+    100
+  ],
+  "escolasPares": {
+    "medias": [
+      3,
+      7,
+      11
+    ],
+    "mediaPorEscola": 7,
+    "numeroReplicas": 27,
+    "varianciaExataBootstrapMedia": 3.5555555555555554,
+    "erroPadraoExato": 1.8856180831641267,
+    "varianciaIngenuaMedia": 1.9444444444444444,
+    "erroPadraoIngenuo": 1.3944333775567925
+  },
+  "escolasDesiguais": {
+    "escolas": {
+      "A": [
+        2,
+        4
+      ],
+      "B": [
+        6,
+        8,
+        10
+      ],
+      "C": [
+        12
+      ]
+    },
+    "mediaPorEscola": 7.666666666666667,
+    "mediaPorAluno": 7,
+    "replicaA_A_CMediaPorEscola": 6,
+    "replicaA_A_CMediaPorAluno": 4.8
+  },
+  "blocosMoveis": {
+    "serie": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12
+    ],
+    "comprimentoBloco": 2,
+    "janelas": [
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        10,
+        12
+      ]
+    ],
+    "combinacoesOrdenadas": 125,
+    "mediaExata": 7.0,
+    "varianciaExata": 2.666666666666667,
+    "erroPadraoExato": 1.632993161855452,
+    "replicaB1B1B5": [
+      2,
+      4,
+      2,
+      4,
+      10,
+      12
+    ],
+    "replicaB1B1B5Media": 5.666666666666667,
+    "observacao": "série com tendência: a distribuição ilustra o algoritmo, NÃO é um intervalo inferencial justificado"
+  },
+  "avaliacaoTemporal": {
+    "observadoTeste": [
+      90,
+      110,
+      130,
+      100
+    ],
+    "previsaoIngenuaUltimoValor": [
+      100,
+      90,
+      110,
+      130
+    ],
+    "errosAbsolutos": [
+      10,
+      20,
+      20,
+      30
+    ],
+    "MAEUltimoValor": 20,
+    "MAEReferencia100": 12.5,
+    "MAEPrecalculadoA": 5,
+    "MAEPrecalculadoB": 6.25,
+    "alerta": "A e B são previsões preexistentes no CSV, não foram geradas por refit de cada dobra"
+  }
+}

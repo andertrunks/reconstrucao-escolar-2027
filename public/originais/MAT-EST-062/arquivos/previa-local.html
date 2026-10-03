@@ -1,0 +1,116 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><title>MAT-EST-062 — Prévia editorial local</title><style>:root{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;line-height:1.7;color:#203044;background:#f6f8fb}body{margin:0}a{color:#075981}a:focus-visible{outline:3px solid #d47817;outline-offset:3px}header,main,footer{margin:auto;max-width:820px;padding:1.1rem 1.5rem}header{background:#e8f2f6;border-bottom:4px solid #216c87;max-width:none}header div{max-width:820px;margin:auto}h1{font-size:clamp(1.7rem,4vw,2.4rem);line-height:1.2}h2{margin-top:2.3rem;border-bottom:1px solid #bdcfd7}h3{margin-top:1.5rem}p{margin:.85rem 0}figure{margin:1.25rem 0}img{max-width:100%;height:auto;background:white;border:1px solid #bbcbd4;border-radius:12px}table{border-collapse:collapse;display:block;overflow-x:auto;width:100%}th,td{border:1px solid #a7b5bf;padding:.55rem;text-align:left;vertical-align:top}th{background:#e6edf1}pre{overflow:auto;padding:1rem;border-radius:8px;background:#e9edf0}code{overflow-wrap:anywhere}nav{display:flex;gap:1rem;flex-wrap:wrap}nav a{display:inline-block;padding:.45rem .7rem;border:1px solid #759aab;border-radius:6px}footer{border-top:1px solid #a7b5bf} @media (prefers-color-scheme:dark){:root{background:#101a24;color:#e4eaf0}header{background:#193445}a{color:#96dbef}th{background:#23384c}pre{background:#1b3043}img{background:#fff}nav a{border-color:#abc}}@media print{header{background:white}nav{display:none}img{break-inside:avoid}}</style></head><body><header><div><p><strong>Prévia editorial local · Não publicada</strong></p><nav aria-label="Navegação editorial"><a href="#conteudo">Ir à aula</a><a href="exercicios.md">Exercícios separados</a><a href="gabarito-comentado.md">Gabarito após tentativa</a></nav></div></header><main id="conteudo"><article><h1>MAT-EST-062 — Manutenção de evidências e prontidão de publicação: checklist auditável, rastreio de pendências e validação pós-deploy</h1>
+<p><strong>Área:</strong> Matemática. <strong>Unidade:</strong> Estatística e séries temporais; ponte universitária com metodologia científica e informática. <strong>Nível:</strong> 6. <strong>Anterior:</strong> MAT-EST-061. <strong>Próximo proposto:</strong> MAT-EST-063. <strong>Origem:</strong> aula, dados demonstrativos e exercícios autorais; nenhuma questão oficial. <strong>Progresso individual:</strong> não iniciado; a preparação do material não comprova estudo nem tentativa. <strong>Estado da entrega:</strong> local, sem sincronização ou publicação.</p>
+<p><strong>Organização em três blocos:</strong> A, inventário e validade das evidências (25 a 50 minutos); B, regras de prontidão e manutenção de pendências (25 a 50 minutos); C, validação pós-deploy, incidentes e prática (25 a 50 minutos). Estude em ciclo contínuo: uma dificuldade no denominador ou no sentido de versão deve ser resolvida antes de avançar.</p>
+<h2>1. Objetivo e pré-requisitos</h2>
+<p>Após estudo e tentativa real, explique por que uma evidência precisa de versão, escopo, método e resultado; separe controles locais, revisão humana, publicação e pós-publicação; calcule completude usando o denominador adequado; identifique evidência vencida após uma alteração; organize uma fila auditável de pendências; proponha um roteiro de validação com evidências realmente coletáveis; e comunique uma correção sem alegar ações que ainda não ocorreram.</p>
+<p><strong>Pré-requisitos:</strong> porcentagem, média, módulo, classificação de dados ausentes, noções de hash SHA-256, MAT-EST-053 até MAT-EST-061. Em particular, lembrar que os dois erros de B no SANDBOX-057 têm módulos quatro e dois: a média é seis dividido por dois, ou três unidades. Se isso não estiver claro, retomar o cálculo antes de analisar um painel de publicação.</p>
+<p><strong>Relevância para exames:</strong> ler gráficos, identificar denominadores, avaliar inferências e justificar conclusões são competências transferíveis ao ENEM e vestibulares. Hashes, deploy e governança editorial são aprofundamento interdisciplinar e não são atribuídos a uma banca como exigência específica sem edital.</p>
+<h2>2. Por que manter evidências, em vez de apenas colecionar resultados positivos?</h2>
+<p>Imagine que um programa confirme que trinta e seis questões têm IDs únicos. Em seguida, alguém altera a página para publicar um novo vídeo e uma legenda. O teste antigo confirma a versão antiga, não necessariamente a nova. A manutenção de evidências pergunta: <em>qual arquivo e qual versão foram examinados? por qual procedimento? quando e por quem? quais pendências permanecem? o que mudou desde então?</em></p>
+<p>Um <strong>resultado</strong> é um valor ou a saída de uma verificação. Uma <strong>evidência</strong> é um registro contextualizado que permite reexaminar a afirmação. Um <strong>parecer</strong> é uma interpretação que delimita o que a evidência sustenta. Uma <strong>autorização</strong> é um ato de alguém com responsabilidade legítima. Nenhuma dessas quatro coisas substitui automaticamente as outras. Um programa pode calcular um hash correto; não pode inventar uma assinatura humana nem afirmar que alguém ouviu a aula no Edge.</p>
+<p>O número de verificações aprovadas depende do número e da importância de cada teste; não é uma probabilidade de qualidade. Três testes triviais não compensam uma falha crítica na referência dos dados ou a ausência de autorização.</p>
+<p><img src="assets/01-estados-g1-g8.svg" alt="Mapa dos oito controles" /></p>
+<p><strong>Figura 1.</strong> Texto alternativo: G1 e G2 estão conferidos localmente; G3 a G6 permanecem pendentes; G7 e G8 não foram executados. <strong>Observe:</strong> são categorias distintas, não degraus com peso igual. <strong>Conclusão para ouvir:</strong> o candidato continua local; não há evidência de aprovação humana ou publicação.</p>
+<h2>3. Reconstituição rigorosa do que existe</h2>
+<p>A série inventada principal contém os períodos t01 a t22. Sob MAT-EST-049-PROT-v1, cinco dos oito pares planejados foram comparados: erro absoluto médio, ou MAE, de B igual a 17,60 unidades e de C igual a 8,36 unidades; custos médios fictícios de B igual a 51,20 e C igual a 14,92 pontos. A piora local de C em t19 é 19,2 unidades, maior que a guarda de dez. Por isso o protocolo histórico <strong>não aprovou a promoção de C</strong>. Não se pode apagar a guarda usando as médias.</p>
+<p>Os períodos t23 a t25 não têm observações ou emissões autenticadas. O sucessor MAT-EST-056-PROT-SUC-v1 é proposta editorial local para t26 a t33: zero emissões e zero pares. Consequentemente, seu MAE é <em>não estimável</em>, representado por <code>null</code>, nunca zero. Os exemplos V e Z são isolados da série principal.</p>
+<p>O SANDBOX-057 também é separado: oito cartões S01 a S08, dois avaliáveis, seis pendentes. Para S01 e S02, erros assinados B são mais quatro e menos dois; C são mais três e menos cinco. Com custo de três pontos por unidade subprevista e um por unidade superprevista, temos:</p>
+<p>[\mathrm{MAE}_B=(|4|+|-2|)/2=3,\qquad \mathrm{MAE}_C=(|3|+|-5|)/2=4.]</p>
+<p>Leitura: o erro absoluto médio de B é quatro mais dois, dividido por dois, igual a três unidades; para C é três mais cinco, dividido por dois, igual a quatro unidades. O custo médio B é doze mais dois, dividido por dois, igual a sete pontos. O custo médio C é nove mais cinco, dividido por dois, também sete pontos. A completude do corte A é dois dividido por oito, igual a 25 por cento; as médias de erros dividem por <strong>dois</strong>, não por oito. Pendência não é erro zero.</p>
+<p><img src="assets/05-amostra-nao-prontidao.svg" alt="Completude diferente de prontidão" /></p>
+<p><strong>Figura 2.</strong> Texto alternativo: dois dos oito cartões são avaliáveis; dois controles técnicos estão registrados como conferidos; controles humanos e externos não foram finalizados. <strong>Observe:</strong> a fração dois oitavos da amostra responde outra pergunta que a contagem G1 e G2. <strong>Conclusão para ouvir:</strong> vinte e cinco por cento de completude didática não é vinte e cinco por cento de autorização editorial.</p>
+<h2>4. Exemplo resolvido: a ficha de evidência de uma afirmação</h2>
+<p>Considere a frase: “No corte A do SANDBOX-057, o MAE de B é três unidades”. Uma ficha verificável precisa explicitar: (a) identidade do conjunto e o corte A; (b) cartões elegíveis S01 e S02; (c) erros assinados mais quatro e menos dois; (d) método: média dos módulos; (e) saída: três <em>unidades</em>, não pontos de custo; (f) caminho do arquivo; (g) digest, ou hash, da versão analisada; (h) resultado da verificação e seu alcance; (i) autoria e revisão humana, se de fato ocorreram.</p>
+<p>O digest SHA-256 identifica com grande sensibilidade uma sequência de bytes. Se os bytes mudam, esperamos outro digest. Isso ajuda a detectar divergência com um valor esperado confiável. <strong>Não prova por si só</strong> quando o arquivo foi criado, quem o assinou ou que alguém leu seu conteúdo. A versão anterior precisa continuar acessível para auditar uma mudança posterior.</p>
+<p>A cadeia mínima pode ser representada como: afirmação → fonte congelada → procedimento de cálculo → resultado → responsável pelo que efetivamente foi realizado → eventuais pendências. Neste pacote, os papéis humanos são apenas campos de planejamento; nomes, assinaturas e datas reais não foram preenchidos.</p>
+<p><img src="assets/02-cadeia-de-evidencia.svg" alt="Cadeia de evidências" /></p>
+<p><strong>Figura 3.</strong> Texto alternativo: a afirmação depende de origem, corte, cálculo e evidência com estado explícito. <strong>Observe:</strong> uma conclusão que cita apenas um número perdeu parte da cadeia. <strong>Conclusão para ouvir:</strong> quem consulta o relatório precisa saber o que o número significa e como foi obtido.</p>
+<h2>5. Oito controles como dependências, não placar</h2>
+<p>O registro herdado de MAT-EST-061 conserva:</p>
+<table>
+<thead>
+<tr>
+  <th>Controle</th>
+  <th>Significado</th>
+  <th>Estado realmente herdado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>G1</td>
+  <td>Integridade e cálculo da fonte</td>
+  <td>conferido localmente</td>
+</tr>
+<tr>
+  <td>G2</td>
+  <td>Estrutura de Markdown, HTML e SVG</td>
+  <td>conferido localmente</td>
+</tr>
+<tr>
+  <td>G3</td>
+  <td>Ouvir no Edge e navegar por teclado</td>
+  <td>pendente de execução humana</td>
+</tr>
+<tr>
+  <td>G4</td>
+  <td>Leitor de tela, zoom e reflow em ambientes reais</td>
+  <td>pendente de execução humana</td>
+</tr>
+<tr>
+  <td>G5</td>
+  <td>Revisão editorial humana do significado e das fontes</td>
+  <td>pendente de execução humana</td>
+</tr>
+<tr>
+  <td>G6</td>
+  <td>Assistir integralmente ao vídeo complementar</td>
+  <td>pendente de execução humana</td>
+</tr>
+<tr>
+  <td>G7</td>
+  <td>Integração autorizada e deploy</td>
+  <td>não executado</td>
+</tr>
+<tr>
+  <td>G8</td>
+  <td>Verificação pública do site após deploy</td>
+  <td>não executado</td>
+</tr>
+</tbody>
+</table>
+<p>O trecho acima é uma <strong>fotografia documental</strong> do pacote anterior, e não uma atualização dos controles. Uma possível regra de trabalho é exigir G1 a G6 concluídos com evidência antes de solicitar autorização para G7, e realizar G8 somente após um G7 comprovado. Não se pode marcar G8 aprovado quando G7 ainda não ocorreu. Tampouco é adequado calcular “2 de 8, logo 25% pronto”: os oito itens são portas com naturezas e ordem distintas, não avaliações intercambiáveis.</p>
+<p>Uma pendência útil registra código permanente, descrição, causa, consequência, responsável por <em>papel</em> até atribuição real, evidência necessária, dependência e estado. Não registrar data fictícia para parecer cronologicamente completo. A fila em <code>controle/MAT-EST-062-pendencias.csv</code> mantém G3 até G8 sem nome de avaliador, carimbo ou URL inventados.</p>
+<h2>6. Como uma evidência perde validade depois de uma alteração</h2>
+<p>Imagine que G1 mediu a versão A de um CSV. Um editor substitui esse arquivo pela versão B, mesmo que altere apenas uma célula. A evidência “G1 da versão A passou” permanece verdadeira <strong>para A</strong>, mas não serve automaticamente para B. O mesmo vale para um HTML cujo texto alternativo foi atualizado depois da inspeção no navegador: a avaliação antiga descrevia outro conteúdo.</p>
+<p>A decisão de repetir controles depende de uma análise de impacto: uma mudança na fonte exige novo cálculo, hash e revisão de afirmações dependentes; uma mudança de legenda exige revisão da legenda, alternativa textual e leitura em contexto; uma alteração no roteamento ou estilo pode exigir teclado, zoom, links, foco e leitor de tela. Uma mudança sem impacto demonstrável ainda precisa ser documentada; ela não deve apagar a história de verificações anteriores.</p>
+<p><img src="assets/03-validade-das-evidencias.svg" alt="Evidência e versão" /></p>
+<p><strong>Figura 4.</strong> Texto alternativo: a versão A tem um hash e testes associados; a versão B requer reavaliação das dependências alteradas. <strong>Observe:</strong> o histórico da versão A é preservado, mas não libera a versão B. <strong>Conclusão para ouvir:</strong> uma evidência não se transfere automaticamente entre versões.</p>
+<h2>7. Exemplo resolvido: matriz de dependência e decisão bloqueada</h2>
+<p>Uma candidata local passa nos cálculos G1 e na estrutura G2. Ainda falta escutar e operar o conteúdo no Edge, testar leitor de tela e reflow, obter revisão editorial e validar o vídeo inteiro. Isso significa G3, G4, G5 e G6 pendentes. Mesmo que G1 e G2 não tenham apontado problemas, <strong>não existe ainda autorização documentada para publicar</strong>. G7 não foi executado e G8 não pode ser verificado.</p>
+<p>Um exercício artificial altera o estado de G3 para “concluído”, mas deixa evidência, avaliador e data vazios. O verificador demonstrativo deve rejeitar o registro como prova humana insuficiente. Outra alteração artificial declara G7 como executado sem URL ou identificador de commit. Também deve ser rejeitada. São testes de regras no computador, não relatos de ações realizadas. No arquivo <code>controle/MAT-EST-062-ensaios-estados.json</code>, a simulação é explicitamente separada dos oito estados reais herdados.</p>
+<p>Há uma diferença entre <strong>prontidão de arquivo</strong> e <strong>prontidão de publicação</strong>. Um pacote pode estar completo para que um integrador o receba, mas ainda não estar liberado para deploy. A folha de encaminhamento deve declarar “pacote local pronto para análise de integração; portas humanas e externas não concluídas”, sem ambiguidade.</p>
+<p><img src="assets/04-maquina-estados.svg" alt="Caminho com portas de verificação" /></p>
+<p><strong>Figura 5.</strong> Texto alternativo: candidato local, revisão humana, autorização e publicação com verificação posterior são etapas diferentes. <strong>Observe:</strong> não há passagem direta de testes automáticos para um site aprovado. <strong>Conclusão para ouvir:</strong> o fluxo só avança quando evidências correspondentes existem.</p>
+<h2>8. Preparar a validação pós-deploy sem fingir que ela ocorreu</h2>
+<p>O plano <code>controle/MAT-EST-062-plano-pos-deploy.json</code> lista dez verificações futuras. Antes de existir URL pública e commit de destino, seu estado é <strong>não executado</strong>. Quando uma integração for autorizada, deverá ser possível: abrir a URL exata; identificar a versão servida; conferir a rota da aula e os links anterior/próximo; verificar que o gabarito continua separado; recalcular indicadores; confirmar a guarda histórica e o estado sem pares do sucessor; inspecionar os seis visuais e suas alternativas; usar teclado e Ler em voz alta no Edge; testar zoom, leitor de tela e contraste; verificar atualização do cache e o procedimento de incidentes.</p>
+<p>Cada item requer resultado real e contexto do teste: navegador e versão quando relevante, URL, data da execução, responsável que realmente testou, descrição do resultado, problema encontrado e referência à evidência. Uma captura de tela pode ajudar a mostrar um defeito visual, mas não comprova sozinha leitura em voz alta ou navegação por teclado. A mesma inspeção pode precisar ser repetida após correção ou nova implantação.</p>
+<p>A <a href="https://www.w3.org/WAI/test-evaluate/tools/">Iniciativa de Acessibilidade na Web do W3C</a> lembra que ferramentas automáticas têm alcance limitado e avaliações humanas são indispensáveis. A <a href="https://support.microsoft.com/pt-br/edge/use-immersive-reader-in-microsoft-edge">documentação da Microsoft sobre o Modo de Leitura do Edge</a> descreve os recursos que o roteiro pretende experimentar; citar a documentação não significa já ter executado o ensaio.</p>
+<h2>9. O que fazer quando o pós-deploy falha?</h2>
+<p>Suponha, apenas em cenário hipotético, que uma versão pública carregue a aula, mas deixe de carregar o gráfico 4. Não se deve marcar “G8 aprovado” com uma observação em rodapé. Registrar a versão afetada, a URL, a condição reproduzível, a severidade, os responsáveis de fato envolvidos, uma medida temporária se cabível e o estado da investigação. Em seguida decidir, conforme autorização e impacto, entre corrigir e implantar nova versão ou restaurar uma versão previamente conhecida. A decisão e sua execução exigem evidência.</p>
+<p><strong>Rollback</strong>, ou retorno a uma versão anterior, não se confunde com o ensaio local de extração do arquivo ZIP. Para afirmar que um rollback público ocorreu, precisamos de identificador da versão anterior e da versão restaurada, execução autorizada, confirmação da URL e novos testes de funcionamento. É possível que conteúdo em cache continue servindo uma versão antiga por algum tempo; a verificação deve considerar esse risco e identificar a versão efetivamente exibida.</p>
+<p><img src="assets/06-pos-deploy-e-restauracao.svg" alt="Publicação e restauração" /></p>
+<p><strong>Figura 6.</strong> Texto alternativo: extrair um arquivo local não confirma deploy; publicação requer commit, URL e verificação pública, enquanto restauração exige nova evidência. <strong>Observe:</strong> o fluxo tem uma etapa de validação depois de publicar ou restaurar. <strong>Conclusão para ouvir:</strong> cada afirmação de funcionamento deve corresponder a um teste efetivamente feito.</p>
+<h2>10. Síntese interdisciplinar e limites</h2>
+<p><strong>Matemática:</strong> denominadores, porcentagens, médias, unidades, noções de lógica e condição necessária versus suficiente. <strong>Português e Redação:</strong> enunciados com escopo e ressalvas claras. <strong>Metodologia científica:</strong> preservar protocolos, registrar desvios e permitir reprodução. <strong>Computação:</strong> versionamento, hashes, testes, publicação e tratamento de falhas. Um relatório honesto precisa combinar esses campos: número sem proveniência é frágil; evidência sem comunicação pode ser inutilizável; interface publicada sem teste de acesso pode excluir leitores.</p>
+<p><strong>Erros frequentes:</strong> escrever MAE zero quando não há pares; chamar 2 de 8 controles de 25% de “certificação”; trocar uma previsão depois de observar o alvo; confundir teste sintético com falha do site; declarar G3 concluído porque um SVG possui <code>title</code>; considerar reprodução parcial do vídeo suficiente; inventar revisor ou data; marcar pós-deploy como concluído antes de G7; usar hash como assinatura humana; chamar extração local de rollback real.</p>
+<h2>11. Vídeo complementar e fontes verificadas</h2>
+<p><strong>Vídeo:</strong> <a href="https://www.w3.org/WAI/test-evaluate/tools/">Evaluation Tools Overview — World Wide Web Consortium, Web Accessibility Initiative</a>. Idioma inglês, com transcrição descritiva disponível na página institucional. <strong>Duração:</strong> não confirmada. <strong>Por que assistir:</strong> enfatiza que verificações automáticas ajudam a identificar problemas, mas dependem de julgamento e testes humanos. <strong>Momento recomendado:</strong> após a seção 8. A página e a presença do vídeo/transcrição foram verificadas; a reprodução integral do conteúdo audiovisual não foi efetuada. A aula é independente do vídeo.</p>
+<p><strong>Outras fontes de apoio:</strong> <a href="https://www.w3.org/WAI/test-evaluate/report-template/">W3C: modelo de relatório de acessibilidade</a>; <a href="https://www.w3.org/WAI/test-evaluate/tools/selecting/">W3C: seleção de ferramentas de avaliação</a>; <a href="https://support.microsoft.com/pt-br/edge/use-immersive-reader-in-microsoft-edge">Microsoft: modo de leitura e Ler em voz alta no Edge</a>. A estrutura pedagógica e a cadeia de dados fictícios seguem os documentos canônicos do projeto e a MAT-EST-061; não se atribuem aos órgãos externos os números inventados desta simulação.</p>
+<h2>12. Atividades autorais graduais</h2>
+<p>O caderno <code>exercicios.md</code> contém dez exercícios de aprendizagem, dez de consolidação, dez problemas autorais em estilo vestibular e seis de reteste. Todos têm IDs únicos. As correções completas ficam em <code>gabarito-comentado.md</code> e em JSON separado, para apresentação somente <strong>após tentativa</strong>. Não há questões oficiais nesta aula.</p>
+<h2>13. Resumo curto para ouvir</h2>
+<p>A evidência é um registro situado: versão, fonte, método, resultado e alcance. Dois controles automáticos foram conferidos localmente, mas quatro dependem de revisão humana e dois exigem atividades externas. A completude de uma amostra não mede prontidão de publicação. Se um arquivo muda, as evidências dependentes precisam ser revistas. A etapa pós-deploy só começa depois de uma publicação comprovada; o sucesso de um ZIP local não prova URL pública. Os números históricos permanecem iguais, inclusive a guarda violada em t19. Nenhum dado futuro foi observado nesta aula.</p>
+<p><strong>Revisão espaçada:</strong> programar retornos após um, sete e trinta dias <strong>contados a partir de estudo e tentativa efetivos</strong>. No primeiro, explicar diferença entre dado, evidência, parecer e autorização. No segundo, preencher uma ficha demonstrativa identificando origem e corte. No terceiro, resolver o reteste sem consultar o gabarito e redigir uma decisão honesta sobre G1 até G8. A consolidação depende de evidência real de compreensão, não de leitura do arquivo.</p>
+<p><strong>Próximo tópico editorial proposto:</strong> MAT-EST-063 — Gestão de incidentes editoriais: classificação de falhas, comunicação de impacto e reteste de correções. Ainda não iniciado.</p>
+<p><strong>Limites de execução:</strong> foram gerados arquivos locais e testes de integridade; não houve publicação, sincronização com Drive/GitHub, aprovação humana, teste manual no Edge/leitor de tela, reprodução integral do vídeo, deploy, rollback público, nova observação prospectiva ou alteração do progresso individual.</p>
+</article></main><footer>MAT-EST-061 ← MAT-EST-062 → MAT-EST-063 (proposta não iniciada). Progresso individual inalterado. HTML local ainda não testado manualmente no Edge.</footer></body></html>

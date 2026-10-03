@@ -1,0 +1,7 @@
+cenario,modelo,n_com_erros,demais_pendencias,mae_unidades,custo_medio_pontos,escopo
+A_corte_original,B,2,6,3,7,observado apenas no sandbox didático
+A_corte_original,C,2,6,4,7,observado apenas no sandbox didático
+EXPLORATORIO_excluir_S02,B,1,7,4,12,seleção pós-resultado; NÃO substituir A
+EXPLORATORIO_excluir_S02,C,1,7,3,9,seleção pós-resultado; NÃO substituir A
+CONDICIONAL_S04_B8_C2,B,3,5,14/3,não calculado,apenas hipótese adicionando S04; NÃO alterar dados
+CONDICIONAL_S04_B8_C2,C,3,5,10/3,não calculado,apenas hipótese adicionando S04; NÃO alterar dados

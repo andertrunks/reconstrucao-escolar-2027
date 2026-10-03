@@ -1,0 +1,12 @@
+# MAT-EST-039 — validação local (28/09/2026)
+- Marcador MAT-EST-038 confirmado: próximo MAT-EST-039.
+- Itens: 36 originais, IDs únicos; 10 aprendizagem + 10 consolidação + 10 transferência + 6 reteste.
+- Gabarito separado do arquivo de enunciados; nenhuma tentativa individual criada.
+- Bootstrap exato: 256 sequências, média 5, desvio-padrão sqrt(1,25) = 1.118034, percentis didáticos [3;7].
+- Permutação exata: C(6,3) = 20, 2 extremos, p bicaudal = 0,1.
+- Sete SVG com title/desc/role e legendas, alternativas e conclusões textuais em manifest; renderizados para preview.
+- CSV anterior copiado byte a byte sem alterar dados; SHA-256 origem: f1cc3989cd8c701a14e544c424b797f27594806ae302a93253e2a1b82fab5ca9.
+- Exemplo em Python reproduzível executado: media bootstrap 5.0 DP 1.118033988749895 | percentis empiricos ilustrativos 3 7 | permutacoes 20 extremos 2 p_exato 0.1
+- Vídeo localizado na página institucional PSU STAT 500; duração e reprodução integral não confirmadas.
+- Pendente: execução real do Ler em voz alta do Edge, reprodução integral do vídeo, importação e testes de interface, publicação e sincronização no Google Drive.
+- O pacote não marca automaticamente como consolidados MAT-EST-018, MAT-EST-037, MAT-PRO-039 ou MAT-PRO-054.

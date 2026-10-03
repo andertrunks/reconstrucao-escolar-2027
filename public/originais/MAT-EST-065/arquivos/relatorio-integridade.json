@@ -1,0 +1,16 @@
+{
+  "id": "MAT-EST-065-QA-v1",
+  "all_passed": true,
+  "natureza": "verificações locais; sem validação em navegador público",
+  "previous_zip_sha256": "f096433c3310d41b2537b2cb15cc80734edbee041f12393bc7a8e8f1d9353f17",
+  "invariant_count": 23,
+  "questions": 36,
+  "figures_svg": 6,
+  "metric_cards": 11,
+  "fixtures": 7,
+  "evidence_flags": "G1/G2 checked_local; G3-G6 pending; G7/G8 not_performed; P01-P10 not_performed",
+  "no_publication": true,
+  "no_personal_progress_change": true,
+  "test_runner": "verificar-pacote.py",
+  "file_count_before_report": 72
+}

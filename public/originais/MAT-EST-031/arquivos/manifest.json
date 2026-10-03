@@ -1,0 +1,630 @@
+{
+  "schemaVersion": "1.0",
+  "id": "MAT-EST-031",
+  "slug": "validacao-modelos-desempenho-preditivo-treino-teste-validacao-cruzada-sobreajuste",
+  "titulo": "Validação de modelos e desempenho preditivo: amostras de treino e teste, validação cruzada e prevenção de sobreajuste",
+  "materia": "Matemática",
+  "unidade": "Estatística",
+  "nivel": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "ordem": 31,
+  "tipoConteudo": "aula_teorica_pratica",
+  "anterior": "MAT-EST-030",
+  "preRequisitos": [
+    "MAT-EST-019",
+    "MAT-EST-020",
+    "MAT-EST-021",
+    "MAT-EST-026",
+    "MAT-EST-027",
+    "MAT-EST-028",
+    "MAT-EST-029",
+    "MAT-EST-030"
+  ],
+  "objetivos": [
+    "distinguir ajuste, validação e teste",
+    "calcular MAE, MSE, RMSE e R² de teste",
+    "explicar K-fold e divisão conforme dependência dos dados",
+    "evitar vazamento na preparação e na seleção",
+    "relatar limites de generalização"
+  ],
+  "conceitosRelacionados": [
+    "resíduos",
+    "regressão",
+    "R²",
+    "viés",
+    "erro preditivo",
+    "dependência temporal",
+    "métricas de classificação"
+  ],
+  "examesRelacionados": [
+    "ENEM",
+    "FUVEST",
+    "UNICAMP",
+    "UNESP"
+  ],
+  "observacaoExames": "Conexão conceitual; validação cruzada e pipelines são aprofundamento e ponte universitária, sem alegar cobrança literal nos editais.",
+  "statusProducao": "produzido_localmente_nao_publicado",
+  "statusAprendizagemInicial": "nao_iniciado",
+  "arquivoMarkdown": "MAT-EST-031-validacao-modelos-desempenho-preditivo-treino-teste-validacao-cruzada-sobreajuste.md",
+  "arquivoExercicios": "exercicios.json",
+  "visuais": [
+    {
+      "id": "MAT-EST-031-VIS-01",
+      "arquivo": "assets/01-divisao-treino-validacao-teste.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "legenda": "Três funções para os dados",
+      "alt": "Uma faixa com 60% para treino, 20% para validação e 20% para teste; percentuais são apenas ilustrativos.",
+      "oQueObservar": "Observe que ajuste, escolha e avaliação final não devem compartilhar informações indevidas.",
+      "conclusaoTextual": "Cada bloco responde a uma pergunta distinta; não existe partição percentual universal."
+    },
+    {
+      "id": "MAT-EST-031-VIS-02",
+      "arquivo": "assets/02-treino-sobreajuste.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "legenda": "Divergência de erros entre treino e teste",
+      "alt": "Barras dos modelos A e B: MAE de treino 0,4 e 1,1; MAE de teste 3,0 e 1,3 pontos, respectivamente.",
+      "oQueObservar": "Compare as medidas em uma mesma métrica e conjunto de avaliação.",
+      "conclusaoTextual": "O menor erro no treino não implica o menor erro em novos dados."
+    },
+    {
+      "id": "MAT-EST-031-VIS-03",
+      "arquivo": "assets/03-validacao-cruzada-cinco.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "legenda": "Cinco rodadas de validação cruzada",
+      "alt": "Cinco linhas, cada qual com quatro partes de treino T e uma parte de validação V; a parte V muda de posição.",
+      "oQueObservar": "Observe a rotação da parte separada.",
+      "conclusaoTextual": "Cada observação participa uma vez da validação e quatro vezes do ajuste no K-fold de cinco partes."
+    },
+    {
+      "id": "MAT-EST-031-VIS-04",
+      "arquivo": "assets/04-erro-absoluto-e-quadratico.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "legenda": "Como o erro grande pesa nas métricas",
+      "alt": "Quatro resíduos absolutos 1, 1, 1 e 5; a soma dos quadrados é 28 e a soma absoluta é 8.",
+      "oQueObservar": "Confira os eixos e as unidades: erro absoluto em pontos e contribuição quadrática em pontos ao quadrado.",
+      "conclusaoTextual": "RMSE é mais sensível a um erro grande por elevar os resíduos ao quadrado."
+    },
+    {
+      "id": "MAT-EST-031-VIS-05",
+      "arquivo": "assets/05-vazamento-de-dados.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "legenda": "Pré-processar sem vazamento",
+      "alt": "Fluxo correto: separar registros; ajustar imputação e escala só no treino; aplicar transformações congeladas à avaliação.",
+      "oQueObservar": "Identifique a fronteira antes da etapa de pré-processamento.",
+      "conclusaoTextual": "Nenhuma estatística da partição retida deve participar do aprendizado das transformações."
+    },
+    {
+      "id": "MAT-EST-031-VIS-06",
+      "arquivo": "assets/06-tempo-e-grupos.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "legenda": "Quando a divisão aleatória não serve",
+      "alt": "Dois diagramas: pessoas P1–P3 inteiras por parte e meses anteriores destinados ao treino, posteriores à validação.",
+      "oQueObservar": "Observe a diferença entre independência por grupo e ordem temporal.",
+      "conclusaoTextual": "Escolha a estratégia de separação conforme a dependência entre registros e o uso futuro."
+    },
+    {
+      "id": "MAT-EST-031-VIS-07",
+      "arquivo": "assets/07-protocolo-de-auditoria.svg",
+      "autoria": "original",
+      "licenca": "uso_no_projeto",
+      "legenda": "Rota da avaliação preditiva",
+      "alt": "Cinco etapas: objetivo, divisão, pipeline nos folds, escolha, teste final e relatório.",
+      "oQueObservar": "O teste final deve ser consultado depois da escolha, não usado repetidamente para otimizá-la.",
+      "conclusaoTextual": "A avaliação final precisa permanecer independente das decisões anteriores."
+    }
+  ],
+  "video": {
+    "titulo": "Video 6: Cross-Validation",
+    "canal": "MIT OpenCourseWare",
+    "instrutor": "Dimitris Bertsimas",
+    "url": "https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/resources/video-6-cross-validation-0/",
+    "duracaoInformada": null,
+    "idioma": "inglês",
+    "momento": "após a seção 6",
+    "verificacao": "página institucional localizada; reprodução integral não testada",
+    "observacao": "vídeo complementar, aula autossuficiente"
+  },
+  "exercicios": [
+    {
+      "id": "MAT-EST-031-EX-APR-01",
+      "origem": "autoral",
+      "camada": "aprendizagem",
+      "dificuldade": "basica",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-APR-02",
+      "origem": "autoral",
+      "camada": "aprendizagem",
+      "dificuldade": "basica",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-APR-03",
+      "origem": "autoral",
+      "camada": "aprendizagem",
+      "dificuldade": "basica",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-APR-04",
+      "origem": "autoral",
+      "camada": "aprendizagem",
+      "dificuldade": "basica",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-APR-05",
+      "origem": "autoral",
+      "camada": "aprendizagem",
+      "dificuldade": "basica",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-APR-06",
+      "origem": "autoral",
+      "camada": "aprendizagem",
+      "dificuldade": "basica",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-APR-07",
+      "origem": "autoral",
+      "camada": "aprendizagem",
+      "dificuldade": "basica",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-APR-08",
+      "origem": "autoral",
+      "camada": "aprendizagem",
+      "dificuldade": "basica",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-APR-09",
+      "origem": "autoral",
+      "camada": "aprendizagem",
+      "dificuldade": "basica",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-APR-10",
+      "origem": "autoral",
+      "camada": "aprendizagem",
+      "dificuldade": "basica",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-CON-01",
+      "origem": "autoral",
+      "camada": "consolidacao",
+      "dificuldade": "intermediaria",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-CON-02",
+      "origem": "autoral",
+      "camada": "consolidacao",
+      "dificuldade": "intermediaria",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-CON-03",
+      "origem": "autoral",
+      "camada": "consolidacao",
+      "dificuldade": "intermediaria",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-CON-04",
+      "origem": "autoral",
+      "camada": "consolidacao",
+      "dificuldade": "intermediaria",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-CON-05",
+      "origem": "autoral",
+      "camada": "consolidacao",
+      "dificuldade": "intermediaria",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-CON-06",
+      "origem": "autoral",
+      "camada": "consolidacao",
+      "dificuldade": "intermediaria",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-CON-07",
+      "origem": "autoral",
+      "camada": "consolidacao",
+      "dificuldade": "intermediaria",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-CON-08",
+      "origem": "autoral",
+      "camada": "consolidacao",
+      "dificuldade": "intermediaria",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-CON-09",
+      "origem": "autoral",
+      "camada": "consolidacao",
+      "dificuldade": "intermediaria",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-CON-10",
+      "origem": "autoral",
+      "camada": "consolidacao",
+      "dificuldade": "intermediaria",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-VES-01",
+      "origem": "autoral",
+      "camada": "transferencia",
+      "dificuldade": "avancada",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-VES-02",
+      "origem": "autoral",
+      "camada": "transferencia",
+      "dificuldade": "avancada",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-VES-03",
+      "origem": "autoral",
+      "camada": "transferencia",
+      "dificuldade": "avancada",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-VES-04",
+      "origem": "autoral",
+      "camada": "transferencia",
+      "dificuldade": "avancada",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-VES-05",
+      "origem": "autoral",
+      "camada": "transferencia",
+      "dificuldade": "avancada",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-VES-06",
+      "origem": "autoral",
+      "camada": "transferencia",
+      "dificuldade": "avancada",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-VES-07",
+      "origem": "autoral",
+      "camada": "transferencia",
+      "dificuldade": "avancada",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-VES-08",
+      "origem": "autoral",
+      "camada": "transferencia",
+      "dificuldade": "avancada",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-VES-09",
+      "origem": "autoral",
+      "camada": "transferencia",
+      "dificuldade": "avancada",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-VES-10",
+      "origem": "autoral",
+      "camada": "transferencia",
+      "dificuldade": "avancada",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-RET-01",
+      "origem": "autoral",
+      "camada": "reteste",
+      "dificuldade": "independente",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-RET-02",
+      "origem": "autoral",
+      "camada": "reteste",
+      "dificuldade": "independente",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-RET-03",
+      "origem": "autoral",
+      "camada": "reteste",
+      "dificuldade": "independente",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-RET-04",
+      "origem": "autoral",
+      "camada": "reteste",
+      "dificuldade": "independente",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-RET-05",
+      "origem": "autoral",
+      "camada": "reteste",
+      "dificuldade": "independente",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    },
+    {
+      "id": "MAT-EST-031-EX-RET-06",
+      "origem": "autoral",
+      "camada": "reteste",
+      "dificuldade": "independente",
+      "arquivo": "exercicios.json",
+      "topicos": [
+        "MAT-EST-027",
+        "MAT-EST-030",
+        "MAT-EST-031"
+      ],
+      "pontos": 1
+    }
+  ],
+  "questoesOficiaisReproduzidas": 0,
+  "questoesAutorais": 36,
+  "revisao": {
+    "apos": [
+      "1 dia",
+      "7 dias",
+      "30 dias após estudo efetivo"
+    ],
+    "semProgressoAutomatico": true,
+    "evidencias": [
+      "explicar",
+      "calcular",
+      "identificar vazamento",
+      "aplicar a situação nova",
+      "recuperar depois da revisão"
+    ]
+  },
+  "proximoTopico": {
+    "id": "MAT-EST-032",
+    "titulo": "Avaliação integrada de previsões: comparação de métricas, incerteza e monitoramento de desempenho"
+  },
+  "publicadoNoSite": false,
+  "sincronizadoDrive": false
+}

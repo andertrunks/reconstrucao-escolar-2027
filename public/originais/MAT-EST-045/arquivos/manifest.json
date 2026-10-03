@@ -1,0 +1,80 @@
+{
+  "id": "MAT-EST-045",
+  "titulo": "Modelos de suavização sazonal em prática: inicialização, ajuste e comparação com referências temporais",
+  "slug": "modelos-suavizacao-sazonal-pratica-inicializacao-ajuste-comparacao-referencias-temporais",
+  "anterior": "MAT-EST-044",
+  "proximo": "MAT-EST-046",
+  "materia": "Matemática",
+  "unidade": "Estatística",
+  "nivel": 6,
+  "statusAprendizagem": "nao_iniciado",
+  "preRequisitos": [
+    "MAT-EST-031",
+    "MAT-EST-032",
+    "MAT-EST-042",
+    "MAT-EST-043",
+    "MAT-EST-044"
+  ],
+  "objetivos": [
+    "inicializar estados sem dados futuros",
+    "atualizar nivel tendencia sazonalidade",
+    "comparar previsoes na mesma origem",
+    "declarar limites de validade"
+  ],
+  "relacoes": [
+    "média ponderada",
+    "equações recursivas",
+    "séries temporais",
+    "avaliação preditiva",
+    "redação de resultados"
+  ],
+  "examesRelevantes": "Aplicações interpretativas em avaliações; formalismo Holt-Winters é ponte universitária e não é apresentado como requisito oficial de edital.",
+  "questoes": {
+    "arquivo": "exercicios.json",
+    "total": 36,
+    "aprendizagem": 10,
+    "consolidacao": 10,
+    "transferenciaVestibular": 10,
+    "reteste": 6,
+    "gabaritoSeparado": "gabarito-comentado.json",
+    "origem": "autoral",
+    "questoesOficiais": 0
+  },
+  "visuais": {
+    "arquivo": "visuais.json",
+    "total": 7,
+    "formato": "SVG com title/desc/aria e texto alternativo no Markdown"
+  },
+  "licencaConteudo": "autoral",
+  "aula": "MAT-EST-045-modelos-suavizacao-sazonal-pratica-inicializacao-ajuste-comparacao-referencias-temporais.md",
+  "arquivosReproduziveis": [
+    "calculos-reproduziveis.py",
+    "calculos-reproduziveis.json"
+  ],
+  "dadosHerdados": [
+    {
+      "arquivo": "dados-ficticios-referencia.csv",
+      "origem": "MAT-EST-044/dados-ficticios-referencia.csv",
+      "sha256": "f1cc3989cd8c701a14e544c424b797f27594806ae302a93253e2a1b82fab5ca9"
+    },
+    {
+      "arquivo": "dados-ficticios-trimestrais.csv",
+      "origem": "MAT-EST-044/dados-ficticios-trimestrais.csv",
+      "sha256": "c1d765b97f058ad9f94fba88e46b9cd6e3c1056bf1653ca3b048b97ca7c1c6f1"
+    }
+  ],
+  "revisao": {
+    "diasAposEstudoReal": [
+      1,
+      7,
+      30
+    ],
+    "inicio": "somente apos tentativa registrada"
+  },
+  "publicacao": {
+    "googleDrive": false,
+    "site": false,
+    "edgeRealTestado": false,
+    "videoReproduzidoIntegralmente": false
+  }
+}

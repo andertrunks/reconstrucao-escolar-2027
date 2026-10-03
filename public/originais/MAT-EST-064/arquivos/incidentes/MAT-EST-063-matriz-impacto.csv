@@ -1,0 +1,7 @@
+id,dominio,dado_alterado_demo,alcance_real_conhecido,severidade_condicional,publicacao_real
+INC-SIM-063-01,métrica e denominador,{'denominator': 8},False,alta no cenário de exposição; exposição real desconhecida,False
+INC-SIM-063-02,acessibilidade,{'alt': ''},False,alta se informação só no gráfico; exposição real desconhecida,False
+INC-SIM-063-03,integridade histórica,{'interpretation': 'O desafiante C foi promovido sob MAT-EST-049-PROT-v1.'},False,alta no cenário de afirmação pública incorreta,False
+INC-SIM-063-04,proveniência,{'source_hash': '0000000000000000000000000000000000000000000000000000000000000000'},False,alta se fonte não rastreável,False
+INC-SIM-063-05,unidade e interpretação,{'unit_cost': 'unidades'},False,moderada conforme contexto e decisão,False
+INC-SIM-063-06,contexto da amostra,"{'caption': 'MAE B três, C quatro.'}",False,moderada com risco de generalização,False

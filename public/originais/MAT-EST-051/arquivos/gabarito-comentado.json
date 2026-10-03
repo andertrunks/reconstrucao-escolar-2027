@@ -1,0 +1,362 @@
+[
+  {
+    "id": "MAT-EST-051-EX-APR-01",
+    "titulo": "Quais períodos continuam sem observado?",
+    "resposta": "t23, t24 e t25.",
+    "resolucao": "Há cinco pares t18–t22, e os três alvos restantes do protocolo não foram revelados. Não completar a série com cenários.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-02",
+    "titulo": "Hipótese ou observação?",
+    "resposta": "Cenário hipotético.",
+    "resolucao": "O verbo condicional “fosse” indica alternativa fictícia; 191 não entra no CSV de observados.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-03",
+    "titulo": "Duas origens e alvos",
+    "resposta": "t23 e t24, respectivamente.",
+    "resolucao": "Horizonte um significa alvo imediatamente seguinte à origem, mas a emissão efetiva depende de uma observação prévia válida.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-04",
+    "titulo": "Leitura do erro",
+    "resposta": "+7 unidades.",
+    "resolucao": "Observado menos previsto: 147 − 140 = 7; o sinal positivo indica subprevisão.",
+    "motivosDeErro": [
+      "cálculo",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-05",
+    "titulo": "Média absoluta",
+    "resposta": "5 unidades.",
+    "resolucao": "Módulos 4 e 6; soma 10; dividir por dois resulta 5. Sinais não se cancelam no MAE.",
+    "motivosDeErro": [
+      "cálculo",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-06",
+    "titulo": "Custo congelado positivo",
+    "resposta": "12 pontos fictícios.",
+    "resolucao": "Para erro positivo, custo = 3 × 4 = 12. Peso três é parte do protocolo herdado.",
+    "motivosDeErro": [
+      "cálculo",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-07",
+    "titulo": "Custo congelado negativo",
+    "resposta": "4 pontos fictícios.",
+    "resolucao": "A parte positiva é zero e a magnitude da parte negativa é quatro.",
+    "motivosDeErro": [
+      "cálculo",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-08",
+    "titulo": "Oito ou cinco?",
+    "resposta": "Porque os três futuros não são erros zero nem pares completos.",
+    "resolucao": "O denominador de média por pares elegíveis deve ser cinco, com oito declarado separadamente como planejado.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-09",
+    "titulo": "Fonte sazonal B23",
+    "resposta": "183 unidades, recálculo ilustrativo.",
+    "resolucao": "A regra B usa y_(23−4) = y19 = 183; não transformá-lo em registro autenticado de emissão.",
+    "motivosDeErro": [
+      "cálculo",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-APR-10",
+    "titulo": "Previsão C23",
+    "resposta": "199 unidades, recálculo ilustrativo.",
+    "resolucao": "Somar 183 + 16 = 199, mantendo o status didático e sem acessar o verdadeiro y23.",
+    "motivosDeErro": [
+      "cálculo",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-01",
+    "titulo": "Derivar diferenças",
+    "resposta": "d22=17.",
+    "resolucao": "Diferença sazonal d22 é y22 menos y18: 193 − 176 = 17 unidades.",
+    "motivosDeErro": [
+      "cálculo",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-02",
+    "titulo": "Janela C24",
+    "resposta": "x−128.",
+    "resolucao": "d23=x−y19=x−183. Soma 55+(x−183)=x−128. Não dar valor numérico a x.",
+    "motivosDeErro": [
+      "cálculo",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-03",
+    "titulo": "Expressão para C24",
+    "resposta": "181+(x−128)/5.",
+    "resolucao": "C soma à referência a média de cinco diferenças. A fórmula só será numericamente utilizável quando x tiver origem válida.",
+    "motivosDeErro": [
+      "cálculo",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-04",
+    "titulo": "C24 num cenário",
+    "resposta": "193,6 unidades hipotéticas.",
+    "resolucao": "(191−128)/5=63/5=12,6; 181+12,6=193,6. Não adicionar y23=191 aos observados.",
+    "motivosDeErro": [
+      "cálculo",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-05",
+    "titulo": "C25 simbólico",
+    "resposta": "188+(x+z−305)/5.",
+    "resolucao": "B25=y21=188; d20+d21+d22=59, d23=x−183, d24=z−181. Total x+z−305; dividir por cinco.",
+    "motivosDeErro": [
+      "cálculo",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-06",
+    "titulo": "Quantos pares faltam?",
+    "resposta": "3 pares.",
+    "resolucao": "8−5=3, correspondentes aos alvos t23, t24 e t25. Não são emissores ou observações reais deste pacote.",
+    "motivosDeErro": [
+      "cálculo",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-07",
+    "titulo": "Limite de redução MAE",
+    "resposta": "16 unidades.",
+    "resolucao": "Vinte por cento de 20 é quatro; 20−4=16, equivalente a 0,8×20.",
+    "motivosDeErro": [
+      "cálculo",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-08",
+    "titulo": "Piora local herdada",
+    "resposta": "19,2 unidades; falha.",
+    "resolucao": "23,2−4=19,2, maior que dez. O registro da falha não se anula com novos pares ou médias melhores.",
+    "motivosDeErro": [
+      "cálculo",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-09",
+    "titulo": "Fluxo de dado atrasado",
+    "resposta": "1 novo par.",
+    "resolucao": "A outra emissão não é erro zero; a observação faltante permanece pendente e ambas as contagens devem aparecer no relatório.",
+    "motivosDeErro": [
+      "estratégia",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-CON-10",
+    "titulo": "Correção rastreável",
+    "resposta": "Adicionar evento de correção ligado ao original; preservar ambas as versões e reavaliar o par com proveniência.",
+    "resolucao": "Uma retificação muda a versão do observado para cálculos explicitamente auditados, não o instante ou o valor emitido antes.",
+    "motivosDeErro": [
+      "estratégia",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-01",
+    "titulo": "Gráfico com faixas vazias",
+    "resposta": "Incorreta: ausência de observado não é valor zero.",
+    "resolucao": "No gráfico, branco significa não revelado, e não número medido. Classificar o estado informacional é anterior ao cálculo.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-02",
+    "titulo": "Uma linha, duas previsões",
+    "resposta": "No máximo um alvo, e neste pacote zero observados em t23.",
+    "resolucao": "Comparação emparelhada é uma tarefa alvo-modelos; duplicar modelos não cria duas realizações independentes.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-03",
+    "titulo": "Protocolo com portas cumulativas",
+    "resposta": "Não. A condição local falhou.",
+    "resolucao": "As portas são cumulativas; completar o número e superar médias não desfaz o alvo t19.",
+    "motivosDeErro": [
+      "estratégia",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-04",
+    "titulo": "Proveniência de um número",
+    "resposta": "Confusão entre recálculo didático e emissão autenticada.",
+    "resolucao": "Conhecer apenas valores até t22 torna a fórmula retrospectivamente reproduzível, mas não prova data e autenticidade da emissão original.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-05",
+    "titulo": "Vazamento de dados",
+    "resposta": "Que y23 estava disponível, verificado e registrado antes da emissão para t24.",
+    "resolucao": "A sequência informacional, não apenas a ordem dos índices, é a exigência; atraso de publicação pode impedir o uso na origem nominal.",
+    "motivosDeErro": [
+      "estratégia",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-06",
+    "titulo": "Percentual com base nula",
+    "resposta": "Divisão por zero; a redução relativa está indefinida.",
+    "resolucao": "É necessário reportar os erros absolutos e a convenção previamente prevista; não inventar percentual infinito ou cem por cento.",
+    "motivosDeErro": [
+      "cálculo",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-07",
+    "titulo": "Retificação sem reemissão",
+    "resposta": "O valor original da previsão e a trilha da correção do observado; não refazer o passado.",
+    "resolucao": "Recalcular avaliação com a versão corrigida é distinto de adulterar uma previsão já emitida.",
+    "motivosDeErro": [
+      "estratégia",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-08",
+    "titulo": "Probabilidades sem distribuição",
+    "resposta": "Não. Cenários alternativos não fornecem distribuição probabilística.",
+    "resolucao": "Nenhum peso foi definido ou estimado; repartir 100% por três é uma escolha nova e injustificada.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-09",
+    "titulo": "Escolha pós-resultado de métrica",
+    "resposta": "Incorreto; trata-se de exploração ou novo protocolo, não da execução de MAT-EST-049-PROT-v1.",
+    "resolucao": "O peso três foi congelado. Mudar parâmetros depois de ver dados deve ser rotulado e não apagar a falha local.",
+    "motivosDeErro": [
+      "estratégia",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-VES-10",
+    "titulo": "Relatório sem denominador",
+    "resposta": "Exemplo: Nos cinco pares fictícios t18–t22 de horizonte um, o MAE do candidato C foi 8,36 unidades; há três alvos ainda sem observado e a guarda local falhou em t19.",
+    "resolucao": "A redação completa apresenta variável, período, unidade, caráter fictício, N e ressalva relevante.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-RET-01",
+    "titulo": "Planilha de controle",
+    "resposta": "N=4; 2 pares pendentes.",
+    "resolucao": "Planejado e elegível são contagens distintas; não imputar zeros aos dois alvos pendentes.",
+    "motivosDeErro": [
+      "cálculo",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-RET-02",
+    "titulo": "Nova janela simbólica",
+    "resposta": "(x−3)/3.",
+    "resolucao": "2+5+x−10=x−3; dividir por três. Não atribuir número a x se ele depende de observado futuro.",
+    "motivosDeErro": [
+      "cálculo",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-RET-03",
+    "titulo": "Conferência de ordem",
+    "resposta": "Não comprova emissão prospectiva; deve ser tratada como recálculo retrospectivo ou invalidada segundo protocolo.",
+    "resolucao": "A relação temporal comprovada entre registro de previsão e observação é requisito adicional à fórmula.",
+    "motivosDeErro": [
+      "estratégia",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-RET-04",
+    "titulo": "Guarda irreversível",
+    "resposta": "Não, o terceiro período já violou o limite seis.",
+    "resolucao": "A condição “nenhum alvo” é universal para o conjunto; ganhos posteriores não mudam o caso observado.",
+    "motivosDeErro": [
+      "conteúdo",
+      "interpretação"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-RET-05",
+    "titulo": "Comparação de custo",
+    "resposta": "10 e 5 pontos, respectivamente.",
+    "resolucao": "O primeiro custa duas vezes a magnitude positiva e o segundo custa uma vez a negativa; custo não é o módulo puro.",
+    "motivosDeErro": [
+      "cálculo",
+      "conteúdo"
+    ]
+  },
+  {
+    "id": "MAT-EST-051-EX-RET-06",
+    "titulo": "Mini parecer",
+    "resposta": "Resposta-modelo: O plano documenta antecipadamente origem, alvo, versões e métricas. Os alvos ainda não validados permanecem pendentes e não são substituídos por cenários. A decisão aplica todas as portas herdadas e registra limites, inclusive qualquer falha histórica.",
+    "resolucao": "O texto identifica três classes de evidência sem atribuir sucesso a evento não realizado.",
+    "motivosDeErro": [
+      "estratégia",
+      "interpretação"
+    ]
+  }
+]

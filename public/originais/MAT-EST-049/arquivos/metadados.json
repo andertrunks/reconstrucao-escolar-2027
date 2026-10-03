@@ -1,0 +1,175 @@
+{
+  "id": "MAT-EST-049",
+  "slug": "comparacao-prospectiva-modelos-temporais-desafiante-referencia-custos-decisao-atualizacao",
+  "titulo": "Comparação prospectiva de modelos temporais: desafiante, referência, custos e decisão de atualização",
+  "materia": "Matemática",
+  "unidade": "Estatística — Séries temporais / ponte universitária",
+  "nivel": 6,
+  "ordem": 49,
+  "preRequisitos": [
+    "MAT-EST-031",
+    "MAT-EST-032",
+    "MAT-EST-039",
+    "MAT-EST-041",
+    "MAT-EST-042",
+    "MAT-EST-043",
+    "MAT-EST-044",
+    "MAT-EST-045",
+    "MAT-EST-046",
+    "MAT-EST-047",
+    "MAT-EST-048"
+  ],
+  "objetivos": [
+    "Comparar dois modelos para os mesmos alvos e horizonte sem vazamento temporal",
+    "Reproduzir regra sazonal ingênua e média móvel de diferenças sazonais",
+    "Calcular MAE e diferenças pareadas",
+    "Aplicar perda assimétrica declarada",
+    "Separar agregados de piora local e verificar portas de protocolo",
+    "Preservar versões, resultados e plano de extensão sem promoção automática"
+  ],
+  "conceitosRelacionados": [
+    "referência",
+    "desafiante",
+    "diferença sazonal",
+    "origem móvel",
+    "erro assinado",
+    "MAE",
+    "métrica relativa",
+    "custo assimétrico",
+    "guarda por alvo",
+    "versionamento",
+    "reversão"
+  ],
+  "aplicacoes": [
+    "leitura crítica de dados",
+    "metodologia científica",
+    "governança de modelos",
+    "redação de relatório com limites"
+  ],
+  "examesRelacionados": [
+    "ENEM — interpretação matemática geral",
+    "FUVEST — leitura matemática geral",
+    "UNICAMP — interpretação geral",
+    "UNESP — interpretação geral",
+    "ponte universitária — modelagem temporal específica"
+  ],
+  "profundidadeEsperada": "Intuição, dependência formal, exemplos auditáveis, visual com áudio equivalente, estudo da perda, protocolo e ressalvas, exercícios graduais e reteste",
+  "anterior": "MAT-EST-048",
+  "proximoTopico": "MAT-EST-050",
+  "proximoTituloProposto": "Robustez temporal: cenários, sensibilidade a custos e documentação de limites de generalização",
+  "aulaMarkdown": "MAT-EST-049-comparacao-prospectiva-modelos-temporais-desafiante-referencia-custos-decisao-atualizacao.md",
+  "visuais": [
+    {
+      "src": "assets/01-linha-temporal-pares.svg",
+      "alt": "SVG com title e desc internos e descrição textual complementar após a figura no Markdown"
+    },
+    {
+      "src": "assets/02-erros-pareados.svg",
+      "alt": "SVG com title e desc internos e descrição textual complementar após a figura no Markdown"
+    },
+    {
+      "src": "assets/03-custos-por-alvo.svg",
+      "alt": "SVG com title e desc internos e descrição textual complementar após a figura no Markdown"
+    },
+    {
+      "src": "assets/04-portas-de-decisao.svg",
+      "alt": "SVG com title e desc internos e descrição textual complementar após a figura no Markdown"
+    },
+    {
+      "src": "assets/05-governanca-e-reversao.svg",
+      "alt": "SVG com title e desc internos e descrição textual complementar após a figura no Markdown"
+    },
+    {
+      "src": "assets/06-agregado-versus-falha.svg",
+      "alt": "SVG com title e desc internos e descrição textual complementar após a figura no Markdown"
+    }
+  ],
+  "video": {
+    "titulo": "Forecasting Principles & Practice: 5.10 Time series cross-validation",
+    "canal": "OTexts",
+    "url": "https://www.youtube.com/watch?v=OGpENuxjRWM",
+    "idioma": "inglês",
+    "duracaoAproximada": "não verificada; não informar estimativa sem fonte",
+    "momentoRecomendado": "após seção 4",
+    "motivo": "compreender avaliação por origens móveis e evitar uso do futuro",
+    "statusVerificacao": "resultado público identificado em 29/09/2026; reprodução integral e acessibilidade no Edge não verificadas"
+  },
+  "exercicios": {
+    "arquivo": "exercicios.json",
+    "quantidade": 36,
+    "porCamada": {
+      "aprendizagem": 10,
+      "consolidacao": 10,
+      "vestibular_autoral": 10,
+      "reteste": 6
+    },
+    "origem": "autoral"
+  },
+  "gabarito": "gabarito-comentado.json",
+  "exporRespostaAntesTentativa": false,
+  "revisao": "1, 7 e 30 dias a partir do estudo e de tentativa efetiva",
+  "progressoIndividual": "não iniciado; não alterado por geração editorial",
+  "statusEditorial": "pacote local produzido; sem integração, publicação ou sincronização",
+  "dados": {
+    "herdados_t01_t12": [
+      90,
+      107,
+      128,
+      105,
+      111,
+      124,
+      150,
+      127,
+      129,
+      145,
+      171,
+      144
+    ],
+    "herdados_t13_t18": [
+      134,
+      151,
+      187,
+      160,
+      167,
+      176
+    ],
+    "novos_ficticios_t19_t22": [
+      183,
+      181,
+      188,
+      193
+    ],
+    "proveniência": "t01–t18 reproduzidos do ZIP MAT-EST-048; t19–t22 são narrativa matemática criada nesta aula; t18 já havia sido divulgado",
+    "tipoAvaliação": "comparação encadeada em cenário sintético, NÃO validação cega em produção"
+  },
+  "modelos": {
+    "referencia": "BASE-SNAIVE-v1",
+    "desafiante": "CHAL-SDELTA5-v1",
+    "horizonte": 1,
+    "janelaDifSazonais": 5,
+    "sazonalidade": 4
+  },
+  "resultadosDidaticos": {
+    "pares_t18_t22": 5,
+    "maeReferencia": 17.6,
+    "maeDesafiante": 8.36,
+    "reduçãoRelativaMAE_pct": 52.5,
+    "custoMedioReferencia": 51.2,
+    "custoMedioDesafiante": 14.92,
+    "pioraLocal_t19_unidades": 19.2,
+    "decisaoProtocolo": "não promover; cinco de oito e guarda falhou"
+  },
+  "fontes": [
+    "https://otexts.com/fpp3/accuracy.html",
+    "https://otexts.com/fpp3/tscv.html",
+    "https://robjhyndman.com/hyndsight/fpp3_videos.html",
+    "https://www.youtube.com/watch?v=OGpENuxjRWM"
+  ],
+  "limitacoes": [
+    "sem publicação no site",
+    "sem sincronização com Drive/GitHub",
+    "sem teste de leitura real no Edge",
+    "vídeo não reproduzido integralmente",
+    "não afirmar dados reais, comparação cega ou vantagem futura"
+  ]
+}

@@ -1,0 +1,694 @@
+{
+  "id": "MAT-EST-046",
+  "source": "All twelve original observations preserved byte-for-byte; rolling-origin evaluations are retrospective didactic demonstrations because targets t9..t12 were disclosed in prior lessons.",
+  "preservedFiles": {
+    "dados-ficticios-referencia.csv": {
+      "from": "MAT-EST-045/dados-ficticios-referencia.csv",
+      "sha256Source": "f1cc3989cd8c701a14e544c424b797f27594806ae302a93253e2a1b82fab5ca9",
+      "sha256Local": "f1cc3989cd8c701a14e544c424b797f27594806ae302a93253e2a1b82fab5ca9"
+    },
+    "dados-ficticios-trimestrais.csv": {
+      "from": "MAT-EST-045/dados-ficticios-trimestrais.csv",
+      "sha256Source": "c1d765b97f058ad9f94fba88e46b9cd6e3c1056bf1653ca3b048b97ca7c1c6f1",
+      "sha256Local": "c1d765b97f058ad9f94fba88e46b9cd6e3c1056bf1653ca3b048b97ca7c1c6f1"
+    }
+  },
+  "observedSeries": [
+    90,
+    107,
+    128,
+    105,
+    111,
+    124,
+    150,
+    127,
+    129,
+    145,
+    171,
+    144
+  ],
+  "seasonalPeriod": 4,
+  "fixedSettings": {
+    "initialization": "heuristic from observations 1..4; same across all folds",
+    "alpha": 0.3,
+    "betaStar": 0.2,
+    "gamma": 0.2,
+    "noTuningOnEvaluationFolds": true,
+    "modelsRecomputedAtEachOrigin": true
+  },
+  "origins": [
+    8,
+    9,
+    10
+  ],
+  "horizons": [
+    1,
+    2
+  ],
+  "rows": [
+    {
+      "origin": 8,
+      "trainingPeriods": [
+        1,
+        8
+      ],
+      "h": 1,
+      "targetPeriod": 9,
+      "observed": 129,
+      "holtWinters": 130.99253183999997,
+      "seasonalNaive": 111,
+      "seasonalShift": 131.5,
+      "errorsObservedMinusPredicted": {
+        "holtWinters": -1.9925318399999696,
+        "seasonalNaive": 18,
+        "seasonalShift": -2.5
+      }
+    },
+    {
+      "origin": 8,
+      "trainingPeriods": [
+        1,
+        8
+      ],
+      "h": 2,
+      "targetPeriod": 10,
+      "observed": 145,
+      "holtWinters": 147.26192447999998,
+      "seasonalNaive": 124,
+      "seasonalShift": 144.5,
+      "errorsObservedMinusPredicted": {
+        "holtWinters": -2.2619244799999763,
+        "seasonalNaive": 21,
+        "seasonalShift": 0.5
+      }
+    },
+    {
+      "origin": 9,
+      "trainingPeriods": [
+        1,
+        9
+      ],
+      "h": 1,
+      "targetPeriod": 10,
+      "observed": 145,
+      "holtWinters": 146.54461301759997,
+      "seasonalNaive": 124,
+      "seasonalShift": 144,
+      "errorsObservedMinusPredicted": {
+        "holtWinters": -1.5446130175999713,
+        "seasonalNaive": 21,
+        "seasonalShift": 1
+      }
+    },
+    {
+      "origin": 9,
+      "trainingPeriods": [
+        1,
+        9
+      ],
+      "h": 2,
+      "targetPeriod": 11,
+      "observed": 171,
+      "holtWinters": 168.79637374719997,
+      "seasonalNaive": 150,
+      "seasonalShift": 170,
+      "errorsObservedMinusPredicted": {
+        "holtWinters": 2.203626252800035,
+        "seasonalNaive": 21,
+        "seasonalShift": 1
+      }
+    },
+    {
+      "origin": 10,
+      "trainingPeriods": [
+        1,
+        10
+      ],
+      "h": 1,
+      "targetPeriod": 11,
+      "observed": 171,
+      "holtWinters": 168.24031306086394,
+      "seasonalNaive": 150,
+      "seasonalShift": 170.16666666666666,
+      "errorsObservedMinusPredicted": {
+        "holtWinters": 2.75968693913606,
+        "seasonalNaive": 21,
+        "seasonalShift": 0.8333333333333428
+      }
+    },
+    {
+      "origin": 10,
+      "trainingPeriods": [
+        1,
+        10
+      ],
+      "h": 2,
+      "targetPeriod": 12,
+      "observed": 144,
+      "holtWinters": 144.99694580940792,
+      "seasonalNaive": 127,
+      "seasonalShift": 147.16666666666666,
+      "errorsObservedMinusPredicted": {
+        "holtWinters": -0.9969458094079187,
+        "seasonalNaive": 17,
+        "seasonalShift": -3.166666666666657
+      }
+    }
+  ],
+  "statesByOrigin": {
+    "8": {
+      "initialAndCurrent": {
+        "level": 135.6511392,
+        "trend": 5.1413926399999985,
+        "seasonals": [
+          -9.8,
+          1.3280000000000007,
+          18.55792,
+          -9.6146112
+        ],
+        "initialSlope": 5.0,
+        "initialSeasonals": [
+          -10.0,
+          2.0,
+          18.0,
+          -10.0
+        ]
+      },
+      "trainingOneStepTrace": [
+        {
+          "t": 5,
+          "observado": 111,
+          "previsaoUmPassoAnterior": 110.0,
+          "erroUmPasso": 1.0,
+          "nivel": 120.3,
+          "tendencia": 5.06,
+          "sazonal": -9.8
+        },
+        {
+          "t": 6,
+          "observado": 124,
+          "previsaoUmPassoAnterior": 127.36,
+          "erroUmPasso": -3.3599999999999994,
+          "nivel": 124.352,
+          "tendencia": 4.858400000000001,
+          "sazonal": 1.3280000000000007
+        },
+        {
+          "t": 7,
+          "observado": 150,
+          "previsaoUmPassoAnterior": 147.2104,
+          "erroUmPasso": 2.789600000000007,
+          "nivel": 130.04728,
+          "tendencia": 5.0257760000000005,
+          "sazonal": 18.55792
+        },
+        {
+          "t": 8,
+          "observado": 127,
+          "previsaoUmPassoAnterior": 125.07305600000001,
+          "erroUmPasso": 1.9269439999999918,
+          "nivel": 135.6511392,
+          "tendencia": 5.1413926399999985,
+          "sazonal": -9.6146112
+        }
+      ],
+      "annualShiftTrainingOnly": 20.5
+    },
+    "9": {
+      "initialAndCurrent": {
+        "level": 140.19477228799997,
+        "trend": 5.021840729599995,
+        "seasonals": [
+          1.3280000000000007,
+          18.55792,
+          -9.6146112,
+          -10.198506367999999
+        ],
+        "initialSlope": 5.0,
+        "initialSeasonals": [
+          -10.0,
+          2.0,
+          18.0,
+          -10.0
+        ]
+      },
+      "trainingOneStepTrace": [
+        {
+          "t": 5,
+          "observado": 111,
+          "previsaoUmPassoAnterior": 110.0,
+          "erroUmPasso": 1.0,
+          "nivel": 120.3,
+          "tendencia": 5.06,
+          "sazonal": -9.8
+        },
+        {
+          "t": 6,
+          "observado": 124,
+          "previsaoUmPassoAnterior": 127.36,
+          "erroUmPasso": -3.3599999999999994,
+          "nivel": 124.352,
+          "tendencia": 4.858400000000001,
+          "sazonal": 1.3280000000000007
+        },
+        {
+          "t": 7,
+          "observado": 150,
+          "previsaoUmPassoAnterior": 147.2104,
+          "erroUmPasso": 2.789600000000007,
+          "nivel": 130.04728,
+          "tendencia": 5.0257760000000005,
+          "sazonal": 18.55792
+        },
+        {
+          "t": 8,
+          "observado": 127,
+          "previsaoUmPassoAnterior": 125.07305600000001,
+          "erroUmPasso": 1.9269439999999918,
+          "nivel": 135.6511392,
+          "tendencia": 5.1413926399999985,
+          "sazonal": -9.6146112
+        },
+        {
+          "t": 9,
+          "observado": 129,
+          "previsaoUmPassoAnterior": 130.99253183999997,
+          "erroUmPasso": -1.9925318399999696,
+          "nivel": 140.19477228799997,
+          "tendencia": 5.021840729599995,
+          "sazonal": -10.198506367999999
+        }
+      ],
+      "annualShiftTrainingOnly": 20
+    },
+    "10": {
+      "initialAndCurrent": {
+        "level": 144.75322911231996,
+        "trend": 4.9291639485439935,
+        "seasonals": [
+          18.55792,
+          -9.6146112,
+          -10.198506367999999,
+          1.0190773964800082
+        ],
+        "initialSlope": 5.0,
+        "initialSeasonals": [
+          -10.0,
+          2.0,
+          18.0,
+          -10.0
+        ]
+      },
+      "trainingOneStepTrace": [
+        {
+          "t": 5,
+          "observado": 111,
+          "previsaoUmPassoAnterior": 110.0,
+          "erroUmPasso": 1.0,
+          "nivel": 120.3,
+          "tendencia": 5.06,
+          "sazonal": -9.8
+        },
+        {
+          "t": 6,
+          "observado": 124,
+          "previsaoUmPassoAnterior": 127.36,
+          "erroUmPasso": -3.3599999999999994,
+          "nivel": 124.352,
+          "tendencia": 4.858400000000001,
+          "sazonal": 1.3280000000000007
+        },
+        {
+          "t": 7,
+          "observado": 150,
+          "previsaoUmPassoAnterior": 147.2104,
+          "erroUmPasso": 2.789600000000007,
+          "nivel": 130.04728,
+          "tendencia": 5.0257760000000005,
+          "sazonal": 18.55792
+        },
+        {
+          "t": 8,
+          "observado": 127,
+          "previsaoUmPassoAnterior": 125.07305600000001,
+          "erroUmPasso": 1.9269439999999918,
+          "nivel": 135.6511392,
+          "tendencia": 5.1413926399999985,
+          "sazonal": -9.6146112
+        },
+        {
+          "t": 9,
+          "observado": 129,
+          "previsaoUmPassoAnterior": 130.99253183999997,
+          "erroUmPasso": -1.9925318399999696,
+          "nivel": 140.19477228799997,
+          "tendencia": 5.021840729599995,
+          "sazonal": -10.198506367999999
+        },
+        {
+          "t": 10,
+          "observado": 145,
+          "previsaoUmPassoAnterior": 146.54461301759997,
+          "erroUmPasso": -1.5446130175999713,
+          "nivel": 144.75322911231996,
+          "tendencia": 4.9291639485439935,
+          "sazonal": 1.0190773964800082
+        }
+      ],
+      "annualShiftTrainingOnly": 20.166666666666668
+    }
+  },
+  "metrics": {
+    "holtWinters": {
+      "h1": {
+        "nForecastTasks": 3,
+        "signedErrors": [
+          -1.9925318399999696,
+          -1.5446130175999713,
+          2.75968693913606
+        ],
+        "mae": 2.0989439322453336,
+        "rmse": 2.1580766521443047,
+        "meanSignedError": -0.25915263948796036,
+        "largestAbsoluteError": 2.75968693913606
+      },
+      "h2": {
+        "nForecastTasks": 3,
+        "signedErrors": [
+          -2.2619244799999763,
+          2.203626252800035,
+          -0.9969458094079187
+        ],
+        "mae": 1.8208321807359766,
+        "rmse": 1.9119075955834177,
+        "meanSignedError": -0.35174801220262,
+        "largestAbsoluteError": 2.2619244799999763
+      },
+      "pooled6ForecastTasks": {
+        "nForecastTasks": 6,
+        "signedErrors": [
+          -1.9925318399999696,
+          -2.2619244799999763,
+          -1.5446130175999713,
+          2.203626252800035,
+          2.75968693913606,
+          -0.9969458094079187
+        ],
+        "mae": 1.9598880564906551,
+        "rmse": 2.038711049974951,
+        "meanSignedError": -0.30545032584529014,
+        "largestAbsoluteError": 2.75968693913606
+      }
+    },
+    "seasonalNaive": {
+      "h1": {
+        "nForecastTasks": 3,
+        "signedErrors": [
+          18,
+          21,
+          21
+        ],
+        "mae": 20,
+        "rmse": 20.049937655763422,
+        "meanSignedError": 20,
+        "largestAbsoluteError": 21
+      },
+      "h2": {
+        "nForecastTasks": 3,
+        "signedErrors": [
+          21,
+          21,
+          17
+        ],
+        "mae": 19.666666666666668,
+        "rmse": 19.75685535031659,
+        "meanSignedError": 19.666666666666668,
+        "largestAbsoluteError": 21
+      },
+      "pooled6ForecastTasks": {
+        "nForecastTasks": 6,
+        "signedErrors": [
+          18,
+          21,
+          21,
+          21,
+          21,
+          17
+        ],
+        "mae": 19.833333333333332,
+        "rmse": 19.903935959168145,
+        "meanSignedError": 19.833333333333332,
+        "largestAbsoluteError": 21
+      }
+    },
+    "seasonalShift": {
+      "h1": {
+        "nForecastTasks": 3,
+        "signedErrors": [
+          -2.5,
+          1,
+          0.8333333333333428
+        ],
+        "mae": 1.4444444444444475,
+        "rmse": 1.6273131684307582,
+        "meanSignedError": -0.22222222222221907,
+        "largestAbsoluteError": 2.5
+      },
+      "h2": {
+        "nForecastTasks": 3,
+        "signedErrors": [
+          0.5,
+          1,
+          -3.166666666666657
+        ],
+        "mae": 1.5555555555555525,
+        "rmse": 1.9388809296239002,
+        "meanSignedError": -0.5555555555555524,
+        "largestAbsoluteError": 3.166666666666657
+      },
+      "pooled6ForecastTasks": {
+        "nForecastTasks": 6,
+        "signedErrors": [
+          -2.5,
+          0.5,
+          1,
+          1,
+          0.8333333333333428,
+          -3.166666666666657
+        ],
+        "mae": 1.5,
+        "rmse": 1.7898892992874438,
+        "meanSignedError": -0.38888888888888573,
+        "largestAbsoluteError": 3.166666666666657
+      }
+    },
+    "byOrigin": {
+      "8": {
+        "holtWinters": {
+          "nForecastTasks": 2,
+          "signedErrors": [
+            -1.9925318399999696,
+            -2.2619244799999763
+          ],
+          "mae": 2.127228159999973,
+          "rmse": 2.131488386859852,
+          "meanSignedError": -2.127228159999973,
+          "largestAbsoluteError": 2.2619244799999763
+        },
+        "seasonalNaive": {
+          "nForecastTasks": 2,
+          "signedErrors": [
+            18,
+            21
+          ],
+          "mae": 19.5,
+          "rmse": 19.557607215607945,
+          "meanSignedError": 19.5,
+          "largestAbsoluteError": 21
+        },
+        "seasonalShift": {
+          "nForecastTasks": 2,
+          "signedErrors": [
+            -2.5,
+            0.5
+          ],
+          "mae": 1.5,
+          "rmse": 1.8027756377319946,
+          "meanSignedError": -1.0,
+          "largestAbsoluteError": 2.5
+        }
+      },
+      "9": {
+        "holtWinters": {
+          "nForecastTasks": 2,
+          "signedErrors": [
+            -1.5446130175999713,
+            2.203626252800035
+          ],
+          "mae": 1.8741196352000031,
+          "rmse": 1.9028660010847864,
+          "meanSignedError": 0.32950661760003186,
+          "largestAbsoluteError": 2.203626252800035
+        },
+        "seasonalNaive": {
+          "nForecastTasks": 2,
+          "signedErrors": [
+            21,
+            21
+          ],
+          "mae": 21,
+          "rmse": 21.0,
+          "meanSignedError": 21,
+          "largestAbsoluteError": 21
+        },
+        "seasonalShift": {
+          "nForecastTasks": 2,
+          "signedErrors": [
+            1,
+            1
+          ],
+          "mae": 1,
+          "rmse": 1.0,
+          "meanSignedError": 1,
+          "largestAbsoluteError": 1
+        }
+      },
+      "10": {
+        "holtWinters": {
+          "nForecastTasks": 2,
+          "signedErrors": [
+            2.75968693913606,
+            -0.9969458094079187
+          ],
+          "mae": 1.8783163742719893,
+          "rmse": 2.0748220344085135,
+          "meanSignedError": 0.8813705648640706,
+          "largestAbsoluteError": 2.75968693913606
+        },
+        "seasonalNaive": {
+          "nForecastTasks": 2,
+          "signedErrors": [
+            21,
+            17
+          ],
+          "mae": 19,
+          "rmse": 19.1049731745428,
+          "meanSignedError": 19,
+          "largestAbsoluteError": 21
+        },
+        "seasonalShift": {
+          "nForecastTasks": 2,
+          "signedErrors": [
+            0.8333333333333428,
+            -3.166666666666657
+          ],
+          "mae": 2.0,
+          "rmse": 2.3154073315749626,
+          "meanSignedError": -1.1666666666666572,
+          "largestAbsoluteError": 3.166666666666657
+        }
+      }
+    }
+  },
+  "uncertaintyIllustration": {
+    "type": "Predeclared illustrative bands, not calibrated prediction intervals",
+    "halfWidthsByHorizon": {
+      "h1": 2,
+      "h2": 3
+    },
+    "bandRows": [
+      {
+        "origin": 8,
+        "h": 1,
+        "target": 9,
+        "observed": 129,
+        "center": 130.99253183999997,
+        "lower": 128.99253183999997,
+        "upper": 132.99253183999997,
+        "width": 4.0,
+        "withinInclusive": true,
+        "type": "didactic prespecified band; no nominal probability or calibration claim"
+      },
+      {
+        "origin": 8,
+        "h": 2,
+        "target": 10,
+        "observed": 145,
+        "center": 147.26192447999998,
+        "lower": 144.26192447999998,
+        "upper": 150.26192447999998,
+        "width": 6.0,
+        "withinInclusive": true,
+        "type": "didactic prespecified band; no nominal probability or calibration claim"
+      },
+      {
+        "origin": 9,
+        "h": 1,
+        "target": 10,
+        "observed": 145,
+        "center": 146.54461301759997,
+        "lower": 144.54461301759997,
+        "upper": 148.54461301759997,
+        "width": 4.0,
+        "withinInclusive": true,
+        "type": "didactic prespecified band; no nominal probability or calibration claim"
+      },
+      {
+        "origin": 9,
+        "h": 2,
+        "target": 11,
+        "observed": 171,
+        "center": 168.79637374719997,
+        "lower": 165.79637374719997,
+        "upper": 171.79637374719997,
+        "width": 6.0,
+        "withinInclusive": true,
+        "type": "didactic prespecified band; no nominal probability or calibration claim"
+      },
+      {
+        "origin": 10,
+        "h": 1,
+        "target": 11,
+        "observed": 171,
+        "center": 168.24031306086394,
+        "lower": 166.24031306086394,
+        "upper": 170.24031306086394,
+        "width": 4.0,
+        "withinInclusive": false,
+        "type": "didactic prespecified band; no nominal probability or calibration claim"
+      },
+      {
+        "origin": 10,
+        "h": 2,
+        "target": 12,
+        "observed": 144,
+        "center": 144.99694580940792,
+        "lower": 141.99694580940792,
+        "upper": 147.99694580940792,
+        "width": 6.0,
+        "withinInclusive": true,
+        "type": "didactic prespecified band; no nominal probability or calibration claim"
+      }
+    ],
+    "retrospectiveCoverage": {
+      "h1": {
+        "covered": 2,
+        "denominator": 3,
+        "bandWidth": 4.0
+      },
+      "h2": {
+        "covered": 3,
+        "denominator": 3,
+        "bandWidth": 6.0
+      }
+    },
+    "warning": "Only three overlapping tasks per horizon; cannot claim 80%, 90% or 95% coverage or independence."
+  },
+  "limits": [
+    "Only twelve invented points, with eight at first origin, seasonal period four.",
+    "Already-disclosed t9-t12; illustrative retrospective audit, not fresh unbiased holdout.",
+    "Each model and parameters are fixed from preceding lesson; no comparative hyperparameter search performed.",
+    "Tasks overlap in time: target t10 is forecast from origins 8 and 9; six errors are not six independent real-world time periods.",
+    "Intervals chosen for a diagnostic classroom demonstration, not estimated/calibrated probabilistic coverage."
+  ]
+}

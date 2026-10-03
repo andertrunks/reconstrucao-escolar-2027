@@ -1,0 +1,196 @@
+﻿MAT-EST-008 — Gabarito comentado — reconstrução editorial v1
+
+
+Use somente após tentativa real. Todos os itens são autorais.
+
+
+CAMADA APR
+
+
+MAT-EST-008-EX-APR-01
+Resposta e raciocínio: Média 4; desvios −2,0,+2.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-APR-02
+Resposta e raciocínio: 4,0,4.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-APR-03
+Resposta e raciocínio: 8/3≈2,67.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-APR-04
+Resposta e raciocínio: √(8/3)≈1,63.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-APR-05
+Resposta e raciocínio: cm².
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-APR-06
+Resposta e raciocínio: segundos.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-APR-07
+Resposta e raciocínio: Todos os valores são iguais.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-APR-08
+Resposta e raciocínio: Não, pois é média de quadrados.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-APR-09
+Resposta e raciocínio: Porque os desvios em torno da média se cancelam e somam zero.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-APR-10
+Resposta e raciocínio: Amplitude usa apenas mínimo e máximo; variância usa todas as observações.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+CAMADA CON
+
+
+MAT-EST-008-EX-CON-01
+Resposta e raciocínio: Média 5; σ²=2/3≈0,67; σ≈0,82.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-CON-02
+Resposta e raciocínio: Média 5; σ²=50/3≈16,67; σ≈4,08.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-CON-03
+Resposta e raciocínio: O segundo é muito mais disperso apesar da mesma média.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-CON-04
+Resposta e raciocínio: s²=8/2=4; s=2.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-CON-05
+Resposta e raciocínio: A média foi estimada pela própria amostra; resta n−1 graus de liberdade e o divisor corrige a subestimação da variância populacional.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-CON-06
+Resposta e raciocínio: Não mudam.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-CON-07
+Resposta e raciocínio: Variância multiplica por 9; DP por 3.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-CON-08
+Resposta e raciocínio: Média 2; σ²=0,5; σ≈0,71.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-CON-09
+Resposta e raciocínio: 8.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-CON-10
+Resposta e raciocínio: 225.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+CAMADA VES
+
+
+MAT-EST-008-EX-VES-01
+Resposta e raciocínio: B, pois 8>2 na mesma escala.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-VES-02
+Resposta e raciocínio: O segundo processo tem maior variabilidade em torno da mesma média.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-VES-03
+Resposta e raciocínio: 40/4=10.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-VES-04
+Resposta e raciocínio: 40/5=8.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-VES-05
+Resposta e raciocínio: Porque os desvios foram elevados ao quadrado; o DP tira a raiz e volta à unidade original.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-VES-06
+Resposta e raciocínio: Não automaticamente. Extremo válido pertence aos dados; exclusão exige justificativa metodológica.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-VES-07
+Resposta e raciocínio: Não. A regra depende de distribuição aproximadamente normal.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-VES-08
+Resposta e raciocínio: DP mede variabilidade das observações; erro-padrão mede variabilidade de uma estatística entre amostras.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-VES-09
+Resposta e raciocínio: Média 73; DP 12.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-VES-10
+Resposta e raciocínio: Não. As escalas são muito diferentes; é preciso contexto e uma medida relativa como o CV quando apropriado.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+CAMADA RET
+
+
+MAT-EST-008-EX-RET-01
+Resposta e raciocínio: σ²=Σ(x−μ)²/N; s²=Σ(x−x̄)²/(n−1); DP é a raiz da variância.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-RET-02
+Resposta e raciocínio: Variância 0; DP 0.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-RET-03
+Resposta e raciocínio: 20.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-RET-04
+Resposta e raciocínio: A média também aumenta pela mesma constante, mantendo x−média igual.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-RET-05
+Resposta e raciocínio: 21/7=3.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.
+
+
+MAT-EST-008-EX-RET-06
+Resposta e raciocínio: A mesma magnitude pode ser grande ou pequena dependendo da unidade e da escala média do fenômeno.
+Motivo provável do erro: conteúdo, interpretação, cálculo, unidade, escolha de fórmula ou estratégia.

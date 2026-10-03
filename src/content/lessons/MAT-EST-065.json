@@ -1,0 +1,516 @@
+{
+  "id": "MAT-EST-065",
+  "version": "publicacao-2026-10-03-v1",
+  "objective": "especificar numerador, denominador, janela e unidade\n\ndistinguir completude, erro médio e custo\n\ninterpretar nulos e ausências\n\nseparar verificação de fixture e qualidade operacional\n\ncriar linha de base sem inventar tendência",
+  "prerequisites": [
+    "MAT-EST-047",
+    "MAT-EST-049",
+    "MAT-EST-057",
+    "MAT-EST-058",
+    "MAT-EST-060",
+    "MAT-EST-064"
+  ],
+  "why": "# MAT-EST-065 — Indicadores de qualidade editorial: definição operacional, linhas de base e acompanhamento sem métricas ilusórias\n\n**Matéria:** Matemática. **Unidade:** Estatística — ponte universitária. **Nível:** 6. **Anterior:** MAT-EST-064. **Próximo tópico editorial proposto:** MAT-EST-066. **Origem:** aula, figuras e todas as questões autorais; zero questões oficiais. **Estado de estudo individual:** não iniciado; não houve tentativa registrada. **Estado da produção:** concluída em pacote local; não publicada.\n\n**Blocos de estudo sugeridos:** A, conceito e denominadores (25 a 50 minutos); B, qualidade de medidas e linhas de base (25 a 50 minutos); C, interpretação, relatório e exercícios (25 a 50 minutos). É permitido parar e recuperar a divisão, a média e a porcentagem antes de avançar.\n\n",
+  "intuitive": [],
+  "deep": [],
+  "vocabulary": [],
+  "examples": [],
+  "visuals": [
+    {
+      "url": "media/MAT-EST-065/01-denominadores.svg",
+      "caption": "Figura 1",
+      "alt": "Oito cartões planejados e dois avaliáveis; MAE B divide seis por dois, enquanto completude divide dois por oito.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Oito cartões planejados e dois avaliáveis; MAE B divide seis por dois, enquanto completude divide dois por oito."
+    },
+    {
+      "url": "media/MAT-EST-065/02-unidades.svg",
+      "caption": "Figura 2",
+      "alt": "Distingue 7 pontos de custo de três e quatro unidades de erro absoluto médio.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Distingue 7 pontos de custo de três e quatro unidades de erro absoluto médio."
+    },
+    {
+      "url": "media/MAT-EST-065/03-estados.svg",
+      "caption": "Figura 3",
+      "alt": "Mostra G1 e G2 checados localmente, G3 a G6 pendentes, G7 e G8 não executados.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Mostra G1 e G2 checados localmente, G3 a G6 pendentes, G7 e G8 não executados."
+    },
+    {
+      "url": "media/MAT-EST-065/04-fotografia.svg",
+      "caption": "Figura 4",
+      "alt": "A linha de base consiste em uma única fotografia didática, não em vários instantes comparáveis.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "A linha de base consiste em uma única fotografia didática, não em vários instantes comparáveis."
+    },
+    {
+      "url": "media/MAT-EST-065/05-limites.svg",
+      "caption": "Figura 5",
+      "alt": "Seis mutações artificiais foram detectadas; nenhuma taxa de incidente real foi estimada.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Seis mutações artificiais foram detectadas; nenhuma taxa de incidente real foi estimada."
+    },
+    {
+      "url": "media/MAT-EST-065/06-protocolo.svg",
+      "caption": "Figura 6",
+      "alt": "Cada indicador exige escopo, fonte, regra de inclusão, versões, frequência e resposta a pendências.",
+      "observe": "Observe os rótulos, a ordem e as relações representadas.",
+      "conclusion": "Cada indicador exige escopo, fonte, regra de inclusão, versões, frequência e resposta a pendências."
+    }
+  ],
+  "applications": [],
+  "connections": [],
+  "commonErrors": [],
+  "learning": [
+    "MAT-EST-065-EX-APR-01",
+    "MAT-EST-065-EX-APR-02",
+    "MAT-EST-065-EX-APR-03",
+    "MAT-EST-065-EX-APR-04",
+    "MAT-EST-065-EX-APR-05",
+    "MAT-EST-065-EX-APR-06",
+    "MAT-EST-065-EX-APR-07",
+    "MAT-EST-065-EX-APR-08",
+    "MAT-EST-065-EX-APR-09",
+    "MAT-EST-065-EX-APR-10"
+  ],
+  "consolidation": [
+    "MAT-EST-065-EX-CON-01",
+    "MAT-EST-065-EX-CON-02",
+    "MAT-EST-065-EX-CON-03",
+    "MAT-EST-065-EX-CON-04",
+    "MAT-EST-065-EX-CON-05",
+    "MAT-EST-065-EX-CON-06",
+    "MAT-EST-065-EX-CON-07",
+    "MAT-EST-065-EX-CON-08",
+    "MAT-EST-065-EX-CON-09",
+    "MAT-EST-065-EX-CON-10"
+  ],
+  "entrance": [
+    "MAT-EST-065-EX-VES-01",
+    "MAT-EST-065-EX-VES-02",
+    "MAT-EST-065-EX-VES-03",
+    "MAT-EST-065-EX-VES-04",
+    "MAT-EST-065-EX-VES-05",
+    "MAT-EST-065-EX-VES-06",
+    "MAT-EST-065-EX-VES-07",
+    "MAT-EST-065-EX-VES-08",
+    "MAT-EST-065-EX-VES-09",
+    "MAT-EST-065-EX-VES-10"
+  ],
+  "retest": [
+    "MAT-EST-065-EX-RET-01",
+    "MAT-EST-065-EX-RET-02",
+    "MAT-EST-065-EX-RET-03",
+    "MAT-EST-065-EX-RET-04",
+    "MAT-EST-065-EX-RET-05",
+    "MAT-EST-065-EX-RET-06"
+  ],
+  "solutions": [],
+  "summary": "## 12. Atividades, devolutiva e síntese\n\nAs 36 atividades estão em `exercicios.md` e `exercicios.json`: dez de aprendizagem, dez de consolidação, dez contextualizadas em estilo vestibular e seis de reteste posterior. O gabarito e os motivos prováveis de erro estão exclusivamente em `gabarito-comentado.md` e `gabarito-comentado.json`. Tente antes de abrir a correção; produção editorial não constitui evidência de estudo pessoal.\n\n**Resumo pronunciável:** um indicador é uma pergunta traduzida em regra. Para o MAE do SANDBOX-057, divida a soma dos erros por dois pares; para completude, divida dois por oito cartões. Informe unidade, escopo, versão e lacunas. Se o denominador dos pares futuros é zero, a média não é zero: ela não existe ainda. Seis de seis mutações rejeitadas são seis testes de laboratório, não cobertura universal. Uma linha de base só vira acompanhamento quando chegam novas fotografias comparáveis. A publicação depende de evidências adicionais, não de um painel vistoso.\n\n**Revisão espaçada:** um, sete e trinta dias após uma tentativa real. Dia um: refazer MAE e completude. Dia sete: redigir a ficha de K65-06 e justificar o limite de generalização. Dia trinta: resolver o reteste, construir relatório com numeradores, denominadores e nulos e identificar quais controles continuam pendentes. Consolidar somente após evidência de explicação, resolução, aplicação e recuperação.\n\n**Próximo passo editorial proposto, ainda não iniciado:** MAT-EST-066 — Revisão crítica e consolidação da unidade de avaliação temporal: integração de métricas, auditoria e transferência para problemas novos. Não pressupõe publicação nem estudo individual concluído.\n\n**Limites de execução:** somente arquivos locais. Não houve sincronização com Google Drive/GitHub, integração no site, aprovação humana, reprodução integral do vídeo, teste de áudio no Edge, observações adicionais ou alteração do progresso individual.\n",
+  "audioVersion": "## 12. Atividades, devolutiva e síntese\n\nAs 36 atividades estão em `exercicios.md` e `exercicios.json`: dez de aprendizagem, dez de consolidação, dez contextualizadas em estilo vestibular e seis de reteste posterior. O gabarito e os motivos prováveis de erro estão exclusivamente em `gabarito-comentado.md` e `gabarito-comentado.json`. Tente antes de abrir a correção; produção editorial não constitui evidência de estudo pessoal.\n\n**Resumo pronunciável:** um indicador é uma pergunta traduzida em regra. Para o MAE do SANDBOX-057, divida a soma dos erros por dois pares; para completude, divida dois por oito cartões. Informe unidade, escopo, versão e lacunas. Se o denominador dos pares futuros é zero, a média não é zero: ela não existe ainda. Seis de seis mutações rejeitadas são seis testes de laboratório, não cobertura universal. Uma linha de base só vira acompanhamento quando chegam novas fotografias comparáveis. A publicação depende de evidências adicionais, não de um painel vistoso.\n\n**Revisão espaçada:** um, sete e trinta dias após uma tentativa real. Dia um: refazer MAE e completude. Dia sete: redigir a ficha de K65-06 e justificar o limite de generalização. Dia trinta: resolver o reteste, construir relatório com numeradores, denominadores e nulos e identificar quais controles continuam pendentes. Consolidar somente após evidência de explicação, resolução, aplicação e recuperação.\n\n**Próximo passo editorial proposto, ainda não iniciado:** MAT-EST-066 — Revisão crítica e consolidação da unidade de avaliação temporal: integração de métricas, auditoria e transferência para problemas novos. Não pressupõe publicação nem estudo individual concluído.\n\n**Limites de execução:** somente arquivos locais. Não houve sincronização com Google Drive/GitHub, integração no site, aprovação humana, reprodução integral do vídeo, teste de áudio no Edge, observações adicionais ou alteração do progresso individual.\n",
+  "sections": [
+    {
+      "id": "MAT-EST-065-s000",
+      "title": "Apresentação e contexto da fonte",
+      "paragraphs": [],
+      "markdown": "# MAT-EST-065 — Indicadores de qualidade editorial: definição operacional, linhas de base e acompanhamento sem métricas ilusórias\n\n**Matéria:** Matemática. **Unidade:** Estatística — ponte universitária. **Nível:** 6. **Anterior:** MAT-EST-064. **Próximo tópico editorial proposto:** MAT-EST-066. **Origem:** aula, figuras e todas as questões autorais; zero questões oficiais. **Estado de estudo individual:** não iniciado; não houve tentativa registrada. **Estado da produção:** concluída em pacote local; não publicada.\n\n**Blocos de estudo sugeridos:** A, conceito e denominadores (25 a 50 minutos); B, qualidade de medidas e linhas de base (25 a 50 minutos); C, interpretação, relatório e exercícios (25 a 50 minutos). É permitido parar e recuperar a divisão, a média e a porcentagem antes de avançar.\n\n",
+      "sourceStart": 0,
+      "sourceEnd": 806
+    },
+    {
+      "id": "MAT-EST-065-s001",
+      "title": "1. Objetivo e pré-requisitos",
+      "paragraphs": [],
+      "markdown": "## 1. Objetivo e pré-requisitos\n\nAo estudar e resolver os exercícios, você deverá conseguir: definir um indicador pelo que efetivamente mede; separar população, corte temporal, numerador, denominador e unidade; calcular métricas somente sobre observações elegíveis; preservar valores não estimáveis como ausentes; distinguir resultado de teste local de qualidade em operação; criar uma linha de base auditável; identificar incentivos para maquiar indicadores; redigir um painel que não comunique certeza excessiva; indicar quais evidências faltam para monitorar o site de verdade.\n\n**Pré-requisitos:** fração e porcentagem, média e erro absoluto; distinção entre observação e valor ausente (MAT-EST-047, 052 e 057); avaliação emparelhada e viés de seleção (MAT-EST-049 e 058); proveniência e auditoria (MAT-EST-053 e 054); testes de regressão e pendências (MAT-EST-060 a 064). Se MAE ainda for difícil, refazer primeiro a conta de quatro mais dois, divididos por dois.\n\n**Importância nos exames:** porcentagens, médias, leitura de gráficos, escolha de denominadores e análise crítica de inferências têm transferência para ENEM e vestibulares. Governança de indicadores editoriais e metodologias de avaliação são aprofundamento de ponte universitária; não são atribuídas aqui a um edital específico sem comprovação. Todas as atividades são autorais, inclusive as de estilo vestibular.\n\n",
+      "sourceStart": 806,
+      "sourceEnd": 2191
+    },
+    {
+      "id": "MAT-EST-065-s002",
+      "title": "2. Por que indicadores existem, e por que enganam",
+      "paragraphs": [],
+      "markdown": "## 2. Por que indicadores existem, e por que enganam\n\nUma equipe só consegue acompanhar uma atividade se formular perguntas precisas. “As aulas estão boas?” parece simples, mas mistura fatores diversos: correção do conteúdo, exercícios verificáveis, acessibilidade, aprovação humana, publicação e experiência real do estudante. Nenhum número isolado cobre todas essas dimensões.\n\nUm **indicador** é uma regra de observação ou de cálculo que responde a uma pergunta delimitada. Sua **definição operacional** informa quais eventos contam, qual população está incluída, em que momento, qual fonte é usada, qual unidade aparece e como lidar com ausências e correções. Dois indicadores que mostram 25% podem significar coisas completamente distintas.\n\nNeste capítulo, os dados são apenas os exemplos já existentes. Não há uma campanha real de mensuração, incidentes comprovados em produção ou usuários medidos. A fotografia inicial é uma **derivação didática local**, não o início de uma série temporal autenticada. A aplicação de acompanhamento a um site real exigiria eventos e verificações futuros.\n\n",
+      "sourceStart": 2191,
+      "sourceEnd": 3289
+    },
+    {
+      "id": "MAT-EST-065-s003",
+      "title": "3. A pergunta determina a fórmula",
+      "paragraphs": [],
+      "markdown": "## 3. A pergunta determina a fórmula\n\nO SANDBOX-057 é um laboratório independente com oito cartões S01–S08. Apenas S01 e S02 são avaliáveis no corte A; os outros seis têm pendências. Para a referência B, os erros assinados são mais quatro e menos dois. Para o desafiante C, são mais três e menos cinco. O erro absoluto é a magnitude, sem o sinal.\n\n\\[\\mathrm{MAE}_B=\\frac{|+4|+|-2|}{2}=\\frac{6}{2}=3\\text{ unidades}.\\]\n\n**Leitura para voz:** o erro absoluto médio de B é quatro mais dois, dividido pelos dois pares avaliáveis: três unidades. O numerador é a soma das magnitudes de erro; o denominador é a quantidade de pares elegíveis com observado e previsão disponíveis no corte e na versão declarados.\n\n\\[\\mathrm{Completude}=\\frac{2\\text{ pares avaliáveis}}{8\\text{ cartões planejados}}=\\frac14=25\\%.\\]\n\n**Leitura para voz:** completude é dois dividido por oito, igual a um quarto ou vinte e cinco por cento. Aqui o denominador não é dois: são os oito cartões planejados. Completude é quantidade de material avaliável, não acerto ou precisão do modelo.\n\nSe alguém dividir seis por oito e publicar 0,75 como erro absoluto médio de B, terá trocado o denominador; esse é precisamente o defeito artificial I01. A diferença para o resultado válido é 2,25 unidades; 0,75 é 75% inferior a três. Usar os seis pendentes como erros zero também produz distorção. Pendente não é zero.\n\n![Denominadores de perguntas diferentes](assets/01-denominadores.svg)\n\n**Figura 1.** Texto alternativo: o MAE de B usa seis unidades de erro e dois pares, resultando em três; completude usa dois avaliáveis entre oito planejados, resultando em 25%; seis dividido por oito não é MAE. **Observe:** a população muda com a pergunta. **Conclusão para áudio:** escolher o denominador é uma decisão de significado, não um detalhe de cálculo.\n\n",
+      "sourceStart": 3289,
+      "sourceEnd": 5100
+    },
+    {
+      "id": "MAT-EST-065-s004",
+      "title": "4. Unidades, sinais, custos e populações emparelhadas",
+      "paragraphs": [],
+      "markdown": "## 4. Unidades, sinais, custos e populações emparelhadas\n\nPara C, o erro absoluto médio é três mais cinco, dividido por dois: **quatro unidades**. Assim, neste corte restrito, B tem MAE três e C quatro. A diferença dos erros absolutos de C menos B é menos um em S01 e mais três em S02; a média emparelhada é mais um. Nada disso representa uma inferência para séries futuras, pois existem apenas dois pares artificiais.\n\nUma regra decisória diferente cobra três pontos por unidade quando o erro é positivo, subprevisão, e um ponto por unidade quando é negativo, superprevisão. Podemos escrevê-la como:\n\n\\[C(e)=3\\max(e,0)+\\max(-e,0).\\]\n\n**Leitura:** custo de um erro é três vezes sua parte positiva mais o valor absoluto de sua parte negativa. Em B, o erro mais quatro custa doze pontos e o erro menos dois custa dois pontos; a média é sete pontos. Em C, mais três custa nove pontos e menos cinco custa cinco pontos; a média também é sete pontos. **Ponto de custo não é unidade observacional.** Empates de custo não significam empates de MAE nem equivalência generalizável.\n\n| Medida do SANDBOX-057 | Cálculo | Resultado | População |\n|---|---|---:|---|\n| MAE B | (4 + 2) / 2 | 3 unidades | S01 e S02 |\n| MAE C | (3 + 5) / 2 | 4 unidades | S01 e S02 |\n| Custo B | (12 + 2) / 2 | 7 pontos | S01 e S02 |\n| Custo C | (9 + 5) / 2 | 7 pontos | S01 e S02 |\n| Completude | 2 / 8 | 25% | Oito cartões planejados |\n\n**Síntese pronunciável:** são dois pares fictícios, seis pendências, erro médio de três unidades em B e quatro em C e custo médio empatado em sete pontos. O percentual de completude descreve a quantidade de casos avaliáveis, não a qualidade dos modelos.\n\n![Grandezas diferentes](assets/02-unidades.svg)\n\n**Figura 2.** Texto alternativo: erro médio usa unidades e custo médio usa pontos; modelos B e C diferem em MAE e empatam no custo fictício. **Observe:** toda comparação exige regra e unidade explícitas. **Conclusão por áudio:** números iguais podem medir coisas distintas.\n\n",
+      "sourceStart": 5100,
+      "sourceEnd": 7084
+    },
+    {
+      "id": "MAT-EST-065-s005",
+      "title": "5. O dicionário de indicadores e o tipo de evidência",
+      "paragraphs": [],
+      "markdown": "## 5. O dicionário de indicadores e o tipo de evidência\n\nUma ficha útil contém: identificador, pergunta, população elegível, numerador, denominador, fórmula ou regra, unidade, fonte e versão, corte temporal, tratamento de nulos, limitações, frequência pretendida e interpretação permitida. O arquivo `indicadores/MAT-EST-065-dicionario-indicadores.json` conserva esses campos de maneira independente da interface.\n\nA fotografia local proposta contém **onze registros K65-01 a K65-11**. Eles não formam uma nota de qualidade total. Exemplos: K65-01 é completude dois de oito; K65-06 registra rejeição correta das seis mutações artificiais I01 a I06 no conjunto de testes; K65-07 registra que seis das sete ações A64 possuem ensaio local de fixture; K65-08 mostra que apenas G1 e G2 estão checked_local entre oito controles de naturezas diferentes; K65-09 registra zero dos dez checks P01–P10 executados. Nenhum deles transforma testes locais em implantação confirmada.\n\nO indicador de rejeição das mutações é seis de seis, ou cem por cento **dessas seis entradas selecionadas**. A frase “cem por cento de todos os incidentes serão detectados” é injustificada: não existe amostra representativa de incidentes de produção, nem exposição observada. Da mesma forma, seis ações testadas em fixtures entre sete propostas equivalem a 85,71% dessa contagem documental; não é eficácia operacional de 85,71%.\n\nOs estados herdados são: G1 e G2, conferidos localmente; G3 a G6, pendentes de avaliação humana; G7 e G8, não executados. O plano P01 a P10 de pós-deploy também não foi executado. Não se pode criar uma média de prontidão apenas somando controles com impactos diferentes.\n\n![Estados de controles](assets/03-estados.svg)\n\n**Figura 3.** Texto alternativo: G1 e G2 têm evidência local; G3 a G6 estão pendentes; G7 e G8 não executados. **Observe:** os grupos exigem provas distintas. **Conclusão para áudio:** dois controles conferidos não autorizam dizer que a publicação está pronta.\n\n",
+      "sourceStart": 7084,
+      "sourceEnd": 9065
+    },
+    {
+      "id": "MAT-EST-065-s006",
+      "title": "6. Ausência, denominador zero e indicador não estimável",
+      "paragraphs": [],
+      "markdown": "## 6. Ausência, denominador zero e indicador não estimável\n\nNão há pares emitidos e observados para a coorte proposta t26–t33. Portanto o MAE desse protocolo é **não estimável**; a fórmula exigiria dividir a soma de erros por zero pares. O símbolo nulo ou a expressão “não estimável” é adequado; **zero unidades é incorreto**, pois indicaria previsões perfeitas que não aconteceram.\n\nTambém não há registros operacionais com população e período de exposição para calcular taxa de incidentes reais. Essa taxa permanece não estimável. Já P01–P10 possui dez verificações planejadas, todas não executadas; ali a razão de **execução documental** é zero dividido por dez, igual a zero por cento. O fato de um zero ser apropriado para execução e não para MAE futuro exemplifica por que cada indicador precisa de uma ficha.\n\nSe uma fonte muda a definição de “avaliável”, o valor antigo não deve ser reescrito silenciosamente. Guarde a versão da regra e, se apropriado, gere uma nova série claramente identificada. Se os seis cartões pendentes forem resolvidos mais tarde, um recálculo precisará declarar versão, momento do corte e regras de inclusão; não substituirá retrospectivamente a fotografia anterior.\n\n",
+      "sourceStart": 9065,
+      "sourceEnd": 10267
+    },
+    {
+      "id": "MAT-EST-065-s007",
+      "title": "7. Linha de base versus acompanhamento temporal",
+      "paragraphs": [],
+      "markdown": "## 7. Linha de base versus acompanhamento temporal\n\n**Linha de base** é a referência definida antes de comparar futuras medições. O arquivo `MAT-EST-065-fotografia-inicial.json` registra a fotografia didática F0, suas fontes e ressalvas; **não é uma série temporal de desempenho da plataforma**. A fotografia F1 ainda não existe. Para ser comparável, uma futura F1 deve usar a mesma definição, unidade, universo e fonte, ou declarar explicitamente as diferenças.\n\nExemplo de erro: se F0 seleciona dois pares avaliáveis e F1 contém apenas um caso fácil escolhido depois de conhecer seu resultado, a queda aparente de erro pode surgir da mudança da população. Outro erro é reduzir o número de relatórios auditados para elevar artificialmente uma taxa de conformidade. Um indicador mal usado incentiva otimizar a apresentação do número, em vez de melhorar o processo que ele deveria descrever.\n\nUma variação absoluta entre duas proporções é medida em **pontos percentuais**. Por exemplo, em uma simulação adicional e não observada, uma completude de 25% passando a 50% representa aumento de 25 pontos percentuais; em termos relativos, 50 dividido por 25 menos um é aumento de 100%. Essas contas demonstram notação, não um acontecimento no projeto.\n\n![Fotografia não é tendência](assets/04-fotografia.svg)\n\n**Figura 4.** Texto alternativo: há F0, fotografia local com regras declaradas, e não há F1 observada. **Observe:** uma medida isolada não determina tendência. **Conclusão por áudio:** comparação temporal só existe quando chegam novas evidências com regras compatíveis.\n\n",
+      "sourceStart": 10267,
+      "sourceEnd": 11841
+    },
+    {
+      "id": "MAT-EST-065-s008",
+      "title": "8. Medir processo sem inventar qualidade do produto",
+      "paragraphs": [],
+      "markdown": "## 8. Medir processo sem inventar qualidade do produto\n\nIndicadores de **entrada** descrevem volume e elegibilidade; indicadores de **processo** descrevem verificações feitas; indicadores de **saída** descrevem material gerado; indicadores de **resultado real** dependeriam de revisão humana, publicação servida e experiência de usuários. Essas quatro categorias não são intercambiáveis.\n\nUm ZIP que passa no SHA-256 pode comprovar igualdade dos bytes comparados, não correção pedagógica. Um conjunto de seis mutações rejeitadas comprova comportamento do validador nas seis entradas, não uma taxa populacional. Um texto alternativo presente num SVG passa na inspeção de estrutura, mas ainda exige verificação humana de equivalência para pessoas que o escutam. A metodologia WCAG-EM, do W3C, estrutura avaliações com escopo, amostra representativa, teste e relatório; não substitui a avaliação pelo simples resultado de um verificador automático.\n\n![Laboratório e campo](assets/05-limites.svg)\n\n**Figura 5.** Texto alternativo: seis falhas artificiais rejeitadas, seis ações testadas localmente e taxa de incidentes reais ainda não estimável. **Observe:** os três indicadores não são sinônimos. **Conclusão para áudio:** uma taxa precisa declarar de que população seus casos vieram.\n\n",
+      "sourceStart": 11841,
+      "sourceEnd": 13124
+    },
+    {
+      "id": "MAT-EST-065-s009",
+      "title": "9. Como construir um painel verificável e um protocolo futuro",
+      "paragraphs": [],
+      "markdown": "## 9. Como construir um painel verificável e um protocolo futuro\n\nO painel mínimo terá colunas de código, pergunta, valor, unidade, numerador e denominador, fonte, recorte, tipo de evidência, estado de coleta e limitação. O relatório pode dizer: “No SANDBOX-057, dois de oito cartões são avaliáveis; sobre esses dois, os MAEs são três e quatro unidades. Seis das seis mutações sintéticas foram rejeitadas nos testes locais. Não existem dados para estimar sucesso de publicação nem MAE do protocolo sucessor.”\n\nPara acompanhamento verdadeiro, definir antes: objeto de coleta, fonte autorizada, versão da aula e do código, instante da medição, regras de inclusão e exclusão, responsável real quando designado, método de revisão, periodicidade e circunstâncias de suspensão. Uma verificação não realizada fica pendente, e uma correção exige registro de versão; jamais se completa a tabela inventando uma assinatura.\n\nAs ações anteriores A64-01 a A64-06 continuam apenas testadas em fixtures. A64-07 permanece proposta, não executada. Nenhum campo G ou P é promovido nesta aula. O histórico MAT-EST-049-PROT-v1 permanece com cinco dos oito pares, MAE B 17,60, MAE C 8,36, custos médios B 51,20 e C 14,92, falha da guarda em t19 igual a 19,2, maior que dez, e ausência de promoção do desafiante. t23–t25 não têm observações ou emissões autenticadas; t26–t33 seguem apenas propostos. Não há inferência nova dessa série.\n\n![Protocolo de acompanhamento](assets/06-protocolo.svg)\n\n**Figura 6.** Texto alternativo: sequência de definição, fonte, corte, cálculo auditável, ressalvas e validação externa separada. **Observe:** nenhuma seta substitui evidência ainda inexistente. **Conclusão para áudio:** a qualidade do indicador depende da pergunta que responde e da rastreabilidade dos dados.\n\n",
+      "sourceStart": 13124,
+      "sourceEnd": 14908
+    },
+    {
+      "id": "MAT-EST-065-s010",
+      "title": "10. Erros frequentes, conexões e aplicações",
+      "paragraphs": [],
+      "markdown": "## 10. Erros frequentes, conexões e aplicações\n\nErros a evitar: anunciar média com denominador de completude; marcar nulo como zero; comparar grupos não emparelhados como se fossem os mesmos; mudar pesos de custo depois de ver os resultados; usar seis fixtures para estimar eficácia em produção; chamar duas verificações de oito de “25% de qualidade”; somar unidades e pontos; publicar porcentagem sem numerador ou população; construir uma falsa tendência de apenas uma fotografia; usar notas globais para ocultar falha de guarda; considerar cobertura automática de SVG prova de compreensão oral; declarar prontidão antes de G3–G8.\n\n**Relações:** Matemática — frações, médias, funções por partes e razão entre grandezas; Língua Portuguesa e Redação — quantificadores e afirmações com escopo definido; Computação — testes, contratos, hashes e versões; metodologia científica — definição operacional, viés de seleção, replicação e validade externa. A regra geral é poder explicar o número em voz alta com sua população e limitação, não apenas mostrar um percentual vistoso.\n\n",
+      "sourceStart": 14908,
+      "sourceEnd": 15981
+    },
+    {
+      "id": "MAT-EST-065-s011",
+      "title": "11. Vídeo complementar e fontes",
+      "paragraphs": [],
+      "markdown": "## 11. Vídeo complementar e fontes\n\n**Vídeo:** *Conformance Evaluation Overview*, W3C Web Accessibility Initiative (iniciativa de acessibilidade da Web). [Página oficial com vídeo e transcrição descritiva](https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/). Idioma: inglês, com transcrição textual. **Duração:** não informada com segurança na página consultada; reprodução integral não realizada. **Quando assistir:** depois da seção 8. **Por que assistir:** mostra como escopo, seleção de amostras, avaliação e relatório antecedem alegações de conformidade. É complemento; todo o raciocínio da aula está escrito aqui.\n\n**Leituras institucionais:** [WCAG-EM 2.0, publicada pelo W3C em 23 de julho de 2026](https://www.w3.org/TR/wcag-em-2/) — avaliação representativa e documentada. [Modelo de relatório de avaliação do W3C](https://www.w3.org/WAI/test-evaluate/report-template/) — descreve avaliação que combina métodos automáticos e manuais. [Monitoring Distributed Systems, livro de engenharia de confiabilidade do Google](https://sre.google/sre-book/monitoring-distributed-systems/) — princípios de monitoramento, painéis e sinais acionáveis. As definições K65 são **propostas autorais deste projeto**, não métricas oficiais prescritas por essas instituições. O vídeo foi identificado na página oficial, mas necessita de reprodução integral e conferência humana antes de publicação.\n\n",
+      "sourceStart": 15981,
+      "sourceEnd": 17376
+    },
+    {
+      "id": "MAT-EST-065-s012",
+      "title": "12. Atividades, devolutiva e síntese",
+      "paragraphs": [],
+      "markdown": "## 12. Atividades, devolutiva e síntese\n\nAs 36 atividades estão em `exercicios.md` e `exercicios.json`: dez de aprendizagem, dez de consolidação, dez contextualizadas em estilo vestibular e seis de reteste posterior. O gabarito e os motivos prováveis de erro estão exclusivamente em `gabarito-comentado.md` e `gabarito-comentado.json`. Tente antes de abrir a correção; produção editorial não constitui evidência de estudo pessoal.\n\n**Resumo pronunciável:** um indicador é uma pergunta traduzida em regra. Para o MAE do SANDBOX-057, divida a soma dos erros por dois pares; para completude, divida dois por oito cartões. Informe unidade, escopo, versão e lacunas. Se o denominador dos pares futuros é zero, a média não é zero: ela não existe ainda. Seis de seis mutações rejeitadas são seis testes de laboratório, não cobertura universal. Uma linha de base só vira acompanhamento quando chegam novas fotografias comparáveis. A publicação depende de evidências adicionais, não de um painel vistoso.\n\n**Revisão espaçada:** um, sete e trinta dias após uma tentativa real. Dia um: refazer MAE e completude. Dia sete: redigir a ficha de K65-06 e justificar o limite de generalização. Dia trinta: resolver o reteste, construir relatório com numeradores, denominadores e nulos e identificar quais controles continuam pendentes. Consolidar somente após evidência de explicação, resolução, aplicação e recuperação.\n\n**Próximo passo editorial proposto, ainda não iniciado:** MAT-EST-066 — Revisão crítica e consolidação da unidade de avaliação temporal: integração de métricas, auditoria e transferência para problemas novos. Não pressupõe publicação nem estudo individual concluído.\n\n**Limites de execução:** somente arquivos locais. Não houve sincronização com Google Drive/GitHub, integração no site, aprovação humana, reprodução integral do vídeo, teste de áudio no Edge, observações adicionais ou alteração do progresso individual.\n",
+      "sourceStart": 17376,
+      "sourceEnd": 19301
+    }
+  ],
+  "sources": [
+    {
+      "title": "Cumulativo MAT-EST-067 com histórico preservado",
+      "url": "https://drive.google.com/file/d/1U08WfoTT3iVSaKp7z6QbX1oDPenvqyGc/view",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    }
+  ],
+  "previous": "MAT-EST-064",
+  "next": "MAT-EST-066",
+  "videos": [
+    {
+      "title": "Conformance Evaluation Overview",
+      "channel": "W3C Web Accessibility Initiative",
+      "url": "https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/",
+      "duration": "não confirmada; não inventar",
+      "language": "inglês, com transcrição textual descritiva",
+      "reason": "distingue escopo, amostra, avaliação e relato da afirmação automática de qualidade",
+      "when": "após seção 8",
+      "reinforces": [],
+      "checkedAt": "2026-10-03",
+      "verification": "Disponibilidade da página institucional conferida em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+      "type": "leitura"
+    },
+    {
+      "title": "Recurso complementar verificado",
+      "channel": "",
+      "url": "https://www.w3.org/WAI/videos/standards-and-benefits/pt-BR",
+      "duration": "Duração não confirmada",
+      "language": "Português",
+      "reason": "Vídeo introdutório da W3C para complementar a leitura sobre avaliação da acessibilidade.",
+      "when": "Após estudar a explicação escrita.",
+      "reinforces": [],
+      "checkedAt": "2026-10-03",
+      "type": "video",
+      "verification": "Disponibilidade da página institucional conferida em 03/10/2026. Reprodução integral, áudio e legendas não auditados."
+    }
+  ],
+  "video": {
+    "title": "Conformance Evaluation Overview",
+    "channel": "W3C Web Accessibility Initiative",
+    "url": "https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/",
+    "duration": "não confirmada; não inventar",
+    "language": "inglês, com transcrição textual descritiva",
+    "reason": "distingue escopo, amostra, avaliação e relato da afirmação automática de qualidade",
+    "when": "após seção 8",
+    "reinforces": [],
+    "checkedAt": "2026-10-03",
+    "verification": "Disponibilidade da página institucional conferida em 03/10/2026. Reprodução integral, áudio e legendas não auditados.",
+    "type": "leitura"
+  },
+  "publication": {
+    "kind": "Fonte integral recuperada do pacote editorial; dados fictícios e históricos separados.",
+    "notes": [
+      "A produção e a publicação não registram domínio nem alteram seu progresso.",
+      "Aula avançada para consulta. A sequência de fundamentos ainda tem textos integrais a recuperar; confira os pré-requisitos antes de iniciar.",
+      "As referências a publicação pendente no texto original registram o estado da fonte na data de criação."
+    ],
+    "original": "originais/MAT-EST-065/aula.md",
+    "editions": [],
+    "attachments": [
+      {
+        "label": "plano-avaliacao-MAT-EST-051.json",
+        "url": "originais/MAT-EST-065/arquivos/plano-avaliacao-MAT-EST-051.json"
+      },
+      {
+        "label": "manifesto-sha256.txt",
+        "url": "originais/MAT-EST-065/arquivos/manifesto-sha256.txt"
+      },
+      {
+        "label": "protocolo-herdado-MAT-EST-049.json",
+        "url": "originais/MAT-EST-065/arquivos/protocolo-herdado-MAT-EST-049.json"
+      },
+      {
+        "label": "relatorio-integridade.json",
+        "url": "originais/MAT-EST-065/arquivos/relatorio-integridade.json"
+      },
+      {
+        "label": "gabarito-comentado.json",
+        "url": "originais/MAT-EST-065/arquivos/gabarito-comentado.json"
+      },
+      {
+        "label": "verificar-pacote.py",
+        "url": "originais/MAT-EST-065/arquivos/verificar-pacote.py"
+      },
+      {
+        "label": "metadados.json",
+        "url": "originais/MAT-EST-065/arquivos/metadados.json"
+      },
+      {
+        "label": "exercicios.json",
+        "url": "originais/MAT-EST-065/arquivos/exercicios.json"
+      },
+      {
+        "label": "checkpoint-editorial.json",
+        "url": "originais/MAT-EST-065/arquivos/checkpoint-editorial.json"
+      },
+      {
+        "label": "PROMPT-TRANSICAO-NOVO-CHAT.txt",
+        "url": "originais/MAT-EST-065/arquivos/PROMPT-TRANSICAO-NOVO-CHAT.txt"
+      },
+      {
+        "label": "dados/politicas-de-vintage.json",
+        "url": "originais/MAT-EST-065/arquivos/dados/politicas-de-vintage.json"
+      },
+      {
+        "label": "dados/serie-herdada-t01-t12.csv",
+        "url": "originais/MAT-EST-065/arquivos/dados/serie-herdada-t01-t12.csv"
+      },
+      {
+        "label": "dados/matriz-estados.csv",
+        "url": "originais/MAT-EST-065/arquivos/dados/matriz-estados.csv"
+      },
+      {
+        "label": "dados/cenarios-herdados-t23-nao-observados.csv",
+        "url": "originais/MAT-EST-065/arquivos/dados/cenarios-herdados-t23-nao-observados.csv"
+      },
+      {
+        "label": "dados/diferencas-sazonais-t13-t22.csv",
+        "url": "originais/MAT-EST-065/arquivos/dados/diferencas-sazonais-t13-t22.csv"
+      },
+      {
+        "label": "dados/EXEMPLO-V-reavaliacao.csv",
+        "url": "originais/MAT-EST-065/arquivos/dados/EXEMPLO-V-reavaliacao.csv"
+      },
+      {
+        "label": "dados/chegadas-novas-simuladas-t19-t22.csv",
+        "url": "originais/MAT-EST-065/arquivos/dados/chegadas-novas-simuladas-t19-t22.csv"
+      },
+      {
+        "label": "dados/EXEMPLO-V-versoes.csv",
+        "url": "originais/MAT-EST-065/arquivos/dados/EXEMPLO-V-versoes.csv"
+      },
+      {
+        "label": "dados/chegadas-simuladas-t13-t18.csv",
+        "url": "originais/MAT-EST-065/arquivos/dados/chegadas-simuladas-t13-t18.csv"
+      },
+      {
+        "label": "dados/plano-emissoes-pendentes-t23-t25.csv",
+        "url": "originais/MAT-EST-065/arquivos/dados/plano-emissoes-pendentes-t23-t25.csv"
+      },
+      {
+        "label": "dados/projecoes-ilustrativas-t23.csv",
+        "url": "originais/MAT-EST-065/arquivos/dados/projecoes-ilustrativas-t23.csv"
+      },
+      {
+        "label": "dados/EXEMPLO-V-eventos.jsonl",
+        "url": "originais/MAT-EST-065/arquivos/dados/EXEMPLO-V-eventos.jsonl"
+      },
+      {
+        "label": "dados/ensaio-eventos-EXEMPLO-Z.jsonl",
+        "url": "originais/MAT-EST-065/arquivos/dados/ensaio-eventos-EXEMPLO-Z.jsonl"
+      },
+      {
+        "label": "dados/registro-emissoes-h1.csv",
+        "url": "originais/MAT-EST-065/arquivos/dados/registro-emissoes-h1.csv"
+      },
+      {
+        "label": "dados/comparacao-emparelhada-t18-t22.csv",
+        "url": "originais/MAT-EST-065/arquivos/dados/comparacao-emparelhada-t18-t22.csv"
+      },
+      {
+        "label": "dados/dependencias-simbolicas-t24-t25.csv",
+        "url": "originais/MAT-EST-065/arquivos/dados/dependencias-simbolicas-t24-t25.csv"
+      },
+      {
+        "label": "dados/cartoes-casos-didaticos.csv",
+        "url": "originais/MAT-EST-065/arquivos/dados/cartoes-casos-didaticos.csv"
+      },
+      {
+        "label": "governanca/hashes-herdados.json",
+        "url": "originais/MAT-EST-065/arquivos/governanca/hashes-herdados.json"
+      },
+      {
+        "label": "relatorios/relatorio-auditoria.json",
+        "url": "originais/MAT-EST-065/arquivos/relatorios/relatorio-auditoria.json"
+      },
+      {
+        "label": "relatorios/conciliacao-de-versoes.csv",
+        "url": "originais/MAT-EST-065/arquivos/relatorios/conciliacao-de-versoes.csv"
+      },
+      {
+        "label": "relatorios/MAT-EST-059-painel-dados.json",
+        "url": "originais/MAT-EST-065/arquivos/relatorios/MAT-EST-059-painel-dados.json"
+      },
+      {
+        "label": "auditoria/testar_auditoria.py",
+        "url": "originais/MAT-EST-065/arquivos/auditoria/testar_auditoria.py"
+      },
+      {
+        "label": "auditoria/recalcular_relatorios.py",
+        "url": "originais/MAT-EST-065/arquivos/auditoria/recalcular_relatorios.py"
+      },
+      {
+        "label": "controle/MAT-EST-062-matriz-evidencias.json",
+        "url": "originais/MAT-EST-065/arquivos/controle/MAT-EST-062-matriz-evidencias.json"
+      },
+      {
+        "label": "controle/testar_estados.py",
+        "url": "originais/MAT-EST-065/arquivos/controle/testar_estados.py"
+      },
+      {
+        "label": "controle/MAT-EST-062-pendencias.csv",
+        "url": "originais/MAT-EST-065/arquivos/controle/MAT-EST-062-pendencias.csv"
+      },
+      {
+        "label": "controle/MAT-EST-062-plano-pos-deploy.json",
+        "url": "originais/MAT-EST-065/arquivos/controle/MAT-EST-062-plano-pos-deploy.json"
+      },
+      {
+        "label": "controle/MAT-EST-062-ensaios-estados.json",
+        "url": "originais/MAT-EST-065/arquivos/controle/MAT-EST-062-ensaios-estados.json"
+      },
+      {
+        "label": "indicadores/MAT-EST-065-fotografia-inicial.json",
+        "url": "originais/MAT-EST-065/arquivos/indicadores/MAT-EST-065-fotografia-inicial.json"
+      },
+      {
+        "label": "indicadores/MAT-EST-065-fixtures-negativas.json",
+        "url": "originais/MAT-EST-065/arquivos/indicadores/MAT-EST-065-fixtures-negativas.json"
+      },
+      {
+        "label": "indicadores/MAT-EST-065-painel-fotografia.csv",
+        "url": "originais/MAT-EST-065/arquivos/indicadores/MAT-EST-065-painel-fotografia.csv"
+      },
+      {
+        "label": "indicadores/MAT-EST-065-dicionario-indicadores.json",
+        "url": "originais/MAT-EST-065/arquivos/indicadores/MAT-EST-065-dicionario-indicadores.json"
+      },
+      {
+        "label": "indicadores/recalcular-indicadores.py",
+        "url": "originais/MAT-EST-065/arquivos/indicadores/recalcular-indicadores.py"
+      },
+      {
+        "label": "incidentes/MAT-EST-063-fixtures-incidentes.json",
+        "url": "originais/MAT-EST-065/arquivos/incidentes/MAT-EST-063-fixtures-incidentes.json"
+      },
+      {
+        "label": "incidentes/MAT-EST-063-matriz-impacto.csv",
+        "url": "originais/MAT-EST-065/arquivos/incidentes/MAT-EST-063-matriz-impacto.csv"
+      },
+      {
+        "label": "incidentes/MAT-EST-063-caderno-sintetico.json",
+        "url": "originais/MAT-EST-065/arquivos/incidentes/MAT-EST-063-caderno-sintetico.json"
+      },
+      {
+        "label": "incidentes/MAT-EST-063-reteste-demonstrativo.json",
+        "url": "originais/MAT-EST-065/arquivos/incidentes/MAT-EST-063-reteste-demonstrativo.json"
+      },
+      {
+        "label": "protocolo-sucessor/MAT-EST-056-PROT-SUC-v1.json",
+        "url": "originais/MAT-EST-065/arquivos/protocolo-sucessor/MAT-EST-056-PROT-SUC-v1.json"
+      },
+      {
+        "label": "pos-incidente/MAT-EST-064-plano-acoes.json",
+        "url": "originais/MAT-EST-065/arquivos/pos-incidente/MAT-EST-064-plano-acoes.json"
+      },
+      {
+        "label": "pos-incidente/MAT-EST-064-ensaio-controles.json",
+        "url": "originais/MAT-EST-065/arquivos/pos-incidente/MAT-EST-064-ensaio-controles.json"
+      },
+      {
+        "label": "pos-incidente/MAT-EST-064-hipoteses-causais.json",
+        "url": "originais/MAT-EST-065/arquivos/pos-incidente/MAT-EST-064-hipoteses-causais.json"
+      },
+      {
+        "label": "pos-incidente/MAT-EST-064-contas-didaticas.json",
+        "url": "originais/MAT-EST-065/arquivos/pos-incidente/MAT-EST-064-contas-didaticas.json"
+      },
+      {
+        "label": "regressao/MAT-EST-061-candidato-e-falhas-isoladas.json",
+        "url": "originais/MAT-EST-065/arquivos/regressao/MAT-EST-061-candidato-e-falhas-isoladas.json"
+      },
+      {
+        "label": "regressao/MAT-EST-061-registro-evidencias.json",
+        "url": "originais/MAT-EST-065/arquivos/regressao/MAT-EST-061-registro-evidencias.json"
+      },
+      {
+        "label": "regressao/MAT-EST-061-resultado-regressao.json",
+        "url": "originais/MAT-EST-065/arquivos/regressao/MAT-EST-061-resultado-regressao.json"
+      },
+      {
+        "label": "sandbox/SANDBOX-057-cartoes.csv",
+        "url": "originais/MAT-EST-065/arquivos/sandbox/SANDBOX-057-cartoes.csv"
+      },
+      {
+        "label": "sandbox/SANDBOX-057-resumo-metricas.json",
+        "url": "originais/MAT-EST-065/arquivos/sandbox/SANDBOX-057-resumo-metricas.json"
+      },
+      {
+        "label": "sandbox/SANDBOX-057-desvios.jsonl",
+        "url": "originais/MAT-EST-065/arquivos/sandbox/SANDBOX-057-desvios.jsonl"
+      }
+    ],
+    "questionCount": 36,
+    "visualCount": 6,
+    "sourceSha256": "54d51031c3131ef1d12ed6e912fe3a449ea9c0c19ad47c886947e179ced036ec"
+  }
+}

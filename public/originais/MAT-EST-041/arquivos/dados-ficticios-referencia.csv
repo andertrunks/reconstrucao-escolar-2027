@@ -1,0 +1,9 @@
+dia,particao,observado_atendimentos,previsao_A_atendimentos,previsao_B_atendimentos,baseline_atendimentos
+1,referência,80,85,80,100
+2,referência,100,95,100,100
+3,referência,120,115,120,100
+4,referência,100,105,120,100
+5,teste,90,95,90,100
+6,teste,110,105,110,100
+7,teste,130,125,130,100
+8,teste,100,105,125,100

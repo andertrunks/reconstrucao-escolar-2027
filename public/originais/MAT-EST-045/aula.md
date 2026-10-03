@@ -1,0 +1,283 @@
+# MAT-EST-045 — Modelos de suavização sazonal em prática: inicialização, ajuste e comparação com referências temporais
+
+**Área:** Matemática. **Unidade:** Estatística — aprofundamento universitário em séries temporais. **Código permanente:** MAT-EST-045. **Antecessora:** MAT-EST-044. **Próxima:** MAT-EST-046. **Origem:** conteúdo e questões autorais. **Status individual inicial:** não iniciado; publicação editorial não comprova aprendizagem. **Blocos sugeridos:** três sessões de 25 a 50 minutos, com avanço apenas depois de compreensão real.
+
+## 1. Objetivo, pré-requisitos e mapa conceitual
+
+**Objetivo geral:** construir, documentar e interpretar um exemplo completo de Holt-Winters aditivo, com inicialização do primeiro ciclo de observações, atualização cronológica dos três estados e comparação honesta com previsões de referência fixadas em um mesmo corte temporal.
+
+Ao terminar a aula e *depois de resolver as atividades*, o estudante deverá ser capaz de: diferenciar componente e parâmetro; derivar índices sazonais iniciais a partir de uma hipótese explícita de tendência; atualizar nível, inclinação e sazonalidade sem vazamento de informação; calcular previsões para um a quatro trimestres; obter erros assinados, MAE e RMSE; explicar por que duas métricas podem produzir comparações diferentes; e redigir um relatório com limitações verificáveis.
+
+**Pré-requisitos:** operações com números reais e números negativos; média aritmética; porcentagem como ponderação; sequências e defasagens (MAT-EST-042); sazonalidade aditiva e período m (MAT-EST-043); suavização exponencial simples e Holt (MAT-EST-044); treino, teste, origem temporal e métricas (MAT-EST-031, 032). Se uma dessas operações causar dificuldade, retomar o fundamento antes de avançar.
+
+**Relações:** séries temporais ↔ médias ponderadas ↔ funções recorrentes ↔ comparação de modelos ↔ redação de conclusões. Esta ponte universitária aprofunda a compreensão estatística, sem declarar que o cálculo completo de Holt-Winters seja requisito específico do ENEM ou de uma banca de vestibular.
+
+## 2. Por que três componentes, e por que inicializar?
+
+Imagine uma demanda que cresce, mas oscila segundo o trimestre do ano. Uma média simples pode apagar diferenças de calendário. Um modelo apenas de tendência pode projetar crescimento, mas não distinguir o trimestre mais alto do mais baixo. Para tratar ambos, o método de **Holt-Winters aditivo** mantém três informações que mudam a cada observação:
+
+- **Nível**, simbolizado por `l_t` (lê-se “ele no instante t”): patamar central sem o efeito sazonal.
+- **Tendência**, `b_t` (lê-se “bê no instante t”): variação do patamar por período, em unidades por trimestre neste exemplo.
+- **Sazonalidade**, `s_t` (lê-se “ésse no instante t”): acréscimo ou redução característicos da fase do calendário, em unidades originais.
+
+Os valores desses estados não aparecem prontos nos dados comuns. Precisamos escolher como começar a recursão. A **inicialização** faz isso; os parâmetros **alfa**, **beta-asterisco** e **gama** determinam quanto cada estado responderá às observações seguintes. Não são a mesma coisa. Diferentes métodos de inicialização podem dar respostas diferentes para uma amostra muito curta. Não é correto escondê-los no relatório.
+
+A versão *aditiva* representa o efeito sazonal em unidades aproximadamente constantes; a *multiplicativa* utiliza fatores relativos ao nível, exigindo cuidado com zeros e valores negativos. Estudaremos apenas a versão aditiva nesta oficina, porque a série foi construída com diferenças trimestrais em unidades.
+
+![Cronologia de disponibilidade dos dados](assets/01-cronologia-da-informacao.svg)
+
+**Figura 1.** **Texto alternativo:** Doze quadrados cronológicos com valores 90, 107, 128, 105, 111, 124, 150, 127, 129, 145, 171 e 144. **Observe:** O cálculo dos estados iniciais usa apenas as quatro primeiras observações, e a previsão final é emitida ao terminar t8. **Conclusão para áudio:** Não misturar treinamento, emissão e avaliação; o teste t9–t12 já é conhecido editorialmente.
+
+## 3. Base fictícia e protocolo reproduzível
+
+A base abaixo reproduz, sem modificação, `dados-ficticios-trimestrais.csv`, introduzida no MAT-EST-043 e preservada no MAT-EST-044. A cópia é confirmada pelos hashes SHA-256 no pacote. Não são dados de estudantes, da prefeitura, de pacientes ou de qualquer pessoa real. As colunas que explicam os componentes **conhecidos por construção** pertencem ao mecanismo de geração do exercício; nosso procedimento de estimação utiliza apenas a coluna `observado_unidades`, em ordem temporal. Não podemos usar os componentes verdadeiros fictícios para fingir que foram descobertos pelo ajuste.
+
+| Trimestre | Observado (unidades) | Uso na oficina |
+|---:|---:|---|
+| t1 | 90 | inicialização |
+| t2 | 107 | inicialização |
+| t3 | 128 | inicialização |
+| t4 | 105 | inicialização |
+| t5 | 111 | atualização, somente observados anteriores |
+| t6 | 124 | atualização, somente observados anteriores |
+| t7 | 150 | atualização, somente observados anteriores |
+| t8 | 127 | atualização, somente observados anteriores |
+| t9 | 129 | comparação retrospectiva já divulgada |
+| t10 | 145 | comparação retrospectiva já divulgada |
+| t11 | 171 | comparação retrospectiva já divulgada |
+| t12 | 144 | comparação retrospectiva já divulgada |
+
+
+O cálculo da previsão de t9, t10, t11 e t12 deverá usar os mesmos estados congelados ao fechar t8, sem atualização com valores futuros. O conjunto t9–t12 **já apareceu nos materiais MAT-EST-043 e MAT-EST-044**. Portanto, mesmo que não entre na recursão matemática, este bloco não é uma prova prospectiva independente: serve exclusivamente à comparação didática e à auditoria do procedimento. Escolhas futuras de modelo exigiriam avaliação com observações novas, não examinadas durante a escolha.
+
+## 4. Inicialização pelo primeiro ciclo — exemplo resolvido completo
+
+**Bloco A, duração sugerida de 25 a 50 minutos.** Começamos com `y1=90`, `y2=107`, `y3=128` e `y4=105`. O ciclo contém quatro observações, portanto `m=4`, quatro fases por ano.
+
+**Etapa 1: uma inclinação inicial provisória.** Escolhemos uma heurística que considera a diferença entre extremos dividida pelos três intervalos transcorridos: `b4 = (y4 − y1)/3 = (105 − 90)/3 = 5` unidades por trimestre. O número cinco não é uma tendência identificada cientificamente a partir de um ciclo; foi adotado como ponto de partida documentado. Esta escolha pode confundir diferenças sazonais e tendência quando temos pouco histórico.
+
+**Etapa 2: colocar as quatro observações na mesma referência temporal.** De t1 a t4, subtraímos, respectivamente, zero, cinco, dez e quinze unidades. Obtemos `z = [90; 102; 118; 90]`. Sua média é `(90 + 102 + 118 + 90)/4 = 100` unidades. O valor cem é o patamar inicial referenciado a t1 na heurística, e não a média bruta dos quatro dados, que seria 107,5.
+
+**Etapa 3: extrair os desvios de cada trimestre.** Em cada posição, subtraímos cem: `s1 = −10`, `s2 = +2`, `s3 = +18`, `s4 = −10`. A soma é `−10 + 2 + 18 − 10 = 0`. No início, é coerente centralizar os quatro efeitos aditivos em zero para não contar parte do patamar duas vezes. Depois das atualizações, eles podem não somar exatamente zero, se o algoritmo não normalizar os índices a cada ciclo.
+
+**Etapa 4: transportar o patamar inicial de t1 para t4.** Como há três passos, `l4 = 100 + 3 × 5 = 115`. Guardamos assim o estado de partida: nível 115 unidades; tendência 5 unidades por trimestre; sazonalidade [menos dez, mais dois, mais dezoito, menos dez] unidades.
+
+![Inicialização retirando a tendência](assets/02-inicializacao-destendencia.svg)
+
+**Figura 2.** **Texto alternativo:** Quatro cartões mostram observações originais, observações corrigidas 90, 102, 118, 90 e efeitos sazonais −10, +2, +18 e −10. **Observe:** A inclinação inicial de cinco é uma escolha heurística do primeiro ciclo, não uma tendência identificada com certeza. **Conclusão para áudio:** A soma dos quatro efeitos é zero; l4 = 100 + 3 vezes 5 = 115.
+
+![Estados iniciais do método](assets/03-estados-iniciais.svg)
+
+**Figura 3.** **Texto alternativo:** Três cartões: nível 115, tendência 5 e quatro efeitos sazonais −10, 2, 18, −10. Uma linha inferior calcula 115 + 5 − 10 = 110. **Observe:** Os estados iniciais são conhecidos depois de t4; as atualizações só começam com t5. **Conclusão para áudio:** O primeiro erro sequencial é 111 menos 110 igual a mais um.
+
+**Primeira previsão sem conhecer o futuro:** antes de ler y5, a estimativa de t5 é `l4+b4+s1 = 115+5−10 = 110` unidades. Só então chega o observado `y5 = 111`, produzindo o resíduo assinado `111−110 = +1` unidade. A ordem dos acontecimentos é essencial.
+
+## 5. Fórmulas e interpretação formal da convenção adotada
+
+**Bloco B, duração sugerida de 25 a 50 minutos.** Para uma observação `y_t`, sazonalidade com período `m` e estado anterior conhecido, usaremos a versão aditiva apresentada em *Forecasting: Principles and Practice*, terceira edição, seção 8.3.
+
+**Nível:**
+
+\[\ell_t = \alpha(y_t-s_{t-m}) + (1-\alpha)(\ell_{t-1}+b_{t-1}).\]
+
+Leitura: o novo nível é a média ponderada entre a observação descontada de sua sazonalidade e a base prevista com nível e tendência anteriores.
+
+**Tendência:**
+
+\[b_t = \beta^*(\ell_t-\ell_{t-1})+(1-\beta^*)b_{t-1}.\]
+
+Leitura: a nova inclinação combina a mudança do nível com a inclinação anterior.
+
+**Sazonalidade na convenção escolhida:**
+
+\[s_t = \gamma(y_t-\ell_{t-1}-b_{t-1})+(1-\gamma)s_{t-m}.\]
+
+Leitura: o índice atual mistura o desvio do observado em relação à **base prevista anterior** com o efeito da mesma fase no ciclo precedente. Observe que essa equação utiliza `l_(t−1)` e `b_(t−1)`, não `l_t` recém-computado. Outra parametrização da literatura emprega `gama-asterisco` e `y_t − l_t`, sendo preciso converter parâmetros: `gama = gama-asterisco × (1−alfa)`. Na nossa convenção, a restrição usual é `0 ≤ gama ≤ 1−alfa`. Não misture fórmulas de convenções distintas.
+
+**Previsão a partir do fim de t8, para horizonte h entre um e quatro:**
+
+\[\widehat y_{8+h\mid8}=\ell_8+h b_8+s_{4+h}.\]
+
+Leitura: previsão emitida na origem oito para h períodos à frente é nível final mais h vezes a tendência final, somados ao índice da fase correspondente do último ciclo de treinamento. Em particular, t9 retoma s5; t12 retoma s8. Para horizontes maiores, os índices são repetidos ciclicamente, conforme a regra formal do método.
+
+Os parâmetros escolhidos **antes da comparação** são `alfa=0,3`, `beta-asterisco=0,2` e `gama=0,2`, com `m=4`. São escolhas didáticas fixas, não resultados de uma otimização sobre os quatro pontos conhecidos t9–t12. A condição `0,2 ≤ 1−0,3 = 0,7` é atendida.
+
+## 6. Atualização cronológica: do quinto ao oitavo trimestre
+
+No t5, y5 vale 111. A base prevista sem sazonalidade é `l4+b4=120`, o índice antigo do primeiro trimestre é `s1=−10`, e a observação dessazonalizada é `111−(−10)=121`.
+
+- **Nível:** `l5 = 0,3 × 121 + 0,7 × 120 = 120,3` unidades.
+- **Tendência:** `b5 = 0,2 × (120,3−115) + 0,8 × 5 = 5,06` unidades por trimestre.
+- **Sazonalidade:** `s5 = 0,2 × (111−115−5) + 0,8 × (−10) = −9,8` unidades.
+
+O cálculo utiliza dados até t5 e é idêntico ao do arquivo executável `calculos-reproduziveis.py`.
+
+![Cálculo de nível, tendência e sazonalidade](assets/04-primeira-atualizacao.svg)
+
+**Figura 4.** **Texto alternativo:** Três linhas separadas mostram cálculo de nível 120,3, inclinação 5,06 e sazonalidade −9,8. **Observe:** A última equação usa o nível 115 e tendência 5 anteriores, evitando misturar duas convenções de gama. **Conclusão para áudio:** Ao fechar t5, os novos estados são l5 = 120,3; b5 = 5,06; s5 = −9,8.
+
+**No t6**, antes de observar y6, a previsão de um passo é `l5+b5+s2 = 120,3+5,06+2 = 127,36`. Quando aparece o observado 124, os novos estados ficam `l6=124,352`, `b6=4,8584`, `s6=1,328`.
+
+A tabela abaixo reúne todos os passos seguintes, sem omitir os valores intermediários. A previsão de cada linha é calculada **antes** de incorporar o observado dessa linha.
+
+| t | Observado | Previsão de um passo | Resíduo observado−previsto | Nível atualizado | Tendência atualizada | Sazonal atualizado |
+|---:|---:|---:|---:|---:|---:|---:|
+| 5 | 111 | 110.000000 | +1.000000 | 120.3000000 | 5.06000000 | -9.80000000 |
+| 6 | 124 | 127.360000 | -3.360000 | 124.3520000 | 4.85840000 | +1.32800000 |
+| 7 | 150 | 147.210400 | +2.789600 | 130.0472800 | 5.02577600 | +18.55792000 |
+| 8 | 127 | 125.073056 | +1.926944 | 135.6511392 | 5.14139264 | -9.61461120 |
+
+
+Lendo os resultados em voz alta: no final de t8, o nível é aproximadamente **135.6511 unidades** e a tendência é aproximadamente **5.1414 unidades por trimestre**. Os índices mais recentes, para cada uma das quatro fases sazonais, são `s5=-9.80000`, `s6=+1.32800`, `s7=+18.55792` e `s8=-9.61461`.
+
+![Trajetórias do nível e da tendência](assets/05-evolucao-estados.svg)
+
+**Figura 5.** **Texto alternativo:** No painel esquerdo, nível aumenta de 115 em t4 para cerca de 135,651 em t8. No direito, tendência oscila entre 4,858 e 5,141 unidades por trimestre. **Observe:** Observe que nível e tendência se atualizam separadamente; uma inclinação quase constante não implica nível constante. **Conclusão para áudio:** No final de t8, nível = 135,6511392 e tendência = 5,14139264.
+
+![Quatro efeitos sazonais antes e depois do segundo ciclo](assets/06-indices-sazonais.svg)
+
+**Figura 6.** **Texto alternativo:** Em todos os ciclos, o terceiro trimestre tem índice positivo maior; o primeiro e quarto são negativos. Cada barra tem valor numérico próprio. **Observe:** A atualização não altera a ordem das fases do ano; compara t5 com t1, t6 com t2 e assim sucessivamente. **Conclusão para áudio:** Índices novos s5..s8: −9,8; 1,328; 18,55792; −9,6146112.
+
+A atualização dos efeitos não usa um trimestre arbitrário: compara primeira fase com primeira fase, segunda com segunda e assim por diante. Se o gráfico mostrar o terceiro trimestre com efeito positivo maior, isso descreve apenas a estrutura desta base sintética, sem regra universal sobre demandas reais.
+
+## 7. Previsões a partir do corte oito e comparação justa
+
+**Bloco C, duração sugerida de 25 a 50 minutos.** Congelamos nível e tendência em t8 e reutilizamos os índices da segunda volta sazonal. Para t9, por exemplo: `135.6511392 + 1 × 5.14139264 + (-9.8000000) = 130.99253184` unidades. O último trimestre t12 recebe quatro vezes a tendência e o índice s8, não o índice de outro trimestre.
+
+A referência **sazonal ingênua** prevê a repetição dos quatro observados do último ciclo treinado: [111; 124; 150; 127]. A referência **deslocamento sazonal** soma a cada um desses valores o aumento anual médio **20,5**, obtido exclusivamente de t1 a t8: diferenças anuais [21; 17; 22; 22], cuja média é 20,5. A regra foi definida antes de apresentar as métricas e não usa t9–t12 para calculá-la.
+
+| Período | Observado | Holt-Winters aditivo | Sazonal ingênuo | Deslocamento sazonal |
+|---:|---:|---:|---:|---:|
+| t9 | 129 | 130.992532 | 111.0 | 131.5 |
+| t10 | 145 | 147.261924 | 124.0 | 144.5 |
+| t11 | 171 | 169.633237 | 150.0 | 170.5 |
+| t12 | 144 | 146.602099 | 127.0 | 147.5 |
+
+
+**Erro absoluto médio, MAE**, é a média dos módulos de observado menos previsto, em unidades originais. **Raiz do erro quadrático médio, RMSE**, é a raiz quadrada da média dos quadrados dos erros, também em unidades originais, com maior sensibilidade a erros grandes. Estas métricas não informam, por si, um intervalo de previsão.
+
+| Procedimento emitido no corte oito | MAE (unidades) | RMSE (unidades) |
+|---|---:|---:|
+| Holt-Winters aditivo, parâmetros didáticos fixos | 2.055829 | 2.105080 |
+| Sazonal ingênuo | 19.250000 | 19.332615 |
+| Deslocamento sazonal calculado no treino | 1.750000 | 2.179449 |
+| Último valor repetido | 20.250000 | 25.263610 |
+
+
+**Demonstração do MAE de Holt-Winters:** os quatro erros absolutos são aproximadamente 1,992532; 2,261924; 1,366763 e 2,602099. A soma é 8,223318; dividida por quatro, resulta em **2.05582944** unidades. O RMSE é aproximadamente **2.10507976** unidades.
+
+Neste recorte curto ocorre uma inversão instrutiva: o deslocamento sazonal tem **MAE=1,75**, menor que o do Holt-Winters (aproximadamente 2,0558); já Holt-Winters tem **RMSE≈2,1051**, menor que o do deslocamento (aproximadamente 2,1794). Não existe uma escolha única sem definir a finalidade e o custo das discrepâncias. Os números descrevem apenas estes quatro registros fictícios já conhecidos no histórico editorial.
+
+![Gráfico de comparação das previsões](assets/07-previsoes-e-metricas.svg)
+
+**Figura 7.** **Texto alternativo:** Três linhas identificadas também por texto; o deslocamento sazonal tem menor MAE, enquanto Holt-Winters tem menor RMSE no exemplo. **Observe:** A diferença de resultados por métrica exige declarar o que significa erro relevante, não coroar um método em geral. **Conclusão para áudio:** O gráfico mostra comparação didática, não nova prova prospectiva, pois t9–t12 já eram conhecidos editorialmente.
+
+**O que um relatório mínimo precisa registrar:** origem t8, horizontes um a quatro, frequência trimestral, período sazonal quatro, método de inicialização, parâmetros de cada estado, fonte do CSV, fórmulas e convenção, referências comparadas e métricas com unidade. Em uma operação real, separar previamente treino/validação/teste, verificar a estabilidade com múltiplas origens temporais anteriores ao teste final e obter novas observações prospectivas. Um modelo complexo deve ser comparado a referências simples; isso não significa escolher modelos apenas com base na aparência de um gráfico.
+
+## 8. Erros comuns, limites e relações com outras áreas
+
+**Confusões frequentes:** tratar `m=4` como quatro anos; usar a média bruta 107,5 no lugar da média dessazonalizada de referência 100; dividir 15 por quatro em vez de três intervalos; copiar um índice do trimestre errado; atualizar estados com y9 antes de emitir uma previsão na origem oito; chamar a diferença entre previsão ajustada e observado de “erro de teste independente”; trocar a equação de gama pela versão gama-asterisco sem conversão; apresentar a coluna artificial de componentes conhecidos por construção como se ela tivesse sido estimada; e escolher os parâmetros após olhar o teste conhecido, omitindo o fato.
+
+**Limitações do experimento:** somente dois ciclos treinados e um ciclo de comparação, valores criados por construção, primeira inicialização heurística e parâmetros fixos por didática, não por busca de ótimo. O padrão aditivo não é obrigação para séries reais; alterações na amplitude sazonal podem demandar outra estrutura e validação. Não foram estimados intervalos de previsão nem realizado diagnóstico probabilístico suficiente para prometer cobertura futura. O simples ato de usar Python não resolve a fragilidade amostral.
+
+**Conexões:** funções e progressões ajudam a interpretar o produto `h × b8`; álgebra permite seguir as atualizações recursivas; Geografia e História podem empregar séries para avaliar ciclos e tendências, sem automaticamente atribuir causas; redação exige distinguir descrição, comparação e afirmação causal; decisões sobre estoques, produção ou energia dependem de explicitar a unidade, a frequência e os riscos da extrapolação.
+
+## 9. Vídeo complementar e referências
+
+**Vídeo:** [Lecture 21: Holt Winter Method (additive seasonality)](https://www.youtube.com/watch?v=Kbf9NNt-4XQ). **Canal:** IIT KANPUR-NPTEL. **Duração:** não confirmada. **Quando assistir:** após os exemplos da seção 6 e antes da consolidação, para acompanhar outra exposição sobre a atualização sazonal aditiva. **Motivo:** o conteúdo é diretamente relacionado às equações de nível, tendência e sazonalidade. A página de publicação do vídeo foi localizada em pesquisa, mas sua reprodução integral e o teste real no Microsoft Edge **não** foram realizados. A aula é autossuficiente para os exercícios.
+
+**Fontes matemáticas:** [Forecasting: Principles and Practice — métodos com sazonalidade](https://otexts.com/fpp3/holt-winters.html); [avaliação de precisão das previsões](https://otexts.com/fpp3/accuracy.html); [Penn State STAT 510 — Lesson 05](https://online.stat.psu.edu/stat510/Lesson05). Fontes institucionais e obras didáticas fornecem o fundamento; os dados e as 36 questões que seguem são **autorais**, não são questões oficiais do ENEM, FUVEST, UNICAMP ou UNESP. As fontes administrativas do projeto indicam o padrão pedagógico, não convertem este material em questão oficial.
+
+## 10. Exercícios graduais, com gabarito separado
+
+Resolva cada enunciado antes de abrir `gabarito-comentado.json`, onde existem resposta esperada, demonstração e uma hipótese inicial sobre a causa provável de eventual erro. A verdadeira causa só deve ser classificada **depois** da resposta real do estudante. Escolha entre conteúdo, interpretação, cálculo, distração, memória, montagem da estratégia ou tempo. A camada de transferência é **no estilo** de interpretação aplicada dos exames, nunca um caderno oficial.
+
+### Aprendizagem — dez questões
+
+**MAT-EST-045-EX-APR-01 — O período de repetição.** Uma série contém uma observação por trimestre, e a configuração inclui m=4. Explique o que significa m e por que não equivale a quatro anos.
+
+**MAT-EST-045-EX-APR-02 — Leitura do primeiro ciclo.** Leia no CSV os valores do primeiro ciclo t1 a t4 e calcule sua média aritmética simples, antes de retirar tendência.
+
+**MAT-EST-045-EX-APR-03 — Declive inicial de trabalho.** Na inicialização didática, use os extremos do primeiro ciclo para obter b4=(y4−y1)/3. Encontre o resultado e diga uma limitação.
+
+**MAT-EST-045-EX-APR-04 — Remoção de tendência t3.** Para y3=128 e inclinação provisória 5 por trimestre, qual é o valor corrigido por tendência quando t1 é o ponto de referência?
+
+**MAT-EST-045-EX-APR-05 — Nível de referência.** Os quatro valores corrigidos são [90,102,118,90]. Encontre a média que define o patamar inicial no ponto t1.
+
+**MAT-EST-045-EX-APR-06 — Primeiros índices.** Subtraia o patamar 100 dos quatro valores corrigidos [90,102,118,90]. Qual vetor sazonal inicial resulta?
+
+**MAT-EST-045-EX-APR-07 — Estado no trimestre quatro.** Se o patamar inicial referido a t1 é 100 e b4=5, encontre o nível referenciado a t4.
+
+**MAT-EST-045-EX-APR-08 — Previsão emitida antes de observar.** Calcule a previsão de t5 usando l4=115, b4=5 e o índice sazonal s1=−10.
+
+**MAT-EST-045-EX-APR-09 — Parâmetros e papéis.** Em Holt-Winters aditivo, qual componente é atualizado por alfa, por beta-asterisco e por gama?
+
+**MAT-EST-045-EX-APR-10 — Erro e ordem cronológica.** Uma previsão de 110 para t5 é seguida da observação 111. Qual é o erro observado menos previsto? O que entra primeiro?
+
+### Consolidação — dez questões
+
+**MAT-EST-045-EX-CON-01 — Atualização do nível no quinto período.** Com y5=111, s1=−10, l4=115, b4=5 e alfa=0,3, calcule l5 pela convenção da aula.
+
+**MAT-EST-045-EX-CON-02 — Atualização da tendência.** Dado l5=120,3 e l4=115, b4=5 e beta-asterisco=0,2, calcule b5.
+
+**MAT-EST-045-EX-CON-03 — Convenção de sazonalidade.** Na equação s5=gama×(y5−l4−b4)+(1−gama)×s1, encontre s5 para gama=0,2.
+
+**MAT-EST-045-EX-CON-04 — Próxima previsão de um passo.** Com os novos estados l5=120,3, b5=5,06 e s2=2, qual previsão se emite para t6?
+
+**MAT-EST-045-EX-CON-05 — Atualização do nível t6.** Após observar y6=124, s2=2, l5=120,3 e b5=5,06, encontre l6 usando alfa=0,3.
+
+**MAT-EST-045-EX-CON-06 — Atualização da tendência t6.** Use l6=124,352, l5=120,3, b5=5,06, beta-asterisco=0,2 para determinar b6.
+
+**MAT-EST-045-EX-CON-07 — Comparar fases iguais.** Por que a atualização s7 deve combinar o terceiro trimestre atual com s3, e não com s6?
+
+**MAT-EST-045-EX-CON-08 — Resíduo de ajuste t7.** A previsão emitida antes de t7 é 147,2104 e y7=150. Calcule o erro com sinal.
+
+**MAT-EST-045-EX-CON-09 — Estado final documentado.** Consulte a trilha de cálculos e registre o nível e a tendência após o oitavo trimestre, arredondados a quatro casas.
+
+**MAT-EST-045-EX-CON-10 — Limite dos parâmetros.** Na parametrização sazonal usada, se alfa=0,3 e gama=0,8, qual restrição seria descumprida e como registrar isso?
+
+### Transferência e aprofundamento — dez questões
+
+**MAT-EST-045-EX-VES-01 — Previsão quatro passos sem atualização.** Ao fim de t8, o estado é l8=135,6511392 e b8=5,14139264; os efeitos s5..s8 são [−9,8;1,328;18,55792;−9,6146112]. Calcule t9 e t12.
+
+**MAT-EST-045-EX-VES-02 — Índice errado em previsão.** Um relatório utiliza s7=18,55792 na previsão de t9. Identifique a troca e o efeito esperado sobre a previsão.
+
+**MAT-EST-045-EX-VES-03 — Erro do primeiro trimestre futuro.** No período t9, observado é 129 e Holt-Winters prevê 130,99253184. Calcule o erro assinado e o absoluto.
+
+**MAT-EST-045-EX-VES-04 — MAE do Holt-Winters.** Use os erros do modelo [−1,99253184;−2,26192448;+1,36676288;−2,60209856] para calcular MAE.
+
+**MAT-EST-045-EX-VES-05 — Por que métricas mudam a comparação?.** Os MAEs são 2,0558 (Holt-Winters) e 1,75 (deslocamento sazonal), enquanto os RMSEs são 2,1051 e 2,1794, respectivamente. Interprete a troca sem atribuir vitória universal.
+
+**MAT-EST-045-EX-VES-06 — Referência de deslocamento sazonal.** Do treinamento, calcule os quatro aumentos anuais y5−y1, y6−y2, y7−y3, y8−y4 e a média que será aplicada a t5..t8.
+
+**MAT-EST-045-EX-VES-07 — Teste contaminado por afinação.** Após conhecer observados t9..t12, um analista testa centenas de combinações de alfa, beta e gama e chama o menor MAE nesse mesmo bloco de teste novo. Qual foi o problema?
+
+**MAT-EST-045-EX-VES-08 — Origem temporal alterada.** Para avaliar previsão t12 emitida ao final de t8, alguém atualiza os estados usando observados de t9, t10 e t11. O que mudou?
+
+**MAT-EST-045-EX-VES-09 — Inicialização alternativa sem fraude.** Uma equipe considera usar média das duas primeiras estações anuais para estimar os estados iniciais de Holt-Winters. Em que circunstância isso é legítimo e qual cuidado é indispensável?
+
+**MAT-EST-045-EX-VES-10 — Conclusão técnica responsável.** O Holt-Winters aditivo ajustado por heurística forneceu previsões próximas dos quatro observados fictícios conhecidos. Redija uma conclusão de duas frases que declare evidência e limite.
+
+### Reteste independente — seis questões, aplicar depois da correção
+
+**MAT-EST-045-EX-RET-01 — Reteste ciclo mensal.** Numa nova série com uma observação mensal e sazonalidade anual, identifique m e a defasagem do índice sazonal usado para atualizar o mês 14.
+
+**MAT-EST-045-EX-RET-02 — Reteste inicialização diferente.** Uma nova série inicial de quatro valores é [40,55,70,55]. Fixe b=(55−40)/3=5; retire tendência a partir de t1 e obtenha nível central inicial e quatro efeitos sazonais.
+
+**MAT-EST-045-EX-RET-03 — Reteste primeira previsão.** Com l4=62,5, b4=5 e s1=−7,5 do problema anterior, qual previsão do quinto período antes de observá-lo?
+
+**MAT-EST-045-EX-RET-04 — Reteste nova atualização.** Dados l4=62,5, b4=5, s1=−7,5, observação nova y5=62, alfa=0,4, encontre l5.
+
+**MAT-EST-045-EX-RET-05 — Reteste sazonal com mesma convenção.** Na situação anterior, use gama=0,2 e calcule s5.
+
+**MAT-EST-045-EX-RET-06 — Reteste calendário e honestidade.** Uma previsão sazonal é avaliada sobre um período cuja verdade já foi estudada e utilizada para revisar outros métodos. Quais duas frases devem acompanhar o resultado?
+
+## 11. Correção, síntese, revisão e próximo passo
+
+A correção integral dos 36 exercícios fica em `gabarito-comentado.json` e não é incluída junto aos enunciados para que o site a revele somente depois de uma tentativa. Responder, justificar e aplicar a uma situação nova fornece evidência de aprendizagem; simplesmente ler o texto não fornece. O arquivo `calculos-reproduziveis.py` oferece uma auditoria independente, em Python padrão, da sequência e das métricas. O arquivo `calculos-reproduziveis.json` apresenta os estados completos.
+
+**Resumo em áudio:** uma série trimestral repete fases a cada quatro períodos. No início, propusemos uma inclinação e retiramos essa inclinação para estimar o patamar e os efeitos sazonais. Em seguida, atualizamos nível, tendência e índice da estação correspondente sempre depois que a observação chegou. Congelamos os estados no corte oito e emitimos quatro previsões sem ler valores futuros. A comparação numérica foi instrutiva, mas já conhecíamos o conjunto t9–t12 de aulas anteriores. Duas métricas distintas podem destacar aspectos distintos do erro. Para uso real, qualquer conclusão de generalização precisa de validação cronológica verdadeiramente nova.
+
+**Revisão espaçada:** depois de uma tentativa efetiva e registrada, revisar em um, sete e trinta dias. Se falhar no cálculo de pesos, revisar médias ponderadas; se falhar no índice, retomar MAT-EST-043; se confundir origem e horizonte, retomar MAT-EST-031 e MAT-EST-042. Só considerar consolidado quando conseguir reconstruir uma atualização, explicar as hipóteses e resolver o reteste com novos números.
+
+**Próximo passo editorial:** MAT-EST-046 — Avaliação de previsões sazonais em múltiplas origens: janelas expansivas, estabilidade e incerteza. O avanço pedagógico individual depende de evidência efetiva de compreensão, ainda não registrada. As avaliações MAT-EST-018, MAT-PRO-039, MAT-PRO-054 e MAT-EST-037 continuam pendentes de tentativa individual; não inferir domínio nem atribuir pontuação.

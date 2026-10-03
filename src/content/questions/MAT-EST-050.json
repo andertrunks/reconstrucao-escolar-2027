@@ -1,0 +1,866 @@
+[
+  {
+    "id": "MAT-EST-050-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Fronteira de conhecimento",
+    "statement": "Quais são os últimos alvos com valor registrado e os três seguintes ainda não observados nesta narrativa?",
+    "answer": "O histórico fictício vai até t22. t23, t24 e t25 não têm observado neste pacote. Cenários com y23 não preenchem essa ausência.",
+    "resolution": "O histórico fictício vai até t22. t23, t24 e t25 não têm observado neste pacote. Cenários com y23 não preenchem essa ausência.",
+    "errorReasons": [
+      "interpretação: tomar hipótese por ocorrência"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Definição de erro",
+    "statement": "Se y=20 e previsão=24, calcule e e identifique o sinal da falha.",
+    "answer": "Erro é 20 menos 24, ou menos quatro unidades. O modelo previu acima do observado, portanto ocorreu superprevisão.",
+    "resolution": "Erro é 20 menos 24, ou menos quatro unidades. O modelo previu acima do observado, portanto ocorreu superprevisão.",
+    "errorReasons": [
+      "conteúdo: inverter observado menos previsto"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Módulo local",
+    "statement": "No alvo t19, quais foram os módulos dos erros de B e C?",
+    "answer": "Os módulos foram quatro e 23,2 unidades, respectivamente. Retirar sinal serve à comparação de magnitudes, mas o sinal continua necessário para calcular custo assimétrico.",
+    "resolution": "Os módulos foram quatro e 23,2 unidades, respectivamente. Retirar sinal serve à comparação de magnitudes, mas o sinal continua necessário para calcular custo assimétrico.",
+    "errorReasons": [
+      "cálculo: manter sinal no módulo"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Custo de sinal positivo",
+    "statement": "Com r=2, qual o custo fictício do erro +3?",
+    "answer": "O custo é duas vezes três, igual a seis pontos. Não existe parcela negativa para e positivo.",
+    "resolution": "O custo é duas vezes três, igual a seis pontos. Não existe parcela negativa para e positivo.",
+    "errorReasons": [
+      "conteúdo: confundir penalidade de sinal"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Custo de sinal negativo",
+    "statement": "Com r=5, qual o custo do erro −3?",
+    "answer": "Custo é três pontos, pois a parte positiva é zero e a magnitude negativa é três. O peso cinco não atua na superprevisão nesta definição.",
+    "resolution": "Custo é três pontos, pois a parte positiva é zero e a magnitude negativa é três. O peso cinco não atua na superprevisão nesta definição.",
+    "errorReasons": [
+      "conteúdo: penalizar ambos os sinais pelo mesmo r"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Peso igual a um",
+    "statement": "Qual métrica coincide com o custo médio quando r=1?",
+    "answer": "Custo de cada linha é o módulo do erro, porque ambas as direções custam um ponto por unidade; a média coincide numericamente com MAE. As unidades de custo seguem sendo pontos fictícios.",
+    "resolution": "Custo de cada linha é o módulo do erro, porque ambas as direções custam um ponto por unidade; a média coincide numericamente com MAE. As unidades de custo seguem sendo pontos fictícios.",
+    "errorReasons": [
+      "conteúdo: não reconhecer função por partes"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Soma dos módulos",
+    "statement": "Calcule o MAE de B a partir da soma de módulos 88 em cinco pares.",
+    "answer": "Oitenta e oito dividido por cinco é 17,6 unidades. Não dividir por oito: três alvos do protocolo ainda não foram observados.",
+    "resolution": "Oitenta e oito dividido por cinco é 17,6 unidades. Não dividir por oito: três alvos do protocolo ainda não foram observados.",
+    "errorReasons": [
+      "cálculo: usar tamanho planejado da amostra"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Janelas e hipóteses",
+    "statement": "O valor hipotético y23=178 pode ser colocado no histórico principal de observados?",
+    "answer": "Não. É somente cenário condicional e permanece em arquivo separado com rótulo de não observado.",
+    "resolution": "Não. É somente cenário condicional e permanece em arquivo separado com rótulo de não observado.",
+    "errorReasons": [
+      "interpretação: misturar simulação condicional e registro"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Piora versus percentual",
+    "statement": "C errou 23,2 e B errou 4 em t19. Qual a piora absoluta de C?",
+    "answer": "A diferença 23,2 menos quatro é 19,2 unidades. Não é 19,2 por cento.",
+    "resolution": "A diferença 23,2 menos quatro é 19,2 unidades. Não é 19,2 por cento.",
+    "errorReasons": [
+      "cálculo: confundir operação e unidade"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "Condição lógica",
+    "statement": "Se um protocolo exige que todas as seis portas passem, basta duas médias favoráveis?",
+    "answer": "Não. Trata-se de uma conjunção lógica; amostra incompleta e falha da guarda local impedem aprovação dentro daquele protocolo.",
+    "resolution": "Não. Trata-se de uma conjunção lógica; amostra incompleta e falha da guarda local impedem aprovação dentro daquele protocolo.",
+    "errorReasons": [
+      "estratégia: substituir critérios múltiplos por uma métrica"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Derivar reta B",
+    "statement": "Some os erros positivos de B (25,21,21,17) e a magnitude negativa 4. Escreva custo médio B em função de r.",
+    "answer": "Positivos somam 84; magnitude negativa soma quatro. Dividindo (84r+4) por cinco, obtemos 16,8r+0,8 pontos por previsão.",
+    "resolution": "Positivos somam 84; magnitude negativa soma quatro. Dividindo (84r+4) por cinco, obtemos 16,8r+0,8 pontos por previsão.",
+    "errorReasons": [
+      "cálculo: esquecer divisão por cinco"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Derivar reta C",
+    "statement": "Para C, positivos somam 16,4 e magnitudes negativas 25,4. Escreva custo médio C em função de r.",
+    "answer": "(16,4r+25,4)/5 é igual a 3,28r+5,08 pontos por previsão. As parcelas têm origem em sinais diferentes dos cinco erros.",
+    "resolution": "(16,4r+25,4)/5 é igual a 3,28r+5,08 pontos por previsão. As parcelas têm origem em sinais diferentes dos cinco erros.",
+    "errorReasons": [
+      "conteúdo: trocar partes positivas e negativas"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Calcular alternativa r=2",
+    "statement": "Calcule as duas médias de custo para r=2 e a diferença B menos C.",
+    "answer": "B=16,8 vezes dois mais 0,8 = 34,4. C=3,28 vezes dois mais 5,08 = 11,64. Diferença é 22,76 pontos fictícios em favor de C no agregado alternativo.",
+    "resolution": "B=16,8 vezes dois mais 0,8 = 34,4. C=3,28 vezes dois mais 5,08 = 11,64. Diferença é 22,76 pontos fictícios em favor de C no agregado alternativo.",
+    "errorReasons": [
+      "cálculo: substituição numérica ou subtração"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Encontrar ponto de empate",
+    "statement": "Resolva 16,8r+0,8=3,28r+5,08.",
+    "answer": "Subtraindo 3,28r e depois 0,8, fica 13,52r=4,28. Portanto r=4,28/13,52, cerca de 0,31657. O resultado é adimensional.",
+    "resolution": "Subtraindo 3,28r e depois 0,8, fica 13,52r=4,28. Portanto r=4,28/13,52, cerca de 0,31657. O resultado é adimensional.",
+    "errorReasons": [
+      "álgebra: transpor termo com sinal incorreto"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Testar r=0,25",
+    "statement": "Qual reta produz a menor média para r=0,25 e por quanto?",
+    "answer": "B=5,00, C=5,90, então B fica 0,90 ponto abaixo. O achado mostra dependência do custo e não altera o protocolo r=3.",
+    "resolution": "B=5,00, C=5,90, então B fica 0,90 ponto abaixo. O achado mostra dependência do custo e não altera o protocolo r=3.",
+    "errorReasons": [
+      "cálculo: arredondar o limiar cedo"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Retirar t19 descritivamente",
+    "statement": "Retire t19 apenas para o diagnóstico. A partir das somas 88 e 41,8 e dos módulos 4 e 23,2, calcule os MAEs restantes.",
+    "answer": "B=(88−4)/4=21. C=(41,8−23,2)/4=4,65. Essa conta mede influência; a guarda original continua registrando t19.",
+    "resolution": "B=(88−4)/4=21. C=(41,8−23,2)/4=4,65. Essa conta mede influência; a guarda original continua registrando t19.",
+    "errorReasons": [
+      "estratégia: transformar diagnóstico em exclusão oficial"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Retirar t18 descritivamente",
+    "statement": "Sem t18, cujos módulos eram 25 e 9,8, obtenha os dois MAEs.",
+    "answer": "B=(88−25)/4=15,75 e C=(41,8−9,8)/4=8. A redução relativa neste recorte é aproximadamente 49,21 por cento.",
+    "resolution": "B=(88−25)/4=15,75 e C=(41,8−9,8)/4=8. A redução relativa neste recorte é aproximadamente 49,21 por cento.",
+    "errorReasons": [
+      "cálculo: usar cinco no denominador após retirar um"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Projeção B de t23",
+    "statement": "No método B com sazonalidade quatro, y19=183. Qual a estimativa didática de t23 com origem t22?",
+    "answer": "B23 é y19, ou 183. Não é y22, pois a referência sazonal usa a mesma estação do ciclo anterior.",
+    "resolution": "B23 é y19, ou 183. Não é y22, pois a referência sazonal usa a mesma estação do ciclo anterior.",
+    "errorReasons": [
+      "conteúdo: confundir sazonal ingênuo com último valor"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Projeção C de t23",
+    "statement": "As diferenças d18 a d22 são 25,−4,21,21,17. Se B23=183, calcule C23.",
+    "answer": "A soma é 80 e a média em cinco valores é 16. O candidato prevê 183+16=199 unidades. A janela só usa informações disponíveis até t22.",
+    "resolution": "A soma é 80 e a média em cinco valores é 16. O candidato prevê 183+16=199 unidades. A janela só usa informações disponíveis até t22.",
+    "errorReasons": [
+      "cálculo: dividir pelo período sazonal quatro em vez da janela cinco"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "Retificação hipotética",
+    "statement": "Suponha, sem alterar histórico, que y22 passasse de 193 a 190. Qual a nova diferença sazonal d22 e nova projeção C23?",
+    "answer": "d22=190−176=14. A soma da janela cai de 80 para 77; sua média cai para 15,4. A previsão C23 hipotética seria 198,4, não 199.",
+    "resolution": "d22=190−176=14. A soma da janela cai de 80 para 77; sua média cai para 15,4. A previsão C23 hipotética seria 198,4, não 199.",
+    "errorReasons": [
+      "estratégia: sobrescrever dado e previsão originais"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Interpretação de duas retas",
+    "statement": "Questão autoral em estilo vestibular. Em r=0,25, B custa 5,00 e C custa 5,90; em r=3, B custa 51,20 e C 14,92. Redija conclusão que respeite ambas as comparações.",
+    "answer": "Não existe preferência de custo independente do peso: no recorte r=0,25 a média B é menor; em r=3 a média C é menor. Esses resultados são descritivos e não substituem a guarda do protocolo.",
+    "resolution": "Não existe preferência de custo independente do peso: no recorte r=0,25 a média B é menor; em r=3 a média C é menor. Esses resultados são descritivos e não substituem a guarda do protocolo.",
+    "errorReasons": [
+      "interpretação: extrapolar uma métrica para todas as políticas"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Menor média, guarda violada",
+    "statement": "Questão autoral em estilo vestibular. A candidata reduz a média de erro em 52,5%, mas piora 19,2 em t19. Um contrato exige nenhum alvo acima de 10. Qual é o estado?",
+    "answer": "A condição local falha porque 19,2 supera dez. Redução agregada não compensa uma porta definida como obrigatória. A regra também exige oito pares, e há só cinco.",
+    "resolution": "A condição local falha porque 19,2 supera dez. Redução agregada não compensa uma porta definida como obrigatória. A regra também exige oito pares, e há só cinco.",
+    "errorReasons": [
+      "estratégia: ponderar critérios que foram definidos como portas obrigatórias"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Igual módulo, outro custo",
+    "statement": "Questão autoral em estilo vestibular. Sob y23 hipotético igual a 191, B prevê 183 e C prevê 199. Compare módulo e custo para r=3.",
+    "answer": "Erros seriam +8 e −8, módulos ambos oito. Custos seriam 24 e oito pontos, pois o mesmo tamanho em sentidos opostos recebe pesos distintos. Não afirmar que y23 aconteceu.",
+    "resolution": "Erros seriam +8 e −8, módulos ambos oito. Custos seriam 24 e oito pontos, pois o mesmo tamanho em sentidos opostos recebe pesos distintos. Não afirmar que y23 aconteceu.",
+    "errorReasons": [
+      "conteúdo: confundir módulo e custo"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Cenário de queda",
+    "statement": "Questão autoral em estilo vestibular. Se y23 fosse 178, calcule módulos B e C e piora local do candidato.",
+    "answer": "Módulos seriam cinco e 21 unidades; C pioraria dezesseis unidades, além do limite dez. É cenário condicional, não mais uma falha observada.",
+    "resolution": "Módulos seriam cinco e 21 unidades; C pioraria dezesseis unidades, além do limite dez. É cenário condicional, não mais uma falha observada.",
+    "errorReasons": [
+      "interpretação: transformar cenário em evidência histórica"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Cenário de alta",
+    "statement": "Questão autoral em estilo vestibular. Se y23 fosse 209, compare módulos dos erros B e C e os custos com r=3.",
+    "answer": "Erros +26 e +10; módulos 26 e dez; custos 78 e 30 pontos fictícios. A melhora condicional de C não reverte a falha já registrada em t19.",
+    "resolution": "Erros +26 e +10; módulos 26 e dez; custos 78 e 30 pontos fictícios. A melhora condicional de C não reverte a falha já registrada em t19.",
+    "errorReasons": [
+      "estratégia: considerar nova possibilidade como reparo do histórico"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Revisão de entrada",
+    "statement": "Questão autoral em estilo vestibular. Um gestor substitui silenciosamente y22=193 por 190 e reescreve a previsão passada. Explique o problema e quantifique a variação de C23.",
+    "answer": "A previsão C23 sob a hipótese cairia de 199 para 198,4, diferença de menos 0,6. Uma retificação real deve manter a emissão original, nova versão e momento do evento; reescrever o passado elimina auditabilidade.",
+    "resolution": "A previsão C23 sob a hipótese cairia de 199 para 198,4, diferença de menos 0,6. Uma retificação real deve manter a emissão original, nova versão e momento do evento; reescrever o passado elimina auditabilidade.",
+    "errorReasons": [
+      "interpretação: achar que mudança pequena dispensa registro"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Vazamento condicional",
+    "statement": "Questão autoral em estilo vestibular. Alguém usa d23=y23−y19 para emitir previsão C para t24 antes de y23 ser observado. Qual é a restrição?",
+    "answer": "Não se pode obter d23 verdadeiro sem y23. O valor condicional obtido sob cenário y23=191 é legítimo somente como cenário, nunca como emissão real baseada nos dados de t22.",
+    "resolution": "Não se pode obter d23 verdadeiro sem y23. O valor condicional obtido sob cenário y23=191 é legítimo somente como cenário, nunca como emissão real baseada nos dados de t22.",
+    "errorReasons": [
+      "estratégia: cruzar fronteira de informação"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Amostra dependente",
+    "statement": "Questão autoral em estilo vestibular. Um autor transforma cinco diagnósticos retirando uma linha de cada vez em cinco testes independentes de superioridade. Avalie.",
+    "answer": "As quatro linhas remanescentes se sobrepõem fortemente entre diagnósticos e pertencem à mesma sequência temporal inventada. Logo, não são cinco testes independentes nem validam inferência probabilística externa.",
+    "resolution": "As quatro linhas remanescentes se sobrepõem fortemente entre diagnósticos e pertencem à mesma sequência temporal inventada. Logo, não são cinco testes independentes nem validam inferência probabilística externa.",
+    "errorReasons": [
+      "conteúdo: ignorar dependência entre subconjuntos"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Política alterada depois",
+    "statement": "Questão autoral em estilo vestibular. Após t19, a equipe aumenta a guarda de dez para vinte e diz que a regra original foi cumprida. Reescreva corretamente.",
+    "answer": "O protocolo herdado continua violado; uma nova política com guarda vinte teria de receber outra versão, justificativa e avaliação posterior independente. Não se pode apresentar ajuste pós-resultado como congelamento prévio.",
+    "resolution": "O protocolo herdado continua violado; uma nova política com guarda vinte teria de receber outra versão, justificativa e avaliação posterior independente. Não se pode apresentar ajuste pós-resultado como congelamento prévio.",
+    "errorReasons": [
+      "estratégia: retrospectiva apresentada como pré-registro"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "Comunicado técnico",
+    "statement": "Questão autoral em estilo vestibular. Escreva quatro frases: finalidade, resultado, exceção local e limite com encaminhamento, para os cinco pares t18–t22.",
+    "answer": "Exemplo: Comparamos B e C em cinco alvos fictícios h1. MAE foi 17,6 versus 8,36 unidades, com custo médio r=3 de 51,2 versus 14,92 pontos. Em t19, C piorou 19,2 unidades, excedendo a guarda de dez. Faltam três pares e auditoria/autorização, portanto não há promoção nem inferência de desempenho real futuro.",
+    "resolution": "Exemplo: Comparamos B e C em cinco alvos fictícios h1. MAE foi 17,6 versus 8,36 unidades, com custo médio r=3 de 51,2 versus 14,92 pontos. Em t19, C piorou 19,2 unidades, excedendo a guarda de dez. Faltam três pares e auditoria/autorização, portanto não há promoção nem inferência de desempenho real futuro.",
+    "errorReasons": [
+      "interpretação: omitir unidade, ressalva ou contexto da média"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Nova família de custo",
+    "statement": "Reteste posterior e independente: outro par de métodos inventados tem soma dos erros positivos P: 30 e Q: 10; magnitudes negativas P: 5 e Q: 25, em cinco alvos. Escreva os custos médios como função de r e encontre o empate.",
+    "answer": "P(r)=(30r+5)/5=6r+1. Q(r)=(10r+25)/5=2r+5. Igualando, 4r=4 e r=1. Esta questão exige transferir a derivação, não memorizar o limiar do exemplo central.",
+    "resolution": "P(r)=(30r+5)/5=6r+1. Q(r)=(10r+25)/5=2r+5. Igualando, 4r=4 e r=1. Esta questão exige transferir a derivação, não memorizar o limiar do exemplo central.",
+    "errorReasons": [
+      "conteúdo: não reconstruir separação de sinais"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Novo cenário condicional",
+    "statement": "Reteste posterior: duas previsões para alvo ainda não observado são 40 e 55. Se a hipótese for valor 45, calcule erros, módulos e custos com r=2.",
+    "answer": "Erros seriam +5 e −10; módulos cinco e dez; custos dez e dez pontos. Igual custo não implica igual erro absoluto. O observado continua hipotético.",
+    "resolution": "Erros seriam +5 e −10; módulos cinco e dez; custos dez e dez pontos. Igual custo não implica igual erro absoluto. O observado continua hipotético.",
+    "errorReasons": [
+      "cálculo: confundir direção e peso"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Retirada sem apagar falha",
+    "statement": "Reteste posterior: três erros absolutos do candidato são 1; 15; 2 e guarda é dez. Qual a média e o que ocorre se o valor 15 for retirado só do diagnóstico?",
+    "answer": "Média original (1+15+2)/3=6. Nos dois restantes seria 1,5; essa queda não apaga a perda individual de 15, que continua violando a guarda.",
+    "resolution": "Média original (1+15+2)/3=6. Nos dois restantes seria 1,5; essa queda não apaga a perda individual de 15, que continua violando a guarda.",
+    "errorReasons": [
+      "estratégia: usar exclusão descritiva para contornar regra"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Correção de registro",
+    "statement": "Reteste posterior: modelo M usa média das últimas quatro diferenças. Uma única diferença corrigida caiu oito unidades. De quanto varia o componente médio, se o resto não muda?",
+    "answer": "A média cai oito dividido por quatro, isto é, duas unidades. O ajuste é hipotético e uma retificação real precisa de trilha de versões.",
+    "resolution": "A média cai oito dividido por quatro, isto é, duas unidades. O ajuste é hipotético e uma retificação real precisa de trilha de versões.",
+    "errorReasons": [
+      "cálculo: esquecer efeito do denominador"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Fronteira temporal",
+    "statement": "Reteste posterior: ao fechar t50, uma regra usa y51 para emitir previsão para t51. Explique a violação e uma solução de protocolo.",
+    "answer": "y51 só será conhecido após o período-alvo, então há vazamento. Congelar a regra com valores até t50 e registrar emissão antes da revelação de y51; avaliar depois e preservar versões.",
+    "resolution": "y51 só será conhecido após o período-alvo, então há vazamento. Congelar a regra com valores até t50 e registrar emissão antes da revelação de y51; avaliar depois e preservar versões.",
+    "errorReasons": [
+      "estratégia: ignorar ordenação temporal"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-050-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-050"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "Parecer crítico de generalização",
+    "statement": "Reteste posterior: foram inventados seis alvos, publicados junto com a regra, com média de erro menor para C. Redija três ressalvas necessárias antes de afirmar desempenho externo.",
+    "answer": "Os alvos são fictícios e não constituem amostra de operação real; a escolha da regra e os valores não formam teste externo cego; é preciso avaliação futura com emissões registradas, dados auditados e métricas/guardas predefinidas. Uma média menor isolada não assegura cada alvo.",
+    "resolution": "Os alvos são fictícios e não constituem amostra de operação real; a escolha da regra e os valores não formam teste externo cego; é preciso avaliação futura com emissões registradas, dados auditados e métricas/guardas predefinidas. Uma média menor isolada não assegura cada alvo.",
+    "errorReasons": [
+      "interpretação: extrapolar amostra sintética"
+    ],
+    "source": {
+      "title": "MAT-EST-050-pacote-integracao.zip",
+      "url": "https://drive.google.com/file/d/1bJ59Jwr7PRXhjCTUcShrnRQCcyDTQY5t/view?usp=drivesdk",
+      "checkedAt": "2026-10-03",
+      "version": "fonte integral recuperada"
+    },
+    "reviewStatus": "pendente"
+  }
+]

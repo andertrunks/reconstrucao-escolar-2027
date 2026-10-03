@@ -1,0 +1,254 @@
+[
+  {
+    "id": "MAT-EST-063-EX-APR-01",
+    "resposta": "Dois avaliáveis e seis pendentes.",
+    "resposta_e_resolucao": "Dois avaliáveis e seis pendentes. S01 e S02 têm previsões e observações válidas; S03 a S08 não geram erros elegíveis no corte A. O denominador da completude é oito.",
+    "motivoProvavelDeErro": "interpretação",
+    "verificacao": "S01 e S02 têm previsões e observações válidas; S03 a S08 não geram erros elegíveis no corte A. O denominador da completude é oito."
+  },
+  {
+    "id": "MAT-EST-063-EX-APR-02",
+    "resposta": "25%.",
+    "resposta_e_resolucao": "25%. Dois dividido por oito é 0,25, ou vinte e cinco por cento. A medida não é o MAE.",
+    "motivoProvavelDeErro": "cálculo",
+    "verificacao": "Dois dividido por oito é 0,25, ou vinte e cinco por cento. A medida não é o MAE."
+  },
+  {
+    "id": "MAT-EST-063-EX-APR-03",
+    "resposta": "4 e 2 unidades.",
+    "resposta_e_resolucao": "4 e 2 unidades. Módulo representa a magnitude sem sinal: |+4| é quatro e |−2| também é dois.",
+    "motivoProvavelDeErro": "conteúdo",
+    "verificacao": "Módulo representa a magnitude sem sinal: |+4| é quatro e |−2| também é dois."
+  },
+  {
+    "id": "MAT-EST-063-EX-APR-04",
+    "resposta": "3 unidades.",
+    "resposta_e_resolucao": "3 unidades. Somamos quatro e dois e dividimos pelos dois pares elegíveis. Seis sobre dois é três.",
+    "motivoProvavelDeErro": "cálculo",
+    "verificacao": "Somamos quatro e dois e dividimos pelos dois pares elegíveis. Seis sobre dois é três."
+  },
+  {
+    "id": "MAT-EST-063-EX-APR-05",
+    "resposta": "0,75 unidade, valor inválido como MAE do corte A.",
+    "resposta_e_resolucao": "0,75 unidade, valor inválido como MAE do corte A. Seis dividido por oito vale 0,75, mas aplica denominador incompatível com a soma de erros de somente dois pares.",
+    "motivoProvavelDeErro": "estratégia",
+    "verificacao": "Seis dividido por oito vale 0,75, mas aplica denominador incompatível com a soma de erros de somente dois pares."
+  },
+  {
+    "id": "MAT-EST-063-EX-APR-06",
+    "resposta": "Não.",
+    "resposta_e_resolucao": "Não. São verificações locais. G7 e G8 continuam not_performed, sem evidência de deploy e versão pública.",
+    "motivoProvavelDeErro": "interpretação",
+    "verificacao": "São verificações locais. G7 e G8 continuam not_performed, sem evidência de deploy e versão pública."
+  },
+  {
+    "id": "MAT-EST-063-EX-APR-07",
+    "resposta": "Não.",
+    "resposta_e_resolucao": "Não. É um teste deliberado que evidencia uma possível barreira se a versão fosse exposta. Não se verificou publicação ou uso real.",
+    "motivoProvavelDeErro": "interpretação",
+    "verificacao": "É um teste deliberado que evidencia uma possível barreira se a versão fosse exposta. Não se verificou publicação ou uso real."
+  },
+  {
+    "id": "MAT-EST-063-EX-APR-08",
+    "resposta": "Instante comprovado da ocorrência e instante comprovado da detecção.",
+    "resposta_e_resolucao": "Instante comprovado da ocorrência e instante comprovado da detecção. Sem ambos os horários, a diferença temporal não é estimável. Nunca substitua valores ausentes por zero.",
+    "motivoProvavelDeErro": "conteúdo",
+    "verificacao": "Sem ambos os horários, a diferença temporal não é estimável. Nunca substitua valores ausentes por zero."
+  },
+  {
+    "id": "MAT-EST-063-EX-APR-09",
+    "resposta": "Sete pontos de custo.",
+    "resposta_e_resolucao": "Sete pontos de custo. O custo definido pela regra didática é pontuação, não unidades medidas pela série; explicitá-la evita confundir objetivos.",
+    "motivoProvavelDeErro": "memória",
+    "verificacao": "O custo definido pela regra didática é pontuação, não unidades medidas pela série; explicitá-la evita confundir objetivos."
+  },
+  {
+    "id": "MAT-EST-063-EX-APR-10",
+    "resposta": "Ambos not_performed.",
+    "resposta_e_resolucao": "Ambos not_performed. G7 exige deploy real e G8 avaliação da versão pública; nenhuma dessas operações foi executada pelo trabalho editorial.",
+    "motivoProvavelDeErro": "memória",
+    "verificacao": "G7 exige deploy real e G8 avaliação da versão pública; nenhuma dessas operações foi executada pelo trabalho editorial."
+  },
+  {
+    "id": "MAT-EST-063-EX-CON-01",
+    "resposta": "MAE C é 4; B é 3; diferença C menos B igual a +1 unidade.",
+    "resposta_e_resolucao": "MAE C é 4; B é 3; diferença C menos B igual a +1 unidade. Somar três e cinco gera oito; dividir por dois gera quatro. Quatro menos três é um. Comparação limitada a dois pares.",
+    "motivoProvavelDeErro": "cálculo",
+    "verificacao": "Somar três e cinco gera oito; dividir por dois gera quatro. Quatro menos três é um. Comparação limitada a dois pares."
+  },
+  {
+    "id": "MAT-EST-063-EX-CON-02",
+    "resposta": "2/8 mede completude de 25%; (4+2)/2 mede MAE B de 3 unidades.",
+    "resposta_e_resolucao": "2/8 mede completude de 25%; (4+2)/2 mede MAE B de 3 unidades. Os conjuntos nos denominadores respondem a perguntas diferentes: planejados para completude e avaliáveis para média de erro.",
+    "motivoProvavelDeErro": "interpretação",
+    "verificacao": "Os conjuntos nos denominadores respondem a perguntas diferentes: planejados para completude e avaliáveis para média de erro."
+  },
+  {
+    "id": "MAT-EST-063-EX-CON-03",
+    "resposta": "2,25 unidades.",
+    "resposta_e_resolucao": "2,25 unidades. Três menos zero vírgula setenta e cinco resulta em dois vírgula vinte e cinco.",
+    "motivoProvavelDeErro": "cálculo",
+    "verificacao": "Três menos zero vírgula setenta e cinco resulta em dois vírgula vinte e cinco."
+  },
+  {
+    "id": "MAT-EST-063-EX-CON-04",
+    "resposta": "Alcance não verificado ou desconhecido.",
+    "resposta_e_resolucao": "Alcance não verificado ou desconhecido. “Nenhum usuário afetado” afirmaria ausência comprovada que não foi demonstrada.",
+    "motivoProvavelDeErro": "interpretação",
+    "verificacao": "“Nenhum usuário afetado” afirmaria ausência comprovada que não foi demonstrada."
+  },
+  {
+    "id": "MAT-EST-063-EX-CON-05",
+    "resposta": "Não.",
+    "resposta_e_resolucao": "Não. O vínculo da evidência está preso ao artefato anterior. É preciso repetir os testes atingidos e documentar novos hashes.",
+    "motivoProvavelDeErro": "conteúdo",
+    "verificacao": "O vínculo da evidência está preso ao artefato anterior. É preciso repetir os testes atingidos e documentar novos hashes."
+  },
+  {
+    "id": "MAT-EST-063-EX-CON-06",
+    "resposta": "Manter a cópia adulterada fora da candidata e impedir propagação de sua interpretação.",
+    "resposta_e_resolucao": "Manter a cópia adulterada fora da candidata e impedir propagação de sua interpretação. Um rollback público seria alegação falsa porque não houve deploy verificado.",
+    "motivoProvavelDeErro": "estratégia",
+    "verificacao": "Um rollback público seria alegação falsa porque não houve deploy verificado."
+  },
+  {
+    "id": "MAT-EST-063-EX-CON-07",
+    "resposta": "Corrigir unidade para pontos de custo e conservar valor sete.",
+    "resposta_e_resolucao": "Corrigir unidade para pontos de custo e conservar valor sete. Unidade é metadado semântico: a cifra sete permanece igual, mas o relatório deve distinguir custo de erro em unidades da série.",
+    "motivoProvavelDeErro": "interpretação",
+    "verificacao": "Unidade é metadado semântico: a cifra sete permanece igual, mas o relatório deve distinguir custo de erro em unidades da série."
+  },
+  {
+    "id": "MAT-EST-063-EX-CON-08",
+    "resposta": "Recontar MAE C=4 e verificar legenda/corte A; também cabem custo sete e hashes.",
+    "resposta_e_resolucao": "Recontar MAE C=4 e verificar legenda/corte A; também cabem custo sete e hashes. Regressão protege outros aspectos do relatório, inclusive casos não diretamente afetados pela edição.",
+    "motivoProvavelDeErro": "estratégia",
+    "verificacao": "Regressão protege outros aspectos do relatório, inclusive casos não diretamente afetados pela edição."
+  },
+  {
+    "id": "MAT-EST-063-EX-CON-09",
+    "resposta": "9,2 unidades.",
+    "resposta_e_resolucao": "9,2 unidades. Dezenove vírgula dois menos dez é nove vírgula dois; melhora média posterior não apaga o gatilho histórico.",
+    "motivoProvavelDeErro": "cálculo",
+    "verificacao": "Dezenove vírgula dois menos dez é nove vírgula dois; melhora média posterior não apaga o gatilho histórico."
+  },
+  {
+    "id": "MAT-EST-063-EX-CON-10",
+    "resposta": "Deploy autorizado e verificação pós-deploy da versão servida, além das revisões exigidas.",
+    "resposta_e_resolucao": "Deploy autorizado e verificação pós-deploy da versão servida, além das revisões exigidas. A primeira conclusão é local; a segunda exige evidência externa, versão, URL e checagem da experiência real.",
+    "motivoProvavelDeErro": "estratégia",
+    "verificacao": "A primeira conclusão é local; a segunda exige evidência externa, versão, URL e checagem da experiência real."
+  },
+  {
+    "id": "MAT-EST-063-EX-VES-01",
+    "resposta": "Foram avaliados dois casos, e MAE B é 3 unidades.",
+    "resposta_e_resolucao": "Foram avaliados dois casos, e MAE B é 3 unidades. Oito é o total planejado e não o de erros observados. O valor 0,75 divide seis por oito indevidamente.",
+    "motivoProvavelDeErro": "interpretação",
+    "verificacao": "Oito é o total planejado e não o de erros observados. O valor 0,75 divide seis por oito indevidamente."
+  },
+  {
+    "id": "MAT-EST-063-EX-VES-02",
+    "resposta": "Risco de acessibilidade; confirmar versão exposta, alcance e teste manual com tecnologia assistiva.",
+    "resposta_e_resolucao": "Risco de acessibilidade; confirmar versão exposta, alcance e teste manual com tecnologia assistiva. A falha em fixture é sintética. Um diagnóstico de barreira real depende de versão e inspeção de uso acessível.",
+    "motivoProvavelDeErro": "estratégia",
+    "verificacao": "A falha em fixture é sintética. Um diagnóstico de barreira real depende de versão e inspeção de uso acessível."
+  },
+  {
+    "id": "MAT-EST-063-EX-VES-03",
+    "resposta": "A guarda em t19 foi violada por 19,2, acima do limite dez.",
+    "resposta_e_resolucao": "A guarda em t19 foi violada por 19,2, acima do limite dez. O protocolo exige seus critérios simultâneos; melhora média isolada não revoga o gatilho de segurança.",
+    "motivoProvavelDeErro": "conteúdo",
+    "verificacao": "O protocolo exige seus critérios simultâneos; melhora média isolada não revoga o gatilho de segurança."
+  },
+  {
+    "id": "MAT-EST-063-EX-VES-04",
+    "resposta": "O relatório B respeita a unidade de custo definida; A mistura risco decisório e variável observada.",
+    "resposta_e_resolucao": "O relatório B respeita a unidade de custo definida; A mistura risco decisório e variável observada. Mesmo número não significa mesma grandeza. É necessário registrar a função de custo e unidade correspondente.",
+    "motivoProvavelDeErro": "interpretação",
+    "verificacao": "Mesmo número não significa mesma grandeza. É necessário registrar a função de custo e unidade correspondente."
+  },
+  {
+    "id": "MAT-EST-063-EX-VES-05",
+    "resposta": "“Identificamos uma falha artificial em teste local; não há comprovação de publicação ou de alcance público.”",
+    "resposta_e_resolucao": "“Identificamos uma falha artificial em teste local; não há comprovação de publicação ou de alcance público.” O enunciado registra o que é demonstrado e marca a incerteza sem declarar dano ou ausência absoluta de dano.",
+    "motivoProvavelDeErro": "estratégia",
+    "verificacao": "O enunciado registra o que é demonstrado e marca a incerteza sem declarar dano ou ausência absoluta de dano."
+  },
+  {
+    "id": "MAT-EST-063-EX-VES-06",
+    "resposta": "Doze minutos no exemplo hipotético; não estima nenhum incidente real do projeto.",
+    "resposta_e_resolucao": "Doze minutos no exemplo hipotético; não estima nenhum incidente real do projeto. A diferença entre os instantes é 12 minutos. O exemplo não cria registros temporais efetivos para I01–I06.",
+    "motivoProvavelDeErro": "cálculo",
+    "verificacao": "A diferença entre os instantes é 12 minutos. O exemplo não cria registros temporais efetivos para I01–I06."
+  },
+  {
+    "id": "MAT-EST-063-EX-VES-07",
+    "resposta": "Comprovação de rollback na versão pública, URL e inspeção pós-restauração.",
+    "resposta_e_resolucao": "Comprovação de rollback na versão pública, URL e inspeção pós-restauração. A extração demonstra recuperabilidade local de bytes, não mudança efetiva na plataforma servida.",
+    "motivoProvavelDeErro": "interpretação",
+    "verificacao": "A extração demonstra recuperabilidade local de bytes, não mudança efetiva na plataforma servida."
+  },
+  {
+    "id": "MAT-EST-063-EX-VES-08",
+    "resposta": "Não. Mostra que a correção isolada passou e que mutações independentes continuam detectáveis.",
+    "resposta_e_resolucao": "Não. Mostra que a correção isolada passou e que mutações independentes continuam detectáveis. Uma regressão robusta preserva controles negativos; ela não precisa transformar erros intencionais em casos válidos.",
+    "motivoProvavelDeErro": "estratégia",
+    "verificacao": "Uma regressão robusta preserva controles negativos; ela não precisa transformar erros intencionais em casos válidos."
+  },
+  {
+    "id": "MAT-EST-063-EX-VES-09",
+    "resposta": "MAE não estimável, com zero pares e zero observações/emissões.",
+    "resposta_e_resolucao": "MAE não estimável, com zero pares e zero observações/emissões. Não há denominador observável positivo; ausência de observações não implica previsão perfeita.",
+    "motivoProvavelDeErro": "conteúdo",
+    "verificacao": "Não há denominador observável positivo; ausência de observações não implica previsão perfeita."
+  },
+  {
+    "id": "MAT-EST-063-EX-VES-10",
+    "resposta": "Achado: n=8 em cópia; efeito: 0,75 em vez de 3; ação: reparar e retestar; limite: sem evidência de exposição pública.",
+    "resposta_e_resolucao": "Achado: n=8 em cópia; efeito: 0,75 em vez de 3; ação: reparar e retestar; limite: sem evidência de exposição pública. A ordem impede que a hipótese de impacto seja narrada como acontecimento real e registra correção sem ocultar versão.",
+    "motivoProvavelDeErro": "estratégia",
+    "verificacao": "A ordem impede que a hipótese de impacto seja narrada como acontecimento real e registra correção sem ocultar versão."
+  },
+  {
+    "id": "MAT-EST-063-EX-RET-01",
+    "resposta": "MAE=5 unidades; completude=3/5=60%.",
+    "resposta_e_resolucao": "MAE=5 unidades; completude=3/5=60%. A soma de módulos é quinze; dividir por três produz cinco. Os cinco planejados só entram no denominador da completude.",
+    "motivoProvavelDeErro": "cálculo",
+    "verificacao": "A soma de módulos é quinze; dividir por três produz cinco. Os cinco planejados só entram no denominador da completude."
+  },
+  {
+    "id": "MAT-EST-063-EX-RET-02",
+    "resposta": "“Alcance público não verificado; não há dados de acesso associados à ocorrência simulada.”",
+    "resposta_e_resolucao": "“Alcance público não verificado; não há dados de acesso associados à ocorrência simulada.” Não há base para quantificar usuários, nem para afirmar que o alcance foi exatamente zero.",
+    "motivoProvavelDeErro": "interpretação",
+    "verificacao": "Não há base para quantificar usuários, nem para afirmar que o alcance foi exatamente zero."
+  },
+  {
+    "id": "MAT-EST-063-EX-RET-03",
+    "resposta": "Não; revisar dependências e obter validação correspondente à versão nova.",
+    "resposta_e_resolucao": "Não; revisar dependências e obter validação correspondente à versão nova. Alteração de bytes pode mudar conteúdo revisado. Hash identifica versão, não renova parecer humano.",
+    "motivoProvavelDeErro": "estratégia",
+    "verificacao": "Alteração de bytes pode mudar conteúdo revisado. Hash identifica versão, não renova parecer humano."
+  },
+  {
+    "id": "MAT-EST-063-EX-RET-04",
+    "resposta": "Exigir versão corrigida identificada, legenda acessível, teste de regressão, revisão humana, deploy e inspeção de versão pública, além de comunicação proporcional.",
+    "resposta_e_resolucao": "Exigir versão corrigida identificada, legenda acessível, teste de regressão, revisão humana, deploy e inspeção de versão pública, além de comunicação proporcional. Encerramento demanda prova da correção servida aos leitores, não somente alteração do arquivo local.",
+    "motivoProvavelDeErro": "estratégia",
+    "verificacao": "Encerramento demanda prova da correção servida aos leitores, não somente alteração do arquivo local."
+  },
+  {
+    "id": "MAT-EST-063-EX-RET-05",
+    "resposta": "Não.",
+    "resposta_e_resolucao": "Não. Novo protocolo com ID e corte próprios pode orientar avaliação futura, mas não reescreve o resultado congelado anterior.",
+    "motivoProvavelDeErro": "conteúdo",
+    "verificacao": "Novo protocolo com ID e corte próprios pode orientar avaliação futura, mas não reescreve o resultado congelado anterior."
+  },
+  {
+    "id": "MAT-EST-063-EX-RET-06",
+    "resposta": "Automatizar verificação do denominador contra elegíveis e exigir legenda que exiba n avaliável e planejado; adicionar casos negativos ao teste.",
+    "resposta_e_resolucao": "Automatizar verificação do denominador contra elegíveis e exigir legenda que exiba n avaliável e planejado; adicionar casos negativos ao teste. A prevenção age no mecanismo da falha. Evidência de conclusão será teste executado e arquivo-versionado; não há dano real a ser quantificado aqui.",
+    "motivoProvavelDeErro": "estratégia",
+    "verificacao": "A prevenção age no mecanismo da falha. Evidência de conclusão será teste executado e arquivo-versionado; não há dano real a ser quantificado aqui."
+  }
+]

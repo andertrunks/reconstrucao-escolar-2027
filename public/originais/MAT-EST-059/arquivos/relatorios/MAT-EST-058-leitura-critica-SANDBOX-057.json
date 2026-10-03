@@ -1,0 +1,64 @@
+{
+  "id": "MAT-EST-058-REPORT-DEMO-v1",
+  "natureza": "análise didática do SANDBOX-057; não avaliação prospectiva real",
+  "cut": "SANDBOX-057 corte A imutável",
+  "denominador_planejado": 8,
+  "avaliaveis_demonstrativos": 2,
+  "pendentes": 6,
+  "completude_pct": "25",
+  "erros_assinados": {
+    "B": [
+      "4",
+      "-2"
+    ],
+    "C": [
+      "3",
+      "-5"
+    ]
+  },
+  "MAE_apenas_elegiveis": {
+    "B": "3",
+    "C": "4"
+  },
+  "custo_medio_apenas_elegiveis": {
+    "B": "7",
+    "C": "7"
+  },
+  "diferencas_pareadas_abs_C_menos_B": [
+    "-1",
+    "3"
+  ],
+  "media_diferencas_abs_C_menos_B": "1",
+  "resultado_exclusao_pos_resultado_S02_nao_valido_como_primario": {
+    "MAE_B": "4",
+    "MAE_C": "3",
+    "custo_B": "12",
+    "custo_C": "9",
+    "nota": "apenas S01; a direção se inverte após retirar S02"
+  },
+  "mecanismo_ausencia": "não identificável apenas a partir dos estados inventados",
+  "condicional_sem_fato_novo": {
+    "hipotese": "em cada uma das seis pendências, ambos erros absolutos limitados por M=10; premissa não comprovada",
+    "MAE_B": [
+      "0.75",
+      "8.25"
+    ],
+    "MAE_C": [
+      "1",
+      "8.5"
+    ],
+    "media_pareada_C_menos_B": [
+      "-7.25",
+      "7.75"
+    ],
+    "tipo": "limites aritméticos condicionais, NÃO intervalos de confiança"
+  },
+  "coorte_confirmatoria_t26_t33": {
+    "emissoes": 0,
+    "observados": 0,
+    "mae": null,
+    "resultado": "não estimável"
+  },
+  "observacoes_fabricadas_t23_t33": 0,
+  "mudanca_status_individual": false
+}

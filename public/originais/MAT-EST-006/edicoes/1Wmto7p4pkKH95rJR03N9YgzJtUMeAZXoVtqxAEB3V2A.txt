@@ -1,0 +1,196 @@
+﻿MAT-EST-006 — Gabarito comentado — reconstrução editorial v1
+
+
+Use somente após tentativa real. Todos os itens são autorais.
+
+
+CAMADA APR
+
+
+MAT-EST-006-EX-APR-01
+Resposta e raciocínio: ordenando 3,5,7, o valor central é 5. Mediana = 5.
+Motivo provável do erro: não ordenar os dados.
+
+
+MAT-EST-006-EX-APR-02
+Resposta e raciocínio: ordenando 2,4,8,10, os centrais são 4 e 8. Mediana = (4+8)/2 = 6.
+Motivo provável do erro: escolher apenas um valor central.
+
+
+MAT-EST-006-EX-APR-03
+Resposta e raciocínio: a mediana depende da posição na lista ordenada, não da ordem de coleta.
+Motivo provável do erro: confusão entre posição original e posição estatística.
+
+
+MAT-EST-006-EX-APR-04
+Resposta e raciocínio: (9+1)/2 = 5ª posição.
+Motivo provável do erro: fórmula de posição.
+
+
+MAT-EST-006-EX-APR-05
+Resposta e raciocínio: posições 4 e 5.
+Motivo provável do erro: contagem de posições.
+
+
+MAT-EST-006-EX-APR-06
+Resposta e raciocínio: moda = 2, pois é o valor de maior frequência.
+Motivo provável do erro: confundir moda com frequência.
+
+
+MAT-EST-006-EX-APR-07
+Resposta e raciocínio: modas 1 e 3. A distribuição é bimodal.
+Motivo provável do erro: supor que só pode existir uma moda.
+
+
+MAT-EST-006-EX-APR-08
+Resposta e raciocínio: não, pela convenção escolar adotada, porque todos aparecem uma vez e nenhum se destaca.
+Motivo provável do erro: não reconhecer conjunto amodal.
+
+
+MAT-EST-006-EX-APR-09
+Resposta e raciocínio: pode ter moda, pois categorias podem ter frequências. Mediana não é adequada porque tipo sanguíneo não possui ordem natural.
+Motivo provável do erro: confundir frequência com ordenação.
+
+
+MAT-EST-006-EX-APR-10
+Resposta e raciocínio: mediana = 4. O 100 está em uma extremidade e não ocupa a posição central.
+Motivo provável do erro: supor que todo extremo desloca qualquer medida de centro.
+
+
+CAMADA CON
+
+
+MAT-EST-006-EX-CON-01
+Resposta e raciocínio: ordem 7,8,9,10,11,12,50. n=7; 4ª posição; mediana=10.
+Motivo provável do erro: ordenação ou posição.
+
+
+MAT-EST-006-EX-CON-02
+Resposta e raciocínio: ordem 3,5,6,7,8,10. Centrais 6 e 7; mediana=6,5.
+Motivo provável do erro: caso par.
+
+
+MAT-EST-006-EX-CON-03
+Resposta e raciocínio: n=10; posições 5 e 6. A acumulada no valor 2 chega a 6, então ambas as posições estão no valor 2. Mediana=2.
+Motivo provável do erro: uso da frequência acumulada.
+
+
+MAT-EST-006-EX-CON-04
+Resposta e raciocínio: n=8; posições 4 e 5. A posição 4 é valor 2 e a 5 é valor 3. Mediana=(2+3)/2=2,5.
+Motivo provável do erro: localizar posições centrais.
+
+
+MAT-EST-006-EX-CON-05
+Resposta e raciocínio: B e C são modas, ambas com frequência 12. Distribuição bimodal.
+Motivo provável do erro: escolher somente a primeira categoria máxima.
+
+
+MAT-EST-006-EX-CON-06
+Resposta e raciocínio: moda=4; frequência da moda=3.
+Motivo provável do erro: confundir valor modal com sua contagem.
+
+
+MAT-EST-006-EX-CON-07
+Resposta e raciocínio: A tem média=4 e mediana=4. B tem média=22,8 e mediana=4. O extremo altera fortemente a média, não a mediana.
+Motivo provável do erro: cálculo da média ou não ordenar.
+
+
+MAT-EST-006-EX-CON-08
+Resposta e raciocínio: moda=“bom”. Total 80; posições 40 e 41. A acumulada até regular é 20 e até bom é 60; ambas as posições estão em “bom”. Mediana=“bom”.
+Motivo provável do erro: atribuir códigos numéricos desnecessários.
+
+
+MAT-EST-006-EX-CON-09
+Resposta e raciocínio: n=30; posições centrais 15 e16. Acumulada: 3,10,22,27,30. Ambas estão na classe [20,30). Essa é a classe mediana.
+Motivo provável do erro: confundir classe com valor exato.
+
+
+MAT-EST-006-EX-CON-10
+Resposta e raciocínio: porque sabemos apenas que essa classe tem maior frequência; não conhecemos a distribuição dos valores dentro do intervalo.
+Motivo provável do erro: substituir classe pelo ponto médio sem justificativa.
+
+
+CAMADA VES
+
+
+MAT-EST-006-EX-VES-01
+Resposta e raciocínio: média=5720; mediana=2200; não há moda porque todos os valores são distintos. Para centro posicional resistente ao extremo, mediana é mais informativa.
+Motivo provável do erro: média aritmética ou ordenação.
+
+
+MAT-EST-006-EX-VES-02
+Resposta e raciocínio: posição (11+1)/2=6. Se o sexto valor é 18, mediana=18.
+Motivo provável do erro: fórmula de posição.
+
+
+MAT-EST-006-EX-VES-03
+Resposta e raciocínio: mediana=(14+20)/2=17.
+Motivo provável do erro: caso par.
+
+
+MAT-EST-006-EX-VES-04
+Resposta e raciocínio: duas modas, correspondentes às duas categorias com frequência 30.
+Motivo provável do erro: achar que empate elimina a moda.
+
+
+MAT-EST-006-EX-VES-05
+Resposta e raciocínio: média=(10+11+12+13+54)/5=100/5=20. Mediana=12. A mediana é mais resistente ao valor 54.
+Motivo provável do erro: sensibilidade a extremos.
+
+
+MAT-EST-006-EX-VES-06
+Resposta e raciocínio: posições 50 e51; a acumulada até regular é 42 e até bom é 78, então ambas estão em “bom”. Mediana=“bom”.
+Motivo provável do erro: leitura da acumulada.
+
+
+MAT-EST-006-EX-VES-07
+Resposta e raciocínio: é legítimo chamar [30,40) de classe modal. Não é legítimo afirmar que 35 ou qualquer valor específico é a moda exata sem conhecer dados individuais.
+Motivo provável do erro: confundir classe modal e valor modal.
+
+
+MAT-EST-006-EX-VES-08
+Resposta e raciocínio: valores altos na cauda direita aumentam a soma e puxam a média mais do que a mediana; porém conjuntos finitos podem ter padrões diferentes, então a relação é heurística, não teorema universal.
+Motivo provável do erro: transformar padrão típico em regra absoluta.
+
+
+MAT-EST-006-EX-VES-09
+Resposta e raciocínio: até 0: |0|+|0|+|10|=10. Até 3: 3+3+7=13. Até 10:10+10+0=20. O valor 0, que é mediana, minimiza a soma entre esses candidatos.
+Motivo provável do erro: cálculo de distâncias absolutas.
+
+
+MAT-EST-006-EX-VES-10
+Resposta e raciocínio: moda depende apenas de frequência e pode identificar a marca mais escolhida. Média e mediana exigem estrutura quantitativa ou ordinal que a marca nominal não possui.
+Motivo provável do erro: atribuir números arbitrários às categorias.
+
+
+CAMADA RET
+
+
+MAT-EST-006-EX-RET-01
+Resposta e raciocínio: ordenar sempre. Se n é ímpar, escolher a posição (n+1)/2. Se n é par, calcular a média dos valores nas posições n/2 e n/2+1.
+Motivo provável do erro: esquecer ordenação ou caso par.
+
+
+MAT-EST-006-EX-RET-02
+Resposta e raciocínio: ordem 1,3,4,7,9. Mediana=4.
+Motivo provável do erro: ordenação.
+
+
+MAT-EST-006-EX-RET-03
+Resposta e raciocínio: ordem já crescente; centrais 8 e9; mediana=8,5.
+Motivo provável do erro: escolher um único central.
+
+
+MAT-EST-006-EX-RET-04
+Resposta e raciocínio: 2 e3, ambas com frequência 2. Distribuição bimodal.
+Motivo provável do erro: empate de frequências.
+
+
+MAT-EST-006-EX-RET-05
+Resposta e raciocínio: porque a mediana depende principalmente da posição central, enquanto a média usa diretamente a magnitude de todos os valores na soma.
+Motivo provável do erro: confundir definição das medidas.
+
+
+MAT-EST-006-EX-RET-06
+Resposta e raciocínio: por exemplo, o tamanho de calçado mais vendido; a moda identifica diretamente a categoria mais frequente para estoque.
+Motivo provável do erro: não relacionar medida à pergunta prática.

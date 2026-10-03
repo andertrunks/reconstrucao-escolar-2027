@@ -1,0 +1,19 @@
+{
+  "dataRegistro": "2026-09-28",
+  "unidade": "Estatística",
+  "ultimaAulaProduzida": "MAT-EST-031",
+  "proximaAulaObrigatoria": {
+    "id": "MAT-EST-032",
+    "titulo": "Avaliação integrada de previsões: comparação de métricas, incerteza e monitoramento de desempenho"
+  },
+  "statusProducao": "pacote local produzido e verificado; não publicado nem sincronizado",
+  "questoesAutorais": 36,
+  "respostasIndividuaisRegistradas": false,
+  "simuladosPendentes": [
+    "MAT-EST-018",
+    "MAT-PRO-039",
+    "MAT-PRO-054"
+  ],
+  "progressoIndividualAlterado": false,
+  "instrucoesContinuar": "Produzir MAT-EST-032; não recomeçar trilha nem gerar respostas ou domínio individuais fictícios."
+}

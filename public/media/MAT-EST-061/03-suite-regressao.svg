@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="659" viewBox="0 0 1020 659" role="img" aria-labelledby="ti de">
+<title id="ti">Uma candidata e cinco defeitos artificiais</title>
+<desc id="de">A candidata R061-RC1 passa os testes automáticos; cinco cópias alteradas T01 a T05 são rejeitadas.</desc>
+<rect width="100%" height="100%" fill="#f7fafc"/>
+<text x="36" y="48" font-size="25" font-weight="bold" fill="#173753">Uma candidata e cinco defeitos artificiais</text>
+<rect x="36" y="80" width="948" height="58" rx="7" fill="#e6f3f7" stroke="#718c9b"/>
+<text x="55" y="116" font-size="19" fill="#173753">R061-RC1: PASSOU testes automáticos locais</text>
+<rect x="36" y="156" width="948" height="58" rx="7" fill="#f2eee3" stroke="#718c9b"/>
+<text x="55" y="192" font-size="19" fill="#173753">R061-T01: denominador oito, REJEITAR</text>
+<rect x="36" y="232" width="948" height="58" rx="7" fill="#e6f3f7" stroke="#718c9b"/>
+<text x="55" y="268" font-size="19" fill="#173753">R061-T02: sem texto alternativo, REJEITAR</text>
+<rect x="36" y="308" width="948" height="58" rx="7" fill="#f2eee3" stroke="#718c9b"/>
+<text x="55" y="344" font-size="19" fill="#173753">R061-T03: declaração indevida de promoção, REJEITAR</text>
+<rect x="36" y="384" width="948" height="58" rx="7" fill="#e6f3f7" stroke="#718c9b"/>
+<text x="55" y="420" font-size="19" fill="#173753">R061-T04: hash esperado alterado, REJEITAR</text>
+<rect x="36" y="460" width="948" height="58" rx="7" fill="#f2eee3" stroke="#718c9b"/>
+<text x="55" y="496" font-size="19" fill="#173753">R061-T05: legenda sem corte A, REJEITAR</text>
+<text x="36" y="604" font-size="16" fill="#414e5a">Falhas injetadas apenas em fixtures, não no site.</text>
+</svg>

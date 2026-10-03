@@ -1,0 +1,9 @@
+case_id,sandbox,planned_slot,forecast_status,observation_status,inclusion_status_at_cut,error_base_if_eligible,error_challenger_if_eligible,reason,comment
+S01,SANDBOX-057,Q01,issued_before_target_demo,validated_before_cut_demo,eligible_demo,4,3,none,signed errors; local fictional example
+S02,SANDBOX-057,Q02,issued_before_target_demo,validated_before_cut_demo,eligible_demo,-2,-5,none,signed errors; local fictional example
+S03,SANDBOX-057,Q03,not_issued,not_available,pending,,,emission_absent,do not impute zero
+S04,SANDBOX-057,Q04,issued_before_target_demo,arrived_after_cut_demo,pending_at_cut,,,late_validation,do not revise original snapshot invisibly
+S05,SANDBOX-057,Q05,issued_before_target_demo,provisional_only,pending_at_cut,,,not_validated,vintage retained; not scored as valid
+S06,SANDBOX-057,Q06,conflicting_issue_versions,validated_before_cut_demo,pending_at_cut,,,ambiguous_forecast,cannot choose version after viewing result
+S07,SANDBOX-057,Q07,issued_before_target_demo,quality_rejected,pending_at_cut,,,source_quality_issue,source defect is not an observed zero
+S08,SANDBOX-057,Q08,issued_before_target_demo,missing_at_cut,pending_at_cut,,,target_unavailable,no score until valid value exists

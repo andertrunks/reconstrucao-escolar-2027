@@ -1,0 +1,33 @@
+{
+  "id": "MAT-EST-054",
+  "verification_scope": "somente arquivos editoriais locais, sem autenticação de emissão temporal nem verificação de site",
+  "tests": {
+    "passed": 31,
+    "total": 31,
+    "result": "passou após ajustes nos testes e status de verificação do vídeo"
+  },
+  "files_sha256_verified": 40,
+  "inherited_byte_identical": 19,
+  "question_ids_unique": 36,
+  "authorial_question_count": 36,
+  "svg_accessible_count": 6,
+  "v_snapshots": 6,
+  "z_event_chain_count": 7,
+  "main_pairs": 5,
+  "main_t19_guard_breached": true,
+  "reproduction_check": "python auditoria/recalcular_relatorios.py --verify: passou",
+  "hash_manifest": "manifesto-sha256.txt",
+  "html_local": true,
+  "png_is_illustration_not_browser_capture": true,
+  "video_playback": "não conferida: verificação pré-publicação pendente",
+  "publication": "não realizada",
+  "drive_sync": "não realizada",
+  "github_sync": "não realizada",
+  "edge_manual_read_aloud_test": "não realizado",
+  "student_progress": "não iniciado, não alterado",
+  "notes": [
+    "O hash compara bytes; não certifica origem, horário ou veracidade.",
+    "t23 a t25 permanecem sem observações e sem emissões autenticadas.",
+    "Protocolo histórico MAT-EST-049-PROT-v1 não alterado."
+  ]
+}

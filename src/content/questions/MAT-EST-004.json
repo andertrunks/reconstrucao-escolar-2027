@@ -1,0 +1,877 @@
+[
+  {
+    "id": "MAT-EST-004-EX-APR-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Um gráfico compara quatro meios de transporte. Qual tipo de gráfico é uma escolha inicial robusta para comparar as categorias?",
+    "answer": "Gráfico de barras ou colunas.",
+    "resolution": "Resposta e raciocínio: Gráfico de barras ou colunas.\nMotivo provável do erro: Conteúdo: escolha de representação.",
+    "errorReasons": [
+      "Conteúdo: escolha de representação."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-004-EX-APR-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Em um gráfico de barras, por que o eixo numérico geralmente deve começar em zero?",
+    "answer": "Porque o comprimento da barra codifica a magnitude; cortar a linha de base pode exagerar diferenças.",
+    "resolution": "Resposta e raciocínio: Porque o comprimento da barra codifica a magnitude; cortar a linha de base pode exagerar diferenças.\nMotivo provável do erro: Interpretação: não relacionou comprimento visual e escala.",
+    "errorReasons": [
+      "Interpretação: não relacionou comprimento visual e escala."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-004-EX-APR-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Uma categoria representa 25% do total. Qual é o ângulo de seu setor em um gráfico circular?",
+    "answer": "360° × 0,25 = 90°.",
+    "resolution": "Resposta e raciocínio: 360° × 0,25 = 90°.\nMotivo provável do erro: Cálculo: conversão de porcentagem em frequência relativa ou produto.",
+    "errorReasons": [
+      "Cálculo: conversão de porcentagem em frequência relativa ou produto."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-004-EX-APR-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Uma categoria representa 10% do total. Qual é o ângulo correspondente no círculo?",
+    "answer": "360° × 0,10 = 36°.",
+    "resolution": "Resposta e raciocínio: 360° × 0,10 = 36°.\nMotivo provável do erro: Cálculo: produto por 360.",
+    "errorReasons": [
+      "Cálculo: produto por 360."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-004-EX-APR-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Qual representação é mais indicada para mostrar uma medida ao longo de 12 meses, quando o foco é a evolução?",
+    "answer": "Gráfico de linhas.",
+    "resolution": "Resposta e raciocínio: Gráfico de linhas.\nMotivo provável do erro: Conteúdo: não reconheceu sequência temporal.",
+    "errorReasons": [
+      "Conteúdo: não reconheceu sequência temporal."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-004-EX-APR-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Qual representação mostra uma distribuição quantitativa agrupada em intervalos consecutivos?",
+    "answer": "Histograma.",
+    "resolution": "Resposta e raciocínio: Histograma.\nMotivo provável do erro: Conteúdo: confundiu categorias com intervalos quantitativos.",
+    "errorReasons": [
+      "Conteúdo: confundiu categorias com intervalos quantitativos."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-004-EX-APR-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Explique uma diferença visual e uma diferença conceitual entre gráfico de barras e histograma.",
+    "answer": "Barras categóricas costumam ter separação e categorias reordenáveis; histograma usa intervalos quantitativos em ordem fixa e barras contíguas.",
+    "resolution": "Resposta e raciocínio: Barras categóricas costumam ter separação e categorias reordenáveis; histograma usa intervalos quantitativos em ordem fixa e barras contíguas.\nMotivo provável do erro: Conteúdo: confundiu forma e significado do eixo horizontal.",
+    "errorReasons": [
+      "Conteúdo: confundiu forma e significado do eixo horizontal."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-004-EX-APR-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Em um histograma com classes [0,10), [10,20), [20,30), em qual classe entra o valor 20?",
+    "answer": "Na classe [20,30).",
+    "resolution": "Resposta e raciocínio: Na classe [20,30).\nMotivo provável do erro: Conteúdo: não interpretou limite incluído à esquerda.",
+    "errorReasons": [
+      "Conteúdo: não interpretou limite incluído à esquerda."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-004-EX-APR-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Uma pesquisa de múltiplas respostas soma 140%. Por que um gráfico de setores único é inadequado?",
+    "answer": "Porque as categorias se sobrepõem e não são partes exclusivas de um único total de 100%.",
+    "resolution": "Resposta e raciocínio: Porque as categorias se sobrepõem e não são partes exclusivas de um único total de 100%.\nMotivo provável do erro: Interpretação: tratou múltiplas respostas como composição.",
+    "errorReasons": [
+      "Interpretação: tratou múltiplas respostas como composição."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-004-EX-APR-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "aprendizagem",
+    "layer": "APR",
+    "title": "",
+    "statement": "Liste quatro elementos que devem ser lidos antes de interpretar um gráfico.\n\n\nCAMADA CON — Consolidação",
+    "answer": "Exemplos: título, eixos, unidades, escala, legenda, fonte, período.",
+    "resolution": "Resposta e raciocínio: Exemplos: título, eixos, unidades, escala, legenda, fonte, período.\nMotivo provável do erro: Memória/estratégia: iniciou pela forma sem ler a estrutura.\n\n\nCAMADA CON",
+    "errorReasons": [
+      "Memória/estratégia: iniciou pela forma sem ler a estrutura."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-004-EX-CON-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "As categorias A, B, C e D representam 40%, 30%, 20% e 10%. Calcule os quatro ângulos do gráfico de setores e verifique a soma.",
+    "answer": "144°, 108°, 72° e 36°. Soma = 360°.",
+    "resolution": "Resposta e raciocínio: 144°, 108°, 72° e 36°. Soma = 360°.\nMotivo provável do erro: Cálculo: frequência relativa vezes 360.",
+    "errorReasons": [
+      "Cálculo: frequência relativa vezes 360."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-004-EX-CON-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Valores mensais: 80, 95, 90, 120, 130. Descreva duas mudanças visíveis que um gráfico de linhas destacaria.",
+    "answer": "Exemplo: sobe de 80 para 95; cai para 90; depois cresce até 130. Qualquer duas mudanças corretas e contextualizadas servem.",
+    "resolution": "Resposta e raciocínio: Exemplo: sobe de 80 para 95; cai para 90; depois cresce até 130. Qualquer duas mudanças corretas e contextualizadas servem.\nMotivo provável do erro: Interpretação: descreveu causas em vez de variação.",
+    "errorReasons": [
+      "Interpretação: descreveu causas em vez de variação."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-004-EX-CON-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Dois valores são 92 e 96. Calcule a diferença absoluta e a variação percentual tomando 92 como base.",
+    "answer": "Diferença = 4. Variação = 4/92 ≈ 4,35%.",
+    "resolution": "Resposta e raciocínio: Diferença = 4. Variação = 4/92 ≈ 4,35%.\nMotivo provável do erro: Cálculo: usou 96 como base ou confundiu pontos percentuais.",
+    "errorReasons": [
+      "Cálculo: usou 96 como base ou confundiu pontos percentuais."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-004-EX-CON-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Explique por que representar 92 e 96 em barras com eixo iniciando em 90 pode exagerar a diferença.",
+    "answer": "Acima da linha de base 90, os comprimentos aparentes são 2 e 6; a segunda barra parece três vezes maior, embora 96/92 ≈ 1,043.",
+    "resolution": "Resposta e raciocínio: Acima da linha de base 90, os comprimentos aparentes são 2 e 6; a segunda barra parece três vezes maior, embora 96/92 ≈ 1,043.\nMotivo provável do erro: Estratégia: não comparou valores reais.",
+    "errorReasons": [
+      "Estratégia: não comparou valores reais."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-004-EX-CON-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Frequências por intervalos: [0,5):4; [5,10):9; [10,15):11; [15,20):5; [20,25):1. Qual é a classe modal? Quantas observações estão abaixo de 15?",
+    "answer": "Classe modal [10,15), com 11. Abaixo de 15: 4+9+11 = 24.",
+    "resolution": "Resposta e raciocínio: Classe modal [10,15), com 11. Abaixo de 15: 4+9+11 = 24.\nMotivo provável do erro: Contagem: confundiu classe modal ou acumulada.",
+    "errorReasons": [
+      "Contagem: confundiu classe modal ou acumulada."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-004-EX-CON-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Uma variável qualitativa nominal foi desenhada como pontos ligados por linha. Qual mensagem visual indevida pode surgir?",
+    "answer": "A conexão sugere sequência, continuidade ou transição entre categorias que pode não existir.",
+    "resolution": "Resposta e raciocínio: A conexão sugere sequência, continuidade ou transição entre categorias que pode não existir.\nMotivo provável do erro: Conteúdo: não questionou o significado da linha.",
+    "errorReasons": [
+      "Conteúdo: não questionou o significado da linha."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-004-EX-CON-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Um gráfico de setores tem 7 categorias, cinco delas entre 3% e 7%. Dê uma razão para preferir barras.",
+    "answer": "Setores pequenos e próximos são difíceis de comparar por ângulo/área; barras permitem comparação de comprimento mais precisa.",
+    "resolution": "Resposta e raciocínio: Setores pequenos e próximos são difíceis de comparar por ângulo/área; barras permitem comparação de comprimento mais precisa.\nMotivo provável do erro: Estratégia: escolheu pela estética.",
+    "errorReasons": [
+      "Estratégia: escolheu pela estética."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-004-EX-CON-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Em uma escala linear, as marcas 0, 10, 20 e 100 foram desenhadas com espaçamento igual. Qual é o problema?",
+    "answer": "Em escala linear, espaços iguais devem representar diferenças iguais. O salto de 20 para 100 não pode ocupar o mesmo espaço que 0 para 10 sem quebra explícita.",
+    "resolution": "Resposta e raciocínio: Em escala linear, espaços iguais devem representar diferenças iguais. O salto de 20 para 100 não pode ocupar o mesmo espaço que 0 para 10 sem quebra explícita.\nMotivo provável do erro: Conteúdo: não verificou escala.",
+    "errorReasons": [
+      "Conteúdo: não verificou escala."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-004-EX-CON-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Uma linha de temperatura varia de 18°C a 24°C. É obrigatório começar o eixo em zero? Explique a condição para não induzir o leitor.",
+    "answer": "Não. O eixo pode focar 15–25°C, por exemplo, se a escala estiver claramente rotulada e a escolha não ocultar o contexto.",
+    "resolution": "Resposta e raciocínio: Não. O eixo pode focar 15–25°C, por exemplo, se a escala estiver claramente rotulada e a escolha não ocultar o contexto.\nMotivo provável do erro: Interpretação: aplicou regra de barras indiscriminadamente.",
+    "errorReasons": [
+      "Interpretação: aplicou regra de barras indiscriminadamente."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-004-EX-CON-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "consolidação",
+    "layer": "CON",
+    "title": "",
+    "statement": "Um quadrado que representa 20 unidades tem largura e altura duplicadas para representar 40. Que fator de aumento ocorre na área e por que isso é enganoso?\n\n\nCAMADA VES — Transferência / estilo vestibular autoral",
+    "answer": "A área aumenta por 2×2 = 4 vezes. Isso representaria quatro vezes, não duas vezes, a magnitude.",
+    "resolution": "Resposta e raciocínio: A área aumenta por 2×2 = 4 vezes. Isso representaria quatro vezes, não duas vezes, a magnitude.\nMotivo provável do erro: Cálculo/interpretação: confundiu comprimento com área.\n\n\nCAMADA VES",
+    "errorReasons": [
+      "Cálculo/interpretação: confundiu comprimento com área."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-004-EX-VES-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma reportagem usa barras para comparar 500 e 520 unidades, mas o eixo começa em 490. Explique numericamente por que a impressão de 'triplo' é falsa.",
+    "answer": "Acima de 490, os comprimentos são 10 e 30, sugerindo razão 3; mas 520/500 = 1,04, só 4% maior.",
+    "resolution": "Resposta e raciocínio: Acima de 490, os comprimentos são 10 e 30, sugerindo razão 3; mas 520/500 = 1,04, só 4% maior.\nMotivo provável do erro: Interpretação: confiou na forma sem reconstruir a escala.",
+    "errorReasons": [
+      "Interpretação: confiou na forma sem reconstruir a escala."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-004-EX-VES-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma pesquisa mostra 60% usando A, 45% usando B e 30% usando C, com múltiplas respostas. Que gráfico evitar e por quê?",
+    "answer": "Evitar gráfico de setores único, porque os percentuais se sobrepõem e somam 135%; não são partes exclusivas de um mesmo todo.",
+    "resolution": "Resposta e raciocínio: Evitar gráfico de setores único, porque os percentuais se sobrepõem e somam 135%; não são partes exclusivas de um mesmo todo.\nMotivo provável do erro: Conteúdo: não identificou múltiplas respostas.",
+    "errorReasons": [
+      "Conteúdo: não identificou múltiplas respostas."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-004-EX-VES-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma tabela de classes de renda usa um histograma. Por que não é legítimo reordenar as barras do maior para o menor?",
+    "answer": "As barras são intervalos numéricos em uma escala; reordená-las destruiria a continuidade e a posição dos valores.",
+    "resolution": "Resposta e raciocínio: As barras são intervalos numéricos em uma escala; reordená-las destruiria a continuidade e a posição dos valores.\nMotivo provável do erro: Conteúdo: tratou histograma como gráfico categórico.",
+    "errorReasons": [
+      "Conteúdo: tratou histograma como gráfico categórico."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-004-EX-VES-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um gráfico de linha mostra queda após uma política pública. Por que o gráfico sozinho não prova que a política causou a queda?",
+    "answer": "Porque duas coisas podem variar juntas por coincidência, tendência prévia, outros fatores ou desenho do estudo. O gráfico mostra sequência/associação, não mecanismo causal.",
+    "resolution": "Resposta e raciocínio: Porque duas coisas podem variar juntas por coincidência, tendência prévia, outros fatores ou desenho do estudo. O gráfico mostra sequência/associação, não mecanismo causal.\nMotivo provável do erro: Interpretação: confundiu pós-evento com causalidade.",
+    "errorReasons": [
+      "Interpretação: confundiu pós-evento com causalidade."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-004-EX-VES-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um infográfico amplia a largura e a altura de um ícone em 50% para representar crescimento de 50%. Calcule o fator de área e explique a distorção.",
+    "answer": "1,5 × 1,5 = 2,25. A área cresce 125%, não 50%; o símbolo exagera a mudança.",
+    "resolution": "Resposta e raciocínio: 1,5 × 1,5 = 2,25. A área cresce 125%, não 50%; o símbolo exagera a mudança.\nMotivo provável do erro: Cálculo: não percebeu efeito bidimensional.",
+    "errorReasons": [
+      "Cálculo: não percebeu efeito bidimensional."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-004-EX-VES-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma série anual possui totais discretos. Explique quando barras e quando linhas seriam escolhas defensáveis.",
+    "answer": "Barras enfatizam totais de períodos discretos; linhas enfatizam evolução/tendência entre períodos ordenados. A pergunta determina a escolha.",
+    "resolution": "Resposta e raciocínio: Barras enfatizam totais de períodos discretos; linhas enfatizam evolução/tendência entre períodos ordenados. A pergunta determina a escolha.\nMotivo provável do erro: Estratégia: procurou uma única resposta universal.",
+    "errorReasons": [
+      "Estratégia: procurou uma única resposta universal."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-004-EX-VES-07",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Um gráfico de barras mostra 98 e 102. Calcule a variação percentual de 98 para 102 e descreva como um eixo truncado poderia alterar a percepção.",
+    "answer": "Aumento = 4; 4/98 ≈ 4,08%. Se o eixo começa perto de 98, a diferença visual pode parecer enorme comparada à variação real.",
+    "resolution": "Resposta e raciocínio: Aumento = 4; 4/98 ≈ 4,08%. Se o eixo começa perto de 98, a diferença visual pode parecer enorme comparada à variação real.\nMotivo provável do erro: Cálculo/interpretação: não comparou escala com base.",
+    "errorReasons": [
+      "Cálculo/interpretação: não comparou escala com base."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-004-EX-VES-08",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Em um histograma, classes têm larguras diferentes. Por que comparar apenas alturas pode ser incorreto?",
+    "answer": "Porque no histograma rigoroso a área precisa representar frequência. Com larguras diferentes, altura sozinha não é diretamente comparável; pode ser necessário usar densidade.",
+    "resolution": "Resposta e raciocínio: Porque no histograma rigoroso a área precisa representar frequência. Com larguras diferentes, altura sozinha não é diretamente comparável; pode ser necessário usar densidade.\nMotivo provável do erro: Conteúdo: ignorou largura da classe.",
+    "errorReasons": [
+      "Conteúdo: ignorou largura da classe."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-004-EX-VES-09",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Uma categoria de 35% deve ocupar quantos graus em um gráfico de setores? Mostre o cálculo.",
+    "answer": "360° × 0,35 = 126°.",
+    "resolution": "Resposta e raciocínio: 360° × 0,35 = 126°.\nMotivo provável do erro: Cálculo: conversão percentual e ângulo.",
+    "errorReasons": [
+      "Cálculo: conversão percentual e ângulo."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-004-EX-VES-10",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "vestibular",
+    "layer": "VES",
+    "title": "",
+    "statement": "Escreva uma conclusão estatisticamente cuidadosa para um gráfico em que março tem o maior tempo médio de espera, evitando inferência causal.\n\n\nCAMADA RET — Reteste",
+    "answer": "Exemplo: 'Entre os meses observados, março apresentou o maior tempo médio de espera, de 15 minutos; o gráfico não identifica a causa desse valor.'",
+    "resolution": "Resposta e raciocínio: Exemplo: 'Entre os meses observados, março apresentou o maior tempo médio de espera, de 15 minutos; o gráfico não identifica a causa desse valor.'\nMotivo provável do erro: Interpretação: extrapolou para causalidade.\n\n\nCAMADA RET",
+    "errorReasons": [
+      "Interpretação: extrapolou para causalidade."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-004-EX-RET-01",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Sem consultar: associe barras, setores, linhas e histograma às quatro perguntas centrais que cada um responde melhor.",
+    "answer": "Barras: comparar categorias. Setores: mostrar partes de um todo. Linhas: mostrar evolução em sequência. Histograma: mostrar distribuição quantitativa por intervalos.",
+    "resolution": "Resposta e raciocínio: Barras: comparar categorias. Setores: mostrar partes de um todo. Linhas: mostrar evolução em sequência. Histograma: mostrar distribuição quantitativa por intervalos.\nMotivo provável do erro: Memória/conteúdo: não recuperou finalidade das representações.",
+    "errorReasons": [
+      "Memória/conteúdo: não recuperou finalidade das representações."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-004-EX-RET-02",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Explique em duas frases a diferença entre histograma e gráfico de barras.",
+    "answer": "Barras representam categorias e podem ser reordenadas; histograma representa intervalos quantitativos em ordem fixa. No histograma, barras normalmente se encostam e a largura pode ter significado.",
+    "resolution": "Resposta e raciocínio: Barras representam categorias e podem ser reordenadas; histograma representa intervalos quantitativos em ordem fixa. No histograma, barras normalmente se encostam e a largura pode ter significado.\nMotivo provável do erro: Conteúdo: resposta apenas estética.",
+    "errorReasons": [
+      "Conteúdo: resposta apenas estética."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-004-EX-RET-03",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Calcule o ângulo de um setor correspondente a 12,5% do total.",
+    "answer": "12,5% = 0,125; 360° × 0,125 = 45°.",
+    "resolution": "Resposta e raciocínio: 12,5% = 0,125; 360° × 0,125 = 45°.\nMotivo provável do erro: Cálculo: porcentagem para decimal ou produto.",
+    "errorReasons": [
+      "Cálculo: porcentagem para decimal ou produto."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente",
+    "reviewNote": "A fonte traz uma resposta breve. O desenvolvimento da correção precisa de revisão editorial; este item não comprova domínio."
+  },
+  {
+    "id": "MAT-EST-004-EX-RET-04",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Liste título, eixos, unidades, escala, legenda, fonte e período e explique por que ao menos quatro deles são importantes.",
+    "answer": "Resposta aberta. Título contextualiza o que é mostrado; eixos dizem quais variáveis; unidades dão significado numérico; escala controla a leitura; legenda diferencia séries; fonte permite rastreabilidade; período delimita a conclusão.",
+    "resolution": "Resposta e raciocínio: Resposta aberta. Título contextualiza o que é mostrado; eixos dizem quais variáveis; unidades dão significado numérico; escala controla a leitura; legenda diferencia séries; fonte permite rastreabilidade; período delimita a conclusão.\nMotivo provável do erro: Estratégia: descreveu elementos sem função.",
+    "errorReasons": [
+      "Estratégia: descreveu elementos sem função."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-004-EX-RET-05",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Valores 100 e 105 são mostrados em barras com eixo começando em 99. Qual impressão enganosa pode surgir?",
+    "answer": "Acima de 99, comprimentos aparentes 1 e 6 podem sugerir que 105 é seis vezes 100, quando na realidade é apenas 5% maior.",
+    "resolution": "Resposta e raciocínio: Acima de 99, comprimentos aparentes 1 e 6 podem sugerir que 105 é seis vezes 100, quando na realidade é apenas 5% maior.\nMotivo provável do erro: Interpretação: não reconstruiu a linha de base.",
+    "errorReasons": [
+      "Interpretação: não reconstruiu a linha de base."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  },
+  {
+    "id": "MAT-EST-004-EX-RET-06",
+    "origin": "autoral",
+    "subject": "MAT",
+    "topics": [
+      "MAT-EST-004"
+    ],
+    "difficulty": "reteste",
+    "layer": "RET",
+    "title": "",
+    "statement": "Explique por que um gráfico visualmente atraente pode ser estatisticamente ruim.",
+    "answer": "Porque design pode ocultar escala, fonte, denominador ou usar áreas e perspectivas desproporcionais. Aparência profissional não garante fidelidade estatística.",
+    "resolution": "Resposta e raciocínio: Porque design pode ocultar escala, fonte, denominador ou usar áreas e perspectivas desproporcionais. Aparência profissional não garante fidelidade estatística.\nMotivo provável do erro: Conteúdo: confundiu estética com validade.",
+    "errorReasons": [
+      "Conteúdo: confundiu estética com validade."
+    ],
+    "source": {
+      "title": "MAT-EST-004 — aula completa — reconstrução editorial v1",
+      "url": "https://docs.google.com/document/d/1LNcT2-RfN43mL3YBvyUtpQ-U9pegdfONDfkPZj1ud5w/edit?usp=drivesdk",
+      "version": "reconstrução editorial v1",
+      "checkedAt": "2026-10-03"
+    },
+    "reviewStatus": "pendente"
+  }
+]

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="320" viewBox="0 0 950 320" role="img" aria-labelledby="t d">
+<title id="t">Oito controles: estados, não pontos de nota</title>
+<desc id="d">G1 e G2 conferidos localmente; G3 a G6 pendentes; G7 e G8 não executados.</desc>
+<rect width="950" height="320" rx="22" fill="#f8fafc"/>
+<text x="28" y="39" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#172334">Oito controles: estados, não pontos de nota</text>
+<rect x="32.0" y="78" width="286.0" height="151" rx="12" fill="#fff" stroke="#35694a" stroke-width="2"/>
+<rect x="33.0" y="79" width="284.0" height="6" rx="3" fill="#35694a"/>
+<text x="44.0" y="109" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#35694a">G1–G2</text>
+<text x="44.0" y="140" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">Verificações locais</text>
+<text x="44.0" y="171" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">Duas evidências</text>
+<rect x="332.0" y="78" width="286.0" height="151" rx="12" fill="#fff" stroke="#146f9a" stroke-width="2"/>
+<rect x="333.0" y="79" width="284.0" height="6" rx="3" fill="#146f9a"/>
+<text x="344.0" y="109" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#146f9a">G3–G6</text>
+<text x="344.0" y="140" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">Revisões humanas</text>
+<text x="344.0" y="171" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">Quatro pendências</text>
+<rect x="632.0" y="78" width="286.0" height="151" rx="12" fill="#fff" stroke="#9b3237" stroke-width="2"/>
+<rect x="633.0" y="79" width="284.0" height="6" rx="3" fill="#9b3237"/>
+<text x="644.0" y="109" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#9b3237">G7–G8</text>
+<text x="644.0" y="140" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">Deploy e pós-deploy</text>
+<text x="644.0" y="171" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#172334">Não executados</text>
+<text x="30" y="267" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#172334">Resultado: material local bloqueado para alegação de publicação.</text>
+<text x="30" y="291" font-family="Arial,sans-serif" font-size="13" fill="#44566c">Diagrama autoral; todos os estados são didáticos ou locais, sem certificação pública.</text></svg>

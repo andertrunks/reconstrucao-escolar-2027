@@ -1,0 +1,160 @@
+﻿MAT-EST-009 — Coeficiente de variação
+
+
+Todas as questões são autorais. Tente antes do gabarito.
+
+
+CAMADA APR — Aprendizagem
+
+
+MAT-EST-009-EX-APR-01
+Média 50 e desvio-padrão 5. Calcule o CV.
+
+
+MAT-EST-009-EX-APR-02
+Média 20 e DP 4. Calcule o CV.
+
+
+MAT-EST-009-EX-APR-03
+Explique em uma frase o que significa CV = 10%.
+
+
+MAT-EST-009-EX-APR-04
+O CV possui a mesma unidade dos dados? Justifique.
+
+
+MAT-EST-009-EX-APR-05
+Qual conjunto tem maior CV: A média 100 DP 5; B média 20 DP 2?
+
+
+MAT-EST-009-EX-APR-06
+Se s/x̄ = 0,08, qual o CV em porcentagem?
+
+
+MAT-EST-009-EX-APR-07
+Por que usar variância no numerador não produz o CV usual?
+
+
+MAT-EST-009-EX-APR-08
+É possível calcular CV usual se a média é zero?
+
+
+MAT-EST-009-EX-APR-09
+Explique por que média próxima de zero exige cautela.
+
+
+MAT-EST-009-EX-APR-10
+O CV substitui o desvio-padrão? Explique.
+
+
+CAMADA CON — Consolidação
+
+
+MAT-EST-009-EX-CON-01
+A: média 40 DP 8; B: média 100 DP 15. Calcule e compare os CVs.
+
+
+MAT-EST-009-EX-CON-02
+Média 1,5 m e DP 0,03 m. Calcule o CV e depois confirme usando 150 cm e 3 cm.
+
+
+MAT-EST-009-EX-CON-03
+Dados têm média 10 e DP 2. Somamos 100 a todos. Qual é o novo CV?
+
+
+MAT-EST-009-EX-CON-04
+Dados têm média 10 e DP 2. Multiplicamos todos por 5. Qual é o novo CV?
+
+
+MAT-EST-009-EX-CON-05
+Média 0,5 e DP 2. Calcule o CV e explique o problema interpretativo.
+
+
+MAT-EST-009-EX-CON-06
+Média 200 e DP 10; outro grupo média 50 e DP 4. Qual é relativamente mais variável?
+
+
+MAT-EST-009-EX-CON-07
+Explique por que um CV de 12% não significa 12% de dados errados.
+
+
+MAT-EST-009-EX-CON-08
+É adequado comparar CV calculado em °C com o mesmo fenômeno convertido para Kelvin? Explique.
+
+
+MAT-EST-009-EX-CON-09
+Dois grupos têm mesma média 80, com DP 4 e 12. Compare os CVs.
+
+
+MAT-EST-009-EX-CON-10
+Dois grupos têm mesmo DP 3, médias 30 e 120. Compare os CVs.
+
+
+CAMADA VES — Transferência / estilo vestibular autoral
+
+
+MAT-EST-009-EX-VES-01
+Processo A tem média 500 e DP 15; B média 50 e DP 3. Qual tem maior variabilidade relativa?
+
+
+MAT-EST-009-EX-VES-02
+Um relatório chama CV=18% de 'alto' sem citar referência. Qual é a falha?
+
+
+MAT-EST-009-EX-VES-03
+Temperaturas têm média 10°C e DP 2°C. Explique por que o CV em Celsius não é uma medida robusta à mudança para Kelvin.
+
+
+MAT-EST-009-EX-VES-04
+Uma série tem média −20 e DP 4. Por que o CV usual exige cautela?
+
+
+MAT-EST-009-EX-VES-05
+A média de um processo cai de 100 para 20, DP permanece 5. Como o CV muda e o que isso significa?
+
+
+MAT-EST-009-EX-VES-06
+Um conjunto é convertido de metros para milímetros. O que ocorre com média, DP e CV?
+
+
+MAT-EST-009-EX-VES-07
+Uma empresa compara CV de renda e CV de idade. Que perguntas conceituais devem ser feitas antes de interpretar a comparação?
+
+
+MAT-EST-009-EX-VES-08
+Grupo A: média 1000, DP 100; B: média 20, DP 3. Calcule os CVs e explique por que DP isolado levaria a outra impressão.
+
+
+MAT-EST-009-EX-VES-09
+Um analista usa DP de A e média de B para formar CV. Explique o erro.
+
+
+MAT-EST-009-EX-VES-10
+Um conjunto tem média 0,2 e DP 0,5. Calcule o CV e escreva uma conclusão cautelosa.
+
+
+CAMADA RET — Reteste
+
+
+MAT-EST-009-EX-RET-01
+Escreva a fórmula do CV amostral e explique numerador e denominador.
+
+
+MAT-EST-009-EX-RET-02
+Média 80, DP 12. Calcule o CV.
+
+
+MAT-EST-009-EX-RET-03
+Explique por que conversão multiplicativa de unidade preserva o CV.
+
+
+MAT-EST-009-EX-RET-04
+Explique por que somar constante pode alterar o CV.
+
+
+MAT-EST-009-EX-RET-05
+Liste três situações em que o CV exige cautela ou não deve ser usado mecanicamente.
+
+
+MAT-EST-009-EX-RET-06
+Explique a diferença entre 'maior DP' e 'maior CV'.

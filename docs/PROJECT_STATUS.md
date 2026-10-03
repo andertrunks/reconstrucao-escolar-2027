@@ -1,5 +1,16 @@
 # Estado do projeto
 
+## Atualização 2026-10-03 — versão 0.2.0
+
+Publicação autorizada de todo o acervo integral recuperado. 48 aulas (MAT-EST-001 a 011 e 031 a 067), 1.740 questões, 303 recursos visuais; diagnóstico de 37 itens preservado. Fontes, hashes, versões, scripts e dados acompanham a importação. Consulta do gabarito depois de tentativa salva, sem progresso automático. Catálogo distingue aulas publicadas de referências sem arquivo integral; aulas avançadas avisam as lacunas de pré-requisitos.
+
+Validação local de conteúdo, TypeScript, lint, testes unitários e build aprovada. Navegadores locais bloqueados por restrição de sockets; CI inclui Chromium e Microsoft Edge antes do deploy. Commit, CI, cópias estruturadas no Drive e verificação da URL real em conclusão. Registro detalhado: docs/PUBLICATION_2026-10-03.md.
+
+O histórico abaixo é preservado com os estados observados em cada execução; suas contagens antigas não representam o estado atual.
+
+---
+
+
 Versão: 0.1.0 com atualização editorial publicada e verificada — 2026-09-28.
 
 URL: https://andertrunks.github.io/reconstrucao-escolar-2027/

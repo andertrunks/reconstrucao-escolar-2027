@@ -1,0 +1,9 @@
+# QA de MAT-EST-031
+Data editorial: 2026-09-28.
+Resultado: 20 categorias de verificação aprovadas; zero falhas nos testes locais.
+Banco: 36 questões autorais, 10 aprendizagem, 10 consolidação, 10 transferência, 6 reteste; IDs exclusivos; resolução comentada e status inicial sem tentativas.
+Matemática: MAE, RMSE, SSE, SST, R² em teste e médias ponderadas conferidas com asserts independentes.
+Visual: sete SVG originais com título/descrição/role, alt e legenda no manifesto; renderização CairoSVG e PNG de prévia confirmadas.
+Fonte: Penn State, documentação scikit-learn, vídeo MIT e opção YouTube; páginas localizadas em pesquisa web. Reprodução integral de vídeo não testada.
+Progresso: nenhuma tentativa, nota, revisão executada ou consolidação criada. MAT-EST-018, MAT-PRO-039 e MAT-PRO-054 pendentes.
+Pendências: revisão de importação no site, teste real no Edge e reprodução integral do vídeo. Não houve publicação ou sincronização Drive.

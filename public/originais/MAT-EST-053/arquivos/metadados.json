@@ -1,0 +1,145 @@
+{
+  "id": "MAT-EST-053",
+  "slug": "qualidade-versionamento-dados-temporais-proveniencia-reprocessamento-politicas-avaliacao-por-versao",
+  "titulo": "Qualidade e versionamento de dados temporais: proveniência, reprocessamento e políticas de avaliação por versão",
+  "materia": "Matemática",
+  "unidade": "Estatística / séries temporais / ponte universitária",
+  "nivel": 6,
+  "ordem": 53,
+  "anterior": "MAT-EST-052",
+  "preRequisitos": [
+    "MAT-EST-047",
+    "MAT-EST-048",
+    "MAT-EST-049",
+    "MAT-EST-050",
+    "MAT-EST-051",
+    "MAT-EST-052"
+  ],
+  "objetivos": [
+    "distinguir tempo de referência e de disponibilidade",
+    "definir proveniência e snapshots",
+    "calcular métricas por versão de observação",
+    "aplicar política de corte e de elegibilidade",
+    "reprocessar sem sobrescrever previsão anterior",
+    "registrar limites e isolamento dos dados fictícios"
+  ],
+  "habilidades": [
+    "aritmética assinada",
+    "média",
+    "porcentagem",
+    "interpretação de registros",
+    "redação técnica"
+  ],
+  "examesRelacionados": [
+    "ENEM: transferência de leitura quantitativa geral",
+    "FUVEST, UNICAMP e UNESP: interpretação e argumentação de dados geral",
+    "ponte universitária: avaliação temporal e proveniência"
+  ],
+  "aulaMarkdown": "MAT-EST-053-qualidade-versionamento-dados-temporais-proveniencia-reprocessamento-politicas-avaliacao-por-versao.md",
+  "visuais": [
+    {
+      "src": "assets/01-duas-dimensoes-temporais.svg",
+      "alt": "O alvo v-alvo recebe dado preliminar 40 em L12 e correção validada 44 em L13; a previsão congelada ocorre em L10.",
+      "autoria": "original do projeto",
+      "legenda": "Duas dimensões temporais: período-alvo e momento de conhecimento"
+    },
+    {
+      "src": "assets/02-linhagem-e-snapshot.svg",
+      "alt": "A fotografia de entrada guarda fonte, período, versão, status e hash. Correção gera novo ID, preservando a versão antiga.",
+      "autoria": "original do projeto",
+      "legenda": "Proveniência e fotografia dos dados"
+    },
+    {
+      "src": "assets/03-as-of-vs-final.svg",
+      "alt": "Na leitura como conhecido em L12 há 40 preliminar; validado em L13 há 44; antes de L12 não havia observação.",
+      "autoria": "original do projeto",
+      "legenda": "Políticas de versão e avaliação"
+    },
+    {
+      "src": "assets/04-ranking-sensibilidade.svg",
+      "alt": "Para observação 40: B tem módulo 2 e C tem módulo 3. Para observação 44: B mantém módulo 2 e C cai para 1.",
+      "autoria": "original do projeto",
+      "legenda": "Mudança de ordenação com revisão"
+    },
+    {
+      "src": "assets/05-retificacao-e-auditoria.svg",
+      "alt": "Previsões B42 C43 imutáveis, v1=40 preliminar, v2=44 valida v1 e cria avaliação distinta.",
+      "autoria": "original do projeto",
+      "legenda": "Correção sem apagar o registro"
+    },
+    {
+      "src": "assets/06-separar-series-e-guardas.svg",
+      "alt": "EXEMPLO-Z e EXEMPLO-V não fazem parte da série t01 a t22. t23 a t25 continuam sem observações.",
+      "autoria": "original do projeto",
+      "legenda": "Isolamento do ensaio e salvaguardas"
+    }
+  ],
+  "video": {
+    "titulo": "Forecasting: Principles & Practice — 5.10 Time series cross-validation",
+    "canal": "OTexts",
+    "url": "https://www.youtube.com/watch?v=OGpENuxjRWM",
+    "duracaoAproximada": "~16min35s, conforme ficha anterior, não cronometrada agora",
+    "idioma": "inglês",
+    "motivo": "ilustra origin rolling e evitar vazamento futuro",
+    "momentoRecomendado": "depois da seção 4",
+    "statusVerificacao": "localizado em listagem pública e índice do autor; reprodução integral e legendas não conferidas"
+  },
+  "exercicios": {
+    "quantidade": 36,
+    "aprendizagem": 10,
+    "consolidacao": 10,
+    "estiloVestibularAutoral": 10,
+    "reteste": 6,
+    "questoesOficiais": 0,
+    "arquivo": "exercicios.json",
+    "origem": "autoral"
+  },
+  "gabarito": "gabarito-comentado.json",
+  "dadosHerdadosByteAByte": [
+    "dados/serie-herdada-t01-t12.csv",
+    "dados/chegadas-simuladas-t13-t18.csv",
+    "dados/chegadas-novas-simuladas-t19-t22.csv",
+    "dados/registro-emissoes-h1.csv",
+    "dados/diferencas-sazonais-t13-t22.csv",
+    "dados/comparacao-emparelhada-t18-t22.csv",
+    "dados/cenarios-herdados-t23-nao-observados.csv",
+    "dados/dependencias-simbolicas-t24-t25.csv",
+    "dados/plano-emissoes-pendentes-t23-t25.csv",
+    "dados/projecoes-ilustrativas-t23.csv",
+    "dados/ensaio-eventos-EXEMPLO-Z.jsonl",
+    "dados/matriz-estados.csv",
+    "dados/cartoes-casos-didaticos.csv",
+    "protocolo-herdado-MAT-EST-049.json",
+    "plano-avaliacao-MAT-EST-051.json"
+  ],
+  "ensaiosNovos": [
+    "dados/EXEMPLO-V-versoes.csv",
+    "dados/EXEMPLO-V-reavaliacao.csv",
+    "dados/EXEMPLO-V-eventos.jsonl",
+    "dados/politicas-de-vintage.json"
+  ],
+  "estadoDaSerie": {
+    "ficticio_observado_ate": "t22",
+    "t23_t25": "sem observação e sem emissões autenticadas",
+    "recalculoIlustrativoT23": {
+      "B": 183,
+      "C": 199
+    },
+    "paresDocumentados": 5,
+    "totalPlanejado": 8,
+    "MAE_B": 17.6,
+    "MAE_C": 8.36,
+    "pioraLocalT19": 19.2,
+    "guardaMaxima": 10,
+    "promocao": "não autorizada sob MAT-EST-049-PROT-v1"
+  },
+  "proximoTopico": "MAT-EST-054",
+  "proximoTituloProposto": "Auditoria de avaliações temporais: reconciliação de versões, rastreamento de métricas e relatórios reproduzíveis",
+  "progressoIndividual": "não iniciado; nenhuma tentativa recebida",
+  "statusEditorial": "gerado somente localmente; não publicado e não sincronizado",
+  "fontes": [
+    "https://otexts.com/fpp3/tscv.html",
+    "https://www.sciencedirect.com/science/article/pii/S0304407601000720",
+    "https://www.sciencedirect.com/science/article/pii/S1574070605010177"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "MAT-EST-049-PROT-v1",
+  "redacao_editorial": "fixado como regra da simulacao antes de apresentar a tabela comparativa",
+  "momento_de_congelamento": "t17, depois de observar y17 e antes da emissao para t18",
+  "versao_referencia": "BASE-SNAIVE-v1",
+  "versao_desafiante": "CHAL-SDELTA5-v1",
+  "alvo": "h1, t18 a t25 (8 alvos esperados)",
+  "origens": "t17 a t24",
+  "regra_referencia": "y_(t-4)",
+  "regra_desafiante": "y_(t-4) + media(y_j-y_(j-4)) para j=t-5,...,t-1",
+  "indicador_primario": "MAE em pares na mesma unidade/horizonte",
+  "indicador_secundario": "custo assimetrico C(e)=3 max(e,0)+max(-e,0), em pontos ficticios",
+  "portas_para_analisar_promocao": [
+    "minimo_oito_pares_em_dois_ciclos_sazonais",
+    "reducao_MAE_pelo_menos_20_porcento",
+    "reducao_custo_medio_pelo_menos_20_porcento",
+    "nenhum_alvo_com_piora_absoluta_maior_que_10_unidades",
+    "auditoria_qualidade_aprovada",
+    "aprovacao_humana_versionamento_e_rollback"
+  ],
+  "estado_atual": "nao_promover: apenas 5 pares e quebra de guarda em t19",
+  "avisos": [
+    "limiares arbitrarios pedagogicos, nao teste inferencial",
+    "t18 conhecido no pacote 048; t19 a t22 criados para aula; simulacao nao prova emissoes reais"
+  ]
+}
