@@ -14,6 +14,10 @@ async function readStudy(key:string):Promise<StudyState|null>{
 }
 async function writeStudy(key:string,state:StudyState){await(await db).put('study',state,key);}
 async function removeStudy(key:string){await(await db).delete('study',key);}
+async function writeGuestSnapshot(state:StudyState){
+ await writeStudy(GUEST_KEY,state);
+ await writeStudy(LEGACY_KEY,state);
+}
 
 async function loadGuestOrLegacy(){
  const guest=await readStudy(GUEST_KEY);
@@ -56,10 +60,10 @@ export async function loadStudy():Promise<StudyState>{
 
 export async function saveStudy(state:StudyState){
  const cloud=getCloudClient();
- if(!cloud){await writeStudy(GUEST_KEY,state);emitCloudStatus('unavailable','Nuvem indisponível; progresso guardado temporariamente neste dispositivo.');return;}
+ if(!cloud){await writeGuestSnapshot(state);emitCloudStatus('unavailable','Nuvem indisponível; progresso guardado temporariamente neste dispositivo.');return;}
  let session;
- try{session=await currentCloudSession();}catch{await writeStudy(GUEST_KEY,state);emitCloudStatus('error','Conta indisponível; progresso guardado temporariamente neste dispositivo.');return;}
- if(!session){await writeStudy(GUEST_KEY,state);emitCloudStatus('signed-out','Entre com Google para enviar este progresso à nuvem.');return;}
+ try{session=await currentCloudSession();}catch{await writeGuestSnapshot(state);emitCloudStatus('error','Conta indisponível; progresso guardado temporariamente neste dispositivo.');return;}
+ if(!session){await writeGuestSnapshot(state);emitCloudStatus('signed-out','Entre com Google para enviar este progresso à nuvem.');return;}
 
  const key=userKey(session.user.id);
  await writeStudy(key,state);
