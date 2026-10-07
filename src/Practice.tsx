@@ -8,8 +8,8 @@ function Attempt({question:q,state,update}:Omit<Props,'questions'>&{question:Que
  const [draft,setDraft]=useState(state.answers[q.id]||''),[revealed,setRevealed]=useState(false);
  const saved=Boolean(state.answers[q.id]?.trim());
  const save=()=>{if(!draft.trim())return;update(s=>{const id=q.topics[0],p=s.topics[id]||emptyProgress();return {...s,answers:{...s.answers,[q.id]:draft},topics:{...s.topics,[id]:{...p,attempts:p.attempts+(s.answers[q.id]!==draft?1:0)}}};});};
- return <section className="question practice-question" id={q.id} aria-label={`${q.id} · ${q.title||'Questão'}`}>
- <p className="eyebrow">{q.id} · {layers[q.layer||'']||q.difficulty} · Questão {q.origin}</p><h3>{q.title||q.id}</h3><MarkdownContent text={q.statement}/>
+ return <section className="question practice-question" id={q.id} aria-labelledby={`${q.id}-title`}>
+ <p className="eyebrow">{q.id} · {layers[q.layer||'']||q.difficulty} · Questão {q.origin}</p><h3 id={`${q.id}-title`}>{q.title||q.id}</h3><MarkdownContent text={q.statement}/>
  {q.alternatives&&<ol type="A">{q.alternatives.map((a,i)=><li key={i}>{a}</li>)}</ol>}
  <label htmlFor={`${q.id}-answer`}>Sua resposta e seu raciocínio</label><textarea id={`${q.id}-answer`} value={draft} onChange={e=>setDraft(e.target.value)} rows={3}/>
  <div className="question-actions"><button onClick={save} disabled={!draft.trim()}>Salvar tentativa</button><button disabled={!saved} aria-expanded={revealed} aria-controls={`${q.id}-solution`} onClick={()=>setRevealed(!revealed)}>{revealed?'Ocultar gabarito':'Consultar gabarito'}</button></div>
