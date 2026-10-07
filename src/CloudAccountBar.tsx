@@ -1,6 +1,6 @@
 import {useEffect,useState} from 'react';
 import {CLOUD_STATUS_EVENT,emitCloudStatus,getCloudClient,type CloudSession,type CloudStatusDetail} from './cloud';
-import {clearUserCache} from './storage';
+import {clearUserCache,syncPendingCache} from './storage';
 
 export default function CloudAccountBar(){
  const [session,setSession]=useState<CloudSession|null>(null);
@@ -19,8 +19,10 @@ export default function CloudAccountBar(){
   });
   const listener=cloud.auth.onAuthStateChange((_event,next)=>{if(active){setSession(next);setMessage(next?'Progresso conectado à nuvem.':'Entre com Google para sincronizar seu progresso entre dispositivos.');}});
   const onStatus=(event:Event)=>{const detail=(event as CustomEvent<CloudStatusDetail>).detail;if(detail?.message)setMessage(detail.message);};
+  const onOnline=()=>{void syncPendingCache();};
   window.addEventListener(CLOUD_STATUS_EVENT,onStatus);
-  return()=>{active=false;listener.data.subscription.unsubscribe();window.removeEventListener(CLOUD_STATUS_EVENT,onStatus);};
+  window.addEventListener('online',onOnline);
+  return()=>{active=false;listener.data.subscription.unsubscribe();window.removeEventListener(CLOUD_STATUS_EVENT,onStatus);window.removeEventListener('online',onOnline);};
  },[]);
 
  const signIn=async()=>{
