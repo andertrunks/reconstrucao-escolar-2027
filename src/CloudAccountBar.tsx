@@ -43,8 +43,8 @@ export default function CloudAccountBar(){
   location.reload();
  };
 
- return <section aria-label="Sincronização do progresso" style={{display:'flex',gap:'0.75rem',alignItems:'center',justifyContent:'space-between',flexWrap:'wrap',padding:'0.65rem 1rem',borderBottom:'1px solid currentColor'}}>
-  <div><strong>{session?'Nuvem ativa':'Progresso na nuvem'}</strong><span aria-live="polite"> · {message}</span>{session?.user.email?<span> · {session.user.email}</span>:null}</div>
+ return <div style={{display:'flex',gap:'0.5rem',alignItems:'center',flexWrap:'wrap'}}>
+  <span aria-live="polite"><strong>{session?'Nuvem ativa':'Progresso na nuvem'}</strong> · {message}{session?.user.email?` · ${session.user.email}`:''}</span>
   {session?<button type="button" onClick={signOut} disabled={busy}>Sair</button>:<button type="button" onClick={signIn} disabled={busy}>{busy?'Abrindo login…':'Entrar com Google'}</button>}
- </section>;
+ </div>;
 }
