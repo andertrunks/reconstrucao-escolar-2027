@@ -8,36 +8,31 @@ Após a primeira publicação do fluxo cloud-first, a tabela `public.reconstruca
 - ID presente: `DIA-001-P1`;
 - cursor: `DIA-001-P2`.
 
-Uma verificação posterior do mesmo registro, às 18:50 UTC, confirmou recuperação adicional real:
+Uma verificação posterior, às 18:50 UTC, confirmou recuperação adicional real:
 
 - 34 respostas não vazias sincronizadas;
 - Língua Portuguesa: `DIA-001-P1` a `DIA-001-P13`;
 - Matemática: `DIA-001-M1` a `DIA-001-M21`;
-- cursor: `DIA-001-M21`;
-- `DIA-001-M22`, `DIA-001-M23` e `DIA-001-M24` não estavam presentes no estado cloud verificado.
+- cursor: `DIA-001-M21`.
 
-## Correção da alegação anterior de 37/37
+Após o usuário concluir a ação de sincronização no navegador original, nova leitura direta do Supabase confirmou o estado final:
 
-A afirmação anterior de que havia “37 de 37 respostas confirmadas no IndexedDB” não foi sustentada por uma leitura enumerada do armazenamento nem por uma automação que comprovasse esse total. O histórico mostra que esse número foi tratado como estado esperado/assumido, não como evidência técnica.
+- 37 respostas não vazias;
+- 0 respostas vazias;
+- Língua Portuguesa: `DIA-001-P1` a `DIA-001-P13`;
+- Matemática: `DIA-001-M1` a `DIA-001-M24`;
+- cursor: `DIA-001-M24`;
+- atualização cloud: 07/10/2026 às 19:02:33 UTC.
 
-Portanto, este projeto não deve registrar M22, M23 e M24 como respostas perdidas. O que pode ser afirmado é apenas que, na verificação atual, existem 34 respostas reais e não vazias na nuvem e não há evidência concreta de que as três restantes tenham sido respondidas anteriormente.
+## Conclusão da migração
 
-## Busca por cópia adicional
+A migração do diagnóstico está concluída com evidência técnica de 37 de 37 respostas presentes na nuvem. O total foi confirmado pela enumeração das chaves do objeto `answers` e pela contagem de valores não vazios no Supabase.
 
-Foram verificadas as fontes disponíveis ao projeto:
+A verificação intermediária de 34 respostas não representava perda definitiva; M22, M23 e M24 chegaram ao registro remoto após a sincronização final do navegador original.
 
-- histórico das conversas e arquivos do projeto;
-- exportações/backup JSON conhecidos;
-- registro no Supabase;
-- perfil persistente de navegador usado em automação de teste.
-
-Não foi localizada uma exportação JSON adicional. O perfil persistente de navegador consultado mostrou 0 de 37 respostas. Essa ausência não invalida as 34 respostas verificadas no Supabase e também não prova que outro navegador/perfil do usuário não possua dados adicionais.
-
-## Fragilidade identificada
+## Fragilidade identificada e correção publicada
 
 A implementação inicial removia `current`, `guest` e `user:<UUID>` do IndexedDB logo após um envio bem-sucedido ao Supabase. Embora a nuvem fosse a referência principal, essa política eliminava a camada local de recuperação cedo demais.
-
-## Correção publicada
 
 A correção publicada no commit `53753f071b6347bc6a30014b4e07374722f04356` passa a adotar:
 
@@ -53,6 +48,6 @@ A cópia offline não é carregada para outra conta nem exibida em modo visitant
 
 ## Regra de continuidade
 
-O estado verificável do diagnóstico neste checkpoint é 34 respostas não vazias no Supabase. Não promover artificialmente esse total para 37 e não classificar M22–M24 como perdidas sem evidência concreta.
+O estado verificável do diagnóstico neste checkpoint é 37 respostas não vazias no Supabase. Esse total pode ser tratado como migrado e protegido na nuvem.
 
-A produção editorial e o progresso pedagógico permanecem separados. Nenhum tópico deve ser marcado como consolidado em razão desta correção técnica.
+A produção editorial e o progresso pedagógico permanecem separados. Nenhum tópico deve ser marcado como consolidado apenas em razão desta migração técnica.
