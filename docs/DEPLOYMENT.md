@@ -14,9 +14,13 @@ Workflow .github/workflows/pages.yml executa typecheck, lint, testes unitários,
 
 A tabela `public.reconstrucao_escolar_progress` usa `user_id` como chave por usuário, `data` em JSONB para o `StudyState` e `updated_at` para sincronização. RLS permite SELECT, INSERT, UPDATE e DELETE apenas quando `auth.uid() = user_id`.
 
-O IndexedDB não é a fonte principal. Ele serve somente para preservar uma migração ainda não enviada, alterações feitas offline ou falhas transitórias. Após sincronização bem-sucedida, as cópias locais do progresso são removidas. O login Google deve retornar para a URL base da aplicação; a lista de URLs de redirecionamento do Supabase precisa aceitar a URL do GitHub Pages.
+A nuvem é a referência principal do progresso autenticado. O IndexedDB mantém uma cópia offline por conta no namespace `user:<UUID>`, usada para continuidade sem conexão, recuperação e proteção contra falhas transitórias. Essa cópia não é exibida quando a conta está desconectada e não autoriza acesso a dados de outra conta.
 
-Antes de publicar uma alteração de sincronização: validar migração de dados locais existentes, login, logout, reconexão após offline, mesclagem sem perda entre dispositivos, RLS e comportamento em Microsoft Edge. Nunca limpar o armazenamento legado antes da confirmação de envio à nuvem.
+Na migração inicial, os namespaces legados `current` e `guest` são mesclados com a cópia local da conta e com o estado remoto. O resultado combinado é enviado ao Supabase e também gravado em `user:<UUID>`. Somente depois de ambas as gravações concluírem os namespaces legados podem ser removidos. Logout não apaga a cópia offline da conta; novo login da mesma conta pode reutilizá-la e reconciliá-la com a nuvem.
+
+O login Google deve retornar para a URL base da aplicação; a lista de URLs de redirecionamento do Supabase precisa aceitar a URL do GitHub Pages.
+
+Antes de publicar uma alteração de sincronização: validar migração de dados locais existentes, login, logout, reconexão após offline, mesclagem sem perda entre dispositivos, RLS e comportamento em Microsoft Edge. Nunca limpar o armazenamento legado antes da confirmação de envio à nuvem e da gravação de uma cópia recuperável no namespace local da conta.
 
 Referência consultada para GitHub Pages: https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages.
 

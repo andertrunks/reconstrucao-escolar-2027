@@ -1,6 +1,6 @@
 import {useEffect,useState} from 'react';
 import {CLOUD_STATUS_EVENT,emitCloudStatus,getCloudClient,type CloudSession,type CloudStatusDetail} from './cloud';
-import {clearUserCache,syncPendingCache} from './storage';
+import {syncPendingCache} from './storage';
 
 export default function CloudAccountBar(){
  const [session,setSession]=useState<CloudSession|null>(null);
@@ -36,11 +36,9 @@ export default function CloudAccountBar(){
  const signOut=async()=>{
   const cloud=getCloudClient();if(!cloud)return;
   setBusy(true);
-  const userId=session?.user.id;
   const result=await cloud.auth.signOut();
   if(result.error){setMessage(`Falha ao sair: ${result.error.message}`);setBusy(false);return;}
-  if(userId)await clearUserCache(userId);
-  emitCloudStatus('signed-out','Sessão encerrada. Seu progresso continua protegido na nuvem.');
+  emitCloudStatus('signed-out','Sessão encerrada. A nuvem preserva seu progresso e a cópia offline deste dispositivo não é exibida sem sua conta.');
   location.hash='progresso';
   location.reload();
  };
