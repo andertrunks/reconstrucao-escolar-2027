@@ -1,6 +1,6 @@
 # Reconstrução Escolar + ENEM e Vestibulares 2027
 
-Plataforma de Anderson Luis Costa. React, TypeScript e Vite, conteúdo JSON separado da interface e progresso local em IndexedDB. Não recomeçar: consultar docs/PROJECT_STATUS.md, fontes do Drive e histórico Git antes de qualquer alteração.
+Plataforma de Anderson Luis Costa. React, TypeScript e Vite, conteúdo JSON separado da interface e progresso sincronizado na nuvem por Supabase. O IndexedDB existe somente como cache temporário para migração, falha de rede ou uso offline; após uma sincronização bem-sucedida, a cópia local do progresso é removida. Não recomeçar: consultar docs/PROJECT_STATUS.md, fontes do Drive e histórico Git antes de qualquer alteração.
 
 ## Desenvolvimento
 
@@ -16,6 +16,10 @@ Há lacunas no acervo histórico, inclusive MAT-EST-012 a 030. As aulas avançad
 
 Consulte docs/CONTENT_MODEL.md e docs/EDITORIAL_INDEX.md. Fontes consolidadas em docs/SOURCES.md. O estado editorial é separado do progresso do estudante.
 
-## Dados pessoais
+## Dados pessoais e sincronização
 
-Respostas e erros permanecem no navegador. Backup JSON exportável e restaurável; a restauração mescla dados preservando registros atuais. Não há backend, anúncios, rastreadores nem serviços pagos.
+O `StudyState` autenticado é persistido na tabela `reconstrucao_escolar_progress` do Supabase e protegido por Row Level Security, RLS, com acesso restrito ao próprio `auth.uid()`. O login Google identifica a conta para sincronização entre dispositivos. Dados existentes do navegador são mesclados e enviados na primeira sincronização; após sucesso, as cópias de progresso no IndexedDB são removidas.
+
+Sem login, sem conexão ou durante uma falha temporária de sincronização, o navegador pode manter apenas uma cópia temporária para impedir perda de respostas. Quando a conexão volta, o envio pendente é retomado e o cache é eliminado após sucesso. A exportação JSON permanece como backup opcional, não como mecanismo principal de transferência entre aparelhos.
+
+A configuração pública do cliente Supabase não é segredo; a autorização depende da autenticação e das políticas RLS. Credenciais privadas e respostas pessoais não devem ser salvas no Git.
