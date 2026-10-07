@@ -18,8 +18,8 @@ async function writeGuestSnapshot(state:StudyState){
  await writeStudy(GUEST_KEY,state);
  await writeStudy(LEGACY_KEY,state);
 }
-async function clearSyncedProgressCaches(userId:string){
- await Promise.all([removeStudy(LEGACY_KEY),removeStudy(GUEST_KEY),removeStudy(userKey(userId))]);
+async function finishLegacyMigration(){
+ await Promise.all([removeStudy(LEGACY_KEY),removeStudy(GUEST_KEY)]);
 }
 
 async function loadGuestOrLegacy(){
@@ -31,52 +31,56 @@ async function loadGuestOrLegacy(){
 
 export async function loadStudy():Promise<StudyState>{
  const cloud=getCloudClient();
- if(!cloud){emitCloudStatus('unavailable','Nuvem indisponível; usando cache temporário neste dispositivo.');return loadGuestOrLegacy();}
+ if(!cloud){emitCloudStatus('unavailable','Nuvem indisponível; usando a cópia offline deste dispositivo.');return loadGuestOrLegacy();}
  let session;
- try{session=await currentCloudSession();}catch{emitCloudStatus('error','Não foi possível verificar a conta; usando cache temporário.');return loadGuestOrLegacy();}
+ try{session=await currentCloudSession();}catch{emitCloudStatus('error','Não foi possível verificar a conta; usando a cópia offline deste dispositivo.');return loadGuestOrLegacy();}
  if(!session){emitCloudStatus('signed-out','Entre com Google para sincronizar seu progresso entre dispositivos.');return loadGuestOrLegacy();}
 
  const legacy=await readStudy(LEGACY_KEY);
  const guest=await readStudy(GUEST_KEY);
- const userLocal=await readStudy(userKey(session.user.id));
+ const key=userKey(session.user.id);
+ const userLocal=await readStudy(key);
  let local=userLocal??emptyState();
  if(guest)local=mergeStudyStates(local,guest);
  if(legacy)local=mergeStudyStates(local,legacy);
- if(typeof navigator!=='undefined'&&!navigator.onLine){await writeStudy(userKey(session.user.id),local);emitCloudStatus('pending','Offline: alterações guardadas temporariamente e serão sincronizadas quando a conexão voltar.');return local;}
+ await writeStudy(key,local);
+ if(typeof navigator!=='undefined'&&!navigator.onLine){emitCloudStatus('pending','Offline: seu progresso ficou preservado na cópia local e será sincronizado quando a conexão voltar.');return local;}
  try{
   emitCloudStatus('syncing','Sincronizando seu progresso…');
   const remote=await loadRemoteStudy(session.user.id);
   const merged=remote?mergeStudyStates(local,remote):local;
   await saveRemoteStudy(session.user.id,merged);
-  await clearSyncedProgressCaches(session.user.id);
-  emitCloudStatus('synced','Progresso sincronizado na nuvem. Nenhuma cópia permanente do progresso ficou no navegador.');
+  await writeStudy(key,merged);
+  await finishLegacyMigration();
+  emitCloudStatus('synced','Progresso sincronizado na nuvem e preservado também para uso offline neste dispositivo.');
   return merged;
  }catch{
-  await writeStudy(userKey(session.user.id),local);
-  emitCloudStatus('error','Não foi possível alcançar a nuvem agora; suas alterações ficaram somente no cache temporário e serão sincronizadas depois.');
+  await writeStudy(key,local);
+  emitCloudStatus('error','Não foi possível alcançar a nuvem agora; sua cópia local foi preservada e será sincronizada depois.');
   return local;
  }
 }
 
 export async function saveStudy(state:StudyState){
  const cloud=getCloudClient();
- if(!cloud){await writeGuestSnapshot(state);emitCloudStatus('unavailable','Nuvem indisponível; progresso guardado temporariamente neste dispositivo.');return;}
+ if(!cloud){await writeGuestSnapshot(state);emitCloudStatus('unavailable','Nuvem indisponível; progresso preservado na cópia offline deste dispositivo.');return;}
  let session;
- try{session=await currentCloudSession();}catch{await writeGuestSnapshot(state);emitCloudStatus('error','Conta indisponível; progresso guardado temporariamente neste dispositivo.');return;}
+ try{session=await currentCloudSession();}catch{await writeGuestSnapshot(state);emitCloudStatus('error','Conta indisponível; progresso preservado na cópia offline deste dispositivo.');return;}
  if(!session){await writeGuestSnapshot(state);emitCloudStatus('signed-out','Entre com Google para enviar este progresso à nuvem.');return;}
 
  const key=userKey(session.user.id);
  await writeStudy(key,state);
- if(typeof navigator!=='undefined'&&!navigator.onLine){emitCloudStatus('pending','Offline: alterações guardadas temporariamente e serão sincronizadas quando a conexão voltar.');return;}
+ if(typeof navigator!=='undefined'&&!navigator.onLine){emitCloudStatus('pending','Offline: alterações preservadas localmente e serão sincronizadas quando a conexão voltar.');return;}
  try{
   emitCloudStatus('syncing','Sincronizando seu progresso…');
   const remote=await loadRemoteStudy(session.user.id);
   const merged=remote?mergeStudyStates(state,remote):state;
   await saveRemoteStudy(session.user.id,merged);
-  await clearSyncedProgressCaches(session.user.id);
-  emitCloudStatus('synced','Progresso sincronizado na nuvem. Nenhuma cópia permanente do progresso ficou no navegador.');
+  await writeStudy(key,merged);
+  await finishLegacyMigration();
+  emitCloudStatus('synced','Progresso sincronizado na nuvem e cópia offline atualizada.');
  }catch{
-  emitCloudStatus('error','Falha temporária na sincronização; o cache preservou suas alterações somente até o próximo envio bem-sucedido.');
+  emitCloudStatus('error','Falha temporária na sincronização; sua cópia local continua preservada.');
  }
 }
 
@@ -86,18 +90,18 @@ export async function syncPendingCache(){
  let session;
  try{session=await currentCloudSession();}catch{return;}
  if(!session)return;
- const pending=await readStudy(userKey(session.user.id));
+ const key=userKey(session.user.id);
+ const pending=await readStudy(key);
  if(!pending)return;
  try{
   emitCloudStatus('syncing','Conexão restabelecida. Enviando alterações pendentes…');
   const remote=await loadRemoteStudy(session.user.id);
   const merged=remote?mergeStudyStates(pending,remote):pending;
   await saveRemoteStudy(session.user.id,merged);
-  await clearSyncedProgressCaches(session.user.id);
-  emitCloudStatus('synced','Alterações pendentes sincronizadas na nuvem.');
+  await writeStudy(key,merged);
+  await finishLegacyMigration();
+  emitCloudStatus('synced','Alterações pendentes sincronizadas na nuvem e cópia offline atualizada.');
  }catch{
-  emitCloudStatus('error','A conexão voltou, mas a sincronização ainda não concluiu. O cache temporário foi preservado.');
+  emitCloudStatus('error','A conexão voltou, mas a sincronização ainda não concluiu. A cópia local foi preservada.');
  }
 }
-
-export async function clearUserCache(userId:string){await removeStudy(userKey(userId));}
