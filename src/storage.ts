@@ -6,6 +6,7 @@ import {currentCloudSession,emitCloudStatus,getCloudClient,mergeStudyStates,sync
 const db=openDB('reconstrucao-escolar',1,{upgrade(database){database.createObjectStore('study');}});
 const CLAIM='legacy-owner';
 const keyFor=(owner:string|null)=>owner===null?'guest-after-migration':`user:${owner}`;
+const RETRY_DELAYS=[250,750] as const;
 export interface LoadedStudy{state:StudyState;owner:string|null}
 
 async function account():Promise<string|null>{
@@ -41,6 +42,30 @@ async function localSnapshot(owner:string|null,incoming?:StudyState):Promise<Stu
  }catch(error){tx.abort();await tx.done.catch(()=>{});throw error;}
 }
 
+function transientSyncError(error:unknown){
+ if(error instanceof TypeError)return true;
+ const message=error instanceof Error?error.message:String(error);
+ return /failed to fetch|network|timeout|timed out|temporar|connection|conex[aã]o|socket|gateway|\b429\b|\b502\b|\b503\b|\b504\b|offline transport/i.test(message);
+}
+const wait=(ms:number)=>new Promise<void>(resolve=>setTimeout(resolve,ms));
+async function syncRemoteWithRetry(owner:string,pending:StudyState):Promise<StudyState>{
+ for(let attempt=0;attempt<=RETRY_DELAYS.length;attempt++){
+  if(typeof navigator!=='undefined'&&!navigator.onLine){
+   emitCloudStatus('pending','Offline — alterações serão sincronizadas posteriormente.');return pending;
+  }
+  // Re-check identity before every retry. A transient transport failure must not
+  // turn an old account snapshot into a write for whoever signs in next.
+  if(await account()!==owner)return pending;
+  try{return await syncRemoteStudy(owner,pending);}
+  catch(error){
+   if(!transientSyncError(error)||attempt===RETRY_DELAYS.length)throw error;
+   emitCloudStatus('pending',`Falha temporária na sincronização. Nova tentativa ${attempt+2} de ${RETRY_DELAYS.length+1}.`);
+   await wait(RETRY_DELAYS[attempt]);
+  }
+ }
+ return pending;
+}
+
 const remoteQueues=new Map<string,Promise<StudyState>>();
 async function syncOwner(owner:string):Promise<StudyState>{
  const previous=remoteQueues.get(owner);
@@ -53,7 +78,7 @@ async function syncOwner(owner:string):Promise<StudyState>{
   // account must never turn it into guest progress or another user's upload.
   if(await account()!==owner)return pending;
   emitCloudStatus('syncing','Sincronizando seu progresso…');
-  const merged=await syncRemoteStudy(owner,pending);
+  const merged=await syncRemoteWithRetry(owner,pending);
   const latest=await localSnapshot(owner,merged);
   if(await account()===owner){
    const newerEdits=JSON.stringify(latest)!==JSON.stringify(merged);
