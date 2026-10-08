@@ -45,7 +45,7 @@ describe('reconciliação por item e preservação do histórico',()=>{
   expect(mergeStudyStates(b,a)).toEqual(merged);
   expect(mergeStudyStates(merged,a)).toEqual(merged);
   expect(mergeStudyStates(merged,merged)).toEqual(merged);
-  expect(merged.history?.answers.Q).toHaveLength(3);
+  expect(merged.history?.answers.Q).toHaveLength(2);
  });
  it('três dispositivos convergem sem depender do agrupamento das sincronizações',()=>{
   const original=base();
@@ -82,13 +82,20 @@ describe('reconciliação por item e preservação do histórico',()=>{
   expect(()=>validateBackup({...original,history:{answers:{Q:[{at:t1,value:42}]},topics:{},errors:{}}})).toThrow();
   expect(()=>validateBackup({...original,history:{answers:{},topics:{},errors:{E:[{at:t1,value:{id:'OTHER'}}]}}})).toThrow();
  });
-});
-
-it('conserva versões importadas mesmo quando o valor ativo já coincide',()=>{
- const original=base();
- const other=recordStudyUpdate(original,{...original,answers:{Q:'alternativa'}},t1);
- const restored=recordStudyUpdate(other,{...other,answers:{Q:'original'}},t2);
- const imported=mergeStudyStates(original,restored);
- const saved=recordStudyUpdate(original,imported,t2);
- expect(saved.history?.answers.Q.some(r=>r.value==='alternativa')).toBe(true);
+ it('compacta centenas de edições causais da mesma entidade sem crescer o histórico',()=>{
+  let current=base();
+  for(let i=0;i<500;i++)current=recordStudyUpdate(current,{...current,answers:{Q:`v${i}`}},new Date(Date.UTC(2026,9,8,4,0,0,i)).toISOString());
+  expect(current.answers.Q).toBe('v499');
+  expect(current.history?.answers.Q).toEqual([{at:'2026-10-08T04:00:00.499Z',value:'v499'}]);
+ });
+ it('compacta a cabeça causal mas mantém a versão concorrente não resolvida',()=>{
+  const original=base();
+  const a=recordStudyUpdate(original,{...original,answers:{Q:'A'}},t1);
+  const b=recordStudyUpdate(original,{...original,answers:{Q:'B'}},t1);
+  const merged=mergeStudyStates(a,b),active=merged.answers.Q,hidden=active==='A'?'B':'A';
+  const resolved=recordStudyUpdate(merged,{...merged,answers:{Q:'resolvida'}},t2);
+  const versions=resolved.history?.answers.Q.map(r=>r.value)??[];
+  expect(versions).toContain(hidden);expect(versions).toContain('resolvida');expect(versions).not.toContain(active);
+  expect(versions).toHaveLength(2);
+ });
 });
