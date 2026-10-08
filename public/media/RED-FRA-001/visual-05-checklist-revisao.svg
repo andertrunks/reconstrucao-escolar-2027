@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img" aria-labelledby="title desc">
+<title id="title">Checklist de revisão de uma frase clara</title>
+<desc id="desc">Fluxo com seis perguntas: qual é a ideia principal, quem ou o que é o referente, as relações estão claras, a ordem ajuda, falta informação e o sinal final corresponde à intenção.</desc>
+<rect width="1100" height="620" fill="#fff"/>
+<text x="55" y="58" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#14231b">Checklist de revisão de uma frase clara</text>
+<g font-family="Arial,sans-serif">
+<g transform="translate(70 110)"><rect width="450" height="100" rx="20" fill="#edf7f0" stroke="#315f46" stroke-width="3"/><text x="28" y="40" font-size="21" font-weight="700" fill="#173b29">1. Qual é a ideia principal?</text><text x="28" y="70" font-size="17" fill="#2b4a39">Consigo dizer em uma frase o que quero comunicar?</text></g>
+<g transform="translate(580 110)"><rect width="450" height="100" rx="20" fill="#eef1f7" stroke="#4e5f7f" stroke-width="3"/><text x="28" y="40" font-size="21" font-weight="700" fill="#303d58">2. O referente está claro?</text><text x="28" y="70" font-size="17" fill="#46526a">“ele”, “ela” ou “isso” apontam para quê?</text></g>
+<g transform="translate(70 240)"><rect width="450" height="100" rx="20" fill="#f8f2e8" stroke="#7a5b2f" stroke-width="3"/><text x="28" y="40" font-size="21" font-weight="700" fill="#553d20">3. As relações estão claras?</text><text x="28" y="70" font-size="17" fill="#604a2d">Quem faz o quê? Qual informação completa a ideia?</text></g>
+<g transform="translate(580 240)"><rect width="450" height="100" rx="20" fill="#f3f1f8" stroke="#65548a" stroke-width="3"/><text x="28" y="40" font-size="21" font-weight="700" fill="#473a64">4. A ordem ajuda a leitura?</text><text x="28" y="70" font-size="17" fill="#574a70">O que precisa ser entendido junto está próximo?</text></g>
+<g transform="translate(70 370)"><rect width="450" height="100" rx="20" fill="#f2f5ee" stroke="#527044" stroke-width="3"/><text x="28" y="40" font-size="21" font-weight="700" fill="#30452b">5. Falta alguma informação?</text><text x="28" y="70" font-size="17" fill="#42523b">Data, ação, responsável ou complemento são necessários?</text></g>
+<g transform="translate(580 370)"><rect width="450" height="100" rx="20" fill="#f6eeee" stroke="#815050" stroke-width="3"/><text x="28" y="40" font-size="21" font-weight="700" fill="#5a3434">6. O sinal final combina?</text><text x="28" y="70" font-size="17" fill="#684343">Quero afirmar, perguntar ou exclamar?</text></g>
+</g>
+<text x="55" y="535" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#24322b">Revisar não é só procurar erros de digitação.</text>
+<text x="55" y="570" font-family="Arial,sans-serif" font-size="18" fill="#2a3630">Clareza envolve sentido, referência, ordem, completude, precisão e pontuação.</text>
+</svg>
