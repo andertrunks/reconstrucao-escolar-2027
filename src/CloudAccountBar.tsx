@@ -1,6 +1,5 @@
 import {useEffect,useState} from 'react';
 import {CLOUD_STATUS_EVENT,emitCloudStatus,getCloudClient,type CloudSession,type CloudStatusDetail} from './cloud';
-import {syncPendingCache} from './storage';
 
 export default function CloudAccountBar(){
  const [session,setSession]=useState<CloudSession|null>(null);
@@ -10,19 +9,18 @@ export default function CloudAccountBar(){
  useEffect(()=>{
   const cloud=getCloudClient();
   if(!cloud){setMessage('Sincronização em nuvem indisponível neste momento.');return;}
-  let active=true;
+  let active=true,authVersion=0;
+  const initialVersion=authVersion;
   cloud.auth.getSession().then(result=>{
-   if(!active)return;
+   if(!active||authVersion!==initialVersion)return;
    if(result.error){setMessage('Não foi possível verificar sua conta.');return;}
    setSession(result.data.session);
    setMessage(result.data.session?'Progresso conectado à nuvem.':'Entre com Google para sincronizar seu progresso entre dispositivos.');
   });
-  const listener=cloud.auth.onAuthStateChange((_event,next)=>{if(active){setSession(next);setMessage(next?'Progresso conectado à nuvem.':'Entre com Google para sincronizar seu progresso entre dispositivos.');}});
+  const listener=cloud.auth.onAuthStateChange((_event,next)=>{authVersion++;if(active){setSession(next);setMessage(next?'Progresso conectado à nuvem.':'Entre com Google para sincronizar seu progresso entre dispositivos.');}});
   const onStatus=(event:Event)=>{const detail=(event as CustomEvent<CloudStatusDetail>).detail;if(detail?.message)setMessage(detail.message);};
-  const onOnline=()=>{void syncPendingCache();};
   window.addEventListener(CLOUD_STATUS_EVENT,onStatus);
-  window.addEventListener('online',onOnline);
-  return()=>{active=false;listener.data.subscription.unsubscribe();window.removeEventListener(CLOUD_STATUS_EVENT,onStatus);window.removeEventListener('online',onOnline);};
+  return()=>{active=false;listener.data.subscription.unsubscribe();window.removeEventListener(CLOUD_STATUS_EVENT,onStatus);};
  },[]);
 
  const signIn=async()=>{
@@ -36,11 +34,11 @@ export default function CloudAccountBar(){
  const signOut=async()=>{
   const cloud=getCloudClient();if(!cloud)return;
   setBusy(true);
-  const result=await cloud.auth.signOut();
+  const result=await cloud.auth.signOut({scope:'local'});
   if(result.error){setMessage(`Falha ao sair: ${result.error.message}`);setBusy(false);return;}
   emitCloudStatus('signed-out','Sessão encerrada. A nuvem preserva seu progresso e a cópia offline deste dispositivo não é exibida sem sua conta.');
   location.hash='progresso';
-  location.reload();
+  setBusy(false);
  };
 
  return <div style={{display:'flex',gap:'0.5rem',alignItems:'center',flexWrap:'wrap'}}>
