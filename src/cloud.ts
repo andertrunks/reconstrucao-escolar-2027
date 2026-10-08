@@ -1,5 +1,6 @@
 import type {StudyState} from './model';
 import {emptyState,validateBackup} from './study';
+import {reconcileStudy} from './reconciliation';
 
 const SUPABASE_URL='https://oawgvsczqxirqlupnkyq.supabase.co';
 const SUPABASE_PUBLISHABLE_KEY='sb_publishable_HngdaKKbuzUpyj5Low9L0g_wP_fc7lx';
@@ -65,17 +66,7 @@ export function mergeStudyStates(a:StudyState,b:StudyState):StudyState{
  if(!aMeaningful&&!bMeaningful)return stateTime(a)>=stateTime(b)?structuredClone(a):structuredClone(b);
  if(!aMeaningful)return structuredClone(b);
  if(!bMeaningful)return structuredClone(a);
- const newer=stateTime(a)>=stateTime(b)?a:b;
- const older=newer===a?b:a;
- const errors=new Map(older.errors.map(item=>[item.id,item]));
- for(const item of newer.errors)errors.set(item.id,item);
- return validateBackup({
-  ...newer,
-  answers:{...older.answers,...newer.answers},
-  topics:{...older.topics,...newer.topics},
-  errors:[...errors.values()],
-  updatedAt:new Date(Math.max(stateTime(a),stateTime(b))).toISOString(),
- });
+ return validateBackup(reconcileStudy(a,b));
 }
 
 export async function currentCloudSession(){
