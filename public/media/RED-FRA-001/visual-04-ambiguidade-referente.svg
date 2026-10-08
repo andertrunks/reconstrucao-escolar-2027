@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="590" viewBox="0 0 1100 590" role="img" aria-labelledby="title desc">
+<title id="title">Como tornar explícito um referente ambíguo</title>
+<desc id="desc">A frase Ana explicou o problema a Carla quando ela chegou aparece com a palavra ela ligada a duas possibilidades, Ana e Carla, seguida de duas reescritas explícitas.</desc>
+<rect width="1100" height="590" fill="#fff"/>
+<text x="55" y="58" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#14231b">Como tornar explícito um referente ambíguo</text>
+<g font-family="Arial,sans-serif">
+<rect x="95" y="105" width="910" height="105" rx="22" fill="#f6eeee" stroke="#815050" stroke-width="3"/>
+<text x="550" y="150" text-anchor="middle" font-size="24" font-weight="700" fill="#5a3434">Ana explicou o problema a Carla quando ela chegou.</text>
+<text x="550" y="185" text-anchor="middle" font-size="18" fill="#684343">“ela” = Ana? ou Carla?</text>
+<line x1="550" y1="210" x2="310" y2="275" stroke="#6a746e" stroke-width="3"/><line x1="550" y1="210" x2="790" y2="275" stroke="#6a746e" stroke-width="3"/>
+<rect x="105" y="275" width="410" height="95" rx="18" fill="#edf7f0" stroke="#315f46" stroke-width="3"/>
+<text x="310" y="312" text-anchor="middle" font-size="20" font-weight="700" fill="#173b29">Se Carla chegou</text>
+<text x="310" y="342" text-anchor="middle" font-size="17" fill="#2b4a39">Quando Carla chegou, Ana explicou</text>
+<text x="310" y="364" text-anchor="middle" font-size="17" fill="#2b4a39">o problema a ela.</text>
+<rect x="585" y="275" width="410" height="95" rx="18" fill="#eef1f7" stroke="#4e5f7f" stroke-width="3"/>
+<text x="790" y="312" text-anchor="middle" font-size="20" font-weight="700" fill="#303d58">Se Ana chegou</text>
+<text x="790" y="342" text-anchor="middle" font-size="17" fill="#46526a">Quando Ana chegou, explicou</text>
+<text x="790" y="364" text-anchor="middle" font-size="17" fill="#46526a">o problema a Carla.</text>
+</g>
+<rect x="165" y="425" width="770" height="70" rx="24" fill="#f4f6f5" stroke="#59645e" stroke-width="2"/>
+<text x="550" y="468" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#24322b">Reescrever é preferível a deixar o leitor adivinhar o referente.</text>
+<text x="55" y="548" font-family="Arial,sans-serif" font-size="18" fill="#2a3630">Em literatura ou humor, a ambiguidade pode ser intencional; em textos informativos, a ambiguidade involuntária costuma prejudicar a precisão.</text>
+</svg>
