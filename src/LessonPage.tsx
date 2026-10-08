@@ -20,12 +20,14 @@ function youtubeEmbedUrl(url:string){
 }
 
 function VideoBlock({video:v}:{video:Video}){
+ const [loaded,setLoaded]=useState(false);
  const embed=v.type!=='leitura'?youtubeEmbedUrl(v.url):'';
  const label=v.type==='leitura'?'Leitura complementar':'Vídeo complementar';
  return <section className="video-card" aria-label={`${label}: ${v.title}`}>
   <h2>{label}</h2>
   <h3>{v.title}</h3>
-  {embed&&<div className="video-frame"><iframe src={embed} title={`Vídeo complementar: ${v.title}`} loading="lazy" referrerPolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen/></div>}
+  {embed&&!loaded&&<div className="video-placeholder"><p>O player externo só é carregado quando você solicitar. Isso reduz rastreamento, consumo de dados e interferência nos recursos de acessibilidade da página.</p><button type="button" onClick={()=>setLoaded(true)}>Carregar vídeo</button></div>}
+  {embed&&loaded&&<div className="video-frame"><iframe src={embed} title={`Vídeo complementar: ${v.title}`} loading="lazy" referrerPolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen/></div>}
   <div className="video-meta">
    <p><strong>Canal:</strong> {v.channel}</p>
    <p><strong>Duração:</strong> {v.duration}</p>
