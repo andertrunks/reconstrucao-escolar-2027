@@ -20,9 +20,14 @@ interface RemoteRow{data:unknown;updated_at:string}
 interface SelectSingleBuilder{
  eq(column:string,value:string):{maybeSingle():Promise<QueryResult<RemoteRow|null>>};
 }
+interface UpdateBuilder{
+ eq(column:string,value:string):UpdateBuilder;
+ select(columns:string):Promise<QueryResult<{user_id:string}[]|null>>;
+}
 interface TableBuilder{
  select(columns:string):SelectSingleBuilder;
- upsert(values:Record<string,unknown>):Promise<QueryResult<unknown>>;
+ insert(values:Record<string,unknown>):Promise<QueryResult<unknown>>;
+ update(values:Record<string,unknown>):UpdateBuilder;
 }
 interface CloudAuth{
  getSession():Promise<AuthSessionResult>;
@@ -81,22 +86,30 @@ export async function currentCloudSession(){
  return result.data.session;
 }
 
-export async function loadRemoteStudy(userId:string):Promise<StudyState|null>{
- const cloud=getCloudClient();
- if(!cloud)return null;
- const result=await cloud.from(TABLE).select('data,updated_at').eq('user_id',userId).maybeSingle();
- if(result.error)throw new Error(`Leitura do progresso na nuvem: ${result.error.message}`);
- if(!result.data)return null;
- const state=validateBackup(result.data.data);
- if(!state.updatedAt&&result.data.updated_at)state.updatedAt=result.data.updated_at;
- return state;
-}
-
-export async function saveRemoteStudy(userId:string,state:StudyState){
- const cloud=getCloudClient();
+/** Compare-and-swap: a stale device must re-read and merge, never overwrite a
+ * version written after its read. A bounded conflict keeps the local copy pending. */
+export async function syncRemoteStudy(userId:string,state:StudyState,cloud:Pick<CloudClient,'from'>|null=getCloudClient()):Promise<StudyState>{
  if(!cloud)throw new Error('Sincronização em nuvem indisponível.');
- const result=await cloud.from(TABLE).upsert({user_id:userId,data:state,updated_at:new Date().toISOString()});
- if(result.error)throw new Error(`Sincronização do progresso: ${result.error.message}`);
+ let pending=validateBackup(state);
+ for(let attempt=0;attempt<5;attempt++){
+  const read=await cloud.from(TABLE).select('data,updated_at').eq('user_id',userId).maybeSingle();
+  if(read.error)throw new Error(`Leitura do progresso na nuvem: ${read.error.message}`);
+  const previous=read.data;
+  if(previous&&!Number.isFinite(Date.parse(previous.updated_at)))throw new Error('Versão remota inválida. Cópia local preservada.');
+  pending=previous?mergeStudyStates(pending,validateBackup(previous.data)):pending;
+  const updated_at=new Date(Math.max(Date.now(),previous?Date.parse(previous.updated_at)+1:0)).toISOString();
+  const row={user_id:userId,data:pending,updated_at};
+  if(!previous){
+   const inserted=await cloud.from(TABLE).insert(row);
+   if(inserted.error?.code==='23505')continue;
+   if(inserted.error)throw new Error(`Sincronização do progresso: ${inserted.error.message}`);
+   return pending;
+  }
+  const written=await cloud.from(TABLE).update(row).eq('user_id',userId).eq('updated_at',previous.updated_at).select('user_id');
+  if(written.error)throw new Error(`Sincronização do progresso: ${written.error.message}`);
+  if(written.data?.length)return pending;
+ }
+ throw new Error('Progresso alterado em outra sessão. Sincronização pendente; cópia local preservada.');
 }
 
 export function cloudFallbackState(){return emptyState();}

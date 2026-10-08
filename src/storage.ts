@@ -1,7 +1,7 @@
 import {openDB} from 'idb';
 import type {StudyState} from './model';
 import {emptyState,validateBackup} from './study';
-import {currentCloudSession,emitCloudStatus,getCloudClient,hasMeaningfulStudy,loadRemoteStudy,mergeStudyStates,saveRemoteStudy} from './cloud';
+import {currentCloudSession,emitCloudStatus,getCloudClient,hasMeaningfulStudy,mergeStudyStates,syncRemoteStudy} from './cloud';
 
 const db=openDB('reconstrucao-escolar',1,{upgrade(database){database.createObjectStore('study');}});
 const LEGACY_KEY='current';
@@ -48,9 +48,7 @@ export async function loadStudy():Promise<StudyState>{
  if(typeof navigator!=='undefined'&&!navigator.onLine){emitCloudStatus('pending','Offline: seu progresso ficou preservado na cópia local e será sincronizado quando a conexão voltar.');return local;}
  try{
   emitCloudStatus('syncing','Sincronizando seu progresso…');
-  const remote=await loadRemoteStudy(session.user.id);
-  const merged=remote?mergeStudyStates(local,remote):local;
-  await saveRemoteStudy(session.user.id,merged);
+  const merged=await syncRemoteStudy(session.user.id,local);
   await writeStudy(key,merged);
   await finishLegacyMigration();
   emitCloudStatus('synced','Progresso sincronizado na nuvem e preservado também para uso offline neste dispositivo.');
@@ -77,9 +75,7 @@ export async function saveStudy(state:StudyState){
  if(typeof navigator!=='undefined'&&!navigator.onLine){emitCloudStatus('pending','Offline: alterações preservadas localmente e serão sincronizadas quando a conexão voltar.');return;}
  try{
   emitCloudStatus('syncing','Sincronizando seu progresso…');
-  const remote=await loadRemoteStudy(session.user.id);
-  const merged=remote?mergeStudyStates(local,remote):local;
-  await saveRemoteStudy(session.user.id,merged);
+  const merged=await syncRemoteStudy(session.user.id,local);
   await writeStudy(key,merged);
   await finishLegacyMigration();
   emitCloudStatus('synced','Progresso sincronizado na nuvem e cópia offline atualizada.');
@@ -101,9 +97,7 @@ export async function syncPendingCache(){
  await writeStudy(key,pending);
  try{
   emitCloudStatus('syncing','Conexão restabelecida. Enviando alterações pendentes…');
-  const remote=await loadRemoteStudy(session.user.id);
-  const merged=remote?mergeStudyStates(pending,remote):pending;
-  await saveRemoteStudy(session.user.id,merged);
+  const merged=await syncRemoteStudy(session.user.id,pending);
   await writeStudy(key,merged);
   await finishLegacyMigration();
   emitCloudStatus('synced','Alterações pendentes sincronizadas na nuvem e cópia offline atualizada.');
