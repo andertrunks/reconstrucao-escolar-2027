@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520" role="img" aria-labelledby="title desc">
+<title id="title">Um esqueleto útil para montar frases claras</title>
+<desc id="desc">Diagrama em três etapas: de quem ou de que se fala, o que acontece ou é informado e qual complemento é necessário. O exemplo forma a frase A unidade de saúde alterou o horário da vacinação nesta sexta-feira.</desc>
+<rect width="1100" height="520" fill="#fff"/>
+<text x="55" y="58" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#14231b">Um esqueleto útil para montar frases claras</text>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<g transform="translate(55 125)"><rect width="285" height="150" rx="22" fill="#edf7f0" stroke="#315f46" stroke-width="3"/><text x="142" y="43" font-size="21" font-weight="700" fill="#173b29">1. De quem ou de que?</text><text x="142" y="83" font-size="20" fill="#2b4a39">A unidade de saúde</text></g>
+<text x="370" y="205" font-size="42" fill="#315f46">→</text>
+<g transform="translate(405 125)"><rect width="285" height="150" rx="22" fill="#eef1f7" stroke="#4e5f7f" stroke-width="3"/><text x="142" y="43" font-size="21" font-weight="700" fill="#303d58">2. O que aconteceu?</text><text x="142" y="83" font-size="20" fill="#46526a">alterou o horário</text></g>
+<text x="720" y="205" font-size="42" fill="#4e5f7f">→</text>
+<g transform="translate(755 125)"><rect width="290" height="150" rx="22" fill="#f8f2e8" stroke="#7a5b2f" stroke-width="3"/><text x="145" y="43" font-size="21" font-weight="700" fill="#553d20">3. O que falta saber?</text><text x="145" y="78" font-size="18" fill="#604a2d">da vacinação</text><text x="145" y="108" font-size="18" fill="#604a2d">nesta sexta-feira</text></g>
+</g>
+<rect x="105" y="335" width="890" height="92" rx="25" fill="#f4f6f5" stroke="#59645e" stroke-width="2"/>
+<text x="550" y="375" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#24322b">Frase resultante</text>
+<text x="550" y="408" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#2a3630">A unidade de saúde alterou o horário da vacinação nesta sexta-feira.</text>
+<text x="55" y="486" font-family="Arial,sans-serif" font-size="18" fill="#2a3630">O roteiro organiza a informação; ele não obriga todas as frases a seguir a mesma forma.</text>
+</svg>
