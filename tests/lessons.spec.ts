@@ -3,9 +3,9 @@ import AxeBuilder from '@axe-core/playwright';
 function axeSummary(report:Awaited<ReturnType<AxeBuilder['analyze']>>){return report.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>({target:n.target,html:n.html}))}));}
 test('catálogo integral, trilha V2, busca, pré-requisitos e simulado recuperado',async({page})=>{
  await page.goto('./#aulas');await expect(page.getByRole('heading',{name:'Aulas e conteúdos'})).toBeVisible();
- await expect(page.locator('.lesson-catalog li')).toHaveCount(50);
+ await expect(page.locator('.lesson-catalog li')).toHaveCount(51);
  await expect(page.getByRole('link',{name:'Começar a trilha ativa V2'})).toHaveAttribute('href','#aula/MAT-NUM-001');
- await page.getByRole('searchbox').fill('POR-LEI-001');await expect(page.locator('.lesson-catalog li')).toHaveCount(1);await expect(page.locator('.lesson-catalog h2 a')).toHaveText('Leitura literal: localizar informação explícita');
+ await page.getByRole('searchbox').fill('BIO-FUN-001');await expect(page.locator('.lesson-catalog li')).toHaveCount(1);await expect(page.locator('.lesson-catalog h2 a')).toHaveText('Vida, níveis de organização e célula: visão inicial');
  await page.getByRole('searchbox').fill('MAT-EST-067');await expect(page.locator('.lesson-catalog li')).toHaveCount(1);
  await page.locator('.lesson-catalog h2 a').click();await expect(page.locator('article[aria-label="Texto integral da aula"]')).toBeVisible();
  await expect(page.locator('.dependency-warning')).toBeVisible();await expect(page.locator('.lesson-gallery img')).toHaveCount(6);
@@ -21,14 +21,22 @@ test('MAT-NUM-001 aponta para POR-LEI-001 sem consolidar automaticamente',async(
  const consolidated=page.getByRole('option',{name:'consolidado',exact:true});await expect(consolidated).toHaveAttribute('disabled','');expect(await consolidated.evaluate(el=>(el as HTMLOptionElement).disabled)).toBe(true);
  expect((await new AxeBuilder({page}).analyze()).violations.map(v=>v.id)).toEqual([]);
 });
-test('POR-LEI-001 publica teoria, quatro visuais, vídeo e 26 questões',async({page})=>{
+test('POR-LEI-001 aponta para BIO-FUN-001',async({page})=>{
  await page.goto('./#aula/POR-LEI-001');
  await expect(page.getByRole('heading',{level:1,name:'Leitura literal: localizar informação explícita'})).toBeVisible();
- await expect(page.locator('article[aria-label="Texto integral da aula"]')).toBeVisible();
  await expect(page.locator('.lesson-gallery img')).toHaveCount(4);await expect(page.locator('.practice-question')).toHaveCount(26);
+ await expect(page.getByRole('link',{name:'Próxima aula →'})).toHaveAttribute('href','#aula/BIO-FUN-001');
+ expect((await new AxeBuilder({page}).analyze()).violations.map(v=>v.id)).toEqual([]);
+});
+test('BIO-FUN-001 publica teoria, cinco visuais, vídeo e 26 questões',async({page})=>{
+ await page.goto('./#aula/BIO-FUN-001');
+ await expect(page.getByRole('heading',{level:1,name:'Vida, níveis de organização e célula: visão inicial'})).toBeVisible();
+ await expect(page.locator('article[aria-label="Texto integral da aula"]')).toBeVisible();
+ await expect(page.locator('.lesson-gallery img')).toHaveCount(5);await expect(page.locator('.practice-question')).toHaveCount(26);
  await expect(page.getByRole('heading',{name:'Vídeo complementar'})).toBeVisible();await expect(page.getByRole('button',{name:'Carregar vídeo'})).toBeVisible();
- await expect(page.getByText('Próximo tópico: BIO-FUN-001 · ainda indisponível')).toBeVisible();
+ await expect(page.getByText('Próximo tópico: HIS-FUN-001 · ainda indisponível')).toBeVisible();
  await expect(page.getByLabel('Estado de aprendizagem')).toHaveValue('não iniciado');
+ const consolidated=page.getByRole('option',{name:'consolidado',exact:true});await expect(consolidated).toHaveAttribute('disabled','');expect(await consolidated.evaluate(el=>(el as HTMLOptionElement).disabled)).toBe(true);
  expect((await new AxeBuilder({page}).analyze()).violations.map(v=>v.id)).toEqual([]);
 });
 test('gabarito após tentativa, persistência e ausência de consolidação automática',async({page})=>{
@@ -47,6 +55,6 @@ test('aulas, tabelas e recursos funcionam em celular e base de publicação',asy
   await page.goto('./#aula/'+id);await expect(page.locator('.lesson-body')).toBeVisible();await expect(page.locator('h1')).toHaveCount(1);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
   for(const img of await page.locator('.lesson-gallery img').all()){const src=await img.getAttribute('src');expect((await page.request.get(src!)).ok()).toBe(true);}const download=page.getByRole('link',{name:'Baixar texto integral'});expect((await page.request.get((await download.getAttribute('href'))!)).ok()).toBe(true);
  }
- for(const id of ['MAT-NUM-001','POR-LEI-001']){await page.goto('./#aula/'+id);await expect(page.locator('.lesson-body')).toBeVisible();await expect(page.locator('h1')).toHaveCount(1);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);for(const img of await page.locator('.lesson-gallery img').all()){const src=await img.getAttribute('src');expect((await page.request.get(src!)).ok()).toBe(true);}}
+ for(const id of ['MAT-NUM-001','POR-LEI-001','BIO-FUN-001']){await page.goto('./#aula/'+id);await expect(page.locator('.lesson-body')).toBeVisible();await expect(page.locator('h1')).toHaveCount(1);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);for(const img of await page.locator('.lesson-gallery img').all()){const src=await img.getAttribute('src');expect((await page.request.get(src!)).ok()).toBe(true);}}
  expect(errors).toEqual([]);const axe=await new AxeBuilder({page}).analyze();expect(axeSummary(axe)).toEqual([]);await page.screenshot({path:'test-results/lesson-mobile.png'});
 });
