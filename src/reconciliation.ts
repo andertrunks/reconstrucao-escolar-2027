@@ -8,7 +8,12 @@ function canonical(value:unknown):string{
 }
 function union<T>(...lists:Revision<T>[][]):Revision<T>[] {
  const revisions=new Map<string,Revision<T>>();
- for(const revision of lists.flat())revisions.set(`${revision.at}:${canonical(revision.value)}`,structuredClone(revision));
+ for(const revision of lists.flat()){
+  // Equal values are the same semantic version even when two devices stamped
+  // them at different instants. Keep the newest stamp and avoid history bloat.
+  const key=canonical(revision.value),existing=revisions.get(key);
+  if(!existing||Date.parse(revision.at)>Date.parse(existing.at))revisions.set(key,structuredClone(revision));
+ }
  return [...revisions.values()].sort((a,b)=>Date.parse(a.at)-Date.parse(b.at)||(canonical(a.value)<canonical(b.value)?-1:canonical(a.value)>canonical(b.value)?1:0));
 }
 function seed<T>(values:Record<string,T>,history:Record<string,Revision<T>[]>,at:string){
@@ -51,8 +56,17 @@ export function recordStudyUpdate(previous:StudyState,next:StudyState,at=new Dat
   history.topics=join(history.topics,next.history.topics);
   history.errors=join(history.errors,next.history.errors);
  }
- function changed<T>(old:Record<string,T>,values:Record<string,T>,entries:Record<string,Revision<T>[]>){
-  for(const [id,value] of Object.entries(values))if(canonical(old[id])!==canonical(value))Object.defineProperty(entries,id,{value:union(Object.hasOwn(entries,id)?entries[id]:[],[{at,value}]),enumerable:true,writable:true,configurable:true});
+ function changed<T>(old:Record<string,T>,values:Record<string,T>,entries:Record<string,Revision<T>[]>) {
+  for(const [id,value] of Object.entries(values)){
+   const hadPrevious=Object.hasOwn(old,id);
+   if(hadPrevious&&canonical(old[id])===canonical(value))continue;
+   const existing=Object.hasOwn(entries,id)?entries[id]:[];
+   // The value that was active in `previous` is a proven causal parent of this
+   // edit and may be compacted. Other observed versions stay: they can represent
+   // unresolved concurrent edits and must not be discarded as mere ancestors.
+   const retained=hadPrevious?existing.filter(r=>canonical(r.value)!==canonical(old[id])):existing;
+   Object.defineProperty(entries,id,{value:union(retained,[{at,value}]),enumerable:true,writable:true,configurable:true});
+  }
  }
  changed(previous.answers,next.answers,history.answers);
  changed(previous.topics,next.topics,history.topics);
