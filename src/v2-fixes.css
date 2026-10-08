@@ -21,6 +21,13 @@
   overflow-wrap: anywhere;
 }
 
+/* A regra estrutural acima não pode neutralizar o contraste do CTA primário. */
+.lesson-actions > a.primary {
+  background: var(--green);
+  color: var(--bg);
+  border-color: var(--green);
+}
+
 .question-header {
   margin-bottom: 1rem;
 }
