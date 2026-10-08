@@ -34,7 +34,7 @@ interface CloudAuth{
  getSession():Promise<AuthSessionResult>;
  onAuthStateChange(callback:(event:string,session:CloudSession|null)=>void):AuthChangeResult;
  signInWithOAuth(options:{provider:'google';options:{redirectTo:string}}):Promise<AuthResult>;
- signOut():Promise<AuthResult>;
+ signOut(options:{scope:'local'}):Promise<AuthResult>;
 }
 export interface CloudClient{auth:CloudAuth;from(table:string):TableBuilder}
 interface SupabaseGlobal{createClient(url:string,key:string,options:{auth:{flowType:'pkce';autoRefreshToken:boolean;persistSession:boolean;detectSessionInUrl:boolean;storageKey:string}}):CloudClient}

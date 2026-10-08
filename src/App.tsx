@@ -1,10 +1,10 @@
-import {mergeStudyStates} from './cloud';
+import {getCloudClient,mergeStudyStates} from './cloud';
 import {recordStudyUpdate} from './reconciliation';
 import {useEffect,useRef,useState,lazy,Suspense} from 'react';
 import type {StudyState,ErrorKind} from './model';
 import {subjects,levels,topics,questionCount} from './catalog';
 import {continuation,emptyState,validateBackup} from './study';
-import {loadStudy,saveStudy} from './storage';
+import {loadStudy,saveStudy,syncPendingCache,type LoadedStudy} from './storage';
 import CloudAccountBar from './CloudAccountBar';
 import diagnostic from './content/diagnostic.json';
 const Diagnostic=lazy(()=>import('./Diagnostic'));
@@ -16,12 +16,55 @@ const kinds:ErrorKind[]=['conteúdo','interpretação','cálculo','distração',
 const route=()=>location.hash.slice(1)||'inicio';
 function download(state:StudyState){const url=URL.createObjectURL(new Blob([JSON.stringify(state,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='reconstrucao-escolar-progresso.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 export default function App(){
- const [path,setPath]=useState(route),[state,setState]=useState<StudyState>(emptyState),[ready,setReady]=useState(false),[edited,setEdited]=useState(false),[notice,setNotice]=useState(''),[storageError,setStorageError]=useState(false),[theme,setTheme]=useState(()=>{try{return localStorage.getItem('school-theme')||'claro'}catch{return 'claro'}});
- const main=useRef<HTMLElement>(null),saveQueue=useRef(Promise.resolve());
- useEffect(()=>{const f=()=>{setPath(route());setTimeout(()=>{main.current?.focus();window.scrollTo(0,0)},0)};window.addEventListener('hashchange',f);loadStudy().then(setState).catch(()=>{setStorageError(true);setNotice('Não foi possível ler o cache offline deste dispositivo. Seus dados na nuvem não são apagados por esse erro.');}).finally(()=>setReady(true));return()=>window.removeEventListener('hashchange',f)},[]);
+ const [path,setPath]=useState(route),[state,setState]=useState<StudyState>(emptyState),[ready,setReady]=useState(false),[notice,setNotice]=useState(''),[storageError,setStorageError]=useState(false),[theme,setTheme]=useState(()=>{try{return localStorage.getItem('school-theme')||'claro'}catch{return 'claro'}});
+ const main=useRef<HTMLElement>(null),loaded=useRef<LoadedStudy|null>(null),generation=useRef(0);
+ useEffect(()=>{
+  let active=true,identity:string|null|undefined;
+  const apply=(value:LoadedStudy,version:number)=>{
+   if(!active||generation.current!==version)return;
+   loaded.current=value;setState(value.state);setReady(true);
+  };
+  const reload=()=>{
+   const version=++generation.current;
+   loaded.current=null;setReady(false);setStorageError(false);setNotice('');
+   void loadStudy().then(value=>apply(value,version)).catch(()=>{
+    if(!active||generation.current!==version)return;
+    setState(emptyState());setStorageError(true);setReady(true);
+    setNotice('Não foi possível verificar a conta ou ler o cache offline. Os dados existentes foram preservados. Reconecte para tentar novamente.');
+   });
+  };
+  const navigate=()=>{setPath(route());setTimeout(()=>{main.current?.focus();window.scrollTo(0,0)},0)};
+  const online=()=>{
+   if(!loaded.current){reload();return;}
+   const version=generation.current;
+   void syncPendingCache().then(value=>{
+    const current=loaded.current;
+    if(value&&current&&current.owner===value.owner&&generation.current===version)apply({owner:current.owner,state:mergeStudyStates(current.state,value.state)},version);
+   }).catch(()=>{/* Local edits remain available; the sync indicator will retry. */});
+  };
+  window.addEventListener('hashchange',navigate);window.addEventListener('online',online);
+  reload();
+  const subscription=getCloudClient()?.auth.onAuthStateChange((_event,session)=>{
+   const next=session?.user.id??null;
+   if(identity!==next){identity=next;reload();}
+  });
+  return()=>{active=false;generation.current++;subscription?.data.subscription.unsubscribe();window.removeEventListener('hashchange',navigate);window.removeEventListener('online',online);};
+ },[]);
  useEffect(()=>{document.documentElement.dataset.theme=theme;try{localStorage.setItem('school-theme',theme)}catch{/* Theme remains available in memory. */}},[theme]);
- useEffect(()=>{if(!ready||storageError||!edited)return;saveQueue.current=saveQueue.current.then(()=>saveStudy(state)).catch(()=>{setStorageError(true);setNotice('Falha ao gravar o cache offline. Verifique a sincronização na nuvem antes de fechar a página.');});},[state,ready,storageError,edited]);
- const update=(f:(s:StudyState)=>StudyState)=>{setEdited(true);setState(s=>recordStudyUpdate(s,f(s)));};
+ const renderGeneration=generation.current;
+ const update=(f:(s:StudyState)=>StudyState)=>{
+  const current=loaded.current;if(!current||storageError||generation.current!==renderGeneration)return;
+  const version=generation.current,next=recordStudyUpdate(current.state,f(current.state));
+  loaded.current={owner:current.owner,state:next};setState(next);
+  void saveStudy(next,current.owner).then(saved=>{
+   const latest=loaded.current;
+   if(generation.current!==version||!latest||latest.owner!==current.owner)return;
+   const merged=mergeStudyStates(latest.state,saved);loaded.current={owner:current.owner,state:merged};setState(merged);
+  }).catch(()=>{
+   if(generation.current!==version)return;
+   setStorageError(true);setNotice('Falha ao gravar o cache offline. Exporte o backup antes de fechar a página.');
+  });
+ };
  const answered=diagnostic.questions.filter(q=>state.answers[q.id]?.trim()).length;
  const resume=continuation(state,diagnostic.questions.map(q=>q.id));
  const title=nav.find(n=>n[0]===path)?.[1]||(path.startsWith('diagnostico')?'Diagnóstico inicial':path.startsWith('aula/')?'Aula':path.startsWith('exercicios/')?'Exercícios':path.startsWith('materia/')?subjects.find(s=>s[0]===path.split('/')[1])?.[1]:'Página não encontrada');
