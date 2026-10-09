@@ -1,5 +1,33 @@
 # Estado do projeto
 
+## Estado revalidado — 09/10/2026
+
+Acervo atual: 58 aulas integrais (48 preservadas + 10 V2), 2.000 questões,
+352 visuais e diagnóstico de 37 itens. As dez aulas V2, de MAT-NUM-001 a
+ING-LEI-001, foram abertas no site público pelo Edge instalado no Windows;
+nenhum erro JavaScript ou asset HTTP >=400 nas páginas verificadas.
+A próxima aula canônica é POR-FRA-001, ainda sem pacote integral localizado
+na pasta V2. Não substituir o acervo preservado por resumos ou publicar
+referências como se fossem aulas completas.
+
+Corrigido o cabeçalho: aviso da conta com espaço próprio e altura adaptável,
+sem sobreposição em 390 px; tema e login permanecem disponíveis. A mudança
+é de apresentação e não altera autenticação ou sincronização.
+A política de finais de linha mantém LF nos originais Markdown, preservando
+os 48 hashes canônicos também no checkout Windows. Validação de integridade
+permanece estrita e os originais não tiveram alteração editorial.
+
+Validação Windows: npm ci, TypeScript, lint, 5/5 testes unitários, validação
+de conteúdo e build PASS; suíte original Microsoft Edge 16/16 PASS, incluindo
+rotas/axe, catálogo, sequência V2, persistência, diagnóstico, teclado e mobile.
+Learning state aprendendo persistiu após reload em contexto sintético.
+PWA integral sem service worker ainda não está implementada; sincronização
+real entre dispositivos não foi validada nesta missão. Preservadas as PRs
+anteriores sem merge de trabalho incompleto ou substituição de conteúdo.
+
+O histórico abaixo é preservado; suas contagens antigas não representam
+o estado atual.
+
 ## Atualização 2026-10-03 — versão 0.2.0
 
 Publicação autorizada de todo o acervo integral recuperado. 48 aulas (MAT-EST-001 a 011 e 031 a 067), 1.740 questões, 303 recursos visuais; diagnóstico de 37 itens preservado. Fontes, hashes, versões, scripts e dados acompanham a importação. Consulta do gabarito depois de tentativa salva, sem progresso automático. Catálogo distingue aulas publicadas de referências sem arquivo integral; aulas avançadas avisam as lacunas de pré-requisitos.

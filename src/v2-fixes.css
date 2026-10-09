@@ -143,3 +143,52 @@
     break-inside: avoid;
   }
 }
+/* O aviso da conta ocupa espaço próprio mesmo quando a mensagem quebra linhas. */
+.topbar {
+  height: auto;
+  min-height: 82px;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding-block: 1rem;
+}
+.topbar > span,
+.topbar > button {
+  flex: 0 0 auto;
+}
+.cloud-account-bar {
+  display: flex;
+  flex: 1 1 20rem;
+  min-width: 0;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .5rem;
+  font-size: .8rem;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+.cloud-account-bar > span {
+  flex: 1 1 15rem;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 680px) {
+  .topbar {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    min-height: 63px;
+    height: auto;
+    padding: 1rem 5%;
+  }
+  .topbar > span {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .topbar > button {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .cloud-account-bar {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+}
