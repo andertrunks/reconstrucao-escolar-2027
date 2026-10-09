@@ -18,7 +18,8 @@ os 48 hashes canônicos também no checkout Windows. Validação de integridade
 permanece estrita e os originais não tiveram alteração editorial.
 
 Validação Windows: npm ci, TypeScript, lint, 5/5 testes unitários, validação
-de conteúdo e build PASS; suíte original Microsoft Edge 16/16 PASS, incluindo
+de conteúdo e build PASS; suíte original Microsoft Edge 16/16 local e pública no PR #15; no estado
+mais recente, 17/17 contra o site publicado (main e990f29) PASS, incluindo
 rotas/axe, catálogo, sequência V2, persistência, diagnóstico, teclado e mobile.
 Learning state aprendendo persistiu após reload em contexto sintético.
 PWA integral sem service worker ainda não está implementada; sincronização
