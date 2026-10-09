@@ -2,13 +2,13 @@
 
 ## Estado revalidado — 09/10/2026
 
-Acervo atual: 58 aulas integrais (48 preservadas + 10 V2), 2.000 questões,
-352 visuais e diagnóstico de 37 itens. As dez aulas V2, de MAT-NUM-001 a
-ING-LEI-001, foram abertas no site público pelo Edge instalado no Windows;
-nenhum erro JavaScript ou asset HTTP >=400 nas páginas verificadas.
-A próxima aula canônica é POR-FRA-001, ainda sem pacote integral localizado
-na pasta V2. Não substituir o acervo preservado por resumos ou publicar
-referências como se fossem aulas completas.
+Acervo atual: 59 aulas integrais (48 preservadas + 11 V2), 2.026 questões,
+357 visuais e diagnóstico de 37 itens. As onze aulas V2, de MAT-NUM-001 a
+POR-FRA-001, estão publicadas. POR-FRA-001 foi integrada pela PR #16 em outra
+execução e revalidada nesta missão, sem duplicação do material.
+A próxima aula canônica é LIT-FUN-001 — Texto literário, linguagem e efeito
+de sentido, conforme o checkpoint V2 mais recente no Drive. Não substituir
+o acervo preservado por resumos ou publicar referências como aulas completas.
 
 Corrigido o cabeçalho: aviso da conta com espaço próprio e altura adaptável,
 sem sobreposição em 390 px; tema e login permanecem disponíveis. A mudança
