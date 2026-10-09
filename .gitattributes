@@ -1,0 +1,2 @@
+# Exportações canônicas devem preservar os bytes e hashes em qualquer sistema.
+public/originais/**/*.md text eol=lf

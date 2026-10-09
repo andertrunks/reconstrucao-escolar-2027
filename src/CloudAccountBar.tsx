@@ -43,7 +43,7 @@ export default function CloudAccountBar(){
   location.reload();
  };
 
- return <div style={{display:'flex',gap:'0.5rem',alignItems:'center',flexWrap:'wrap'}}>
+ return <div className="cloud-account-bar">
   <span aria-live="polite"><strong>{session?'Nuvem ativa':'Progresso na nuvem'}</strong> · {message}{session?.user.email?` · ${session.user.email}`:''}</span>
   {session?<button type="button" onClick={signOut} disabled={busy}>Sair</button>:<button type="button" onClick={signIn} disabled={busy}>{busy?'Abrindo login…':'Entrar com Google'}</button>}
  </div>;
