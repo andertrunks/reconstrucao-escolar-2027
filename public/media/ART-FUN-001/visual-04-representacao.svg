@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
+<title>Da figura reconhecível à abstração</title><desc>Três modos de construir visualmente a ideia de árvore.</desc>
+<rect width="960" height="540" fill="#ffffff"/>
+<style>
+text{font-family:Arial,sans-serif;fill:#111827} .box{fill:#f8fafc;stroke:#334155;stroke-width:2} .strong{fill:#e2e8f0;stroke:#0f172a;stroke-width:3} .line{stroke:#334155;stroke-width:3;fill:none} .thin{stroke:#64748b;stroke-width:2;fill:none} .dash{stroke:#64748b;stroke-width:2;fill:none;stroke-dasharray:8 7} .label{font-size:22px;font-weight:700} .small{font-size:17px} .tiny{font-size:14px} .note{font-size:18px;font-weight:600}
+</style><text x="480" y="40" text-anchor="middle" class="label">REPRESENTAÇÃO: MODOS DE CONSTRUÇÃO</text><rect x="60" y="90" width="230" height="320" rx="14" class="box"/><text x="175" y="125" text-anchor="middle" class="small" font-weight="700">FIGURAÇÃO</text><rect x="365" y="90" width="230" height="320" rx="14" class="box"/><text x="480" y="125" text-anchor="middle" class="small" font-weight="700">ESTILIZAÇÃO</text><rect x="670" y="90" width="230" height="320" rx="14" class="box"/><text x="785" y="125" text-anchor="middle" class="small" font-weight="700">ABSTRAÇÃO</text><rect x="165" y="275" width="25" height="90" fill="#64748b"/><circle cx="177" cy="225" r="65" fill="#e2e8f0" stroke="#334155" stroke-width="3"/><path d="M177 300 L130 235 M177 300 L225 230" class="line"/>
+<!-- stylized -->
+<rect x="465" y="285" width="30" height="80" fill="#64748b"/><polygon points="480,155 410,285 550,285" fill="#e2e8f0" stroke="#334155" stroke-width="3"/>
+<!-- abstract -->
+<path d="M735 350 L815 160 L885 350" class="line"/><path d="M720 245 C770 205 840 285 900 220" class="line"/><circle cx="760" cy="190" r="26" fill="#cbd5e1"/><rect x="835" y="270" width="55" height="55" fill="#334155"/>
+<path d="M290 250 L350 250" class="dash"/><path d="M595 250 L655 250" class="dash"/>
+<text x="480" y="470" text-anchor="middle" class="note">Não é uma escala de qualidade: são estratégias diferentes de construção.</text>
+<text x="480" y="505" text-anchor="middle" class="small">Uma mesma obra pode combinar figuração, estilização e abstração.</text></svg>
