@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "test": "vitest run",
     "build": "npm run validate:content && tsc --noEmit && vite build",
-    "validate:content": "node scripts/validate-content.mjs",
+    "validate:content": "node scripts/validate-content.mjs && node scripts/validate-v2-extra.mjs",
     "preview": "vite preview --host 127.0.0.1",
     "test:e2e": "playwright test"
   },
@@ -22,7 +22,6 @@
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.13.0",
-    "@eslint/js": "^10.0.1",
     "@playwright/test": "^1.63.0",
     "@types/node": "^26.6.2",
     "@types/react": "^19.3.0",
