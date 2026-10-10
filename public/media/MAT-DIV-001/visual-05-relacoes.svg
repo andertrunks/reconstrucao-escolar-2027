@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1250 650" role="img" aria-labelledby="t d">
+<title id="t">Múltiplo, divisor e fator na mesma igualdade</title><desc id="d">A igualdade quarenta e dois igual a seis vezes sete aparece no centro e setas levam às leituras quarenta e dois é múltiplo de seis e sete, seis e sete são divisores de quarenta e dois e seis e sete são fatores de quarenta e dois.</desc>
+<rect width="1250" height="650" fill="white"/><text x="625" y="60" text-anchor="middle" font-size="34" font-family="Arial">Uma mesma relação, três leituras</text>
+<rect x="425" y="125" width="400" height="110" rx="18" fill="#f4f4f4" stroke="black" stroke-width="3"/><text x="625" y="195" text-anchor="middle" font-size="36" font-family="Arial">42 = 6 × 7</text>
+<g stroke="black" stroke-width="3" fill="none"><path d="M500 240 L260 335"/><path d="M625 240 L625 335"/><path d="M750 240 L990 335"/></g>
+<g font-family="Arial" text-anchor="middle">
+<rect x="55" y="350" width="380" height="155" rx="16" fill="white" stroke="black"/><text x="245" y="400" font-size="24" font-weight="bold">Múltiplo</text><text x="245" y="445" font-size="22">42 é múltiplo de 6</text><text x="245" y="477" font-size="22">e de 7</text>
+<rect x="435" y="350" width="380" height="155" rx="16" fill="#f4f4f4" stroke="black"/><text x="625" y="400" font-size="24" font-weight="bold">Divisor</text><text x="625" y="445" font-size="22">6 e 7 dividem 42</text><text x="625" y="477" font-size="22">sem resto</text>
+<rect x="815" y="350" width="380" height="155" rx="16" fill="white" stroke="black"/><text x="1005" y="400" font-size="24" font-weight="bold">Fator</text><text x="1005" y="445" font-size="22">6 e 7 são fatores</text><text x="1005" y="477" font-size="22">do produto 42</text>
+</g><text x="625" y="580" text-anchor="middle" font-size="23" font-family="Arial">Se houver dúvida, volte à igualdade multiplicativa.</text></svg>
