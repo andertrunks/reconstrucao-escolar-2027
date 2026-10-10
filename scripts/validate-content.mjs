@@ -2,6 +2,8 @@ import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+const v2Path=(kind,id,ext)=>`src/content/${kind}/${id}.${ext}`;
+const readV2=async(kind,id)=>{const json=v2Path(kind,id,'json'),mjs=v2Path(kind,id,'mjs');if(fs.existsSync(json))return read(json);assert(fs.existsSync(mjs),`${kind==='lessons'?'Aula':'Banco'} V2 ausente: ${id}`);return (await import(new URL('../'+mjs,import.meta.url))).default;};
 const topics=read('src/content/topics.json'),catalog=read('src/content/catalog.json'),v2Catalog=read('src/content/v2-catalog.json'),questions=read('src/content/questions.json'),diag=read('src/content/diagnostic.json'),index=read('src/content/editorial-index.json'),refs=read('src/content/prerequisite-references.json');
 const ids=new Set();
 for(const item of [...topics,...questions,...diag.questions]){assert(!ids.has(item.id),`ID duplicado: ${item.id}`);ids.add(item.id);assert(item.source?.url,`Fonte ausente: ${item.id}`);}
@@ -49,8 +51,7 @@ const legacyQuestions=totalQuestions;
 assert.equal(legacyQuestions,questions.length);assert.deepEqual(bankIds,new Set(questions.map(q=>q.id)));
 for(const t of v2Catalog){
  assert.equal(t.editorialStatus,'publicado',`Tópico V2 não publicável no catálogo ativo: ${t.id}`);
- assert(fs.existsSync(`src/content/lessons/${t.id}.json`),`Aula V2 ausente: ${t.id}`);assert(fs.existsSync(`src/content/questions/${t.id}.json`),`Banco V2 ausente: ${t.id}`);
- const l=read(`src/content/lessons/${t.id}.json`),bank=read(`src/content/questions/${t.id}.json`);
+ const l=await readV2('lessons',t.id),bank=await readV2('questions',t.id);
  assert.equal(l.id,t.id);assert(l.sections?.length&&l.audioVersion&&l.sources?.length,`Aula V2 incompleta: ${t.id}`);
  assert.deepEqual(l.prerequisites,t.prerequisites);assert.equal(l.next,t.next,`Próximo tópico divergente: ${t.id}`);
  for(const p of t.prerequisites)assert(byId.has(p)||v2ById.has(p)||refById.has(p),`Pré-requisito V2 sem referência: ${p}`);
