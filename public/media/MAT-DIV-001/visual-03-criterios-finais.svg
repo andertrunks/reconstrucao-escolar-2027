@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 760" role="img" aria-labelledby="t d">
+<title id="t">Critérios de divisibilidade pelo final do número</title><desc id="d">Quadros explicam quais algarismos finais observar para testar divisibilidade por dois, cinco, dez, quatro, oito, cem e mil.</desc>
+<rect width="1300" height="760" fill="white"/><text x="650" y="55" text-anchor="middle" font-size="34" font-family="Arial">Critérios que dependem do final do número</text>
+<g font-family="Arial" font-size="23">
+<rect x="70" y="110" width="360" height="150" rx="14" fill="#f4f4f4" stroke="black"/><text x="95" y="150" font-weight="bold">Por 2</text><text x="95" y="190">Último algarismo:</text><text x="95" y="225">0, 2, 4, 6 ou 8</text>
+<rect x="470" y="110" width="360" height="150" rx="14" fill="white" stroke="black"/><text x="495" y="150" font-weight="bold">Por 5 e 10</text><text x="495" y="190">5: termina em 0 ou 5</text><text x="495" y="225">10: termina em 0</text>
+<rect x="870" y="110" width="360" height="150" rx="14" fill="#f4f4f4" stroke="black"/><text x="895" y="150" font-weight="bold">Por 4</text><text x="895" y="190">Observe os 2 últimos</text><text x="895" y="225">Ex.: 7.316 → 16</text>
+<rect x="70" y="310" width="360" height="150" rx="14" fill="white" stroke="black"/><text x="95" y="350" font-weight="bold">Por 8</text><text x="95" y="390">Observe os 3 últimos</text><text x="95" y="425">Ex.: 12.232 → 232</text>
+<rect x="470" y="310" width="360" height="150" rx="14" fill="#f4f4f4" stroke="black"/><text x="495" y="350" font-weight="bold">Por 100</text><text x="495" y="390">Termina em 00</text><text x="495" y="425">Ex.: 4.500 → sim</text>
+<rect x="870" y="310" width="360" height="150" rx="14" fill="white" stroke="black"/><text x="895" y="350" font-weight="bold">Por 1000</text><text x="895" y="390">Termina em 000</text><text x="895" y="425">Ex.: 45.000 → sim</text>
+</g>
+<path d="M120 565 H1180" stroke="black" stroke-width="3"/>
+<text x="650" y="615" text-anchor="middle" font-size="25" font-family="Arial">Ideia comum: potências de 10 tornam as ordens anteriores múltiplas do divisor.</text>
+<text x="650" y="665" text-anchor="middle" font-size="22" font-family="Arial">Por isso basta observar uma parte final do número.</text></svg>
