@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 700" role="img" aria-labelledby="t d">
+<title id="t">Soma dos algarismos nos critérios de 3 e 9</title><desc id="d">A decomposição de dois mil quatrocentos e trinta e seis mostra que potências de dez deixam o mesmo resto que um quando divididas por três ou nove.</desc>
+<rect width="1300" height="700" fill="white"/><text x="650" y="55" text-anchor="middle" font-size="34" font-family="Arial">Por que somar os algarismos funciona para 3 e 9?</text>
+<g font-family="Arial" text-anchor="middle">
+<text x="650" y="135" font-size="31">2.436 = 2 × 1000 + 4 × 100 + 3 × 10 + 6</text>
+<rect x="120" y="200" width="1060" height="100" rx="14" fill="#f4f4f4" stroke="black"/>
+<text x="650" y="245" font-size="25">Ao dividir por 3 ou por 9:</text><text x="650" y="280" font-size="25">10, 100, 1000, ... deixam o mesmo resto que 1</text>
+<path d="M650 310 V375" stroke="black" stroke-width="3"/><polygon points="650,395 638,372 662,372" fill="black"/>
+<text x="650" y="450" font-size="31">mesmo resto que 2 + 4 + 3 + 6 = 15</text>
+<rect x="180" y="500" width="420" height="100" rx="14" fill="white" stroke="black"/><text x="390" y="545" font-size="25">15 é múltiplo de 3</text><text x="390" y="578" font-size="22">⇒ 2.436 é divisível por 3</text>
+<rect x="700" y="500" width="420" height="100" rx="14" fill="#f4f4f4" stroke="black"/><text x="910" y="545" font-size="25">15 não é múltiplo de 9</text><text x="910" y="578" font-size="22">⇒ 2.436 não é divisível por 9</text>
+</g></svg>
