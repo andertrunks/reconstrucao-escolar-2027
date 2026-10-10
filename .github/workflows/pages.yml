@@ -19,6 +19,8 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci --include=dev
+      - name: Garantir dependência do ESLint no runner
+        run: npm install --no-save @eslint/js@10.0.1
       - run: npm run typecheck
       - run: npm run lint
       - run: npm test
