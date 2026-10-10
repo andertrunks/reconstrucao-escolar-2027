@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
+<title>Quatro linguagens artísticas e hibridismo</title><desc>Quatro blocos de linguagens apontam para práticas híbridas.</desc>
+<rect width="960" height="540" fill="#ffffff"/>
+<style>
+text{font-family:Arial,sans-serif;fill:#111827} .box{fill:#f8fafc;stroke:#334155;stroke-width:2} .strong{fill:#e2e8f0;stroke:#0f172a;stroke-width:3} .line{stroke:#334155;stroke-width:3;fill:none} .thin{stroke:#64748b;stroke-width:2;fill:none} .dash{stroke:#64748b;stroke-width:2;fill:none;stroke-dasharray:8 7} .label{font-size:22px;font-weight:700} .small{font-size:17px} .tiny{font-size:14px} .note{font-size:18px;font-weight:600}
+</style><text x="480" y="45" text-anchor="middle" class="label">LINGUAGENS ARTÍSTICAS E HIBRIDISMO</text>
+<rect x="70" y="100" rx="18" ry="18" width="250" height="100" class="box"/><text x="195" y="145" text-anchor="middle" class="label">ARTES VISUAIS</text><text x="195" y="175" text-anchor="middle" class="small">imagem · espaço · material</text>
+<rect x="640" y="100" rx="18" ry="18" width="250" height="100" class="box"/><text x="765" y="145" text-anchor="middle" class="label">DANÇA</text><text x="765" y="175" text-anchor="middle" class="small">corpo · movimento · tempo</text>
+<rect x="70" y="340" rx="18" ry="18" width="250" height="100" class="box"/><text x="195" y="385" text-anchor="middle" class="label">MÚSICA</text><text x="195" y="415" text-anchor="middle" class="small">som · silêncio · tempo</text>
+<rect x="640" y="340" rx="18" ry="18" width="250" height="100" class="box"/><text x="765" y="385" text-anchor="middle" class="label">TEATRO</text><text x="765" y="415" text-anchor="middle" class="small">ação · corpo · espaço · público</text>
+<circle cx="480" cy="270" r="112" class="strong"/><text x="480" y="255" text-anchor="middle" class="label">PRÁTICAS</text><text x="480" y="286" text-anchor="middle" class="label">HÍBRIDAS</text><text x="480" y="317" text-anchor="middle" class="small">combinação de linguagens</text>
+<path d="M320 170 L386 222" class="line"/><path d="M640 170 L574 222" class="line"/><path d="M320 370 L386 318" class="line"/><path d="M640 370 L574 318" class="line"/>
+<text x="480" y="500" text-anchor="middle" class="note">Eixos de estudo ≠ muros rígidos entre práticas</text></svg>
