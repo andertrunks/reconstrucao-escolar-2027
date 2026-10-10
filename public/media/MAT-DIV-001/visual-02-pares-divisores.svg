@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="t d">
+<title id="t">Pares de fatores de 36</title><desc id="d">Cinco linhas mostram um vezes trinta e seis, dois vezes dezoito, três vezes doze, quatro vezes nove e seis vezes seis.</desc>
+<rect width="1200" height="700" fill="white"/><text x="600" y="65" text-anchor="middle" font-size="34" font-family="Arial">Pares de fatores e divisores de 36</text>
+<text x="600" y="115" text-anchor="middle" font-size="22" font-family="Arial">Cada produto igual a 36 revela dois divisores</text>
+<g font-family="Arial" font-size="30" text-anchor="middle">
+<rect x="250" y="160" width="700" height="80" rx="12" fill="#f4f4f4" stroke="black"/><text x="600" y="210">1 × 36 = 36</text>
+<rect x="250" y="255" width="700" height="80" rx="12" fill="white" stroke="black"/><text x="600" y="305">2 × 18 = 36</text>
+<rect x="250" y="350" width="700" height="80" rx="12" fill="#f4f4f4" stroke="black"/><text x="600" y="400">3 × 12 = 36</text>
+<rect x="250" y="445" width="700" height="80" rx="12" fill="white" stroke="black"/><text x="600" y="495">4 × 9 = 36</text>
+<rect x="250" y="540" width="700" height="80" rx="12" fill="#f4f4f4" stroke="black"/><text x="600" y="590">6 × 6 = 36</text>
+</g><text x="600" y="660" text-anchor="middle" font-size="22" font-family="Arial">Divisores: 1, 2, 3, 4, 6, 9, 12, 18 e 36</text></svg>
