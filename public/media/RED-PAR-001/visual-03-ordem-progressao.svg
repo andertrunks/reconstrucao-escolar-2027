@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">A ordem das frases cria progressão</title><desc id="desc">Dois arranjos das mesmas quatro frases são comparados. O primeiro salta entre causa, exemplo e conclusão; o segundo apresenta afirmação, explicação, exemplo e conclusão em sequência lógica.</desc>
+<style>text{font-family:Arial,sans-serif;fill:#111} .box{fill:#fff;stroke:#111;stroke-width:3} .line{stroke:#111;stroke-width:3;fill:none} .dash{stroke:#111;stroke-width:3;stroke-dasharray:10 8;fill:none} .small{font-size:23px} .mid{font-size:28px;font-weight:700} .big{font-size:34px;font-weight:700}</style>
+<text x="500" y="45" text-anchor="middle" class="big">A ordem cria progressão</text>
+<text x="245" y="100" text-anchor="middle" class="mid">Ordem confusa</text>
+<rect x="70" y="135" width="350" height="55" class="box"/><text x="245" y="170" text-anchor="middle" class="small">exemplo</text>
+<rect x="70" y="215" width="350" height="55" class="box"/><text x="245" y="250" text-anchor="middle" class="small">conclusão</text>
+<rect x="70" y="295" width="350" height="55" class="box"/><text x="245" y="330" text-anchor="middle" class="small">afirmação</text>
+<rect x="70" y="375" width="350" height="55" class="box"/><text x="245" y="410" text-anchor="middle" class="small">explicação</text>
+<text x="750" y="100" text-anchor="middle" class="mid">Uma ordem coerente</text>
+<rect x="580" y="135" width="350" height="55" class="box"/><text x="755" y="170" text-anchor="middle" class="small">1. afirmação</text>
+<rect x="580" y="215" width="350" height="55" class="box"/><text x="755" y="250" text-anchor="middle" class="small">2. explicação</text>
+<rect x="580" y="295" width="350" height="55" class="box"/><text x="755" y="330" text-anchor="middle" class="small">3. exemplo</text>
+<rect x="580" y="375" width="350" height="55" class="box"/><text x="755" y="410" text-anchor="middle" class="small">4. conclusão local</text>
+<path d="M755 190 V210 M755 270 V290 M755 350 V370" class="line"/>
+<text x="500" y="510" text-anchor="middle" class="small">Não existe uma única ordem possível; a sequência precisa tornar o raciocínio acompanhável.</text></svg>

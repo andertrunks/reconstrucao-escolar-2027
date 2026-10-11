@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">Quando dividir ou unir parágrafos</title><desc id="desc">Um bloco com duas ideias centrais diferentes é dividido em dois parágrafos, enquanto dois blocos curtos que desenvolvem a mesma ideia são reunidos.</desc>
+<style>text{font-family:Arial,sans-serif;fill:#111} .box{fill:#fff;stroke:#111;stroke-width:3} .line{stroke:#111;stroke-width:3;fill:none} .dash{stroke:#111;stroke-width:3;stroke-dasharray:10 8;fill:none} .small{font-size:23px} .mid{font-size:28px;font-weight:700} .big{font-size:34px;font-weight:700}</style>
+<text x="500" y="45" text-anchor="middle" class="big">Dividir ou unir?</text>
+<text x="245" y="95" text-anchor="middle" class="mid">DIVIDIR</text>
+<rect x="60" y="125" width="370" height="250" rx="18" class="box"/><text x="245" y="175" text-anchor="middle" class="small">Foco A — atividade física</text><text x="245" y="225" text-anchor="middle" class="small">frases de desenvolvimento</text><line x1="90" y1="260" x2="400" y2="260" class="dash"/><text x="245" y="310" text-anchor="middle" class="small">Foco B — acessibilidade</text><text x="245" y="350" text-anchor="middle" class="small">mudança relevante</text>
+<text x="755" y="95" text-anchor="middle" class="mid">UNIR</text>
+<rect x="570" y="125" width="370" height="100" rx="18" class="box"/><text x="755" y="175" text-anchor="middle" class="small">A horta é recurso pedagógico.</text>
+<rect x="570" y="260" width="370" height="100" rx="18" class="box"/><text x="755" y="300" text-anchor="middle" class="small">Ela permite observar germinação,</text><text x="755" y="335" text-anchor="middle" class="small">solo, água e luz.</text>
+<path d="M755 225 V255" class="line"/>
+<text x="500" y="480" text-anchor="middle" class="small">A quebra de parágrafo deve representar a estrutura do sentido, não uma contagem mecânica.</text></svg>
