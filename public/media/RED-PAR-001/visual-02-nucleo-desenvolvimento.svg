@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">Um parágrafo como unidade de sentido: foco, desenvolvimento e possível fechamento</title><desc id="desc">Esquema mostra um foco central ligado a frases que explicam, exemplificam, justificam ou detalham esse foco e a uma possível frase de fechamento ou transição.</desc>
+<style>text{font-family:Arial,sans-serif;fill:#111} .box{fill:#fff;stroke:#111;stroke-width:3} .line{stroke:#111;stroke-width:3;fill:none} .dash{stroke:#111;stroke-width:3;stroke-dasharray:10 8;fill:none} .small{font-size:23px} .mid{font-size:28px;font-weight:700} .big{font-size:34px;font-weight:700}</style>
+<text x="500" y="48" text-anchor="middle" class="big">Unidade de sentido</text>
+<ellipse cx="500" cy="265" rx="150" ry="80" class="box"/><text x="500" y="255" text-anchor="middle" class="mid">FOCO</text><text x="500" y="292" text-anchor="middle" class="small">o que este bloco faz?</text>
+<rect x="60" y="130" width="250" height="80" rx="14" class="box"/><text x="185" y="178" text-anchor="middle" class="small">explica</text>
+<rect x="60" y="340" width="250" height="80" rx="14" class="box"/><text x="185" y="388" text-anchor="middle" class="small">exemplifica</text>
+<rect x="690" y="130" width="250" height="80" rx="14" class="box"/><text x="815" y="178" text-anchor="middle" class="small">justifica</text>
+<rect x="690" y="340" width="250" height="80" rx="14" class="box"/><text x="815" y="388" text-anchor="middle" class="small">contrasta / limita</text>
+<path d="M310 175 L360 220" class="line"/><path d="M310 380 L360 315" class="line"/><path d="M690 175 L640 220" class="line"/><path d="M690 380 L640 315" class="line"/>
+<text x="500" y="500" text-anchor="middle" class="small">As frases podem cumprir funções diferentes sem abandonar o mesmo foco.</text></svg>
