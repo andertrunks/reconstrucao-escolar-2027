@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" role="img" aria-labelledby="t d">
+<title id="t">Três unidades repartidas entre quatro pessoas</title><desc id="d">Três barras iguais são divididas em quartos e distribuídas igualmente entre quatro pessoas. Cada pessoa recebe três quartos de uma barra.</desc>
+<text x="500" y="55" text-anchor="middle" font-size="34" font-family="sans-serif">3 ÷ 4 = 3/4</text>
+<g stroke="currentColor" stroke-width="3" fill="none">
+<rect x="80" y="105" width="420" height="70"/><path d="M185 105V175M290 105V175M395 105V175"/>
+<rect x="80" y="195" width="420" height="70"/><path d="M185 195V265M290 195V265M395 195V265"/>
+<rect x="80" y="285" width="420" height="70"/><path d="M185 285V355M290 285V355M395 285V355"/>
+</g>
+<text x="290" y="405" text-anchor="middle" font-size="26" font-family="sans-serif">3 unidades, cada uma cortada em quartos</text>
+<path d="M530 230H620" stroke="currentColor" stroke-width="4"/><path d="M605 215L625 230 605 245" fill="none" stroke="currentColor" stroke-width="4"/>
+<g font-family="sans-serif" font-size="26">
+<rect x="655" y="90" width="240" height="70" fill="none" stroke="currentColor" stroke-width="3"/><text x="775" y="135" text-anchor="middle">Pessoa 1: 3/4</text>
+<rect x="655" y="175" width="240" height="70" fill="none" stroke="currentColor" stroke-width="3"/><text x="775" y="220" text-anchor="middle">Pessoa 2: 3/4</text>
+<rect x="655" y="260" width="240" height="70" fill="none" stroke="currentColor" stroke-width="3"/><text x="775" y="305" text-anchor="middle">Pessoa 3: 3/4</text>
+<rect x="655" y="345" width="240" height="70" fill="none" stroke="currentColor" stroke-width="3"/><text x="775" y="390" text-anchor="middle">Pessoa 4: 3/4</text>
+</g>
+</svg>
