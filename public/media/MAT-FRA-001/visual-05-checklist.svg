@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img" aria-labelledby="t d">
+<title id="t">Checklist para interpretar frações</title><desc id="d">Fluxograma vertical com cinco perguntas sobre unidade de referência, partes iguais, partes consideradas, divisão e posição em relação a zero e um.</desc>
+<text x="550" y="50" text-anchor="middle" font-size="34" font-family="sans-serif">Checklist para interpretar uma fração</text>
+<g font-family="sans-serif" font-size="25" text-anchor="middle" stroke="currentColor" fill="none" stroke-width="3">
+<rect x="170" y="90" width="760" height="70" rx="12"/><text x="550" y="133" fill="currentColor" stroke="none">1. Qual é a unidade de referência?</text>
+<rect x="170" y="190" width="760" height="70" rx="12"/><text x="550" y="233" fill="currentColor" stroke="none">2. Em quantas partes iguais ela foi organizada?</text>
+<rect x="170" y="290" width="760" height="70" rx="12"/><text x="550" y="333" fill="currentColor" stroke="none">3. Quantas partes são consideradas?</text>
+<rect x="170" y="390" width="760" height="70" rx="12"/><text x="550" y="433" fill="currentColor" stroke="none">4. A situação também representa uma divisão?</text>
+<rect x="170" y="490" width="760" height="70" rx="12"/><text x="550" y="533" fill="currentColor" stroke="none">5. O número fica antes, em ou depois de 1?</text>
+<path d="M550 160V190M550 260V290M550 360V390M550 460V490"/>
+</g>
+</svg>
