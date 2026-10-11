@@ -3,7 +3,7 @@ import AxeBuilder from '@axe-core/playwright';
 
 test('HIS-HUM-001 publica teoria integral, cinco visuais, vídeo e 26 questões',async({page})=>{
  await page.goto('./#aula/HIS-HUM-001');
- await expect(page.getByRole('heading',{level:1,name:'Origens da humanidade: hipóóteses científicas, mitos de origem e primeiros deslocamentos'})).toBeVisible();
+ await expect(page.getByRole('heading',{level:1,name:'Origens da humanidade: hipóteses científicas, mitos de origem e primeiros deslocamentos'})).toBeVisible();
  await expect(page.locator('article[aria-label="Texto integral da aula"]')).toBeVisible();
  await expect(page.locator('article[aria-label="Texto integral da aula"] section')).toHaveCount(75);
  await expect(page.locator('.lesson-gallery img')).toHaveCount(5);
