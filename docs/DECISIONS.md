@@ -41,3 +41,7 @@ Recuperação alternativa: a prévia de MAT-JUR-002 no ChatGPT exibe o texto at�
 ## Atualização 2026-09-25
 
 Consultadas fontes do Drive, sem novos arquivos na pasta Matemática, e as conversas Gerenciar criação de conteúdo e Continuar Matemática Financeira. Acrescentadas 31 referências: MAT-FIN-003 a 026 e MAT-EST-001 a 007. Total: 79 materiais a recuperar, MAT-EST-008 planejado e MAT-JUR-003 com código a conferir. Nenhuma aula ou questão integral adicionada. Preservados MAT-JUR-001/002; não duplicados como MAT-FIN-001/002 a partir do resumo de continuidade. Download de MAT-EST-007 acionado pela interface, sem arquivo localizado em Downloads; acesso ao gerenciador interno do Chrome recusado pela política de navegação, sem contornar o bloqueio. Recuperação dos pacotes segue pendente.
+
+## 2026-10-11 — Dependências e recuperação local
+
+Atualização pontual de source-map-js 1.2.1 para 1.2.2 após npm audit indicar GHSA-68fv-2mgg-jv7q. Declarado @eslint/js ^10.0.1 em devDependencies: eslint.config.js já importava esse pacote, que constava no lockfile mas faltava no manifesto. Sem alterações pedagógicas ou de progresso. Habilitado core.longpaths apenas no Git local para recuperar a sincronização Windows. Stash de recuperação preservado.
