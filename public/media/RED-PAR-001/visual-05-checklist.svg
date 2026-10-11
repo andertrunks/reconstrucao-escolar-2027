@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">Checklist de revisão de um parágrafo</title><desc id="desc">Fluxograma com perguntas: qual é o foco, todas as frases contribuem, a ordem é lógica, as referências estão claras, há repetição ou salto, e a divisão do parágrafo ajuda o leitor.</desc>
+<style>text{font-family:Arial,sans-serif;fill:#111} .box{fill:#fff;stroke:#111;stroke-width:3} .line{stroke:#111;stroke-width:3;fill:none} .dash{stroke:#111;stroke-width:3;stroke-dasharray:10 8;fill:none} .small{font-size:23px} .mid{font-size:28px;font-weight:700} .big{font-size:34px;font-weight:700}</style>
+<text x="500" y="45" text-anchor="middle" class="big">Checklist de revisão do parágrafo</text>
+<rect x="120" y="90" width="760" height="58" rx="14" class="box"/><text x="500" y="127" text-anchor="middle" class="small">1. Qual é o foco?</text>
+<rect x="120" y="160" width="760" height="58" rx="14" class="box"/><text x="500" y="197" text-anchor="middle" class="small">2. Todas as frases contribuem para ele?</text>
+<rect x="120" y="230" width="760" height="58" rx="14" class="box"/><text x="500" y="267" text-anchor="middle" class="small">3. A ordem faz a informação avançar?</text>
+<rect x="120" y="300" width="760" height="58" rx="14" class="box"/><text x="500" y="337" text-anchor="middle" class="small">4. Pronomes e retomadas estão claros?</text>
+<rect x="120" y="370" width="760" height="58" rx="14" class="box"/><text x="500" y="407" text-anchor="middle" class="small">5. Os conectivos dizem a relação real?</text>
+<rect x="120" y="440" width="760" height="58" rx="14" class="box"/><text x="500" y="477" text-anchor="middle" class="small">6. É melhor dividir, manter ou unir?</text></svg>
