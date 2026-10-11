@@ -1,8 +1,9 @@
 import legacyTopics from './content/catalog.json';
 import v2BaseTopics from './content/v2-catalog.json';
 import v2ExtraTopics from './content/v2-catalog-extra.json';
+import v2RedParTopics from './content/v2-catalog-red-par.json';
 import type {Lesson,TopicSummary,Question} from './model';
-const v2Topics=[...v2BaseTopics,...v2ExtraTopics];
+const v2Topics=[...v2BaseTopics,...v2ExtraTopics,...v2RedParTopics];
 export const topics=[...v2Topics,...legacyTopics] as TopicSummary[];
 export const questionCount=topics.reduce((n,t)=>n+t.exercises.length,0);
 export const subjects=[['MAT','Matemática'],['POR','Língua Portuguesa'],['RED','Redação'],['LIT','Literatura'],['FIS','Física'],['QUI','Química'],['BIO','Biologia'],['HIS','História'],['GEO','Geografia'],['FIL','Filosofia'],['SOC','Sociologia'],['ING','Inglês'],['ART','Arte'],['EDF','Educação Física']];
