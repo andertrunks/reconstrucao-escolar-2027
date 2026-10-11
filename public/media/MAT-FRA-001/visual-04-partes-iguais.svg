@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="480" viewBox="0 0 1100 480" role="img" aria-labelledby="t d">
+<title id="t">Partes iguais e partes desiguais</title><desc id="d">À esquerda, um retângulo dividido em quatro partes iguais, cada uma rotulada um quarto. À direita, outro retângulo dividido em quatro partes desiguais com aviso de que os pedaços não são todos um quarto.</desc>
+<text x="550" y="55" text-anchor="middle" font-size="34" font-family="sans-serif">Quatro pedaços não bastam: precisam ser iguais</text>
+<g stroke="currentColor" fill="none" stroke-width="4">
+<rect x="70" y="130" width="430" height="180"/><path d="M177.5 130V310M285 130V310M392.5 130V310"/>
+<rect x="600" y="130" width="430" height="180"/><path d="M690 130V310M860 130V310M940 130V310"/>
+</g>
+<g font-family="sans-serif" font-size="26" text-anchor="middle">
+<text x="285" y="100">Partes iguais</text><text x="815" y="100">Partes desiguais</text>
+<text x="123.75" y="355">1/4</text><text x="231.25" y="355">1/4</text><text x="338.75" y="355">1/4</text><text x="446.25" y="355">1/4</text>
+<text x="815" y="355">Não rotule cada pedaço como 1/4.</text>
+<text x="550" y="425">O denominador descreve uma partição em partes iguais.</text>
+</g>
+</svg>
