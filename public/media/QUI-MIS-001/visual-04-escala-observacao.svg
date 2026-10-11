@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+<title id="title">Escala de observação</title>
+<desc id="desc">Um recipiente parece uniforme a olho nu, enquanto uma lupa conceitual mostra pequenas gotículas ou regiões que podem revelar heterogeneidade em outra escala.</desc>
+<rect width="960" height="540" fill="white"/>
+<text x="480" y="42" text-anchor="middle" font-size="30" font-family="sans-serif">A escala de observação importa</text>
+<g font-family="sans-serif" fill="#111" stroke="#111" stroke-width="2">
+  <rect x="110" y="120" width="260" height="260" fill="none"/>
+  <rect x="120" y="190" width="240" height="180" fill="#f3f3f3"/>
+  <text x="240" y="420" text-anchor="middle" stroke="none" font-size="21">a olho nu: aparência uniforme</text>
+  <circle cx="650" cy="250" r="120" fill="none" stroke-width="6"/>
+  <line x1="735" y1="335" x2="840" y2="440" stroke-width="10"/>
+  <circle cx="610" cy="215" r="16" fill="#ddd"/><circle cx="675" cy="195" r="12" fill="#ddd"/><circle cx="705" cy="270" r="18" fill="#ddd"/><circle cx="625" cy="300" r="11" fill="#ddd"/>
+  <path d="M370 250h120" fill="none"/><path d="M480 240l20 10-20 10z"/>
+  <text x="650" y="420" text-anchor="middle" stroke="none" font-size="21">ampliação conceitual: estruturas pequenas</text>
+</g>
+<text x="480" y="490" text-anchor="middle" font-family="sans-serif" font-size="18">Esquema didático: não representa moléculas nem escala real.</text>
+</svg>
