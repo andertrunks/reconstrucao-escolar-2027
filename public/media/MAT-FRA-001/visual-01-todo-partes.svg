@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-labelledby="t d">
+<title id="t">Três quartos de uma barra</title><desc id="d">Uma barra inteira dividida em quatro partes iguais. As três primeiras estão hachuradas e representam três quartos.</desc>
+<defs><pattern id="h" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 12 L12 0" stroke="currentColor" stroke-width="2"/></pattern></defs>
+<rect x="100" y="120" width="800" height="140" fill="none" stroke="currentColor" stroke-width="4"/>
+<rect x="100" y="120" width="600" height="140" fill="url(#h)"/>
+<path d="M300 120V260M500 120V260M700 120V260" stroke="currentColor" stroke-width="4"/>
+<text x="500" y="70" text-anchor="middle" font-size="34" font-family="sans-serif">1 unidade dividida em 4 partes iguais</text>
+<text x="200" y="315" text-anchor="middle" font-size="28" font-family="sans-serif">1/4</text>
+<text x="400" y="315" text-anchor="middle" font-size="28" font-family="sans-serif">1/4</text>
+<text x="600" y="315" text-anchor="middle" font-size="28" font-family="sans-serif">1/4</text>
+<text x="800" y="315" text-anchor="middle" font-size="28" font-family="sans-serif">1/4</text>
+<text x="500" y="375" text-anchor="middle" font-size="32" font-family="sans-serif">3 partes consideradas → 3/4</text>
+</svg>
