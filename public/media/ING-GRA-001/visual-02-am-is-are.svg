@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+<title id="title">Concordância entre sujeito e am, is, are</title>
+<desc id="desc">Concordância entre sujeito e am, is, are. Diagrama didático textual; a explicação completa também aparece no texto da aula.</desc>
+<rect x="12" y="12" width="936" height="516" rx="24" fill="#ffffff" stroke="#111111" stroke-width="3"/>
+<text x="480" y="60" text-anchor="middle" font-size="30" font-family="Arial" font-weight="700">Sujeito → forma de to be</text>
+<g font-family="Arial" text-anchor="middle">
+<rect x="70" y="130" width="240" height="120" rx="18" fill="#f7f7f7" stroke="#111"/><text x="190" y="175" font-size="30" font-weight="700">I</text><text x="190" y="220" font-size="32">am</text>
+<rect x="360" y="130" width="240" height="120" rx="18" fill="#f7f7f7" stroke="#111"/><text x="480" y="175" font-size="27" font-weight="700">he · she · it</text><text x="480" y="220" font-size="32">is</text>
+<rect x="650" y="130" width="240" height="120" rx="18" fill="#f7f7f7" stroke="#111"/><text x="770" y="175" font-size="26" font-weight="700">you · we · they</text><text x="770" y="220" font-size="32">are</text>
+<text x="190" y="330" font-size="22">I am ready.</text><text x="480" y="330" font-size="22">She is ready.</text><text x="770" y="330" font-size="22">They are ready.</text>
+<text x="480" y="405" font-size="23">Nomes singulares → is · nomes plurais → are</text>
+<text x="480" y="470" font-size="21">A concordância depende do sujeito, não da palavra mais próxima.</text>
+</g>
+</svg>
