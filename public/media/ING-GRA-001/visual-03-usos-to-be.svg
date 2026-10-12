@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+<title id="title">Funções frequentes do verbo to be no presente</title>
+<desc id="desc">Funções frequentes do verbo to be no presente. Diagrama didático textual; a explicação completa também aparece no texto da aula.</desc>
+<rect x="12" y="12" width="936" height="516" rx="24" fill="#ffffff" stroke="#111111" stroke-width="3"/>
+<text x="480" y="55" text-anchor="middle" font-size="29" font-family="Arial" font-weight="700">Funções frequentes de to be</text>
+<rect x="60" y="105" width="260" height="135" rx="16" fill="#f7f7f7" stroke="#111"/>
+<text x="190" y="150" text-anchor="middle" font-size="22" font-family="Arial" font-weight="700">Identidade</text>
+<text x="190" y="193" text-anchor="middle" font-size="20" font-family="Arial">I am Ana.</text>
+<rect x="350" y="105" width="260" height="135" rx="16" fill="#f7f7f7" stroke="#111"/>
+<text x="480" y="150" text-anchor="middle" font-size="22" font-family="Arial" font-weight="700">Nacionalidade</text>
+<text x="480" y="193" text-anchor="middle" font-size="20" font-family="Arial">She is Brazilian.</text>
+<rect x="640" y="105" width="260" height="135" rx="16" fill="#f7f7f7" stroke="#111"/>
+<text x="770" y="150" text-anchor="middle" font-size="22" font-family="Arial" font-weight="700">Profissão</text>
+<text x="770" y="193" text-anchor="middle" font-size="20" font-family="Arial">He is a doctor.</text>
+<rect x="60" y="300" width="260" height="135" rx="16" fill="#f7f7f7" stroke="#111"/>
+<text x="190" y="345" text-anchor="middle" font-size="22" font-family="Arial" font-weight="700">Idade</text>
+<text x="190" y="388" text-anchor="middle" font-size="20" font-family="Arial">I am 42.</text>
+<rect x="350" y="300" width="260" height="135" rx="16" fill="#f7f7f7" stroke="#111"/>
+<text x="480" y="345" text-anchor="middle" font-size="22" font-family="Arial" font-weight="700">Localização</text>
+<text x="480" y="388" text-anchor="middle" font-size="20" font-family="Arial">We are at home.</text>
+<rect x="640" y="300" width="260" height="135" rx="16" fill="#f7f7f7" stroke="#111"/>
+<text x="770" y="345" text-anchor="middle" font-size="22" font-family="Arial" font-weight="700">Estado</text>
+<text x="770" y="388" text-anchor="middle" font-size="20" font-family="Arial">They are tired.</text>
+<text x="480" y="495" text-anchor="middle" font-size="20" font-family="Arial">O complemento ajuda a determinar o sentido natural da frase.</text>
+</svg>

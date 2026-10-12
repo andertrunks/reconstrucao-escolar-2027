@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+<title id="title">Da afirmativa para a negativa e para a interrogativa</title>
+<desc id="desc">Da afirmativa para a negativa e para a interrogativa. Diagrama didático textual; a explicação completa também aparece no texto da aula.</desc>
+<rect x="12" y="12" width="936" height="516" rx="24" fill="#ffffff" stroke="#111111" stroke-width="3"/>
+<text x="480" y="60" text-anchor="middle" font-size="30" font-family="Arial" font-weight="700">Uma ideia, três estruturas</text>
+<g font-family="Arial" text-anchor="middle">
+<rect x="95" y="120" width="770" height="80" rx="16" fill="#f7f7f7" stroke="#111"/><text x="480" y="170" font-size="28">She is ready.</text>
+<text x="480" y="235" font-size="20">+ not depois do verbo</text>
+<rect x="95" y="255" width="770" height="80" rx="16" fill="#f7f7f7" stroke="#111"/><text x="480" y="305" font-size="28">She is not ready.</text>
+<text x="480" y="370" font-size="20">inversão: is antes do sujeito</text>
+<rect x="95" y="390" width="770" height="80" rx="16" fill="#f7f7f7" stroke="#111"/><text x="480" y="440" font-size="28">Is she ready?</text>
+</g>
+</svg>
