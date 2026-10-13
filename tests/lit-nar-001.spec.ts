@@ -11,7 +11,7 @@ test('LIT-NAR-001 publica teoria integral, cinco visuais, vídeo e 26 questões'
  await expect(page.getByRole('heading',{name:'Vídeo complementar',exact:true})).toBeVisible();
  await expect(page.getByRole('button',{name:'Carregar vídeo'})).toBeVisible();
  await expect(page.getByRole('link',{name:'← Aula anterior'})).toHaveAttribute('href','#aula/POR-FRA-002');
- await expect(page.getByText('Próximo tópico: MAT-FRA-002 · ainda indisponível',{exact:true})).toBeVisible();
+ await expect(page.getByRole('link',{name:'Próxima aula →'})).toHaveAttribute('href','#aula/MAT-FRA-002');
  await expect(page.getByLabel('Estado de aprendizagem')).toHaveValue('não iniciado');
  const consolidated=page.getByRole('option',{name:'consolidado',exact:true});
  await expect(consolidated).toHaveAttribute('disabled','');
