@@ -49,7 +49,7 @@ export default function LessonPage({id,state,update}:{id:string;state:StudyState
  useEffect(()=>{setLesson(undefined);setBank(undefined);setError('');if(!topic){setError('Esta aula ainda não está publicada.');return;}let active=true;Promise.all([loadLesson(id),loadQuestions(id)]).then(([l,q])=>{if(active){setLesson(l);setBank(q)}}).catch(()=>{if(active)setError('Não foi possível abrir a aula.')});return()=>{active=false}},[id,topic]);
  if(error)return <><h1>Aula indisponível</h1><p>{error}</p><a href="#aulas">Consultar a biblioteca</a></>;
  if(!lesson||!topic||!bank)return <p>Carregando aula…</p>;
- const p=state.topics[id]||emptyProgress(),gaps=dependencyGaps(id,topics),publication=lesson.publication;
+ const p=state.topics[id]||emptyProgress(),gaps=dependencyGaps(id,topics),publication=lesson.publication,next=lesson.next||topic.next;
  const available=(next?:string)=>topics.some(t=>t.id===next&&t.editorialStatus==='publicado');
  return <><p className="eyebrow">{id} · {topic.unit}</p><h1>{topic.title}</h1>
  <nav className="lesson-actions" aria-label="Atalhos da aula"><a href="#aulas">Todas as aulas</a><a href={`#exercicios/${id}`}>Ir aos exercícios</a>{publication&&<a href={mediaUrl(publication.original)} download>Baixar texto integral</a>}</nav>
@@ -65,6 +65,6 @@ export default function LessonPage({id,state,update}:{id:string;state:StudyState
  {(lesson.videos||[lesson.video]).filter(v=>v).map(v=>v&&<VideoBlock key={v.url} video={v}/>)}
  <section><h2>Fontes e versões</h2><ul>{lesson.sources.map(s=>{const label=s.title||('label' in s&&typeof s.label==='string'?s.label:s.url);return <li key={s.url}><a href={s.url}>{label}</a></li>})}</ul>{publication?.notes.map(n=><p key={n} className="small">{n}</p>)}{publication&&<details><summary>Consultar edições e dados de apoio</summary><ul>{[...publication.editions,...publication.attachments].map((v,i)=><li key={i}><a href={mediaUrl(v.url)}>{v.label}</a></li>)}</ul></details>}</section>
  <section><h2>Revisão e aprendizagem</h2><p>Retome após um dia, uma semana e um mês. Faça o reteste sem consultar a correção.</p><label>Estado de aprendizagem<select value={p.status} onChange={e=>{const status=e.target.value as Status;if(status==='consolidado'&&!canConsolidate(p))return;update(s=>({...s,topics:{...s.topics,[id]:{...p,status,lastStudy:new Date().toISOString()}}}))}}>{['não iniciado','aprendendo','revisar','consolidado'].map(s=><option key={s} disabled={s==='consolidado'&&!canConsolidate(p)}>{s}</option>)}</select></label><p>A consolidação exige evidências em exercícios, aplicação, transferência, explicação e revisão.</p></section>
- <nav className="lesson-actions" aria-label="Sequência de aulas">{available(lesson.previous)&&<a href={`#aula/${lesson.previous}`}>← Aula anterior</a>}{available(lesson.next)?<a href={`#aula/${lesson.next}`}>Próxima aula →</a>:lesson.next&&<span>Próximo tópico: {lesson.next} · ainda indisponível</span>}</nav>
+ <nav className="lesson-actions" aria-label="Sequência de aulas">{available(lesson.previous)&&<a href={`#aula/${lesson.previous}`}>← Aula anterior</a>}{available(next)?<a href={`#aula/${next}`}>Próxima aula →</a>:next&&<span>Próximo tópico: {next} · ainda indisponível</span>}</nav>
  </>;
 }
