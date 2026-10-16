@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+<title id="title">Adição e subtração como movimentos orientados</title><desc id="desc">Dois exemplos: menos dois mais cinco chega a três; dois menos menos três é reescrito como dois mais três e chega a cinco.</desc>
+<rect width="960" height="540" fill="#fff"/>
+<text x="480" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#111">Adição e subtração como movimentos orientados</text>
+<text x="100" y="120" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#111">Adição</text>
+<line x1="130" y1="180" x2="830" y2="180" stroke="#111" stroke-width="3"/>
+<circle cx="300" cy="180" r="8" fill="#111"/><text x="300" y="215" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#111">-2</text>
+<circle cx="650" cy="180" r="8" fill="#111"/><text x="650" y="215" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#111">+3</text>
+<line x1="310" y1="145" x2="640" y2="145" stroke="#111" stroke-width="4"/><polygon points="650,145 630,133 630,157" fill="#111"/>
+<text x="475" y="130" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#111">somar +5</text>
+<text x="480" y="250" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#111">-2 + 5 = 3</text>
+<line x1="80" y1="290" x2="880" y2="290" stroke="#777" stroke-width="2" stroke-dasharray="8 8"/>
+<text x="100" y="345" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#111">Subtração</text>
+<text x="480" y="390" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" fill="#111">2 - (-3) → 2 + 3 → 5</text>
+<text x="480" y="435" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#111">subtrair -3 = adicionar o oposto de -3, que é +3</text>
+</svg>
