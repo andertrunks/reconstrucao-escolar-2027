@@ -8,12 +8,12 @@ const v2=[
  ['ING-LEI-001',5,'POR-FRA-001'],['POR-FRA-001',5,'LIT-FUN-001'],['LIT-FUN-001',5,'MAT-OPE-002'],
  ['MAT-OPE-002',3,'FIL-FUN-001'],['FIL-FUN-001',4,'SOC-FUN-001'],['SOC-FUN-001',4,'ART-FUN-001'],
  ['ART-FUN-001',5,'MAT-DIV-001'],['MAT-DIV-001',5,'POR-LEI-002'],['POR-LEI-002',5,'BIO-CEL-001'],
- ['BIO-CEL-001',5,'HIS-HUM-001'],['HIS-HUM-001',5,'RED-PAR-001'],['RED-PAR-001',5,'FIS-CIN-001'],['FIS-CIN-001',5,'GEO-ORI-001'],['GEO-ORI-001',5,'MAT-FRA-001'],['MAT-FRA-001',5,'QUI-MIS-001'],['QUI-MIS-001',5,'ING-GRA-001'],['ING-GRA-001',5,'POR-FRA-002'],['POR-FRA-002',5,'LIT-NAR-001'],['LIT-NAR-001',5,'MAT-FRA-002'],['MAT-FRA-002',5,'FIL-LOG-001'],['FIL-LOG-001',5,'SOC-DES-001'],['SOC-DES-001',5,'ART-COM-001'],['ART-COM-001',5,'MAT-DEC-001'],['MAT-DEC-001',5,'POR-COE-001'],['POR-COE-001',5,'BIO-MEM-001'],['BIO-MEM-001',5,'HIS-AME-001']
+ ['BIO-CEL-001',5,'HIS-HUM-001'],['HIS-HUM-001',5,'RED-PAR-001'],['RED-PAR-001',5,'FIS-CIN-001'],['FIS-CIN-001',5,'GEO-ORI-001'],['GEO-ORI-001',5,'MAT-FRA-001'],['MAT-FRA-001',5,'QUI-MIS-001'],['QUI-MIS-001',5,'ING-GRA-001'],['ING-GRA-001',5,'POR-FRA-002'],['POR-FRA-002',5,'LIT-NAR-001'],['LIT-NAR-001',5,'MAT-FRA-002'],['MAT-FRA-002',5,'FIL-LOG-001'],['FIL-LOG-001',5,'SOC-DES-001'],['SOC-DES-001',5,'ART-COM-001'],['ART-COM-001',5,'MAT-DEC-001'],['MAT-DEC-001',5,'POR-COE-001'],['POR-COE-001',5,'BIO-MEM-001'],['BIO-MEM-001',5,'HIS-AME-001'],['HIS-AME-001',5,'RED-IDE-001']
 ] as const;
 
 test('catálogo integral, trilha V2, busca, pré-requisitos e simulado recuperado',async({page})=>{
  await page.goto('./#aulas');await expect(page.getByRole('heading',{name:'Aulas e conteúdos'})).toBeVisible();
- await expect(page.locator('.lesson-catalog li')).toHaveCount(84);
+ await expect(page.locator('.lesson-catalog li')).toHaveCount(85);
  await expect(page.getByRole('link',{name:'Começar a trilha ativa V2'})).toHaveAttribute('href','#aula/MAT-NUM-001');
  const searches=[
   ['ING-GRA-001','Pronomes pessoais e verbo to be: identidade, características e estado'],
@@ -26,7 +26,8 @@ test('catálogo integral, trilha V2, busca, pré-requisitos e simulado recuperad
   ['MAT-DEC-001','Números decimais e relação com frações'],
   ['POR-COE-001','Coesão textual: retomadas e conexões entre ideias'],
   ['BIO-MEM-001','Membrana plasmática: permeabilidade e transporte de substâncias'],
-  ['HIS-AME-001','Povoamento das Américas: hipóteses, evidências e rotas']
+  ['HIS-AME-001','Povoamento das Américas: hipóteses, evidências e rotas'],
+  ['RED-IDE-001','Ideia principal e foco: recorte, seleção e desenvolvimento']
  ] as const;
  for(const [id,title] of searches){await page.getByRole('searchbox').fill(id);await expect(page.locator('.lesson-catalog li')).toHaveCount(1);await expect(page.locator('.lesson-catalog h2 a')).toHaveText(title);}
  await page.getByRole('searchbox').fill('MAT-EST-067');await expect(page.locator('.lesson-catalog li')).toHaveCount(1);
@@ -46,7 +47,7 @@ test('trilha V2 publicada mantém conteúdo, questões, navegação e acessibili
   await expect(page.getByLabel('Estado de aprendizagem')).toHaveValue('não iniciado');
   const consolidated=page.getByRole('option',{name:'consolidado',exact:true});await expect(consolidated).toHaveAttribute('disabled','');
  }
- await page.goto('./#aula/HIS-AME-001');
+ await page.goto('./#aula/RED-IDE-001');
  await expect(page.locator('article[aria-label="Texto integral da aula"]')).toBeVisible();
  await expect(page.locator('.lesson-gallery img')).toHaveCount(5);
  await expect(page.locator('.practice-question')).toHaveCount(26);
@@ -61,6 +62,6 @@ test('gabarito após tentativa, persistência e ausência de consolidação auto
 test('aulas, tabelas e recursos funcionam em celular e base de publicação',async({page})=>{
  test.setTimeout(60000);await page.setViewportSize({width:390,height:844});const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
  for(const id of ['MAT-EST-001','MAT-EST-008','MAT-EST-011','MAT-EST-048','MAT-EST-067']){await page.goto('./#aula/'+id);await expect(page.locator('.lesson-body')).toBeVisible();await expect(page.locator('h1')).toHaveCount(1);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);for(const img of await page.locator('.lesson-gallery img').all()){const src=await img.getAttribute('src');expect((await page.request.get(src!)).ok()).toBe(true);}const download=page.getByRole('link',{name:'Baixar texto integral'});expect((await page.request.get((await download.getAttribute('href'))!)).ok()).toBe(true);}
- for(const [id] of [...v2,['HIS-AME-001',5,''] as const]){await page.goto('./#aula/'+id);await expect(page.locator('.lesson-body')).toBeVisible();await expect(page.locator('h1')).toHaveCount(1);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);for(const img of await page.locator('.lesson-gallery img').all()){const src=await img.getAttribute('src');expect((await page.request.get(src!)).ok()).toBe(true);}}
+ for(const [id] of [...v2,['RED-IDE-001',5,''] as const]){await page.goto('./#aula/'+id);await expect(page.locator('.lesson-body')).toBeVisible();await expect(page.locator('h1')).toHaveCount(1);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);for(const img of await page.locator('.lesson-gallery img').all()){const src=await img.getAttribute('src');expect((await page.request.get(src!)).ok()).toBe(true);}}
  expect(errors).toEqual([]);expect(axeSummary(await new AxeBuilder({page}).analyze())).toEqual([]);await page.screenshot({path:'test-results/lesson-mobile.png'});
 });

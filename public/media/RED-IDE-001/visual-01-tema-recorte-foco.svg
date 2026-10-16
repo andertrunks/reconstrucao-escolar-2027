@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650" role="img" aria-labelledby="title desc">
+<title id="title">Do tema amplo à ideia principal</title><desc id="desc">Diagrama em quatro etapas mostra um tema amplo sendo reduzido a um recorte, depois a um foco específico e finalmente a uma ideia principal formulada em frase completa.</desc>
+<style>
+text{font-family:Arial,sans-serif;fill:#111}.title{font-size:34px;font-weight:700}.head{font-size:25px;font-weight:700}.body{font-size:21px}.small{font-size:18px}
+.box{fill:#fff;stroke:#111;stroke-width:3}.soft{fill:#f2f2f2;stroke:#111;stroke-width:3}.line{stroke:#111;stroke-width:3;fill:none}.dash{stroke:#111;stroke-width:3;fill:none;stroke-dasharray:10 8}
+</style>
+<text x="550" y="52" text-anchor="middle" class="title">Do tema amplo à ideia principal</text>
+<rect x="55" y="135" width="210" height="155" rx="18" class="box"/><text x="160" y="178" text-anchor="middle" class="head">Tema amplo</text><text x="160" y="220" text-anchor="middle" class="body">Saúde</text><text x="160" y="252" text-anchor="middle" class="small">campo geral</text>
+<path d="M275 212 H340" class="line"/><path d="M322 196 L342 212 L322 228" class="line"/>
+<rect x="350" y="115" width="240" height="195" rx="18" class="soft"/><text x="470" y="158" text-anchor="middle" class="head">Recorte</text><text x="470" y="200" text-anchor="middle" class="body">acesso à atenção</text><text x="470" y="232" text-anchor="middle" class="body">básica em cidades</text><text x="470" y="264" text-anchor="middle" class="body">pequenas</text>
+<path d="M600 212 H665" class="line"/><path d="M647 196 L667 212 L647 228" class="line"/>
+<rect x="675" y="115" width="190" height="195" rx="18" class="box"/><text x="770" y="158" text-anchor="middle" class="head">Foco</text><text x="770" y="200" text-anchor="middle" class="body">qual aspecto</text><text x="770" y="232" text-anchor="middle" class="body">será</text><text x="770" y="264" text-anchor="middle" class="body">desenvolvido?</text>
+<path d="M875 212 H930" class="line"/><path d="M912 196 L932 212 L912 228" class="line"/>
+<rect x="85" y="390" width="930" height="155" rx="20" class="soft"/><text x="550" y="433" text-anchor="middle" class="head">Ideia principal</text><text x="550" y="478" text-anchor="middle" class="body">A ampliação do horário de atendimento facilita o acesso</text><text x="550" y="512" text-anchor="middle" class="body">de trabalhadores à atenção básica em cidades pequenas.</text>
+<path d="M960 320 C960 350 890 365 800 380" class="dash"/><path d="M812 365 L798 381 L820 385" class="line"/>
+<text x="550" y="610" text-anchor="middle" class="small">Cada etapa reduz a amplitude e aumenta o controle do que será desenvolvido.</text>
+</svg>

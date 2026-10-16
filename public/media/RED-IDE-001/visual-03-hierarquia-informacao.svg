@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650" role="img" aria-labelledby="title desc">
+<title id="title">Hierarquia da informação: núcleo, apoio e detalhe</title><desc id="desc">Pirâmide em três níveis apresenta no topo a ideia principal, no meio as ideias de apoio e na base detalhes e exemplos, indicando que os níveis têm funções diferentes.</desc>
+<style>
+text{font-family:Arial,sans-serif;fill:#111}.title{font-size:34px;font-weight:700}.head{font-size:25px;font-weight:700}.body{font-size:21px}.small{font-size:18px}
+.box{fill:#fff;stroke:#111;stroke-width:3}.soft{fill:#f2f2f2;stroke:#111;stroke-width:3}.line{stroke:#111;stroke-width:3;fill:none}.dash{stroke:#111;stroke-width:3;fill:none;stroke-dasharray:10 8}
+</style>
+<text x="550" y="52" text-anchor="middle" class="title">Hierarquia da informação</text>
+<polygon points="550,105 330,280 770,280" class="soft"/><text x="550" y="205" text-anchor="middle" class="head">NÚCLEO</text><text x="550" y="238" text-anchor="middle" class="small">ideia principal</text>
+<polygon points="330,300 770,300 900,430 200,430" class="box"/><text x="550" y="357" text-anchor="middle" class="head">APOIOS</text><text x="550" y="393" text-anchor="middle" class="body">explicações · razões · comparações</text>
+<polygon points="200,450 900,450 1010,570 90,570" class="soft"/><text x="550" y="500" text-anchor="middle" class="head">DETALHES E EXEMPLOS</text><text x="550" y="538" text-anchor="middle" class="body">concretizam, ilustram e especificam os apoios</text>
+<text x="550" y="620" text-anchor="middle" class="small">Ser útil não torna uma informação automaticamente central.</text>
+</svg>
