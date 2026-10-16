@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650" role="img" aria-labelledby="title desc">
+<title id="title">Ideia principal e informações de apoio</title><desc id="desc">Esquema mostra uma ideia principal no centro ligada a quatro tipos de apoio: explicação, exemplo, dado e detalhe pertinente.</desc>
+<style>
+text{font-family:Arial,sans-serif;fill:#111}.title{font-size:34px;font-weight:700}.head{font-size:25px;font-weight:700}.body{font-size:21px}.small{font-size:18px}
+.box{fill:#fff;stroke:#111;stroke-width:3}.soft{fill:#f2f2f2;stroke:#111;stroke-width:3}.line{stroke:#111;stroke-width:3;fill:none}.dash{stroke:#111;stroke-width:3;fill:none;stroke-dasharray:10 8}
+</style>
+<text x="550" y="52" text-anchor="middle" class="title">Ideia principal e informações de apoio</text>
+<rect x="350" y="235" width="400" height="125" rx="22" class="soft"/><text x="550" y="282" text-anchor="middle" class="head">IDEIA PRINCIPAL</text><text x="550" y="322" text-anchor="middle" class="body">núcleo que orienta o desenvolvimento</text>
+<rect x="70" y="105" width="225" height="115" rx="18" class="box"/><text x="182" y="150" text-anchor="middle" class="head">Explicação</text><text x="182" y="188" text-anchor="middle" class="small">esclarece como ou por quê</text>
+<rect x="805" y="105" width="225" height="115" rx="18" class="box"/><text x="918" y="150" text-anchor="middle" class="head">Exemplo</text><text x="918" y="188" text-anchor="middle" class="small">concretiza a ideia</text>
+<rect x="70" y="430" width="225" height="115" rx="18" class="box"/><text x="182" y="475" text-anchor="middle" class="head">Dado</text><text x="182" y="513" text-anchor="middle" class="small">pode sustentar ou dimensionar</text>
+<rect x="805" y="430" width="225" height="115" rx="18" class="box"/><text x="918" y="475" text-anchor="middle" class="head">Detalhe</text><text x="918" y="513" text-anchor="middle" class="small">torna o apoio mais preciso</text>
+<path d="M295 190 L365 248" class="line"/><path d="M805 190 L735 248" class="line"/><path d="M295 460 L365 350" class="line"/><path d="M805 460 L735 350" class="line"/>
+<text x="550" y="610" text-anchor="middle" class="small">Apoios fortes desenvolvem o núcleo; não abrem assuntos concorrentes.</text>
+</svg>

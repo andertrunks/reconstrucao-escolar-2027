@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650" role="img" aria-labelledby="title desc">
+<title id="title">Fluxo curto de planejamento antes da escrita</title><desc id="desc">Fluxograma com cinco etapas: tema, pergunta de foco, ideia principal, apoios e revisão de pertinência, com possibilidade de retornar às etapas anteriores se alguma informação não contribuir.</desc>
+<style>
+text{font-family:Arial,sans-serif;fill:#111}.title{font-size:34px;font-weight:700}.head{font-size:25px;font-weight:700}.body{font-size:21px}.small{font-size:18px}
+.box{fill:#fff;stroke:#111;stroke-width:3}.soft{fill:#f2f2f2;stroke:#111;stroke-width:3}.line{stroke:#111;stroke-width:3;fill:none}.dash{stroke:#111;stroke-width:3;fill:none;stroke-dasharray:10 8}
+</style>
+<text x="550" y="52" text-anchor="middle" class="title">Fluxo curto de planejamento antes da escrita</text>
+<rect x="55" y="170" width="165" height="105" rx="18" class="box"/><text x="137" y="215" text-anchor="middle" class="head">1. Tema</text><text x="137" y="248" text-anchor="middle" class="small">campo amplo</text>
+<path d="M230 222 H270" class="line"/><path d="M252 207 L272 222 L252 237" class="line"/>
+<rect x="280" y="150" width="190" height="145" rx="18" class="soft"/><text x="375" y="195" text-anchor="middle" class="head">2. Pergunta</text><text x="375" y="228" text-anchor="middle" class="head">de foco</text><text x="375" y="267" text-anchor="middle" class="small">o que quero explicar?</text>
+<path d="M480 222 H520" class="line"/><path d="M502 207 L522 222 L502 237" class="line"/>
+<rect x="530" y="150" width="190" height="145" rx="18" class="box"/><text x="625" y="195" text-anchor="middle" class="head">3. Ideia</text><text x="625" y="228" text-anchor="middle" class="head">principal</text><text x="625" y="267" text-anchor="middle" class="small">resposta central</text>
+<path d="M730 222 H770" class="line"/><path d="M752 207 L772 222 L752 237" class="line"/>
+<rect x="780" y="150" width="190" height="145" rx="18" class="soft"/><text x="875" y="195" text-anchor="middle" class="head">4. Apoios</text><text x="875" y="235" text-anchor="middle" class="small">explicação</text><text x="875" y="263" text-anchor="middle" class="small">exemplo · dado</text>
+<path d="M875 305 V365" class="line"/><path d="M860 347 L875 367 L890 347" class="line"/>
+<rect x="635" y="380" width="480" height="130" rx="20" class="box"/><text x="875" y="425" text-anchor="middle" class="head">5. Revisão de pertinência</text><text x="875" y="463" text-anchor="middle" class="body">Cada item realmente desenvolve o foco?</text>
+<path d="M635 445 C520 555 330 540 290 310" class="dash"/><path d="M277 329 L289 308 L305 327" class="line"/>
+<text x="330" y="545" text-anchor="middle" class="small">Se não contribuir, recorte, reformule ou exclua.</text>
+<text x="550" y="615" text-anchor="middle" class="small">Planejar por foco evita desvios antes que eles entrem no parágrafo.</text>
+</svg>

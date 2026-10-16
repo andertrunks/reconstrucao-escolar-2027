@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650" role="img" aria-labelledby="title desc">
+<title id="title">Parágrafo focado versus parágrafo disperso</title><desc id="desc">Comparação lado a lado entre um parágrafo em que todas as frases apontam para o mesmo foco e outro em que uma frase introduz um assunto sem relação funcional com o núcleo.</desc>
+<style>
+text{font-family:Arial,sans-serif;fill:#111}.title{font-size:34px;font-weight:700}.head{font-size:25px;font-weight:700}.body{font-size:21px}.small{font-size:18px}
+.box{fill:#fff;stroke:#111;stroke-width:3}.soft{fill:#f2f2f2;stroke:#111;stroke-width:3}.line{stroke:#111;stroke-width:3;fill:none}.dash{stroke:#111;stroke-width:3;fill:none;stroke-dasharray:10 8}
+</style>
+<text x="550" y="52" text-anchor="middle" class="title">Parágrafo focado versus parágrafo disperso</text>
+<rect x="55" y="100" width="470" height="450" rx="20" class="soft"/><text x="290" y="145" text-anchor="middle" class="head">FOCADO</text>
+<rect x="95" y="185" width="390" height="60" rx="10" class="box"/><text x="290" y="222" text-anchor="middle" class="body">Ideia principal</text>
+<rect x="95" y="270" width="390" height="60" rx="10" class="box"/><text x="290" y="307" text-anchor="middle" class="body">Explicação pertinente</text>
+<rect x="95" y="355" width="390" height="60" rx="10" class="box"/><text x="290" y="392" text-anchor="middle" class="body">Exemplo pertinente</text>
+<rect x="95" y="440" width="390" height="60" rx="10" class="box"/><text x="290" y="477" text-anchor="middle" class="body">Conclusão local</text>
+<path d="M290 245 V270 M290 330 V355 M290 415 V440" class="line"/>
+<rect x="575" y="100" width="470" height="450" rx="20" class="box"/><text x="810" y="145" text-anchor="middle" class="head">DISPERSO</text>
+<rect x="615" y="185" width="390" height="60" rx="10" class="soft"/><text x="810" y="222" text-anchor="middle" class="body">Ideia principal</text>
+<rect x="615" y="270" width="390" height="60" rx="10" class="soft"/><text x="810" y="307" text-anchor="middle" class="body">Explicação pertinente</text>
+<rect x="615" y="355" width="390" height="70" rx="10" class="box"/><text x="810" y="385" text-anchor="middle" class="body">Informação interessante,</text><text x="810" y="412" text-anchor="middle" class="body">mas sem função no foco</text>
+<path d="M810 245 V270 M810 330 V355" class="line"/><path d="M1005 390 H1060" class="dash"/>
+<text x="550" y="610" text-anchor="middle" class="small">Pertinência é contribuição funcional ao foco, não simples relação com o tema amplo.</text>
+</svg>
