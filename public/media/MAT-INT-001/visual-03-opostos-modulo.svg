@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+<title id="title">Números opostos e distância até zero</title><desc id="desc">Menos quatro e mais quatro aparecem simetricamente em torno do zero, ambos a quatro unidades da origem.</desc>
+<rect width="960" height="540" fill="#fff"/>
+<text x="480" y="60" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#111">Números opostos e distância até zero</text>
+<line x1="150" y1="270" x2="810" y2="270" stroke="#111" stroke-width="4"/>
+<line x1="250" y1="245" x2="250" y2="295" stroke="#111" stroke-width="4"/>
+<line x1="480" y1="240" x2="480" y2="300" stroke="#111" stroke-width="5"/>
+<line x1="710" y1="245" x2="710" y2="295" stroke="#111" stroke-width="4"/>
+<text x="250" y="335" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" fill="#111">-4</text>
+<text x="480" y="335" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" fill="#111">0</text>
+<text x="710" y="335" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" fill="#111">+4</text>
+<line x1="250" y1="190" x2="480" y2="190" stroke="#111" stroke-width="3"/>
+<line x1="480" y1="190" x2="710" y2="190" stroke="#111" stroke-width="3"/>
+<text x="365" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#111">4 unidades</text>
+<text x="595" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#111">4 unidades</text>
+<text x="480" y="420" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#111">opostos: -4 e +4 • módulo de ambos: 4</text>
+</svg>
