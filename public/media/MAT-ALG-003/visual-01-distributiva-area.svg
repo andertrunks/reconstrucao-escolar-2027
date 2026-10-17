@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="t d">
+<title id="t">A propriedade distributiva vista como decomposição de área</title>
+<desc id="d">Retângulo de altura três e base x mais dois dividido em uma parte de base x e outra de base dois. As áreas são três x e seis, mostrando três vezes x mais dois igual a três x mais seis.</desc>
+<rect x="80" y="120" width="620" height="240" fill="none" stroke="currentColor" stroke-width="4"/>
+<line x1="500" y1="120" x2="500" y2="360" stroke="currentColor" stroke-width="4"/>
+<text x="260" y="250" font-size="42" text-anchor="middle">área = 3x</text>
+<text x="600" y="250" font-size="42" text-anchor="middle">área = 6</text>
+<text x="285" y="410" font-size="36" text-anchor="middle">base x</text>
+<text x="600" y="410" font-size="36" text-anchor="middle">base 2</text>
+<text x="48" y="250" font-size="36" text-anchor="middle" transform="rotate(-90 48 250)">altura 3</text>
+<text x="450" y="70" font-size="44" text-anchor="middle">3(x + 2) = 3x + 6</text>
+<text x="450" y="480" font-size="28" text-anchor="middle">A mesma área, escrita de duas formas equivalentes.</text>
+</svg>

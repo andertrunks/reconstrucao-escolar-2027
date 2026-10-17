@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="t d">
+<title id="t">Distributiva no sentido inverso: fator comum</title>
+<desc id="d">Seis x mais nove é decomposto em três vezes dois x mais três, mostrando o fator comum três e a transformação equivalente para três abre parênteses dois x mais três fecha parênteses.</desc>
+<text x="450" y="90" font-size="52" text-anchor="middle">6x + 9</text>
+<text x="450" y="180" font-size="42" text-anchor="middle">= 3·2x + 3·3</text>
+<text x="450" y="280" font-size="56" text-anchor="middle">= 3(2x + 3)</text>
+<line x1="220" y1="330" x2="680" y2="330" stroke="currentColor" stroke-width="3"/>
+<text x="450" y="390" font-size="34" text-anchor="middle">O fator 3 aparece nos dois termos.</text>
+<text x="450" y="445" font-size="28" text-anchor="middle">Distribuir novamente recupera 6x + 9.</text>
+</svg>

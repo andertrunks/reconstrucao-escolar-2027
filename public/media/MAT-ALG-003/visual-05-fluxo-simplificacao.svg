@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-labelledby="t d">
+<title id="t">Fluxo para simplificar com justificativa</title>
+<desc id="d">Fluxograma começa pela expressão, pergunta se há parênteses que exigem distributiva, depois se há termos semelhantes, e termina em uma forma equivalente verificada.</desc>
+<rect x="260" y="40" width="380" height="80" rx="18" fill="none" stroke="currentColor" stroke-width="3"/>
+<text x="450" y="90" font-size="32" text-anchor="middle">Expressão original</text>
+<line x1="450" y1="120" x2="450" y2="170" stroke="currentColor" stroke-width="3"/>
+<polygon points="440,160 460,160 450,178" fill="currentColor"/>
+<rect x="185" y="180" width="530" height="95" rx="18" fill="none" stroke="currentColor" stroke-width="3"/>
+<text x="450" y="220" font-size="30" text-anchor="middle">Há parênteses com fator externo?</text>
+<text x="450" y="255" font-size="24" text-anchor="middle">Se sim, aplique a distributiva.</text>
+<line x1="450" y1="275" x2="450" y2="330" stroke="currentColor" stroke-width="3"/>
+<polygon points="440,320 460,320 450,338" fill="currentColor"/>
+<rect x="185" y="340" width="530" height="95" rx="18" fill="none" stroke="currentColor" stroke-width="3"/>
+<text x="450" y="380" font-size="30" text-anchor="middle">Há termos semelhantes?</text>
+<text x="450" y="415" font-size="24" text-anchor="middle">Se sim, reúna apenas seus coeficientes.</text>
+<line x1="450" y1="435" x2="450" y2="490" stroke="currentColor" stroke-width="3"/>
+<polygon points="440,480 460,480 450,498" fill="currentColor"/>
+<rect x="220" y="500" width="460" height="90" rx="18" fill="none" stroke="currentColor" stroke-width="3"/>
+<text x="450" y="540" font-size="30" text-anchor="middle">Forma simplificada</text>
+<text x="450" y="575" font-size="24" text-anchor="middle">mesmo valor, nova escrita</text>
+<text x="450" y="650" font-size="26" text-anchor="middle">Cada seta precisa de uma justificativa matemática.</text>
+</svg>

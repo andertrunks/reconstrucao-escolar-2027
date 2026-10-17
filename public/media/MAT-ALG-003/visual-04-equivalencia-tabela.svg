@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 560" role="img" aria-labelledby="t d">
+<title id="t">Teste de equivalência e contraexemplo</title>
+<desc id="d">Tabela para x igual a zero, um e dois compara dois vezes x mais três, dois x mais seis e dois x mais três. As duas primeiras colunas de resultados coincidem; a última não.</desc>
+<text x="490" y="55" font-size="40" text-anchor="middle">Comparando expressões</text>
+<rect x="90" y="95" width="800" height="360" fill="none" stroke="currentColor" stroke-width="3"/>
+<line x1="210" y1="95" x2="210" y2="455" stroke="currentColor" stroke-width="2"/>
+<line x1="470" y1="95" x2="470" y2="455" stroke="currentColor" stroke-width="2"/>
+<line x1="700" y1="95" x2="700" y2="455" stroke="currentColor" stroke-width="2"/>
+<line x1="90" y1="175" x2="890" y2="175" stroke="currentColor" stroke-width="2"/>
+<line x1="90" y1="265" x2="890" y2="265" stroke="currentColor" stroke-width="2"/>
+<line x1="90" y1="355" x2="890" y2="355" stroke="currentColor" stroke-width="2"/>
+<text x="150" y="145" font-size="30" text-anchor="middle">x</text>
+<text x="340" y="145" font-size="30" text-anchor="middle">2(x+3)</text>
+<text x="585" y="145" font-size="30" text-anchor="middle">2x+6</text>
+<text x="795" y="145" font-size="30" text-anchor="middle">2x+3</text>
+<text x="150" y="230" font-size="30" text-anchor="middle">0</text><text x="340" y="230" font-size="30" text-anchor="middle">6</text><text x="585" y="230" font-size="30" text-anchor="middle">6</text><text x="795" y="230" font-size="30" text-anchor="middle">3</text>
+<text x="150" y="320" font-size="30" text-anchor="middle">1</text><text x="340" y="320" font-size="30" text-anchor="middle">8</text><text x="585" y="320" font-size="30" text-anchor="middle">8</text><text x="795" y="320" font-size="30" text-anchor="middle">5</text>
+<text x="150" y="410" font-size="30" text-anchor="middle">2</text><text x="340" y="410" font-size="30" text-anchor="middle">10</text><text x="585" y="410" font-size="30" text-anchor="middle">10</text><text x="795" y="410" font-size="30" text-anchor="middle">7</text>
+<text x="490" y="510" font-size="28" text-anchor="middle">Um resultado diferente já fornece um contraexemplo.</text>
+</svg>

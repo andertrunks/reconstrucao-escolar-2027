@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="t d">
+<title id="t">Reunião de termos semelhantes</title>
+<desc id="d">A expressão quatro x mais dois x menos três é reorganizada. Os termos quatro x e dois x são reunidos como seis x, enquanto menos três permanece separado.</desc>
+<text x="450" y="90" font-size="48" text-anchor="middle">4x + 2x − 3</text>
+<path d="M250 135 C250 205 400 205 400 265" fill="none" stroke="currentColor" stroke-width="4"/>
+<path d="M410 135 C410 205 400 205 400 265" fill="none" stroke="currentColor" stroke-width="4"/>
+<text x="400" y="325" font-size="48" text-anchor="middle">6x</text>
+<text x="620" y="325" font-size="48" text-anchor="middle">− 3</text>
+<text x="450" y="405" font-size="36" text-anchor="middle">4x e 2x têm a mesma parte literal x.</text>
+<text x="450" y="460" font-size="28" text-anchor="middle">Resultado: 6x − 3</text>
+</svg>
