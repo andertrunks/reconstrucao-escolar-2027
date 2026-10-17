@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470" role="img" aria-labelledby="title desc">
+<title id="title">Opostos e valor absoluto como distância até zero</title>
+<desc id="desc">Menos três quartos e três quartos aparecem em lados opostos do zero e à mesma distância de três quartos da origem.</desc>
+<rect width="900" height="470" fill="white"/>
+<text x="450" y="48" text-anchor="middle" font-size="28" font-family="Arial">Oposto e valor absoluto</text>
+<line x1="120" y1="245" x2="780" y2="245" stroke="black" stroke-width="4"/>
+<g stroke="black" stroke-width="3"><line x1="210" y1="220" x2="210" y2="270"/><line x1="450" y1="215" x2="450" y2="275"/><line x1="690" y1="220" x2="690" y2="270"/></g>
+<circle cx="210" cy="245" r="9" fill="white" stroke="black" stroke-width="4"/>
+<circle cx="690" cy="245" r="9" fill="white" stroke="black" stroke-width="4"/>
+<text x="210" y="310" text-anchor="middle" font-size="24" font-family="Arial">−3/4</text>
+<text x="450" y="310" text-anchor="middle" font-size="24" font-family="Arial">0</text>
+<text x="690" y="310" text-anchor="middle" font-size="24" font-family="Arial">3/4</text>
+<line x1="220" y1="160" x2="438" y2="160" stroke="black" stroke-width="3"/><polygon points="220,160 240,148 240,172" fill="black"/><polygon points="438,160 418,148 418,172" fill="black"/>
+<line x1="462" y1="160" x2="680" y2="160" stroke="black" stroke-width="3"/><polygon points="462,160 482,148 482,172" fill="black"/><polygon points="680,160 660,148 660,172" fill="black"/>
+<text x="330" y="135" text-anchor="middle" font-size="20" font-family="Arial">distância 3/4</text>
+<text x="570" y="135" text-anchor="middle" font-size="20" font-family="Arial">distância 3/4</text>
+<text x="450" y="400" text-anchor="middle" font-size="22" font-family="Arial">São opostos e têm o mesmo valor absoluto: 3/4.</text>
+</svg>

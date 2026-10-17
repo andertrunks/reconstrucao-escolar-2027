@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+<title id="title">Conjuntos numéricos encaixados: naturais, inteiros e racionais</title>
+<desc id="desc">O conjunto dos racionais contém o conjunto dos inteiros, que contém o conjunto dos naturais. Um meio e menos três quartos aparecem como exemplos de racionais não inteiros.</desc>
+<rect width="900" height="520" fill="white"/>
+<text x="450" y="45" text-anchor="middle" font-size="28" font-family="Arial">Ampliando os conjuntos numéricos</text>
+<rect x="80" y="85" width="740" height="360" rx="24" fill="none" stroke="black" stroke-width="3"/>
+<text x="115" y="125" font-size="23" font-family="Arial">Q — racionais</text>
+<rect x="190" y="155" width="520" height="235" rx="22" fill="none" stroke="black" stroke-width="3"/>
+<text x="225" y="195" font-size="23" font-family="Arial">Z — inteiros</text>
+<rect x="315" y="225" width="270" height="105" rx="20" fill="none" stroke="black" stroke-width="3"/>
+<text x="450" y="270" text-anchor="middle" font-size="23" font-family="Arial">N — naturais</text>
+<text x="450" y="308" text-anchor="middle" font-size="20" font-family="Arial">0, 1, 2, 3, ...</text>
+<text x="245" y="355" font-size="22" font-family="Arial">−3, −2, −1</text>
+<text x="625" y="245" font-size="23" font-family="Arial">1/2</text>
+<text x="625" y="300" font-size="23" font-family="Arial">−3/4</text>
+<text x="450" y="485" text-anchor="middle" font-size="21" font-family="Arial">Todo natural é inteiro; todo inteiro é racional.</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" role="img" aria-labelledby="title desc">
+<title id="title">Posições equivalentes do sinal negativo em uma fração</title>
+<desc id="desc">Menos três quintos, menos três sobre cinco e três sobre menos cinco representam o mesmo número negativo. Menos três sobre menos cinco representa três quintos positivo.</desc>
+<rect width="900" height="480" fill="white"/>
+<text x="450" y="48" text-anchor="middle" font-size="28" font-family="Arial">Onde fica o sinal?</text>
+<rect x="65" y="120" width="220" height="120" rx="14" fill="none" stroke="black" stroke-width="3"/>
+<rect x="340" y="120" width="220" height="120" rx="14" fill="none" stroke="black" stroke-width="3"/>
+<rect x="615" y="120" width="220" height="120" rx="14" fill="none" stroke="black" stroke-width="3"/>
+<text x="175" y="190" text-anchor="middle" font-size="34" font-family="Arial">−3/5</text>
+<text x="450" y="190" text-anchor="middle" font-size="34" font-family="Arial">(−3)/5</text>
+<text x="725" y="190" text-anchor="middle" font-size="34" font-family="Arial">3/(−5)</text>
+<text x="450" y="285" text-anchor="middle" font-size="27" font-family="Arial">−3/5 = (−3)/5 = 3/(−5)</text>
+<line x1="160" y1="335" x2="740" y2="335" stroke="black" stroke-width="2"/>
+<text x="450" y="385" text-anchor="middle" font-size="27" font-family="Arial">(−3)/(−5) = 3/5</text>
+<text x="450" y="430" text-anchor="middle" font-size="20" font-family="Arial">Um sinal negativo: resultado negativo. Dois sinais negativos: resultado positivo.</text>
+</svg>
