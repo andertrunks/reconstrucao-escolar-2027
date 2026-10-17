@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" role="img" aria-labelledby="title desc">
+<title id="title">Comparação aditiva e multiplicativa entre seis e três</title><desc id="desc">Dois conjuntos com seis e três elementos. A diferença é três; a razão de seis para três é dois para um.</desc>
+<rect width="900" height="480" fill="white"/><text x="450" y="48" text-anchor="middle" font-size="28" font-family="Arial">6 e 3: duas perguntas diferentes</text>
+<text x="150" y="100" font-size="22" font-family="Arial">Quantidade A = 6</text><text x="590" y="100" font-size="22" font-family="Arial">Quantidade B = 3</text>
+<g fill="none" stroke="black" stroke-width="3"><circle cx="100" cy="160" r="22"/><circle cx="170" cy="160" r="22"/><circle cx="240" cy="160" r="22"/><circle cx="100" cy="230" r="22"/><circle cx="170" cy="230" r="22"/><circle cx="240" cy="230" r="22"/><circle cx="600" cy="195" r="22"/><circle cx="670" cy="195" r="22"/><circle cx="740" cy="195" r="22"/></g>
+<line x1="110" y1="330" x2="790" y2="330" stroke="black" stroke-width="2"/><text x="450" y="365" text-anchor="middle" font-size="22" font-family="Arial">Diferença: 6 − 3 = 3</text>
+<text x="450" y="415" text-anchor="middle" font-size="22" font-family="Arial">Razão: 6 : 3 = 2 : 1 → 6 é duas vezes 3</text></svg>

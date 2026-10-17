@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" role="img" aria-labelledby="title desc">
+<title id="title">Razões parte-parte e parte-todo</title><desc id="desc">Há dois triângulos e três círculos, total cinco figuras. Triângulos para círculos é dois para três; triângulos para total é dois para cinco.</desc>
+<rect width="900" height="480" fill="white"/><text x="450" y="48" text-anchor="middle" font-size="28" font-family="Arial">Mesma coleção, comparações diferentes</text>
+<polygon points="230,120 185,210 275,210" fill="none" stroke="black" stroke-width="3"/><polygon points="350,120 305,210 395,210" fill="none" stroke="black" stroke-width="3"/>
+<circle cx="510" cy="165" r="45" fill="none" stroke="black" stroke-width="3"/><circle cx="630" cy="165" r="45" fill="none" stroke="black" stroke-width="3"/><circle cx="750" cy="165" r="45" fill="none" stroke="black" stroke-width="3"/>
+<text x="450" y="285" text-anchor="middle" font-size="24" font-family="Arial">2 triângulos + 3 círculos = 5 figuras</text>
+<text x="450" y="350" text-anchor="middle" font-size="24" font-family="Arial">Triângulos : círculos = 2 : 3</text>
+<text x="450" y="405" text-anchor="middle" font-size="24" font-family="Arial">Triângulos : total = 2 : 5</text></svg>

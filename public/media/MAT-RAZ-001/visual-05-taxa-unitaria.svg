@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-labelledby="title desc">
+<title id="title">Transformação em taxa unitária</title><desc id="desc">Dezoito reais para três quilogramas é dividido por três nos dois termos, resultando em seis reais para um quilograma.</desc>
+<rect width="900" height="460" fill="white"/><text x="450" y="55" text-anchor="middle" font-size="28" font-family="Arial">Da razão para a taxa unitária</text>
+<rect x="80" y="140" width="270" height="130" rx="15" fill="none" stroke="black" stroke-width="3"/><text x="215" y="195" text-anchor="middle" font-size="26" font-family="Arial">R$ 18 : 3 kg</text><text x="215" y="235" text-anchor="middle" font-size="19" font-family="Arial">razão observada</text>
+<line x1="370" y1="205" x2="525" y2="205" stroke="black" stroke-width="3"/><polygon points="525,205 505,193 505,217" fill="black"/><text x="447" y="180" text-anchor="middle" font-size="20" font-family="Arial">÷ 3 nos dois termos</text>
+<rect x="550" y="140" width="270" height="130" rx="15" fill="none" stroke="black" stroke-width="3"/><text x="685" y="195" text-anchor="middle" font-size="26" font-family="Arial">R$ 6 : 1 kg</text><text x="685" y="235" text-anchor="middle" font-size="19" font-family="Arial">taxa unitária</text>
+<text x="450" y="350" text-anchor="middle" font-size="28" font-family="Arial">R$ 6/kg = seis reais por quilograma</text><text x="450" y="400" text-anchor="middle" font-size="20" font-family="Arial">A comparação é preservada por equivalência.</text></svg>
