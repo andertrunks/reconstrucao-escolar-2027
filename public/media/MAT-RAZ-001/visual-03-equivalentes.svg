@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" role="img" aria-labelledby="title desc">
+<title id="title">Razões equivalentes</title><desc id="desc">As razões dois para três, quatro para seis e seis para nove têm o mesmo quociente.</desc>
+<rect width="900" height="480" fill="white"/><text x="450" y="55" text-anchor="middle" font-size="28" font-family="Arial">Razões equivalentes</text>
+<rect x="90" y="150" width="190" height="120" rx="12" fill="none" stroke="black" stroke-width="3"/><rect x="355" y="150" width="190" height="120" rx="12" fill="none" stroke="black" stroke-width="3"/><rect x="620" y="150" width="190" height="120" rx="12" fill="none" stroke="black" stroke-width="3"/>
+<text x="185" y="220" text-anchor="middle" font-size="34" font-family="Arial">2 : 3</text><text x="450" y="220" text-anchor="middle" font-size="34" font-family="Arial">4 : 6</text><text x="715" y="220" text-anchor="middle" font-size="34" font-family="Arial">6 : 9</text>
+<text x="318" y="205" text-anchor="middle" font-size="22" font-family="Arial">×2</text><text x="585" y="205" text-anchor="middle" font-size="22" font-family="Arial">×1,5</text>
+<text x="450" y="350" text-anchor="middle" font-size="24" font-family="Arial">2/3 = 4/6 = 6/9</text><text x="450" y="405" text-anchor="middle" font-size="20" font-family="Arial">A comparação multiplicativa permanece a mesma.</text></svg>
