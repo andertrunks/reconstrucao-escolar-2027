@@ -1,1 +1,0 @@
-Arquivo temporário de validação da branch; remover antes da consolidação no main.
