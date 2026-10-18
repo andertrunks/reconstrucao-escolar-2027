@@ -1,5 +1,10 @@
 # Estado do projeto
 
+## Checkpoint V2 — MAT-FUN-009 — 17/10/2026
+
+Aula canônica número 110 sobre sistemas lineares em situações contextualizadas, independência das informações, modelagem, domínio discreto e interpretação. São 64 seções, 26 questões autorais com cinco camadas, cinco visuais SVG acessíveis, oito flashcards e vídeo complementar indexado. Continuidade MAT-FUN-008 → MAT-FUN-009, com testes de navegação, sem alteração do progresso ou dos conteúdos anteriores. A publicação só pode ser afirmada após validar a PR, o merge e a implantação do commit na branch main.
+
+
 ## Checkpoint V2 — MAT-FUN-008 — 17/10/2026
 
 Aula canônica número 109, MAT-FUN-008: sistemas de duas incógnitas por adição/eliminação. São 64 seções, 26 questões autorais em cinco camadas, cinco diagramas SVG com acessibilidade textual, oito flashcards, áudio breve e vídeo complementar encontrado em pesquisa pública. Continuidade MAT-FUN-007 → MAT-FUN-008, com testes específicos e catálogo atualizado sem substituir conteúdos anteriores. Validação e implantação devem ser verificadas pelo workflow da PR e da main antes de declarar publicação. Progresso do estudante não foi modificado.

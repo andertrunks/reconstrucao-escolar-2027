@@ -1,5 +1,10 @@
 # Decisões
 
+## 2026-10-17 — Continuação MAT-FUN-009: modelagem e aplicações
+
+Último checkpoint confirmado MAT-FUN-008 (commit bf5a514). MAT-FUN-009 aprofunda construção de sistemas a partir de texto, compatibilidade de unidades, interpretação dos pares e limitações de domínio, incluindo bilheteria, preços, caixas, perímetro, tarifas e situações com dados insuficientes. Alinhamento BNCC EF08MA08 e plano de aula IFSP na plataforma eduCapes. Todos os exercícios são autorais, não provas oficiais. O vídeo do Prof. Reginaldo Moraes foi conferido por descrição e capítulos públicos, sem teste de reprodução integral. O estado do aluno permanece intocado.
+
+
 ## 2026-10-17 — Aula MAT-FUN-008: eliminação de incógnitas
 
 O checkpoint da main era MAT-FUN-007 (commit 0561c4c). A nova aula aprofunda uma técnica algébrica diferente de substituição: somar/subtrair equações inteiras, multiplicar por valores não nulos, resolver, recuperar outra incógnita e verificar nas originais. O currículo oficial do Espírito Santo 2026 e a BNCC EF08MA08 dão base curricular ao método. Questões são todas autorais; modelos de ingressos e pesos são fictícios. Separa validação técnica de domínio pedagógico e evita alegar teste manual da leitura em voz alta ou reprodução integral do vídeo.
