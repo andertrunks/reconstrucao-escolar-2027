@@ -6,7 +6,7 @@ import {dependencyGaps,mediaUrl} from './content-utils';
 import MarkdownContent from './MarkdownContent';
 import Practice from './Practice';
 
-function Figure({visual:v}:{visual:Visual}){return <figure><img src={mediaUrl(v.url)} alt={v.alt} loading="lazy"/><figcaption>{v.caption}</figcaption><p><strong>O que observar:</strong> {v.observe}</p><p><strong>Conclusão:</strong> {v.conclusion}</p></figure>}
+function Figure({visual:v}:{visual:Visual}){return <figure><img src={mediaUrl(v.url)} alt={v.alt} loading="lazy"/><figcaption>{v.caption}</figcaption><p className="visual-zoom-link"><a href={mediaUrl(v.url)} target="_blank" rel="noopener noreferrer" aria-label={`Abrir em tamanho original: ${v.caption}`}>Ampliar imagem em nova aba</a></p><p><strong>O que observar:</strong> {v.observe}</p><p><strong>Conclusão:</strong> {v.conclusion}</p></figure>}
 
 function youtubeEmbedUrl(url:string){
  try{
