@@ -1,5 +1,10 @@
 # Estado do projeto
 
+## Retrofit visual — lote 4 (MAT-FUN-003 e MAT-FUN-004) — 18/10/2026
+
+Dez SVGs em 1600×955 com seis quadros temáticos: função afim, coeficientes, taxa, crescimento, paralelismo, tarifa por quilômetro, raiz, sinal, constantes e raiz fora do domínio. Mantidos arquivos, URLs e texto alternativo da aula; conteúdo canônico, bancos de questões e progresso intactos. Equações e coordenadas revisadas conforme as fontes originais. Aprovação de CI, merge e GitHub Pages são condições para declarar publicação. Inventário de migração visual até o lote anterior: 25 arquivos; com este lote, objetivo 35 arquivos (issue #81).
+
+
 ## Migração visual — lote 3 (MAT-FUN-005 e MAT-FUN-006) — 18/10/2026
 
 Dez gráficos/diagramas dessas duas aulas refeitos com infográficos vetoriais coloridos 1600×955, seis quadros educativos por imagem, gráficos com eixos, unidades e fronteiras coerentes, legenda textual na aula preservada e links/IDs estáveis. Foram preservadas integralmente as aulas (64 seções e 26 exercícios cada), gabaritos, progresso e trilha. Os pontos de comparação (30,80), empate discreto 2,5, tarifa contínua em 5, preço escalonado e módulo foram auditados; validação de publicação por GitHub Actions continua obrigatória. Migração global permanece parcial (issue #81).

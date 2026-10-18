@@ -1,5 +1,10 @@
 # Decisões
 
+## 2026-10-18 — Migração visual lote 4: MAT-FUN-003 e MAT-FUN-004
+
+O usuário pediu continuidade na substituição incremental de imagens antigas por infográficos coloridos. O lote modifica somente dez SVGs, mantendo caminhos e contratos da aula. Os dados dos gráficos foram extraídos de src/content/lessons/MAT-FUN-003/meta-support.mjs e MAT-FUN-004/meta-support.mjs, preservando raízes, valores, taxas, domínios, sinais e unidades. Nenhuma teoria, questão, gabarito nem progresso pessoal é editado. O deploy não será declarado sem validação na branch main.
+
+
 ## 2026-10-18 — Lote visual 3: MAT-FUN-005 e MAT-FUN-006
 
 Atualizados dez SVGs, mantendo todos os caminhos e metadados textuais, para o padrão didático colorido solicitado (docs/VISUAL_STYLE_GUIDE.md). Auditoria matemática cobre retas concorrentes, paralelas e coincidentes; sinal da diferença; domínio discreto; peças por partes e pontos de fronteira (abertos/fechados), degraus e valor absoluto. O desenho original foi refeito, não se substituíram aulas ou bancos de questões. Não declarar deploy sem retorno bem-sucedido do GitHub Actions da branch main. Lotes anteriores MAT-FUN-007/008/009 seguem preservados.
