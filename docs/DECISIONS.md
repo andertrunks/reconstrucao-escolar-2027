@@ -1,5 +1,10 @@
 # Decisões
 
+## 2026-10-17 — Aula MAT-FUN-008: eliminação de incógnitas
+
+O checkpoint da main era MAT-FUN-007 (commit 0561c4c). A nova aula aprofunda uma técnica algébrica diferente de substituição: somar/subtrair equações inteiras, multiplicar por valores não nulos, resolver, recuperar outra incógnita e verificar nas originais. O currículo oficial do Espírito Santo 2026 e a BNCC EF08MA08 dão base curricular ao método. Questões são todas autorais; modelos de ingressos e pesos são fictícios. Separa validação técnica de domínio pedagógico e evita alegar teste manual da leitura em voz alta ou reprodução integral do vídeo.
+
+
 ## 2026-10-17 — MAT-FUN-007 e aprofundamento de sistemas
 
 Após MAT-FUN-006 (commit 6a981325), a continuação elegida é MAT-FUN-007: sistemas de duas equações lineares com duas incógnitas, substituição e gráficos. A abordagem inicia com construção do significado de solução simultânea e depois trata retas concorrentes, paralelas distintas e coincidentes. Aprofundamentos como eliminação ficam na próxima etapa, para reduzir carga conceitual. Referência curricular EF08MA08 confirmada no material institucional de Goiânia. Todos os 26 enunciados são autorais. As fontes oficiais são pedagógicas, não provas copiadas.
