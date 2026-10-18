@@ -24,3 +24,24 @@ test('MAT-FUN-009 mantém SVGs acessíveis, links válidos e layout responsivo',
   const src=await img.getAttribute('src');expect((await page.request.get(src!)).ok()).toBe(true);
  }
 });
+
+test('MAT-FUN-009 usa cinco infográficos coloridos com seis painéis cada',async({page})=>{
+ await page.goto('./#aula/MAT-FUN-009');
+ const imgs=page.locator('.lesson-gallery img');
+ await expect(imgs).toHaveCount(5);
+ for(const img of await imgs.all()){
+  const src=await img.getAttribute('src');
+  expect(src).toBeTruthy();
+  const response=await page.request.get(src!);
+  expect(response.ok()).toBe(true);
+  const svg=await response.text();
+  expect(svg).toContain('viewBox="0 0 1600 955"');
+  expect(svg).toContain('aria-labelledby="title desc"');
+  expect(svg).toContain('<title id="title">');
+  expect(svg).toContain('<desc id="desc">');
+  expect((svg.match(/opacity=".22"/g)||[]).length).toBe(6);
+  for(const color of ['#0767bc','#07844d','#dc5a13','#773cc4','#cf3352','#088d9f']){
+   expect(svg).toContain(color);
+  }
+ }
+});
