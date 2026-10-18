@@ -1,3 +1,7 @@
+## 2026-10-18 — Migração visual lote 5: MAT-FUN-001 e MAT-FUN-002
+
+Prosseguir incrementalmente após a publicação do lote 4 (53d86f8). Dez recursos SVG substituídos pelo padrão de infográficos coloridos; valores, eixos, unidades, regra da unicidade e exemplos de tarifas revisados a partir do meta-support.mjs. Mesmos URLs, sem editar contratos, teoria, bancos de questões ou progresso. Status condicionado à aprovação da CI, merge e publicação.
+
 # Decisões
 
 ## 2026-10-18 — Migração visual lote 4: MAT-FUN-003 e MAT-FUN-004

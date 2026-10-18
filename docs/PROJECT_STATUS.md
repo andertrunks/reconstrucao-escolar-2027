@@ -1,3 +1,7 @@
+## Lote visual 5 — MAT-FUN-001 e MAT-FUN-002 — 18/10/2026
+
+Preparados dez SVGs didáticos coloridos 1600×955, seis quadros por arquivo, para funções iniciais e plano cartesiano. Eixos, valores, unidades e domínios conferidos com os metadados das aulas. Os caminhos dos recursos, legendas, texto alternativo, observação e conclusão foram preservados. Nenhuma questão, gabarito, teoria nem progresso individual foi alterado. Confirmar a validação da PR e implantação na branch main antes de afirmar publicação. Issue #81 permanece aberta.
+
 # Estado do projeto
 
 ## Retrofit visual — lote 4 (MAT-FUN-003 e MAT-FUN-004) — 18/10/2026
