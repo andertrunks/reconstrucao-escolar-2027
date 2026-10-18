@@ -1,3 +1,7 @@
+## 2026-10-18 — Continuidade visual lote 6: MAT-ALG-005 e MAT-ALG-006
+
+Retrofit editorial restrito às dez ilustrações históricas de equações com incógnita nos dois membros e modelagem de problemas. Dados auditados a partir dos metadados canônicos das aulas e dos recursos anteriores; igualdade preservada por operações explícitas, idades verificadas, perímetro com parênteses, custo em reais por uso, tipos de solução. Infográficos SVG coloridos e acessíveis; os nomes e URLs antigos não mudam. Não editar teoria, questões, respostas, estrutura de progresso ou autenticação. Condicionar publicação à CI, merge e GitHub Pages. Migração global inacabada, issue #81.
+
 ## 2026-10-18 — Migração visual lote 5: MAT-FUN-001 e MAT-FUN-002
 
 Prosseguir incrementalmente após a publicação do lote 4 (53d86f8). Dez recursos SVG substituídos pelo padrão de infográficos coloridos; valores, eixos, unidades, regra da unicidade e exemplos de tarifas revisados a partir do meta-support.mjs. Mesmos URLs, sem editar contratos, teoria, bancos de questões ou progresso. Status condicionado à aprovação da CI, merge e publicação.
