@@ -1,5 +1,10 @@
 # Estado do projeto
 
+## Retrofit visual — lote 2 (MAT-FUN-007 e MAT-FUN-008) — 18/10/2026
+
+Dez diagramas SVG reestruturados com seis painéis didáticos coloridos por imagem. As aulas mantêm 64 seções e 26 questões cada, conteúdo intacto e mesmos caminhos dos cinco recursos por aula. Mudança estritamente visual: ilustrar substituição, pares válidos, paralelismo, coincidência e eliminação sem erro de cálculo. A migração global continua registrada na issue #81. Confirmar testes, merge e deploy antes de afirmar publicação pública.
+
+
 ## Checkpoint V2 — MAT-FUN-009 — 17/10/2026
 
 Aula canônica número 110 sobre sistemas lineares em situações contextualizadas, independência das informações, modelagem, domínio discreto e interpretação. São 64 seções, 26 questões autorais com cinco camadas, cinco visuais SVG acessíveis, oito flashcards e vídeo complementar indexado. Continuidade MAT-FUN-008 → MAT-FUN-009, com testes de navegação, sem alteração do progresso ou dos conteúdos anteriores. A publicação só pode ser afirmada após validar a PR, o merge e a implantação do commit na branch main.

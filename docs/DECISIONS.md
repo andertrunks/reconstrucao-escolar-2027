@@ -1,5 +1,10 @@
 # Decisões
 
+## 2026-10-18 — Lote visual 2: MAT-FUN-007 e MAT-FUN-008
+
+Continuidade expressa do pedido do usuário de refazer os gráficos no estilo colorido das referências anexadas. Dez SVGs destas duas aulas foram redesenhados em 1600×955, com seis painéis numerados, cores contrastantes, exemplos matematicamente conferidos, gráficos com eixos, unidades adimensionais quando pertinente e valores explícitos. Mantidos caminhos e metadados (caption, alt, observe, conclusion) das aulas originais, sem alterar exercícios ou estado do estudante. O modelo infográfico gerado por IA foi usado apenas como referência visual, não como fonte de cálculos. A retroatividade é incremental, não foi concluído todo o acervo.
+
+
 ## 2026-10-18 — Padrão definitivo de imagens coloridas
 
 O usuário aprovou infográficos coloridos com cartões numerados, exemplos e fórmulas no estilo das duas referências anexadas. Todos os visuais futuros devem seguir docs/VISUAL_STYLE_GUIDE.md, com revisão matemática, legenda, alt, observe e conclusion. Início da migração retroativa: cinco SVGs da aula MAT-FUN-009, mantendo os URLs e sem alterar conteúdo ou progresso. Demais imagens antigas aguardam lotes específicos; não estão implicitamente refeitas.
