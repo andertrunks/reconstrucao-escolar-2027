@@ -1,5 +1,10 @@
 # Estado do projeto
 
+## Checkpoint V2 — MAT-FUN-007 — 17/10/2026
+
+Trilha preparada para 108 aulas. MAT-FUN-007 ensina sistemas lineares de duas incógnitas, solução simultânea, pares ordenados, substituição e três casos gráficos. São 64 seções, 26 questões autorais corrigidas, 5 SVGs acessíveis, 8 flashcards e versão em áudio. Pré-requisitos verificados contra o catálogo: MAT-FUN-001, 002, 003, 005, 006, MAT-ALG-004, 005, 006, MAT-INT-002 e MAT-RAC-001. Nenhum progresso do estudante foi alterado. Esta seção registra produção editorial; validar CI, merge e deploy antes de declarar publicação.
+
+
 ## Checkpoint V2 — MAT-FUN-006 — 17/10/2026
 
 Trilha atualizada de 106 para 107 aulas: MAT-FUN-006, funções definidas por partes, intervalos, gráficos e aplicações. Acrescentados 64 segmentos editoriais, 26 exercícios autorais de cinco camadas, 5 SVGs acessíveis, 8 flashcards, versão para áudio e vídeo complementar indexado. MAT-FUN-005 passa a indicar a próxima aula MAT-FUN-006. Conteúdo autoral não altera originais preservados, respostas ou progresso do estudante. O acesso por voz no Edge e a reprodução integral do vídeo não foram auditados manualmente. O fluxo de GitHub Actions é a fonte da validação e publicação do commit; verificar status real após merge.

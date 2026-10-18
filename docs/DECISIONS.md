@@ -1,5 +1,10 @@
 # Decisões
 
+## 2026-10-17 — MAT-FUN-007 e aprofundamento de sistemas
+
+Após MAT-FUN-006 (commit 6a981325), a continuação elegida é MAT-FUN-007: sistemas de duas equações lineares com duas incógnitas, substituição e gráficos. A abordagem inicia com construção do significado de solução simultânea e depois trata retas concorrentes, paralelas distintas e coincidentes. Aprofundamentos como eliminação ficam na próxima etapa, para reduzir carga conceitual. Referência curricular EF08MA08 confirmada no material institucional de Goiânia. Todos os 26 enunciados são autorais. As fontes oficiais são pedagógicas, não provas copiadas.
+
+
 ## 2026-10-17 — Continuidade de funções por intervalos
 
 A partir do checkpoint publicado MAT-FUN-005 (commit fc96a07), escolhido MAT-FUN-006: funções definidas por partes. A progressão aproveita os fundamentos de funções afins e comparação de tarifas, sem presumir potenciação ou funções quadráticas. Inclui domínio, imagem, intervalos, extremidades abertas/fechadas, descontinuidade em degraus, módulo, exemplos de cobrança fictícios. Habilidade curricular correspondente: EM13MAT404. As 26 questões são autorais, não provas oficiais. Não modifica progresso acadêmico nem os arquivos originais anteriores.
