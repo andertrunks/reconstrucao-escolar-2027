@@ -1,3 +1,7 @@
+## 2026-10-18 — Lote visual 10 MAT-RAZ-001 e MAT-POR-001
+
+Continuidade do lote 9 (main 0bb17a6), com reconstrução de dez SVGs de razão/taxa e porcentagem em painéis coloridos e semanticamente rotulados. Exemplos obtidos dos metadados canônicos de MAT-RAZ-001 e MAT-POR-001, mantendo distinção parte-parte versus parte-todo, comparação aditiva versus multiplicativa, unidades e taxas, fração/decimal/porcentagem e percentuais maiores que 100. Preservar URLs antigos, toda teoria, 52 questões e progresso. Validar em Chromium/Edge e deploy GitHub Pages antes de declarar publicado. Continuar auditando issue #81.
+
 ## 2026-10-18 — Lote visual 9 MAT-RAC-001 e MAT-DEC-001
 
 Prosseguir após o lote 8 implantado (9898499), com foco nos fundamentos de números racionais e decimais, sem reabrir ou reescrever aulas. Fontes são MAT-RAC-001/meta.mjs e MAT-DEC-001/meta-{1,2,3}.mjs; os dez nomes e caminhos antigos permanecem. Infográficos seis painéis por SVG com retas numeradas, quadros posicionais e malhas proporcionais conferidos. Não mudar origem/proveniência, teoria, bancos de questões, identidade nem progresso do aluno. Validar no fluxo de CI, merge e Pages antes de declarar publicação; issue #81 ainda incompleta.
