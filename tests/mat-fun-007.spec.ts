@@ -25,3 +25,28 @@ test('MAT-FUN-007 é responsiva e exibe visuais acessíveis no celular',async({p
    expect((await page.request.get(src!)).ok()).toBe(true);
  }
 });
+
+test('MAT-FUN-007: cinco infográficos coloridos do lote 2, com seis painéis e descrição acessível',async({page})=>{
+ await page.goto('./#aula/MAT-FUN-007');
+ const imgs=page.locator('.lesson-gallery img');
+ await expect(imgs).toHaveCount(5);
+ const zoom=page.locator('.lesson-gallery .visual-zoom-link a');
+ await expect(zoom).toHaveCount(5);
+ for(let i=0;i<5;i++){
+  const img=imgs.nth(i);
+  expect(await img.getAttribute('alt')).toBeTruthy();
+  const src=await img.getAttribute('src');
+  const res=await page.request.get(src!);
+  expect(res.ok()).toBe(true);
+  const svg=await res.text();
+  expect(svg).toContain('viewBox="0 0 1600 955"');
+  expect(svg).toContain('aria-labelledby="title desc"');
+  expect(svg).toContain('<title id="title">');
+  expect(svg).toContain('<desc id="desc">');
+  expect((svg.match(/opacity=".22"/g)||[]).length).toBe(6);
+  for(const c of ['#075bbb','#078a55','#ea7a16','#873ecc','#d83951','#008d9c']){
+   expect(svg).toContain(c);
+  }
+  await expect(zoom.nth(i)).toHaveAttribute('href',src!);
+ }
+});
