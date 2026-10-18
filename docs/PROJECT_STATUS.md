@@ -1,5 +1,10 @@
 # Estado do projeto
 
+## Checkpoint V2 — MAT-FUN-008 — 17/10/2026
+
+Aula canônica número 109, MAT-FUN-008: sistemas de duas incógnitas por adição/eliminação. São 64 seções, 26 questões autorais em cinco camadas, cinco diagramas SVG com acessibilidade textual, oito flashcards, áudio breve e vídeo complementar encontrado em pesquisa pública. Continuidade MAT-FUN-007 → MAT-FUN-008, com testes específicos e catálogo atualizado sem substituir conteúdos anteriores. Validação e implantação devem ser verificadas pelo workflow da PR e da main antes de declarar publicação. Progresso do estudante não foi modificado.
+
+
 ## Checkpoint V2 — MAT-FUN-007 — 17/10/2026
 
 Trilha preparada para 108 aulas. MAT-FUN-007 ensina sistemas lineares de duas incógnitas, solução simultânea, pares ordenados, substituição e três casos gráficos. São 64 seções, 26 questões autorais corrigidas, 5 SVGs acessíveis, 8 flashcards e versão em áudio. Pré-requisitos verificados contra o catálogo: MAT-FUN-001, 002, 003, 005, 006, MAT-ALG-004, 005, 006, MAT-INT-002 e MAT-RAC-001. Nenhum progresso do estudante foi alterado. Esta seção registra produção editorial; validar CI, merge e deploy antes de declarar publicação.
