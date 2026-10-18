@@ -9,7 +9,7 @@ test('MAT-FUN-005 íntegra, com comparação de funções e navegação',async({
   await expect(page.getByRole('heading',{name:'Vídeo complementar',exact:true})).toBeVisible();
   await expect(page.getByRole('button',{name:'Carregar vídeo'})).toBeVisible();
   await expect(page.getByRole('link',{name:'← Aula anterior'})).toHaveAttribute('href','#aula/MAT-FUN-004');
-  await expect(page.getByRole('link',{name:'Próxima aula →'})).toHaveCount(0);
+  await expect(page.getByRole('link',{name:'Próxima aula →'})).toHaveAttribute('href','#aula/MAT-FUN-006');
   await expect(page.getByLabel('Estado de aprendizagem')).toHaveValue('não iniciado');
   await expect(page.getByRole('option',{name:'consolidado',exact:true})).toHaveAttribute('disabled','');
   expect((await new AxeBuilder({page}).analyze()).violations.map(v=>v.id)).toEqual([]);

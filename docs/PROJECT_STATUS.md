@@ -1,5 +1,9 @@
 # Estado do projeto
 
+## Checkpoint V2 — MAT-FUN-006 — 17/10/2026
+
+Trilha atualizada de 106 para 107 aulas: MAT-FUN-006, funções definidas por partes, intervalos, gráficos e aplicações. Acrescentados 64 segmentos editoriais, 26 exercícios autorais de cinco camadas, 5 SVGs acessíveis, 8 flashcards, versão para áudio e vídeo complementar indexado. MAT-FUN-005 passa a indicar a próxima aula MAT-FUN-006. Conteúdo autoral não altera originais preservados, respostas ou progresso do estudante. O acesso por voz no Edge e a reprodução integral do vídeo não foram auditados manualmente. O fluxo de GitHub Actions é a fonte da validação e publicação do commit; verificar status real após merge.
+
 ## Estado revalidado — 09/10/2026
 
 Acervo atual: 59 aulas integrais (48 preservadas + 11 V2), 2.026 questões,

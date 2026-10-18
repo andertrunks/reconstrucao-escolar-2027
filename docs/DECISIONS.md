@@ -1,5 +1,9 @@
 # Decisões
 
+## 2026-10-17 — Continuidade de funções por intervalos
+
+A partir do checkpoint publicado MAT-FUN-005 (commit fc96a07), escolhido MAT-FUN-006: funções definidas por partes. A progressão aproveita os fundamentos de funções afins e comparação de tarifas, sem presumir potenciação ou funções quadráticas. Inclui domínio, imagem, intervalos, extremidades abertas/fechadas, descontinuidade em degraus, módulo, exemplos de cobrança fictícios. Habilidade curricular correspondente: EM13MAT404. As 26 questões são autorais, não provas oficiais. Não modifica progresso acadêmico nem os arquivos originais anteriores.
+
 ## 2026-10-03 — Publicação do acervo integral recuperado
 
 A solicitação atual autoriza publicar todo o conteúdo criado. Foram percorridas as pastas do projeto, o inventário histórico, as reconstruções editoriais e os pacotes cumulativos. Importadas MAT-EST-001 a 011 (reconstrução editorial v1) e MAT-EST-031 a 067 (fontes integrais recuperadas). Não foram criadas aulas a partir de códigos ou títulos. MAT-EST-012 a 030, MAT-PRO-039 e outras referências históricas continuam sem material integral acessível; MAT-EST-068 continua apenas referência futura.
