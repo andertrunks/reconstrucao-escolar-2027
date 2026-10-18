@@ -1,3 +1,7 @@
+## 18/10/2026 — Lote visual 11 de proporções MAT-PRO-001/MAT-PRO-002
+
+Continuidade do lote 10 publicado no commit c538635; auditar os dez SVGs históricos de proporção direta/inversa pelo conteúdo canônico src/content/lessons/MAT-PRO-{001,002}/meta.mjs. Redesenho em seis cartões por recurso, incluindo escalas de gráficos, tabela de preços sem taxa fixa, velocidade constante em distância fixa, área constante e critérios de razão versus produto. Preservados nomes/URLs, metadados textuais, teoria, 52 questões, gabaritos, autenticação e progresso. Não presumir domínio do estudante; condicionar publicação à aprovação CI, merge e deploy main. Issue #81 permanece aberta.
+
 ## 2026-10-18 — Lote visual 10 MAT-RAZ-001 e MAT-POR-001
 
 Continuidade do lote 9 (main 0bb17a6), com reconstrução de dez SVGs de razão/taxa e porcentagem em painéis coloridos e semanticamente rotulados. Exemplos obtidos dos metadados canônicos de MAT-RAZ-001 e MAT-POR-001, mantendo distinção parte-parte versus parte-todo, comparação aditiva versus multiplicativa, unidades e taxas, fração/decimal/porcentagem e percentuais maiores que 100. Preservar URLs antigos, toda teoria, 52 questões e progresso. Validar em Chromium/Edge e deploy GitHub Pages antes de declarar publicado. Continuar auditando issue #81.
