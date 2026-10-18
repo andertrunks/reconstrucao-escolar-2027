@@ -1,3 +1,7 @@
+## 18/10/2026 — Lote visual 7: MAT-ALG-003 e MAT-ALG-004
+
+Continuidade da migração visual da issue #81 depois do lote 6. Metadados canônicos de MAT-ALG-003 residem em meta.mjs (não em meta-support.mjs) e de MAT-ALG-004 em meta-support.mjs. Dez infográficos autorais coloridos com seis painéis por imagem, fórmulas e checagens verificadas contra o conteúdo fonte. Os caminhos permanecem idênticos, sem mudanças em metadados de aula, questões, gabaritos, progresso ou autenticação. CI, merge e GitHub Pages obrigatórios antes de afirmar publicação.
+
 ## 2026-10-18 — Continuidade visual lote 6: MAT-ALG-005 e MAT-ALG-006
 
 Retrofit editorial restrito às dez ilustrações históricas de equações com incógnita nos dois membros e modelagem de problemas. Dados auditados a partir dos metadados canônicos das aulas e dos recursos anteriores; igualdade preservada por operações explícitas, idades verificadas, perímetro com parênteses, custo em reais por uso, tipos de solução. Infográficos SVG coloridos e acessíveis; os nomes e URLs antigos não mudam. Não editar teoria, questões, respostas, estrutura de progresso ou autenticação. Condicionar publicação à CI, merge e GitHub Pages. Migração global inacabada, issue #81.
