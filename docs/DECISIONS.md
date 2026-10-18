@@ -1,3 +1,7 @@
+## 2026-10-18 — Lote visual 9 MAT-RAC-001 e MAT-DEC-001
+
+Prosseguir após o lote 8 implantado (9898499), com foco nos fundamentos de números racionais e decimais, sem reabrir ou reescrever aulas. Fontes são MAT-RAC-001/meta.mjs e MAT-DEC-001/meta-{1,2,3}.mjs; os dez nomes e caminhos antigos permanecem. Infográficos seis painéis por SVG com retas numeradas, quadros posicionais e malhas proporcionais conferidos. Não mudar origem/proveniência, teoria, bancos de questões, identidade nem progresso do aluno. Validar no fluxo de CI, merge e Pages antes de declarar publicação; issue #81 ainda incompleta.
+
 ## 18/10/2026 — Continuidade visual lote 8: MAT-ALG-001 e MAT-ALG-002
 
 Auditoria dos metadados canônicos em src/content/lessons/MAT-ALG-001/meta.mjs e MAT-ALG-002/meta.mjs. Dez SVGs históricos refeitos com seis cartões coloridos por recurso, tabelas e representações revisadas a partir dos exemplos originais. A acessibilidade textual permanece nos objetos das aulas e nos SVGs por title/desc, sem mudança de caminhos ou IDs. Toda alteração deste lote está limitada a imagens e documentos de checkpoint; nenhuma evidência de domínio do estudante é inferida. CI, merge e implantação em GitHub Pages são obrigatórios para confirmar publicação. Auditoria geral #81 permanece pendente.
