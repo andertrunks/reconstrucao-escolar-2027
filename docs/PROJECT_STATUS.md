@@ -1,5 +1,10 @@
 # Estado do projeto
 
+## Migração visual — lote 3 (MAT-FUN-005 e MAT-FUN-006) — 18/10/2026
+
+Dez gráficos/diagramas dessas duas aulas refeitos com infográficos vetoriais coloridos 1600×955, seis quadros educativos por imagem, gráficos com eixos, unidades e fronteiras coerentes, legenda textual na aula preservada e links/IDs estáveis. Foram preservadas integralmente as aulas (64 seções e 26 exercícios cada), gabaritos, progresso e trilha. Os pontos de comparação (30,80), empate discreto 2,5, tarifa contínua em 5, preço escalonado e módulo foram auditados; validação de publicação por GitHub Actions continua obrigatória. Migração global permanece parcial (issue #81).
+
+
 ## Retrofit visual — lote 2 (MAT-FUN-007 e MAT-FUN-008) — 18/10/2026
 
 Dez diagramas SVG reestruturados com seis painéis didáticos coloridos por imagem. As aulas mantêm 64 seções e 26 questões cada, conteúdo intacto e mesmos caminhos dos cinco recursos por aula. Mudança estritamente visual: ilustrar substituição, pares válidos, paralelismo, coincidência e eliminação sem erro de cálculo. A migração global continua registrada na issue #81. Confirmar testes, merge e deploy antes de afirmar publicação pública.

@@ -1,5 +1,10 @@
 # Decisões
 
+## 2026-10-18 — Lote visual 3: MAT-FUN-005 e MAT-FUN-006
+
+Atualizados dez SVGs, mantendo todos os caminhos e metadados textuais, para o padrão didático colorido solicitado (docs/VISUAL_STYLE_GUIDE.md). Auditoria matemática cobre retas concorrentes, paralelas e coincidentes; sinal da diferença; domínio discreto; peças por partes e pontos de fronteira (abertos/fechados), degraus e valor absoluto. O desenho original foi refeito, não se substituíram aulas ou bancos de questões. Não declarar deploy sem retorno bem-sucedido do GitHub Actions da branch main. Lotes anteriores MAT-FUN-007/008/009 seguem preservados.
+
+
 ## 2026-10-18 — Lote visual 2: MAT-FUN-007 e MAT-FUN-008
 
 Continuidade expressa do pedido do usuário de refazer os gráficos no estilo colorido das referências anexadas. Dez SVGs destas duas aulas foram redesenhados em 1600×955, com seis painéis numerados, cores contrastantes, exemplos matematicamente conferidos, gráficos com eixos, unidades adimensionais quando pertinente e valores explícitos. Mantidos caminhos e metadados (caption, alt, observe, conclusion) das aulas originais, sem alterar exercícios ou estado do estudante. O modelo infográfico gerado por IA foi usado apenas como referência visual, não como fonte de cálculos. A retroatividade é incremental, não foi concluído todo o acervo.
