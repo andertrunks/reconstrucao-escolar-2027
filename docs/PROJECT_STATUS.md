@@ -1,3 +1,7 @@
+## Lote visual 6 — MAT-ALG-005 e MAT-ALG-006 — 18/10/2026
+
+Dez recursos vetoriais 1600×955 refeitos com seis cartões coloridos por SVG. Conferidos os cálculos da equação 3x+2=x+10 (x=4); idades x e x+8 com soma 42 (17/25); perímetro de retângulo 30 cm (6/9 cm); comparação entre planos de custo (6 utilizações e R$ 38); identidade e contradição. Há ilustrações matemáticas de balança, proporções de idade, retângulo e gráfico com eixos/unidades. Foram preservados exatamente caminhos/URLs, os campos caption/alt/observe/conclusion e as aulas/questões originais. Alteração apenas visual e documental; progresso pessoal inalterado. Pendência: CI, merge e deploy para declarar publicação. Issue #81 continua aberta. Total almejado após aprovação: 55 visuais.
+
 ## Lote visual 5 — MAT-FUN-001 e MAT-FUN-002 — 18/10/2026
 
 Preparados dez SVGs didáticos coloridos 1600×955, seis quadros por arquivo, para funções iniciais e plano cartesiano. Eixos, valores, unidades e domínios conferidos com os metadados das aulas. Os caminhos dos recursos, legendas, texto alternativo, observação e conclusão foram preservados. Nenhuma questão, gabarito, teoria nem progresso individual foi alterado. Confirmar a validação da PR e implantação na branch main antes de afirmar publicação. Issue #81 permanece aberta.
