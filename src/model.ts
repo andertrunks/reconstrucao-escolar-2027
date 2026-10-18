@@ -12,4 +12,4 @@ export type QuestionSummary = Pick<Question,'id'|'origin'|'subject'|'topics'|'di
 export interface LessonEdition {label:string;url:string}
 export interface PublicationInfo {kind:string;notes:string[];original:string;editions:LessonEdition[];attachments:LessonEdition[];questionCount:number;visualCount:number;sourceSha256:string}
 export interface TopicProgress {status:Status;lastStudy?:string;attempts:number;correct:number;incorrect:number;reviews:number;confidence:number;nextStep:string;reviewDate?:string;evidence:{explained:boolean;direct:boolean;application:boolean;transfer:boolean;recall:boolean}}
-export interface StudyState {version:1;answers:Record<string,string>;cursor?:string;topics:Record<string,TopicProgress>;errors:{id:string;question:string;kind:ErrorKind;note:string;date:string;resolved:boolean}[];updatedAt:string}
+export interface StudyState {guided?:import("./guided").GuidedState;version:1;answers:Record<string,string>;cursor?:string;topics:Record<string,TopicProgress>;errors:{id:string;question:string;kind:ErrorKind;note:string;date:string;resolved:boolean}[];updatedAt:string}

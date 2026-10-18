@@ -43,7 +43,7 @@ function VideoBlock({video:v}:{video:Video}){
 
 function ContentSection({section:s,lessonId}:{section:Section;lessonId:string}){return <section id={s.id} className="lesson-section"><h2>{s.title}</h2>{s.markdown?<MarkdownContent text={s.markdown.replace(/^(?:##\s+|\d+\.\s+)[^\n]+\n/,'')} base={`originais/${lessonId}/arquivos/`}/>:s.paragraphs.map((p,i)=><p key={i}>{p}</p>)}{s.formula&&<div className="note"><p>{s.formula.notation}</p><p>{s.formula.spoken}</p><p>{s.formula.variables}</p><p>{s.formula.units}</p><p>{s.formula.example}</p></div>}{s.visuals?.map(v=><Figure key={v.url} visual={v}/>)}</section>}
 
-export default function LessonPage({id,state,update}:{id:string;state:StudyState;update:(f:(s:StudyState)=>StudyState)=>void}){
+export default function LessonPage({id,state,update,embedded=false}:{id:string;state:StudyState;update:(f:(s:StudyState)=>StudyState)=>void;embedded?:boolean}){
  const [lesson,setLesson]=useState<Lesson>(),[bank,setBank]=useState<Question[]>(),[error,setError]=useState('');
  const topic=topics.find(t=>t.id===id&&t.editorialStatus==='publicado');
  useEffect(()=>{setLesson(undefined);setBank(undefined);setError('');if(!topic){setError('Esta aula ainda não está publicada.');return;}let active=true;Promise.all([loadLesson(id),loadQuestions(id)]).then(([l,q])=>{if(active){setLesson(l);setBank(q)}}).catch(()=>{if(active)setError('Não foi possível abrir a aula.')});return()=>{active=false}},[id,topic]);
@@ -51,7 +51,7 @@ export default function LessonPage({id,state,update}:{id:string;state:StudyState
  if(!lesson||!topic||!bank)return <p>Carregando aula…</p>;
  const p=state.topics[id]||emptyProgress(),gaps=dependencyGaps(id,topics),publication=lesson.publication,next=lesson.next||topic.next;
  const available=(next?:string)=>topics.some(t=>t.id===next&&t.editorialStatus==='publicado');
- return <><p className="eyebrow">{id} · {topic.unit}</p><h1>{topic.title}</h1>
+ return <><p className="eyebrow">{id} · {topic.unit}</p>{embedded?<h2>{topic.title}</h2>:<h1>{topic.title}</h1>}
  <nav className="lesson-actions" aria-label="Atalhos da aula"><a href="#aulas">Todas as aulas</a><a href={`#exercicios/${id}`}>Ir aos exercícios</a>{publication&&<a href={mediaUrl(publication.original)} download>Baixar texto integral</a>}</nav>
  <section className="note"><h2>Antes de começar</h2><p>{topic.level<=3?'Fundamentos e aprofundamento progressivo.':'Conteúdo avançado; consulte os fundamentos antes de prosseguir.'} Estude em blocos de 25 a 50 minutos.</p>
  {lesson.prerequisites.length>0?<><h3>Pré-requisitos declarados na fonte</h3><ul>{lesson.prerequisites.map(v=><li key={v}>{available(v)?<a href={`#aula/${v}`}>{v} · {topics.find(t=>t.id===v)?.title}</a>:<span>{v} · texto integral a recuperar</span>}</li>)}</ul></>:<p>Esta aula não declara pré-requisitos obrigatórios. Use o objetivo e as atividades iniciais para identificar se algum fundamento precisa ser retomado.</p>}

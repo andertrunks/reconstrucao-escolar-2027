@@ -49,8 +49,9 @@ export function emitCloudStatus(status:CloudStatus,message:string){
  if(typeof window!=='undefined')window.dispatchEvent(new CustomEvent<CloudStatusDetail>(CLOUD_STATUS_EVENT,{detail:{status,message}}));
 }
 
+import {mergeGuided} from './guided';
 export function hasMeaningfulStudy(state:StudyState){
- return Boolean(state.cursor)||Object.keys(state.answers).length>0||Object.keys(state.topics).length>0||state.errors.length>0;
+ return Boolean(state.guided)||Boolean(state.cursor)||Object.keys(state.answers).length>0||Object.keys(state.topics).length>0||state.errors.length>0;
 }
 
 function stateTime(state:StudyState){const n=Date.parse(state.updatedAt);return Number.isFinite(n)?n:0;}
@@ -66,6 +67,7 @@ export function mergeStudyStates(a:StudyState,b:StudyState):StudyState{
  for(const item of newer.errors)errors.set(item.id,item);
  return validateBackup({
   ...newer,
+  guided:mergeGuided(older.guided,newer.guided),
   answers:{...older.answers,...newer.answers},
   topics:{...older.topics,...newer.topics},
   errors:[...errors.values()],
