@@ -29,6 +29,7 @@ test('MAT-FUN-009 usa cinco infográficos coloridos com seis painéis cada',asyn
  await page.goto('./#aula/MAT-FUN-009');
  const imgs=page.locator('.lesson-gallery img');
  await expect(imgs).toHaveCount(5);
+ await expect(page.locator('.lesson-gallery .visual-zoom-link a')).toHaveCount(5);
  for(const img of await imgs.all()){
   const src=await img.getAttribute('src');
   expect(src).toBeTruthy();
