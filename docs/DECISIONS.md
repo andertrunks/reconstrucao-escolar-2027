@@ -1,3 +1,7 @@
+## 18/10/2026 — Continuidade visual lote 8: MAT-ALG-001 e MAT-ALG-002
+
+Auditoria dos metadados canônicos em src/content/lessons/MAT-ALG-001/meta.mjs e MAT-ALG-002/meta.mjs. Dez SVGs históricos refeitos com seis cartões coloridos por recurso, tabelas e representações revisadas a partir dos exemplos originais. A acessibilidade textual permanece nos objetos das aulas e nos SVGs por title/desc, sem mudança de caminhos ou IDs. Toda alteração deste lote está limitada a imagens e documentos de checkpoint; nenhuma evidência de domínio do estudante é inferida. CI, merge e implantação em GitHub Pages são obrigatórios para confirmar publicação. Auditoria geral #81 permanece pendente.
+
 ## 18/10/2026 — Lote visual 7: MAT-ALG-003 e MAT-ALG-004
 
 Continuidade da migração visual da issue #81 depois do lote 6. Metadados canônicos de MAT-ALG-003 residem em meta.mjs (não em meta-support.mjs) e de MAT-ALG-004 em meta-support.mjs. Dez infográficos autorais coloridos com seis painéis por imagem, fórmulas e checagens verificadas contra o conteúdo fonte. Os caminhos permanecem idênticos, sem mudanças em metadados de aula, questões, gabaritos, progresso ou autenticação. CI, merge e GitHub Pages obrigatórios antes de afirmar publicação.
