@@ -1,5 +1,10 @@
 # Decisões
 
+## 2026-10-18 — Padrão definitivo de imagens coloridas
+
+O usuário aprovou infográficos coloridos com cartões numerados, exemplos e fórmulas no estilo das duas referências anexadas. Todos os visuais futuros devem seguir docs/VISUAL_STYLE_GUIDE.md, com revisão matemática, legenda, alt, observe e conclusion. Início da migração retroativa: cinco SVGs da aula MAT-FUN-009, mantendo os URLs e sem alterar conteúdo ou progresso. Demais imagens antigas aguardam lotes específicos; não estão implicitamente refeitas.
+
+
 ## 2026-10-17 — Continuação MAT-FUN-009: modelagem e aplicações
 
 Último checkpoint confirmado MAT-FUN-008 (commit bf5a514). MAT-FUN-009 aprofunda construção de sistemas a partir de texto, compatibilidade de unidades, interpretação dos pares e limitações de domínio, incluindo bilheteria, preços, caixas, perímetro, tarifas e situações com dados insuficientes. Alinhamento BNCC EF08MA08 e plano de aula IFSP na plataforma eduCapes. Todos os exercícios são autorais, não provas oficiais. O vídeo do Prof. Reginaldo Moraes foi conferido por descrição e capítulos públicos, sem teste de reprodução integral. O estado do aluno permanece intocado.
